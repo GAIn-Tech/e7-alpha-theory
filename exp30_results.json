@@ -1,0 +1,208 @@
+{
+  "experiment": "exp30_lattice_crypto",
+  "timestamp": "2025-12-13T07:23:49.938974",
+  "e7_properties": {
+    "name": "E\u2087",
+    "dimension": 7,
+    "rank": 7,
+    "roots": 126,
+    "positive_roots": 63,
+    "simple_roots": 7,
+    "weyl_order": 2903040,
+    "kissing_number": 126,
+    "lie_dim": 133,
+    "fund_rep": 56,
+    "dual_coxeter": 18
+  },
+  "security_analysis": {
+    "native_7d": {
+      "dimension": 7,
+      "delta_achievable": 1.0007127598227952,
+      "delta_lll": 1.0250642119658746,
+      "bkz_blocksize": 7,
+      "classical_bits": 2.044,
+      "quantum_bits": 1.855,
+      "core_svp_classical": 2.044,
+      "core_svp_quantum": 1.855
+    },
+    "tensor_embeddings": [
+      {
+        "tensor_power": 1,
+        "dimension": 7,
+        "roots": 126,
+        "weyl_order": 2903040,
+        "security_classical": 2.044,
+        "security_quantum": 1.855,
+        "practical": true
+      },
+      {
+        "tensor_power": 2,
+        "dimension": 49,
+        "roots": 15876,
+        "weyl_order": 8427641241600,
+        "security_classical": 14.308,
+        "security_quantum": 12.985000000000001,
+        "practical": true
+      },
+      {
+        "tensor_power": 3,
+        "dimension": 343,
+        "roots": 2000376,
+        "weyl_order": 24465779630014464000,
+        "security_classical": 100.15599999999999,
+        "security_quantum": 90.89500000000001,
+        "practical": true
+      },
+      {
+        "tensor_power": 4,
+        "dimension": 2401,
+        "roots": 252047376,
+        "weyl_order": 71025136897117189570560000,
+        "security_classical": 701.092,
+        "security_quantum": 636.265,
+        "practical": false
+      }
+    ],
+    "direct_sum_embeddings": [
+      {
+        "summands": 10,
+        "dimension": 70,
+        "roots": 1260,
+        "weyl_order": 42513826778643263429723143220122353742575226494658805760000000000,
+        "security_classical": 20.439999999999998,
+        "security_quantum": 18.55
+      },
+      {
+        "summands": 20,
+        "dimension": 140,
+        "roots": 2520,
+        "weyl_order": 1807425467364485041332157562555952923171357315908889994515573800913921030069850875716131764931537635909409177600000000000000000000,
+        "security_classical": 40.879999999999995,
+        "security_quantum": 37.1
+      },
+      {
+        "summands": 30,
+        "dimension": 210,
+        "roots": 3780,
+        "weyl_order": 76840573234842059941473350688614115806876443769408557547562488139336251924584058084686697548399816986563858452857332043670372948600997933877583522236172938799742976000000000000000000000000000000,
+        "security_classical": 61.31999999999999,
+        "security_quantum": 55.650000000000006
+      },
+      {
+        "summands": 40,
+        "dimension": 280,
+        "roots": 5040,
+        "weyl_order": 3266786820077727181221427714595454458309673013816459877611106636959713432831814859028276821633275226456534940722165573498503785372898212721454253304319074804686957392767347238656237316933044220645547724623004303108341760000000000000000000000000000000000000000,
+        "security_classical": 81.75999999999999,
+        "security_quantum": 74.2
+      },
+      {
+        "summands": 50,
+        "dimension": 350,
+        "roots": 6300,
+        "weyl_order": 138883608991539350372447551893802845064473486327198043262192477756265957314829505291164551925258205048390642464754229512037287642735263246576255434207172573676097597410009181986235242534893287468694818314617202365710119179656071260723663326194841042111319716151150895536537600000000000000000000000000000000000000000000000000,
+        "security_classical": 102.19999999999999,
+        "security_quantum": 92.75
+      }
+    ]
+  },
+  "parameter_sets": [
+    {
+      "name": "E\u2087-49",
+      "construction": "Tensor product E\u2087\u2297E\u2087",
+      "dimension": 49,
+      "modulus": 12289,
+      "error_width": 3.2,
+      "security_target": "NIST Level 1 (marginal)",
+      "pubkey_bytes": 98,
+      "privkey_bytes": 98,
+      "ciphertext_bytes": 98,
+      "tensor_power": 2,
+      "roots": 15876,
+      "weyl_order": 8427641241600,
+      "security_classical": 14.308,
+      "security_quantum": 12.985000000000001,
+      "practical": true
+    },
+    {
+      "name": "E\u2087-140",
+      "construction": "Direct sum E\u2087\u2295...\u2295E\u2087 (20 copies)",
+      "dimension": 140,
+      "modulus": 12289,
+      "error_width": 3.2,
+      "security_target": "NIST Level 1",
+      "pubkey_bytes": 280,
+      "privkey_bytes": 280,
+      "ciphertext_bytes": 280,
+      "summands": 20,
+      "roots": 2520,
+      "weyl_order": 1807425467364485041332157562555952923171357315908889994515573800913921030069850875716131764931537635909409177600000000000000000000,
+      "security_classical": 40.879999999999995,
+      "security_quantum": 37.1
+    },
+    {
+      "name": "E\u2087-280",
+      "construction": "Direct sum E\u2087\u2295...\u2295E\u2087 (40 copies)",
+      "dimension": 280,
+      "modulus": 12289,
+      "error_width": 3.2,
+      "security_target": "NIST Level 5",
+      "pubkey_bytes": 560,
+      "privkey_bytes": 560,
+      "ciphertext_bytes": 560,
+      "summands": 40,
+      "roots": 5040,
+      "weyl_order": 3266786820077727181221427714595454458309673013816459877611106636959713432831814859028276821633275226456534940722165573498503785372898212721454253304319074804686957392767347238656237316933044220645547724623004303108341760000000000000000000000000000000000000000,
+      "security_classical": 81.75999999999999,
+      "security_quantum": 74.2
+    }
+  ],
+  "nist_comparison": {
+    "kyber512": {
+      "name": "Kyber-512",
+      "dimension": 512,
+      "modulus": 3329,
+      "security_classical": 142,
+      "security_quantum": 118,
+      "pubkey_bytes": 800,
+      "ciphertext_bytes": 768,
+      "operations": "Module-LWE"
+    },
+    "kyber1024": {
+      "name": "Kyber-1024",
+      "dimension": 1024,
+      "modulus": 3329,
+      "security_classical": 233,
+      "security_quantum": 203,
+      "pubkey_bytes": 1568,
+      "ciphertext_bytes": 1568,
+      "operations": "Module-LWE"
+    },
+    "ntru": {
+      "name": "NTRU",
+      "dimension": 509,
+      "modulus": 2048,
+      "security_classical": 128,
+      "security_quantum": 128,
+      "pubkey_bytes": 699,
+      "ciphertext_bytes": 699,
+      "operations": "Polynomial ring Z[x]/(x^n-1)"
+    }
+  },
+  "weyl_group": {
+    "order": 2903040,
+    "log2_order": 21.46913301982959,
+    "factorization": {
+      "2": 10,
+      "3": 4,
+      "5": 1,
+      "7": 1
+    }
+  },
+  "recommendations": {
+    "research": "E\u2087-140 is interesting for academic research",
+    "production": "DO NOT USE - stick with NIST standards (Kyber, Dilithium)",
+    "theory": "Rich mathematical structure deserves further study"
+  },
+  "conclusion": "E\u2087 lattice has beautiful structure but requires embedding to 140+ dimensions for post-quantum security. While mathematically elegant, it lacks the extensive cryptanalysis of NIST standards. Recommended for theoretical research, not production deployment."
+}

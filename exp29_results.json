@@ -1,0 +1,79 @@
+{
+  "experiment": "exp29_hardware_implementation",
+  "timestamp": "2025-12-13T07:25:11.063062",
+  "code_parameters": {
+    "n": 133,
+    "k": 7,
+    "d": 3,
+    "rate": 0.05263157894736842,
+    "overhead": 19.0
+  },
+  "layout": {
+    "topology": "heavy-hex",
+    "qubits_placed": 133,
+    "blocks": 19,
+    "avg_connectivity": 3.4285714285714284
+  },
+  "syndrome_extraction": {
+    "total_stabilizers": 126,
+    "ancilla_qubits": 126,
+    "gates_per_round": 678,
+    "parallel_layers": 10,
+    "estimated_time_us": 12.2
+  },
+  "error_rates": {
+    "sample": {
+      "p_phys": 0.001,
+      "p_eff": 0.5,
+      "p_log": 0.5
+    }
+  },
+  "platform_feasibility": [
+    {
+      "n_qubits": 1121,
+      "can_fit_data": true,
+      "can_fit_full": true,
+      "error_rate": 0.0005,
+      "below_threshold": true,
+      "logical_error": 0.5,
+      "circuit_time_us": 16.0,
+      "feasible": true
+    },
+    {
+      "n_qubits": 256,
+      "can_fit_data": true,
+      "can_fit_full": false,
+      "error_rate": 0.01,
+      "below_threshold": false,
+      "logical_error": 0.5,
+      "circuit_time_us": 56.0,
+      "feasible": false
+    },
+    {
+      "n_qubits": 32,
+      "can_fit_data": false,
+      "can_fit_full": false,
+      "error_rate": 0.001,
+      "below_threshold": true,
+      "logical_error": 0.5,
+      "circuit_time_us": 1.6,
+      "feasible": false
+    },
+    {
+      "n_qubits": 300,
+      "can_fit_data": true,
+      "can_fit_full": true,
+      "error_rate": 0.0001,
+      "below_threshold": true,
+      "logical_error": 0.5,
+      "circuit_time_us": 5.6,
+      "feasible": true
+    }
+  ],
+  "minimum_requirements": {
+    "qubits_minimum": 133,
+    "qubits_recommended": 259,
+    "error_threshold": 0.01,
+    "connectivity": "heavy-hex or better"
+  }
+}

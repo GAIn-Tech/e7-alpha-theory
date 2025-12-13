@@ -1,0 +1,29 @@
+{
+  "experiment": "exp10_e7_decoder_refined",
+  "timestamp": "2025-12-13T06:25:01.629976",
+  "decoder_performance": {
+    "x_single_correct": 69,
+    "x_single_total": 133,
+    "z_single_correct": 69,
+    "z_single_total": 133,
+    "x_collisions": 3,
+    "z_collisions": 3,
+    "unique_x_syndromes": 69,
+    "unique_z_syndromes": 69
+  },
+  "syndrome_stats": {
+    "x_weight_min": 0,
+    "x_weight_max": 24,
+    "x_weight_avg": 7.7894736842105265,
+    "z_weight_min": 0,
+    "z_weight_max": 24,
+    "z_weight_avg": 7.7894736842105265
+  },
+  "distance_analysis": {
+    "claimed_d": 7,
+    "observed_min_logical_weight": 64,
+    "t_correctable_claimed": 3,
+    "t_correctable_observed": 31
+  },
+  "status": "PARTIALLY WORKING - NEEDS STABILIZER REFINEMENT"
+}

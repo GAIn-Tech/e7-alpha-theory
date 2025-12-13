@@ -1,0 +1,107 @@
+{
+  "experiment": "exp62_e7_proofs",
+  "timestamp": "2025-12-13T08:12:14.964429",
+  "objective": "Complete mathematical proofs of E7 properties",
+  "proofs": {
+    "proof_1": {
+      "theorem": "Master formula gives integer",
+      "status": "PROVEN",
+      "result": 137,
+      "is_integer": true,
+      "divisibility": {
+        "fund": 56,
+        "two_rank": 14,
+        "quotient": 4,
+        "remainder": 0
+      }
+    },
+    "proof_2": {
+      "theorem": "E7 uniqueness among exceptional algebras",
+      "status": "PROVEN",
+      "integer_results": {
+        "G2": false,
+        "F4": false,
+        "E6": false,
+        "E7": true,
+        "E8": false
+      },
+      "only_integer": [
+        "E7"
+      ],
+      "reason": "fund(E7) = 8 * rank(E7) = 56"
+    },
+    "proof_3": {
+      "theorem": "Alternative formula gives 137",
+      "status": "PROVEN",
+      "formula": "roots - rank + h_dual = 126 - 7 + 18 = 137",
+      "e7_unique": true,
+      "equivalence": "2*rank + fund/(2*rank) = h_dual = 18"
+    },
+    "proof_4": {
+      "theorem": "Weyl group order",
+      "status": "PROVEN",
+      "order": 2903040,
+      "factorization": {
+        "2": 10,
+        "3": 4,
+        "5": 1,
+        "7": 1
+      },
+      "expected": "2^10 * 3^4 * 5 * 7 = 2903040",
+      "special_quotient": {
+        "divisor": 5184,
+        "quotient": 560,
+        "equals_10_times_fund": true
+      }
+    },
+    "proof_5": {
+      "theorem": "Factor 148",
+      "status": "PROVEN",
+      "computation": {
+        "fund": 56,
+        "h_dual": 18,
+        "sum": 74,
+        "doubled": 148
+      },
+      "e7_unique": false,
+      "related_to_144": true
+    },
+    "proof_6": {
+      "theorem": "fund(E7) = 56",
+      "status": "PROVEN",
+      "computation": {
+        "T_7": 28,
+        "fund": 56,
+        "relation": "56 = 2 * T_7 = 2 * C(8,2)"
+      },
+      "su8_decomposition": "56 -> 28 + 28*",
+      "dynkin_index": 12
+    },
+    "proof_7": {
+      "theorem": "Structural properties",
+      "status": "PROVEN",
+      "dim_133": {
+        "formula": "rank * (h_dual + 1) = 7 * 19 = 133",
+        "alternative": "roots + rank = 126 + 7 = 133",
+        "factorization": "7 * 19 (both prime)"
+      },
+      "h_dual_18": {
+        "max_exponent": 17,
+        "coxeter_number": 18,
+        "simply_laced": true
+      },
+      "center": {
+        "order": 2,
+        "equals_det_cartan": true
+      }
+    },
+    "proof_8": {
+      "theorem": "Cartan determinant = 2",
+      "status": "PROVEN",
+      "determinant": 2
+    }
+  },
+  "all_proven": true,
+  "lean4_file": "exp62_e7_proofs.lean",
+  "coq_file": "exp62_e7_proofs.v"
+}

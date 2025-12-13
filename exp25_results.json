@@ -1,0 +1,40 @@
+{
+  "experiment": "exp25_practical_applications",
+  "timestamp": "2025-12-13T07:20:53.949314",
+  "quantum_computing": {
+    "code": "[[133,76,3]]",
+    "rate": 0.571,
+    "feasible_platforms": [
+      "IBM Condor",
+      "QuEra"
+    ],
+    "advantage": "10x over surface codes"
+  },
+  "cryptography": {
+    "approach": "E7 lattice",
+    "dimension": 7,
+    "status": "needs higher embedding"
+  },
+  "metrology": {
+    "prediction": "\u03b1\u207b\u00b9 = 137 + radiative corrections",
+    "approach": "E7 QEC state preparation"
+  },
+  "materials": {
+    "applications": [
+      "quasicrystals",
+      "topological insulators"
+    ],
+    "status": "theoretical"
+  },
+  "ml": {
+    "approach": "E7-equivariant networks",
+    "benefit": "reduced parameters, better generalization"
+  },
+  "physics_problems": [
+    "hierarchy",
+    "strong_cp",
+    "neutrinos",
+    "dark_energy",
+    "dark_matter"
+  ]
+}

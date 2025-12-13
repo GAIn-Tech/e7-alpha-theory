@@ -1,0 +1,26 @@
+{
+  "experiment": "exp22_g2_analysis",
+  "timestamp": "2025-12-13T07:12:24.304941",
+  "e7_scale": {
+    "formula": "\u221adim \u00d7 m_\u03bc",
+    "value_MeV": 1218.5118291049814,
+    "value_GeV": 1.2185118291049815
+  },
+  "g2_status": {
+    "anomaly_rratio_sigma": 4.2,
+    "anomaly_bmw_sigma": 1.0,
+    "cmd3_tension": ">3\u03c3"
+  },
+  "mesons_near_scale": {
+    "phi": 1019.461,
+    "e7_scale": 1218.5118291049814,
+    "ratio_phi_e7": 0.836644319447282
+  },
+  "predictions": [
+    "R(s) anomaly near 1220 MeV",
+    "\u0394a_\u03bc ~ 2.3e-9 from E\u2087 correction",
+    "HVP window ratio ~ 0.42",
+    "lattice-R discrepancy peaks at 1.2 GeV"
+  ],
+  "status": "scale_match_predictions_testable"
+}

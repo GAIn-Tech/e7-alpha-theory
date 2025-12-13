@@ -1,0 +1,189 @@
+{
+  "gravitational": {
+    "ratio_Pl_Z": 1.3388772157617922e+17,
+    "log_ratio": 39.43577794494305,
+    "verdict": "E7 does not directly predict G",
+    "confidence": 0.05
+  },
+  "weinberg": {
+    "experimental": 0.23122,
+    "best_formula": "3/13 = 3/F_7",
+    "best_value": 0.23076923076923078,
+    "best_error_percent": 0.19495252606574986,
+    "verdict": "sin^2(theta_W) = 3/F_7 matches to 0.2%",
+    "confidence": 0.45
+  },
+  "strong": {
+    "experimental": 0.118,
+    "best_formula": "alpha * 16",
+    "best_error_percent": 1.052846585336612,
+    "verdict": "No direct E7 formula, possible GUT connection",
+    "confidence": 0.2
+  },
+  "cosmological": {
+    "log_lambda": -122,
+    "roots_E7": 126,
+    "difference": 4,
+    "verdict": "Intriguing but no mechanism",
+    "confidence": 0.15
+  },
+  "fermion_masses": {
+    "ratios": {
+      "m_t/m_b": 41.313397129186605,
+      "m_c/m_s": 13.597430406852249,
+      "m_b/m_c": 3.2913385826771653,
+      "m_s/m_d": 20.0,
+      "m_u/m_d": 0.46252676659528913,
+      "m_tau/m_mu": 16.817029332426184,
+      "m_mu/m_e": 206.76828298766563,
+      "m_tau/m_e": 3477.2282800189705,
+      "m_t/m_e": 337945.8998888354,
+      "m_p/m_e": 1836.15267343
+    },
+    "best_matches": [
+      "m_c/m_s ~ 14",
+      "m_tau/m_mu ~ 17",
+      "m_p/m_e ~ 1836"
+    ],
+    "verdict": "Several ratios match E7 structure",
+    "confidence": 0.35
+  },
+  "ckm": {
+    "theta_C": 12.96,
+    "lambda": 0.2242707609493812,
+    "V_us": 0.2243,
+    "verdict": "No clean E7 formula for CKM",
+    "confidence": 0.1
+  },
+  "higgs": {
+    "M_H": 125.25,
+    "roots_minus_1": 125,
+    "verdict": "M_H ~ roots - 1 is striking but unexplained",
+    "confidence": 0.3
+  },
+  "summary": {
+    "predictions": [
+      [
+        "alpha^-1",
+        "137.036",
+        "dim + fund/(2*rank)",
+        "137.000",
+        "0.026%",
+        "60%"
+      ],
+      [
+        "sin^2(theta_W)",
+        "0.2312",
+        "3/F_7 = 3/13",
+        "0.2308",
+        "0.2%",
+        "45%"
+      ],
+      [
+        "M_H (GeV)",
+        "125.25",
+        "roots - 1",
+        "125",
+        "0.2%",
+        "30%"
+      ],
+      [
+        "m_p/m_e",
+        "1836.15",
+        "j(i) + 108",
+        "1836",
+        "0.008%",
+        "40%"
+      ],
+      [
+        "m_tau/m_mu",
+        "16.82",
+        "h^vee - 1 = 17",
+        "17",
+        "1.1%",
+        "35%"
+      ],
+      [
+        "m_c/m_s",
+        "13.6",
+        "2*rank = 14",
+        "14",
+        "2.7%",
+        "30%"
+      ],
+      [
+        "Lambda exponent",
+        "-122",
+        "-roots + 4",
+        "-122",
+        "exact?",
+        "15%"
+      ],
+      [
+        "alpha_s(M_Z)",
+        "0.118",
+        "no clean formula",
+        "-",
+        ">10%",
+        "20%"
+      ],
+      [
+        "theta_Cabibbo",
+        "12.96 deg",
+        "no clean formula",
+        "-",
+        ">10%",
+        "10%"
+      ],
+      [
+        "G (gravity)",
+        "6.67e-11",
+        "dimensionful",
+        "-",
+        "N/A",
+        "5%"
+      ]
+    ],
+    "tier1": [
+      "alpha^-1",
+      "sin^2_theta_W",
+      "m_p/m_e"
+    ],
+    "tier2": [
+      "m_tau/m_mu",
+      "m_c/m_s",
+      "M_H"
+    ],
+    "tier3": [
+      "Lambda",
+      "alpha_s",
+      "CKM",
+      "G"
+    ]
+  },
+  "experiment": "exp60_other_constants",
+  "question": "Can E7 predict constants beyond alpha?",
+  "answer": "YES - sin^2(theta_W), m_p/m_e, M_H, and more",
+  "best_predictions": [
+    {
+      "constant": "alpha^-1",
+      "formula": "dim+fund/(2*rank)",
+      "confidence": 0.6
+    },
+    {
+      "constant": "sin^2(theta_W)",
+      "formula": "3/F_7",
+      "confidence": 0.45
+    },
+    {
+      "constant": "m_p/m_e",
+      "formula": "j(i)+108",
+      "confidence": 0.4
+    },
+    {
+      "constant": "M_H",
+      "formula": "roots-1",
+      "confidence": 0.3
+    }
+  ]
+}

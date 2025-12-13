@@ -1,0 +1,25 @@
+{
+  "experiment": "exp19_supergravity",
+  "timestamp": "2025-12-13T07:07:42.848662",
+  "e7_structure": {
+    "scalar_manifold": "E\u2087\u208d\u2087\u208e/SU(8)",
+    "coset_dim": 70,
+    "charge_rep": 56,
+    "u_duality": "E\u2087\u208d\u2087\u208e(Z)"
+  },
+  "uv_finiteness": {
+    "status": "conjectured",
+    "loops_verified": 4,
+    "e7_constraint": true
+  },
+  "alpha_connection": {
+    "formula": "dim + fund/(2\u00d7rank) = 137",
+    "interpretation": "adjoint + matter/spinor = coupling",
+    "status": "speculative_but_suggestive"
+  },
+  "bps_structure": {
+    "charge_vector": "56-dimensional",
+    "entropy_formula": "S = \u03c0\u221a|I\u2084(Q)|",
+    "quartic_invariant": "unique E\u2087 invariant"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "experiment": "exp21_condensed_matter",
+  "timestamp": "2025-12-13T07:10:42.983052",
+  "cft": {
+    "minimal_model": "c = 7/10",
+    "wzw_levels": [
+      1,
+      2,
+      3
+    ],
+    "central_charges": {
+      "1": 7.0,
+      "2": 13.3,
+      "3": 19.0
+    }
+  },
+  "topological": {
+    "cs_theory": "E\u2087 Chern-Simons",
+    "spt_sectors": 2903040,
+    "anyon_structure": "from E\u2087 representations"
+  },
+  "lattice": {
+    "dimension": 7,
+    "kissing_number": 126,
+    "roots": 126
+  },
+  "experimental": [
+    "neutron_scattering",
+    "raman_spectroscopy",
+    "transport",
+    "quantum_oscillations"
+  ],
+  "challenges": [
+    "7D_to_3D_projection",
+    "no_natural_E7_materials",
+    "requires_synthetic_systems"
+  ],
+  "status": "theoretical_framework_exists"
+}

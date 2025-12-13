@@ -1,0 +1,24 @@
+{
+  "experiment": "exp15_a3_analysis",
+  "timestamp": "2025-12-13T06:57:02.464910",
+  "a2": {
+    "num": 197,
+    "den": 144,
+    "value": 1.3680555555555556
+  },
+  "a3": {
+    "num": 28259,
+    "den": 5184,
+    "value": 5.451195987654321
+  },
+  "e7_connections": {
+    "a2_den": "144 = 126 + 18 = roots + h\u2228",
+    "a2_num": "197 = 133 + 64 = dim + 2^6",
+    "a3_den": "5184 = 144 \u00d7 36 = (roots + h\u2228) \u00d7 (rank-1)\u00b2",
+    "pattern": "A_n denominator = 144 \u00d7 6^(n-2)"
+  },
+  "prediction": {
+    "a4_denominator": 31104,
+    "a4_denominator_formula": "144 \u00d7 6\u00b3 = 31104"
+  }
+}

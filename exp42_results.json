@@ -1,0 +1,90 @@
+{
+  "experiment": "exp42_e7_qec",
+  "timestamp": "2025-12-13T07:44:57.740972",
+  "e7_structure": {
+    "dim": 133,
+    "rank": 7,
+    "num_roots": 126,
+    "fund_dim": 56,
+    "weyl_order": 2903040
+  },
+  "steane_code": {
+    "n": 7,
+    "k": 1,
+    "d": 3,
+    "rate": 0.14285714285714285
+  },
+  "e7_133_code": {
+    "n": 133,
+    "k": 76,
+    "d": 3,
+    "rate": 0.5714285714285714,
+    "rank_x": 57,
+    "rank_z": 57
+  },
+  "decoder_performance": {
+    "single_errors": {
+      "x_correct": 133,
+      "z_correct": 133,
+      "total": 133,
+      "x_rate": 1.0,
+      "z_rate": 1.0
+    },
+    "two_errors": {
+      "x_correct": 191,
+      "z_correct": 191,
+      "total": 200,
+      "x_rate": 0.955,
+      "z_rate": 0.955
+    }
+  },
+  "e7_56_code": {
+    "n": 56,
+    "k": 32,
+    "d": 3,
+    "rate": 0.5714285714285714,
+    "rank_x": 24,
+    "rank_z": 24
+  },
+  "fault_tolerant_gates": [
+    "X",
+    "Z",
+    "H",
+    "CNOT",
+    "S",
+    "T"
+  ],
+  "alpha_analysis": {
+    "dimensional": {
+      "n_qubits": 133,
+      "n_plus_4": 137,
+      "equals_137": true,
+      "n_blocks": 19,
+      "qubits_per_block": 7,
+      "e7_rank": 7,
+      "e7_roots": 126,
+      "roots_plus_7": 133,
+      "interpretation": "133 + 4 = 137 suggests alpha emerges from E7 + 4-fold structure"
+    },
+    "threshold": {
+      "success_rates": {
+        "0.001": 1.0,
+        "0.003": 1.0,
+        "0.005": 0.98,
+        "0.007": 0.98,
+        "0.0073": 0.96,
+        "0.01": 0.8,
+        "0.015": 0.52,
+        "0.02": 0.6,
+        "0.03": 0.18
+      },
+      "threshold_estimate": 0.03,
+      "alpha": 0.0072992700729927005,
+      "threshold_over_alpha": 4.11
+    }
+  },
+  "qiskit_simulation": {
+    "available": true,
+    "outcomes": 18
+  }
+}

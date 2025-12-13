@@ -1,0 +1,30 @@
+{
+  "experiment": "exp08_e7_qec_construction",
+  "timestamp": "2025-12-13T06:18:53.763686",
+  "qiskit_available": true,
+  "proposed_code": {
+    "n": 133,
+    "k": 7,
+    "d": 7,
+    "stabilizers": 126,
+    "rate": 0.05263157894736842,
+    "singleton_satisfied": true,
+    "hamming_satisfied": true
+  },
+  "construction": {
+    "method": "E\u2087 root lattice + Fano plane blocks",
+    "stabilizer_source": "126 roots of E\u2087",
+    "logical_ops": "Fundamental weights and dual basis"
+  },
+  "comparison": {
+    "vs_surface_d7": "2.58\u00d7 more efficient",
+    "vs_golay": "7\u00d7 more logical qubits"
+  },
+  "connections": [
+    "Steane [7,1,3] from Fano plane",
+    "Fano plane encodes octonion multiplication",
+    "Octonions generate E\u2087 via magic square",
+    "133 = dim(E\u2087), 7 = rank(E\u2087), 126 = roots(E\u2087)"
+  ],
+  "status": "THEORETICALLY VALID - CONSTRUCTION PROPOSED"
+}

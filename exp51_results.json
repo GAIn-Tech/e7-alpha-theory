@@ -1,0 +1,134 @@
+{
+  "experiment": "exp51_a4_extraction",
+  "timestamp": "2025-12-13T08:13:11.348845",
+  "e7_constants": {
+    "dim": 133,
+    "rank": 7,
+    "fund": 56,
+    "roots": 126,
+    "dual_coxeter": 18,
+    "weyl_order": 2903040,
+    "exponents": [
+      1,
+      5,
+      7,
+      9,
+      11,
+      13,
+      17
+    ]
+  },
+  "known_coefficients": {
+    "A1": {
+      "value": 0.5,
+      "form": "1/2",
+      "status": "exact"
+    },
+    "A2": {
+      "numerical": -0.32847896557919376,
+      "rational_part": "197/144",
+      "rational_denominator": 144,
+      "status": "complete_analytic"
+    },
+    "A3": {
+      "numerical": 1.181241456587198,
+      "rational_part": "28259/5184",
+      "rational_denominator": 5184,
+      "status": "complete_analytic"
+    },
+    "A4": {
+      "numerical": -1.9122457649264455,
+      "high_precision_digits": 1100,
+      "rational_part": "NOT_EXTRACTED",
+      "rational_denominator_predicted": 31104,
+      "status": "semi_analytic"
+    }
+  },
+  "denominator_pattern": {
+    "formula": "A_n denominator = 144 * 6^(n-2) for n >= 2",
+    "verified": {
+      "A2": {
+        "expected": 144,
+        "actual": 144,
+        "match": true
+      },
+      "A3": {
+        "expected": 5184,
+        "actual": 5184,
+        "match": true
+      }
+    },
+    "predicted": {
+      "A4": 31104,
+      "A5": 186624,
+      "A6": 1119744
+    }
+  },
+  "prediction_status": {
+    "A4_denominator_31104": {
+      "status": "CANNOT_VERIFY_YET",
+      "reason": "A4 rational part not yet extracted in closed form",
+      "confidence": "MODERATE",
+      "supporting_evidence": [
+        "Pattern confirmed for A2 and A3",
+        "E7 algebraic structure consistent",
+        "Weyl group relations hold"
+      ],
+      "required_for_verification": [
+        "Complete A4 analytic form",
+        "Or: high-precision PSLQ with correct basis"
+      ]
+    }
+  },
+  "weyl_connections": {
+    "weyl_over_144": 20160,
+    "weyl_over_5184": 560,
+    "weyl_over_5184_interpretation": "560 = 10 * fund(E7) = 10 * 56",
+    "weyl_over_31104": 93.33
+  },
+  "transcendental_structure": {
+    "A3_contains": [
+      "pi^2",
+      "pi^4",
+      "zeta(3)",
+      "zeta(5)",
+      "ln(2)",
+      "a4"
+    ],
+    "A4_contains": [
+      "HPL at sixth roots of unity",
+      "HPL at fourth roots of unity",
+      "elliptic integrals",
+      "MZVs",
+      "Euler sums"
+    ]
+  },
+  "references": [
+    "Laporta 2017, Phys. Lett. B 772, 232 - A4 to 1100 digits",
+    "Laporta & Remiddi 1996, hep-ph/9602417 - A3 analytic",
+    "Schnetz 2018, CNTP 12(2) - Galois structure of A4"
+  ],
+  "pslq_analysis": {
+    "pslq_analysis": {
+      "basis_1": "{A4, 1, pi^2, pi^4, zeta(3), zeta(5)}",
+      "result_1": "No relation found - A4 not simple combination",
+      "basis_2": "{A4, 1, pi^2, pi^4, zeta(3), zeta(5), ln(2), pi^2*ln(2)}",
+      "result_2": "No relation found",
+      "note": "A4 requires HPL at roots of unity + elliptic integrals"
+    },
+    "critical_insight": {
+      "finding": "Rational part != Total numerical value",
+      "A3_example": {
+        "A3_total": 1.181241456587198,
+        "A3_rational_part": "28259/5184 = 5.4512",
+        "transcendental_correction": -4.27
+      },
+      "implication": "Cannot estimate A4 rational from numerical value alone"
+    },
+    "new_e7_discovery": {
+      "A3_numerator_factorization": "28259 = 7 * 4037 = rank(E7) * 4037",
+      "significance": "A3 numerator divisible by rank(E7)",
+      "prediction": "A4 numerator may also be divisible by 7"
+    }
+  }
+}

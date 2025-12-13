@@ -1,0 +1,222 @@
+{
+  "dim_analysis": {
+    "dim": 133,
+    "factorization": [
+      7,
+      19
+    ],
+    "rank": 7,
+    "h_dual": 18,
+    "verified": true
+  },
+  "fund_analysis": {
+    "fund": 56,
+    "is_2_times_T7": true,
+    "is_rank_times_rank_plus_1": true,
+    "ratio": "4"
+  },
+  "partition_analysis": {
+    "7": "15",
+    "18": "385",
+    "19": "490",
+    "28": "3718",
+    "56": "526823",
+    "63": "1505499",
+    "126": "3519222692",
+    "133": "7346629512",
+    "137": "11097645016"
+  },
+  "mzv_analysis": {
+    "exponents[0]": {
+      "value": 1,
+      "indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "count": 4
+    },
+    "exponents[1]": {
+      "value": 5,
+      "indices": [
+        9
+      ],
+      "count": 1
+    },
+    "rank": {
+      "value": 7,
+      "indices": [
+        10
+      ],
+      "count": 1
+    },
+    "exponents[2]": {
+      "value": 7,
+      "indices": [
+        10
+      ],
+      "count": 1
+    },
+    "exponents[3]": {
+      "value": 9,
+      "indices": [
+        11
+      ],
+      "count": 1
+    },
+    "exponents[4]": {
+      "value": 11,
+      "indices": [],
+      "count": 0
+    },
+    "exponents[5]": {
+      "value": 13,
+      "indices": [],
+      "count": 0
+    },
+    "exponents[6]": {
+      "value": 17,
+      "indices": [],
+      "count": 0
+    },
+    "h_dual": {
+      "value": 18,
+      "indices": [],
+      "count": 0
+    },
+    "fund/2 = T_7": {
+      "value": 28,
+      "indices": [
+        15
+      ],
+      "count": 1
+    },
+    "fund": {
+      "value": 56,
+      "indices": [],
+      "count": 0
+    },
+    "positive_roots": {
+      "value": 63,
+      "indices": [],
+      "count": 0
+    },
+    "num_roots": {
+      "value": 126,
+      "indices": [],
+      "count": 0
+    },
+    "dim": {
+      "value": 133,
+      "indices": [],
+      "count": 0
+    },
+    "alpha^(-1)": {
+      "value": 137,
+      "indices": [],
+      "count": 0
+    }
+  },
+  "uniqueness_analysis": [
+    [
+      17,
+      [
+        "G2",
+        14,
+        3
+      ]
+    ],
+    [
+      19,
+      [
+        "G2",
+        14,
+        5
+      ]
+    ],
+    [
+      23,
+      [
+        "G2",
+        14,
+        9
+      ]
+    ],
+    [
+      53,
+      [
+        "F4",
+        52,
+        1
+      ]
+    ],
+    [
+      59,
+      [
+        "F4",
+        52,
+        7
+      ]
+    ],
+    [
+      61,
+      [
+        "F4",
+        52,
+        9
+      ]
+    ],
+    [
+      79,
+      [
+        "E6",
+        78,
+        1
+      ]
+    ],
+    [
+      83,
+      [
+        "E6",
+        78,
+        5
+      ]
+    ],
+    [
+      137,
+      [
+        "E7",
+        133,
+        4
+      ]
+    ],
+    [
+      139,
+      [
+        "E7",
+        133,
+        6
+      ]
+    ],
+    [
+      251,
+      [
+        "E8",
+        248,
+        3
+      ]
+    ],
+    [
+      257,
+      [
+        "E8",
+        248,
+        9
+      ]
+    ]
+  ],
+  "cyclotomic_analysis": {},
+  "ramanujan_analysis": {},
+  "weyl_analysis": {}
+}

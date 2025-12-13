@@ -1,0 +1,22 @@
+{
+  "experiment": "exp13_alpha_in_qec",
+  "timestamp": "2025-12-13T06:50:59.925086",
+  "code_params": {
+    "n": 133,
+    "x_stabs": 63,
+    "z_stabs": 63,
+    "rank_x": 57,
+    "rank_z": 57
+  },
+  "threshold": {
+    "x": 0.015,
+    "z": 0.015,
+    "alpha": 0.0072992700729927005,
+    "ratio_to_alpha": 2.055
+  },
+  "syndromes": {
+    "x_unique": 133,
+    "z_unique": 133
+  },
+  "conclusion": "\u03b1 appears through E\u2087 structure (dimensions), not error rates"
+}

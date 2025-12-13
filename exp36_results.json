@@ -1,0 +1,28 @@
+{
+  "experiment": "exp36_e7_neutrino_math",
+  "timestamp": "2025-12-13T07:44:49.425134",
+  "sections": {
+    "root_system": {
+      "cartan_det": 2,
+      "verified": true
+    },
+    "casimir": {
+      "C2_56": "57/2",
+      "C2_adjoint": "18"
+    },
+    "numerical": {
+      "alpha_inv": 137,
+      "C2_56": "57/2",
+      "T_56": "12",
+      "mass_ratio_predicted": 9.514168499729798e-07,
+      "mass_ratio_experimental": 9.784755917795917e-08,
+      "agreement_factor": 9.723460226970005
+    }
+  },
+  "conclusions": {
+    "status": "PLAUSIBLE_NOT_PROVEN",
+    "confidence_percent": 50,
+    "key_gap": "No Lagrangian derivation of 1/56 factor",
+    "key_strength": "alpha^-1 = 137 is exact and unique to E7"
+  }
+}

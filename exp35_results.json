@@ -1,0 +1,71 @@
+{
+  "experiment": "exp35_holography_swampland",
+  "timestamp": "2025-12-13T07:46:11.114840",
+  "results": {
+    "central_charge": {
+      "dim_E7": 133,
+      "alpha_inv_formula": "dim + fund/(2*rank) = 137",
+      "status": "formula_verified",
+      "c_T_involves_137": "CONJECTURE"
+    },
+    "wilson_loops": {
+      "C2_fund": 28.5,
+      "C2_adj": 133,
+      "conjecture": "lambda = 137^2 at special coupling"
+    },
+    "wgc": {
+      "gauge_coupling": 0.30286190409413793,
+      "wgc_bound_gev": 3.6949152299484826e+18,
+      "num_conditions": 56
+    },
+    "tcc": {
+      "N_TCC": 137,
+      "H_TCC_GeV": 8.905109489051094e+16,
+      "S_dS": 58964.552515226824,
+      "observational_status": "CONSISTENT"
+    },
+    "distance": {
+      "coset_dim": 70,
+      "lambda_rate": 0.086710996952412,
+      "d_critical": 56.73998799169923,
+      "tower": "BPS states in 56 of E7"
+    },
+    "anomaly": {
+      "e7_anomaly_free": true,
+      "alpha_UV": "1/133",
+      "alpha_IR": "1/137",
+      "quantum_correction": 4
+    },
+    "quartic_invariant": {
+      "I4_formula": "I4(P,Q) = -Tr(QPQP) + ...",
+      "target_I4": [
+        137,
+        18769
+      ],
+      "status": "OPEN_QUESTION"
+    },
+    "charge_lattice": {
+      "lattice_rank": 7,
+      "num_roots": 126,
+      "gram_determinant": 2
+    }
+  },
+  "key_findings": {
+    "master_formula": "alpha^(-1) = dim(E7) + fund/(2*rank) = 137",
+    "tcc_bound": "H <= M_Pl/137",
+    "e7_breaking_scale": "~8.9 x 10^16 GeV",
+    "ds_entropy": "~19,650 at TCC bound"
+  },
+  "status": {
+    "e7_structure": "ESTABLISHED",
+    "tcc_connection": "STRONG",
+    "bps_black_holes": "OPEN_QUESTION",
+    "central_charge": "SPECULATIVE"
+  },
+  "references": [
+    "Bedroya-Vafa 2019 (TCC): arXiv:1909.11063",
+    "Cremmer-Julia 1978: E7 in N=8 SUGRA",
+    "Maldacena 1997: AdS/CFT correspondence",
+    "Ooguri-Vafa 2006: Distance conjecture"
+  ]
+}

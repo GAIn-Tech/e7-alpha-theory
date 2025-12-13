@@ -1,0 +1,41 @@
+{
+  "experiment": "exp01_master_formula",
+  "timestamp": "2025-12-13T05:57:59.933755",
+  "hypothesis": "\u03b1\u207b\u00b9 = dim(E\u2087) + fund(E\u2087)/(2\u00d7rank(E\u2087)) = 137",
+  "methods": {
+    "method1_integer": {
+      "method": "integer_arithmetic",
+      "is_exact": true,
+      "result": 137,
+      "equals_137": true
+    },
+    "method2_fraction": {
+      "method": "fraction_arithmetic",
+      "result_fraction": "137",
+      "result_decimal": 137.0,
+      "is_integer": true,
+      "equals_137": true
+    },
+    "method3_symbolic": {
+      "method": "sympy_symbolic",
+      "result": "137",
+      "is_integer": true,
+      "equals_137": true
+    },
+    "method4_alternative": {
+      "method": "alternative_formula",
+      "formula": "roots - rank + h_dual",
+      "result": 137,
+      "equals_137": true,
+      "matches_main_formula": true
+    },
+    "method5_verification": {
+      "method": "parameter_verification",
+      "dim_check": true,
+      "roots_check": true,
+      "fund_check": true
+    }
+  },
+  "conclusion": "CONFIRMED",
+  "confidence": "VERY HIGH"
+}

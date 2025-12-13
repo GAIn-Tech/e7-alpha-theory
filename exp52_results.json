@@ -1,0 +1,13 @@
+{
+  "experiment": "exp52_discrepancy_analysis",
+  "alpha_inv_exp": 137.035999084,
+  "alpha_inv_e7": 137.0,
+  "delta": 0.03599908399999663,
+  "delta_ppm": 262.7670364963258,
+  "key_finding": "Delta ~ 1/28 = 1/T_7 = 2/fund(E7)",
+  "proposed_formula": "alpha^-1 = dim(E7) + fund/(2*rank) + 2/fund = 133 + 4 + 1/28",
+  "formula_value": 137.03571428571428,
+  "formula_error_ppm": 2.0782735020194187,
+  "remaining_after_1_28": 0.00028479828571903454,
+  "conclusion": "Delta encodes E7 structure via 1/T_7, formula accurate to ~8 ppm"
+}

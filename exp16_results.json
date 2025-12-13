@@ -1,0 +1,45 @@
+{
+  "experiment": "exp16_a4_prediction",
+  "timestamp": "2025-12-13T07:02:38.348702",
+  "e7_constants": {
+    "dim": 133,
+    "rank": 7,
+    "fund": 56,
+    "roots": 126,
+    "dual_coxeter": 18,
+    "weyl_order": 2903040,
+    "exponents": [
+      1,
+      5,
+      7,
+      9,
+      11,
+      13,
+      17
+    ]
+  },
+  "denominator_pattern": {
+    "formula": "A_n_denominator = 144 \u00d7 6^(n-2)",
+    "A2": 144,
+    "A3": 5184,
+    "A4_predicted": 31104,
+    "A5_predicted": 186624
+  },
+  "weyl_connection": {
+    "weyl_order": 2903040,
+    "weyl_over_5184": 560,
+    "equals_10_times_fund": true
+  },
+  "numerator_pattern": {
+    "A2_num": 197,
+    "A2_decomposition": "dim(E7) + 2^6 = 133 + 64",
+    "A3_num": 28259,
+    "A3_decomposition": "unclear"
+  },
+  "predictions": [
+    "A4 denominator = 31104",
+    "A5 denominator = 186624",
+    "General: A_n denominator = 144 \u00d7 6^(n-2)"
+  ],
+  "status": "prediction_awaiting_verification"
+}

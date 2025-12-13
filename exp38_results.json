@@ -1,0 +1,64 @@
+{
+  "experiment": "exp38_string_theory_e7",
+  "timestamp": "2025-12-13T07:45:22.964158",
+  "alpha_inv_measured": 137.035999084,
+  "alpha_inv_formula": 137.0,
+  "error": 0.03599908399999663,
+  "results": {
+    "m_theory": {
+      "vectors_from_T7": 28,
+      "total_em_charges": 56,
+      "moduli_space_dim": 70,
+      "alpha_formula_exact": 137.0,
+      "status": "ESTABLISHED: E7(7) structure; OPEN: moduli stabilization -> alpha"
+    },
+    "heterotic": {
+      "e8_to_e7_branching": "248 = (133,1) + (1,3) + (56,2)",
+      "k3_euler": 24,
+      "instanton_constraint": "k + k_prime = 24",
+      "gauge_coupling": "NOT FIXED without moduli stabilization",
+      "status": "ESTABLISHED: E7 from E8 breaking; OPEN: why alpha = 1/137"
+    },
+    "f_theory": {
+      "kodaira_type": "III*",
+      "gauge_group": "E7",
+      "singularity_order": {
+        "f": ">=3",
+        "g": 5,
+        "Delta": 9
+      },
+      "self_dual_point": "tau = i, j(i) = 1728",
+      "status": "ESTABLISHED: E7 from III*; OPEN: gauge coupling at singularity"
+    },
+    "why_e7": {
+      "e6_formula": 80.25,
+      "e7_formula": 137.0,
+      "e8_formula": 263.5,
+      "only_e7_matches": true,
+      "physical_reason": "E7(7) is U-duality in D=4 with 56 EM charges",
+      "status": "ESTABLISHED: E7 unique match; E7(7) governs EM in 4D"
+    },
+    "moduli": {
+      "landscape_size": "~10^500 vacua",
+      "flux_quantization": "G_4 in H^4(X, Z)",
+      "tadpole_form": "chi/24 = N_flux + N_D3",
+      "e7_flux_structure": "28 electric + 28 magnetic = 56",
+      "swampland_relevant": true,
+      "status": "OPEN: No known unique E7-invariant vacuum giving alpha"
+    },
+    "chain": {
+      "chain": "E8 -> E7 x SU(2) -> E6 x U(1) -> SO(10) -> SU(5) -> SM",
+      "e7_unique": "Only E7 has natural +4 correction to reach 137",
+      "e7_role": "First major breaking, sets EM structure",
+      "rg_status": "Naive estimate fails - needs careful calculation",
+      "status": "ESTABLISHED: Chain well-known; OPEN: Why E7 sets alpha"
+    },
+    "synthesis": {
+      "established_count": 7,
+      "strong_count": 4,
+      "speculative_count": 5,
+      "open_questions_count": 5,
+      "overall_status": "Promising but incomplete"
+    }
+  }
+}

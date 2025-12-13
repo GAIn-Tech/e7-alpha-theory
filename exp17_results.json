@@ -1,0 +1,27 @@
+{
+  "experiment": "exp17_lean_proof",
+  "timestamp": "2025-12-13T07:04:26.983768",
+  "theorems_verified": {
+    "alpha_inverse_from_E7": true,
+    "fund_over_two_rank": true,
+    "dim_equals_roots_plus_rank": true,
+    "denominator_144": true,
+    "E7_unique_among_exceptional": true
+  },
+  "e7_constants": {
+    "dim": 133,
+    "rank": 7,
+    "fund": 56,
+    "roots": 126,
+    "dual_coxeter": 18
+  },
+  "uniqueness": {
+    "G2": "63/4",
+    "F4": "221/4",
+    "E6": "321/4",
+    "E7": "137",
+    "E8": "527/2"
+  },
+  "lean4_file": "experiments/E7Alpha.lean",
+  "status": "verified"
+}

@@ -1,0 +1,23 @@
+{
+  "experiment": "exp14_physical_predictions",
+  "timestamp": "2025-12-13T06:52:45.594887",
+  "verified": [
+    "\u03b1\u207b\u00b9 = 137 exact",
+    "A\u2082 rational = 197/144",
+    "197 = 133 + 64 = dim + 2^6",
+    "144 = 126 + 18 = roots + h\u2228"
+  ],
+  "predictions": [
+    "A\u2083 rational divisible by E\u2087 invariants",
+    "Vacuum polarization from h\u2228/dim ratio",
+    "QEC threshold = 2\u03b1",
+    "g-2 scale = \u221a133 \u00d7 m_\u03bc"
+  ],
+  "numerical": {
+    "alpha_inv_theory": 137,
+    "alpha_inv_exp": 137.035999177,
+    "delta": 0.035999177000007876,
+    "qec_threshold": 0.015,
+    "threshold_over_alpha": 2.055539987663852
+  }
+}

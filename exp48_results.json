@@ -1,0 +1,33 @@
+{
+  "experiment": "exp48_central_charge",
+  "timestamp": "2025-12-13T07:55:26.557168",
+  "mission": "Derive c = 137 in E7 holographic CFT",
+  "results": {
+    "standard_cft_c_137": false,
+    "master_formula_c_137": true,
+    "formula": "dim(E7) + fund/(2*rank) = 133 + 4 = 137"
+  },
+  "e7_data": {
+    "dim": 133,
+    "rank": 7,
+    "fund": 56,
+    "h_dual": 18
+  },
+  "exact_formulas_for_137": [
+    "dim + fund/(2*rank) = 133 + 4 = 137",
+    "dim + 4 = 137",
+    "roots + 11 = 126 + 11 = 137",
+    "h_vee * rank + 11 = 137"
+  ],
+  "interpretations": {
+    "c_eff": "Effective degrees of freedom in E7 QG",
+    "133": "Gauge (adjoint) contribution",
+    "4": "Matter (fundamental) correction"
+  },
+  "connections": [
+    "Fine structure constant: alpha^(-1) ~ 137",
+    "TCC swampland bound: H <= M_Pl/137",
+    "E7 representation theory"
+  ],
+  "status": "c=137 via master formula, not standard CFT"
+}

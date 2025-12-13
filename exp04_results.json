@@ -1,0 +1,12 @@
+{
+  "experiment": "exp04_g2_coefficient",
+  "timestamp": "2025-12-13T06:02:45.281313",
+  "hypothesis": "A\u2082 = -197/144 where 197 = 7\u00d728+1",
+  "actual_A2": -0.32847896557919376,
+  "claimed_A2": -1.3680555555555556,
+  "difference": 1.0395765899763618,
+  "percent_error": 316.4819361091564,
+  "conclusion": "FALSIFIED",
+  "refined_finding": "197/144 is a term in A\u2082, not the total value",
+  "confidence": "VERY HIGH"
+}

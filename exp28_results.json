@@ -1,0 +1,56 @@
+{
+  "experiment": "exp28_strong_cp",
+  "timestamp": "2025-12-13T07:25:51.906988",
+  "theta_bound": 1e-10,
+  "alpha": 0.0072973525692838015,
+  "e7_invariants": {
+    "dim": 133,
+    "rank": 7,
+    "fund": 56,
+    "roots": 126,
+    "dual_coxeter": 18,
+    "weyl_order": 2903040,
+    "exponents": [
+      1,
+      5,
+      7,
+      9,
+      11,
+      13,
+      17
+    ],
+    "center_order": 2,
+    "center": "Z\u2082",
+    "dynkin_index_fund": 6,
+    "dynkin_index_adj": 36
+  },
+  "mechanisms": {
+    "1_topological": {
+      "description": "Z\u2082 center enforces \u03b8 \u2208 {0,\u03c0}",
+      "status": "leading_order_only"
+    },
+    "2_numerical": {
+      "description": "\u03b8 ~ \u03b1^n",
+      "best_fit": "\u03b1^12 \u2248 8.8\u00d710\u207b\u00b9\u2074",
+      "status": "order_of_magnitude"
+    },
+    "3_axion": {
+      "description": "E\u2087 modulus = QCD axion",
+      "mass_eV": 4.7089e-18,
+      "decay_constant_GeV": 1e+16,
+      "status": "most_promising"
+    },
+    "4_reality": {
+      "description": "56 real rep constrains phases",
+      "status": "plausible"
+    }
+  },
+  "predictions": {
+    "axion_mass_eV": 4.7089e-18,
+    "theta_from_alpha_12": 2.2802578249150784e-26,
+    "theta_from_alpha_14": 1.2142681783254405e-30,
+    "axion_coupling_ratio": "56/2 or 133/k"
+  },
+  "status": "promising_requires_further_work",
+  "novelty": "unexplored_theoretical_territory"
+}

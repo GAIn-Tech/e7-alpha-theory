@@ -1,0 +1,31 @@
+{
+  "experiment": "exp06_statistical_significance",
+  "timestamp": "2025-12-13T06:08:04.195170",
+  "hypothesis": "E\u2087 \u2192 137 connection is statistically significant",
+  "analysis": {
+    "look_elsewhere_p": 0.9999688689589863,
+    "bayesian_posterior": 0.010000308206804887,
+    "monte_carlo_hits_137": 11,
+    "monte_carlo_trials": 100000,
+    "groups_giving_137": [
+      "E\u2087 (exceptional)",
+      "Sp(8) (classical)"
+    ]
+  },
+  "raw_significance": "~3-4\u03c3",
+  "corrected_significance": "~2-3\u03c3",
+  "with_skeptical_prior": "~1-2\u03c3",
+  "conclusion": "INTRIGUING BUT NOT CONCLUSIVE",
+  "confidence": "MODERATE",
+  "verified_claims": [
+    "Master formula gives 137 exactly",
+    "E\u2087 is unique among exceptional groups",
+    "MZV d\u2081\u2080=7, d\u2081\u2085=28"
+  ],
+  "falsified_claims": [
+    "g-2 coefficient A\u2082 = -197/144",
+    "Steane code structurally connected to E\u2087",
+    "E\u2087 is unique among ALL Lie groups (Sp(8) also works)"
+  ],
+  "final_verdict": "PARTIALLY CONFIRMED with falsified components"
+}

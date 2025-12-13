@@ -1,0 +1,50 @@
+{
+  "experiment": "exp09_e7_qec_full_construction",
+  "timestamp": "2025-12-13T06:23:22.300800",
+  "code_parameters": {
+    "n": 133,
+    "k": 7,
+    "d_claimed": 7,
+    "d_computed_lower_bound": 64
+  },
+  "structure": {
+    "cartan_qubits": 7,
+    "positive_root_qubits": 63,
+    "negative_root_qubits": 63,
+    "x_stabilizers": 63,
+    "z_stabilizers": 63
+  },
+  "stabilizer_weights": {
+    "x_min": 6,
+    "x_max": 25,
+    "x_avg": 16.444444444444443,
+    "z_min": 6,
+    "z_max": 25,
+    "z_avg": 16.444444444444443
+  },
+  "logical_operators": {
+    "x_weights": [
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64
+    ],
+    "z_weights": [
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64
+    ],
+    "anticommutation_verified": true
+  },
+  "decoder": {
+    "syndrome_table_size": 137,
+    "single_qubit_errors_decodable": true
+  }
+}

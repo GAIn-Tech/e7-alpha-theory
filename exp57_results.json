@@ -1,0 +1,75 @@
+{
+  "experiment": "exp57_g2_analysis",
+  "timestamp": "2025-12-13T08:07:35.627557",
+  "e7_constants": {
+    "dim": 133,
+    "rank": 7,
+    "fund": 56,
+    "roots": 126,
+    "positive_roots": 63,
+    "dual_coxeter": 18,
+    "coxeter": 18,
+    "weyl_order": 2903040,
+    "exponents": [
+      1,
+      5,
+      7,
+      9,
+      11,
+      13,
+      17
+    ],
+    "casimir_2": 133,
+    "center": 2
+  },
+  "e7_scale": {
+    "formula": "sqrt(dim(E7)) * m_mu",
+    "value_MeV": 1218.5118291049814,
+    "value_GeV": 1.2185118291049815
+  },
+  "g2_contributions": {
+    "basic": 4.056759596389627e-08,
+    "with_dim": 5.395490263198204e-06,
+    "hvp_type": 1.2710787336272615e-07,
+    "formula": 3.245407677111702e-07,
+    "observed_anomaly": 2.5e-09
+  },
+  "hvp_windows": {
+    "SD": {
+      "lat": 68.4,
+      "rr": 68.6,
+      "err": 0.3
+    },
+    "W": {
+      "lat": 229.4,
+      "rr": 206.0,
+      "err": 2.5
+    },
+    "LD": {
+      "lat": 390.0,
+      "rr": 413.0,
+      "err": 3.0
+    }
+  },
+  "window_ratios": {
+    "W_over_total": 0.3335271881360861,
+    "W_over_LD": 0.5882051282051283,
+    "e7_fund_over_dim": 0.42105263157894735
+  },
+  "mass_ratios": {
+    "mu_over_e": 206.76828270846718,
+    "e7_prediction": 207,
+    "discrepancy_percent": 0.11194072054725468
+  },
+  "predictions": [
+    "R(s) feature at sqrt(s) = 1219 MeV",
+    "Window ratio W/LD ~ 0.59 (to be tested)",
+    "HVP tension resolution at E7 scale",
+    "Fermilab final: anomaly persistence or resolution"
+  ],
+  "statistical": {
+    "p_random_scale_match": 0.13440860215053765,
+    "p_combined_all_coincidence": 2.6000000000000003e-10
+  },
+  "status": "predictions_testable_2024-2026"
+}

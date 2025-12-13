@@ -1,0 +1,76 @@
+{
+  "experiment": "exp24_c8_vs_e7",
+  "timestamp": "2025-12-13T07:18:47.224574",
+  "algebras_giving_137": [
+    "E7",
+    "C8"
+  ],
+  "e7_invariants": {
+    "name": "E\u2087",
+    "type": "exceptional",
+    "dim": 133,
+    "rank": 7,
+    "fund": 56,
+    "roots": 126,
+    "dual_coxeter": 18,
+    "weyl_order": 2903040,
+    "center": "Z\u2082",
+    "exponents": [
+      1,
+      5,
+      7,
+      9,
+      11,
+      13,
+      17
+    ]
+  },
+  "c8_invariants": {
+    "name": "C\u2088 = Sp(16)",
+    "type": "classical",
+    "dim": 136,
+    "rank": 8,
+    "fund": 16,
+    "roots": 128,
+    "dual_coxeter": 9,
+    "weyl_order": 10321920,
+    "center": "Z\u2082",
+    "exponents": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ]
+  },
+  "discriminating_tests": {
+    "a2_denominator": {
+      "e7_works": true,
+      "c8_works": false
+    },
+    "a2_numerator": {
+      "e7_works": true,
+      "c8_works": false
+    },
+    "a3_denominator": {
+      "e7_works": true,
+      "c8_works": false
+    },
+    "weyl_relation": {
+      "e7_works": true,
+      "c8_works": false
+    },
+    "string_theory": {
+      "e7_works": true,
+      "c8_works": false
+    },
+    "sugra": {
+      "e7_works": true,
+      "c8_works": false
+    }
+  },
+  "conclusion": "E7_is_fundamental_C8_is_coincidence"
+}

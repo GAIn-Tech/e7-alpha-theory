@@ -1,0 +1,22 @@
+{
+  "experiment": "exp11_e7_qec_refined",
+  "timestamp": "2025-12-13T06:45:45.446787",
+  "code_structure": {
+    "n_qubits": 133,
+    "n_blocks": 19,
+    "qubits_per_block": 7
+  },
+  "stabilizers": {
+    "x_count": 63,
+    "z_count": 63,
+    "x_rank": 57,
+    "z_rank": 57
+  },
+  "decoder_performance": {
+    "x_correct": 133,
+    "z_correct": 133,
+    "x_rate": 1.0,
+    "z_rate": 1.0
+  },
+  "estimated_k": 76
+}

@@ -1,0 +1,185 @@
+{
+  "analysis": {
+    "current_n": 133,
+    "current_k": 76,
+    "current_d": 3,
+    "reason": "Product structure limits distance to base code distance"
+  },
+  "ldpc": {
+    "n": 133,
+    "k": 108,
+    "d_lower": 4,
+    "rank_x": 25,
+    "rank_z": 25
+  },
+  "bch": {
+    "n": 133,
+    "k": 82,
+    "d_estimate": 8,
+    "rank_x": 51,
+    "rank_z": 50
+  },
+  "bch_decoder": {
+    "error": "CSS not satisfied",
+    "violations": 2036
+  },
+  "doubly_even": {
+    "n": 133,
+    "k": 96,
+    "d_lower": 3,
+    "rank_x": 37,
+    "rank_z": 27
+  },
+  "high_distance": {
+    "n": 133,
+    "k": 70,
+    "d_lower": 8,
+    "rank_x": 63,
+    "rank_z": 19,
+    "css_orthogonal": false,
+    "x_weight_range": [
+      8,
+      8
+    ],
+    "z_weight_range": [
+      8,
+      59
+    ]
+  },
+  "high_distance_decoder": {
+    "single": {
+      "x_correct": 45,
+      "z_correct": 66,
+      "x_rate": 0.3383458646616541,
+      "z_rate": 0.49624060150375937
+    },
+    "two": {
+      "weight": 2,
+      "n_trials": 200,
+      "x_correct": 0,
+      "z_correct": 0,
+      "x_rate": 0.0,
+      "z_rate": 0.0
+    },
+    "three": {
+      "weight": 3,
+      "n_trials": 200,
+      "x_correct": 0,
+      "z_correct": 0,
+      "x_rate": 0.0,
+      "z_rate": 0.0
+    }
+  },
+  "self_dual": {
+    "n": 133,
+    "k": 70,
+    "d_lower": 7,
+    "rank": 63,
+    "css_orthogonal": false,
+    "weight_range": [
+      7,
+      8
+    ]
+  },
+  "self_dual_decoder": {
+    "error": "CSS not satisfied"
+  },
+  "concatenated": {
+    "n": 133,
+    "k": 76,
+    "d_theoretical": 9,
+    "rank_x": 57,
+    "rank_z": 57
+  },
+  "optimized": {
+    "n": 133,
+    "k": 70,
+    "d": 0,
+    "rank_x": 59,
+    "rank_z": 63,
+    "n_x_stabs": 63,
+    "n_z_stabs": 63
+  },
+  "decoder": {
+    "single": {
+      "x_correct": 132,
+      "z_correct": 129,
+      "x_rate": 0.9924812030075187,
+      "z_rate": 0.9699248120300752
+    },
+    "two": {
+      "weight": 2,
+      "n_trials": 200,
+      "x_correct": 2,
+      "z_correct": 6,
+      "x_rate": 0.01,
+      "z_rate": 0.03
+    },
+    "three": {
+      "weight": 3,
+      "n_trials": 200,
+      "x_correct": 0,
+      "z_correct": 0,
+      "x_rate": 0.0,
+      "z_rate": 0.0
+    }
+  },
+  "bounds": {
+    "singleton_bound": 19,
+    "hamming_bound": 23,
+    "e7_dimension": 133,
+    "ratio": 5.782608695652174
+  },
+  "comparison": [
+    [
+      "Steane [[7,1,3]]",
+      7,
+      1,
+      3
+    ],
+    [
+      "Surface d=3",
+      9,
+      1,
+      3
+    ],
+    [
+      "Surface d=5",
+      25,
+      1,
+      5
+    ],
+    [
+      "Surface d=7",
+      49,
+      1,
+      7
+    ],
+    [
+      "Golay [[23,1,7]]",
+      23,
+      1,
+      7
+    ],
+    [
+      "E7 current [[133,76,3]]",
+      133,
+      76,
+      3
+    ],
+    [
+      "E7 target [[133,7,7]]",
+      133,
+      7,
+      7
+    ],
+    [
+      "E7 LDPC [[133,~70,?]]",
+      133,
+      70,
+      4
+    ]
+  ],
+  "timestamp": "2025-12-13T08:14:47.310286",
+  "experiment": "exp56_qec_optimized"
+}

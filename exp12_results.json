@@ -1,0 +1,22 @@
+{
+  "experiment": "exp12_e7_qec_distance",
+  "timestamp": "2025-12-13T06:46:28.914340",
+  "two_error": {
+    "x_rate": 0.965,
+    "z_rate": 0.955
+  },
+  "three_error": {
+    "x_rate": 0.13,
+    "z_rate": 0.16
+  },
+  "distance": {
+    "x_min": 3,
+    "z_min": 3,
+    "d_lower_bound": 3
+  },
+  "css_orthogonal": true,
+  "threshold": {
+    "x": 0.02,
+    "z": 0.05
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "exp20_cosmology",
+  "timestamp": "2025-12-13T07:09:17.259478",
+  "cosmological_constant": {
+    "exponent": -122,
+    "e7_relation": "-roots + 4 = -122",
+    "alpha_power": "\u03b1^59 ~ 10^-126"
+  },
+  "dark_matter": {
+    "candidate_rep": "fund(E\u2087) = 56",
+    "stability": "Z\u2082 center",
+    "mass_scale": "TeV"
+  },
+  "inflation": {
+    "moduli_space": "E\u2087\u208d\u2087\u208e/SU(8)",
+    "dimension": 70,
+    "e_folds": "fund(E\u2087) = 56?"
+  },
+  "numerology": {
+    "dm_baryon": {
+      "obs": 5.36,
+      "e7": 5.6,
+      "relation": "fund/10"
+    },
+    "hubble": {
+      "obs": 67.4,
+      "e7": 66.5,
+      "relation": "dim/2"
+    }
+  },
+  "status": "speculative_numerology"
+}

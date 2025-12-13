@@ -1,0 +1,54 @@
+{
+  "experiment": "exp46_coupling_running",
+  "goal": "Show alpha^-1 runs from 137 to 133",
+  "sm_baseline": {
+    "alpha_inv_0": 137.035999177,
+    "alpha_inv_MZ": 127.55371581029922,
+    "alpha_inv_Planck": 60.98226134228861
+  },
+  "e7_target": {
+    "alpha_inv_low": 137,
+    "alpha_inv_Planck": 133,
+    "interpretation": "dim(E7) + fund(E7)/(2*rank) at low E"
+  },
+  "fixed_point": {
+    "log_ratio": 51.52783989042419,
+    "delta_alpha_inv": 4,
+    "required_rate": 0.07762793877069453,
+    "sm_rate": -0.7073553026306459,
+    "deficit": 0.7849832414013405
+  },
+  "bsm_search": {
+    "susy_tev": 36.527895324780886,
+    "susy_gut": 56.747625309698364,
+    "e7_gut": 24.937442731550036,
+    "vector_like": 45.19571625395112,
+    "combined": 20.702806698959797
+  },
+  "model": {
+    "model": "E7 gauge theory at Planck scale",
+    "M_GUT": 2e+16,
+    "M_E7": 1.22089e+19,
+    "alpha_inv_0": 137.0,
+    "alpha_inv_GUT": 71.87132542609216,
+    "alpha_inv_Planck": 133.0,
+    "spectrum": {
+      "sm_particles": "Standard Model",
+      "e7_gauge_bosons": "121 at M_GUT",
+      "e7_matter": "56-plet at M_GUT",
+      "e7_moduli": "70 scalars at M_Planck"
+    },
+    "testable": [
+      "coupling_unification",
+      "proton_decay",
+      "gw_spectrum"
+    ]
+  },
+  "threshold": {
+    "sm_at_planck": 60.98226134228861,
+    "target": 133.0,
+    "required_correction": 72.01773865771139
+  },
+  "conclusion": "E7 asymptotic freedom required for alpha^-1 -> 133",
+  "status": "THEORETICAL_MODEL_CONSTRUCTED"
+}

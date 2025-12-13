@@ -1,0 +1,26 @@
+{
+  "experiment": "exp03_mzv_dimensions",
+  "timestamp": "2025-12-13T06:01:08.930181",
+  "hypotheses": {
+    "d10_equals_7": true,
+    "d15_equals_28": true
+  },
+  "computed_values": {
+    "d10": 7,
+    "d15": 28
+  },
+  "verification_methods": [
+    "Zagier recurrence",
+    "Generating function",
+    "Padovan sequence comparison",
+    "Direct calculation"
+  ],
+  "coincidence_analysis": {
+    "occurrences_of_7": 1,
+    "occurrences_of_28": 1,
+    "index_of_7": 10,
+    "index_of_28": 15
+  },
+  "conclusion": "CONFIRMED",
+  "confidence": "HIGH"
+}

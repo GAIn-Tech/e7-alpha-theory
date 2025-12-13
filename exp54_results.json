@@ -1,0 +1,128 @@
+{
+  "experiment": "exp54_bps_classification",
+  "timestamp": "2025-12-13T08:10:17.732067",
+  "target_I4": 18769,
+  "target_sqrt_I4": 137,
+  "enumeration": {
+    "max_coord": 50,
+    "total_solutions": 46256,
+    "primitive_solutions": 46256,
+    "minimal_norm_solution": {
+      "charge": [
+        -11,
+        -4,
+        -4,
+        11
+      ],
+      "norm_squared": 274,
+      "I4": 18769
+    },
+    "minimal_primitive_solution": {
+      "charge": [
+        -11,
+        -4,
+        -4,
+        11
+      ],
+      "norm_squared": 274
+    }
+  },
+  "orbits": {
+    "num_orbits": 2,
+    "orbit_size_min": 23128,
+    "orbit_size_max": 23128,
+    "orbit_size_avg": 23128.0,
+    "minimal_representatives": [
+      {
+        "charge": [
+          -11,
+          -4,
+          4,
+          -11
+        ],
+        "norm_squared": 274,
+        "symplectic_product": 137
+      },
+      {
+        "charge": [
+          -11,
+          -4,
+          -4,
+          11
+        ],
+        "norm_squared": 274,
+        "symplectic_product": -137
+      }
+    ]
+  },
+  "existence_proof": {
+    "theorem": "I4 = 137^2 is achievable with integer charges",
+    "trivial_solution": [
+      1,
+      0,
+      0,
+      137
+    ],
+    "trivial_norm": 18770,
+    "minimal_norm": 274,
+    "improvement_factor": 68.5036496350365
+  },
+  "statistics": {
+    "achievable_count": 1000,
+    "total_squares": 1000,
+    "fraction": 1.0,
+    "proof": "For any n, (1, 0, 0, n) gives det = n, so I4 = n^2 is always achievable",
+    "examples": {
+      "1": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "4": [
+        1,
+        0,
+        0,
+        2
+      ],
+      "9": [
+        1,
+        0,
+        0,
+        3
+      ],
+      "18769": [
+        1,
+        0,
+        0,
+        137
+      ]
+    }
+  },
+  "physics": {
+    "charge": [
+      -11,
+      -4,
+      -4,
+      11
+    ],
+    "I4": 18769,
+    "entropy": 430.3981935418017,
+    "entropy_over_pi": 137.0,
+    "area_planck_units": 1721.5927741672067,
+    "susy_preserved": "1/4 BPS (8 supercharges)",
+    "is_extremal": true,
+    "log10_microstates": 186.91956047633224,
+    "attractor": {
+      "tau": "1j",
+      "central_charge_squared": 137
+    }
+  },
+  "e7_connection": {
+    "dim_e7": 133,
+    "rank_e7": 7,
+    "fund_e7": 56,
+    "weyl_order": 2903040,
+    "alpha_inv_formula": "133 + 56/(2*7) = 137"
+  }
+}

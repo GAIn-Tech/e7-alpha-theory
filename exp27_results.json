@@ -1,0 +1,63 @@
+{
+  "experiment": "exp27_neutrino_masses",
+  "timestamp": "2025-12-13T07:24:17.321282",
+  "key_finding": {
+    "formula": "m_\u03bd/m_e ~ \u03b1\u00b2/56 = (1/137)\u00b2 / 56",
+    "experimental": 5e-07,
+    "predicted": 9.514168499729797e-07,
+    "agreement_orders": 0.2794008343449672,
+    "status": "SPECULATION with MATH foundation"
+  },
+  "e7_structure": {
+    "dim": 133,
+    "rank": 7,
+    "fundamental_rep": 56,
+    "alpha_inv": 137.0
+  },
+  "neutrino_data": {
+    "m1": 0.0,
+    "m2_eV": 0.008677557259966655,
+    "m3_eV": 0.05028220361121815,
+    "sum_bound_eV": 0.12,
+    "theta_12_deg": 33.41,
+    "theta_23_deg": 49.0,
+    "theta_13_deg": 8.6
+  },
+  "predictions": {
+    "neutrino_mass_ratio": {
+      "experimental": "5.00e-07",
+      "e7_prediction": "9.51e-07",
+      "formula": "m_\u03bd/m_e ~ \u03b1\u00b2/56 ~ (1/137)\u00b2/56",
+      "agreement": "0.3 orders of magnitude",
+      "status": "MATH + SPECULATION"
+    },
+    "absolute_mass_scale": {
+      "experimental_m3": "0.050 eV",
+      "e7_prediction": "0.000 GeV = 0.486 eV",
+      "formula": "m_\u03bd ~ (\u03b1\u00b2/56) \u00d7 m_e",
+      "status": "SPECULATION"
+    },
+    "majorana_vs_dirac": {
+      "e7_suggests": "Majorana (from \u03bd_R in 56)",
+      "testable_via": "0\u03bd\u03b2\u03b2 decay",
+      "status": "SPECULATION"
+    },
+    "mass_ordering": {
+      "e7_suggests": "Normal ordering (m\u2081 < m\u2082 < m\u2083)",
+      "reason": "Hierarchy from E\u2087 \u2192 E\u2086 \u2192 ... breaking chain",
+      "status": "SPECULATION"
+    },
+    "mixing_angles": {
+      "theta_23": "49.0\u00b0 ~ 2\u03c0/7 \u00d7 180/\u03c0 \u2248 51.4\u00b0",
+      "connection": "E\u2087 rank = 7 \u2192 angles ~2\u03c0/7",
+      "status": "SPECULATION"
+    }
+  },
+  "verification_needed": [
+    "Check E\u2087 \u2192 SO(10) branching rules rigorously",
+    "Verify 56 \u2192 16 + 16\u0304 decomposition",
+    "Calculate Yukawa structure from E\u2087 group theory",
+    "Derive see-saw scale from E\u2087 breaking",
+    "Compare mixing angles to Weyl group structure"
+  ]
+}
