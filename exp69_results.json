@@ -1,0 +1,23 @@
+{
+  "experiment": "exp69_falsification",
+  "timestamp": "2025-12-13T08:29:44.441352",
+  "stance": "ADVERSARIAL",
+  "look_elsewhere": {
+    "total_trials": 2845800,
+    "expected_hits": 9486.0,
+    "conclusion": "Finding 137 is NOT surprising after so many trials"
+  },
+  "alternatives_found": 12,
+  "monte_carlo_p137": 0.0015498330948974725,
+  "failed_predictions": 4,
+  "sedenion_more_accurate": true,
+  "falsification_tests": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5"
+  ],
+  "adversarial_probability": "5-15%",
+  "verdict": "INTRIGUING BUT UNPROVEN - wait for A4 test"
+}

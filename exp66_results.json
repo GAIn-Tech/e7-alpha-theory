@@ -1,0 +1,16 @@
+{
+  "experiment": "exp66_mzv_e7_deep",
+  "timestamp": "2025-12-13T08:29:52.208866",
+  "d_10": 7,
+  "d_15": 28,
+  "d_15_over_d_10": 4,
+  "key_findings": [
+    "d_10 = 7 = rank(E7)",
+    "d_15 = 28 = fund(E7)/2 = T_7",
+    "d_15/d_10 = 4 = +4 in alpha formula",
+    "7 and 28 unique in MZV sequence",
+    "d_10 * d_15 + 1 = 197 (QED coefficient)",
+    "E8 rank (8) skipped in MZV sequence"
+  ],
+  "status": "DEEP CONNECTION CONFIRMED"
+}

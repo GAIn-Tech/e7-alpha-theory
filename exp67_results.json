@@ -1,0 +1,752 @@
+{
+  "experiment": "exp67_bps_number_theory",
+  "timestamp": "2025-12-13T08:29:36.202405",
+  "target": 137,
+  "target_I4": 18769,
+  "minimal_charge": {
+    "Q": [
+      -11,
+      -4,
+      -4,
+      11
+    ],
+    "det": -137,
+    "min_norm": 274,
+    "I4": 18769,
+    "ratio_norm_to_target": 2.0
+  },
+  "pattern_analysis": {
+    "tested_primes": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137,
+      139,
+      149
+    ],
+    "results": [
+      {
+        "p": 11,
+        "is_prime": true,
+        "min_charge": [
+          -3,
+          -2,
+          -1,
+          3
+        ],
+        "min_norm": 23,
+        "det": -11,
+        "ratio_norm_over_p": 2.090909090909091,
+        "ratio_norm_over_2p": 1.0454545454545454
+      },
+      {
+        "p": 13,
+        "is_prime": true,
+        "min_charge": [
+          -3,
+          -2,
+          -2,
+          3
+        ],
+        "min_norm": 26,
+        "det": -13,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 17,
+        "is_prime": true,
+        "min_charge": [
+          -4,
+          -1,
+          -1,
+          4
+        ],
+        "min_norm": 34,
+        "det": -17,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 19,
+        "is_prime": true,
+        "min_charge": [
+          -5,
+          -2,
+          -2,
+          3
+        ],
+        "min_norm": 42,
+        "det": -19,
+        "ratio_norm_over_p": 2.210526315789474,
+        "ratio_norm_over_2p": 1.105263157894737
+      },
+      {
+        "p": 23,
+        "is_prime": true,
+        "min_charge": [
+          -5,
+          -3,
+          -1,
+          4
+        ],
+        "min_norm": 51,
+        "det": -23,
+        "ratio_norm_over_p": 2.217391304347826,
+        "ratio_norm_over_2p": 1.108695652173913
+      },
+      {
+        "p": 29,
+        "is_prime": true,
+        "min_charge": [
+          -5,
+          -2,
+          -2,
+          5
+        ],
+        "min_norm": 58,
+        "det": -29,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 31,
+        "is_prime": true,
+        "min_charge": [
+          -6,
+          -1,
+          -1,
+          5
+        ],
+        "min_norm": 63,
+        "det": -31,
+        "ratio_norm_over_p": 2.032258064516129,
+        "ratio_norm_over_2p": 1.0161290322580645
+      },
+      {
+        "p": 37,
+        "is_prime": true,
+        "min_charge": [
+          -6,
+          -1,
+          -1,
+          6
+        ],
+        "min_norm": 74,
+        "det": -37,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 41,
+        "is_prime": true,
+        "min_charge": [
+          -5,
+          -4,
+          -4,
+          5
+        ],
+        "min_norm": 82,
+        "det": -41,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 43,
+        "is_prime": true,
+        "min_charge": [
+          -7,
+          -1,
+          -1,
+          6
+        ],
+        "min_norm": 87,
+        "det": -43,
+        "ratio_norm_over_p": 2.0232558139534884,
+        "ratio_norm_over_2p": 1.0116279069767442
+      },
+      {
+        "p": 47,
+        "is_prime": true,
+        "min_charge": [
+          -7,
+          -4,
+          -3,
+          5
+        ],
+        "min_norm": 99,
+        "det": -47,
+        "ratio_norm_over_p": 2.106382978723404,
+        "ratio_norm_over_2p": 1.053191489361702
+      },
+      {
+        "p": 53,
+        "is_prime": true,
+        "min_charge": [
+          -7,
+          -2,
+          -2,
+          7
+        ],
+        "min_norm": 106,
+        "det": -53,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 59,
+        "is_prime": true,
+        "min_charge": [
+          -8,
+          -3,
+          -1,
+          7
+        ],
+        "min_norm": 123,
+        "det": -59,
+        "ratio_norm_over_p": 2.0847457627118646,
+        "ratio_norm_over_2p": 1.0423728813559323
+      },
+      {
+        "p": 61,
+        "is_prime": true,
+        "min_charge": [
+          -6,
+          -5,
+          -5,
+          6
+        ],
+        "min_norm": 122,
+        "det": -61,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 67,
+        "is_prime": true,
+        "min_charge": [
+          -7,
+          -5,
+          -5,
+          6
+        ],
+        "min_norm": 135,
+        "det": -67,
+        "ratio_norm_over_p": 2.014925373134328,
+        "ratio_norm_over_2p": 1.007462686567164
+      },
+      {
+        "p": 71,
+        "is_prime": true,
+        "min_charge": [
+          -7,
+          -6,
+          -6,
+          5
+        ],
+        "min_norm": 146,
+        "det": -71,
+        "ratio_norm_over_p": 2.056338028169014,
+        "ratio_norm_over_2p": 1.028169014084507
+      },
+      {
+        "p": 73,
+        "is_prime": true,
+        "min_charge": [
+          -8,
+          -3,
+          -3,
+          8
+        ],
+        "min_norm": 146,
+        "det": -73,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 79,
+        "is_prime": true,
+        "min_charge": [
+          -7,
+          -6,
+          -5,
+          7
+        ],
+        "min_norm": 159,
+        "det": -79,
+        "ratio_norm_over_p": 2.0126582278481013,
+        "ratio_norm_over_2p": 1.0063291139240507
+      },
+      {
+        "p": 83,
+        "is_prime": true,
+        "min_charge": [
+          -9,
+          -2,
+          -1,
+          9
+        ],
+        "min_norm": 167,
+        "det": -83,
+        "ratio_norm_over_p": 2.0120481927710845,
+        "ratio_norm_over_2p": 1.0060240963855422
+      },
+      {
+        "p": 89,
+        "is_prime": true,
+        "min_charge": [
+          -8,
+          -5,
+          -5,
+          8
+        ],
+        "min_norm": 178,
+        "det": -89,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 97,
+        "is_prime": true,
+        "min_charge": [
+          -9,
+          -4,
+          -4,
+          9
+        ],
+        "min_norm": 194,
+        "det": -97,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 101,
+        "is_prime": true,
+        "min_charge": [
+          -10,
+          -1,
+          -1,
+          10
+        ],
+        "min_norm": 202,
+        "det": -101,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 103,
+        "is_prime": true,
+        "min_charge": [
+          -11,
+          -2,
+          -2,
+          9
+        ],
+        "min_norm": 210,
+        "det": -103,
+        "ratio_norm_over_p": 2.0388349514563107,
+        "ratio_norm_over_2p": 1.0194174757281553
+      },
+      {
+        "p": 107,
+        "is_prime": true,
+        "min_charge": [
+          -9,
+          -7,
+          -5,
+          8
+        ],
+        "min_norm": 219,
+        "det": -107,
+        "ratio_norm_over_p": 2.046728971962617,
+        "ratio_norm_over_2p": 1.0233644859813085
+      },
+      {
+        "p": 109,
+        "is_prime": true,
+        "min_charge": [
+          -10,
+          -3,
+          -3,
+          10
+        ],
+        "min_norm": 218,
+        "det": -109,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 113,
+        "is_prime": true,
+        "min_charge": [
+          -8,
+          -7,
+          -7,
+          8
+        ],
+        "min_norm": 226,
+        "det": -113,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 127,
+        "is_prime": true,
+        "min_charge": [
+          -11,
+          -3,
+          -2,
+          11
+        ],
+        "min_norm": 255,
+        "det": -127,
+        "ratio_norm_over_p": 2.0078740157480315,
+        "ratio_norm_over_2p": 1.0039370078740157
+      },
+      {
+        "p": 131,
+        "is_prime": true,
+        "min_charge": [
+          -12,
+          -1,
+          -1,
+          -11
+        ],
+        "min_norm": 267,
+        "det": 131,
+        "ratio_norm_over_p": 2.0381679389312977,
+        "ratio_norm_over_2p": 1.0190839694656488
+      },
+      {
+        "p": 137,
+        "is_prime": true,
+        "min_charge": [
+          -11,
+          -4,
+          -4,
+          11
+        ],
+        "min_norm": 274,
+        "det": -137,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      },
+      {
+        "p": 139,
+        "is_prime": true,
+        "min_charge": [
+          -10,
+          -7,
+          -7,
+          9
+        ],
+        "min_norm": 279,
+        "det": -139,
+        "ratio_norm_over_p": 2.0071942446043165,
+        "ratio_norm_over_2p": 1.0035971223021583
+      },
+      {
+        "p": 149,
+        "is_prime": true,
+        "min_charge": [
+          -10,
+          -7,
+          -7,
+          10
+        ],
+        "min_norm": 298,
+        "det": -149,
+        "ratio_norm_over_p": 2.0,
+        "ratio_norm_over_2p": 1.0
+      }
+    ],
+    "avg_ratio_norm_over_2p": 1.0161328915415544,
+    "min_ratio": 1.0,
+    "max_ratio": 1.108695652173913
+  },
+  "charge_structure": {
+    "noted_Q": {
+      "charge": {
+        "p0": 2,
+        "p1": 11,
+        "q0": 13,
+        "q1": 3
+      },
+      "coordinates": [
+        2,
+        11,
+        13,
+        3
+      ],
+      "absolute_coordinates": [
+        2,
+        11,
+        13,
+        3
+      ],
+      "det": -137,
+      "norm_squared": 303,
+      "is_primitive": true,
+      "coordinate_primality": {
+        "2": true,
+        "11": true,
+        "13": true,
+        "3": true
+      },
+      "all_nonzero_prime": true,
+      "coordinate_sum": 29,
+      "sum_is_prime": true,
+      "coordinate_product": 858,
+      "product_factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "sum_minus_det": -108,
+      "product_over_det": 6.262773722627737
+    },
+    "minimal_Q": {
+      "charge": {
+        "p0": -11,
+        "p1": -4,
+        "q0": -4,
+        "q1": 11
+      },
+      "coordinates": [
+        -11,
+        -4,
+        -4,
+        11
+      ],
+      "absolute_coordinates": [
+        11,
+        4,
+        4,
+        11
+      ],
+      "det": -137,
+      "norm_squared": 274,
+      "is_primitive": true,
+      "coordinate_primality": {
+        "11": true,
+        "4": false
+      },
+      "all_nonzero_prime": false,
+      "coordinate_sum": 30,
+      "sum_is_prime": false,
+      "coordinate_product": 1936,
+      "product_factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "sum_minus_det": -107,
+      "product_over_det": 14.13138686131387
+    },
+    "prime_coordinate_charges": 224,
+    "minimal_prime_charge": "Q(2, 11, 13, 3)"
+  },
+  "attractor_analysis": {
+    "tau_i_charges": {
+      "target": 137,
+      "charges_with_tau_i": [
+        {
+          "p0": -11,
+          "p1": -4,
+          "q0": -4,
+          "q1": 11
+        },
+        {
+          "p0": -11,
+          "p1": 4,
+          "q0": 4,
+          "q1": 11
+        },
+        {
+          "p0": -4,
+          "p1": -11,
+          "q0": -11,
+          "q1": 4
+        },
+        {
+          "p0": -4,
+          "p1": 11,
+          "q0": 11,
+          "q1": 4
+        },
+        {
+          "p0": 4,
+          "p1": -11,
+          "q0": -11,
+          "q1": -4
+        },
+        {
+          "p0": 4,
+          "p1": 11,
+          "q0": 11,
+          "q1": -4
+        },
+        {
+          "p0": 11,
+          "p1": -4,
+          "q0": -4,
+          "q1": -11
+        },
+        {
+          "p0": 11,
+          "p1": 4,
+          "q0": 4,
+          "q1": -11
+        }
+      ],
+      "count": 8,
+      "condition_for_tau_i": "p0 = -q1 and p1 = q0",
+      "interpretation": "S-symmetric charges have tau = i attractor"
+    },
+    "minimal_attractor": {
+      "charge": {
+        "p0": -11,
+        "p1": -4,
+        "q0": -4,
+        "q1": 11
+      },
+      "det": -137,
+      "tau_approx": {
+        "real": 0.0,
+        "imag": 1.0
+      },
+      "nearest_special_point": "i",
+      "distance_to_nearest": 0.0,
+      "j_invariant": {
+        "real": 537.7185820900461,
+        "imag": 0.0
+      },
+      "j_at_i": 1728,
+      "is_near_i": true
+    },
+    "j_at_i": 1728
+  },
+  "orbit_structure": {
+    "target": 137,
+    "positive_count": 7288,
+    "negative_count": 7288,
+    "minimal_positive": {
+      "p0": -11,
+      "p1": -4,
+      "q0": 4,
+      "q1": -11
+    },
+    "minimal_negative": {
+      "p0": -11,
+      "p1": -4,
+      "q0": -4,
+      "q1": 11
+    },
+    "total_primitive": 14576
+  },
+  "stabilizer": {
+    "charge": {
+      "p0": -11,
+      "p1": -4,
+      "q0": -4,
+      "q1": 11
+    },
+    "p_vector": [
+      -11,
+      -4
+    ],
+    "q_vector": [
+      -4,
+      11
+    ],
+    "det": -137,
+    "stabilizer_elements": [
+      [
+        "I",
+        "I"
+      ]
+    ],
+    "p_fixed_by_S": false,
+    "q_fixed_by_S": false,
+    "stabilizer_size": 1
+  },
+  "e7_connection": {
+    "dim": 133,
+    "rank": 7,
+    "fund_dim": 56,
+    "roots": 126,
+    "weyl_order": 2903040,
+    "min_root_norm": 2,
+    "dual_coxeter": 18,
+    "alpha_inv": 137,
+    "min_norm_137": 274,
+    "min_norm_over_alpha_inv": 2.0
+  },
+  "physics": {
+    "charge": {
+      "p0": -11,
+      "p1": -4,
+      "q0": -4,
+      "q1": 11
+    },
+    "det": -137,
+    "I4": 18769,
+    "entropy": 430.3981935418017,
+    "entropy_over_pi": 137.0,
+    "mass_squared_approx": 137.0,
+    "angular_momentum": 0,
+    "horizon_area": 1721.5927741672067,
+    "temperature": 0,
+    "is_extremal": true,
+    "log10_microstates": 186.91956047633224,
+    "brane_interpretation": {
+      "D0": -11,
+      "D2": -4,
+      "D6": -4,
+      "D4": 11
+    }
+  }
+}

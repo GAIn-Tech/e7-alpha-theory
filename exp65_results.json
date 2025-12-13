@@ -1,0 +1,23 @@
+{
+  "experiment": "exp65_weinberg_derivation",
+  "timestamp": "2025-12-13T08:30:52.580052",
+  "key_result": {
+    "formula": "sin^2(theta_W) = 3/F_{rank(E7)} = 3/F_7 = 3/13",
+    "predicted": 0.23076923076923078,
+    "experimental": 0.23122,
+    "error_percent": 0.19495252606574986,
+    "sigma": 15.025641025640894
+  },
+  "e7_properties": {
+    "rank": 7,
+    "fibonacci_7": 13,
+    "dim": 133,
+    "fund": 56
+  },
+  "connections": {
+    "alpha_inv": "137 = dim(E7) + fund(E7)/(2*rank(E7))",
+    "sin2_w": "3/13 = 3/F_{rank(E7)}",
+    "phi_connection": "phi^4 ~ 137/13"
+  },
+  "status": "numerical_coincidence_remarkable_derivation_incomplete"
+}
