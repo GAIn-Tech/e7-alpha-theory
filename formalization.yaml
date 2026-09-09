@@ -1,0 +1,30 @@
+schema: e7-alpha-formalization-v1
+status: audited_hypothesis_not_physical_derivation
+style_reference:
+  - https://openai.com/index/ten-advances-in-mathematics
+  - https://openai.com/index/formal-math
+  - https://openai.com/index/first-proof-submissions
+claims:
+  e7_arithmetic_identity:
+    statement: dim(E7) + fund(E7)/(2*rank(E7)) = 137
+    status: exact_arithmetic
+    checker:
+      - release/openai-style/numerical_certificate.py
+      - E7Alpha.lean
+  alpha_inverse_equals_137:
+    statement: physical fine-structure inverse equals 137 exactly
+    status: rejected_at_codata_scale
+    checker:
+      - release/openai-style/numerical_certificate.py
+  exploratory_repository_claims:
+    statement: additional E7 physics/speculation files in this repository
+    status: unpromoted_exploratory_until_independently_checked
+trust_boundaries:
+  lean: proves formal statements under definitions and assumptions
+  python: exact rational arithmetic for numeric certificate
+  prose: non-authoritative explanation only
+required_gates:
+  - python release/openai-style/numerical_certificate.py > release/openai-style/certificate-fresh.json
+  - python -m pytest tests/test_release_certificate.py -q
+optional_gates:
+  - lake env lean E7Alpha.lean
