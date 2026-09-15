@@ -1,0 +1,29 @@
+{
+  "interpreter": "C:/Python313/python.exe",
+  "scope": "Frozen release sources, exact payloads and read-only predecessor inputs. Historical failed-control snapshot is provenance, not executed by verify.py.",
+  "sha256": {
+    "../tian-yau-bundle-coupling-gate/geometry.json": "1246dbd09c95297e79fa5d24d0ba7a5abd9d45882de12ffc4168ba150e98a198",
+    "../tian-yau-neutral-d2-gate/partial_chains.py": "191aa808af6a46cf9c4d923e41f9d2fb2695727356fc02835276157e5b257351",
+    "../tian-yau-neutral-d2-gate/total_cech.py": "b37917b4511ae519b948adae03c2ca592bd115b460bc52e6ada54e29fcb2749b",
+    "../tian-yau-neutral-d2-gate/try_d2.py": "7a9931b1b183f9fc57ea2f068ae1b262a996cf4275531c328f74df9cf8c12914",
+    "../tian-yau-neutral-d4-gate/compute.py": "ee878a85611a93929f7eccffd0c36d5998279f83866af1030162d7aa021686ef",
+    "../tian-yau-neutral-d4-gate/d4-chains.json": "ff97c93f893d2164011e0381613a29a83013ea74d022b84bba9b15ca6599ad34",
+    "../tian-yau-neutral-d4-gate/native-replay-status.json": "8986939f13c10d82de1e07be91a2e2b60c064e9fc1c7809a512dde949e53654a",
+    "../tian-yau-neutral-d4-gate/receipt.json": "fd17ac76776d89312a21c6c4ba7870185c11ed877212e41d5dcfddb7a299d71e",
+    "../tian-yau-neutral-d4-gate/verify.py": "4e5d5a5aa270c75c75ddbe952cd736676e90d6d623813dacb7d2def69bf103d3",
+    "../tian-yau-survivor-yoneda-gate/exact_audit.py": "18448b95bb0675d3daac79ddc823155d0deef2faa9a3699943ecb2609dd00a06",
+    "../tian-yau-wilson-line-gate/interactions.py": "6935331db1d9008382c92434ce54732879b602380375021306e482ffa8921f56",
+    "MATHEMATICS.md": "b8ba475a6ff2c50ac005f8eebd074e2906d635330682f9bbac184d5943e7c99b",
+    "REPORT.md": "c29038ff31dac427c8bead3fdc776e13b9736644a45f33ac3c3fc6d8d8edfc0f",
+    "final-controls-initial-failed.py": "a67a81b39e9fc723994c967b705e999aa2b90a9dc6c40114f956fc8cd7a52495",
+    "final-controls.json": "1369ea27caf88ad0c94c8f7d8bfab863724bb0354d2e63d7bb10b14c9177b117",
+    "final_controls.py": "585a7079bc9b04270f271d942d1486913a2e1777c7170d2f64f110263d3dab5c",
+    "module-action.json": "f1f51a94dd5e54e438d2de3b9dc11c62a88f782cd26e11ac81e3cbddce5e6a7e",
+    "module_action.py": "36df96e95ddf8a86568e09f9bae0747e1f1660b915be90b95c0f8a2828adf0ee",
+    "native_replay.py": "8c78b5319c35db77581fdabb9c39b6e9be324779df555147595baead3c52829c",
+    "serre-tensor.json": "1c306fc44846b44650dad96e0eb8fa027a59eb56def4af3d4c576c9bb540a1cd",
+    "serre_pairing.py": "9465ddc12b0b4d90de10fbd9ccc3e52e939595f72a17d4cba804835f2ad0ec4a",
+    "verify.py": "3ca99385ba2f3aae1c68cabde124a976895b1340f72ee98a6fd941df7173cec7"
+  },
+  "sympy": "1.13.3"
+}

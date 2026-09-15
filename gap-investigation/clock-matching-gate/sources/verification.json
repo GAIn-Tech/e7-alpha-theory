@@ -1,0 +1,95 @@
+{
+  "native_python": "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+  "canonical_directory": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\clock-matching-gate\\sources",
+  "all_receipt_hashes_verified": true,
+  "all_quotes_exact_pdf_page_substrings": true,
+  "pdf_count": 4,
+  "quotation_count": 9,
+  "files": [
+    {
+      "name": "1007.2792.pdf",
+      "bytes": 442399,
+      "sha256": "4159cd5c6bbac301acd3bffd06e47e659709e3545a5b68302f34150a11a46e28"
+    },
+    {
+      "name": "1007.2792.reading-order.txt",
+      "bytes": 107496,
+      "sha256": "f8214a999cc7758c9198c444292f259e445067560bce214a3a23457cf9f8de7e"
+    },
+    {
+      "name": "1007.2792.txt",
+      "bytes": 123780,
+      "sha256": "207a3d33994d58add1684c25a7c1bff2fe675d4a8bfd420c311a3a2794e3bd79"
+    },
+    {
+      "name": "1011.2927.pdf",
+      "bytes": 398561,
+      "sha256": "82d40233c1e5c2e4d0809ae46646c8f86f545fb12daea8890be8f9c034a032f2"
+    },
+    {
+      "name": "1011.2927.reading-order.txt",
+      "bytes": 80040,
+      "sha256": "d0ac62ba49b4eac3f69e3568fff13753f0ae9d8d31b57a773678d5975005b87e"
+    },
+    {
+      "name": "1011.2927.txt",
+      "bytes": 103610,
+      "sha256": "f9246dd2f953745680f105851f5e32d68781e3a9dd4e9706e5a778bc97ad38c2"
+    },
+    {
+      "name": "1405.2925.pdf",
+      "bytes": 3726094,
+      "sha256": "549bee24d334389d2b7a875c72774e63f13bfb5cde7b09e94abce80dc1a07a96"
+    },
+    {
+      "name": "1405.2925.reading-order.txt",
+      "bytes": 83228,
+      "sha256": "ed556bde2a85eca52f47655562b45627d2a6545e276233b970821eac14b4d077"
+    },
+    {
+      "name": "1405.2925.txt",
+      "bytes": 115174,
+      "sha256": "641544418743c32567d62ed380ad9218cce1fad9fc3ed77a49875e16bea8ada8"
+    },
+    {
+      "name": "1503.06886.pdf",
+      "bytes": 5070742,
+      "sha256": "ef9ebb067d9ca374a55366f07a9494b5e491c5977823764982f9b9f072699fe5"
+    },
+    {
+      "name": "1503.06886.reading-order.txt",
+      "bytes": 27321,
+      "sha256": "7b6461fe04dffdfb1324ab34d9af46629d3de3c623ba60c8a85cbda28139a04e"
+    },
+    {
+      "name": "1503.06886.txt",
+      "bytes": 37356,
+      "sha256": "7f8d97cbfd69b6a24f2963e06cc14d744d19eddd9c6538593ae7133b02dea68c"
+    },
+    {
+      "name": "citation-ledger.json",
+      "bytes": 3704,
+      "sha256": "67d273a110dd3f2a13721c5c49358d80b95ff1b069db3eba266267cfea5fb05a"
+    },
+    {
+      "name": "evidence-notes.md",
+      "bytes": 6065,
+      "sha256": "cf045581aeee04847a6e8f026c5580325acf4768dd07c6913f0bde5954da9729"
+    },
+    {
+      "name": "quotation-evidence.json",
+      "bytes": 17010,
+      "sha256": "ee2aa4a7794be6c4da83d02f96ae90062dac8eb4aa3f12e12b6a338515366e7a"
+    },
+    {
+      "name": "retain-verification.py",
+      "bytes": 7506,
+      "sha256": "d421c591c21014b646b2931f8b65e93142832319b50f6fd2ea2a2e9ce2d4cb52"
+    },
+    {
+      "name": "source-receipts.json",
+      "bytes": 4272,
+      "sha256": "f95d9641f0323e1b806cb8beeb11cd7bc70d9004670f24027192d9a2f45676ee"
+    }
+  ]
+}

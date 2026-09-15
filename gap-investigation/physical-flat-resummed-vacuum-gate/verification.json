@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "executions": [
+    {
+      "script": "calculate.py",
+      "exit_code": 0,
+      "stdout_sha256": "12365378a8ba53be0a53ab2fd4df0733d48b12d505f8146bb8acf89593900715",
+      "stderr": ""
+    },
+    {
+      "script": "gauge_soft.py",
+      "exit_code": 0,
+      "stdout_sha256": "e9c89a8f7bd451944b10449a6806f9394b62ec91da8c9c15bc37a979610ef8eb",
+      "stderr": ""
+    },
+    {
+      "control": "missing_receipt_fails_closed",
+      "exit_code": 1
+    }
+  ],
+  "tampered_matrix_hash_rejected": true,
+  "claim_boundary": "Native deterministic calculation replays only; see REPORT.md for physical scope."
+}

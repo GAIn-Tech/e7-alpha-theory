@@ -1,0 +1,1826 @@
+{
+  "passed": true,
+  "claim_boundary": "Conditional necessary perturbative diagnostics only; not certified physical pole/width, full resummed vacuum, error enclosure, or compactification prediction.",
+  "verifier_sha256": "142ab2432b4d44b7b1774d71e1097c99fae4011380f332e59c31084ca0b8cdf0",
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-convergence-gate\\manifest.json": "437ae7e18919758901c329c8d8adc04a0a36441ae6be56cca54e1898547a700c",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-convergence-gate\\receipt.json": "b13043f7e49a973d2d4821688226b976c00e3fdb82ec7cc12a847a76a79bac7e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-convergence-gate\\RELEASE_DISCLOSURE.md": "52a7ed99719dc6e4b267b47933b01c1513fd7a9d22ee71c6ae97d53f79024a46",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-convergence-gate\\REPORT.md": "04c0906175f705550766aa3ad6e909f397ba2ccd31a294b8ffb780b99f6590e2",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-convergence-gate\\run_checks.py": "b495edc13a0916aab77888c234d9399d86c73aefd5173affb12ecfc2b26b0c43",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-convergence-gate\\verify.py": "60510b3b00dbd70bc2aa3217cf90b6f2c9f10b7c5fe8527c1f9078a6ed9cc006",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\calculation.py": "e61099a0ef5366d657027d1c6c309d31669f89d441828cb637fb20d39b383e5e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\finite-momentum-receipt.json": "2d266edf6a9caa7d0905ed4788d72114fd93c4430b24b83f4eaff4bbe7a4def4",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\finite_momentum.py": "7b36f93d2a4dd1f9e26e0c621a3be102e8326bf82cc5639587a954630e6608a9",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\integral_probe.py": "8d89e37009aff9a3d29d56d9f7b50f647f68d799e4a58785eb85e9d0b95ca269",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\recovery-audit.json": "77cd230e35af63b570abc753802f4a91e1213123bec6ae803789c4825cd43418",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\recovery-tensors.npz": "3fed363fa1a63789c68129999eafbe50d6ee00e50d8fb146cdc80a2c462dac80",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\recovery_audit.py": "a68f1b877ada00088d8f7d52afc47efae43f9ee2a9eef6d750cd031c56154b91",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\RELEASE_DISCLOSURE.md": "8c00fd4548988e7a44d9d5ae0e2ed99510946012b4a9a05960265356470514de",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\REPORT.md": "8edbe72354c525268cb5911acfa1f99915723c023ca08a5d99be5a09ab2ec540",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\run_checks.py": "ca3fd046743ba05b8a80fb489cd0de298e51192ffda140c15fafc3557fc06c6d",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\verification.json": "45ef448be90c2c7cf31764889bfe4bacc413aec2e8bdca5b74b35bf44656ad2f",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\development_symbolic_receipt.json": "41b18e770e9aef913318a54db5f4c4b26046874a32ac8d11492315a0610fcdf0",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\development_symbolic_receipt_v2.json": "359a850a0f760a3263e87a291ae63e9218ea2d3d4c29da967f125f24aae88a2e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\lean_environment.json": "5aae68aab5b95e38692c072536d2cac6be7067213bd9b6a546f846ee36e59e65",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\RELEASE_DISCLOSURE.md": "1476897d062704c6e6fda881c97077808a14315063479fbc2a124df65056486d",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\REPORT.md": "e266a7d61ee3dba933ed3ae446d086eee15f7602950c15f692cdf15e6fa0f97e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\run_checks.py": "2ac51f24a82188539dd96ae0d7d0cc9fe755781a379644e7c1630d0ef515be52",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\symbolic_certificate.py": "6104dbbfbad4037c0dadc262068e633e349990ba69cfc817e77da890015246a5",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\symbolic_receipt.json": "197bdcebf7c08334ff65b81a5893e55b07906ad1a4de00358a4d75dca12f8c36",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\tensor_hypotheses.py": "a1203881d5b21b9e2be9cbcf635058e33f673d4712ce31dfa851e7171bf1540d",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\tensor_receipt.json": "cdc78a3e8af050db736947f4abdc3f71dcef7bed180a803500c2e6e5af0052c5",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\verification.json": "5bfe4db407508803c8e8f9c5d536cdbff289eb00bd336221d5146fbdb6026efb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\development-receipt-leading-only.json": "2ea724bee7f9cf76c70822d42485a9716f6849fcc402584a400531b28aacc65e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\RELEASE_DISCLOSURE.md": "58e75bb8050ac3fe772f8d6efe96cae448ae41810ed2d6076c7bb62df964623a",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\REPORT.md": "0da41847227e2a62b4a38d911e827b03b092501ce6ba37422fa6afa5fa77485c",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\run_checks.py": "38685e477006b31bfc90967d1b79646c07fd5c2bcd441ced3592997791a9999a",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\verification.json": "324be09f2a05fc03b4e49f9a4ce64f6dcaa9957cff6ad9376fdbae8e046e4115",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-gate\\calculation.py": "5d4a82d90a505595c2c6cefe0771e36faa49135d08d2b9623538fcf9e4a00307"
+  },
+  "mpmath_dps": 45,
+  "derivative_units": "Pi_prime(s0)=epsilon * dimensionless_coefficient; Q2 fixed at epsilon M2 during derivative",
+  "derivative": {
+    "scalar": {
+      "real": 17.15080039872068,
+      "imag": -0.011554862360233962
+    },
+    "vector": {
+      "real": 0.0024902685063255972,
+      "imag": -6.988634911698206e-05
+    },
+    "mixed": {
+      "real": -1.8311520389056872,
+      "imag": 0.7161900083237385
+    },
+    "total_Landau": {
+      "real": 15.322138628321317,
+      "imag": 0.7045652596143875
+    },
+    "independent_adaptive_five_point": [
+      {
+        "step": "0.01",
+        "value": {
+          "real": 15.322138628321317,
+          "imag": 0.7045652596143875
+        },
+        "abs_error": 4.0695889375794044e-22
+      },
+      {
+        "step": "0.005",
+        "value": {
+          "real": 15.322138628321317,
+          "imag": 0.7045652596143875
+        },
+        "abs_error": 2.543493085950584e-23
+      }
+    ]
+  },
+  "coefficient": {
+    "real": 505145.09996121324,
+    "imag": -235147.46524822008
+  },
+  "scalar_shells": [
+    {
+      "m2": 0.0,
+      "multiplicity": 78
+    },
+    {
+      "m2": 1.0000000000006422,
+      "multiplicity": 3
+    },
+    {
+      "m2": 1.5000000000003542,
+      "multiplicity": 24
+    },
+    {
+      "m2": 1.666666666667276,
+      "multiplicity": 1
+    },
+    {
+      "m2": 2.0000000000000044,
+      "multiplicity": 2
+    },
+    {
+      "m2": 4.000000000000006,
+      "multiplicity": 33
+    },
+    {
+      "m2": 5.000000000000204,
+      "multiplicity": 6
+    },
+    {
+      "m2": 9.000000000000044,
+      "multiplicity": 20
+    },
+    {
+      "m2": 10.000000000000103,
+      "multiplicity": 4
+    },
+    {
+      "m2": 16.49999999999997,
+      "multiplicity": 12
+    },
+    {
+      "m2": 36.500000000000014,
+      "multiplicity": 4
+    },
+    {
+      "m2": 4320.000000000004,
+      "multiplicity": 1
+    }
+  ],
+  "vector_shells": [
+    {
+      "m2": 0.0,
+      "multiplicity": 12
+    },
+    {
+      "m2": 0.8619521939629209,
+      "multiplicity": 1
+    },
+    {
+      "m2": 1.0000000000000007,
+      "multiplicity": 3
+    },
+    {
+      "m2": 1.5000000000000018,
+      "multiplicity": 24
+    },
+    {
+      "m2": 5.000000000000009,
+      "multiplicity": 6
+    },
+    {
+      "m2": 10.0,
+      "multiplicity": 4
+    },
+    {
+      "m2": 16.5,
+      "multiplicity": 12
+    },
+    {
+      "m2": 25.000000000000018,
+      "multiplicity": 12
+    },
+    {
+      "m2": 34.80471447270375,
+      "multiplicity": 1
+    },
+    {
+      "m2": 36.50000000000003,
+      "multiplicity": 4
+    }
+  ],
+  "physical_flats": 11,
+  "Goldstones": 67,
+  "scalar_channels": [
+    {
+      "a": 0.0,
+      "b": 0.0,
+      "weight": 3421440.0,
+      "types": [
+        "physical_flat",
+        "physical_flat"
+      ],
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "a": 0.0,
+      "b": 0.0,
+      "weight": 13972406.623277288,
+      "types": [
+        "Goldstone",
+        "Goldstone"
+      ],
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "a": 0.0,
+      "b": 1.5000000000003542,
+      "weight": 3315456.400002945,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 1.5000000000003542,
+      "distance": 4318.5
+    },
+    {
+      "a": 0.0,
+      "b": 5.000000000000204,
+      "weight": 595815.2000001956,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 5.000000000000204,
+      "distance": 4315.0
+    },
+    {
+      "a": 0.0,
+      "b": 10.000000000000103,
+      "weight": 222913.2000000414,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 10.000000000000103,
+      "distance": 4310.0
+    },
+    {
+      "a": 0.0,
+      "b": 16.49999999999997,
+      "weight": 217683.59669424343,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 16.49999999999997,
+      "distance": 4303.5
+    },
+    {
+      "a": 0.0,
+      "b": 36.500000000000014,
+      "weight": 33053.926365173545,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 36.500000000000014,
+      "distance": 4283.5
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 1.0000000000006422,
+      "weight": 933120.0000000024,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4.000000000002569,
+      "distance": 4315.999999999997
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 1.5000000000003542,
+      "weight": 831745.6000014737,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 6.000000000001417,
+      "distance": 4313.999999999998
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 1.666666666667276,
+      "weight": 311040.00000000035,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 6.666666666669104,
+      "distance": 4313.333333333331
+    },
+    {
+      "a": 4.000000000000006,
+      "b": 4.000000000000006,
+      "weight": 32.000000000000014,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 16.000000000000025,
+      "distance": 4304.0
+    },
+    {
+      "a": 5.000000000000204,
+      "b": 5.000000000000204,
+      "weight": 76038.4000000493,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 20.000000000000817,
+      "distance": 4299.999999999999
+    },
+    {
+      "a": 9.000000000000044,
+      "b": 9.000000000000044,
+      "weight": 108.00000000000017,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 36.00000000000018,
+      "distance": 4284.0
+    },
+    {
+      "a": 10.000000000000103,
+      "b": 10.000000000000103,
+      "weight": 13500.000000004788,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 40.00000000000041,
+      "distance": 4280.0
+    },
+    {
+      "a": 16.49999999999997,
+      "b": 16.49999999999997,
+      "weight": 5307.8743801664,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 65.99999999999989,
+      "distance": 4254.0
+    },
+    {
+      "a": 36.500000000000014,
+      "b": 36.500000000000014,
+      "weight": 1147.17928316763,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 146.00000000000006,
+      "distance": 4174.0
+    },
+    {
+      "a": 4320.000000000004,
+      "b": 4320.000000000004,
+      "weight": 2799360.0000000023,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 17280.000000000015,
+      "distance": 12960.000000000015
+    }
+  ],
+  "VV_channels": [
+    {
+      "a": 1.5000000000000018,
+      "b": 1.5000000000000018,
+      "weight": 1.6000000000000045,
+      "threshold": 6.000000000000007,
+      "distance": 4314.0
+    },
+    {
+      "a": 5.000000000000009,
+      "b": 5.000000000000009,
+      "weight": 6.4000000000000234,
+      "threshold": 20.000000000000036,
+      "distance": 4300.0
+    },
+    {
+      "a": 10.0,
+      "b": 10.0,
+      "weight": 21.599999999999994,
+      "threshold": 40.0,
+      "distance": 4280.0
+    },
+    {
+      "a": 16.5,
+      "b": 16.5,
+      "weight": 204.79999999999993,
+      "threshold": 66.0,
+      "distance": 4254.0
+    },
+    {
+      "a": 25.000000000000018,
+      "b": 25.000000000000018,
+      "weight": 500.0000000000004,
+      "threshold": 100.00000000000007,
+      "distance": 4220.0
+    },
+    {
+      "a": 36.50000000000003,
+      "b": 36.50000000000003,
+      "weight": 345.6000000000004,
+      "threshold": 146.0000000000001,
+      "distance": 4174.0
+    }
+  ],
+  "SV_channels": [
+    {
+      "a": 0.0,
+      "b": 1.5000000000000018,
+      "weight": 0.26666666666666716,
+      "scalar_type": "Goldstone",
+      "threshold": 1.5000000000000018,
+      "distance": 4318.5
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 1.5000000000000018,
+      "weight": 0.1333333333334518,
+      "scalar_type": "physical_massive",
+      "threshold": 6.000000000000711,
+      "distance": 4313.999999999999
+    },
+    {
+      "a": 0.0,
+      "b": 5.000000000000009,
+      "weight": 0.3200000000000006,
+      "scalar_type": "Goldstone",
+      "threshold": 5.000000000000009,
+      "distance": 4315.0
+    },
+    {
+      "a": 5.000000000000204,
+      "b": 5.000000000000009,
+      "weight": 0.08000000000002631,
+      "scalar_type": "physical_massive",
+      "threshold": 20.000000000000426,
+      "distance": 4300.0
+    },
+    {
+      "a": 0.0,
+      "b": 10.0,
+      "weight": 0.5399999999999998,
+      "scalar_type": "Goldstone",
+      "threshold": 10.0,
+      "distance": 4310.0
+    },
+    {
+      "a": 10.000000000000103,
+      "b": 10.0,
+      "weight": 0.06000000000001107,
+      "scalar_type": "physical_massive",
+      "threshold": 40.000000000000206,
+      "distance": 4280.0
+    },
+    {
+      "a": 0.0,
+      "b": 16.5,
+      "weight": 3.1030303030303017,
+      "scalar_type": "Goldstone",
+      "threshold": 16.5,
+      "distance": 4303.5
+    },
+    {
+      "a": 16.49999999999997,
+      "b": 16.5,
+      "weight": 0.09696969696970957,
+      "scalar_type": "physical_massive",
+      "threshold": 65.99999999999994,
+      "distance": 4254.0
+    },
+    {
+      "a": 0.0,
+      "b": 25.000000000000018,
+      "weight": 5.000000000000001,
+      "scalar_type": "Goldstone",
+      "threshold": 25.000000000000018,
+      "distance": 4295.0
+    },
+    {
+      "a": 0.0,
+      "b": 36.50000000000003,
+      "weight": 2.367123287671234,
+      "scalar_type": "Goldstone",
+      "threshold": 36.50000000000003,
+      "distance": 4283.5
+    },
+    {
+      "a": 36.500000000000014,
+      "b": 36.50000000000003,
+      "weight": 0.032876712328768945,
+      "scalar_type": "physical_massive",
+      "threshold": 146.00000000000009,
+      "distance": 4174.0
+    }
+  ],
+  "Landau_projector_thresholds": [
+    {
+      "sector": "VV_projector",
+      "a": 1.5000000000000018,
+      "b": 0.0,
+      "threshold": 1.5000000000000018,
+      "distance": 4318.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 1.5000000000000018,
+      "threshold": 1.5000000000000018,
+      "distance": 4318.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 1.5000000000003542,
+      "b": 0.0,
+      "threshold": 1.5000000000003542,
+      "distance": 4318.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 5.000000000000009,
+      "b": 0.0,
+      "threshold": 5.000000000000009,
+      "distance": 4315.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 5.000000000000009,
+      "threshold": 5.000000000000009,
+      "distance": 4315.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 5.000000000000204,
+      "b": 0.0,
+      "threshold": 5.000000000000204,
+      "distance": 4315.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 10.0,
+      "b": 0.0,
+      "threshold": 10.0,
+      "distance": 4310.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 10.0,
+      "threshold": 10.0,
+      "distance": 4310.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 10.000000000000103,
+      "b": 0.0,
+      "threshold": 10.000000000000103,
+      "distance": 4310.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 16.5,
+      "b": 0.0,
+      "threshold": 16.5,
+      "distance": 4303.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 16.5,
+      "threshold": 16.5,
+      "distance": 4303.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 16.49999999999997,
+      "b": 0.0,
+      "threshold": 16.49999999999997,
+      "distance": 4303.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 25.000000000000018,
+      "b": 0.0,
+      "threshold": 25.000000000000018,
+      "distance": 4295.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 25.000000000000018,
+      "threshold": 25.000000000000018,
+      "distance": 4295.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "VV_projector",
+      "a": 36.50000000000003,
+      "b": 0.0,
+      "threshold": 36.50000000000003,
+      "distance": 4283.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 36.50000000000003,
+      "threshold": 36.50000000000003,
+      "distance": 4283.5
+    },
+    {
+      "sector": "VV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 0.0,
+      "b": 0.0,
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "sector": "SV_projector",
+      "a": 36.500000000000014,
+      "b": 0.0,
+      "threshold": 36.500000000000014,
+      "distance": 4283.5
+    }
+  ],
+  "inactive_scalar_channels": [
+    {
+      "a": 0.0,
+      "b": 0.0,
+      "weight": 1.0698373362174367e-22,
+      "types": [
+        "physical_flat",
+        "Goldstone"
+      ],
+      "threshold": 0.0,
+      "distance": 4320.0
+    },
+    {
+      "a": 0.0,
+      "b": 1.0000000000006422,
+      "weight": 9.88764448163702e-21,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 1.0000000000006422,
+      "distance": 4318.999999999999
+    },
+    {
+      "a": 0.0,
+      "b": 1.5000000000003542,
+      "weight": 3.800351475872326e-22,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 1.5000000000003542,
+      "distance": 4318.5
+    },
+    {
+      "a": 0.0,
+      "b": 1.666666666667276,
+      "weight": 6.412265334419857e-24,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 1.666666666667276,
+      "distance": 4318.333333333333
+    },
+    {
+      "a": 0.0,
+      "b": 2.0000000000000044,
+      "weight": 8.128465931325065e-29,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 2.0000000000000044,
+      "distance": 4318.0
+    },
+    {
+      "a": 0.0,
+      "b": 4.000000000000006,
+      "weight": 2.6996184272089377e-22,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 4.000000000000006,
+      "distance": 4316.0
+    },
+    {
+      "a": 0.0,
+      "b": 5.000000000000204,
+      "weight": 1.6658344639850373e-25,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 5.000000000000204,
+      "distance": 4315.0
+    },
+    {
+      "a": 0.0,
+      "b": 9.000000000000044,
+      "weight": 3.482078316107231e-24,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 9.000000000000044,
+      "distance": 4311.0
+    },
+    {
+      "a": 0.0,
+      "b": 10.000000000000103,
+      "weight": 1.6141823613399522e-24,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 10.000000000000103,
+      "distance": 4310.0
+    },
+    {
+      "a": 0.0,
+      "b": 16.49999999999997,
+      "weight": 2.6563672563451893e-22,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 16.49999999999997,
+      "distance": 4303.5
+    },
+    {
+      "a": 0.0,
+      "b": 36.500000000000014,
+      "weight": 5.21350649351055e-27,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 36.500000000000014,
+      "distance": 4283.5
+    },
+    {
+      "a": 0.0,
+      "b": 4320.000000000004,
+      "weight": 2.5849394142282115e-26,
+      "types": [
+        "physical_flat",
+        "physical_massive"
+      ],
+      "threshold": 4320.000000000004,
+      "distance": 3.637978807091713e-12
+    },
+    {
+      "a": 0.0,
+      "b": 1.0000000000006422,
+      "weight": 3.2395421642712446e-19,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 1.0000000000006422,
+      "distance": 4318.999999999999
+    },
+    {
+      "a": 0.0,
+      "b": 1.666666666667276,
+      "weight": 1.0012777781773025e-24,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 1.666666666667276,
+      "distance": 4318.333333333333
+    },
+    {
+      "a": 0.0,
+      "b": 2.0000000000000044,
+      "weight": 1.5311463631091502e-21,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 2.0000000000000044,
+      "distance": 4318.0
+    },
+    {
+      "a": 0.0,
+      "b": 4.000000000000006,
+      "weight": 7.923382081463318e-20,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 4.000000000000006,
+      "distance": 4316.0
+    },
+    {
+      "a": 0.0,
+      "b": 9.000000000000044,
+      "weight": 1.9887781059564004e-20,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 9.000000000000044,
+      "distance": 4311.0
+    },
+    {
+      "a": 0.0,
+      "b": 4320.000000000004,
+      "weight": 4.911079766525466e-34,
+      "types": [
+        "Goldstone",
+        "physical_massive"
+      ],
+      "threshold": 4320.000000000004,
+      "distance": 3.637978807091713e-12
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 1.5000000000003542,
+      "weight": 9.129702604880769e-20,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4.94948974278525,
+      "distance": 4315.050510257215
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 1.666666666667276,
+      "weight": 4.039417738984168e-28,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 5.24865556414083,
+      "distance": 4314.751344435859
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 2.0000000000000044,
+      "weight": 1.1573036978961994e-23,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 5.828427124747748,
+      "distance": 4314.171572875252
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 4.000000000000006,
+      "weight": 2.1508684504172132e-21,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 9.000000000001936,
+      "distance": 4310.999999999998
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 5.000000000000204,
+      "weight": 1.5493111860627253e-20,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 10.472135955001953,
+      "distance": 4309.527864044998
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 9.000000000000044,
+      "weight": 1.0809229379129215e-19,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 16.00000000000263,
+      "distance": 4303.999999999997
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 10.000000000000103,
+      "weight": 4.2195919896068486e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 17.324555320339567,
+      "distance": 4302.67544467966
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 16.49999999999997,
+      "weight": 3.733177968404617e-21,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 25.624038404639176,
+      "distance": 4294.37596159536
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 36.500000000000014,
+      "weight": 6.170807736011132e-24,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 49.58304597359911,
+      "distance": 4270.416954026401
+    },
+    {
+      "a": 1.0000000000006422,
+      "b": 4320.000000000004,
+      "weight": 2.5864946507474624e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4452.453413801287,
+      "distance": 132.45341380128684
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 1.666666666667276,
+      "weight": 1.3227660081551677e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 6.328944326836961,
+      "distance": 4313.671055673163
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 2.0000000000000044,
+      "weight": 7.633496469210488e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 6.964101615138526,
+      "distance": 4313.035898384862
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 4.000000000000006,
+      "weight": 2.503485609504331e-20,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 10.398979485567299,
+      "distance": 4309.601020514433
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 5.000000000000204,
+      "weight": 6.014308170197851e-21,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 11.977225575052978,
+      "distance": 4308.022774424947
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 9.000000000000044,
+      "weight": 4.21139483742882e-21,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 17.84846922835082,
+      "distance": 4302.151530771649
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 10.000000000000103,
+      "weight": 2.883754697134446e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 19.245966692416246,
+      "distance": 4300.754033307584
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 16.49999999999997,
+      "weight": 6.331931144958958e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 27.94987437106769,
+      "distance": 4292.050125628933
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 36.500000000000014,
+      "weight": 2.10494199557066e-21,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 52.79864858695086,
+      "distance": 4267.201351413049
+    },
+    {
+      "a": 1.5000000000003542,
+      "b": 4320.000000000004,
+      "weight": 2.204346154262531e-25,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4482.496894380008,
+      "distance": 162.4968943800077
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 2.0000000000000044,
+      "weight": 4.557662201034256e-28,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 7.318150383369059,
+      "distance": 4312.681849616631
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 4.000000000000006,
+      "weight": 6.530888301039962e-24,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 10.830644461611453,
+      "distance": 4309.169355538388
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 5.000000000000204,
+      "weight": 4.45464740038442e-28,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 12.440169358564912,
+      "distance": 4307.559830641435
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 9.000000000000044,
+      "weight": 2.1183232504231375e-25,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 18.41263335908359,
+      "distance": 4301.587366640916
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 10.000000000000103,
+      "weight": 2.360158512060582e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 19.831632475946176,
+      "distance": 4300.168367524054
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 16.49999999999997,
+      "weight": 3.184711133917392e-27,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 28.654755148370672,
+      "distance": 4291.345244851629
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 36.500000000000014,
+      "weight": 3.9023485082193415e-28,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 53.76581194240026,
+      "distance": 4266.2341880576
+    },
+    {
+      "a": 1.666666666667276,
+      "b": 4320.000000000004,
+      "weight": 1.0097419586828951e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4491.372294151473,
+      "distance": 171.3722941514734
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 2.0000000000000044,
+      "weight": 3.5758888064667176e-48,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 8.000000000000018,
+      "distance": 4312.0
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 4.000000000000006,
+      "weight": 9.621067289117736e-31,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 11.656854249492401,
+      "distance": 4308.343145750508
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 5.000000000000204,
+      "weight": 1.2201607692851122e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 13.324555320337103,
+      "distance": 4306.675444679663
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 9.000000000000044,
+      "weight": 1.0207156962982007e-27,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 19.48528137423865,
+      "distance": 4300.514718625761
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 10.000000000000103,
+      "weight": 6.972064917284987e-25,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 20.944271909999323,
+      "distance": 4299.05572809
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 16.49999999999997,
+      "weight": 1.1715019348176543e-25,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 29.989125293076036,
+      "distance": 4290.010874706924
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 36.500000000000014,
+      "weight": 5.896944399232848e-29,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 55.5880074906351,
+      "distance": 4264.411992509365
+    },
+    {
+      "a": 2.0000000000000044,
+      "b": 4320.000000000004,
+      "weight": 5.906573958678645e-30,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4507.90320061796,
+      "distance": 187.90320061795956
+    },
+    {
+      "a": 4.000000000000006,
+      "b": 5.000000000000204,
+      "weight": 3.443598169969159e-21,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 17.94427190999956,
+      "distance": 4302.05572809
+    },
+    {
+      "a": 4.000000000000006,
+      "b": 9.000000000000044,
+      "weight": 3.8998466374770784e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 25.00000000000009,
+      "distance": 4295.0
+    },
+    {
+      "a": 4.000000000000006,
+      "b": 10.000000000000103,
+      "weight": 9.36931738349985e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 26.6491106406737,
+      "distance": 4293.350889359326
+    },
+    {
+      "a": 4.000000000000006,
+      "b": 16.49999999999997,
+      "weight": 1.7445262645602393e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 36.7480768092719,
+      "distance": 4283.251923190728
+    },
+    {
+      "a": 4.000000000000006,
+      "b": 36.500000000000014,
+      "weight": 9.67189870827247e-24,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 64.66609194718919,
+      "distance": 4255.333908052811
+    },
+    {
+      "a": 4.000000000000006,
+      "b": 4320.000000000004,
+      "weight": 5.4034922595355e-25,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4586.906827602484,
+      "distance": 266.90682760248365
+    },
+    {
+      "a": 5.000000000000204,
+      "b": 9.000000000000044,
+      "weight": 7.498265137659044e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 27.416407864999293,
+      "distance": 4292.583592135001
+    },
+    {
+      "a": 5.000000000000204,
+      "b": 10.000000000000103,
+      "weight": 1.0384657321035141e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 29.14213562373162,
+      "distance": 4290.8578643762685
+    },
+    {
+      "a": 5.000000000000204,
+      "b": 16.49999999999997,
+      "weight": 1.3232191762412394e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 39.66590212458548,
+      "distance": 4280.334097875415
+    },
+    {
+      "a": 5.000000000000204,
+      "b": 36.500000000000014,
+      "weight": 9.681209112388694e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 68.51851217221336,
+      "distance": 4251.481487827787
+    },
+    {
+      "a": 5.000000000000204,
+      "b": 4320.000000000004,
+      "weight": 1.8791424092073914e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4618.938769133992,
+      "distance": 298.9387691339916
+    },
+    {
+      "a": 9.000000000000044,
+      "b": 10.000000000000103,
+      "weight": 3.5470143941936168e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 37.97366596101057,
+      "distance": 4282.026334038989
+    },
+    {
+      "a": 9.000000000000044,
+      "b": 16.49999999999997,
+      "weight": 1.8419984254840955e-22,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 49.87211521390794,
+      "distance": 4270.127884786092
+    },
+    {
+      "a": 9.000000000000044,
+      "b": 36.500000000000014,
+      "weight": 1.8958544754363372e-25,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 81.74913792078387,
+      "distance": 4238.250862079216
+    },
+    {
+      "a": 9.000000000000044,
+      "b": 4320.000000000004,
+      "weight": 3.767436522840052e-25,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4723.360241403724,
+      "distance": 403.3602414037241
+    },
+    {
+      "a": 10.000000000000103,
+      "b": 16.49999999999997,
+      "weight": 2.1234284488466713e-23,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 52.19046515733044,
+      "distance": 4267.80953484267
+    },
+    {
+      "a": 10.000000000000103,
+      "b": 36.500000000000014,
+      "weight": 1.99778650508446e-24,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 84.70994634908593,
+      "distance": 4235.290053650914
+    },
+    {
+      "a": 10.000000000000103,
+      "b": 4320.000000000004,
+      "weight": 6.433647103349967e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4745.692193816537,
+      "distance": 425.6921938165369
+    },
+    {
+      "a": 16.49999999999997,
+      "b": 36.500000000000014,
+      "weight": 1.9209058943182075e-26,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 102.08156476723205,
+      "distance": 4217.918435232768
+    },
+    {
+      "a": 16.49999999999997,
+      "b": 4320.000000000004,
+      "weight": 2.2662291409719062e-27,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 4870.466291070891,
+      "distance": 550.4662910708912
+    },
+    {
+      "a": 36.500000000000014,
+      "b": 4320.000000000004,
+      "weight": 3.1839851246905146e-28,
+      "types": [
+        "physical_massive",
+        "physical_massive"
+      ],
+      "threshold": 5150.67882117317,
+      "distance": 830.67882117317
+    }
+  ],
+  "support_classification": {
+    "scalar_weight_cut": 1e-14,
+    "vector_mixed_weight_cut": 1e-16,
+    "scalar_total_omitted_weight": 7.019085332929785e-19,
+    "radial_radial_soft_structural_identity_residual": 2.2737367544323206e-13,
+    "scope": "floating support only; T_h h parallel h implies exact zero soft+radial scalar coupling in declared sum-of-squares action; arbitrary perturbations need new threshold analysis"
+  },
+  "displacement": {
+    "norm": 40.435784188406004,
+    "x_norm": 8.124038404635963,
+    "relative_norm_coefficient": 4.977300964669421,
+    "radial_projection_coefficient": -5.045920232892039,
+    "block_relative_coefficients": {
+      "h1": 3.9906114963776265,
+      "h2": 3.9906114963771606,
+      "A": 5.052910064510268,
+      "Phi": 4.440648334957212
+    },
+    "stationarity_residual": 8.541915090560218e-11,
+    "receipt_displacement_error": 1.2653357435930405e-10
+  },
+  "distances": {
+    "nearest_other_scalar_pole": 4283.5,
+    "nearest_active_threshold": 4174.0,
+    "nearest_active_physical_threshold": 4174.0,
+    "inactive_radial_plus_soft_threshold_distance": 0
+  },
+  "epsilon_diagnostic_coefficients": {
+    "relative_complex_shift": 128.98024813200814,
+    "relative_real_shift": 116.93173610213269,
+    "relative_imaginary_shift": 54.43228362227317,
+    "displacement_total": 4.977300964669421,
+    "displacement_worst_block": 5.052910064510268,
+    "wavefunction_Landau": 15.338329255513841,
+    "scalar_pole_isolation": 130.07929775423725,
+    "active_threshold_isolation": 133.49177573796723
+  },
+  "conditional_bounds": [
+    {
+      "analysis_tolerance": 0.1,
+      "epsilon_upper_bounds": {
+        "relative_complex_shift": 0.0007753125106229633,
+        "relative_real_shift": 0.0008551998228492575,
+        "relative_imaginary_shift": 0.0018371450423417652,
+        "displacement_total": 0.020091210218115017,
+        "displacement_worst_block": 0.019790575870796166,
+        "wavefunction_Landau": 0.006519614902910751,
+        "scalar_pole_isolation": 0.0007687618377901534,
+        "active_threshold_isolation": 0.0007491098192917242
+      },
+      "necessary_joint_upper": 0.0007491098192917242
+    },
+    {
+      "analysis_tolerance": 0.01,
+      "epsilon_upper_bounds": {
+        "relative_complex_shift": 7.753125106229633e-05,
+        "relative_real_shift": 8.551998228492575e-05,
+        "relative_imaginary_shift": 0.0001837145042341765,
+        "displacement_total": 0.0020091210218115014,
+        "displacement_worst_block": 0.0019790575870796165,
+        "wavefunction_Landau": 0.000651961490291075,
+        "scalar_pole_isolation": 7.687618377901535e-05,
+        "active_threshold_isolation": 7.491098192917241e-05
+      },
+      "necessary_joint_upper": 7.491098192917241e-05
+    },
+    {
+      "analysis_tolerance": 0.001,
+      "epsilon_upper_bounds": {
+        "relative_complex_shift": 7.753125106229633e-06,
+        "relative_real_shift": 8.551998228492575e-06,
+        "relative_imaginary_shift": 1.837145042341765e-05,
+        "displacement_total": 0.00020091210218115015,
+        "displacement_worst_block": 0.00019790575870796165,
+        "wavefunction_Landau": 6.519614902910751e-05,
+        "scalar_pole_isolation": 7.687618377901534e-06,
+        "active_threshold_isolation": 7.491098192917241e-06
+      },
+      "necessary_joint_upper": 7.491098192917241e-06
+    }
+  ],
+  "epsilon_scan": [
+    {
+      "epsilon": 1.0,
+      "diagnostics": {
+        "relative_complex_shift": 128.98024813200814,
+        "relative_real_shift": 116.93173610213269,
+        "relative_imaginary_shift": 54.43228362227317,
+        "displacement_total": 4.977300964669421,
+        "displacement_worst_block": 5.052910064510268,
+        "wavefunction_Landau": 15.338329255513841,
+        "scalar_pole_isolation": 130.07929775423725,
+        "active_threshold_isolation": 133.49177573796723
+      }
+    },
+    {
+      "epsilon": 0.01,
+      "diagnostics": {
+        "relative_complex_shift": 1.2898024813200815,
+        "relative_real_shift": 1.169317361021327,
+        "relative_imaginary_shift": 0.5443228362227317,
+        "displacement_total": 0.04977300964669421,
+        "displacement_worst_block": 0.05052910064510268,
+        "wavefunction_Landau": 0.1533832925551384,
+        "scalar_pole_isolation": 1.3007929775423726,
+        "active_threshold_isolation": 1.3349177573796724
+      }
+    },
+    {
+      "epsilon": 0.001,
+      "diagnostics": {
+        "relative_complex_shift": 0.12898024813200815,
+        "relative_real_shift": 0.11693173610213269,
+        "relative_imaginary_shift": 0.05443228362227317,
+        "displacement_total": 0.004977300964669421,
+        "displacement_worst_block": 0.0050529100645102685,
+        "wavefunction_Landau": 0.015338329255513842,
+        "scalar_pole_isolation": 0.13007929775423724,
+        "active_threshold_isolation": 0.13349177573796722
+      }
+    },
+    {
+      "epsilon": 0.0001,
+      "diagnostics": {
+        "relative_complex_shift": 0.012898024813200815,
+        "relative_real_shift": 0.01169317361021327,
+        "relative_imaginary_shift": 0.005443228362227317,
+        "displacement_total": 0.0004977300964669421,
+        "displacement_worst_block": 0.0005052910064510268,
+        "wavefunction_Landau": 0.0015338329255513842,
+        "scalar_pole_isolation": 0.013007929775423725,
+        "active_threshold_isolation": 0.013349177573796724
+      }
+    },
+    {
+      "epsilon": 1e-07,
+      "diagnostics": {
+        "relative_complex_shift": 1.2898024813200813e-05,
+        "relative_real_shift": 1.1693173610213268e-05,
+        "relative_imaginary_shift": 5.4432283622273165e-06,
+        "displacement_total": 4.977300964669421e-07,
+        "displacement_worst_block": 5.052910064510268e-07,
+        "wavefunction_Landau": 1.533832925551384e-06,
+        "scalar_pole_isolation": 1.3007929775423724e-05,
+        "active_threshold_isolation": 1.3349177573796723e-05
+      }
+    }
+  ],
+  "rxi_collisions": {
+    "pole_and_equal_GG": [
+      {
+        "a": 0.8619521939629209,
+        "multiplicity": 1,
+        "xi_pole_collision": 5011.878884069336,
+        "xi_equal_GG_threshold_collision": 1252.969721017334
+      },
+      {
+        "a": 1.0000000000000007,
+        "multiplicity": 3,
+        "xi_pole_collision": 4319.999999999997,
+        "xi_equal_GG_threshold_collision": 1079.9999999999993
+      },
+      {
+        "a": 1.5000000000000018,
+        "multiplicity": 24,
+        "xi_pole_collision": 2879.999999999997,
+        "xi_equal_GG_threshold_collision": 719.9999999999992
+      },
+      {
+        "a": 5.000000000000009,
+        "multiplicity": 6,
+        "xi_pole_collision": 863.9999999999985,
+        "xi_equal_GG_threshold_collision": 215.99999999999963
+      },
+      {
+        "a": 10.0,
+        "multiplicity": 4,
+        "xi_pole_collision": 432.0,
+        "xi_equal_GG_threshold_collision": 108.0
+      },
+      {
+        "a": 16.5,
+        "multiplicity": 12,
+        "xi_pole_collision": 261.8181818181818,
+        "xi_equal_GG_threshold_collision": 65.45454545454545
+      },
+      {
+        "a": 25.000000000000018,
+        "multiplicity": 12,
+        "xi_pole_collision": 172.79999999999987,
+        "xi_equal_GG_threshold_collision": 43.19999999999997
+      },
+      {
+        "a": 34.80471447270375,
+        "multiplicity": 1,
+        "xi_pole_collision": 124.12111593066051,
+        "xi_equal_GG_threshold_collision": 31.030278982665127
+      },
+      {
+        "a": 36.50000000000003,
+        "multiplicity": 4,
+        "xi_pole_collision": 118.35616438356155,
+        "xi_equal_GG_threshold_collision": 29.589041095890387
+      }
+    ],
+    "physical_G": [
+      {
+        "t": 1.5000000000003542,
+        "a": 1.5000000000000018,
+        "xi_collision": 2773.6687370799946
+      },
+      {
+        "t": 5.000000000000204,
+        "a": 5.000000000000009,
+        "xi_collision": 806.2122461732012
+      },
+      {
+        "t": 10.000000000000103,
+        "a": 10.0,
+        "xi_collision": 391.4307806183467
+      },
+      {
+        "t": 16.49999999999997,
+        "a": 16.5,
+        "xi_collision": 230.45658841994623
+      },
+      {
+        "t": 36.500000000000014,
+        "a": 36.50000000000003,
+        "xi_collision": 97.59784051580358
+      }
+    ],
+    "GG": [
+      {
+        "a": 1.5000000000000018,
+        "b": 1.5000000000000018,
+        "xi_collision": 719.9999999999992
+      },
+      {
+        "a": 5.000000000000009,
+        "b": 5.000000000000009,
+        "xi_collision": 215.99999999999963
+      },
+      {
+        "a": 10.0,
+        "b": 10.0,
+        "xi_collision": 108.0
+      },
+      {
+        "a": 16.5,
+        "b": 16.5,
+        "xi_collision": 65.45454545454545
+      },
+      {
+        "a": 25.000000000000018,
+        "b": 25.000000000000018,
+        "xi_collision": 43.19999999999997
+      },
+      {
+        "a": 36.50000000000003,
+        "b": 36.50000000000003,
+        "xi_collision": 29.589041095890387
+      }
+    ],
+    "no_uniform_xi_window": true
+  },
+  "EFT_conditional_cutoff_examples": [
+    {
+      "Lambda_over_M": 1,
+      "epsilon_upper_for_p2_over_Lambda2_lt_0p1": 2.314814814814815e-05,
+      "A_norm_squared_over_Lambda_squared": 60.00000000000003,
+      "total_background_norm_squared_over_Lambda_squared": 66.00000000000003
+    },
+    {
+      "Lambda_over_M": 10,
+      "epsilon_upper_for_p2_over_Lambda2_lt_0p1": 0.0023148148148148147,
+      "A_norm_squared_over_Lambda_squared": 0.6000000000000003,
+      "total_background_norm_squared_over_Lambda_squared": 0.6600000000000003
+    },
+    {
+      "Lambda_over_M": 100,
+      "epsilon_upper_for_p2_over_Lambda2_lt_0p1": 0.23148148148148148,
+      "A_norm_squared_over_Lambda_squared": 0.006000000000000003,
+      "total_background_norm_squared_over_Lambda_squared": 0.0066000000000000026
+    }
+  ],
+  "negative_controls": {
+    "below_threshold_direct_rational_error": 1.0691058840368783e-50,
+    "equal_mass_cut_slope_error": 4.994729051984791e-50,
+    "threshold_collision_rejected": true,
+    "drop_imaginary_derivative_change": 0.7045652596143875,
+    "reverse_cut_sign_derivative_change": 1.409130519228775,
+    "omit_mixed_derivative_change": 1.966226313935202,
+    "wrong_epsilon_order_at_1e_minus_7_ratio": 10000000.0
+  },
+  "unclosed": [
+    "full physical-flat IR resummation/stability",
+    "bounds on higher loops and finite matching",
+    "offdiagonal selfenergy norm for quantitative Schur control",
+    "nonexceptional fixed-xi domain and gauge-dependent wavefunction",
+    "independent cutoff and higher-dimensional Wilson coefficients",
+    "independent epsilon and M selection"
+  ]
+}

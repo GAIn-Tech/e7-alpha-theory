@@ -1,0 +1,3139 @@
+arXiv:1611.09442v1  [hep-th]  29 Nov 2016
+Prepared for submission to JHEP
+Threshold corrections in heterotic ﬂux
+compactiﬁcations
+Carlo Angelantonja Dan Isra¨elb,c Matthieu Sarkisb,c
+aDipartimento di Fisica, Universit`a di Torino, and INFN Sezione di Torino
+Via P. Giuria 1, 10125 Torino, Italy
+bLPTHE, UMR 7589, Sorbonne Universit´es, UPMC Univ.
+Paris 06, 4 place Jussieu,
+Paris, France
+cCNRS, UMR 7589, LPTHE, F-75005, Paris, France
+E-mail: carlo.angelantonj@unito.it, israel@lpthe.jussieu.fr,
+msarkis@lpthe.jussieu.fr
+Abstract: We compute the one-loop threshold corrections to the gauge and gravi-
+tational couplings for a large class of N = 2 non-K¨ahler heterotic compactiﬁcations
+with three-form ﬂux, consisting in principal two-torus bundles over K3 surfaces. We
+obtain the results as sums of BPS-states contributions, depending on the topological
+data of the bundle. We analyse also the worldsheet non-perturbative corrections
+coming from instantons wrapping the torus ﬁber, that are mapped under S-duality
+to D-instanton corrections in type I ﬂux compactiﬁcations.
+
+Contents
+1
+Introduction
+1
+2
+N = 2 heterotic threshold corrections and the new supersymmetric
+index
+3
+3
+Niebur-Poincar´e Series
+7
+4
+Threshold corrections
+10
+4.1
+Gravitational threshold corrections
+10
+4.2
+Gauge threshold corrections
+12
+4.2.1
+Corrections to the E8 coupling
+12
+4.2.2
+Corrections to the E7 coupling
+14
+4.2.3
+Universality property of the gauge threshold corrections
+15
+5
+Fourier series and worldsheet instanton corrections
+16
+5.1
+The Fourier series expansion
+16
+5.2
+A simple subclass of models
+22
+6
+Conclusion
+24
+A Theta functions, modular covariant derivative and hypergeometric
+functions
+25
+B Coeﬃcients
+27
+C Relevant functions for the Fourier series representation
+30
+D Generic momentum insertion
+31
+1
+Introduction
+Supersymmetric heterotic compactiﬁcations constitute one of the main approaches to
+particle physics phenomenology from sting theory. The conditions ensuring at least
+N = 1 supersymmetry in spacetime, at order α′, are encoded in the Hull-Strominger
+system, a set of BPS equations constraining the internal geometry [1, 2]. A well-
+known class of solutions to this system consists of a Calabi-Yau 3-fold equipped with
+a stable holomorphic vector bundle. This type of construction leads to GUT groups
+– 1 –
+
+which can be smaller than E6, but also come with a collection of moduli which are
+undesirable from a phenomenological point of view.
+To tackle this moduli problem, one can consider non-K¨ahler compactiﬁcations
+with non-trivial ﬂuxes for the Kalb-Ramond three-form ﬁeld strength along the in-
+ternal geometry. The high level of complexity of the Hull-Strominger system in this
+general setting forbids a generic discussion of its solutions. One large family of ﬂux
+compactiﬁcations, originally obtained in [3] from string dualities, and often denoted
+in the literature as Fu-Yau geometry, has however been studied quite extensively,
+see e.g. [4–6]. The internal manifold consists of a principal two-torus bundle over
+a warped K3 surface, equipped with the pullback of a stable holomorphic vector
+bundle over the base. One may also possibly add an Abelian bundle over the total
+space which reduces to Wilson lines in the more familiar K3 × T 2 setting, however
+we will not consider them in this paper.
+A subfamily of these non-K¨ahler solutions, leading to N = 2 supersymmetry
+in spacetime, has been shown to be amenable to a gauged linear sigma model de-
+scription [7] on the heterotic string worldsheet. This approach allows in principle
+to extract the massless spectrum using Landau-Ginzburg cohomological methods [8]
+and was used to prove T-duality symmetries in these curved ﬂux backgrounds [9].
+Localization techniques were then used by two of the present authors to com-
+pute the new supersymmetric index [10, 11], which is, in the context of heterotic
+N = 2 compactiﬁcations, the building block that is used to compute the threshold
+corrections to the BPS-saturated couplings in the low energy four-dimensional N = 2
+supergravity action [12].
+The goal of this paper is precisely to compute explicitely the threshold corrections
+to the gravitational and gauge couplings of these compactiﬁcations with torsion,
+thus extending the results already known for K3 × T 2 compactiﬁcations or orbifolds
+thereof [13–23] and results for local models of non-K¨ahler compactiﬁcations [24]. The
+threshold corrections are written naturally as the integral of some almost holomorphic
+modular form over the fundamental domain of the worldsheet modular group.
+This type of integral can be computed using the standard orbit method that
+was developped for K3 × T 2 compactiﬁcations, which consists in unfolding the in-
+tegration domain against the Narain lattice partition function [25]. This approach
+is convenient for studying the D-instanton corrections in the type I S-duals (see
+e.g. [26, 27]), however it hides the explicit covariance under the perturbative duality
+group O(2, 2;
+Z) of the two-torus, that occurs also in the N = 2 compactiﬁcations
+with torsion under study [9].
+Another approach, developed recently in [28–30] , suggests to maintain the ex-
+plicit covariance under T-duality by instead keeping the Narain partition function
+intact, expanding the remaining weak almost holomorphic modular form in terms of
+(absolutely convergent) Niebur-Poincar´e series, and ﬁnally unfolding the integration
+domain against the latter. This approach not only has the advantage of keeping T-
+– 2 –
+
+duality manifest and the analytic structure of the amplitude transparent, but rather
+it is the best (if not the only) way to extract physical couplings for values of the
+moduli close to the string scale, where the conventional expansion might fail to con-
+verge. This is especially useful for the present class of models, given that the volume
+of the two-torus ﬁber is generically frozen by the ﬂuxes to a small value in string
+units.
+Following this approach, we obtain in this work compact and T-duality covariant
+expressions for the threshold corrections, written in a chamber-independent form, i.e.
+valid for any values of the moduli of the torus ﬁber. The results depend explicitely
+on the topology of the principal two-torus bundle, i.e. on the choice of a pair of
+anti-self-dual (1, 1) forms on the K3 base.
+We will consider thereafter an alternative representation of the threshold correc-
+tions in terms of a Fourier series expansion in the K¨ahler modulus T of the torus
+ﬁber [29], enlightening the origin of the various contributions, especially those cor-
+responding to the worldsheet instantons wrapping the T 2. These corrections, that
+would be, for Spin(32)/ Z2 compactiﬁcations, S-dual to D1-instanton corrections in
+type I compactiﬁcations with Ramond-Ramond ﬂuxes, are particularly interesting.
+Indeed, topologically, the two-torus is not a proper two-cycle of the total space of
+the bundle, but only a torsion two-cycle. Nevertheless as we will ﬁnd the instanton
+corrections take the form of a inﬁnite sum over the wrapping number.
+Conventions:
+T and U denote respectively the complexiﬁed K¨ahler and complex
+structure moduli of the torus ﬁber. dν = dτ1dτ2/τ 2
+2 denotes the Poincar´e measure
+on the complex upper-helf plane
+H. θ(τ, z) is the odd Jacobi theta function. For
+deﬁniteness we consider the E8 × E8 ten-dimensional heterotic string theory unless
+otherwise stated.
+2
+N = 2 heterotic threshold corrections and the new super-
+symmetric index
+We will be interested in a class of non-K¨ahler heterotic compactiﬁcations to four-
+dimensions, corresponding to a principal bundle T 2 ֒→M
+π→S over a warped K3
+surface S with three-form ﬂux.
+These compactiﬁcations preserve N = 2 supersymmetry in space-time hence
+one can compute, as in the case of ordinary K3 × T 2 compactiﬁcations, the one-
+loop corrections to the couplings of some two-derivative BPS-saturated terms in
+the four-dimensional low energy eﬀective supergravity action. We will focus on the
+gravitational coupling and the gauge couplings associated with the diﬀerent factors
+of the spacetime gauge group left unbroken by the choice of gauge bundle.
+– 3 –
+
+The one-loop running of the coupling constant associated with a simple factor
+G of the space-time gauge group is expressed through the relation:
+16π2
+g2
+G(µ) = 16π2
+g2s
++ βG log M2
+s
+µ2 + ∆G .
+(2.1)
+The second term in the right-hand-side of eq. (2.1) corresponds to the contribution
+from the massless multiplets, hence to the running one would compute in a ﬁeld
+theoretic setting. It is proportionnal to the gauge-theory beta-function βG. The last
+term ∆G incorporates the contribution from the whole tower of massive ﬁelds, hence
+describes the stringy part of the one-loop correction to gauge coupling.
+A similar expression holds for the one-loop threshold correction to the gravita-
+tional coupling as well:
+16π2
+g2grav(µ) = 16π2
+g2s
++ βgrav log M2
+s
+µ2 + ∆grav .
+(2.2)
+These threshold corrections have been studied in great details for K3 × T 2 com-
+pactiﬁcations, see the introduction for a partial list of relevant references. Extended
+N = 2 supersymmetry in spacetime highly constrains these corrections; in particu-
+lar, they only receive contribution from BPS states. It turns out that they all can
+be expressed as the integral over the fundamental domain of the worldsheet torus
+modular group of descendants of a quantity known as the new supersymmetric in-
+dex [31]. This objet is independent of the moduli of the K3 surface, but depends on
+the torus and Wilson line moduli of the compactiﬁcation.
+This new supersymmetric index is deﬁned by the following trace in the Ramond
+sector of the right-moving fermions:
+Znew(τ, ¯τ) =
+1
+η(τ)2 Trr
+
+¯J 0(−1)FrqL0−c/24¯q
+¯L0−¯c/24
+.
+(2.3)
+It was shown by Harvey and Moore [12] that this new supersymmetric index counts
+the BPS multiplets in spacetime, since worldsheet supersymmetry dictates that :
+−
+1
+2iη2Znew(q, ¯q) =
+X
+BPS vectors
+q∆¯q
+¯∆−
+X
+BPS hypers
+q∆¯q
+¯∆.
+(2.4)
+For the N = 2 torsional compactiﬁcations of interest, the new supersymmetric index
+was computed in [10], using a purposely designed gauged linear sigma model [7] and
+supersymmetric localization of the path integral [32].
+A main diﬀerence with the conventional K3 × T 2 compactiﬁcations is that both
+the complex structure and complexiﬁed K¨ahler moduli of the two-torus ﬁber are now
+generically quantized. However Abelian bundles over the total space, that would
+reduce to Wilson lines in the K3 × T 2 case, have moduli which are not quantized by
+– 4 –
+
+the three-form ﬂux; the new supersymmetric index as function of these moduli was
+computed [11]. For simplicity we will assume that these extra moduli are turned oﬀ.
+These compactiﬁcations are also characterized by the pullback of a holomorphic
+vector bundle V over the K3 base. For deﬁniteness, we will embed its structure
+group in the ﬁrst E8 factor of the E8 × E8 heterotic gauge group.
+Then the new supersymmetric index Znew, which was computed in [10], is ex-
+pressed in terms of a non-holomorphic dressed elliptic genus Zfy (τ, ¯τ, z) through
+Znew(τ, ¯τ) = ¯η2E4(τ)
+2η10
+1
+X
+γ,δ=0
+qγ2
+(θ (τ, z)
+η(τ)
+8−r
+Zfy (τ, ¯τ, z)
+)
+z= γτ+δ
+2
+,
+(2.5)
+where we have deﬁned the non-holomorphic dressed elliptic genus as follows:
+Zfy (τ, ¯τ, z) =
+1
+¯η(¯τ)2 Trrr,Hfy
+
+e2iπzJ0 ¯J 0(−1)FqL0−c/24¯q
+¯L0−¯c/24
+,
+(2.6)
+the trace being taken into the Hilbert space of the (0, 2) superconformal theory cor-
+responding to the compactiﬁcation. This dressed elliptic genus, which is holomorphic
+in z but not in τ, transforms as a weak Jacobi form of weight 0 and index r/2, where
+r is the rank of the holomorphic vector bundle V.
+The same non-holomorphic dressed elliptic genus can be deﬁned for K3 × T 2,
+which corresponds to the particular case in which the torus ﬁbration is trivial, hence
+the dressed elliptic genus factorizes into the usual elliptic genus of K3 and the par-
+tition function of the signature (2, 2) Narain lattice of the two-torus.
+Before quoting the result, let us summarize the relevant geometrical data char-
+acterizing the N = 2 compactiﬁcations of interest:
+• A rank r holomorphic vector bundle V over the (wrapped) K3 base S, with
+c1(V) = 0, whose pullback provides the gauge bundle of the compactiﬁcation
+on M. The structure group of V is embedded into the ﬁrst E8 factor, the
+second one being left unbroken.
+• A rational Narain lattice Γ2,2(T, U), since the two-torus moduli T, U are quan-
+tized as a result of the presence of three-form ﬂux, i.e. T, U ∈
+Q[
+√
+D] where D
+is the discriminant of some positive-deﬁnite even quadratic form. This deﬁnes
+a c = 2 toroidal rational conformal ﬁeld theory [33, 34],
+• A pair of anti-self-dual two-forms ω1 and ω2 in H2(S,
+Z)∩Λ1,1T ⋆
+S characterizing
+the two-torus principal bundle.
+This data is constrained by the Bianchi identity:
+ch2(V) −T2
+U2
+ω ∧⋆S ¯ω = ch2(TS) ,
+(2.7)
+– 5 –
+
+which, upon integration over the base S, gives the tadpole condition:
+n + T2
+U2
+Z
+S
+ω ∧⋆S ¯ω = 24 .
+(2.8)
+where:
+n = −
+Z
+S
+ch2(V)
+(2.9)
+is the instanton number of the bundle V, which is any integer between 0 and 24.
+We also deﬁne a two-dimensional vector of two-forms pω, built by embedding
+(ω1, ω2) into the lattice of the two-torus ﬁber, and given in complex notation as:
+pω :=
+r
+T2
+U2
+(ω1 + Uω2) .
+(2.10)
+This vector belongs to a formal extension, over H2(S,
+Z), of the winding sub-lattice
+of the Γ2,2(T, U) toroidal lattice.
+The new supersymmetric index (2.3) was then computed in terms of this data
+in [10, 11]. First, the dressed elliptic genus (2.6) can be written as a sum of three
+terms in the following way:
+Zfy =
+1
+η(τ)2¯η(¯τ)2
+X
+µ∈Γ⋆l /Γl
+X
+pl∈Γl+µ
+pr∈Γr+ϕ(µ)
+q
+1
+2⟨pl,pl⟩Γl ¯q
+1
+2 ⟨pr,pr⟩Γr×
+×
+(
+n
+24
+θ(τ, z)
+η(τ)
+r−2
+Z
+K3
+ell (τ, z) +
+θ(τ, z)r
+12 η(τ)r+4 (n −24) ˆE2(τ)
+−θ(τ, z)r
+2 η(τ)r+4
+Z
+S
+⟨pl, pω⟩2
+Γl −n −24
+2πτ2
+
+.
+(2.11)
+The deﬁnition of the various functions entering the above expression are summarized
+in appendix A. The left and right momenta pl and pr belong to the even lattices Γl
+and Γr1 shifted by µ and ϕ(µ) respectively, where µ is an element of the discriminant
+group Γ⋆
+l/Γl and ϕ : Γ⋆
+l/Γl →Γ⋆
+r/Γr is an isometry [34]. In the above expression,
+⟨·, ·⟩Γ denotes the scalar product on the even lattice Γ. We deﬁne then
+f(pl, ω) :=
+Z
+S
+⟨pl, pω⟩2
+Γl −n −24
+2πτ2
+=
+Z
+S
+
+⟨pl, pω⟩2
+Γl −
+1
+4πτ2
+⟨pω, pω⟩Γl
+
+.
+(2.12)
+where we have used the tadpole condition (2.8).
+1These lattices are deﬁned as Γl = Γ2,2(T, U) ∩
+R2,0 and Γl = Γ2,2(T, U) ∩
+R0,2 and are both of
+rank two because the corresponding c = 2 CFT is rational.
+– 6 –
+
+Taking into account the remaining free fermions and performing the left GSO
+projection, one obtains then for the new supersymmetric index:
+Znew(τ, ¯τ) = E4(τ)
+η(τ)12
+X
+µ∈Γ⋆l /Γl
+X
+pl∈Γl+µ
+pr∈Γr+ϕ(µ)
+q
+1
+2⟨pl,pl⟩Γl ¯q
+1
+2⟨pr,pr⟩Γr×
+× 1
+2
+1
+X
+γ,δ=0
+qγ2
+(
+n
+24
+θ(τ, z)
+η(τ)
+6
+Z
+K3
+ell (τ, z)+
+(2.13)
++ θ(τ, z)8
+12 η(τ)12 (n −24) ˆE2(τ) −θ(τ, z)8
+2 η(τ)12f(pl, ω)
+
+z= γτ+δ
+2
+.
+(2.14)
+Notice that the modular behaviour of the third term with a momentum insertion is
+ensured, since by construction the sum of the three terms is well-behaved and the
+ﬁrst two terms are also by themselves weak almost holomorphic modular forms of
+weight −2.
+Finally, in terms of standard weak almost holomorphic modular forms, the result
+takes a relatively simple form:
+Znew(τ, ¯τ) =
+X
+µ∈Γ⋆l /Γl
+X
+pl∈Γl+µ
+pr∈Γr+ϕ(µ)
+q
+1
+2 ⟨pl,pl⟩Γl ¯q
+1
+2 ⟨pr,pr⟩Γr ×
+×
+ 
+−n
+12
+E4E6
+∆
++ n −24
+12
+E2
+4 ˆE2
+∆
+−f(pl, ω)
+2
+E2
+4
+∆
+!
+,
+(2.15)
+which will allow us to use the techniques developed in [28–30], and reviewed brieﬂy
+in the next section, to perform the integration over the fundamental domain of the
+worldsheet torus modular group leading to the various threshold corrections.
+The formula (2.11) that we used as a starting point was derived in [11] from a
+geometrical deﬁnition of the dressed elliptic genus, that coincides with the result ob-
+tained directly from a gauged linear sigma model using supersymmetric localization
+as we have proven there. We expect that this formula holds in full generality for all
+N = 2 compactiﬁcations with torsion of the class discussed in this work, even for
+those without an obvious GLSM realization.
+This result contains as a special case the standard K3 × T 2 compactiﬁcations,
+corresponding to the limiting case where the gauge instanton number n equals 24
+and where the momentum insertion f(pl, ω) vanishes.
+3
+Niebur-Poincar´e Series
+Integrals of the type
+Z
+F
+dν Φ(τ) Λ2,2(T, U; τ)
+(3.1)
+– 7 –
+
+are quite common in string theory, since they compute the one-loop correction to
+couplings in the low-energy eﬀective action. Here dν = dτ1dτ2 τ −2
+2
+is the SL(2,
+Z)
+invariant measure, while F =
+H/SL(2,
+Z) is the fundamental domain of the modular
+group,
+H being the Poincar´e upper complex plane. Λ2,2(T, U; τ) is the partition func-
+tion associated to the (2, 2) dimensional Narain lattice, depending on the K¨ahler and
+complex structure moduli of the compactiﬁcation torus as well as on the Teichm¨uller
+parameter τ of the worldsheet torus, while Φ(τ) is a, a priori, generic function in-
+variant under the action of the modular group, whose explicit expression depends
+on the kind of coupling we are interested in. For those of interest in this paper, the
+automorphic function is weak quasi holomorphic modular function, in the sense that
+it has zero weight, it is holomorphic in the τ variable, aside from possible explicit τ2
+dependence via the Eisenstein series ˆE2, and has a simple pole at the cusp τ = i∞.
+Holomorphy is a consequence of the fact that the couplings we are interested in
+receive contributions only from BPS states.
+While the traditional way of computing the integral (3.1) relies on the SL(2,
+Z)
+orbit decomposition of the Narain partition function, in [28–30] a new method has
+been proposed whereby the fundamental domain is unfolded against the automorphic
+function Φ itself. This way of proceeding has the clear advantage of keeping manifest
+the perturbative T-duality symmetries at all steps, and expresses the ﬁnal result as a
+sum over BPS states. Moreover, singularities associated to states becoming massless
+at special points in the Narain moduli space are easily revealed in this representation.
+In order to implement this strategy, it is essential that Φ be represented as
+an absolutely convergent Poincar´e series, so that the unfolding of the fundamental
+domain is justiﬁed.
+This is actually the case, since any weak quasi-holomorphic
+modular form can be uniquely decomposed in terms of so-called Niebur-Poincar´e
+series F(s, κ, w), where w is the modular weight, κ determines the growth of the
+function at the cusp, while s is a generic complex parameter. The Poincar´e series
+representation of F(s, κ, w) is
+F(s, κ, w) = 1
+2
+X
+(c,d)=1
+(cτ+d)−w Ms,w
+
+−
+κτ2
+|cτ + d|2
+
+exp
+
+−2iπκ
+a
+c −
+cτ1 + d
+c|cτ + d|2
+
+,
+(3.2)
+in terms of the Whittaker M-function, Ms,w(y) = |4πy|−w/2 M w
+2 sgn(y),s−1
+2(4π|y|).
+We refer the interested reader to [28–30] for a general discussion of Niebur-
+Poincar´e series. In the following we shall only remind that for negative weight, the
+choice s = 1 −w
+2 + n is rather special, since the Niebur-Poincar´e series are quasi
+holomorphic and absolutely convergent. As a result,
+Φ(τ) =
+X
+n,ℓ
+dℓ(n) F(1 −w
+2 + n, ℓ, w) ,
+(3.3)
+where the coeﬃcients dℓ(n) are uniquely determined by matching the principal parts
+of the q-Laurent expansion of the two sides of the equation. In eqs. (4.3), (4.15)
+– 8 –
+
+and (4.25) we list the decomposition of interest for us, while we refer to [29, 30] for
+more general cases.
+Since any weak quasi holomorphic modular form can be decomposed in terms of
+Niebur-Poincar´e series, for the purpose of computing modular integrals it suﬃces to
+consider the basic integral
+I(s) = R.N.
+Z
+F
+dν F(s, 1, 0) Λ2,2(T, U; τ) .
+(3.4)
+Here we have selected κ = 1, the only case of interest in string theory. The symbol
+R.N. (that we shall omit in the following, assuming that all integrals are properly
+renormalised) implies that the integral has been properly renormalised in order to
+cope with the infrared (logarithmic) divergences ascribed to massless states running
+in the loop. Our modular invariant prescription amounts at cutting-oﬀthe funda-
+mental domain at large τ2 > T , thus removing the singular behaviour of light states
+in the T →∞limit [28–30].
+Upon unfolding the fundamental domain against F(s, 1, 0) one gets [29]
+I(s) =
+X
+BPS
+Z ∞
+0
+dτ2
+τ2
+Ms,0(−τ2) e−πτ2(p2
+L+p2
+R)/2
+(3.5)
+where the sum is restricted only to the BPS states satisfying p2
+l−p2
+r = 2. The integral
+can be straightforwardly evaluated to yield [29]
+Iα(s, w) =
+Z
+F
+dν τ α
+2
+X
+pl,pr
+q
+1
+2p2
+l ¯q
+1
+2p2
+r F(s, κ, w)
+=
+X
+pl,pr
+δ
+ p2
+l −p2
+r −2κ
+
+(4πκ)1−α
+ p2
+l
+2κ
+−|w|
+2 −α−s+1
+Γ
+
+α + |w|
+2 + s −1
+
+× 2F1
+
+α + |w|
+2 + s −1, s −|w|
+2 ; 2s; 2κ
+p2
+l
+
+,
+(3.6)
+with p2
+l := ⟨pl, pl⟩Γl and p2
+r := ⟨pr, pr⟩Γr, and where we have allowed for a non-
+trivial weight of the Niebur-Poincar´e series to compensate for Wilson lines and/or
+for momentum insertions in the Narain partition function [29]. As we shall see in the
+next section, this representation of the modular integral clearly spells out possible
+IR divergences ascribed to new states becoming massless at points of symmetry
+enhancement.
+The integral (3.5) can actually be given an alternative representation whenever
+the BPS constraint is solved before the τ2 integral is evaluated. The resulting repre-
+sentation deﬁnes a Fourier series expansion in the T1 variable, which is only valid in
+special regions of moduli space (corresponding to large volume) [30]. For the case of
+momentum insertions we need to slightly generalise the construction of [30], and we
+shall present the new results in section 5.
+– 9 –
+
+4
+Threshold corrections
+We are now ready to compute the one-loop threshold corrections to the gauge and
+gravitational coupling for N = 2 heterotic compactiﬁcations with torsion, starting
+from (2.15) and using the techniques that were summarized in section 3. Note that
+the actual models we are considering only exist at special points of the Narain moduli
+space compatible with the three-form ﬂux. Nevertheless, we shall try to keep the
+moduli arbitrary and treat them as continuous variables, so that the expressions can
+be conveniently adapted to any special realization.2
+4.1
+Gravitational threshold corrections
+In order to compute the threshold correction to the gravitational coupling, one has
+to compute the following modular integral:
+Λgrav = βgrav log M2
+s
+µ2 + ∆grav = 1
+24
+Z
+F
+dν
+n
+τ2 ˆE2(τ) Znew(τ, ¯τ)
+o
+.
+(4.1)
+Using eq. (2.15), one thus has to compute:
+24Λgrav =
+X
+µ,pl,pr
+Z
+F
+dν τ2 q
+1
+2 ⟨pl,pl⟩Γl ¯q
+1
+2⟨pr,pr⟩Γr×
+×
+(
+−n
+12
+ˆE2E4E6
+∆
++ n −24
+12
+ˆE2
+2E2
+4
+∆
+−f(pl, ω)
+2
+ˆE2E2
+4
+∆
+)
+.
+(4.2)
+where here and in the following, the momentum sum P
+µ,pl,pr is a compact notation
+for P
+µ∈Γ⋆l /Γl
+P
+pl∈Γl+µ
+P
+pr∈Γr+ϕ(µ).
+Following [29] we rewrite the weak almost holomorphic modular forms entering
+in the integrands above in terms of Niebur-Poincar´e series F(s, κ, w). One has the
+following decompositions:
+ˆE2E4E6
+∆
+= F(2, 1, 0) −5F(1, 1, 0) −144 ,
+ˆE2
+2E2
+4
+∆
+= 1
+5F(3, 1, 0) −4F(2, 1, 0) + 13F(1, 1, 0) + 144 ,
+ˆE2E2
+4
+∆
+=
+1
+40F(3, 1, −2) −1
+3F(2, 1, −2) .
+(4.3)
+2In particular, when ω1 and ω2 in (2.10) are proportional to each other, only one complex torus
+modulus is stabilized by the ﬂux and the other one remains.
+– 10 –
+
+Regularizing the IR divergence and performing the modular integral by unfolding
+the integration domain against the Niebur-Poincar´e series, one obtains
+Λgrav =
+X
+BPS
+(
+−m(pl)
+48
+3 2F1 (2, 4, 6, t−1)
+20t4
+−2 2F1 (1, 3, 4, t−1)
+3t3
+
+−
+n
+12 × 24
+
+2F1 (2, 2, 4, t−1)
+t2
+−5 2F1 (1, 1, 2, t−1)
+t
+
++ n −24
+24
+
+2F1 (2, 3, 6, t−1)
+20t3
+−
+2F1 (1, 2, 4, t−1)
+3t2
+
++ n −24
+12 × 24
+2 2F1 (3, 3, 6, t−1)
+5t3
+−4 2F1 (2, 2, 4, t−1)
+t2
++ 13 2F1 (1, 1, 2, t−1)
+t
+ )
++ (n −12)Idkl ,
+(4.4)
+where t := p2
+l/2, m(pl, ω) :=
+R
+S⟨pl, pω⟩2
+Γl and
+Idkl :=
+Z
+F
+dν τ2
+X
+µ,pl,pr
+q
+1
+2 p2
+l ¯q
+1
+2 p2
+r = −log
+ 4πe−γT2U2 |η(T)η(U)|4
+(4.5)
+is the Dixon-Kaplunovsky-Louis integral, where γ is the Euler-Mascheroni constant.
+As already explained, in the above expression, P
+BPS is a shorthand for P
+pl,pr δ(p2
+l −
+p2
+r −2), in other words the sum over perturbative half-BPS states.
+Fortunately, this complicated expression simpliﬁes considerably in the cases of
+interest here, and one ends up with standard polynomial and logarithmic functions of
+the last argument, cf. appendix A. One ends up with the following simple expression
+for the gravitational threshold corrections:
+Λgrav =
+X
+BPS
+(
+1 + n −24
+24
+3
+2t +
+
+t −11
+12
+
+log
+t −1
+t
+
++
++ m(pl, ω)
+24
+
+6 −3
+4t2 −5
+2t + 6
+
+t −11
+12
+
+log
+t −1
+t
+ )
++ (n −12) Idkl .
+(4.6)
+This expression is clearly independent of the choice of chamber in the Narain moduli
+space.
+Setting n = 24 and m(pl, ω) = 0 to make the torus ﬁbration trivial, one obtains
+the result for K3 × T 2 compactiﬁcations:
+Λgrav =
+X
+BPS
+
+1 +
+
+t −11
+12
+
+log
+t −1
+t
+
++ 12 Idkl .
+(4.7)
+Note that these expressions are potentially divergent if t = 1, i.e. at point of sym-
+metry enhancement where p2
+L = 2. The presence or not of these divergences clearly
+depends of the actual values of the K¨ahler and complex structure moduli.
+– 11 –
+
+Finally from eq. (4.6) we can extract the value of gravitational β-function, which
+is the coeﬃcient of the trace anomaly [35]:
+βgrav = n −12 .
+(4.8)
+This coeﬃcient is related to the relative number of hypermultiplets and vector mul-
+tiplets.
+Comparing eq. (4.7) with known results from K3 × T 2 [36], we get the
+normalisation:
+βgrav = 24 + nh −nv
+22
+.
+(4.9)
+Hence nh −nv, i.e. the diﬀerence between the number of massless hypermultiplets
+and vector multiplets (including S, containing the dilaton, and the graviphoton),
+depends on the instanton number n of the vector bundle V, hence indirectly on the
+data of the principal two-torus bundle through the integrated Bianchi identity (2.8).
+4.2
+Gauge threshold corrections
+The expression (2.15) for the new supersymmetric index is independent of the rank
+of the gauge bundle. In order to compute explicitely the correction to the gauge
+couplings one has to choose a particular sub-class of bundles; we will consider below
+the case of a bundle of structure group SU(2), embedded into one of the two E8
+factors of the gauge group, with arbitary instanton number 0 ⩽n ⩽24. It will allow
+to compare easily with classical results for K3 × T 2 with the standard embedding
+of the spin connection into the gauge connection, and vanishing Wilson lines, i.e.
+models with a rank one bundle and n = 24.
+4.2.1
+Corrections to the E8 coupling
+Let us start with the one-loop correction to the gauge coupling corresponding to the
+unbroken E8 factor of the spacetime gauge group. The threshold correction is given
+by:
+ΛE8 = βE8 log M2
+s
+µ2 + ∆E8 =
+Z
+F
+dν ZE8(τ, ¯τ) ,
+(4.10)
+where ZE8(τ, ¯τ) corresponds to the new supersymmetric index with an extra insertion
+of
+
+Q2
+E8 −
+1
+8πτ2
+
+in the trace:
+ZE8(τ, ¯τ) =
+τ2
+η(τ)2 Trr
+
+Q2
+E8 −
+1
+8πτ2
+
+¯J 0(−1)FrqL0−c/24¯q
+¯L0−¯c/24
+
+(4.11)
+Let us deﬁne ˜Dw := (−4w)−1Dw, where Dw is the modular covariant derivative
+as deﬁned in appendix A. The insertion
+
+Q2
+E8 −
+1
+8πτ2
+
+corresponds then to acting in
+Znew on the character of the aﬃne E8 algebra, namely E4(τ) with the operator ˜D4.
+Using the fact that:
+D4E4 = 2
+3
+
+E6 −ˆE2E4
+
+,
+(4.12)
+– 12 –
+
+One obtains:
+ZE8 =
+ˆE2E4 −E6
+24∆
+τ2
+X
+µ,pl,pr
+q
+1
+2 p2
+l ¯q
+1
+2p2
+r
+
+−n
+12E6 + n −24
+12
+ˆE2E4 −f(pl, ω)
+2
+E4
+
+,
+(4.13)
+i.e.:
+ZE8 =
+1
+24∆τ2
+X
+µ,pl,pr
+q
+1
+2 p2
+l ¯q
+1
+2 p2
+r×
+
+−n −12
+6
+ˆE2E4E6 + n
+12E2
+6 + n −24
+12
+ˆE2
+2E2
+4 −f(pl, ω)
+2
+( ˆE2E2
+4 −E4E6)
+
+.
+(4.14)
+In addition to eq. (4.3), one has the following decompositions into Niebur-Poincar´e
+series:
+E2
+6
+∆= F(1, 1, 0) −1008 ,
+E4E6
+∆
+= 1
+6F(2, 1, −2) .
+(4.15)
+One then performs the modular integral to get:
+ΛE8 =
+X
+BPS
+(
+−m(pl)
+48
+3 2F1 (2, 4, 6, t−1)
+20t4
+−
+2F1 (1, 3, 4, t−1)
+t3
+
+−n −12
+6 × 24
+
+2F1 (2, 2, 4, t−1)
+t2
+−5 2F1 (1, 1, 2, t−1)
+t
+
++ n −24
+24
+
+2F1 (2, 3, 6, t−1)
+20t3
+−
+2F1 (1, 2, 4, t−1)
+2t2
+
++ n 2F1 (1, 1, 2, t−1)
+12t
++ n −24
+12 × 24
+2 2F1 (3, 3, 6, t−1)
+5t3
+−4 2F1 (2, 2, 4, t−1)
+t2
++ 13 2F1 (1, 1, 2, t−1)
+t
+ )
+−2(n + 12) Idkl .
+(4.16)
+Once again, for such integer values of the arguments, the hypergeometric functions
+simplify dramatically, cf.
+eq. (A.11), and one ends up with the following simple
+expression:
+ΛE8 =
+X
+BPS
+(
+1 + n −24
+12t
++ (t −1) log
+t −1
+t
+
++
++ m(pl, ω)
+4
+
+1 −1
+6t2 −1
+2t + (t −1) log
+t −1
+t
+ )
+−2(n + 12) Idkl .
+(4.17)
+– 13 –
+
+From this expression we can read oﬀimmediately the expression of the β-function:
+βE8 = −2(n + 12) .
+(4.18)
+Setting n = 24 and m(pl, ω) = 0, one obtains:
+ΛE8 =
+X
+BPS
+
+1 + (t −1) log
+t −1
+t
+
+−72 Idkl ,
+(4.19)
+which coincides with the already known result for K3 × T 2 [29].
+4.2.2
+Corrections to the E7 coupling
+For deﬁniteness, and as stated in the introduction of this section, we focus on the
+case in which the vector bundle over the compact manifold has an SU(2) structure
+group, such that the unbroken gauge group in spacetime contains a E7 factor.
+As before, computing the threshold correction corresponds to performing the
+modular integral of a descendant of the new supersymmetric index, i.e.
+with a
+
+Q2
+E7 −
+1
+8πτ2
+
+insertion in the trace:
+ΛE7 = βE7 log M2
+s
+µ2 + ∆E7 =
+Z
+F
+dν ZE7(τ, ¯τ) ,
+(4.20)
+with:
+ZE7(τ, ¯τ) =
+τ2
+η(τ)2 Trr
+
+Q2
+E7 −
+1
+8πτ2
+
+¯J 0(−1)FrqL0−c/24¯q
+¯L0−¯c/24
+
+(4.21)
+In functional picture, the extra operator insertion acts as ˜Dw on every E4(τ) and
+E6(τ) factor in the new supersymmetric index but not on the E4(τ) corresponding
+to the unbroken E8 factor of the gauge group, which was treated in the previous
+section. One has the following identities, due to Ramanujan:
+D4E4 = 2
+3
+
+E6 −ˆE2E4
+
+,
+(4.22a)
+D6E6 = E2
+4 −ˆE2E6 .
+(4.22b)
+One thus obtains:
+ZE7 =
+τ2
+24∆
+X
+µ,pl,pr
+q
+1
+2p2
+l ¯q
+1
+2p2
+r×
+(4.23)
+
+−n −12
+6
+ˆE2E4E6 + n
+12E3
+4 + n −24
+12
+ˆE2
+2E2
+4 −f(pl, ω)
+2
+( ˆE2E2
+4 −E4E6)
+
+.
+(4.24)
+– 14 –
+
+In addition to eqs. (4.3) and (4.15) one has the following decomposition into Niebur-
+Poincar´e series:
+E3
+4
+∆= F(1, 1, 0) + 720 .
+(4.25)
+It gives:
+ΛE7 =
+X
+BPS
+(
+−m(pl)
+48
+3 2F1 (2, 4, 6, t−1)
+20t4
+−
+2F1 (1, 3, 4, t−1)
+t3
+
++
+n
+12 × 24
+2F1 (1, 1, 2, t−1)
+t
++ n −24
+24
+
+2F1 (2, 3, 6, t−1)
+20t3
+−
+2F1 (1, 2, 4, t−1)
+2t2
+
++ n −24
+12 × 24
+2 2F1 (3, 3, 6, t−1)
+5t3
+−4 2F1 (2, 2, 4, t−1)
+t2
++ 13 2F1 (1, 1, 2, t−1)
+t
+ )
++ 4(n −6)Idkl .
+(4.26)
+Once again, for such integer values of the arguments, the hypergeometric functions
+simplify dramatically, cf.
+eq. (A.11), and one ends up with the following simple
+expression:
+ΛE7 =
+X
+BPS
+(
+1 + n −24
+12t
++ (t −1) log
+t −1
+t
+
++ m(pl, ω)
+4
+
+1 −1
+6t2 −1
+2t + (t −1) log
+t −1
+t
+ )
++ 4(n −6) Idkl .
+(4.27)
+We can once again read directly the β-function:
+βE7 = 4(n −6) .
+(4.28)
+Setting n = 24 and m(pl, ω) = 0, one obtains:
+ΛE7 =
+X
+BPS
+
+1 + (t −1) log
+t −1
+t
+
++ 72 Idkl ,
+(4.29)
+corresponding indeed to the already known result for K3 × T 2.
+4.2.3
+Universality property of the gauge threshold corrections
+The presence of N = 2 supersymmetry in spacetime hints towards some universality
+properties of the thresholds, as in the K3 × T 2 case. The diﬀerence of the two gauge
+thresholds indeed turns out to be universal. Using the fact that:
+E3
+4 −E2
+6 = 1728∆,
+(4.30)
+– 15 –
+
+one obtains for the diﬀerence of the two integrands:
+ZE8 −ZE7 = −6n τ2
+X
+µ,pl,pr
+q
+1
+2 p2
+l ¯q
+1
+2 p2
+r
+(4.31)
+leading to an integer multiple of the Dixon-Kaplunovsky-Louis integral for the thresh-
+olds:
+ΛE8 −ΛE7 = (βE8 −βE7) Idkl = −6n Idkl .
+(4.32)
+Setting n = 24, one recovers the well-known result:
+ΛE8 −ΛE7 = −144 Idkl .
+(4.33)
+5
+Fourier series and worldsheet instanton corrections
+The results obtained in the previous section encapsulate in a compact and O(2, 2;
+Z)
+invariant way the threshold corrections to the gauge and gravitational couplings.
+It is useful to present the result in a diﬀerent way, which allows one to isolate the
+contributions from worldsheet instantons, using a Fourier series expansion [30].
+The role of worldsheet instantons is particularly interesting to investigate in these
+N = 2 torsional compactiﬁcations, whose topology corresponds to the total space
+of the principal bundle T 2 ֒→M
+π→S. The relevant instantons in this context are
+holomorphic maps from the worldsheet two-torus to the target-space T 2.
+In the present context neither the K3 base nor the T 2 ﬁber are cycles of the total
+space M of the principal bundle; in particular the two-torus is only a torsion two-
+cycle. One may wonder therefore whether an inﬁnite tower of instanton corrections
+appears in the result; as we will see below, it turns out to be the case.
+Starting from Spin(32)/ Z2 ten-dimensional heterotic strings, our results lead
+to interesting insights on non-perturbative corrections to Type I compactiﬁcations
+with Ramond-Ramond ﬂux. Under heterotic/type I S-duality, the one-loop heterotic
+computations capture both perturbative and non-pertubative corrections on the type
+I side, in particular the contribution of Euclidean D1-brane worldsheets wrapping the
+two-torus [27, 37]. This is a quite interesting result, as D-instantons corrections in
+the presence of RR ﬂuxes have not been investigated in detail to our knowledge.
+5.1
+The Fourier series expansion
+Let us now focus on an alternative representation in terms of a Fourier series expan-
+sion of the integral:
+Ig(s) :=
+Z
+F
+dν τ2
+X
+µ,pl,pr
+g(pl
+√τ2) q
+1
+2 p2
+l ¯q
+1
+2p2
+r F(s, 1, w) ,
+(5.1)
+with some momentum insertion g(pl
+√τ2), which in our case will correspond to
+f(pl, ω).
+– 16 –
+
+In order to obtain this alternative Fourier series representation, one ﬁrst performs
+the τ1 integral which imposes the BPS constaint on the momenta, then solves the
+constraint and performs a suitable Poisson resummation.
+Explicitly, one expands the Niebur-Poincar´e series in terms of the Whittaker
+M-function, which is then itself expressed in terms of the conﬂuent hypergeometric
+function 1F1,
+Ms,w(−t) = (4πt)−w/2M−w/2,s−1/2(4πt)
+= (4πt)s−w/2 e−2πt
+1F1(s + w/2; 2s; 4πt) .
+(5.2)
+The hypergeometric function 1F1 satisﬁes:
+1F1(a; 2a + n; y) = Γ(a −1
+2)
+y
+4
+ 1
+2−a
+ey/2
+n
+X
+ℓ=0
+(−n)ℓ(2a −1)ℓ
+(2a + n)ℓℓ!
+(a + ℓ−1
+2) Ia+ℓ−1
+2(y/2) .
+(5.3)
+In these expressions (x)ℓ= Γ(x+ℓ)/Γ(x) = x(x+1) . . . (x+l−1) is the Pochhammer
+symbol or rising factorial. It satisﬁes, (−x)ℓ= (−1)ℓ(x −ℓ+ 1)ℓ.
+This strategy can be applied ﬁrst to compute the Fourier series expansion in
+absence of momentum insertion:
+I(s) :=
+Z
+F
+dν F(s, 1, 0) Λ2,2(T, U) ,
+(5.4)
+where:
+Λ2,2(T, U) := τ2
+X
+µ,pl,pr
+q
+1
+2 p2
+l ¯q
+1
+2p2
+r
+(5.5)
+is the modular invariant partition function of the signature (2, 2) Narain lattice. It
+is evaluated at some particular points in moduli space speciﬁed by the quantization
+condition T, U ∈
+Q[
+√
+D], although the computation below, by itself, could be done
+for any T and U as nowhere we make use of these conditions.
+The Fourier expansion of eq. (5.4) was computed in [30]. The result splits into
+zero, negative and positive frequency parts:
+I(s) = I(−)(s) + I(0)(s) + I(+)(s) ,
+(5.6)
+with:
+I(0)(s) = 24s−3√
+4πΓ
+
+s −1
+2
+
+X
+(n1,n2)=1
+(T2 ˜U2)s 
+T2 + ˜U2 + |T2 −˜U2|
+1−2s
+,
+I(+)(s) = 1
+2
+X
+M>0
+X
+γ∈Γ∞\ΓU
+e2iπM(T1−˜U1)
+M
+Ms,0
+M
+2
+
+T2 + ˜U2 −|T2 −˜U2|
+
+×
+× Ws,0
+M
+2
+
+T2 + ˜U2 + |T2 −˜U2|
+
+,
+(5.7)
+– 17 –
+
+the negative frequency part being obtained by complex conjugation.
+Using the relations between the Whittaker functions Mk,m, Wk,m and the modi-
+ﬁed Bessel functions of the ﬁrst and second kind [29]:
+Ms,0(±y) = 22s−1Γ
+
+s + 1
+2
+ p
+4π|y| Is−1
+2(2π|y|) ,
+Ws,0(±y) = 2
+p
+|y| Ks−1
+2(2π|y|) ,
+(5.8)
+and focusing on the fundamental chamber T2 > ˜U2 for deﬁniteness, one can
+rewrite the positive frequency part in the following way:
+I(+)(s) = 22s+1√π Γ
+
+s + 1
+2
+
+×
+×
+X
+M>0
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2 e2iπM(T1−˜U1)Is−1
+2(2πM ˜U2)Ks−1
+2(2πMT2) ,
+(5.9)
+where one recognizes the sum over comprime integers n1, n2 as a sum over cosets
+in the quotient of the modular group Γ = SL2(Z)U by the stabilizer of the cusp
+at inﬁnity Γ∞.
+Notice the presence of a factor of 2 since the pairs (n1, n2) and
+(−n1, −n2) correspond to the same coset γ.
+We now want to compute the Fourier series expansion of an integral of the same
+type but with the extra f(pl, ω) weight 2 momentum insertion, namely:
+If(s) :=
+Z
+F
+dν F(s, 1, −2) τ2
+X
+µ,pl,pr
+q
+1
+2p2
+l ¯q
+1
+2 p2
+rf(pl, ω) ,
+(5.10)
+with:
+f(pl, ω) =
+Z
+S
+⟨pl, pω⟩2
+Γl −n −24
+2πτ2
+.
+(5.11)
+Upon unfolding the fundamental domain F against the Niebur-Poincar´e series
+F(s, 1, −2) one gets:
+If(s) =
+Z ∞
+0
+dτ2
+τ 2
+2
+Z 1/2
+−1/2
+dτ1 Ms,−2(τ2)e−2πiτ1 X
+µ,pl,pr
+q
+1
+2p2
+l ¯q
+1
+2 p2
+rf(pl, ω)
+=
+X
+bps
+Z ∞
+0
+dτ2
+τ2
+Ms,−2(τ2)f(pl, ω) e−πτ2(|pl|2+|pr|2)/2 .
+(5.12)
+The τ1 integration variable acts as a Lagrange multiplier to restrict the lattice sum
+to the contributions m1n1 + m2n2 = 1, where we have expanded the momenta in a
+complex basis:
+pL =
+1
+√U2T2
+ m2 −Um1 + ¯T(n1 + Un2)
+
+(5.13a)
+pR =
+1
+√U2T2
+ m2 −Um1 + T(n1 + Un2)
+
+(5.13b)
+– 18 –
+
+As explained above, ﬁrst one has to solve the BPS constraint m1n1 + m2n2 = 1.
+In general, for any pair of co-prime integers (n1, n2), B´ezout’s lemma ensures that
+one can ﬁnd another pair of co-primes ( ˜m1, ˜m2) such that ˜m1n1 + ˜m2n2 = 1. The
+solutions of the BPS constraints are then of the form:
+m1 = ˜m1 + ˜
+Mn2 ,
+m2 = ˜m2 −˜
+Mn1 ,
+(5.14)
+with ˜
+M ∈
+Z. Upon inserting this expression into the integrand one notices that the
+complex structure U and the charges deﬁning pω always appear in the combination
+˜U = γ · U so that the sum over (n1, n2) reduces to a sum over images with respect
+to SL(2;
+Z)U. At this point one has to Poisson resum over the variable ˜
+M to obtain
+the desired Fourier series expansion in T. Notice that the momenta are at most
+linear in ˜
+M which imply that both the argument in the exponential and the f(pl, ω)
+insertion in eq. (5.12) are polynomials of second degree in ˜
+M. One gets the following
+schematic expression for this integral eq. (5.10):
+If(s) = 2
+X
+M∈Z
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2e2iπM(T1−˜
+U1)×
+×
+Z ∞
+0
+dτ2
+τ 3/2
+2
+Ms,−2(−τ2)
+ α
+τ 2
+2
++ β
+τ2
++ δ
+
+exp
+
+−A
+τ2
+−Bτ2
+
+.
+(5.15)
+The precise expression of the various coeﬃcients in the above schematic expression
+is determined in appendix B. We recall that
+Ms,−2(y) = 4πy M1,s−1/2(4πy)
+= (4πy)s+1 e−2πy
+1F1(s −1; 2(s −1) + 2; 4πy) ,
+(5.16)
+that, together with eq. (5.3) yields:
+Ms,−2(y) = 22s−3 Γ(s−3
+2) (4πy)5/2
+2
+X
+ℓ=0
+(−1)ℓ(3 −ℓ)ℓ(2s −3)ℓ
+(2s)ℓℓ!
+(s+ℓ−3
+2) Is+ℓ−3
+2(2πy) .
+(5.17)
+Plugging this expression into the integral in eq. (5.15) yields:
+42s π5/2 Γ(s −3
+2)
+2
+X
+ℓ=0
+(−1)ℓ(3 −ℓ)ℓ(2s −3)ℓ
+(2s)ℓℓ!
+(s + ℓ−3
+2)×
+×
+Z ∞
+0
+dt
+α
+t + β + δt
+
+Is+ℓ−3
+2(2πt) e−A/t−Bt .
+(5.18)
+– 19 –
+
+The relevant values of the coeﬃcients A, B, α, β and δ computed in appendix B
+are the following:
+A = πM2T2 ˜U2 ,
+(5.19a)
+B = π
+ 
+T2
+˜U2
++
+˜U2
+T2
+!
+,
+(5.19b)
+α = −T 2
+2 M2 ˜Ni
+(1)dij ˜Nj
+(1) ,
+(5.19c)
+β = 2iT2M T2 + ˜U2
+˜U2
+˜Ni
+(1)dij ˜Nj
+(2) −
+T2
+2π ˜U2
+˜Ni
+(2)dij ˜Nj
+(2) ,
+(5.19d)
+δ =
+ 
+T2 + ˜U2
+˜U2
+!2
+˜Ni
+(2)dij ˜Nj
+(2) ,
+(5.19e)
+where ˜N(1) := Re( ˜N) and ˜N(2) := Im ( ˜N).
+One then plugs eq. (5.18) into eq. (5.15), and splits the later into its zero, positive
+and negative frequency parts:
+If(s) = I(−)
+f
+(s) + I(0)
+f (s) + I(+)
+f
+(s) .
+(5.20)
+Zero-frequency mode
+One has explicitely for the zero mode part of the Fourier expansion:
+I(0)
+f (s) = 2
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2
+Z ∞
+0
+dt
+t3/2 Ms,−2(−t)
+β(0)
+t
++ δ
+
+exp (−Bt) ,
+(5.21)
+which we can rewrite, using the results above, as:
+I(0)
+f (s) = 24s+1 π5/2 Γ(s −3
+2)
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2
+2
+X
+ℓ=0
+(−1)ℓ(3 −ℓ)ℓ(2s −3)ℓ
+(2s)ℓℓ!
+(s + ℓ−3
+2)×
+×
+
+−β(0) ∂
+∂B + δ ∂2
+∂B2
+ Z ∞
+0
+dt
+t Is+ℓ−3
+2(2πt) e−Bt .
+(5.22)
+One can obtain a very explicit expression in the form:
+I(0)
+f (s) = 24s+1 π5/2 Γ(s −3
+2)
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2
+2
+X
+ℓ=0
+(−1)ℓ(3 −ℓ)ℓ(2s −3)ℓ
+(2s)ℓℓ!
+(s + ℓ−3
+2)×
+×
+
+β(0)F (0)
+1,s+l−3
+2(B, 2π) + δF (0)
+2,s+l−3
+2(B, 2π)
+
+,
+(5.23)
+where the functions F (0)
+n,ν are deﬁned and computed in appendix C.
+– 20 –
+
+Positive frequency modes
+Let us now consider the positive frequency part, the negative part being obtained
+from it by complex conjugation. The contribution of positive modes reads:
+I(+)
+f
+(s) = 2
+X
+M>0
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2e2iπM(T1−˜
+U1)×
+×
+Z ∞
+0
+dτ2
+τ 3/2
+2
+Ms,−2(−τ2)
+ α
+τ 2
+2
++ β
+τ2
++ δ
+
+exp
+
+−A
+τ2
+−Bτ2
+
+.
+(5.24)
+One can again rewrite it as:
+I(+)
+f
+(s) = 24s+1 π5/2 Γ(s −3
+2)
+X
+M>0
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2
+2
+X
+ℓ=0
+(−1)ℓ(3 −ℓ)ℓ(2s −3)ℓ
+(2s)ℓℓ!
+×
+× (s + ℓ−3
+2)
+
+α −β ∂
+∂B + δ ∂2
+∂B2
+ Z ∞
+0
+dt
+t Is+ℓ−3
+2(2πt) e−A/t−Bt ,
+(5.25)
+leading to the expression:
+I(+)
+f
+(s) = 24s+1 π5/2 Γ(s −3
+2)
+X
+M>0
+X
+γ∈Γ∞\Γ
+q
+T2 ˜U2
+2
+X
+ℓ=0
+(−1)ℓ(3 −ℓ)ℓ(2s −3)ℓ
+(2s)ℓℓ!
+×
+× (s + ℓ−3
+2)
+
+αF0,s+l−3
+2(A, B, 2π) + βF1,s+l−3
+2(A, B, 2π) + δF2,s+l−3
+2(A, B, 2π)
+
+,
+(5.26)
+where the functions Fn(A, B, C) are deﬁned in appendix C, and depend on the co-
+eﬃents A, B and C mainly through u± =
+√
+A(
+√
+B + C ±
+√
+B −C).
+Putting all pieces together, one has the following compact expressions for the
+Fourier expansion of the three threshold corrections:
+Gravitational threshold corrections:
+24Λgrav = −n
+12 (I(2) −5I(1) −144 Idkl)
++ n −24
+12
+1
+5I(3) −4I(2) + 13I(1) + 144 Idkl
+
+−1
+2
+ 1
+40If(3) −1
+3If(2)
+
+.
+(5.27)
+E8 threshold corrections:
+24ΛE8 = −n −12
+6
+(I(2) −5I(1) −144 Idkl)
++ n −24
+12
+1
+5I(3) −4I(2) + 13I(1) + 144 Idkl
+
++ n
+12 (I(1) −1008 Idkl) −1
+2
+ 1
+40If(3) −1
+2If(2)
+
+.
+(5.28)
+– 21 –
+
+E7 threshold corrections:
+24ΛE7 = −n −12
+6
+(I(2) −5I(1) −144 Idkl)
++ n −24
+12
+1
+5I(3) −4I(2) + 13I(1) + 144 Idkl
+
++ n
+12 (I(1) + 720 Idkl) −1
+2
+ 1
+40If(3) −1
+2If(2)
+
+.
+(5.29)
+5.2
+A simple subclass of models
+The Fourier series expansion that we have obtained above is not easy to analyse,
+in particular because the two-torus metric and the intersection form on the base
+dij =
+R
+S ωi ∧ωj are intertwined in a non trivial way in the momentum insertion
+R
+⟨pl, pω⟩2.
+In order to unveil the role of the worldsheet instantons, we consider
+below a subclass of models that, although not really special from the physical point
+of view, allow to present the results in a much simpler way.
+Noticing that the interpretation in terms of worldsheet instantons does not de-
+pend on the precise moduli of the torus ﬁber, let us consider for convenience examples
+in which the momentum insertion
+R
+⟨pl, pω⟩2 is proportional to ⟨pl, pl⟩:= p2
+l, namely
+the case where:
+f(pl, ω) = (n −24)
+
+p2
+l −
+1
+2πτ2
+
+,
+(5.30)
+where the proportionality constant in front of the p2
+l term is ﬁxed by modularity, and
+where one made use of the tadpole condition eq. (2.8). It amounts to a particular
+relation between the torus metric and the intersection form dij, see appendix D.
+For deﬁniteness let us consider the gravitational threshold corrections corre-
+sponding to such a setting. As discussed previously, it is written:
+24Λgrav =
+Z
+F
+dν τ2
+X
+µ,pl,pr
+q
+1
+2p2
+l ¯q
+1
+2p2
+r×
+×
+(
+−n
+12
+ˆE2E4E6
+∆
++ n −24
+12
+ˆE2
+2E2
+4
+∆
+−f(pl, ω)
+2
+ˆE2E2
+4
+∆
+)
+,
+(5.31)
+with dν = dτ1dτ2/τ 2
+2 the modular invariant measure. Let us focus on the last term
+and exploit eq. (5.30). Once again, we denote by Λ2,2 the partition function associated
+with the Narain lattice Γ2,2(T, U), including a factor τ2 making it modular invariant
+by itself. As a preliminary step, notice that:
+(n −24)(D0Λ2,2) = −τ2
+X
+µ,pl,pr
+f(pl, ω) q
+1
+2 p2
+l ¯q
+1
+2p2
+r ,
+(5.32)
+with D0 the modular covariant derivative as deﬁned in eq. (A.6). This allows to
+reexpress the last term in eq. (5.31) simply as:
+n −24
+2
+Z
+dν (D0Λ2,2)
+ˆE2E2
+4
+∆
+.
+(5.33)
+– 22 –
+
+Using eq. (A.7), an integration by part then leads to:
+−n −24
+2
+Z
+dν Λ2,2D−2
+ ˆE2E2
+4
+∆
+!
+.
+(5.34)
+Exploiting again eq. (A.7), one computes:
+D−2
+ ˆE2E2
+4
+∆
+!
+= 1
+6
+E3
+4
+∆+ 4
+3
+ˆE2E4E6
+∆
++ 1
+2
+ˆE2
+2E2
+4
+∆
+.
+(5.35)
+Plugging this result into eq. (5.31), one obtains ﬁnally:
+24Λgrav =
+Z
+F
+dν Λ2,2
+ 
+−3n −64
+4
+ˆE2E4E6
+∆
+−n −24
+6
+ˆE2
+2E2
+4
+∆
+−n −24
+12
+E3
+4
+∆
+!
+.
+(5.36)
+Using the decompositions in terms of Niebur-Poincar´e series, one ﬁnally obtains:
+24Λgrav =
+Z
+F
+dν Λ2,2
+
+−n −24
+30
+F(3, 1, 0) −n
+12F(2, 1, 0)+
++3n −52
+2
+F(1, 1, 0) + 24(n −12)
+
+,
+(5.37)
+which can be written in terms of eq. (5.4) as:
+24Λgrav = −n −24
+30
+I(3) −n
+12 I(2) + 3n −52
+2
+I(1) + 24(n −12) Idkl .
+(5.38)
+Let us split the result into positive, negative and zero-frequency parts:
+Λgrav = Λ(−)
+grav + Λ(0)
+grav + Λ(+)
+grav ,
+(5.39)
+that will be given separately below.
+Zero-frequency mode
+It turns out that one can have a very explicit expression for the zero mode part of
+the above expression in terms of real analytic Eisenstein series, deﬁned by:
+E(z, ρ) := 1
+2
+X
+(m,n)=1
+Im(z)ρ
+|m + zn|2ρ .
+(5.40)
+The zero-frequency mode of the gravitational threshold correction in the above
+example is then given by:
+Λ(0)
+grav =
+π
+90T 2
+2
+n
+15(3n −52)T 2
+2 E(U, 1) −5nT2 E(U, 2) −12(n −24) E(U, 3)
+o
++ (n −12) Idkl .
+(5.41)
+In the K3 × T 2 case, it reduces to:
+Λ(0)
+grav = 2π
+3
+n
+5 E(U, 1) −2T −1
+2
+E(U, 2)
+o
++ 12 Idkl .
+(5.42)
+– 23 –
+
+Positive frequency part
+The positive frequency part can also be written explicitely in terms of the Niebur-
+Poincar´e series themselves, cf. eq. (5.7):
+Λ(+)
+grav =
+1
+30 × 24
+X
+M>0
+e2iπMT1
+M
+n
+30(3n −52) W1,0(MT2)F(1, M, 0; U)
+−5n W2,0(MT2)F(2, M, 0; U) −2(n −24) W3,0(MT2)F(3, M, 0; U)
+o
+,
+(5.43)
+which reduces for K3 × T 2 to:
+Λ(+)
+grav = 1
+6
+X
+M>0
+e2iπMT1
+M
+n
+5 W1,0(MT2)F(1, M, 0; U) −W2,0(MT2)F(2, M, 0; U)
+o
+.
+(5.44)
+Given that W1+ℓ,0(MT2) ∼(MT2)−ℓe−2πMT2 ×(polynomial in MT2), one has in both
+cases a sum over M ∈
+Z>0 which represents the sum over the wrapping number of a
+worldsheet instanton around the two-torus ﬁber of the principal bundle T 2 ֒→M
+π→
+S, which is of volume T2.
+Even though for n < 24 the torus ﬁber is only a torsional two-cycle, it appears
+that worldsheet instantons, corresponding to holomorphic maps from the heterotic
+worldsheet to M wrapping the ﬁber, do contribute to the threshold corrections, for
+any wrapping number.
+Would we have decided to work with the Spin(32)/ Z2 heterotic string, this dis-
+cussion should also be considered in the context of type I ﬂux compactiﬁcations via
+S-duality [3]. Then, the heterotic thresholds encompass both the spacetime pertur-
+bative and non-perturbative eﬀects on the type I side, the latter corresponding to
+Euclidean D1-branes wrapping the torus ﬁber.
+6
+Conclusion
+In this work, we have computed the one-loop threshold corrections to the gauge and
+gravitational couplings in a large class of N = 2 heterotic compactiﬁcations on non-
+K¨ahler manifolds with three-form ﬂux. We have obtained the result from the new
+supersymmetric index that was computed in [10, 11].
+The results were ﬁrst given in terms of Niebur-Poincar´e series, exhibiting invari-
+ance under perturbative O(2, 2;
+Z) dualities, and second as a Fourier series expansion,
+allowing to isolate the contributions of the worldsheet instantons wrapping the two-
+torus ﬁber of the principal bundle.
+By S-duality our results apply to D-instanton corrections in some Ramond-
+Ramond backgrounds. A better understanding of the physics behind these instanton
+– 24 –
+
+corrections would involve then studying D1-instanton probes in these ﬂux back-
+grounds of type I supergravity. We plan to come back to this problem in the near
+future.3
+A generalization of our results to models with Abelian gauge bundle over the total
+space is also worthwile considering, given that the new supersymmetric index has also
+been computed in those cases [11]. These examples are especially important from
+the four-dimensional eﬀective ﬁeld-theory perspective, as the threshold corrections
+will then be functions of the bundle moduli, while the torus moduli are frozen to
+discrete values for a generic choice of torus principal bundle.
+It would be very interesting to consider compactiﬁcations with torsion with re-
+duced or without supersymmetry, that can be obtained as freely orbifolds of the
+N = 2 models [6] and investigate whether, as for K3 × T 2 models [39], one obtains
+a universal behavior.
+Acknowledgements
+We thank Nick Halmagyi, Ruben Minasian, Ilarion Melnikov, Ronen Plesser and
+Jan Troost, for discussions and correspondence. This work was conducted within
+the ILP LABEX (ANR-10-LABX-63) supported by French state funds managed by
+the ANR (ANR-11-IDEX-0004-02) and by the project QHNS in the program ANR
+Blanc SIMI5 of Agence National de la Recherche.
+A
+Theta functions, modular covariant derivative and hyper-
+geometric functions
+We deﬁne the odd Jacobi theta function and the Dedekind eta function by the
+following inﬁnite products:
+θ(τ, z) := −i q
+1
+8y
+1
+2
+∞
+Y
+n=1
+(1 −qn) (1 −yqn)
+ 1 −y−1qn−1
+.
+(A.1a)
+η(τ) := q
+1
+24
+∞
+Y
+n=1
+(1 −qn) ,
+(A.1b)
+with q := exp(2iπτ) and y := exp(2iπz). The discriminant modular form is given in
+terms of the Dedekind eta function by:
+∆(τ) := η(τ)24 .
+(A.2)
+Given an even integral lattice Γ, whose pairing we denote:
+⟨·, ·⟩: Γ × Γ →
+Z ,
+(A.3)
+3In [38] heterotic ﬁve-branes wrapping the torus ﬁber have been studied. However the physics
+is not the same because the coupling to the NS-NS ﬂux is diﬀerent.
+– 25 –
+
+and an element µ ∈Γ⋆/Γ in its discriminant group, we deﬁne its associated theta-
+function with characteristic µ as a reﬁned generated function:
+ΘΓ
+µ :
+H × (Γ ⊗
+C) →
+C
+(τ, z) 7→
+X
+v∈Γ+µ
+eiπ(⟨v,v⟩τ+2⟨v,z⟩) .
+(A.4)
+Let us recall the deﬁnition of the SL2(Z) normalized Eisenstein series of weight 2w:
+E2w(τ) :=
+1
+2ζ(2w)
+X
+(m,n)∈(Z∗)2
+1
+|m + τn|2w .
+(A.5)
+We deﬁne the following weight-2 modular covariant derivative acting on the space of
+weight w modular forms:
+Dw : Mw →Mw+2
+f 7→
+ i
+π
+∂
+∂τ +
+w
+2πτ2
+
+f .
+(A.6)
+Notice that this modular covariant derivative satisﬁes the Leibniz rule:
+Dw+r(ψwφr) = (Dwψw)φr + ψwDr(φr) .
+(A.7)
+We give two identities due to Ramanujan involving the Eisenstein series:
+D4E4 = 2
+3
+
+E6 −ˆE2E4
+
+,
+(A.8a)
+D6E6 = E2
+4 −ˆE2E6
+(A.8b)
+The conﬂuent hypergeometric function 1F1 (a; c; z) is deﬁned by:
+1F1 (a; c; z) :=
+∞
+X
+n=0
+(a)n
+(c)n
+zn
+n! ,
+(A.9)
+with (q)n the Pochhammer symbol, or rising factorial. The hypergeometric function
+2F1 (a, b; c; z) is deﬁned by:
+2F1 (a, b; c; z) :=
+∞
+X
+n=0
+(a)n(b)n
+(c)n
+zn
+n! .
+(A.10)
+– 26 –
+
+We give the expression of the hypergeometric function 2F1 for some speciﬁc values
+of its arguments:
+2F1(2, 4, 6, t−1) = −10
+3 t2
+
+24t2 + 6(4t −3)t2 log
+t −1
+t
+
+−6t −1
+
+,
+(A.11a)
+2F1(1, 3, 4, t−1) = −3
+2t
+
+2t2 log
+t −1
+t
+
++ 2t + 1
+
+,
+(A.11b)
+2F1(2, 2, 4, t−1) = −6t2
+
+(2t −1) log
+t −1
+t
+
++ 2
+
+,
+(A.11c)
+2F1(1, 1, 2, t−1) = −t log
+t −1
+t
+
+,
+(A.11d)
+2F1(2, 3, 6, t−1) = 10t2
+
+12t2 + 6
+ 2t2 −3t + 1
+
+t log
+t −1
+t
+
+−12t + 1
+
+, (A.11e)
+2F1(1, 2, 4, t−1) = 3t
+
+2t + 2(t −1)t log
+t −1
+t
+
+−1
+
+,
+(A.11f)
+2F1(3, 3, 6, t−1) = −30t3
+ 6t2 −6t + 1
+
+log
+t −1
+t
+
++ 6t −3
+
+.
+(A.11g)
+B
+Coeﬃcients
+In this appendix, we will determine the exact coeﬃcients entering in the computation
+of the Fourier expansion representation of the integral eq. (5.10):
+If(s) :=
+Z
+F
+dν F(s, 1, −2) τ2
+X
+µ,pl,pr
+q
+1
+2p2
+l ¯q
+1
+2 p2
+rf(pl, ω) ,
+(B.1)
+with quadratic momentum insertion:
+f(pl, ω) = ˜dijpi
+lpj
+l −n −24
+2πτ2
+,
+(B.2)
+with the metric ˜d deﬁned in appendix D.
+As mentioned in section 5.1, the ﬁrst step in deriving the Fourier representation
+is to ﬁrst perform the integral over the Lagrange multiplier τ1 to impose the con-
+straint on the lattice momenta, solve explicitely the constaint, and perform a suitable
+Poisson resummation.
+Let us now introduce some notation for the lattice. First, the Γ2,2(T, U) Narain
+lattice elements can be written in a complex basis as
+pL =
+1
+√U2T2
+ m2 −Um1 + ¯T(n1 + Un2)
+
+pR =
+1
+√U2T2
+ m2 −Um1 + T(n1 + Un2)
+
+– 27 –
+
+In complex notation the scalar product becomes
+⟨pL, p′
+L⟩= 1
+2
+ |pL + p′
+L|2 −|pL|2 −|pR|2
+= Re (pL¯p′
+L) .
+(B.3)
+The BPS constraint 1
+4(|pL|2 −|pR|2) = m1n1 + m2n2 = 1 is solved, for coprime
+(n1, n2), as
+m1 = m⋆
+1 + ˜
+Mn2 ,
+m2 = m⋆
+2 −˜
+Mn1 ,
+(B.4)
+where m⋆
+1 is a modular inverse of n1 modulo n2, and m⋆
+2 a modular inverse of n2
+modulo n1.
+As mentioned in section 5.1, after solving the constraint on momenta as above,
+one ends up with an expression of the following form:
+X
+˜
+M∈Z
+e−πa ˜
+M2+2iπb ˜
+M 
+c ˜
+M2 + d ˜
+M + e
+
+,
+(B.5)
+to be Poisson resummed over the variable ˜
+M.
+The Poisson resummation formula on
+Z:
+∞
+X
+n=−∞
+f(n) =
+∞
+X
+k=−∞
+˜f(k) ,
+(B.6)
+gives the following general formulae:
+X
+n∈Z
+e−λn2 =
+rπ
+λ
+X
+k∈Z
+e−π2k2/λ ,
+X
+n∈Z
+n e−λn2 = −i
+rπ
+λ
+X
+k∈Z
+πk
+λ e−π2k2/λ ,
+X
+n∈Z
+n2 e−λn2 =
+rπ
+λ
+X
+k∈Z
+ 1
+2λ −π2k2
+λ2
+
+e−π2k2/λ .
+(B.7)
+Using these results, one obtains the Poisson resummed expression:
+X
+˜
+M∈Z
+e−πa ˜
+M2+2iπb ˜
+M 
+c ˜
+M2 + d ˜
+M + e
+
+=
+1
+√a
+X
+M∈Z
+e−π
+a (M−b)2
+( 
+1
+2πa −
+b −M
+a
+2!
+c + i(b −M)
+a
+d + e
+)
+=
+1
+√a
+X
+M∈Z
+e−π
+a (M−b)2  1
+2πac −b2
+a2c + ib
+a d + e
+
++ 1
+a
+2b
+a c −id
+
+M −c
+a2M2
+
+.
+(B.8)
+In order to determine the various coeﬃcients (a, b, c, d, e), let us expand the left
+momentum as
+pL =
+1
+√U2T2
+
+
+m⋆
+2 −Um⋆
+1 + ¯T(n1 + Un2)
+|
+{z
+}
+P ⋆
+L
+−˜
+M (n1 + Un2)
+|
+{z
+}
+ˆP
+
+
+
+(B.9)
+– 28 –
+
+In the following one will consider the SL(2;
+Z) transformation related to the solution
+of the BPS constraint:
+˜U = m⋆
+1U −m⋆
+2
+n1 + n2U ,
+(B.10)
+implying in particular that:
+˜U2 =
+U2
+|n1 + n2U|2 = U2
+| ˆP|2 .
+(B.11)
+We remark also that:
+P ⋆
+L
+ˆP
+= ¯T −˜U
+(B.12)
+Now we consider the vector of two-forms that appears in the insertion. Considering
+a basis {̟ℓ} of Pic(S), we expand, in complex notation
+pw =
+r
+T2
+U2
+ Nℓ
+1 + UNℓ
+2
+
+|
+{z
+}
+Nℓ
+̟ℓ,
+(B.13)
+and introduce the intersection form dℓk =
+R
+̟ℓ∧̟k. Notice that (Nℓ
+1, Nℓ
+2) transforms
+as a doublet under SL(2;
+Z)U. From this one can compute the scalar products that
+appear in the insertion. One obtains for the quadratic momentum insertion:
+f(pl, ω) =
+Z
+S
+⟨pω, pl⟩2 −
+1
+4πτ2
+⟨pω, pω⟩
+= 1
+˜U2
+2
+n
+dℓk Re
+
+˜Nℓ
+T −¯˜U −˜
+M
+
+Re
+
+˜Nk 
+T −¯˜U −˜
+M
+
+−T2 ˜U2
+4πτ2
+dℓk Re
+
+˜Nℓ˜Nk
+ o
+(B.14)
+Out of this expression one can ﬁrst collect the term in ˜
+M2, namely:
+c = dℓk
+˜U2
+2
+Re
+
+˜Nℓ
+Re
+
+˜Nk
+,
+(B.15)
+then term linear in ˜
+M, which reads (using the symmetry of the intersection form):
+d = −2dℓk
+˜U2
+2
+h
+(T1 −˜U1) Re
+
+˜Nℓ
+−(T2 + ˜U2) Im
+
+˜Nℓi
+Re
+
+˜Nk
+,
+(B.16)
+and ﬁnally the constant term given by:
+e = dℓk
+˜U2
+2
+h
+(T1 −˜U1) Re
+
+˜Nℓ
+−(T2 + ˜U2) Im
+
+˜Nℓi
+×
+×
+h
+(T1 −˜U1) Re
+
+˜Nk
+−(T2 + ˜U2) Im
+
+˜Nki
+−
+T2
+4πτ2 ˜U2
+dℓk Re
+
+˜Nℓ˜Nk
+
+.
+(B.17)
+– 29 –
+
+We are now ready to consider the Poisson resummation of the result, organised in
+powers of the dual variable M. In the exponential, we have:
+exp
+
+−πτ2
+2 (|pL|2 + |pR|2)
+
+= exp
+
+−πτ2
+U2T2
+|P ⋆
+L −˜
+M ˆP|2 + 2πτ2
+
+= exp
+
+−πτ2
+˜U2T2
+| ¯T −˜U −˜
+M|2 + 2πτ2
+
+= exp
+
+2πτ2 −πτ2
+˜U2T2
+| ¯T −˜U|2
+
+×
+× exp
+
+−πτ2
+˜U2T2
+˜
+M2 + 2iπ ˜
+M iτ2
+˜U2T2
+( ˜U1 −T1)
+
+,
+(B.18)
+from which one can once again extract the coeﬃcient of the quadratic and linear
+terms in ˜
+M to obtain a and b. Adding up the terms quadratic, linear and constant
+in the dual dummy variable M, one can ﬁnally read up the summand of the Poisson
+resummed momentum insertion:
+s
+˜U2T2
+τ2
+X
+M∈Z
+(
+−T 2
+2
+τ 2
+2
+dℓk
+
+Re
+
+˜Nℓ
+M −i τ2
+˜U2T2
+(T2 + ˜U2) Im
+
+˜Nℓ
+×
+×
+
+Re
+
+˜Nk
+M −i τ2
+˜U2T2
+(T2 + ˜U2) Im
+
+˜Nk
+−
+T2
+2πτ2 ˜U2
+dℓk Im
+
+˜Nℓ
+Im
+
+˜Nk )
+×
+× exp
+(
+−π ˜U2T2
+τ2
+
+M −iτ2
+˜U2T2
+( ˜U1 −T1)
+2
++ 2πτ2 −πτ2
+˜U2T2
+| ¯T −˜U|2
+)
+,
+(B.19)
+to be used in section 5.
+C
+Relevant functions for the Fourier series representation
+In this appendix, we deﬁne various functions deﬁned by an integral involving modiﬁed
+Bessel functions, and relevant for the computation of the Fourier series representation
+of the various threshold corrections in section 5. To obtain the expressions below,
+one extensively makes use of the following Bessel functions identity:
+2 d
+dxCα(x) = Cα−1(x) + Cα+1(x) ,
+(C.1)
+where Cα denotes Iα or eiπαKα.
+Zero-frequency mode:
+Let us ﬁrst deﬁne ∀(B, C, ν, n) ∈
+C ×
+R ×
+C ×
+N such
+that Re(B) ⩾C:
+F (0)
+n,ν(B, C) := (−1)n ∂n
+∂Bn
+Z ∞
+0
+dt
+t Iν(Ct) e−Bt ,
+(C.2)
+– 30 –
+
+relevant for the computation of the zero mode component of the Fourier series ex-
+pansion. Following Erdelyi, one can compute F (0)
+n,ν explicitely:
+F (0)
+0,ν (B, C) = Cν  B +
+√
+B2 −C2−ν
+ν
+,
+(C.3a)
+F (0)
+1,ν (B, C) = Cν  B +
+√
+B2 −C2−ν
+√
+B2 −C2
+,
+(C.3b)
+F (0)
+2,ν (B, C) = Cν  B +
+√
+B2 −C2−ν  B + ν
+√
+B2 −C2
+(B2 −C2)3/2
+.
+(C.3c)
+Positive frequency modes:
+We also deﬁne ∀(A, B, C, ν, n) ∈
+C2 ×
+R ×
+C ×
+N:
+Fn,ν(A, B, C) := (−1)n ∂n
+∂Bn
+Z ∞
+0
+dt
+t Iν(Ct) e−Bt−A/t ,
+(C.4)
+relevant for the computation of the positive frequency modes of the Fourier series
+expansion. One then computes the following expressions:
+F0,ν(A, B, C) = 2Iν(u−)Kν(u+) ,
+(C.5a)
+F1,ν(A, B, C) =
+4A
+u2
+−−u2
++
+
+u−Iν−1(u−)Kν(u+) + u+Iν(u−)Kν−1(u+)
+
+,
+(C.5b)
+F2,ν(A, B, C) =
+8A2
+u−(u2
+−−u2
++)3
+
+2u2
+−u+
+ u2
+−−u2
++
+
+Iν−1(u−)Kν−1(u+)
++ u−Iν−2(u−)
+ u4
+−Kν(u+) −2(ν + 1)u2
+−u+Kν−1(u+) −u4
++Kν−2(u+)
+
+−2u2
++Iν−1(u−)
+ (ν + 1)u2
+−−(ν −1)u2
++
+
+Kν−2(u+)
+
+,
+(C.5c)
+where we have introduced the following convenient combinations:
+u± :=
+√
+A
+√
+B + C ±
+√
+B −C
+
+.
+(C.6)
+D
+Generic momentum insertion
+In section 5.2, we discussed a simple class of models for which the momentum inser-
+tion takes a particularly simple form. In this short appendix, we want to understand
+in more detail the constraint eq. (5.30).
+The data of the compactiﬁcation involves an even integral lattice Γl naturally
+associated to the rational Narain lattice Γ2,2. In the following we denote this lattice
+Γl simply Γ. One associates to this lattice the theta function ΘΓ :
+H×(Γ⊗
+C) →
+C:
+ΘΓ(τ, z) =
+X
+v∈Γ
+eiπ(⟨v,v⟩+2⟨v,z⟩) ,
+(D.1)
+whose second argument lives in the complexiﬁcation of the lattice Γ. More precisely,
+the rational Narain lattice partition function involves such a theta function with an
+– 31 –
+
+extra characteristic µ, namely the summation vector runs over the shifted lattice
+Γ+µ, where µ belongs to the discriminant group Γ⋆/Γ. In our situation, we actually
+have two lattices, Γ and Pic(S). The inner product on Γ is denoted ⟨·, ·⟩, and the
+one on Pic(S) is deﬁned via the composition:
+(·, ·) : Γ × Γ →Γ ∧Γ
+R
+S
+−→
+Z ,
+(D.2)
+In our situation, the second argument of the theta function actually lives in a further
+extension of the lattice Γ:
+ΘΓ 
+τ, pω
+2iπ
+
+=
+X
+v∈Γ
+eiπ⟨v,v⟩+⟨v,pω⟩,
+(D.3)
+with pω ∈Γ ⊗Pic(S) ⊗
+C. Hence, denoting {ei} and {ǫa} a basis of Γ and Pic(S)
+respectively, we have:
+pω = ωia ei ⊗ǫa ,
+(D.4a)
+v = vi ei ,
+(D.4b)
+with ωia ∈
+C. The matrix (ωia) speciﬁes the data of the torus ﬁbration, and is ﬁxed
+once and for all for a given model. (ωia) should be viewed as connecting the two a
+priori independent integral even lattices Γ and Pic(S). In the above function, ⟨v, pω⟩
+should be understood as:
+⟨v, pω⟩:= vigijωja ǫa ,
+(D.5)
+with g the metric on the lattice Γ, namely gij := ⟨ei, ej⟩, not to be confused with the
+metric on the Narain lattice Γ2,2. We also deﬁne the metric d on the lattice Pic(S)
+by:
+dab := (ǫa, ǫb) =
+Z
+S
+ǫa ∧ǫb .
+(D.6)
+Let us also deﬁne the pull-back metric:
+˜dij := ωiaωjb dab .
+(D.7)
+Notice that we can deﬁne a natural inner product on Γ ⊗Pic(S), which we denote
+by a dot, in the following way: given two elements α = αia ei ⊗ǫa and β = βia ei ⊗ǫa,
+we deﬁne:
+α · β := gijdabαiaβjb .
+(D.8)
+Let us look at the simpliﬁed case for which
+R
+S⟨v, pω⟩2 ∝(n −24)⟨v, v⟩, the (n −24)
+coeﬃcient originating from the tadpole cancellation condition pω · pω = 2(n −24).
+Let us simply express the momentum insertion in terms of the lattice data in the
+following way:
+Z
+S
+⟨v, pω⟩2 = vivk gijgkl ˜djl = ˜dikvivk .
+(D.9)
+Therefore, we see that the insertion is proportional to (n −24)⟨v, v⟩if and only if
+˜d ∝g.
+– 32 –
+
+References
+[1] C. M. Hull, Compactiﬁcations of the Heterotic Superstring, Phys. Lett. B178 (1986)
+357–364.
+[2] A. Strominger, Superstrings with Torsion, Nucl.Phys. B274 (1986) 253.
+[3] K. Dasgupta, G. Rajesh, and S. Sethi, M theory, orientifolds and G - ﬂux, JHEP
+9908 (1999) 023, [hep-th/9908088].
+[4] E. Goldstein and S. Prokushkin, Geometric model for complex nonKahler manifolds
+with SU(3) structure, Commun.Math.Phys. 251 (2004) 65–78, [hep-th/0212307].
+[5] K. Becker, M. Becker, J.-X. Fu, L.-S. Tseng, and S.-T. Yau, Anomaly cancellation
+and smooth non-Kahler solutions in heterotic string theory, Nucl.Phys. B751 (2006)
+108–128, [hep-th/0604137].
+[6] M. Becker, L.-S. Tseng, and S.-T. Yau, New Heterotic Non-Kahler Geometries,
+ArXiv e-prints (July, 2008) [arXiv:0807.0827].
+[7] A. Adams, M. Ernebjerg, and J. M. Lapan, Linear models for ﬂux vacua, Adv.
+Theor. Math. Phys. 12 (2008) 817–851, [hep-th/0611084].
+[8] A. Adams and J. M. Lapan, Computing the spectrum of a heterotic ﬂux vacuum,
+Journal of High Energy Physics 3 (Mar., 2011) 45, [arXiv:0908.4294].
+[9] D. Isra¨el, T-duality in gauged linear sigma-models with torsion, Journal of High
+Energy Physics 11 (Nov., 2013) 93, [arXiv:1306.6609].
+[10] D. Israel and M. Sarkis, New supersymmetric index of heterotic compactiﬁcations
+with torsion, JHEP 12 (2015) 069, [arXiv:1509.0570].
+[11] D. Israel and M. Sarkis, Dressed elliptic genus of heterotic compactiﬁcations with
+torsion and general bundles, JHEP 08 (2016) 176, [arXiv:1606.0898].
+[12] J. A. Harvey and G. Moore, Algebras, BPS states, and strings, Nuclear Physics B
+463 (Feb., 1996) 315–368, [hep-th/9510182].
+[13] M. Henningson and G. Moore, Threshold corrections in K3 × T2 heterotic string
+compactiﬁcations, Nuclear Physics B 482 (Feb., 1996) 187–210, [hep-th/9608145].
+[14] E. Kiritsis, C. Kounnas, P. Petropoulos, and J. Rizos, Universality properties of
+N=2 and N=1 heterotic threshold corrections, Nucl.Phys. B483 (1997) 141–171,
+[hep-th/9608034].
+[15] S. Stieberger, (0,2) heterotic gauge couplings and their M theory origin, Nucl.Phys.
+B541 (1999) 109–144, [hep-th/9807124].
+[16] S. Datta, J. R. David, and D. Lust, Heterotic string on the CHL orbifold of K3,
+JHEP 02 (2016) 056, [arXiv:1510.0542].
+[17] C. Angelantonj, I. Florakis, and M. Tsulaia, Universality of Gauge Thresholds in
+Non-Supersymmetric Heterotic Vacua, Phys. Lett. B736 (2014) 365–370,
+[arXiv:1407.8023].
+– 33 –
+
+[18] P. Mayr and S. Stieberger, Threshold corrections to gauge couplings in orbifold
+compactiﬁcations, Nucl. Phys. B407 (1993) 725–748, [hep-th/9303017].
+[19] I. Antoniadis and T. R. Taylor, String loop corrections to gauge and Yukawa
+couplings, in INFN Eloisatron Project: 26th Workshop: From Superstrings to
+Supergravity Erice, Italy, December 5-12, 1992, pp. 6–15, 1993. hep-th/9301033.
+[,6(1993)].
+[20] V. S. Kaplunovsky, One loop threshold eﬀects in string uniﬁcation, hep-th/9205070.
+[21] G. Lopes Cardoso, D. Lust, and T. Mohaupt, Threshold corrections and symmetry
+enhancement in string compactiﬁcations, Nucl. Phys. B450 (1995) 115–173,
+[hep-th/9412209].
+[22] P. Mayr and S. Stieberger, Moduli dependence of one loop gauge couplings in (0,2)
+compactiﬁcations, Phys. Lett. B355 (1995) 107–116, [hep-th/9504129].
+[23] A. Gregori, E. Kiritsis, C. Kounnas, N. A. Obers, P. M. Petropoulos, and B. Pioline,
+R**2 corrections and nonperturbative dualities of N=4 string ground states, Nucl.
+Phys. B510 (1998) 423–476, [hep-th/9708062].
+[24] L. Carlevaro and D. Israel, Gauge Threshold Corrections for N = 2 Heterotic Local
+Models with Flux, and Mock Modular Forms, JHEP 1303 (2013) 049,
+[arXiv:1210.5566].
+[25] V. S. Kaplunovsky, One Loop Threshold Eﬀects in String Uniﬁcation, Nucl.Phys.
+B307 (1988) 145, [hep-th/9205068].
+[26] C. Bachas, C. Fabre, E. Kiritsis, N. A. Obers, and P. Vanhove, Heterotic / type I
+duality and D-brane instantons, Nucl. Phys. B509 (1998) 33–52, [hep-th/9707126].
+[27] P. G. Camara and E. Dudas, Multi-instanton and string loop corrections in toroidal
+orbifold models, JHEP 08 (2008) 069, [arXiv:0806.3102].
+[28] C. Angelantonj, I. Florakis, and B. Pioline, A new look at one-loop integrals in string
+theory, Commun. Num. Theor. Phys. 6 (2012) 159–201, [arXiv:1110.5318].
+[29] C. Angelantonj, I. Florakis, and B. Pioline, One-Loop BPS amplitudes as BPS-state
+sums, JHEP 06 (2012) 070, [arXiv:1203.0566].
+[30] C. Angelantonj, I. Florakis, and B. Pioline, Threshold corrections, generalised
+prepotentials and Eichler integrals, Nucl. Phys. B897 (2015) 781–820,
+[arXiv:1502.0000].
+[31] S. Cecotti, P. Fendley, K. Intriligator, and C. Vafa, A new supersymmetric index,
+Nuclear Physics B 386 (Nov., 1992) 405–452, [hep-th/9204102].
+[32] F. Benini, R. Eager, K. Hori, and Y. Tachikawa, Elliptic Genera of 2d = 2 Gauge
+Theories, Communications in Mathematical Physics 333 (Feb., 2015) 1241–1286,
+[arXiv:1308.4896].
+[33] S. Gukov and C. Vafa, Rational Conformal Field Theories and Complex
+– 34 –
+
+Multiplication, Communications in Mathematical Physics 246 (2004) 181–210,
+[hep-th/0203213].
+[34] S. Hosono, B. H. Lian, K. Oguiso, and S.-T. Yau, Classiﬁcation of c = 2 rational
+conformal ﬁeld theories via the Gauss product, Commun.Math.Phys. 241 (2003)
+245–286, [hep-th/0211230].
+[35] I. Antoniadis, E. Gava, and K. S. Narain, Moduli corrections to gravitational
+couplings from string loops, Phys. Lett. B283 (1992) 209–212, [hep-th/9203071].
+[36] E. Kiritsis, Introduction to superstring theory. 1997.
+[37] E. Kiritsis, Duality and instantons in string theory, in Superstrings and related
+matters. Proceedings, Spring Workshop, Trieste, Italy, March 22-30, 1999,
+pp. 127–205, 1999. hep-th/9906018.
+[38] S. Kim and P. Yi, A Heterotic ﬂux background and calibrated ﬁve-branes, JHEP 11
+(2006) 040, [hep-th/0607091].
+[39] C. Angelantonj, I. Florakis, and M. Tsulaia, Generalised universality of gauge
+thresholds in heterotic vacua with and without supersymmetry, Nucl. Phys. B900
+(2015) 170–197, [arXiv:1509.0002].
+– 35 –

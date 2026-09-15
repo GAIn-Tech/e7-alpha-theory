@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/abs/1007.2792v2",
+      "title": "1007.2792",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "The above expression for the dimensionless scalar coupling αA has been\nwritten in terms of a canonically normalized scalar ﬁeld, with kinetic term\n[using the signature (+, −, −, −)]\nLφ = 1\n2(∂φ)2 + · · ·\n(4)\nEvidently, a small mass term for the dilaton can readily be added if desired.\nIt can also be convenient to work with the dimensionless scalar ﬁeld\nϕ ≡κφ,\n(5)\nwhose kinetic term is related to the Einstein-Hilbert action via\n−\n1\n16πG(R −2(∂ϕ)2)\n(6)",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/abs/1503.06886v2",
+      "title": "1503.06886",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We focus on ultralight scalar ﬁelds φ with couplings to\nthe (square of the) electromagnetic ﬁeld tensor Fµν:\nL ⊃1\n2(∂µφ)2 −1\n2m2\nφφ2 + −1 + deκφ\n4e2\nFµνF µν,\n(1)",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/abs/1011.2927v2",
+      "title": "1011.2927",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "integrated out at the GUT scale. This means that the dynamical degrees of freedom of the\nheavy particles are removed, which manifestly leads to power-suppressed contributions of\nO(1/MG) in the eﬀective Lagrangian. Moreover, the eﬀects of the heavy particles are\nencoded in a multiplicative redeﬁnition of all the masses and couplings of the theory. For\nthe case of the gauge coupling this so-called decoupling relation reads:\nαi(µGUT)\n=\nζαi(µGUT, α(µGUT), Mh) α(µGUT) ,\nα\n≡\ng2\n4π ,\nαi ≡g2\ni\n4π ,\ni = 1, 2, 3 .\n(26)\nHere αi and α stands for the MS\ngauge coupling6 in the eﬀective theory (the SM or\nthe MSSM) and full theory (GUT), respectively. µGUT is the unphysical scale, at which\nthe decoupling is performed. At suﬃciently high loop order predictions of physical ob-\nservables must not depend on µGUT anymore. The remaining dependence on this scale\ngives us an estimation of the theory uncertainty of the prediction. ζαi is the so-called\nmatching coeﬃcient that depends on all the mass parameters of the particles that have\nbeen integrated out. They are abbreviated by Mh in eq. (26).",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://arxiv.org/abs/1405.2925v2",
+      "title": "1405.2925",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "than m−1\nφ\nis well-approximated by a background ﬁeld\nthat starts oscillating when H ∼mφ and whose energy\ndensity redshifts as that of ordinary cold, pressureless\nDM. Its present-day behaviour can then be described as\nthe solution to its equation of motion:\nφ(t,⃗x) = φ0 cos(mφt −⃗kφ ·⃗x + . . . ).\n(6)\nWe take its current energy density ρφ = 1\n2m2\nφφ2\n0 to equal\nthe local DM density ρDM ≈0.3 GeV/ cm3, and assume\na wave vector given by the virial velocity: |⃗kφ| ≃mφvvir\nwith vvir ≈10−3. With these assumptions, we obtain the\nfractional amplitude of φ relative to the reduced Planck\nscale:\nκφ0 =\np8πρφ\nmφMPl\n= 6.4 · 10−13\n\u001210−18 eV\nmφ\n\u0013\nF 1/2,\n(7)\nwhere F ≡ρφ/ρDM is the fractional contribution of φ to\nthe local DM density.",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

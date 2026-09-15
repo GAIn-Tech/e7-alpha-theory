@@ -1,0 +1,30 @@
+{
+  "codata_2022_alpha_inverse_decimal": "137.035999177",
+  "codata_2022_sigma_decimal": "0.000000021",
+  "e7_identity_exact": true,
+  "e7_identity_formula": "133 + 56/(2*7)",
+  "e7_identity_value": "137",
+  "gap_alpha_inverse_minus_e7_decimal": "0.035999177",
+  "gap_in_sigma_decimal": "1714246.5238095238095238095238095238095238095238095",
+  "inputs": {
+    "codata_2022_alpha_inverse_fraction": [
+      137035999177,
+      1000000000
+    ],
+    "codata_2022_sigma_fraction": [
+      21,
+      1000000000
+    ],
+    "dim_e7": 133,
+    "fund_e7": 56,
+    "rank_e7": 7
+  },
+  "literal_prediction_verdict": "excluded_at_codata_scale",
+  "physical_alpha_equal_137": false,
+  "schema": "e7-alpha-openai-style-certificate-v1",
+  "source_files_sha256": {
+    "COMPREHENSIVE_VALIDATION_REPORT.md": "1dc1fdf8d47f49f0db0d4b2df0f018d11e66e092b8433581df4ee5434f46fa4c",
+    "E7Alpha.lean": "2990404d9c7f62bc2804fced35f271363dc6213e5ef202a8325c9c272c51b6cf",
+    "README.md": "7741370c67d5d16fb81b1981a1844432df87d60d6ee53b89a8dae9d4ac961d62"
+  }
+}

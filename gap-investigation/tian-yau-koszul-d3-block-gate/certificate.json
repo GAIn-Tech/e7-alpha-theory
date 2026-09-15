@@ -1,0 +1,350 @@
+{
+  "block_rank": 0,
+  "character": 0,
+  "checks": {
+    "JE_mod_ideal": true,
+    "change_of_representative_invariance": true,
+    "convention_sign_similarity": true,
+    "regular_sequence_koszul_syzygies": true,
+    "target_character0_dimension": 12
+  },
+  "claim_boundary": "Exact character-zero 12x4 d3 endpoint for the displayed Fermat/bilinear member and stated monad conventions only. No rank is inferred for characters 1 or 2.",
+  "endpoint_dense": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "endpoint_matrix": {
+    "entries": [],
+    "shape": [
+      12,
+      4
+    ]
+  },
+  "koszul": {
+    "d1": {
+      "entries": [
+        [
+          0,
+          0,
+          "x0**3/3 + x1**3/3 + x2**3/3 + x3**3/3"
+        ],
+        [
+          0,
+          1,
+          "x0*y0 + x1*y1 + x2*y2 + x3*y3"
+        ],
+        [
+          0,
+          2,
+          "y0**3/3 + y1**3/3 + y2**3/3 + y3**3/3"
+        ]
+      ],
+      "shape": [
+        1,
+        3
+      ]
+    },
+    "d2": {
+      "entries": [
+        [
+          0,
+          0,
+          "-x0*y0 - x1*y1 - x2*y2 - x3*y3"
+        ],
+        [
+          0,
+          1,
+          "-y0**3/3 - y1**3/3 - y2**3/3 - y3**3/3"
+        ],
+        [
+          1,
+          0,
+          "x0**3/3 + x1**3/3 + x2**3/3 + x3**3/3"
+        ],
+        [
+          1,
+          2,
+          "-y0**3/3 - y1**3/3 - y2**3/3 - y3**3/3"
+        ],
+        [
+          2,
+          1,
+          "x0**3/3 + x1**3/3 + x2**3/3 + x3**3/3"
+        ],
+        [
+          2,
+          2,
+          "x0*y0 + x1*y1 + x2*y2 + x3*y3"
+        ]
+      ],
+      "shape": [
+        3,
+        3
+      ]
+    },
+    "d3": {
+      "entries": [
+        [
+          0,
+          0,
+          "y0**3/3 + y1**3/3 + y2**3/3 + y3**3/3"
+        ],
+        [
+          1,
+          0,
+          "-x0*y0 - x1*y1 - x2*y2 - x3*y3"
+        ],
+        [
+          2,
+          0,
+          "x0**3/3 + x1**3/3 + x2**3/3 + x3**3/3"
+        ]
+      ],
+      "shape": [
+        3,
+        1
+      ]
+    },
+    "d_squared_zero": true,
+    "explicit_sign": "d(e_I)=sum_a (-1)^a f_{i_a}e_{I\\i_a}",
+    "generator_order": [
+      "f_(3,0)",
+      "f_(1,1)",
+      "f_(0,3)"
+    ]
+  },
+  "negative_controls": {
+    "generic_rank_not_assumed": true,
+    "omit_J_square_factors_top_projector_survives": true
+  },
+  "passed": true,
+  "source_basis": [
+    "Cx_to_Ay_01",
+    "Cx_to_Ay_23",
+    "Cy_to_Ax_01",
+    "Cy_to_Ax_23"
+  ],
+  "source_hashes": {
+    "tian-yau-bundle-coupling-gate\\exact_certificate.py": "0994c7c83bc51ab1bee11c8637c455244ced07e9f23c83c14545fcb96f94e104",
+    "tian-yau-bundle-coupling-gate\\geometry.json": "1246dbd09c95297e79fa5d24d0ba7a5abd9d45882de12ffc4168ba150e98a198",
+    "tian-yau-cech-resolution-gate\\exact_cech.py": "9db06b012eb0b7cd1434e84cfe7f9daa3927f6ea78f783548d35b4ef2ed15d2e",
+    "tian-yau-d3-coupling-gate\\exact_certificate.py": "777a3204752359b6a433622a07866f331d6670186d7321772d1a1dc06e49fd7e"
+  },
+  "totalization": {
+    "D_total": "delta_Cech + (-1)^q d_Koszul",
+    "D_total_squared_zero": true,
+    "hpl": "h(1+d_K h)^-1, finite in exterior degree",
+    "traces": [
+      {
+        "dual_quadratic": "x0*x1",
+        "endpoint_coordinates": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "first_arrow": {
+          "+Ephi": "bilinear-Koszul primitive",
+          "-phiJ_square_top_projectors": [
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "laurent_exponents": [
+          -2,
+          -2,
+          -1,
+          -1
+        ],
+        "source": "Cx_to_Ay_01",
+        "vertical_solve_1": "standard-simplex h followed by Koszul e_(1,1) contraction",
+        "vertical_solve_2": "standard-simplex h followed by Fermat contraction"
+      },
+      {
+        "dual_quadratic": "x2*x3",
+        "endpoint_coordinates": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "first_arrow": {
+          "+Ephi": "bilinear-Koszul primitive",
+          "-phiJ_square_top_projectors": [
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "laurent_exponents": [
+          -1,
+          -1,
+          -2,
+          -2
+        ],
+        "source": "Cx_to_Ay_23",
+        "vertical_solve_1": "standard-simplex h followed by Koszul e_(1,1) contraction",
+        "vertical_solve_2": "standard-simplex h followed by Fermat contraction"
+      },
+      {
+        "dual_quadratic": "y0*y1",
+        "endpoint_coordinates": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "first_arrow": {
+          "+Ephi": "bilinear-Koszul primitive",
+          "-phiJ_square_top_projectors": [
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "laurent_exponents": [
+          -2,
+          -2,
+          -1,
+          -1
+        ],
+        "source": "Cy_to_Ax_01",
+        "vertical_solve_1": "standard-simplex h followed by Koszul e_(1,1) contraction",
+        "vertical_solve_2": "standard-simplex h followed by Fermat contraction"
+      },
+      {
+        "dual_quadratic": "y2*y3",
+        "endpoint_coordinates": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "first_arrow": {
+          "+Ephi": "bilinear-Koszul primitive",
+          "-phiJ_square_top_projectors": [
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "laurent_exponents": [
+          -1,
+          -1,
+          -2,
+          -2
+        ],
+        "source": "Cy_to_Ax_23",
+        "vertical_solve_1": "standard-simplex h followed by Koszul e_(1,1) contraction",
+        "vertical_solve_2": "standard-simplex h followed by Fermat contraction"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+.venv/
+lean-4.32.1-windows/
+*.tar.zst
+__pycache__/

@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "claim_boundary": "Complete one-loop scalar/fermion subset for the isolated adjoint radial pole in the declared shifted-vacuum EFT and tadpole prescription; excludes vector, ghost, scalar-vector mixed and gauge-mixing diagrams, hence is neither the full pole nor gauge independent.",
+  "tree_mass_squared_over_epsilonM2": 4320.0,
+  "renormalization": {
+    "scheme": "MSbar",
+    "gauge": "Landau",
+    "Q2": "epsilon M^2",
+    "inverse_propagator": "s-m_tree^2-Pi(s)",
+    "finite_counterterm": "zero in declared MSbar; an added finite local radial mass counterterm shifts the reported real coefficient additively",
+    "scalar_UV_local_coefficient_removed_by_MSbar": 87662.27751788156
+  },
+  "enumeration": {
+    "nonzero_scalar_trilinear_entries_abs_gt_1e-10": 12325,
+    "nonzero_scalar_quartic_AAii_abs_gt_1e-10": 183,
+    "trilinear_frobenius_squared": 26750168.000000015,
+    "quartic_mass_contraction": 935976.0000000022,
+    "fermion_blocks": [
+      {
+        "multiplicity_Dirac": 27,
+        "y_over_sqrt_epsilon": 1,
+        "m2_over_epsilonM2": 1.0000000000000002,
+        "direct_vA_Yukawa": 0.0
+      },
+      {
+        "multiplicity_Dirac": 1,
+        "y_over_sqrt_epsilon": 1,
+        "m2_over_epsilonM2": 1.0000000000000002,
+        "direct_vA_Yukawa": 0.0
+      },
+      {
+        "multiplicity_Dirac": 1,
+        "y_over_sqrt_epsilon": 2,
+        "m2_over_epsilonM2": 4.000000000000001,
+        "direct_vA_Yukawa": 0.0
+      },
+      {
+        "multiplicity_Dirac": 1,
+        "y_over_sqrt_epsilon": 3,
+        "m2_over_epsilonM2": 9.000000000000002,
+        "direct_vA_Yukawa": 0.0
+      }
+    ],
+    "fermion_direct_1PI": "zero because every declared Yukawa mass depends only on Phi and d_vA Phi=0"
+  },
+  "tadpole_scheme": {
+    "scalar_induced_tree_shift": -65350.01921701597,
+    "fermion_induced_tree_shift": 3.702860147644456e-32,
+    "fermion_total_including_shift": 3.702860147644456e-32
+  },
+  "regulator_scan": [
+    {
+      "eta": 0.0001,
+      "scalar_shift_tree": -65350.01921701597,
+      "scalar_quartic_tadpoles": 21783.281327279918,
+      "scalar_bubbles_real": 555566.9808218672,
+      "scalar_bubbles_imag": -238193.1774031129,
+      "scalar_total_real": 512000.24293213116,
+      "scalar_total_imag": -238193.1774031129
+    },
+    {
+      "eta": 1e-08,
+      "scalar_shift_tree": -65350.01921701597,
+      "scalar_quartic_tadpoles": 21783.295987182206,
+      "scalar_bubbles_real": 555567.0341690693,
+      "scalar_bubbles_imag": -238193.18642365432,
+      "scalar_total_real": 512000.3109392355,
+      "scalar_total_imag": -238193.18642365432
+    },
+    {
+      "eta": 1e-16,
+      "scalar_shift_tree": -65350.01921701597,
+      "scalar_quartic_tadpoles": 21783.29598997114,
+      "scalar_bubbles_real": 555567.0341770494,
+      "scalar_bubbles_imag": -238193.18642455645,
+      "scalar_total_real": 512000.3109500046,
+      "scalar_total_imag": -238193.18642455645
+    },
+    {
+      "eta": 1e-32,
+      "scalar_shift_tree": -65350.01921701597,
+      "scalar_quartic_tadpoles": 21783.29598997114,
+      "scalar_bubbles_real": 555567.0341770494,
+      "scalar_bubbles_imag": -238193.18642455645,
+      "scalar_total_real": 512000.3109500046,
+      "scalar_total_imag": -238193.18642455645
+    },
+    {
+      "eta": 1e-60,
+      "scalar_shift_tree": -65350.01921701597,
+      "scalar_quartic_tadpoles": 21783.29598997114,
+      "scalar_bubbles_real": 555567.0341770494,
+      "scalar_bubbles_imag": -238193.18642455645,
+      "scalar_total_real": 512000.3109500046,
+      "scalar_total_imag": -238193.18642455645
+    }
+  ],
+  "checks": {
+    "quadrature_n": 512,
+    "quadrature_256_vs_512_last_total_abs": 1.0908189794281498,
+    "degenerate_basis_rotation_real_difference": 1.1641532182693481e-10,
+    "negative_omit_tadpole_shift_change": 65350.01921701597,
+    "negative_drop_quartics_change": 21783.29598997114,
+    "goldstone_regulator_last_two_real_difference": 0.0
+  },
+  "remaining_diagrams": [
+    "pure-vector loops and vector seagulls",
+    "Faddeev-Popov ghost loops",
+    "mixed scalar-vector bubbles from covariant kinetic terms",
+    "external-scalar/vector mixing contributions required by the full pole determinant"
+  ],
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-gate\\calculation.py": "5d4a82d90a505595c2c6cefe0771e36faa49135d08d2b9623538fcf9e4a00307",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\calculation.py": "3f4d86ec9b184b6b9ce33001df01eb533e6e45af1046dd3dea795d0a57b02b92",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\calculation.py": "9d10b6062bb478df15f587d710332b0ebddc289aefa443fcf7c767315ef8237e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\receipt.json": "fb585e9892d9778bfec39bd9e782e52e317909cab45c15dc2d22905867ec2446"
+  }
+}

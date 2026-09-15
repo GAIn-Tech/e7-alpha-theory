@@ -1,0 +1,110 @@
+[
+  {
+    "name": "witten1989",
+    "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/witten.pdf",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='webhomes.maths.ed.ac.uk', port=443): Read timed out."
+  },
+  {
+    "name": "kauffman1988",
+    "url": "https://www.numdam.org/item/AST_1988__163-164__137_0.pdf",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='www.numdam.org', port=443): Read timed out."
+  },
+  {
+    "name": "mukhi2020",
+    "url": "https://arxiv.org/pdf/2011.09487",
+    "ok": true,
+    "cached": true
+  },
+  {
+    "name": "fuchs1997",
+    "url": "https://cds.cern.ch/record/329645/files/9707069.pdf",
+    "ok": false,
+    "error": ""
+  },
+  {
+    "name": "gukov2005",
+    "url": "https://arxiv.org/pdf/hep-th/0412243",
+    "ok": true,
+    "cached": true
+  },
+  {
+    "name": "witten2011",
+    "url": "https://ems.press/content/serial-article-files/36765",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='ems.press', port=443): Read timed out."
+  },
+  {
+    "name": "warnaar2010",
+    "url": "https://arxiv.org/pdf/1001.1571",
+    "ok": true,
+    "cached": true
+  },
+  {
+    "name": "coincidences",
+    "url": "https://ems.press/content/serial-article-files/36754",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='ems.press', port=443): Read timed out."
+  },
+  {
+    "name": "partitions2016",
+    "url": "https://arxiv.org/pdf/1604.08837",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out."
+  },
+  {
+    "name": "okazaki2024",
+    "url": "https://arxiv.org/pdf/2408.07893",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out."
+  },
+  {
+    "name": "witten2011",
+    "url": "https://arxiv.org/pdf/1101.3216",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out."
+  },
+  {
+    "name": "soliton2002",
+    "url": "https://arxiv.org/pdf/hep-th/0212053",
+    "ok": true,
+    "pages": 6
+  },
+  {
+    "name": "coincidences",
+    "url": "https://arxiv.org/pdf/1003.0022",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out."
+  },
+  {
+    "name": "fuchs1997",
+    "url": "https://arxiv.org/pdf/hep-th/9707069",
+    "ok": true,
+    "pages": 37
+  },
+  {
+    "name": "okazaki2024",
+    "url": "https://arxiv.org/pdf/2408.07893",
+    "ok": true,
+    "pages": 74
+  },
+  {
+    "name": "partitions2016",
+    "url": "https://arxiv.org/pdf/1604.08837",
+    "ok": true,
+    "pages": 22
+  },
+  {
+    "name": "jones",
+    "url": "https://math.berkeley.edu/~vfr/jones.pdf",
+    "ok": true,
+    "pages": 21
+  },
+  {
+    "name": "closset2025",
+    "url": "https://scipost.org/SciPostPhys.19.4.106/pdf",
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='scipost.org', port=443): Read timed out."
+  }
+]

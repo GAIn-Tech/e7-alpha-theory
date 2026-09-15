@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://inspirehep.net/files/aafed6325868aabd22bea81c916b789e",
+      "title": "Witten, Fermion Quantum Numbers in Kaluza-Klein Theory (1983)",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "~ \nr . \n~ .. \n_.., .. \n. \nI -----\" \n-, \n/\"... \nABSTRACT \n* \nFERMION QUANTUM NUMBERS IN KALUZA-KLElN THEORY \nEdward Witten \nJoseph Henry Laboratories \nPrinceton University \nPrinceton, New Jersey 08544 \nOctober 1983 \nThe problem of obtaining left-right aaymmetry of fermion quantum \nnumbers in Kaluza-Klein theory is discuased. \nIn the absence of elementary \ngauge fields, a theorem by Atiyah and Hirzebruch states that the Dirac equa-\ntion in 4+n dimensions always leads to vector-like fermion quantum numbers in \nfour dimensions. \nThe proof of this theorem is sketched. \nIt is shown that \nthe same holds for the Rarita-Schwinger operator on homogeneous spaces but a \ngeneral impossibility theorem for the Rarita-Schwinger field is not proved. \n(However, in view of the apparent restriction of aupergravity to d < 11 this \nline of approach is severely constrained,) \nAlso discussed are eome Kaluza-\nKlein theories with elementary gauge fields, some difficulties in obtaining \nmaealeas charged scalars, and some speculations about the cosmological con-\nat ant. \n* Research supported i.n part by the National Science Foundation under grant \nNo. PHYS0-19754. \n-2-\nI. INTRODUCTION \nKaluza-Klein theory 1 has recently attracted increasing interest as a \nprogram for unifying gauge interactions with gravity. \nThis theory can be \nviewed 2 in terms of spontaneous SymQetry breaking, the compact and non-\ncompact dimensions being on an equal footing as far as the laws of nature are \nconcerned, just as the photon and the massive vector $eSona are treated sym-\nmetrically in the standard weak interaction models. \nThis simple observation \nis one of the chief reasons for the revived interest 3 in. Kaluza-Klein theory. \nOne may start with a general relativistic theory in 4+n dimensions, and \nassume the grand state to be K~KB, where M~ ia four dimensional Minkowaki \nspace and B is a compact apace. \nContinuous symmetries of a* will always be \nobserved~ as gauge symmetries in the effective four dimensional world. \nThe \ngauge fielda (which in general can be more numerous than the extra dimen-\nsions) originate in the normd mode expansion of the flu'ctuationa in the 4+n \ndimensional metric tensor. \nFor instance, starting in eleven or more dimen-\naione, one can ~.s obtain gauge fields of SU(3)l<SU(2)KU(l). \nHuch of thie \npaper will be devoted to the consequences of assuming that all observed gauge \nforces originate in this way, as part of the metric tensor, from a theory \nwhich originally had no elementary gauge fields. \nHowever, thia is not necea-\naarily the only attractive possibility. It might be",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://cds.cern.ch/record/138028/files/198207019.pdf?version=1",
+      "title": "Slansky, Group Theory for Unified Model Building (1981), original preprint tables",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/1012.5797",
+      "title": "Marrani, Orazi, Riccioni, Exceptional Reductions (2010)",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "which can equivalently be rewritten as10\n(tγtα)Q\nRtβ\nP\nQtβ|R\nM =\n1\n24δM\nP δγ\nα + 11\n24(tγtα)P\nM −5\n12(tαtγ)P\nM.\n(3.26)\nFinally, if all indices are in the 56, by using the Fierz identity (3.14) the reduction of\n(3.11) leads to two expressions turning out to be identical after using (3.20), and resulting\ninto the following E7-identity :\ntα|M\nRtβ|RNtα\nP\nStβ\nSQ −1\n6tα|MPtα\nNQ + 1\n12tα|MNtα\nP Q + 5\n6tα|MQtα\nNP\n−19\n144CMPCNQ −47\n576CMNCP Q +\n7\n144CMQCNP = 0.\n(3.27)\nThese are all the non-trivial relations among E7-invariant tensors that can be obtained\nby performing the reduction of the E8-identities (3.8)-(3.11) under the embedding (3.1)-(3.2).\nApart from the identities (2.5), (2.6), (2.14), (2.16), (2.18) and (2.19), we also derived the\nE7-identities (3.20), (3.22), (3.23), (3.24), (3.25) and (3.27).\n4\nE7 ⊃E6 × U(1)\nIn this Section, we consider the group embedding\nE7 ⊃E6 × U(1),\n(4.1)\nand we derive all the E6-identities arising from the corresponding branching of the E7-identities\nobtained in Sect. 3, given by (3.20), (3.22), (3.23), (3.24), (3.25) and (3.27).\nIn order to perform the reduction of the E7-identities down to E6, we start and decompose\nthe Adj = 133 and Fund = 56 irreprs. of E7 in terms of E6 × U(1):\n133\n→\n780 + 27−2 + 27+2 + 10;\n(4.2)\n56\n→\n27+1 + 27−1 + 1+3 + 1−3,\n(4.3)\nwhere the subscripts denote the U(1)-charges, and the two singlets in (4.3) are written in such\na way that their opposite U(1)-charges are manifest. Concerning the E6-irreprs., we will here\ndenote the Adj (E6) = 78 with hatted lowercase Greek indices bα, and the Fund (E6) = 27 and\nFund (E6) = 27 with, covariant (lower) respectively contravariant (upper), hatted uppercase\nLatin indices c\nM. Thus, the decompositions (4.2) and (4.3) respectively yield the following\nindex splittings:\nVα\n→\n\u0010\nVbα ,\nVc\nM ,\nV\nc\nM ,\nV1\n\u0011\n;\n(4.4)\nWM\n→\n\u0010\nVc\nM ,\nV\nc\nM ,\nV1 ,\nV1\n\u0011\n.\n(4.5)\nFrom (4.2), the Cartan-Killing metric of the 133 of E7 decomposes according to\ngαβ →\n\u0010\ngbαbβ (78 78) ,\nδ\nb\nN\nc\nM (27 27) ,\n1 (1 1)\n\u0011\n,\n(4.6)\nwhereas from (4.3) the symplectic invariant tensor CMN of the 56 of E7 branches as\nCMN →\n\u0010\nδ\nb\nN\nc\nM (27 27),\n1 (1 1)\n\u0011\n.\n(4.7)\n10(3.26) corrects a typo in the identity (A.16) of [39].\n12",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://arxiv.org/pdf/hep-ph/0511256",
+      "title": "King Moretti Nevzorov, Exceptional Supersymmetric Standard Model (2005)",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "cancelled by complete 27 representatations of E6 which survive to low energies, even\nthough E6 is broken at the GUT scale.\nWe refer to the model described above as the exceptional supersymmetric standard\nmodel (ESSM). The ESSM thus represents a low energy alternative to the MSSM or\nNMSSM, and provides a solution to the µ problem without domain wall problems. The\nESSM contains a rich phenomenology accessible to the LHC in the form of a Z′ plus three\nfamilies of exotic quarks and non-Higgs doublets. In a companion paper we have made a\ncomprehensive study of the theory and phenomenology of the ESSM [7]. The purpose of\nthis accompanying letter is to summarize the phenomenological highlights of our study,\nincluding the two loop upper bound on the lightest CP-even Higgs mass, and the LHC\nphenomenology of the Z′ and exotic quarks (including some new phenomenological results)\nin a form that will be more easily accessible to our phenomenological and experimental\ncolleagues. For more details we refer the interested reader to the accompanying full length\npaper [7]. Previously, the implications of SUSY models with an additional U(1)N gauge\nsymmetry had been studied in the context of leptogenesis [8], EW baryogenesis [9] and\nneutrino physics [10]. Supersymmetric models with a U(1)N gauge symmetry under which\nright-handed neutrinos are neutral have been speciﬁcally considered in [11] from the point\nof view of Z −Z′ mixing and the neutralino sector, in [12] where a renormalization group\n(RG) analysis was performed, and in [13] where a one-loop Higgs mass upper bound was\npresented.\nIn the next section we brieﬂy review the ESSM. In sect.3 we analyse the upper bound\non the lightest CP-even Higgs boson mass including leading two-loop corrections. Then\nin sect. 4 we discuss the phenomenology of some of the extra particles predicted by the\nESSM and analyze their production cross-sections and signatures at the LHC. Our results\nare summarized in sect. 5.\n2.\nThe ESSM\nOne of the most important issues in models with additional Abelian gauge symmetries is\nthe cancellation of anomalies. In E6 theories the anomalies are cancelled automatically.\nTherefore any model based on E6 subgroups which contains complete representations\nshould be anomaly-free. Thus in order to ensure anomaly cancellation the particle con-\ntent of the ESSM should include complete fundamental 27 representations of E6. These\nmultiplets decompose under the SU(5) × U(1)N subgroup of E6 [12] as follows:\n27i →(10, 1)i + (5∗, 2)i + (5∗, −3)i + (5, −2)i + (1, 5)i + (1, 0)i .\n(2)\nThe ﬁrst and second quantities in the bra",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://arxiv.org/pdf/hep-ph/0012125",
+      "title": "Kawamura, Triplet-Doublet Splitting, Proton Stability and an Extra Dimension (2001)",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Triplet-Doublet Splitting, Proton Stability and an Extra Dimension\n3\nfor example, φ+−(xµ, −πR\n2 ) = φ−−(xµ, −πR\n2 ) = 0 on the wall placed at y = −πR\n2 ,\nand φ−+(xµ, 0) = φ−−(xµ, 0) = 0 on the other wall placed at y = 0.\nLet us study the case in which a ﬁeld Φ(xµ, y) is an N-plet under some symmetry\ngroup G. The components of Φ are denoted by φk as Φ = (φ1, φ2, ..., φN)T . The Z2\ntransformation of Φ takes the same form as (2.1), but in this case P is an N × N\nmatrix ∗) that satisﬁes P 2 = I, where I is the unit matrix. The Z2 invariance of the\nLagrangian does not necessarily require that P be I or −I. Unless all components\nof Φ have a common Z2 parity (i.e., if P̸ = ±I), a symmetry reduction occurs\nupon compactiﬁcation, because of the lack of zero modes in components with odd\nparity. 14) The same property holds in the case with Z′\n2 parity.\n§3.\nA model with SU(5) gauge symmetry\nWe now study 5D SUSY SU(5) GUT with minimal particle content and non-\nuniversal parity assignment. We assume that the vector supermultiplet V and two\nkinds of hypermultiplets Hs (s = 1, 2) exist in the bulk M4 × S1/(Z2 × Z′\n2). The\nvector multiplet V consists of a vector boson AM, two bispinors λi\nL (i = 1, 2), and\na real scalar Σ, which together form an adjoint representation 24 of SU(5), and\nthe hypermultiplets Hs consist of two complex scalar ﬁelds and two Dirac fermions\nψs = (ψs\nL, ψs\nR)T , which are equivalent to four sets of chiral supermultiplets: H1 =\n{H5 ≡(H1\n1, ψ1\nL), ˆH¯5 ≡(H1\n2, ¯ψ1\nR)} and H2 = { ˆH5 ≡(H2\n1, ψ2\nL), H¯5 ≡(H2\n2, ¯ψ2\nR)}. The\nhypermultiplets H5 and ˆH5 ( ˆH¯5 and H¯5) form a fundamental representation 5 (¯5).\nWe assume that our visible world is a 4D wall ﬁxed at y = 0 (We refer to as “wall I”)\nand that three families of quark and lepton chiral supermultiplets, 3{Φ¯5 + Φ10}, are\nlocated on this wall. (Here and hereafter the family index does not appear.) That\nis, matter ﬁelds contain no excited states along the S1/(Z2 × Z′\n2) direction.\nThe gauge invariant action is given by\nS =\nZ\nL(5)d5x + 1\n2\nZ\nδ(y)L(4)d5x\n+(terms from a brane ﬁxed at y = −πR),\n(3.1)\nL(5) = L(5)\nY M + L(5)\nH ,\n(3.2)\nL(5)\nYM = −1\n2TrF 2\nMN + Tr|DMΣ|2 + Tr(i¯λiγMDMλi) −Tr(¯λi[Σ, λi]), (3.3)\nL(5)\nH = |DMHs\ni |2 + i ¯ψsγMDMψs −(i\n√\n2g(5) ¯ψsλiHs\ni + h.c.)\n−¯ψsΣψs −H†i\ns Σ2Hs\ni −\ng2\n(5)\n2\nX\nm,A\n\u0010\nH†i\ns (σm)j\niT AHs\nj\n\u00112 ,\n(3.4)\nL(4) ≡\nX\n3families\nZ\nd2¯θd2θ(Φ†\n¯5e2g(5)V AT AΦ¯5 + Φ†\n10e2g(5)V AT AΦ10)\n+\nX\n3families\nZ\nd2θ(fU(5)H5Φ10Φ10 + ˆfU(5) ˆH5Φ10Φ10\n∗) P is a unitary and hermitian matrix.",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://projecteuclid.org/journals/advances-in-theoretical-and-mathematical-physics/volume-17/issue-5/Magic-coset-decompositions/atmp/1408626511.pdf",
+      "title": "Cacciatori Cerchiai Marrani, Magic coset decompositions (2013)",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "url": "https://arxiv.org/pdf/hep-ph/0510419",
+      "title": "King Moretti Nevzorov, Theory and Phenomenology of an Exceptional Supersymmetric Standard Model",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Higgs doublets Hu and Hd and singlet S develop VEVs. In addition, in order to achieve\ngauge coupling uniﬁcation, there is a further pair of Higgs–like doublet supermultiplets H′\nand ¯H′ which do not develop VEVs, arising from an incomplete 27′ + 27\n′ representation.\nAll the extra matter described above is expected to have mass of order the TeV scale\nand may be observable at the LHC or at an ILC. The ESSM has the following desirable\nfeatures:\n• Anomalies are cancelled generation by generation within each complete 27i repre-\nsentation.\n• Gauge coupling uniﬁcation is accomplished due to the complete 27i representations\ntogether with the additional pair of Higgs–like doublets H′ and ¯H′ from the incom-\nplete 27′ + 27\n′ representation.\n• The seesaw mechanism is facilitated due to the right–handed neutrinos Nc\ni arising\nfrom the 27i representations having zero gauge charges.\n• The µ-problem of the MSSM is solved since the µ-term is forbidden by the U(1)N\ngauge symmetry. It is replaced by a singlet coupling ˆS( ˆHd ˆHu) as in the NMSSM,\nbut without the ˆS3 term of the NMSSM which resulted in domain wall problems.\nBesides, in the ESSM the would-be Goldstone boson is eaten by the Z′ associated\nwith the U(1)N gauge group.\nThe purpose of the remainder of this section is to develop the theoretical aspects of the\nESSM deﬁned above, and deﬁne the matter content, charges, couplings and symmetries\nof the ESSM more precisely.\n2.2\nThe choice of the surviving U(1)N gauge group\nSince all matter and Higgs superﬁelds must originate from 27 and 27–plets of E6, one\ncannot break E6 in a conventional manner as the required Higgs ﬁelds are in larger\nrepresentations than the 27.\nHowever, at the string scale, E6 can be broken via the\nHosotani mechanism [41]. Because the rank of the E6 group is six the breakdown of the\nE6 symmetry results in several models based on rank–5 or rank–6 gauge groups. As a\nconsequence E6 inspired SUSY models in general may lead to low–energy gauge groups\nwith one or two additional U(1)′ factors in comparison to the SM. Indeed E6 contains\nthe maximal subgroup SO(10) × U(1)ψ while SO(10) can be decomposed in terms of the\nSU(5)×U(1)χ subgroup. By means of the Hosotani mechanism E6 can be broken directly\nto SU(3)C ×SU(2)W ×U(1)Y ×U(1)ψ ×U(1)χ which has rank 6. For suitable large VEVs\nof the symmetry breaking Higgs ﬁelds this rank–6 model can be reduced further to an\n6",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://arxiv.org/pdf/1201.6314",
+      "title": "Cacciatori Cerchiai Marrani, Magic Coset Decompositions, arXiv original",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Recalling the treatment Sec. 4, in line (4.28) one can recognize:\nT : = Adj (E6 × U (1)) = 780 + 10;\n(4.33)\nP : = 27−2 + 27′\n+2,\n(4.34)\nwhere, by the deﬁnitions introduced in Sec. 4, P denotes (the irreducible decomposition of) the Lie\nalgebra of the coset M (1.2) (as representation space of T). Furthermore, 27−2+27′\n+2 manifestly shows\nthe complex (special K¨ahler) structure of M itself, which is then spoiled by the further subsequent\nbranchings needed for the Iwasawa parametrization (4.12).\nFurthermore, the lines (4.29) and (4.30) give the SO (8) × [U (1)]3 (or SO (8) × [SO (1, 1)]3) ir-\nreducible branching of the 79 compact generators of E7(−25), namely of the generators of its max-\nimal compact subgroup E6(−78) × U (1).\nOn the other hand, the lines (4.31) and (4.32) give the\nSO (8) × [U (1)]3 (or SO (8) × [SO (1, 1)]3) irreducible branching of the 54 non-compact generators of\nE7(−25), namely of the generators of M itself. In particular, recalling the deﬁnitions of Sec. 4:\nT′ : = 10,0,0 + 8c,0,−3,1 + 8s,0,−3,−1 + 8c,0,+3,−1 + 8s,0,+3,+1\n+10,0,0 + 8v,0,0,+2 + 8v,0,0,−2 + 10,0,0;\n(4.35)\nS : = Adj (SO (8)) = 280,0,0.\n(4.36)\nT′ is the Lie algebra of the non-maximal (and non-symmetric) coset (dimR = 51):\nE6(−78) × U (1)′\nSO (8)\n= E6(−78)\nSO (8) × U (1)′ ,\n(4.37)\nor, in the choice of chain (4.27), of its relevant (i.e. minimally) non-compact form:\nE6(−26) × SO (1, 1)′\nSO (8)\n= E6(−26)\nSO (8) × SO (1, 1)′ .\n(4.38)\nOut of the six SO (8)-singlets:\n1−2,+4,0, 1−2,−2,+2, 1−2,−2,−2, 1+2,−4,0, 1+2,+2,−2, 1+2,+2,+2\n(4.39)\nin lines (4.31) and (4.32), three linear combinations generate H3, whereas the remaining linear com-\nbinations, orthogonal with respect to the Cartan-Killing form, together with the manifestly SO (8)-\ntriality-symmetric branching:\n8v,−2,−2,0 + 8c,−2,+1,+1 + 8s,−2,+1,−1\n+8v,+2,+2,0 + 8c,+2,−1,−1 + 8s,+2,−1,+1\n(4.40)\nof lines (4.31) and (4.32), generate P′.\nAnalogously, the smallest non-trivial symplectic irrep., namely the fundamental 56 of E7(−25),\nbranches as (see e.g. [32]):\n56 = 27+1 + 27′\n−1 + 1+3 + 1−3\n(4.41)\n= 1+1,+4 + 10+1,−2 + 16+1,+1\n+1−1,−4 + 10−1,+2 + 16′\n−1,−1\n+1+3,0 + 1−3,0\n(4.42)\n= 1+1,+4,0 + 1+1,−2,+2 + 1+1,−2,−2 + 8v,+1,−2,0 + 8c,+1,+1,+1 + 8s,+1,+1,−1\n+1−1,−4,0 + 1−1,+2,−2 + 1−1,+2,+2 + 8v,−1,+2,0 + 8c,−1,−1,−1 + 8s,−1,−1,+1\n+1+3,0,0 + 1−3,0,0,\n(4.43)\n19",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

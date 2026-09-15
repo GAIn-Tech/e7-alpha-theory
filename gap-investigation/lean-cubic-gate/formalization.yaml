@@ -1,0 +1,15 @@
+title: Odd trilinear central-sign obstruction
+scope: kernel-only additive analogue; E7 central-character bridge external
+lean: 4.32.1
+mathlib: absent
+mathematical_axioms: []
+proof_automation: explicit equality eliminators and finite recursor proof terms
+ai_assisted: true
+review: self-assessed; locally kernel checked
+hosted_ci: not run
+main_theorem: CubicGate.invariant_odd_trilinear_vanishes
+not_formalized:
+  - E7 root data and center action on 56
+  - vector spaces and characteristic-to-no-two-torsion implication
+  - tensor duality and invariant tensor correspondence
+  - physical action, symmetry breaking, or coupling prediction

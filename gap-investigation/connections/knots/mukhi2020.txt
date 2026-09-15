@@ -1,0 +1,2583 @@
+
+--- PAGE 1 ---
+arXiv:2011.09487v1  [hep-th]  18 Nov 2020
+Universal Correlators and Novel Cosets in 2d RCFT
+Sunil Mukhi a and Rahul Poddar b
+aIndian Institute of Science Education and Research,
+Homi Bhabha Rd, Pashan, Pune 411 008, India
+bScience Institute, University of Iceland,
+Dunhaga 3, Reykjav´ık 107, Iceland
+E-mail: sunil.mukhi@gmail.com, rahul.poddar.305@gmail.com
+Abstract: The two-character level-1 WZW models corresponding to Lie algebras in the
+Cvitanovi´c-Deligne series A1, A2, G2, D4, F4, E6, E7 have been argued to form coset pairs
+with respect to the meromorphic E8,1 CFT. Evidence for this has taken the form of holomor-
+phic bilinear relations between the characters. We propose that suitable 4-point functions
+of primaries in these models also obey bilinear relations that combine them into current
+correlators for E8,1, and provide strong evidence that these relations hold in each case.
+Diﬀerent cases work out due to special identities involving tensor invariants of the alge-
+bra or hypergeometric functions. In particular these results verify previous calculations
+of correlators for exceptional WZW models, which have rather subtle features. We also
+ﬁnd evidence that the intermediate vertex operator algebras A0.5 and E7.5, as well as the
+three-character A4,1 theory, also appear to satisfy the novel coset relation.
+Keywords: Conformal ﬁeld theory, Modular invariance, Conformal bootstrap
+
+
+--- PAGE 2 ---
+Contents
+1
+Introduction
+1
+2
+Review of WZW Correlators and the Novel Coset Conjecture
+5
+2.1
+Primary Correlators
+5
+2.2
+Current Correlators and the Conjecture
+7
+3
+Testing the Bilinear Relation for Conformal Blocks
+9
+3.1
+A1,1⊕E7,1
+9
+3.2
+A2,1⊕E6,1
+14
+3.3
+D4,1⊕D4,1
+18
+3.4
+G2,1⊕F4,1
+20
+3.5
+Intermediate VOA’s: A0.5⊕E7.5
+25
+3.6
+A4,1⊕A4,1
+27
+4
+Conclusions and Open Problems
+30
+A Bilinear Identities for Hypergeometric Functions
+31
+B Bilinear Relation for Characters
+32
+1
+Introduction
+The ﬁnite-dimensional Lie algebras A1, A2, G2, D4, F4, E6, E7, E8 were shown, many
+years ago by Cvitanovi´c and by Deligne [1–4], to belong in a special series with remarkable
+mathematical properties. These include miraculous formulae for the dimensions of rep-
+resentations, parametrised in terms of the dual Coxeter number. Later it was argued by
+Landsberg and Manivel [5] that there is a “hole” in this series between E7 and E8 which
+suggests the existence of a new structure (not a normal Lie algebra) denoted E7.5. We will
+refer to the full collection as the CDLM series of Lie Algebras.
+On the physics side, the classiﬁcation of Rational Conformal Field Theories (RCFT) by
+their number of conformal blocks was initiated by Mathur et al in [6, 7] using a bootstrap
+procedure to implement modularity of the characters together with positive integrality
+of their coeﬃcients.
+All two-character CFT’s with a vanishing Wronskian index were
+classiﬁed in these papers, making up what is now known as the MMS series. These consist
+of the WZW models A1,1, A2,1, G2,1, D4,1, F4,1, E6,1, E7,1, E8,1 where the subscripts
+label the rank and level, as well as two outliers which formally give rise to negative fusion
+rules as computed by the Verlinde formula [8].
+One of these outliers was identiﬁed in
+[6], after interchanging characters, with the famous non-unitary Lee-Yang minimal CFT,
+which provides a nice physical realisation. However from the mathematical point of view it
+– 1 –
+
+
+--- PAGE 3 ---
+is better to keep the “standard” order of characters (in which the central charge parameter
+is positive) and it was subsequently proposed by Kawasetsu [9] that in this form, both
+the outliers can be identiﬁed as Intermediate Vertex Operator Algebras (IVOA). These
+generalise the usual axioms of RCFT, and the two outliers above are now known as the
+IVOA’s A0.5 and E7.5.
+Thus, the CDLM series of (generalised) Lie algebras, obtained using miraculous fea-
+tures of representation theory, also emerges – from a completely distinct starting point – as
+the MMS series of (generalised) RCFT obtained via the modular bootstrap1. The special
+mathematical properties of the CDLM series, elucidated in the mathematical literature,
+seem to have a counterpart in the special RCFT properties of having two characters and
+vanishing Wronskian index2.
+An intriguing feature of the MMS series is that the various theories pair up such
+that the central charges (c, ˜c) of a pair add up to 8 and the conformal dimensions of the
+non-trivial primaries (h, ˜h) add up to 1. The pairs are as follows:
+(A1,1, E7,1) :
+(c, ˜c) = (1, 7),
+(h, ˜h) = (1
+4, 3
+4)
+(A2,1, E6,1) :
+(c, ˜c) = (2, 6),
+(h, ˜h) = (1
+3, 2
+3)
+(G2,1, F4,1) :
+(c, ˜c) = (14
+5 , 26
+5 ),
+(h, ˜h) = (2
+5, 3
+5)
+(D4,1, D4,1) :
+(c, ˜c) = (4, 4),
+(h, ˜h) = (1
+2, 1
+2)
+(A0.5, E7.5) :
+(c, ˜c) = (2
+5, 38
+5 ),
+(h, ˜h) = (1
+5, 4
+5)
+(1.1)
+It is noteworthy that this relation covers both simply-laced and non-simply-laced cases as
+well as the IVOA case. Also one sees that D4,1 is paired up with itself.
+An explanation for these numerical facts was found in [10] which proposed a novel coset
+construction for RCFT’s. While the usual coset procedure [11] starts with multi-character
+WZW models and takes the coset of one by another to obtain non-WZW models (such as
+Virasoro minimal models), the novel coset construction of [10] starts with a meromorphic
+CFT (typically not a WZW model) and takes its coset by a WZW model to get new
+and interesting CFT’s with (in general) a larger Wronskian index. The coset relation is
+embodied in a holomorphic bilinear pairing between the characters of the denominator
+theory and the coset, combining them into the single modular-invariant character of the
+numerator meromorphic theory. This novel coset procedure has been used in recent times
+to construct previously unknown families of two-character RCFT with arbitrarily large
+Wronskian index [12].
+While the main examples in [10] dealt with meromorphic CFT with c = 24 (several
+interesting examples with c = 32 were found more recently [12]), it was noted that the same
+construction also pairs the MMS series characters into the character of the meromorphic
+CFT E8,1 3. Thus, if (χi(τ), eχi(τ)) are the characters of a pair of MMS-series theories as
+1Except for A0.5 which presumably corresponds to a trivial Lie algebra.
+2As far as we know, this correspondence has never been explained.
+3While this theory formally emerges in the MMS analysis of two-character CFT, it is of course well-known
+to be a meromorphic (single-character) CFT whose character is modular invariant up to a phase.
+– 2 –
+
+
+--- PAGE 4 ---
+in Eq. (1.1), they satisfy the holomorphic relation:
+1
+X
+i=0
+χi(τ)eχi(τ) = j(τ)
+1
+3 = χE8,1(τ)
+(1.2)
+where j(τ) is the Klein modular invariant. Among other things, the above relation equates
+the modular S-matrix of the two theories in a coset pair.
+Given that such a pairing exists between characters, one may ask if a similar pairing
+holds for four-point functions. This is the subject of the present work. We will consider the
+four-point correlators of the non-trivial primary for each member of the MMS series and
+argue that when the holomorphic conformal blocks are multiplied with each other, they
+satisfy a bilinear relation analogous to Eq. (1.2) where the RHS is the four-point current
+correlator of E8,1. This relation will turn out to be considerably more involved than the
+bilinear pairing of characters. The reason is that it intimately involves structure constants
+and invariant tensors of Lie algebras and the fusion rules of the corresponding theories.
+By contrast, the characters merely count states and Eq. (1.2) (despite being of course
+non-trivial) only relates the state-counting of a pair of theories to that of E8,1 without
+speciﬁcally invoking group theory.
+The 4-point correlators for WZW models based on classical Lie algebras are quite
+well-known, starting with the pioneering work of [13] based on the null vectors of the
+RCFT. This method does not, however, seem to have been applied to exceptional WZW
+models4. Instead, the problem has been tackled using the Wronskian method for correlators
+of RCFT originally proposed in [7, 14] – speciﬁcally, the correlator of F4,1 WZW theory was
+calculated in [7] and the Knizhnik-Zamolodchikov equation was derived for the fundamental
+primaries of G2 and F4 in [15]. More recently, a master formula was obtained in [16] for
+the 4-point function of primaries for all members of the MMS series described above5.
+Four-point correlation functions in RCFT are expressed as a sum over the modulus-
+squared of conformal blocks that are holomorphic away from coincident points. Each block
+corresponds to the ﬂow of a diﬀerent conformal family between pairs of ﬁelds, and the blocks
+have monodromies under exchange of these ﬁelds. While this much is true for minimal
+models and widely known, correlators for WZW models have an additional non-trivial
+feature. Each primary has a degeneracy equal to the dimension of the representation of
+the correponding ﬁnite Lie algebra. Hence the conformal blocks themselves are decomposed
+over all possible independent tensor invariants that can contribute, and there is a sub-block
+for each invariant. Some unusual selection rules are imposed by group theory over and
+above those given by CFT, which tell us that in some situations the primary itself is not
+the leading contribution to a given conformal block, but instead the leading contribution
+comes from some deﬁnite secondary over that primary. This was noted in [7, 14] (the former
+reference considers An,1 correlators while the latter describes the four-point function of F4,1
+as an example) and discussed in some detail in [15, 17].
+4Here we mean WZW models whose Kac-Moody algebra is based on an exceptional Lie algebra, as
+opposed to exceptional invariants for A1 WZW models – which seem to be far more widely studied.
+5The IVOA’s A0.5 and E7.5 were not speciﬁcally discussed there, though we will ﬁnd that the master
+formula applies to them as well.
+– 3 –
+
+
+--- PAGE 5 ---
+The more detailed and comprehensive results of [16] encountered the fact – well-known
+in representation theory, and noted previously in [15] – that for exceptional algebras, the
+tensor product of the fundamental representation with itself does not simply give irreducible
+symmetric and antisymmetric parts. Instead each of these breaks up further into irreps.
+As a result a 4-point correlator in the exceptional case may have to be decomposed into as
+many as ﬁve or six diﬀerent tensor structures (not just two, as for An,1) and the sub-blocks
+calculated separately in each case. While the tensor structures were not explicitly identiﬁed
+in [7, 16], they were labelled and rules were obtained to compute the contribution for each
+of them. Meanwhile [15] focused on deriving the diﬀerential equation and did not explicitly
+write the solutions, which are more relevant to the present discussion.
+Hence, here we will ﬁrst ﬁll in a few details that were missing in the previous works.
+In particular we will discuss the tensor invariants appearing in the correlations functions
+of the MMS series in considerable detail. We then proceed to consider bilinear products of
+conformal blocks. We will ﬁnd that the calculations, which are highly sensitive to the above
+subtleties, hold up very well and the existence of a bilinear relation among correlators of
+coset-paired theories is supported by strong evidence in each case. In no case do we ﬁnd
+any term that would contradict it. We will also ﬁnd that in some cases, non-trivial relations
+between them are crucial to enable the proposed bilinear coset relation. Thereby we (i)
+provide a precise statement of what the novel coset construction implies for correlators,
+(ii) ﬁnd evidence for this statement, This can also be taken as supporting evidence for the
+correctness of the formulae in [16] where a couple of slightly ad-hoc assumptions had to be
+made.
+We go beyond the MMS series to consider the three-character pair (A4,1, A4,1) which
+also forms a coset pair and satisﬁes the bilinear relation Eq. (1.2). Here too we ﬁnd convinc-
+ing evidence for a bilinear relation between conformal blocks. Like the pair (D4,1, D4,1),
+this is a relatively simple case, since exceptional algebras are not involved.
+Let us mention here that for all simply-laced pairs, the conformal blocks are algebraic
+functions of the cross-ratio, and the existence of a bilinear relation between blocks, while
+highly non-trivial, is perhaps not too miraculous. However for the pair (G2,1, F4,1) the
+blocks are hypergeometric functions that cannot be simpliﬁed into algebraic functions.
+But when we multiply them to ﬁnd a bilinear relation then the result remarkably simpliﬁes
+into a purely algebraic one due to identities among hypergeometric functions.
+Such a
+simpliﬁcation is of course essential for the bilinear relation to hold, given that the current
+correlator of E8,1 appears on the right-hand-side.
+An added bonus is that, with some
+minimal assumptions, a similar result holds for the pair of IVOA’s (A0.5, E7.5). This appears
+to give us some novel information about IVOA’s, whose correlators have not been previously
+considered as far as we know.
+The plan of this paper is as follows. In Section 2 we review relevant results about
+primary correlators and current correlators in WZW models, and state the novel coset
+conjecture as it applies to 4-point functions. In Section 3 discuss each coset pair in the
+MMS series, providing evidence for the bilinear relation in each case. At the end we brieﬂy
+discuss the case of A4,1⊕A4,1 which is not part of the MMS series (these are three-character
+theories) but also satisﬁes a similar coset relation. In Section 4 we conclude with a summary
+– 4 –
+
+
+--- PAGE 6 ---
+of what has been achieved and what remains to be done. In Appendix A we state and
+prove a bilinear identity between hypergeometric functions, and in Appendix B we use it
+to prove the bilinear relation among characters.
+2
+Review of WZW Correlators and the Novel Coset Conjecture
+Let us summarise the ingredients in the computation of four-point functions for WZW
+models. We begin by describing primary correlators. Subsequently we write down four-
+point correlators of Kac-Moody currents and state the novel coset conjecture for correlation
+functions.
+2.1
+Primary Correlators
+Let us pick a WZW model based on a simple Kac-Moody algebra and consider primaries
+gab(z, ¯z) in some representation A, having conformal dimensions hA, ¯hA. Assuming the
+representation to be complex, we consider the correlator:
+Ga1¯a2¯a3a4;b1¯b2¯b3b4(zi, ¯zi) = ⟨ga1b1(z1, ¯z1) ¯g¯a2¯b2 (z2, ¯z2) ¯g¯a3¯b3(z3, ¯z3) ga4b4(z4, ¯z4)⟩
+(2.1)
+where the barred entries correspond to the complex-conjugate representation. The corre-
+lator is conveniently expressed in terms of the cross-ratio, for which we ﬁrst write:
+Ga1¯a2¯a3a4;b1¯b2¯b3b4(zi, ¯zi) = (z14z32¯z14¯z32)−2hAGa1¯a2¯a3a4;b1¯b2¯b3b4(z, ¯z)
+(2.2)
+where z = z12z34
+z14z32, and then take the limits z2, z3, z4 →0, 1, ∞.
+Next the correlator G is expressed as a sum over conformal blocks:
+Ga1¯a2¯a3a4;b1¯b2¯b3b4(z, ¯z) =
+X
+α
+Fα,a1¯a2¯a3a4(z) ¯Fα,b1¯b2¯b3b4(¯z)
+(2.3)
+In the present work we will mostly restrict our attention to the case where α ∈{1, 2},
+which is the case for all MMS-series theories – though in some of them the α = 2 term
+will decouple and we then have only one conformal block. The extra case of A4,1 has in
+principle three blocks, but again all but the ﬁrst one decouple – this is a general feature of
+the An,1 theories.
+As we see, the holomorphic blocks carry indices corresponding to the representations
+of the ﬁelds in the correlator. The correlator is nonzero only when these indices combine
+into a singlet6.
+Hence the dependence of the blocks on these indices must be through
+invariant tensors of the algebra corresponding to all possible ways of combining the four
+representations into a singlet. Thus the blocks can, in turn, be written in terms of a set of
+sub-blocks with no Lie algebra indices, each multiplied by an independent invariant tensor:
+Fα,a1¯a2¯a3a4(z) =
+X
+Rp∈RA⊗RA
+D(p)
+a1¯a2¯a3a4F(p)
+α (z)
+(2.4)
+6This is purely due to the ﬁnite-dimensional zero-mode Lie algebra that is a subalgebra of the Kac-Moody
+algebra.
+– 5 –
+
+
+--- PAGE 7 ---
+Four-point conformal blocks Fα are labelled by the conformal families ﬂowing in any chosen
+channel: this can be (a1¯a2), (a1¯a3) or (a1a4). However, the (a1a4) channel is most con-
+venient because both indices are in the same representation and so the invariant tensors
+are either symmetric or antisymmetric. This was the choice made in [7, 14]. Thus, the
+conformal families that label the blocks correspond to the possible outputs of RA ⊗RA.
+However, at low values of the Kac-Moody level there will be a truncation and we will only
+see the integrable representations.
+Due to our choice of channel, these blocks are invariant (up to an overall phase)
+under the interchange z →1 −z, a1 →a4. Thus, the sub-block F(p)
+α
+should be symmet-
+ric/antisymmetric under z →1−z if the corresponding invariant tensor D(p)
+α a1¯a2¯a3a4 that it
+multiplies is symmetric/antisymmetric under a1 ↔a4. This leads us to consider symmetric
+and antisymmetric D(p) separately:
+DS = 1
+2(δa1¯a2δ¯a3a4 + δa1¯a3δ¯a2a4)
+DA = 1
+2(δa1¯a2δ¯a3a4 −δa1¯a3δ¯a2a4)
+(2.5)
+Each of these corresponds to a sum of certain representations ﬂowing in the a1a4 channel.
+Depending on the relevant Lie algebra, the above invariants may themselves correspond
+to irreducible representations or may be further reducible, as we will see case by case.
+Whenever these are irreducible representations, the above tensors are precisely the D(p) of
+Eq. (2.4) with p ranging over 0 and 1, with 0 by convention being the symmetric channel
+and 1 the antisymmetric. In more general cases, each of DS and DA will break up into
+sums over a set of D(p).
+An important point, ﬁrst highlighted in [14] and investigated further in [7, 15, 17], is
+that generically there is an interplay between the index α labelling the conformal family
+in the a1a4 channel, and the index p labelling the representation of the leading (lowest-
+dimension) state that actually ﬂows in that channel. As a concrete example, if we consider
+the block Fα where α labels a primary arising in the symmetric part of the product RA ⊗
+RA, then the primary α itself cannot ﬂow if we are in the sub-block corresponding to an
+antisymmetric tensor structure DA. Instead, the lowest-dimension state that ﬂows will be
+some particular secondary. This point will be relevant in what follows.
+Another point to note is that sometimes the representation of φ will be real or pseudo-
+real. In the real cases we will of course consider the four-point function of the same (real)
+ﬁeld. In the pseudo-real case, the ﬁeld and its complex conjugate are equal only after
+a linear transformation. Here we will ﬁnd it notationally simpler to let all ﬁelds in the
+correlator be the same, rather than the middle two being complex conjugates. However
+then contraction of a representation with itself has to be done via an antisymmetric tensor
+(as is familiar for A1). In all these cases, the correlator Eq. (2.1) reduces to:
+Ga1a2a3a4;b1b2b3b4(zi, ¯zi) = ⟨ga1b1(z1, ¯z1) ga2b2 (z2, ¯z2) ga3b3(z3, ¯z3) ga4b4(z4, ¯z4)⟩
+(2.6)
+This is crossing-symmetric under, for example, the exchange of 1 with 4:
+Ga4a2a3a1;b4b2b3b1(z4, z2, z3, z1; ¯z4, ¯z2, ¯z3, ¯z1) = Ga1a2a3a4;b1b2b3b4(z1, z2, z3, z4; ¯z1, ¯z2, ¯z3, ¯z4)
+(2.7)
+– 6 –
+
+
+--- PAGE 8 ---
+and similarly for all other pairwise exchanges.
+In the complex case things are slightly diﬀerent. We have crossing symmetry under
+the exchange of 1 with 4 (both holomorphic) in Eq. (2.1):
+Ga4¯a2¯a3a1;b4¯b2¯b3b1(z4, z2, z3, z1; ¯z4, ¯z2, ¯z3, ¯z1) = Ga1¯a2¯a3a4;b1¯b2¯b3b4(z1, z2, z3, z4; ¯z1, ¯z2, ¯z3, ¯z4)
+(2.8)
+and similarly for 2 with 3 (both anti-holomorphic). Other exchanges give rise to correla-
+tors with diﬀerent placements of holomorphic and anti-holomorphic indices. Fortunately,
+when we verify the coset relation for such cases, we will automatically ﬁnd a sum over all
+placements of the indices and this will turn out to give the expected answers.
+2.2
+Current Correlators and the Conjecture
+The current-current OPE of a WZW model is:
+JA(z)JB(w) =
+kδAB
+(z −w)2 + ifABCJC(w)
+(z −w)
+(2.9)
+To ﬁnd current correlators, we can use the OPE to construct a recursion relation
+⟨JA1(z1) · · · JAn(zn)⟩
+=
+n
+X
+j=2
+
+JA2(z2) · · · JAj−1(zj−1)
+ kδA1Aj
+(z1 −zj)2 + ifA1AjBJB(zj)
+(z1 −zj)
+
+JAj+1(zj+1) · · · JAn(zn)
+
+(2.10)
+Using this, we have:
+⟨JA1(z)JA2(w)⟩= kδA1A2
+(z −w)2
+(2.11)
+⟨JA1(z1)JA2(z2)JA3(z3)⟩= ikfA1A2A3
+z12z13z23
+(2.12)
+⟨JA1(z1)JA2(z2)JA3(z3)JA4(z4)⟩= k2δA1A2δA3A4
+(z12)2(z34)2 + k2δA1A3δA2A4
+(z13)2(z24)2 + k2δA2A3δA1A4
+(z14)2(z23)2
+−k
+fA1A2BfBA3A4
+z12z23z24z34
++ fA1A3BfBA4A2
+z13z23z24z34
++ fA1A4BfBA2A3
+z14z23z24z34
+
+(2.13)
+where zij = zi −zj. The structure constants obey the Jacobi identity:
+fA1A2BfBA3A4 + fA1A3BfBA4A2 + fA1A4BfBA2A3 = 0
+(2.14)
+These correlators are symmetric under the interchange Ai ↔Aj, zi ↔zj. In the above
+expression for the 4-point function, symmetry under pairwise interchanges between any of
+(A2, z2), (A3, z3), (A4, z4) is manifest, but to see the symmetry under exchange of (A1, z1)
+with any of these one has to use the Jacobi identity.
+We now set the points z1 = z, z2 = 0, z3 = 1 and use a conformal transformation to set
+z4 = ∞. We will use the current correlator exclusively for E8,1 so at this stage we specialise
+– 7 –
+
+
+--- PAGE 9 ---
+to that case, and set the level k = 1. Thus the E8,1 current correlator is:
+⟨JA1JA2JA3JA4⟩(z) = δA1A2δA3A4
+z2
++ δA1A3δA2A4
+(1 −z)2
++ δA1A4δA2A3
++ fA1A2BfBA3A4
+z
++ fA1A3BfBA2A4
+1 −z
+(2.15)
+It will be useful for what follows to highlight the symmetry properties of this correlator.
+It is symmetric under the simultaneous interchange A2 ↔A3 and z ↔1 −z. Also it is
+symmetric under exchange of the pair A2, A3 with the pair A1, A4. Next, focusing on the
+residues of pole terms as z →0, we see that the residue of the double pole is symmetric
+under A3 ↔A4 and that of the single pole is antisymmetric under the same exchange.
+Finally, the latter satisﬁes a Jacobi identity: the residue of the single pole, when summed
+over cyclic permutations of A2, A3, A4, vanishes.
+The Kac-Moody algebra E8,1 can be decomposed into subalgebras corresponding to
+direct sums of pairs A1,1⊕E7,1, A2,1⊕E6,1, G2,1⊕F4,1, D4,1⊕D4,1, A4,1⊕A4,1. All of
+these are maximal subalgebras except D4,1⊕D4,1 which is contained in D8,1 which itself is
+a subalgebra of E8,1. Under the above decompositions, the adjoint of E8,1, of dimension
+248, breaks up as:
+A1,1 ⊕E7,1 : 248 →(3, 1) + (2, 56) + (1, 133)
+A2,1 ⊕E6,1 : 248 →(8, 1) + (3, 27) + (3, 27) + (1, 78)
+G2,1 ⊕F4,1 : 248 →(14, 1) + (7, 26) + (1, 52)
+D4,1 ⊕D4,1 : 248 →(28, 1) + (8v, 8v) + (8s, 8c) + (8c, 8s) + (1, 28)
+A4,1 ⊕A4,1 : 248 →(24, 1) + (5, 10) + (5, 10) + (5, 10) + (5, 10) + (1, 24)
+(2.16)
+As mentioned in the Introduction, the characters of the above pairs obey a holomorphic
+bilinear relation to the characters of E8,1. This was stated in [10] but a proof was not
+provided there. Hence we provide this here, after expressing the characters in terms of
+hypergeometric functions following [7, 18]. This is done in Appendix B, using results on
+hypergeometric functions derived in Appendix A.
+We now conjecture an analogous relation between 4-point current correlators of E8,1 on
+the plane and products of conformal blocks for 4-point functions of fundamental primaries
+for the above pairs. Let the conformal blocks of the ﬁrst member of a pair be denoted
+Fα,a1¯a2¯a3a4(z) and those of the second member be eFα,˜a1¯˜a2¯˜a3˜a4(z). The E8,1 currents are
+labelled JAi as above. We now restrict all the Ai to lie in the set corresponding to one of the
+middle terms on the RHS of Eq. (2.16), which involve a fundamental representation of each
+member of the pair. These restricted indices can be thought of as composite: Ai = (ai˜ai)
+for i = 1, 2, 3, 4 where ai, ˜ai label fundamental representations of each member of the pair.
+Then, we conjecture the following holomorphic relation:
+⟨JA1JA2JA3JA4⟩(z) =
+X
+α
+Fα,a1¯a2¯a3a4(z) e
+Fα,˜a1¯˜a2¯˜a3˜a4(z)
+=
+X
+α
+X
+p,˜p
+D(p)
+a1¯a2¯a3a4 eD(˜p)
+˜a1¯˜a2¯˜a3˜a4 F(p)
+α (z) e
+F(˜p)
+α (z)
+(2.17)
+– 8 –
+
+
+--- PAGE 10 ---
+3
+Testing the Bilinear Relation for Conformal Blocks
+We now test the conjecture of Eq. (2.17) in all the possible cases.
+3.1
+A1,1⊕E7,1
+In this case we choose the factor (2, 56) in the decomposition of the adjoint index of E8,1 in
+the ﬁrst line of Eq. (2.16). Thus adjoint indices Ai of E8,1 are treated as composite indices
+(ai˜ai) where ai = 1, 2 and ˜ai = 1, 2, · · · , 56. These are both pseudo-real representations,
+which means the complex conjugates of the ﬁelds gab are related to the original ﬁelds by:
+¯g¯a¯b = ǫ¯a¯a′ ǫ¯b¯b′ ga′b′
+(3.1)
+and a sum over repeated indices (one unbarred and one barred) is implied. Here for A1,
+ǫ is the standard antisymmetric ǫ-symbol, while for E7 it is the symplectic invariant that
+we will deﬁne below (where it will be denoted ˜ǫ˜a˜b). Using this one can go back and forth
+between the correlator of two unbarred and two barred ﬁelds, and four unbarred ﬁelds. As
+indicated earlier, for notational simplicity we will make the latter choice i.e. four copies of
+the same (fundamental) ﬁeld.
+For the A1,1 WZW model we have c = 1 and h = 1
+4. There is only one conformal block
+for the four-point function, α = 1, as the second one decouples (this is a general feature of
+An,1). Correspondingly the D(p)
+a1a2a3a4 are tensors that combine 2 × 2 into 3 (symmetric)
+and 1 (antisymmetric) respectively, in the (a1a4) and (a2a3) channels. Explicitly, they are:
+D(0)
+a1a2a3a4 = 1
+2(ǫa1a2ǫa3a4 + ǫa1a3ǫa2a4)
+D(1)
+a1a2a3a4 = 1
+2(ǫa1a2ǫa3a4 −ǫa1a3ǫa2a4) = −1
+2ǫa1a4ǫa2a3
+(3.2)
+The identity conformal block is given in the two cases by [13]:
+F(0)
+1 (z) = (z(1 −z))
+1
+2
+1
+z +
+1
+1 −z
+
+F(1)
+1 (z) = (z(1 −z))
+1
+2
+1
+z −
+1
+1 −z
+
+(3.3)
+As one can see, these sub-blocks have the same symmetry under z →1 −z as the tensor
+structures they multiply. The complete block is:
+FA1,1
+1
+(z) =
+1
+X
+p=0
+F(p)
+1 (z)D(p) = (z(1 −z))
+1
+2
+ 
+(D(0) + D(1))
+z
++ (D(0) −D(1))
+1 −z
+!
+(3.4)
+We have suppressed the indices on both sides to avoid clutter.
+The E7,1 WZW model has c = 7 and hA = 3
+4. We need the conformal blocks for the
+correlator ⟨56 56 56 56⟩. For this, we ﬁrst note that in terms of representations of the E7
+Lie algebra, the tensor product of the fundamental with itself is:
+56 ⊗56 = 1 ⊕133 ⊕1463 ⊕1539
+(3.5)
+– 9 –
+
+
+--- PAGE 11 ---
+It is easily veriﬁed that the 133 and the 1463 are contained in the symmetric part of the
+product, while the 1 and the 1539 are in the antisymmetric part. At level 1 the 133, 1463
+and 1539 all decouple, leaving the 56 as the only non-trivial primary. Thus there is one
+block, just as for A1,1.
+In [16] it was argued that in this case the identity and its descendants up to level 3 can
+ﬂow in diﬀerent sub-blocks in the (14) fusion channel. Hence, for consistency there must
+be precisely four invariant tensors of E7,1 contributing to the block, and these should be in
+correspondence with the four representations 1, 133, 1463 and 1539. We will show below
+that this is indeed the case.
+As explained in Section 2, the invariant tensors are labelled7 eD(p)
+˜a1¯˜a2¯˜a3˜a4 with p = 0, 1, 2, 3
+and each one will be part of either DS or DA deﬁned in Eq. (2.5) according to its symmetry
+under z →1 −z. Of these, eD(3) corresponds to fusion into the primary, which in this case
+is the identity. The sub-blocks corresponding to these tensor structures were computed in
+[16]:
+eF(0)
+1 (z) = (z(1 −z))−1
+2
+1
+z +
+1
+1 −z
+
+eF(1)
+1 (z) = (z(1 −z))−1
+2
+1
+z −
+1
+1 −z
+
+eF(2)
+1 (z) = (z(1 −z))−1
+2
+1
+z +
+1
+1 −z + 2
+
+eF(3)
+1 (z) = (z(1 −z))−1
+2
+1
+z −
+1
+1 −z + 14(1 −2z)
+
+(3.6)
+The next step is to identify the tensor structures corresponding to these blocks. As
+explained in [16], the highest allowed value of p corresponds to the ﬂow of the primary
+in the (14) channel, while other values correspond to secondaries.
+In the present case
+this means that the sub-block for p = 3 corresponds to the identity, which appears in the
+antisymmetric part of 56 ⊗56. Therefore eD(3) must be antisymmetric in ˜a1, ˜a4 and ˜a2, ˜a3.
+The level of the secondary associated with the rest of the sub-blocks is 3 −p. We need to
+identify which representation corresponds to each of these secondary levels. To get the ﬁrst
+level descendant, we have to act with Ja
+−1 on the primary. Since the currents are in the
+adjoint representation, we obtain 133 at level 1, this corresponds to eD(2) and is included
+in the symmetric part of 56 ⊗56. At the next descendant level, we act with Ja
+−1 on 133.
+In the decomposition of the tensor product of 133 ⊗133, we ﬁnd the representation 1539.
+Thus the second level descendant contains 1539, which corresponds to the antisymmetric
+tensor structure eD(1). Finally for the third-level descendant we consider 133⊗1539 where
+we ﬁnd the representation 1463, corresponding to the symmetric invariant eD(0).
+Thus we have argued that the tensors eD(0) and eD(2) are symmetric and eD(1) and
+eD(3) are antisymmetric in the indices (˜a1, ˜a4) and (˜a2, ˜a3). The associated representations
+7Recall that in a coset pair, all quantities pertaining to the second member are denoted with a tilde.
+– 10 –
+
+
+--- PAGE 12 ---
+ﬂowing in each case are:
+eD(0):
+1463
+(S)
+eD(1):
+1539
+(A)
+eD(2):
+133
+(S)
+eD(3):
+1
+(A)
+(3.7)
+This is conﬁrmed by the fact that out of the sub-blocks in (3.6), eF(0)
+1
+and eF(2)
+1
+are indeed
+symmetric while eF(1)
+1
+and eF(3)
+1
+are antisymmetric under the exchange z ↔1 −z. This is
+an important test of the formulae in [16].
+Our analysis in particular tells us that:
+( eD(0) + eD(2))˜a1˜a2˜a3˜a4 = 1
+2(˜ǫ˜a1˜a2˜ǫ˜a3˜a4 + ˜ǫ˜a1˜a3˜ǫ˜a2˜a4)
+( eD(1) + eD(3))˜a1˜a2˜a3˜a4 = 1
+2(˜ǫ˜a1˜a2˜ǫ˜a3˜a4 −˜ǫ˜a1˜a3˜ǫ˜a2˜a4)
+(3.8)
+Thus if we know one of eD(0), eD(2) and one of eD(1), eD(3) then we can ﬁnd all the four
+eD(p) using the above equation. So it is suﬃcient to ﬁnd, say, eD(3) and eD(2) which are,
+respectively, antisymmetric and symmetric under ˜a1 ↔˜a4. For the antisymmetric case, we
+note that the E7 symplectic tensor:
+˜ǫ˜a˜b =
+ 
+0
+128
+−128
+0
+!
+(3.9)
+serves to combine two fundamentals into the identity. This is precisely what contributes
+to the invariant eD(3), so we can write:
+eD(3)
+˜a1˜a2˜a3˜a4 ∼˜ǫ˜a1˜a4˜ǫ˜a2˜a3
+(3.10)
+where the normalisation remains to be determined.
+Notice that unlike the A1,1 case, here there is no identity relating this invariant to
+˜ǫ˜a1˜a2˜ǫ˜a3˜a4 −˜ǫ˜a1˜a3˜ǫ˜a2˜a4.
+This is a good thing because as explained above we need two
+independent invariants that are antisymmetric under a1 ↔a4.
+To ﬁnd the symmetric invariant eD(2) we use the third-rank tensor that combines two
+56’s into the 133. Denote it by ˜q˜a˜b˜µ where ˜a,˜b ∈1, · · · , 56 and ˜µ ∈1, 2, · · · , 133. Then we
+can write:
+eD(2)
+˜a1˜a2˜a3˜a4 = ˜q˜a1˜a4˜µ ˜q˜a2˜a3 ˜µ
+(3.11)
+where ˜µ is summed over. We have absorbed a possible normalisation factor into the deﬁ-
+nition of ˜q˜a˜bµ. We now have all four tensor structures eD(p).
+– 11 –
+
+
+--- PAGE 13 ---
+Combining the sub-blocks in Eq. (3.6) with their corresponding tensor structures, we
+can write the full E7,1 block:
+eFE7,1
+1
+(z) =
+3
+X
+p=0
+eF(p)
+1
+eD(p)
+= (z(1 −z))−1
+2
+" 
+eD(0) + eD(1) + eD(2) + eD(3) 1
+z
++
+
+eD(0) −eD(1) + eD(2) −eD(3)
+1
+1 −z + 2 eD(2) + 14(1 −2z) eD(3)
+#
+(3.12)
+Now we can investigate whether the conjectured coset relation Eq. (2.17) holds. Mul-
+tiplying Eq. (3.4) and Eq. (3.12), we ﬁnd:
+FA1,1
+1
+(z) e
+FE7,1
+1
+(z) = (D(0) + D(1))( eD(0) + eD(1) + eD(2) + eD(3))
+z2
++ (D(0) −D(1))( eD(0) −eD(1) + eD(2) −eD(3))
+(1 −z)2
+−56D(1) eD(3)
++ 2(D(0) eD(0) −D(1) eD(1) + D(0) eD(2) −D(1) eD(3)) + (D(0) + D(1))(2 eD(2) + 14 eD(3))
+z
++ 2(D(0) eD(0) −D(1) eD(1) + D(0) eD(2) −D(1) eD(3)) + (D(0) −D(1))(2 eD(2) −14 eD(3))
+1 −z
+(3.13)
+This is to be compared with the E8,1 current correlator Eq. (2.15) specialised to the relevant
+composite indices in A1,1 and E7,1. We already see considerable evidence in support of the
+conjectured relation. Eq. (3.13), unlike the individual correlators for A1,1 and E7,1, has
+single and double poles at z = 0, z = 1 and a constant term – precisely the structure of
+current four-point functions in Eq. (2.15).
+To compare in more detail, we must make the following reductions in Eq. (2.15):
+δA1A2δA3A4 →ǫa1a2ǫa3a4˜ǫ˜a1˜a2˜ǫ˜a3˜a4
+δA1A3δA2A4 →ǫa1a3ǫa2a4˜ǫ˜a1˜a3˜ǫ˜a2˜a4
+δA1A4δA2A3 →ǫa1a4ǫa2a3˜ǫ˜a1˜a4˜ǫ˜a2˜a3
+(3.14)
+As mentioned earlier, ǫab is the antisymmetric tensor in two dimensions, while ˜ǫ˜a˜b is the
+symplectic E7,1 invariant.
+Examining the double-pole terms8 of Eq. (3.13) and using Eq. (3.14), we ﬁnd that for
+the conjecture to be true, the following identities must hold:
+D(0) + D(1) = p ǫa1a2ǫa3a4,
+eD(0) + eD(1) + eD(2) + eD(3) = p−1˜ǫ˜a1˜a2˜ǫ˜a3˜a4
+D(0) −D(1) = q ǫa1a3ǫa2a4,
+eD(0) −eD(1) + eD(2) −eD(3) = q−1˜ǫ˜a1˜a3˜ǫ˜a2˜a4
+D(1) = r ǫa1a4ǫa2a3,
+eD(3) = −r−1
+56 ˜ǫ˜a1˜a4˜ǫ˜a2˜a3
+(3.15)
+8The constant term is also a “double-pole” term if we consider the behaviour at inﬁnity.
+– 12 –
+
+
+--- PAGE 14 ---
+where p, q, r are possible proportionality factors. Before verifying these relations, let us
+notice that the proposal has already passed one more test. The invariant eD(2) in Eq. (3.11)
+cannot appear on the RHS of Eq. (3.14) because the LHS is just a product of Kronecker δ’s
+which can only reduce to δ and ǫ symbols in the subgroups. Fortunately it also does not
+appear in the ﬁrst two lines of Eq. (3.15), except in combination with eD(0) into a product
+of ˜ǫ’s by Eq. (3.8).
+Consulting Eq.(3.2) we see that the above relations for D(p) are true and they determine
+p = 1, q = 1, r = −1
+2. From Eqs.(3.8, 3.10) we conclude that the four tensor structures
+arising in the E7,1 4-point function are:
+eD(0)
+˜a1˜a2˜a3˜a4 = 1
+2(˜ǫ˜a1˜a2˜ǫ˜a3˜a4 + ˜ǫ˜a1˜a3˜ǫ˜a2˜a4) −eD(2)
+˜a1˜a2˜a3˜a4
+eD(1)
+˜a1˜a2˜a3˜a4 = 1
+2(˜ǫ˜a1˜a2˜ǫ˜a3˜a4 −˜ǫ˜a1˜a3˜ǫ˜a2˜a4) −eD(3)
+˜a1˜a2˜a3˜a4
+eD(2)
+˜a1˜a2˜a3˜a4 = ˜q˜a1˜a4 ˜µ ˜q˜a2˜a3˜µ
+eD(3)
+˜a1˜a2˜a3˜a4 =
+1
+28˜ǫ˜a1˜a4˜ǫ˜a2˜a3
+(3.16)
+Thus we have been able to ﬁx all the tensor structures and also the normalisation of eD(3)
+(but not the normalisation of eD(2), since ˜q˜a˜b˜µ has not yet been normalised) just by looking
+at the double-pole terms in the current correlator Eq. (2.15).
+Let us now turn to the single-pole terms, which depend on the structure constants.
+For the conjecture to be true the pole at z = 0 must match, which gives:
+fA1A2BfBA3A4 = ǫa1a2ǫa3a4eǫ˜a1˜a3eǫ˜a2˜a4 + ǫa1a3ǫa2a4eǫ˜a1˜a2eǫ˜a3˜a4
++ 1
+2ǫa1a2ǫa3a4eǫ˜a1˜a4eǫ˜a2˜a3 + 2ǫa1a2ǫa3a4 ˜q˜a1˜a4˜µ ˜q˜a2˜a3 ˜µ
+(3.17)
+The symmetry of both Eq. (2.15) and Eq. (3.13) under 2 ↔3 together with z →1 −z
+ensures that the pole at z = 1 gives the same answer after a re-labeling.
+The LHS of Eq. (3.17) is separately antisymmetric under A1 ↔A2 and A3 ↔A4.
+Enforcing the corresponding antisymmetry on the RHS, we get the following condition:
+˜q˜a1˜a3 ˜µ ˜q˜a4˜a2˜µ −˜q˜a1˜a4 ˜µ ˜q˜a2˜a3 ˜µ = 1
+2
+ eǫ˜a1˜a2eǫ˜a3˜a4 −1
+2eǫ˜a1˜a3eǫ˜a4˜a2 −1
+2eǫ˜a1˜a4eǫ˜a2˜a3
+
+(3.18)
+This non-trivial relation between diﬀerent tensor invariants in E7 has been proved in the
+mathematics literature [19]. It follows immediately from Theorem 12.6 of that reference,
+with the following identiﬁcations. W in the reference is the 57 representation, while A is
+the 133. The skew-symmetric bilinear form on W, denoted by ⟨, ⟩, is just our symplectic
+invariant ˜ǫ. The map ◦: W ⊗W →A is proportional to our ˜q˜a˜b˜µ. Finally the inner product
+( , ) on A is proportional to the Killing form, however the latter is negative deﬁnite for
+compact simple Lie algebras so it has to be proportional, with a real factor, to minus the
+sum over ˜µ for us. Thus we must take:
+(w ◦x, y ◦z) = −X ˜q˜aw˜ax˜µ ˜q˜ay˜az ˜µ
+(3.19)
+where X is a normalisation to be determined.
+– 13 –
+
+
+--- PAGE 15 ---
+Now from Theorem 12.6 of [19] and the deﬁnition above it, one can easily prove the
+identity:
+(w ◦x, y ◦z) −(w ◦z, x ◦y) = ⟨w, y⟩⟨z, x⟩−1
+2⟨w, z⟩⟨x, y⟩−1
+2⟨w, x⟩⟨y, z⟩
+(3.20)
+which after transcribing to our notation and with the substitution w →a1, x →a4, y →
+a2, z →a3, becomes:
+−X(˜q˜a1˜a4˜µ ˜q˜a2˜a3 ˜µ −˜q˜a1˜a3˜µ ˜q˜a4˜a2 ˜µ) = ˜ǫ˜a1˜a2˜ǫ˜a3˜a4 −1
+2˜ǫ˜a1˜a3˜ǫ˜a4˜a2 −1
+2˜ǫ˜a1˜a4˜ǫ˜a2˜a3
+(3.21)
+It is easily seen that Eq. (3.21) is the same as Eq. (3.18) with the choice X = 2, i.e. the
+correct normalisation is w ◦x →
+√
+2 ˜q.
+To summarise, the desired antisymmetry of the RHS of Eq. (3.17) has been proved
+with the help of a very non-trivial E7 identity! We can now check if it satisﬁes the Jacobi
+identity, as it must if the conjectured relation is to be true. Cyclically permuting the indices
+of (3.17) and adding, the RHS gives:
+ǫa1a2ǫa3a4
+ eǫ˜a1˜a2eǫ˜a3˜a4 −1
+2eǫ˜a1˜a3eǫ˜a4˜a2 −1
+2eǫ˜a1˜a4eǫ˜a2˜a3 + 2(˜q˜a1˜a4µ ˜q˜a2˜a3µ −˜q˜a1˜a3µ ˜q˜a4˜a2µ)
+
++ ǫa1a3ǫa4a2
+ −eǫ˜a1˜a4eǫ˜a2˜a3 + 1
+2eǫ˜a1˜a2eǫ˜a3˜a4 + 1
+2eǫ˜a1˜a3eǫ˜a4˜a2 + 2(˜q˜a1˜a2µ ˜q˜a3˜a4µ −˜q˜a1˜a3µ ˜q˜a4˜a2µ)
+
+= 0
+(3.22)
+This is indeed seen to vanish using Eq. (3.18).
+Thus we see that Eq. (3.18), which is a quadratic relation between the tensor invariants
+˜ǫ˜a˜b and ˜q˜a˜bµ of E7, is suﬃcient to ensure that the RHS of Eq. (3.17) has the same symmetries
+as the LHS of that equation – namely, antisymmetry in a pair of indices as well as the
+Jacobi identity. Together with the fact that the overall pole structure matches perfectly,
+this amounts to strong conﬁrmation of the correctness of the conjecture Eq. (2.17) for the
+present case.
+Let us mention that in this particular example, we would recover the identity Eq. (3.18)
+just by requiring crossing invariance of the single conformal block (up to a phase). However
+in subsequent examples, particularly those with complex ﬁelds, we have to implement
+crossing by summing over all orderings of the ﬁelds.
+In those cases we will not need
+identities among tensor invariants of the algebra.
+3.2
+A2,1⊕E6,1
+For this case, we focus on the factor (3, 27) + (3, 27) in the decomposition of the adjoint
+index of E8,1 as in the second line of Eq. (2.16). Thus, adjoint indices Ai of E8,1 will now
+be composite holomorphic indices (ai˜ai) where ai = 1, 2, 3 and ˜ai = 1, 2, · · · , 27, or else
+anti-holomorphic indices (¯ai¯˜ai). We must sum over both. As a result we get a total of 16
+terms, of which 10 vanish because the number of holomorphic and anti-holomorphic ﬁelds
+is diﬀerent. The remaining 6 terms have the form:
+
+⟨3 3 3 3⟩a1¯a2¯a3a4⟨27 27 27 27⟩˜a1¯˜a2¯˜a3˜a4 + ⟨3 3 3 3⟩a1a2¯a3¯a4⟨27 27 27 27⟩˜a1˜a2¯˜a3¯˜a4
++ ⟨3 3 3 3⟩a1¯a2a3¯a4⟨27 27 27 27⟩˜a1¯˜a2˜a3¯˜a4
+
++ cc
+(3.23)
+– 14 –
+
+
+--- PAGE 16 ---
+The conformal blocks appearing in each term above are related to those in other terms by
+crossing. In this particular case there is just one block (with two sub-blocks) for each of the
+theories in the coset pair, hence crossing must bring a block back to itself up to a possible
+phase (more generally it sends the blocks to linear combinations of themselves). However
+even in this simple case, the functional form of the block in the limit z2, z3, z4 →0, 1, ∞is
+diﬀerent for each of the six ways of choosing two fundamental and two anti-fundamental
+representations in the four-point functions. Hence we will start with the ﬁrst term above
+and then deduce the other two terms by making conformal transformations z →1
+z and
+z →
+z
+z−1 which respectively interchange 0 with ∞and 1 with ∞.
+For A2,1, we have c = 2 and h =
+1
+3.
+The correlator
+
+3 3 3 3
+
+gets a contribution
+from a single conformal block, as noted above. In the 14 channel, this corresponds to the
+conformal family of the 3. The second block decouples at level 1. There are two sub-
+blocks, corresponding to the fusion of 3 × 3 into the 6 (symmetric) and ¯3 (antisymmetric)
+representations. The invariant tensors are:
+D(0)
+a1¯a2¯a3a4 = 1
+2(δa1¯a2δ¯a3a4 + δa1¯a3δ¯a2a4)
+D(1)
+a1¯a2¯a3a4 = 1
+2(δa1¯a2δ¯a3a4 −δa1¯a3δ¯a2a4)
+(3.24)
+The corresponding sub-blocks are:
+F(0)
+1
+= (z(1 −z))
+1
+3
+1
+z +
+1
+1 −z
+
+F(1)
+1
+= (z(1 −z))
+1
+3
+1
+z −
+1
+1 −z
+
+(3.25)
+and the complete A2,1 block is:
+⟨3 3 3 3⟩a1¯a2¯a3a4 =
+1
+X
+p=0
+F(p)
+1 D(p)
+a1¯a2¯a3a4
+= (z(1 −z))
+1
+3
+δa1¯a2δ¯a3a4
+z
++ δa1¯a3δ¯a2a4
+1 −z
+
+(3.26)
+This time we have written out the indices explicitly because they will be important. We
+can identify D(1) with the ﬂow of the 3 and D(0) with the 6.
+Now applying the conformal transformations z →1
+z and
+z
+z−1 respectively, we get:
+
+3 3 3 3
+
+a1a2¯a3¯a4 :
+1 −z
+z
+ 1
+3 
+δa1¯a4δ¯a3a2 −δa1¯a3δa2¯a4
+1 −z
+
+
+3 3 3 3
+
+a1¯a2a3¯a4 :
+
+z
+1 −z
+ 1
+3 δa1¯a2δa3¯a4
+z
+−δa1¯a4δ¯a2a3
+
+(3.27)
+Next we turn to E6,1, for which we have c = 6 and h = 2
+3 and start with the correlator
+
+27 27 27 27
+
+. As in the previous case, the second block decouples at level 1. The tensor
+product of the E6 fundamental with itself decomposes as:
+27 ⊗27 = 27 ⊕351 ⊕351′
+(3.28)
+– 15 –
+
+
+--- PAGE 17 ---
+The symmetric part of 27 ⊗27 has total dimension 378. Thus it must contain the 27
+as well as one of the 351 and 351′. Since the Dynkin labels of the 27 and the 351′ are
+(1, 0, 0, 0, 0, 0) and (2, 0, 0, 0, 0, 0) respectively, it is clear that the latter lies in the symmetric
+product of the former with itself. Meanwhile the 351, with Dynkin labels (0, 0, 0, 1, 0, 0),
+makes up the antisymmetric part of 27 ⊗27. Clearly the 27 appears at the primary level,
+and one can verify that the secondaries, generated by currents in the adjoint 78, produce
+the representation 351 at the ﬁrst level and 351′ at the second level.
+Thus we have:
+eD(0):
+351′
+(S)
+eD(1):
+351
+(A)
+eD(2):
+27
+(S)
+(3.29)
+We can now seek the corresponding tensor invariants. By the symmetry/antisymmetry
+argument above, we have:
+( eD(0) + eD(2))˜a1¯˜a2¯˜a3˜a4 = 1
+2(δ˜a1¯˜a2δ¯˜a3˜a4 + δ˜a1¯˜a3δ¯˜a2˜a4)
+eD(1)
+˜a1¯˜a2¯˜a3˜a4 = 1
+2(δ˜a1¯˜a2δ¯˜a3˜a4 −δ˜a1¯˜a3δ¯˜a2˜a4)
+(3.30)
+Thus we only need to ﬁnd eD(2). For this, we note that there is a 3-index tensor invariant
+˜q˜a1˜a2˜a3 that maps three 27’s to the singlet. The quartic invariant made from this will be
+the one corresponding to the ﬂow of a 27 in the 27 ⊗27 channel. Thus we can write:
+eD(2)
+˜a1¯˜a2¯˜a3˜a4 = 1
+9 ˜q˜a1˜a4˜b ¯˜q¯˜a2¯˜a3¯˜b
+(3.31)
+where a sum over ˜b is implied in the last term. The factor of 1
+9 has been introduced to
+simplify subequent formulae, it does not aﬀect anything else since the normalisation of the
+˜q has not yet been speciﬁed.
+The corresponding sub-blocks are [16]:
+eF(0)
+1
+= (z(1 −z))−1
+3
+1
+z +
+1
+1 −z
+
+eF(1)
+1
+= (z(1 −z))−1
+3
+1
+z −
+1
+1 −z
+
+eF(2)
+1
+= (z(1 −z))−1
+3
+1
+z +
+1
+1 −z + 9
+
+(3.32)
+and the complete block is:
+⟨27 27 27 27⟩˜a1¯˜a2¯˜a3˜a4 =
+2
+X
+p=0
+eF(p)
+1
+eD(p)
+˜a1¯˜a2¯˜a3˜a4
+= (z(1 −z))−1
+3
+ 
+δ˜a1¯˜a2δ¯˜a3˜a4
+z
++ δ˜a1¯˜a3δ¯˜a2˜a4
+1 −z
++ ˜q˜a1˜a4˜b¯˜q¯˜a2¯˜a3¯˜b
+!
+(3.33)
+– 16 –
+
+
+--- PAGE 18 ---
+As before, we now exchange positions using conformal transformations and get:
+
+27 27 27 27
+
+˜a1˜a2¯˜a3¯˜a4 :
+1 −z
+z
+−1
+3
+ 
+δ˜a1¯˜a4δ¯˜a3˜a2 −δ˜a1¯˜a3δ¯˜a4˜a2
+1 −z
++
+˜q˜a1˜a2˜b¯˜q¯˜a3¯˜a4¯˜b
+z
+!
+
+27 27 27 27
+
+˜a1¯˜a2˜a3¯˜a4 :
+
+z
+1 −z
+−1
+3
+ 
+δ˜a1¯˜a2δ˜a3¯˜a4
+z
+−δ˜a1¯˜a4δ¯˜a2˜a3 −
+˜q˜a1˜a3˜b¯˜q¯˜a2¯˜a4¯˜b
+1 −z
+!
+(3.34)
+Combining them, we get:
+
+3 3 3 3
+ 
+27 27 27 27
+
++
+
+3 3 3 3
+ 
+27 27 27 27
+
++
+
+3 3 3 3
+ 
+27 27 27 27
+
+= 1
+z2
+
+δa1¯a2δ¯a3a4δ˜a1¯˜a2δ¯˜a3˜a4 + δa1¯a2δa3¯a4δ˜a1¯˜a2δ˜a3¯˜a4
+
++
+1
+(1 −z)2
+
+δa1¯a3δ¯a2a4δ˜a1¯˜a3δ¯˜a2˜a4 + δa1¯a3δa2¯a4δ˜a1¯˜a3δ˜a2¯˜a4
+
++ δa1¯a4δa2¯a3δ˜a1¯˜a4δ˜a2¯˜a3 + δa1¯a4δ¯a2a3δ˜a1¯˜a4δ¯˜a2˜a3
++ 1
+z
+
+δa1¯a2δ¯a3a4δ˜a1¯˜a3δ¯˜a2˜a4 + δa1¯a3δ¯a2a4δ˜a1¯˜a2δ¯˜a3˜a4 −δa1¯a2δ¯a4a3δ˜a1¯˜a4δ¯˜a2˜a3 −δa1¯a4δ¯a2a3δ˜a1¯˜a2δ¯˜a4˜a3
++ δa1¯a2δ¯a3a4 ˜q˜a1˜a4˜b¯˜q¯˜a2¯˜a3¯˜b −δa1¯a2δ¯a4a3 ˜q˜a1˜a3˜b¯˜q¯˜a2¯˜a4¯˜b −(δa1¯a3δ¯a4a2 −δa1¯a4δ¯a2a3)˜q˜a1˜a2˜b¯˜q¯˜a3¯˜a4¯˜b
+
++
+1
+1 −z
+
+δa1¯a3δ¯a2a4δ˜a1¯˜a2δ¯˜a3˜a4 + δa1¯a2δ¯a3a4δ˜a1¯˜a3δ¯˜a2˜a4 −δa1¯a3δ¯a4a2δ˜a1¯˜a4δ¯˜a3˜a2 −δa1¯a4δ¯a3a2δ˜a1¯˜a3δ¯˜a4˜a2
++ δa1¯a3δ¯a2a4 ˜q˜a1˜a4˜b¯˜q¯˜a3¯˜a2¯˜b −δa1¯a3δ¯a4a2 ˜q˜a1˜a2˜b¯˜q¯˜a3¯˜a4¯˜b −(δa1¯a2δ¯a4a3 −δa1¯a4δ¯a3a2)˜q˜a1˜a3˜b¯˜q¯˜a2¯˜a4¯˜b
+
+(3.35)
+We have dropped the complex conjugate on both sides. If we can verify the above relation,
+where the “1” index is ﬁxed to be holomorphic, then it will hold for the full version with
+complex conjugates added.
+Again the above expresses passes some basic tests: unlike the original conformal blocks,
+these products have double and single poles at z = 0, 1 as well as a constant term. This
+matches with the structure of current correlation functions, and we can move on to perform
+more detailed tests.
+So far we have kept Kronecker δ’s like δa1¯a2 and δa2¯a1 distinct, to indicate their origin
+from diﬀerent terms in the sum on the left side of Eq. (3.35). However they are really equal
+to each other so we may identify them. This allows us to simplify Eq. (3.35) to:
+
+3 3 3 3
+ 
+27 27 27 27
+
++
+
+3 3 3 3
+ 
+27 27 27 27
+
++
+
+3 3 3 3
+ 
+27 27 27 27
+
+= 2 δa1¯a2δa3¯a4δ˜a1¯˜a2δ˜a3¯˜a4
+z2
++ 2 δa1¯a3δa2¯a4δ˜a1¯˜a3δ˜a2¯˜a4
+(1 −z)2
++ 2 δa1¯a4δa2¯a3δ˜a1¯˜a4δ˜a2¯˜a3
++ 1
+z
+
+δa1¯a2δa3¯a4(δ˜a1¯˜a3δ˜a2¯˜a4 −δ˜a1¯˜a4δ˜a2¯˜a3 + ˜q˜a1˜a4˜b¯˜q¯˜a2¯˜a3¯˜b −˜q˜a1˜a3˜b¯˜q¯˜a2¯˜a4¯˜b)
++ (δa1¯a3δa2¯a4 −δa1¯a4δa2¯a3)(δ˜a1¯˜a2δ˜a3¯˜a4 −˜q˜a1˜a2˜b¯˜q¯˜a3¯˜a4¯˜b)
+
++
+1
+1 −z
+
+δa1¯a3δa2¯a4(δ˜a1¯˜a2δ˜a3¯˜a4 −δ˜a1¯˜a4δ˜a2¯˜a3 + ˜q˜a1˜a4˜b¯˜q¯˜a2¯˜a3¯˜b −˜q˜a1˜a2˜b¯˜q¯˜a3¯˜a4¯˜b)
++ (δa1¯a2δa3¯a4 −δa1¯a4δa2¯a3)(δ˜a1¯˜a3δ˜a2¯˜a4 −˜q˜a1˜a3˜b¯˜q¯˜a2¯˜a4¯˜b)
+
+(3.36)
+– 17 –
+
+
+--- PAGE 19 ---
+Now we can start by comparing the double-pole terms of Eq. (2.15) with those of
+Eq. (3.35). This time the decomposition of E8 indices is:
+δA1A2δA3A4 →(δa1¯a2δ˜a1¯˜a2 + δ¯a1a2δ¯˜a1˜a2)(δa3¯a4δ˜a3¯˜a4 + δ¯a3a4δ¯˜a3˜a4)
+= 2 δa1¯a2δa3¯a4δ˜a1¯˜a2δ˜a3¯˜a4 + c.c.
+δA1A3δA2A4 →(δa1¯a3δ˜a1¯˜a3 + δ¯a1a3δ¯˜a1˜a3)(δa2¯a4δ˜a2¯˜a4 + δ¯a2a4δ¯˜a2˜a4)
+= 2 δa1¯a3δa2¯a4δ˜a1¯˜a3δ˜a2¯˜a4 + c.c.
+δA1A4δA2A3 →(δa1¯a4δ˜a1¯˜a4 + δ¯a1a4δ¯˜a1˜a4)(δa2¯a3δ˜a2¯˜a3 + δ¯a2a3δ¯˜a2˜a3)
+= 2 δa1¯a4δa2¯a3δ˜a1¯˜a4δ˜a2¯˜a3 + c.c.
+(3.37)
+In each case, the answers have been re-expressed in terms of a part with a holomorphic
+“1” index plus its complex conjugate. With this, we see perfect agreement between the
+1
+z2 ,
+1
+(1−z)2 and constant terms in Eq. (2.15) and Eq. (3.35).
+Notice that the third-rank tensor ˜q˜a1˜a2˜a3 of E6 does not appear in the above checks,
+analogous to the fact that the invariant ˜q˜a1˜a2 ˜µ of E7 did not appear in the checks of the
+double-pole terms in the A1⊕E7 case.
+We now turn to the single-pole terms in Eq. (2.15), which depend on the E8 structure
+constants. Matching the coeﬃcient of 1
+z in Eq. (2.15) and Eq. (3.35), the coset relation will
+hold if:
+fA1A2BfBA3A4 = δa1¯a2δa3¯a4(δ˜a1¯˜a3δ˜a2¯˜a4 −δ˜a1¯˜a4δ˜a2¯˜a3 + ˜q˜a1˜a4˜b¯˜q¯˜a2¯˜a3¯˜b −˜q˜a1˜a3˜b¯˜q¯˜a2¯˜a4¯˜b)
++ (δa1¯a3δa2¯a4 −δa1¯a4δa2¯a3)(δ˜a1¯˜a2δ˜a3¯˜a4 + ˜q˜a1˜a2˜b¯˜q¯˜a3¯˜a4¯˜b)
+(3.38)
+The pole at z = 1 gives the same information.
+It is evident that the RHS has the desired antisymmetry under the exchange 1 ↔2
+or 3 ↔4. Moreover, if we sum the above expression over cyclic permutations of 2,3,4 we
+immediately ﬁnd that it vanishes, conﬁrming that the Jacobi identity is satisﬁed.
+3.3
+D4,1⊕D4,1
+There are three 8-dimensional representations of D4, which we label 8v, 8s, 8c for vector,
+spinor, conjugate spinor, and they are related by triality. Because of this, they all appear
+symmetrically in Eq. (2.16). We choose all the ﬁelds in the correlator to be in the 8v.
+Then the discussion becomes particularly simple as we can just reduce the E8,1 current
+correlators to those of its D8,1 subalgebra. Thereafter, the free-fermion descriptions of D8,1
+and D4,1 are suﬃcient to establish the coset relation. However we will go ahead and work
+it out in parallel to the other cases.
+Due to the above choice, we work with the (8v, 8v) term in Eq. (2.15). Now we have:
+8v ⊗8v = 35v ⊕28 ⊕1
+(3.39)
+where the 28 is the adjoint and corresponds to the antisymmetric product, while the 35v
+and singlet appear in the symmetric product.
+– 18 –
+
+
+--- PAGE 20 ---
+Again, there is just one conformal block, with three sub-blocks that are found to be
+the following:
+f (0)
+1
+=
+1
+z +
+1
+1 −z
+
+f (1)
+1
+=
+1
+z −
+1
+1 −z
+
+f (2)
+1
+= −1
+(3.40)
+and the corresponding tensor structures:
+D(0) = 1
+2(δa1a2δa3a4 + δa1a3δa2a4)
+D(1) = 1
+2(δa1a2δa3a4 −δa1a3δa2a4)
+D(2) = δa1a4δa2a3
+(3.41)
+Here D(2) manifestly corresponds to fusion of two 8v’s into the identity, while D(1) corre-
+sponds to the ﬂow of the secondary 28 in this channel and D(2) corresponds to the ﬂow of
+the secondary 35v which indeed appears in 28 ⊗28.
+Thus, the complete conformal block is:
+FD4,1
+1,a1a2a3a4(z) = δa1a2δa3a4
+z
++ δa1a3δa2a4
+1 −z
+−δa1a4δa2a3
+(3.42)
+Since both members of the proposed coset pair are D4,1, we immediately write out the
+content of our conjecture in this case:
+⟨JA1JA2JA3JA4⟩(z) =
+δa1a2δa3a4
+z
++ δa1a3δa2a4
+1 −z
+−δa1a4δa2a3
+
+×
+δ˜a1˜a2δ˜a3˜a4
+z
++ δ˜a1˜a3δ˜a2˜a4
+1 −z
+−δ˜a1˜a4δ˜a2˜a3
+
+= δa1a2δa3a4δ˜a1˜a2δ˜a3˜a4
+z2
++ δa1a3δa2a4δ˜a1˜a3δ˜a2˜a4
+(1 −z)2
++ δa1a4δa2a3δ˜a1˜a4δ˜a2˜a3
++ δa1a2δa3a4δ˜a1˜a3δ˜a2˜a4 + δa1a3δa2a4δ˜a1˜a2δ˜a3˜a4
+z(1 −z)
+−δa1a2δa3a4δ˜a1˜a4δ˜a2˜a3 + δa1a4δa2a3δ˜a1˜a2δ˜a3˜a4
+z
+−δa1a3δa2a4δ˜a1˜a4δ˜a2˜a3 + δa1a4δa2a3δ˜a1˜a3δ˜a3˜a4
+1 −z
+(3.43)
+Looking at the ﬁrst three terms, they are equal to:
+δA1A2δA3A4
+z2
++ δA1A3δA2A4
+(1 −z)2
++ δA1A4δA2A3
+(3.44)
+This precisely reproduces the ﬁrst three terms in Eq. (2.15).
+– 19 –
+
+
+--- PAGE 21 ---
+The remaining terms can be written:
+δa1a2δa3a4(δ˜a1˜a3δ˜a2˜a4 −δ˜a1˜a4δ˜a2˜a3) + (δa1a3δa2a4 −δa1a4δa2a3)δ˜a1˜a2δ˜a3˜a4
+z
++ δa1a3δa2a4(δ˜a1˜a2δ˜a3˜a4 −δ˜a1˜a4δ˜a2˜a3) + (δa1a2δa3a4 −δa1a4δa2a3)δ˜a1˜a3δ˜a2˜a4
+1 −z
+(3.45)
+These have the same form as the last two terms of Eq. (2.15), and will be identical to
+them if the following identity holds for E8 structure constants with composite indices Ai
+restricted to the (8, 8) representation of D4 ⊕D4:
+fA1A2BfBA3A4 = δa1a2δa3a4(δ˜a1˜a3δ˜a2˜a4 −δ˜a1˜a4δ˜a2˜a3) + (δa1a3δa2a4 −δa1a4δa2a3)δ˜a1˜a2δ˜a3˜a4
+(3.46)
+The RHS has the correct antisymmetry under A1 ↔A2 or A3 ↔A4 as expected from the
+LHS. The RHS also satisﬁes the Jacobi identity. Thus the coset relation is well-supported.
+3.4
+G2,1⊕F4,1
+For this case, we choose the factor (7, 26) in the decomposition of the 248 of E8 in
+Eq. (2.16). We start by noting that the algebras G2 and F4 are not simply laced, and
+thus even at level 1 the blocks will not reduce to elementary functions of z. Also, the
+fusion rules of these theories imply that, for the ﬁrst time in the present work, there are
+two distinct blocks contributing to the correlator.
+For G2,1, we have c = 14
+5 and the single real primary has h = 2
+5. The correlator of
+interest is ⟨7777⟩(z). We have the tensor product:
+7 ⊗7 = 1 ⊕7 ⊕14 ⊕27
+(3.47)
+The 27 and 1 lie in the symmetric part of the product while the 7 and 14 lie in the
+antisymmetric part. Of these, the 14 and 27 decouple from the theory, but we still have
+two conformal blocks corresponding to propagation of the conformal family of the 1 or the
+7 in the intermediate channel. For each block there are several sub-blocks corresponding to
+the actual representation that ﬂows given the tensor structure. Since there are altogether
+four representations produced by 7 ⊗7 we expect that the parameter N = 3. Then there
+are four sub-blocks labelled by p = 0, 1, 2, 3.
+The conformal sub-blocks for G2,1 are [16]:
+F(p)
+1 (z) = (z(1 −z))−4
+5 2F1
+ p −6
+5, 7
+5 −p; 3
+5; z
+
+F(p)
+2 (z) = N (p)(z(1 −z))−4
+5 z
+2
+5 2F1
+ p −4
+5, 9
+5 −p; 7
+5; z
+
+|N (p)| = Γ(−2
+5)
+Γ(2
+5)
+s
+Γ(11
+5 −p)Γ(p −2
+5)
+Γ(7
+5 −p)Γ(p −6
+5)
+(3.48)
+Note that the normalisation factor N (p) is only determined up to a phase. We will comment
+on this phase later. The associated tensor structures label the representation that ﬂows in
+– 20 –
+
+
+--- PAGE 22 ---
+the channel. We ﬁrst write down the ordering of the tensor structures. We work out the
+representation ﬂowing in each of the sub-blocks following the procedure explained above
+and in more detail in [16], to ﬁnd:
+F1 :
+D(0)
+1 :
+7
+(A)
+F2 :
+D(3)
+2 :
+1
+(S)
+D(1)
+1 :
+27
+(S)
+D(2)
+2 :
+14
+(A)
+D(2)
+1 :
+14
+(A)
+D(1)
+2 :
+27
+(S)
+D(3)
+1 :
+1
+(S)
+D(0)
+2 :
+7
+(A)
+(3.49)
+We see from here that D(p)
+1
+= D(p)
+2 . This allows us to drop the subscript and simply write
+D(p).
+From the symmetry/antisymmetry properties above, we have the relations:
+(D(0) + D(2))a1a2a3a4 = 1
+2(δa1a2δa3a4 −δa1a3δa2a4)
+(D(1) + D(3))a1a2a3a4 = 1
+2(δa1a2δa3a4 + δa1a3δa2a4)
+(3.50)
+for the sub-blocks of the ﬁrst block.
+To ﬁnd the individual D(p) we must use additional information, namely the tensor that
+fuses 7 ⊗7 into the identity in the (1, 4) channel, which is just δa1a4, and the tensor that
+fuses 7 ⊗7 into the 7 which we denote qa1a4b. With these, we get:
+D(3) ∼δa1a4δa2a3
+D(0) ∼qa1a4b qa2a3b
+(3.51)
+Thus we have determined all the required invariant tensors. The full conformal blocks are
+now:
+FG2,1
+α
+=
+3
+X
+p=0
+F(p)
+α (z)D(p)
+(3.52)
+We will not explicitly write down the answer, which follows from Eq. (3.48), because it is
+not particularly illuminating. It is a linear combination of hypergeometric functions and
+will only simplify after we combine these blocks with the corresponding ones for F4,1, to
+which we now turn.
+For F4,1 the sole nontrivial primary is the 26. The theory has c = 26
+5 and the primary
+has dimension 3
+5. The correlator of interest is ⟨26 26 26 26⟩(z). The relevant product of
+representations is:
+26 ⊗26 = 1 ⊕26 ⊕52 ⊕273 ⊕324
+(3.53)
+From the Dynkin labels (0, 0, 0, 1) for the 26 and (0, 0, 0, 2) for the 324, we see that
+the latter is in the symmetric part of the product.
+Together with the 26 and 1, this
+makes up the symmetric part of the product while the 273 and 52 together make up the
+antisymmetric part.
+In the CFT, all except the ﬁrst two representations decouple.
+Thus there are two
+conformal blocks corresponding to the family of the 1 and the 26. Since the representation
+– 21 –
+
+
+--- PAGE 23 ---
+theory gives rise to ﬁve output representations, we expect that N = 4. Thus there will be
+ﬁve sub-blocks for each conformal block. These are [16]:
+eF(p)
+1 (z) = (z(1 −z)−6
+5 2F1
+ p −9
+5, 8
+5 −p; 2
+5; z
+
+eF(p)
+2 (z) = N (p)(z(1 −z)−6
+5 z
+3
+5 2F1
+ p −6
+5, 11
+5 −p; 8
+5; z
+
+| e
+N (p)| = Γ(−3
+5)
+Γ(3
+5)
+s
+Γ(14
+5 −p)Γ(p −3
+5)
+Γ(8
+5 −p)Γ(p −9
+5)
+(3.54)
+Again the normalisation factor is determined only up to a phase.
+Let us now work out the corresponding invariant tensors. The representations ﬂowing
+in the sub-blocks are found to be:
+F1 :
+eD(0)
+1 :
+26
+(S)
+F2 :
+eD(4)
+2 :
+1
+(S)
+eD(1)
+1 :
+273
+(A)
+eD(3)
+2 :
+52
+(A)
+eD(2)
+1 :
+324
+(S)
+eD(2)
+2 :
+324
+(S)
+eD(3)
+1 :
+52
+(A)
+eD(1)
+2 :
+273
+(A)
+eD(4)
+1 :
+1
+(S)
+eD(0)
+2 :
+26
+(S)
+(3.55)
+Again eD(p)
+1
+= eD(p)
+2
+and we can just write eD(p).
+It follows that:
+( eD(0) + eD(2) + eD(4))˜a1˜a2˜a3˜a4 = 1
+2(δ˜a1˜a2δ˜a3˜a4 + δ˜a1˜a3δ˜a2˜a4)
+( eD(1) + eD(3))˜a1˜a2˜a3˜a4 = 1
+2(δ˜a1˜a2δ˜a3˜a4 −δ˜a1˜a3δ˜a2˜a4)
+(3.56)
+To completely speciﬁc the tensor invariants we note that δ˜a1˜a4 combines 26 ⊗26 into
+1 in the (1, 4) channel, while the third-rank tensors ˜q˜a1˜a4˜b and ˜r˜a1˜a4 ˜µ are deﬁned to be the
+ones that combine 26 ⊗26 into the 26 and the 52 respectively. Here ˜µ ∈1, · · · , 52. Then
+we have:
+eD(4) ∼δ˜a1˜a4δ˜a2˜a3
+eD(3) ∼˜r˜a1˜a4˜µ ˜r˜a2˜a3˜µ
+eD(0) ∼˜q˜a1˜a4˜b ˜q˜a2˜a3˜b
+(3.57)
+up to normalisation. Together with Eq. (3.56) this determines all the eD(p).
+On combining the blocks for G2,1 and F4,1 as per our conjecture (2.17), using results
+from Appendix A, and choosing the phases of the normalisations suitably (as we describe
+– 22 –
+
+
+--- PAGE 24 ---
+below), we ﬁnd:
+X
+α
+ X
+p,˜p
+D(p) eD(˜p)F(p)
+α (z) e
+F(˜p)
+α (z)
+
+=
+X
+p,˜p
+D(p) eD(˜p)
+ X
+α
+F(p)
+α (z) e
+F(˜p)
+α (z)
+
+=
+1
+(z(1 −z))2
+
+D(0) eD(0)  −28z3 + 42z2 −16z + 1
+
++ D(0) eD(1)  6z2 −6z + 1
+
++ D(0) eD(2)(1 −2z) + D(0) eD(3) + D(0) eD(4)(1 −2z)
++ D(1) eD(0)
+28z2
+3
+−28z
+3
++ 1
+
++ D(1) eD(1)(1 −2z) + D(1) eD(2)
++ D(1) eD(3)(1 −2z) + D(1) eD(4)
+26z2
+3
+−26z
+3
++ 1
+
++ D(2) eD(0)(1 −2z) + D(2) eD(1) + D(2) eD(2)(1 −2z)
++ D(2) eD(3)  12z2 −12z + 1
+
++ D(2) eD(4)  −52z3 + 78z2 −28z + 1
+
++ D(3) eD(0) + D(3) eD(1)(1 −2z) + D(3) eD(2)  7z2 −7z + 1
+
++ D(3) eD(3)  −42z3 + 63z2 −23z + 1
+
++ D(3) eD(4)  182z4 −364z3 + 228z2 −46z + 1
+ 
+(3.58)
+In the above, we picked the phases for the normalisation factors to simplify the prod-
+uct of hypergeometric functions appropriately, informed by (A.3). The solution to this
+requirement turned out to be:
+N (p) = a|N (p)|,
+e
+N (p) = a| e
+N (p)|
+where a2 =
+(
+1
+p < 2
+−1
+p ≥2
+(3.59)
+After collecting terms, Eq. (3.58) can be rewritten:
+(D(0) + D(1) + D(2) + D(3))( eD(0) + eD(1) + eD(2) + eD(3) + eD(4))
+z2
++ (−D(0) + D(1) −D(2) + D(3))( eD(0) −eD(1) + eD(2) −eD(3) + eD(4))
+(1 −z)2
++ 182D(3) eD(4)
++ 1
+z
+
+D(0) 
+−14 eD(0) −4 eD(1) + 2 eD(3)
++ D(1) 
+−22
+3 eD(0) + 2 eD(2) −20
+3 eD(4)
++D(2) 
+2 eD(1) −10 eD(3) −26 eD(4)
++ D(3) 
+2 eD(0) −5 eD(2) −21 eD(3) −44 eD(4)
++
+1
+1 −z
+
+D(0) 
+14 eD(0) −4 eD(1) + 2 eD(3)
++ D(1) 
+−22
+3 eD(0) + 2 eD(2) −20
+3 eD(4)
++D(2) 
+2 eD(1) −10 eD(3) + 26 eD(4)
++ D(3) 
+2 eD(0) −5 eD(2) + 21 eD(3) −44 eD(4)
+(3.60)
+Remarkably the dust has settled and we ﬁnd the predicted form: double and simple poles
+at z = 0, 1 and a constant term!
+– 23 –
+
+
+--- PAGE 25 ---
+For the coset conjecture to hold, we must have the following identiﬁcations coming
+from the double-pole and constant terms:
+δA1A2δA3A4 = (D(0) + D(1) + D(2) + D(3))( eD(0) + eD(1) + eD(2) + eD(3) + eD(4))
+δA1A3δA4A2 = (−D(0) + D(1) −D(2) + D(3))( eD(0) −eD(1) + eD(2) −eD(3) + eD(4))
+δA1A4δA2A3 = 182 D(3) eD(4)
+(3.61)
+as well as the following identiﬁcation coming from the simple pole at z = 0:
+fA1A2BfBA3A4 = D(0) 
+−14 eD(0) −4 eD(1) + 2 eD(3)
++ D(1) 
+−22
+3 eD(0) + 2 eD(2) −20
+3 eD(4)
++ D(2) 
+2 eD(1) −10 eD(3) −26 eD(4)
++ D(3) 
+2 eD(0) −5 eD(2) −21 eD(3) −44 eD(4)
+(3.62)
+Substituting the tensor invariants for G2:
+D(0) = N (0)qa1a4bqa2a3b
+D(1) = 1
+2(δa1a2δa3a4 + δa1a3δa4a2) −N (3)δa1a4δa2a3
+D(2) = 1
+2(δa1a2δa3a4 −δa1a3δa4a2) −N (0)qa1a4bqa2a3b
+D(3) = N (3)δa1a4δa2a3
+(3.63)
+and tensor invariants for F4:
+eD(0) = e
+N (0)eq˜a1˜a4˜beq˜a2˜a3˜b
+eD(1) = 1
+2(δ˜a1˜a2δ˜a3˜a4 −δ˜a1˜a3δ˜a4˜a2) −e
+N (3)er˜a1˜a4µer˜a2˜a3µ
+eD(2) = 1
+2(δ˜a1˜a2δ˜a3˜a4 −δ˜a1˜a3δ˜a4˜a2) −e
+N (0)q˜a1˜a4bq˜a2˜a3b −e
+N (4)δ˜a1˜a4δ˜a2˜a3
+eD(3) = e
+N (3)er˜a1˜a4µer˜a2˜a3µ
+eD(4) = e
+N (4)δ˜a1˜a4δ˜a2˜a3
+(3.64)
+we get:
+δA1A2δA3A4 = δa1a2δa3a4δ˜a1˜a2δ˜a3˜a4
+δA1A3δA4A2 = δa1a3δa4a2δ˜a1˜a3δ˜a4˜a2
+δA1A4δA2A3 = 182 N (3) e
+N (4)δa1a4δa2a3δ˜a1˜a4δ˜a2˜a3
+(3.65)
+Thus, choosing the product of the relevant normalisations to be:
+N (3) e
+N (4) =
+1
+182
+(3.66)
+we ﬁnd perfect agreement with expectations.
+– 24 –
+
+
+--- PAGE 26 ---
+From the single pole terms, we ﬁnd the identiﬁcations:
+fA1A2BfBA3A4
+= N (0)qa1a4bqa2a3b
+
+−14 e
+N (0)eq˜a1˜a4˜beq˜a2˜a3˜b −3(δ˜a1˜a2δ˜a3˜a4 −δ˜a1˜a3δ˜a4˜a2)
++18 e
+N (3)er˜a1˜a4µer˜a2˜a3µ + 26 e
+N (4)δ˜a1˜a4δ˜a2˜a3
+
++ δa1a2δa3a4
+
+−14
+3 e
+N (0)eq˜a1˜a4˜beq˜a2˜a3˜b + δ˜a1˜a2δ˜a3˜a4 −6 e
+N (3)er˜a1˜a4µer˜a2˜a3µ −52
+3 e
+N (4)δ˜a1˜a4δ˜a2˜a3
+
++ δa1a3δa4a2
+
+−14
+3 e
+N (0)eq˜a1˜a4˜beq˜a2˜a3˜b + δ˜a1˜a3δ˜a4˜a2 + 6 e
+N (3)er˜a1˜a4µer˜a2˜a3µ + 26
+3 e
+N (4)δ˜a1˜a4δ˜a2˜a3
+
++ N (3)δa1a4δa2a3
+
+49
+3 e
+N (0)q˜a1˜a4bq˜a2˜a3b −7
+2(δ˜a1˜a2δ˜a3˜a4 + δ˜a1˜a3δ˜a4˜a2)
+−21 e
+N (3)er˜a1˜a4µer˜a2˜a3µ −91
+3 e
+N (4)δ˜a1˜a4δ˜a2˜a3
+
+(3.67)
+This is unfortunately rather complicated and we will leave its detailed investigation for
+future work. Nonetheless, this non-simply-laced case has passed a number of checks that
+give strong evidence for the coset conjecture.
+3.5
+Intermediate VOA’s: A0.5⊕E7.5
+In this subsection we note that similar considerations to those discussed in previous sec-
+tions appear to apply to Intermediate Vertex Operator Algebras [9], of which the ﬁrst
+two examples form part of the MMS series discovered nearly three decades earlier [6]. To
+our knowledge, correlation functions of IVOA’s have not been studied in detail. However
+their fusion rules are known (if one is willing to ignore some negative signs in the fusion
+coeﬃcients [7]) and so one can simply apply the methods of [16] to them and see what one
+ﬁnds.
+The ﬁrst IVOA is A0.5, for which c = 2
+5, h = 1
+5. This is a presentation of the familiar
+Lee-Yang minimal model but with the role of the identity and non-trivial primary inter-
+changed. Both ﬁelds have no degeneracy. Applying the rules derived in [16], we ﬁnd that
+there should be three sub-blocks. Given the absence of degeneracy (and hence independent
+tensor structures) this is a little puzzling. Still, if we apply the universal formula of the
+above paper to this case, we ﬁnd the following conformal sub-blocks for the nontrivial 4
+point correlator, where n = 0, 1, 2:
+F(n)
+1
+(z) = (z(1 −z))−2
+5 2F1(6
+5 −n, −3
+5 + n, 4
+5, z)
+F(n)
+2
+(z) = N (n)(z(1 −z))−2
+5 z
+1
+5 2F1(7
+5 −n, −2
+5 + n, 6
+5, z)
+N (n) = Γ(−1
+5)
+Γ(1
+5)
+s
+Γ(8
+5 −n)Γ(−1
+5 + n)
+Γ(6
+5 −n)Γ(−3
+5 + n)
+(3.68)
+The second theory of the pair is the E7.5,1 IVOA. This has c = 38
+5 and h = 4
+5. Here
+– 25 –
+
+
+--- PAGE 27 ---
+the universal formulae give us a set of sub-blocks where n = 0, 1, · · · , 6:
+eF(n)
+1
+(z) = (z(1 −z))−8
+5 2F1(9
+5 −n, −12
+5 + n, 1
+5, z)
+eF(n)
+2
+(z) = e
+N (n)(z(1 −z))−8
+5 z
+4
+5 2F1(13
+5 −n, −8
+5 + n, 9
+5, z)
+e
+N (n) = Γ(−4
+5)
+Γ(4
+5)
+s
+Γ(17
+5 −n)Γ(−4
+5 + n)
+Γ(9
+5 −n)Γ(−12
+5 + n)
+(3.69)
+We now test whether a bilinear relation among correlators is possible. For this, we
+assume there exist some generalised “tensor structures” D(p), eD(p). The ﬁrst of these should
+be pure numbers, in the absence of degeneracy, while the second could be tensors related
+to the Intermediate Lie Algebra E7.5 which in turn bears a relationship with E7. Without
+going into the details of what these numbers/tensors are, we can write out the full conformal
+blocks and then combine them pairwise, and see whether this can potentially match the
+current correlators of E8,1.
+It turns out that this product, after summing over all blocks, does indeed become an
+elementary function of z – even though each factor is hypergeometric, as a consequence of
+(A.3). For this, the sign of some of the normalisations has to be taken negative (as we saw
+in the previous section these signs, or more generally phases, are not determined at the
+outset). Then one ﬁnds:
+X
+p,ep
+D(p) eD(p) X
+α
+F(p)
+α
+eF(ep)
+α
+
+=
+(D(0) + D(1) + D(2))( eD(0) + eD(1) + eD(2) + eD(3) + eD(4) + eD(5))
+z2
++ (−D(0) + D(1) −D(2))( eD(0) −eD(1) + eD(2) −eD(3) + eD(4) −eD(5))
+(1 −z)2
++ 57D(2) eD(5)
++ 1
+z
+
+D(0)(11 eD(0) + 6 eD(1) + 2 eD(3) −15
+2 eD(5))
++ D(1)(−9 eD(0) + 2 eD(2) −10 eD(4) −57
+2 eD(5))
++ D(2)(2 eD(1) −6 eD(4) −19 eD(5))
+
++
+1
+1 −z
+
+D(0)(−11 eD(0) + 6 eD(1) + 2 eD(3) −15
+2 eD(5))
++ D(1)(−9 eD(0) + 2 eD(2) −10 eD(4) + 57
+2 eD(5))
++ D(2)(2 eD(1) + 6 eD(4) −19 eD(5))
+
+(3.70)
+We see that, remarkably, the result has double and single poles at z = 0, 1 and a constant
+term. This is highly suggestive that – despite not being conventional RCFT – these two
+IVOA’s also ﬁt into the novel coset scheme. We may note that [20] found evidence of novel
+coset relations where neither member of the pair was a WZW theory, and the present result
+seems to conﬁrm that more general cosets should exist. This pair of theories deserves to
+be examined in more detail in this context.
+– 26 –
+
+
+--- PAGE 28 ---
+3.6
+A4,1⊕A4,1
+This case involves a pair of 3-character theories that were not previously identiﬁed as being
+a coset pair with respect to E8. The primaries of A4,1 other than the identity are the 5
+and 10 and their complex conjugates.
+Because these representations are complex, the
+corresponding characters occur with multiplicity 2 and the partition function is:
+Z(τ, ¯τ) = |χ1(τ)|2 + 2|χ5(τ)|2 + 2|χ10(τ)|2
+(3.71)
+where j1/3 is the E8 character.
+The central charge and conformal dimensions of the theory are:
+c = 4;
+h5 = 2
+5;
+h10 = 3
+5
+(3.72)
+To see the coset relation, we note ﬁrst that the 5 and 10 have dimensions that add up to
+1. Thus, the bilinear relation requires us to pair the characters of the 5 and 5 with the
+characters of the 10 and 10. This leads to four copies of the product χ5 χ10. Hence the
+holomorphic bilinear relation should be:
+(χ1(τ))2 + 4 χ5(τ) χ10(τ) = j1/3
+(3.73)
+We have veriﬁed that this relation indeed holds.
+Now we would like to see if there is a similar bilinear relation between conformal blocks.
+From the above considerations (as well as the branching rules in Eq. (2.16)), we see that
+the desired relation is between two sets of six correlators each:
+⟨5 5 5 5⟩, ⟨5 5 5 5⟩, ⟨5 5 5 5⟩, ⟨5 5 5 5⟩, ⟨5 5 5 5⟩, ⟨5 5 5 5⟩,
+⟨10 10 10 10⟩, ⟨10 10 10 10⟩, ⟨10 10 10 10⟩, ⟨10 10 10 10⟩,
+⟨10 10 10 10⟩, ⟨10 10 10 10⟩
+(3.74)
+So far this is similar to the previous complex example of A2,1⊕E6,1. However, Eq. (2.16)
+says we must pair the 5 with both the 10 and 10. This produces an enormous profusion of
+terms. As seen in previous examples, the entire set will be needed to potentially reproduce
+single-pole terms in the current correlator. However, each combination produces the same
+double-pole term (or does not have a double pole). So we will restrict ourselves to one of
+the many possible combinations, and examine only double poles.
+For the ⟨5 5 5 5⟩, the relevant product relation is:
+5 ⊗5 = 10 ⊕15
+(3.75)
+The primary in the latter representation is absent at level 1 and hence the corresponding
+conformal block decouples. The ﬁrst block has two sub-blocks:
+F5 (0)
+1
+(z) =
+1
+(z(1 −z))
+4
+5
+= (z(1 −z))
+1
+5
+1
+z +
+1
+1 −z
+
+F5 (1)
+1
+(z) =
+1 −2z
+(z(1 −z))
+4
+5
+= (z(1 −z))
+1
+5
+1
+z −
+1
+1 −z
+
+(3.76)
+– 27 –
+
+
+--- PAGE 29 ---
+corresponding to the tensor structures in this correlator. The antisymmetric combination
+of 5 with itself is the 10 which means the primary itself ﬂows. This corresponds to D(0).
+Meanwhile the symmetric combination is the 15, which – as expected – appears as a
+ﬁrst-level secondary above the 10, and corresponds to D(1). Thus we have:
+D(0):
+15
+(S)
+D(1):
+10
+(A)
+(3.77)
+Because these are the complete symmetric and antisymmetric parts of the product, we can
+immediately write them as:
+D(0)
+a1¯a2¯a3a4 = 1
+2(δa1¯a2δ¯a3a4 + δa1¯a3δ¯a2a4)
+D(1)
+a1¯a2¯a3a4 = 1
+2(δa1¯a2δ¯a3a4 −δa1¯a3δ¯a2a4)
+(3.78)
+The complete conformal block is:
+FA4,1,5
+1
+(z) =
+1
+X
+p=0
+F5 (p)
+1
+D(p)
+= (z(1 −z))
+1
+5
+
+D(0)
+1
+z +
+1
+1 −z
+
++ D(1)
+1
+z −
+1
+1 −z
+
+(3.79)
+To compute ⟨10 10 10 10⟩we note the tensor product decomposition:
+10 ⊗10 = 5 ⊕45 ⊕50
+(3.80)
+Since there are 3 representations in the decomposition we will have three independent
+tensor structures.
+With these values of conformal dimensions, on computing the normalization we see that
+the second block decouples for this case as well. The surviving block has three sub-blocks:
+eF10 (0)
+1
+=
+1
+(z(1 −z))
+6
+5
+= (z(1 −z))−1
+5
+1
+z +
+1
+1 −z
+
+eF10 (1)
+1
+=
+1 −2z
+(z(1 −z))
+6
+5
+= (z(1 −z))−1
+5
+1
+z −
+1
+1 −z
+
+eF10 (2)
+1
+= 1 + 20z −20z2
+(z(1 −z))
+6
+5
+= (z(1 −z))−1
+5
+1
+z +
+1
+1 −z + 20
+
+(3.81)
+In the z1, z4 channel, the primary ﬂowing is the symmetric representation 5. The rep-
+resentations at descendant levels 1 and 2 are 45 and 50, which are antisymmetric and
+symmetric respectively. Therefore eD(2) is associated with 5, eD(1) is associated to 45 and
+eD(0) is associated to 50. Thus we have:
+eD(0):
+50
+(S)
+eD(1):
+45
+(A)
+eD(2):
+5
+(S)
+(3.82)
+– 28 –
+
+
+--- PAGE 30 ---
+As we have seen several times previously, the above allows us to conclude that:
+( eD(0) + eD(2))˜a1¯˜a2¯˜a3˜a4 = 1
+2(δ˜a1¯˜a2δ¯˜a3˜a4 + δ˜a1¯˜a3δ¯˜a2˜a4)
+eD(1)
+˜a1¯˜a2¯˜a3˜a4 = 1
+2(δ˜a1¯˜a2δ¯˜a3˜a4 −δ˜a1¯˜a3δ¯˜a2˜a4)
+(3.83)
+Thus it only remains to ﬁnd eD(2). Let us write the invariant that couples two 10’s to a 5
+as ˜q˜aa˜a2b. The fourth rank invariant eD(2) is then:
+eD(2)
+˜a1¯˜a2¯˜a3˜a4 ∼˜q˜a1˜a4b ¯˜q¯b¯˜a2¯˜a3
+(3.84)
+and the full conformal block is:
+eFA4,1,10(z) =
+2
+X
+p=0
+eF(p)
+1
+eD(p)
+= (z(1 −z))−1
+5
+ eD(0) + eD(1) + eD(2)
+z
++
+eD(0) −eD(1) + eD(2)
+1 −z
++ 20 eD(2)
+!
+(3.85)
+We can now address our conjecture. Multiplying the blocks we have just computed,
+we get:
+⟨5 5 5 5⟩⟨10 10 10 10⟩=
+(D(0) + D(1))( eD(0) + eD(1) + eD(2))
+z2
++ (D(0) −D(1))( eD(0) −eD(1) + eD(2))
+(1 −z)2
++ 2(D(0) eD(0) −D(1) eD(1) + D(0) eD(2)) + 20(D(0) + D(1)) eD(2)
+z
++ 2(D(0) eD(0) −D(1) eD(1) + D(0) eD(2)) + 20(D(0) −D(1)) eD(2)
+1 −z
+(3.86)
+Comparing the double-pole terms to those in the E8,1 current correlator, we can make
+the following identiﬁcations:
+(D(0) + D(1))a1¯a2¯a3a4 = p δa1¯a2δ¯a3a4,
+eD(0) + eD(1) + eD(2) = p−1δ˜a1¯˜a2δ¯˜a3˜a4
+(D(0) −D(1))a1¯a2¯a3a4 = q δa1a3δa2a4,
+eD(0) −eD(1) + eD(2) = q−1δ˜a1˜a3δ˜a2˜a4
+(3.87)
+From Eqs.(3.78, 3.83) we see that the above equations are satisﬁed with p = q = 1.
+We note that there is no double pole at inﬁnity. This is consistent with the fact that
+the ﬁrst and last representations (5 and 5, as well as 10 and 10) cannot fuse into the
+identity.
+We see that single poles do arise as desired, but cannot check them in detail without
+adding all possible terms arising from Eq. (3.74). Hence we will leave this case here, with
+the observation that (i) it has passed some tests, (ii) this is the unique example studied
+here that does not belong to the MMS series.
+– 29 –
+
+
+--- PAGE 31 ---
+4
+Conclusions and Open Problems
+In this work we have found substantial evidence for a holomorphic bilinear relation between
+conformal blocks for primary four-point functions of pairs of theories related by a coset
+relation. This mirrors the bilinear relation between the characters of the coset pairs.
+It is intriguing that this proposed relation between conformal blocks of diﬀerent theories
+seems to work out in diﬀerent ways for diﬀerent pairs. For the simply laced cases at level
+1 it is well-known that the blocks are elementary functions. However they have speciﬁc
+fractional powers of z, 1 −z which neatly cancel when we combine the blocks with those
+of their coset partners. Thereafter the result has double and simple poles at z = 0, 1 along
+with a constant term corresponding to a pole at inﬁnity. This ﬁts well with the structure of
+current correlators in the E8,1 theory and in each case we were able to provide very speciﬁc,
+detailed evidence (though not a complete proof) that the proposed relation is true. For the
+non-simply-laced case it was a miracle to start with, that their hypergeometric conformal
+blocks simplify into rational functions when we multiply them pairwise.
+This result puts on a ﬁrmer footing the proposal of [10] that one can deﬁne “novel”
+cosets of meromorphic CFT’s. However, it is only a ﬁrst step. The parent CFT for which
+we have tested the relation is E8,1, which is both meromorphic and a WZW model. Most
+meromorphic CFT’s are not WZW models and it is for them that the coset relation is
+truly novel. A key motivation for the present work is to set the stage for the investigation
+of families of 2-character RCFT’s whose existence was conjectured in [18, 21] and proved
+in [10]. These are the unique two-character theories with Wronskian index ℓ= 2, and
+their correlators have not been studied so far. Moreover they obey bilinear relations with
+conventional WZW models to pair up to meromorphic CFT’s with c = 24, which were
+classiﬁed in [22]. These meromorphic theories have chiral algebras of various spins ≥2. In
+these coset pairs, the dimensions of the primaries add up to 2, rather than 1 as in the case
+considered here, so one expects bilinear relations that generate correlators of higher-spin
+currents. We hope to report on this in the future.
+Finally, the classiﬁcation of fermionic rational CFT via modular linear diﬀerential
+equations has recently been initiated in [23].
+This work extensively discusses bilinear
+relations among pairs of theories that relate them to meromorphic superconformal theories.
+These are fermionic analogues of the novel coset relation among characters. The results we
+have presented here suggest that similar bilinear relations should hold for conformal blocks
+of suitable correlators in the fermionic theories, relating them to correlators of holomorphic
+(super)-currents.
+Acknowledgements
+RP would like to thank Raj Patil and Palash Singh for fruitful discussions. This work
+was initiated while RP was at IISER Pune and he would like to acknowledge the Institute
+as well as the INSPIRE Scholarship for Higher Education, Government of India. We are
+grateful for support from a grant by Precision Wires India Ltd. for String Theory and
+Quantum Gravity research at IISER Pune.
+– 30 –
+
+
+--- PAGE 32 ---
+Appendices
+A
+Bilinear Identities for Hypergeometric Functions
+In this section we prove a class of identities involving products of hypergeometric functions
+2F1. These functions are deﬁned in terms of the Pochhammer symbol:
+(a)k ≡Γ(a + k)
+Γ(a)
+(A.1)
+as:
+2F1
+ 
+a, b
+c ; z
+!
+≡
+∞
+X
+k=0
+(a)k (b)k
+(c)k
+zk
+k!
+(A.2)
+Then, for each integer n ≥0, we have the following bilinear identity:
+2F1
+ 
+a, b
+c ; z
+!
+2F1
+ 
+−a −n, n −b
+1 −c
+; z
+!
++
+(a)n+1(1 −n + b −c)n z
+(b −n + 1)n−1(1 + a −c)nc(c −1)×
+2F1
+ 
+1 −c + a, 1 −c + b
+2 −c
+; z
+!
+2F1
+ 
+c −a −n, n −b + c
+1 + c
+; z
+!
+= Degree n polynomial of z
+(A.3)
+The polynomial is easily evaluated for any particular n.
+To prove this relation, we note that 2F1
+ 
+a, b
+c ; z
+!
+is meromorphic in the parameter c,
+with simple poles at non-positive integers. Therefore, the LHS of (A.3) has simple poles
+for all c ∈Z. Using the following properties of the Pochhammer symbol:
+(a)n(a + n)m = (a)n+m
+(−a)n = (−1)m(a −n + 1)n
+(A.4)
+one can show that all the residues at c ∈Z cancel for all n ≥0. The second term on the
+LHS of (A.3) additionally has simple poles at c = 1 + a + m with m ∈{0, 1, · · · , n −1}
+and simple poles at b = m′ with m′ ∈{1, 2, · · · , n −1}. These poles are not cancelled by
+anything in the ﬁrst term, and therefore must be present on the RHS.
+The residue of the LHS of (A.3) at c = 1 + a + m is easily shown to be:
+(a)n+1(b −a −n −m)n
+(b −n + 1)n−1(1 + a + m)(a + m)
+n−1
+Y
+l=0
+m̸=l
+1
+l −m
+× z
+m
+X
+k=0
+n−m−1
+X
+k′=0
+(−m)k(1 + m −n)k′
+k! k′!
+(b −a −m)k(1 + a −b + m + n)k′
+(1 + a −m)k(2 + a + m)k′
+zk+k′
+(A.5)
+– 31 –
+
+
+--- PAGE 33 ---
+which is a polynomial of degree n. Similarly, the residue of the LHS at b = m′ is:
+(a)n+1(1 −n + m′ −c)n
+(1 + a −c)nc(c −1)
+n−2
+Y
+l=0
+m′̸=n−l−1
+1
+m′ −n + 1 + l
+× z(1 −z)
+m′−1
+X
+k=0
+n−m′−1
+X
+k′=0
+(1 −m′)k(1 + m′ −n)k′
+k! k′!
+(1 −a)k(1 + a + n)k′
+(2 −c)k(1 + c)k′
+zk+k′
+(A.6)
+which is again a polynomial of degree n again. The polynomial can be identiﬁed by mul-
+tiplying the residue with its corresponding pole and adding all of them. For small n it is
+easier to just expand the LHS in z and keep terms to order zn. By our proof, the terms of
+order zn+1 and higher all vanish.
+As examples, the polynomials for n = 0, 1, 2 are:
+n = 0:
+1
+n = 1:
+1 −a −b + 1
+a −c + 1z
+n = 2:
+1 + (a −b + 2)
+ a2 + a(5 −3b) + 2(b −1)(c −2)
+
+(b −1)(a −c + 1)(a −c + 2)
+z
++
+ −a3 + 3a2(b −2) + a
+ −3b2 + 12b −11
+
++ b3 −6b2 + 11b −6
+
+(b −1)(a −c + 1)(a −c + 2)
+z2
+(A.7)
+B
+Bilinear Relation for Characters
+The special case of the identity Eq. (A.3) for n = 0 is:
+2F1
+ 
+a, b
+c ; z
+!
+2F1
+ 
+−a, −b
+1 −c ; z
+!
++
+abz
+c(c −1) 2F1
+ 
+1 + a −c, 1 + b −c
+2 −c
+; z
+!
+2F1
+ 
+c −a, c −b
+1 + c
+; z
+!
+= 1
+(B.1)
+We now apply this to the characters of ℓ= 0 two-character CFTs, which were originally
+computed as hypergeometric functions in [7, 18]. The form that will be most useful to us
+can be found in Eq.(4.3) of [10] (we hope the central charge c in the following formulae will
+not be confused with the parameter c in the preceding identities):
+χ0(τ) = j
+c
+24 2F1
+ 
+1
+12 −h
+2, 5
+12 −h
+2
+1 −h
+; 1728
+j
+!
+χ1(τ) = √m j
+c
+24−h
+2F1
+ 
+1
+12 + h
+2, 5
+12 + h
+2
+1 + h
+; 1728
+j
+!
+(B.2)
+where:
+√m = (1728)h
+s
+s( 1
+12 −h
+2)s( 5
+12 −h
+2)
+s( 1
+12 + h
+2)s( 5
+12 + h
+2)
+Γ(1 −h)Γ(11
+12 + h
+2)Γ( 7
+12 + h
+2)
+Γ(1 + h)Γ(11
+12 −h
+2)Γ( 7
+12 −h
+2)
+(B.3)
+– 32 –
+
+
+--- PAGE 34 ---
+Here j is the Klein-j invariant and s(x) ≡sin(πx).
+Recall that the bilinear relation between coset pairs with respect to E8,1, which we
+wish to prove, is:
+χ0(τ)eχ0(τ) + χ1(τ)eχ1(τ) = j(τ)
+1
+3
+(B.4)
+Recall [10] that the sum of holomorphic dimensions for the coset pairs we are considering
+is 1, while the sum of central charges is 8.
+To prove the above relation, we insert Eq. (B.2) into Eq. (B.4). A common factor j
+1
+3
+can now be cancelled from the equation. Next, the product
+√
+m em can be simpliﬁed using
+properties of Γ functions. Finally, we use Eq. (B.1) after making the following identiﬁca-
+tions:
+a = 1
+12 −h
+2,
+b = 5
+12 −h
+2 ,
+c = 1 −h,
+z = 1728
+j
+(B.5)
+to get the desired result.
+References
+[1] P. Cvitanovi´c, Classical and Exceptional Lie Algebras as Invariance Algebras, Oxford
+University Preprint OXFORD-TP 40/77 (1977) .
+[2] P. Deligne, La s´erie exceptionnelle des groupes de Lie, C. R. Acad. Sci. 322 (1996) 321.
+[3] P. Deligne and R. de Man, La s´erie exceptionnelle des groupes de Lie II, C. R. Acad. Sci.
+323 (1996) 577.
+[4] P. Cvitanovi´c, Group theory: Birdtracks, Lie’s and exceptional groups. Princeton University
+Press, 2008.
+[5] J. M. Landsberg and L. Manivel, The Sextonions and E7 1
+2 ,
+http://arxiv.org/abs/math/0402157v2.
+[6] S. D. Mathur, S. Mukhi and A. Sen, On the Classiﬁcation of Rational Conformal Field
+Theories, Phys. Lett. B213 (1988) 303.
+[7] S. D. Mathur, S. Mukhi and A. Sen, Reconstruction of Conformal Field Theories From
+Modular Geometry on the Torus, Nucl. Phys. B318 (1989) 483.
+[8] E. P. Verlinde, Fusion Rules and Modular Transformations in 2D Conformal Field Theory,
+Nucl. Phys. B300 (1988) 360.
+[9] K. Kawasetsu, The Intermediate Vertex Subalgebras of the Lattice Vertex Operator Algebras,
+Letters in Mathematical Physics 104 (2014) 157.
+[10] M. R. Gaberdiel, H. R. Hampapura and S. Mukhi, Cosets of Meromorphic CFTs and
+Modular Diﬀerential Equations, JHEP 04 (2016) 156 [1602.01022].
+[11] P. Goddard, A. Kent and D. I. Olive, Virasoro Algebras and Coset Space Models,
+Phys. Lett. B152 (1985) 88.
+[12] A. R. Chandra and S. Mukhi, Curiosities above c = 24, SciPost Phys. 6 (2019) 053
+[1812.05109].
+[13] V. G. Knizhnik and A. B. Zamolodchikov, Current Algebra and Wess-Zumino Model in
+Two-Dimensions, Nucl. Phys. B247 (1984) 83.
+– 33 –
+
+
+--- PAGE 35 ---
+[14] S. D. Mathur, S. Mukhi and A. Sen, Diﬀerential Equations for Correlators and Characters in
+Arbitrary Rational Conformal Field Theories, Nucl. Phys. B312 (1989) 15.
+[15] J. Fuchs, Operator Algebra From Fusion Rules: The Inﬁnite Number of Ising Theories,
+Nucl. Phys. B328 (1989) 585.
+[16] S. Mukhi and G. Muralidhara, Universal RCFT Correlators from the Holomorphic
+Bootstrap, JHEP 02 (2018) 028 [1708.06772].
+[17] J. Fuchs, Operator algebra from fusion rules. 2. Implementing apparent singularities,
+Nucl. Phys. B386 (1992) 343.
+[18] S. G. Naculich, Diﬀerential Equations for Rational Conformal Characters,
+Nucl. Phys. B323 (1989) 423.
+[19] J. Adams, Z. Mahmud (Ed) and M. Mimura (Ed), Lectures on Exceptional Groups. The
+University of Chicago Press, 1996.
+[20] H. R. Hampapura and S. Mukhi, Two-dimensional RCFT’s Without Kac-Moody Symmetry,
+JHEP 07 (2016) 138 [1605.03314].
+[21] H. R. Hampapura and S. Mukhi, On 2d Conformal Field Theories with Two Characters,
+JHEP 01 (2016) 005 [1510.04478].
+[22] A. N. Schellekens, Meromorphic c = 24 Conformal Field Theories,
+Commun. Math. Phys. 153 (1993) 159 [hep-th/9205072].
+[23] J.-B. Bae, Z. Duan, K. Lee, S. Lee and M. Sarkis, Fermionic Rational Conformal Field
+Theories and Modular Linear Diﬀerential Equations, 2010.12392.
+– 34 –

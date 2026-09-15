@@ -1,0 +1,8 @@
+prelude
+import Formalization
+#check KnotThreshold.two_nontrivial_fuse_vacuum
+#check KnotThreshold.three_nontrivial_not_vacuum
+#check KnotThreshold.fiber_target_obstruction
+#check KnotThreshold.nonconstant_observation
+#check KnotThreshold.concrete_target_obstruction
+#check KnotThreshold.visible_recovery

@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "claim_boundary": "Exact conditional all-xi free-master identity, not exact certification of the actual floating action tensors.",
+  "runs": [
+    {
+      "command": [
+        "C:\\Python313\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\symbolic_certificate.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"claim_boundary\": \"Exact conditional all-xi free-master identity, not exact certification of the actual floating action tensors.\",\n  \"normalization\": \"32 pi^2 times result; physical weight C_ai^2; ordered symmetric pair weight Z_ab^2\",\n  \"physical_channels\": {\n    \"scalar_bubble\": {\n      \"I(0, t)\": \"-2*(-rho + t)**2/a\",\n      \"I(t, a*xi)\": \"2*(-rho + t)**2/a\"\n    },\n    \"mixed\": {\n      \"A(a*xi)\": \"2*(-a*xi + s - t)/a\",\n      \"I(0, t)\": \"2*(s - t)**2/a\",\n      \"I(t, a*xi)\": \"-2*(s - t)**2/a\"\n    },\n    \"vector_seagull\": {\n      \"A(a*xi)\": \"2*xi\"\n    }\n  },\n  \"pair_channels\": {\n    \"scalar_bubble\": {\n      \"I(0, 0)\": \"-rho**2/(a*b)\",\n      \"I(a*xi, b*xi)\": \"rho**2/(a*b)\"\n    },\n    \"mixed\": {\n      \"A(a)\": \"xi/a\",\n      \"A(b)\": \"xi/b\",\n      \"A(a*xi)\": \"(-a*xi - b*xi + b + s)/(a*b)\",\n      \"A(b*xi)\": \"(-a*xi + a - b*xi + s)/(a*b)\",\n      \"I(0, 0)\": \"2*s**2/(a*b)\",\n      \"I(0, a)\": \"-(-a + s)**2/(a*b)\",\n      \"I(0, b)\": \"-(-b + s)**2/(a*b)\",\n      \"I(a, b*xi)\": \"(a**2 - 2*a*b*xi - 2*a*s + b**2*xi**2 - 2*b*s*xi + s**2)/(a*b)\",\n      \"I(b, a*xi)\": \"(a**2*xi**2 - 2*a*b*xi - 2*a*s*xi + b**2 - 2*b*s + s**2)/(a*b)\",\n      \"I(a*xi, b*xi)\": \"-(a**2*xi**2 - 2*a*s*xi + b**2*xi**2 - 2*b*s*xi + 2*s**2)/(a*b)\"\n    },\n    \"vector_bubble\": {\n      \"A(a)\": \"-xi/a\",\n      \"A(b)\": \"-xi/b\",\n      \"A(a*xi)\": \"(xi - 1)/a\",\n      \"A(b*xi)\": \"(xi - 1)/b\",\n      \"I(0, 0)\": \"-s**2/(a*b)\",\n      \"I(0, a)\": \"(-a + s)**2/(a*b)\",\n      \"I(0, b)\": \"(-b + s)**2/(a*b)\",\n      \"I(a, b*xi)\": \"-(a**2 - 2*a*b*xi - 2*a*s + b**2*xi**2 - 2*b*s*xi + s**2)/(a*b)\",\n      \"I(b, a*xi)\": \"-(a**2*xi**2 - 2*a*b*xi - 2*a*s*xi + b**2 - 2*b*s + s**2)/(a*b)\",\n      \"I(a*xi, b*xi)\": \"(-a*xi - b*xi + s)**2/(a*b)\"\n    },\n    \"ghost\": {\n      \"I(a*xi, b*xi)\": \"-2*xi**2\"\n    },\n    \"vector_seagull\": {\n      \"A(a*xi)\": \"xi/b\",\n      \"A(b*xi)\": \"xi/a\"\n    }\n  },\n  \"physical_diagrams_on_shell\": {\n    \"A(a*xi)\": \"-2*(-rho + t)/a\"\n  },\n  \"pair_diagrams_on_shell\": {\n    \"A(a*xi)\": \"rho/(a*b)\",\n    \"A(b*xi)\": \"rho/(a*b)\"\n  },\n  \"physical_off_shell\": {\n    \"A(a*xi)\": \"2*(-rho + s)/a\",\n    \"I(0, t)\": \"2*(-rho + s)*(rho + s - 2*t)/a\",\n    \"I(t, a*xi)\": \"-2*(-rho + s)*(rho + s - 2*t)/a\"\n  },\n  \"pair_off_shell\": {\n    \"A(a*xi)\": \"(-rho + s)/(a*b)\",\n    \"A(b*xi)\": \"(-rho + s)/(a*b)\",\n    \"I(0, 0)\": \"(-rho + s)*(rho + s)/(a*b)\",\n    \"I(a*xi, b*xi)\": \"-(-rho + s)*(rho + s)/(a*b)\"\n  },\n  \"on_shell\": {\n    \"physical\": {\n      \"A(a*xi)\": \"0\",\n      \"I(0, t)\": \"0\",\n      \"I(t, a*xi)\": \"0\"\n    },\n    \"ordered_pair\": {\n      \"A(a*xi)\": \"0\",\n      \"A(b*xi)\": \"0\",\n      \"I(0, 0)\": \"0\",\n      \"I(a*xi, b*xi)\": \"0\"\n    }\n  },\n  \"controls\": {\n    \"missing_ghost\": {\n      \"I(a*xi, b*xi)\": \"2*xi**2\"\n    },\n    \"wrong_ghost_sign\": {\n      \"I(a*xi, b*xi)\": \"4*xi**2\"\n    },\n    \"missing_displacement\": {\n      \"A(a*xi)\": \"-sigma\"\n    },\n    \"wrong_displacement_sign\": {\n      \"A(a*xi)\": \"-2*sigma\"\n    }\n  },\n  \"stationary_derivation\": {\n    \"q_from_twice_Ward\": \"(2*ell - r)/a\",\n    \"sigma_from_projected_stationarity\": \"(-k + r)/a\",\n    \"unmet_kernel_residual\": \"-k/a\"\n  },\n  \"action_witness\": {\n    \"potential\": \"lam*(-w**2 + x**2 + y**2)**2/4\",\n    \"a\": \"w**2\",\n    \"rho\": \"2*lam*w**2\",\n    \"q\": \"2*lam\",\n    \"sigma_from_stationary_solve\": \"-6*lam\",\n    \"missing_displacement_A_coefficient\": \"6*lam\",\n    \"full_off_stationary_invariance\": \"0\",\n    \"quartic_shift_residual\": \"0\"\n  },\n  \"kernel_obstruction\": \"-t_hh dot (1-Hplus H) R_a K_a / a multiplying A(xi*a)\",\n  \"source_sha256\": \"6104dbbfbad4037c0dadc262068e633e349990ba69cfc817e77da890015246a5\",\n  \"sympy\": \"1.13.3\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\tensor_hypotheses.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"claim_boundary\": \"Double-precision verification of all hypotheses used by exact abstract identity; neither interval enclosure nor exact invariant tensor reconstruction.\",\n  \"dimensions\": {\n    \"scalar\": 188,\n    \"vector\": 79,\n    \"Goldstone\": 67,\n    \"physical\": 121\n  },\n  \"raw_mass_shell_rounding_for_Ward\": false,\n  \"checks\": {\n    \"stationary_gradient\": 7.925532548092454e-12,\n    \"radial_eigenvector\": 2.6999128828965727e-12,\n    \"unbroken_h_invariant\": 3.894539576622925e-16,\n    \"Goldstone_orthonormal\": 2.147696199700073e-15,\n    \"H_K\": 2.745384836252805e-11,\n    \"differentiated_Ward\": 8.057214628835444e-12,\n    \"Z_symmetry\": 0.0,\n    \"twice_differentiated_Ward\": 9.753086717765368e-13,\n    \"Goldstone_tadpole_Ward\": 3.4155849893705324e-11,\n    \"stationary_solve_individual\": 3.0695884448832605e-10,\n    \"shift_kernel_compatibility\": 1.2926322656794496e-10,\n    \"quartic_plus_shift_Ward\": 1.188747327333565e-10,\n    \"t_hh_kernel_projection\": 1.190569774510714e-09,\n    \"all_shell_stationarity\": 2.774682849434828e-09,\n    \"all_shell_A_coefficients\": 1.0745679901447147e-09\n  },\n  \"off_stationary_action_Ward_norms\": [\n    3.959775501684299e-14,\n    9.54888133421549e-13\n  ],\n  \"shells\": [\n    {\n      \"mass2_display\": 0.8619522,\n      \"multiplicity\": 1,\n      \"sigma_sum\": 6.310636404849063e-14,\n      \"quartic_sum\": 1.2737457899317127e-31,\n      \"ell_over_a_sum\": 0.0,\n      \"stationary_residual\": 1.6877011928872986e-13,\n      \"combined_A_coefficient_residual\": 6.310636404849063e-14\n    },\n    {\n      \"mass2_display\": 1.0,\n      \"multiplicity\": 3,\n      \"sigma_sum\": 3.749559466893848e-13,\n      \"quartic_sum\": 4.800186562569735e-27,\n      \"ell_over_a_sum\": -8.318091429808467e-27,\n      \"stationary_residual\": 1.0028577627834957e-12,\n      \"combined_A_coefficient_residual\": 3.7495594668939795e-13\n    },\n    {\n      \"mass2_display\": 1.5,\n      \"multiplicity\": 24,\n      \"sigma_sum\": -3455.999999998925,\n      \"quartic_sum\": 1152.2666666666669,\n      \"ell_over_a_sum\": -2303.7333333333327,\n      \"stationary_residual\": 2.774682849434828e-09,\n      \"combined_A_coefficient_residual\": 1.0745679901447147e-09\n    },\n    {\n      \"mass2_display\": 5.0,\n      \"multiplicity\": 6,\n      \"sigma_sum\": -1036.7999999998572,\n      \"quartic_sum\": 345.76,\n      \"ell_over_a_sum\": -691.0399999999997,\n      \"stationary_residual\": 3.6892409650853755e-10,\n      \"combined_A_coefficient_residual\": 1.425632945029065e-10\n    },\n    {\n      \"mass2_display\": 10.0,\n      \"multiplicity\": 4,\n      \"sigma_sum\": -777.5999999997789,\n      \"quartic_sum\": 259.3199999999999,\n      \"ell_over_a_sum\": -518.2799999999996,\n      \"stationary_residual\": 5.697624853358911e-10,\n      \"combined_A_coefficient_residual\": 2.2066615201765671e-10\n    },\n    {\n      \"mass2_display\": 16.5,\n      \"multiplicity\": 12,\n      \"sigma_sum\": -2513.454545453772,\n      \"quartic_sum\": 838.0121212121207,\n      \"ell_over_a_sum\": -1675.4424242424234,\n      \"stationary_residual\": 1.99491764266161e-09,\n      \"combined_A_coefficient_residual\": 7.721610018052161e-10\n    },\n    {\n      \"mass2_display\": 25.0,\n      \"multiplicity\": 12,\n      \"sigma_sum\": -2591.9999999993356,\n      \"quartic_sum\": 863.9999999999998,\n      \"ell_over_a_sum\": -1727.9999999999984,\n      \"stationary_residual\": 1.7113722276405104e-09,\n      \"combined_A_coefficient_residual\": 6.625668902415782e-10\n    },\n    {\n      \"mass2_display\": 34.8047145,\n      \"multiplicity\": 1,\n      \"sigma_sum\": 6.187895151464357e-14,\n      \"quartic_sum\": 1.248971560405546e-31,\n      \"ell_over_a_sum\": 0.0,\n      \"stationary_residual\": 1.6549917291857276e-13,\n      \"combined_A_coefficient_residual\": 6.187895151464357e-14\n    },\n    {\n      \"mass2_display\": 36.5,\n      \"multiplicity\": 4,\n      \"sigma_sum\": -852.1643835613571,\n      \"quartic_sum\": 284.1205479452054,\n      \"ell_over_a_sum\": -568.043835616438,\n      \"stationary_residual\": 7.38894725744851e-10,\n      \"combined_A_coefficient_residual\": 2.8626345738302916e-10\n    }\n  ],\n  \"Z_frobenius_squared\": 270.0000000000002,\n  \"source_hashes\": {\n    \"shifted-vacuum-gate\\\\calculation.py\": \"766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb\",\n    \"adjoint-radial-pole-gate\\\\calculation.py\": \"5d4a82d90a505595c2c6cefe0771e36faa49135d08d2b9623538fcf9e4a00307\",\n    \"radiative-vacuum-gate\\\\diagnostic.py\": \"e2db575600561a7e31834b2b85d9abf7f8aa97285fbe8c4749c1bf637609d618\",\n    \"adjoint-radial-rxi-pole-gate\\\\calculation.py\": \"2ac589f2004f0a5a872f26b864b671d637faded3f76b76c498a302dc16bd443a\",\n    \"adjoint-radial-rxi-pole-gate\\\\symbolic_checks.py\": \"1a610c12477135a2e58182212273c6b1d141bd39bab0ec656c78e7c3cf4408fa\",\n    \"adjoint-radial-rxi-pole-gate\\\\REPORT.md\": \"2115b80c986cec4d79003ce3f5aee8886862ca1af1f2c37d20c977b5d61d5cb2\",\n    \"adjoint-radial-rxi-identity-gate\\\\tensor_hypotheses.py\": \"a1203881d5b21b9e2be9cbcf635058e33f673d4712ce31dfa851e7171bf1540d\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\LeanAvailability.lean"
+      ],
+      "exit_code": 1,
+      "stdout": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\LeanAvailability.lean:1:0: error: unknown module prefix 'Init'\n\nNo directory 'Init' or file 'Init.olean' in the search path entries:\nc:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\lib\\lean\n",
+      "stderr": ""
+    }
+  ],
+  "negative_controls": {
+    "tampered_receipt_rejected": true,
+    "missing_receipt_rejected": true,
+    "symbolic_controls_nonzero": true,
+    "nonzero_displacement_witness": true,
+    "lean_import_blocker_reproduced": true
+  },
+  "sha256": {
+    "formalization.yaml": "d06e958dcf04de5636ccb594f0cc45e54ea3c299937c83b4c240afbca808c7ce",
+    "LeanAvailability.lean": "a275087d1ec390269fb979d9d7b5367b217c5b4d4ed2f96e40928795c5393452",
+    "lean_environment.json": "5aae68aab5b95e38692c072536d2cac6be7067213bd9b6a546f846ee36e59e65",
+    "RELEASE_DISCLOSURE.md": "1476897d062704c6e6fda881c97077808a14315063479fbc2a124df65056486d",
+    "REPORT.md": "e266a7d61ee3dba933ed3ae446d086eee15f7602950c15f692cdf15e6fa0f97e",
+    "run_checks.py": "2ac51f24a82188539dd96ae0d7d0cc9fe755781a379644e7c1630d0ef515be52",
+    "symbolic_certificate.py": "6104dbbfbad4037c0dadc262068e633e349990ba69cfc817e77da890015246a5",
+    "symbolic_receipt.json": "197bdcebf7c08334ff65b81a5893e55b07906ad1a4de00358a4d75dca12f8c36",
+    "tensor_hypotheses.py": "a1203881d5b21b9e2be9cbcf635058e33f673d4712ce31dfa851e7171bf1540d",
+    "tensor_receipt.json": "cdc78a3e8af050db736947f4abdc3f71dcef7bed180a803500c2e6e5af0052c5"
+  },
+  "python": "3.11.15 (main, Aug  7 2026, 02:24:19) [MSC v.1944 64 bit (AMD64)]"
+}

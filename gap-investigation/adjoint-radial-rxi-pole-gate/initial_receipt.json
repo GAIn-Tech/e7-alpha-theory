@@ -1,0 +1,193 @@
+{
+  "claim_boundary": "Action-derived Rxi diagram evaluation; cancellation status computed, not assumed; floating tensors and rounded mass shells, not a formal proof or full pole.",
+  "ward_differentiated_residual": 8.173443394438533e-12,
+  "master_adaptive_max_error": 1.2446030555722283e-60,
+  "rows": [
+    {
+      "xi": 0.1,
+      "channels": {
+        "scalar_bubble": {
+          "real": -285.15648516955486,
+          "imag": 103.18615534250014
+        },
+        "scalar_seagull": {
+          "real": -5.123766833058979,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": 275.800316000275,
+          "imag": -103.14334145379195
+        },
+        "vector_bubble": {
+          "real": -0.7768350243515663,
+          "imag": -0.09646245225126103
+        },
+        "vector_seagull": {
+          "real": -0.0014013473137719314,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -0.10875528662207705,
+          "imag": 0.05364856332250343
+        },
+        "stationary_shift": {
+          "real": 15.366927660901426,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 2.752073135026332e-10,
+        "imag": -2.2055306894520658e-10
+      },
+      "omit_ghost": {
+        "real": 0.10875528689728436,
+        "imag": -0.0536485635430565
+      },
+      "omit_shift": {
+        "real": -15.366927660626219,
+        "imag": -2.2055306894520658e-10
+      },
+      "stationary_equation_residual": 1.9488967980023017e-11
+    },
+    {
+      "xi": 1.0,
+      "channels": {
+        "scalar_bubble": {
+          "real": -2102.5567084948107,
+          "imag": 1036.763196773094
+        },
+        "scalar_seagull": {
+          "real": 326.7677050677206,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": 2746.6460781489577,
+          "imag": -1031.558304866867
+        },
+        "vector_bubble": {
+          "real": 16.224809221911883,
+          "imag": -10.50973626188512
+        },
+        "vector_seagull": {
+          "real": 3.8551388495143315,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -10.765154692024414,
+          "imag": 5.304844355307919
+        },
+        "stationary_shift": {
+          "real": -980.1718681006223,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 6.469859087185092e-10,
+        "imag": -3.502063121638945e-10
+      },
+      "omit_ghost": {
+        "real": 10.7651546926714,
+        "imag": -5.304844355658125
+      },
+      "omit_shift": {
+        "real": 980.1718681012693,
+        "imag": -3.502063121638945e-10
+      },
+      "stationary_equation_residual": 1.0349038460059265e-11
+    },
+    {
+      "xi": 3.0,
+      "channels": {
+        "scalar_bubble": {
+          "real": -5258.025003237791,
+          "imag": 3144.2034570745145
+        },
+        "scalar_seagull": {
+          "real": 1521.3663093423781,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": 8135.640627106527,
+          "imag": -3096.151548959153
+        },
+        "vector_bubble": {
+          "real": 207.80555495996617,
+          "imag": -94.57070853099815
+        },
+        "vector_seagull": {
+          "real": 51.852319140398535,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -95.18507416079449,
+          "imag": 46.518800415389464
+        },
+        "stationary_shift": {
+          "real": -4563.454733150249,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 4.3632381692849274e-10,
+        "imag": -2.4739362213297683e-10
+      },
+      "omit_ghost": {
+        "real": 95.1850741612308,
+        "imag": -46.51880041563686
+      },
+      "omit_shift": {
+        "real": 4563.454733150686,
+        "imag": -2.4739362213297683e-10
+      },
+      "stationary_equation_residual": 2.288217558089051e-11
+    },
+    {
+      "xi": 100.0,
+      "channels": {
+        "scalar_bubble": {
+          "real": 10089.021479354491,
+          "imag": 100439.7214326022
+        },
+        "scalar_seagull": {
+          "real": 108277.84518635893,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": -22897.459421613763,
+          "imag": -37718.29830874009
+        },
+        "vector_bubble": {
+          "real": 238050.0768974764,
+          "imag": -63320.92062458682
+        },
+        "vector_seagull": {
+          "real": 118456.86011297381,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -127190.92850278501,
+          "imag": 599.4975007244008
+        },
+        "stationary_shift": {
+          "real": -324785.41575176385,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 9.993657779138255e-10,
+        "imag": -3.157267588419265e-10
+      },
+      "omit_ghost": {
+        "real": 127190.92850278602,
+        "imag": -599.4975007247165
+      },
+      "omit_shift": {
+        "real": 324785.41575176484,
+        "imag": -3.157267588419265e-10
+      },
+      "stationary_equation_residual": 1.4477437480821474e-10
+    }
+  ],
+  "cancellation_passed": true,
+  "source_sha256": "20477d41eecd94ba0c6238358e645569d00eaabf5658ac7176879525aa243711"
+}

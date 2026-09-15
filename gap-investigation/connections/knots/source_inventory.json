@@ -1,0 +1,97 @@
+[
+  {
+    "file": "coincidences.txt",
+    "bytes": 103180,
+    "sha256": "0b00c512e213a826344b17e4a5dda97454d2c22e23945c82e566ba7c8582c9fa"
+  },
+  {
+    "file": "fuchs1997.pdf",
+    "bytes": 437170,
+    "sha256": "bfaece660be691393f0710883cac27dbf40250e4c4ded2935bf4aae0e00836d0"
+  },
+  {
+    "file": "fuchs1997.txt",
+    "bytes": 104698,
+    "sha256": "13c0e9ecb3132832f9099fd77fa6ad06a1e704522382f804a0938ba380b187ac"
+  },
+  {
+    "file": "gukov2005.pdf",
+    "bytes": 265672,
+    "sha256": "2c3483e8b58b22c7ba1079caf2d3654209ef2d442d23596402b17799ccde2fae"
+  },
+  {
+    "file": "gukov2005.txt",
+    "bytes": 49620,
+    "sha256": "398ef03f845a6f8d26a996eae0acde0f6a9f9368888a8220014027d7899d87e3"
+  },
+  {
+    "file": "jones.pdf",
+    "bytes": 220842,
+    "sha256": "e70cbb78cec9f3724154bad31e0540d634143fd40cd4882946d6e75798703b6b"
+  },
+  {
+    "file": "jones.txt",
+    "bytes": 34590,
+    "sha256": "bcddc4b532a40f382b825543e3d9b77989b65b46b19c46ab2c7067a72be4e4e1"
+  },
+  {
+    "file": "mukhi2020.pdf",
+    "bytes": 354860,
+    "sha256": "38df17dbe585f8dfec937fc8de8579aa89ea895c85b46734d65c495456c2a349"
+  },
+  {
+    "file": "mukhi2020.txt",
+    "bytes": 85492,
+    "sha256": "473c988806907eaffcb24c040d472784ba3c324db4b94136d2cd01f17040742d"
+  },
+  {
+    "file": "okazaki2024.pdf",
+    "bytes": 772469,
+    "sha256": "587e91f0f13fd3af3e9dd04cfa33b456e123f8773ff31f97d6ae4c5e1d4f15a0"
+  },
+  {
+    "file": "okazaki2024.txt",
+    "bytes": 132876,
+    "sha256": "f56f7693fe8786605801fe705ece2ff360fe7cf66af1fe42d583df4496c130a7"
+  },
+  {
+    "file": "partitions2016.pdf",
+    "bytes": 546876,
+    "sha256": "75e7bda1b093eb2491e7e6aa1b72ea85efcec8e7c24c28802c5f1d5dcb89a7b5"
+  },
+  {
+    "file": "partitions2016.txt",
+    "bytes": 45136,
+    "sha256": "ae95186039536c2dcd24a5172af4222eb96ebf58abe6912bc40736708a6faf96"
+  },
+  {
+    "file": "soliton2002.pdf",
+    "bytes": 87611,
+    "sha256": "ca30f234ae8fba65abaf944a3e0b2ae21394355a5ee366a1cab7415f85f57d0b"
+  },
+  {
+    "file": "soliton2002.txt",
+    "bytes": 13115,
+    "sha256": "2171e99c311deeab2ddbd0a99fe68d4f9e62bb9846dcc3832060a0e62ec0da8c"
+  },
+  {
+    "file": "warnaar2010.pdf",
+    "bytes": 211453,
+    "sha256": "230c4ff7f56cf38b78d616abb8eef2bc74ca0590fd5b618a285a12a505006f2e"
+  },
+  {
+    "file": "warnaar2010.txt",
+    "bytes": 25819,
+    "sha256": "cf5831f81a8825170cd7ed995f220d569500c01b07d8527baf380e37df0c75f8"
+  },
+  {
+    "file": "witten1989.txt",
+    "bytes": 135143,
+    "sha256": "32e22386eb5f3e3679c7bf67630d7c3e2c48a268c37fa2c2e205f0aa48292927"
+  },
+  {
+    "file": "witten2011.txt",
+    "bytes": 386040,
+    "sha256": "22eeaab383ea3b82198c94124f5f3019ef5759c88d6042643269246c6e2dd5f2"
+  }
+]

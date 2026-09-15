@@ -1,0 +1,12 @@
+scope: E7 regular subgroup embedding and chirality
+kernel_file: Chirality.lean
+kernel_theorem: Embedding.paired_mass_removal_preserves_balance
+kernel_version: Lean 4.32.1
+kernel_axioms: []
+kernel_assumptions: balanced counts and conjugate-paired mass ranks
+representation_proof: exact Python, not Lean
+physical_assumptions: compact Yang-Mills, specified tree breaking, canonical kinetic form, ordinary invariant bilinear masses
+review_status: AI-assisted self-assessed, not peer reviewed
+hosted_CI: not run
+local_runner: run_checks.py
+alpha_fit: none

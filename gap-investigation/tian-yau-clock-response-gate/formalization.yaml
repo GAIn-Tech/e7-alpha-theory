@@ -1,0 +1,26 @@
+version: 1
+scope: leading heterotic standard-embedding canonical response and conditional inverse problem
+physical_completion: false
+numerical_alpha_prediction: false
+geometry: Tian-Yau free Z3 quotient, tangent standard embedding, E6
+approximation: weak string coupling, large radius, leading two-derivative tree kinetic metric; unspecified loop thresholds
+lean:
+  environment: existing Lean 4.32.1 kernel-only, no Init or Mathlib
+  public_module: Formalization.lean
+  headline_declarations:
+    - TianYauClock.projected_identification
+    - TianYauClock.fiber_obstructs_inverse
+    - TianYauClock.concrete_nonidentifiability
+    - TianYauClock.concrete_projection
+  project_axioms: []
+  external_physics_not_formalized: true
+exact:
+  engine: SymPy
+  numerical_crosscheck: read-only predecessor SVD nullspace
+smt:
+  engine: existing Z3 Python environment
+  inputs: smt/*.smt2
+  scope: real polynomial consequences only
+review: AI-assisted and self-assessed, not peer reviewed
+ci: local execution only; hosted CI not run
+publication: none

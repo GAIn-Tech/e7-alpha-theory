@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "independent_method": "separate 512-point threshold-split Gauss integration (analytic receipt uses root antiderivative)",
+  "independent_real": 76.52295859746563,
+  "independent_imag": -31.929018580595248,
+  "abs_difference": 0.21264961278419037,
+  "relative_difference": 0.0025585518480388974,
+  "tolerance_reason": "Direct quadrature suffers amplified cancellation among B functions; agreement is required to 0.5 absolute (<0.7%)."
+}

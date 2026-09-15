@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\embedding-gate\\test_embedding.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_SM_chirality_both_models (__main__.EmbeddingTests.test_SM_chirality_both_models) ... ok\ntest_branch_orientation (__main__.EmbeddingTests.test_branch_orientation) ... ok\ntest_charge_conjugation (__main__.EmbeddingTests.test_charge_conjugation) ... ok\ntest_charge_rescaling_not_alpha_change (__main__.EmbeddingTests.test_charge_rescaling_not_alpha_change) ... ok\ntest_coroot_centralizer (__main__.EmbeddingTests.test_coroot_centralizer) ... ok\ntest_electroweak_matching (__main__.EmbeddingTests.test_electroweak_matching) ... ok\ntest_mass_pair_removal_preserves_index (__main__.EmbeddingTests.test_mass_pair_removal_preserves_index) ... ok\ntest_missing_receipt_fails (__main__.EmbeddingTests.test_missing_receipt_fails) ... ok\ntest_normalization_not_mixed (__main__.EmbeddingTests.test_normalization_not_mixed) ... ok\ntest_receipt_replay (__main__.EmbeddingTests.test_receipt_replay) ... ok\ntest_tampered_receipt_fails (__main__.EmbeddingTests.test_tampered_receipt_fails) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.220s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\embedding-gate\\Chirality.lean"
+      ],
+      "exit_code": 0,
+      "stdout": "'Embedding.paired_mass_removal_preserves_balance' does not depend on any axioms\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\skills\\research\\grounded-citations\\scripts\\sources.py",
+        "--ledger",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\embedding-gate\\sources\\citation-ledger.json",
+        "verify",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\embedding-gate\\REPORT.md",
+        "--evidence"
+      ],
+      "exit_code": 0,
+      "stdout": "info: stats: 98 prose sentence(s), 7 with declared provenance (7%) \u2014 7 cited, 0 marked [unverified] (a sentence may be both); 6 distinct source(s) cited, 8 in ledger (6 with evidence quotes)\nwarn: registered in the ledger but not cited in this draft: [2], [6]\ncitations OK\n",
+      "stderr": ""
+    }
+  ],
+  "hashes": {
+    "embedding_checks.py": "76cbe6a83baa753332da9a4316a7253d6b555f225f325bf16f64606d998762dd",
+    "embedding-receipt.json": "686d5e5d85184f77acf6a60dd2be9fc8456a33088cf540ff557985005b8bf6ba",
+    "test_embedding.py": "fd5ebaf4abf285a869dc653c947d7e96f2f0089418f9e1f274e9e4e3a20878d0",
+    "Chirality.lean": "7b1e53e1928b58a71d56b578d3bc833dda2053f55cb8c69ee3c18ddc861e9b1f",
+    "REPORT.md": "aa6240fc2bce55d98f35f731a2261dfb7c528ff53c648306a58b6c9570492529",
+    "formalization.yaml": "0a81d8938c1738bc15ae994855cf29672a2f5d6bb277ade05b11c34b6db38e22",
+    "RELEASE_DISCLOSURE.md": "ac7b9d3ec3a1fb63b8d3fe88222b4cbfde66e093817cefabb86dae337b47f1a5",
+    "run_checks.py": "1561ebc529fd4ea15df4a0ffe2ab3e77fef5c416a549a88df2e376ceaffd760a"
+  }
+}

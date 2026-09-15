@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "script_sha256": "9e3b8cda931e4cfe82ceb19467ad98d50819029315b20875a14c818735f7c93d",
+  "sources_sha256": {
+    "exp44_lagrangian_derivation.py": "cdb0c22aee824d7c03aaf152924b286df9e8f6e28d4cf385773429b541c56bb7",
+    "exp47_unique_vacuum.py": "2796da571b197dfed015021ad423ac913d64756c6ae4e498c86291a693df119b"
+  },
+  "flux_domain": "four integers each 0..10 inclusive; exp47 line 895",
+  "enumerated_count": 14641,
+  "alpha_inverse_max": "951/7",
+  "candidate_count_within_0_1_of_137": 0,
+  "reported_eight_entry_solution_outside_domain": true,
+  "nonunique_sum56_examples_in_expanded_domain": [
+    [
+      14,
+      14,
+      14,
+      14
+    ],
+    [
+      7,
+      7,
+      21,
+      21
+    ]
+  ],
+  "symmetric_square_dimension": 1596,
+  "exp44_claimed_symmetric_dimension": 1464,
+  "unit_norm_counterexample_first_component_squared": "1",
+  "claim_boundary": "Exact failures of these literal toy search/dimension/normalization claims only; no general flux-vacuum nonexistence theorem, no proof of the physical E7 tensor decomposition."
+}

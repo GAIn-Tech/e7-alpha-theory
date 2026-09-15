@@ -1,0 +1,19 @@
+{
+  "calculate.py": "5f09eaade40279363ad29e2e833c4359dcc7eea64ae642fcf4be62d3c8312656",
+  "exterior.py": "4f46e454f9692572c73f1e9baed065617b160e36db87be3c14501a879fbee8cb",
+  "frozen/tian-yau-actual-survivor-coupling-gate/artifact-manifest.json": "bcf0c1550ff27c0611fedbc122d1e64a9ab93d9372735be30423f8d260038b91",
+  "frozen/tian-yau-actual-survivor-coupling-gate/module_action.py": "36df96e95ddf8a86568e09f9bae0747e1f1660b915be90b95c0f8a2828adf0ee",
+  "frozen/tian-yau-actual-survivor-coupling-gate/serre-tensor.json": "1c306fc44846b44650dad96e0eb8fa027a59eb56def4af3d4c576c9bb540a1cd",
+  "frozen/tian-yau-actual-survivor-coupling-gate/serre_pairing.py": "9465ddc12b0b4d90de10fbd9ccc3e52e939595f72a17d4cba804835f2ad0ec4a",
+  "frozen/tian-yau-bundle-coupling-gate/geometry.json": "1246dbd09c95297e79fa5d24d0ba7a5abd9d45882de12ffc4168ba150e98a198",
+  "frozen/tian-yau-flavor-higgs-consistency-gate/REPORT.md": "59d4f2e4d6fa1ed478867e9adddde6a24bffb0e540a0e8f7447b7b927bc2e610",
+  "frozen/tian-yau-flavor-higgs-consistency-gate/certificate.json": "ee714241c3c2483378afe2cb2a9112ce0075bcea3b015c640d12fcebbf0a6468",
+  "frozen/tian-yau-flavor-higgs-consistency-gate/release-manifest.json": "e50cc2b4b8e2d885e1a2f5490dff315c7f0cd2373047e3d4014a48e75833d2d3",
+  "frozen/tian-yau-neutral-d2-gate/partial_chains.py": "191aa808af6a46cf9c4d923e41f9d2fb2695727356fc02835276157e5b257351",
+  "frozen/tian-yau-neutral-d2-gate/total_cech.py": "b37917b4511ae519b948adae03c2ca592bd115b460bc52e6ada54e29fcb2749b",
+  "frozen/tian-yau-neutral-d2-gate/try_d2.py": "7a9931b1b183f9fc57ea2f068ae1b262a996cf4275531c328f74df9cf8c12914",
+  "frozen/tian-yau-neutral-d4-gate/compute.py": "ee878a85611a93929f7eccffd0c36d5998279f83866af1030162d7aa021686ef",
+  "frozen/tian-yau-survivor-yoneda-gate/exact_audit.py": "18448b95bb0675d3daac79ddc823155d0deef2faa9a3699943ecb2609dd00a06",
+  "ring.py": "345bacbfbdb30e3b107a0c445a51c05599bfdf6dca1048c6e32d9a817378de89",
+  "setup.py": "6126cc0c3c16c4a51862cf92c278571613e542454ffc48ab0ae83072597fec6e"
+}

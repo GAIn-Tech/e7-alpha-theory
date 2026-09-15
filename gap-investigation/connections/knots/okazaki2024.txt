@@ -1,0 +1,6505 @@
+
+--- PAGE 1 ---
+Chern-Simons theories with defects,
+Rogers-Ramanujan type functions
+and eta-products
+Tadashi Okazaki1
+Shing-Tung Yau Center of Southeast University,
+Yifu Architecture Building, No.2 Sipailou, Xuanwu district,
+Nanjing, Jiangsu, 210096, China
+and
+Douglas J. Smith2
+Department of Mathematical Sciences, Durham University,
+Upper Mountjoy, Stockton Road, Durham DH1 3LE, UK
+Abstract
+We study the line defect half-indices of 3d N = 2 supersymmetric Chern-
+Simons (CS) theories with (special) unitary, symplectic, orthogonal and excep-
+tional gauge groups. We find that they have several beautiful infinite product
+q-series expressions in terms of Ramanujan’s general theta function. For the the-
+ories with fundamental chiral multiplets, the pairs of the Neumann half-indices
+and the one-point functions of the fundamental Wilson lines form a basis for
+the line defect indices in terms of Rogers-Ramanujan type functions which cor-
+respond to Rogers-Ramanujan type identities relating infinite series and infinite
+products. Furthermore, the theories with an adjoint chiral admit expressions
+as eta-products. In particular, for the SU(N)−2N CS theory, there is a one-to-
+one correspondence between the BPS boundary local operators and the N-core
+partitions.
+1tokazaki@seu.edu.cn
+2douglas.smith@durham.ac.uk
+arXiv:2408.07893v2  [hep-th]  26 Jul 2025
+
+
+--- PAGE 2 ---
+Contents
+1
+Introduction and conclusion
+4
+1.1
+Structure
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+1.2
+Future works
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2
+SU(N) CS theories
+11
+2.1
+SU(N)−N−1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+2.2
+SU(N)−2N with adjoint
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+2.2.1
+SU(2)−4 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+15
+2.2.2
+SU(3)−6 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+18
+2.2.3
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+2.3
+SU(N)−2N−Nf/2 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+22
+2.3.1
+SU(2)−5 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+22
+2.3.2
+SU(3)−7 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+23
+2.3.3
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+2.3.4
+SU(2)−9/2 with adjoint . . . . . . . . . . . . . . . . . . . . . . .
+23
+2.4
+U(N) vs SU(N) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+3
+USp(2n) CS theories
+25
+3.1
+USp(2n)−n−1
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+3.1.1
+USp(4)−3
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+3.1.2
+USp(6)−4
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+3.1.3
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+3.2
+USp(2n)−n−3/2
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+3.2.1
+USp(4)−7/2
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+3.2.2
+USp(6)−9/2
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+3.2.3
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+3.3
+USp(2n)−2n−2 with adjoint . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+3.3.1
+USp(4)−6 with adjoint . . . . . . . . . . . . . . . . . . . . . . .
+32
+3.4
+USp(2n)−2n−2−Nf/2 with adjoint . . . . . . . . . . . . . . . . . . . . . .
+34
+3.4.1
+USp(4)−13/2 with adjoint . . . . . . . . . . . . . . . . . . . . . .
+34
+3.4.2
+USp(6)−17/2 with adjoint . . . . . . . . . . . . . . . . . . . . . .
+34
+4
+SO(N) CS theories
+34
+4.1
+SO(2n)−2n+2
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+4.1.1
+SO(4)−2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+4.1.2
+SO(6)−4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+4.1.3
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+2
+
+
+--- PAGE 3 ---
+4.2
+SO(2n)−2n+1
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+4.2.1
+SO(2)−1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+4.2.2
+SO(4)−3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+4.2.3
+SO(6)−5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+4.3
+SO(2n)−2n, O(2n)−2n . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+4.3.1
+SO(2)−2, O(2)−2
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+4.3.2
+SO(4)−4, O(4)−4
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+4.3.3
+SO(6)−6, O(6)−6
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+4.3.4
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+4.4
+SO(2n)−4n+4 with adjoint
+. . . . . . . . . . . . . . . . . . . . . . . . .
+49
+4.4.1
+SO(4)−4 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+49
+4.4.2
+SO(6)−8 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+51
+4.5
+SO(2n)−4n+4−Nf with adjoint
+. . . . . . . . . . . . . . . . . . . . . . .
+52
+4.5.1
+SO(2)−1 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+52
+4.5.2
+SO(4)−5 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.5.3
+SO(4)−6 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.6
+SO(2n + 1)−2n+1
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.6.1
+SO(3)−1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.6.2
+SO(5)−3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+4.6.3
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+4.7
+SO(2n + 1)−2n
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+4.7.1
+SO(3)−2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+4.7.2
+SO(5)−4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+4.8
+SO(2n + 1)−2n−1, O(2n + 1)−2n−1
+. . . . . . . . . . . . . . . . . . . . .
+58
+4.8.1
+SO(3)−3, O(3)−3
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+4.8.2
+SO(5)−5, O(5)−5
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+4.8.3
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+4.9
+SO(2n + 1)−4n+2 with adjoint . . . . . . . . . . . . . . . . . . . . . . .
+62
+4.10 SO(2n + 1)−4n+2−Nf with adjoint . . . . . . . . . . . . . . . . . . . . .
+63
+4.10.1 SO(3)−3 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+63
+4.10.2 SO(5)−7 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+64
+4.10.3 SO(3)−4 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+64
+4.10.4 SO(5)−8 with adjoint . . . . . . . . . . . . . . . . . . . . . . . .
+65
+5
+G2 CS theories
+65
+5.1
+G2−4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+5.2
+G2−5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+5.3
+G2−8 with adjoint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+68
+3
+
+
+--- PAGE 4 ---
+A Modular Forms
+69
+1
+Introduction and conclusion
+3d N = 2 supersymmetric field theories can preserve N = (0, 2) supersymmetry
+at a boundary [1, 2] so that they can be viewed as 3d/2d bulk-boundary systems
+characterized by the BPS boundary conditions. The spectra of the BPS local operators
+in the bulk-boundary system can be examined by the half-indices [1, 3, 4, 5] which
+can be viewed as certain supersymmetric partition functions on HS2 × S1 where HS2
+is a hemisphere and S1 is a circle. They can be decorated as “line defect half-indices”
+(which we also refer to as line operator 1-point functions) by introducing BPS line
+defect operators wrapping S1.
+The configurations are realized as 3d/2d/1d bulk-
+boundary-line systems which further generalize the bulk-boundary systems.
+They
+encode more general spectra of BPS local operators sitting at the junctions of lines
+and boundary which may or may not be gauge invariant [5]3.
+Recently, we have found in [6] that the line defect half-indices for the 3d N = 2
+supersymmetric SU(N) Chern-Simons (CS) theories with Neumann boundary condi-
+tions for gauge fields can be described by the celebrated q-series functions, instances
+of Ramanujan’s general theta function defined by [7]
+f(a, b) =
+X
+m∈Z
+a
+m(m+1)
+2
+b
+m(m−1)
+2
+= (−a; ab)∞(−b; ab)∞(ab; ab)∞,
+(1.1)
+where |ab| < 1. Ramanujan’s general theta function can be related in various ways to
+the Jacobi theta functions defined by
+ϑ1(z; τ) =
+X
+n∈Z
+(−1)n−1
+2q
+1
+2 (n+ 1
+2 )2xn+ 1
+2,
+ϑ2(z; τ) =
+X
+n∈Z
+q
+1
+2 (n+ 1
+2 )2xn+ 1
+2,
+(1.2)
+ϑ3(z; τ) =
+X
+n∈Z
+q
+n2
+2 xn,
+ϑ4(z; τ) =
+X
+n∈Z
+(−1)nq
+n2
+2 xn,
+(1.3)
+with q = e2πiτ, x = e2πiz, τ ∈H and z ∈C.
+3Note that we can calculate half-indices in the presence of line operators which may not be gauge
+invariant. What is being counted in such expressions is the gauge invariant combinations of the line
+operator with local operators.
+4
+
+
+--- PAGE 5 ---
+For |q| < 1 the following notations are introduced
+φ(q) := f(q, q) =
+X
+n∈Z
+qn2 = (−q; −q)∞
+(q; −q)∞
+,
+(1.4)
+ψ(q) := f(q, q3) =
+∞
+X
+n=0
+q
+n(n+1)
+2
+= (q2; q2)∞
+(q; q2)∞
+,
+(1.5)
+f(−q) := f(−q, −q2) =
+X
+n∈Z
+(−1)nq
+n(3n−1)
+2
+= (q; q)∞,
+(1.6)
+χ(q) := (−q; q2)∞.
+(1.7)
+In this paper we examine spectra of the BPS boundary local operators in the pres-
+ence of Wilson line operators for 3d N = 2 supersymmetric CS theories of special
+unitary, symplectic, orthogonal and exceptional gauge groups coupled to chiral mul-
+tiplets transforming in the fundamental and adjoint representations by analyzing the
+line defect half-indices.
+We recall that the Rogers-Ramanujan functions are defined by
+G(q) =
+∞
+X
+n=0
+qn2
+(1 −q)(1 −q2) · · · (1 −qn)
+=
+∞
+Y
+n=1
+1
+(1 −q5n−1)(1 −q5n−4) = f(−q2, −q3)
+f(−q)
+,
+(1.8)
+H(q) =
+∞
+X
+n=0
+qn(n+1)
+(1 −q)(1 −q2) · · · (1 −qn)
+=
+∞
+Y
+n=1
+1
+(1 −q5n−2)(1 −q5n−3) = f(−q, −q4)
+f(−q)
+.
+(1.9)
+The product-series equalities (1.8) and (1.9) are known as the Rogers-Ramanujan
+identities (e.g. see [8, 9]) and the existence of both infinite sum and infinite product
+expressions is the key feature of Rogers-Ramanujan functions. These identities are
+of the greatest significance in the theory of partitions and number theory [8, 9]. The
+function (1.8) is the generating function for partitions of n into parts with minimal
+difference 2 with all parts greater than 0 or equivalently that for partitions of n of the
+form 5k + 1 and 5k + 4. The function (1.9) is the generating function for partitions
+of n into parts with minimal difference 2 with all parts greater than 1 or equivalently
+that for partitions of n of the form 5k + 2 and 5k + 3.
+In previous work [6] we highlighted the physical interpretation of the Rogers-
+Ramanujan identities and generalizations.
+For background on Rogers-Ramanujan
+identities see for example [8, 9]. In this article we explore other generalizations and
+identify their physical interpretation as half-indices. We denote such generalizations of
+5
+
+
+--- PAGE 6 ---
+Rogers-Ramanujan functions as Rogers-Ramanujan type functions, emphasising that
+the key feature is that they are q-series with both infinite sum and infinite product
+representations. It should be noted that in some cases infinite sum expressions can be
+interpreted as q-series arising from half-indices where we have Dirichlet boundary con-
+ditions for the vector multiplets. Such sums can also arise through direct evaluation
+of half-indices where we have Neumann boundary conditions for the vector multiplets.
+The Rogers-Ramanujan identities may then have an interpretation as giving a closed
+form infinite product expression which can be understood as an index or half-index
+for free chiral multiplets, a phenomenon known as a confining (or s-confining) duality.
+See [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 19] for such examples in 3d N = 2
+theories. Confining dualities are useful to construct a sequence of dual theories and to
+find an essential or basic part of dualities. In addition, where these arise from Neu-
+mann half-indices we have an integral representation which is not always known in the
+mathematical literature. Such integrals can provide an important interpretation of the
+identities as relating to root systems such as for the Askey-Wilson integral and many
+generalizations [22, 23, 24, 25, 26]. See [19] for details of such integrals and identities in
+the context of 3d N = 2 gauge theories with boundaries. It is an interesting question
+as to when integrals related to root systems have an infinite product evaluation, and
+in which physical systems these can be realized. We present here large classes of such
+examples.
+We now summarize a main result of our work, the conjecture that for the classes
+of theories described below, the half-indices and the fundamental Wilson line one-
+point functions can be expressed in terms of an infinite product given by Ramanujan’s
+general theta function. In particular, in the cases with chirals in the fundamental
+representation, we find that the unflavored half-index and the one-point function of
+the fundamental Wilson line together form a basis for the line defect indices, and
+this pair has beautiful expressions as Rogers-Ramanujan type functions in terms of
+Ramanujan’s general theta function (1.1) with the form
+IIGk
+N (q) = C1
+f(a1, b1)
+f(−q) ,
+(1.10)
+⟨W ⟩Gk(q) = C2
+f(a2, b2)
+f(−q) ,
+(1.11)
+where ai, bi and Ci are the theory dependent parameters for the Gk CS theories with
+6
+
+
+--- PAGE 7 ---
+(anti)fundamental chiral multiplets listed as follows:
+Gk
+C1
+a1
+b1
+C2
+a2
+b2
+SU(N)−N−1
+1
+(−1)Nq
+N
+2
+(−1)Nq
+N
+2
+−q
+1
+2
+(−1)Nq
+N
+2 −1
+(−1)Nq
+N
+2 +1
+USp(2n)−n−3
+2
+1
+−qn+1
+−qn+2
+−q
+1
+2
+−qn
+−qn+3
+SO(N)−N,ζ,χ
+1
+(−1)ϵχq
+N
+2
+(−1)ϵχq
+N
+2
+−2q
+1
+2
+(−1)ϵχq
+N−2
+2
+(−1)ϵχq
+N+2
+2
+O(N)−N,ζ,+
+1
+q2N
+q2N
+−2q
+1
+2
+q2N−2
+q2N+2
+O(N)−N,ζ,−
+−q
+N
+2
+1
+q4N
+−(−1)ϵ2q
+N−1
+2
+q2
+q4N−2
+G2−5
+1
+−q
+3
+2
+−q
+−q
+1
+2
+−q
+1
+2
+−q2
+(1.12)
+where for the orthogonal groups we have written N = 2n + ϵ with ϵ ∈{0, 1} and we
+have included the fugacities ζ and χ for the discrete Z2 magnetic and charge conju-
+gation symmetries. These form a global Z2 × Z2 symmetry of SO(N) gauge theories.
+Gauging or partial gauging of this global symmetry produces theories with other or-
+thogonal gauge groups, Spin(N), Pin±(N) or O(N)±. Details of this in relation to
+superconformal indices were worked out in [27] and the manifestation for 3d half-indices
+is detailed in [28]. In fact, all results here are independent of ζ since the matter we
+include is not charged under the magnetic Z2 symmetry and the vector multiplet with
+Neumann boundary conditions is also not sensitive to this symmetry. The fugacity
+ζ would couple to magnetic flux so there is dependence when calculating full indices
+or half-indices where the vector multiplet has Dirichlet boundary conditions. While
+the case with USp(2)−5
+2 ∼= SU(2)−5
+2 where the pair of (1.10) and (1.11) realizes the
+Rogers-Ramanujan functions
+II
+SU(2)−5
+2
+N
+= f(−q2, −q3)
+f(−q)
+,
+⟨W ⟩
+SU(2)−5
+2 = −q
+1
+2 f(−q, −q4)
+f(−q)
+(1.13)
+was found in [6], here we find more general results for other gauge groups.
+Also we propose general formulas of the half-indices and the one-point functions for
+the SU(N) CS theories coupled to an adjoint chiral multiplet in terms of Ramanujan’s
+general theta function as eta-products of the form
+Y
+i
+η(diτ)mi,
+(1.14)
+where di ∈N and mi ∈Z 4 and the Dedekind eta function is defined by
+η(τ) := q
+1
+24
+∞
+Y
+n=1
+(1 −qn)
+= q
+1
+24f(−q) .
+(1.15)
+4We use the term eta-product whereas alternatively these may also be referred to as eta-quotients
+in general with the term eta-product reserved for the case where all mi ∈N.
+7
+
+
+--- PAGE 8 ---
+It satisfies the following conditions
+η(τ + 1) = e
+πi
+12η(τ),
+(1.16)
+η(−1/τ) =
+p
+τ/iη(τ)
+(1.17)
+and hence is a modular form of weight
+1
+2. See appendix A for our definition of a
+modular form and properties of eta-products.
+There exist linear identities for eta-products. In the case that the eta-products
+are modular functions (modular forms of weight zero) on some Γ0(N) there is an
+algorithmic way to prove such identities. This has been formulated and automated in
+Maple packages provided by Garvan [29]. We use this later to prove some interesting
+identities which allow us in some examples to reexpress a sum of eta-products, derived
+by analytically evaluating a half-index, as a single eta-product.
+It is observed by Ono [30] that every holomorphic modular form for SL(2, Z) is
+expressible as a linear combination of eta-products of level 4. As we find that the
+half-indices and line defect correlators can be also generated by eta-products, it is an
+interesting question to classify the spaces of line defect half-indices for the CS theories
+with the adjoint chiral multiplet.
+One class of examples where we find results as eta-products is for the SU(N)−2N
+CS theories with an adjoint chiral multiplet. In particular, we conjecture that
+IISU(N)−2N
+N,D
+(q) = q−N2−1
+12 η(2Nτ)N
+η(2τ)
+,
+(1.18)
+⟨W2Nk+N⟩SU(N)−2N = (−1)N+1q(N−1)k(k+1)−(N−1)(N−2)
+12
+η(2τ)3η(Nτ)2η(2Nτ)N−4
+η(τ)2
+,
+(1.19)
+⟨W2Nk+2N⟩SU(N)−2N = Nq(N−1)(k+1)2−N2−1
+12 η(2Nτ)N
+η(2τ)
+(1.20)
+with other charged Wilson line one-point functions vanishing. Remarkably, the half-
+index (1.18) is identified with the generating function for the N-core partitions [31].
+According to the equivalent matrix integral expression, the eta-products (1.18)-(1.20)
+can be also viewed as the closed-form expressions for the Schur index [32, 33] and the
+Schur line defect index [34, 35] of 4d N = 2 pure SU(N) SYM theory.
+The eta-products appear as the central objects in the study of the phenomena of
+“moonshine” that relates the sporadic simple group M24 to the modular form via some
+McKay-Thompson series [36, 37, 38, 39, 40]. Interestingly, we find McKay-Thompson
+series in terms of eta-products for half-indices of symplectic gauge theories with an
+adjoint chiral as well as a fundamental chiral.
+8
+
+
+--- PAGE 9 ---
+Numerous results with eta-product form suggest there should be a physical inter-
+pretation of the modular transformation properties of these expressions. We also note
+that in cases where the results can be expressed as an infinite product, this hints that
+there may be a confining duality, although it is often not straightforward to make this
+interpretation physically. Note that while details of modularity is an interesting avenue
+which has been explored in some cases [41, 42, 43, 44, 45] but is not well understood
+in general for 3d half-indices, that is not our main purpose in this paper. Instead,
+we are more focussed on presenting classes of theories where the unflavored half-index
+can be written in infinite product form.
+To derive some of the exact results we use the Jacobi triple product identity which
+can be written in the equivalent forms
+(q)∞(q
+1
+2x±; q)∞=
+X
+m∈Z
+(−1)mq
+1
+2 m2xm,
+(1.21)
+(q)∞(x−1; q)∞(qx; q)∞=
+X
+m∈Z
+(−1)mq
+1
+2 m(m+1)xm .
+(1.22)
+This is equivalent to
+(q)∞(x±; q)∞= (1 −x)
+X
+m∈Z
+(−1)mq
+1
+2 m(m+1)xm
+(1.23)
+and this form is used in several derivations to replace products of q-Pochhammer sym-
+bols with sums. In the case of Neumann boundary condition for the vector multiplet,
+this often enables the half-index to be expressed as an integral of multiple sums. The
+integrals can then be evaluated simply using the Cauchy residue theorem and in some
+cases the resulting sum can be interpreted as a half-index with Dirichlet boundary
+conditions for a dual vector multiplet.
+1.1
+Structure
+The paper is organized as follows. In section 2 we study the SU(N) CS theories with
+chiral multiplets in the (anti)fundamental and adjoint representations. We consider
+various cases with different numbers of 3d (anti)fundamental chirals with the gauge
+anomaly cancellation being achieved by choosing an appropriate Chern-Simons level.
+Most of our results are conjectures based on calculation of the half-indices or Wil-
+son line one-point functions as q-series to high order in q. However, in some cases
+we also present derivations of analytic results.
+The main focus is in demonstrat-
+ing/conjecturing expressions which are infinite prodcuts related to Rogers-Ramanujan
+type functions. We also comment on the simple relation to U(N) theories. In section
+3 we consider similar theories but with symplectic gauge group where we derive and
+9
+
+
+--- PAGE 10 ---
+conjecture results of a similar form in terms of Rogers-Ramanujan type functions or
+eta-products. In some cases we conjecture results which are not infinite products but
+instead given in terms of a finite sum of eta-products. In section 4 we consider similar
+theories but with orthogonal gauge groups. Here we consider the discrete Z2 magnetic
+and charge conjugation symmetries which allow us to describe the half-indices for the
+various orthogonal groups with different global structures. Again we find results in
+terms of Rogers-Ramanujan type functions or eta-products. However, there are also
+many cases where we find that the Wilson line one-point functions are q-series with a
+finite number of terms. Exceptional groups can also be considered and in section 5 we
+present results for the simplest case of G2. One common feature for all the types of
+gauge group we consider is that in many cases we find that the Wilson line one-points
+functions for general representations can be written simply in terms of the half-index
+or the fundamental Wilson line one-point function.
+1.2
+Future works
+• The line defect half-indices examined in this work are associated with Neumann
+boundary conditions for the gauge fields and the Wilson line operators in the CS
+theory. One expects to have their dual descriptions involving Dirichlet boundary
+conditions for the dual gauge fields and the vortex line operators, for which the
+line defect half-indices take the form of certain infinite series. As we have found
+that the Neumann half-indices are given as certain infinite product form, such
+dualities of the boundary conditions can provide us with the Rogers-Ramanujan
+type identities as non-trivial equalities between the infinite product and the
+infinite series. We will leave this interesting possibility for future work.
+• While we find the general formula of the line defect half-indices for the CS
+theory of (special)unitary gauge group with an adjoint chiral, we are interested
+in exploring more general formulas for the cases with symplectic, orthogonal
+and exceptional gauge groups by potentially taking different field content with
+various R-charge assignments.
+• For lower ranks we have demonstrated the formulas of the line defect half-indices
+while for higher ranks we have numerically checked them in this work. It would
+be nice to complete the analytical proofs for arbitrary rank.
+• It would be interesting to examine the q-difference equations satisfied by the line
+defect half-indices by taking into account the flavor fugacities as studied in [6].
+10
+
+
+--- PAGE 11 ---
+2
+SU(N) CS theories
+While the SU(N) CS theories with chiral multiplets in the (anti)fundamental repre-
+sentations were studied in [6], we generalize the expressions in terms of Ramanujan’s
+general theta function for the one-point functions in this section. We also investigate
+the SU(N) CS theories of level k with an adjoint chiral multiplet, Φ. Such theories can
+be labeled by rΦ ∈Z, the R-charge of the adjoint chiral multiplet which we will take
+to be zero. We note that when rΦ = 2, the theories are the so-called T[L(k, 1), SU(N)]
+or simply T[M3] theories which can be constructed from M5-branes wrapping the 3-
+manifold M3 = L(k, 1) ∼= S3/Zk [46] but in such cases although there is interest in
+the study of q-series associated to 3-manifolds in the context of 3d-3d correspondence,
+such as homological blocks labelled bZ in [47, 48, 41, 42, 43, 44, 45], expected to be
+related to physical half-indices, they are not the same as the half-indices we construct.
+In particular, with the boundary conditions we consider in this article, the half-indices
+for these theories are not q-series with zeroth order term simply 1. Specifically, if
+we calculate the half index of these theories with Dirichlet boundary conditions for
+the adjoint chiral, they will vanish in the unflavored limit. This happens because the
+contribution from the adjoint chiral with rΦ = 2 will contain powers of (t−1; q)∞in
+the numerator for Dirichlet boundary condition, where t is a flavor fugacity for the
+adjoint chiral. Therefore such theories will have different properties from the ordinary
+unitary superconformal gauge theories which arise for other values of R-charge. In
+particular we will focus on the case with rΦ = 0 and will see that we have half-indices
+with well-defined q-series of the expected form.5 We also note that the expressions cal-
+culated for T[M3] [46] include contributions to cancel gauge anomalies which are not
+generally identifiable as 2d chiral or Fermi multiplets. The physical interpretation of
+these theories and boundary conditions is therefore not clear, and it is not obvious how
+properties such as mock modularity would generalize to half-indices where we restrict
+to including only 2d multiplets to cancel gauge anomalies. We can also introduce Nf
+fundamental and Na anti-fundamental 3d chiral multiplets with Dirichlet boundary
+conditions and we choose these chirals to have R-charge 1.
+The field content is summarized as
+bc
+SU(N)
+SU(Nf)
+SU(Na)
+U(1)A
+U(1)B
+U(1)R
+VM
+N
+Adj
+1
+1
+0
+0
+0
+Φ
+D
+Adj
+1
+1
+0
+1
+0
+QI
+D
+N
+Nf
+1
+1
+0
+1
+Qi
+D
+N
+1
+Na
+1
+0
+1
+(2.1)
+5Conversely, for rΦ = 0 we cannot take Neumann boundary condition for the adjoint chiral in the
+unflavored case since the half-indices would diverge in that limit.
+11
+
+
+--- PAGE 12 ---
+We can easily calculate the gauge and ’t Hooft anomalies as follows [5],
+A = N Tr(s2) + N 2 −1
+2
+r2
+|
+{z
+}
+VM, N
++ N Tr(s2) + N 2 −1
+2
+(b −r)2
+|
+{z
+}
+Φ, D
++
++
+Nf
+2 Tr(s2) + N
+2 Tr(x2) + N
+2 Nfa2
+
+|
+{z
+}
+QI, D
++
+Na
+2 Tr(s2) + N
+2 Tr(˜x2) + N
+2 Naa2
+
+|
+{z
+}
+Qi, D
+=
+
+2N + Nf + Na
+2
+
+Tr(s2) + N
+2 Tr(x2) + N
+2 Tr(˜x2) + N
+2 (Nf + Na)a2+
++ N 2 −1
+2
+b2 −(N 2 −1)br +
+ N 2 −1
+
+r2
+(2.2)
+in the case with an adjoint chiral, while without the adjoint chiral the result is easily
+seen to be
+A =
+
+N + Nf + Na
+2
+
+Tr(s2) + N
+2 Tr(x2) + N
+2 Tr(˜x2) + N
+2 (Nf + Na)a2+
++ 1
+2
+ N 2 −1
+
+r2 .
+(2.3)
+Matching anomalies is important is cases of conjectured dualities. However, the
+most crucial point, especially since we will be focussing on unflavored half-indices, is
+that we cancel the gauge anomaly in cases where the vector multiplet has Neumann
+boundary condition. This can be done through the introduction of 2d boundary N =
+(0, 2) supermultiplets, either chiral multiplets or Fermi multiplets, or by adjusting the
+Chern-Simons level. Here we choose not to introduce 2d matter so to cancel the gauge
+anomaly we need to take CS level
+k = −2N −1
+2(Nf + Na)
+(2.4)
+in the case with an adjoint chiral and
+k = −N −1
+2(Nf + Na)
+(2.5)
+without an adjoint chiral.
+It is worthwhile noting that fundamental and anti-fundamental chirals contribute
+in exactly the same way to the half-index, and similarly a 2d fundamental Fermi mul-
+tiplet contributes the same way as two fundamental 3d chiral multiplets with Dirichlet
+boundary conditions, other than the global fugacities. So, if we set the global fugacities
+to one there may be many different theories with the same specialized half-index.
+12
+
+
+--- PAGE 13 ---
+The contributions to the half-index from each multiplet can be deduced from [3,
+4, 5]. For the vector multiplet we have
+(q)N−1
+∞
+N!
+I N−1
+Y
+i=1
+dsi
+2πisi
+! N
+Y
+i̸=j
+(sis−1
+j ; q)∞
+!
+(2.6)
+where QN
+i=1 si = 1.
+If we fix the R-charge of the adjoint chirals to rΦ = 0 and for the (anti)fundamental
+chirals to r = 1 then the contribution to the half-indices from the adjoint chiral will
+be a factor in the integrand
+(q)N−1
+∞
+ N
+Y
+i̸=j
+(qsis−1
+j ; q)∞
+!
+(2.7)
+and from the fundamental and antifundamental chirals will be a factor in the integrand
+N
+Y
+i=1
+
+
+Nf
+Y
+I=1
+(q
+1
+2sixI; q)∞
+
+
+ Na
+Y
+J=1
+(q
+1
+2s−1
+i ˜xJ; q)∞
+!
+(2.8)
+We will mostly consider unflavored (half-)indices where the global flavor fugacities for
+SU(Nf), SU(Na), U(1)A and U(1)B are fixed. In particular we will always fix the
+U(1)A and U(1)B fugacities to one. For the adjoint chiral there is a simple interpre-
+tation of specialising the U(1)B fugacity to 1. This corresponds to imposing a Dc
+boundary condition for Φ [5], meaning that the Dirichlet condition sets the boundary
+value to a non-zero value c, thereby breaking the U(1)B flavor symmetry. Since the
+adjoint chiral has R-charge 0, this does not break the R-symmetry.
+There are two types of specialization where it may be possible to calculate analytic
+results using the Jacobi triple product formula. The first is the case where Nf = Na
+and we specialize the flavor fugacities by setting ˜xI = x−1
+I . This gives contribution
+N
+Y
+i=1
+Nf
+Y
+I=1
+(q
+1
+2s±
+i x±
+I ; q)∞
+(2.9)
+from the fundamental and antifundamental chirals. Note that this can also be inter-
+preted as the contribution from Nf fundamental 2d Fermi multiplets rather than 3d
+chiral multiplets with Dirichlet boundary conditions. Further specializing to xI = 1
+will typically give additional simplification. This can be viewed as a mathematical sim-
+plification of the expression for the half-index but it may also have an interpretation in
+terms of interesting boundary conditions for the 3d fundamental and anti-fundamental
+chirals or it may be possible to choose a superpotential to break the flavor symmetry.
+13
+
+
+--- PAGE 14 ---
+We note that this cannot be Dc boundary conditions for such chirals as we have given
+them R-charge 1 and we don’t want to break the R-symmetry.
+The second case is SU(2) where, noting that the anti-fundamental and fundamental
+representations are the same, we set Na = 0 and also specialize the flavor fugacities
+xI = 1. This gives contribution
+(q
+1
+2s±; q)
+Nf
+∞=
+1
+(q)
+Nf
+∞
+X
+mI∈Z
+(−1)
+P
+I mIq
+1
+2
+P
+I m2
+Is
+P
+I mI
+(2.10)
+The half-index can be modified to give line defect correlators by introducing BPS
+line operators which are perpendicular to the boundary. When we choose the Neumann
+boundary condition for the gauge field and introduce the Wilson line operator WR
+transforming in the representation R of gauge group, the line defect correlator is
+evaluated by inserting the associated character χR in the matrix integral. In the case
+of SU(N) gauge group, the character of the irreducible representation labeled by the
+Young diagram λ is the Schur polynomial
+χsu(N)
+λ
+(s) = det sλi+N−i
+j
+det sN−j
+j
+.
+(2.11)
+One can take another basis for the set of Wilson lines Wk labeled by the power sym-
+metric functions of degree k
+pk(s) =
+N
+X
+i=1
+sk
+i ,
+(2.12)
+where Q
+i si = 1. We call them the Wilson lines of charge k.
+2.1
+SU(N)−N−1
+For the SU(N) CS theory with level k = −N −1 whose vector multiplet satisfies the
+Neumann boundary condition, the gauge anomaly free boundary condition is realized
+by coupling Nf = Na = 1 chirals obeying the Dirichlet boundary condition. The
+unflavored half-index is given by [6]
+IISU(N)−N−1
+N
+(q) = φ((−1)NqN/2)
+f(−q)
+= f((−1)NqN/2, (−1)NqN/2)
+f(−q)
+,
+(2.13)
+where f(a, b) and f(−q) are Ramanujan’s general theta function (1.1) and (1.6).
+Here we observe that the unflavored one-point function of the fundamental Wilson
+line can be written also in terms of Ramanujan’s general theta function. We find that
+⟨W ⟩SU(N)−N−1(q) = −q
+1
+2 f((−1)NqN/2−1, (−1)NqN/2+1)
+f(−q)
+.
+(2.14)
+14
+
+
+--- PAGE 15 ---
+The one-point functions of the Wilson lines in other representations can be given in
+terms of the half-index (2.13) and the one-point function (2.14).
+The half-index (2.13) and the one-point function (2.14) agree with the following
+infinite series
+IISU(N)−N−1
+N
+(q) =
+1
+(q; q)∞
+X
+m∈Z
+(−1)Nmq
+Nm2
+2 ,
+(2.15)
+⟨W ⟩SU(N)−N−1(q) =
+1
+(q; q)∞
+X
+m∈Z
+(−1)Nm+(N−1)q
+Nm2
+2
++(N−1)m.
+(2.16)
+The infinite series expression (2.15) (resp. (2.16)) simply indicates that the theories
+considered have a dual description as pure U(1)N CS theories whose vector multiplets
+obeys the Dirichlet boundary condition without (resp. with) a vortex line.
+2.2
+SU(N)−2N with adjoint
+Now we examine the theory with an adjoint chiral multiplet but without any funda-
+mental chirals, i.e. Nf = 0.
+2.2.1
+SU(2)−4 with adjoint
+We begin with 3d N = 2 SU(2) CS theory of level k = −4 with boundary, where the
+vector multiplet has Neumann boundary condition and the adjoint chiral multiplet
+has Dirichlet boundary condition. The half-index is evaluated by the matrix integral
+IISU(2)−4
+N,D
+(q) = (q)2
+∞
+2
+I
+ds
+2πis(s±2; q)∞(qs±2; q)∞.
+(2.17)
+One finds that it is described by the eta-product
+IISU(2)−4
+N,D
+= q−1
+4 η(4τ)2
+η(2τ)
+=
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n .
+(2.18)
+It can be expanded as
+IISU(2)−4
+N,D
+(q) =
+X
+n≥0
+q2tn
+= 1 + q2 + q6 + q12 + q20 + q30 + q42 + q56 + · · ·
+(2.19)
+where tn = n(n + 1)/2 are the triangular numbers.
+15
+
+
+--- PAGE 16 ---
+Since the eta-product in (2.18) can be also expressed as a Jacobi theta function
+(see e.g. [49]), we obtain the infinite series expression
+IISU(2)−4
+N,D
+(q) = 1
+2q−1
+4 X
+m∈Z
+q(m+ 1
+2 )2
+= 1
+2q−1
+4ϑ2(2τ).
+(2.20)
+Indeed, these results are easily derived. Using the Jacobi triple product identity
+(1.22) twice we have
+IISU(2)−4
+N,D
+(q) = 1
+2(q)2
+∞
+I
+ds
+2πis(s±2; q)∞(qs±2; q)∞
+= 1
+2
+I
+ds
+2πis
+X
+m,n∈Z
+(−1)m+nq
+1
+2 m(m+1)+ 1
+2 n(n+1)s2(m−n)
+= 1
+2
+X
+m∈Z
+qm(m+1) .
+(2.21)
+Now, setting x = −1 and replacing q with q2 in (1.22) we have
+X
+m∈Z
+qm(m+1) = (q2; q2)∞(−1; q2)∞(−q2; q2)∞
+=
+∞
+Y
+n=1
+(1 −q2n)2(1 + q2n)(1 + q2n)
+= 2
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n
+.
+(2.22)
+Hence
+IISU(2)−4
+N,D
+(q) = q−1
+4 η(4τ)2
+η(2τ)
+(2.23)
+as anticipated.
+Alternatively, we can write
+IISU(2)−4
+N,D
+(q) =
+X
+m∈Z
+q4m2+2m
+(2.24)
+which can be derived starting from (2.21) and splitting the sum into sum over even
+and odd integers with the replacements m →2m and m →−(2m + 1).
+The one-point functions of the charged Wilson lines Wn of 3d N = 2 SU(2) CS
+theory with level k = −4 obeying the previous boundary conditions are given by
+⟨Wn⟩SU(2)−4 = (q)2
+∞
+2
+I
+ds
+2πis(s±2; q)∞(qs±2; q)∞(sn + s−n).
+(2.25)
+16
+
+
+--- PAGE 17 ---
+We find that
+⟨W4k+2⟩SU(2)−4 = −qk(k+1)
+η(2τ)5
+η(τ)2η(4τ)2
+= −qk(k+1)
+∞
+Y
+n=1
+(1 −q2n)5
+(1 −qn)2(1 −q4n)2,
+(2.26)
+⟨W4k+4⟩SU(2)−4 = 2q(k+1)2−1
+4 η(4τ)2
+η(2τ)
+= 2q(k+1)2
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n ,
+(2.27)
+⟨W2k+1⟩SU(2)−4 = 0
+(2.28)
+for k ≥0. For even n, they are non-trivial whereas they vanish when n is odd. Note
+that the expression (2.28) is obtained by multiplying the half-index (2.18) by 2q(k+1)2.
+According to Jacobi’s identity (see e.g. [50])
+∞
+Y
+n=1
+(1 −q2n)5
+(1 −qn)2(1 −q4n)2 =
+X
+m∈Z
+qm2 = ϑ3(2τ)
+(2.29)
+and the eta-product identity, the one-point functions (2.26) and (2.28) can be also
+expressed as the infinite series
+⟨W4k+2⟩SU(2)−4 = −qk(k+1) X
+m∈Z
+qm2
+= −qk(k+1)ϑ3(2τ),
+(2.30)
+⟨W4k+4⟩SU(2)−4 = q(k+1)2−1
+4 X
+m∈Z
+q(m+ 1
+2 )2
+= q(k+1)2−1
+4ϑ2(2τ).
+(2.31)
+Similarly, we can analytically show the results as follows:
+⟨s2α⟩SU(2)−4 = 1
+2(q)2
+∞
+I
+ds
+2πis(s±2; q)∞(qs±2; q)∞s2α
+= 1
+2
+I
+ds
+2πis
+X
+m,n∈Z
+(−1)m+nq
+1
+2 m(m+1)+ 1
+2 n(n+1)s2(m−n+α)
+= 1
+2(−1)α X
+n∈Z
+q
+1
+2 (n−α)(n−α+1)+ 1
+2 n(n+1) .
+(2.32)
+Note that in the second line we can see that the expression vanishes if α is not an
+integer, demonstrating that the expression vanishes for odd powers of s.
+17
+
+
+--- PAGE 18 ---
+Now in the case where α = 2k we can define m = n −k to find
+X
+n∈Z
+q
+1
+2 (n−α)(n−α+1)+ 1
+2 n(n+1) =
+X
+m∈Z
+q
+1
+2 (m−k)(m−k+1)+ 1
+2 (m+k)(m+k+1)
+= qk2 X
+m∈Z
+qm(m+1) = 2qk2
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n
+(2.33)
+while if instead α = 2k + 1 we have
+X
+n∈Z
+q
+1
+2 (n−α)(n−α+1)+ 1
+2 n(n+1) =
+X
+m∈Z
+q
+1
+2 (m−k−1)(m−k)+ 1
+2 (m+k)(m+k+1)
+= qk(k+1) X
+m∈Z
+qm2 = qk(k+1)
+∞
+Y
+n=1
+(1 −q2n)5
+(1 −qn)2(1 −q4n)2 . (2.34)
+So, we see that
+⟨s4k⟩SU(2)−4 = qk2
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n
+(2.35)
+and
+⟨s4k+2⟩SU(2)−4 = −1
+2qk(k+1)
+∞
+Y
+n=1
+(1 −q2n)5
+(1 −qn)2(1 −q4n)2 .
+(2.36)
+We note that all these results involve eta-products of weight 1
+2.
+2.2.2
+SU(3)−6 with adjoint
+Next consider the SU(3) CS theory with an adjoint chiral multiplet. In the absence
+of the fundamental flavors, the theory coupled to an adjoint chiral has level k = −6.
+The half-index reads
+IISU(3)−6
+N,D
+= (q)4
+∞
+6
+I
+2
+Y
+i=1
+dsi
+2πisi
+3
+Y
+i̸=j
+si
+sj
+; q
+
+∞
+
+q si
+sj
+; q
+
+∞
+,
+(2.37)
+where s3 = s−1
+1 s−1
+2 .
+Using the Jacobi triple product expression (1.22) we can replace the integrand with
+an infinite sum over 6 integer variables mij where i, j, ∈{1, 2, 3} and we fix mii = 0.
+The two integrals can then be explicitly performed to remove two of the sums, leaving
+a sum over 4 variables. This gives the result
+IISU(3)−6
+N,D
+=
+1
+6(q)2
+∞
+X
+m12,m13,m21,m23∈Z
+(−1)m12+m21qX ,
+X = 1
+2m12(m12 + 1) + 1
+2m21(m21 + 1) + (m12 −m21)2
++ m13(m13 + m12 −m21 + 1) + m23(m23 −m12 + m21 + 1)
+(2.38)
+18
+
+
+--- PAGE 19 ---
+Using Mathematica, it can be expanded as
+1 + q2 + 2q4 + 2q8 + q10 + 2q12 + q16 + 2q18 + 2q20 + 2q24 + 2q28 + 3q32 + · · ·
+(2.39)
+We therefore find that to high order in q the half-index agrees with the following
+eta-product:
+IISU(3)−6
+N,D
+= q−2
+3 η(6τ)3
+η(2τ)
+=
+∞
+Y
+n=1
+(1 −q6n)3
+1 −q2n .
+(2.40)
+It follows that the half-index can be rewritten as
+IISU(3)−6
+N,D
+=
+X
+m1,m2∈Z
+q3(m2
+1+m2
+2)+3(m1+m2)2+2m1+4m2
+(2.41)
+although it is not obvious how to prove the result by deriving this expression from the
+sum over 4 variables (2.38).
+The one-point functions of the charged Wilson lines Wn are evaluated from the
+matrix integral
+⟨Wn⟩SU(3)−6 = (q)4
+∞
+6
+I
+2
+Y
+i=1
+dsi
+2πisi
+3
+Y
+i̸=j
+si
+sj
+; q
+
+∞
+
+q si
+sj
+; q
+
+∞
+(sn
+1 + sn
+2 + s−n
+1 s−n
+2 ), (2.42)
+where s3 = s−1
+1 s−1
+2 .
+We find that they are non-trivial only when the charge n is divisible by 3, and in
+particular are given by
+⟨W6k+3⟩SU(3)−6 = q2k(k+1)−1
+6 η(2τ)3η(3τ)2
+η(τ)2η(6τ)
+= q2k(k+1)
+∞
+Y
+n=1
+(1 −q2n)3(1 −q3n)2
+(1 −qn)2(1 −q6n) ,
+(2.43)
+⟨W6k+6⟩SU(3)−6 = 3q2(k+1)2−2
+3 η(6τ)3
+η(2τ)
+= 3q2(k+1)2
+∞
+Y
+n=1
+(1 −q6n)3
+(1 −q2n) ,
+(2.44)
+⟨Wn⟩SU(3)−6 = 0,
+for n ≡1, 2
+mod 3.
+(2.45)
+We note that all these results involve eta-products of weight 1, so for SU(2) and SU(3)
+we find eta-products of weight half the rank of the gauge group.
+19
+
+
+--- PAGE 20 ---
+2.2.3
+General case
+Let us discuss the general 3d N = 2 SU(N) CS theory coupled to an adjoint chiral
+with boundary, where the vector multiplet has Neumann boundary condition and the
+adjoint chiral multiplet has Dirichlet boundary conditions. The half-index is evaluated
+from the integral
+IISU(N)−2N
+N,D
+= 1
+N!(q; q)2(N−1)
+∞
+I
+N−1
+Y
+i=1
+dsi
+2πisi
+N
+Y
+i̸=j
+si
+sj
+; q
+
+∞
+
+q si
+sj
+; q
+
+∞
+,
+(2.46)
+where QN
+i=1 si = 1. Again, we can use the Jacobi triple product formula to express
+this half-index as a multiple sum. However, after integrating this leaves a sum over
+(N −1)2 variables but we conjecture an expression in terms of a sum over (N −1)
+variables.
+We conjecture that the half-index (2.46) is given by
+IISU(N)−2N
+N,D
+= q−N2−1
+12 η(2Nτ)N
+η(2τ)
+=
+∞
+Y
+n=1
+(1 −q2Nn)N
+1 −q2n
+= (q2N; q2N)N
+∞
+(q2; q2)∞
+.
+(2.47)
+We note that this is an eta-product of weight 1
+2(N −1), generalizing the pattern noted
+for the previous examples.
+Interestingly, the function (2.47) is identified with the generating function for the
+number cN(n) of N-core partitions, the partitions to which the associated Young
+diagrams have no hook length divisible by N [31]. Hence
+IISU(N)−2N
+N,D
+=
+X
+n≥0
+cN(n)q2n.
+(2.48)
+This implies that 3d N = 2 SU(N) CS theory of level k = −2N with an adjoint chiral
+multiplet admits the gauge invariant BPS local operators living at the boundary which
+are one-to-one with the N-core partitions!
+For prime N > 3 it follows that [51]
+η(Nτ)N
+η(τ)
+∈M N−1
+2 (Γ0(N), χN) ,
+(2.49)
+where Mk(Γ0(N), χN) is the vector space of holomorphic forms on Γ0(N) with the
+Legendre symbol χN. The half-index is simply obtained by replacing τ with 2τ and
+multiplying it by a monomial in q. Therefore, the half-index multiplied by a suitable
+power of q belongs to Mk(Γ0(N), χN).
+20
+
+
+--- PAGE 21 ---
+There is a bijection on t-core partitions from which the generating function can be
+rewritten as the infinite series [31]. Therefore we have
+IISU(N)−2N
+N,D
+=
+X
+m1,··· ,mN−1∈Z
+qN PN−1
+I=1 m2
+I+N(PN−1
+I=1 mI)2+2 PN−1
+I=1 (I−N)mI
+=
+X
+m1,··· ,mN−1∈Z
+qN PN
+I=1 m2
+I+2 PN
+I=1 ImI
+(2.50)
+where mN = −PN−1
+I=1 mI. It is tempting to try to interpret this result as the half-index
+of a dual theory with gauge group SU(N)2N with Dirichlet boundary conditions for the
+vector multiplet. The absence of the vector multiplet contribution, leaving only the
+monopole contribution, would correspond to having an adjoint chiral of R-charge zero
+with Dc boundary condition. However, the origin of the contribution to the exponent
+of q which is linear in mI is not clear.
+In the large N limit, it becomes the generating function for ordinary partitions
+lim
+N→∞IISU(N)−2N
+N,D
+=
+∞
+Y
+n=1
+1
+1 −q2n.
+(2.51)
+Also we find that the one-point functions of the charged Wilson line operators are
+non-trivial only when the charges are multiples of N. We conjecture that they also
+have expressions as eta-products with the structure depending on whether the charge
+is 0 or N modulo 2N
+⟨W2Nk+N⟩SU(N)−2N = (−1)N+1q(N−1)k(k+1)−(N−1)(N−2)
+12
+η(2τ)3η(Nτ)2η(2Nτ)N−4
+η(τ)2
+= (−1)N+1q(N−1)k(k+1)
+∞
+Y
+n=1
+(1 −q2n)3(1 −qNn)2(1 −q2Nn)N−4
+(1 −qn)2
+,
+(2.52)
+⟨W2Nk+2N⟩SU(N)−2N = Nq(N−1)(k+1)2−N2−1
+12 η(2Nτ)N
+η(2τ)
+= Nq(N−1)(k+1)2
+∞
+Y
+n=1
+(1 −q2Nn)N
+1 −q2n
+,
+(2.53)
+⟨Wn⟩SU(N)−2N = 0
+for n̸ ≡0, N
+mod 2N.
+(2.54)
+Note that all these results are of the form of an eta-product of weight
+1
+2(N −1)
+multiplied by a monomial in q.
+We remark that the matrix integrals (2.47), (2.52) and (2.53) for the half-index
+and the line defect correlators are equivalent to those of the Schur index [32, 33] and
+of the Schur line defect indices [34, 35] of 4d N = 2 pure SU(N) SYM theory.
+21
+
+
+--- PAGE 22 ---
+2.3
+SU(N)−2N−Nf/2 with adjoint
+In this section we consider the SU(N) CS theory coupled to Nf fundamental chirals as
+well as an adjoint chiral. As previously noted, since we have set the global fugacities
+to one, there are other interpretations of the fundamental chiral contributions as anti-
+fundamental chirals or with two replaced by a 2d fundamental Fermi. We present
+some results for Nf = 2, including a general conjecture for SU(N), then consider an
+example with Nf = 1.
+2.3.1
+SU(2)−5 with adjoint
+In the case with Nf = 2, we have the SU(2) CS theory with an adjoint chiral multiplet
+and level k = −5.
+We find that the unflavored half-index exactly agrees with the following eta-
+product:
+IISU(2)−5
+N,D
+= q−1
+6 η(2τ)5η(5τ)
+η(τ)3η(4τ)2
+=
+∞
+Y
+n=1
+(1 −q2n)5(1 −q5n)
+(1 −qn)3(1 −q4n)2.
+(2.55)
+As for the case with Nf = 0 we see that the weight of the eta-product is half the rank.
+In fact, we can calculate this exactly as follows
+IISU(2)−5
+N,D
+= (q)2
+∞
+2
+I
+ds
+2πis(s±2; q)∞(qs±2; q)∞(q
+1
+2s±; q)2
+∞
+=
+1
+(q)2
+∞
+ ∞
+Y
+n=1
+(1 −q2n)4(1 −q10n)5
+(1 −qn)2(1 −q5n)2(1 −q20n)2−
+−q
+∞
+Y
+n=1
+(1 −q2n)10(1 −q20n)2
+(1 −qn)4(1 −q4n)4(1 −q10n)
+!
+.
+(2.56)
+The matching of these two expressions is equivalent to a linear eta-product identity
+η(4τ)2η(10τ)5
+η(τ)η(2τ)η(5τ)3η(20τ)2 −
+η(2τ)5η(20τ)2
+η(τ)3η(4τ)2η(5τ)η(10τ) = 1,
+(2.57)
+where we note that the two eta-products on the left are modular functions. We have
+proved this identity6 using the qseries and ETA packages for Maple created by Garvan
+[29].
+Unlike the case without fundamental chirals, the one-point functions of the Wilson
+line operators do not seem to have simple expressions in terms of eta-products.
+6We thank one of the referees for pointing out that this identity was found by Michael Somos and
+can be found as t20 12 78 in the file eta07.gp at [52].
+22
+
+
+--- PAGE 23 ---
+2.3.2
+SU(3)−7 with adjoint
+To gain more insight, we proceed by examining the SU(3) CS theory of level −7 with
+Nf = 2 fundamental chirals and an adjoint chiral. We find that the unflavored half-
+index is given by the eta-product, again of weight half the rank of the gauge group
+and where Q3
+i=1 si = 1,
+IISU(3)−7
+N,D
+= 1
+3!(q; q)4
+∞
+I
+2
+Y
+i=1
+dsi
+2πisi
+ 3
+Y
+i̸=j
+si
+sj
+; q
+
+∞
+
+q si
+sj
+; q
+
+∞
+!
+3
+Y
+i=1
+(q
+1
+2s±
+i ; q)2
+∞
+= q−13
+24 η(3τ/2)2η(7τ)2
+η(τ)η(3τ)
+=
+∞
+Y
+n=1
+(1 −q
+3n
+2 )2(1 −q7n)2
+(1 −qn)(1 −q3n) .
+(2.58)
+2.3.3
+General case
+Now we propose the general formula for the half-index for 3d N = 2 SU(N) CS theory
+of level −2N −1 (with an adjoint chiral and Nf = 2) where the vector multiplet has
+Neumann boundary condition and the adjoint and (anti)fundamental chiral multiplets
+have Dirichlet boundary conditions. We conjecture that
+IISU(N)−2N−1
+N,D
+= 1
+N!(q; q)2(N−1)
+∞
+I
+N−1
+Y
+i=1
+dsi
+2πisi
+ N
+Y
+i̸=j
+si
+sj
+; q
+
+∞
+
+q si
+sj
+; q
+
+∞
+! N
+Y
+i=1
+(q
+1
+2s±
+i ; q)2
+∞
+=
+∞
+Y
+n=1
+(1 −(−1)NqNn)2(1 −qNn)3(1 −q(2N+1)n)N−1
+(1 −qn)(1 −(−1)Nq
+N
+2 n)2(1 −q2Nn)2
+=
+
+
+
+q−2N2−N−2
+24
+η(Nτ)5η((2N+1)τ)N−1
+η(τ)η(Nτ/2)2η(2Nτ)2
+for N even
+q−2N2−N−2
+24
+η(Nτ/2)2η((2N+1)τ)N−1
+η(τ)η(Nτ)
+for N odd
+=
+
+
+
+Q∞
+n=1
+(1−qNn)5(1−q(2N+1)n)N−1
+(1−qn)(1−q
+N
+2 n)2(1−q2Nn)2
+for N even
+Q∞
+n=1
+(1−q
+N
+2 n)2(1−q(2N+1)n)N−1
+(1−qn)(1−qNn)
+for N odd
+(2.59)
+where as before the weight of the eta-products is half the rank of the gauge group.
+2.3.4
+SU(2)−9/2 with adjoint
+When instead we take Nf = 1, the SU(2) CS theory with a single adjoint chiral
+multiplet has level k = −9/2. In this case, the unflavored half-index is given by
+II
+SU(2)−9/2
+N,D
+(x; q) = (q)2
+∞
+2
+I
+ds
+2πis(s±2; q)∞(qs±2; q)∞(q
+1
+2s±x; q)∞.
+(2.60)
+23
+
+
+--- PAGE 24 ---
+We find that the unflavored half-index is expressible as the weight-1
+2 eta-product
+II
+SU(2)−9/2
+N,D
+(x; q) = q−5
+24 η(3τ)2
+η(τ)
+=
+∞
+Y
+n=1
+(1 −q3n)2
+(1 −qn) .
+(2.61)
+Indeed we can calculate this exactly as follows
+II
+SU(2)−9/2
+N,D
+(x = 1; q) = (q)2
+∞
+2
+I
+ds
+2πis(s±2; q)∞(qs±2; q)∞(q
+1
+2s±; q)∞
+= ⟨(q
+1
+2s±; q)∞⟩SU(2)−4 =
+1
+(q)∞
+X
+m∈Z
+(−1)mq
+1
+2 m2⟨sm⟩SU(2)−4
+=
+1
+(q)∞
+X
+k∈Z
+
+q8k2⟨s4k⟩SU(2)−4 + q2(2k+1)2⟨s4k+2⟩SU(2)−4
+=
+1
+(q)∞
+X
+k∈Z
+ 
+q9k2
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n
+−1
+2q2q9k(k+1)
+∞
+Y
+n=1
+(1 −q2n)5
+(1 −qn)2(1 −q4n)2
+!
+=
+1
+(q)∞
+ ∞
+Y
+n=1
+(1 −q4n)2(1 −q18n)5
+(1 −q2n)(1 −q9n)2(1 −q36n)2−
+−q2
+∞
+Y
+n=1
+(1 −q2n)5(1 −q36n)2
+(1 −qn)2(1 −q4n)2(1 −q18n)
+!
+.
+(2.62)
+The matching of these two expressions is equivalent to a linear eta-product identity
+η(4τ)2η(18τ)5
+η(2τ)η(3τ)2η(9τ)2η(36τ)2 −
+η(2τ)5η(36τ)2
+η(τ)2η(3τ)2η(4τ)2η(18τ) = 1
+(2.63)
+where we note that the two eta-products on the left are modular functions. We have
+proved this identity7 using the qseries and ETA packages for Maple created by Garvan
+[29].
+2.4
+U(N) vs SU(N)
+The results for U(N) CS theories are essentially the same as for the SU(N) theories
+we have considered above. The main difference in the half-indices is that for U(N) we
+have N independent gauge fugacities, say ti, whereas for SU(N) there are N gauge
+fugacities, say si, with a constraint sN = QN−1
+i=1 s−1
+i . However, we can write ti = t1/Nsi
+and it is easy to see that
+N
+Y
+i=1
+I dti
+ti
+=
+I dt
+t
+N−1
+Y
+i=1
+I dsi
+si
+.
+(2.64)
+7We thank one of the referees for pointing out that this identity was found by Michael Somos and
+can be found as t36 12 126 in the file eta07.gp at [52].
+24
+
+
+--- PAGE 25 ---
+Also note that the contribution to the half-index from a vector multiplet or an adjoint
+chiral is the same for U(N) as for SU(N) up to an overall factor of (q)∞for each.
+Hence we see that with Neumann boundary conditions for the vector multiplet and
+Dirichlet for the adjoint chiral,
+⟨
+N
+Y
+i=1
+tαi
+i ⟩=
+(
+0
+,
+PN
+i=1 αi̸ = 0
+(q)2
+∞⟨QN−1
+i=1 sαi
+i ⟩
+,
+PN
+i=1 αi = 0
+(2.65)
+For example if we consider U(2) with an adjoint chiral we have
+IIU(2)
+N
+= (q)2
+∞
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n
+(2.66)
+using (2.23).
+Similarly we can calculate
+⟨sα
+1sβ
+2⟩U(2) = 1
+2(q)4
+∞
+I
+ds1
+2πis1
+ds2
+2πis2
+(s±
+1 s∓
+2 ; q)∞(qs±
+1 s∓
+2 ; q)∞sα
+1sβ
+2
+(2.67)
+with results using (2.35)
+⟨s2k
+1 s−2k
+2
+⟩U(2) = qk2(q)2
+∞
+∞
+Y
+n=1
+(1 −q4n)2
+1 −q2n
+(2.68)
+and (2.36)
+⟨s2k+1
+1
+s−(2k+1)
+2
+⟩U(2) = −1
+2qk(k+1)(q)2
+∞
+∞
+Y
+n=1
+(1 −q2n)5
+(1 −qn)2(1 −q4n)2 .
+(2.69)
+3
+USp(2n) CS theories
+Here we consider USp(2n)k gauge theories with Nf fundamental chirals where the
+vector multiplet has Neumann boundary condition and the fundamental chirals, QI,
+have R-charge 1 and Dirichlet boundary conditions. We may also consider an adjoint
+chiral Φ with R-charge 0 and Dirichlet boundary condition.
+We summarize the field content and charges in the following table
+bc
+USp(2n)
+SU(Nf)
+U(1)A
+U(1)B
+U(1)R
+VM
+N
+Adj
+1
+0
+0
+0
+Φ
+D
+Adj
+1
+0
+1
+0
+QI
+D
+2n
+Nf
+1
+0
+1
+(3.1)
+25
+
+
+--- PAGE 26 ---
+We can easily calculate the gauge and ’t Hooft anomalies [28] as follows,
+A = (n + 1) Tr(s2) + n(2n + 1)
+2
+r2
+|
+{z
+}
+VM, N
++ (n + 1) Tr(s2) + n(2n + 1)
+2
+(b −r)2
+|
+{z
+}
+Φ, D
++
+Nf
+2 Tr(s2) + n Tr(x2) + nNfa2
+
+|
+{z
+}
+QI, D
+=
+
+2n + 2 + Nf
+2
+
+Tr(s2) + n Tr(x2) + nNfa2+
++ n(2n + 1)
+2
+b2 −n(2n + 1)br + n(2n + 1)r2
+(3.2)
+in the case with an adjoint chiral, while without the adjoint chiral the result is easily
+seen to be
+A =
+
+n + 1 + Nf
+2
+
+Tr(s2) + n Tr(x2) + nNfa2 + n(2n + 1)
+2
+r2 .
+(3.3)
+To cancel the gauge anomaly we need to take CS level
+k = −2n −2 −Nf
+2
+(3.4)
+in the case with an adjoint chiral and
+k = −n −1 −Nf
+2
+(3.5)
+without an adjoint chiral.
+Similar to the case with unitary gauge group, the only distinction between two
+fundamental chirals with Dirichlet boundary conditions and a 2d fundamental Fermi
+multiplet is in the details of the global symmetries. Therefore we cannot distinguish
+between these cases if we set the flavor fugacities to 1.
+The half-index takes the form [3, 4, 5, 28]
+IIUSp(2n)k
+N
+= (q)n
+∞
+n!2n
+n
+Y
+i=1
+I
+dsi
+2πisi
+ n
+Y
+i̸=j
+(sis−1
+j ; q)∞
+! n
+Y
+i≤j
+(s±
+i s±
+j ; q)∞
+!
+×
+Nf
+Y
+α=1
+n
+Y
+i=1
+(q1/2s±
+i xα; q)∞.
+(3.6)
+without an adjoint chiral and
+IIUSp(2n)k
+N,D
+= (q)2n
+∞
+n!2n
+n
+Y
+i=1
+I
+dsi
+2πisi
+ n
+Y
+i̸=j
+(sis−1
+j ; q)∞(qsis−1
+j ; q)∞
+! n
+Y
+i≤j
+(s±
+i s±
+j ; q)∞(qs±
+i s±
+j ; q)∞
+!
+×
+Nf
+Y
+α=1
+n
+Y
+i=1
+(q1/2s±
+i xα; q)∞
+(3.7)
+26
+
+
+--- PAGE 27 ---
+with an adjoint chiral.
+Again the correlators of the BPS Wilson line operators in the representation R can
+be evaluated by introducing the characters. In the case of USp(2n) gauge group, the
+character of the irreducible representation with highest weight labeled by the Young
+diagram λ is given by [53]
+χusp(2n)
+λ
+(s) = det(sλi+n−i+1
+j
+−s−(λi+n−i+1)
+j
+)
+det(sn−i+1
+j
+−s−(n−i+1)
+j
+)
+.
+(3.8)
+For example, the character of the fundamental representation is
+χusp(2n)(s) =
+n
+X
+i=1
+(si + s−1
+i )
+(3.9)
+We consider another basis for the set of Wilson lines Wk labeled by the power sym-
+metric functions
+pk(s) + pk(s−1) =
+n
+X
+i=1
+sk
+i + s−k
+i .
+(3.10)
+Similarly, we call them the Wilson lines of charge k.
+3.1
+USp(2n)−n−1
+Let us begin with the pure CS theory of symplectic gauge group, i.e. Nf = 0 and no
+adjoint chiral.
+3.1.1
+USp(4)−3
+With n = 2, one finds the USp(4) pure CS theory of level k = −3 whose vector
+multiplet obeys the Neumann boundary condition. As the theory has no matter fields,
+there is no non-trivial gauge invariant BPS local operators at the boundary so that
+the half-index is trivial
+IIUSp(4)−3
+N
+= (q)2
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+ 2
+Y
+i̸=j
+(sis−1
+j ; q)∞
+! 2
+Y
+i≤j
+(s±
+i s±
+j ; q)∞
+!
+= 1.
+(3.11)
+Non-trivial one-point functions appear for the Wilson lines with even charges
+⟨W2⟩USp(4)−3 = −1 −q,
+(3.12)
+⟨W4⟩USp(4)−3 = −1 −q2,
+(3.13)
+⟨W6⟩USp(4)−3 = q + q2 + q4 + q5,
+(3.14)
+⟨W8⟩USp(4)−3 = −q4 −q8,
+(3.15)
+⟨W10⟩USp(4)−3 = −q5 −q10,
+(3.16)
+⟨W12⟩USp(4)−3 = q8 + q10 + q14 + q16.
+(3.17)
+27
+
+
+--- PAGE 28 ---
+We conjecture that the non-trivial one-point function of the Wilson line in the
+symmetric representation is given by
+⟨W(6k)⟩USp(4)−3 = qk(3k+2),
+⟨W(6k−4)⟩USp(4)−3 = −qk(3k−2)
+(3.18)
+for k = 1, 2, · · · . We have numerically checked the formula (3.18) up to rank-15 sym-
+metric Wilson line. We see that the local operators counted by the one-point functions
+(3.18) carry the charges which are given by the generalized octagonal numbers. It is in-
+structive to compare the expressions (3.18) with the one-point function for the USp(2)
+∼= SU(2) pure CS theory of level k = −2 in [6]
+⟨W(4k)⟩USp(2)−2 = qk(2k+1),
+⟨W(4k−2)⟩USp(2)−2 = −qk(2k−1),
+(3.19)
+for which the local operator carries the triangular number charge, or equivalently,
+generalized hexagonal numbers.
+3.1.2
+USp(6)−4
+For n = 3, we have the USp(6) pure CS theory of level k = −4 whose vector multiplet
+obeys the Neumann boundary condition. While the half-index is trivial, we obtain the
+non-trivial one-point functions of the Wilson lines with even charges. For example,
+⟨W2⟩USp(6)−4 = −1 −q,
+(3.20)
+⟨W4⟩USp(6)−4 = −1 −q2,
+(3.21)
+⟨W6⟩USp(6)−4 = −1 −q3,
+(3.22)
+⟨W8⟩USp(6)−4 = q + q2 + q3 + q5 + q6 + q7,
+(3.23)
+⟨W10⟩USp(6)−4 = −q5 −q10.
+(3.24)
+For the symmetric Wilson lines, we conjecture that
+⟨W(8k)⟩USp(6)−4 = qk(4k+3),
+⟨W(8k−6)⟩USp(6)−4 = −qk(4k−3).
+(3.25)
+We have numerically confirmed the conjectural results (3.25) up to the rank-11 sym-
+metric Wilson line. We see that the charges carried by the local operators are identified
+with the generalized decagonal numbers.
+28
+
+
+--- PAGE 29 ---
+3.1.3
+General case
+We conjecture that the non-trivial one-point functions of the Wilson lines in the sym-
+metric representation are given by
+⟨W(2(n+1)k)⟩USp(2n)−n−1 = qk((n+1)k−n),
+⟨W(2(n+1)k−2n)⟩USp(2n)−n−1 = −qk((n+1)k+n).
+(3.26)
+This indicates that the boundary local operators at the end of the symmetric Wilson
+line carry the the generalized (2n + 4)-gonal number charges.
+We can define a grand canonical ensemble as
+X
+k∈Z
+⟨W(2(n+1)k)⟩USp(2n)−n−1Λ(n+1)k +
+X
+k∈Z
+⟨W(2(n+1)k−2n)⟩USp(2n)−n−1Λ(n+1)k−n
+= q−1
+4 (n−1) 
+Λ
+1
+2 (n+1)ϑ2 ((n + 1)z + τ; 2(n + 1)τ) −Λ−3
+2 n−1
+2ϑ2 ((n + 1)z −τ; 2(n + 1)τ)
+
+(3.27)
+where q = e2πiτ and Λ = e2πiz. The appearance of Jacobi theta functions indicates
+interesting modular properties and it would be interesting to investigate the physical
+interpretation of this.
+3.2
+USp(2n)−n−3/2
+We now consider the case with a single chiral multiplet, i.e. Nf = 1 but still no adjoint
+chiral.
+3.2.1
+USp(4)−7/2
+For n = 2, the CS theory has gauge group USp(4) and level k = −7/2. It is coupled
+to a fundamental chiral with Dirichlet boundary condition so that the half-index is
+non-trivial, unlike for Nf = 0. The half-index is evaluated from the matrix integral
+II
+USp(4)−7/2
+N
+= (q)2
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+ 2
+Y
+i̸=j
+(sis−1
+j ; q)∞
+! 2
+Y
+i≤j
+(s±
+i s±
+j ; q)∞
+!
+2
+Y
+i=1
+(q1/2s±
+i x; q)∞.
+(3.28)
+It can be expanded as
+1 + x2q + (x2 + x4)q2 + (x2 + x4)q3 + (x2 + 2x4)q4 + (x2 + 2x4 + x6)q5 + · · ·
+(3.29)
+which in the unflavored limit, beomes
+1 + q + 2q2 + 2q3 + 3q4 + 4q5 + 6q6 + 7q7 + 10q8 + 12q9 + 16q10
++ 19q11 + 25q12 + 30q13 + · · · .
+(3.30)
+29
+
+
+--- PAGE 30 ---
+We find that it agrees with
+II
+USp(4)−7/2
+N
+= f(−q3, −q4)
+f(−q)
+=
+∞
+Y
+n=1
+1
+(1 −q7n−1)(1 −q7n−2)(1 −q7n−5)(1 −q7n−6).
+(3.31)
+The one-point function of the Wilson line in the fundamental representation is
+given by
+⟨W ⟩USp(4)−7/2 = (q)2
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+ 2
+Y
+i̸=j
+(sis−1
+j ; q)∞
+! 2
+Y
+i≤j
+(s±
+i s±
+j ; q)∞
+!
+2
+Y
+i=1
+(q1/2s±
+i x; q)∞
+× (s1 + s2 + s−1
+1
++ s−1
+2 ).
+(3.32)
+We find that in the unflavored limit it can be expanded as
+−q
+1
+2(1 + q + q2 + 2q3 + 3q4 + 3q5 + 5q6 + 6q7 + 8q8 + 13q10
++ 16q11 + 21q12 + 25q13 + · · · ).
+(3.33)
+We conjecture that
+⟨W ⟩USp(4)−7/2 = −q
+1
+2 f(−q2, −q5)
+f(−q)
+= −q
+1
+2
+∞
+Y
+n=1
+1
+(1 −q7n−1)(1 −q7n−3)(1 −q7n−4)(1 −q7n−6).
+(3.34)
+Also we find that the unflavored one-point functions of symmetric Wilson lines are
+simply given in terms of the half-index (3.31) and the one-point function (3.34) of the
+fundamental Wilson line
+⟨W
+⟩USp(4)−7/2(q) = q
+1
+2II
+USp(4)−7/2
+N
+(q),
+(3.35)
+⟨W
+⟩USp(4)−7/2(q) = q
+3
+2⟨W ⟩USp(4)−7/2(q),
+(3.36)
+⟨W
+⟩USp(4)−7/2(q) = 0,
+(3.37)
+⟨W
+⟩USp(4)−7/2(q) = 0,
+(3.38)
+⟨W
+⟩USp(4)−7/2(q) = 0,
+(3.39)
+⟨W
+⟩USp(4)−7/2(q) = −q
+11
+2 II
+USp(4)−7/2
+N
+(q),
+(3.40)
+⟨W
+⟩USp(4)−7/2(q) = −q
+13
+2 ⟨W ⟩USp(4)−7/2(q),
+(3.41)
+⟨W
+⟩USp(4)−7/2(q) = −q8⟨W ⟩USp(4)−7/2(q),
+(3.42)
+⟨W
+⟩USp(4)−7/2(q) = −q10II
+USp(4)−7/2
+N
+(q).
+(3.43)
+30
+
+
+--- PAGE 31 ---
+We remark that the unflavored half-index (3.31) and the one-point function (3.34)
+of the fundamental Wilson line resemble the Rogers-Ramanujan functions which ap-
+pear in the SU(2) ∼= USp(2) CS theory with level k = −5/2 [6] . In fact, they are
+identified with the functions associated with the Rogers-Selberg identities [54] which
+generalize the Rogers-Ramanujan identities! We have
+II
+USp(4)−7/2
+N
+(q) = (q2; q2)∞
+(q; q)∞
+∞
+X
+n=0
+q2n2
+(q2; q2)n(−q; q)2n
+,
+(3.44)
+⟨W ⟩USp(4)−7/2 = (q2; q2)∞
+(q; q)∞
+∞
+X
+n=0
+q2n2+2n
+(q2; q2)n(−q; q)2n
+.
+(3.45)
+3.2.2
+USp(6)−9/2
+For n = 3, we have USp(6) CS theory with level k = −9/2 and a fundamental chiral
+with Dirichlet boundary condition.
+We find that the unflavored half-index agrees with the following q-series:
+II
+USp(6)−9/2
+N
+= f(−q4, −q5)
+f(−q)
+=
+∞
+Y
+n=1
+1
+(1 −q9n−1)(1 −q9n−2)(1 −q9n−3)(1 −q9n−6)(1 −q9n−7)(1 −q9n−8)
+= 1 + q + 2q2 + 3q3 + 4q4 + 5q5 + 8q6 + 10q7 + · · · .
+(3.46)
+We find that the unflavored one-point function coincides with
+⟨W ⟩USp(6)−9/2 = −q1/2f(−q3, −q6)
+f(−q)
+= −q
+1
+2
+∞
+Y
+n=1
+1
+(1 −q9n−1)(1 −q9n−2)(1 −q9n−4)(1 −q9n−5)(1 −q9n−7)(1 −q9n−8)
+= −q
+1
+2(1 + q + 2q2 + 2q3 + 4q4 + 5q5 + 7q6 + 9q7 + · · · ).
+(3.47)
+The unflavored one-point functions of symmetric Wilson lines are expressible in
+terms of the half-index (3.46) and the one-point function (3.47) of the fundamental
+Wilson line. For example,
+⟨W
+⟩USp(6)−9/2(q) = q
+1
+2⟨W ⟩USp(6)−9/2(q),
+(3.48)
+⟨W
+⟩USp(6)−9/2(q) = q
+3
+2II
+USp(6)−9/2
+N
+(q),
+(3.49)
+⟨W
+⟩USp(6)−9/2(q) = 0,
+(3.50)
+⟨W
+⟩USp(6)−9/2(q) = 0,
+(3.51)
+⟨W
+⟩USp(6)−9/2(q) = 0,
+(3.52)
+31
+
+
+--- PAGE 32 ---
+⟨W
+⟩USp(6)−9/2(q) = 0,
+(3.53)
+⟨W
+⟩USp(6)−9/2(q) = 0.
+(3.54)
+The one-point function ⟨W
+⟩USp(6)−9/2(q) is non-zero and we conjecture
+that it and higher symmetric representation Wilson lines can be written as a product
+of II
+USp(6)−9/2
+N
+(q) or ⟨W ⟩USp(6)−9/2(q) with a monomial in q
+1
+2.
+We note that the half-index (3.46) can be rewritten as the infinite series according
+to Bailey’s modulus 9 analog of the Rogers-Ramanujan identities [55, 56]
+II
+USp(6)−9/2
+N
+= (q3; q3)∞
+(q; q)∞
+∞
+X
+n=0
+(q; q)3n
+(q3; q3)n(q3; q3)2n
+q3n2.
+(3.55)
+3.2.3
+General case
+We observe that the unflavored Neumann half-index and the one-point functions of the
+Wilson line operators for USp(2n)−n−3/2 CS theory with a fundamental chiral multiplet
+are expressible in terms of Ramanujan’s general theta function. We conjecture that
+II
+USp(2n)−n−3/2
+N
+= f(−qn+1, −qn+2)
+f(−q)
+(3.56)
+and
+⟨W ⟩USp(2n)−n−3/2 = −q
+1
+2 f(−qn, −qn+3)
+f(−q)
+.
+(3.57)
+For n = 1 the half-index (3.56) and the one-point function (3.57) reproduces the
+Rogers-Ramanujan functions as proved in [6]. It would be interesting to investigate
+further the modular properties of these half-indices and one-point functions for general
+n.
+3.3
+USp(2n)−2n−2 with adjoint
+Let us now consider symplectic gauge theories with an adjoint chiral and in this section
+we set Nf = 0. The case of n = 1 corresponds to SU(2) with an adjoint chiral discussed
+in section 2.2.1.
+3.3.1
+USp(4)−6 with adjoint
+With n = 2 we have the USp(4) CS theory with level k = −6. The half-index reads
+IIUSp(4)−6
+N,D
+= (q)4
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+ 2
+Y
+i̸=j
+(sis−1
+j ; q)∞(qsis−1
+j ; q)∞
+! 2
+Y
+i≤j
+(s±
+i s±
+j ; q)∞(qs±
+i s±
+j ; q)∞
+!
+(3.58)
+32
+
+
+--- PAGE 33 ---
+which, as for gauge group SU(N) with an adjoint chiral, has weight given by half the
+rank of the gauge group.
+The unflavored half-index agrees with the following eta-product:
+IIUSp(4)−6
+N,D
+= q−5
+6 η(4τ)η(6τ)η(12τ)
+η(2τ)
+=
+∞
+Y
+n=1
+(1 −q4n)(1 −q6n)(1 −q12n)
+(1 −q2n)
+.
+(3.59)
+The one-point functions of the Wilson lines with even charges are non-trivial while
+those of the Wilson lines with odd charges vanish. We find that the unflavored one-
+point functions of the Wilson lines with charge 2, 4 and 6 can be expressed as the
+eta-products
+⟨W2⟩USp(4)−6 = −q−2
+3 η(2τ)4η(3τ)2η(12τ)2
+η(τ)2η(4τ)2η(6τ)2
+= −
+∞
+Y
+n=1
+(1 −q2n)4(1 −q3n)2(1 −q12n)2
+(1 −qn)2(1 −q4n)2(1 −q6n)2 ,
+(3.60)
+⟨W4⟩USp(4)−6 = −q−1
+6 η(4τ)2η(6τ)4
+η(2τ)2η(12τ)2
+= −
+∞
+Y
+n=1
+(1 −q4n)2(1 −q6n)4
+(1 −q2n)2(1 −q12n)2,
+(3.61)
+⟨W6⟩USp(4)−6 = 2q
+2
+3
+η(2τ)2η(6τ)4
+η(τ)η(3τ)η(4τ)η(12τ)
+= 2q
+∞
+Y
+n=1
+(1 −q2n)2(1 −q6n)4
+(1 −qn)(1 −q3n)(1 −q4n)(1 −q12n).
+(3.62)
+For the Wilson lines with larger charges they are expressible in terms of the half-
+index (3.58) and one-point functions (3.60), (3.61) (3.62) for lower charges
+⟨W8⟩USp(4)−6 = q2⟨W4⟩USp(2n)−6,
+(3.63)
+⟨W10⟩USp(4)−6 = q4⟨W2⟩USp(2n)−6,
+(3.64)
+⟨W12⟩USp(4)−6 = 4q6IIUSp(4)−6
+N,D
+,
+(3.65)
+⟨W14⟩USp(4)−6 = q8⟨W2⟩USp(2n)−6,
+(3.66)
+⟨W16⟩USp(4)−6 = q10⟨W4⟩USp(2n)−6,
+(3.67)
+⟨W18⟩USp(4)−6 = q12⟨W6⟩USp(2n)−6.
+(3.68)
+33
+
+
+--- PAGE 34 ---
+3.4
+USp(2n)−2n−2−Nf/2 with adjoint
+Next consider the USp(2n) CS theory with both an adjoint and Nf fundamental
+chirals.
+3.4.1
+USp(4)−13/2 with adjoint
+For n = 2 and Nf = 1, USp(4) CS theory has level k = −13/2. We find that the
+unflavored half-index can be expanded as
+II
+USp(4)−13/2
+N,D
+= 1 + q + 3q2 + 3q3 + 4q4 + 6q5 + 10q6 + 10q7
++ 16q8 + 19q9 + 26q10 + 31q11 + 41q12 + · · ·
+(3.69)
+This agrees with
+q
+1
+3
+
+5 +
+η(τ)2
+η(13τ)2 + 13η(13τ)2
+η(τ)2
+ 1
+3
+,
+(3.70)
+which is the Mckay-Thompson series of class 39B for Monster group [57, 58] up to the
+overall q factor.
+3.4.2
+USp(6)−17/2 with adjoint
+With n = 3 and Nf = 1 we have the USp(6) CS theory with level k = −17/2. We
+find that the unflavored half-index has an expansion
+1 + q + 3q2 + 4q3 + 6q4 + 7q5 + 13q6 + 16q7 + · · · .
+(3.71)
+This coincides with
+ψ(q2)φ(q17) −q4φ(q)ψ(q34)
+f(−q)f(−q17)
+,
+(3.72)
+which is the Mckay-Thompson series of class 34a for Monster group [57, 58] up to the
+overall q factor.
+4
+SO(N) CS theories
+In this section we investigate SO(N)k gauge theories with Nf fundamental chirals, QI,
+where the vector multiplet has Neumann boundary condition and the fundamental
+chirals have Dirichlet boundary conditions. We may also consider an adjoint chiral Φ
+with R-charge 0 and Dirichlet boundary condition. We include discrete fugacities ζ
+34
+
+
+--- PAGE 35 ---
+for the ZM
+2
+magnetic symmetry and χ for ZC
+2 charge conjugation symmetry, although
+for the theories we consider there is no dependence on the magnetic fugacity ζ.
+We summarize the field content and charges in the following table
+bc
+SO(N)
+SU(Nf)
+U(1)A
+U(1)B
+U(1)R
+VM
+N
+Adj
+1
+0
+0
+0
+Φ
+D
+Adj
+1
+0
+1
+0
+QI
+D
+N
+Nf
+1
+0
+1
+(4.1)
+We can easily calculate the gauge and ’t Hooft anomalies [28] as follows,
+A = (N −2) Tr(s2) + N(N −1)
+4
+r2
+|
+{z
+}
+VM, N
++ (N −2) Tr(s2) + N(N −1)
+4
+(b −r)2
+|
+{z
+}
+Φ, D
++
+
+Nf Tr(s2) + N
+2 Tr(x2) + NNf
+2
+a2
+
+|
+{z
+}
+QI, D
+= (2N −4 + Nf) Tr(s2) + N
+2 Tr(x2) + NNf
+2
+a2+
++ N(N −1)
+4
+b2 −N(N −1)
+2
+br + N(N −1)
+2
+r2
+(4.2)
+in the case with an adjoint chiral, while without the adjoint chiral the result is easily
+seen to be
+A = (N −2 + Nf) Tr(s2) + N
+2 Tr(x2) + NNf
+2
+a2 + N(N −1)
+4
+r2 .
+(4.3)
+To cancel the gauge anomaly we need to take CS level
+k = −2N + 4 −Nf
+(4.4)
+in the case with an adjoint chiral and
+k = −N + 2 −Nf
+(4.5)
+without an adjoint chiral.
+Similar to the previous case with unitary or symplectic gauge groups, the only
+distinction between two fundamental chirals with Dirichlet boundary conditions and a
+2d fundamental Fermi multiplet is in the details of the global symmetries. Therefore
+we cannot distinguish between these cases if we set the flavor fugacities to 1.
+We can write the half-index without an adjoint chiral as [3, 4, 5, 28]
+II
+SO(N)k,ζχ
+N
+=
+(q)n
+∞
+n!2n−1+ϵ
+n
+Y
+i=1
+I
+dsi
+2πisi
+(χs±
+i ; q)ϵ
+∞
+n
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞
+×
+Nf
+Y
+α=1
+ 
+(χq
+1
+2xα; q)ϵ
+∞
+n
+Y
+i=1
+(q
+1
+2s±
+i xα; q)∞
+!
+(4.6)
+35
+
+
+--- PAGE 36 ---
+where N = 2n + ϵ with n ∈Z and ϵ ∈{0, 1}, except in the case where χ = −1 and
+ϵ = 0 where we have
+II
+SO(2n)k,ζ−
+N
+= (q)n−1
+∞(−q; q)∞
+(n −1)!2n−1
+n−1
+Y
+i=1
+I
+dsi
+2πisi
+(s±
+i ; q)∞(−s±
+i ; q)∞
+n−1
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞
+×
+Nf
+Y
+α=1
+ 
+(±q
+1
+2xα; q)∞
+n−1
+Y
+i=1
+(q
+1
+2s±
+i xα; q)∞
+!
+.
+(4.7)
+Similarly, with an adjoint chiral we have
+II
+SO(N)k,ζχ
+N,D
+=
+(q)2n
+∞
+n!2n−1+ϵ
+n
+Y
+i=1
+I
+dsi
+2πisi
+(χs±
+i ; q)ϵ
+∞(χqs±
+i ; q)ϵ
+∞
+×
+n
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞(qs±
+i s∓
+j ; q)∞(qs±
+i s±
+j ; q)∞
+×
+Nf
+Y
+α=1
+ 
+(χq
+1
+2xα; q)ϵ
+∞
+n
+Y
+i=1
+(q
+1
+2s±
+i xα; q)∞
+!
+,
+(4.8)
+except in the case where χ = −1 and ϵ = 0 where we have
+II
+SO(2n)k,ζ−
+N,D
+= (q)2n−2
+∞
+(−q; q)2
+∞
+(n −1)!2n−1
+n−1
+Y
+i=1
+I
+dsi
+2πisi
+(s±
+i ; q)∞(−s±
+i ; q)∞(qs±
+i ; q)∞(−qs±
+i ; q)∞
+×
+n−1
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞(qs±
+i s∓
+j ; q)∞(qs±
+i s±
+j ; q)∞
+×
+Nf
+Y
+α=1
+ 
+(±q
+1
+2xα; q)∞
+n−1
+Y
+i=1
+(q
+1
+2s±
+i xα; q)∞
+!
+.
+(4.9)
+We can compute the correlators of the BPS Wilson line operators in the represen-
+tation R by inserting the characters in the matrix integral. In the case of SO(2n + 1)
+and SO(2n) gauge groups with discrete fugacity χ = +, the characters of the irre-
+ducible representation with highest weight labeled by the Young diagram λ are given
+by [53]
+χso(2n+1)
+λ
+(s) = det(sλi+n−i+1/2
+j
+−s−(λi+n−i+1/2)
+j
+)
+det(sn−i+1/2
+j
+−s−(n−i+1/2)
+j
+)
+,
+(4.10)
+χso(2n)
+λ
+(s) = det(sλi+n−i
+j
++ s−(λi+n−i)
+j
+) + det(sλi+n−i
+j
+−s−(λi+n−i)
+j
+)
+det(sn−i
+j
++ s−(n−i)
+j
+)
+,
+(4.11)
+36
+
+
+--- PAGE 37 ---
+For example, the characters of the fundamental representation are
+χso(2n+1)(s) = 1 +
+n
+X
+i=1
+(si + s−1
+i ),
+(4.12)
+χso(2n)(s) =
+n
+X
+i=1
+(si + s−1
+i ).
+(4.13)
+Similarly, we also introduce another basis for the Wilson lines Wk labeled by 1+pk(s)+
+pk(s−1) and pk(s) + pk(s−1) for SO(2n + 1) and SO(2n) respectively, which we refer
+to as the charged Wilson lines.
+For SO(2n) with χ = −we instead employ the character (3.8) of the USp(2n−2).
+In the case of gauge group SO(2n + 1) with χ = −we can use the character for the
+case with χ = + up to a change of sign for some terms. In particular, for an even
+(odd) rank representation each term in the character will be a product of an even
+(odd) number of fugacities {s±
+i , χ}. Therefore, terms in the character with a product
+of an odd (even) number of fugacities {s±
+i } must have a factor of χ, and hence will
+change sign in the case of χ = −compared to he case of χ = +.
+4.1
+SO(2n)−2n+2
+Let us begin with the theories of even rank orthogonal gauge groups, i.e. with ϵ = 0,
+and with no adjoint or fundamental chirals.
+4.1.1
+SO(4)−2
+For n = 2 we have the SO(4) pure CS theory with level k = −2 obeying the Neumann
+boundary condition. The half-index is trivial
+II
+SO(4)−2,ζ+
+N
+= (q)2
+∞
+4
+2
+Y
+i=1
+I
+dsi
+2πisi
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞= 1.
+(4.14)
+The half-index is decorated by the insertion of the Wilson lines. The one-point
+function of the charge-n Wilson line is evaluated as
+⟨Wn⟩SO(4)−2,ζ+ = (q)2
+∞
+4
+2
+Y
+i=1
+I
+dsi
+2πisi
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞(sn
+1 + sn
+2 + s−n
+1
++ s−n
+2 )
+(4.15)
+It is again straightforward to calculate this using the Jacobi triple product formula.
+The non-trivial one-point function appears for even n. We find
+⟨W2k⟩SO(4)−2,ζ+ = qk(k−1) + 2qk2 + qk(k+1).
+(4.16)
+37
+
+
+--- PAGE 38 ---
+Indeed we can derive the general result that if α + β is odd then ⟨sα
+1sβ
+2⟩SO(4)−2 = 0
+while if α + β is even then
+⟨sα
+1sβ
+2⟩SO(4)−2 = (−1)β
+4
+q
+1
+4 (α2+β2) 
+q
+1
+2 α + q−1
+2 α + q
+1
+2 β + q−1
+2 β
+.
+(4.17)
+We can also derive the one-point functions of Wilson lines in the (anti)symmetric
+representations. We have
+⟨W(2k)⟩SO(4)−2,ζ+ = qk(k+1),
+(4.18)
+⟨W ⟩SO(4)−2,ζ+ = −q.
+(4.19)
+while those for the odd rank symmetric representations vanish.
+For χ = −there is no non-trivial antisymmetric Wilson line. The one-point func-
+tions of the symmetric Wilson lines involves the sign factor with a single term
+⟨W(2k)⟩SO(4)−2,ζ−= (−1)kqk(k+1).
+(4.20)
+4.1.2
+SO(6)−4
+When n = 3 the theory is the SO(6) pure CS theory with level k = −4. Again the
+half-index is trivial as there is no boundary BPS local operator. One finds non-trivial
+boundary BPS local operators in the presence of the Wilson line. We find that the
+one-point functions of the Wilson lines with even charges are non-trivial. For example,
+⟨W2⟩SO(6)−4,ζ+ = 1 + q,
+(4.21)
+⟨W4⟩SO(6)−4,ζ+ = 1 + q + 2q2 + q3 + q4,
+(4.22)
+⟨W6⟩SO(6)−4,ζ+ = q3 + q6,
+(4.23)
+⟨W8⟩SO(6)−4,ζ+ = q4 + q6 + 2q8 + q10 + q12,
+(4.24)
+⟨W10⟩SO(6)−4,ζ+ = q10 + q15
+(4.25)
+We find that the one-point functions of the Wilson lines in the rank-4k symmet-
+ric representations are non-trivial while those in the other symmetric representations
+vanish. We find that
+⟨W(4k)⟩SO(6)−4,ζ+ = q2k(k+1),
+(4.26)
+⟨W(4k)⟩SO(6)−4,ζ−= (−1)kq2k(k+1).
+(4.27)
+Also we have the non-vanishing one-point function of the rank-2 antisymmetric Wilson
+line
+⟨W ⟩SO(6)−4,ζχ = −q.
+(4.28)
+which is independent of χ.
+38
+
+
+--- PAGE 39 ---
+4.1.3
+General case
+For general the SO(2n) pure CS theory with level k = −2n + 2 obeying the Neu-
+mann boundary condition, the half-index is trivial. On the other hand, the one-point
+functions of the Wilson lines in the rank-(2(n −1)k) symmetric representations where
+k = 1, 2, · · · are non-trivial. We conjecture that
+⟨W(2(n−1)k)⟩SO(2n)−2n+2,ζ+ = q(n−1)k(k+1).
+(4.29)
+We can define a grand canonical ensemble as
+X
+k∈Z
+⟨W(2(n−1)k)⟩SO(2n)−2n+2,ζ+Λk = q−1
+4 (n−1)Λ−1
+2ϑ2 (z; 2(n −1)τ)
+(4.30)
+where q = e2πiτ and Λ = e2πiz, where agin we note the appearance of a Jacobi theta
+function indicating interesting modular transformation properties.
+With χ = −we conjecture that
+⟨W(2(n−1)k)⟩SO(2n)−2n+2,ζ+ = (−1)kq(n−1)k(k+1).
+(4.31)
+4.2
+SO(2n)−2n+1
+We now include a single fundamental chiral multiplet, i.e. Nf = 1.
+4.2.1
+SO(2)−1
+When the CS theory has a chiral multiplet, the half-index is non-trivial. With n = 1,
+we have the SO(2) CS theory with level k = −1 and a single chiral multiplet. The
+half-index is evaluated as
+II
+SO(2)−1,ζ+
+N
+(x; q) = (q)∞
+I
+ds
+2πis(q1/2s±x; q)∞.
+(4.32)
+It can be expanded as
+1 + (x2 −1)q + (x2 −1)q2 + (x2 −1)q4 + (x2 −1)2q5 + 2x2(x2 −1)q6 + · · · .
+(4.33)
+Turning off the flavor fugacity by setting x to 1, it becomes trivial
+II
+SO(2)−1,ζ+
+N
+(q) = 1.
+(4.34)
+We find that the unflavored one-point functions are given by
+⟨Wk⟩SO(2)−1,ζ+(q) = (−1)kq
+k2
+2 .
+(4.35)
+These results are easily derived using the Jacobi triple product formula (1.23).
+39
+
+
+--- PAGE 40 ---
+4.2.2
+SO(4)−3
+For n = 2 one finds the SO(4) CS theory with level k = −3. The half-index is given
+by
+II
+SO(4)−3,ζ+
+N
+(x; q) = (q)2
+∞
+4
+ 2
+Y
+i=1
+I
+dsi
+2πisi
+! 
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞
+!
+2
+Y
+i=1
+(q
+1
+2s±
+i x; q)∞.
+(4.36)
+It can be expanded as
+1 + (x4 −x2)q2 + (x4 −x2)q3 + (x4 −x2)q4 + (x4 −x2)q5
++ (x4 −x2)q6 + (−x2 + 2x4 −x6)q7 + (−x2 + 2x4 −2x6 + x8)q8 + · · ·
+(4.37)
+In the unflavored limit, it becomes trivial
+IISO(4)−3
+N
+(q) = 1.
+(4.38)
+Hence there are exact cancellations between boundary bosonic and fermionic BPS local
+operators.
+The one-point function is given by
+⟨Wn⟩SO(4)−3,ζ+(x; q)
+= (q)2
+∞
+4
+2
+Y
+i=1
+I
+dsi
+2πisi
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞(q
+1
+2s±
+i x; q)∞(sn
+1 + sn
+2 + s−n
+1
++ s−n
+2 ).
+(4.39)
+Turning off the flavor fugacities, the one-point function gets simplified. We obtain
+⟨W1⟩SO(4)−3,ζ+(q) = −q1/2,
+(4.40)
+⟨W2⟩SO(4)−3,ζ+(q) = 1,
+(4.41)
+⟨W3⟩SO(4)−3,ζ+(q) = −q
+1
+2 −2q3/2 −q5/2,
+(4.42)
+⟨W4⟩SO(4)−3,ζ+(q) = q4,
+(4.43)
+⟨W5⟩SO(4)−3,ζ+(q) = −q5/2,
+(4.44)
+⟨W6⟩SO(4)−3,ζ+(q) = q4 + 2q6 + q8,
+(4.45)
+⟨W7⟩SO(4)−3,ζ+(q) = −q21/2,
+(4.46)
+⟨W8⟩SO(4)−3,ζ+(q) = q8,
+(4.47)
+⟨W9⟩SO(4)−3,ζ+(q) = −q21/2 −2q27/2 −q33/2.
+(4.48)
+40
+
+
+--- PAGE 41 ---
+Again, we can calculate these results exactly using the Jacobi triple product formula
+to find
+⟨sα
+1sβ
+2⟩SO(4)−3,ζ+ = (−1)β
+4(q)2
+∞
+qα2+αβ+ 1
+2 β2 
+q
+1
+2 αh(4α + 2β + 1) + q−1
+2 αh(4α + 2β −1)
+
+× (h(−2α −2β + 1) + h(−2α −2β −1))
+(4.49)
+where we have defined
+h(λ) = (q
+3±λ
+2 ; q3)∞(q3; q3)∞= h(−λ)
+(4.50)
+and in particular
+h(2l + 1) = (q1−l; q3)∞(q2+l; q3)∞(q3; q3)∞.
+(4.51)
+It is straightforward to check that
+h(2l + 1) = ˆh(l)q−l(l+1)
+6
+(q)∞
+(4.52)
+where
+ˆh(l) =
+
+
+
+
+
+(−1)
+l+1
+3
+,
+l ≡−1
+mod 3
+(−1)
+l
+3
+,
+l ≡0
+mod 3
+0
+,
+l ≡1
+mod 3
+(4.53)
+so
+⟨sα
+1sβ
+2⟩SO(4)−3,ζ+ = 1
+4q
+1
+6 α2+ 1
+6 β2 
+(−1)βˆh(2α + β)q
+1
+6 (α−β) + (−1)αˆh(α + 2β)q
+1
+6 (−α+β)
+×
+
+ˆh(α + β)q
+1
+6 (−α−β) + ˆh(−α −β)q
+1
+6 (α+β)
+(4.54)
+which gives
+⟨Wα⟩SO(4)−3,ζ+(q) = q
+α2
+6
+
+ˆh(2α)q
+α
+6 + (−1)αˆh(α)q−α
+6
+ 
+ˆh(−α)q
+α
+6 + ˆh(α)q−α
+6
+
+= (−1)αq
+α2
+6
+
+ˆh(−α)q
+α
+6 + ˆh(α)q−α
+6
+2
+=
+
+
+
+
+
+
+
+(−1)αq
+α(α−2)
+6
+,
+α ≡−1
+mod 3
+(−1)α 
+q
+α(α+2)
+6
++ 2q
+α2
+6 + q
+α(α−2)
+6
+
+,
+α ≡0
+mod 3
+(−1)αq
+α(α+2)
+6
+,
+α ≡1
+mod 3
+(4.55)
+41
+
+
+--- PAGE 42 ---
+The unflavored one-point functions of symmetric Wilson lines are given by
+⟨W
+⟩SO(4)−3,ζ+(q) = 0,
+(4.56)
+⟨W
+⟩SO(4)−3,ζ+(q) = −q
+5
+2,
+(4.57)
+⟨W
+⟩SO(4)−3,ζ+(q) = q4,
+(4.58)
+⟨W
+⟩SO(4)−3,ζ+(q) = 0,
+(4.59)
+⟨W
+⟩SO(4)−3,ζ+(q) = q8,
+(4.60)
+⟨W
+⟩SO(4)−3,ζ+(q) = −q
+21
+2 ,
+(4.61)
+⟨W
+⟩SO(4)−3,ζ+(q) = 0,
+(4.62)
+⟨W
+⟩SO(4)−3,ζ+(q) = −q
+33
+2 ,
+(4.63)
+⟨W
+⟩SO(4)−3,ζ+(q) = q20.
+(4.64)
+For χ = −the half-index and the one-point function of the fundamental Wilson
+line are identical to those for χ = +. For higher rank symmetric Wilson line one-point
+functions we find results which are either the same or differ by an overall sign
+⟨W
+⟩SO(4)−3,ζ−(q) = 0,
+(4.65)
+⟨W
+⟩SO(4)−3,ζ−(q) = q
+5
+2,
+(4.66)
+⟨W
+⟩SO(4)−3,ζ−(q) = −q4,
+(4.67)
+⟨W
+⟩SO(4)−3,ζ−(q) = 0,
+(4.68)
+⟨W
+⟩SO(4)−3,ζ−(q) = q8,
+(4.69)
+⟨W
+⟩SO(4)−3,ζ−(q) = −q
+21
+2 ,
+(4.70)
+⟨W
+⟩SO(4)−3,ζ−(q) = 0,
+(4.71)
+⟨W
+⟩SO(4)−3,ζ−(q) = q
+33
+2 ,
+(4.72)
+⟨W
+⟩SO(4)−3,ζ−(q) = −q20.
+(4.73)
+4.2.3
+SO(6)−5
+With n = 3 and Nf = 1 we have the SO(6) CS theory with level k = −5 and a single
+fundamental chiral. While the unflavored half-index becomes unity, the unflavored
+line defect correlators are non-trivial. The unflavored charged Wilson line one-point
+functions are given by
+⟨W1⟩SO(6)−5,ζ+(q) = −q
+1
+2,
+(4.74)
+⟨W2⟩SO(6)−5,ζ+(q) = 1,
+(4.75)
+⟨W3⟩SO(6)−5,ζ+(q) = −q
+3
+2,
+(4.76)
+⟨W4⟩SO(6)−5,ζ+(q) = 1,
+(4.77)
+42
+
+
+--- PAGE 43 ---
+⟨W5⟩SO(6)−5,ζ+(q) = −q
+1
+2 −q
+3
+2 −2q
+5
+2 −q
+7
+2 −q
+9
+2,
+(4.78)
+⟨W6⟩SO(6)−5,ζ+(q) = q6,
+(4.79)
+⟨W7⟩SO(6)−5,ζ+(q) = −q
+7
+2,
+(4.80)
+⟨W8⟩SO(6)−5,ζ+(q) = 0,
+(4.81)
+⟨W9⟩SO(6)−5,ζ+(q) = −q
+9
+2,
+(4.82)
+⟨W10⟩SO(6)−5,ζ+(q) = −q6.
+(4.83)
+The non-trivial unflavored one-point functions of symmetric Wilson lines are
+⟨W
+⟩SO(6)−5,ζ+(q) = −q
+9
+2,
+(4.84)
+⟨W
+⟩SO(6)−5,ζ+(q) = q6.
+(4.85)
+Again with χ = −the one-point functions are the same up to extra sign factors.
+In particular, we find
+⟨W
+⟩SO(6)−5,ζ−(q) = q
+9
+2,
+(4.86)
+⟨W
+⟩SO(6)−5,ζ−(q) = −q6.
+(4.87)
+4.3
+SO(2n)−2n, O(2n)−2n
+We now consider the case with Nf = 2, and also examine both choices of χ = ±1
+which then allows us to present results for O(2n) gauge groups.
+4.3.1
+SO(2)−2, O(2)−2
+Let us consider the case with n = 1 where the SO(2) CS theory has level k = −2.
+The half-index for χ = + is given by
+II
+SO(2)−2,ζ+
+N
+(x; q) = (q)∞
+I
+ds
+2πis(q1/2s±x)∞(q1/2s±x−1)∞.
+(4.88)
+Here we have included a U(1) flavor fugacity as would be expected if we replace the
+two fundamental chirals with a 2d fundamental Fermi multiplet. We can calculate
+analytically using the Jacobi triple product formula to find
+II
+SO(2)−2,ζ+
+N
+(x; q) =
+1
+(q)∞
+X
+m∈Z
+qm2x2m
+= f(qx2, qx−2)
+(q)∞
+= (−qx±2; q2)∞(q2; q2)∞
+(q)∞
+.
+(4.89)
+The infinite sum here has an obvious interpretation as a dual U(1)2 CS theory with
+Dirichlet boundary condition for the vector multiplet and no chirals. This dual theory
+43
+
+
+--- PAGE 44 ---
+and it’s half-index were briefly discussed in [5] where it was noted that the final product
+expression gives the vacuum character of the U(1)k WZW model.
+The fugacity x
+corresponds to the dual U(1) gauge fugacity (broken to a global symmetry by the
+dirichlet boundary condition) although we note that here we don’t have the coupling
+to a topological U(1).
+If we also set the flavor fugacity x = 1, the unflavored half-index is given by
+II
+SO(2)−2,ζ+
+N
+= φ(q)
+f(−q) = f(q, q)
+f(−q)
+=
+∞
+Y
+n=1
+(1 −q2n)5
+(1 −qn)3(1 −q4n)2.
+(4.90)
+When the discrete fugacity χ is set to −1, the half-index reads
+II
+SO(2)−2,ζ−
+N
+(x; q) = (−q; q)∞(±q
+1
+2x; q)∞(±q
+1
+2x−1; q)∞.
+(4.91)
+In the unflavored limit, the half-index (4.91) becomes
+II
+SO(2)−2,ζ−
+N
+(q) = f(−q, −q)
+f(−q)
+(4.92)
+and we can clearly see the general result
+II
+SO(2)−2,ζχ
+N
+(q) = f(χq, χq)
+f(−q)
+.
+(4.93)
+The half-index of the O(2) CS theory is obtained by gauging the ZC
+2 charge conju-
+gation symmetry
+II
+O(2)−2,ζχ′
+N
+(x; q) = 1
+2
+
+II
+SO(2)−2,ζ+
+N
++ χ′II
+SO(2)−2,ζ−
+N
+
+.
+(4.94)
+Turning off the flavor fugacity x, we get
+II
+O(2)−2,ζ+
+N
+(q) = f(q4, q4)
+f(−q) ,
+(4.95)
+II
+O(2)−2,ζ−
+N
+(q) = qf(1, q8)
+f(−q) .
+(4.96)
+We can again calculate the exact result of the one-point functions of the charged
+Wilson lines using the Jacobi triple product formula. For χ = + we find
+⟨W2k⟩SO(2)−2,ζ+ = 2qk2x−2k
+(q)∞
+f(qx2, qx−2) ,
+⟨W2k+1⟩SO(2)−2,ζ+ = −4qk2+k+ 1
+2x−2k
+(q)∞
+f(q2x2, x−2) .
+(4.97)
+44
+
+
+--- PAGE 45 ---
+In the unflavored limit, we find
+⟨W1⟩SO(2)−2,ζ+(q) = −4q1/2f(q2, 1)
+f(−q)
+= −8q1/2
+∞
+Y
+n=1
+(1 −q4n)2
+(1 −qn)(1 −q2n).
+(4.98)
+More generally, the unflavored one-point functions of the Wilson lines with even
+charges (resp. odd charges) can be expressed in terms of the half-index (4.90) (resp.
+the one-point function (4.98)). We find that
+⟨W2k⟩SO(2)−2,ζ+ = 2qk2II
+SO(2)−2,ζ+
+N
+,
+(4.99)
+⟨W2k+1⟩SO(2)−2,ζ+ = qk(k+1)⟨W1⟩SO(2)−2,ζ+.
+(4.100)
+4.3.2
+SO(4)−4, O(4)−4
+For n = 2 the half-index takes the form
+II
+SO(4)−4,ζ+
+N
+(x; q) = (q)2
+∞
+4
+2
+Y
+i=1
+I
+dsi
+2πisi
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞
+2
+Y
+α=1
+(q
+1
+2as±
+i xα; q)∞.
+(4.101)
+We find that in the unflavored limit it is given by
+II
+SO(4)−4,ζ+
+N
+(q) = φ(q2)
+f(−q) = f(q2, q2)
+f(−q)
+=
+∞
+Y
+n=1
+(1 −q4n)5
+(1 −qn)(1 −q2n)2(1 −q8n)2.
+(4.102)
+For χ = −1 the half-index is given by
+II
+SO(4)−4,ζ−
+N
+(x; q) = (q)∞(−q; q)∞
+2
+I
+ds
+2πis(s±; q)∞(−s±; q)∞
+× (±q
+1
+2x; q)∞(±q
+1
+2x−1; q)∞(q
+1
+2s±x; q)∞(q
+1
+2s±x−1; q)∞.
+(4.103)
+In the unflavored limit, we find that
+II
+SO(4)−4,ζ−
+N
+(q) = f(−q2, −q2)
+f(−q)
+.
+(4.104)
+Gauging the ZC
+2 symmetry yields the half-indices of the O(4) CS theory. The unflavored
+half-indices are given by
+II
+O(4)−4,ζ+
+N
+(q) = f(q8, q8)
+f(−q) ,
+(4.105)
+II
+O(4)−4,ζ−
+N
+(q) = q2f(1, q16)
+f(−q) .
+(4.106)
+45
+
+
+--- PAGE 46 ---
+For χ = + the unflavored one-point function of the fundamental Wilson line is
+given by
+⟨W ⟩SO(4)−4,ζ+(q) = −2q
+1
+2 f(q, q3)
+f(−q)
+= −2q
+1
+2
+∞
+Y
+n=1
+(1 + qn)2
+= −2q
+1
+2
+∞
+Y
+n=1
+(1 −q2n)2
+(1 −qn)2 .
+(4.107)
+Also the one-point functions of the symmetric Wilson lines can be expressed in
+terms of the half-index (4.101) and the one-point function (4.107)
+⟨W
+⟩SO(4)−4,ζ+(q) = qII
+SO(4)−4,ζ+
+N
+(q),
+(4.108)
+⟨W
+⟩SO(4)−4,ζ+(q) = 0,
+(4.109)
+⟨W
+⟩SO(4)−4,ζ+(q) = q3II
+SO(4)−4,ζ+
+N
+(q),
+(4.110)
+⟨W
+⟩SO(4)−4,ζ+(q) = q4⟨W ⟩SO(4)−4,ζ+(q),
+(4.111)
+⟨W
+⟩SO(4)−4,ζ+(q) = q6II
+SO(4)−4,ζ+
+N
+(q),
+(4.112)
+⟨W
+⟩SO(4)−4,ζ+(q) = 0,
+(4.113)
+⟨W
+⟩SO(4)−4,ζ+(q) = q10II
+SO(4)−4,ζ+
+N
+(q),
+(4.114)
+⟨W
+⟩SO(4)−4,ζ+(q) = q12⟨W ⟩SO(4)−4,ζ+(q),
+(4.115)
+⟨W
+⟩SO(4)−4,ζ+(q) = q15II
+SO(4)−4,ζ+
+N
+(q),
+(4.116)
+⟨W
+⟩SO(4)−4,ζ+(q) = 0.
+(4.117)
+For χ = −we get
+⟨W ⟩SO(4)−4,ζ−(q) = −2q
+1
+2 f(−q, −q3)
+f(−q)
+.
+(4.118)
+Again the one-point function of the symmetric Wilson lines can be described by the
+half-index (4.103) and (4.118)
+⟨W
+⟩SO(4)−4,ζ−(q) = qII
+SO(4)−4,ζ−
+N
+(q),
+(4.119)
+⟨W
+⟩SO(4)−4,ζ−(q) = 0,
+(4.120)
+⟨W
+⟩SO(4)−4,ζ−(q) = −q3II
+SO(4)−4,ζ−
+N
+(q),
+(4.121)
+⟨W
+⟩SO(4)−4,ζ−(q) = −q4⟨W ⟩SO(4)−4,ζ−(q),
+(4.122)
+⟨W
+⟩SO(4)−4,ζ−(q) = −q6II
+SO(4)−4,ζ−
+N
+(q),
+(4.123)
+⟨W
+⟩SO(4)−4,ζ−(q) = 0,
+(4.124)
+46
+
+
+--- PAGE 47 ---
+⟨W
+⟩SO(4)−4,ζ−(q) = q10II
+SO(4)−4,ζ−
+N
+(q),
+(4.125)
+⟨W
+⟩SO(4)−4,ζ−(q) = q12⟨W ⟩SO(4)−4,ζ−(q),
+(4.126)
+⟨W
+⟩SO(4)−4,ζ−(q) = q15II
+SO(4)−4,ζ−
+N
+(q),
+(4.127)
+⟨W
+⟩SO(4)−4,ζ−(q) = 0.
+(4.128)
+The one-point function for the O(4) CS theory is obtained by gauging the ZC
+2
+symmetry. For the fundamental Wilson line we get
+⟨W ⟩O(4)−4,ζ+(q) = −2q
+1
+2 f(q6, q10)
+f(−q) ,
+(4.129)
+⟨W ⟩O(4)−4,ζ−(q) = −2q
+3
+2 f(q2, q14)
+f(−q) .
+(4.130)
+4.3.3
+SO(6)−6, O(6)−6
+We proceed further by investigating the case with n = 3. We find that the unflavored
+half-index is given by
+II
+SO(6)−6,ζ+
+N
+(q) = φ(q3)
+f(−q) = f(q3, q3)
+f(−q)
+=
+∞
+Y
+n=1
+(1 −q6n)5
+(1 −qn)(1 −q3n)2.
+(4.131)
+For χ = −we find
+II
+SO(6)−6,ζ−
+N
+(q) = f(−q3, −q3)
+f(−q)
+.
+(4.132)
+Also the half-index of the O(6) CS theory is evaluated as
+II
+O(6)−6,ζ+
+N
+(q) = f(q12, q12)
+f(−q)
+,
+(4.133)
+II
+O(6)−6,ζ−
+N
+(q) = q3f(1, q24)
+f(−q) .
+(4.134)
+Also we find that the unflavored one-point function of the Wilson line in the fun-
+damental representation is given by Ramanujan’s general theta function. For χ = +
+we get
+⟨W ⟩SO(6)−6,ζ+(q) = −2q
+1
+2 f(q4, q2)
+f(−q) .
+(4.135)
+47
+
+
+--- PAGE 48 ---
+The unflavored one-point functions of the symmetric Wilson lines can be expressed
+in terms of the half-index (4.131) and the one-point function (4.135). For example,
+⟨W
+⟩SO(6)−6,ζ+(q) = qII
+SO(6)−6,ζ+
+N
+(q),
+(4.136)
+⟨W
+⟩SO(6)−6,ζ+(q) = 0,
+(4.137)
+⟨W
+⟩SO(6)−6,ζ+(q) = 0,
+(4.138)
+⟨W
+⟩SO(6)−6,ζ+(q) = 0,
+(4.139)
+⟨W
+⟩SO(6)−6,ζ+(q) = q5II
+SO(6)−6,ζ+
+N
+(q),
+(4.140)
+⟨W
+⟩SO(6)−6,ζ+(q) = q6⟨W ⟩SO(6)−6,ζ+(q).
+(4.141)
+With χ = −we obtain
+⟨W ⟩SO(6)−6,ζ−(q) = −2q1/2f(−q4, −q2)
+f(−q)
+(4.142)
+and
+⟨W
+⟩SO(6)−6,ζ−(q) = qII
+SO(6)−6,ζ−
+N
+(q),
+(4.143)
+⟨W
+⟩SO(6)−6,ζ−(q) = 0,
+(4.144)
+⟨W
+⟩SO(6)−6,ζ−(q) = 0,
+(4.145)
+⟨W
+⟩SO(6)−6,ζ−(q) = 0,
+(4.146)
+⟨W
+⟩SO(6)−6,ζ−(q) = −q5II
+SO(6)−6,ζ−
+N
+(q),
+(4.147)
+⟨W
+⟩SO(6)−6,ζ−(q) = −q6⟨W ⟩SO(6)−6,ζ−(q).
+(4.148)
+For the O(6) CS theory we get
+⟨W ⟩O(6)−6,ζ+(q) = −2q
+1
+2 f(q10, q14)
+f(−q)
+,
+(4.149)
+⟨W ⟩O(6)−6,ζ−(q) = −2q
+5
+2 f(q2, q22)
+f(−q) .
+(4.150)
+4.3.4
+General case
+We conjecture that the unflavored half-indices of orthogonal gauge groups SO(2n) and
+O(2n) of level −2n with Nf = 2 are given by
+II
+SO(2n)−2n,ζ+
+N
+(q) = φ(qn)
+f(−q) = f(qn, qn)
+f(−q) ,
+(4.151)
+II
+SO(2n)−2n,ζ−
+N
+(q) = f(−qn, −qn)
+f(−q)
+,
+(4.152)
+II
+O(2n)−2n,ζ+
+N
+(q) = f(q4n, q4n)
+f(−q)
+,
+(4.153)
+II
+O(2n)−2n,ζ−
+N
+(q) = qnf(1, q8n)
+f(−q) .
+(4.154)
+48
+
+
+--- PAGE 49 ---
+and that the unflavored one-point functions of the fundamental Wilson lines are
+⟨W ⟩SO(2n)−2n,ζ+(q) = −2q
+1
+2 f(qn−1, qn+1)
+f(−q)
+,
+(4.155)
+⟨W ⟩SO(2n)−2n,ζ−(q) = −2q
+1
+2 f(−qn−1, −qn+1)
+f(−q)
+,
+(4.156)
+⟨W ⟩O(2n)−2n,ζ+(q) = −2q
+1
+2 f(q4n−2, q4n+2)
+f(−q)
+,
+(4.157)
+⟨W ⟩O(2n)−2n,ζ−(q) = −2qn−1
+2 f(q2, q8n−2)
+f(−q)
+.
+(4.158)
+Of course, as was obvious in the examples for SO(2), SO(4) and SO(6), the results
+for χ = + and χ = −are easily combined so give
+II
+SO(2n)−2n,ζχ
+N
+(q) = f(χqn, χqn)
+f(−q)
+,
+(4.159)
+⟨W ⟩SO(2n)−2n,ζχ(q) = −2q
+1
+2 f(χqn−1, χqn+1)
+f(−q)
+.
+(4.160)
+Furthermore, we conjecture that the one-point functions of the Wilson lines in
+the symmetric representations will be simply given in terms of the half-index (4.151)
+and (4.155). In other words, the unflavored Neumann half-index and the one-point
+functions of the Wilson line operators for SO(2n)−2n CS theory with a fundamental
+chiral multiplet are expressible in terms of Ramanujan’s general theta function.
+4.4
+SO(2n)−4n+4 with adjoint
+We now consider the SO(2n) CS theories with an adjoint chiral.
+4.4.1
+SO(4)−4 with adjoint
+For n = 2 and Nf = 0 the theory is the SO(4) CS theory with level k = −4.
+We find that in the unflavored limit, the half-index with χ = + is given by the
+weight-1 (again, half the rank of the gauge group) eta-product
+II
+SO(4)−4,ζ+
+N,D
+= q−1
+2 η(4τ)4
+η(2τ)2
+=
+∞
+Y
+n=1
+(1 −q4n)4
+(1 −q2n)2.
+(4.161)
+This is not surprising if we note the result 2.18 for SU(2) and recall that SO(4) ≃
+SU(2) × SU(2).
+49
+
+
+--- PAGE 50 ---
+For χ = −we find
+II
+SO(4)−4,ζ−
+N,D
+= 1 + q4 + q12 + q24 + · · ·
+(4.162)
+We conjecture that this has the closed form expression
+II
+SO(4)−4,ζ−
+N,D
+= q−1
+2 η(8τ)2
+η(4τ)
+=
+∞
+Y
+n=1
+(1 −q8n)2
+(1 −q4n) .
+(4.163)
+We note that this eta-product has weight 1
+2 which is half of the rank minus one. This
+is not surprising given the similarity of SO(2n) with χ = −to SO(2n−2) with χ = +.
+The results for χ = ± are consistent with a combined expression
+II
+SO(4)−4,ζχ
+N,D
+=
+∞
+Y
+n=1
+(1 −q4n)2(1 −χq4n)2
+(1 −q2n)(1 −χq2n)
+(4.164)
+which is of the form of the half-index for SU(2) × SU(2) but where the signs of the
+contributions have been changed in one of the SU(2) factors in the case where χ = −.
+The one-point function of the Wilson line in the fundamental representation van-
+ishes. The one-point function of the Wilson line of charge +2 is given by the eta-
+product
+⟨W2⟩SO(4)−4,ζ+ =
+η(2τ)10
+η(τ)4η(4τ)4
+=
+∞
+Y
+n=1
+(1 −q2n)10
+(1 −qn)4(1 −q4n)4.
+(4.165)
+More generally, the one-point functions of the Wilson line operators with even
+charges can be expressed in terms of two kinds of eta-products (4.161) and (4.165)
+while those with odd charges vanish. Therefore we have
+⟨W4k+2⟩SO(4)−4,ζ+ = q2k(k+1)⟨W2⟩SO(4)−4,ζ+,
+(4.166)
+⟨W4k+4⟩SO(4)−4,ζ+ = 4q2(k+1)2II
+SO(4)−4,ζ+
+N,D
+,
+(4.167)
+⟨W2k+1⟩SO(4)−4,ζ+ = 0
+(4.168)
+for k ≥0. We note that all these results are given as the squares of the SU(2) with
+adjoint chiral results from section 2.2.1.
+⟨W2⟩SO(4)−4,ζ−= −1 −2q2 −2q8 −2q18 + · · ·
+(4.169)
+This is consistent with the general result
+⟨W2⟩SO(4)−4,ζχ = χ
+∞
+Y
+n=1
+(1 −q2n)5(1 −χq2n)5
+(1 −qn)2(1 −q4n)2(1 −χqn)2(1 −χq4n)2.
+(4.170)
+50
+
+
+--- PAGE 51 ---
+4.4.2
+SO(6)−8 with adjoint
+Let us consider the case with n = 3 and Nf = 0. We have the SO(6) CS theory with
+level k = −8 and an adjoint chiral. We find that the unflavored half-index with χ = +
+is given by the weight- 3
+2 eta-product
+II
+SO(6)−8,ζ+
+N,D
+= q−5
+12 η(8τ)4
+η(2τ)
+=
+∞
+Y
+n=1
+(1 −q8n)4
+(1 −q2n) ,
+(4.171)
+which of course agrees with the SU(4) result (2.47).
+For χ = −we conjecture that
+II
+SO(6)−8,ζ−
+N,D
+= q−5
+12 η(4τ)2η(16τ)2
+η(2τ)η(8τ) ,
+(4.172)
+where, as for the SO(4) case, the weight of the eta-product is reduced by one half
+compared to the case of χ = +.
+We can write a unified expression as
+II
+SO(6)−8,ζχ
+N,D
+=
+∞
+Y
+n=1
+(1 −q4n)(1 −q8n)2(1 −χq8n)2
+(1 −q2n)(1 −χq4n)
+.
+(4.173)
+While the one-point function of the Wilson line of odd charges vanish, the one-
+point functions of the Wilson lines with even charges are non-trivial. For the charged
+Wilson lines W2 and W4 we have
+⟨W2⟩SO(6)−8,ζ+ = q−25
+24 η(2τ)5η(8τ)4
+η(τ)2η(4τ)4
+=
+∞
+Y
+n=1
+(1 −q2n)5(1 −q8n)4
+(1 −qn)2(1 −q4n)4 ,
+(4.174)
+⟨W4⟩SO(6)−8,ζ+ = 1 + 2q + 5q2 + 2q3 + 8q4 + 4q5 + 5q6 + 6q7 + 8q8 + 2q9 + 16q10 + · · · .
+(4.175)
+The unflavored one point function of ⟨W2⟩is given by the eta-product, however, the
+expression for ⟨W4⟩does not seem to be so simply expressed in terms of the eta-
+products. Note that these Wilson lines are not the same as those considered for SU(4)
+in section 2.2.3
+The one-point functions with larger charges can be expressed in terms of the half-
+index (4.171) and the one-point functions of the charged Wilson lines W2 and W4. For
+51
+
+
+--- PAGE 52 ---
+example,
+⟨W6⟩SO(6)−8,ζ+ = q2⟨W2⟩SO(6)−8,ζ+,
+(4.176)
+⟨W8⟩SO(6)−8,ζ+ = 6q4II
+SO(6)−8,ζ+
+N,D
+,
+(4.177)
+⟨W10⟩SO(6)−8,ζ+ = q6⟨W2⟩SO(6)−8,ζ+,
+(4.178)
+⟨W12⟩SO(6)−8,ζ+ = q8⟨W4⟩SO(6)−8,ζ+.
+(4.179)
+4.5
+SO(2n)−4n+4−Nf with adjoint
+We also propose several formulas of the half-indices for the SO(2n) CS theories coupled
+to both adjoint and fundamental chirals in terms of the eta-products.
+4.5.1
+SO(2)−1 with adjoint
+In the case with n = 1 and Nf = 1 we get the SO(2) CS theory with level k = −1.
+The unflavored index is evaluated as
+II
+SO(2)−1,ζ+
+N,D
+= q−1
+24η(τ)
+=
+∞
+Y
+n=1
+(1 −qn),
+(4.180)
+II
+SO(2)−1,ζ−
+N,D
+= q−1
+24 η(2τ)
+η(τ)
+=
+Y
+n=1
+1 −q2n
+1 −qn .
+(4.181)
+Subsequently, we obtain the half-indices for the O(2) CS theory
+II
+O(2)−1,ζ+
+N,D
+=
+∞
+X
+m=0
+qm(2m+1)
+(q; q)2m
+,
+(4.182)
+II
+O(2)−1,ζ+
+N,D
+=
+∞
+X
+m=0
+qm(2m−1)
+(q; q)2m−1
+.
+(4.183)
+The half-index (4.182) (resp. (4.183)) is identical to the generating function for the
+partitions into distinct parts in such a way that the number of parts is even (resp.
+odd).
+The unflavored one-point functions of the symmetric Wilson lines for the SO(2)
+CS theory with χ = + are obtained from the half-index
+⟨Wn⟩SO(2)−1,ζ+ = (−1)nq
+n2
+2 II
+SO(2)−1,ζ+
+N,D
+.
+(4.184)
+All these results are easily derived analytically.
+52
+
+
+--- PAGE 53 ---
+4.5.2
+SO(4)−5 with adjoint
+With n = 2 and Nf = 1, we conjecture that the SO(4) CS theory with level k = −5.
+The unflavored half-indices are expressible as
+II
+SO(4)−5,ζ+
+N,D
+= q−5
+12η(5τ)2
+=
+∞
+Y
+n=1
+(1 −q5n)2,
+(4.185)
+II
+SO(4)−5,ζ−
+N,D
+= q−5
+12η(10τ)
+=
+∞
+Y
+n=1
+(1 −q10n).
+(4.186)
+4.5.3
+SO(4)−6 with adjoint
+When n = 2 and Nf = 2, we have the SO(4) CS theory with level k = −6. We find
+that the unflavored half-indices agree with the following eta-products:
+II
+SO(4)−6,ζ+
+N,D
+= q−1
+3
+η(2τ)2η(6τ)4
+η(τ)η(3τ)η(4τ)η(12τ)
+=
+∞
+Y
+n=1
+(1 −q2n)2(1 −q6n)4
+(1 −qn)(1 −q3n)(1 −q4n)(1 −q12n),
+(4.187)
+II
+SO(4)−6,ζ−
+N,D
+= q−1
+3 η(2τ)η(3τ)η(12τ)
+η(τ)η(4τ)η(6τ)
+=
+∞
+Y
+n=1
+(1 −q2n)(1 −q3n)(1 −q12n)
+(1 −qn)(1 −q4n)(1 −q6n) .
+(4.188)
+4.6
+SO(2n + 1)−2n+1
+Next we consider the orthogonal gauge theories with odd ranks, i.e. with ϵ = 1.
+4.6.1
+SO(3)−1
+For n = 1 and Nf = 0, and without an adjoint chiral, the theory is pure SO(3) CS
+theory with level k = −1. When the gauge field satisfies the Neumann boundary
+condition, as there are no non-trivial BPS local operators at the boundary, the half-
+index is trivial.
+The one-point functions of the charged Wilson lines are given by We have the
+half-index
+⟨Wn⟩SO(3)−1,ζ+(q) = 1
+2(q)∞
+I
+ds
+2πis(χs±; q)∞(1 + sn + s−n).
+(4.189)
+53
+
+
+--- PAGE 54 ---
+One finds
+⟨Wn⟩SO(3)−1,ζ+ = 1 + (−1)nq
+n(n−1)
+2
++ (−1)nq
+n(n+1)
+2
+.
+(4.190)
+Also we find that the one-point functions of the Wilson lines in the symmetric
+representations are given by
+⟨W(k)⟩SO(3)−1,ζ+ = (−1)kq
+k(k+1)
+2
+.
+(4.191)
+For the SO(3) with χ = −, we consider the Wilson line W(k) associated with the
+modified character of the symmetric representation in such a way that powers of the
+fugacities of the form sn are replaced by (−1)n+ksn thereby switching the sign of all
+odd or even powers depending on the parity of k. For example,
+χso(3)−(s) = −1 + s + s−1,
+(4.192)
+χso(3)−(s) = 1 + s2 −s −s−1 + s−2.
+(4.193)
+We get
+⟨W(k)⟩SO(3)−1,ζ−= q
+k(k+1)
+2
+.
+(4.194)
+All these results are easily checked analytically using the Jacobi triple product to
+evaluate
+⟨sn⟩SO(3)−1,ζχ = 1
+2(−χ)n 
+q
+n(n−1)
+2
++ q
+n(n+1)
+2
+
+.
+(4.195)
+4.6.2
+SO(5)−3
+For n = 2 and Nf = 0, the theory is pure SO(5) CS theory with level k = −3. Again
+the half-index is trivial.
+The one-point function of the charged Wilson line is given by
+⟨Wn⟩SO(5)−3,ζ+ = (q)2
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+(s±
+i ; q)∞
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞
+× (1 + sn
+1 + sn
+2 + s−n
+1
++ s−n
+2 ).
+(4.196)
+54
+
+
+--- PAGE 55 ---
+For example,
+⟨W1⟩SO(5)−3,ζ+ = 0,
+(4.197)
+⟨W2⟩SO(5)−3,ζ+ = 1 + q,
+(4.198)
+⟨W3⟩SO(5)−3,ζ+ = −q −q2 −q3,
+(4.199)
+⟨W4⟩SO(5)−3,ζ+ = 1 + q2,
+(4.200)
+⟨W5⟩SO(5)−3,ζ+ = 1 + q5,
+(4.201)
+⟨W6⟩SO(5)−3,ζ+ = 1 + q3 + q5 + q7 + q9,
+(4.202)
+⟨W7⟩SO(5)−3,ζ+ = 1 −q7,
+(4.203)
+⟨W8⟩SO(5)−3,ζ+ = 1 + q12.
+(4.204)
+We also find that the one-point function of the symmetric Wilson line is given by
+⟨W(3k)⟩SO(5)−3,ζ+ = (−1)kq3k(k+1).
+(4.205)
+For χ = −we obtain
+⟨W(3k)⟩SO(5)−3,ζ−= q3k(k+1).
+(4.206)
+4.6.3
+General case
+We conjecture that the symmetric Wilson line one-point function is given by
+⟨W((2n−1)k)⟩SO(2n+1)−2n+1,ζ+ = (−1)kq(2n−1)k(k+1),
+(4.207)
+⟨W((2n−1)k)⟩SO(2n+1)−2n+1,ζ−= q(2n−1)k(k+1).
+(4.208)
+We can then define a grand canonical ensemble as
+X
+k∈Z
+⟨W((2n−1)k)⟩SO(2n+1)−2n+1,ζ+Λk = iq−1
+4 (2n−1)Λ−1
+2ϑ1 (z; 2(2n −1)τ) ,
+(4.209)
+X
+k∈Z
+⟨W((2n−1)k)⟩SO(2n+1)−2n+1,ζ−Λk = q−1
+4 (2n−1)Λ−1
+2ϑ2 (z; 2(2n −1)τ)
+(4.210)
+where q = e2πiτ and Λ = e2πiz.
+4.7
+SO(2n + 1)−2n
+Let us consider the cases with matter fields for which the half-indices are non-trivial
+where we have one fundamental chiral, without an adjoint chiral.
+55
+
+
+--- PAGE 56 ---
+4.7.1
+SO(3)−2
+When n = 1 we have the SO(3) CS theory with level k = −2. We have the half-index
+II
+SO(3)−3,ζχ
+N
+(q) = 1
+2(q)∞
+I
+ds
+2πis(χs±; q)∞(χq
+1
+2x; q)∞(q
+1
+2s±x; q)∞.
+(4.211)
+In the unflavored limit the half-index becomes trivial
+II
+SO(3)−3,ζ+
+N
+(q) = 1.
+(4.212)
+The unflavored one-point function of the charged Wilson line is given by
+⟨Wk⟩SO(3)−2,ζ+(q) = 1 + (−1)kq
+k(k−1)
+4
++ (−1)kq
+k(k+1)
+4
+.
+(4.213)
+The unflavored one-point function of the symmetric Wilson line is
+⟨W(k)⟩SO(3)−2,ζ+(q) = (−1)kq
+k(k+1)
+4
+.
+(4.214)
+For χ = −we find
+⟨W(k)⟩SO(3)−2,ζ−(q) = (−1)
+k(k+1)
+2
+q
+k(k+1)
+4
+.
+(4.215)
+Again, we can use the Jacobi triple product to derive these results. In particular
+we find
+⟨sn⟩= (−1)n(χq1/2; q)∞
+2(q)∞
+q
+1
+2 n2 X
+m∈Z
+χm 
+qm2+ 1
+2 (2n−1)m + qm2+ 1
+2 (2n+1)m
+= (−1)n(χq1/2; q)∞(q2; q2)∞
+2(q)∞
+q
+1
+2 n2
+(−χqn+1/2; q2)∞(−χq−n+3/2; q2)∞
++ (−χq−n+1/2; q2)∞(−χqn+3/2; q2)∞
+
+.
+(4.216)
+After some manipulation this simplifies to
+⟨sn=2m⟩= 1
+2χm 
+q
+n(n−1)
+4
++ q
+n(n+1)
+4
+
+,
+(4.217)
+⟨sn=2m+1⟩= −1
+2χm 
+χq
+n(n−1)
+4
++ q
+n(n+1)
+4
+
+,
+(4.218)
+and the above Wilson line results follow.
+4.7.2
+SO(5)−4
+For n = 2 we have the SO(5) CS theory with level k = −4. The half-index is given by
+II
+SO(5)−4,ζ+
+N
+= (q)2
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+(s±
+i ; q)∞
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞(q
+1
+2x; q)∞(q
+1
+2s±
+i x; q)∞.
+(4.219)
+56
+
+
+--- PAGE 57 ---
+It can be expanded as
+1 + (x3 −x5)q5/2 + (x3 −x5)q7/2 + (x3 −x5)q9/2 + (x3 −x5)q11/2 + (x3 −x5)q13/2
++ (x3 −x5)q15/2 + (x3 −x5)q17/2 + (x6 −x8)q9 + (x3 −x5)q19/2 + (x6 −2x8 + x10)q10 + · · · .
+(4.220)
+In the unflavored limit, it becomes trivial
+II
+SO(5)−4,ζ+
+N
+(q) = 1.
+(4.221)
+The one-point function of the charged Wilson line is evaluated as
+⟨Wn⟩SO(5)−4,ζ+ = (q)2
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+(s±
+i ; q)∞
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞(q
+1
+2x; q)∞(q
+1
+2s±
+i x; q)∞
+× (1 + sn
+1 + sn
+2 + s−n
+1
++ s−n
+2 ).
+(4.222)
+In the unflavored limit, we have
+⟨W1⟩SO(5)−4,ζ+(q) = −q
+1
+2,
+(4.223)
+⟨W2⟩SO(5)−4,ζ+(q) = 1,
+(4.224)
+⟨W3⟩SO(5)−4,ζ+(q) = −q
+3
+2,
+(4.225)
+⟨W4⟩SO(5)−4,ζ+(q) = 1 + q
+1
+2 + q
+3
+2 + q
+5
+2 + q
+7
+2,
+(4.226)
+⟨W5⟩SO(5)−4,ζ+(q) = 1 −q
+5
+2 −q5,
+(4.227)
+⟨W6⟩SO(5)−4,ζ+(q) = 1,
+(4.228)
+⟨W7⟩SO(5)−4,ζ+(q) = 1 −q
+7
+2 −q7.
+(4.229)
+The one-point functions of the symmetric Wilson lines are evaluated as
+⟨W(2)⟩SO(5)−4,ζ+(q) = 0,
+(4.230)
+⟨W(3)⟩SO(5)−4,ζ+(q) = 0,
+(4.231)
+⟨W(4)⟩SO(5)−4,ζ+(q) = q
+7
+2,
+(4.232)
+⟨W(5)⟩SO(5)−4,ζ+(q) = −q5,
+(4.233)
+⟨W(6)⟩SO(5)−4,ζ+(q) = 0,
+(4.234)
+⟨W(7)⟩SO(5)−4,ζ+(q) = 0.
+(4.235)
+57
+
+
+--- PAGE 58 ---
+For χ = −we get
+⟨W(1)⟩SO(5)−4,ζ−(q) = −q
+1
+2,
+(4.236)
+⟨W(2)⟩SO(5)−4,ζ−(q) = 0,
+(4.237)
+⟨W(3)⟩SO(5)−4,ζ−(q) = 0,
+(4.238)
+⟨W(4)⟩SO(5)−4,ζ−(q) = −q
+7
+2,
+(4.239)
+⟨W(5)⟩SO(5)−4,ζ−(q) = q5,
+(4.240)
+⟨W(6)⟩SO(5)−4,ζ−(q) = 0,
+(4.241)
+⟨W(7)⟩SO(5)−4,ζ−(q) = 0.
+(4.242)
+4.8
+SO(2n + 1)−2n−1, O(2n + 1)−2n−1
+We now consider the case of Nf = 2, again without an adjoint chiral.
+4.8.1
+SO(3)−3, O(3)−3
+With n = 1 the theory is identified with the SO(3) CS theory with level k = −3. The
+half-indices are
+II
+SO(3)−3,ζχ
+N
+(q) = 1
+2(q)∞
+I
+ds
+2πis(χs±; q)∞(χq
+1
+2x±; q)∞(q
+1
+2s±x; q)∞(q
+1
+2s±x−1; q)∞.
+(4.243)
+We find that the unflavored half-indices are given by
+II
+SO(3)−3,ζ+
+N
+(q) = φ(−q
+3
+2)
+f(−q) = f(−q
+3
+2, −q
+3
+2)
+f(−q)
+=
+∞
+Y
+n=1
+(1 −q
+3n
+2 )2
+(1 −qn)(1 −q3n),
+(4.244)
+II
+SO(3)−3,ζ−
+N
+(q) = φ(q
+3
+2)
+f(−q) = f(q
+3
+2, q
+3
+2)
+f(−q)
+(4.245)
+with an obvious combined expression
+II
+SO(3)−3,ζχ
+N
+(q) = φ(−χq
+3
+2)
+f(−q)
+= f(−χq
+3
+2, −χq
+3
+2)
+f(−q)
+.
+(4.246)
+By gauging the ZC
+2 symmetry, we find the half-indices of the O(3) CS theory
+II
+O(3)−3,ζ+
+N
+(q) = f(q6, q6)
+f(−q) ,
+(4.247)
+II
+O(3)−3,ζ−
+N
+(q) = −q
+3
+2 f(1, q12)
+f(−q) .
+(4.248)
+58
+
+
+--- PAGE 59 ---
+The one-point function of the Wilson line W
+in the fundamental representation
+for χ = + (resp. χ = −) is computed by inserting the character 1 + s + s−1 (resp.
+−1 + s + s−1) in the integrand. We find that the unflavored one-point functions are
+given by
+⟨W ⟩SO(3)−3,ζ+(q) = −2q
+1
+2 f(−q
+1
+2, −q
+5
+2)
+f(−q)
+,
+(4.249)
+⟨W ⟩SO(3)−3,ζ−(q) = −2q
+1
+2 f(q
+1
+2, q
+5
+2)
+f(−q)
+(4.250)
+or combined as
+⟨W ⟩SO(3)−3,ζχ(q) = −2q
+1
+2 f(−χq
+1
+2, −χq
+5
+2)
+f(−q)
+.
+(4.251)
+The one-point functions of the symmetric Wilson lines are given in terms of the
+half-index (4.244) and (4.249). For example, for χ = + we have
+⟨W
+⟩SO(3)−3,ζ+(q) = qII
+SO(3)−3,ζ+
+N
+(q),
+(4.252)
+⟨W
+⟩SO(3)−3,ζ+(q) = −q2II
+SO(3)−3,ζ+
+N
+(q),
+(4.253)
+⟨W
+⟩SO(3)−3,ζ+(q) = −q3⟨W ⟩SO(3)−3,ζ+(q),
+(4.254)
+⟨W
+⟩SO(3)−3,ζ+(q) = −q5II
+SO(3)−3,ζ+
+N
+(q),
+(4.255)
+⟨W
+⟩SO(3)−3,ζ+(q) = q7II
+SO(3)−3,ζ+
+N
+(q),
+(4.256)
+⟨W
+⟩SO(3)−3,ζ+(q) = q9⟨W ⟩SO(3)−3,ζ+(q),
+(4.257)
+⟨W
+⟩SO(3)−3,ζ+(q) = q12II
+SO(3)−3,ζ+
+N
+(q).
+(4.258)
+For χ = −we get the same results up to some overall signs
+⟨W
+⟩SO(3)−3,ζ−(q) = qII
+SO(3)−3,ζ−
+N
+(q),
+(4.259)
+⟨W
+⟩SO(3)−3,ζ−(q) = q2II
+SO(3)−3,ζ−
+N
+(q),
+(4.260)
+⟨W
+⟩SO(3)−3,ζ−(q) = q3⟨W ⟩SO(3)−3,ζ−(q),
+(4.261)
+⟨W
+⟩SO(3)−3,ζ−(q) = q5II
+SO(3)−3,ζ−
+N
+(q),
+(4.262)
+⟨W
+⟩SO(3)−3,ζ−(q) = q7II
+SO(3)−3,ζ−
+N
+(q),
+(4.263)
+⟨W
+⟩SO(3)−3,ζ−(q) = q9⟨W ⟩SO(3)−3,ζ−(q),
+(4.264)
+⟨W
+⟩SO(3)−3,ζ−(q) = q12II
+SO(3)−3,ζ−
+N
+(q).
+(4.265)
+For the O(3) CS theory the one-point functions are obtained by gauging the ZC
+2
+symmetry. For example, the one-point functions of the fundamental Wilson lines are
+59
+
+
+--- PAGE 60 ---
+given by
+⟨W ⟩O(3)−2,ζ+(q) = −2q
+1
+2 f(q4, q8)
+f(−q) ,
+(4.266)
+⟨W ⟩O(3)−2,ζ−(q) = 2qf(q2, q10)
+f(−q) .
+(4.267)
+4.8.2
+SO(5)−5, O(5)−5
+For n = 2 and Nf = Na = 1, we have the SO(5) CS theory with level k = −5. The
+half-indices are evaluated from
+II
+SO(5)−6,ζχ
+N
+= (q)2
+∞
+8
+2
+Y
+i=1
+I
+dsi
+2πisi
+(χs±
+i ; q)∞
+2
+Y
+i<j
+(s±
+i s∓
+j ; q)∞(s±
+i s±
+j ; q)∞
+2
+Y
+α=1
+(χq
+1
+2axα; q)∞(q
+1
+2as±
+i xα; q)∞.
+(4.268)
+We find that the unflavored half-index can be expresses in terms of Ramanujan’s
+general theta function
+II
+SO(5)−5,ζχ
+N
+= φ(−χq
+5
+2)
+f(−q)
+= f(−χq
+5
+2, −χq
+5
+2)
+f(−q)
+.
+(4.269)
+In the unflavored limit the one-point functions of the fundamental Wilson line are
+given by
+⟨W ⟩SO(5)−5,ζχ(q) = −2q
+1
+2 f(−χq
+3
+2, −χq
+7
+2)
+f(−q)
+.
+(4.270)
+The other one-point functions are given in terms of the half-index and the one-point
+function of the fundamental Wilson line. For example,
+⟨W
+⟩SO(5)−5,ζ+(q) = qII
+SO(5)−5,ζ+
+N
+(q),
+(4.271)
+⟨W
+⟩SO(5)−5,ζ+(q) = 0,
+(4.272)
+⟨W
+⟩SO(5)−5,ζ+(q) = 0,
+(4.273)
+⟨W
+⟩SO(5)−5,ζ+(q) = −q4II
+SO(5)−5,ζ+
+N
+(q),
+(4.274)
+⟨W
+⟩SO(5)−5,ζ+(q) = −q5⟨W ⟩SO(5)−5,ζ+(q),
+(4.275)
+⟨W
+⟩SO(5)−5,ζ+(q) = −q7II
+SO(5)−5,ζ+
+N
+(q),
+(4.276)
+⟨W
+⟩SO(5)−5,ζ+(q) = 0.
+(4.277)
+60
+
+
+--- PAGE 61 ---
+For χ = −we find
+⟨W
+⟩SO(5)−5,ζ−(q) = qII
+SO(5)−5,ζ−
+N
+(q),
+(4.278)
+⟨W
+⟩SO(5)−5,ζ−(q) = 0,
+(4.279)
+⟨W
+⟩SO(5)−5,ζ−(q) = 0,
+(4.280)
+⟨W
+⟩SO(5)−5,ζ−(q) = q4II
+SO(5)−5,ζ−
+N
+(q),
+(4.281)
+⟨W
+⟩SO(5)−5,ζ−(q) = q5⟨W ⟩SO(5)−5,ζ−(q),
+(4.282)
+⟨W
+⟩SO(5)−5,ζ−(q) = q7II
+SO(5)−5,ζ−
+N
+(q),
+(4.283)
+⟨W
+⟩SO(5)−5,ζ−(q) = 0.
+(4.284)
+The half-indices and the line defect indices for the O(5) CS theory can be obtained
+by gauging the ZC
+2 symmetry. We find
+II
+O(5)−5,ζ+
+N
+= f(q10, q10)
+f(−q)
+,
+(4.285)
+II
+O(5)−5,ζ−
+N
+= −q
+5
+2 f(1, q20)
+f(−q)
+(4.286)
+and
+⟨W ⟩O(5)−5,ζ+(q) = −2q
+1
+2 f(q8, q12)
+f(−q) ,
+(4.287)
+⟨W ⟩O(5)−5,ζ−(q) = 2q2f(q2, q18)
+f(−q) .
+(4.288)
+4.8.3
+General case
+Now we propose the general formula of the unflavored half-index and the one-point
+function of the fundamental Wilson line in terms of Ramanujan’s general theta func-
+tion. We conjecture that
+II
+SO(2n+1)−2n−1,ζ+
+N
+= φ(−q
+2n+1
+2 )
+f(−q)
+= f(−q
+2n+1
+2 , −q
+2n+1
+2 )
+f(−q)
+,
+(4.289)
+II
+SO(2n+1)−2n−1,ζ−
+N
+= φ(q
+2n+1
+2 )
+f(−q)
+= f(q
+2n+1
+2 , q
+2n+1
+2 )
+f(−q)
+,
+(4.290)
+II
+O(2n+1)−2n−1,ζ+
+N
+= f(q4n+2, q4n+2)
+f(−q)
+,
+(4.291)
+II
+O(2n+1)−2n−1,ζ−
+N
+= −qn+ 1
+2 f(1, q8n+4)
+f(−q)
+(4.292)
+61
+
+
+--- PAGE 62 ---
+and
+⟨W ⟩SO(2n+1)−2n−1,ζ+(q) = −2q
+1
+2 f(−q
+2n−1
+2 , −q
+2n+3
+2 )
+f(−q)
+,
+(4.293)
+⟨W ⟩SO(2n+1)−2n−1,ζ−(q) = −2q
+1
+2 f(q
+2n−1
+2 , q
+2n+3
+2 )
+f(−q)
+,
+(4.294)
+⟨W ⟩O(2n+1)−2n−1,ζ+(q) = −2q
+1
+2 f(q4n, q4n+4)
+f(−q)
+,
+(4.295)
+⟨W ⟩O(2n+1)−2n−1,ζ−(q) = 2qnf(q2, q8n+2)
+f(−q)
+.
+(4.296)
+As we have seen in the examples for SO(3) and SO(5) we can write combined
+χ-dependent expressions
+II
+SO(2n+1)−2n−1,ζχ
+N
+= φ(−χq
+2n+1
+2 )
+f(−q)
+= f(−χq
+2n+1
+2 , −χq
+2n+1
+2 )
+f(−q)
+,
+(4.297)
+⟨W ⟩SO(2n+1)−2n−1,ζχ(q) = −2q
+1
+2 f(−χq
+2n−1
+2 , −χq
+2n+3
+2 )
+f(−q)
+.
+(4.298)
+These results can be further combined with those for SO(2n), (4.159) and (4.160),
+to give
+II
+SO(2n+ϵ)−2n−ϵ,ζχ
+N
+= φ((−1)ϵχq
+2n+ϵ
+2 )
+f(−q)
+= f((−1)ϵχq
+2n+ϵ
+2 , (−1)ϵχq
+2n+ϵ
+2 )
+f(−q)
+,
+(4.299)
+⟨W ⟩SO(2n+ϵ)−2n−ϵ,ζχ(q) = −2q
+1
+2 f((−1)ϵχq
+2n+ϵ−2
+2
+, (−1)ϵχq
+2n+ϵ+2
+2
+)
+f(−q)
+.
+(4.300)
+4.9
+SO(2n + 1)−4n+2 with adjoint
+The half-index of the SO(2n+1) CS theory of level k = −4n+2 with an adjoint chiral
+coincides with that of the USp(2n) CS theory of level −2n −2 with an adjoint, in
+both cases without fundamental chirals, for n = 1 and n = 2 due to the identifications
+SO(3) ≃USp(2) and SO(5) ≃USp(4). However, there is no reason this should hold
+for higher rank cases and indeed for n = 3 we find the half-indices differ at order q8.
+We also note that at least for SO(3) and SO(5) the half-indices do not depend
+on χ. However, we do have χ-dependence in the one-point functions of Wilson lines.
+E.g., for SO(3) we have
+⟨s2k⟩= qk2 (q4; q4)2
+∞
+(q2; q2)∞
+,
+(4.301)
+⟨s2k+1⟩= −χ
+2 qk(k−1)
+(q2; q2)5
+∞
+(q)2
+∞(q4; q4)2
+∞
+,
+(4.302)
+62
+
+
+--- PAGE 63 ---
+so we can claulate for example
+⟨W1⟩SO(3)−4,ζχ = ⟨χ + s + s−1⟩
+= χ
+(q4; q4)2
+∞
+(q2; q2)∞
+−
+(q2; q2)5
+∞
+(q)2
+∞(q4; q4)2
+∞
+
+(4.303)
+and
+⟨W2⟩SO(3)−4,ζχ = ⟨1 + s2 + s−2⟩
+=
+ 1 + 2q4 (q4; q4)2
+∞
+(q2; q2)∞
+(4.304)
+4.10
+SO(2n + 1)−4n+2−Nf with adjoint
+Let us now study the CS theory with an adjoint chiral as well as Nf fundamental
+flavors. We see that the half-indices are again given by eta-products but now involving
+a factor of η(|k|
+2 τ) where k is the (odd) CS level in the case of Nf = 1. In all cases the
+weight of the eta-product is half the rank of the gauge group for χ = +. For Nf = 1
+it is reduced by 1
+2 for the case of χ = −. Surprisingly, for Nf = 2 the half-index does
+not depend on χ.
+4.10.1
+SO(3)−3 with adjoint
+For n = 1 and Nf = 1, we have the SO(3) CS theory with level −3. The half-index
+reads
+II
+SO(3)−3,ζχ
+N,D
+= 1
+2(q)∞
+I
+ds
+2πis(χs±; q)∞(χqs±; q)∞(χq
+1
+2x; q)∞(q
+1
+2s±x; q)∞.
+(4.305)
+We find that the half-indices are given by the following eta-products:
+II
+SO(3)−3,ζ+
+N,D
+= q−3
+16 η(3τ)2
+η(3τ/2)
+=
+∞
+Y
+n=1
+(1 −q3n)2
+(1 −q
+3n
+2 )
+,
+(4.306)
+II
+SO(3)−3,ζ−
+N,D
+= q−3
+16 η(3τ/2)η(6τ)
+η(3τ)
+=
+∞
+Y
+n=1
+(1 −q
+3n
+2 )(1 −q6n)
+(1 −q3n)
+(4.307)
+and the combined result is
+II
+SO(3)−3,ζχ
+N,D
+=
+∞
+Y
+n=1
+(1 −q3n)(1 −χq3n)
+(1 −χq
+3n
+2 )
+.
+(4.308)
+63
+
+
+--- PAGE 64 ---
+Using the Jacobi triple product we can calculate
+II
+SO(3)−3,ζχ
+N,D
+= (χq
+1
+2; q)∞(q6; q6)2
+∞
+(q)∞(q12; q12)∞
+
+(q4; q4)2
+∞(q6; q6)3
+∞
+(q2; q2)∞(q3; q3)2
+∞(q12; q12)∞
++ χq
+1
+2
+(q2; q2)4
+∞
+(q)2
+∞(q4; q4)∞
+
+.
+(4.309)
+It is not possible to check this as for previous linear eta-product identities as we cannot
+write this involving a sum of two modular functions (up to an overall factor). However
+we have checked that the q-series expansions of (4.308) and (4.309) agree to at least
+order q500 so this provides an interesting conjectured identity.
+For O(3) theory we find
+II
+O(3)−3,ζ+
+N,D
+=
+X
+m∈Z
+q3m(4m+1),
+(4.310)
+II
+O(3)−3,ζ−
+N,D
+= q
+3
+2 X
+m∈Z
+q3m(4m−3).
+(4.311)
+4.10.2
+SO(5)−7 with adjoint
+For n = 2 and Nf = 1 the SO(5) CS theory has level −7. We conjecture that the
+unflavored half-indices are given by the following eta-product:
+II
+SO(5)−7,ζ+
+N,D
+= q−35
+48 η(7τ)3
+η(7τ/2)
+=
+∞
+Y
+n=1
+(1 −q7n)3
+(1 −q
+7n
+2 )
+,
+(4.312)
+II
+SO(5)−7,ζ−
+N,D
+= q−35
+48η(7τ/2)η(14τ)
+=
+∞
+Y
+n=1
+(1 −q
+7n
+2 )(1 −q14n),
+(4.313)
+which can be combined for χ = ± as
+II
+SO(5)−7,ζ−
+N,D
+=
+∞
+Y
+n=1
+(1 + χq
+7n
+2 )(1 −q7n)(1 −χq7n).
+(4.314)
+4.10.3
+SO(3)−4 with adjoint
+For n = 1 and Nf = 2 we have the CS theory of level −4. The half-index is
+II
+SO(3)−4,ζχ
+N,D
+= 1
+2(q)∞
+I
+ds
+2πis(χs±; q)∞(χqs±; q)∞(χq
+1
+2x±)∞(q
+1
+2s±x)∞(q
+1
+2s±x−1)∞.
+(4.315)
+64
+
+
+--- PAGE 65 ---
+We find that the unflavored half-index is given by
+II
+SO(3)−4,ζχ
+N,D
+= q−1
+8 η(2τ)2
+η(τ)
+=
+∞
+Y
+n=1
+(1 −q2n)2
+1 −qn
+.
+(4.316)
+In this case the half-index does not depend on χ. So the unflavored half-index for the
+O(3)−4 CS theory with χ′ = + is the same as (4.316) and that with χ′ = −vanishes.
+4.10.4
+SO(5)−8 with adjoint
+Similarly, the unflavored index does not depend on χ for n = 2 and Nf = 2, i.e. the
+SO(5) CS theory. We conjecture that the unflavored half-index is given by
+II
+SO(5)−8,ζχ
+N,D
+= q−5
+8 η(2τ)2η(8τ)2
+η(τ)η(4τ)
+=
+∞
+Y
+n=1
+(1 −q2n)2(1 −q8n)2
+(1 −qn)(1 −q4n) .
+(4.317)
+5
+G2 CS theories
+Consider 3d N = 2 gauge theory with gauge group G2 and Nf fundamental chirals
+Qα, α = 1, · · · ,f. We now consider the case with Neumann boundary condition for the
+vector multiplet and Dirichlet for the fundamental chiral multiplets. The boundary
+conditions and charges of the field content are summarized as follows:
+bc
+G2
+SU(Nf)
+U(1)a
+U(1)R
+VM
+N
+Adj
+1
+0
+0
+Qα
+D
+7
+Nf
+1
+r
+(5.1)
+We can easily calculate the gauge and ’t Hooft anomalies as follows,
+A = 4 Tr(s2) + 7r2
+|
+{z
+}
+VM, N
++
+
+Nf Tr(s2) + 7
+2 Tr(x2) + 7
+2Nf(a −r)2
+
+|
+{z
+}
+Qα, D
+=(Nf + 4) Tr(s2) + 7
+2 Tr(x2) + 7
+2Nfa2 −7Nfar + 7
+2(Nf + 2)r2 .
+(5.2)
+To cancel the gauge anomaly we need to take the CS level
+k = −Nf −4.
+(5.3)
+65
+
+
+--- PAGE 66 ---
+The half-index is
+IIN =(q)2
+∞
+223
+2
+Y
+i=1
+I
+dsi
+2πisi
+ 3
+Y
+i̸=j
+(sis−1
+j ; q)∞
+!
+3
+Y
+i=1
+(s±
+i ; q)∞
+Nf
+Y
+α=1
+(q
+1
+2xα; q)∞
+3
+Y
+i=1
+(q
+1
+2s±
+i xα; q)∞,
+(5.4)
+where Q3
+i=1 si = QNf
+α=1 xα = 1.
+In the case with Dirichlet for the adjoint and fundamental chiral multiplets, the
+boundary conditions and charges of the field content are summarized as follows:
+bc
+G2
+SU(Nf)
+U(1)a
+U(1)R
+VM
+N
+Adj
+1
+0
+0
+Φ
+D
+Adj
+1
+0
+0
+Qα
+D
+7
+Nf
+1
+r
+(5.5)
+We can easily calculate the gauge and ’t Hooft anomalies as follows,
+A = 4 Tr(s2) + 7r2
+|
+{z
+}
+VM, N
++ 4 Tr(s2) + 7r2
+|
+{z
+}
+Φ, D
++
+
+Nf Tr(s2) + 7
+2 Tr(x2) + 7
+2Nf(a −r)2
+
+|
+{z
+}
+Qα, D
+=(Nf + 8) Tr(s2) + 7
+2 Tr(x2) + 7
+2Nfa2 −7Nfar + 7
+2(Nf + 4)r2 .
+(5.6)
+To cancel the gauge anomaly we need to take CS level
+k = −Nf −8.
+(5.7)
+The half-index is
+IIN,D =(q)4
+∞
+223
+2
+Y
+i=1
+I
+dsi
+2πisi
+ 3
+Y
+i̸=j
+(sis−1
+j ; q)∞(qsis−1
+j ; q)∞
+!
+3
+Y
+i=1
+(s±
+i ; q)∞(qs±
+i ; q)∞
+×
+Nf
+Y
+α=1
+(q1−r/2a−1xα; q)∞
+3
+Y
+i=1
+(q1−r/2s±
+i a−1xα; q)∞
+(5.8)
+where Q3
+i=1 si = QNf
+α=1 xα = 1.
+The character of the representation of G2 with highest weight aω1 + bω2 where ω1
+and ω2 are the two fundamental weights and a and b are non-negative integers is [53]
+χg2
+a,b(s) = s(a+2b+1,a+b+1) −s(a+2b+1,b)
+s
+−s
+.
+(5.9)
+For example, the character of the fundamental representation with (a, b) = (1, 0) is
+χg2
+1,0(s) = 1 + s1 + s2 + s−1
+1
++ s−1
+2
++ s1s2 + s−1
+1 s−1
+2 .
+(5.10)
+66
+
+
+--- PAGE 67 ---
+5.1
+G2−4
+For the pure G2 CS theory with level k = −4 obeying the Neumann boundary condi-
+tion, there are no BPS local operators living at the boundary so that the half-index is
+trivial. However, in the presence of the BPS line defects, one can find the BPS local
+operators living at the junction of the lines and the boundary which are detectable
+from the non-trivial line defect half-indices. For example, we find the following non-
+vanishing ⟨Wa,b⟩G2−4(q) for small values of a and b
+⟨W0,1⟩G2−4(q) = −q,
+(5.11)
+⟨W3,0⟩G2−4(q) = q2,
+(5.12)
+⟨W4,0⟩G2−4(q) = −q3,
+(5.13)
+⟨W0,4⟩G2−4(q) = q7,
+(5.14)
+⟨W7,0⟩G2−4(q) = −q7.
+(5.15)
+5.2
+G2−5
+Consider the case with Nf = 1 where the G2 CS theory has level k = −5. We find
+that the unflavored half-index precisely agrees with
+II
+G2−5
+N
+(q) = f(−q
+3
+2, −q)
+f(−q)
+.
+(5.16)
+The one-point function of the fundamental Wilson line is evaluated as
+⟨W1,0⟩G2−5(q) = (q)2
+∞
+223
+I
+2
+Y
+i=1
+dsi
+2πisi
+Y
+i̸=j
+(sis−1
+j ; q)∞
+3
+Y
+i=1
+(s±
+i ; q)∞(q
+1
+2x; q)∞(q
+1
+2s±
+i x; q)∞
+× (1 + s1 + s2 + s−1
+1
++ s−1
+2
++ s1s2 + s−1
+1 s−1
+2 )
+(5.17)
+We find that in the unflavored limit it is given by
+⟨W1,0⟩G2−5(q) = −q
+1
+2 f(−q
+1
+2, −q2)
+f(−q)
+.
+(5.18)
+The other one-point functions can be described by the half-index (5.16) and the
+67
+
+
+--- PAGE 68 ---
+one-point function (5.18). For example,
+⟨W0,1⟩G2−5(q) = 0,
+(5.19)
+⟨W2,0⟩G2−5(q) = 0,
+(5.20)
+⟨W1,1⟩G2−5(q) = −q⟨W1,0⟩G2−5(q),
+(5.21)
+⟨W0,2⟩G2−5(q) = −q2II
+G2−5
+N
+(q),
+(5.22)
+⟨W3,0⟩G2−5(q) = 0,
+(5.23)
+⟨W2,1⟩G2−5(q) = 0,
+(5.24)
+⟨W1,2⟩G2−5(q) = 0,
+(5.25)
+⟨W0,3⟩G2−5(q) = 0,
+(5.26)
+⟨W4,0⟩G2−5(q) = q2⟨W1,0⟩G2−5(q),
+(5.27)
+⟨W3,1⟩G2−5(q) = q3II
+G2−5
+N
+(q),
+(5.28)
+⟨W2,2⟩G2−5(q) = 0,
+(5.29)
+⟨W1,3⟩G2−5(q) = 0,
+(5.30)
+⟨W0,4⟩G2−5(q) = 0.
+(5.31)
+5.3
+G2−8 with adjoint
+With an adjoint chiral but no fundamentals we have calculated the half-index to order
+q15 and it is consistent with an eta-product expression
+q−1
+6 η(4τ)η(6τ)η(8τ)
+η(2τ)η(12τ)
+.
+(5.32)
+We note that only even powers of q are seen in the expansion.
+However, since we have only calculated up to order q15 there may be higher order
+terms. Indeed, in previous results we always saw the level appearing (the least common
+multiple of the di in the notation of (1.14)). Hence we would conjecture that the result
+(assuming it is an eta-product) would include also a factor of η(24τ), and of course
+we cannot exclude even higher terms. If we further conjecture that the pattern holds
+of the weight being half the rank of the gauge group, it is natural to conjecture the
+result
+II
+G2−8
+N,D ∼q−7
+6 η(4τ)η(6τ)η(8τ)η(24τ)
+η(2τ)η(12τ)
+.
+(5.33)
+68
+
+
+--- PAGE 69 ---
+A
+Modular Forms
+Under a modular transformation τ →aτ+b
+cτ+d we use the definition that a modular form
+of weight k is a function f(τ) which transforms as f(τ) →λ(a, b, c, d)(cτ + d)kf(τ).8
+With this definition the Dedekind eta function η(τ) is a modular form of weight 1
+2
+obeying
+η(τ + 1) = e
+πi
+12η(τ),
+(A.1)
+η(−1/τ) =
+p
+τ/iη(τ).
+(A.2)
+The weight of an eta-product Q
+i η(diτ)mi is defined to be
+1
+2
+P
+i mi.
+The eta-
+products can be cusp forms or modular forms if they satisfy certain conditions. If
+we define the level, N, to be the lowest common multiple of the di then such an eta-
+product is a modular form of weight k on the congruence subgroup Γ0(N) ⊂SL(2, Z)
+that is defined as the matrices which are upper triangular mod N
+Γ0(N) :=
+( 
+a
+b
+c
+d
+!
+∈SL(2, Z) : c ≡0
+mod N
+)
+(A.3)
+if and only if the following conditions all hold, as proved by Newman [59, 60]
+•
+1
+2
+P
+i mi = k
+• P
+i dimi = 0 mod 24
+• P
+i
+N
+dimi = 0 mod 24
+• Q
+i d|mi|
+i
+is a square integer.
+There exist linear identities for eta-products. In the case that the eta-products
+are modular functions (modular forms of weight zero) on some Γ0(N) there is an
+algorithmic way to prove such identities. This has been formulated and automated in
+Maple packages provided by Garvan [29]. We use this later to prove some interesting
+identities which allow us in some examples to reexpress a sum of eta-products, derived
+by analytically evaluating a half-index, as a single eta-product.
+Acknowledgements
+The work of T.O. was supported by the Startup Funding no. 4007012317 of the
+Southeast University. DJS was supported in part by the STFC Consolidated grant
+ST/T000708/1.
+8An alternative definition is stricter, requiring that λ(a, b, c, d) = 1.
+69
+
+
+--- PAGE 70 ---
+References
+[1] A. Gadde, S. Gukov, and P. Putrov, “Walls, Lines, and Spectral Dualities in 3d
+Gauge Theories,” JHEP 1405 (2014) 047, arXiv:1302.0015 [hep-th].
+[2] T. Okazaki and S. Yamaguchi, “Supersymmetric boundary conditions in
+three-dimensional N=2 theories,” Phys.Rev. D87 no. 12, (2013) 125005,
+arXiv:1302.6593 [hep-th].
+[3] A. Gadde, S. Gukov, and P. Putrov, “Fivebranes and 4-manifolds,” Prog. Math.
+319 (2016) 155–245, arXiv:1306.4320 [hep-th].
+[4] Y. Yoshida and K. Sugiyama, “Localization of three-dimensional N = 2
+supersymmetric theories on S1 × D2,” PTEP 2020 no. 11, (2020) 113B02,
+arXiv:1409.6713 [hep-th].
+[5] T. Dimofte, D. Gaiotto, and N. M. Paquette, “Dual boundary conditions in 3d
+SCFT’s,” JHEP 05 (2018) 060, arXiv:1712.07654 [hep-th].
+[6] T. Okazaki and D. J. Smith, “Line defect half-indices of SU(N) Chern-Simons
+theories,” JHEP 06 (2024) 006, arXiv:2403.03439 [hep-th].
+[7] B. C. Berndt, Ramanujan’s notebooks. Part III. Springer-Verlag, New York,
+1991. https://doi.org/10.1007/978-1-4612-0965-2.
+[8] G. E. Andrews, The theory of partitions. Cambridge Mathematical Library.
+Cambridge University Press, Cambridge, 1998. Reprint of the 1976 original.
+[9] A. V. Sills, An invitation to the Rogers-Ramanujan identities. CRC Press, Boca
+Raton, FL, 2018. With a foreword by George E. Andrews.
+[10] A. Amariti, C. Cs´aki, M. Martone, and N. R.-L. Lorier, “From 4D to 3D chiral
+theories: Dressing the monopoles,” Phys. Rev. D 93 no. 10, (2016) 105027,
+arXiv:1506.01017 [hep-th].
+[11] K. Nii, “3d Deconfinement, Product gauge group, Seiberg-Witten and New 3d
+dualities,” JHEP 08 (2016) 123, arXiv:1603.08550 [hep-th].
+[12] S. Pasquetti and M. Sacchi, “From 3d dualities to 2d free field correlators and
+back,” JHEP 11 (2019) 081, arXiv:1903.10817 [hep-th].
+[13] S. Pasquetti and M. Sacchi, “3d dualities from 2d free field correlators:
+recombination and rank stabilization,” JHEP 01 (2020) 061, arXiv:1905.05807
+[hep-th].
+70
+
+
+--- PAGE 71 ---
+[14] K. Nii, “Confinement in 3d N = 2 exceptional gauge theories,”
+arXiv:1906.10161 [hep-th].
+[15] S. Benvenuti, I. Garozzo, and G. Lo Monaco, “Sequential deconfinement in 3d
+N = 2 gauge theories,” JHEP 07 (2021) 191, arXiv:2012.09773 [hep-th].
+[16] S. Benvenuti and G. Lo Monaco, “A toolkit for ortho-symplectic dualities,”
+arXiv:2112.12154 [hep-th].
+[17] S. Bajeot and S. Benvenuti, “Sequential deconfinement and self-dualities in 4dN
+= 1 gauge theories,” JHEP 10 (2022) 007, arXiv:2206.11364 [hep-th].
+[18] A. Amariti and S. Rota, “3d N=2 SO/USp adjoint SQCD: s-confinement and
+exact identities,” Nucl. Phys. B 987 (2023) 116068, arXiv:2202.06885
+[hep-th].
+[19] T. Okazaki and D. J. Smith, “Boundary confining dualities and Askey-Wilson
+type q-beta integrals,” JHEP 08 (2023) 048, arXiv:2305.00247 [hep-th].
+[20] A. Amariti, F. Mantegazza, and D. Morgante, “Sporadic dualities from tensor
+deconfinement,” arXiv:2307.14146 [hep-th].
+[21] T. Okazaki and D. J. Smith, “3d exceptional gauge theories and boundary
+confinement,” JHEP 11 (2023) 199, arXiv:2308.14428 [hep-th].
+[22] R. Askey and J. Wilson, “Some basic hypergeometric orthogonal polynomials
+that generalize Jacobi polynomials,” Mem. Amer. Math. Soc. 54 no. 319, (1985)
+iv+55. https://doi.org/10.1090/memo/0319.
+[23] B. Nassrallah and M. Rahman, “Projection formulas, a reproducing kernel and a
+generating function for q-Wilson polynomials,” SIAM J. Math. Anal. 16 no. 1,
+(1985) 186–197. https://doi.org/10.1137/0516014.
+[24] M. Rahman, “An integral representation of a 10φ9 and continuous bi-orthogonal
+10φ9 rational functions,” Canad. J. Math. 38 no. 3, (1986) 605–618.
+https://doi.org/10.4153/CJM-1986-030-6.
+[25] R. A. Gustafson, “Some q-beta and Mellin-Barnes integrals on compact Lie
+groups and Lie algebras,” Trans. Amer. Math. Soc. 341 no. 1, (1994) 69–119.
+https://doi.org/10.2307/2154615.
+[26] R. A. Gustafson, “Some q-beta integrals on SU(n) and Sp(n) that generalize the
+Askey-Wilson and Nasrallah-Rahman integrals,” SIAM J. Math. Anal. 25 no. 2,
+(1994) 441–449. https://doi.org/10.1137/S0036141092248614.
+71
+
+
+--- PAGE 72 ---
+[27] O. Aharony, S. S. Razamat, N. Seiberg, and B. Willett, “3d dualities from 4d
+dualities for orthogonal groups,” JHEP 08 (2013) 099, arXiv:1307.0511
+[hep-th].
+[28] T. Okazaki and D. J. Smith, “Seiberg-like dualities for orthogonal and
+symplectic 3d N = 2 gauge theories with boundaries,” JHEP 07 (2021) 231,
+arXiv:2105.07450 [hep-th].
+[29] F. Garvan, “A tutorial for the maple eta package.” 2019.
+https://arxiv.org/abs/1907.09130.
+[30] K. Ono, The web of modularity: arithmetic of the coefficients of modular forms
+and q-series, vol. 102 of CBMS Regional Conference Series in Mathematics.
+Published for the Conference Board of the Mathematical Sciences, Washington,
+DC; by the American Mathematical Society, Providence, RI, 2004.
+[31] F. Garvan, D. Kim, and D. Stanton, “Cranks and t-cores,” Invent. Math. 101
+no. 1, (1990) 1–17. https://doi.org/10.1007/BF01231493.
+[32] A. Gadde, L. Rastelli, S. S. Razamat, and W. Yan, “The 4d Superconformal
+Index from q-deformed 2d Yang-Mills,” Phys. Rev. Lett. 106 (2011) 241602,
+arXiv:1104.3850 [hep-th].
+[33] A. Gadde, L. Rastelli, S. S. Razamat, and W. Yan, “Gauge Theories and
+Macdonald Polynomials,” Commun. Math. Phys. 319 (2013) 147–193,
+arXiv:1110.3740 [hep-th].
+[34] T. Dimofte, D. Gaiotto, and S. Gukov, “3-Manifolds and 3d Indices,” Adv.
+Theor. Math. Phys. 17 no. 5, (2013) 975–1076, arXiv:1112.5179 [hep-th].
+[35] C. Cordova, D. Gaiotto, and S.-H. Shao, “Infrared Computations of Defect
+Schur Indices,” JHEP 11 (2016) 106, arXiv:1606.08429 [hep-th].
+[36] J. H. Conway and S. P. Norton, “Monstrous moonshine,” Bull. London Math.
+Soc. 11 no. 3, (1979) 308–339. https://doi.org/10.1112/blms/11.3.308.
+[37] G. Mason, “M24 and certain automorphic forms,” in Finite groups—coming of
+age (Montreal, Que., 1982), vol. 45 of Contemp. Math., pp. 223–244. Amer.
+Math. Soc., Providence, RI, 1985.
+https://doi.org/10.1090/conm/045/822240.
+72
+
+
+--- PAGE 73 ---
+[38] D. Dummit, H. Kisilevsky, and J. McKay, “Multiplicative products of
+η-functions,” in Finite groups—coming of age (Montreal, Que., 1982), vol. 45 of
+Contemp. Math., pp. 89–98. Amer. Math. Soc., Providence, RI, 1985.
+https://doi.org/10.1090/conm/045/822235.
+[39] M. Koike, “On McKay’s conjecture,” Nagoya Math. J. 95 (1984) 85–89.
+https://doi.org/10.1017/S0027763000020985.
+[40] Y. Martin, “Multiplicative η-quotients,” Trans. Amer. Math. Soc. 348 no. 12,
+(1996) 4825–4856. https://doi.org/10.1090/S0002-9947-96-01743-6.
+[41] M. C. N. Cheng, S. Chun, F. Ferrari, S. Gukov, and S. M. Harrison, “3d
+Modularity,” JHEP 10 (2019) 010, arXiv:1809.10148 [hep-th].
+[42] M. C. N. Cheng, F. Ferrari, and G. Sgroi, “Three-Manifold Quantum Invariants
+and Mock Theta Functions,” Phil. Trans. Roy. Soc. Lond. 378 no. 2163, (2019)
+20180439, arXiv:1912.07997 [math.NT].
+[43] K. Costello, T. Dimofte, and D. Gaiotto, “Boundary Chiral Algebras and
+Holomorphic Twists,” Commun. Math. Phys. 399 no. 2, (2023) 1203–1290,
+arXiv:2005.00083 [hep-th].
+[44] M. C. N. Cheng, S. Chun, B. Feigin, F. Ferrari, S. Gukov, S. M. Harrison, and
+D. Passaro, “3-Manifolds and VOA Characters,” Commun. Math. Phys. 405
+no. 2, (2024) 44, arXiv:2201.04640 [hep-th].
+[45] A. E. V. Ferrari, N. Garner, and H. Kim, “Boundary vertex algebras for 3d
+N = 4 rank-0 SCFTs,” SciPost Phys. 17 no. 2, (2024) 057, arXiv:2311.05087
+[hep-th].
+[46] S. Gukov and D. Pei, “Equivariant Verlinde formula from fivebranes and
+vortices,” Commun. Math. Phys. 355 no. 1, (2017) 1–50, arXiv:1501.01310
+[hep-th].
+[47] S. Gukov, P. Putrov, and C. Vafa, “Fivebranes and 3-manifold homology,”
+JHEP 07 (2017) 071, arXiv:1602.05302 [hep-th].
+[48] S. Gukov, D. Pei, P. Putrov, and C. Vafa, “BPS spectra and 3-manifold
+invariants,” J. Knot Theor. Ramifications 29 no. 02, (2020) 2040003,
+arXiv:1701.06567 [hep-th].
+73
+
+
+--- PAGE 74 ---
+[49] I. J. Zucker, “Further relations amongst infinite series and products. II. The
+evaluation of three-dimensional lattice sums,” J. Phys. A 23 no. 2, (1990)
+117–132. http://stacks.iop.org/0305-4470/23/117.
+[50] R. J. Lemke Oliver, “Eta-quotients and theta functions,” Adv. Math. 241 (2013)
+1–17. https://doi.org/10.1016/j.aim.2013.03.019.
+[51] H. Cho, B. Kim, H. Nam, and J. Sohn, “A survey on t-core partitions,”
+Hardy-Ramanujan J. 44 (2021) 81–101.
+[52] M. Somos. https://web.archive.org/web/20190709150645/https:
+//eta.math.georgetown.edu/index.html.
+[53] W. Fulton and J. Harris, Representation theory, vol. 129 of Graduate Texts in
+Mathematics. Springer-Verlag, New York, 1991.
+https://doi.org/10.1007/978-1-4612-0979-9. A first course, Readings in
+Mathematics.
+[54] L. J. Rogers, “On the Expansion of some Infinite Products,” Proc. Lond. Math.
+Soc. 24 (1892/93) 337–352. https://doi.org/10.1112/plms/s1-24.1.337.
+[55] W. N. Bailey, “Some identities in combinatory analysis,” Proc. London Math.
+Soc. (2) 49 (1947) 421–425. https://doi.org/10.1112/plms/s2-49.6.421.
+[56] L. J. Slater, “Further identities of the Rogers-Ramanujan type,” Proc. London
+Math. Soc. (2) 54 (1952) 147–167.
+https://doi.org/10.1112/plms/s2-54.2.147.
+[57] I. Chen and N. Yui, “Singular values of Thompson series,” in Groups, difference
+sets, and the Monster (Columbus, OH, 1993), vol. 4 of Ohio State Univ. Math.
+Res. Inst. Publ., pp. 255–326. de Gruyter, Berlin, 1996.
+[58] D. Ford, J. McKay, and S. Norton, “More on replicable functions,” Comm.
+Algebra 22 no. 13, (1994) 5175–5193.
+https://doi.org/10.1080/00927879408825127.
+[59] M. Newman, “Construction and application of a class of modular functions,”
+Proc. London Math. Soc. (3) 7 (1957) 334–350.
+https://doi.org/10.1112/plms/s3-7.1.334.
+[60] M. Newman, “Construction and application of a class of modular functions. II,”
+Proc. London Math. Soc. (3) 9 (1959) 373–387.
+https://doi.org/10.1112/plms/s3-9.3.373.
+74

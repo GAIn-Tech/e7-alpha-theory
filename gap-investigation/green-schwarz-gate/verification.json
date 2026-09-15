@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\green-schwarz-gate\\quotient_check.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Faithful-56 quotient cocharacter +1/3 passes; -1/3 rejected.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\green-schwarz-gate\\checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"cases\": 35, \"central_norm\": \"4/3\", \"quotient_spin_flux_X4\": \"8\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\green-schwarz-gate\\checks.py",
+        "--test"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_PP_single_wall_fails (__main__.Tests.test_PP_single_wall_fails) ... ok\ntest_global_period_negative (__main__.Tests.test_global_period_negative) ... ok\ntest_gravity_omitted (__main__.Tests.test_gravity_omitted) ... ok\ntest_liftable_periods (__main__.Tests.test_liftable_periods) ... ok\ntest_mass_kernel_and_free_couplings (__main__.Tests.test_mass_kernel_and_free_couplings) ... ok\ntest_missing (__main__.Tests.test_missing) ... ok\ntest_no_shift (__main__.Tests.test_no_shift) ... ok\ntest_quotient_character (__main__.Tests.test_quotient_character) ... ok\ntest_saved (__main__.Tests.test_saved) ... ok\ntest_spurious_cubic (__main__.Tests.test_spurious_cubic) ... ok\ntest_tampered (__main__.Tests.test_tampered) ... ok\ntest_wrong_sign (__main__.Tests.test_wrong_sign) ... ok\ntest_wrong_wall (__main__.Tests.test_wrong_wall) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.976s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\green-schwarz-gate\\Conditional.lean"
+      ],
+      "exit_code": 0,
+      "stdout": "'BoundaryGS.factorized_cancellation' does not depend on any axioms\n'BoundaryGS.uncancelled_other_wall' does not depend on any axioms\n",
+      "stderr": ""
+    }
+  ],
+  "hashes": {
+    "checks.py": "3a3d25a448460c6ae73404055dcd4c86290b9330b492e98fef218a776353696f",
+    "Conditional.lean": "2d0fdc3e5e06b597fa799784f9f41d33fec3780204ca675319eae1a33b1ad2dd",
+    "fetch_sources.py": "0d5ebbd3e5b95a78c148ec52aafc65856cc92cef46fb1e410aa061b6d315d023",
+    "formalization.yaml": "4e009280dc8d7b1352eb4e8b9c55bb780cd1e5517c9d07182d401aebcf553bd5",
+    "quotient-receipt.json": "b04f21011e26fafbfb0f79dfc5e2d77c9ac2111114285d769a0cf2d1867ddda2",
+    "quotient_check.py": "1c6222296e260c16811234b123762dc4ffe5131187cf24abfa66d3732fdc856a",
+    "receipt.json": "f9b8fc740c6fede44e88e6978655b39b9b2319933efb26de1234b706a711e78c",
+    "RELEASE_DISCLOSURE.md": "1c03659feaa183e9f1a2a5b5de6208575f96fc88a3672574c9afd3b8b2464e47",
+    "REPORT.md": "a9bb7c416a42d2959f1ca5db7f7fdba04ea9a5409404b495e982021533144ff4",
+    "run_checks.py": "8d4bb5748526e03c480116ff4511c01791efe3a57075ec9c34fa6fef8f2cac57",
+    "sources\\axion-quantization.pdf": "fee8fde49194b45855156cd20d101972537a7a4700bef277869da86ae5288c06",
+    "sources\\axion-quantization.txt": "69195168444ccfabe596c928b136a9914ce1fd0f0692dbc0ad6023b465a2bffc",
+    "sources\\bardeen-gravity.pdf": "a8c56931a76acc93168a9c3292d0421debc3fcec3730aaa317a2aa45950354ef",
+    "sources\\bardeen-gravity.txt": "c70360c15fba5880aebac882f480c696ad8eacea7ac3a233475c0ecb6fe0da76",
+    "sources\\E7-global.pdf": "3d0f2e267e06685b43970ea01e8d1ebb0b4fd46f6ee9a56caaae82de90567a69",
+    "sources\\E7-global.txt": "584f01b76ed5dcdec23628f96821b60e9671b17d69e9e40635fd0f344d5d32ad",
+    "sources\\ledger.json": "b0faef5fab19c7275217f438b2f06a5e3cfc527b4ce29295ea6486abc7658034",
+    "sources\\orbifold.pdf": "08b0f00a8415e69b5c5001f2eb85d5e7845a3a9dfe6f1e76d881f328ab97ce23",
+    "sources\\orbifold.txt": "a3080f17a4958a4531b3168cf4c0c410c42777c4c5ac1c9d60d99a8eb2bc1403",
+    "sources\\trace-normalization.pdf": "4574ec13afe1ad6e1f5f28c350ac3331022bcc1dc2468564bcecf5d52c7f51e2",
+    "sources\\trace-normalization.txt": "bac053454941ea4b931163c9ec50d91deedd1e24b1941a4a9f7c35c3bd1bea82"
+  },
+  "scope": "Exact Fraction arithmetic and minimal Lean conditional additive bridge. No Mathlib or hosted CI."
+}

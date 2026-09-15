@@ -1,0 +1,350 @@
+{
+  "E2_End_character_blocks": {
+    "0": {
+      "-1,2": 60,
+      "-1,3": 12,
+      "-2,2": 0,
+      "-2,3": 4,
+      "0,0": 1,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 1,
+      "1,0": 12,
+      "1,1": 60,
+      "2,0": 4,
+      "2,1": 0
+    },
+    "1": {
+      "-1,2": 56,
+      "-1,3": 14,
+      "-2,2": 0,
+      "-2,3": 2,
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "1,0": 14,
+      "1,1": 56,
+      "2,0": 2,
+      "2,1": 0
+    },
+    "2": {
+      "-1,2": 56,
+      "-1,3": 14,
+      "-2,2": 0,
+      "-2,3": 2,
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "1,0": 14,
+      "1,1": 56,
+      "2,0": 2,
+      "2,1": 0
+    }
+  },
+  "Ext1_E2_diagonal": {
+    "0": {
+      "-1,2": 60,
+      "-2,3": 4,
+      "1,0": 12
+    },
+    "1": {
+      "-1,2": 56,
+      "-2,3": 2,
+      "1,0": 14
+    },
+    "2": {
+      "-1,2": 56,
+      "-2,3": 2,
+      "1,0": 14
+    }
+  },
+  "Ext1_filtration": "dim Ext1_0 = 12 + dim E_inf^(-1,2)_0 + dim E_inf^(-2,3)_0. Filtration extensions do not move degrees or change dimension sums.",
+  "Higgs_witness_full_neutral_verdict": null,
+  "checks": {
+    "bad_sign_rejected": true,
+    "full_saved_payload_replayed": true,
+    "missing_artifact_rejected": true,
+    "q1_chain_square_zero": true,
+    "q1_full_last_arrow_surjective": true,
+    "q2_first_arrow_injective_by_Serre_duality": true,
+    "rank_destroying_mutation_rejected": true,
+    "source_degree_misclassification_rejected": true
+  },
+  "claim_boundary": "Exact E1 and d1/E2 correction with full sparse q1 matrices and right inverses. No higher differential, charged cocycle lift, total-complex primitive, new Yoneda tensor or full Higgs/F-flatness result.",
+  "four_alleged_sources": "Not Ext1 by total degree; additionally E2(-2,2)=0, so they are not E3 sources in this full End complex.",
+  "full_Ext1_dimension": null,
+  "invariant_Ext1_dimension_bounds": [
+    12,
+    76
+  ],
+  "passed": true,
+  "polynomial_E_infinity_characters": [
+    12,
+    14,
+    14
+  ],
+  "predecessor_endpoint_issue": "exact_d3.py assigns endpoint=s.zeros(target_dim,4); named primitive traces are strings, not computed total-complex solutions. Byte replay verifies this assignment, not a geometric d3.",
+  "requested_four_class_tensor": null,
+  "source_hashes": {
+    "tian-yau-bundle-coupling-gate/certificate.json": "a5c0d10fe37b8766242bda8dff614dbe8e33c532866bf0c6ea5d70406c95da79",
+    "tian-yau-survivor-yoneda-gate/exact_audit.py": "18448b95bb0675d3daac79ddc823155d0deef2faa9a3699943ecb2609dd00a06",
+    "tian-yau-survivor-yoneda-gate/q1_differential.py": "b0822cfb6a169ce0b738ab5bedad8cbcd8e4bf1d47dfe7c25f4fd7ad518e8b70",
+    "tian-yau-survivor-yoneda-gate/verify.py": "8d898ee95ddf8b92bf27af09a3be582983a8d92e23bba58bc54625370ec3dadf"
+  },
+  "surjectivity_witnesses": [
+    {
+      "character": 0,
+      "dual_q2_source_kernel_dimension": 0,
+      "product_identity": true,
+      "right_inverse": {
+        "entries": [
+          [
+            0,
+            2,
+            "1"
+          ],
+          [
+            1,
+            0,
+            "1"
+          ],
+          [
+            2,
+            6,
+            "1"
+          ],
+          [
+            3,
+            4,
+            "1"
+          ],
+          [
+            4,
+            10,
+            "1"
+          ],
+          [
+            5,
+            8,
+            "1"
+          ],
+          [
+            6,
+            14,
+            "1"
+          ],
+          [
+            7,
+            12,
+            "1"
+          ],
+          [
+            8,
+            3,
+            "1"
+          ],
+          [
+            13,
+            5,
+            "1"
+          ],
+          [
+            15,
+            7,
+            "1"
+          ],
+          [
+            24,
+            1,
+            "1"
+          ],
+          [
+            47,
+            9,
+            "-1"
+          ],
+          [
+            50,
+            11,
+            "-1"
+          ],
+          [
+            51,
+            15,
+            "1"
+          ],
+          [
+            68,
+            13,
+            "1"
+          ]
+        ],
+        "shape": [
+          80,
+          16
+        ]
+      },
+      "zero_row_mutation_detected": true
+    },
+    {
+      "character": 1,
+      "dual_q2_source_kernel_dimension": 0,
+      "product_identity": true,
+      "right_inverse": {
+        "entries": [
+          [
+            0,
+            2,
+            "1"
+          ],
+          [
+            1,
+            3,
+            "1"
+          ],
+          [
+            2,
+            8,
+            "1"
+          ],
+          [
+            3,
+            9,
+            "1"
+          ],
+          [
+            10,
+            4,
+            "1"
+          ],
+          [
+            11,
+            5,
+            "1"
+          ],
+          [
+            12,
+            0,
+            "1"
+          ],
+          [
+            13,
+            1,
+            "1"
+          ],
+          [
+            40,
+            6,
+            "-1"
+          ],
+          [
+            41,
+            7,
+            "-1"
+          ],
+          [
+            46,
+            10,
+            "1"
+          ],
+          [
+            47,
+            11,
+            "1"
+          ]
+        ],
+        "shape": [
+          72,
+          12
+        ]
+      },
+      "zero_row_mutation_detected": true
+    },
+    {
+      "character": 2,
+      "dual_q2_source_kernel_dimension": 0,
+      "product_identity": true,
+      "right_inverse": {
+        "entries": [
+          [
+            0,
+            0,
+            "1"
+          ],
+          [
+            1,
+            5,
+            "1"
+          ],
+          [
+            2,
+            6,
+            "1"
+          ],
+          [
+            3,
+            11,
+            "1"
+          ],
+          [
+            4,
+            1,
+            "1"
+          ],
+          [
+            5,
+            2,
+            "1"
+          ],
+          [
+            11,
+            3,
+            "1"
+          ],
+          [
+            12,
+            4,
+            "1"
+          ],
+          [
+            43,
+            7,
+            "-1"
+          ],
+          [
+            44,
+            8,
+            "-1"
+          ],
+          [
+            54,
+            9,
+            "1"
+          ],
+          [
+            55,
+            10,
+            "1"
+          ]
+        ],
+        "shape": [
+          72,
+          12
+        ]
+      },
+      "zero_row_mutation_detected": true
+    }
+  ],
+  "unresolved_higher_differentials": [
+    "d2: (-1,2)->(1,1)",
+    "d3: (-2,3)->(1,1)",
+    "d3: (-1,2)->(2,0)",
+    "d4: (-2,3)->(2,0)"
+  ],
+  "unresolved_invariant_Ext1_E2_sectors": {
+    "-1,2": 60,
+    "-2,3": 4
+  }
+}

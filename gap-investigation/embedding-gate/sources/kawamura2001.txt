@@ -1,0 +1,607 @@
+=== PDF PAGE 1 ===
+arXiv:hep-ph/0012125v3  19 Jun 2001
+1
+Triplet-Doublet Splitting, Proton Stability and an Extra Dimension
+Yoshiharu Kawamura∗)
+Department of Physics, Shinshu University, Matsumoto 390-8621, Japan
+(Received December 11, 2000 )
+We propose a new possibility to reconcile the coupling uniﬁcation scenario with the
+triplet-doublet mass splitting based on a 5-dimensional supersymmetric model with SU(5)
+gauge symmetry. It is shown that the minimal supersymmetric standard model is derived
+on a 4-dimensional wall through compactiﬁcation on S1/(Z2 × Z′
+2).
+§1.
+Introduction
+The minimal supersymmetric standard model (MSSM) is the most promising
+model to describe physics beyond the Standard Model (SM). An advantageous fea-
+ture of the MSSM is that the gauge coupling constants meet at MX = 2.1×1016GeV
+if the superpartners and Higgs particles exist below or around O(1) TeV. 1) This fact
+leads to the possibility that gauge interactions in the MSSM are uniﬁed under a
+simple gauge group, such as SU(5). If this is indeed the case, then the theory can be
+described as a supersymmetric grand uniﬁed theory (SUSY GUT). 2) This scenario is
+very attractive, but, in general, it suﬀers from problems related to Higgs multiplets.
+For example, in the minimal SUSY SU(5) GUT, a ﬁne tuning is required to obtain
+the SU(2)L doublet Higgs multiplets with the weak scale mass such that the colored
+Higgs multiplets remain suﬃciently heavy to suppress dangerous nucleon decay (the
+triplet-doublet splitting problem). There have been several interesting proposals to
+solve this problem through the extension of the model. 3), 4), 5), 6), 7), 8)
+In this paper, we propose a new possibility to reconcile the coupling uniﬁcation
+scenario with the triplet-doublet mass splitting. The coupling uniﬁcation originates
+from the existence of a uniﬁed gauge symmetry, G, in a high-energy theory on a
+higher-dimensional space-time. The full symmetry is not realized in the low-energy
+physics, where light particles play an essential role. The symmetry G is reduced by
+the presence of non-universal values of the intrinsic parity on a compact space among
+components in each multiplet of G. We show that the SUSY part of the Lagrangian
+in the MSSM is derived on a 4-dimensional (4D) wall through compactiﬁcation upon
+the orbifold S1/(Z2 × Z′
+2), with a suitable assignment of Z2 × Z′
+2 parity, from a
+5D SUSY model based on G = SU(5). No particles appear other than the MSSM
+particles in the massless state, and the triplet-doublet mass splitting is realized by
+the Z2 × Z′
+2 projection. We also discuss proton stability in our model.
+This paper is organized as follows. In the next section, we explain the construc-
+tion of the orbifold S1/(Z2 × Z′
+2) and describe an intrinsic parity on this compact
+∗) E-mail: haru@azusa.shinshu-u.ac.jp
+
+=== PDF PAGE 2 ===
+2
+Y. Kawamura
+space. Starting from 5D SUSY SU(5) GUT with minimal particle content, we derive
+the SUSY part of the Lagrangian in the 4D theory and discuss the mass spectrum
+and its phenomenological implications in §3. Section 4 is devoted to conclusions and
+discussion.
+§2.
+S 1/(Z2 × Z ′
+2) and parity
+The space-time is assumed to be factorized into a product of 4D Minkowski
+space-time M4 and the orbifold S1/(Z2 × Z′
+2),∗) whose coordinates are denoted by
+xµ (µ = 0, 1, 2, 3) and y (= x5), respectively. The 5D notation xM (M = 0, 1, 2, 3, 5)
+is also used. We ﬁrst construct the orbifold S1/Z2 by dividing a circle S1 of radius R
+with a Z2 transformation which acts on S1 according to y →−y. This compact space
+is regarded as the interval [−πR, 0] with a length of πR. The orbifold S1/(Z2 × Z′
+2)
+is obtained by dividing S1/Z2 with another Z2 transformation, denoted by Z′
+2, which
+acts on S1/Z2 according to y′ →−y′, where y′ ≡y + πR
+2 . This compact space is
+regarded as the interval [0, πR
+2 ] with a length of πR
+2 . There are two 4D walls placed
+at the ﬁxed points y′ = 0 and y′ = πR
+2 (or y = −πR
+2 and y = 0) on S1/(Z2 × Z′
+2).
+The intrinsic Z2 × Z′
+2 parity of the 5D bulk ﬁeld φ(xµ, y) is deﬁned by the
+transformation
+φ(xµ, y) →φ(xµ, −y) = Pφ(xµ, y),
+(2.1)
+φ(xµ, y′) →φ(xµ, −y′) = P ′φ(xµ, y′).
+(2.2)
+The Lagrangian should be invariant under the Z2×Z′
+2 transformation. By deﬁnition,
+P and P ′ possess only the eigenvalues 1 and −1.
+We denote the ﬁelds that are
+simultaneous eigenfunctions of these operators as φ++, φ+−, φ−+ and φ−−, where
+the ﬁrst subscript corresponds to the eigenvalue of P and the second to P ′. The
+ﬁelds φ++, φ+−, φ−+and φ−−are Fourier expanded as
+φ++(xµ, y) =
+r 2
+πR
+∞
+X
+n=0
+φ(2n)
+++ (xµ) cos 2ny
+R ,
+(2.3)
+φ+−(xµ, y) =
+r 2
+πR
+∞
+X
+n=0
+φ(2n+1)
++−
+(xµ) cos (2n + 1)y
+R
+,
+(2.4)
+φ−+(xµ, y) =
+r 2
+πR
+∞
+X
+n=0
+φ(2n+1)
+−+
+(xµ) sin (2n + 1)y
+R
+,
+(2.5)
+φ−−(xµ, y) =
+r 2
+πR
+∞
+X
+n=0
+φ(2n+2)
+−−
+(xµ) sin (2n + 2)y
+R
+,
+(2.6)
+where n is an integer, and each ﬁeld φ(2n)
+++ (xµ), φ(2n+1)
++−
+(xµ), φ(2n+1)
+−+
+(xµ) and φ(2n+2)
+−−
+(xµ)
+acquire a mass 2n
+R , 2n+1
+R , 2n+1
+R
+and 2n+2
+R
+upon compactiﬁcation. Note that 4D mass-
+less ﬁelds appear only in φ++(xµ, y). We ﬁnd that some ﬁelds vanish on the wall,
+∗) Recently, Barbieri, Hall and Nomura have constructed a constrained standard model upon a
+compactiﬁcation of a 5D SUSY model on the orbifold S1/(Z2 × Z′
+2). 9) They used Z2 × Z′
+2 parity
+to reduce SUSY. There are also several works on model building through a reduction of SUSY
+10), 11), 12), 13) and a gauge symmetry 14) by the use of Z2 parity.
+
+=== PDF PAGE 3 ===
+Triplet-Doublet Splitting, Proton Stability and an Extra Dimension
+3
+for example, φ+−(xµ, −πR
+2 ) = φ−−(xµ, −πR
+2 ) = 0 on the wall placed at y = −πR
+2 ,
+and φ−+(xµ, 0) = φ−−(xµ, 0) = 0 on the other wall placed at y = 0.
+Let us study the case in which a ﬁeld Φ(xµ, y) is an N-plet under some symmetry
+group G. The components of Φ are denoted by φk as Φ = (φ1, φ2, ..., φN)T . The Z2
+transformation of Φ takes the same form as (2.1), but in this case P is an N × N
+matrix ∗) that satisﬁes P 2 = I, where I is the unit matrix. The Z2 invariance of the
+Lagrangian does not necessarily require that P be I or −I. Unless all components
+of Φ have a common Z2 parity (i.e., if P̸ = ±I), a symmetry reduction occurs
+upon compactiﬁcation, because of the lack of zero modes in components with odd
+parity. 14) The same property holds in the case with Z′
+2 parity.
+§3.
+A model with SU(5) gauge symmetry
+We now study 5D SUSY SU(5) GUT with minimal particle content and non-
+universal parity assignment. We assume that the vector supermultiplet V and two
+kinds of hypermultiplets Hs (s = 1, 2) exist in the bulk M4 × S1/(Z2 × Z′
+2). The
+vector multiplet V consists of a vector boson AM, two bispinors λi
+L (i = 1, 2), and
+a real scalar Σ, which together form an adjoint representation 24 of SU(5), and
+the hypermultiplets Hs consist of two complex scalar ﬁelds and two Dirac fermions
+ψs = (ψs
+L, ψs
+R)T , which are equivalent to four sets of chiral supermultiplets: H1 =
+{H5 ≡(H1
+1, ψ1
+L), ˆH¯5 ≡(H1
+2, ¯ψ1
+R)} and H2 = { ˆH5 ≡(H2
+1, ψ2
+L), H¯5 ≡(H2
+2, ¯ψ2
+R)}. The
+hypermultiplets H5 and ˆH5 ( ˆH¯5 and H¯5) form a fundamental representation 5 (¯5).
+We assume that our visible world is a 4D wall ﬁxed at y = 0 (We refer to as “wall I”)
+and that three families of quark and lepton chiral supermultiplets, 3{Φ¯5 + Φ10}, are
+located on this wall. (Here and hereafter the family index does not appear.) That
+is, matter ﬁelds contain no excited states along the S1/(Z2 × Z′
+2) direction.
+The gauge invariant action is given by
+S =
+Z
+L(5)d5x + 1
+2
+Z
+δ(y)L(4)d5x
++(terms from a brane ﬁxed at y = −πR),
+(3.1)
+L(5) = L(5)
+Y M + L(5)
+H ,
+(3.2)
+L(5)
+YM = −1
+2TrF 2
+MN + Tr|DMΣ|2 + Tr(i¯λiγMDMλi) −Tr(¯λi[Σ, λi]), (3.3)
+L(5)
+H = |DMHs
+i |2 + i ¯ψsγMDMψs −(i
+√
+2g(5) ¯ψsλiHs
+i + h.c.)
+−¯ψsΣψs −H†i
+s Σ2Hs
+i −
+g2
+(5)
+2
+X
+m,A
+
+H†i
+s (σm)j
+iT AHs
+j
+2 ,
+(3.4)
+L(4) ≡
+X
+3families
+Z
+d2¯θd2θ(Φ†
+¯5e2g(5)V AT AΦ¯5 + Φ†
+10e2g(5)V AT AΦ10)
++
+X
+3families
+Z
+d2θ(fU(5)H5Φ10Φ10 + ˆfU(5) ˆH5Φ10Φ10
+∗) P is a unitary and hermitian matrix.
+
+=== PDF PAGE 4 ===
+4
+Y. Kawamura
++fD(5)H¯5Φ10Φ¯5 + ˆfD(5) ˆH¯5Φ10Φ¯5) + h.c.,
+(3.5)
+where λi ≡(λi
+L, ǫij¯λLj)T , DM ≡∂M −ig(5)AM(xµ, y), g(5) is a 5D gauge coupling
+constant, the σm are Pauli matrices, the T A are SU(5) gauge generators, V AT A is
+an SU(5) vector supermultiplet, and fU(5), fD(5), ˆfU(5) and ˆfD(5) are 5D Yukawa
+coupling matrices. If we impose Z2 invariance∗) under H5 ↔ˆH5 and H¯5 ↔ˆH¯5 on
+L(4), the relations fU(5) = ˆfU(5) and fD(5) = ˆfD(5) are derived. The representations
+of Φ¯5 and Φ10 are ¯5 and 10, respectively. In L(4), the bulk ﬁelds are replaced by
+ﬁelds including the Nambu-Goldstone boson φ(xµ) at the wall I, V A(xµ, θ, ¯θ, y =
+φ(xµ)) and Hs(xµ, θ, y = φ(xµ)). 15) In the above action, we assume that there is
+a symmetry such as R parity to forbid the term Φ¯5Φ¯5Φ10 from appearing in the
+superpotential, which induces rapid proton decay. The Lagrangian is invariant under
+the Z2 transformation
+Aµ(xµ, y) →Aµ(xµ, −y) = PAµ(xµ, y)P −1,
+A5(xµ, y) →A5(xµ, −y) = −PA5(xµ, y)P −1,
+λ1
+L(xµ, y) →λ1
+L(xµ, −y) = −Pλ1
+L(xµ, y)P −1,
+λ2
+L(xµ, y) →λ2
+L(xµ, −y) = Pλ2
+L(xµ, y)P −1,
+Σ(xµ, y) →Σ(xµ, −y) = −PΣ(xµ, y)P −1,
+H5(xµ, y) →H5(xµ, −y) = PH5(xµ, y),
+ˆH¯5(xµ, y) →ˆH¯5(xµ, −y) = −P ˆH¯5(xµ, y),
+ˆH5(xµ, y) →ˆH5(xµ, −y) = −P ˆH5(xµ, y),
+H¯5(xµ, y) →H¯5(xµ, −y) = PH¯5(xµ, y)
+(3.6)
+and under the Z′
+2 transformation, obtained by replacing y and P by y′ and P ′ in the
+above.
+When we use P = diag(1, 1, 1, 1, 1) and P ′ = diag(−1, −1, −1, 1, 1),∗∗) the SU(5)
+gauge symmetry is reduced to that of the Standard Model, GSM ≡SU(3)×SU(2)×
+U(1), in the 4D theory.∗∗∗) This is because the boundary conditions on S1/(Z2 ×Z′
+2)
+do not respect SU(5) symmetry, as we see from the relations for the gauge generators
+T A (A = 1, 2, · · · , 24),
+P ′T aP ′−1 = T a,
+P ′T ˆaP ′−1 = −T ˆa.
+(3.7)
+The T a are gauge generators of GSM, and the T ˆa are the other gauge generators.
+The parity assignment and mass spectrum after compactiﬁcation are given in Table
+∗) This Z2 is a discrete subgroup of SU(2)H, which is one of the global symmetries of L(5). The
+Higgs bosons transform as 2 under SU(2)H.
+∗∗) The exchange of P and P ′ is equivalent to the exchange of two walls. The origin of this
+speciﬁc Z2 × Z′
+2 parity assignment is unknown, and we believe that it will be explained in terms of
+some yet to be constructed underlying theory.
+∗∗∗) Our symmetry reduction mechanism is diﬀerent from the Hosotani mechanism. 16) In fact,
+the Hosotani mechanism does not work in our case, because Aa
+5(xµ, y) has odd parity, as seen from
+(3.6), and its VEV should vanish.
+
+=== PDF PAGE 5 ===
+Triplet-Doublet Splitting, Proton Stability and an Extra Dimension
+5
+Table I.
+Parity and mass spectrum at the tree level.
+4D ﬁelds
+Quantum numbers
+Z2 × Z′
+2 parity
+Mass
+Aa(2n)
+µ
+, λ2a(2n)
+(8, 1) + (1, 3) + (1, 1)
+(+, +)
+2n
+R
+Aˆa(2n+1)
+µ
+, λ2ˆa(2n+1)
+(3, 2) + (¯3, 2)
+(+, −)
+2n + 1
+R
+Aa(2n+2)
+5
+, Σa(2n+2), λ1a(2n+2)
+(8, 1) + (1, 3) + (1, 1)
+(−, −)
+2n + 2
+R
+Aˆa(2n+1)
+5
+, Σˆa(2n+1), λ1ˆa(2n+1)
+(3, 2) + (¯3, 2)
+(−, +)
+2n + 1
+R
+H(2n+1)
+C
+(3, 1)
+(+, −)
+2n + 1
+R
+H(2n)
+u
+(1, 2)
+(+, +)
+2n
+R
+ˆH(2n+1)
+¯
+C
+(¯3, 1)
+(−, +)
+2n + 1
+R
+ˆH(2n+2)
+d
+(1, 2)
+(−, −)
+2n + 2
+R
+ˆH(2n+1)
+C
+(3, 1)
+(−, +)
+2n + 1
+R
+ˆH(2n)
+u
+(1, 2)
+(−, −)
+2n + 2
+R
+H(2n+1)
+¯
+C
+(¯3, 1)
+(+, −)
+2n + 1
+R
+H(2n)
+d
+(1, 2)
+(+, +)
+2n
+R
+I. Each Higgs multiplet is divided into two pieces: H5 ( ˆH¯5, ˆH5, H¯5) is divided into
+the colored triplet piece, HC ( ˆH ¯C, ˆHC, H ¯C), and the SU(2) doublet piece, Hu ( ˆHd,
+ˆHu, Hd). In the second column, we give the SU(3)×SU(2) quantum numbers of the
+4D ﬁelds. In the third column, (±, ±) and (±, ∓) denote the eigenvalues (±1, ±1)
+and (±1, ∓1) of Z2 × Z′
+2 parity, respectively. In the fourth column, n represents 0 or
+a positive integer. The massless ﬁelds are (Aa(0)
+µ
+, λ2a(0)) and (H(0)
+u , H(0)
+d ), which are
+equivalent to the gauge multiplets and the weak SU(2) doublet Higgs multiplets in
+the MSSM, respectively. We ﬁnd that the triplet-doublet mass splitting of the Higgs
+multiplets is realized by projecting out zero modes of the colored components.
+After integrating out the ﬁfth dimension, we obtain the 4D Lagrangian density,
+L(4)
+eﬀ= L(4)
+B + L(4),
+(3.8)
+L(4)
+B ≡−1
+4
+Z
+d2θW a(0)W a(0) + h.c. +
+Z
+d2¯θd2θ(H†(0)
+u
+e2gUV a(0)T aH(0)
+u
++H†(0)
+d
+e2gU V a(0)T aH(0)
+d ) + · · · ,
+(3.9)
+L(4) ≡
+X
+3families
+Z
+d2¯θd2θΦ†e2gU V a(0)T aΦ
++
+X
+3families
+Z
+d2θ(fUH(0)
+u QU c + fDH(0)
+d QDc
++fDH(0)
+d LEc) + h.c. + · · · ,
+(3.10)
+where V a(0) is a vector multiplet of the MSSM gauge bosons and gauginos, and the
+
+=== PDF PAGE 6 ===
+6
+Y. Kawamura
+dots represent terms including Kaluza-Klein modes. In this equation, gU
+
+≡
+q
+2
+πRg(5)
+
+is a 4D gauge coupling constant, fU
+
+≡
+q
+2
+πRfU(5)
+
+and fD
+
+≡
+q
+2
+πRfD(5)
+
+are 4D
+Yukawa coupling matrices, Q, U c and Dc are quark chiral supermultiplets, and L
+and Ec are lepton chiral supermultiplets. We denote these matter multiplets as Φ
+generically in the kinetic term. With our assignment of Z2 × Z′
+2 parity, the SUSY
+part of the Lagrangian density in the MSSM is obtained, with the exception of the
+µ term.
+The theory predicts that coupling constants of GSM are uniﬁed around the com-
+pactiﬁcation scale MC(≡1/R) to zero-th order approximation, as in the ordinary
+SU(5) GUT: 17)
+g3 = g2 = g1 = gU,
+fd = fe = fD ,
+(3.11)
+where fd and fe are Yukawa coupling matrices on down-type quarks and electron-
+type leptons, respectively. From the precise measurements at LEP, 18) it is natural to
+identify MC with MX = 2.1×1016 GeV. In this case, the masses of the Kaluza-Klein
+excitations are quantized in units of MX.
+Finally, we discuss nucleon stability in our model. 19) It is known that there is a
+signiﬁcant contribution to proton decay from the dimension 5 operator in the minimal
+SUSY SU(5) GUT. 20) Stronger constraints on the colored Higgs mass MHC and the
+sfermion mass m ˜f have been obtained (e.g. MHC > 6.5 × 1016 GeV for m ˜f < 1
+TeV) from analysis including a Higgsino dressing diagram with right-handed matter
+ﬁelds. 21) In our model, we have diagrams similar to those in the minimal SUSY
+SU(5) GUT, because quark and lepton supermultiplets couple to the Kaluza-Klein
+modes of extra vector supermultiplets and the colored Higgs triplets at the tree
+level. Hence the identiﬁcation MC = MX seems to be incompatible with the above
+constraint, MHC > 6.5 × 1016 GeV for m ˜f < 1 TeV. However there is a natural way
+to escape this diﬃculty. It is pointed out that there is an exponential suppression
+factor in the coupling to the Kaluza-Klein modes resulting from the brane recoil
+eﬀect. 15) There is a possibility that proton stability is guaranteed if our 4D wall
+ﬂuctuates pliantly.∗)
+§4.
+Conclusions and discussion
+We have proposed a new possibility to reconcile the coupling uniﬁcation scenario
+with the triplet-doublet mass splitting. The coupling uniﬁcation originates from the
+existence of a uniﬁed gauge symmetry SU(5) in 5D space-time. The full symmetry
+is not realized in low-energy physics, where light particles play an essential role;
+that is, here this symmetry is reduced by the existence of non-universal values of
+the intrinsic parity on a compact space among components in each multiplet of
+SU(5).
+We have shown that the SUSY part of the Lagrangian in the MSSM is
+derived, with the exception of the µ term, on a 4D wall through compactiﬁcation
+upon S1/(Z2 × Z′
+2) from a 5D SUSY model based on SU(5), under the assumption
+∗) It is not obvious whether or not the recoil eﬀect exists for a brane at an orbifold ﬁxed point. 22)
+
+=== PDF PAGE 7 ===
+Triplet-Doublet Splitting, Proton Stability and an Extra Dimension
+7
+that our visible world consists of a 4D wall and that matter multiplets live on the
+wall. In the sector with renormalizable interactions, the theory predicts the coupling
+uniﬁcation g3 = g2 = g1 = gU and fd = fe = fD, as in the GUT model.
+No
+particles appear other than the MSSM ones in the massless state, and the triplet-
+doublet mass splitting is realized through the Z2×Z′
+2 projection. Although the quark
+and lepton multiplets couple to the Kaluza-Klein modes of extra vector multiplets
+and the colored Higgs triplets at the tree level, there is a possibility that proton
+stability is guaranteed by the appearance of a suppression factor in the coupling to
+the Kaluza-Klein modes if our 4D wall ﬂuctuates ﬂexibly. It is not yet known if the
+above mechanism works for a brane at an orbifold ﬁxed point.
+There are several problems with our model. Here we list some of them. The
+ﬁrst three problems are peculiar to the MSSM, and the others are related to the
+4D walls. The ﬁrst one involves the question of how to avoid rapid proton decay
+that results from the term Φ¯5Φ¯5Φ10 in the superpotential. We need a symmetry,
+such as R parity. The second problem involves the question of how to generate the
+µ term with a suitable magnitude consistent with the electro-weak symmetry. The
+third problem regards the origin of SUSY breaking. The fourth problem concerns
+the necessity of non-universal Z2 × Z′
+2 parity, i.e., whether there is a selection rule
+that picks out a speciﬁc Z2 × Z′
+2 parity to break SU(5) down to GSM and whether
+it is compatible with brane ﬂuctuations. The last problem regards how matter ﬁelds
+are localized on the 4D wall. We expect that these problems can be solved by a yet
+unknown underlying theory.
+In spite of these problems, it is worthwhile to study the relation between the
+symmetry in the SM and the characteristics of a compact space for the purpose of
+constructing a realistic model.∗)
+References
+[1] C. Giunti, C. W. Kim and U. W. Lee, Mod. Phys. Lett. A6 (1991), 1745.
+J. Ellis, S. Kelley and D. V. Nanopoulos, Phys. Lett. B260 (1991), 131.
+U. Amaldi, W. de Boer and H. F¨urstenau, Phys. Lett. B260 (1991), 447.
+P. Langacker and M. Luo, Phys. Rev. D44 (1991), 817.
+[2] S. Dimopoulos and H. Georgi, Nucl. Phys. B193 (1981), 150.
+N. Sakai, Z. Phys. C11 (1981), 153.
+[3] E. Witten, Phys. Lett. B105 (1981), 267.
+[4] A. Masiero, D. V. Nanopoulos, K. Tamvakis and T. Yanagida, Phys. Lett. 115 (1982),
+380.
+B. Grinstein, Nucl. Phys. B206 (1982), 387.
+[5] S. Dimopoulos and F. Wilczek, NSF-ITP-82-07.
+M. Srednicki, Nucl. Phys. B202 (1982), 327.
+[6] K. Inoue, A. Kakuto and T. Takano, Prog. Theor. Phys. 75 (1986), 664.
+[7] E. Witten, Nucl. Phys. B258 (1985), 75.
+I. Antoniadis, J. Ellis, J. S. Hagelin and D. V. Nanopoulos, Phys. Lett. B194 (1987), 231.
+N. Haba, C. Hattori, M. Matsuda, T. Matsuoka and D. Mochinaga, Prog. Theor. Phys.
+94 (1995), 233.
+[8] T. Yanagida, Phys. Lett. B344 (1995), 211.
+[9] R. Barbieri, L. J. Hall and Y. Nomura, hep-ph/0011311.
+∗) Attempts to construct GUT have been made through dimensional reduction over coset space.
+23)
+
+=== PDF PAGE 8 ===
+8
+Y. Kawamura
+[10] L. Antoniadis, Phys. Lett. B246 (1990), 377.
+L. Antoniadis, C. Mu˜noz and M. Quir´os, Nucl. Phys. B397 (1993), 515.
+L. Antoniadis and K. Benakli, Phys. Lett. B326 (1994), 69.
+[11] P. Horˇava and E. Witten, Nucl. Phys. B460 (1996), 506; B475 (1996), 94.
+[12] E. A. Mirabelli and M. Peskin, Phys. Rev. D58 (1998), 065002.
+[13] A. Pomarol and M. Quir´os, Phys. Lett. B438 (1998), 255.
+[14] Y. Kawamura, Prog. Theor. Phys. 103 (2000), 613.
+[15] M. Bando, T. Kugo, T. Noguchi and K. Yoshioka, Phys. Rev. Lett. 83 (1999), 3601.
+[16] Y. Hosotani, Phys. Lett. B126 (1983), 309; Ann. of Phys. 190 (1989), 233.
+[17] H. Georgi and S. L. Glashow, Phys. Rev. Lett. 32 (1974), 438.
+[18] LEP Collaborations, Phys. Lett. 276B (1992), 247.
+[19] For other possibilities to suppress a proton decay in theories with extra dimensions, see
+N. Arkani-Hamed and M. Schmaltz, Phys. Rev. D61 (2000), 033005.
+L. E. Ib´a˜nez and F. Quevedo, J. High Energy Phys. 10 (1999), 001.
+A. Aranda and C. D. Carone, hep-ph/0012092.
+[20] N. Sakai and T. Yanagida, Nucl. Phys. B197 (1982), 533.
+S. Weinberg, Phys. Rev. D26 (1982), 287.
+[21] T. Goto and T. Nihei, Phys. Rev. D59 (1999), 115009.
+[22] M. Bando and T. Noguchi, hep-ph/0011374.
+[23] D. Kapetanakis and G. Zoupanos, Phys. Rep. 219 (1992), 1 and references therein.
+[24] G. Altarelli and F. Feruglio, hep-ph/0102301.
+[25] L. J. Hall and Y. Nomura, hep-ph/0103125.
+Note added: While revising this manuscript, we found Ref. 24) by G. Altarelli and F. Feruglio and
+Ref. 25) by L. J. Hall and Y. Nomura in the hep-archive. In the context of our model, proton decay
+is analyzed in the former paper and several phenomenological features, including gauge coupling
+uniﬁcation, are studied in the latter paper.

@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/witten.pdf",
+      "title": "Quantum Field Theory and the Jones Polynomial",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "The first fundamental property of the Chern-Simons theory is the quanti- zation law first discussed in [21]. It arises because the group G of continuous maps M -~ G is not connected. In the homotopy classification of such maps one meets at least the fact that ~a (G) -~ Z for every compact simple group G. Though (1.3) is invariant under the component of the gauge group that contains the identity, it is not invariant under gauge transformations of non-zero \"winding number\", gauge transformations associated with non-zero elements of ~3(G). Under a gauge transformation of winding number m, the transformation law of (1.3) is 5O ~ 5O + const • m. (",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.numdam.org/item/AST_1988__163-164__137_0.pdf",
+      "title": "New invariants in the theory of knots",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/2011.09487",
+      "title": "Universal Correlators and Novel Cosets in 2d RCFT",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "At level 1 the 133, 1463\nand 1539 all decouple, leaving the 56 as the only non-trivial primary. Thus there is one\nblock, just as for A1,1.\nIn [16] it was argued that in this case the identity and its descendants up to level 3 can\nﬂow in diﬀerent sub-blocks in the (14) fusion channel. Hence, for consistency there must\nbe precisely four invariant tensors of E7,1 contributing to the block, and these should be in\ncorrespondence with the four representations 1, 133, 1463 and 1539. We will show below\nthat this is indeed the case.\nAs explained in Section 2, the invariant tensors are labelled7 eD(p)\n˜a1¯˜a2¯˜a3˜a4 with p = 0, 1, 2, 3\nand each one wil",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "The E7,1 WZW model has c = 7 and hA = 3\n4. We need the conformal blocks for the\ncorrelator ⟨56 56 56 56⟩. For this, we ﬁrst note that in terms of representations of the E7\nLie algebra, the tensor product of the fundamental with itself is:\n56 ⊗56 = 1 ⊕133 ⊕1463 ⊕1539\n(3.5)\n– 9 –\n\n\n--- PAGE 11 ---\nIt is easily veriﬁed that the 133 and the 1463 are contained in the symmetric part of the\nproduct, while the 1 and the 1539 are in the antisymmetric part. At level 1 the 133, 1463\nand 1539 all decouple, leaving the 56 as the only non-trivial primary. Thus there is one\nblock, just as for A1,1.\nIn [16] i",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://cds.cern.ch/record/329645/files/9707069.pdf",
+      "title": "A representation theoretic approach to the WZW Verlinde formula",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://arxiv.org/pdf/hep-th/0412243",
+      "title": "Khovanov-Rozansky Homology and Topological Strings",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We conjecture a relation between the sl(N) knot homology, recently introduced by\nKhovanov and Rozansky, and the spectrum of BPS states captured by open topological\nstrings. This conjecture leads to new regularities among the sl(N) knot homology groups\nand suggests that they can be interpreted directly in topological string theory. We use this\napproach in various examples to predict the sl(N) knot homology groups for all values of\nN. We verify that our predictions pass some non-trivial checks.\nDedicated to the memory of F.A. Berezin.\nDecember 2004\n\n\n--- PAGE 2 ---\n1. Introduction and Summary\nDuring the past twenty years, topological ﬁeld theor",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://ems.press/content/serial-article-files/36765",
+      "title": "Fivebranes and Knots",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "url": "https://arxiv.org/pdf/1001.1571",
+      "title": "Dedekinds eta-function and Rogers-Ramanujan identities",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We prove a q-series identity that generalises Macdon-\nald’s A(2)\n2n η-function identity and the Rogers–Ramanujan identi-\nties. We conjecture our result to generalise even further to also\ninclude the Andrews–Gordon identities.\n1. Introduction\nIn 1972 Macdonald published his seminal paper [26] in which he ex-\ntended Weyl’s denominator formula for classical reduced root systems\nto root systems of aﬃne type. These identities, which include the Ja-\ncobi triple product identity and the quintuple product identity as the\nspecial cases A(1)\n1\nand A(2)\n2 , are now commonly known as the Macdon-\nald identities. Through the procedure of specialisation the",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://ems.press/content/serial-article-files/36754",
+      "title": "Knot polynomial identities and quantum group coincidences",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 9,
+      "url": "https://arxiv.org/pdf/1604.08837",
+      "title": "Representations of symmetric groups with non-trivial determinant",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We call (ρ, V ) a chiral representation if\ndet ◦ρ is the sign character of Sn.\nRecall that the irreducible complex representations of Sn are parametrized\nby partitions of n. For brevity, we shall say that λ is a chiral partition if\nthe corresponding representation (ρλ, Vλ) is chiral1.\nIt is natural to ask, given a positive integer n, how many partitions λ of\nn are chiral. According to Stanley [8, Exercise 7.55], this problem was ﬁrst\nconsidered by L. Solomon. We review his contribution, which is explained by\nStanley in the exercises in his book, in Section 3. Let b(n) denote the number\nof chiral partitions of n. The complementary sequence p(n",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://arxiv.org/pdf/2408.07893",
+      "title": "Chern-Simons theories with defects, Rogers-Ramanujan type functions and eta-products",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We study the line defect half-indices of 3d N = 2 supersymmetric Chern-\nSimons (CS) theories with (special) unitary, symplectic, orthogonal and excep-\ntional gauge groups. We find that they have several beautiful infinite product\nq-series expressions in terms of Ramanujan’s general theta function. For the the-\nories with fundamental chiral multiplets, the pairs of the Neumann half-indices\nand the one-point functions of the fundamental Wilson lines form a basis for\nthe line defect indices in terms of Rogers-Ramanujan type functions which cor-\nrespond to Rogers-Ramanujan type identities relating infinite series and infinite\nproducts. Furthermor",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://arxiv.org/pdf/1101.3216",
+      "title": "Fivebranes and Knots",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "compactiﬁcation from six dimensions on D with a supersymmetric twist gives a four-dimensional superconformal gauge theory [44]; the gauge group is semi-simple and the coupling parameters τi of its simple factors are the moduli of D.\nNow that we are in four dimensions with N = 2 supersymmetry, there is an essentially unique R-symmetry twist, resulting from the identiﬁcation of Spin(3)r with the correspond-ing subgroup of U. This leads to a four-dimensional topological ﬁeld theory by the same rea-soning as in [85]. The observables of this theory are computed by counting instanton solutions and hence they depend holomorphically on the instanton",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "Reversing the orientation of K has the same eﬀect as replacing R by its complex conju-gate. It turns out [12] that the Jones polynomial and its generalizations can be computed as expectation values of Wilson loop operators, if we express the argument q of the knot polynomials in terms of the Chern-Simons level k by q = exp (2πi/(k + h)) , (1.3) where h is the dual Coxeter number of G. For example, if we take G = SU(2), R to be the two-dimensional irreducible representation of SU(2), and W = S3, then the expectation value of W(K, R) is equal to the Jones polynomial: J (q; K) = W(K, R) .\n(1.4) 1",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "associated to simply-laced groups. Nonetheless, it is possible to deduce S-duality in four dimensions for a gauge group G that is not simply-laced by starting [99] with the six-dimensional model of a simply-laced group G∗. The relation between G and G∗is the same as it was in section 4.3: G∗has an outer automorphism ζ, such that the subgroup of G∗that commutes with ζ is G∨, the dual of G. As we have seen in section 4.3, when G is not simply-laced, there are two diﬀerent Khovanov-like formulas, both presented in eqn. (4.15), that express the knot invariants of G Chern-Simons theory as traces in",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://arxiv.org/pdf/hep-th/0212053",
+      "title": "Chirality and fermion number in a knotted soliton background",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We employ this anomaly to compute the fermion number of a\nknotted soliton. The result coincides with the self-linking number of the soliton. In\nparticular, the anomaly structure of the fermions relates directly to the inherent chiral\nproperties of the soliton. Our result suggests that interactions between fermions and\nknotted solitons can lead to phenomena akin the Callan-Rubakov eﬀect.\nSupported by NFR Grant F-AA/FU 06821-308\nE-mail: FREYHULT@TEORFYS.UU.SE, NIEMI@TEORFYS.UU.SE\n\n\n--- PAGE 2 ---\nKnotted solitons [1] are present in a variety of ﬁeld theory models that appear both\nin high energy physics [2] and condensed matter physics [3]. A ca",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "the spectrum of (9) is symmetric which implies that the η-invariant of H vanishes. Thus\nthe sole contribution to the fermion number (8) of a knotted soliton comes from a\nspectral ﬂow in (9) [5]. For this we recall the anomaly (11). With it, we compute the\nspectral ﬂow contribution to the fermion number of a knotted soliton as follows: We ﬁrst\nintroduce an adiabatic process where we interpolate between the desired knotted soliton\nna with a nontrivial Hopf invariant (6), and another conﬁguration with a vanishing Hopf\ninvariant. The adiabatic interpolation is achieved e.g. by introducing a slowly",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://arxiv.org/pdf/1003.0022",
+      "title": "Knot polynomial identities and quantum group coincidences",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "The key property of ribbon categories is that if C is a ribbon category there is a functor F from the category of ribbons labelled by objects of C with coupons labelled by morphisms in C to the category C (see [35, 43, 39]). In particular, if V is an object in C and LV denotes a framed oriented link L labelled by V , then ˜ JC,V : L 7→F(LV ) ∈End (1) is an invariant of oriented framed links (due to Reshetikhin-Turaev [35]). Whenever V is a simple object, the invariant depends on the framing through a ‘twist factor’.\nThat is, two links L and L′ which are the same except that w(L) = w(L′)+1, where w denotes the writhe, have invariants satisfyin",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://arxiv.org/pdf/hep-th/9707069",
+      "title": "A representation theoretic approach to the WZW Verlinde formula",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "In contrast to existing proofs of\nthe Verlinde formula, this approach works universally for all untwisted aﬃne Lie\nalgebras. As a by-product we obtain a homological interpretation of the Verlinde\nmultiplicities as Euler characteristics of complexes built from invariant tensors of\nﬁnite-dimensional simple Lie algebras.\nOur results can also be used to compute certain traces of automorphisms on the\nspaces of chiral blocks.\n1\n\n\n--- PAGE 2 ---\n1\nIntroduction and summary\nSpaces of chiral blocks are ﬁnite-dimensional vector spaces that arise naturally in the study of\nmoduli spaces of ﬂat connections over complex curves; therefore they emerge in vari",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "The existence\nof such a topology should therefore be regarded as a conjecture. In the sequel we will assume\nthat this conjecture is valid; then the computation of the dimension dim B of the space (4.1)\nof co-invariants merely amounts to determining the integrable highest weight modules in the\n14\n\n\n--- PAGE 15 ---\ndecomposition (4.8) of HΛ1⊗H\n(m−2). Rewriting the branching rule (4.8) as\nHΛ1 ⊗H\n(m−2) ∼= J ⊕\nM\nµ∈Pk\nNΛ1;¯Λ2...¯Λm−1;µ Hµ ,\n(4.9)\nour arguments amount to the formula\ndim B{Λi},{pi} = NΛ1;¯Λ2...¯Λm−1;Λ+\nm .\n(4.10)\nNotice that on the module HΛ1 ⊗¯H(m−2) (as on any other evaluation modul",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://math.berkeley.edu/~vfr/jones.pdf",
+      "title": "The Jones Polynomial",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "The Kauﬀman 2-variable polynomial FL(a, x) is deﬁned in [24] by con-\nsidering the linear skein relation involving all four possibilities at a crossing:\n3\n\n\n--- PAGE 4 ---\nL\nL\nL\n+\n0\nL\n8\n.\nThis polynomial contains VL(T) as a specialisation but not the Alexander\npolynomial.\nThe above polynomials are quite powerful at distinguishing links one from\nanother, including links from their mirror images, which corresponds for the\nJones polynomial to replacing t by t−1. More power can be added to the\npolynomials if simple geometric operations are allowed. “Cabling” entails\nreplacing a single strand with several parallel copies and the polynomials of\ncabl",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "The algebra playing the role of the TL-\nalgebra is the Hecke algebra for HOMFLYPT ([16], [21]) and the BMW\nalgebra ([6], [31]) for the Kauﬀman polynomial. The BMW algebra was dis-\ncovered after the Kauﬀman polynomial in order to provide an analogue of\nthe TL and Hecke algebras. For detailed analysis of the Hilbert space and\nother structures for both Hecke and BMW algebras see [45] and [46].\n5\nConnections with statistical mechanics\nOne might say that turning a knot into a braid organizes the knot by\n“putting it on a lattice”, thereby creating a physical model with the crossings\nof the knot as i",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://scipost.org/SciPostPhys.19.4.106/pdf",
+      "title": "The 3d A-model and generalised symmetries part I",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

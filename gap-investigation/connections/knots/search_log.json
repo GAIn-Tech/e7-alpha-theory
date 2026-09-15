@@ -1,0 +1,114 @@
+{
+  "queries": [
+    "Louis Kauffman polynomial HOMFLY original On knots 1987 polynomial invariant",
+    "Witten quantum field theory Jones polynomial 1989 pdf Chern Simons",
+    "E7 quantum group link invariant 56 representation skein",
+    "E7 level 1 WZW two primaries central charge 7 conformal embedding",
+    "Gukov Schwarz Vafa Khovanov Rozansky homology BPS states compactification",
+    "Chern Simons Verlinde formula E7 integrable weights state counting",
+    "Ramanujan Rogers Ramanujan Chern Simons knot invariants Dedekind eta",
+    "E7 WZW Verlinde integrable representations level one 56",
+    "\"E7\" \"link invariants\" quantum",
+    "\"Chern-Simons theories with defects\"",
+    "Witten Fivebranes and Knots 2011 exceptional groups six dimensions",
+    "\"chiral partitions\" representation symmetric group",
+    "knot chirality fermion chirality Dirac index HOMFLY compactification",
+    "\"Chern-Simons\" \"Rogers-Ramanujan\" \"eta-products\"",
+    "\"E7\" \"R-matrix\" \"56\" knot",
+    "\"Chirality and fermion number in a knotted soliton background\"",
+    "\"Knot polynomial identities and quantum group coincidences\" arxiv",
+    "Kauffman new invariants theory knots 1988 pdf math uic",
+    "\"E7\" \"Chern-Simons\" \"18\"",
+    "\"index\" \"chirality\" \"Atiyah\" heterotic compactification Dirac",
+    "\"E7\" \"theta\" \"eta\" \"characters\"",
+    "\"Kauffman\" \"State models and the Jones polynomial\" pdf"
+  ],
+  "limitations": [
+    "Initial concurrent execute_code tool-wrapper searches failed JSON decoding; substantive searches repeated directly.",
+    "Narrow E7 R-matrix and theta queries returned unrelated tie-knot/gaming/personality results; broader mathematical searches used.",
+    "No E7-specific Ramanujan half-index formula or universal chirality-to-Dirac-index functor established.",
+    "Negative findings are bounded, not nonexistence theorems."
+  ],
+  "primary_targets": [
+    [
+      "witten1989",
+      "Quantum Field Theory and the Jones Polynomial",
+      "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/witten.pdf"
+    ],
+    [
+      "kauffman1988",
+      "New invariants in the theory of knots",
+      "https://www.numdam.org/item/AST_1988__163-164__137_0.pdf"
+    ],
+    [
+      "mukhi2020",
+      "Universal Correlators and Novel Cosets in 2d RCFT",
+      "https://arxiv.org/pdf/2011.09487"
+    ],
+    [
+      "fuchs1997",
+      "A representation theoretic approach to the WZW Verlinde formula",
+      "https://cds.cern.ch/record/329645/files/9707069.pdf"
+    ],
+    [
+      "gukov2005",
+      "Khovanov-Rozansky Homology and Topological Strings",
+      "https://arxiv.org/pdf/hep-th/0412243"
+    ],
+    [
+      "witten2011",
+      "Fivebranes and Knots",
+      "https://ems.press/content/serial-article-files/36765"
+    ],
+    [
+      "warnaar2010",
+      "Dedekinds eta-function and Rogers-Ramanujan identities",
+      "https://arxiv.org/pdf/1001.1571"
+    ],
+    [
+      "coincidences",
+      "Knot polynomial identities and quantum group coincidences",
+      "https://ems.press/content/serial-article-files/36754"
+    ],
+    [
+      "partitions2016",
+      "Representations of symmetric groups with non-trivial determinant",
+      "https://arxiv.org/pdf/1604.08837"
+    ],
+    [
+      "okazaki2024",
+      "Chern-Simons theories with defects, Rogers-Ramanujan type functions and eta-products",
+      "https://arxiv.org/pdf/2408.07893"
+    ],
+    [
+      "witten2011",
+      "Fivebranes and Knots",
+      "https://arxiv.org/pdf/1101.3216"
+    ],
+    [
+      "soliton2002",
+      "Chirality and fermion number in a knotted soliton background",
+      "https://arxiv.org/pdf/hep-th/0212053"
+    ],
+    [
+      "coincidences",
+      "Knot polynomial identities and quantum group coincidences",
+      "https://arxiv.org/pdf/1003.0022"
+    ],
+    [
+      "fuchs1997",
+      "A representation theoretic approach to the WZW Verlinde formula",
+      "https://arxiv.org/pdf/hep-th/9707069"
+    ],
+    [
+      "jones",
+      "The Jones Polynomial",
+      "https://math.berkeley.edu/~vfr/jones.pdf"
+    ],
+    [
+      "closset2025",
+      "The 3d A-model and generalised symmetries part I",
+      "https://scipost.org/SciPostPhys.19.4.106/pdf"
+    ]
+  ]
+}

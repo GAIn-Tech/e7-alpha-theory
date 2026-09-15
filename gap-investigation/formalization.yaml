@@ -1,0 +1,38 @@
+title: E7 conditional physical-gap investigation
+review_status: AI-assisted self-assessment; no independent peer review
+lean:
+  version: 4.32.1
+  runtime: Partial native runtime extracted from complete early release archive entries
+  full_mathlib_build: false
+  source: Gap.lean
+  output: Gap.olean
+  axioms_on_public_theorems: []
+  theorems:
+    - E7Gap.every_coefficient_preserves_invariance
+    - E7Gap.matching_preserves_boundary_freedom
+    - E7Gap.fixed_boundary_restores_matching_uniqueness
+  scope: Polymorphic conditional invariance and injective matching bridge; custom inductive equality; no real analysis or E7 representations imported
+smt:
+  solver: Z3 5.1.0
+  checks: 13
+  source: check_gap.py
+  receipt: smt-receipt.json
+  lean_reconstruction_of_smt_proofs: false
+  scope: Real Cartan Weyl-invariant symmetric forms; positive normalization ray; affine one-loop matching; toy vacuum; trace arithmetic
+numerical:
+  arithmetic: Exact rational Fraction, no principal floating-point tolerance
+  input_provenance: CODATA2022 central value and uncertainty supplied by user
+  alpha_inverse: '137.035999177'
+  experimental_standard_uncertainty: '0.000000021'
+  model_uncertainty: not supplied; not invented
+verification:
+  runner: verify_existing.py
+  receipt: verification.json
+  legacy_finite_check: legacy_checks.py
+  hosted_ci: not run
+nonclaims:
+  - No derived physical Lagrangian or unique E7 vacuum
+  - No parameter-free prediction of alpha
+  - No general no-go theorem for all E7 UV completions
+  - Full adjoint-invariant kinetic form assumed in Lean bridge; only Weyl Cartan invariance explicitly constructed in SMT
+  - Running/matching is stipulated affine one-loop approximation, not full QFT

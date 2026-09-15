@@ -1,4 +1,8 @@
-# E7 Theory: The Fine Structure Constant from Exceptional Lie Algebra
+# E7 Theory: Research Archive
+
+> **Current handoff boundary:** Start with [HANDOFF.md](HANDOFF.md) and [STORAGE.md](STORAGE.md). The text below is preserved historical exploration, not the current release verdict. Its "SOLVED", confidence and physical-proof claims are not established by this handoff. File-integrity verification is not scientific validation. The proposed E7 "NS" result is retracted and the charged E8 computation remains open.
+
+## Historical README (preserved for provenance)
 
 [![Status](https://img.shields.io/badge/Status-Active%20Research-blue)]()
 [![Experiments](https://img.shields.io/badge/Experiments-62-green)]()

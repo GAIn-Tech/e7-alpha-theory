@@ -1,0 +1,2281 @@
+
+--- PAGE 1 ---
+arXiv:hep-th/9707069v2  28 May 1998
+hep-th/9707069
+May 1998 (revised)
+(original version: CERN-TH/97-152)
+A REPRESENTATION THEORETIC APPROACH
+TO THE WZW VERLINDE FORMULA
+J¨urgen Fuchs
+DESY
+Notkestraße 85, D – 22603 Hamburg
+Christoph Schweigert
+CERN
+CH – 1211 Gen`eve 23
+Abstract
+By exploring the description of chiral blocks in terms of co-invariants, a derivation
+of the Verlinde formula for WZW models is obtained which is entirely based on
+the representation theory of aﬃne Lie algebras. In contrast to existing proofs of
+the Verlinde formula, this approach works universally for all untwisted aﬃne Lie
+algebras. As a by-product we obtain a homological interpretation of the Verlinde
+multiplicities as Euler characteristics of complexes built from invariant tensors of
+ﬁnite-dimensional simple Lie algebras.
+Our results can also be used to compute certain traces of automorphisms on the
+spaces of chiral blocks.
+1
+
+
+--- PAGE 2 ---
+1
+Introduction and summary
+Spaces of chiral blocks are ﬁnite-dimensional vector spaces that arise naturally in the study of
+moduli spaces of ﬂat connections over complex curves; therefore they emerge in various contexts
+in physics and mathematics. These vector spaces form a vector bundle over the moduli space
+of smooth projective complex curves with marked points. The aim of this paper is to further
+elucidate the structure of such spaces by using the representation theory of aﬃne Lie algebras.
+In physics, spaces of chiral blocks appear in the following guises.
+In three-dimensional
+topological Chern--Simons gauge theories with space-time equal to the product of R (describing
+time) and a complex curve, they arise as the spaces of physical states that are obtained when
+quantizing the theory in the temporal gauge. In two-dimensional conformal ﬁeld theory the
+chiral blocks are the basic constituents of correlation functions, which are the quantities of prime
+interest in any quantum ﬁeld theory. More precisely, correlation functions on closed orientable
+Riemann surfaces are obtained as bilinear combinations of chiral blocks, while correlators on
+surfaces that have boundaries and / or are unorientable can be expressed in terms of linear
+combinations of chiral blocks. Correlators satisfying boundary conditions that correspond to
+the presence of so-called D-branes are expressible in terms of chiral blocks, or close relatives
+thereof, as well.
+In this paper we consider the spaces of chiral blocks which are associated to WZW (Wess--Zu-
+mino--Witten) conformal ﬁeld theories. A WZW theory is speciﬁed by the choice of a ﬁnite-
+dimensional simple Lie algebra ¯g and a positive integer k. In this case of our interest each of
+the marked points of the curve is labelled with an integrable weight at level k of the untwisted
+aﬃne Lie algebra g that is associated to ¯g via the loop construction.
+The chiral blocks of
+WZW theories are also of interest in algebraic geometry. Namely, the space of WZW chiral
+blocks can be interpreted as the space of holomorphic sections in the k-th tensor power of a
+line bundle over the moduli space of ﬂat ¯g-connections over the curve. Chiral WZW blocks
+can therefore be regarded as non-abelian generalizations of theta functions. In this paper we
+use the fact that the space of chiral blocks can be described in terms of co-invariants of certain
+integrable modules over g (this characterization of chiral blocks will be reviewed in subsection
+2.5). Based on this description we can apply tools from the representation theory of the aﬃne
+Lie algebra g to study the structure of chiral blocks. As a crucial ingredient we will introduce
+a suitable central extension of the so-called block algebra ¯g(C), which by deﬁnition (for details
+see subsection 2.1) consists of the ¯g-valued algebraic functions on the (punctured) curve C.
+The most fundamental information about a sheaf of chiral blocks is its rank; there exist
+closed expressions for this quantity, which are commonly referred to as Verlinde formulæ [1,2].
+Owing to factorization theorems [3, 4, 5, 6], the problem of computing these numbers can be
+reduced to the case of a curve of genus zero. Accordingly it will be assumed throughout this
+paper that the genus is zero. The main result of this paper is a purely representation-theoretic
+argument for deriving the Verlinde formula for chiral blocks at genus zero. In contrast to existing
+algebraic proofs of the Verlinde formula (which we will brieﬂy list in section 6) we work as long
+as possible in the framework of inﬁnite-dimensional Lie algebras. This enables us to obtain the
+Verlinde formula in a uniform manner for all choices of the underlying ﬁnite-dimensional simple
+Lie algebra ¯g, including the cases of ¯g = F4, E6, E7, E8 for which no rigorous algebraic proof
+2
+
+
+--- PAGE 3 ---
+had been known so far. Another advantage of our approach is that we can derive the formula
+for an arbitrary number of marked points without invoking (genus-preserving) factorization
+rules; this can be interpreted as an independent check of these factorization rules at ﬁxed genus
+zero. As a further by-product we obtain a description of the spaces of chiral blocks in terms of
+a complex of invariant tensors of ¯g with vanishing Euler characteristic.
+The structure of our approach is as follows. We ﬁrst determine the spaces of (genus zero)
+two-point blocks by making use of the explicit form of the two-point block algebra; this is done
+in section 3. In section 4 the problem for an arbitrary number of marked points is reduced to
+the case of two marked points and to the calculation of certain branching rules. We then derive
+an integral formula for the latter and use it to ﬁnd an integral formula for the dimension of the
+space of chiral blocks. When doing so, we have to make an assumption about the existence of
+a suitable completion of the modules. Finally, in section 5, we employ a generalized Poisson
+resummation rule to cast the integral formula into the usual form of the Verlinde formula, i.e. as
+a ﬁnite sum over elements of the matrix S that describes the modular transformation properties
+of the characters (which are the one-point blocks on the torus).
+We conclude the paper in section 6 with some remarks which set our approach into the
+context of related work. In particular we present a complex of co-invariants that characterizes
+the chiral blocks, which has the property that the vanishing of its Euler characteristic is equiv-
+alent to the Verlinde formula. We also comment brieﬂy on a possible extension to non-unitary
+theories. In section 2 the necessary representation-theoretic background is summarized. Some
+technical aspects have been relegated to appendices.
+2
+Chiral blocks as co-invariants
+2.1
+The algebras g and ¯g(P1
+(m))
+A basic ingredient in the deﬁnition of chiral blocks is an untwisted aﬃne Lie algebra g. (In
+conformal ﬁeld theory, the semidirect sum of g with the Virasoro algebra plays the rˆole of the
+chiral symmetry algebra of WZW theories.) For the purposes of this paper we regard g as the
+centrally extended loop algebra
+g := ¯g ⊗C((t)) ⊕CK ,
+(2.1)
+where C((t)) denotes the ring of Laurent series in some indeterminate t and ¯g is a ﬁnite-
+dimensional simple Lie algebra, which is isomorphic to, and will be identiﬁed with, the horizon-
+tal (i.e. zero mode) subalgebra of g. The Lie bracket relations of g read [¯x⊗f, ¯y⊗g] = [¯x, ¯y]⊗fg +
+κ(¯x, ¯y) Res0(df g) K for ¯x, ¯y ∈¯g and f, g ∈C((t)) (here κ denotes the Killing form of ¯g) and
+[K, ¯x⊗f] = 0, i.e. K ∈g is a central element. We also introduce the subalgebras
+g+ := ¯g ⊗t C[[t]] ,
+g−:= ¯g ⊗t−1C[t−1]
+(2.2)
+of g (C[t] and C[[t]] denote polynomials and arbitrary power series in t, respectively); then as
+a vector space g can be decomposed as
+g = g−⊕¯g ⊕CK ⊕g+ .
+(2.3)
+3
+
+
+--- PAGE 4 ---
+The subalgebras g± must not be confused with the maximal nilpotent subalgebras g± that
+appear in the triangular decomposition
+g = g−⊕g◦⊕g+
+(2.4)
+of g into the Cartan subalgebra g◦and the nilpotent subalgebras g± that correspond to the
+positive and negative g-roots, respectively; one has g± ∼= g± ⊕¯g±.
+Concerning our characterization (2.1) of g, two remarks are in order. First, apart from
+deﬁning the grading that corresponds to the power of t, in the present context the outer
+derivation D = −L0 of the aﬃne algebra will not play any particular rˆole. Accordingly we did
+not include D in the deﬁnition (2.1), even though it is e.g. needed in order for g to possess
+a non-degenerate invariant bilinear form and roots of ﬁnite multiplicity [7]. Second, strictly
+speaking it is the subalgebra g◦= ¯g⊗C[t, t−1]⊕CK of g that is generated when one allows only
+for Laurent polynomials rather than arbitrary Laurent series which should be referred to as the
+aﬃne Lie algebra. However, as will be explained in the following subsection, we will only deal
+with g-representations for which every vector of the associated module (representation space)
+is annihilated by all but ﬁnitely many generators of the subalgebra g◦+ of g◦. As a consequence,
+any such representation of g◦can be naturally promoted to a representation of the larger algebra
+g. For the present purposes the distinction between g and g◦is therefore immaterial. Note that
+unlike in the case of g◦, the subalgebras g+ and g−of g are not isomorphic; in particular, g−is
+a subalgebra of g◦, while g+ is not.
+The physical states of a WZW conformal ﬁeld theory can be completely described in terms
+of the representation theory of the aﬃne algebra g; e.g. the WZW primary ﬁelds Φ ≡ΦΛ
+correspond to the highest weight vectors of integrable irreducible highest weight modules HΛ
+of g. However, the description of chiral blocks also involves another inﬁnite-dimensional Lie
+algebra, which we will call the block algebra and denote by ¯g(P1
+(m)). The block algebra is the Lie
+algebra of ¯g-valued algebraic functions on the (punctured) curve. More precisely, it is deﬁned
+as follows. To any open subset U of the Riemann sphere P1 one associates the ring F(U) of
+algebraic functions on U and the vector space ¯g(U) := ¯g ⊗F(U); here and below all tensor
+products are taken over the complex numbers, unless stated otherwise. The open subset of
+interest to us
+P1
+(m) := P1 \ {p1, p2, ... , pm} ,
+(2.5)
+where {pi | i = 1, 2, ... , m} is a ﬁnite set of pairwise distinct non-singular points on P1. The points
+pi correspond to the positions of the WZW primary ﬁelds ΦΛi whose correlation function is
+obtained from the chiral blocks we are interested in; they are called the insertion points or the
+parabolic points, and P1
+(m) is referred to as a punctured Riemann sphere. The corresponding
+vector space
+¯g(P1
+(m)) := ¯g ⊗F(P1
+(m))
+(2.6)
+becomes a Lie algebra when endowed with the natural bracket
+[¯x⊗f, ¯y⊗g] := [¯x, ¯y] ⊗fg
+for ¯x, ¯y ∈¯g and f, g ∈F(P1
+(m)) .
+(2.7)
+4
+
+
+--- PAGE 5 ---
+A basis B of the block algebra ¯g(P1
+(m)) is given by
+B = ¯B × ({z0} ∪
+m
+[
+i=1
+{(z −zi)n | n ∈Z<0}) ,
+(2.8)
+where ¯B = {¯xa | a = 1, 2, ... , dim ¯g} is a basis of the Lie algebra ¯g, z is the global coordinate of
+C ⊂P1, and zi are the values of z at the insertion points pi.
+As a side remark we mention that the block algebra (2.6) admits a natural central extension,
+which we will employ in section 3. A similar remark applies to the block algebras that arise when
+P1 is replaced by some Riemann surface of higher genus. The corresponding centrally extended
+Lie algebras are known as higher genus aﬃne Lie algebras or as generalized Krichever--Novikov
+algebras of aﬃne type [8,9].
+2.2
+g-modules
+For the applications we have in mind, we will need to consider modules (representation spaces)
+over the block algebra which come from modules over the aﬃne Lie algebra g. Most of the g-
+modules that we are interested in here share the speciﬁc properties that the action of the Cartan
+subalgebra g◦can be diagonalized in such a way that the resulting weight spaces are ﬁnite-
+dimensional when the full Cartan subalgebra (i.e. including the derivation D) is considered,
+and such that each weight of the module can be obtained from a ﬁnite set {µℓ} of weights by
+subtraction of a ﬁnite number of positive g-roots. The collection of all such g-modules forms
+the objects of a category, called the category O (see e.g. Chap. 9.1 of [7]); this category is closed
+under forming ﬁnite direct sums or tensor products, submodules and quotients. Every module
+V in O is in particular restricted, i.e. each element v ∈V is annihilated by the step operators
+for all but a ﬁnite number of positive g-roots; moreover, the subalgebra g+ of g acts locally
+nilpotently.
+Among the modules in O there are in particular the highest weight modules V for which
+by deﬁnition there exists a highest weight vector vΛ which is annihilated by g+, i.e. gαvΛ = 0
+for all positive g-roots α, which is an eigenvector of g◦, i.e. hvΛ = Λ(h)vΛ for all h ∈g◦, and
+for which the action of g−yields the whole module, U(g−)vΛ = V . In particular, for highest
+weight modules the set {µℓ} of distinguished weights contains only a single element, the highest
+weight Λ. Every g-module with highest weight Λ can be obtained as a suitable quotient from the
+Verma module VΛ := U(g)⊗U(g+⊕g◦)vΛ, which as a g−-module is isomorphic to the free module
+U(g−)⊗CvΛ.
+The space of physical states of a (chiral) WZW theory is the direct sum of integrable
+irreducible highest weight modules HΛ of g which all have one and the same eigenvalue of the
+central generator K ∈g, i.e. the same level. Throughout the paper we therefore keep some ﬁxed
+value k of the level. For integrability of the module HΛ, the highest weight Λ must be dominant
+integral, which implies that k must be a non-negative integer, and the horizontal projection ¯Λ
+of Λ must lie in the set
+Pk := {¯Λ ∈Lw | (¯Λ, ¯α(i)) ≥0 for all i = 1, 2, ... , rank ¯g, (¯Λ, ¯θ) ≤k} ,
+(2.9)
+5
+
+
+--- PAGE 6 ---
+i.e. belong to the integral weights in the closure of the dominant Weyl alcove at level k (here Lw
+denotes the weight lattice of the horizontal subalgebra ¯g, i.e. the lattice in ¯g⋆
+◦that is spanned
+by the fundamental ¯g-weights, and ¯α(i) are the simple roots and ¯θ the highest root of ¯g).
+Note that Pk is a ﬁnite set (e.g. at level 0 there is only a single integrable module, the trivial
+one-dimensional module H0 with highest weight Λ = 0).
+In conformal ﬁeld theory terms, the WZW chiral blocks are the chiral constituents of the
+m-point correlation functions
+B{Λi},{pi} = ⟨ΦΛ1(p1) ΦΛ2(p2) · · · ΦΛm(pm) ⟩
+(2.10)
+for primary WZW ﬁelds. These ﬁelds are associated with integrable irreducible highest weight
+modules of g. As a consequence, when studying chiral blocks, one has to deal with a collection
+of irreducible highest weight modules HΛi (i = 1, 2, ... , m) of g which are at level k and satisfy
+¯Λi ∈Pk, and analyze the tensor product space (over C)
+H⃗Λ
+(m) := HΛ1 ⊗HΛ2 ⊗· · · ⊗HΛm .
+(2.11)
+This tensor product is in a natural way a module over the m-fold direct sum gm ≡g⊕g⊕· · ·⊕g.
+In addition to irreducible highest weight modules, we will occasionally also have to deal
+with other objects in the category O, namely with the so-called generalized or parabolic Verma
+modules
+PΛ := U(g) ⊗U(p+) ¯H¯Λ .
+(2.12)
+Here ¯H¯Λ denotes the irreducible ¯g-module with highest weight ¯Λ, while p+ is an arbitrary
+parabolic subalgebra of g. More speciﬁcally, we consider the case where
+p+ = ¯g ⊕CK ⊕g+ .
+(2.13)
+Then g = p+ ⊕g−with g−= ¯g ⊗t−1C[t−1] as deﬁned in (2.2), and for any integrable g-weight
+Λ the Poincar´e--Birkhoﬀ--Witt theorem implies a natural isomorphism
+PΛ ≡U(g) ⊗U(p+) ¯H¯Λ ∼= U(g−) ⊗¯H¯Λ
+(2.14)
+of g−-modules. In particular, PΛ is free as a g−-module.
+Finally another class of modules will play a rˆole, which are not restricted and hence in
+particular not in the category O, but still integrable.
+These g-modules, called evaluation
+modules, are ﬁnite-dimensional and of level zero; we will encounter them in subsection 4.2.
+For later reference we also present the characters of some of the g-modules of our interest.
+The character of an integrable irreducible highest weight module HΛ is given by the Weyl--Kac
+character formula
+χΛ = X ·
+X
+w∈W
+ǫ(w) ew(Λ+ρ) ,
+(2.15)
+where the summation is over the Weyl group W of g, ρ is the Weyl vector of g and
+X := (
+X
+w∈W
+ǫ(w) ew(ρ))
+−1 = e−ρ Y
+α>0
+(1 −e−α)−mult α .
+(2.16)
+Both X and the second factor in (2.15) are totally antisymmetric under the Weyl group W, so
+that χΛ is W-invariant. The character of the Verma module with highest weight Λ is eΛ+ρX .
+Accordingly we will refer to the quantity (2.16) as the ‘universal Verma character’ of g.
+6
+
+
+--- PAGE 7 ---
+2.3
+The tensor product H
+(m)⃗
+Λ
+as a ¯g(P1
+(m))-module
+We would now like to endow the vector space (2.11) with the structure of a ¯g(P1
+(m))-module.
+To this end we have to choose a local holomorphic coordinate ζi around each insertion point
+pi such that ζi(pi) = 0; for instance, in terms of the global coordinate z of C ⊂P1, we can take
+ζi = z −zi when pi̸ = ∞, while for pi = ∞we can take ζi = z−1.
+For any ¯x⊗f with ¯x ∈¯g and f ∈F(P1
+(m)) we expand f in these local coordinates so as to
+obtain Laurent series fpi = fpi(ζi). By linear extension this deﬁnes, for each i ∈{1, 2, ... , m}, a
+ring homomorphism from F(P1
+(m)) to C((ζi)), and hence by identifying the indeterminate t of the
+loop construction with the local coordinate ζi, the local realizations
+xi := ¯x ⊗fpi
+(2.17)
+can be regarded as elements of the loop algebra
+¯gloop = ¯g ⊗C((t)) = g−⊕¯g ⊕g+ ,
+(2.18)
+and, as such, as elements of the aﬃne Lie algebra g (2.3). Doing so, along with any vector
+vi ∈HΛi also RΛi(xi)vi, where RΛi is the g-representation associated to the irreducible g-module
+HΛi, is a vector in HΛi.
+Moreover, even though the block algebra ¯g(P1
+(m)) is not centrally
+extended, we can obtain a representation R⃗Λ
+(m) of ¯g(P1
+(m)) on H⃗Λ
+(m), namely by deﬁning the action
+of ¯x⊗f ∈¯g(P1
+(m)) on the element v1⊗v2⊗· · · ⊗vm ∈H⃗Λ
+(m) by
+(R⃗Λ
+(m)(¯x⊗f))(v1⊗v2⊗· · · ⊗vm) :=
+m
+X
+i=1
+v1⊗v2⊗· · · ⊗RΛi(xi)vi ⊗· · · ⊗vm .
+(2.19)
+To verify that this yields a ¯g(P1
+(m))-representation we compute
+(R⃗Λ
+(m)(¯x⊗f)R⃗Λ
+(m)(¯y⊗g))(v1⊗v2⊗· · · ⊗vm) −(R⃗Λ
+(m)(¯y⊗g)R⃗Λ
+(m)(¯x⊗f))(v1⊗v2⊗· · · ⊗vm)
+=
+m
+X
+i=1
+v1⊗v2⊗· · · ⊗[RΛi(xi), RΛi(yi)]vi ⊗· · · ⊗vm
+=
+m
+X
+i=1
+v1⊗v2⊗· · · ⊗RΛi([¯x, ¯y]⊗fpigpi)vi ⊗· · · ⊗vm
++ k κ(¯x, ¯y)(
+m
+X
+i=1
+Respi(df g)) v1⊗v2⊗· · · ⊗vm ,
+(2.20)
+where in the ﬁrst equality we observed that terms acting on diﬀerent tensor factors of H⃗Λ
+(m)
+cancel and in the second equality we inserted the bracket relations of the aﬃne Lie algebra g.
+Now the terms in (2.20) that involve the level k cancel as a consequence of the residue formula,
+while the other terms add up to R⃗Λ
+(m)([¯x⊗f, ¯y⊗g])(v1⊗v2⊗· · · ⊗vm), where the Lie bracket is the
+one of ¯g(P1
+(m)) as deﬁned in (2.7). Hence as promised, for any choice⃗ζ ≡(ζ1, ζ2, ... , ζm) of local
+coordinates at the parabolic points we have a representation R⃗Λ
+(m) = R⃗Λ;⃗ζ
+(m) of the block algebra
+¯g(P1
+(m)).
+7
+
+
+--- PAGE 8 ---
+Note that the cancellation of the terms coming from the central extension only works if all
+modules HΛi have the same level. Under the same condition the result does not only hold for
+irreducible highest weight modules, but analogously also for any module on which the central
+element K acts as a multiple of the identity, and hence in particular for Verma modules and
+their quotients and for direct sums of such modules.
+2.4
+Co-invariants
+Before we can introduce chiral blocks, we need one more ingredient, the notion of a co-invariant.
+For any Lie algebra h we denote by U(h) its universal enveloping algebra and by
+U+(h) := h U(h)
+(2.21)
+the augmentation ideal of U(h). Then for any h-module V , the quotient module
+⌊V ⌋h := V / U+(h) V
+(2.22)
+is known as the space of co-invariants of V with respect to h. (Strictly speaking, in place of
+(2.22) one should write
+⌊V ⌋h := V / R(U+(h)) V ,
+(2.23)
+where R denotes the representation by which h acts on the module V . Diﬀerent actions of
+h on one and the same underlying vector space will of course give rise to diﬀerent spaces of
+co-invariants.)
+Let us list brieﬂy a few basic facts about co-invariants (for further properties of co-invariants
+see Appendix A).
+• The vector space ⌊V ⌋h can be characterized as the largest quotient module of V on which h
+acts trivially.
+• The space of co-invariants of the tensor product V ⊗W of two h-modules V and W equals
+their tensor product over U(h):
+⌊V ⊗W⌋h ≡⌊V ⊗C W⌋h = V ⊗U(h) W .
+(2.24)
+Indeed, both spaces are by deﬁnition equal to the quotient of V ⊗W by the subspace that is
+spanned by the vectors (xv)⊗w + v⊗(xw) with v ∈V , w ∈W and x ∈h. 1
+• The concept of co-invariants generalizes the notion of invariant tensors to the case of non-
+fully reducible modules. More precisely, when h is a ﬁnite-dimensional semi-simple Lie algebra
+and V is fully reducible, then ⌊V ⌋h is isomorphic to the space of invariant tensors of V . Thus
+the dimension of ⌊V ⌋h is given by the number of singlets contained in V ; in particular, one has
+the formula
+dim(⌊¯H¯Λ ⊗¯H¯Λ′⌋h) = δ¯Λ′,¯Λ+
+(2.25)
+for the h-co-invariants of the tensor product of two ﬁnite-dimensional highest weight modules
+over h; a distinguished representative for the corresponding non-trivial co-invariant is given by
+v¯Λ⊗v−(¯Λ′)+, where vΛ is the highest weight vector of ¯H¯Λ and v−(¯Λ′)+ the lowest weight vector of
+¯H¯Λ′.
+1 In the deﬁnition of the tensor product ⊗U(h) we have to include the canonical anti-involution of U(h) that
+is deﬁned by 1 7→1 and x 7→−x for all x ∈h, so as to obtain the structure of a right U(h)-module on V .
+8
+
+
+--- PAGE 9 ---
+2.5
+The deﬁnition of chiral blocks
+We are now in a position to give a precise deﬁnition of the chiral blocks [3,4,5,10,11]. We have
+seen that any choice⃗ζ ≡(ζ1, ζ2, ... , ζm) of local coordinates at the parabolic points leads to a
+representation R⃗Λ;⃗ζ
+(m) of the block algebra ¯g(P1
+(m)) on H⃗Λ
+(m). We start by introducing the spaces
+B⃗ζ = ⌊H⃗Λ
+(m)⌋R(m)⃗
+Λ;⃗ζ (¯g(P1
+(m))) ≡H⃗Λ
+(m) / R⃗Λ;⃗ζ
+(m)(U+(¯g(P1
+(m)))) H⃗Λ
+(m)
+(2.26)
+of co-invariants. Now these spaces of course depend on the choice of local coordinates⃗ζ. On
+the other hand, as already mentioned the chiral blocks play the rˆole of the building blocks for
+correlation functions in conformal ﬁeld theory; it is a fundamental physical requirement that
+those correlation functions should depend covariantly on the choice of coordinates. Here we
+will impose the natural stronger requirement that even the chiral blocks transform covariantly
+under a change of the local coordinates at the parabolic points.
+To get rid of the coordinate dependence we make use of the group
+U := {u ∈C[[z]] | u(0) = 0, du
+dz (0)̸ = 0}
+(2.27)
+of local coordinate changes. The group Um ≡U × U × · · · × U acts transitively on the set of
+all collections⃗ζ of local coordinates by sending each local coordinate ζi to the local coordinate
+ζi ◦ui with ui ∈U. Moreover, for any⃗u ∈Um one can ﬁnd a map Γ⃗u: H⃗Λ
+(m) →H⃗Λ
+(m) with the
+property that
+Γ⃗u R⃗Λ;⃗ζ
+(m)(x) = R⃗Λ;⃗ζ◦⃗u
+(m)
+(x) Γ⃗u
+(2.28)
+for all x ∈¯g(P1
+(m)), and this map is unique up to a scalar. Now via the local realizations (2.17)
+(obtained by identifying the local coordinates at the parabolic points with the indeterminate of
+the loop construction for the relevant summand of gm ≡g ⊕g ⊕· · · ⊕g) one associates to any
+choice⃗ζ of local coordinates a subalgebra g⃗ζ
+(m) of gm which is isomorphic to the block algebra
+¯g(P1
+(m)). The map Γ⃗u has the property that it restricts to an isomorphism
+Γ⃗u :
+g⃗ζ
+(m)H⃗Λ
+(m) ∼
+=→g⃗ζ◦⃗u
+(m) H⃗Λ
+(m)
+(2.29)
+and therefore induces a map on spaces of co-invariants taken with respect to the diﬀerent
+actions of the block algebra on the space H⃗Λ
+(m) that are associated to the diﬀerent choices of
+local coordinates.
+We now interpret the chiral blocks as the equivalence classes of co-invariants under the
+action of the group Um, and denote the blocks by
+B = ⌊H⃗Λ
+(m)⌋¯g(P1
+(m)) ≡H⃗Λ
+(m) / U+(¯g(P1
+(m))) H⃗Λ
+(m) ,
+(2.30)
+where we think of ¯g(P1
+(m)) as the abstract block algebra ¯g ⊗F(P1
+(m)) without specifying its em-
+bedding into gm. For the purposes of this paper, we regard this prescription as the deﬁnition
+of the spaces B ≡B{Λi},{pi} of chiral blocks.
+In conformal ﬁeld theory terminology, taking ¯g(P1
+(m))-co-invariants corresponds to the pro-
+cedure of imposing the Ward identities of the current algebra on the correlation functions.
+9
+
+
+--- PAGE 10 ---
+Let us also remark that in certain contexts it is actually more natural to consider the dual of
+the space ⌊H⃗Λ
+(m)⌋¯g(P1
+(m)), i.e. the space of ¯g(P1
+(m))-invariants in the (algebraic) dual of H⃗Λ
+(m). As
+already mentioned, in algebraic geometry and in quantum Chern--Simons theory, chiral blocks
+describe holomorphic sections in line bundles over moduli spaces; the relation to invariants is
+via inﬁnite-dimensional Borel--Weil--Bott theory in which the full algebraic dual of a highest
+weight module appears. Here we are only interested in the dimensions, which are ﬁnite and
+hence are the same for invariants and co-invariants.
+Manifestly, the deﬁnition (2.30) does not depend on the choice of local coordinates. More-
+over, any two spaces of chiral blocks with the same number of insertion points and the same
+highest weights are isomorphic. (The relevant isomorphism is canonical when there is a confor-
+mal mapping of P1 that maps the two sets of insertion points bijectively on each other.) Later
+on we will, however, often work with speciﬁc representatives, i.e. prescribe a speciﬁc choice
+of coordinates. In this paper, we will focus on a genus zero curve for which a (quasi-) global
+holomorphic coordinate exists. Any choice of such a global coordinate gives a natural set of
+local coordinates at the parabolic points.
+3
+Two-point blocks
+The Verlinde formula provides a closed expression for the dimensions dim B of spaces of chiral
+blocks. To enter the calculation of such dimensions, let us ﬁrst investigate the special situation
+where the number of insertion points is m = 2. Recall that by deﬁnition the chiral blocks are
+independent of the choice of the global holomorphic coordinate z. For deﬁniteness, we will
+work with speciﬁc representatives of the blocks, namely by choosing the global coordinate in
+such a way that the two insertion points are at z = 0 and at z = ∞. Then the block algebra is
+nothing but the (polynomial) loop algebra
+¯g(P1\{0,∞}) = ¯g ⊗C[z,z−1] =: z ,
+(3.1)
+where the indeterminate of the loop construction is given by the global coordinate z on
+C = P1\{∞}. Now as we have seen in Subsection 2.3, the tensor product H⃗Λ
+(2) ≡HΛ1⊗HΛ2 is a
+z-module. In order to describe the z-co-invariants of this module it is, however, most desirable
+that not only the tensor product, but both factors HΛ1 and HΛ2 can be regarded as modules
+over the block algebra individually. As is clear from the calculation (2.20), this can deﬁnitely
+not be achieved with the block algebra as deﬁned so far. Therefore in addition to z we introduce
+a central extension of z by a one-dimensional center C ˆK, so as to obtain a centrally extended
+loop algebra ˆz = z ⊕C ˆK. The bracket relations of ˆz read
+[¯x⊗f, ¯y⊗g] = [¯x, ¯y] ⊗fg + κ(¯x, ¯y) Res0(df g) ˆK .
+(3.2)
+By identifying the local coordinates at 0 and ∞, respectively, with the indeterminate of the
+loop construction, we obtain two diﬀerent embeddings ı0 and ı∞of z as a vector space into g.
+We can extend these maps to two isomorphisms between ˆz and g as Lie algebras, which read
+explicitly
+ı0(¯x⊗zn) := ¯x⊗tn ,
+ı0( ˆK) := K
+(3.3)
+10
+
+
+--- PAGE 11 ---
+(¯x ∈¯g, n ∈Z) and
+ı∞(¯x⊗zn) := ¯x⊗t−n ,
+ı∞( ˆK) := −K ,
+(3.4)
+respectively.
+(Note that one should carefully distinguish between the block algebra as an
+abstract Lie algebra and the embedding of the block algebra into gm via local coordinates. For
+instance, in the two-point situation considered here, the block algebra z is isomorphic to the
+algebra ¯g ⊗C(t) of ¯g-valued Laurent polynomials that is contained in g◦. But for a generic choice
+of the coordinate z, z is embedded into g as a subalgebra that is isomorphic but not identical
+to ¯g ⊗C(t) and in particular involves arbitrary Laurent series, as is generically needed in order
+to be able to deﬁne inverses and hence to have a group of local coordinate changes. This is the
+main motivation why in this paper we regard g rather than its subalgebra g◦as the aﬃne Lie
+algebra.) 2
+Using the embeddings (3.3) and (3.4), each of the two irreducible highest weight modules
+HΛ1 and HΛ2 of g can be separately endowed with the structure of a ˆz-module. With the help
+of the isomorphism ı0 we can transport the triangular decomposition (2.4) of g to a triangular
+decomposition of ˆz. (Alternatively we could choose to use ı∞for this purpose; this would result
+in a diﬀerent triangular decomposition.) It then makes sense to talk about highest and lowest
+weight modules over the centrally extended block algebra ˆz. Let us analyse the structure of
+the vector spaces HΛ1 and HΛ2 in this spirit. One easily sees that also as a ˆz-module, HΛ1 is
+an irreducible highest weight module of level k with highest weight Λ1, while as a ˆz-module
+HΛ2 is a lowest weight module, with lowest weight −Λ+
+2 and at level −k. 3 We are interested in
+the tensor product of these two ˆz-modules, and in the co-invariants of the tensor product with
+respect to the action of z. Now we make the simple but crucial observation that the tensor
+product HΛ1⊗HΛ2 has level k + (−k) = 0 as a ˆz-module, or in other words, that the ˆz-module
+HΛ1⊗HΛ2 factorizes to a z-module. As a consequence, the z-co-invariants of the tensor product
+coincide with its ˆz-co-invariants.
+We can conclude that we are left with the task of ﬁnding the ˆz-co-invariants of HΛ1⊗HΛ2.
+Now it is not diﬃcult at all to determine these co-invariants explicitly. Namely, every vector
+in HΛ1⊗HΛ2 is a ﬁnite sum of vectors v1⊗v2 with v1 ∈HΛ1 and v2 ∈HΛ2, and as a consequence
+without loss of generality we can take such vectors v1⊗v2 as representatives for the ˆz-co-invari-
+ants. Now since HΛ1 is a highest weight module over ˆz, we can write v1 = x−v+, where v+ is a
+highest weight vector of HΛ1 and x−∈U(ˆz−) with ˆz−≡ı−1
+0 (g−). Moreover, as representatives
+of ˆz-co-invariants, we have the equivalence
+v1 ⊗v2 = x−v+ ⊗v2 ∼v+ ⊗y−v2 ,
+(3.5)
+where y−= (−1)n xnxn−1 · · · x2x1 when x−= x1x2 · · · xn with xi ∈ˆz−. Without loss of generality
+we can therefore assume that v1 = v+, i.e. restrict our attention to representative vectors of the
+2 As a side remark, we mention that we can extend the automorphism ω := ı0 ◦(ı∞)−1 = ı∞◦(ı0)−1, which
+acts as ω(¯x⊗tn) = ¯x⊗t−n for ¯x ∈¯g and n ∈Z and as ω(K) = −K, to an automorphism that includes the outer
+derivation on the centrally extended loop algebra, namely via ω(D) := −D.
+3 Thus the horizontal part of the weight is −¯Λ+
+2 , which is the lowest weight of the ﬁnite-dimensional ¯g-
+module with highest weight ¯Λ2 or, in other words, −¯Λ+
+2 = ¯wmax(¯Λ2) with ¯wmax the longest element of the Weyl
+group of ¯g. Also, even though HΛ2 as a ˆz-module is a lowest weight module and hence in particular not in the
+category O, the distinction between the algebras g and g◦is again immaterial, because the module is integrable
+and restricted.
+11
+
+
+--- PAGE 12 ---
+form v+⊗v2. Next we write v2 = y+v−, where y+ ∈U(ˆz+) and v−is the lowest weight vector of
+HΛ2, regarded as a ˆz-module. Since any part of y+ that is in the augmentation ideal of U(ˆz+)
+annihilates v+, we can use the same argument as before to conclude that the only possible
+representative for a ˆz-co-invariant is v+⊗v−. Finally we impose invariance under the Cartan
+subalgebra of ˆz, which amounts to the requirement that v+⊗v−has weight zero, i.e. that
+Λ1 + (−Λ+
+2 ) = 0 .
+(3.6)
+Thus we conclude that the space of co-invariants is zero-dimensional unless Λ1 = Λ+
+2 , in which
+case it is one-dimensional and has v+⊗v−as a (distinguished) representative. This result (and
+its derivation, too) is in complete analogy with the formula (2.25) for co-invariants of ﬁnite-
+dimensional semi-simple Lie algebras.
+In short, we have shown that
+dim B{Λ1,Λ2} = δΛ1,Λ+
+2 .
+(3.7)
+Of course, this simple result can also be obtained by various other means. The reason why we
+presented this particular derivation is that it sets the stage for a similar analysis that can be
+performed for any arbitrary value m of insertion points.
+4
+An integral formula for dim B
+4.1
+The space B as a two-point co-invariant
+Let us now turn to the m-point situation, where m > 2. Our aim is to describe the space
+B = ⌊H⃗Λ
+(m)⌋¯g(P1
+(m)) ≡⌊
+m
+O
+i=1
+HΛi⌋¯g(P1
+(m))
+(4.1)
+of chiral blocks. Because of the independence of B of the choice of coordinates, we can assume
+that the ﬁrst and mth insertion points p1 and pm are at z1 = 0 and zm = ∞, respectively. It can
+then be shown that there is a natural isomorphism
+B ∼= ⌊HΛ1 ⊗H
+(m−2) ⊗HΛm⌋z
+(4.2)
+of vector spaces, where z is the block algebra (3.1) corresponding to only two insertion points
+at zero and inﬁnity, and where H
+(m−2) stands for the tensor product
+H
+(m−2) :=
+m−1
+O
+i=2
+¯H¯Λi
+(4.3)
+of ﬁnite-dimensional irreducible ¯g-modules. Here ¯H¯Λi denotes the irreducible highest weight
+module of ¯g whose highest weight ¯Λi is the horizontal projection of the highest weight Λi of the
+g-module HΛi. Furthermore, z is deﬁned to act on H
+(m−2) by evaluation in the obvious manner,
+12
+
+
+--- PAGE 13 ---
+i.e. ¯x⊗f ∈z with ¯x ∈¯g acts as Pm−1
+i=2 fpi(0) · 1 ⊗· · · ⊗1 ⊗¯R¯Λi(¯x) ⊗1 ⊗· · · ⊗1, where ¯R¯Λi denotes
+the ¯g-representation carried by ¯H¯Λi and fpi(0) = f(zi) is the value of f ∈F(P1
+(m)) at the insertion
+point. 4
+The proof of the isomorphism (4.2) between the space of chiral blocks and the space
+⌊HΛ1 ⊗H
+(m−2) ⊗HΛm⌋z of z-co-invariants is not diﬃcult, but a bit lengthy (compare also propo-
+sition 2.3. of [5]). Therefore we present here only an outline of the proof and defer most details
+to Appendix B.
+Rather than proving the isomorphism (4.2) directly, we start from a somewhat more general
+setting. We consider two ﬁnite sets P := {p1, p2, ... , pn} and Q := {q1, q2, ... , ql} of pairwise
+distinct points of P1, where we assume that the set Q is not empty, while P may be empty. To
+each point we associate an integrable highest weight of g, and introduce the tensor product
+˜H := ˜H(1) ⊗˜H(2)
+with
+˜H(1) :=
+n
+O
+i=1
+¯H¯Λi ,
+˜H(2) :=
+l
+O
+j=1
+HΛ′
+j
+(4.4)
+of irreducible modules of the horizontal subalgebra ¯g for the points in P and of irreducible
+modules of the aﬃne Lie algebra g for the points in Q, respectively. Finally, we ﬁx an additional
+insertion point on P1 \(P ∪Q), with an associated integrable highest g-weight Λ. Without loss
+of generality we can assume that this insertion point is z = ∞.
+Moreover, in addition to HΛ we also consider the corresponding parabolic Verma module
+PΛ = U(g) ⊗U(p+) ¯H¯Λ ∼= U(g−) ⊗¯H¯Λ as introduced in formula (2.14). As we will show in Ap-
+pendix B by employing special properties of co-invariants of free modules and the behavior of
+exact sequences under the operation of taking co-invariants, we have the isomorphisms
+⌊˜H ⊗¯H¯Λ⌋¯g(P1\Q) ∼= ⌊⌊˜H ⊗PΛ⌋g−⌋¯g(P1\Q) ∼= ⌊˜H ⊗PΛ⌋¯g(P1\(Q∪{∞}))
+(4.5)
+and
+⌊˜H ⊗PΛ⌋¯g(P1\(Q∪{∞})) ∼= ⌊˜H ⊗HΛ⌋¯g(P1\(Q∪{∞})) .
+(4.6)
+Combining these results, we learn that there is an isomorphism
+⌊˜H ⊗HΛ⌋¯g(P1\(Q∪{∞})) ∼= ⌊˜H ⊗¯H¯Λ⌋¯g(P1\Q) .
+(4.7)
+Employing this isomorphism we replace successively all but the ﬁrst and last 5 aﬃne irreducible
+modules HΛi that appear in the space (4.1) of co-invariants by the corresponding irreducible
+modules ¯H¯Λi of the horizontal subalgebra ¯g. This way one ﬁnally arrives at the isomorphism
+(4.2).
+4 Note that the result (4.2) implies in particular that co-invariants taken with respect to diﬀerent actions of
+the block algebra, corresponding to diﬀerent sets of local coordinates, are isomorphic. Namely, after replacing
+the relevant aﬃne module by the corresponding ﬁnite-dimensional module the only data entering the description
+of the block are the values of the functions f ∈F(P1
+(m)) at the insertion point; manifestly these values do not
+depend on the choice of local coordinates.
+5 If we so wished, we could also replace one of the remaining g-modules HΛ1 and HΛm by the
+corresponding ¯g-module,
+thereby obtaining co-invariants with respect to the one-point block algebra
+¯g(P1\{∞}) = ¯g(C) = ¯g ⊗C[[z]] ∼= ¯g ⊕g+. In contrast, according to the discussion in Appendix B, it is not possible
+to apply this manipulation also to both of the remaining g-modules.
+13
+
+
+--- PAGE 14 ---
+4.2
+Branching rules
+Now we realize that in view of the isomorphism (4.2) we are actually in a situation very
+similar to the one investigated in section 3. The extension to the general case amounts to
+take properly into account the additional ﬁnite-dimensional ¯g-modules. We will argue that this
+can be achieved by means of suitable branching rules for completed tensor products involving
+ﬁnite-dimensional ˆz-modules. First we note that all elements of z are represented on the tensor
+product H
+(m−2) of ﬁnite-dimensional ¯g-modules by evaluation at the respective insertion points
+p2, p3, ... , pm−1, so that no central term can arise in their Lie brackets. Therefore the action of
+z on H
+(m−2) can be extended to an action of ˆz with ˆK represented by zero. We call the thus
+obtained ﬁnite-dimensional level-zero ˆz-module H
+(m−2), as well as any other ˆz-module that is
+obtained in an analogous manner from a ﬁnite-dimensional ¯g-module, an evaluation module.
+Evaluation modules are not restricted, hence not in the category O, but the step operators of
+ˆz still act locally nilpotently.
+As a consequence, the tensor product HΛ1 ⊗H
+(m−2) of ˆz-modules isn’t an object in the
+category O either; but it is easily checked that this ˆz-module is still integrable (this fact is also
+used in the proof of (4.6) in Appendix B), and that the central element ˆK acts as multiplication
+by k. Not surprisingly, it turns out to be rather diﬃcult to compute the co-invariants of the
+module HΛ1⊗H
+(m−2) directly. In order to determine the co-invariants, we would therefore like
+to replace HΛ1⊗H
+(m−2) by a direct sum of irreducible highest weight modules of ˆz. To this end
+we work with a completion (HΛ1⊗H
+(m−2))
+of HΛ1⊗H
+(m−2). More speciﬁcally, we assume that
+there exists a suitable a completion such that (HΛ1⊗H
+(m−2))
+becomes reducible and can be
+written as a direct sum
+(HΛ1⊗H
+(m−2))
+∼= J ⊕
+M
+ℓ
+Hµℓ,
+(4.8)
+where each of the summands Hµℓis an integrable highest weight ˆz-module, while J is a di-
+rect sum of ˆz-modules which are irreducible, but are not weight modules. (Note that for the
+uncompleted module such a decomposition typically does not exist.)
+Now the tensor product (L
+ℓHµℓ)⊗HΛm ⊆(HΛ1⊗H
+(m−2)) ⊗HΛm is at level k+(−k) = 0 as
+a ˆz-module, and hence by repeating the arguments of section 3 one ﬁnds that its z-co-invariants
+are the same as its ˆz-co-invariants. The ˆz-co-invariants in turn can be computed in exactly the
+same manner as in the two-point situation of section 3. More precisely, among the integrable
+highest weight modules in the decomposition (4.8) only those modules contribute to the ˆz-
+co-invariants whose highest weight is Λ+
+m, and each of these yields precisely one independent
+co-invariant. In addition, the same analysis indicates that the submodule J of (HΛ1⊗H
+(m−2))
+does not contribute any co-invariants, and also that the ˆz-co-invariants of (HΛ1⊗H
+(m−2)) ⊗HΛm
+are the same as those of (HΛ1⊗H
+(m−2)) ⊗HΛm.
+Unfortunately, so far we cannot describe a topology on the module HΛ1 ⊗¯H(m−2) such
+that in the completion with respect to that topology the relation (4.8) holds. The existence
+of such a topology should therefore be regarded as a conjecture. In the sequel we will assume
+that this conjecture is valid; then the computation of the dimension dim B of the space (4.1)
+of co-invariants merely amounts to determining the integrable highest weight modules in the
+14
+
+
+--- PAGE 15 ---
+decomposition (4.8) of HΛ1⊗H
+(m−2). Rewriting the branching rule (4.8) as
+HΛ1 ⊗H
+(m−2) ∼= J ⊕
+M
+µ∈Pk
+NΛ1;¯Λ2...¯Λm−1;µ Hµ ,
+(4.9)
+our arguments amount to the formula
+dim B{Λi},{pi} = NΛ1;¯Λ2...¯Λm−1;Λ+
+m .
+(4.10)
+Notice that on the module HΛ1 ⊗¯H(m−2) (as on any other evaluation module of the aﬃne
+Lie algebra, except for the trivial module) we do not have an action of the derivation in the
+Cartan subalgebra of the aﬃne Lie algebra g. However, a posteriori, we can deﬁne such an
+action on a submodule of the completion of HΛ1 ⊗¯H(m−2), namely on the direct sum of the
+integrable highest weight modules Hµ over the centrally extended block algebra ˆz. We will
+assume from now on that this has been done and that the eigenvalues of the derivation on the
+highest weight vectors are chosen in the standard way such that the characters furnish a module
+of SL(2,Z). This, together with the assumption that the module J is not a weight module
+and hence does not contribute to characters, opens the possibility to compute the branching
+coeﬃcients NΛ1;¯Λ2...¯Λm−1;µ by manipulating characters, and indeed this will be achieved in the
+next subsections. Notice that the character of L
+µ∈Pk NΛ1;¯Λ2...¯Λm−1;µ Hµ ⊆(HΛ1⊗H
+(m−2))
+as
+introduced in formula (4.9) is given by the product of the character χΛ1 of HΛ1 and the ¯g-
+characters ¯χ¯Λ2 to ¯χ¯Λm−1,
+χ⊕µNΛ1;¯Λ2...¯Λm−1;µHµ = χΛ1(h) · ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1(¯h) ,
+(4.11)
+where it is understood that the eigenvalues of the derivation are chosen as explained above.
+4.3
+A projection formula
+Our task is now to ﬁnd the integrable highest weight modules in the decomposition (4.8). In
+this subsection we present a projection formula which can be used to that eﬀect. We start by
+introducing a certain linear functional PΛ on the space of class functions ϕ on G, where G is the
+connected, simply connected compact real Lie group whose Lie algebra is the compact real form
+of the horizontal subalgebra ¯g of g. We denote by T the maximal torus of G that corresponds
+to the chosen Cartan subalgebra ¯g◦of ¯g. Thus the elements t of T are group elements of the
+form
+t(¯h) = Exp(2πi¯h)
+with ¯h ∈(¯g◦)R ,
+(4.12)
+and the normalized Haar measure dt on T is the ﬂat measure
+R
+Tdt = Qrank ¯g
+i=1 (
+R 1
+0 d¯hi).
+We then deﬁne, for each integrable weight Λ of g, the linear functional PΛ by
+PΛ[ϕ] :=
+Z
+T
+dt (X −1e−(Λ+ρ))(2πih) · ϕ(¯h) .
+(4.13)
+Here X is the ‘universal Verma character’ that appears in the Weyl--Kac character formula
+(2.15). Also, concerning the relation between elements of g◦and of ¯g◦and between elements of
+15
+
+
+--- PAGE 16 ---
+their dual spaces we adhere to the following conventions. The elements ¯h ∈¯g◦and h ∈g◦are
+related by
+h = ¯h −τL0 +̟
+K
+(4.14)
+with τ,̟
+∈C, and the analogous decomposition of g-weights reads
+µ = ¯µ + µ0Λ(0) + νδ =: ¯µ + µ♮,
+(4.15)
+where Λ(0) is the zeroth fundamental g-weight and δ the null root of g. Thus the g-weight µ ∈g⋆
+◦
+acts on h ∈g◦as
+µ(h) = ¯µ(¯h) + µ♮(−τL0+̟
+K) = ¯µ(¯h) +̟
+µ0 + ντ .
+(4.16)
+Notice that strictly speaking, ϕ has to be a functional on the full Cartan subalgebra of the aﬃne
+Lie algebra g, including the derivation; we will not always explicitly display this dependence in
+the sequel.
+Let us now consider the special case that ϕ is the character of a Verma module, ϕ ≡
+ϕ(¯h;τ,̟
+) = XΛ′(2πih); we get immediately
+PΛ[XΛ′] =
+Z
+T
+dt (X −1e−(Λ+ρ))(2πih) · (X eΛ′+ρ)(2πih)
+=
+Z
+T
+dt eΛ′−Λ(2πih)
+= e2πi(Λ′−Λ)♮(−τL0+̟
+K) δ¯Λ,¯Λ′ ≡e2πi̟
+((Λ′)0−Λ0)e2πiτ(νΛ′−νΛ) δ¯Λ,¯Λ′ .
+(4.17)
+As a consequence, the operator PΛ picks the Λ-isotypic component in the resolution of any
+module. In particular, we can analyze the irreducible characters, i.e. take ϕ = χΛ(2πih). By
+the Weyl--Kac character formula we know that χΛ = P
+w∈W ǫ(w) Xw(Λ+ρ)−ρ, and hence (4.17)
+tell us that
+PΛ[χΛ′] =
+X
+w∈W
+ǫ(w) PΛ[Xw(Λ′+ρ)−ρ]
+=
+X
+w∈W
+ǫ(w) e2πi[w(Λ′+ρ)−(Λ+ρ)]♮(−τL0+̟
+K) δ ˆw(¯Λ′+¯ρ),¯Λ+¯ρ .
+(4.18)
+Here ˆw denotes the induced aﬃne action of w ∈W on the weight space ¯g⋆
+◦of the horizontal
+subalgebra, i.e. the action of w on the horizontal part ¯µ of a g-weight µ ∈g⋆
+◦yields the horizontal
+part of the w-transformed g-weight:
+ˆw(¯µ) = w(µ) .
+(4.19)
+In the following, for notational simplicity we suppress the hat-symbol and just write w(¯µ) for
+the horizontal projection w(µ) of w(µ).
+Next we restrict to the case of our interest, where both Λ and Λ′ are integrable weights, and
+use the fact that the Weyl group W of g acts freely on the interior of the Weyl alcoves. This
+property of W implies that in fact only a single Weyl group element, namely w = id, can give
+a non-zero contribution to the sum; as a consequence (4.18) reduces to
+PΛ′[χΛ] = e2πi(Λ−Λ′)♮(−τL0+̟
+K) · δ¯Λ,¯Λ′ .
+(4.20)
+16
+
+
+--- PAGE 17 ---
+Moreover, we are only interested in weights Λ at some ﬁxed value k of the level. Accordingly
+we now further restrict our attention to functionals PΛ′ for which Λ′ is at level k as well; then
+¯Λ = ¯Λ′ implies that also Λ0 = Λ′0.
+Finally we require that the δ-component of the weights
+Λ and Λ′ is already speciﬁed by the horizontal part of the weights (e.g. that it is given by
+−∆Λ = −(¯Λ, ¯Λ + 2¯ρ)/4(k + h), the natural value in conformal ﬁeld theory; owing to the fact
+that for all ν ∈C, HΛ and HΛ+νδ are isomorphic as g-modules, this does not result in any loss
+of generality). Then the equality of ¯Λ and ¯Λ′ also enforces equality of the δ-components, so it
+follows that in fact we not only have ¯Λ = ¯Λ′, but even Λ = Λ′.
+Summarizing, we have proven that the projection formula
+PΛ′[χΛ] ≡
+Z
+T
+dt (X −1e−(Λ′+ρ) χΛ)(2πih) = δΛ,Λ′
+(4.21)
+holds for all integrable g-weights Λ and Λ′ at ﬁxed level whose δ-components depend only on
+the horizontal part. More generally, acting with the operator PΛ on the character of a direct
+sum of integrable highest weight modules provides us with the multiplicity of the module HΛ
+in that sum. 6
+Note that when we interpret the parameter τ as a complex variable (rather than some
+formal indeterminate), in order for the character χΛ(2πih) to be a convergent power series in
+exp(2πiτ), it must be required that τ has positive imaginary part. However, the result (4.21)
+tells us e.g. that the expression
+PΛ′[χΛ] =
+X
+w∈W
+ǫ(w) e2πi[w(Λ+ρ)−(Λ′+ρ)]♮(−τL0+̟
+K)
+Z
+T
+dt e2πi(w(¯Λ′+¯ρ)−(¯Λ+¯ρ))(¯h)
+(4.22)
+is independent of τ, so that in the present context this restriction is in fact rather irrelevant.
+Similarly, in various formulæ that we will deal with below a priori the imaginary part of τ
+must be kept strictly positive in order that the aﬃne characters, respectively the sums over the
+inﬁnite Weyl group W, converge, and it is not guaranteed that the limit τ →0 of the whole
+expression exists.
+4.4
+The integral formula
+We now employ the formula (4.21) to count the number of integrable highest weight modules
+with highest weight Λ+
+m in the completed tensor product (HΛ1⊗H
+(m−2)) . From our assumption
+(4.11) about the characters we deduce with the help of the projection formula (4.21) that the
+branching coeﬃcients NΛ1;¯Λ2...¯Λm−1;µ appearing introduced in equation (4.9) satisfy
+NΛ1;¯Λ2...¯Λm−1;Λ+
+m =
+Z
+T
+dt (X −1e−Λ+
+m−ρ)(2πih) · χΛ1(2πih) ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1(2πi¯h) .
+(4.23)
+We now manipulate the right hand side of this identity as follows. We ﬁrst insert the Weyl--Kac
+character formula (2.15) for χΛ1; next we introduce a dummy summation |W|−1 P
+¯w∈W and
+6 Incidentally, the identity (4.21) can also be used to derive an integral formula for branching functions for
+embeddings of aﬃne Lie algebras. Such expressions for branching functions have also been obtained in [12,13].
+17
+
+
+--- PAGE 18 ---
+substitute w 7→¯w−1w, where we consider the Weyl group W of ¯g as canonically embedded in
+the Weyl group W of g; and ﬁnally we set ¯h = ¯w−1(¯h′) and use invariance of the measure dt
+under the transformation from ¯h to ¯h′. This way we arrive at
+NΛ1;¯Λ2...¯Λm−1;Λ+
+m =
+Z
+T
+dt ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1(2πi¯h)
+X
+w∈W
+ǫ(w) ew(Λm−1+ρ)−(Λ+
+m+ρ)(2πih)
+=
+1
+|W|
+Z
+T
+dt ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1(2πi¯h)
+X
+w∈W
+X
+¯w∈W
+ǫ(w ¯w) e ¯w−1w(Λ1+ρ)−Λ+
+m−ρ(2πih)
+=
+1
+|W|
+Z
+T
+dt ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1(2πi¯h)
+·
+X
+w∈W
+ǫ(w) ew(Λ1+ρ)(2πih) ·
+X
+¯w∈W
+ǫ( ¯w) e−¯w(Λ+
+m+ρ)(2πih) .
+(4.24)
+Next we use the Weyl character formula for the characters ¯χ¯Λ of ﬁnite-dimensional ¯g-modules
+¯H¯Λ
+7 to obtain
+NΛ1;¯Λ2...¯Λm−1;Λ+
+m =
+1
+|W|
+Z
+T
+dt ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1(2πi¯h) ¯χ¯Λ+
+m(−2πi¯h)
+· ¯
+X −1(−2πi¯h)
+X
+w∈W
+ǫ(w) ew(Λ1+ρ)(2πi¯h) ,
+(4.25)
+where
+¯
+X = (
+X
+¯w∈W
+ǫ( ¯w) e ¯w(¯ρ))
+−1 = e−¯ρ Y
+¯α>0
+(1 −e−¯α)−1
+(4.26)
+is the universal Verma character of ¯g, the horizontal analogue of X (2.16).
+In a ﬁnal step we rewrite (4.25) in the form
+NΛ1;¯Λ2...¯Λm−1;Λ+
+m =
+1
+|W|
+Z
+T
+dt ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1¯χ¯Λm(2πi¯h) · ¯
+X −1(−2πi¯h)
+X
+w∈W
+ǫ(w) ew(Λ1+ρ)(2πi¯h) .
+(4.27)
+Here we employed the identity
+¯χ¯Λ+(¯h) = ¯χ¯Λ(−¯h)
+(4.28)
+for characters of irreducible highest weight modules of ¯g. This relation follows by making the
+substitution ¯w 7→¯w ¯wmax, with ¯wmax the longest element of the Weyl group of ¯g, in the Weyl
+character formula, and by using the fact that this element acts as ¯wmax(¯µ) = −¯µ+ on ¯g-weights:
+¯χ¯Λ+(¯h) =
+P
+¯w∈W ǫ( ¯w)e ¯w(¯Λ++¯ρ)(¯h)
+P
+¯w∈W ǫ( ¯w)e ¯w(¯ρ)(¯h)
+= ǫ( ¯wmax) P
+¯w∈W ǫ( ¯w)e−¯w(¯Λ+¯ρ)(¯h)
+ǫ( ¯wmax) P
+¯w∈W ǫ( ¯w)e−¯w(¯ρ)(¯h)
+= ¯χ¯Λ(−¯h) .
+(4.29)
+7 In agreement with the remarks made above the ﬁnal result, as displayed in formulæ (5.4) and (5.18) below,
+does not depend on τ and̟
+at all. Accordingly, for ease of notation we suppress the superﬁcial dependence on
+these variables from now on.
+18
+
+
+--- PAGE 19 ---
+5
+From the integral formula to the modular S-matrix
+5.1
+dim B in terms of weight multiplicities
+Our aim is now to deduce the Verlinde formula from the integral formula (4.27). This can
+be achieved by using information about the structure of the Weyl group W of g or, more
+precisely, about the relation between W and the Weyl group W of the horizontal subalgebra
+¯g which is canonically embedded as a subgroup into W. There are essentially two diﬀerent
+possibilities to implement this relationship. The ﬁrst amounts to working with a special set
+W
+◦of representatives of the coset of W by its subgroup W. By deﬁnition, W
+◦is that subset of
+W which consists of those representatives of the elements of W/W that have minimal length.
+One knows (see e.g. [14] and also [15, remark 8.1.]) that every element of W/W has a unique
+representative with this property, that for any integrable g-weight Λ and any w ∈W the ¯g-
+weight w(¯Λ + ¯ρ) −¯ρ is dominant integral if and only if w ∈W
+◦, and that each element w ∈W
+can be uniquely represented in the form w = ¯ww◦with ¯w ∈W and w◦∈W
+◦. Together with the
+Weyl character formula, which absorbs the summation over W, it then follows that our result
+(4.25) can be rewritten as
+dim B =
+1
+|W|
+Z
+T
+dt ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1 ¯
+X −1(2πi¯h)
+X
+w◦∈W◦
+ǫ( ¯ww◦) ¯χw◦(¯Λ1+¯ρ)−¯ρ(2πi¯h)
+· ¯
+X −1(−2πi¯h) ¯χ¯Λ+
+m(−2πi¯h)
+=
+1
+|W|
+Z
+T
+dt J(2πi¯h) ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1 ¯χ¯Λm(2πi¯h)
+X
+w◦∈W◦
+ǫ(w◦) ¯χw◦(¯Λ1+¯ρ)−¯ρ(2πi¯h) .
+(5.1)
+Here we introduced the function
+J(2πi¯h) := ¯
+X −1(2πi¯h) ¯
+X −1(−2πi¯h) =
+Y
+¯α∈¯∆+
+|eπi¯α(¯h) −e−πi¯α(¯h)|
+2
+,
+(5.2)
+where the product extends over the set ¯∆+ of positive ¯g-roots. This function can be recognized
+as the Jacobian factor that, together with |W|−1, appears in Weyl’s integration formula that
+relates the integral of a class function over the whole group G to an integral over its maximal
+torus T. Thus we can rewrite (5.1) as an integral over G:
+dim B =
+X
+w◦∈W◦
+ǫ(w◦)
+Z
+G
+dµG ¯χw◦(¯Λ1+¯ρ)−¯ρ ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1 ¯χ¯Λm ,
+(5.3)
+where dµG is the normalized Haar measure of G.
+From the orthogonality property of G-
+characters with respect to dµG it then follows immediately that
+dim B =
+X
+w◦∈W◦
+ǫ(w◦) ¯Nw◦(¯Λ1+¯ρ)−¯ρ,¯Λ2...¯Λm ,
+(5.4)
+where ¯N¯µ1 ¯µ2...¯µl denotes the number of singlets in the tensor product ¯H¯µ1 ⊗¯H¯µ2⊗· · · ⊗¯H¯µl.
+19
+
+
+--- PAGE 20 ---
+The right hand side of expression (5.4) actually constitutes a ﬁnite sum, even though W
+◦is
+an inﬁnite set. To see this, we observe that the ¯g-module ¯H¯Λ2⊗· · · ⊗¯H¯Λm can be decomposed
+into a direct sum of ﬁnitely many irreducible ¯g-modules. According to the identity (2.25), the
+module ¯Hw◦(¯Λ1+¯ρ)−¯ρ has to appear in this decomposition in order to give a non-zero contribution
+to ¯Nw◦(¯Λ1+¯ρ)−¯ρ,¯Λ2...¯Λm. Hence only ﬁnitely many w◦can contribute and we obtain a manifestly
+integral expression for dim B in terms of multiplicities of invariant tensors of ﬁnite-dimensional
+¯g-modules. (In the special case of m = 3 this description of the WZW fusion rules is known as
+the Kac--Walton formula [7,16].) As we will see in Subsection 6.3, the right hand side of (5.4)
+can also be interpreted as the Euler characteristic of a certain complex of ¯g-co-invariants.
+If we so wish, we can proceed by expressing the number ¯N¯µ1 ¯µ2...¯µl through weight multiplici-
+ties of ﬁnite-dimensional ¯g-modules. To this end one has to implement the so-called Racah--Spei-
+ser formula for the number of invariant tensors in a tensor product of ﬁnite-dimensional ¯g-
+modules. We ﬁnd
+dim B =
+X
+w◦∈W◦
+ǫ(w◦)
+X
+¯w∈W
+ǫ( ¯w) mult¯Λ2...¯Λm−1( ¯ww◦(¯Λ1 + ¯ρ) −¯ρ −¯Λm)
+≡
+X
+w∈W
+ǫ(w) mult¯Λ2...¯Λm−1(w(¯Λ1 + ¯ρ) −¯ρ −¯Λm) ,
+(5.5)
+where mult¯Λ2...¯Λm−1(¯µ) denotes the multiplicity of the weight ¯µ in the tensor product module
+¯H¯Λ1⊗¯H¯Λ2⊗· · · ⊗¯H¯Λm−1.
+5.2
+Resummation
+Alternatively, we can also express dim B completely in terms of elements of the modular matrix
+S that describes the transformation properties of the characters of the g-modules HΛ under the
+modular transformation τ 7→−1/τ. To this end, we recall that the aﬃne Weyl group W can be
+regarded as the semi-direct product of W and of translations by elements of the coroot lattice
+L
+∨of ¯g. We can therefore write the elements of the aﬃne Weyl group W in (4.27) as pairs
+w = ( ¯w; ¯β) of elements ¯w ∈W of the Weyl group of ¯g and of coroot lattice elements ¯β ∈L
+∨.
+Then the induced action (4.19) of w ∈W on the weight space of ¯g is given by
+w(¯µ) = ¯w(¯µ) + k¯β .
+(5.6)
+Also taking care of the shift in the eﬀective level that results from the shift of the weights by
+the Weyl vector ρ (which has level h) in the Weyl group action, we can then rewrite (4.27) in
+the form
+NΛ1;¯Λ2...¯Λm−1;Λ+
+m =
+1
+|W|
+Z
+T
+dt ¯χ¯Λ2¯χ¯Λ3· · · ¯χ¯Λm−1¯χ¯Λm(2πi¯h)
+· ¯
+X −1(−2πi¯h)
+X
+¯w∈W
+ǫ( ¯w) e ¯w(¯Λ1+¯ρ)(2πi¯h)
+X
+¯β∈L∨
+e(k+h)¯β(2πi¯h) .
+(5.7)
+Relation (5.7) expresses the dimension of the space of chiral blocks as the integral of a
+certain function over a torus, namely the maximal torus of the Lie group G. We will now show
+20
+
+
+--- PAGE 21 ---
+that one can replace this integration by a ﬁnite summation over suitable ¯g-weights. This is
+achieved with the help of (a slightly generalized version of) Poisson resummation which states
+that for any function f: (¯g⋆
+◦)R ∼= Rrank ¯g →C that is periodic with respect to L
+∨and for any
+natural number l, the formula
+Z
+T
+dt
+X
+¯β∈L∨
+f(¯h) e
+¯β(2πil¯h) = |lL
+∨/Lw|
+X
+¯λ∈l−1Lw/L∨
+f(¯λ)
+(5.8)
+holds. Here as before dt is the normalized Haar measure on T and ¯h ∈¯g◦is related to t ∈T
+by t = Exp(2πi¯h).
+Also, the integrand of the left hand side is single-valued on T because
+f is by assumption L
+∨-periodic, and because for diﬀerent elements ¯h1, ¯h2 ∈¯g⋆
+◦which satisfy
+Exp(2πi¯h1) = t = Exp(2πi¯h2) the values of ¯β(¯h1) and ¯β(¯h2) for ¯β ∈L
+∨diﬀer by an integer, the
+exponential function is L
+∨-periodic as well.
+To derive relation (5.8), we introduce the Fourier transform ˜f of f. The Fourier components
+are labelled by the lattice dual to L
+∨, i.e. by the weight lattice Lw: 8 f(¯h) = P
+¯λ∈Lw e2πi¯λ(¯h) ˜f¯λ.
+Then the left hand side of (5.8) can be written as
+Z
+T
+dt
+X
+¯β∈L∨
+X
+¯λ∈Lw
+˜f¯λ e2πi(¯λ+l ¯β)(¯h) =
+X
+¯λ∈Lw
+˜f¯λ
+X
+¯β∈L∨
+Z
+T
+dt e2πi(¯λ+l ¯β)(¯h) =
+X
+¯λ∈lL∨
+˜f¯λ .
+(5.9)
+Here the last equality holds because the integral over the torus is non-zero only when the
+integrand is constant, which happens only when ¯λ = −l ¯β, i.e. when ¯λ lies in l times the coroot
+lattice. On the other hand, for the right hand side of (5.8) we compute
+X
+¯λ∈l−1Lw/L∨
+f(¯λ) =
+X
+¯µ∈Lw
+˜f¯µ
+X
+¯λ∈l−1Lw/L∨
+e2πi(¯λ,¯µ) = | Lw
+l L∨|
+X
+¯µ∈lL∨
+˜f¯µ ,
+(5.10)
+where we use the fact that the sum over ¯λ only gives contributions if the summand is constant
+and hence equal to one, which happens precisely if the inner product (¯λ, ¯µ) is an integer. The
+resummation formula (5.8) now follows by equating relations (5.10) and (5.9).
+Applying now the result (5.8) to formula (5.7) for dim B, we get
+dim B =
+1
+|W|
+(k+h)L∨
+Lw
+
+X
+¯λ∈(k+h)−1Lw/L∨
+¯
+X −1(−¯λ) ¯χ¯Λ2(¯λ) ¯χ¯Λ3(¯λ) · · · ¯χ¯Λm(¯λ)
+X
+¯w∈W
+ǫ( ¯w) e2πi ¯w(¯Λ1+¯ρ,¯λ)
+=
+1
+|W|
+(k+h)L∨
+Lw
+
+X
+¯λ∈(k+h)−1Lw/L∨
+J(¯λ) ¯χ¯Λ1(¯λ) ¯χ¯Λ2(¯λ) · · · ¯χ¯Λm−1(¯λ) ¯χ¯Λm(¯λ) ,
+(5.11)
+where in the second line we used once more the Weyl character formula.
+8 We identify ¯g◦and the weight space ¯g⋆
+◦via the non-degenerate invariant bilinear form.
+21
+
+
+--- PAGE 22 ---
+5.3
+Characters and the modular matrix S
+The ﬁnal step in establishing the Verlinde formula is now to express the result (5.11) in terms
+of the entries of the modular matrix S that governs [7] the transformation of the aﬃne char-
+acters χΛ (Λ ∈Pk) under the modular transformation τ 7→−1/τ. This is possible because the
+generalized quantum dimensions, i.e. ratios of S-matrix elements, coincide with the characters
+of the horizontal subalgebra, evaluated at suitable arguments.
+We ﬁrst rewrite the summation in expression (5.11), which extends over the ¯g-weights
+¯λ ∈((k + h)−1Lw)/L
+∨≡Lw/((k + h)L
+∨), in such a way that only weights in the dominant
+Weyl alcove appear. The function J (5.2) is the square of a function that is odd under the
+Weyl group W and hence vanishes when ¯h is on the boundary of some Weyl chamber. Owing
+to the W-invariance of the characters and of J, it follows that each Weyl chamber gives the
+same contribution to the sum.
+Restricting the summation to those weights that belong to
+the dominant Weyl alcove therefore just amounts to cancelling the prefactor 1/|W|. In the
+summation we are then left with the weights of the form
+¯λ =
+¯Λ + ¯ρ
+k + h ,
+(5.12)
+where the weights ¯Λ + ¯ρ are the integral weights in the interior of the dominant Weyl alcove at
+level k + h. The weights ¯Λ are thus the integral weights in the dominant Weyl alcove at level
+k, i.e. precisely the elements of the set Pk (2.9). Formula (5.11) can therefore be rewritten as
+dim B =
+1
+|W|
+(k+h)L∨
+Lw
+
+X
+¯Λ∈Pk
+J(
+¯Λ+¯ρ
+k+h ) ¯χ¯Λ1(
+¯Λ+¯ρ
+k+h) ¯χ¯Λ2(
+¯Λ+¯ρ
+k+h) · · · ¯χ¯Λm(
+¯Λ+¯ρ
+k+h) .
+(5.13)
+A closed expression for the modular matrix S is provided by the Kac--Peterson formula
+SΛ,Λ′ = (−i)(dim ¯g−rank ¯g)/2 |Lw/L∨|−1/2(k + h)−rank ¯g/2
+·
+X
+¯w∈W
+ǫ( ¯w) exp[ −2πi
+k+h ( ¯w(¯Λ + ¯ρ), ¯Λ′ + ¯ρ)] .
+(5.14)
+By comparison with the Weyl character formula, it follows that the characters ¯χ¯Λi evaluated
+at the weights (5.12) satisfy
+¯χ¯Λi(
+¯Λ+¯ρ
+k+h) = ( SΛi,Λ
+SkΛ(0),Λ)
+∗
+.
+(5.15)
+Similarly, together with the denominator identity one ﬁnds that
+SkΛ(0),Λ = |Lw/(k + h)L
+∨|−1/2 Y
+¯α>0
+2 sin (¯Λ+¯ρ,¯α)π
+k+h
+= i−| ¯∆+| |(k + h)L
+∨/Lw|1/2 Y
+¯α>0(exp[iπ((¯α,¯Λ+¯ρ)
+k+h )] −exp[ −iπ((¯α,¯Λ+¯ρ)
+k+h )]) ,
+(5.16)
+which in turn implies
+|SkΛ(0),Λ|2 =
+(k+h)L∨
+Lw
+ J(
+¯Λ+¯ρ
+k+h) .
+(5.17)
+22
+
+
+--- PAGE 23 ---
+We now insert the identities (5.15) and (5.17) into formula (5.13) for dim B. We then ﬁnally
+obtain (using also the fact that SkΛ(0),Λ and dim B are real)
+dim B{Λi},{pi} =
+X
+¯Λ∈Pk
+(SkΛ(0),Λ)2
+m
+Y
+i=1
+SΛi,Λ
+SkΛ(0),Λ
+.
+(5.18)
+This is our desired result, the Verlinde formula that expresses the dimension dim B of spaces of
+genus zero chiral WZW blocks through the entries of the matrix S (5.14). Note that the right
+hand side of (5.18) is typically a complicated combination of complex numbers (actually all
+entries of S lie in a cyclotomic extension of the rationals), i.e. unlike the alternative expression
+on the right hand side of (5.4), it is not manifestly integral.
+6
+Homological aspects of the Verlinde formula
+In this ﬁnal section we add a few comments on general aspects of the Verlinde formula and
+present an interpretation of the Verlinde multiplicities dim B as expressed by formula (5.4) in
+terms of Euler characteristics of certain complexes of co-invariants.
+6.1
+The Verlinde formula
+In the literature, derivations of the Verlinde formula have been described at various levels
+of rigor, ranging from more heuristic considerations to mathematically complete proofs.
+It
+seems fair to say that typically the more rigorous these proofs are, the smaller the number of
+situations is to which they apply. A conformal ﬁeld theory deduction which does not use any
+speciﬁc properties of the chiral symmetry algebra of the theory, and hence applies to arbitrary
+rational conformal ﬁeld theories, was given in [1,17,18]; it involves certain formal manipulations
+with chiral blocks and hence may be regarded as somewhat heuristic. All other proofs known
+to us involve (implicitly or explicitly) the block algebra ¯g(U), and thereby the representati-
+on theory of aﬃne Lie algebras; as a consequence they work exclusively for WZW conformal
+ﬁeld theories. (The two kinds of approaches to the Verlinde formula also diﬀer drastically in
+another aspect: those applicable to arbitrary conformal ﬁeld theories only aim at establishing
+a relation between the dimensions of spaces of chiral blocks and the modular transformation
+properties of the characters, i.e. the zero point blocks at genus one, but they do not predict
+any concrete expressions for these modular transformations. In contrast, the proofs that only
+work in the WZW setting do provide such expressions, in particular the explicit form of the
+modular transformation matrix S; roughly speaking, they combine the information encoded in
+the Verlinde formula for general conformal ﬁeld theories with the Kac--Peterson formula (5.14)
+for S.) Among these approaches which apply to the WZW case, there is one [19,20] that is based
+on the path-integral quantization of Chern--Simons gauge theories and is accordingly aﬀected by
+the usual diﬃculties in setting up a rigorous quantization procedure, e.g. concerning the proper
+mathematical setting for path integrals.
+A related approach [21, 22] combines holomorphic
+quantization of Chern--Simons theories and surgery manipulations on three-manifolds. There
+23
+
+
+--- PAGE 24 ---
+is also an approach [23] which combines the isomorphism [24,25] between the tensor categories
+of certain modules over aﬃne Lie algebras g at negative level and categories of modules over
+quantum groups Uq(g) with q a root of unity with an isomorphism between categories of g-
+modules at positive and negative levels to deduce the Verlinde formula from the representation
+theory of quantum groups.
+Another possibility is to exploit the fact that the spaces of chiral blocks are isomorphic to
+the spaces of holomorphic sections in line bundles over certain projective varieties, namely over
+moduli spaces of semi-stable principal bundles with structure group G, where G is the real,
+compact, connected and simply connected Lie group with Lie algebra ¯g. (In the mathematics
+literature, sometimes this isomorphism between chiral blocks and geometric objects, rather
+than an expression for their common dimension, is meant when the term ‘Verlinde conjecture’
+is used.) One can attempt to analyze these spaces with various methods of traditional ﬁnite-
+dimensional algebraic geometry; this way several proofs have been established for the case of
+WZW theories based on ¯g = sl(2), where the vector bundles have rank two and their moduli
+space can be described rather explicitly (see e.g. [26,27,28], as well as [2] 9 for a more detailed
+exposition and for more references). Finally, using the methods of algebraic geometry, proofs
+that work for sl(N) with arbitrary N have been obtained in [4, 10, 5]; these arguments start
+from the description of the moduli space of ﬂat connections over a curve in a double coset form.
+The proof of [4] which uses torsion-free sheaves even applies to all simple Lie algebras ¯g, except
+for ¯g = F4, E6, E7 or E8. While these proofs are formulated in a purely algebraic setting, a
+derivation where topological tools play an essential rˆole was given in [32]; there the modules
+are completed to Hilbert spaces and the Verlinde formula is obtained from certain vanishing
+theorems for complexes of these Hilbert spaces (compare subsection 6.3 below).
+The argument that we presented in sections 3 – 5 makes extensive use of the representation
+theory of aﬃne Lie algebras and is in most aspects rather diﬀerent from all those mentioned
+above. In particular, all our arguments work simultaneously for WZW theories based on ar-
+bitrary simple Lie algebras ¯g; 10 at no step in the derivation is there any need to distinguish
+between diﬀerent cases that have to be treated separately. Furthermore, when combined with
+the results of [33] and [34], respectively, our methods should provide a possibility to characterize
+the spaces of chiral blocks and to prove the Verlinde formula not only for WZW theories, but
+also for two other classes of conformal ﬁeld theories. The ﬁrst of these classes is given by the so-
+called integer spin simple current extensions of WZW theories; these correspond to such WZW
+theories which in a Lagrangian setting are associated to non-simply connected group manifolds,
+while for ordinary WZW theories one always deals with the simply connected covering group
+of the simple Lie algebra ¯g. The second class of theories consists of all coset conformal ﬁeld
+theories, including in particular those coset theories in which so-called ﬁeld identiﬁcation ﬁxed
+points are present. As a ﬁnal application we mention that the present representation theoretic
+approach, combined with the results obtained in [35, 36], should be helpful in verifying the
+conjectures made in [37] concerning the values of certain traces on the spaces of chiral blocks.
+(These traces have interesting applications to the construction of chiral blocks for integer spin
+9 Other sources for references are [29] and [30], and also the WWW pages
+http://www.ictp.trieste.it/~mblau/ver.html and http://www.desy.de/~jfuchs/Vfcb.html.
+10 This applies likewise to the vanishing theorem in [32].
+24
+
+
+--- PAGE 25 ---
+simple current extensions of WZW theories, to the classiﬁcation of boundary conditions for
+conformal ﬁeld theories [38], and in algebraic geometry to the derivation of a Verlinde formula
+for non-simply connected groups.)
+6.2
+Complexes of co-invariants
+We will now present a homological interpretation of formula (5.4) which expresses the Verlinde
+multiplicities dim B as an alternating sum of non-negative integers. To this end we use the BGG
+resolution of an irreducible highest weight module of g in terms of parabolic Verma modules
+(2.14) which are free g−-modules. We introduce the (ﬁnite) direct sums
+P(j)
+Λ
+:=
+M
+w◦∈W◦
+ℓ(w◦)=j
+Pw◦(Λ+ρ)−ρ
+(6.1)
+of generalized Verma modules. Here ℓ(w) denotes the length of the Weyl group element w.
+Note that the modules P(j)
+Λ
+are still free g−-modules, and that for every integrable g-weight Λ
+and every w◦∈W
+◦the ¯g-weight w(¯Λ + ¯ρ) −¯ρ is dominant integral. In particular we have
+P(j)
+Λ
+∼= U(g−) ⊗(
+M
+w◦∈W◦
+ℓ(w◦)=j
+¯Hw◦(¯Λ+¯ρ)−¯ρ) = U(g−) ⊗¯H
+(j)
+Λ
+(6.2)
+as g−-modules, where ¯H
+(j)
+Λ is the ﬁnite-dimensional ¯g-module
+¯H
+(j)
+Λ :=
+M
+w◦∈W◦
+ℓ(w◦)=j
+¯Hw◦(¯Λ+¯ρ)−¯ρ .
+(6.3)
+The parabolic BGG resolution of an irreducible highest weight module HΛ over g with
+integrable highest weight Λ states [15] that there exists a semi-inﬁnite exact sequence of g-
+modules with g-module homomorphisms of the form
+. . . →P(j)
+Λ
+→P(j−1)
+Λ
+→. . . →P(0)
+Λ
+≡PΛ →HΛ →0 .
+(6.4)
+Note that this complex is governed by the same set W
+◦of representatives of the coset W/W
+that we encountered in Subsection 5.1. When we tensor the sequence (6.4) with the ﬁnite-
+dimensional ¯g-module H
+(m−2) ≡Nm−1
+i=1
+¯H¯Λi, we obtain a semi-inﬁnite exact sequence
+. . . →H
+(m−1) ⊗P(j)
+Λm →H
+(m−1) ⊗P(j−1)
+Λm
+→. . .
+. . . →H
+(m−1) ⊗P(1)
+Λm →H
+(m−1) ⊗PΛm →H
+(m−1) ⊗HΛm →0 .
+(6.5)
+We now observe that (by using the isomorphism (4.7) to replace also the ﬁrst aﬃne module in
+the description (4.2) of the chiral blocks by a ﬁnite-dimensional ¯g-module) the space B of chiral
+25
+
+
+--- PAGE 26 ---
+blocks is isomorphic to the co-invariants of H
+(m−1) ⊗HΛm with respect to the block algebra ˜g
+for a single insertion point. (˜g is the algebra of ¯g-valued algebraic functions that are allowed to
+have a pole of ﬁnite order at a single distinguished point and is hence isomorphic to ¯g ⊕g−.)
+We would like to combine this information with the exact sequence (6.5). To this end, we ﬁrst
+observe that the spaces in the sequence (6.5) (except for the last two) carry the structure of
+˜g-modules which are free g−-modules. On the other hand, taking co-invariants of an exact
+sequence does in general not produce another exact sequence, but only a complex. However,
+one can show (see Appendix A.2) that this procedure still constitutes a right-exact functor,
+so that the exact sequence (6.5) provides us, by taking co-invariants with respect to ˜g, with a
+semi-inﬁnite complex
+. . . →⌊H
+(m−1) ⊗P(j)
+Λm⌋˜g →⌊H
+(m−1) ⊗P(j−1)
+Λm
+⌋˜g →. . .
+. . . →⌊H
+(m−1) ⊗P(1)
+Λm⌋˜g →⌊H
+(m−1) ⊗PΛm⌋˜g →⌊H
+(m−1) ⊗HΛm⌋˜g ≡B →0
+(6.6)
+of spaces of ˜g-co-invariants that is still exact at the two right-most positions.
+Next we note that using the two fundamental facts (A.4) and (A.2) about co-invariants of
+free modules, one can derive the isomorphism
+⌊H
+(m−1) ⊗Pµ⌋˜g ∼= ⌊H
+(m−1) ⊗(U(g−) ⊗¯H¯µ)⌋˜g
+∼= ⌊U(g−) ⊗(H
+(m−1) ⊗¯H¯µ)⌋g−⊕¯g ∼= ⌊H
+(m−1) ⊗¯H¯µ⌋¯g
+(6.7)
+of vector spaces. Hereby we can simplify the various spaces that occur in the complex (6.6),
+so that it can be written as a complex that, except for B = ⌊H
+(m−1) ⊗HΛm⌋˜g, involves only
+¯g-co-invariants:
+. . . →⌊H
+(m−1) ⊗¯H
+(j)
+Λm⌋¯g →⌊H
+(m−1) ⊗¯H
+(j−1)
+Λm ⌋¯g →. . .
+. . . →⌊H
+(m−1) ⊗¯H
+(1)
+Λm⌋¯g →⌊H
+(m−1) ⊗¯HΛm⌋¯g →B →0 .
+(6.8)
+Thus we have ﬁnally arrived at a complex of ¯g-co-invariants which is governed by the subset
+W
+◦of the Weyl group W of g. Moreover, by the same arguments as in the previous section,
+we deduce from formula (2.25) for ¯g-co-invariants that this semi-inﬁnite complex is not really
+inﬁnite, but actually constitutes a ﬁnite complex of ¯g-co-invariants, i.e. we even have
+0 →⌊H
+(m−1) ⊗H
+(jmax)
+¯Λm
+⌋¯g →⌊H
+(m−1) ⊗H
+(jmax−1)
+¯Λm
+⌋¯g →. . .
+. . . →⌊H
+(m−1) ⊗H
+(1)
+¯Λm⌋¯g →⌊H
+(m−1) ⊗¯H¯Λm⌋¯g →B →0
+(6.9)
+for some non-negative integer jmax.
+6.3
+Verlinde multiplicities and Euler characteristics
+Owing to the ﬁniteness of the complex (6.9), we can express the dimension of the space B of
+chiral blocks as
+dim B = x +
+jmax
+X
+j=0
+(−1)j dim(⌊H
+(m−1)⊗H
+(j)
+¯Λm⌋¯g)
+(6.10)
+26
+
+
+--- PAGE 27 ---
+through the Euler characteristic x of the complex (6.9) and an alternating sum of dimensions
+of spaces of ¯g-co-invariants. The latter coincide with the number of singlets in the respective
+¯g-modules. Together with the identity (−1)ℓ(w) = ǫ(w) it then follows that the result (5.4) for
+the Verlinde multiplicities can be rephrased as the statement that the Euler characteristic x of
+the complex (6.9) vanishes.
+Actually, we conjecture that not only x = 0, but that the whole homology of the complex
+is zero, i.e. that (6.9) is in fact an exact sequence. Note that it is immediate that the sequence
+is indeed exact as long as the number of insertion points is m ≤2. In these cases the only non-
+vanishing spaces in the complex (6.8) are those involving the modules PΛm or HΛm (for m = 2
+this is easily seen by considerations similar to those that led to formula (3.7); the case m = 1
+can be regarded as a special case of the m = 2 situation where the second insertion point carries
+the weight Λ = kΛ(0)). Exactness then already follows from the fact (compare Appendix A.2)
+that taking co-invariants constitutes a right-exact functor. Another situation where exactness
+can be established directly (though in a somewhat lengthy manner, by using the explicit form
+of the BGG maps and of the Clebsch--Gordan decomposition) is m = 3 for ¯g = A1.
+This conjecture about the vanishing of the homology of (6.9) has also been made, from
+a diﬀerent perspective, in [31].
+We do not know of any direct Lie algebraic proof of our
+conjecture. However, a similar result has been obtained in [32], based on a completion of the
+highest weight modules HΛ to topological Hilbert spaces. The vanishing theorem of [32] refers
+to the cohomology of a complex that involves dual space of the space ⌊H⃗Λ
+(m)⌋¯g(P1
+(m)) of co-inva-
+riants considered here, i.e. the space of ¯g(P1
+(m))-invariants in the algebraic dual (H⃗Λ
+(m))⋆of H⃗Λ
+(m).
+The vanishing statement for the homology should be related, of course, to the corresponding
+statement for the cohomology in [32]. Conversely, a proof of our conjectures concerning the
+structure of the completed tensor product module (HΛ1⊗H
+(m−2))
+in subsection 4.2, and hence
+of the vanishing of the Euler number of the complex (6.9), might constitute a ﬁrst step towards
+a more direct derivation of the vanishing theorem of [32].
+In this context it could also be
+interesting to analyze the lowest weight socle of the algebraic dual (HΛ1⊗H
+(m−2))⋆of HΛ1⊗H
+(m−2)
+(compare appendix C).
+We regard the results of [32] also as an indication that unitarity should be a crucial input
+for the vanishing of the whole homology.
+Indeed, this ﬁts nicely with the observation [39]
+that when one inserts the modular matrix S for so-called admissible [40] g-modules (which
+appear in WZW theories at fractional level and are not unitarizable), one still obtains integers,
+which however can now also be negative, 11 and as already noted in [42], this suggests that in
+this situation the Verlinde multiplicities may still possess a homological interpretation. More
+speciﬁcally, note that when one deletes the space B in the complex (6.9) one obtains another
+complex whose Euler characteristic does not vanish any more but is given by dim B; in the
+non-unitary case we would expect the presence of a similar complex whose Euler characteristic
+is still given by the Verlinde multiplicity, but whose homology is no longer concentrated at the
+last position.
+The interpretation of such a complex and its relation to the true fusion coeﬃcients (which
+are dimensions and therefore are manifestly non-negative, and which can for example be de-
+11 The proper deﬁnition of S in these cases is, however, problematic; compare e.g. section 5 of [41].
+27
+
+
+--- PAGE 28 ---
+duced by explicitly solving the constraints implied by null vector decoupling, in particular the
+Knizhnik--Zamolodchikov equation [42, 43, 44, 45]) remains to be clariﬁed. In this context the
+observation [39] that in many cases the Verlinde multiplicities are controlled by the integral
+parts of the weights, and hence by fusion rules of unitary theories, is particularly interesting. In
+accordance with general experience with Borel--Weil--Bott theory, it might ﬁnd its explanation
+by the property that in the non-unitary case the homology is still concentrated at a single
+position of the complex, albeit not at the last one.
+We ﬁnally remark that the traces of the action of certain outer automorphisms on the spaces
+of chiral blocks [37] are (possibly negative) integers. This suggests that they might ﬁnd a natural
+interpretation as (possibly twisted) Euler characteristics as well. Such an interpretation would
+not only explain the rather surprising integrality properties of these traces, but may also be
+helpful for a proof of the conjectures in [37].
+28
+
+
+--- PAGE 29 ---
+A
+Further properties of co-invariants
+A.1
+Co-invariants of free modules
+When W is a free module over some Lie algebra h, i.e. when
+W ∼= U(h) ⊗X ≡U(h) ⊗C X
+(A.1)
+for some C-vector space X, then the tensor product V ⊗W of W with any other h-module V
+is again a free h-module. More precisely [15, Prop. 1.7], there exists a natural isomorphism
+V ⊗(U(h) ⊗X) ∼= U(h) ⊗(V ⊗X)
+(A.2)
+of h-modules (on the right hand side, V ⊗X is a tensor product of vector spaces); the iso-
+morphism U(h) ⊗(V ⊗X)
+∼
+=→V ⊗(U(h)⊗X) is given by u ⊗(v⊗x) 7→P
+ℓu1
+ℓv ⊗(u2
+ℓ⊗x), where
+P
+ℓu1
+ℓ⊗u2
+ℓ= ∆(u) is the coproduct of u ∈U(h).
+Moreover, by taking co-invariants the result (A.2) implies that there is a natural isomor-
+phism
+⌊V ⊗W⌋h ∼= V ⊗X
+(A.3)
+of vector spaces.
+In other words, the elements of the vector space V ⊗X provide natural
+representatives for the co-invariants of V ⊗W.
+Next we consider the situation that the Lie algebra h is the semi-direct sum h = h1 ⊕h2 of
+an ideal h1 and a subalgebra h2. Then ⌊V ⌋h1 is a U(h2)-module, and one can evaluate the space
+⌊V ⌋h of co-invariants in a two-step procedure:
+⌊V ⌋h = ⌊⌊V ⌋h1⌋h2 .
+(A.4)
+Furthermore, when V is a free h-module, then equality (A.4) already holds when h = h1 ⊕h2
+with h1 and h2 subalgebras, i.e. it is not required that h1 is an ideal.
+In order to establish these statements, we ﬁrst note that whenever h = h1 ⊕h2 as a direct
+sum of vector spaces, then it follows from the Poincar´e--Birkhoﬀ--Witt theorem (upon choosing
+a basis of h that is the union of bases {ha
+(1)} of h1 and {hq
+(2)} of h2 to obtain a suitably ordered
+basis of U(h)) that every u ∈U(h) can be written as
+u = ξ 1 +
+X
+a
+ξaha
+(1) +
+X
+q
+ηqhq
+(2) +
+X
+a,q
+ζa,qha
+(1)hq
+(2) + . . . ,
+(A.5)
+and that this decomposition is unique. In particular, U+(h) decomposes as a vector space as
+U+(h) = U+(h1) ⊕U(h1) U+(h2) .
+(A.6)
+Now in the special case when h is the semi-direct sum h = h1 ⊕h2 of an ideal h1 and a subalgebra
+h2, it is a direct consequence of [h1, h2] ⊆h1 that ⌊V ⌋h1 is a U(h2)-module. Together with (A.6)
+it then follows that for any h-module V one can evaluate the space ⌊V ⌋h of co-invariants in a
+two-step procedure as described in (A.4).
+29
+
+
+--- PAGE 30 ---
+Furthermore, when V ∼= U(h) ⊗X is a free h-module, then the decomposition (A.5) of
+elements of U(h) implies that every element of V can be written uniquely as
+v = 1 ⊗x +
+X
+i
+u+
+(1),i ⊗xi +
+X
+j
+u+
+(2),j ⊗yj +
+X
+i,j
+˜u+
+(1),i˜u+
+(2),j ⊗xij
+(A.7)
+(all sums ﬁnite) with x, xi, yj, xij ∈X, u+
+(1),i, ˜u+
+(1),i ∈h1 and u+
+(2),i, ˜u+
+(2),i ∈h2.
+It follows that a
+natural representative of the class of v in ⌊V ⌋h is given by x ∈X.
+Moreover, when h1 is
+actually a subalgebra of h, one can then consider the space of co-invariants ⌊V ⌋h1, and a
+natural representative of the class of v in ⌊V ⌋h1 is given by 1⊗x + P
+j u+
+(2),j⊗yj. Finally, when
+also h2 is a subalgebra of h and ⌊V ⌋h1 is an h2-module, then we can take h2-co-invariants of
+⌊V ⌋h1, and a natural representative of the class of 1⊗x + P
+j u+
+(2),j⊗yj is again x. Note that
+⌊V ⌋h1 can indeed be endowed with the structure of an h2-module, namely by identifying the
+action of h2 on classes by its action on the distinguished representatives 1⊗x + P
+j u+
+(2),j⊗yj, i.e.
+by demanding that h2 ∈h2 acts on the U+(h1)-class [v] ∈⌊V ⌋h1 of v ∈V by
+h2 [v] := [h2⊗x +
+X
+j
+h2u+
+(2),j⊗yj]
+(A.8)
+when v is decomposed as in (A.7). Using the uniqueness of that decomposition, it is straight-
+forward to check that the prescription (A.8) yields a linear representation of U(h2) on ⌊V ⌋h1.
+In summary, we have shown that indeed, when V is a free h-module and h = h1 ⊕h2 as a
+direct sum of vector spaces, then for the equality (A.4) of spaces of co-invariants to hold it
+is suﬃcient that h1 and h2 are subalgebras of h, while for arbitrary h-modules V one must in
+addition require that h1 be an ideal of h.
+A.2
+Right-exactness
+Here we demonstrate that the functor of taking co-invariants is right-exact. We ﬁrst observe
+that whenever
+. . . →V p+1 fp+1
+−→V p
+fp
+−→V p−1 →. . . →V 1
+f1
+−→V 0
+f0
+−→0
+(A.9)
+is a semi-inﬁnite exact sequence of modules of an arbitrary Lie algebra h, then by taking
+co-invariants one obtains an analogous complex
+. . . →⌊V p+1⌋h
+fp+1
+h−→⌊V p⌋h
+fp
+h
+−→⌊V p−1⌋h →. . . →⌊V 1⌋h
+f1
+h
+−→⌊V 0⌋h
+f0
+h
+−→0
+(A.10)
+of vector spaces. To deﬁne this complex we note that the maps f p: V p →V p−1 are h-inter-
+twiners. Therefore they give rise to linear maps f p
+h: ⌊V p⌋h →⌊V p−1⌋h between the spaces of
+co-invariants with respect to h, which satisfy f p
+h ◦πp = πp−1 ◦f p, where for each p the map
+πp: V p →⌊V p⌋h is the canonical projection; thus they act as f p
+h: [vp] 7→[f p(vp)], where for
+v ∈V we denote by [v] the equivalence class of v modulo U+(h)V , and this action does not
+depend on the choice of representatives.
+Let us verify that (A.10) is indeed a complex. If [vp] ∈Im f p+1
+h
+, then there exist a wp+1 ∈V p+1
+as well as ﬁnitely many elements wp
+j ∈V p and xj ∈h such that vp can be written as vp =
+30
+
+
+--- PAGE 31 ---
+f p+1(wp+1)+P
+j xjwp
+j. The facts that the sequence (A.9) is exact and that f p intertwines the h-
+action therefore imply that f p(vp) = f p(P
+j xjwp
+j) = P
+j xjf p(wp
+j). It follows that [f p(vp)] = 0,
+so that [vp] ∈Ker f p
+h. Hence we have
+Im f p+1
+h
+⊆Ker f p
+h ,
+(A.11)
+or in other words, f p
+h ◦f p+1
+h
+= 0, for all p ∈Z>0.
+We can now show that the complex (A.10) is always right-exact, i.e. exact at its last two
+entries. (In general, there is however no reason why this complex should be exact also at the
+other positions.) We start at the right of the diagram. The map f 1 is surjective, so that we
+have Im (f 1
+h) = ⌊V 0⌋h. Since Ker f 0
+h = ⌊V 0⌋h, this already shows exactness at ⌊V 0⌋h. From the
+result (A.11) for general p we also already know that Im f 2
+h ⊆Ker f 1
+h. To show the converse,
+suppose that [v1] ∈Ker f 1
+h. Then there exist a ﬁnite number of xj ∈h and w0
+j ∈V 0 such that
+f 1(v1) = P
+j xjw0
+j. Moreover, since f 1 is surjective, for each j we can write w0
+j = f 1(w1
+j)
+for some w1
+j ∈V 1.
+It follows that f 1(v1 −P
+j xjw1
+j) = 0, and hence v1 −P
+j xjw1
+j ∈Ker f 1.
+Since the original sequence (A.9) is exact at V 1, there then exists some w2 ∈V 2 such that
+f 2(w2) = v1 −P
+j xjw1
+j. Therefore f 2
+h([w2]) = [v1 −P
+j xjw1
+j] = [v1], and hence [v1] ∈Im f 2
+h.
+Thus we have shown that Im f 2
+h = Ker f 1
+h, so that the sequence (A.10) of co-invariants is also
+exact at ⌊V 1⌋h, as claimed.
+B
+Proof of the isomorphisms (4.5) and (4.6)
+Here we establish the isomorphisms (4.5) and (4.6). Important tools are provided by the results
+about co-invariants that were described in Appendix A.
+We use the notations of subsection 4.1, and we pick a ‘global’ coordinate z of P1 such
+that the set Q of insertion points contains the point z = 0. To derive (4.5), we ﬁrst recall the
+isomorphism PΛ ∼= U(g−) ⊗¯H¯Λ (2.14). Owing to the general result (A.3), upon tensoring with
+the g−-module ˜H (4.4) this implies the natural isomorphism
+˜H ⊗¯H¯Λ ∼= ⌊˜H ⊗PΛ⌋g−.
+(B.1)
+Note in particular that according to (B.1) the space ⌊˜H ⊗PΛ⌋g−of co-invariants is a ¯g(P1\Q)-
+module. Next we observe that we can write the Lie algebra ¯g(P1\(Q∪{∞})) as a vector space
+direct sum of the Lie algebra ¯g(P1\Q) and the Lie algebra
+˜g−:= ¯g ⊗z C((z)) ,
+(B.2)
+i.e. that there is an isomorphism
+¯g(P1 \ (Q ∪{∞})) ∼= ¯g(P1 \ Q) ⊕˜g−
+(B.3)
+of vector spaces, and moreover, that the two summands are in fact subalgebras of ¯g(P1\(Q∪{∞})).
+Furthermore, a local coordinate around the additional insertion point ∞is given by t = 1/z.
+31
+
+
+--- PAGE 32 ---
+Thus via ˜g−we have included functions with poles at this insertion point, or in other words,
+˜g−acts on the module HΛ by elements of g−(this is of course the reason why we chose the
+superscript ‘−’ in the notation ˜g−). Note that every vector of HΛ is annihilated by all but
+a ﬁnite number of generators of ˜g−, so that we actually have to deal only with ﬁnite series;
+accordingly we will identify ˜g−with g−from now on.
+By taking co-invariants with respect to ¯g(P1\Q) in (B.1), we can then conclude that (4.5)
+is valid. When doing so, we just have to apply the identity (A.4); recall that for the validity of
+(A.4) it is suﬃcient that g−and ¯g(P1\Q) are subalgebras, since PΛ is a free g−-module.
+In order to show (4.6) as well, we ﬁrst introduce an action of g−in an obvious manner, i.e.
+analogous to the action (2.19) of the block algebra; thus on a factor HΛ′
+j of ˜H(2) the element
+¯x⊗f ∈g−acts as ¯x⊗fqj(ζj) with fqj(ζj) the Laurent series of f at qj, while on a factor ¯H¯Λi of
+˜H(1) it acts via evaluation, i.e. by ¯x⊗˜fpi(0) with ˜fpi(ζi) the power series expansion of f at pi.
+Note that this way the space ˜H is not turned into a ¯g(P1\(Q∪{∞})) -module. Indeed, the
+residue theorem that in the case of (2.19) forced the central terms to cancel now no longer
+implies such a cancellation, because the functions can have additional poles at ∞, so that in
+the Lie bracket of ¯x⊗f and ¯y⊗g (¯x, ¯y ∈¯g, f, g ∈F(P1\(Q∪{∞})) we are left over with a central
+term proportional to −k κ(¯x, ¯y) Pm
+i=1 Res∞(fdg). (In physicists’ terminology, this is formulated
+as follows. Every contour encircling all insertions points except for the one at inﬁnity can be
+deformed to a contour around inﬁnity. This contour, however, does not have the standard
+orientation, thus accounting for the minus sign of the level.) Thus the representation is only
+a projective one, and precisely as in the two-block case discussed in section 2 we have to work
+with a central extension ˆ¯g(P1\(Q∪{∞}) of the block algebra ¯g(P1\(Q∪{∞}).
+Let us now denote by KΛ the kernel of the canonical surjection π: PΛ →HΛ. The space KΛ
+is generated by a single primitive null vector w; in terms of the highest weight vector wΛ of PΛ
+it is given by
+w = (E
+¯θ⊗t−1)k−(¯Λ,¯θ∨)+1wΛ ,
+(B.4)
+where by E±¯θ ∈¯g we denote the step operators in ¯g that correspond to the highest ¯g-root
+¯θ and to its negative, respectively. Now the fact that the element E−¯θ⊗t of g+ acts locally
+nilpotently on the space ˜H (4.4) means that for each v ∈˜H there exists a positive integer
+M = M(v) such that (E−¯θ⊗t)Mv = 0. 12 Further, by commuting the element (E−¯θ⊗t)M of U(g)
+through (E
+¯θ⊗t−1)M+k−(¯Λ,¯θ∨)+1 and using the fact that the highest weight vector wΛ of PΛ is
+annihilated by g+, it follows that the vector w′ := (E−¯θ⊗t)M(E ¯θ⊗t−1)M+k−(¯Λ,¯θ∨)+1wΛ is a non-
+zero multiple of w. This means that there is a non-zero vector ˜w ∈PΛ such that w can be
+written as w = (E−¯θ⊗t)M ˜w. Just as on ˜H, the algebra ¯g(P1\(Q∪{∞}) only acts projectively
+on KΛ, but the central element of the extension ˆ¯g(P1\(Q∪{∞}) now acts with value k rather
+than −k.
+It follows that for each vector v ∈˜H we have, as an element of ˜H ⊗U(¯g(P1\(Q∪{∞}))) PΛ ≡
+12 Note that the expression (E−¯θ⊗t)Mv
+≡
+(E−¯θ⊗z−1)Mv is an element of ¯g(P1\(Q∪{∞}) only if
+z−1 ∈F(P1\(Q∪{∞})). This is indeed satisﬁed because we have 0 ∈Q. It is here that our assumption about Q
+being non-empty enters.
+32
+
+
+--- PAGE 33 ---
+⌊˜H ⊗PΛ⌋¯g(P1\(Q∪{∞})), the identity
+v ⊗w = v ⊗(E−¯θ⊗t)M ˜w = (−1)M ((E−¯θ⊗t)Mv) ⊗˜w = 0 .
+(B.5)
+Since the vector w generates the kernel KΛ as a (projective) ¯g(P1\(Q∪{∞})) -module, this
+result holds analogously for every other element of ˜H ⊗KΛ as well. It follows that the image
+of ˜H ⊗KΛ under the surjection id × π: ˜H ⊗PΛ →˜H ⊗HΛ is zero in ⌊˜H ⊗HΛ⌋¯g(P1\(Q∪{∞})). In
+short, the kernel KΛ does not contain any co-invariants:
+⌊˜H ⊗KΛ⌋¯g(P1\(Q∪{∞})) = 0 .
+(B.6)
+Now we have a short exact sequence 0 →KΛ
+ı→PΛ
+π→HΛ →0, which when tensored with
+the space ˜H yields another exact sequence
+0 →˜H ⊗KΛ →˜H ⊗PΛ →˜H ⊗HΛ →0 .
+(B.7)
+Upon taking co-invariants with respect to the Lie algebra ¯g(P1\(Q∪{∞})), this provides us
+with a complex
+0 = ⌊˜H ⊗KΛ⌋¯g(P1\(Q∪{∞})) →⌊˜H ⊗PΛ⌋¯g(P1\(Q∪{∞})) →⌊˜H ⊗HΛ⌋¯g(P1\(Q∪{∞})) →0 .
+(B.8)
+The right-exactness of the functor of taking co-invariants that was described in subsection
+A.2 now tells us that (B.8) is in fact an exact sequence. From (B.6) we can therefore conclude
+that the isomorphism (4.6) is valid, as claimed.
+C
+On the lowest weight socle of (HΛ1⊗H
+(m−2))
+⋆
+The socle of a module is by deﬁnition the linear hull of all its irreducible submodules; it is in
+fact a direct sum of irreducible modules. Here we are concerned with the highest, respectively
+lowest weight socle soc±H of a module H over a Lie algebra h, deﬁned as the linear hull of all its
+irreducible highest (respectively lowest) weight submodules, which is a direct sum of irreducible
+highest (respectively lowest) weight modules. The situation of our interest is the one where h
+is an aﬃne Lie algebra and H = (HΛ1⊗H
+(m−2))⋆, with HΛ1⊗H
+(m−2) the tensor product of the
+level-k integrable highest weight module HΛ1 and the level-0 evaluation module H
+(m−2), which
+was considered in subsection 4.2 (where h was realized as the centrally extended block algebra
+ˆz).
+Recall that we describe the space B of chiral blocks as the space ⌊V ⌋h of co-invariants of
+the tensor product
+V = (HΛ1⊗H
+(m−2)) ⊗˜HΛm
+(C.1)
+of HΛ1⊗H
+(m−2) with an irreducible lowest weight h-module ˜HΛm at level −k. Its dual space B⋆
+then coincides with the space (V ⋆)h of h-invariants (singlets) in the algebraic dual V ⋆of V , i.e.
+the elements of (V ⋆)h are in one-to-one correspondence to functions on the co-invariants. This
+holds because the kernel of every ψ ∈(V ⋆)h contains the submodule U+(h)(V ) of V , so that
+33
+
+
+--- PAGE 34 ---
+by setting ˆψ([v]) := ψ(v) for each ψ ∈(V ⋆)h one deﬁnes a linear function on the space ⌊V ⌋h of
+co-invariants, and vice versa.
+One can even show that the module HΛ1⊗H
+(m−2) has trivial highest and lowest weight socles.
+In contrast, every element in the dual ⌊V ⌋⋆
+h gives rise to a submodule of (HΛ1⊗H
+(m−2))⋆that is
+isomorphic to the irreducible lowest weight module ˜HΛm. Indeed, given any ˆψ ∈⌊V ⌋⋆
+h, we can
+deﬁne for every v ∈˜HΛm the linear function ψv ∈(HΛ1⊗H
+(m−2))⋆by
+ψv(w) := ˆψ([w ⊗v])
+(C.2)
+for all w ∈HΛ1⊗H
+(m−2). One can check that the action of g on ˜HΛm precisely reproduces the
+action of g on the subspace
+(HΛ1⊗H
+(m−2))⋆
+( ˆψ) := {ψv ∈(HΛ1⊗H
+(m−2))⋆| v ∈˜HΛm}
+(C.3)
+of (HΛ1⊗H
+(m−2))⋆, and vice versa.
+In other words, the subspace (HΛ1⊗H
+(m−2))⋆
+( ˆψ) is isomor-
+phic to ˜HΛm as an h-module. Moreover, by construction this correspondence between ˆψ and
+(HΛ1⊗H
+(m−2))⋆
+( ˆψ) is one-to-one, so (HΛ1⊗H
+(m−2))⋆contains the direct sum
+M
+ˆψ∈⌊V ⌋⋆
+h
+(HΛ1⊗H
+(m−2))⋆
+( ˆψ) ∼= ⌊V ⌋⋆
+h ⊗˜HΛm
+(C.4)
+as a submodule. Note that this is indeed a direct sum (because the modules (HΛ1⊗H
+(m−2))⋆
+( ˆψ)
+are minimal non-zero submodules of (HΛ1⊗H
+(m−2))⋆), which shows in particular that
+[soc−(HΛ1⊗H
+(m−2))⋆: ˜HΛm] = dim ⌊V ⌋h .
+(C.5)
+Clearly, the relation (C.5) implies that
+[(HΛ1⊗H
+(m−2))⋆: ˜HΛm] ≥dim ⌊V ⌋h .
+(C.6)
+This inequality gets strengthened to strict equality iﬀthe lowest weight socle series of (HΛ1⊗H
+(m−2))⋆
+terminates after its ﬁrst term. By showing that such a termination occurs under appropriate
+conditions on the evaluation module H
+(m−2) (so as to implement the fact that it originates from
+integrable h-modules), one would obtain an alternative possibility to determine the branching
+coeﬃcient NΛ1;¯Λ2...¯Λm−1;Λ+
+m.
+Acknowledgements
+We thank W. Eholzer, E. Frenkel, O. Gabber, I. Kausz, W. Soergel, C. Sorger and C. Teleman for
+helpful comments. We also acknowledge inspiring discussions with the participants of the Oberwolfach
+Workshop ‘Verlinde formula and conformal blocks’ (see http://www.desy.de/~jfuchs/Vfcb.html),
+which was held within the RiP program that is supported by the Volkswagen-Stiftung.
+34
+
+
+--- PAGE 35 ---
+References
+[1] E. Verlinde, Fusion rules and modular transformations in 2D conformal ﬁeld theory, Nucl. Phys.
+B 300 [FS22] (1988) 360
+[2] Ch. Sorger, La formule de Verlinde, S´eminaire Bourbaki 794 (1994) 87
+[3] A. Tsuchiya, K. Ueno, and H. Yamada,
+Conformal ﬁeld theory on universal family of stable
+curves with gauge symmetries, Adv. Studies in Pure Math. 19 (1989) 459
+[4] G. Faltings, A proof for the Verlinde formula, J. Algebraic Geom. 3 (1994) 347
+[5] A. Beauville, Conformal blocks, fusion rules and the Verlinde formula, in: Hirzebruch 65 Confer-
+ence on Algebraic Geometry (Israel Math. Conf. Proc. 9) (1996), p. 75
+[6] C. Teleman, Verlinde factorization and Lie algebra cohomology, Invent. math. 126 (1996) 249
+[7] V.G. Kac, Inﬁnite-dimensional Lie Algebras, third edition (Cambridge University Press, Cam-
+bridge , 1990)
+[8] M. Schlichenmaier, Krichever--Novikov algebras for more than two points, Lett. Math. Phys. 19
+(1990) 151
+[9] O.K. Sheinman, Aﬃne Lie algebras on Riemann surfaces, Funct. Anal. Appl. 27 (1993) 266
+[10] A. Beauville and Y. Laszlo, Conformal blocks and generalized theta functions, Commun. Math.
+Phys. 164 (1994) 385
+[11] B.L. Feigin, V.V. Schechtman, and A.N. Varchenko, On algebraic equations satisﬁed by hyper-
+geometric correlators in WZW models. I, Commun. Math. Phys. 163 (1994) 173
+[12] M.B. Halpern and N. Sochen, Flat connections for characters in irrational conformal ﬁeld theory,
+Int. J. Mod. Phys. A 10 (1995) 1181
+[13] S. Hwang and H. Rhedin, General branching functions of aﬃne Lie algebras, Mod. Phys. Lett. A
+10 (1995) 823
+[14] K. Iwahori, On the structure of the Hecke ring of a Chevalley group over a ﬁnite ﬁeld, Fac. Sci.
+Univ. Tokyo Sect. I 10 (1964) 215
+[15] H. Garland and J. Lepowsky, Lie algebra homology and the Macdonald--Kac formulas, Invent.
+math. 34 (1976) 37
+[16] M. Walton, Fusion rules in Wess--Zumino--Witten models, Nucl. Phys. B 340 (1990) 777
+[17] G. Moore and N. Seiberg, Polynomial equations for rational conformal ﬁeld theories, Phys. Lett.
+B 212 (1988) 451
+[18] R. Brustein, S. Yankielowicz, and J.-B. Zuber,
+Factorization and selection rules of operator
+product algebras in conformal ﬁeld theories, Nucl. Phys. B 313 (1989) 321
+[19] G. Daskalopoulos and R. Wentworth, The integrability criterion in SU(2) Chern--Simons gauge
+theory, Commun. Math. Phys. 151 (1993) 437
+[20] M. Blau and G. Thompson, Derivation of the Verlinde formula from Chern--Simons theory and
+the G/G model, Nucl. Phys. B 408 (1993) 345
+[21] E. Witten, Quantum ﬁeld theory and the Jones polynomial, Commun. Math. Phys. 121 (1989)
+351
+35
+
+
+--- PAGE 36 ---
+[22] S. Axelrod, S. Della Pietra, and E. Witten, Geometric quantization of Chern--Simons theory, J.
+Diﬀ. Geom. 33 (1991) 787
+[23] M. Finkelberg, An equivalence of fusion categories, Geom. Funct. Anal. 6 (1996) 249
+[24] D. Kazhdan and G. Lusztig,
+Tensor categories arising from aﬃne Lie algebras. I, II, J. Amer.
+Math. Soc. 6 (1993) 905, 949
+[25] D. Kazhdan and G. Lusztig, Tensor categories arising from aﬃne Lie algebras. III, IV, J. Amer.
+Math. Soc. 7 (1993) 335, 383
+[26] A. Bertram and A. Szenes,
+Hilbert polynomials of moduli spaces of rank 2 vector bundles II,
+Topology 32 (1993) 599
+[27] M. Thaddeus, Stable pairs, linear systems and the Verlinde formula, Invent. math. 117 (1994)
+317
+[28] L.C. Jeﬀrey and J. Weitsman, Bohr--Sommerfeld orbits in the moduli space of ﬂat connections
+and the Verlinde dimension formula, Commun. Math. Phys. 150 (1992) 593
+[29] A. Beauville, Vector bundles on curves and generalized theta functions: recent results and open
+problems, in: Current Topics in Complex Algebraic Geometry,
+(Cambridge University Press,
+Cambridge 1995), p. 17
+[30] M. Schottenloher, A Mathematical Introduction to Conformal Field Theory [Springer Lecture
+Notes in Physics m 43] (Springer Verlag, Berlin 1997)
+[31] S. Kumar, Fusion product of positive level representations and Lie algebra homology, in: Physics
+and Geometry, J.E. Andersen, H. Pedersen, and A. Swann, eds. (Marcel Dekker, New York 1997),
+p. 253
+[32] C. Teleman, Lie algebra cohomology and the fusion rules, Commun. Math. Phys. 173 (1995) 265
+[33] J. Fuchs, A.N. Schellekens, and C. Schweigert,
+A matrix S for all simple current extensions,
+Nucl. Phys. B 473 (1996) 323
+[34] J. Fuchs, A.N. Schellekens, and C. Schweigert, The resolution of ﬁeld identiﬁcation ﬁxed points
+in diagonal coset theories, Nucl. Phys. B 461 (1996) 371
+[35] J. Fuchs, A.N. Schellekens, and C. Schweigert, From Dynkin diagram symmetries to ﬁxed point
+structures, Commun. Math. Phys. 180 (1996) 39
+[36] J. Fuchs, U. Ray, and C. Schweigert, Some automorphisms of Generalized Kac--Moody algebras,
+J. Algebra 191 (1997) 518
+[37] J. Fuchs and C. Schweigert, The action of outer automorphisms on bundles of chiral blocks,
+preprint hep-th/9805026
+[38] J. Fuchs and C. Schweigert,
+A classifying algebra for boundary conditions, Phys. Lett. B 414
+(1997) 251
+[39] P. Mathieu and M.A. Walton, Fractional-level Kac--Moody algebras and nonunitary coset con-
+formal theories, Progr. Theor. Phys. Suppl. 102 (1990) 229
+[40] V.G. Kac and M. Wakimoto, Modular invariant representations of inﬁnite-dimensional Lie alge-
+bras and superalgebras, Proc. Natl. Acad. Sci. USA 85 (1988) 4956
+36
+
+
+--- PAGE 37 ---
+[41] C. Dong, H. Li, and G. Mason, Vertex operator algebras associated to admissible representations
+of ˆsl2, Commun. Math. Phys. 184 (1997) 65
+[42] B.L. Feigin and F. Malikov, Modular functor and representation theory of bsl2 at a rational level,
+preprint q-alg/9511011
+[43] H. Awata and Y. Yamada, Fusion rules for the fractional level bsl(2) algebra, Mod. Phys. Lett. A
+7 (1992) 1185
+[44] J.L. Petersen, J. Rasmussen, and M. Yu,
+Fusion, crossing and monodromy in conformal ﬁeld
+theory based on SL(2) current algebra with fractional level, Nucl. Phys. B 481 (1996) 577
+[45] P. Furlan, A.Ch. Ganchev, and V.B. Petkova, A(1)
+1
+admissible representations – fusion transfor-
+mations and local correlators, Nucl. Phys. B 491 (1997) 635
+37

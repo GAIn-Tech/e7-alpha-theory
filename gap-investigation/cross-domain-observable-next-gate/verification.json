@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "command": [
+    "C:\\Python313\\python3.exe",
+    "-B",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\cross-domain-observable-next-gate\\calculate.py",
+    "--negative-controls"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"passed\": true, \"mode\": \"saved_receipt_replay\", \"certificate_sha256\": \"d741fa97b560af1894a638c44ec8267d8e9f13f5652bd86a6712b3eb0d54b6ab\", \"rank\": 2, \"kernel\": 5, \"lean_exit\": 0, \"negative_controls\": true}\n",
+  "stderr": "",
+  "independent_error_bound_coefficient_check": true,
+  "files": {
+    "calculate.py": "817b2dd6768ff8a8c11136cbb674908e0731e8ffd63afaa56ee182f673fe393b",
+    "certificate.json": "d741fa97b560af1894a638c44ec8267d8e9f13f5652bd86a6712b3eb0d54b6ab",
+    "citations.json": "8db60a448e2a52c741b25039891aba3d1017e93bce73595ea0b31104b3670d2d",
+    "formalization.yaml": "a41cb691cedd4c8665545b4bc45669c929ab0a495f3b620f351b9e901899e22f",
+    "RELEASE_DISCLOSURE.md": "ed3270d385318aa0fbfcc22e5acdd690ba312e0165acc7ff282d86db45408693",
+    "REPORT.md": "d962c32ab5353d6a0eef1f60ca833e79db18295929b71a06b417ea8165d9b6df",
+    "Response.lean": "acd36f845ace8b8cad24772dc300978372509b6330d5b303eb753c856602ca2f",
+    "source.html": "5846666cf622a2440188974b82360944df6c5949a7a0eff906dab43d76f6e1c9",
+    "source.txt": "c3895dbc59c115b9cd6a7a606465a9fb261581d18c7dd4277b4897f89bdfc80b"
+  }
+}

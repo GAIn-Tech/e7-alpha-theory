@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "claim_boundary": "Exact conditional all-xi free-master identity, not exact certification of the actual floating action tensors.",
+  "normalization": "32 pi^2 times result; physical weight C_ai^2; ordered symmetric pair weight Z_ab^2",
+  "physical_channels": {
+    "scalar_bubble": {
+      "I(0, t)": "-2*(-rho + t)**2/a",
+      "I(t, a*xi)": "2*(-rho + t)**2/a"
+    },
+    "mixed": {
+      "A(a*xi)": "2*(-a*xi + s - t)/a",
+      "I(0, t)": "2*(s - t)**2/a",
+      "I(t, a*xi)": "-2*(s - t)**2/a"
+    },
+    "vector_seagull": {
+      "A(a*xi)": "2*xi"
+    }
+  },
+  "pair_channels": {
+    "scalar_bubble": {
+      "I(0, 0)": "-rho**2/(a*b)",
+      "I(a*xi, b*xi)": "rho**2/(a*b)"
+    },
+    "mixed": {
+      "A(a)": "xi/a",
+      "A(b)": "xi/b",
+      "A(a*xi)": "(-a*xi - b*xi + b + s)/(a*b)",
+      "A(b*xi)": "(-a*xi + a - b*xi + s)/(a*b)",
+      "I(0, 0)": "2*s**2/(a*b)",
+      "I(0, a)": "-(-a + s)**2/(a*b)",
+      "I(0, b)": "-(-b + s)**2/(a*b)",
+      "I(a, b*xi)": "(a**2 - 2*a*b*xi - 2*a*s + b**2*xi**2 - 2*b*s*xi + s**2)/(a*b)",
+      "I(b, a*xi)": "(a**2*xi**2 - 2*a*b*xi - 2*a*s*xi + b**2 - 2*b*s + s**2)/(a*b)",
+      "I(a*xi, b*xi)": "-(a**2*xi**2 - 2*a*s*xi + b**2*xi**2 - 2*b*s*xi + 2*s**2)/(a*b)"
+    },
+    "vector_bubble": {
+      "A(a)": "-xi/a",
+      "A(b)": "-xi/b",
+      "A(a*xi)": "(xi - 1)/a",
+      "A(b*xi)": "(xi - 1)/b",
+      "I(0, 0)": "-s**2/(a*b)",
+      "I(0, a)": "(-a + s)**2/(a*b)",
+      "I(0, b)": "(-b + s)**2/(a*b)",
+      "I(a, b*xi)": "-(a**2 - 2*a*b*xi - 2*a*s + b**2*xi**2 - 2*b*s*xi + s**2)/(a*b)",
+      "I(b, a*xi)": "-(a**2*xi**2 - 2*a*b*xi - 2*a*s*xi + b**2 - 2*b*s + s**2)/(a*b)",
+      "I(a*xi, b*xi)": "(-a*xi - b*xi + s)**2/(a*b)"
+    },
+    "ghost": {
+      "I(a*xi, b*xi)": "-2*xi**2"
+    },
+    "vector_seagull": {
+      "A(a*xi)": "xi/b",
+      "A(b*xi)": "xi/a"
+    }
+  },
+  "physical_diagrams_on_shell": {
+    "A(a*xi)": "-2*(-rho + t)/a"
+  },
+  "pair_diagrams_on_shell": {
+    "A(a*xi)": "rho/(a*b)",
+    "A(b*xi)": "rho/(a*b)"
+  },
+  "physical_off_shell": {
+    "A(a*xi)": "2*(-rho + s)/a",
+    "I(0, t)": "2*(-rho + s)*(rho + s - 2*t)/a",
+    "I(t, a*xi)": "-2*(-rho + s)*(rho + s - 2*t)/a"
+  },
+  "pair_off_shell": {
+    "A(a*xi)": "(-rho + s)/(a*b)",
+    "A(b*xi)": "(-rho + s)/(a*b)",
+    "I(0, 0)": "(-rho + s)*(rho + s)/(a*b)",
+    "I(a*xi, b*xi)": "-(-rho + s)*(rho + s)/(a*b)"
+  },
+  "on_shell": {
+    "physical": {
+      "A(a*xi)": "0",
+      "I(0, t)": "0",
+      "I(t, a*xi)": "0"
+    },
+    "ordered_pair": {
+      "A(a*xi)": "0",
+      "A(b*xi)": "0",
+      "I(0, 0)": "0",
+      "I(a*xi, b*xi)": "0"
+    }
+  },
+  "controls": {
+    "missing_ghost": {
+      "I(a*xi, b*xi)": "2*xi**2"
+    },
+    "wrong_ghost_sign": {
+      "I(a*xi, b*xi)": "4*xi**2"
+    },
+    "missing_displacement": {
+      "A(a*xi)": "-sigma"
+    },
+    "wrong_displacement_sign": {
+      "A(a*xi)": "-2*sigma"
+    }
+  },
+  "stationary_derivation": {
+    "q_from_twice_Ward": "(2*ell - r)/a",
+    "sigma_from_projected_stationarity": "(-k + r)/a",
+    "unmet_kernel_residual": "-k/a"
+  },
+  "action_witness": {
+    "potential": "lam*(-w**2 + x**2 + y**2)**2/4",
+    "a": "w**2",
+    "rho": "2*lam*w**2",
+    "q": "2*lam",
+    "sigma_from_stationary_solve": "-6*lam",
+    "missing_displacement_A_coefficient": "6*lam",
+    "full_off_stationary_invariance": "0",
+    "quartic_shift_residual": "0"
+  },
+  "kernel_obstruction": "-t_hh dot (1-Hplus H) R_a K_a / a multiplying A(xi*a)",
+  "source_sha256": "6104dbbfbad4037c0dadc262068e633e349990ba69cfc817e77da890015246a5",
+  "sympy": "1.13.3"
+}
+
+STDERR

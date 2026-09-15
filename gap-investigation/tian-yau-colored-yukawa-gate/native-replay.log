@@ -1,0 +1,57 @@
+REPLAY calculate.py
+certified quotient 1 0 22 13 9
+certified quotient 1 1 17 10 7
+certified quotient 1 2 17 10 7
+certified quotient 3 0 2527 2526 1
+{
+  "absolute_residue_comparison_complete": false,
+  "controls": {
+    "D_squared": 351,
+    "charge_selection": 3,
+    "charged_closed": 23,
+    "nontrivial_boundary_products": 280,
+    "wrong_curvature_detected": 153,
+    "wrong_wedge_repeated_C_detected": true
+  },
+  "passed": true,
+  "per_color_rank": 7,
+  "slice_determinants": [
+    "-1/2187",
+    "0"
+  ],
+  "slice_ranks": [
+    7,
+    6
+  ]
+}
+
+REPLAY charged_dual_bases.py
+dual character 1 constructed 4 sizes [84, 84, 84, 84]
+dual character 2 constructed 4 sizes [84, 84, 84, 84]
+REPLAY supplementary_audit.py
+{
+  "H0_character_checks": 43,
+  "Higgs_boundary_changes": 735,
+  "absolute_comparison_factor_computed": false,
+  "boundary_DAG_pivots": 2526,
+  "full_Koszul_sector_nilpotence": 2808,
+  "independent_ranks": [
+    7,
+    6,
+    7
+  ],
+  "nonclosed_keywise_Leibniz": 676,
+  "nonzero_Higgs_boundary_products": 735,
+  "passed": true,
+  "product_boundary_equalities": 98,
+  "wrong_curvature_failures": 1224
+}
+
+{
+  "passed": true,
+  "missing_receipt_rejected": true,
+  "tampered_receipt_rejected": true,
+  "absolute_residue_comparison_complete": false,
+  "conjugate_slices_computed": false,
+  "certificate_sha256": "9be92148ec164a783dce9213596f61b4494b9370f452efa7ca1e97b5534bedd3"
+}

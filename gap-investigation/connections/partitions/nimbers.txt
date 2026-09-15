@@ -1,0 +1,244 @@
+# 
+
+## monthly writings in and around mathematics by James Propp
+
+![](https://mathenchant.wordpress.com/wp-content/uploads/2015/06/cropped-logo1.png)
+
+# Numbers from Games
+
+Something very much like nothing anyone had ever seen before came trotting down the stairs and crossed the room.
+
+“What is that?” the Duke asked, palely.
+
+“I don’t know what it is,” said Hark, “but it’s the only one there ever was.”
+
+— James Thurber, “The 13 Clocks”
+
+Why was a Cambridge University Fellow and Lecturer named John Conway, on an unremarkable day in the late 1960s, lying on his back, waving his feet in the air, and giggling?
+
+To be fair, it was a decade in which many people did crazy things. In the U.S., Conway’s fellow-academic Timothy Leary was giving LSD to Harvard undergradutes, while some of Conway’s fellow-Liverpudlians, talented lads who called themselves The Beatles, were causing musical mania on both sides of the Atlantic. But Conway’s performance was for an audience of none (not counting himself), and the thing that had caused him such hilarity was neither a drug nor a catchy melodic hook but a psychedelic mathematical insight — specifically, the realization that, in an arcane but rigorous sense, four times four equals not sixteen but six.
+
+Of course, by “times” I don’t mean ordinary multiplication. What I mean is something called Nim multiplication. Or maybe I *do* mean ordinary multiplication, but the things I’m multiplying aren’t ordinary numbers, but *nimbers*. Either way, I’d better back up and talk about [the game of Nim](https://en.wikipedia.org/wiki/Nim).
+
+**HEAPS OF FUN**
+
+There’s some disagreement about where Nim came from. An earlier name for it was “Fan Tan”, and it’s similar to subtraction games that were played in China long ago, but the version I’ll be talking about appears to be only a few centuries old and may have originated in Europe. In any case, the mathematics that led to Conway’s leg-wiggling traces back to the article of Charles Bouton in 1901 (see the References).
+
+In Bouton’s Nim, two players take turns removing counters from a board until none are left. The counters are arranged in heaps and a legal move is the act of taking away one or more counters from a single heap. When it’s your turn to move, you pick a heap, and you remove one or more counters from it. You’re allowed to remove all the counters from a heap if you wish, but if there’s more than one heap that might not be the right move to make because the goal is not to get as many counters as you can but to be the last player to move. (There’s another version in which your goal is *not* to be that player, but I won’t discuss it here.)
+
+If you’ve never played Nim, I urge you to find a friend and play a few games now. Also, Andrew Gleason made a very nice video called “NIM and Other Oriented Graph Games” (see the References).
+
+With Nim, 1 plus 1 does not equal 2, if by “1” we mean a heap of size 1 and by “2” we mean a heap of size 2 and by “plus” we mean sticking our heaps side by side and playing Nim with them. For, if we start with a single heap of size 2 the first player wins by taking the whole heap, whereas if we start with two heaps of size 1 the second player wins, since the first player must take exactly one counter and then the second player removes the other.
+
+If 1 plus 1 doesn’t equal 2, what does it equal? As far as playing Nim goes, two 1-heaps are effectively the same as a 0-heap (an empty heap). That is, if *P* is a Nim position and *P*′ is the Nim position that’s just like *P* except that there are two extra 1-heaps, then the player who has a winning strategy starting from *P* also has a winning strategy starting from *P*′ and vice versa. This is easy to see in one direction: if you have a winning strategy for *P*, and you’re playing the game **P*′*, ignore the two extra 1-heaps and just follow your winning strategy for *P* until your opponent takes one of the 1-heaps. Then take the other 1-heap and pretend that the last two moves never happened. (For the “vice versa”, see Endnote #1.)
+
+What about 1 plus 2 (meaning a 1-heap alongside a 2-heap)? It equals 3 (meaning a 3-heap) in a very strong sense: If we have some Nim position *P* consisting of a 1-heap, a 2-heap, and some other heaps, and if the heap-position **P*′* is just like *P* except that the 1-heap and 2-heap have been combined into a 3-heap, then **P** and **P*′* always have the same outcome, by which I mean that a player who has a winning strategy starting from *P* must have a winning strategy starting from **P*′* and vice versa.
+
+What about 1 plus 3? Is it equal to 4? No; in Nim, 1 plus 3 equals 2! (I’ll say more about why in a minute.) In fact, for any two nonnegative integers *a* and *b*, there’s a unique integer *c* such that a heap of size *a* alongside a heap of size *b* is “Nim-equivalent” to a heap of size *c*. We say that *c* is the *Nim sum* of *a* and *b*. Here’s what the Nim addition table looks like when *a* and *b* are 3 or smaller.
+
+![](https://mathenchant.wordpress.com/wp-content/uploads/2021/12/080-add.png?w=548)
+
+Here I’m using the symbol \**n* for a heap of size *n*; the mathematical entities \*0, \*1, \*2, \*3, … are called *nimbers*.
+
+Nimbers satisfy a strange but self-consistent kind of arithmetic, satisfying many familiar properties such as commutativity and associativity. For instance, consider \*1 + \*1 + \*2. Since (according to the table) \*1 + \*2 is \*3, if we group \*1 + \*1 + \*2 as \*1 + (\*1 + \*2), we get \*1 + \*3, which (according to the table) is \*2. Or, we could group \*1 + \*1 + \*2 as (\*1 + \*1) + \*2, which equals \*0 + \*2, which again gives \*2.
+
+If we want to add larger nimbers (let’s call them \**a* and \**b*) we don’t need a larger table. Write *a* as a sum of distinct powers of two (which is more or less the same thing as writing *a* in base two), and likewise write *b* as a sum of distinct power of two; then cross out all the powers that occur in common; and finally add the powers that weren’t crossed out. For instance, to compute \*19 plus \*21, write 19 as 16 + 2 + 1 and 21 as 16 + 4 + 1; crossing out the 16’s and the 1’s just leaves the 4 and the 2, which add up to 6, so \*19 + \*21 = \*6.
+
+I won’t give the winning strategy for Nim, but it hinges on Nim addition, and you can find many sources in print and on the web that talk about how to win (notably “Winning Ways”, listed in the References).
+
+**A NIMIETY OF NIMS**
+
+Many games turn out to be Nim in disguise. Consider for instance Henry Dudeney’s game of [Kayles](https://en.wikipedia.org/wiki/Kayles). Bowling pins are arranged in a row, a foot apart say, and a legal move is either to remove a single pin or to remove two pins a foot apart. The mathematicians Roland Sprague and Patrick Michael Grundy, working independently in the 1930s, [showed that Kayles and many games like it can be understood using nimbers.](https://en.wikipedia.org/wiki/Sprague–Grundy_theorem)
+
+Suppose you’re in the middle of playing a game of Kayles and the pins still in play are arranged like this:
+
+o o o   o o o o   o o o o o
+
+Sprague-Grundy theory says that this position has a “Grundy value” (a nimber), as do all the positions reachable from this position by making a move, and that the way you win is by making sure you always move to a position with Grundy value \*0. (If you can’t move to a position with Grundy value \*0, then your opponent has the upper hand and you may end up losing.)
+
+Kayles resembles Nim in that each configuration breaks up naturally into components, and in a given turn you do something to exactly one of the components. In Nim, the components are the heaps; in Kayles, the components are the consecutive stretches of pins. To find the nimber associated with a Kayles position, you add the nimbers associated with its components, just as you do with Nim. Here’s a table (the beginning of one, at least) that shows the Grundy value *Kn* of a stretch of *n* pins in Kayles.
+
+![](https://mathenchant.wordpress.com/wp-content/uploads/2021/12/080-kayles.png?w=1024)
+
+The Kayles position I drew above has stretches of length 3, 4, and 5, with respective Grundy values *K*3 = \*3, *K*4 = \*1, and *K*5 = \*4; since \*3 + \*1 + \*4 = \*6, the Grundy value of the whole configuration is \*6. Since this is non-zero, the Sprague-Grundy theorem tells us we have at least one winning move, but how can we find it?
+
+One way (not the fastest but the easiest to explain) is to consider all our options. If we look at all the possible moves we can make, and compute the Grundy values of the resulting configurations, we find (after looking at some that don’t turn out to have Grundy value \*0) that knocking out the second pin from the right like this
+
+o o o   o o o o   o o o   o
+
+gives us a position with Grundy value *K*3 + *K*4 + *K*3 + *K*1 = \*3 + \*1 + \*3 + \*1 = \*0. This is a bad position to be in if you’re the player who’s about to move, but that player is now your opponent, not you!
+
+Leaving aside the question of why the theorem is true, where does the table come from? There’s a pleasant way to compute new values in the table from old ones. For instance, suppose that we want to compute the Grundy value of a stretch of four pins (and that we already know the Grundy values of stretches of length 1, 2, and 3). There are seven different moves to make, shown below. Each move replaces a stretch of length four with one or two stretches of length *less* than four, and we already know the first three entries in the table, so we can compute Grundy values using Nim addition:
+
+– o o o : *K*3 = \*3
+
+o o – o : **K**2 + ***K***1 = \*2 + \*1 = \*3
+
+o – o o : ****K****1 + ***K***2 = \*1 + \*2 = \*3
+
+o o o – : **K**3 = \*3
+
+– – o o : ***K***2 = \*2
+
+o – – o : ****K****1 + ****K****1 = \*1 + \*1 = \*0
+
+o o – – : ***K***2 = \*2
+
+The “mex” rule (“mex” is short for “**m**inimal **ex**cluded value”) says that the Grundy-value of a position equals the smallest nonnegative integer that doesn’t appear in the list of the Grundy-values of the positions reachable from that position. That is, it’s the smallest value that’s missing. In our case, the list is \*3, \*3, \*3, \*3, \*2, \*0, \*2, so the “mex” is \*1. And that’s why the second row of the Grundy-value table for Kayles, after starting out “\*1 \*2 \*3”, jumps down to \*1 instead of continuing up to \*4.
+
+The mex rule is applied recursively, starting from simple configurations (the sort we might see in an endgame) and working up from there to more complex configurations (the sort we might see earlier in the course of play). Here I’m reminded of Søren Kierkegaard’s adage “Life can only be understood backwards, but it must be lived forwards.” In combinatorial game theory, games must be played forwards, but they can best be understood backwards.
+
+Kayles is just one of many turn-taking games that behave like Nim; you can learn about many others from Berlekamp, Conway, and Guy’s “Winning Ways”. When the three began collaborating on the book, it wasn’t clear to any of them that it would go in the amazing new directions that it did.
+
+**COLD GAMES**
+
+A key feature of Nim and Kayles is that every move available to one player is available to the other; such games are called *impartial*. Many other games people play, such as tic-tac-toe, checkers, chess, and Go, are emphatically NOT impartial. (If you don’t believe me, try moving an opponent’s piece during a chess match when it’s your turn and see what happens!) Conway dubbed games of the latter kind “partizan” and he set out to develop something like the Sprague-Grundy theory to analyze them.
+
+Let’s consider a partizan version of Nim played by people named Blu and Redd, with heaps of blue counters that only Blu can touch and heaps of red counters that only Redd can touch. This kind of Nim is a simple war of attrition: if the players are canny, each will remove only a single counter at a time from a heap of their color, and the winner is just the player who had more counters of their color on the table at the start. (If there are equal numbers of blue and red counters at the start, then the winner is whoever goes second.)
+
+The game I just described, with red heaps and blue heaps, is an example of a game that is not only partizan but *cold*. One way to describe the difference between a hot game and a cold game is that, in a hot game, it might be advantageous to you to tell your opponent “Hey, look over there: an elephant!” and then, when their head is turned, make a legal move — hoping that anyone credulous enough to turn around to see the elephant would also be too oblivious to notice the change in the state of play and too trusting to suspect that the non-appearnace of the promised elephant might augur some sort of mischief. In the blue-heaps-and-red-heaps game, if it’s Blu’s turn she has nothing to gain by removing one of the blue counters from the board. On the other hand, Blu will benefit if Redd absent-mindedly makes two moves in a row. In cold games, you’d always be happy if your opponent made two moves in succession by mistake, and you’d never want to move twice in succession yourself.
+
+Notice that in this theory, a blue heap of size 1 plus a blue heap of size 1 is equivalent to a blue heap of size 2. So we’re back in the familiar world of 1+1=2 and all that. For cold games, numbers (not nimbers) tell us who has the advantage. Meanwhile, a blue heap of size 1 and a red heap of size 1 cancel each other out, for much the same reason as \*1 + \*1 = \*0 in the game of Nim: if you have a winning strategy for playing from some position *P*, and you’re faced with a position **P*′* that’s just *P* with a blue 1-heap and a red 1-heap added on, you can just ignore the two 1-heaps until your opponent takes one of them, at which point you take the other and pretend that the last two moves never happened. So we might say that a red heap of size 1 is effectively a blue heap of size −1 and vice versa.
+
+Here I pause to introduce a terminological subtlety that can cause confusion. In combinatorial game theory, one often sees the terms “game” and “position” used interchangeably. The idea here is that each position can be understood as carrying along with it all the possible moves that can be made, and all the moves that can be made after that, and so on (in a manner somewhat reminiscent of the biological doctrine of [preformationism](https://en.wikipedia.org/wiki/Preformationism)). We think of a game, in this expansive, “preformationist” sense, as kind as a tree whose branches and twigs represent all the different possible ways the game can be played; making a move can then be seen as replacing the tree by a smaller tree. Under this point of view, every time you make a move, you are effectively starting a new game. One piece of information that’s *not* present in the tree, though, is Who goes next? Thus, when we analyze a position in a partizan game, we want to know both “Who has the winning strategy if Blu goes next?” and “Who has the winning strategy if Redd goes next?”
+
+Conway played with other cold partizan games, and discovered that they behave like blue or red heaps with various number of counters, where the number can be a fraction. For instance, consider a magic coin that disappears if Blu touches it but turns into a blue counter if Redd touches it. In the same way that a red heap of size 1 is like a blue heap of size −1, our magic coin turns out to be like a blue heap of size 1/2. Suppose we have a position consisting of blue heaps, red heaps, and some of those magic coins. To figure out who wins starting from that position, add up the values of all the heaps, where a blue heap of size *n* has value +*n*, a red heap of size *n* has value −*n*, and a magic coin has value 1/2. If the total is positive, Blu has a winning strategy (regardless of who goes first); if the total is negative, Redd has a winning strategy (regardless of who goes first); and if the total is zero, the second player has a winning strategy. For instance, if there are two magic coins (each of value 1/2) and one red counter (of value −1), then the second player wins; see Endnote #2 to find out why.
+
+**BAFFLING SIMPLICITY**
+
+For cold games, we compute the value of a position by adding up the values of its components using ordinary (not Nim) arithmetic. The value of a cold game is always an integer (positive, negative, or zero) or a fraction whose denominator is a power of 2. Such numbers are called *[dyadic rationals](https://en.wikipedia.org/wiki/Dyadic_rational)*.
+
+Just as the mex rule lets us figure out the Grundy value of a position in an impartial game by using the Grundy values of the positions reachable from it, there’s a rule to determine the “Winning Ways value” of a cold partizan game by using the Winning Ways values of the positions reachable from it. But it’s a weird rule, and even today I sometimes have a hard time believing that such a goofy rule could work.
+
+Like the mex rule, the “simplicity rule” is applied recursively, working from the endgame backwards. Given a position *P*, find all the moves Blu can make, and all the positions those moves can give rise to, and all the Winning Ways values of those positions; call that set of numbers *L*. Likewise, find all the moves Redd can make, and all the positions those moves can give rise to, and all the Winning Ways values of those positions; call that set of numbers *R*. Since we’re assuming the game is cold, all the numbers in *L* are smaller than all the numbers in *R*. The value of the position *P* is the “simplest” number that is greater than every number in *L* and smaller than every number in *R*, where by “simplest” we mean …
+
+This is the goofy part. When we compare two *integers*, the simpler one is the one with smaller absolute value (that is, the ones with smaller “Archimedean norm”); but when we compare two numbers *between* consecutive integers, the simpler one is the one with smallest denominator (which, since those denominators are all powers of 2, are the ones with small “2-adic norm”). I haven’t written an essay about *p*-adic numbers yet, but if I had, and if you’d read it, I think you’d agree that this is bizarre. For instance, if we use Simp(*a*, *b*) to denote the simplest number bigger than *a* and less than *b*, then we have the broken pattern
+
+Simp(1/8 | 3/8) = 1/4,
+
+Simp(1/4 | 3/4) = 1/2,
+
+Simp(1/2 | 3/2) = 1,
+
+Simp( 1  |  3 )  = 2,
+
+Simp( 2  |  6 )  = 3 (not 4),
+
+Simp( 4  | 12 )  = 5 (not 8), etc.
+
+If the outrage against sense isn’t plain to you, notice that as we go down the left parts of the equations, we keep doubling *a* and *b*, while the associated values of Simp(*a*,*b*) keep doubling too, but only for a while.
+
+If a student came to me and reported that such a chimerical way of comparing numbers had turned up in her research, (and I didn’t already know about Conway’s work) I’d probably tell her she must’ve made a mistake somewhere. I would’ve said, “Math isn’t like that.” But Conway taught us that sometimes it is.
+
+**BEYOND THE DYADIC RATIONALS**
+
+Conway realized that his theory of games could be turned on its head; instead of assuming that the dyadic rationals exist and using them to analyze games, one could treat the games as the primary object of study and have numbers arise out of the games, much as nimbers arose from the game of Nim. Number-addition could arise as an abstraction of the concept of playing two games side by side. That is, if we take it as an axiom that every position has a value, and that the value of the position consisting of *P*1 and *P*2 side by side is equal to the value of *P*1 “plus” the value of *P*2, what kind of notion of “plus” are we led to?
+
+For that matter, what kinds of things can be values of games? Conway wondered if his way of constructing the dyadic rationals could be extended to construct all the rational numbers, and maybe irrational ones too. He found a way to do this by allowing games that are a little bit infinite. By “a little bit infinite”, I mean that there might be positions in which a player has infinitely many moves to choose among, but the game is still guaranteed to end eventually. For instance, consider a single-use talisman that, if Blu picks it up, turns into any finite number of blue counters Blu likes. She’s not allowed to ask for an infinite number of blue counters (which would indeed lead to a game that never ends), and once she picks some particular finite number of blue counters she can’t change her mind later and ask for more. If she asks the ring for a million blue counters, she buys herself a million free moves; if she asks for a billion blue counters, she buys herself a billion free moves. Trillion, quadrillion, google, googleplex, whatever: she can get that many free moves. But she can’t get infinitely many free moves.
+
+In Conway’s extended theory, one game with value 1/3 is the game denoted by {1/4, 5/16, 21/64, … | 1/2, 3/8, 11/32, …}. This is a single-use magic box which, if touched by Blu, lets her select a finite game with value 1/4, or value 5/16, or value 21/64, or … (these being dyadic rationals that approach 1/3 from below), but which, if touched by Redd, lets him select a finite game with value 1/2, or value 3/8, or value 11/32, or … (these being dyadic rationals that approach 1/3 from above).
+
+But once Conway opened the door to numbers like 1/3, some stranger, unexpected guests entered through the same door, such as the game { 1, 2, 3, 4, … | }, which has infinite value (greater than every positive integer), or the game { 0 | 1/2, 1/4, 1/8, 1/16, …}, which has infinitesimal value (greater than 0 but less than every positive real number). Conway had discovered a marvelous extension of the real number system which Donald Knuth dubbed “the surreal numbers”. This number system includes all of [Cantor’s ordinals](https://en.wikipedia.org/wiki/Ordinal_number) but lets us operate on them in new ways. In Cantor’s work, *ω* (the first infinite ordinal) has the property that *ω* + 1 is bigger than *ω* but 1 + *ω* is just *ω* again; this gives us the equation 1 + *ω* = 0 + *ω*, which seems to lead to 1 = 0 if you subtract *ω* from both sides. But with Conway’s definition of addition (different from Cantor’s), this problem goes away: 1 + *ω* equals *ω* + 1 and is bigger than *ω*. In the surreal numbers, you can cancel *ω* from both sides of an equation, just as you would do in the ordinary real numbers. Likewise 2*ω* = *ω*2. In fact, the surreal numbers form a field: addition and multiplication are commutative, every surreal number has an additive inverse and every nonzero surreal number has a reciprocal, and all the ordinary laws of algebra apply.
+
+Conway communicated his discoveries to Knuth in the form of a bunch of rules for building up the surreal numbers out of nothing — similar to von Neumann’s way of building up Cantor’s ordinals starting with the empty set, but also generalizing Dedekind’s way of building up the real numbers from the rational numbers. Knuth had so much fun seeing how Conway’s world assembles itself that he wrote a novella about it, describing how a fictional couple find Conway’s rules inscribed on an ancient rock and reconstruct the basics of his theory from just those clues.
+
+Conway is best known in the larger math-adjacent community for his “Game of Life”, but in his mind, the theory of surreal numbers was his greatest achievement. There are some good treatments of surreal numbers, such as Martin Gardner’s essay “Surreal Numbers” (chapter 28 in “The Colossal Book of Mathematics”), the pieces by Lynch, Schulman, and myself listed in the References, the chapter on games in Roberts’ biography of Conway, and for the seriously curious, Conway’s book “On Numbers and Games”. But even without going into infinite games, I want to point out what a weird number system we get if we drop the condition that games be cold and look at all games, for then we find numbers and nimbers freely cohabiting. And from a sophisticated perspective this cohabitation seems deeply incongruous, because nimbers “live in [characteristic 2](https://en.wikipedia.org/wiki/Characteristic_(algebra))” (that is, they all satisfy \**n* + \**n* = \*0) while ordinary numbers “live in characteristic 0”. All my experience in pure mathematics (well, nearly all) tells me there shouldn’t be a meaningful context in which you can add them together, any more than you can get viable offspring by breeding a cat with a dog. But there they are, those nimbers and numbers, happily procreating when you turn them loose to help you analyze games.
+
+What kind of algebraic system do all these games give us? It’s a ring, [just barely](https://mathoverflow.net/questions/294496/commutative-algebra-for-the-conway-games), but I don’t know of any other algebraic system like it. The structure Conway invented/discovered, like Conway himself, is one of a kind.
+
+**FOUR TIMES FOUR**
+
+But let’s get back to Dr. Conway’s fit of the giggles, and specifically, the idea of multiplying nimbers. Remember that he started with Nim, and that there’s a natural way to add nimbers, corresponding to the operation of sticking heaps (or collections of heaps) side by side. As I mentioned, this led him to think about partizan games, for which the same notion of addition as sticking-side-by-side applies. But then (this is the part of the story I left out before) he asked himself, “Is there an operation we can do on games that multiplies their values, the way that sticking games side by side adds their values?” (Compare with [William Hamilton](https://en.wikipedia.org/wiki/William_Rowan_Hamilton), the discoverer of quaternions, sadly telling his children that he could add triples but didn’t know yet how to multiply them.)
+
+Conway found such an operation, and I won’t state it here (see Endnote 3 if you want details), since it’s a bit complicated. Once you’ve got the right sort of recursive formula for the product of two surreal numbers (what Conway called a “genetic definition”), you can apply it to nimbers equally well. Then you get this multiplication table:
+
+![](https://mathenchant.wordpress.com/wp-content/uploads/2021/12/080-mult.png?w=514)
+
+Some of you may have seen this table before; it cropped up in my essay “[When 1+1 Equals 0](https://mathenchant.wordpress.com/2020/10/17/when-11-equals-0/)” (with \*0, \*1, \*2, and \*3 written as 0, 1, *α*, and *α*+1 respectively). Conway’s kind of multiplication turns the nimbers \*0, \*1, \*2, and \*3 into a funny incarnation of the finite field of order 4. Nor is this an isolated coincidence. Conway’s multiplication turns the nimbers \*0 through \*15 into a funny incarnation of the finite field of order 16. And for any *n*, if we set *N* equal to 2 to the power of 2*n*, Conway’s multiplication turns the nimbers \*0 through \*(*N*−1) into a funny incarnation of the finite field of order *N*. (See also Peter Cameron’s blog essay, listed in the References.)
+
+Conway didn’t know the full story on that day in 1969; he was discovering it in bits and pieces. He didn’t have the correct definition of multiplication; but he’d had glimpses of it, and though he couldn’t use it reliably to determine what the product of two nimbers *was*, he could use it to determine what the product of two nimbers *wasn’t*. He could prove that \*4 times \*4 wasn’t \*0, or \*1, or \*2, or \*3, or \*4, or \*5, or \*7. Once he realized it couldn’t be \*8 or higher, he knew it had to be \*6. And the situation of where he’d started his investigations (studying games) and where he’d ended up (rediscovering finite fields), and the brazen in-your-face ludicrousness of the proposition “four times four equals six”, struck him with its full force.
+
+I imagine him lying on his back, looking up at the ceiling, considering the physical world he inhabited and comparing it with the new world he’d created, and judging his creation to be the more amusing of the two.
+
+*Thanks to Evan Romer.*
+
+**ENDNOTES**
+
+#1: What about the other direction? There’s a wonderful fact (implicit in the body of my essay) that in every finite game that cannot end in a draw there must be a winning strategy for one player or the other. (Joel David Hamkins gave [a nice talk about it](https://kpknudson.com/my-favorite-theorem/2021/9/22/episode-70-joel-david-hamkins) in the My Favorite Theorem podcast.) Once we know this, we know that one of the players has a winning strategy starting from *P*, and one of the players has a winning strategy starting from *P*′; so once we’ve shown that the player with the winning strategy from *P* is also the player with the winning strategy from *P*′, there’s not much left to prove — the “vice versa” follows automatically. (Actually, there is a subtle issue here: there’s question of whether a player who doesn’t really know how to win from *P*′ but has an oracle that tells him how to win from *P*′ can use that oracle to win from *P*. If any of you see how to prove this, please let me know!) [NOTE: This was answered in the Comments. Thanks, Jamie, whoever you are!]
+
+#2: We want to see why two magic coins plus one red counter is a win for whichever player goes second.
+
+First suppose Blu plays first. She has no choice but to touch one of the coins, causing it to vanish. If Redd touches the other coin, turning it into a blue counter, then Blu must take that counter, and Redd takes the last counter (the one present at the start), winning the game.
+
+On the other hand, suppose Redd plays first. There are two cases to consider, depending on how Redd plays. If Redd’s move is to take the red counter, then Blu must touch a coin, causing it to vanish, and Redd must touch the other other, causing a blue counter to appear; now Blu takes that coin and wins the game. On the other hand, if Redd touches a coin (creating a blue counter), then the position consists of a coin, a blue counter, and a red counter, I claim that Blu can win by touching the coin. For then the board will just have a blue counter and a red counters, and after two more moves Blu will win.
+
+One nice feature of the Berlekamp-Conway-Guy theory is that such detailed strategic analyses get replaced by numerical calculations!
+
+#3. Suppose we have dyadic rationals *a* and *b* that we want to multiply. Under Conway’s scheme for building up the number system, *a* is the “offspring” of two earlier-constructed dyadic rationals *a*− and *a*+, with ***a*−** < *a* < **a*+*, such that *a* is the simplest number greater than ****a*−*** and less than ***a*+**. Likewise we can find *b*− and **b*+* such that *b* is the simplest number greater than *b*− and less than **b*+*. Since *a* − *a*−, *a*+ − *a*, *b* − *b*−, and **b*+* − *b* are all positive, the four products (*a* − *a*−) (*b* − *b*−), (*a* − *a*−) (**b*+* − *b*), (*a*+ − *a*) (*b* − *b*−), and (*a*+ − *a*) (**b*+* − *b*) are all positive; by applying the distributive law, we deduce that *ab* − *ab*− − *a*−*b* + *a*−*b*−, *a*b*+* − *ab* − *a*−**b*+* + *a*−*b*, *a*+*b* − *a*+*b*− − *ab* + *ab*−, and *a*+**b*+* − *a*+*b* − *a*b*+* + *ab* must all be positive; by shifting terms around, we deduce that *ab* must be greater than *ab*− + *a*−*b* − *a*−*b*−, less than *a*b*+* + *a*−*b* − *a*−**b*+*, less than *a*+*b* + *ab*− − *a*+*b*−, and greater than *a*+*b* + *a*b*+* − *a*+**b*+*. In fact, Conway found that *ab* is always the *simplest* number greater than *ab*− + *a*−*b* − *a*−*b*− and *a*+*b* + *a*b*+* − *a*+**b*+* and less than *a*b*+* + *a*−*b* − *a*−**b*+* and *a*+*b* + *ab*− − *a*+*b*−.
+
+Carrying this over to the world of impartial games (where every option for Blu is an option for Redd, where subtraction is the same as addition, where we need to look at all of a player’s options and not just one that’s numerically best in all contexts, and where we use the mex criterion instead of the simplicity criterion) we find that Conway’s characterization of *ab* (which can also be viewed as a definition of multiplication) turns into the definition that \**a* ⋅ \**b* is the mex of all the values \**a*′⋅\**b* + \**a*⋅\**b*′ + \**a*′⋅\**b*′, where \**a*′ ranges over the nimbers \*0 through \*(*a*−1) and where \**b*′ ranges over the nimbers \*0 through \*(*b*−1). Using this recipe you can successively calculate \*0⋅\*0 = \*0, \*0⋅\*1 = \*0, \*0⋅\*2 = \*0, \*1⋅\*1 = \*1, \*1⋅\*2 = \*2, \*2⋅\*1 = \*1, and lastly \*2⋅\*2 = \*3. Here’s that last one in slow motion: \*2⋅\*2 = mex(\*0⋅\*2 + \*2⋅\*0 + \*0⋅\*0, \*0⋅\*2 + \*2⋅\*1 + \*0⋅\*1, \*1⋅\*2 + \*2⋅\*0 + \*1⋅\*0, \*1⋅\*2 + \*2⋅\*1 + \*1⋅\*1) = mex(\*0+\*0+\*0, \*0+\*2+\*0, \*2+\*0+\*0, \*2+\*2+\*1) = mex(\*0, \*2, \*2, \*1) = \*3.
+
+**REFERENCES**
+
+Elwyn Berlekamp, John Conway, and Richard Guy, [Winning Ways for your Mathematical Plays](https://en.wikipedia.org/wiki/Winning_Ways_for_Your_Mathematical_Plays).
+
+Charles Bouton, [Nim, A Game with a Complete Mathematical Theory](https://paradise.caltech.edu/ist4/lectures/Bouton1901.pdf), Annals of Mathematics, 2nd Series, Volume 3, No. 1/4 (1901-1902), pp. 35-39.
+
+Peter Cameron, [Conway’s Nim Field](https://cameroncounts.wordpress.com/2011/10/29/conways-nim-field/).
+
+Andrew Gleason, [NIM and Other Oriented Graph Games](https://archive.org/details/nimandotherorientedgraphgames) (video).
+
+Donald Knuth, [Surreal Numbers](https://www-cs-faculty.stanford.edu/~knuth/sn.html).
+
+Peter Lynch, [The Root of Infinity: It’s Surreal!](https://thatsmaths.com/2012/11/22/the-root-of-infinity-its-surreal/).
+
+Jim Propp, [The Life of Games](https://mathenchant.wordpress.com/2015/08/12/the-life-of-games/) (this blog).
+
+Siobhan Roberts, [Genius at Play: The Curious Mind of John Conway](https://siobhanroberts.com/genius-at-play/).
+
+Polly Schulman, [Infinity Plus One, and Other Surreal Numbers](https://www.discovermagazine.com/the-sciences/infinity-plus-one-and-other-surreal-numbers), Discover Magazine.
+
+### Share this:
+
+### *Related*
+
+### Post navigation
+
+## 2 thoughts on “Numbers from Games”
+
+![Jamie's avatar](https://0.gravatar.com/avatar/cd7ca85ea6472c984ac09fe373e9270333b5cb8dfcde07403522862a786850bc?s=44&d=identicon&r=G)
+
+For your subtle issue in Endnote #1, how’s this: if you have an oracle for P’, you play a P game pretending that there are two extra 1-heaps. If the oracle says to take a 1-heap, imagine that you did and then tell your oracle that your opponent took the other 1-heap, and then continue following the oracle.
+
+[Like](https://mathenchant.wordpress.com/2021/12/17/numbers-from-games/?like_comment=20533&_wpnonce=37f074fbb9)Liked by [1 person](#)
+
+![jamespropp's avatar](https://1.gravatar.com/avatar/143882d8047a25e18abf130faa7713ca170e3bbc3e5a47cf8599eded209af2e5?s=44&d=identicon&r=G)
+
+That seems right. Thanks!
+
+[Like](https://mathenchant.wordpress.com/2021/12/17/numbers-from-games/?like_comment=20534&_wpnonce=cd6d1e59d2)Like
+
+### Leave a comment [Cancel reply](/2021/12/17/numbers-from-games/#respond)
+
+Δ
+
+### RECENT POSTS
+
+### RECENT COMMENTS
+
+|  |  |
+| --- | --- |
+| [Jeremy's avatar](https://jeremycote.net) | [Jeremy](https://jeremycote.net) on [Seventeen Camels and Where The…](https://mathenchant.wordpress.com/2026/06/15/seventeen-camels-and-where-they-can-take-you/comment-page-1/#comment-24191) |
+| [drossrandolph345's avatar](http://fermatstheory.wordpress.com) | [drossrandolph345](http://fermatstheory.wordpress.com) on [In Praise of Stupid Quest…](https://mathenchant.wordpress.com/2026/03/12/in-praise-of-stupid-questions/comment-page-1/#comment-24190) |
+| [drossrandolph345's avatar](http://fermatstheory.wordpress.com) | [drossrandolph345](http://fermatstheory.wordpress.com) on [Sorry, Mary](https://mathenchant.wordpress.com/2026/04/18/sorry-mary/comment-page-1/#comment-24187) |
+| [Professor Shoaib Ghuman's avatar](https://ti84.net/) | [Professor Shoaib Ghu…](https://ti84.net/) on [Nine Years of Blogging About…](https://mathenchant.wordpress.com/2024/03/17/nine-years-of-blogging-about-math/comment-page-1/#comment-24186) |
+| [Unknown's avatar](https://www.bayesianspectacles.org/a-transcendental-dance/) | [A Transcendental Dan…](https://www.bayesianspectacles.org/a-transcendental-dance/) on [In Praise of Stupid Quest…](https://mathenchant.wordpress.com/2026/03/12/in-praise-of-stupid-questions/comment-page-1/#comment-24185) |
+
+![Jeremy's avatar](https://1.gravatar.com/avatar/d765e25fd1328d939f784f4ffdeceb851793d7b80191bf6bcc0d3adedd97b40a?s=48&d=identicon&r=G)
+![drossrandolph345's avatar](https://1.gravatar.com/avatar/7d6fda53a56f08621d46144630b5076f05853cdd31c36bac6c4325e310590e11?s=48&d=identicon&r=G)
+![drossrandolph345's avatar](https://1.gravatar.com/avatar/7d6fda53a56f08621d46144630b5076f05853cdd31c36bac6c4325e310590e11?s=48&d=identicon&r=G)
+![Professor Shoaib Ghuman's avatar](https://2.gravatar.com/avatar/50bb5f9dd7bf7edf11a9df69438afbc2e98fff087a353663cb16307a860004f2?s=48&d=identicon&r=G)
+![Unknown's avatar](https://www.bayesianspectacles.org/wp-content/uploads/2017/01/cropped-01_Bayesian-Spectacles-logodesign_DEF.png?w=48)
+![](https://s2.wp.com/i/logo/wpcom-gray-white.png?m=1479929237i)
+![](https://s2.wp.com/i/logo/wpcom-gray-white.png?m=1479929237i)
+![](https://pixel.wp.com/b.gif?v=noscript)

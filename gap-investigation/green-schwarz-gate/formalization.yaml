@@ -1,0 +1,22 @@
+schema_version: '1.0'
+subject: I/P E7 non-SUSY bulk-Dirac boundary-axion conditional anomaly repair
+review_status: AI-assisted self-assessed; not independently reviewed
+formal_environment: Lean 4.32.1 minimal prelude; no Init or Mathlib
+formal_theorems:
+  - BoundaryGS.factorized_cancellation
+  - BoundaryGS.uncancelled_other_wall
+project_axioms: []
+external_mathematical_inputs:
+  - Weyl anomaly polynomial from Ahat times Chern character
+  - E7/E6 representations and invariant degrees
+  - Characteristic class interpretation and signature/Rokhlin theorems
+  - Localized orbifold anomaly formula and Bardeen descent interpretation
+exact_automation: Python fractions; predecessor saved-certificate replay; 13 tests
+physical_scope: local perturbative anomaly variation only; positive Stückelberg term
+not_proved:
+  - Global large gauge or diffeomorphism anomaly cancellation
+  - All quotient bundle sectors or differential WZ definition
+  - Supersymmetric completion or UV regulator/completion
+  - Family number, vacuum, exotic masses or alpha prediction
+ci: local subprocess checks only; hosted CI not run
+automation_disclosure: AI derived and wrote artifacts; real Python and Lean execution retained

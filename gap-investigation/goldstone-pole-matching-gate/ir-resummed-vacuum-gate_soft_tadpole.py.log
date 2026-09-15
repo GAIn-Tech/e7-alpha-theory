@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "claim_boundary": "Calculated leading physical-soft Gaussian epsilon^3 log(epsilon) tadpole and linear compensating epsilon^2 log(epsilon) singlet displacement only. Missing hard two-loop tadpoles and soft Ward reclosure prevent a full stationary-solution claim.",
+  "mass_input": "High-precision predecessor m8,m3; eigenvectors independently computed full 11x11 block.",
+  "results": [
+    {
+      "epsilon": 1e-07,
+      "leading_physical_soft_tadpole_norm": 4.079961959626366e-19,
+      "log_soft_singlet_shift_coordinates": [
+        -3.6993909399189286e-33,
+        6.672243330480655e-44,
+        7.400389020401614e-46,
+        -4.027357627964252e-45,
+        -1.8818709807381657e-45,
+        2.0194839173657902e-28,
+        -3.657783500650342e-16,
+        2.0194839173657902e-28,
+        -3.834681542632199e-44,
+        -9.557338225189832e-46
+      ],
+      "canonical_soft_shift_norm": 9.444356388041324e-16,
+      "linear_tadpole_cancellation_relative_error": 1.8353792005530443e-12
+    },
+    {
+      "epsilon": 5e-08,
+      "leading_physical_soft_tadpole_norm": 5.309157717739087e-20,
+      "log_soft_singlet_shift_coordinates": [
+        -1.613068911639144e-33,
+        1.7369594402494918e-44,
+        1.9257492113636754e-46,
+        -1.0484135540037641e-45,
+        -4.8989422945091476e-46,
+        0.0,
+        -9.519573807046321e-17,
+        4.417621069237666e-29,
+        -9.984170505826953e-45,
+        -2.488061530976845e-46
+      ],
+      "canonical_soft_shift_norm": 2.4579433878464283e-16,
+      "linear_tadpole_cancellation_relative_error": 1.7329697295333824e-12
+    },
+    {
+      "epsilon": 2.5e-08,
+      "leading_physical_soft_tadpole_norm": 6.897953732431522e-21,
+      "log_soft_singlet_shift_coordinates": [
+        2.9603754479581657e-34,
+        4.514645119697051e-45,
+        5.003502919067368e-47,
+        -2.724969251923364e-46,
+        -1.2733017842932212e-46,
+        -1.262177448353619e-29,
+        -2.473672215616697e-17,
+        1.1044052673094165e-29,
+        -2.594305373517583e-45,
+        -6.46697126414058e-47
+      ],
+      "canonical_soft_shift_norm": 6.386994196706638e-17,
+      "linear_tadpole_cancellation_relative_error": 1.6890295344712183e-12
+    }
+  ],
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\soft_tadpole.py": "cce0b48621f239214785659fc10d96c4b507ca5d0ff5f1b9cda52f8db175bc38",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\projected-tensors.json": "9a98ad7193caa6b7397aeac2473bed727361099eab266af324503234c734f1db",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee"
+  }
+}

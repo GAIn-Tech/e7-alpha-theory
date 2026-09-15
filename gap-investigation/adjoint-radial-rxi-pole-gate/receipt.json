@@ -1,0 +1,248 @@
+{
+  "input_hashes": {
+    "adjoint-radial-gauge-pole-gate\\calculation.py": "2cb39ec03da3d09b125ce8a3f418d71a53c45d799cba31e95f2a5b79cd5ed7c2",
+    "adjoint-radial-gauge-pole-gate\\receipt.json": "015dbc77f009978e3fbe99da49d95544ac834c90bb2b249eda52e99e9c692e45",
+    "adjoint-radial-gauge-pole-gate\\REPORT.md": "f1e7eee1427c10096bd9bb2142ca9011697c483b8a96cd58bf9eceeae361f4df",
+    "adjoint-radial-gauge-pole-gate\\run_checks.py": "8175b17260c82baea59b431fcfd095cf3d0cea48e10e8f7530c034fadc9d18d9",
+    "adjoint-radial-gauge-pole-gate\\verification.json": "43f5601208bfb6bcebfdc80a4d04e08aac51a750d2b4a068be8600415902bd65",
+    "adjoint-radial-mixed-pole-gate\\calculation.py": "e61099a0ef5366d657027d1c6c309d31669f89d441828cb637fb20d39b383e5e",
+    "adjoint-radial-mixed-pole-gate\\finite-momentum-receipt.json": "2d266edf6a9caa7d0905ed4788d72114fd93c4430b24b83f4eaff4bbe7a4def4",
+    "adjoint-radial-mixed-pole-gate\\finite_momentum.py": "7b36f93d2a4dd1f9e26e0c621a3be102e8326bf82cc5639587a954630e6608a9",
+    "adjoint-radial-mixed-pole-gate\\integral_probe.py": "8d89e37009aff9a3d29d56d9f7b50f647f68d799e4a58785eb85e9d0b95ca269",
+    "adjoint-radial-mixed-pole-gate\\recovery-audit.json": "77cd230e35af63b570abc753802f4a91e1213123bec6ae803789c4825cd43418",
+    "adjoint-radial-mixed-pole-gate\\recovery-tensors.npz": "3fed363fa1a63789c68129999eafbe50d6ee00e50d8fb146cdc80a2c462dac80",
+    "adjoint-radial-mixed-pole-gate\\recovery_audit.py": "a68f1b877ada00088d8f7d52afc47efae43f9ee2a9eef6d750cd031c56154b91",
+    "adjoint-radial-mixed-pole-gate\\RELEASE_DISCLOSURE.md": "8c00fd4548988e7a44d9d5ae0e2ed99510946012b4a9a05960265356470514de",
+    "adjoint-radial-mixed-pole-gate\\REPORT.md": "8edbe72354c525268cb5911acfa1f99915723c023ca08a5d99be5a09ab2ec540",
+    "adjoint-radial-mixed-pole-gate\\run_checks.py": "ca3fd046743ba05b8a80fb489cd0de298e51192ffda140c15fafc3557fc06c6d",
+    "adjoint-radial-mixed-pole-gate\\verification.json": "45ef448be90c2c7cf31764889bfe4bacc413aec2e8bdca5b74b35bf44656ad2f",
+    "adjoint-radial-pole-convergence-gate\\manifest.json": "437ae7e18919758901c329c8d8adc04a0a36441ae6be56cca54e1898547a700c",
+    "adjoint-radial-pole-convergence-gate\\receipt.json": "b13043f7e49a973d2d4821688226b976c00e3fdb82ec7cc12a847a76a79bac7e",
+    "adjoint-radial-pole-convergence-gate\\RELEASE_DISCLOSURE.md": "52a7ed99719dc6e4b267b47933b01c1513fd7a9d22ee71c6ae97d53f79024a46",
+    "adjoint-radial-pole-convergence-gate\\REPORT.md": "04c0906175f705550766aa3ad6e909f397ba2ccd31a294b8ffb780b99f6590e2",
+    "adjoint-radial-pole-convergence-gate\\run_checks.py": "b495edc13a0916aab77888c234d9399d86c73aefd5173affb12ecfc2b26b0c43",
+    "adjoint-radial-pole-convergence-gate\\verify.py": "60510b3b00dbd70bc2aa3217cf90b6f2c9f10b7c5fe8527c1f9078a6ed9cc006",
+    "adjoint-radial-pole-gate\\calculation.py": "5d4a82d90a505595c2c6cefe0771e36faa49135d08d2b9623538fcf9e4a00307",
+    "adjoint-radial-pole-gate\\receipt.json": "1c14b00705ecbb8973257680a00df941d035c01aa2e064976264ae904f9345be",
+    "adjoint-radial-pole-gate\\REPORT.md": "5a2805cd891b671a6a030e6820a79bb0d6f24da14c429841bd2bc6085c0c60a6",
+    "adjoint-radial-pole-gate\\run_checks.py": "80164249d10de0292e4c1c5bf70bef3b987dbffa22e56cee3ae95d345d9832bf",
+    "adjoint-radial-vector-bubble-gate\\calculation.py": "c84960050bfc511051dc3abb090055521fef587d3dcabad4ba33a32861bb2d78",
+    "adjoint-radial-vector-bubble-gate\\receipt.json": "5dbc73ba2439e9300768350f6c628461335d2b046822525395d52561bfdd18a7",
+    "adjoint-radial-vector-bubble-gate\\REPORT.md": "1af60a59569072213a5bfa97e97b264d7bab13a9a35765ee664d03b501d98199",
+    "adjoint-radial-vector-bubble-gate\\run_checks.py": "c959f0a76b76c101f20e921d5d39823a5278e9d45bdc8a64d9b74b000797a401",
+    "adjoint-radial-vector-bubble-gate\\verification.json": "36b6be968fa5cdc3ee1b922b94f744fd8beb9e3b04df40d57cee580ac699f694",
+    "shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb"
+  },
+  "isolated_physical_tree_gap": 4283.5,
+  "claim_boundary": "Action-derived Rxi diagram evaluation; cancellation status computed, not assumed; floating tensors and rounded mass shells, not a formal proof or full pole.",
+  "ward_differentiated_residual": 8.173443394438533e-12,
+  "master_adaptive_max_error": 1.2446030555722283e-60,
+  "rows": [
+    {
+      "xi": 0.1,
+      "channels": {
+        "scalar_bubble": {
+          "real": -285.15648516955486,
+          "imag": 103.18615534250014
+        },
+        "scalar_seagull": {
+          "real": -5.123766833058979,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": 275.800316000275,
+          "imag": -103.14334145379195
+        },
+        "vector_bubble": {
+          "real": -0.7768350243515663,
+          "imag": -0.09646245225126103
+        },
+        "vector_seagull": {
+          "real": -0.0014013473137719314,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -0.10875528662207705,
+          "imag": 0.05364856332250343
+        },
+        "stationary_shift": {
+          "real": 15.366927660901426,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 2.752073135026332e-10,
+        "imag": -2.2055306894520658e-10
+      },
+      "Pi_difference_without_shift": {
+        "real": -15.366927660626219,
+        "imag": -2.2055306894520658e-10
+      },
+      "unphysical_pole_gap": 4316.35,
+      "omit_ghost": {
+        "real": 0.10875528689728436,
+        "imag": -0.0536485635430565
+      },
+      "omit_shift": {
+        "real": -15.366927660626219,
+        "imag": -2.2055306894520658e-10
+      },
+      "stationary_equation_residual": 1.9488967980023017e-11
+    },
+    {
+      "xi": 1.0,
+      "channels": {
+        "scalar_bubble": {
+          "real": -2102.5567084948107,
+          "imag": 1036.763196773094
+        },
+        "scalar_seagull": {
+          "real": 326.7677050677206,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": 2746.6460781489577,
+          "imag": -1031.558304866867
+        },
+        "vector_bubble": {
+          "real": 16.224809221911883,
+          "imag": -10.50973626188512
+        },
+        "vector_seagull": {
+          "real": 3.8551388495143315,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -10.765154692024414,
+          "imag": 5.304844355307919
+        },
+        "stationary_shift": {
+          "real": -980.1718681006223,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 6.469859087185092e-10,
+        "imag": -3.502063121638945e-10
+      },
+      "Pi_difference_without_shift": {
+        "real": 980.1718681012693,
+        "imag": -3.502063121638945e-10
+      },
+      "unphysical_pole_gap": 4283.5,
+      "omit_ghost": {
+        "real": 10.7651546926714,
+        "imag": -5.304844355658125
+      },
+      "omit_shift": {
+        "real": 980.1718681012693,
+        "imag": -3.502063121638945e-10
+      },
+      "stationary_equation_residual": 1.0349038460059265e-11
+    },
+    {
+      "xi": 3.0,
+      "channels": {
+        "scalar_bubble": {
+          "real": -5258.025003237791,
+          "imag": 3144.2034570745145
+        },
+        "scalar_seagull": {
+          "real": 1521.3663093423781,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": 8135.640627106527,
+          "imag": -3096.151548959153
+        },
+        "vector_bubble": {
+          "real": 207.80555495996617,
+          "imag": -94.57070853099815
+        },
+        "vector_seagull": {
+          "real": 51.852319140398535,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -95.18507416079449,
+          "imag": 46.518800415389464
+        },
+        "stationary_shift": {
+          "real": -4563.454733150249,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 4.3632381692849274e-10,
+        "imag": -2.4739362213297683e-10
+      },
+      "Pi_difference_without_shift": {
+        "real": 4563.454733150686,
+        "imag": -2.4739362213297683e-10
+      },
+      "unphysical_pole_gap": 4210.5,
+      "omit_ghost": {
+        "real": 95.1850741612308,
+        "imag": -46.51880041563686
+      },
+      "omit_shift": {
+        "real": 4563.454733150686,
+        "imag": -2.4739362213297683e-10
+      },
+      "stationary_equation_residual": 2.288217558089051e-11
+    },
+    {
+      "xi": 100.0,
+      "channels": {
+        "scalar_bubble": {
+          "real": 10089.021479354491,
+          "imag": 100439.7214326022
+        },
+        "scalar_seagull": {
+          "real": 108277.84518635893,
+          "imag": 0.0
+        },
+        "mixed": {
+          "real": -22897.459421613763,
+          "imag": -37718.29830874009
+        },
+        "vector_bubble": {
+          "real": 238050.0768974764,
+          "imag": -63320.92062458682
+        },
+        "vector_seagull": {
+          "real": 118456.86011297381,
+          "imag": 0.0
+        },
+        "ghost": {
+          "real": -127190.92850278501,
+          "imag": 599.4975007244008
+        },
+        "stationary_shift": {
+          "real": -324785.41575176385,
+          "imag": 0.0
+        }
+      },
+      "sum": {
+        "real": 9.993657779138255e-10,
+        "imag": -3.157267588419265e-10
+      },
+      "Pi_difference_without_shift": {
+        "real": 324785.41575176484,
+        "imag": -3.157267588419265e-10
+      },
+      "unphysical_pole_gap": 669.9999999999936,
+      "omit_ghost": {
+        "real": 127190.92850278602,
+        "imag": -599.4975007247165
+      },
+      "omit_shift": {
+        "real": 324785.41575176484,
+        "imag": -3.157267588419265e-10
+      },
+      "stationary_equation_residual": 1.4477437480821474e-10
+    }
+  ],
+  "cancellation_passed": true,
+  "source_sha256": "2ac589f2004f0a5a872f26b864b671d637faded3f76b76c498a302dc16bd443a"
+}

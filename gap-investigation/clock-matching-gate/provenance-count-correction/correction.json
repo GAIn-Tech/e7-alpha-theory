@@ -1,0 +1,9 @@
+{
+  "reason": "Narrative and metadata count corrected from 23 to actual 22; mathematical definitions and all SMT results unchanged. Original receipt replay passed before correction and bytes preserved here.",
+  "old_receipt_sha256": "bdb4c922fc4b1133c35fac59fcee0fce24a6d46f6ce31693ed71ecdc3071111d",
+  "new_receipt_sha256": "51c19a0cf5e9efeac37621601fe0f558e6d04d5f258ac82ccff15f18d0bf4cbe",
+  "changed_files": [
+    "REPORT.md",
+    "formalization.yaml"
+  ]
+}

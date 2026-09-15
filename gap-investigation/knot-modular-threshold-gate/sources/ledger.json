@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/witten.pdf",
+      "title": "Witten: Quantum Field Theory and the Jones Polynomial",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://math.berkeley.edu/~vfr/jones.pdf",
+      "title": "Jones: The Jones Polynomial",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/2011.09487",
+      "title": "Mukhi and Poddar: Universal Correlators and Novel Cosets",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://arxiv.org/pdf/2305.08263",
+      "title": "Kim: On one-loop corrected dilaton action",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://arxiv.org/pdf/1611.09442",
+      "title": "Angelantonj Israel Sarkis: Threshold corrections in heterotic flux compactifications",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://homepages.math.uic.edu/~kauffman/IRH.pdf",
+      "title": "Kauffman: An invariant of regular isotopy",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

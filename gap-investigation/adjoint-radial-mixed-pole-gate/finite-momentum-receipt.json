@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "claim_boundary": "Verified complete strict-Landau 188-scalar/79-vector derivative bubble subset. No general-xi cancellation, no gauge-independent/full pole, no width prediction. Combination uses unreplayed predecessor numerical sectors with their disclosed error.",
+  "kinematics": {
+    "s": 4320.0,
+    "Q2": 1,
+    "units": "epsilon^2 M^2",
+    "scheme": "MSbar",
+    "inverse_propagator": "s-m_tree^2-Pi(s)"
+  },
+  "result": {
+    "SV_real": -6901.5107104635135,
+    "SV_imag": 3077.6501949169956,
+    "Goldstone_SV_real": -6669.262831608422,
+    "Goldstone_SV_imag": 2973.938509154862,
+    "physical_SV_real": -232.24787885509159,
+    "physical_SV_imag": 103.71168576213358
+  },
+  "enumeration": {
+    "scalars": 188,
+    "vectors": 79,
+    "Goldstones": 67,
+    "soft_scalars": 78,
+    "massive_vectors": 67,
+    "mass_shell_pairs": [
+      {
+        "scalar_m2": 0.0,
+        "vector_m2": 1.5,
+        "weight": 0.2666666666665488,
+        "kernel_real": -91170.20857730242,
+        "kernel_imag": 40700.90525983065
+      },
+      {
+        "scalar_m2": 0.0,
+        "vector_m2": 5.0,
+        "weight": 0.3199999999999746,
+        "kernel_real": -91099.42457467823,
+        "kernel_imag": 40667.935081233176
+      },
+      {
+        "scalar_m2": 0.0,
+        "vector_m2": 10.0,
+        "weight": 0.5399999999999888,
+        "kernel_real": -91011.4285588834,
+        "kernel_imag": 40620.86573296763
+      },
+      {
+        "scalar_m2": 0.0,
+        "vector_m2": 16.5,
+        "weight": 3.1030303030302875,
+        "kernel_real": -90908.41609492339,
+        "kernel_imag": 40559.729939958954
+      },
+      {
+        "scalar_m2": 0.0,
+        "vector_m2": 25.0,
+        "weight": 4.999999999999998,
+        "kernel_real": -90785.39873414286,
+        "kernel_imag": 40479.875854330785
+      },
+      {
+        "scalar_m2": 0.0,
+        "vector_m2": 36.5,
+        "weight": 2.3671232876712334,
+        "kernel_real": -90632.86534975196,
+        "kernel_imag": 40372.005234495504
+      },
+      {
+        "scalar_m2": 1.5,
+        "vector_m2": 1.5,
+        "weight": 0.13333333333345174,
+        "kernel_real": -91161.18211454054,
+        "kernel_imag": 40700.89543893565
+      },
+      {
+        "scalar_m2": 5.0,
+        "vector_m2": 5.0,
+        "weight": 0.0800000000000263,
+        "kernel_real": -91069.1721912329,
+        "kernel_imag": 40667.8258716073
+      },
+      {
+        "scalar_m2": 10.0,
+        "vector_m2": 10.0,
+        "weight": 0.060000000000011086,
+        "kernel_real": -90950.51453298007,
+        "kernel_imag": 40620.42838592569
+      },
+      {
+        "scalar_m2": 16.5,
+        "vector_m2": 16.5,
+        "weight": 0.0969696969697096,
+        "kernel_real": -90807.1146333548,
+        "kernel_imag": 40558.537453090205
+      },
+      {
+        "scalar_m2": 36.5,
+        "vector_m2": 36.5,
+        "weight": 0.032876712328768945,
+        "kernel_real": -90404.0418957687,
+        "kernel_imag": 40366.14223579879
+      }
+    ],
+    "coupling_squared_total": 12.000000000000004
+  },
+  "checks": {
+    "independent_256": {
+      "real": -6901.510746169354,
+      "imag": 3077.6501949169733
+    },
+    "independent_512": {
+      "real": -6901.510712737371,
+      "imag": 3077.650194916974
+    },
+    "independent_512_error": 2.2738577173281048e-06,
+    "p0_abs": 5.7130833324949775e-18,
+    "near_zero": [
+      {
+        "s": 0.01,
+        "mixed": -0.004990188743185503
+      },
+      {
+        "s": 0.001,
+        "mixed": -0.0004993853599583603
+      },
+      {
+        "s": 0.0001,
+        "mixed": -4.9943183543209005e-05
+      }
+    ],
+    "rotation_error": 2.8760747774580336e-12,
+    "UV_identity_max_error": 0.0,
+    "cut_imag": 3077.650194916984,
+    "Ward_HK_max": 6.143086039855922e-12
+  },
+  "negative_controls": {
+    "drop_Goldstones_change_abs": 7302.285736213547,
+    "wrong_overall_sign_change_abs": 15113.276389838864,
+    "drop_projector_p0_nonzero": -3.8367201112451252,
+    "drop_evanescent_term_real_change": 656.561270002349,
+    "omit_vector_stationary_shift_change": 45.10700126487947
+  },
+  "tadpole_consistency": {
+    "mixed_derivative_tadpole": "zero for constant background; the numerator vanishes at external p=0",
+    "recomputed_vector_stationary_shift": -45.10700126487947
+  },
+  "UV_residue": 984.8419050035236,
+  "external_mixing": {
+    "tree_hA": 0.0,
+    "tree_hG": 0.0,
+    "nearest_other_scalar_gap": 4283.5,
+    "order": "Schur complement: with zero tree offdiagonal blocks and invertible complementary block at s=4320, one-loop mixing enters radial eigenvalue quadratically at two-loop order. One-loop mixing amplitudes themselves not computed."
+  },
+  "conditional_sector_sum_NOT_a_pole": {
+    "real": 505145.4645135748,
+    "imag": -235147.46524822008,
+    "vector_stationary_shift_included": true,
+    "predecessor_scalar_256_vs_512_error": 1.0908189794281498
+  },
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\finite_momentum.py": "7b36f93d2a4dd1f9e26e0c621a3be102e8326bf82cc5639587a954630e6608a9",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\recovery_audit.py": "a68f1b877ada00088d8f7d52afc47efae43f9ee2a9eef6d750cd031c56154b91",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\calculation.py": "e61099a0ef5366d657027d1c6c309d31669f89d441828cb637fb20d39b383e5e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-gauge-pole-gate\\receipt.json": "015dbc77f009978e3fbe99da49d95544ac834c90bb2b249eda52e99e9c692e45",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-vector-bubble-gate\\receipt.json": "5dbc73ba2439e9300768350f6c628461335d2b046822525395d52561bfdd18a7",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-gate\\receipt.json": "1c14b00705ecbb8973257680a00df941d035c01aa2e064976264ae904f9345be",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\primary-source-excerpts.txt": "a6b47e2d2378234d31a2951869590f30a417f6a7c8fa924594f75b1f6b0cbe6c",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb"
+  }
+}

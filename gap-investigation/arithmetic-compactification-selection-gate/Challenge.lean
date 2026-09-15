@@ -1,0 +1,5 @@
+prelude
+import Formalization
+#check ArithmeticSelection.prime_observable_nonidentifiable
+#check ArithmeticSelection.prime_not_necessary
+#check ArithmeticSelection.unused_label_countermodel

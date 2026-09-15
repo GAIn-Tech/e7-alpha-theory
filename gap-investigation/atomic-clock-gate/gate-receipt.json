@@ -1,0 +1,126 @@
+{
+  "claim_boundary": "Exact SMT identifiability checks of an explicitly assumed first-order clock response model. Not Lean-kernel proofs, not a QED or E7 derivation; rounded empirical sensitivity coefficients treated as exact within this toy response model.",
+  "z3_version": "5.1.0",
+  "cases": [
+    {
+      "name": "single_microwave_alpha_nonidentifiable",
+      "expected": "sat",
+      "result": "sat",
+      "sha256": "8db7f1f379d6edf566e4fdc8205ad85fdf3139ae08b638870f2526defde45ebc",
+      "model": "[g = 6, m = 0, a = -1]"
+    },
+    {
+      "name": "same_microwave_two_alphas",
+      "expected": "sat",
+      "result": "sat",
+      "sha256": "2180a512f20f9424f12f5e675e2827721043bb8b6b61ccd50f3cb8fec77bfc19",
+      "model": "[a = 0, g = 0, m = 0, mm = 0, gg = -3, aa = 1/2]"
+    },
+    {
+      "name": "optical_alpha_identifiable",
+      "expected": "unsat",
+      "result": "unsat",
+      "sha256": "05569757c51b6376a0e8dca82f07ef473adc8598b0d1e67255f369e2455ad622",
+      "model": null
+    },
+    {
+      "name": "zero_sensitivity_not_identifiable",
+      "expected": "sat",
+      "result": "sat",
+      "sha256": "3723033896b7484ac91aa9dbda400f9762e66f8bf53d7c29866dfca440dc351f",
+      "model": "[a = 1, aa = 0, k = 0]"
+    },
+    {
+      "name": "two_ratios_alpha_identifiable",
+      "expected": "unsat",
+      "result": "unsat",
+      "sha256": "9182c2343b5f1c0911bb47b6fd31162464aca5474daefd6464673d8f930ccd7e",
+      "model": null
+    },
+    {
+      "name": "two_ratios_mass_nuclear_degenerate",
+      "expected": "sat",
+      "result": "sat",
+      "sha256": "45736407e741e75c2ddb8a9918556229c8fdce831c2d7f4f9c7968c9cbeb733a",
+      "model": "[a = 0, g = 0, m = 1/2, mm = 0, gg = 1/2, aa = 0]"
+    },
+    {
+      "name": "nuclear_prior_restores_mass_identifiability",
+      "expected": "unsat",
+      "result": "unsat",
+      "sha256": "20cd6fb51b5776113833768250daa0e6e5a65ba2aee717492cf8579cbb5ed4f0",
+      "model": null
+    },
+    {
+      "name": "common_scale_cancels",
+      "expected": "unsat",
+      "result": "unsat",
+      "sha256": "5397b14d240efae41648977a7a13fe17fa4c9e8dd277b7df00d2d637bd56ccb7",
+      "model": null
+    },
+    {
+      "name": "unknown_absolute_intercept_hides_alpha",
+      "expected": "sat",
+      "result": "sat",
+      "sha256": "f52d76bcda9ed9d9fb27f342c763c3e265e5c4e79ae6b4bbec34388982b36358",
+      "model": "[a = -1, bb = 0, aa = 0, b = 16/5]"
+    },
+    {
+      "name": "fixed_absolute_intercept_restores_alpha",
+      "expected": "unsat",
+      "result": "unsat",
+      "sha256": "c15c0009ec407f5392bb5e4de6eb278ad255278a1a6de1812424e72553ccc990",
+      "model": null
+    },
+    {
+      "name": "zero_drift_does_not_fix_boundary",
+      "expected": "sat",
+      "result": "sat",
+      "sha256": "2e224599b74cdce60a40ea3ec27369eb6b827fb808929a33edd43c925fdadb0d",
+      "model": "[bb = 1, d = 0, b = 2]"
+    },
+    {
+      "name": "scalar_coupling_amplitude_degenerate",
+      "expected": "sat",
+      "result": "sat",
+      "sha256": "a059fbeeaf5cf3a40a8b46966ca5fedf894b385d01eb406d04854f45c20b040a",
+      "model": "[h = -1/2,\n d = -1,\n a = 1,\n aa = 1,\n k = -1,\n /0 = [(1, -1) -> -1, else -> 0]]"
+    },
+    {
+      "name": "optical_ratio_orientation",
+      "expected": "unsat",
+      "result": "unsat",
+      "sha256": "81e96f7ce81f7aaee8d1ee09eba472bff74e7252da3b0f531f5256941903fa53",
+      "model": null
+    }
+  ],
+  "numeric": {
+    "codata_inverse": "137035999177/1000000000",
+    "quoted_u": "21/1000000000",
+    "candidate_inverse": "34259/250",
+    "inverse_residual": "823/1000000000",
+    "residual_in_quoted_u": "823/21",
+    "exact_fractional_alpha_difference": "-823/137036000000",
+    "fractional_alpha_decimal": -6.005721124376076e-09,
+    "illustrative_Al_over_Hg_linear_shift": "-823/42823750000",
+    "linear_shift_decimal": -1.9218307598003443e-08,
+    "note": "Linear shift is conditional on rounded K difference 3.2 and frozen nuisances, not a predicted absolute ratio or exclusion significance."
+  },
+  "inputs": {
+    "bipm.html": "89e37f1fc2971f5e4a6658f64eb7cac015f2bd0b1d95c17ea4f90f7798d0edbf",
+    "bipm.txt": "2d12115e069ae4dd2f477086b59899fdb11e073e03e1a1172ae8ff45e8fb572a",
+    "check_gate.py": "250a90c4cb6a300f3578f79521a9703d995f3aa36b6fbbac93edb817206269f7",
+    "codata.html": "d2333752cd583114dac2b95b9abc2b258773fc732e2fdc4145c741d881eebb4c",
+    "codata.txt": "1ffb58ebb236789cbe52132deffde0340ea798cce1b1c8beb8ec7366a57dc2ae",
+    "fetch_sources.py": "09ecdedf7c1a0d758963aea7ab1c9bc832a2457253fbb0dd2dd20103e4dbb7c0",
+    "hyperphysics.html": "ab9ca746b09476aad88fa773f8b3b19f0822f065d64efac6e282f8929f7483d6",
+    "hyperphysics.txt": "5a139b9a31458a9c195ad706b1fdb0546bd93f304559d7f338f3e66c6c535902",
+    "network-paper.html": "dbcb81bac4bfe9de7aa0183b0638dee531ad1ef4dc559da790320c8e129d5ba1",
+    "network-paper.txt": "95c2fc9683ee59b1a29c5a081876f5c9184812fb86ee3b56a78c980924c17442",
+    "nist-comparison.pdf": "66990148f942f18ff8a88c2bac91ce1db398fd531a0e7126eccd0c848d7cfb9a",
+    "nist-comparison.txt": "23f5dc4aa0f815b7a78ec2e269e5eb4b1c5c6b8da1b84fd912c2b09317c86c0d",
+    "nist-network.html": "c42e488810d6770a73141ebbc64e3b440fb406b4bd94a70c3d0519373e2ddefc",
+    "nist-network.txt": "1bf82dbd0376c0ae178a71e71ccb44e012684a37adef5db4ff12682333ff6e0d"
+  },
+  "all_passed": true
+}

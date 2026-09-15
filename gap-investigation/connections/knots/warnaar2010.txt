@@ -1,0 +1,1208 @@
+
+--- PAGE 1 ---
+arXiv:1001.1571v2  [math.CO]  22 Jan 2010
+DEDEKIND’S η-FUNCTION AND
+ROGERS–RAMANUJAN IDENTITIES
+S. OLE WARNAAR AND WADIM ZUDILIN
+Abstract. We prove a q-series identity that generalises Macdon-
+ald’s A(2)
+2n η-function identity and the Rogers–Ramanujan identi-
+ties. We conjecture our result to generalise even further to also
+include the Andrews–Gordon identities.
+1. Introduction
+In 1972 Macdonald published his seminal paper [26] in which he ex-
+tended Weyl’s denominator formula for classical reduced root systems
+to root systems of aﬃne type. These identities, which include the Ja-
+cobi triple product identity and the quintuple product identity as the
+special cases A(1)
+1
+and A(2)
+2 , are now commonly known as the Macdon-
+ald identities. Through the procedure of specialisation the Macdonald
+identities imply identities for powers of the Dedekind η-function
+η(τ) = q1/24
+∞
+Y
+j=1
+(1 −qj),
+where q = exp(2πiτ) and Im(τ) > 0.
+For example, the specialisa-
+tion [26, p. 138, (6)(c)] of the A(2)
+2n Macdonald identity corresponds
+the following beautiful generalisation of the Euler pentagonal number
+theorem:
+(1.1)
+η(τ)2n2−n =
+X
+ξ(v/ρ)(−1)|v|−|ρ|q||v||2/(2(2n+1)).
+Here v = (v1, . . . , vn), ρ = (1/2, 3/2, . . ., n −1/2), |v| = v1 + · · · + vn,
+||v||2 = v · v = v2
+1 + · · · + v2
+n,
+ξ(v/w) =
+Y
+1≤i<j≤n
+v2
+i −v2
+j
+w2
+i −w2
+j
+and the sum on the right of (1.1) is over v ∈(Z/2)n such that vi ≡ρi
+(mod 2n + 1).
+2000 Mathematics Subject Classiﬁcation. 05A19, 05E05, 11F20, 33D67.
+Work supported by the Australian Research Council.
+1
+
+
+--- PAGE 2 ---
+2
+S. OLE WARNAAR AND WADIM ZUDILIN
+Another famous family of combinatorial identities are the formulae
+of Rogers and Ramanujan [2,31]
+∞
+X
+m=0
+qm2
+(q)m
+= (q2, q3, q5; q5)∞
+(q)∞
+(1.2a)
+∞
+X
+m=0
+qm2+m
+(q)m
+= (q, q4, q5; q5)∞
+(q)∞
+(1.2b)
+and their generalisations to arbitrary odd moduli due to Andrews and
+Gordon [1,11]
+(1.3)
+X
+m1,...,mk−1
+qM2
+1 +···+M2
+k−1+Mp+···+Mk−1
+(q)m1 · · ·(q)mk−1
+= (qp, q2k−p+1, q2k+1; q2k+1)∞
+(q)∞
+,
+where 1 ≤p ≤k and Mi = mi + · · · + mk−1. In (1.2) and (1.3) we
+employ the standard q-notation
+(a)m = (a; q)m =
+m
+Y
+i=1
+(1 −aqi−1)
+and
+(a1, . . . , ak)m = (a1, . . . , ak; q)m = (a1; q)m · · · (ak; q)m
+for m ∈N ∪{∞} (with the convention that N = {0, 1, 2, . . .}).
+In this paper we link Macdonald’s identity (1.1) to the Rogers–
+Ramanujan and Andrews–Gordon identities (1.2) and (1.3).
+More
+speciﬁcally, we present a family of q-series identities depending on pos-
+itive integers k, n and p ∈{1, k} such that
+(1) For k = 1 we recover Macdonald’s A(2)
+2n identity (1.1) for the
+Dedekind η-function.
+(2) For n = 1 and k = 2 we recover, modulo the Jacobi triple
+product identity, the Rogers–Ramanujan identities (1.2).
+(3) For n = 1 and general k we recover the p = k and p = 1
+instances of the Andrews–Gordon identities (1.3).
+(4) For general n and k →∞we recover the A2n−1 case of an
+identity of Hua related to Kac’s conjectures for representations
+of quivers.
+The fact that the Rogers–Ramanujan identities have a close con-
+nection with aﬃne root systems or, more generally, aﬃne Kac–Moody
+algebras is not new, and well-known are the interpretations of (1.2)
+and (1.3) in terms of standard modules of A(1)
+1 , see e.g., [22–25, 29]
+
+
+--- PAGE 3 ---
+DEDEKIND’S η-FUNCTION AND ROGERS–RAMANUJAN IDENTITIES
+3
+and as characters corresponding to certain non-unitary Virasoro mod-
+ules, see e.g., [8,30]. For our generalisation of the Rogers–Ramanujan
+and Andrews–Gordon identities, however, it is crucial to interpret the
+right-hand sides of (1.2) and (1.3) as of type type A(2)
+2 , not A(1)
+1 .
+Before stating our main results we observe that, by an appeal to
+Jacobi’s triple product identity [10, (II.28)], the right-hand side of (1.3)
+may be rewritten as
+1
+(q)∞
+∞
+X
+j=−∞
+(−1)jq(2k+1)(j
+2)+pj
+= q−(2k−2p+1)2/(8(2k+1))
+(q)∞
+X
+(−1)v−k+p−1/2qv2/(2(2k+1)),
+where in the second expression the sum is over v ∈Z/2 such that
+v ≡k −p + 1/2 (mod 2k + 1).
+Comparing the sum on the right
+with the sum in (1.1) it takes little imagination to make the following
+conjecture.
+For 1 ≤a, b ≤N −1, let Cab be the Cartan integers of the Lie
+algebra AN−1, i.e., Caa = 2, Ca,a±1 = −1 and Cab = 0 otherwise. By
+abuse of notation, for w = (w1, . . . , wn) and a a scalar, set w + a =
+(w1 + a, . . . , wn + a) so that, in particular,
+||w + a||2 = ||w||2 + 2a|w| + na2
+and
+|w + a| = |w| + na.
+Conjecture 1.1. For k, n positive integers, N = 2n and p ∈{1, k},
+(1.4)
+X q
+1
+2
+PN−1
+a,b=1
+Pk−1
+i=1 CabM(a)
+i
+M(b)
+i
++PN−1
+a=1
+Pk−1
+i=p (−1)aM(a)
+i
+QN−1
+a=1
+Qk−1
+i=1 (q)m(a)
+i
+=
+1
+(q)2n2−n
+∞
+X
+ξ(v/ρ)(−1)|v|−|ρ+k−p|q
+||v||2−||ρ+k−p||2
+2(2k+2n−1)
+,
+where the sum on the left is over m(a)
+i
+∈N (for all 1 ≤a ≤N −1 and
+1 ≤i ≤k −1) and the sum on the right is over v ∈(Z/2)n such that
+vi ≡ρi + k −p (mod 2k + 2n −1). The integers M(a)
+i
+are deﬁned as
+M(a)
+i
+= m(a)
+i
++ · · · + m(a)
+k−1, i.e., m(a)
+i
+= M(a)
+i
+−M(a)
+i+1 for 1 ≤i ≤k −2
+and m(a)
+k−1 = M(a)
+k−1.
+Theorem 1.2 (Generalised Rogers–Ramanujan identities). Conjec-
+ture 1.1 is true for k = 2. That is, for n a positive integer and N = 2n,
+(1.5)
+X
+m∈NN−1
+q
+1
+2 mCmt
+(q)m
+=
+1
+(q)2n2−n
+∞
+X
+ξ(v/ρ)(−1)|v|−|ρ|q
+||v||2−||ρ||2
+2(2n+3) ,
+
+
+--- PAGE 4 ---
+4
+S. OLE WARNAAR AND WADIM ZUDILIN
+where the sum on the right is over v ∈(Z/2)n such that vi ≡ρi
+(mod 2n + 3), and
+X
+m∈NN−1
+q
+1
+2mCmt+|m|−
+(q)m
+=
+1
+(q)2n2−n
+∞
+X
+ξ(v/ρ)(−1)|v|−|ρ+1|q
+||v||2−||ρ+1||2
+2(2n+3)
+,
+where the sum on the right is over v ∈(Z/2)n such that vi ≡ρi + 1
+(mod 2n + 3). In the above (q)m = (q)m1 . . . (q)mN−1, C is the Cartan
+matrix of AN−1, i.e.,
+1
+2mCmt =
+N−1
+X
+i=1
+m2
+i −
+N−2
+X
+i=1
+mimi+1,
+and, for m ∈NN−1,
+|m|−=
+N−1
+X
+i=1
+(−1)i−1mi.
+Analogous to the above theorem, the left-hand side of (1.4) can be
+expressed without the use of indices by introducing the square matrix
+B of dimension d := (N −1)(k −1) given by the Kronecker product
+of the Cartan matrix C of AN−1 and the (k −1) × (k −1) matrix T −1
+with entries (T −1)ij = min{i, j}:
+Bai,bj = (C ⊗T −1)ai,bj = Cab min{i, j}.
+For example, the k = p instance of (1.4) generalises (1.5) to
+(1.6)
+X
+m∈Nd
+q
+1
+2 mBmt
+(q)m
+=
+1
+(q)2n2−n
+∞
+X
+ξ(v/ρ)(−1)|v|−|ρ|q
+||v||2−||ρ||2
+2(2k+2n−1).
+We should remark that the expression on the left-hand side of (1.6) has
+a representation theoretic interpretation due to Feigin and Stoyanovsky
+[8]. Their interpretation in fact holds for B = C ⊗T −1 where C is a
+Cartan matrix of any semi-simple simply laced Lie algebra g. Let ˆg
+be the (nontwisted) aﬃne counterpart of g and Vl the level-l vacuum
+integrable highest weight module of g with vacuum vector v. Then Wl
+is the space Wl = U(ˆn+) · v0 ⊂Vl, with U the universal enveloping
+algebra and n−⊕h ⊕n+ the Cartan decomposition of g. The Feigin–
+Stoyanovsky formula states that
+Tr(qL0)|Wk−1 =
+X
+m∈Nd
+q
+1
+2 mBmt
+(q)m
+,
+where d = (k −1)rank(g) and L0 the energy operator.
+
+
+--- PAGE 5 ---
+DEDEKIND’S η-FUNCTION AND ROGERS–RAMANUJAN IDENTITIES
+5
+There is another elegant expression for the left-hand side of (1.4)
+using notation from the theory of Hall–Littlewood polynomials, see
+[27,33]. Let λ = (λ1, λ2, . . . ) be a partition and λ′ its conjugate. Then
+the q-function
+bλ(q) =
+Y
+i≥1
+(q)λ′
+i−λ′
+i+1
+features in the Cauchy identity for the Hall–Littlewood polynomials
+Pλ(x) = Pλ(x; q) and in the principal specialisation formula on an
+inﬁnite alphabet:
+Pλ(1, q, q2, . . . ) = qn(λ)
+bλ(q),
+where
+(1.7)
+n(λ) =
+X
+i≥1
+(i −1)λi =
+X
+i≥1
+λ′
+i
+2
+
+.
+If we further denote (λ|µ) = P
+i≥1 λ′
+iµ′
+i then the left-hand side of (1.4)
+for p = k or p = 1 corresponds to
+(1.8)
+X
+q
+1
+2
+PN−1
+a,b=1 Cab(λ(a)|λ(b))
+N−1
+Y
+a=1
+z|λ(a)|
+a
+bλ(a)(q)
+summed over partitions λ(1), . . . , λ(N−1) such that λ(1)
+1 , . . . , λ(N−1)
+1
+≤
+k −1, i.e., such that the largest parts of the λ(i) do not exceed k −1.
+In (1.8) zi = 1 for all i if p = k and z2i−1 = q and z2i = q−1 for all i if
+p = 1.
+The rewriting (1.8) of the left-hand side of (1.4) shows that not only
+the k = 1 case of (1.4) is known, but also the limiting case k →∞
+(with p = k). Indeed, in [12] Hua derived a combinatorial identity
+related to Kac’s conjectures [14] concerning the number of isomorphism
+classes of absolutely indecomposable representations of quivers over
+ﬁnite ﬁelds. For ﬁnite and tame quivers (i.e., classical and aﬃne ADE)
+Kac’s conjectures are known to be true, ensuring that in these cases
+Hua’s combinatorial identities are true as well. For the ﬁnite quiver
+AN−1 (N not necessarily even) Hua’s identity (corrected in [9]) is
+X
+λ(1),...,λ(N−1)
+q
+1
+2
+PN−1
+a,b=1 Cab(λ(a)|λ(b))
+N−1
+Y
+a=1
+z|λ(a)|
+a
+bλ(a)(q) =
+Y
+α∈R+
+1
+(zαq)∞
+,
+where R+ is the set of positive roots of AN−1:
+R+ = {αi + αi+1 + · · · + αj : 1 ≤i ≤j ≤N −1},
+and zαi+αi+1+···+αj = zizi+1 · · · zj.
+
+
+--- PAGE 6 ---
+6
+S. OLE WARNAAR AND WADIM ZUDILIN
+2. Further conjectures
+At ﬁrst sight it may seem surprising that the left-hand side of (1.4)
+features the root system A2n−1 instead of, more simply, An. However,
+this is not that unexpected in view of the following theorem due to
+Feigin and Stoyanovsky [8] (n = 1) and Stoyanovsky [32] (n > 1).
+Theorem 2.1. For k, n positive integers, N = 2n + 1 and p = k,
+(2.1)
+X q
+1
+2
+PN−1
+a,b=1
+Pk−1
+i=1 CabM(a)
+i
+M(b)
+i
++PN−1
+a=1
+Pk−1
+i=p (−1)aM(a)
+i
+QN−1
+a=1
+Qk−1
+i=1 (q)m(a)
+i
+=
+1
+(q)2n2+n
+∞
+X
+χ(v/ρ∗)q
+||v||2−||ρ∗+k−p||2
+4(k+n)
+,
+where ρ∗= (1, 2, . . . , n),
+(2.2)
+χ(v/w) =
+n
+Y
+i=1
+vi
+wi
+Y
+1≤i<j≤n
+v2
+i −v2
+j
+w2
+i −w2
+j
+and the sum on the right is over v ∈Zn such that vi ≡ρ∗
+i + k −p
+(mod 2k + 2n).
+The Feigin–Stoyanovsky theorem generalises Macdonald’s C(1)
+n
+η-
+function identity [26, p. 136, (6)]:
+η(τ)2n2+n =
+X
+χ(v/ρ∗)q||v||2/(4(n+1)),
+which, for n = 1, is equivalent to Jacobi’s well-known
+(q)3
+∞=
+∞
+X
+m=0
+(−1)m(2m + 1)q(m+1
+2 ).
+Conjecture 2.2. Equation (2.1) is true for p = 1.
+Theorem 2.3. Conjecture 2.2 is true for k = 2, i.e., for n a positive
+integer and N = 2n + 1,
+X
+m∈NN−1
+q
+1
+2mCmt+|m|−
+(q)m
+=
+1
+(q)2n2+n
+∞
+X
+χ(v/ρ∗)q
+||v||2−||ρ∗+1||2
+4(n+2)
+,
+where the sum on the right is over v ∈Zn such that vi ≡ρ∗
+i + 1
+(mod 2n + 4).
+Of course, by the Feigin–Stoyanovsky theorem we also have
+X
+m∈NN−1
+q
+1
+2mCmt
+(q)m
+=
+1
+(q)2n2+n
+∞
+X
+χ(v/ρ∗)q
+||v||2−||ρ∗||2
+4(n+2)
+,
+
+
+--- PAGE 7 ---
+DEDEKIND’S η-FUNCTION AND ROGERS–RAMANUJAN IDENTITIES
+7
+where the sum on the right is over v ∈Zn such that vi ≡ρ∗
+i (mod 2n+
+4).
+There is a well-known even-modulus counterpart of the Andrews–
+Gordon identities (1.3) due to Bressoud [3]:
+(2.3)
+X
+m1,...,mk−1
+qM2
+1 +···+M2
+k−1+Mp+···+Mk−1
+(q)m1 · · ·(q)mk−2(q2; q2)mk−1
+= (qp, q2k−p, q2k; q2k)∞
+(q)∞
+,
+where k > 1 and, again, 1 ≤p ≤k and Mi = mi + · · · + mk−1. It will
+be convenient to interpret 1/(q2; q2)m0 as (q)∞/(q2; q2)∞so that (2.3)
+is true for all positive integers k.
+Our next conjecture uniﬁes Bressoud’s identity for p = k with Mac-
+donald’s η-function identity for A(2)
+2n−1 [26, p. 136, (6)(b)]:
+(2.4)
+η(τ)2n2+n−1
+η(2τ)2n−1
+=
+X
+ξ(v/ρ⋆)(−1)(|v|−|ρ⋆|)/(2n)q||v||2/(4n),
+where ρ⋆= (0, 1, . . . , n−1) and v is summed over Zn such that vi ≡ρ⋆
+i
+(mod 2n), and a second η-function identity for A(2)
+2n [26, p. 138, (6)(a)]:
+(2.5)
+η(τ)2n2+3n
+η(2τ)2n
+=
+X
+χ(v/ρ)q||v||2/(2(2n+1)),
+where the sum is over v ∈Zn such that vi ≡ρi (mod 2n + 1).
+Conjecture 2.4. For k, N positive integers and n = ⌊N/2⌋,
+X
+q
+1
+2
+PN−1
+a,b=1
+Pk−1
+i=1 CabM(a)
+i
+M(b)
+i
+QN−1
+a=1
+ Qk−2
+i=1 (q)m(a)
+i
+
+(q2; q2)m(a)
+k−1
+=
+1
+(q)N(N−1)/2
+∞
+X
+ξ(v/ρ⋆)(−1)
+|v|−|ρ⋆|
+2k+N−2q
+||v||2−||ρ⋆||2
+2(2k+N−2)
+(2.6a)
+=
+1
+(q)N(N−1)/2
+∞
+X
+χ(v/ρ)q
+||v||2−||ρ||2
+2(2k+N−2),
+(2.6b)
+where (2.6a) applies for even N, in which case the sum is over v ∈Zn
+such that vi ≡ρ⋆
+i (mod 2k + N −2) and (2.6b) applies for odd N, in
+which case the sum is over v ∈Zn such that vi ≡ρi (mod 2k +N −2).
+As before, to recover (2.4) and (2.5) as the k = 1 case of (2.6) we
+have to interpret 1/(q2; q2)m(a)
+0
+as (q)∞/(q2; q2)∞.
+
+
+--- PAGE 8 ---
+8
+S. OLE WARNAAR AND WADIM ZUDILIN
+3. Dilogarithm identities
+To provide further support for Conjecture 1.1, we show below that
+a standard asymptotic analysis applied to (1.4) implies an identity for
+the Rogers dilogarithm due to Kirillov.
+We begin by recalling the deﬁnition of the Rogers dilogarithm func-
+tion
+L(x) = −1
+2
+Z x
+0
+log(1 −t)
+t
++ log t
+1 −t
+
+dt,
+x ∈[0, 1].
+Note in particular that L(1) = π2/6.
+In [17] Kirillov proved the following AN−1 type dilogarithm identity
+(3.1)
+1
+L(1)
+N−1
+X
+a=1
+K−1
+X
+i=1
+L
+ 
+sin
+ aπ
+K+N−1
+
+sin
+  (N−a)π
+K+N−1
+
+sin
+  (i+a)π
+K+N−1
+
+sin
+ (i+N−a)π
+K+N−1
+
+!
+= (N2 −1)(K −1)
+K + N −1
+.
+If we denote the summand on the left by S(K, N; a, i) then
+S(2k, N; a, i) = S(2k, N; a, 2k −i −1)
+for 1 ≤i ≤k −1
+and S(2k, N; a, 2k −1) = L(1). Hence
+(3.2)
+1
+L(1)
+N−1
+X
+a=1
+k−1
+X
+i=1
+L
+ 
+sin
+ aπ
+2k+N−1
+
+sin
+  (N−a)π
+2k+N−1
+
+sin
+  (i+a)π
+2k+N−1
+
+sin
+ (i+N−a)π
+2k+N−1
+
+!
+= N(N −1)(k −1)
+2k + N −1
+.
+We now recall the following result from [18].
+Lemma 3.1. Let B be a d × d symmetric, positive deﬁnite, rational
+matrix and let
+∞
+X
+i=0
+aiqi =
+X
+m∈Nd
+q
+1
+2mBmt
+(q)m
+.
+Then
+lim
+m→∞
+log2 am
+4m
+=
+d
+X
+i=1
+L(xi),
+where the xi for 1 ≤i ≤d are the solutions of
+xi =
+d
+Y
+j=1
+(1 −xj)Bij
+such that xi ∈(0, 1) for all i.
+
+
+--- PAGE 9 ---
+DEDEKIND’S η-FUNCTION AND ROGERS–RAMANUJAN IDENTITIES
+9
+If we apply the above lemma to the expression on the left-hand side
+of (1.6) we are led to the system of equations
+f (a)
+i
+=
+N−1
+Y
+b=1
+k−1
+Y
+j=1
+(1 −f (b)
+i )Cab min{i,j},
+for 1 ≤a ≤N −1 and 1 ≤i ≤k −1. It is readily veriﬁed that this is
+solved by
+f (a)
+i
+=
+sin
+ aπ
+2k+N−1
+
+sin
+  (N−a)π
+2k+N−1
+
+sin
+  (i+a)π
+2k+N−1
+
+sin
+ (i+N−a)π
+2k+N−1
+.
+Hence, denoting the q-series on either side of (1.6) by P
+i≥0 aiqi, we
+ﬁnd that
+1
+L(1) lim
+m→∞
+log2 am
+4m
+= LHS(3.2).
+The right-hand side of (1.6) is a specialised standard module of A(2)
+2n
+[13,15]. Exploiting its modular properties [16] we obtain
+1
+L(1) lim
+m→∞
+log2 am
+4m
+= RHS(3.2)
+(recall that N = 2n), leading to (3.2).
+In much the same way an asymptotic analysis of Theorem 2.1 gives
+(3.2) for odd N. The asymptotics of Conjecture 2.4, on the other hand,
+can be related to the odd K case of (3.1).
+4. Proof of Theorems 1.2 and 2.3
+The proof given below uses the theory of Hall–Littlewood polynomi-
+als, and for notation and deﬁnitions pertaining to these functions we
+refer the reader to [27,33].
+For x = (x1, . . . , xn) and µ a partition of length l(µ) ≤n, let
+Q′
+µ(x) = Q′
+µ(x; q) be the modiﬁed Hall–Littlewood polynomial [21]
+Q′
+µ(x) =
+X
+λ
+Kλµ(q)sλ(x),
+where the Kλµ(q) are the Kostka–Foulkes polynomials and sλ(x) the
+Schur functions. In the ring of symmetric functions, the polynomials
+Q′
+µ form the adjoint basis of Pλ with respect to the Hall inner prod-
+uct.
+They may also be viewed in λ-ring notation [19] as Q′
+µ(x) =
+bµ(q)Pµ(x/(1 −q)).
+
+
+--- PAGE 10 ---
+10
+S. OLE WARNAAR AND WADIM ZUDILIN
+Theorem 4.1. Let C be the An Cartan matrix. Then
+(4.1a)
+∞
+X
+m=0
+qm
+(q)m
+Q′
+(2m)(1n) =
+X
+r∈Nn
+q
+1
+2rCrt
+(q)r
+and
+(4.1b)
+∞
+X
+m=0
+q2m
+(q)m
+Q′
+(2m)(1, q−1, 1, q−1, . . .
+|
+{z
+}
+n terms
+) =
+X
+r∈Nn
+q
+1
+2 rCrt+|r|−
+(q)r
+.
+Our proof requires a generalisation of [27]
+(4.2)
+Q′
+λ(1) = qn(λ)
+due to Lascoux. Extend (1.7) to skew shapes by
+n(λ/µ) =
+X
+i≥1
+λ′
+i −µ′
+i
+2
+
+.
+Theorem 4.2 ( [20, Theorem 3.1]). For µ ⊆λ
+Q′
+λ/µ(1) = qn(λ/µ)
+bµ(q)
+l(µ)
+Y
+i=1
+(1 −qλ′
+µi−i+1),
+and Q′
+λ/µ(1) = 0 otherwise.
+Before we show how this implies Theorem 4.1 we note that the above
+may be rewritten as
+(4.3)
+Q′
+λ/µ(1) = qn(λ/µ) Y
+i≥1
+λ′
+i −µ′
+i+1
+λ′
+i −µ′
+i
+
+,
+where
+m
+k
+
+is a q-binomial coeﬃcient. A classical result in the theory
+of abelian p-groups states that if αλ(µ; p) is the number of subgroups
+of type µ in a ﬁnite abelian p-group of type λ, then [4–6,34]
+qn(λ)−n(µ)αλ(µ; q−1) = qn(λ/µ) Y
+i≥1
+λ′
+i −µ′
+i+1
+λ′
+i −µ′
+i
+
+.
+This obviously implies that
+Q′
+λ/µ(1) = qn(λ)−n(µ)αλ(µ; q−1),
+a result we failed to ﬁnd in the literature.
+Proof of Theorems 4.1. For n = 1 (4.1) is trivial since, by (4.2),
+Q′
+(2m)(1) = qm2−m.
+
+
+--- PAGE 11 ---
+DEDEKIND’S η-FUNCTION AND ROGERS–RAMANUJAN IDENTITIES
+11
+To prove (4.1) for general n we apply
+Q′
+λ(x) =
+X
+n
+Y
+i=1
+x|µ(i−1)−µ(i)|
+i
+Q′
+µ(i−1)/µ(i)(1),
+where the sum is over
+(4.4)
+0 = µ(n) ⊆· · · ⊆µ(1) ⊆µ(0) = λ.
+Hence
+LHS(4.1a) =
+∞
+X
+m=0
+X qm
+(q)m
+n
+Y
+i=1
+Q′
+µ(i−1)/µ(i)(1)
+and
+LHS(4.1b) =
+∞
+X
+m=0
+X q2m
+(q)m
+n
+Y
+i=1
+q(−1)i|µ(i)|Q′
+µ(i−1)/µ(i)(1),
+where the inner sums on the right are over (4.4) with λ = (2m). If
+we now change the above double-sums to a sum over k1, . . . , kn−1 and
+r = (r1, . . . , rn) by setting
+µ(i) = (1ki2ri+1+···+rn−ki−···−kn−1),
+0 ≤i ≤n,
+(where k0 = kn := 0), and insert (4.3), we arrive at
+LHS(4.1a) =
+∞
+X
+r∈Nn
+q||r||2
+(q)r1
+n−1
+Y
+i=1
+min{ri,ri+1}
+X
+ki=0
+qki(ki−ri−ri+1)
+(q)ri+1−ki
+ri
+ki
+
+and
+LHS(4.1b) =
+∞
+X
+r∈Nn
+q||r||2+|r|−
+(q)r1
+n−1
+Y
+i=1
+min{ri,ri+1}
+X
+ki=0
+qki(ki−ri−ri+1)
+(q)ri+1−ki
+ri
+ki
+
+.
+By the q-Chu–Vandermonde sum [10, (II.6)] the sum over ki yields
+q−riri+1
+(q)ri+1
+,
+thus proving (4.1).
+□
+Theorem 4.1 combined with Milne’s Cn analogue of the Rogers–
+Selberg identity implies Theorems 1.2 and 2.3 as outlined below.
+Let ∆(x) be the Cn Vandermonde product
+∆(x) =
+Y
+1≤i<j≤n
+(1 −xi/xj)
+Y
+1≤i≤j≤n
+(1 −xixj)
+and, for u ∈Nn, let n(u) = Pn
+i=1(i −1)ui.
+
+
+--- PAGE 12 ---
+12
+S. OLE WARNAAR AND WADIM ZUDILIN
+Theorem 4.3 ( [28, Corollary 2.21]).
+X
+u∈Nn
+∆(xqu)
+∆(x)
+n
+Y
+i,j=1
+(xixj)ui
+(qxi/xj)ui
+× (−1)n|u|qn(u)+ 1
+2 (n+4)||u||2−1
+2 n|u|
+n
+Y
+i=1
+x(n+4)ui−|u|
+i
+=
+n
+Y
+i=1
+(qx2
+i )∞
+Y
+1≤i<j≤n
+(qxixj)∞
+∞
+X
+m=0
+qm
+(q)m
+Q′
+(2m)(x).
+For u ∈Nn denote by u+ the unique partition in the Sn orbit of
+u. For example, if u = (2, 0, 3, 2, 0) then u+ = (3, 2, 2, 0, 0) = (3, 2, 2).
+Similarly, let Wn be the Weyl group of Cn, i.e., Wn = (Z2)n⋊Sn, acting
+on v ∈Zn by permutation and sign-reversal of its components. Then
+v∗denotes the unique partition in the Wn orbit of v. For example, if
+v = (−2, 0, −3, 2, 0) then v∗= (3, 2, 2, 0, 0) = (3, 2, 2).
+Let us now denote the summand on the left of Theorem 4.3 by
+Ln(u, x) and let us denote the right-hand sides of (1.4) and (2.1) for
+k = p = 2 by R2n−1(v) and R2n(v), respectively. Then, for λ a partition
+of length at most n,
+lim
+x→(1n)
+X
+u∈Nn
+u+=λ
+Ln(u, x) = χ
+ l(λ) ≤⌊(n + 1)/2⌋
+ X
+v∈Zn
+v∗=λ
+Rn(v).
+Here χ is the truth function (and not the character (2.2)).
+As an
+immediate consequence of the above we ﬁnd that
+lim
+x→(1n)
+X
+u∈Nn
+Ln(u, x) =
+X
+v∈Zn
+Rn(v).
+By Theorem 4.3
+lim
+x→(1n)
+X
+u∈Nn
+Ln(u, x)
+=
+lim
+x→(1n)
+n
+Y
+i=1
+(qx2
+i )∞
+Y
+1≤i<j≤n
+(qxixj)∞
+∞
+X
+m=0
+qm
+(q)m
+Q′
+(2m)(x)
+= (q)n(n+1)/2
+∞
+∞
+X
+m=0
+qm
+(q)m
+Q′
+(2m)(1n).
+Thanks to (4.1a) this proves the k = p = 2 instances of (1.4) and (2.1).
+In much the same way one obtains (1.4) and (2.1) with k = 2 and
+p = 1 by taking the x →(q1/2, q−1/2, q1/2, . . . ) limit in Theorem 4.3.
+
+
+--- PAGE 13 ---
+DEDEKIND’S η-FUNCTION AND ROGERS–RAMANUJAN IDENTITIES
+13
+References
+1. G. E. Andrews, An analytic generalization of the Rogers–Ramanujan identities
+for odd moduli, Proc. Nat. Acad. Sci. USA 71 (1974), 4082–4085.
+2. G. E. Andrews, The Theory of Partitions, (Addison-Wesley, Reading, Mas-
+sachusetts, 1976).
+3. D. M. Bressoud, A generalization of the Rogers–Ramanujan identities for all
+moduli, J. Combin. Theory Ser. A 27 (1979), 64–68.
+4. L. M. Butler, Subgroup lattices and symmetric functions, Mem. Amer. Math.
+Soc. 112 (1994), no. 539, vi+160 pp.
+5. S. Delsarte, Fonctions de M¨obius sur les groupes abelian ﬁnis, Ann. Math. 49
+(1948), 600–609.
+6. P. Dyubyuk, On the number of subgroups of a ﬁnite abelian group, Izv. Akad.
+Nauk USSR, Ser. Mat. 12 (1948), 371–328.
+7. B. L. Feigin and D. B. Fuks, Verma modules over a Virasoro algebra, Funct.
+Anal. Appl. 17 (1983), 241–242.
+8. B. Feigin and A. V. Stoyanovsky, Quasi-particles models for the representations
+of Lie algebras and geometry of ﬂag manifold, Funct. Anal. Appl. 28 (1994),
+68–90.
+9. J. Fulman, A probabilistic proof of the Rogers–Ramanujan identities, Bull. Lon-
+don Math. Soc. 33 (2001) 397–407
+10. G. Gasper and M. Rahman, Basic Hypergeometric Series, Encyclopedia of
+Mathematics and its Applications, Vol. 96, second edition, (Cambridge Uni-
+versity Press, Cambridge, 2004).
+11. B. Gordon, A combinatorial generalization of the Rogers–Ramanujan identities,
+Amer. J. Math. 83 (1961), 393–399.
+12. J. Hua, Counting representations of quivers over ﬁnite ﬁelds, J. Algebra 226
+(2000), 1011–1033.
+13. V. G. Kac, Inﬁnite-dimensional Lie algebras, and the Dedekind η-function,
+Funct. Anal. Appl. 8 (1974), 68–70.
+14. V. G. Kac, Root systems, representations of quivers, and invariant theory, in In-
+variant Theory, pp. 74–108, Lecture Notes in Math. Vol. 996 (Springer, Berlin,
+1983).
+15. V. G. Kac, Inﬁnite-dimensional Lie algebras, third edition, (Cambridge Uni-
+versity Press, Cambridge, 1990).
+16. V. G. Kac and D. H. Peterson, Inﬁnite-dimensional Lie algebras, theta functions
+and modular forms, Adv. in Math. 53 (1984), 125–264.
+17. A. N. Kirillov, Identities for the Rogers dilogarithmic function connected with
+simple Lie algebras, J. Soviet Math. 47 (1989), 2450–2459.
+18. A. N. Kirillov, Dilogarithm identities, Progr. Theor. Phys. Suppl. 118 (1995),
+61–142.
+19. A. Lascoux, Symmetric Functions and Combinatorial Operators on Polynomi-
+als, CBMS Regional Conference Series in Math. Vol. 99, (AMS, Providance,
+RI, 2003).
+20. A. Lascoux, Adding 1 to the argument of a Hall–Littlewood polynomial, S´em.
+Lothar. Combin. 54 (2005/07), Art. B54n, 17 pp.
+21. A. Lascoux, B. Leclerc and J.-Y. Thibon, Ribbon tableaux, Hall–Littlewood
+functions, quantum aﬃne algebras, and unipotent varieties, J. Math. Phys. 38
+(1997), 1041–1068.
+
+
+--- PAGE 14 ---
+14
+S. OLE WARNAAR AND WADIM ZUDILIN
+22. J. Lepowsky and S. Milne, Lie algebraic approaches to classical partition iden-
+tities, Adv. Math. 29 (1978), 15–59.
+23. J. Lepowsky and R. L. Wilson, A new family of algebras underlying the Rogers–
+Ramanujan identities and generalizations, Proc. Nat. Acad. Sci. USA 78 (1981),
+7254–7258.
+24. J. Lepowsky and R. L. Wilson, A Lie theoretic interpretation and proof of the
+Rogers–Ramanujan identities, Adv. Math. 45 (1982), 21–72.
+25. J. Lepowsky and R. L. Wilson, The structure of standard modules. I. Universal
+algebras and the Rogers–Ramanujan identities, Inv. Math. 77 (1984), 199–290.
+26. I. G. Macdonald, Aﬃne root systems and Dedekind’s η-function, Inv. Math. 15
+(1972), 91–143.
+27. I. G. Macdonald, Symmetric functions and Hall polynomials, second edition,
+(Oxford University Press, New York, 1995).
+28. S. C. Milne, The Cl Rogers–Selberg identity, SIAM J. Math. Anal. 25 (1994),
+571–595.
+29. K. C. Misra, Structure of certain standard modules for A(1)
+n
+and the Rogers–
+Ramanujan identities, J. Algebra 88 (1984), 196–227.
+30. A. Rocha-Caridi, Vacuum vector representations of the Virasoro algebra, in
+Vertex Operators in Mathematics and Physics, pp. 451–473, Math. Sci. Res.
+Inst. Publ. Vol. 3 (Springer, New York, 1985).
+31. L. J. Rogers, Second memoir on the expansion of certain inﬁnite products, Proc.
+London Math. Soc. 25 (1894), 318–343.
+32. A. V. Stoyanovsky, Lie algebra deformations and character formulas, Funct.
+Anal. Appl. 32 (1998), 66–68.
+33. S. O. Warnaar, Hall–Littlewood functions and the A2 Rogers–Ramanujan iden-
+tities, Adv. Math. 200 (2006), 403–434.
+34. Y. Yeh, On prime power abelian groups, Bull. Amer. Math. Soc. 54 (1948),
+323–327.
+School of Mathematics and Physics, The University of Queensland,
+Brisbane, QLD 4072, Australia
+School of Mathematical and Physical Sciences, University of New-
+castle, Callaghan, NSW 2308, Australia

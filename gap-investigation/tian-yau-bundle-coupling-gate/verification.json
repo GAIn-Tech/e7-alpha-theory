@@ -1,0 +1,39 @@
+{
+  "axiom_reports": [
+    "'BundleCup.terminal_zero_cup' does not depend on any axioms",
+    "'BundleCup.boundary_is_closed' does not depend on any axioms"
+  ],
+  "certificate_replay": 0,
+  "challenge_exit": 0,
+  "hashes": {
+    "Challenge.lean": "c50368b72567d5d8ff47e38896c1223435f5792253ccc3529d0d3b3803d56120",
+    "Formalization.lean": "649763dc73a6bfdac9f581908bc4d02f7292bea06b86ea4f0cf2d7db9ecd8703",
+    "RELEASE_DISCLOSURE.md": "e953879fc560afafaa3e8fe3f7b0414bbb0bd66ce78e4f886c432589494dc2ab",
+    "REPORT.md": "8d4ce25d85ec00107c75843bcc1076120bdb49daf8f4981b8967e9470577be09",
+    "certificate.json": "a5c0d10fe37b8766242bda8dff614dbe8e33c532866bf0c6ea5d70406c95da79",
+    "exact_certificate.py": "0994c7c83bc51ab1bee11c8637c455244ced07e9f23c83c14545fcb96f94e104",
+    "formalization.yaml": "d0810818b75aad9ae850f03268bf62f87eba28e2f22653065c6db608aa6ea0a0",
+    "geometry.json": "1246dbd09c95297e79fa5d24d0ba7a5abd9d45882de12ffc4168ba150e98a198",
+    "verify.py": "48e808d26e19d23427f3206f894a5df5a37141f01cd0ae0b4b0b5698e80624d9"
+  },
+  "lean_exit": 0,
+  "negative_controls": {
+    "exclusive_create": true,
+    "missing": true,
+    "restored": true,
+    "tampered": true
+  },
+  "passed": true,
+  "physical_verdict": {
+    "invariant_polynomial_moduli": 12,
+    "mass_tensor_shape": [
+      12,
+      9,
+      6
+    ],
+    "mass_tensor_zero": true,
+    "potential_missing_d3_source": 12
+  },
+  "python_executable": "C:\\Python313\\python.exe",
+  "scope": "Local exact replay; polynomial subspace only; no hosted CI."
+}

@@ -1,0 +1,1047 @@
+
+--- PAGE 1 ---
+The Jones Polynomial
+Vaughan F.R. Jones ∗
+Department of Mathematics,
+University of California at Berkeley,
+Berkeley CA 94720,
+U.S.A.
+18 August 2005
+1
+Introduction
+A link is a ﬁnite family of disjoint, smooth, oriented or unoriented, closed
+curves in R3 or equivalently S3. A knot is a link with one component. The
+Jones polynomial VL(t) is a Laurent polynomial in the variable
+√
+t which
+is deﬁned for every oriented link L but depends on that link only up to
+orientation preserving diﬀeomorphism, or equivalently isotopy, of R3. Links
+can be represented by diagrams in the plane and the Jones polynomials of
+the simplest links are given below.
+V
+=
+1
+V
+=
+−( 1
+√
+t +
+√
+t)
+V
+=
+t + t3 −t4
+∗Supported in part by NSF Grant DMS 0401734, the NZIMA and the Swiss National
+Science Foundation.
+1
+
+
+--- PAGE 2 ---
+V
+=
+√
+t (1 + t2)
+V
+=
+1
+t2 −1
+t + 1 −t + t2
+The Jones polynomial of a knot (and generally a link with an odd number
+of components) is a Laurent polynomial in t.
+The most elementary ways to calculate VL(t) use the “linear skein theory”
+ideas of [7]. Indeed it is not hard to see by induction that VL(t) is deﬁned
+by its invariance under isotopy, the normalisation V
+(t) = 1 and the skein
+formula
+1
+t VL+ −tVL−= (
+√
+t + 1
+√
+t)VL0
+which holds for any 3 oriented links having diagrams which are identical ex-
+cept near one crossing where they diﬀer as below.
+L
+L
+L
++
+0
+As such the Jones polynomial resembles the Alexander polynomial ∆L(t) of
+[1] which can be calculated in exactly the same manner as VL(t) except that
+the skein relation becomes
+∆L+ −∆L−= (
+√
+t + 1
+√
+t) ∆L0.
+A two variable generalisation PL of both ∆L and VL, sometimes called
+the HOMFLYPT polynomial, was found in [16] and [34]. It satisﬁes the most
+general skein relation
+xPL+ + yPL−+ zPL0 = 0
+2
+
+
+--- PAGE 3 ---
+for homogeneous variables x, y and z.
+The other skein-like deﬁnition of VL was found in [23]. Begin with un-
+oriented link diagrams up to planar istotopy. The Kauﬀman bracket ⟨L⟩of
+such a diagram is calculated using
+⟨
+⟩= A ⟨
+⟩+ A−1⟨
+⟩
+where the ⟨·⟩notation means that the relation may be applied to that part of
+the link diagrams inside the bracket, the rest of the diagrams being identical.
+If ⟨L⟩were to be an invariant of three-dimensional isotopy it is easy to see
+that
+⟨
+⟩= −A2 −A−2
+which further implies
+⟨
+⟩= A−3 ⟨
+⟩
+Thus ⟨L⟩cannot be a 3-dimensional isotopy invariant as such. However if L
+is given an orientation (then called⃗L), a simple renormalisation solves the
+problem and it is true that
+(∗)
+V⃗L(A4) = A−3 writhe (⃗L)⟨L⟩
+where writhe (⃗L) is the sum over the crossings of⃗L of +1 for a positive
+crossing
+
+
+and −1 for a negative crossing
+
+
+.
+The formula (*) is readily proved by induction but a more structural
+proof will be discussed later on, connected with physics. If the crossings in
+a link alternate between over and under as one follows the string around,
+the highest and lowest degree terms in the Kauﬀman bracket can readily
+be located. This led to the proof of some old conjectures about alternating
+knots in [32],[23] and [38].
+The Kauﬀman 2-variable polynomial FL(a, x) is deﬁned in [24] by con-
+sidering the linear skein relation involving all four possibilities at a crossing:
+3
+
+
+--- PAGE 4 ---
+L
+L
+L
++
+0
+L
+8
+.
+This polynomial contains VL(T) as a specialisation but not the Alexander
+polynomial.
+The above polynomials are quite powerful at distinguishing links one from
+another, including links from their mirror images, which corresponds for the
+Jones polynomial to replacing t by t−1. More power can be added to the
+polynomials if simple geometric operations are allowed. “Cabling” entails
+replacing a single strand with several parallel copies and the polynomials of
+cables of a link are also isotopy invariants if attention is paid to the writhe
+of a diagram.
+The following problem, however, is open at the time of writing this article:
+“Does there exist a knot in R3, diﬀerent from the unknot
+, whose
+Jones polynomial is equal to 1?”
+For links with more than one component it is known ([39], [10]) that the
+answer to the corresponding question is yes, the simplest example being:
+One of the reasons that the question above has not been answered is
+presumably that, unlike with the Alexander polynomial, we have little intu-
+itive understanding of the meaning ot the “t” in VL(t). Perhaps the most
+promising theory in this context is in [25] where a complex is constructed
+whose Euler characteristic, in an appropriately graded sense, is the Jones
+polynomial. The homology of the complex is a ﬁner invariant of links known
+as “Khovanov homology”.
+4
+
+
+--- PAGE 5 ---
+2
+Braids
+A braid (see [5]) on n strings is a collection of curves in R3 joining n
+points in a horizontal plane to the n points directly below them on another
+horizontal plane. If the end points of the braid are on a straight line the
+braid can be drawn as in the example below (where n = 4).
+The crucial property of a braid is that the tangent vector to the curves
+can never be horizontal. Braids are considered up to isotopies which are
+supported between the top and bottom planes.
+Braids on n strings form a group, called Bn, under concatenation (plus
+some isotopy) as below:
+α
+=
+β
+=
+→αβ =
+Let σ1, σ2, . . . , σn−1 be the braids below:
+σ1 =
+,
+σ2 =
+,
+· · · , σn−1 =
+5
+
+
+--- PAGE 6 ---
+Artin’s presentation ([5]) of the braid group is on the generators σ1, σ2, . . . , σn−1
+with the relations
+
+σiσi+1σi
+=
+σi+1σiσi+1
+for 1 ≤i ≤n −2
+σiσj
+=
+σjσi
+if |i −j| ≥2
+(3)
+Thus to ﬁnd linear representations of Bn it suﬃces to ﬁnd matrices ρ1, ρ2, . . . , ρn−1
+satisfying (3) (with σ replaced by ρ). One such representation (of dimen-
+sion n) called the (non-reduced) Burau representation is given by the row-
+stochastic matrices
+ρ1 =
+
+
+
+
+
+
+
+1 −t
+t
+0
+0
+. . .
+1
+0
+0
+0
+. . .
+0
+0
+1
+0
+. . .
+...
+...
+...
+...
+...
+0
+0
+0
+. . .
+1
+
+
+
+
+
+
+
+ρ2 =
+
+
+
+
+
+
+
+
+
+1
+0
+0
+0
+. . .
+0
+1 −t
+t
+0
+. . .
+0
+1
+0
+0
+. . .
+0
+0
+0
+1
+. . .
+...
+...
+...
+...
+...
+0
+0
+0
+. . .
+1
+
+
+
+
+
+
+
+
+
+, . . .
+ρn−1 =
+
+
+
+
+
+
+
+1
+0
+. . .
+0
+0
+1
+. . .
+0
+...
+...
+...
+...
+0
+. . .
+1 −t
+t
+0
+. . .
+1
+0
+
+
+
+
+
+
+
+this representation is known not to be faithful for n ≥5 but faithful for
+n ≤3. The case n = 4 remains open. (See [30], [28], [4].)
+Braids can be viewed in several ways, which lead to several generalisa-
+tions. For instance, identifying the vertical axis for a braid with time and
+taking the intersection of horizontal planes with the braids shows that ele-
+ments of Bn can be thought of as motions of n distinct points in the plane.
+Thus it is natural that
+Bn ∼= π1({Cn \ ∆}/Sn)
+when ∆is the set {(z1, . . . , zn)|zi = zj for some i̸ = j} and the symmetric
+group Sn acts freely on Cn \ ∆by permuting coordinates.
+But ∆is the
+zero-set of the frequently encountered function
+Y
+i<j
+(zi −zj)
+6
+
+
+--- PAGE 7 ---
+so the braid group may naturally be generalised as the fundamental group
+of Cn minus the singular set of some algebraic function ([5]). Or, motions of
+points can be extended to motions of the whole plane and a braid deﬁnes a
+diﬀeomorphism of the plane minus n points. Thus the braid group may be
+generalised as the mapping class group of a surface with marked points ([5]).
+3
+The Temperley–Lieb algebra
+If τ ∈C one may deﬁne the algebra TL(n, τ) with identity 1 and gener-
+ators e1, e2, . . . , en−1 subject to the following relations:
+e2
+i = ei
+eiei±1ei = τei
+eiej = ejei
+if |i −j| ≥2.
+Counting reduced words on the ei’s shows that dim{TL(n, τ)} ≤
+1
+n+1
+
+2n
+n
+
+and in [19] it is shown that these numbers, the Catalan numbers, are in-
+deed the dimensions of the Temperley–Lieb algebras. In the obvious way,
+TL(n, τ) ⊆TL(n + 1, τ). If τ −1 is not in the set {4 cos2 qπ; q ∈Q}, TL(n, τ)
+is semisimple and its structure is given by the following Bratelli diagram:
+3
+2
+5
+1
+1
+1
+1
+9
+5
+1
+1
+1
+1
+2
+5
+4
+where the integers on each row are the dimensions of the irreducible represen-
+tations of TL(n, τ) and the diagonal lines give the restriction of representa-
+tions of TL(n, τ) to TL(n−1, τ). These representations are naturally indexed
+by Young diagrams with n boxes and at most two rows:
+with
+7
+
+
+--- PAGE 8 ---
+the diagonal lines in the Bratelli diagram corresponding to removal/addition
+of a box. The dimension of the representation corresponding to the diagram
+whose second row has r boxes (r ≤n), is
+
+n
+r
+
+−
+
+n
+r −1
+
+.
+One may attempt to make TL(n, τ) into a C*-algebra and look for Hilbert
+space representations (with ei̸ = 0), by imposing e∗
+i = ei. From [41] this is
+only possible (for all n) when
+(i)
+τ ∈R, 0 < τ ≤1/4,
+or
+(ii)
+τ −1 ∈{4 cos2 π/m, m = 3, 4, 5, . . .}.
+The proof uses the fact that fn, inductively deﬁned by
+fn+1 = fn −[2]q[n + 1]q
+[n + 2]q
+fnen+1fn,
+must be an orthogonal projection with eifn = fnei = 0 for i ≤n. These fn
+are sometimes called Jones–Wenzl idempotents. (Here τ −1 = 2+q2+q−2 and
+for this and later formulae we deﬁne the quantum integer [n]q = qn −q−n
+q −q−1 .)
+When τ −1 = 4 cos2(π/m), the Hilbert space representations decompose
+according to Bratteli diagrams obtained by truncating—eliminating the 1 on
+the m-th row, and all representations below and to the right of it, so that for
+m = 7 we would obtain
+4
+1
+5
+1
+1
+1
+1
+1
+1
+9
+5
+5
+14
+14
+2
+2
+3
+5
+In terms of Young diagrams this corresponds to only taking those those
+diagrams whose row lengths diﬀer by at most m −2. The existence of these
+Hilbert space representations is from [19].
+8
+
+
+--- PAGE 9 ---
+The Temperley-Lieb algebras arose in [19] as orthogonal projections onto
+subfactors of II1 factors. As such the Hilbert space structure was manifest.
+The trace on a II1 factor also yielded a trace on the TL(n, τ).
+To be precise, there is for each m a unique linear map tr : TL(n, τ) →C
+with:
+(i) tr(1) = 1
+(ii) tr(ab) = tr(ba)
+(iii) tr(xen+1) = τ tr(x)
+for x ∈TL(n + 1, τ).
+This trace may be calculated either from (i), (ii) and (iii), or using the
+representations, as a weighted sum of ordinary matrix traces. The weight for
+the representation of TL(n, τ), the second row of whose Young diagram has
+r boxes, is
+[n −r + 1]q
+([2]q)n
+. Thus if x ∈TL(n, τ) and πr is the
+ n
+r
+
+−
+  n
+r−1
+
+dimensional irreducible
+representation then
+tr(x) =
+1
+(q + q−1)n
+[ n
+2 ]
+X
+r=0
+[n −r + 1]q trace (πr(x)).
+One also has tr(fn) = [n + 2]q
+([2]q)n+1 so that the disappearance of the “1”
+from the Bratteli diagram is mirrored by the vanishing of the trace of the
+corresponding projection.
+Positivity of tr, tr(a∗a) ≥0, is responsible for all the Hilbert space struc-
+ture. To explicitly construct the Hilbert space representations one may use
+the GNS construction: take the quotient of the ∗-algebra by the kernel of
+the form ⟨a, b⟩= tr(b∗a) which makes this quotient a Hilbert space on which
+TL(n, τ) will act with the ei’s as orthogonal projections. Explicit bases can
+be obtained easily if desired, using paths on the Bratteli diagram, or Young
+tableaux.
+A useful diagrammatic presentation of TL(n, τ) was discovered in [23]. A
+(Kauﬀman) TL diagram (for non-negative integers m and n) is a rectangle
+with n marked points on the top and m on the bottom with non-intersecting
+smooth curves inside the rectangle connecting the boundary points as illus-
+trated below.
+9
+
+
+--- PAGE 10 ---
+A (5,7)-diagram
+Two Kauﬀman TL diagrams are considered the same if they connect the
+same pairs of boundary points.
+The vector space TL(m, n, δ) with basis the set of (m, n) diagrams, and
+δ ∈C, becomes a category with this concatenation together with the rule
+that closed curves may be removed, each one counting a (multiplicative)
+factor of δ. We illustrate their product in TL(m, n, δ) below:
+×
+=
+= δ2
+Of special interest is the algebra TL(n, n, δ). If we deﬁne Ei to be the
+diagram below:
+1
+2
+i
+i
+i
+i
+1
+2
++1
++1
+then E2
+i = δEi, EiEi±1Ei = Ei and EiEj = EjEi for |i −j| ≥2. Thus
+provided δ̸ = 0 we have an isomorphism between TL(n, δ−2) and TL(n, n, δ)
+by mapping ei to 1
+δEi.
+One of the nicest features of the Kauﬀman diagrams is that they yield
+simple explicit bases for the irreducible representations. To see this, call a
+curve in a diagram a “through-string” if it connects the top of the rectangle to
+the bottom. Then all (m, n) diagrams are ﬁltered by the number of through-
+strings and if we let TL(m, n, k, δ) be the span of (m, n) diagrams with at
+10
+
+
+--- PAGE 11 ---
+most k through-strings, we have TL(k, n, δ)TL(n, m, k, δ) ⊆TL(k, m, k, δ).
+Thus Vn,m = TL(n, m, m, δ)/TL(n, m, m −1, δ) is a TL(n, δ−2)-module, a
+basis of which is given by (m, n)-diagrams with m through-strings (m ≤n).
+The number of such diagrams is
+ n
+m
+
+−
+ n
+m−1
+
+and it follows from [19] that all
+these representations are irreducible for “generic” δ (i.e. δ̸ ∈{2 cos Qπ}) and
+that they may be identiﬁed with those indexed by Young diagrams as below:
+Vn,m ←→
+←m
+←n −m
+The invariant inner product on Vn,m is deﬁned by ⟨v, w⟩= w∗v for the
+natural identiﬁcation of Vm,m with C (∗is the obvious involution from (m, n)
+diagrams to (n, m) diagrams.)
+4
+The original deﬁnition of VL(t)
+Given a braid β ∈Bn one may form an oriented link ˆβ called the closure
+of β by tying the top of the braid to the bottom as illustrated below:
+β =
+−→ˆβ =
+All oriented links occur in this way ([5]) but if α ∈Bn, αβα−1 and βσ±1
+n
+(in
+Bn+1) have the same closure.
+Theorem 1 (Markov, [5]) Let ∼be the equivalence relation on `∞
+n=1 Bn
+(all braids on any number of strings) generated by the two “moves” β ∼βσ±1
+n
+and β ∼αβα−1. Then β1 ∼β2 if and only if the links ˆβ1 and ˆβ2 are the
+same.
+It is easily checked that, if 1, e1, e2, e3, . . . satisfy the TL relations of §3
+then sending σi to (t+1)ei−1 (with τ −1 = 2+t+t−1) deﬁnes a representation
+11
+
+
+--- PAGE 12 ---
+ρn of Bn inside TL(n, τ) for each n. The representation is unitary for the C*-
+algebra structure when τ −1 = 4 cos2 π/n, n = 3, 4, 5, . . . (and t = e±2πi/n).
+It is an open question whether ρn is faithful for all n. It contains the Burau
+representation as a direct summand.
+Combining the properties of the trace tr deﬁned on TL with Markov’s
+theorem one obtains immediately that, for α ∈Bn, the following function of
+t depends only on ˆα:
+
+−
+√
+t −1
+√
+t
+n−1 √
+t
+−e tr(ρn(α))
+(here e ∈Z is the “exponent sum” of α as a word on σ1, σ2, . . ., σn−1).
+A simple check using the (oriented) skein theoretic deﬁnition of the Jones
+polynomial shows that this function of t is precisely Vˆα(t). This is how VL(t)
+was ﬁrst discovered in [20].
+Although less elementary, this approach to VL(t) does have some advan-
+tages. Let us mention a few.
+(I) One may use representation theory to do calculations. For instance
+using the weighted sum of ordinary traces to calculate tr as in §3 one
+obtains readily the Jones polynomial of a torus knot (i.e.
+ˆα where
+α = (σ1σ2 · · · σp−1)q ∈Bp if p and q are relatively prime). It is
+t
+(p−1)(q−1)
+2
+1 −t2
+(1 −tp+1 −tq+1 −tp+q).
+(II) If one restricts attention to links realisable as ˆα for α ∈Bn for ﬁxed
+n, the computation of Vˆα(t) can be performed in polynomial time as a
+function of the number of crossings in ˆα. Thus one has computational
+access to rather complicated families of links.
+(III) Unitarity of the representation when t = e± 2πi
+n can be used to bound
+the size of |VL(t)|. For instance if α ∈Bk and Vˆα(t) = (−
+√
+t −
+1
+√
+t)k−1
+then α is in the kernel of ρn, and |V ˆβ(e± 2πi
+n )| ≤(2 cos π/n)k−1 for any
+other β ∈Bk.
+The representation of the braid group inside the TL algebra should be
+thought of as an extension of the Jones polynomial to “special knots with
+boundary”.
+The coeﬃcients of the words in the ei’s (or equivalently the
+Kauﬀman TL diagrams) are all invariants of the braid.
+We can further
+12
+
+
+--- PAGE 13 ---
+remove the braid restriction and consider arbitrary knots and links with
+boundary, known as “tangles” ([7]).
+A 3-tangle
+Tangles may be oriented or not and their invariants may be evaluated
+either by reduction to a system of elementary tangles using skein relations
+or by organising the tangle and representing it in an algebra. See [42].
+A similar algebraic approach is available for the HOMFLYPT and Kauﬀ-
+man two-variable polynomials.
+The algebra playing the role of the TL-
+algebra is the Hecke algebra for HOMFLYPT ([16], [21]) and the BMW
+algebra ([6], [31]) for the Kauﬀman polynomial. The BMW algebra was dis-
+covered after the Kauﬀman polynomial in order to provide an analogue of
+the TL and Hecke algebras. For detailed analysis of the Hilbert space and
+other structures for both Hecke and BMW algebras see [45] and [46].
+5
+Connections with statistical mechanics
+One might say that turning a knot into a braid organizes the knot by
+“putting it on a lattice”, thereby creating a physical model with the crossings
+of the knot as interactions. Taking the trace of the braid is evaluating the
+partition function with periodic (vertical) boundary conditions.
+The previous paragraph is more than wishful thinking. The Temperley-
+Lieb algebra arose from transfer matrices in both the Potts and ice-type
+models in two dimensions ([37]) and each “ei” implements the addition of one
+more interaction to the system. (The same ei’s as in the ice-type models were
+rediscovered in the subfactor context in [33].) Thus the Jones polynomial of
+a closed braid is the partition function for a statistical mechanical model on
+the braid. In [19] it is observed that knowledge of the Jones polynomial for a
+family of links called French sinnets would constitute a solution of the Potts
+13
+
+
+--- PAGE 14 ---
+model in 2 dimensions.
+In [37] the TL relations are used to establish the mathematical equivalence
+of the Potts and ice-type (6-vertex) models. In [3] Chapter 12 this equivalence
+is shown for Potts models on an arbitrary planar graph. In view of this it
+is not surprising that statistical mechanical models can be deﬁned directly
+on link diagrams to give explicit formulae for VL(t) (and other invariants) as
+partition functions. This works most easily for the Q-state Potts model.
+Given an unoriented link diagram D, shade the regions of the plane black
+and white and form the planar graph Γ whose vertices are the black regions
+and whose edges are the crossings as below
+      
+
+
+            
+
+
+
+          
+
+
+
+
+         
+
+
+            
+
+
+
+D
+−→
+Γ
+Assign + and −to each edge according to the following scheme:
+            
+
+
+
+
+
+          
+
+
+
+
+−→+
+      
+
+
+
+
+
+            
+
+
+
+
+
+−→−
+Fix Q ∈N and 2 symmetric matrices w±(a, b) for 1 ≤a, b ≤Q. The
+partition function of the diagram is then
+ZD =
+X
+states
+Y
+edges of Γ
+w±(σ, σ′)
+where a “state” is a function from the vertices of Γ to {1, 2, ..., Q} and, given
+an edge of Γ and a state, σ and σ′ denote the values of the state at the ends
+of that edge (w+ and w−are used according to the sign of the edge).
+14
+
+
+--- PAGE 15 ---
+The Potts model is deﬁned by the property that the “Boltzmann weights”
+w±(σ, σ′) depend only on whether σ = σ′ or not. It is a miracle that the
+choice (with Q = 2 + t + t−1)
+w±(σ, σ′) =
+ t±1
+if σ = σ′
+−1
+otherwise
+gives the Jones polynomial of the link deﬁned by D as its partition function
+(up to a simple normalisation). See [22] for details.
+It is natural to look for other choices of w± which give knot invariants.
+The Fateev-Zamolodchikov model ([15]) gives a classical knot invariant but
+besides that (and some variants on the Jones polynomial) there is only one
+other known choice of any interest, discovered in [17]. In this case Q = 100
+and the Boltzmann weights are symmetric under the action of the Higman-
+Sims group on the Higman-Sims graph with 100 vertices. The knot invariant
+is a special value of the Kauﬀman two-variable polynomial.
+The other side of Temperley Lieb equivalence is the “ice-type” model
+which is a vertex model. That is to say the “spins” reside on the edges of
+a graph and the interactions occur at the vertices. To use vertex models
+in knot theory the knot projection D itself is the (four-valent) graph. The
+ice-type model has two spin states per edge so that a state of the system is
+a function from the edges of the graph to the set {±}. And the Bolzmann
+weights are given by two 4 × 4 matrices w±(σ1, σ2, σ3, σ4) where the σ’s are
+±1 and w+ and w−are the contributions of
+2
+σ
+σ
+σ
+σ1
+ 3
+4
+and
+3
+σ
+σ
+σ
+σ
+ 1
+ 2
+4
+to the partition function respectively. Furthermore we may think of a state
+as a locally constant function σ on D so for any f : {±1} →R we may form
+the term
+R
+D f(σ) dθ corresponding to interaction with an external ﬁeld (dθ
+is the curvature or change of angle form on D). Then the partition function
+is
+ZD =
+X
+states
+ 
+Y
+crossings of D
+w±(σ1, σ2, σ3, σ4)
+!
+e
+R
+D f(σ) dθ.
+A (non-physical) specialization of the 6-vertex model yields values of f and
+w± for which ZD is a link invariant equal to VL(t). See [22].
+15
+
+
+--- PAGE 16 ---
+As with the Potts model one may try to generalise to more general w±
+and f. This is much more successful for these “vertex” models than it was
+for models like the Potts model. The theory of quantum groups ([18],[9],[35])
+allows one to obtain link invariants (as partition functions for vertex models)
+for each simple ﬁnite dimensional Lie algebra A and each assignment of an
+irrreducible representation of A to the components of the link. The images
+of the braid generators σi in the corresponding braid group representations
+are called “R-matrices”. It is the Yang-Baxter equation that gives isotopy
+invariance of the partition function. In this way one obtains (by an inﬁnite
+family of one-variable specialisations) the HOMFLYPT polynomial (sln) and
+the Kauﬀman polynomial (orthogonal and symplectic algebras) and more
+polynomials. The geometric operation of cabling corresponds to the tensor
+product of representations.
+6
+Connections with quantum ﬁeld theory.
+Conformal Field Theory. (CFT)
+If ϕ is a (multicomponent) ﬁeld in one chiral half of a 2-dimensional CFT,
+the correlation functions
+⟨ϕ(z1)ϕ(z2)...ϕ(zn)⟩
+(where zi ∈C) are expected to be singular if zi = zj for some i̸ = j,
+holomorphic otherwise and satisfy a linear diﬀerential equation. Thus an-
+alytic continuation should determine a unitary monodromy representation of
+π1(Cn \ {(z1, z2, ..., zn)|zi = zjfor some i̸ = j}) on the vector space of solu-
+tions to the diﬀerential equation near a point. In [40] these representations
+were calculated for the SU(2) WZW model where the diﬀerential equation
+is know as the Khniznik-Zamolodchikov equaiton. The corresponding braid
+group representations were shown to be those obtained in section 4 and ca-
+blings thereof.
+Topological quantum ﬁeld theory. (TQFT)
+In [47] the following formula appears:
+VL(e
+2πi
+k+2) =
+Z
+A
+exp{ i
+ℏ
+Z
+S3 tr(A∧dA+2/3A∧A∧A)}
+Y
+j
+Tr(Pexp
+I
+j
+A)
+[DA]
+Where A ranges over all functions from S3 to the Lie algebra su(2),
+modulo the action of the gauge group SU(2). Also ℏ= π/k and j runs over
+16
+
+
+--- PAGE 17 ---
+the components of the link L, to each of which is assigned an irreducible
+representation of SU(2).
+Parallel transport around a component j using
+A yields the linear map Pexp
+H
+i A whose trace is constant modulo gauge
+transformations. And [DA] is a ﬁctitious diﬀeomorphism invariant measure
+on all A’s modulo gauge transformation.
+There are at least two ways to interpret this formula.
+1) As a solvable TQFT in 2 + 1 dimensions, according to [48],[2]. One is
+then obliged to expand the context and conclude that VL(e
+2πi
+n ) is deﬁned for
+(possibly empty) links in an arbitrary 3-manifold. The TQFT axioms then
+provide an explicit formula for the invariant if the 3-manifold is obtained
+from surgery on a link. in particular the invariant of a 3-manifold without
+a link is a statistical mechanics type sum over assignments of irreducible
+representations of SU(2) to the components of the surgery link. The key
+condition making this sum ﬁnite is that only representations up to a certain
+dimension (determined by n) are allowed. This is the vanishing of the Jones-
+Wenzl idempotent of section 3. This explicit formula was rigourously shown
+to be a manifold invariant in [36]. For a more simple treatment see [27] and
+for the whole TQFT treatment see [14].
+2) As a perturbative QFT. The stationary phase Feynmann diagram tech-
+nique may be applied to obtain the coeﬃcients of the expansion of Witten’s
+formula in powers of ℏor equivalently 1/n. These coeﬃcients are known to
+be “ﬁnite type” or Vassiliev invariants and have expressions as integrals over
+conﬁgurations of points on the link-see [43],[26].
+Algebraic Quantum Field Theory.
+In the Haag-Kastler operator algebraic framework of quantum ﬁeld theory
+([13]), statistics of quantum systems were interpreted in [8] (DHR) in terms of
+certain representations of the symmetric group corresponding to permuting
+regions of space-time. To obtain the symmetric group the dimension of space-
+time needs to be suﬃciently large. It was proposed in [11] that the DHR
+theory should also work in low dimensions with the braid group replacing
+the symmetric group, and that unitary braid group reprsentations deﬁned
+above should be the ones occurring in quantum ﬁeld theory. The “statistical
+dimension” of DHR theory turns up as the square root of the index of a
+subfactor (this connection was clearly established in [29]). The mathematical
+issue of the existence of quantum ﬁelds with braid statistics was established
+in [44] using the language of loop group reprsentations.
+Actual physical
+systems with non-abelian braid statistics have not yet been found but have
+been proposed in [12] as a mechanism for quantum computing.
+The author would like to thank Florence Tsou for her help in preparing
+17
+
+
+--- PAGE 18 ---
+this article.
+References
+[1] Alexander, J. W. Topological invariants of knots and links. Trans. Amer.
+Math. Soc. 30 (1928), no. 2, 275–306.
+[2] Atiyah, Michael Topological quantum ﬁeld theories. Inst. Hautes tudes
+Sci. Publ. Math. No. 68 (1988), 175–186 (1989).
+[3] Baxter, Rodney J. Exactly solved models in statistical mechanics. Aca-
+demic Press, Inc. [Harcourt Brace Jovanovich, Publishers], London,
+1982.
+[4] Bigelow, Stephen The Burau representation is not faithful for n = 5.
+Geom. Topol. 3 (1999), 397–404
+[5] Birman, Joan S. Braids, links, and mapping class groups. Annals of
+Mathematics Studies, No. 82. Princeton University Press, Princeton,
+N.J.; University of Tokyo Press, Tokyo, 1974
+[6] Birman, Joan S.; Wenzl, Hans Braids, link polynomials and a new alge-
+bra. Trans. Amer. Math. Soc. 313 (1989), no. 1, 249–273.
+[7] J.H. Conway An enumeration of knots and links, and some of their
+algebraic properties.Computational Problems in Abstract Algebra (Proc.
+Conf., Oxford, 1967) (1970) 329–358
+[8] Doplicher S, Haag R, Roberts JE (1971, 1974) Local observables and par-
+ticle statistics, I.Commun. Math. Phys. 23 199–230; II.Commun. Math.
+Phys. 35 49–85.
+[9] Drinfeld, V. G. Quantum groups. Proceedings of the International
+Congress of Mathematicians, Vol. 1, 2 (Berkeley, Calif., 1986), 798–820,
+Amer. Math. Soc., Providence, RI, 1987.
+[10] Eliahou, Shalom; Kauﬀman, Louis H.; Thistlethwaite, Morwen B. Inﬁ-
+nite families of links with trivial Jones polynomial. Topology 42 (2003),
+no. 1, 155–169.
+18
+
+
+--- PAGE 19 ---
+[11] Fredenhagen K, Rehren KH, Schroer B (1989) Superselection sectors
+with braid group statistics and exchange algebras,Commun. Math. Phys.
+125 201–226.
+[12] Freedman, Michael H. A magnetic model with a possible Chern-Simons
+phase. With an appendix by F. Goodman and H. Wenzl. Comm. Math.
+Phys. 234 (2003), no. 1, 129–183.
+[13] Haag R (1996) Local Quantum Physics, Springer-Verlag,
+Berlin-
+Heidelberg- New York.
+[14] Blanchet, C.; Habegger, N.; Masbaum, G.; Vogel, P. Topological quan-
+tum ﬁeld theories derived from the Kauﬀman bracket. Topology 34
+(1995), no. 4, 883–927.
+[15] Fateev, V. A.; Zamolodchikov, A. B. Self-dual solutions of the star-
+triangle relations in ZN-models. Phys. Lett. A 92 (1982), no. 1, 37–39.
+[16] Freyd, P.; Yetter, D.; Hoste, J.; Lickorish, W. B. R.; Millett, K.; Oc-
+neanu, A. A new polynomial invariant of knots and links. Bull. Amer.
+Math. Soc. (N.S.) 12 (1985), no. 2, 239–246.
+[17] Jaeger, Franois Strongly regular graphs and spin models for the Kauﬀ-
+man polynomial. Geom. Dedicata 44 (1992), no. 1, 23–52.
+[18] Jimbo, Michio A q-analogue of U(gl(N + 1)), Hecke algebra, and the
+Yang-Baxter equation. Lett. Math. Phys. 11 (1986), no. 3, 247–252.
+[19] Jones V.F.R. (1983) Index for subfactors, Invent. Math. 72, 1-25.
+[20] Jones V.F.R. (1985) A polynomial invariant for knots via von Neumann
+algebras, Bull. Amer. Math. Soc. 12 103–112.
+[21] Jones, V. F. R. Hecke algebra representations of braid groups and link
+polynomials. Ann. of Math. (2) 126 (1987), no. 2, 335–388.
+[22] Jones V (1989) On knot invariants related to some statistical mechanical
+models. Paciﬁc Journal of Mathematics 137: 311–388. series #80. Rhode
+Island: American Mathematical Society.
+[23] Kauﬀman, Louis H. State models and the Jones polynomial. Topology
+26 (1987), no. 3, 395–407.
+19
+
+
+--- PAGE 20 ---
+[24] Kauﬀman, Louis H. An invariant of regular isotopy. Trans. Amer. Math.
+Soc. 318 (1990), no. 2, 417–471.
+[25] Khovanov, Mikhail A categoriﬁcation of the Jones polynomial.Duke
+Math. J. 101 (2000), no. 3, 359–426.
+[26] Bar-Natan, Dror On the Vassiliev knot invariants. Topology 34 (1995),
+no. 2, 423–472.
+[27] Lickorish, W. B. Raymond An introduction to knot theory. Graduate
+Texts in Mathematics, 175. Springer-Verlag, New York, 1997.
+[28] Long, D. D.; Paton, M. The Burau representation is not faithful for
+n ≥6. Topology 32 (1993), no. 2, 439–447.
+[29] Longo R (1989, 1990) Index of subfactors and statistics of quantum
+ﬁelds I, II, Commun. Math. Phys. 126 217–247, 130 285–309.
+[30] Moody, J. A. The Burau representation of the braid group Bn is un-
+faithful for large n. Bull. Amer. Math. Soc. (N.S.) 25 (1991), no. 2,
+379–384.
+[31] Murakami, Jun The representations of the q-analogue of Brauer’s cen-
+tralizer algebras and the Kauﬀman polynomial of links. Publ. Res. Inst.
+Math. Sci. 26 (1990), no. 6, 935–945.
+[32] Murasugi, K. Jones polynomials and classical conjectures in knot the-
+ory.Topology 26 (1987), no. 2, 187–194.
+[33] Pimsner M., Popa S. [1986] Entropy and index for subfactors, Ann.
+scient. Ec. Norm. Sup. 19, 57-106.
+[34] Przytycki, Jzef H.; Traczyk, Pawe lInvariants of links of Conway type.
+Kobe J. Math. 4 (1988), no. 2, 115–139
+[35] Rosso, Marc Groupes quantiques et modles vertex de V. Jones en thorie
+des nœuds. (French) [Quantum groups and V. Jones’s vertex models for
+knots] C. R. Acad. Sci. Paris Sr. I Math. 307 (1988), no. 6, 207–210.
+[36] Reshetikhin, N.; Turaev, V. G. Invariants of 3-manifolds via link poly-
+nomials and quantum groups. Invent. Math. 103 (1991), no. 3, 547–597.
+20
+
+
+--- PAGE 21 ---
+[37] Temperley, H. N. V.; Lieb, E. H. Relations between the ”percolation”
+and ”colouring” problem and other graph-theoretical problems associ-
+ated with regular planar lattices: some exact results for the ”percola-
+tion” problem. Proc. Roy. Soc. London Ser. A 322 (1971), no. 1549,
+251–280.
+[38] Thistlethwaite, Morwen B. A spanning tree expansion of the Jones poly-
+nomial. Topology 26 (1987), no. 3, 297–309.
+[39] Thistlethwaite, Morwen Links with trivial Jones polynomial. J. Knot
+Theory Ramiﬁcations 10 (2001), no. 4, 641–643.
+[40] Tsuchiya, Akihiro; Kanie, Yukihiro Vertex operators in conformal ﬁeld
+theory on P 1 and monodromy representations of braid group. Conformal
+ﬁeld theory and solvable lattice models (Kyoto, 1986), 297–372, Adv.
+Stud. Pure Math., 16, Academic Press, Boston, MA, 1988.
+[41] Wenzl, Hans On sequences of projections. C. R. Math. Rep. Acad. Sci.
+Canada 9 (1987), no. 1, 5–9.
+[42] Turaev, V. G. Quantum invariants of knots and 3-manifolds. de Gruyter
+Studies in Mathematics, 18. Walter de Gruyter & Co., Berlin, 1994.
+[43] Vassiliev, V. A. Cohomology of knot spaces. Theory of singularities and
+its applications, 23–69, Adv. Soviet Math., 1, Amer. Math. Soc., Provi-
+dence, RI, 1990.
+[44] Wassermann, Antony Operator algebras and conformal ﬁeld theory. III.
+Fusion of positive energy representations of LSU(N) using bounded op-
+erators. Invent. Math. 133 (1998), no. 3, 467–538.
+[45] Wenzl, Hans Hecke algebras of type An and subfactors. Invent. Math.
+92 (1988), no. 2, 349–383.
+[46] Wenzl, Hans Quantum groups and subfactors of type B, C, and D.
+Comm. Math. Phys. 133 (1990), no. 2, 383–432.
+[47] Witten, Edward Quantum ﬁeld theory and the Jones polynomial.
+Comm. Math. Phys. 121 (1989), no. 3, 351–399.
+[48] Witten, Edward Topological quantum ﬁeld theory. Comm. Math. Phys.
+117 (1988), no. 3, 353–386.
+21

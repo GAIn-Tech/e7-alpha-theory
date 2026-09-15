@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "native_directory": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\connections\\partitions",
+  "sources_with_exact_quotes": 11,
+  "typed_edges": 18,
+  "certificate_replayed_without_regeneration": true,
+  "source_hashes_and_quote_substrings_verified": true,
+  "formal_kernel_proof": false,
+  "files": {
+    "blackholes.txt": {
+      "bytes": 354284,
+      "sha256": "149296b379a3452eeda5e8c44f5604810d19a447fc826832899971cf00179363"
+    },
+    "certificate.json": {
+      "bytes": 6749,
+      "sha256": "79e3f96ad1499cd27f215fee5f3dc11fc65e841f0fa657c7d5c6fab8ffa27286"
+    },
+    "chiral.txt": {
+      "bytes": 90612,
+      "sha256": "ac3a37a869d3eb8ed3e351f6fb966e70cedd873f268260eabcde8138f988ee9c"
+    },
+    "collect_sources.py": {
+      "bytes": 2498,
+      "sha256": "e21e1eaa92a233d9409404d105f209dc8b9eb6ba9e2c938e30b199ba08179faf"
+    },
+    "dedekind.txt": {
+      "bytes": 57547,
+      "sha256": "902812fce61f6d40ee03b1815a6c19967da15de45f8a62c444a7355b63c2dc57"
+    },
+    "edge_ledger.json": {
+      "bytes": 3863,
+      "sha256": "ce22ccd29037a4809438d53aceb5c51a4914504784cdb452753b115dc42ccf90"
+    },
+    "exact_certificate.py": {
+      "bytes": 5929,
+      "sha256": "c9d1424014f51eb1bd5a03fe79c18126ed7f338672d3f29bf9982e2a6aa37d18"
+    },
+    "execution.txt": {
+      "bytes": 4072,
+      "sha256": "0439476ee06a6a241bf7301654bb4406cee56843ecd0017cb473cffce629e5e8"
+    },
+    "k3.txt": {
+      "bytes": 199864,
+      "sha256": "9f15c787dec5a38902461012bc90d5ea2641a1ab84021170e833985e1e9dfc60"
+    },
+    "ledger.json": {
+      "bytes": 9896,
+      "sha256": "2cc018dd5c62328619901190b4d64e9bae1600dec35bc369a80796ec8b69e88b"
+    },
+    "mocknotes.pdf": {
+      "bytes": 799914,
+      "sha256": "b5003cde7e9898507946acdf5c24906ab1ee2e02d8527c778e5eac3afbd750f2"
+    },
+    "mocknotes.txt": {
+      "bytes": 289195,
+      "sha256": "329e1766e325e045c76725b7595822a651b37842907619bf3712305f3d1b625f"
+    },
+    "narain.txt": {
+      "bytes": 6421,
+      "sha256": "cfa90370239c2247bcc98ae5b1caeb7ffbee7deec75738b18d63a18a52abdc55"
+    },
+    "nimbers.txt": {
+      "bytes": 38153,
+      "sha256": "aa504a18e1cf800045dc219db66d03d27d241ca8f51d1e22c3193ea66766033d"
+    },
+    "prepare_evidence.py": {
+      "bytes": 1977,
+      "sha256": "a5e62cdd9ac8ac607b5a56b81cee65135ae74fb6e6eaed14724a883afd7cff01"
+    },
+    "rademacher.pdf": {
+      "bytes": 295765,
+      "sha256": "ccd3c34721a8f6bc63c7fa3ab46a56ed74e5f1ee6e1d4cf2bef66d40ce970864"
+    },
+    "rademacher.txt": {
+      "bytes": 17984,
+      "sha256": "28dbfd76c5627a50342ae8c941842695e259feafc16e4f5877e3d04dd50cd5bb"
+    },
+    "ramanujan.txt": {
+      "bytes": 21395,
+      "sha256": "9ac426871b6af1b91b4535e09dc07c9cbdc8d90ac30d93407f1e3b4d0136be6f"
+    },
+    "REPORT.md": {
+      "bytes": 25145,
+      "sha256": "4b157011bfd381d57801aa76f3159e2af1f8b8b51819592222f003e325225149"
+    },
+    "retrieval.json": {
+      "bytes": 2690,
+      "sha256": "9d9dd517d51ad611c60025026dc72bb1509db904ffc014d533facb7480a88667"
+    },
+    "selfconjugate.txt": {
+      "bytes": 9758,
+      "sha256": "42bfef8cef252fddb53b22eaa4f709c693a677fd49a9c7ddc29b77dc489a6f82"
+    },
+    "source_evidence.json": {
+      "bytes": 8856,
+      "sha256": "28d203047e2efced973f7587feb242057750d7d91e07bee4127b24e5be867497"
+    },
+    "verify_artifacts.py": {
+      "bytes": 1596,
+      "sha256": "8314c53648d995aa00257f9ee9d5b001f5bb38011819780321b00745556a9929"
+    },
+    "witten.txt": {
+      "bytes": 33709,
+      "sha256": "4ea71fd3eff9671c2a29537be0be509b48dccfaed4095d017c52a9e0b96285f5"
+    }
+  }
+}

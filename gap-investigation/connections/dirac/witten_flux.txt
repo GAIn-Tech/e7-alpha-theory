@@ -1,0 +1,658 @@
+PAGE 1
+arXiv:hep-th/9609122v2  18 Oct 1996
+hep-th/9609122, IASSNS-HEP-96/96
+ON FLUX QUANTIZATION IN M-THEORY
+AND THE EFFECTIVE ACTION
+Edward Witten1
+School of Natural Sciences, Institute for Advanced Study
+Olden Lane, Princeton, NJ 08540, USA
+The quantization law for the antisymmetric tensor ﬁeld of M-theory contains a grav-
+itational contribution not known previously. When it is included, the low energy eﬀective
+action of M-theory, including one-loop and Chern-Simons contributions, is well-deﬁned.
+The relation of M-theory to the E8 × E8 heterotic string greatly facilitates the analysis.
+September, 1996
+1 Research supported in part by NSF Grant PHY-9513835.
+
+PAGE 2
+1. Introduction
+This paper is devoted to explaining some topological points concerning eleven-
+dimensional M-theory. Roughly speaking, we will explain one new physical eﬀect and
+show how it enters in re-interpreting, or avoiding, several potential anomalies.
+The new physical eﬀect involves the three-form C of eleven-dimensional supergravity
+and its ﬁeld strength G = dC. It has been believed that G is constrained precisely by a
+ﬂux quantization law, which says that if G is correctly normalized its periods are integer
+multiples of 2π. As we will see, this is not quite correct.
+For the precise statement, recall ﬁrst that in M-theory we can assume that the space-
+time manifold Y is a spin manifold since spinors exist in the theory.2 For Y a spin manifold,
+the ﬁrst Pontryagin class p1(Y ) is divisible by two in a canonical way. We set
+λ(Y ) = p1(Y )
+2
+.
+(1.1)
+λ in turn may or may not be divisible by two, depending on the topology of Y .
+It turns out that the object that must have integral periods is not G/2π but G/2π −
+λ/2. We denote the cohomology class of G/2π as [G/2π] and we describe the situation by
+saying that
+ G
+2π
+
+−λ
+2 ∈H4(Y, Z).
+(1.2)
+(A perhaps more precise way to say this is that it is not [G/2π] but [G/π] that is well
+deﬁned as an integral cohomology class, and that this class is congruent to λ modulo
+2.) This shift from the naive quantization law is obtained in section two by a very brief
+argument using the relation of M-theory to the E8 × E8 heterotic string [1]. We also give
+a second (and perhaps more precise) derivation of the shift using membrane world-volume
+anomalies. The rest of the paper is devoted to applications of this eﬀect, beginning at the
+end of section two with an application to M-theory on (S1)5/Z2.
+In section three, we reconsider an eﬀect noted recently in compactiﬁcation of M-
+theory to three dimensions [2]. It was shown that standard M-theory compactiﬁcation on
+Y = R3 × X, with X an eight-manifold, is consistent only if X obeys a certain topological
+2 In this paper, we generally assume that Y is orientable, although, as M-theory conserves
+parity (this is one of the points we will re-examine), one could relax this. If Y is unorientable,
+it should carry a “pin” structure rather than a spin structure. We do consider an unorientable
+example at the end of section two.
+1
+
+PAGE 3
+condition. We will see that this condition follows from (1.2). (1.2) implies that G can
+be zero only if λ(X) is divisible by two (in the integral cohomology of X). In [2] (as in
+most discussions of compactiﬁcation), G was set to zero. An inconsistency therefore arises
+unless λ(X)/2 is integral. As we will show in section three, when λ(X)/2 is integral, the
+anomaly found in [2] vanishes.
+What to do when λ(X)/2 is not integral is now clear. One must endow X with a
+suitable non-zero G with half-integral periods of G/2π. Compactiﬁcations with non-zero
+G have not been much studied, but in the case of compactiﬁcation on a Calabi-Yau four-
+fold, there is a very elegant framework [3] for incorporating G in a fashion that preserves
+supersymmetry. (See also [4] for an older example of a diﬀerent sort.) Of course, one can
+turn on (integral) G even if λ/2 is integral, but when λ/2 is non-integral, one must take
+G non-zero.
+Integrality of λ/2 has an attractive interpretation that enters the argument of section
+three: it is equivalent to evenness of the intersection form on H4(X, Z).
+In section four, we move on to a question of which the discussion in section three is
+really a special case: deﬁning the Chern-Simons interactions of the low energy limit of
+M-theory. Thus, the quantization of G means that the C ∧G ∧G interaction of eleven-
+dimensional supergravity is a kind of Chern-Simons coupling. One may wonder whether,
+given the value of the quantum of G, this coupling is correctly normalized so as to be
+single-valued modulo 2π. The answer is “no”; it is too small by a factor of six. To make
+sense of the Chern-Simons interaction requires two ingredients: gravitational corrections
+to the CGG coupling; and some congruences.
+The gravitational corrections come from two sources: a term ﬁrst computed in [5]
+and further studied in [6]; and the λ/2 term in (1.2).
+The necessary congruences are
+potentially baﬄing – unless one knows the relation of M-theory to the E8 × E8 heterotic
+string, which gives them naturally. Putting everything together, we show that the Chern-
+Simons couplings are completely well-deﬁned modulo a term that is independent of G.
+Section ﬁve is devoted to the G-independent term, which turns out to be essential in re-
+solving a longstanding though perhaps relatively little-known puzzle. In 8k+3 dimensions,
+Dirac-like operators have eigenvalues which are real but not necessarily positive. There is
+sometimes [7] (see
+[8-11] for more detail) a Z2 anomaly aﬀecting the sign of a Dirac
+determinant. A case in point is the Rarita-Schwinger operator D of eleven-dimensional
+supergravity. It has inﬁnitely many positive and negative eigenvalues, raising the question
+2
+
+PAGE 4
+of whether the sign of the fermion path integral can be consistently deﬁned. In uncom-
+pactiﬁed eleven-dimensional Minkowski space M 11, there is no problem; this follows from
+the absence of exotic twelve-spheres, which implies that the diﬀeomorphism group of M 11
+is connected, so that there is no “room” for an anomaly. It has not been clear under what
+circumstances the sign of the Rarita-Schwinger determinant can be consistently deﬁned
+after compactiﬁcation.
+In ﬁeld theory, when there is such a Z2 anomaly, it can generally be canceled by
+including a Chern-Simons coupling kLC.S., where LC.S. is a suitable Chern-Simons coupling
+that is well-deﬁned modulo 2π, and k is a half-integer (congruent to 1/2 modulo Z), so
+that eikLC.S. has a sign problem that just cancels the anomaly of det D. The choice of a
+non-zero k, however, violates parity, so this eﬀect is often described as a “parity anomaly.”
+This has led to speculations that eleven-dimensional supergravity or M-theory might have
+a parity anomaly, but this would rule out its relation [1] to the E8 × E8 heterotic string,
+which depends on dividing by an involution that reverses the parity. A parity anomaly
+of M-theory would also have strange implications for other duality statements in string
+theory, as orientation-reversing transformations in M-theory are often mapped to known
+symmetries of string theories.
+In section ﬁve, we resolve these questions.
+Let IM = CGG + gravitational terms
+be the Chern-Simons couplings in the low energy limit of M-theory. The G-dependence
+of eiIM is well-deﬁned, according to our results in section four. However, eiIM has a G-
+independent sign ambiguity, which just equals that of the Rarita-Schwinger determinant
+det D, so that eiIM · det D is well-deﬁned. Since the other massless ﬁelds of M-theory are
+bosons with manifestly well-deﬁned determinants, this completes the demonstration that
+the low energy eﬀective action of M-theory is well-deﬁned.
+Despite this crucial role of the Chern-Simons terms, there is no parity violation. The
+Chern-Simons coupling that cancels the potential anomaly of the Rarita-Schwinger ﬁeld is
+completely parity-invariant, with C and G understood (as usual) to be odd under parity.
+Roughly speaking, G plays the role that is usually played by the Chern-Simons coupling
+k in corresponding 8k + 3-dimensional gauge theories. When λ is not divisible by two,
+one must choose a non-zero G, with half-integral G/2π (just as in the ﬁeld theory one
+chooses a non-zero and half-integral k), and this violates parity. But because G is a ﬁeld
+(while the usual k is a coupling constant) what one has in M-theory is spontaneous parity
+violation by the choice of a particular physical state, rather than explicit parity violation
+of the theory. Notice that, even though G and λ transform oppositely under parity, the
+relation (1.2) is completely parity-invariant; in fact, as λ is integral, it is equivalent to say
+that G/2π −λ/2 is integral or that G/2π + λ/2 is integral.
+3
+
+PAGE 5
+2. Flux Quantization
+2.1. The Boundary Of The Universe
+The shifted quantization condition on G that was described in the introduction is
+easily motivated given the relation [1] of M-theory to the E8 × E8 heterotic string.
+Suppose that the space-time manifold Y has a boundary N. Then, according to [1],
+there are E8 gauge ﬁelds propagating on N.
+An E8 bundle V has a four-dimensional
+characteristic class w(V ) which is associated with the diﬀerential form trF ∧F/16π2. The
+topology of E8 is such that w(V ) is subject to absolutely no restriction except for being
+integral. The characteristic class λ = p1/2 of the tangent bundle of Y is associated with
+the diﬀerential form trR ∧R/16π2. In the second paper in [1], it was determined that the
+boundary values of G are restricted by
+G
+2π
+
+N
+=
+1
+16π2
+
+trF ∧F −1
+2trR ∧R
+
+.
+(2.1)
+At the level of cohomology, this implies that
+ G
+2π
+
+N
+= w(V ) −λ
+2
+(2.2)
+and therefore, since w(V ) is integral, that [G/2π] −λ/2 is integral when restricted to N.
+So the promised relation (1.2) holds, at least when restricted to N.
+Now consider a physicist who is integrating G/2π −λ/2 over a four-cycle S in space-
+time. If anywhere in the universe – maybe 1010 light years away – there is a boundary
+N that contains a four-cycle S′ homologous to S, then from what has just been said, the
+integral over S of G/2π −λ/2 must be integral. If
+R
+S(G/2π −λ/2) were to be non-integral,
+the physicist measuring it would obtain the amazing information that no N and S′ exist,
+at any distance from S, no matter how great. The ability to obtain such information about
+what there is at arbitrarily big distances from the observer seems counterintuitive, so it is
+natural to suspect that the right requirement is that
+R
+S(G/2π −λ/2) is integral whether
+N and S′ exist or not, or in other words (since this is true for all S) that the cohomology
+class [G/2π] −λ/2 is integral. In the rest of this paper it will, hopefully, become clear that
+that is the right interpretation.
+For some additional insight, note that, since the homotopy groups πi(E8) vanish for
+i < 15, except for π3, and since dim N < 16, there is no restriction on the characteristic
+class w(V ) except integrality, and the E8 bundle V over N is completely determined
+4
+
+PAGE 6
+(topologically) by w(V ). The ﬁrst statement means that (2.2) imposes no restriction on G
+except integrality of the restriction to N of [G/2π] −λ/2; this is the basis for an assertion
+made above. The second statement means that, since [G/2π] and λ are determined by their
+restrictions to the interior of space-time, a physicist who has made thorough measurements
+of the physics away from the boundary of space-time can uniquely predict what the E8
+bundle will have to be on the boundary.
+2.2. Membrane Anomalies
+Now we will oﬀer a second and I believe conclusive approach to the same result, based
+on considering world-volume anomalies of M-theory membranes. There is no need here to
+assume that M-theory has “elementary” membranes, whatever those may be. It is only
+necessary that M-theory admits macroscopic membranes. Given this, the path integral in
+the presence of the membrane must be well-deﬁned; this is the issue that we will examine.
+Rather than aiming for generality, I will formulate the argument in a representative
+situation.
+Suppose the eleven-manifold Y contains a submanifold D = S3 × S1.
+We
+consider a membrane whose world-volume T is wrapped over S3 × q, where q is a point in
+S1. We want to determine whether the membrane path integral is single-valued when q
+moves all the way around the S1.
+There are two potentially dangerous factors to consider. One is the “Chern-Simons”
+factor coming from the coupling of the membrane world-volume to C. This factor gives in
+the membrane path integrand a factor
+exp(i
+Z
+T
+C).
+(2.3)
+The change in this factor when q moves once around S1 is
+exp(i
+Z
+D
+G).
+(2.4)
+This factor is 1 if and only if the period of G is a multiple of 2π.
+The second dangerous factor is the path integral over the world-volume fermions on
+T. At this point, therefore, we need some remarks on fermion path integrals. The path
+integral in 8k + 3 dimensions for massless fermions coupled to gauge ﬁelds and gravity is
+naturally real, but can be positive or negative. Potentially, as in [7-11], there can be an
+inconsistency in deﬁning the sign of the fermion path integral. This will happen in our
+problem under some conditions on the embedding of D in Y .
+5
+
+PAGE 7
+In fact, the fermions on the membrane world-volume T are sections of the spin bundle
+of T tensored with the normal bundle N to T in space-time. One has N = O⊕N ′, where O
+– a one-dimensional trivial bundle – is the direction tangent to the S1 factor in D, and N ′
+is the normal bundle to D in space-time. N ′ can be absolutely any Spin(7) bundle. Such a
+bundle has a four-dimensional characteristic class λ(N ′) (equal to p1(N ′)/2). λ(N ′) is equal
+to the restriction of λ(Y ) to D (as the tangent bundle to D has vanishing characteristic
+classes). The considerations of [7-11] show that as q moves once around the S1, the sign
+of the fermion path integral changes by a factor of (−1)
+R
+D λ. What must be single-valued
+is therefore not really (2.4) but
+(−1)
+R
+D λ exp(i
+Z
+D
+G).
+(2.5)
+But this amounts to our main claim: G/2π has a half-integral period on just those cycles
+on which the value of λ is odd.
+The fact that this computation gives the same result as the argument based on bound-
+aries of space-time and E8 × E8 gauge ﬁelds is a satisfying test of quantum M-theory.
+2.3. Application To An Orbifold
+From what we have seen, it will sometimes happens that a half-integral quantum of
+G/2π will be trapped on a four-cycle D in space-time. This is reminiscent of an example
+already considered in the literature, where in M-theory on R5/Z2, a half-integral ﬂux of
+G appeared [12]. To be precise, if D is a four-cycle surrounding the origin in R5/Z2 –
+so D can naturally be taken to be a copy of S4/Z2 = RP4 – then it was found from
+considerations of space-time anomaly cancellation that
+R
+D(G/2π) = 1/2 modulo Z.
+To put this in the present context, we should ﬁrst delete a neighborhood of the origin
+in R5/Z2 – as ﬁeld theory considerations may not be applicable near the singularity. Let
+eR5/Z2 be R5/Z2 with such a neighborhood omitted. Now, eR5/Z2 is not orientable –
+this is the only place in the present paper where we consider an unorientable space-time.
+The diﬀerential form λ can be taken to vanish for eR5/Z2 – as that manifold admits a ﬂat
+metric. So any statement we make will have to involve torsion.
+In any event, for unorientable manifolds, it is unnatural to state a relation between G
+and λ, as the two transform oppositely under reversal of orientation (being respectively odd
+and even). Note, though,3 that in the orientable case, λ is congruent modulo two to the
+3 The following formulation was improved by suggestions by D. Freed.
+6
+
+PAGE 8
+Stieﬀel-Whitney class w4, so that our statement in the orientable case could equivalently
+have been
+Z
+D
+G
+2π = 1
+2
+Z
+D
+w4 modulo Z.
+(2.6)
+This is a way of expressing our result in the orientable case that may carry over better
+to the unorientable case. Indeed, if as above D is a copy of RP4 wrapping around the
+“interior” of eR5/Z2, then a standard computation 4 shows that
+Z
+D
+w4 = 1 modulo 2.
+(2.7)
+(Of course, as Stieﬀel-Whitney classes are mod two classes, the integral only makes sense
+modulo two.)
+Therefore, the result of [12] that an R5/Z2 singularity is the source of
+a half-integral ﬂux of G/2π is actually a consequence of (2.6).
+If one considers other
+somewhat analogous Z2 orbifold singularities studied in M-theory, such as R8/Z2 and
+R9/Z2 considered in [13], a computation as in the footnote shows that w4 = 0, so that no
+half-integral G ﬂux is expected - or found.
+3. Integrality Of The Number Of Branes
+In [2], compactiﬁcation of M-theory on an eight-manifold X was considered. It was
+tacitly assumed that the vacuum expectation value of G was zero.
+The eﬀects of the
+interaction [5,6] C ∧I8(R) (where I8(R) is a certain quartic polynomial in the curvature
+tensor) were considered. If J = −
+R
+X I8(R) is non-zero, one obtains a “tadpole” for the C
+ﬁeld, which must be canceled by including in the vacuum J two-branes. Since the number
+of two-branes must be an integer, the theory is inconsistent unless J is integral.
+It was pointed out in [2] that for X a Calabi-Yau four-fold, J = c4/24 (or equivalently
+J = χ(X)/24, with χ the topological Euler characteristic). Index theorems were used to
+show that c4 is always divisible by six, but explicit examples show that c4 need not be
+divisible by 12 or 24, so that one gets a non-trivial restriction on these compactiﬁcations.
+4 The tangent bundle of eR5/Z2 is a sum of ﬁve copies of an unorientable real line bundle ǫ.
+If x = w1(ǫ), then the total Stieﬀel-Whitney class of eR5/Z2 is (1 + x)5 = 1 + x + x4 + x5. In
+particular, w4(eR5/Z2) = x4. Now restrict this to a copy of D = RP4 ⊂eR5/Z2. The mod two
+cohomology of RP4 is the polynomial ring in x with relation x5 = 0, and in particular x4 is the
+mod two fundamental class of RP4, which integrates to one (modulo two).
+7
+
+PAGE 9
+For a more general eight-manifold, the formula for J, if written in terms of λ = p1/2
+and p2, is
+J = p2 −λ2
+48
+.
+(3.1)
+Now let us assess the integrality of J, using index theorems together with our previous
+considerations. The index of the Dirac operator on X, written in terms of λ and p2, is
+I =
+1
+1440
+ 7λ2 −p2
+
+.
+(3.2)
+Since I is an integer, it follows that
+p2 −λ2 ∼= 6λ2 modulo 1440.
+(3.3)
+Now, if G is to vanish, then according to our shifted ﬂux condition, λ must be divisible
+by two, say λ = 2x with x an integral class. So we can write
+p2 −λ2 ∼= 24x2 modulo 1440.
+(3.4)
+So p2 −λ2 is divisible by 24. Since we need divisibility by 48, we must probe more deeply.
+An extra factor of two arises as follows. Let x be any element of H4(X, Z). Then by
+a special case of the Wu formula,
+x2 ∼= x · λ modulo 2.
+(3.5)
+If, therefore, λ is divisible by two, then x2 is even, and (3.4) implies that (p2 −λ2)/48 is
+integral, showing that the number of branes is integral, as promised. Note that formula
+(3.5) implies that the intersection form on H4(X, Z) is even when λ is divisible by two.
+Since this intersection form is in any case unimodular (by Poincar´e duality), this gives
+another occurrence of even unimodular lattices in string theory.
+The formula (3.5) can be put in the following theoretical context. Let x and y be
+elements of H4(X, Z). Because (x + y)2 is congruent to x2 + y2 modulo two, the function
+f(x) = x2 is a linear function of x modulo two. By Poincar´e duality, there is therefore an
+element α ∈H4(X, Z2) such that for all x ∈H4(X, Z2), x2 ∼= x · α modulo 2. α is called
+the Wu class and in general can be written as a polynomial in Stiefel-Whitney classes. For
+X a spin manifold, so that wi = 0 for i < 4, one has simply α = w4, and this in turn equals
+the mod two reduction of the class λ = p1/2 ∈H4(X, Z), leading to (3.5). We will not
+8
+
+PAGE 10
+attempt here an account of these matters, but instead give a direct proof of (3.5), using
+E8 index theory, in the next section.
+In a similar way, because the function f(x) = x3 is linear in x modulo 3 (that is,
+(x + y)3 ∼= x3 + y3 modulo three), it is natural, if x is for example a four-dimensional class
+in a twelve-dimensional spin manifold W, to have a formula x3 ∼= x · β modulo 3, with
+β some eight-dimensional class. In the next section, we will explain how the existence of
+such a formula is relevant to M-theory, and we will determine β using E8 index theory.
+The computation we did in this section was really a special case of the general question
+of whether the Chern-Simons couplings – the classical CGG coupling and the quantum
+correction CI8(R) – are single-valued. Indeed, non-integrality of the tadpole would mean
+that the CI8(R) coupling is not well-deﬁned modulo 2π upon adding to C a closed form
+with properly normalized periods. In the rest of this paper, we study more systematically
+the well-deﬁnedness of the Chern-Simons couplings.
+4. The Chern-Simons Couplings
+Since G can have non-zero periods, the deﬁnition G = dC is not really valid globally,
+and C is not well-deﬁned as a diﬀerential form. There is therefore some subtlety in deﬁning
+the classical Chern-Simons interaction I =
+R
+Y C ∧G ∧G. This is most naturally accom-
+plished by realizing Y as the boundary of a twelve-dimensional spin manifold Z, extending
+the closed four-form G over Z, 5 and setting I =
+R
+Z G ∧G ∧G. To check whether this is
+well-deﬁned – that is, independent of the choice of Z and of the extension of G – one takes
+two diﬀerent choices, involving twelve-manifolds Z and Z′, each with boundary Y , and one
+tries to show that the corresponding I’s – call them IZ and IZ′ – are equal modulo 2π. If
+Q is the closed twelve manifold obtained by gluing Z′ to Z along their common boundary
+(one takes Z′ and Z with “opposite” orientations so that the orientations ﬁt together to
+an orientation of Q), then
+IZ −IZ′ =
+Z
+Q
+G ∧G ∧G.
+(4.1)
+5 The existence of a twelve-dimensional spin manifold Z over which G extends is ensured by
+a computation by Stong [14]. For later purposes, we want to choose the extension of G to obey
+the shifted quantization condition. Z can be chosen to make this possible. For instance, the
+shifted quantization condition says that [G/π] = λ + 2α where α is some integral class. λ, being
+a characteristic class, automatically extends over Z, and Stong’s theorem means that Z can be
+chosen so that α extends; one can then take G/π = λ + 2α as the deﬁnition of the extension of G.
+9
+
+PAGE 11
+For the Chern-Simons interaction to be well-deﬁned modulo 2π is thus equivalent to the
+requirement that for a closed spin manifold Q, IQ =
+R
+Q G ∧G ∧G is a multiple of 2π.
+One might expect that the quantization law of G would be such as to ensure this, but
+in fact it is not. The actual relation is that, if α is the cohomology class of [G/2π], then
+IQ
+2π = −1
+6
+Z
+Q
+α3.
+(4.2)
+We will see below where this crucial factor of −1/6 comes from in terms of the relation of
+M-theory to the heterotic string. It can also be veriﬁed using a recent careful analysis of
+numerical factors in M-theory [15].
+Since 1/6 = 1/2 −1/3, in analyzing integrality of the right hand side of (4.2), mod
+2 and mod 3 congruences are helpful. The mod 2 congruences one needs are generaliza-
+tions of (3.5), and the mod 3 congruences are possible for a reason suggested toward the
+end of section three. In addition to certain congruences, restoring integrality depends on
+gravitational corrections to the CGG coupling, which are of two kinds. (1) It is not α, but
+α −λ/2, that is integral. (2) One must also include the CI8(R) quantum correction.
+Including the gravitational corrections and working out all of the congruences that
+are relevant in understanding the integrality of IQ/2π would be extremely complicated in
+the absence of some insight about the structure that is appearing here. But the analysis
+is actually made extremely easy by the recognition in [1] that the Chern-Simons couplings
+in eleven dimensions are related to anomalies in E8 supergravity in ten dimensions. They
+are therefore also related to index theory in twelve dimensions. To be more exact, the
+eleven-dimensional Chern-Simons couplings were related in [1] to the anomalies of gluinos
+of one E8 gauge group (rather than E8 × E8) plus half of the anomaly of the dilatino and
+gravitino. Moreover, the gluinos, gravitino, and dilatino are all Majorana-Weyl, so their
+anomalies are half of what one would have for “ordinary” Weyl fermions.
+Introduce on the twelve-manifold Q an E8 bundle V whose characteristic class w(V )
+obeys w = α + λ/2. (V exists and is unique as explained at the end of section 2.1.) The
+shifted ﬂux condition permits w to be an arbitrary four-dimensional class. Let i(E8) be
+the index of the Dirac operator on Q for fermions with values in V (taken in the adjoint
+representation of E8), and let i(R.S.) be the index of the Rarita-Schwinger operator on
+Q. The analysis of the Chern-Simons terms in section 3.1 of [1], as subsequently extended
+[15,16], is equivalent to the assertion that after including the gravitational corrections
+IQ
+2π = i(E8)
+2
++ i(R.S.)
+4
+.
+(4.3)
+10
+
+PAGE 12
+Here i(E8) appears with a factor of 1/2 because of the Majorana-Weyl condition, while
+i(R.S.) has a factor of 1/4 because of the Majorana-Weyl condition plus the fact that we
+want the characteristic class that is related to 1/2 of the gravitino-dilatino anomaly.
+Now, in 8k + 4 dimensions, because of charge conjugation symmetry, the index of the
+Dirac operator with values in a real vector bundle is even. So i(E8)/2 is an integer, but
+i(R.S.)/4 is in general a half-integer. Since the G or w dependence of IQ/2π is entirely in
+i(E8) (the other term is not sensitive to the choice of E8 bundle!), IQ/2π changes by an
+integer under any change of G or w. Thus, we have veriﬁed integrality of IQ/2π up to a
+term that is G-independent. Moreover, in general (4.3) makes it clear that IQ/2π takes
+values in Z/2, with integrality depending only on the value of i(R.S.) modulo four. In the
+next section, we will interpret the meaning of this last, G-independent, potential failure of
+integrality.
+To exhibit the congruences that are implicit here, and also to make clear just how
+much trouble one might have had with this analysis if one did not know the relation of
+M-theory to E8 gauge theory, we will now expand (4.3) explicitly using the index theorem
+(or equivalently, the detailed knowledge of the various Chern-Simons terms) and make
+explicit some of the relevant congruences. We get
+IQ
+2π = −1
+6
+Z
+Q
+
+w −1
+2λ
+ 
+(w −1
+2λ)2 −1
+8(p2 −λ2)
+
+.
+(4.4)
+(Notice that IQ/2π = −(1/6)
+R
+Q w3 modulo gravitational corrections; as w equals α modulo
+a gravitational correction, this is the basis for the assertion that IQ/2π is as given in (4.2)
+modulo gravitational corrections.) Let us see what congruences can be extracted from the
+knowledge that the w-dependent terms are integral. First we consider mod 3 congruences.
+After expanding out the right hand side of (4.4) and dropping terms that do not have
+a 3 in the denominator, the fact that the w-dependent part of IQ/2π is a 3-integer (it can
+be written as a rational number with denominator not divisible by three) turns out to be
+equivalent to the assertion that
+w3 ∼= −(p2 −λ2)w modulo 3.
+(4.5)
+Such a congruence was promised at the end of section three, and enables one to reexpress
+w3/6 (which appears in (4.2)) in terms of w3/2 and a gravitational correction, linear in
+w. If (4.5) were known independently, this would be a step in the direction of analyzing
+integrality of (4.2) without using E8 gauge theory.
+11
+
+PAGE 13
+For an interesting mod 2 congruence, take Q = S1×Y , with Y an eleven-manifold, and
+take w = dθ ·u+v, where dθ is a closed one-form on S1 that integrates to 1, u ∈H3(Y, Z),
+and v ∈H4(Y, Z). Think of IQ/2π as a function of u and v. Since this function changes
+by an integer when w is changed, T(u, v) = (IQ(u, v) −IQ(u, 0) −IQ(0, v) + IQ(0, 0))/2π
+is an integer. But concretely
+T(u, v) = −1
+2
+Z
+Y
+ uv2 −uvλ
+
+.
+(4.6)
+Integrality of this expression for arbitrary u implies that
+v2 ∼= vλ modulo 2
+(4.7)
+for any four-dimensional class v on an eleven-manifold Y . If we specialize to the case that
+Y = S3 × X, with X an eight-dimensional spin manifold and v ∈H4(X, Z), then (4.7)
+reduces to (3.5), giving the promised proof of (3.5) based on E8 index theory.
+For one ﬁnal comment, suppose that λ(Q) is even. Then we can choose an E8 bundle
+on Q with w = λ(Q)/2. For such a bundle, IQ is clearly zero according to (4.4). Hence,
+using (4.3), iR.S. is divisible by four when λ is even. Since that is not so in general, we go on
+in the next section to analyze the signiﬁcance of the fact that IQ/2π may be half-integral.
+Note that the formula (4.4) is completely invariant under reversal of orientation of Q
+(which changes the sign of the index) together with w →λ −w. Of course w →λ −w
+corresponds to G →−G, which customarily accompanies orientation reversal in M-theory.
+5.
+The Rarita-Schwinger Path Integral
+We still must interpret the fact that IQ/2π is half-integral in general. On the other
+hand, there is one more potentially anomalous factor in the low energy eﬀective action of
+M-theory. This is the determinant of the Rarita-Schwinger operator D. We will see that
+the two problems cancel each other.
+As we have already noted in section 2.2, in 8k + 3 dimensions a massless fermion
+path integral is naturally real. This is essentially because the massless Dirac operator is
+hermitean and has real eigenvalues. But (for Majorana fermions) the path integral has no
+natural sign, because there is no natural way to ﬁx the sign of the fermion measure.
+One way, as in [7], to try to deﬁne the determinant of the Rarita-Schwinger operator
+D is to compare det D to the determinant of a massive Rarita-Schwinger operator Dm =
+12
+
+PAGE 14
+D + im. The constant m is odd under parity, as a result of which det Dm is complex.
+Since the mass is a soft perturbation and one can deﬁne det D and det Dm using the same
+fermion measure, the ratio det D/ det Dm is completely well-deﬁned. Then by taking the
+limit as m →∞, one comes, in a sense, as close as one can to getting a natural deﬁnition of
+det D that preserves all the formal properties. However, one gets diﬀerent limits by taking
+m →+∞or m →−∞, so that the parity violation which follows from a choice of sign of
+m survives as |m| →∞. The limits are in fact essentially (up to a sign that depends only
+on the manifold and not on the metric)6
+det D exp(±iIR.S./2).
+(5.1)
+Here the sign of the exponent depends on the sign of m. Also IR.S. is a properly normalized
+Chern-Simons functional, associated with the characteristic class i(R.S.)/2. (We recall that
+i(R.S.), the Rarita-Schwinger index in 8k + 4 dimensions, is even.) Because of the 1/2
+in the exponent, the exponential factor in (5.1) may change sign under some orientation-
+preserving diﬀeomorphism, but any such sign changes precisely cancel sign changes in
+det D, as one can verify using index theory.
+This has led some physicists to suspect over the years that there might be a quantum
+correction to the low energy eﬀective action of M-theory of the form iIR.S./2, or perhaps
+−iIR.S./2, or some other expression that diﬀers from these by properly normalized Chern-
+Simons terms, to cancel the potential sign anomaly of det D. 7 At ﬁrst sight, it seems that
+any such functional would violate the parity-invariance of M-theory, even if one allows the
+freedom to add terms that depend on G as well as the metric. Parity allows only terms
+odd in C and G (namely our friends CGG and CI8(R)); how can these terms, which
+vanish at G = 0, help with a problem – the sign of det D – that persists at G = 0?
+But the shift in the quantization law of G that we have uncovered makes it just possible
+to ﬁnd a parity-invariant Chern-Simons-like interaction whose diﬀerence from IR.S./2 is
+properly normalized. The interaction with this property is our friend, the Chern-Simons
+interaction of M theory, schematically IM = CGG + CI8(R). This is clear from (4.3):
+6
+A more precise result in which also this overall manifold-dependent sign is ﬁxed can be
+obtained by using the eta invariant instead of Chern-Simons, as in [10,11]. This reﬁnement is not
+important in studying M-theory on any given manifold, but would be important in comparing
+M-theory on diﬀerent manifolds, for instance in order to analyze gravitational instantons.
+7 For example, see a brief comment in [17].
+13
+
+PAGE 15
+IQ/2π diﬀers from i(R.S.)/4 by an integer, so IM, which is the Chern-Simons coupling
+derived from IQ/2π, diﬀers from IR.S./2 by a properly normalized Chern-Simons coupling
+(derived from i(E8)/2). The ability to “have our cake and eat it too,” to cancel the sign
+ambiguity of det D with a Chern-Simons interaction and still maintain parity conservation,
+depends on the fact that, as G must be congruent to λ/2 mod two, one cannot set G to zero
+(unless λ is even, in which case, as we saw at the end of section four, i(R.S.) is divisible by
+four and the problem vanishes). Related to this, symmetry under reversal of orientation
+is rather hidden in (4.3); it acts in the peculiar fashion w →λ −w (which is manifest
+when (4.3) is expanded to get (4.4)). Of course that transformation law comes from the
+classical parity transformation law G →−G of M-theory, together with the shift in the
+ﬂux quantization law of G.
+I am grateful to D. Freed and J. Morgan for helpful explanations of some topological
+points.
+14
+
+PAGE 16
+References
+[1]
+P. Horava and E. Witten, “Heterotic And Type I String Dynamics From Eleven Di-
+mensions,” Nucl. Phys. B460 (1996) 506, hepth/9510209; “Eleven-Dimensional Su-
+pergravity On A Manifold With Boundary,” hepth/9603142.
+[2]
+S. Sethi, C. Vafa, and E. Witten, “Constraints On Low-Dimensional String Compact-
+iﬁcations,” hepth/9606122.
+[3]
+K. Becker and M. Becker, “M-Theory On Eight-Manifolds,” hepth/9605053.
+[4]
+M. J. Duﬀ, B. E. W. Nilsson, and C. N. Pope, “Spontaneous Supersymmetry Breaking
+By The Squashed Seven Sphere,” Phys. Rev. Lett. 50 (1983) 2043.
+[5]
+C. Vafa and E. Witten, “A One-Loop Test Of String Duality,” Nucl. Phys. B447
+(1995), hep-th/9505053.
+[6]
+M. J. Duﬀ, J. T. Liu, and R. Minasian, “Eleven-Dimensional Origin Of String/String
+Duality: A One Loop Test,” hepth/9506126.
+[7]
+L. Alvarez-Gaum´e and E. Witten, “Gravitational Anomalies,” Nucl. Phys. B234
+(1983) 269; see p. 309.
+[8]
+A. N. Redlich, “Gauge Non-Invariance And Parity Nonconservation Of Three-
+Dimensional Fermions,” Phys. Rev. Lett. 52 (1984) 18.
+[9]
+A. J. Niemi and G. W. Semenoﬀ, “Axial-Anomaly-Induced Fermion Fractionalization
+And Eﬀective Gauge Theory Action In Odd Dimensional Space-Times,” Phys. Rev.
+Lett. 51 (1983) 2077.
+[10]
+L. Alvarez-Gaum´e, S. Della Pietra, and G. Moore, “Anomalies And Odd Dimensions,”
+Ann. Phys. 163 (1985) 288.
+[11]
+I. M. Singer, “Families Of Dirac Operators With Applications To Physics,” in The
+Mathematical Heritage Of Elie Cartan, Asterisque (1985) 323.
+[12]
+E. Witten, “Five-Branes And M-Theory On An Orbifold,” hepth/9512219.
+[13]
+K. Dasgupta and S. Mukhi, “Orbifolds Of M-Theory,” hepth/9512196.
+[14]
+R. Stong, “Calculation Of Ωspin
+11 (K(Z, 4)),” in Uniﬁed String Theories, eds. M. B.
+Green and D. J. Gross (World Scientiﬁc, 1986).
+[15]
+S. De Alwis, “Anomaly Cancellation In M-Theory,” hepth/9609211.
+[16]
+S. de Alwis, “A Note On Brane Tension And M-Theory,” hepth/9607011.
+[17]
+M. J. Duﬀ, “E8 × SO(16) Symmetry of d = 11 Supergravity?” in Quantum Field
+Theory And Quantum Statistics, eds. I. A. Batalin, C. J. Isham, and G. A. Vilkoviski
+(Adam Hilger, Ltd., Bristol, 1987), vol. 2., p, 209.
+15

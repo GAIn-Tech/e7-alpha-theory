@@ -1,0 +1,223 @@
+{
+  "A_model_charged_cubic": {
+    "Z3_character_sums": [
+      "3",
+      "0",
+      "0"
+    ],
+    "bounded_counts_not_complete_degree_two": true,
+    "cubic_all_B_gradients_on_branch": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "curve10_beta_tensor_nonzero": {
+      "000": 1
+    },
+    "curve_01": "b1_0*b1_4*b1_8 - b1_0*b1_5*b1_7 - b1_1*b1_3*b1_8 + b1_1*b1_5*b1_6 + b1_2*b1_3*b1_7 - b1_2*b1_4*b1_6",
+    "curve_10": "b0_0*b0_4*b0_8 - b0_0*b0_5*b0_7 - b0_1*b0_3*b0_8 + b0_1*b0_5*b0_6 + b0_2*b0_3*b0_7 - b0_2*b0_4*b0_6",
+    "curve_11": "b0_0*b0_4*b0_8 + b0_0*b0_4*b1_8 - b0_0*b0_5*b0_7 - b0_0*b0_5*b1_7 - b0_0*b0_7*b1_5 + b0_0*b0_8*b1_4 + b0_0*b1_4*b1_8 - b0_0*b1_5*b1_7 - b0_1*b0_3*b0_8 - b0_1*b0_3*b1_8 + b0_1*b0_5*b0_6 + b0_1*b0_5*b1_6 + b0_1*b0_6*b1_5 - b0_1*b0_8*b1_3 - b0_1*b1_3*b1_8 + b0_1*b1_5*b1_6 + b0_2*b0_3*b0_7 + b0_2*b0_3*b1_7 - b0_2*b0_4*b0_6 - b0_2*b0_4*b1_6 - b0_2*b0_6*b1_4 + b0_2*b0_7*b1_3 + b0_2*b1_3*b1_7 - b0_2*b1_4*b1_6 + b0_3*b0_7*b1_2 - b0_3*b0_8*b1_1 - b0_3*b1_1*b1_8 + b0_3*b1_2*b1_7 - b0_4*b0_6*b1_2 + b0_4*b0_8*b1_0 + b0_4*b1_0*b1_8 - b0_4*b1_2*b1_6 + b0_5*b0_6*b1_1 - b0_5*b0_7*b1_0 - b0_5*b1_0*b1_7 + b0_5*b1_1*b1_6 + b0_6*b1_1*b1_5 - b0_6*b1_2*b1_4 - b0_7*b1_0*b1_5 + b0_7*b1_2*b1_3 + b0_8*b1_0*b1_4 - b0_8*b1_1*b1_3 + b1_0*b1_4*b1_8 - b1_0*b1_5*b1_7 - b1_1*b1_3*b1_8 + b1_1*b1_5*b1_6 + b1_2*b1_3*b1_7 - b1_2*b1_4*b1_6",
+    "first_transverse_quadratic_about_branch": "D_0*D_4*dy*v - D_0*D_7*dx*u - D_1*D_3*dy*v + D_1*D_6*dx*u",
+    "normalization": "Each polynomial multiplied by an unspecified common holomorphic field/vertex normalization and its actual exp(-area+iB) weight; isolated simple curve local GW multiplicity +1. Not a numerical string Pfaffian.",
+    "primitive_bounded_orbit_counts": {
+      "01": 27,
+      "10": 27,
+      "11": 189
+    },
+    "selected_orbit_cover_sum": "3 det(B0) times cover normalization; quotient projection divides orbit multiplicity, not three distinct downstairs curves",
+    "transverse_cubic": "D_0*D_4*D_8 - D_0*D_5*D_7 - D_1*D_3*D_8 + D_1*D_5*D_6 + D_2*D_3*D_7 - D_2*D_4*D_6"
+  },
+  "claim_boundary": "Computed actual curve restrictions and standard-embedding divisor charged-cubic insertion polynomial and its transverse Hessian. Full charged E8 zero-mode lifting family, mixed insertions and finite-field Pfaffian remain UNCOMPUTED. No full-W F-flatness, stabilization or alpha prediction.",
+  "input_hashes": {
+    "frozen/tian-yau-actual-survivor-coupling-gate/REPORT.md": "c29038ff31dac427c8bead3fdc776e13b9736644a45f33ac3c3fc6d8d8edfc0f",
+    "frozen/tian-yau-actual-survivor-coupling-gate/module-action.json": "f1f51a94dd5e54e438d2de3b9dc11c62a88f782cd26e11ac81e3cbddce5e6a7e",
+    "frozen/tian-yau-actual-survivor-coupling-gate/serre-tensor.json": "1c306fc44846b44650dad96e0eb8fa027a59eb56def4af3d4c576c9bb540a1cd",
+    "frozen/tian-yau-flavor-higgs-consistency-gate/REPORT.md": "59d4f2e4d6fa1ed478867e9adddde6a24bffb0e540a0e8f7447b7b927bc2e610",
+    "frozen/tian-yau-flavor-higgs-consistency-gate/certificate.json": "ee714241c3c2483378afe2cb2a9112ce0075bcea3b015c640d12fcebbf0a6468",
+    "frozen/tian-yau-worldsheet-instanton-gate/REPORT.md": "9c709b2c22c9c57bed5908a0331f4bd18202ec4d5bcd308dc90318a6e9167fa2",
+    "frozen/tian-yau-worldsheet-instanton-gate/certificate.json": "bb546def07082e151616dace2fcc14c437e82d8c0ba150ac2d410cdba64efbd5",
+    "frozen/tian-yau-worldsheet-instanton-gate/exact_certificate.py": "a671367ab2f22d7af53c07b29de03800f8fc539ddc7674c81917c2ac33518d5e",
+    "frozen/tian-yau-worldsheet-instanton-gate/verify.py": "7bebc818530af893a8566757314b0efe37fb7384738a4e92d95a3ce28eae7a4d",
+    "sources/yukawa.md": "7af6f5bd6b68dcd602d217b9d2ed03b2ca321cb9b48290eb60e9f21be121fbc4"
+  },
+  "neutral_restricted_End_map": {
+    "actual_universal_cech_classes": [
+      "a/z + b/z**2",
+      "c/z + d/z**2"
+    ],
+    "determinant": "a*d - b*c",
+    "matrix": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "d"
+      ]
+    ],
+    "physical_boundary": "This local End restriction is not an identified image of the global neutral basis and is NOT c/beta charged Higgs map.",
+    "source": "H0(O(1)) basis 1,z",
+    "target": "H1(O(-2))^2 basis z^-1 in each summand"
+  },
+  "orbit": [
+    {
+      "c0_global_primitive_x": [
+        "0",
+        "0",
+        "t/6",
+        "t/6"
+      ],
+      "c0_global_primitive_y": [
+        "0",
+        "0",
+        "1/6",
+        "-1/6"
+      ],
+      "c_restrictions": [
+        "t**3",
+        "-t**3"
+      ],
+      "label": [
+        [
+          0,
+          0,
+          0
+        ],
+        0
+      ],
+      "x": [
+        "-s",
+        "s",
+        "-t",
+        "t"
+      ],
+      "y": [
+        "-1",
+        "-1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "c0_global_primitive_x": [
+        "0",
+        "0",
+        "t*w/6",
+        "t*w/6"
+      ],
+      "c0_global_primitive_y": [
+        "0",
+        "0",
+        "-w/6 - 1/6",
+        "w/6 + 1/6"
+      ],
+      "c_restrictions": [
+        "t**3",
+        "-t**3"
+      ],
+      "label": [
+        [
+          0,
+          1,
+          0
+        ],
+        1
+      ],
+      "x": [
+        "-s",
+        "-s*w - s",
+        "-t*w",
+        "t*w"
+      ],
+      "y": [
+        "-1",
+        "-w",
+        "-w - 1",
+        "-w - 1"
+      ]
+    },
+    {
+      "c0_global_primitive_x": [
+        "0",
+        "0",
+        "-t*w/6 - t/6",
+        "-t*w/6 - t/6"
+      ],
+      "c0_global_primitive_y": [
+        "0",
+        "0",
+        "w/6",
+        "-w/6"
+      ],
+      "c_restrictions": [
+        "t**3",
+        "-t**3"
+      ],
+      "label": [
+        [
+          0,
+          2,
+          0
+        ],
+        2
+      ],
+      "x": [
+        "-s",
+        "s*w",
+        "t*w + t",
+        "-t*w - t"
+      ],
+      "y": [
+        "-1",
+        "w + 1",
+        "w",
+        "w"
+      ]
+    }
+  ],
+  "passed": true,
+  "predecessor_replay": "unchanged exact source; original receipt compared with regenerated temporary payload; no predecessor writes",
+  "restricted_cocycles": {
+    "beta0": "1/z",
+    "beta1": "0",
+    "c0": "J(global vx,vy)=(t^3,0,0), hence zero in H1(TX|C)",
+    "c1": "negative c0 restriction with negative primitive",
+    "normalization": "Euler dlog convention; beta0 trace on C = +1"
+  },
+  "splitting": {
+    "TX": [
+      2,
+      -1,
+      -1
+    ],
+    "TX_spin": [
+      1,
+      -2,
+      -2
+    ],
+    "TXdual_spin": [
+      -3,
+      0,
+      0
+    ],
+    "h0_TX_spin": 2,
+    "h0_TXdual_spin": 2,
+    "h1_TX_spin": 2
+  }
+}

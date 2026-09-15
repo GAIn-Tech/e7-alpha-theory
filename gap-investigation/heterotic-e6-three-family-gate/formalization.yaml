@@ -1,0 +1,24 @@
+schema_version: 1
+name: heterotic-e6-three-family-gate
+review_status: self-assessed; not independently peer reviewed
+formal_scope: >-
+  Peano-natural triple replication injectivity; conditional degree-three cover
+  index magnitude cancellation; zero-index preservation; nonzero witness.
+external_premises:
+  - smooth Calabi-Yau geometry and free Z3 action
+  - cohomology, weak and holomorphic Lefschetz theorems
+  - HRR and multiplicativity under finite etale covers
+  - tangent bundle descent and spin structure
+  - Ricci-flat metric existence and HYM standard embedding
+  - heterotic action and perturbative interpretation
+kernel: Lean 4.32.1, prelude only, no Init or Mathlib
+project_axioms: []
+automation: >-
+  AI-assisted source research, proof/code/report writing; exact standard-library
+  Python root and Chern arithmetic; native Lean kernel checks. No generated
+  geometry theorem or automated physical-vacuum derivation.
+local_gate: python -B verify.py --verify
+hosted_ci: not run
+physical_boundary: >-
+  Sourced standard embedding with nine 27 and six conjugate 27, net three;
+  identity Wilson line, no MSSM claim, no stabilization, no alpha fit.

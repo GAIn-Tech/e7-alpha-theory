@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/pdf/hep-th/0110073",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "observe that the presence and the structure of the anomalies that we have fou",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/pdf/hep-th/0202144",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "n the cases of fermi",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/hep-th/0103135",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "ing (2.8), we can compute the matrix element of ∂µJµ. Only the",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://arxiv.org/html/1001.4074v3",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "two oppositely charged chiral superfields",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://par.nsf.gov/servlets/purl/10635146",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "E6 admits complex representations",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

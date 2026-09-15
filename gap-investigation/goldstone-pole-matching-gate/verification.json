@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "scope": "Read-only replay of predecessor IR matching/soft tadpole/Gaussian obstruction and new leading momentum matching. Numerical integrals and tensors are not Lean or interval proofs.",
+  "replays": [
+    {
+      "calculation": "ir-resummed-vacuum-gate/resummation.py",
+      "exit_code": 0,
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\ir-resummed-vacuum-gate_resummation.py.log",
+      "log_sha256": "16d27482705de1ce86091f11a24e5d54072744a517e1ffaa03eb8380abcc68da"
+    },
+    {
+      "calculation": "ir-resummed-vacuum-gate/soft_tadpole.py",
+      "exit_code": 0,
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\ir-resummed-vacuum-gate_soft_tadpole.py.log",
+      "log_sha256": "7dffd36c09a446ef0c21e48de1bc98ff3dd4a1239f8fb5824917dce02ad11989"
+    },
+    {
+      "calculation": "ir-resummed-vacuum-gate/calculation.py",
+      "exit_code": 0,
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\ir-resummed-vacuum-gate_calculation.py.log",
+      "log_sha256": "25ad34a37ce8847c2607dfd088ba9da65cb1a342cf19cba029b6d44c4e28a7c2"
+    },
+    {
+      "calculation": "goldstone-pole-matching-gate/calculation.py",
+      "exit_code": 0,
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\goldstone-pole-matching-gate_calculation.py.log",
+      "log_sha256": "cf9c6aaf8a577e4d21c03410f960164ad4f5fde9d6ffeef017b7b56fe7630102"
+    }
+  ],
+  "original_receipts_preserved": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\receipt.json": "483b8d067d658af382bbf448956c1267bd26478ae7464d20c61c21f28dabea93",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\resummation-receipt.json": "daa49f0b7989c9432a6068a9f6566a8907fbb383aa01bac6e7941d58bbf29d00",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\soft-tadpole-receipt.json": "7ca85c93c096c87078a4ad74cadf5e03f0423032cf114ecf946de87ff4e0256d",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\projected-tensors.json": "9a98ad7193caa6b7397aeac2473bed727361099eab266af324503234c734f1db"
+  },
+  "artifact_sha256": {
+    "receipt.json": "fb585e9892d9778bfec39bd9e782e52e317909cab45c15dc2d22905867ec2446",
+    "tensors.json": "65e90a7d6c73d90c06e6108bb3b5cf1097712dfb6d5227b1c7bdd19f4863449b",
+    "transverse-trilinears.npy": "c76114309870dbc2fd50f04051946f92b69bd905a1c5f82e4d290b2431f47ff4",
+    "calculation.py": "9d10b6062bb478df15f587d710332b0ebddc289aefa443fcf7c767315ef8237e",
+    "REPORT.md": "80b776b74980269c5737c4aa39536b96df833dea989032383e140def4e9ffd3e",
+    "SOURCE_NOTES.md": "5cb753f65fc847fe9488e7f3a1cf5485cbb68061112e82c3f07eb4581ef4817f",
+    "primary-source-excerpts.txt": "a6b47e2d2378234d31a2951869590f30a417f6a7c8fa924594f75b1f6b0cbe6c",
+    "RELEASE_DISCLOSURE.md": "3bd950fe54244dace8cbc9e1597a93a585e45ad6ad00df63749ece88c03cbd7b",
+    "run_checks.py": "e0124d9f2e5805fcc56994a482092e257e6f5fa9e82c5afd9374be2979f1c8d6"
+  }
+}

@@ -1,0 +1,2238 @@
+{
+  "E1_End_characters": {
+    "-1,2": [
+      80,
+      72,
+      72
+    ],
+    "-1,3": [
+      64,
+      56,
+      56
+    ],
+    "-2,2": [
+      16,
+      12,
+      12
+    ],
+    "-2,3": [
+      38,
+      34,
+      34
+    ],
+    "0,0": [
+      19,
+      10,
+      10
+    ],
+    "0,1": [
+      4,
+      4,
+      4
+    ],
+    "0,2": [
+      4,
+      4,
+      4
+    ],
+    "0,3": [
+      19,
+      10,
+      10
+    ],
+    "1,0": [
+      64,
+      56,
+      56
+    ],
+    "1,1": [
+      80,
+      72,
+      72
+    ],
+    "2,0": [
+      38,
+      34,
+      34
+    ],
+    "2,1": [
+      16,
+      12,
+      12
+    ]
+  },
+  "Ext1_E1_diagonal": {
+    "-1,2": [
+      80,
+      72,
+      72
+    ],
+    "-2,3": [
+      38,
+      34,
+      34
+    ],
+    "0,1": [
+      4,
+      4,
+      4
+    ],
+    "1,0": [
+      64,
+      56,
+      56
+    ]
+  },
+  "Ext1_diagonal_line_summands": [
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A0",
+      "target": "B0"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A0",
+      "target": "B1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A0",
+      "target": "B2"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A0",
+      "target": "B3"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A0",
+      "target": "B4"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A0",
+      "target": "B5"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A0",
+      "target": "B6"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A0",
+      "target": "B7"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A1",
+      "target": "B0"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A1",
+      "target": "B1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A1",
+      "target": "B2"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "A1",
+      "target": "B3"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A1",
+      "target": "B4"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A1",
+      "target": "B5"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A1",
+      "target": "B6"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "A1",
+      "target": "B7"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        0,
+        1
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B0",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        0,
+        1
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B0",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        3,
+        3,
+        4
+      ],
+      "line_degree": [
+        2,
+        0
+      ],
+      "source": "B0",
+      "target": "C0"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "B0",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        1,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B1",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        1,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B1",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        3,
+        4,
+        3
+      ],
+      "line_degree": [
+        2,
+        0
+      ],
+      "source": "B1",
+      "target": "C0"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "B1",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B2",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B2",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        4,
+        3,
+        3
+      ],
+      "line_degree": [
+        2,
+        0
+      ],
+      "source": "B2",
+      "target": "C0"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "B2",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B3",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "B3",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        4,
+        3,
+        3
+      ],
+      "line_degree": [
+        2,
+        0
+      ],
+      "source": "B3",
+      "target": "C0"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        1
+      ],
+      "source": "B3",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        1,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B4",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        1,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B4",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "B4",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        3,
+        4,
+        3
+      ],
+      "line_degree": [
+        0,
+        2
+      ],
+      "source": "B4",
+      "target": "C2"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        0,
+        1
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B5",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        0,
+        1
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B5",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "B5",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        3,
+        3,
+        4
+      ],
+      "line_degree": [
+        0,
+        2
+      ],
+      "source": "B5",
+      "target": "C2"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B6",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B6",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "B6",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        4,
+        3,
+        3
+      ],
+      "line_degree": [
+        0,
+        2
+      ],
+      "source": "B6",
+      "target": "C2"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B7",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "B7",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        1,
+        0
+      ],
+      "source": "B7",
+      "target": "C1"
+    },
+    {
+      "bidegree": [
+        1,
+        0
+      ],
+      "characters": [
+        4,
+        3,
+        3
+      ],
+      "line_degree": [
+        0,
+        2
+      ],
+      "source": "B7",
+      "target": "C2"
+    },
+    {
+      "bidegree": [
+        -2,
+        3
+      ],
+      "characters": [
+        7,
+        6,
+        6
+      ],
+      "line_degree": [
+        -3,
+        0
+      ],
+      "source": "C0",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -2,
+        3
+      ],
+      "characters": [
+        7,
+        6,
+        6
+      ],
+      "line_degree": [
+        -3,
+        0
+      ],
+      "source": "C0",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        -2,
+        0
+      ],
+      "source": "C0",
+      "target": "B0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        -2,
+        0
+      ],
+      "source": "C0",
+      "target": "B1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        -2,
+        0
+      ],
+      "source": "C0",
+      "target": "B2"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        -2,
+        0
+      ],
+      "source": "C0",
+      "target": "B3"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        -3,
+        1
+      ],
+      "source": "C0",
+      "target": "B4"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        -3,
+        1
+      ],
+      "source": "C0",
+      "target": "B5"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        -3,
+        1
+      ],
+      "source": "C0",
+      "target": "B6"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        -3,
+        1
+      ],
+      "source": "C0",
+      "target": "B7"
+    },
+    {
+      "bidegree": [
+        -2,
+        3
+      ],
+      "characters": [
+        5,
+        5,
+        5
+      ],
+      "line_degree": [
+        -1,
+        -1
+      ],
+      "source": "C1",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -2,
+        3
+      ],
+      "characters": [
+        5,
+        5,
+        5
+      ],
+      "line_degree": [
+        -1,
+        -1
+      ],
+      "source": "C1",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        1,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "C1",
+      "target": "B0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        0,
+        1
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "C1",
+      "target": "B1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "C1",
+      "target": "B2"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        0,
+        -1
+      ],
+      "source": "C1",
+      "target": "B3"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        0,
+        1
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "C1",
+      "target": "B4"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        0,
+        1,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "C1",
+      "target": "B5"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "C1",
+      "target": "B6"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        0,
+        0
+      ],
+      "line_degree": [
+        -1,
+        0
+      ],
+      "source": "C1",
+      "target": "B7"
+    },
+    {
+      "bidegree": [
+        0,
+        1
+      ],
+      "characters": [
+        2,
+        2,
+        2
+      ],
+      "line_degree": [
+        2,
+        -1
+      ],
+      "source": "C1",
+      "target": "C0"
+    },
+    {
+      "bidegree": [
+        0,
+        1
+      ],
+      "characters": [
+        2,
+        2,
+        2
+      ],
+      "line_degree": [
+        -1,
+        2
+      ],
+      "source": "C1",
+      "target": "C2"
+    },
+    {
+      "bidegree": [
+        -2,
+        3
+      ],
+      "characters": [
+        7,
+        6,
+        6
+      ],
+      "line_degree": [
+        0,
+        -3
+      ],
+      "source": "C2",
+      "target": "A0"
+    },
+    {
+      "bidegree": [
+        -2,
+        3
+      ],
+      "characters": [
+        7,
+        6,
+        6
+      ],
+      "line_degree": [
+        0,
+        -3
+      ],
+      "source": "C2",
+      "target": "A1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        1,
+        -3
+      ],
+      "source": "C2",
+      "target": "B0"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        1,
+        -3
+      ],
+      "source": "C2",
+      "target": "B1"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        1,
+        -3
+      ],
+      "source": "C2",
+      "target": "B2"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        7,
+        7,
+        7
+      ],
+      "line_degree": [
+        1,
+        -3
+      ],
+      "source": "C2",
+      "target": "B3"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        1,
+        2
+      ],
+      "line_degree": [
+        0,
+        -2
+      ],
+      "source": "C2",
+      "target": "B4"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        1,
+        2,
+        1
+      ],
+      "line_degree": [
+        0,
+        -2
+      ],
+      "source": "C2",
+      "target": "B5"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        -2
+      ],
+      "source": "C2",
+      "target": "B6"
+    },
+    {
+      "bidegree": [
+        -1,
+        2
+      ],
+      "characters": [
+        2,
+        1,
+        1
+      ],
+      "line_degree": [
+        0,
+        -2
+      ],
+      "source": "C2",
+      "target": "B7"
+    }
+  ],
+  "Ext1_filtration_slots": [
+    [
+      -2,
+      3
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "H2_projection_constructed": false,
+  "charged_cocycles_constructed": false,
+  "claim_boundary": "Exact total-degree correction and character-resolved E1 inventory, NOT full E-infinity, geometric d3, Ext1 dimension, Yoneda tensor or Higgs verdict.",
+  "claimed_invariant_16_rejected": true,
+  "e32_e33_witness_evaluated": false,
+  "four_sources": [
+    {
+      "bidegree": [
+        -2,
+        2
+      ],
+      "charged_product_total_degree": 1,
+      "is_Ext1": false,
+      "label": "Cx_to_Ay_01",
+      "total_degree": 0
+    },
+    {
+      "bidegree": [
+        -2,
+        2
+      ],
+      "charged_product_total_degree": 1,
+      "is_Ext1": false,
+      "label": "Cx_to_Ay_23",
+      "total_degree": 0
+    },
+    {
+      "bidegree": [
+        -2,
+        2
+      ],
+      "charged_product_total_degree": 1,
+      "is_Ext1": false,
+      "label": "Cy_to_Ax_01",
+      "total_degree": 0
+    },
+    {
+      "bidegree": [
+        -2,
+        2
+      ],
+      "charged_product_total_degree": 1,
+      "is_Ext1": false,
+      "label": "Cy_to_Ax_23",
+      "total_degree": 0
+    }
+  ],
+  "full_Ext1_dimension": null,
+  "line_cohomology": {
+    "-1,-1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        5,
+        5
+      ]
+    ],
+    "-1,0": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "-1,1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "-1,2": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "-1,3": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        7,
+        7
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "-2,0": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        3,
+        4,
+        3
+      ]
+    ],
+    "-2,1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "-3,0": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        3
+      ],
+      [
+        7,
+        6,
+        6
+      ]
+    ],
+    "-3,1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        7,
+        7
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "-3,3": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "0,-1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ]
+    ],
+    "0,-2": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        3,
+        3,
+        4
+      ]
+    ],
+    "0,-3": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        3
+      ],
+      [
+        7,
+        6,
+        6
+      ]
+    ],
+    "0,0": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "0,1": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "0,2": [
+      [
+        3,
+        4,
+        3
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "0,3": [
+      [
+        7,
+        6,
+        6
+      ],
+      [
+        4,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "1,-1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "1,-2": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "1,-3": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        7,
+        7
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "1,0": [
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "1,1": [
+      [
+        5,
+        5,
+        5
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "2,-1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "2,0": [
+      [
+        3,
+        3,
+        4
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "3,-1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        7,
+        7
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "3,-3": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "3,0": [
+      [
+        7,
+        6,
+        6
+      ],
+      [
+        4,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "line_cohomology_method": "Exact QQ ranks of induced Laurent-monomial Koszul matrices on P3xP3. Ambient cohomology rows 0,3,6; Koszul length 3 excludes all higher dr (first row-jump requires r=4).",
+  "monad_degrees": {
+    "A": -1,
+    "B": 0,
+    "C": 1
+  },
+  "negative_controls": {
+    "chain_product_representative_identity": "D(a*b)=D(a)*b+(-1)^|a|*a*D(b); applies only to actual closed total cocycles",
+    "degree_zero_as_Ext1_rejected": true,
+    "geometric_representative_control_executed": false,
+    "source_sign_change_preserves_total_degree": true,
+    "uniform_shift_rescue_rejected": true,
+    "wrong_End_sign_nonclosed": true
+  },
+  "passed": true,
+  "possible_higher_arrows_touching_Ext1": [
+    {
+      "diagonal_slot": [
+        -2,
+        3
+      ],
+      "direction": "outgoing",
+      "other_slot": [
+        0,
+        2
+      ],
+      "r": 2
+    },
+    {
+      "diagonal_slot": [
+        -1,
+        2
+      ],
+      "direction": "outgoing",
+      "other_slot": [
+        1,
+        1
+      ],
+      "r": 2
+    },
+    {
+      "diagonal_slot": [
+        0,
+        1
+      ],
+      "direction": "incoming",
+      "other_slot": [
+        -2,
+        2
+      ],
+      "r": 2
+    },
+    {
+      "diagonal_slot": [
+        0,
+        1
+      ],
+      "direction": "outgoing",
+      "other_slot": [
+        2,
+        0
+      ],
+      "r": 2
+    },
+    {
+      "diagonal_slot": [
+        -2,
+        3
+      ],
+      "direction": "outgoing",
+      "other_slot": [
+        1,
+        1
+      ],
+      "r": 3
+    },
+    {
+      "diagonal_slot": [
+        -1,
+        2
+      ],
+      "direction": "outgoing",
+      "other_slot": [
+        2,
+        0
+      ],
+      "r": 3
+    },
+    {
+      "diagonal_slot": [
+        1,
+        0
+      ],
+      "direction": "incoming",
+      "other_slot": [
+        -2,
+        2
+      ],
+      "r": 3
+    },
+    {
+      "diagonal_slot": [
+        -2,
+        3
+      ],
+      "direction": "outgoing",
+      "other_slot": [
+        2,
+        0
+      ],
+      "r": 4
+    }
+  ],
+  "source_hashes": {
+    "tian-yau-bundle-coupling-gate/exact_certificate.py": "0994c7c83bc51ab1bee11c8637c455244ced07e9f23c83c14545fcb96f94e104",
+    "tian-yau-bundle-coupling-gate/geometry.json": "1246dbd09c95297e79fa5d24d0ba7a5abd9d45882de12ffc4168ba150e98a198",
+    "tian-yau-cech-resolution-gate/exact_cech.py": "9db06b012eb0b7cd1434e84cfe7f9daa3927f6ea78f783548d35b4ef2ed15d2e",
+    "tian-yau-d3-coupling-gate/exact_certificate.py": "777a3204752359b6a433622a07866f331d6670186d7321772d1a1dc06e49fd7e",
+    "tian-yau-koszul-d3-completion-gate/certificate.json": "71b8f67fb6532f1d5bdbc23257a3c7e54543a55b2b88eb3c6ff27d84c1e1bc4f",
+    "tian-yau-koszul-d3-completion-gate/d3-matrices.json": "54a2b8117654a6ed94aa1ce35d5c457d204d401469bfb41afa9ff4cb877505bf",
+    "tian-yau-koszul-d3-completion-gate/exact_d3.py": "a01aa0dd007b326abf85f94b40b3981f7c7c24f4e45038cfd9728f36c720e0a0",
+    "tian-yau-survivor-yoneda-gate/exact_audit.py": "18448b95bb0675d3daac79ddc823155d0deef2faa9a3699943ecb2609dd00a06",
+    "tian-yau-wilson-line-gate/interactions.py": "6935331db1d9008382c92434ce54732879b602380375021306e482ffa8921f56"
+  },
+  "source_kernel_placement": "Gr^-2 Ext^0, if it survives all remaining differentials; never an additive Ext1 summand",
+  "target_placement": "E_infinity^(1,0) is a quotient of E3^(1,0) by im d3, not its direct sum with ker d3",
+  "tensor_components": null,
+  "two_geometric_primitives_constructed": false
+}

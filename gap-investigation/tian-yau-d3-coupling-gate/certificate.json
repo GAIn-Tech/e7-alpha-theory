@@ -1,0 +1,179 @@
+{
+  "charged_action": {
+    "computed": false,
+    "reason": "depends on geometric d3 survivors; assigning couplings before that would be arbitrary"
+  },
+  "claim_boundary": "Exact source, characters, signs and bidegree only. The geometric d3 and charged Yoneda action remain unresolved; no maximal-rank or zero-map assumption is made.",
+  "d3_computed": false,
+  "passed": true,
+  "source": {
+    "basis": [
+      {
+        "character": 0,
+        "dual_monomial": "x0*x1",
+        "pair": [
+          0,
+          1
+        ],
+        "summand": "Cx_to_Ay"
+      },
+      {
+        "character": 1,
+        "dual_monomial": "x0*x2",
+        "pair": [
+          0,
+          2
+        ],
+        "summand": "Cx_to_Ay"
+      },
+      {
+        "character": 1,
+        "dual_monomial": "x0*x3",
+        "pair": [
+          0,
+          3
+        ],
+        "summand": "Cx_to_Ay"
+      },
+      {
+        "character": 2,
+        "dual_monomial": "x1*x2",
+        "pair": [
+          1,
+          2
+        ],
+        "summand": "Cx_to_Ay"
+      },
+      {
+        "character": 2,
+        "dual_monomial": "x1*x3",
+        "pair": [
+          1,
+          3
+        ],
+        "summand": "Cx_to_Ay"
+      },
+      {
+        "character": 0,
+        "dual_monomial": "x2*x3",
+        "pair": [
+          2,
+          3
+        ],
+        "summand": "Cx_to_Ay"
+      },
+      {
+        "character": 0,
+        "dual_monomial": "y0*y1",
+        "pair": [
+          0,
+          1
+        ],
+        "summand": "Cy_to_Ax"
+      },
+      {
+        "character": 2,
+        "dual_monomial": "y0*y2",
+        "pair": [
+          0,
+          2
+        ],
+        "summand": "Cy_to_Ax"
+      },
+      {
+        "character": 2,
+        "dual_monomial": "y0*y3",
+        "pair": [
+          0,
+          3
+        ],
+        "summand": "Cy_to_Ax"
+      },
+      {
+        "character": 1,
+        "dual_monomial": "y1*y2",
+        "pair": [
+          1,
+          2
+        ],
+        "summand": "Cy_to_Ax"
+      },
+      {
+        "character": 1,
+        "dual_monomial": "y1*y3",
+        "pair": [
+          1,
+          3
+        ],
+        "summand": "Cy_to_Ax"
+      },
+      {
+        "character": 0,
+        "dual_monomial": "y2*y3",
+        "pair": [
+          2,
+          3
+        ],
+        "summand": "Cy_to_Ax"
+      }
+    ],
+    "bidegree": [
+      -2,
+      2
+    ],
+    "characters": [
+      4,
+      4,
+      4
+    ],
+    "dimension": 12
+  },
+  "source_hashes": {
+    "../tian-yau-bundle-coupling-gate/exact_certificate.py": "0994c7c83bc51ab1bee11c8637c455244ced07e9f23c83c14545fcb96f94e104",
+    "../tian-yau-bundle-coupling-gate/geometry.json": "1246dbd09c95297e79fa5d24d0ba7a5abd9d45882de12ffc4168ba150e98a198"
+  },
+  "target": {
+    "bidegree": [
+      1,
+      0
+    ],
+    "polynomial_quotient_characters": [
+      12,
+      14,
+      14
+    ]
+  },
+  "underdetermination_negative_control": {
+    "conclusion": "grading and dimensions alone do not fix d3",
+    "equivariant_candidate_block_ranks": {
+      "block_injection": [
+        4,
+        4,
+        4
+      ],
+      "zero": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "zigzag_convention": {
+    "K_degrees": {
+      "A": -1,
+      "B": 0,
+      "C": 1
+    },
+    "degree_minus_2_components": [
+      "C_to_A"
+    ],
+    "endomorphism_sign": "D(phi)=d_K*phi-(-1)^deg(phi)*phi*d_K",
+    "endpoint": "End^1 = Hom(A,B) direct_sum Hom(B,C)",
+    "first_horizontal_components": {
+      "B_to_A": "-phi*J",
+      "C_to_B": "+E*phi"
+    },
+    "required_vertical_primitives": 2,
+    "well_definedness_condition": "changing either vertical primitive changes endpoint by d1-boundary"
+  }
+}

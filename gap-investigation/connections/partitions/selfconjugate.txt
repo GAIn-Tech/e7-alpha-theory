@@ -1,0 +1,235 @@
+3.3 Partitions of Integers
+Home
+»
+Generating Functions
+»
+Partitions of Integers
+3.3 Partitions of Integers
+[Jump to exercises]
+Expand menu
+Collapse menu
+1 Fundamentals
+1. Examples
+2. Combinations and permutations
+3. Binomial coefficients
+4. Bell numbers
+5. Choice with repetition
+6. The Pigeonhole Principle
+7. Sperner's Theorem
+8. Stirling numbers
+2 Inclusion-Exclusion
+1. The Inclusion-Exclusion Formula
+2. Forbidden Position Permutations
+3 Generating Functions
+1. Newton's Binomial Theorem
+2. Exponential Generating Functions
+3. Partitions of Integers
+4. Recurrence Relations
+5. Catalan Numbers
+4 Systems of Distinct Representatives
+1. Existence of SDRs
+2. Partial SDRs
+3. Latin Squares
+4. Introduction to Graph Theory
+5. Matchings
+5 Graph Theory
+1. The Basics
+2. Euler Circuits and Walks
+3. Hamilton Cycles and Paths
+4. Bipartite Graphs
+5. Trees
+6. Optimal Spanning Trees
+7. Connectivity
+8. Graph Coloring
+9. The Chromatic Polynomial
+10. Coloring Planar Graphs
+11. Directed Graphs
+6 Pólya–Redfield Counting
+1. Groups of Symmetries
+2. Burnside's Theorem
+3. Pólya-Redfield Counting
+Definition 3.3.1
+A
+partition
+of a positive integer $n$ is a
+multiset of positive integers that sum to $n$. We denote the number of
+partitions of $n$ by $p_n$. 
+$\square$
+Typically a partition is
+written as a sum, not explicitly as a multiset.
+Using the usual convention that an empty sum is 0, 
+we say that $p_0=1$.
+Example 3.3.2
+The partitions of 5 are
+$$\eqalign{
+&5\cr
+&4+1\cr
+&3+2\cr
+&3+1+1\cr
+&2+2+1\cr
+&2+1+1+1\cr
+&1+1+1+1+1.\cr
+}$$
+Thus $p_5=7$.
+$\square$
+There is no simple formula for $p_n$, but it is not hard to find a
+generating function for them. As with some previous examples, we seek
+a product of factors so that when the factors are multiplied out, the
+coefficient of $x^n$ is $p_n$. We would like each $x^n$ term to
+represent a single partition, before like terms are collected. A
+partition is uniquely described by the number of 1s, number of 2s, and
+so on, that is, by the repetition numbers of the multiset. We devote
+one factor to each integer:
+$$(1+x+x^2+x^3+\cdots)(1+x^2+x^4+x^6+\cdots)\cdots
+(1+x^k+x^{2k}+x^{3k}+\cdots)\cdots
+=\prod_{k=1}^\infty \sum_{i=0}^\infty x^{ik}.$$
+When this product is expanded, we pick one term from each factor in
+all possible ways, with
+the further condition that we only pick a finite number of "non-1''
+terms. For example, if we pick $x^3$ from the first factor, $x^3$ from
+the third factor, $x^{15}$ from the fifth factor, and 1s from all
+other factors, we get $x^{21}$. In the context of the product, this
+represents $3\cdot 1+1\cdot3+3\cdot 5$, corresponding to the
+partition $1+1+1+3+5+5+5$, that is, three 1s, one 3, and three 5s.
+Each factor is a geometric series; the $k$th factor is
+$$ 1+x^k+(x^{k})^2+(x^{k})^3+\cdots= {1\over1-x^k},$$
+so the generating function can be written
+$$\prod_{k=1}^\infty {1\over 1-x^k}.$$
+Note that if we are interested in some particular $p_n$, we do not
+need the entire infinite product, or even any complete factor, since
+no partition of $n$ can use any integer greater than $n$, and also
+cannot use more than $n/k$ copies of $k$.
+Example 3.3.3
+Find $p_8$.
+We expand 
+$$\eqalign{
+(1+x&+x^2+x^3+x^4+x^5+x^6+x^7+x^8)(1+x^2+x^4+x^6+x^8)(1+x^3+x^6)\cr
+(1&+x^4+x^8)(1+x^5)(1+x^6)(1+x^7)(1+x^8)\cr
+&=1+x+2x^2+3x^3+5x^4+7x^5+11x^6+15x^7+22x^8+\cdots+x^{56},\cr
+}$$
+so $p_8=22$. Note that all of the coefficients prior to this are also
+correct, but the following coefficients are not necessarily
+the corresponding partition numbers.
+Here is how to
+use Sage
+for the computation.
+We define $f=\prod_{k=1}^8 {1\over 1-x^k}$ to make sure the $x^8$
+coefficient will be correct. Instead of doing the explicit product
+above, we use Sage to compute the Taylor series, which has the same
+effect. 
+$\square$
+Partitions of integers have some interesting properties. 
+Let $p_d(n)$ be the number of partitions of $n$ into distinct parts; let
+$p_o(n)$ be the number of partitions into odd parts.
+Example 3.3.4
+For $n=6$, the partitions into distinct parts are
+$$6,5+1,4+2,3+2+1,$$
+so $p_d(6)=4$, and the partitions into odd parts are
+$$5+1,3+3,3+1+1+1,1+1+1+1+1+1,$$
+so $p_o(6)=4$.
+$\square$
+In fact, for every $n$, $p_d(n)=p_o(n)$, and we can see this by
+manipulating generating functions.
+The generating function for $p_d(n)$ is
+$$f_d(x)=(1+x)(1+x^2)(1+x^3)\cdots=\prod_{i=1}^\infty (1+x^i).$$
+The generating function for $p_o(n)$ is
+$$f_o(x)=(1+x+x^2+x^3+\cdots)(1+x^3+x^6+x^9+\cdots)\cdots=
+\prod_{i=0}^\infty {1\over 1-x^{2i+1}}.$$
+We can write
+$$f_d(x)={1-x^2\over 1-x}\cdot{1-x^4\over 1-x^2}\cdot{1-x^6\over 1-x^3}\cdots$$
+and notice that every numerator is eventually canceled by a
+denominator, leaving only the denominators containing odd powers of
+$x$, so $\ds f_d(x)=f_o(x)$.
+We can also use a recurrence relation to find the partition numbers,
+though in a somewhat less direct way than the binomial coefficients or
+the Bell numbers. 
+Let $p_k(n)$ be the number of partitions of $n$ into exactly $k$
+parts. We will find a recurrence relation to compute the $p_k(n)$, and
+then 
+$$
+p_n=\sum_{k=1}^n p_k(n).
+$$
+Now consider the partitions of $n$ into $k$ parts. Some of these partitions
+contain no 1s, like $3+3+4+6$, a partition of 16 into 4
+parts. Subtracting 1 from each part, we get a partition of $n-k$ into
+$k$ parts; for the example, this is $2+2+3+5$. The remaining
+partitions of $n$ into $k$ parts contain a 1. If we remove the 1, we
+are left with a partition of $n-1$ into $k-1$ parts. This gives us a
+1–1 correspondence between the partitions of $n$ into $k$ parts, and
+the partitions of $n-k$ into $k$ parts together with the partitions of
+$n-1$ into $k-1$ parts, so $p_k(n)=p_k(n-k)+p_{k-1}(n-1)$.
+Using this
+recurrence we can build a triangle containing the $p_k(n)$, and the row
+sums of this triangle give the partition numbers. For all $n$,
+$p_1(n)=1$, which gives the first column of the triangle, after which
+the recurrence applies. Also, note that $p_k(n)=0$ when $k>n$ and we
+let $p_k(0)=0$; these are needed in some cases to compute the
+$p_k(n-k)$ term of the recurrence. Here are the first few rows of the
+triangle; at the left are the row numbers, and at the right are the
+row sums, that is, the
+partition numbers. For the last row,
+each entry is the sum of the like-colored numbers in the previous
+rows. Note that beginning with $p_4(7)=3$ in the last row, 
+$p_k(7)=p_{k-1}(6)$, as $p_k(7-k)=0$.
+$$\matrix{
+1 &            1&               &               &                &                &  \color{purple}0&                 & 1\cr             
+2 &            1&              1&               &                & \color{orange}0&                 &                 & 2\cr
+3 &            1&              1&              1&   \color{blue}0&                &                 &                 & 3\cr
+4 &            1&              2& \color{green}1&               1&                &                 &                 & 5\cr
+5 &            1&   \color{red}2&              2&               1&               1&                 &                 & 7\cr
+6 & \color{red}1& \color{green}3&  \color{blue}3& \color{orange}2& \color{purple}1& \color{fuchsia}1&                 & 11\cr
+7 &            1&   \color{red}3& \color{green}4&   \color{blue}3& \color{orange}2&  \color{purple}1& \color{fuchsia}1& 15\cr
+}$$
+Yet another sometimes useful way to think of a partition is with a
+Ferrers diagram
+. Each integer in the
+partition is represented by a row of dots, and the rows are ordered
+from longest on the top to shortest at the bottom. For example,
+the partition $3+3+4+5$ would be represented by
+The
+conjugate
+of a partition is the one corresponding to the Ferrers
+diagram produced by flipping the diagram for the original partition
+across the main diagonal, thus turning rows into columns and vice
+versa. For the diagram above, the conjugate is
+with corresponding partition $1 + 2+4+4+4$. This concept can
+occasionally make facts about partitions easier to see than
+otherwise. Here is a classic example: the number of partitions of $n$
+with largest part $k$ is the same as the number of partitions into $k$
+parts, $p_k(n)$. The action of conjugation takes every partition of
+one type into a partition of the other: the conjugate of a partition
+into $k$ parts is a partition with largest part $k$ and vice
+versa. This establishes a 1–1 correspondence between partitions into
+$k$ parts and partitions with largest part $k$.
+Exercises 3.3
+You may use Sage or a similar program to
+generate coefficients; the Sage cell in example
+3.3.3
+can be used for this.
+Ex 3.3.1
+Use generating functions to find $p_{15}$.
+Ex 3.3.2
+Find the generating function for the number of partitions of
+an integer into distinct odd parts. Find the number of such partitions
+of 20.
+Ex 3.3.3
+Find the generating function for the number of partitions of
+an integer into distinct even parts. Find the number of such partitions
+of 30.
+Ex 3.3.4
+Find the number of partitions of 25 into odd parts.
+Ex 3.3.5
+Find the generating function for the number of partitions of
+an integer into $k$ parts; that is, the coefficient of $x^n$ is
+the number of partitions of $n$ into $k$ parts.
+Ex 3.3.6
+Complete row 8 of the table for the $p_k(n)$, and verify
+that the row sum is 22, as we saw in example
+3.3.3
+.
+Ex 3.3.7
+A partition of $n$ is self-conjugate 
+if its Ferrers diagram is symmetric around the main diagonal, so that
+its conjugate is itself. Show that the number of self-conjugate
+partitions of $n$ is equal to the number of partitions of $n$ into
+distinct odd parts.

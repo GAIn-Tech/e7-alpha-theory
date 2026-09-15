@@ -1,0 +1,2143 @@
+arXiv:0905.1748v1  [hep-th]  12 May 2009
+Stability Walls in Heterotic Theories
+Lara B. Anderson1,2, James Gray3, Andre Lukas3, Burt Ovrut1,2
+1School of Natural Sciences, Institute for Advanced Study,
+Princeton, New Jersey 08540, U.S.A.
+2Department of Physics, University of Pennsylvania,
+Philadelphia, PA 19104-6395, U.S.A.
+3Rudolf Peierls Centre for Theoretical Physics, Oxford University,
+1 Keble Road, Oxford, OX1 3NP, U.K.
+Abstract
+We study the sub-structure of the heterotic K¨ahler moduli space due to the presence of non-Abelian internal
+gauge ﬁelds from the perspective of the four-dimensional eﬀective theory.
+Internal gauge ﬁelds can be
+supersymmetric in some regions of the K¨ahler moduli space but break supersymmetry in others. In the
+context of the four-dimensional theory, we investigate what happens when the K¨ahler moduli are changed
+from the supersymmetric to the non-supersymmetric region. Our results provide a low-energy description of
+supersymmetry breaking by internal gauge ﬁelds as well as a physical picture for the mathematical notion of
+bundle stability. Speciﬁcally, we ﬁnd that at the transition between the two regions an additional anomalous
+U(1) symmetry appears under which some of the states in the low-energy theory acquire charges.
+We
+compute the associated D-term contribution to the four-dimensional potential which contains a K¨ahler-
+moduli dependent Fayet-Iliopoulos term and contributions from the charged states. We show that this D-
+term correctly reproduces the expected physics. Several mathematical conclusions concerning vector bundle
+stability are drawn from our arguments. We also discuss possible physical applications of our results to
+heterotic model building and moduli stabilisation.
+andlara@physics.upenn.edu, j.gray1@physics.ox.ac.uk, lukas@physics.ox.ac.uk, ovrut@elcapitan.hep.upenn.edu
+1
+
+Contents
+1
+Introduction
+2
+2
+Vector Bundle Stability in Heterotic Compactiﬁcations
+6
+2.1
+Algorithmic testing of slope stability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2.1.1
+Sub-line bundles and stability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2.1.2
+Constraints on line bundle sub-sheaves . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3
+Stability Walls in the K¨ahler Cone
+9
+3.1
+A stability wall example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+4
+Eﬀective Field Theory at the Decomposable Locus
+13
+4.1
+Four-dimensional spectrum from the gauge sector . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+4.2
+Four dimensional spectrum from the gravitational sector . . . . . . . . . . . . . . . . . . . . .
+16
+4.3
+The four dimensional potential
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+5
+Stability Walls in the Eﬀective Theory
+19
+5.1
+An example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+5.2
+Results in bundle stability from the eﬀective theory . . . . . . . . . . . . . . . . . . . . . . . .
+25
+6
+Higher Order Corrections
+26
+7
+Conclusions and Further Work
+28
+8
+Appendix A: Two lemmas and a conjecture
+30
+9
+Appendix B: Another example
+33
+1
+Introduction
+Heterotic compactiﬁcations on Calabi-Yau manifolds necessarily have gauge ﬁeld expectation values (vevs)
+in the internal dimensions. This feature, which is a consequence of demanding that the total charge for the
+Neveu-Schwarz form should vanish on the internal compact space, gives rise to much of the complexity and
+structure of these theories [1, 2]. One of the interesting properties of these gauge ﬁeld vevs concerns their
+supersymmetry preserving properties. The internal ﬁeld strength, F, is usually chosen so as to preserve
+N = 1 supersymmetry in the four-dimensional eﬀective theory. This can be imposed by demanding that the
+ten-dimensional gaugino supersymmetry variations vanish. This leads to the conditions
+gabFba = 0 ,
+Fab = Fab = 0
+(1.1)
+which are known as the Hermitian Yang-Mills equations (here, a and ¯b are holomorphic and anti-holomorphic
+indices on the Calabi-Yau, respectively). However, if one chooses gauge ﬁelds satisfying the Hermitian Yang-
+Mills equations and, hence, preserving supersymmetry at one point in moduli space, and then changes
+the values of the moduli, one can ﬁnd that Eqs. (1.1) fail to have a solution and supersymmetry becomes
+broken [3, 4]. More speciﬁcally, it is possible to demarcate regions in K¨ahler moduli space where the gauge
+ﬁeld vevs can preserve supersymmetry and regions where they necessarily break it [5, 6]. Given the explicit
+2
+
+dependence of the Eqs. (1.1) on the metric, and hence the K¨ahler moduli, such a behaviour is perhaps not
+surprising.
+What happens in the eﬀective ﬁeld theory when the moduli evolve such that the gauge ﬁelds break
+supersymmetry? One can see from the dimensional reduction of the ten-dimensional eﬀective action of the
+E8 × E8 heterotic theory that there will be a positive deﬁnite potential in the non-supersymmetric region of
+K¨ahler moduli space. The argument goes as follows. Consider the following three terms in the ten-dimensional
+eﬀective action.
+Spartial = −
+1
+2κ2
+10
+α′
+4
+Z
+M10
+√−g
+n
+tr(F (1))2 + tr(F (2))2 −trR2o
+.
+(1.2)
+The notation here is standard [2] with the ﬁeld strengths F (1) and F (2) being associated to the two E8 factors
+in the gauge group. One consequence of the ten-dimensional Bianchi Identity,
+dH = −3α′
+√
+2
+
+trF (1) ∧F (1) + trF (2) ∧F (2) −trR ∧R
+
+,
+(1.3)
+is its integrability condition,
+Z
+M6
+J ∧
+
+tr F (1) ∧F (1) + tr F (2) ∧F (2) −tr R ∧R
+
+= 0 ,
+(1.4)
+where J is the K¨ahler form. Now, suppose that we begin with a supersymmetric ﬁeld conﬁguration, and
+then vary the K¨ahler moduli while keeping the other moduli ﬁxed. The background gauge ﬁeld strengths are
+then (1, 1) forms to lowest order (as is the curvature two-form). Using this observation, and the fact that we
+are working, again to lowest order, with a Ricci ﬂat metric on a manifold of SU(3) holonomy, equation (1.4)
+can be rewritten as follows:
+Z
+M10
+√−g
+
+tr(F (1))2 + tr(F (2))2 −trR2 −tr(F (1)
+a¯b ga¯b)2 −tr(F (2)
+a¯b ga¯b)2
+= 0 .
+(1.5)
+Using this relation in (1.2), we arrive at the following result
+Spartial = −
+1
+2κ2
+10
+α′
+4
+Z
+M10
+√−g
+n
+tr(F (1)
+a¯b ga¯b)2 + tr(F (2)
+a¯b ga¯b)2o
+.
+(1.6)
+The terms in Eq. (1.6) form a part of the ten-dimensional theory which does not contain any four-dimensional
+derivatives. It therefore contributes, upon dimensional reduction, to the potential of the four dimensional
+theory. In the case of a supersymmetric ﬁeld conﬁguration, the terms in the integrand of (1.6) vanish, these
+being precisely the squares of the ﬁrst equation in (1.1). Thus, in this case, no potential is generated. However,
+if the K¨ahler moduli are varied such that the gauge ﬁeld vevs are no longer supersymmetric, (1.6) no longer
+vanishes and we obtain a positive deﬁnite contribution to the potential energy seen in four dimensions. Thus,
+we are led to a picture of a perturbative potential which, while positive deﬁnite in the non-supersymmetric
+regions of moduli space, vanishes precisely where the gauge ﬁeld vevs preserve supersymmetry.
+Beyond what is described above, it might seem diﬃcult to write down the exact expression for this
+potential in terms of the moduli ﬁelds. Naively it seems like we need to know the metric and gauge connection
+on the Calabi-Yau 3-fold. These quantities are of course unknown, except possibly numerically [7, 8, 9, 10].
+In fact, however, one can analytically derive the exact form of this potential as an explicit function of the
+moduli ﬁelds. This will be the main focus of the present paper.
+Before we can discuss the explicit form of this potential, it is useful to brieﬂy review the mathematical
+language normally used to describe supersymmetry within a heterotic compactiﬁcation. The question of
+whether a supersymmetric vacuum exists can be answered by a mathematical analysis of the associated
+3
+
+holomorphic vector bundle, V , based on the Donaldson-Uhlenbeck-Yau theorem [3, 4] and the notion of slope-
+stability. We will explicitly carry this out later in the paper. For the purpose of the present general discussion
+it suﬃces to know that the supersymmetry properties of V are governed by a (maximally) destabilizing
+sub-bundle F ⊂V and a number associated it, called the slope µ(F), which is a function of the K¨ahler
+moduli, ti, of the Calabi-Yau manifold.
+The vector bundle V is slope-stable and, hence, the associated
+gauge ﬁeld is supersymmetric, in the part of K¨ahler moduli space where µ(F) < µ(V ), and it is unstable and
+supersymmetry is broken where µ(F) > µ(V ). The boundary between those regions, deﬁned by µ(F) = µ(V ),
+divides the K¨ahler cone into regions of preserved and broken supersymmetry.
+Such a co-dimension one
+“boundary” will be referred to as a stability “wall” in the K¨ahler cone. In the following sections, we will
+demonstrate that, in fact, the potential given in (1.6), reproduces this structure.
+We are now in a position to summarize our main results. For concreteness, we will illustrate the structure
+of our eﬀective theory for a bundle V with an internal gauge group G = SU(3), but analogous statements
+hold for other SU(n) groups. In this case, µ(V ) = 0. For a general point in the supersymmetric region of
+the K¨ahler moduli space, that is for µ(F) < 0, the low-energy gauge group is E6 (times a possible hidden
+gauge group which is not relevant to our discussion), the commutant of SU(3) within E8. The matter ﬁeld
+content consists of a certain number of families and anti-families in 27 and 27 representations, respectively,
+plus a number of singlet ﬁelds which can be interpreted as the bundle moduli of V . For speciﬁc examples,
+the number of these multiplets can be computed from the bundle cohomology of V and we will do this later
+in the paper. So far, this is simply the ﬁeld content of a standard heterotic Calabi-Yau compactiﬁcation.
+Next, we consider the theory at the stability wall, that is, the boundary between supersymmetric and
+non-supersymmetric regions in the K¨ahler cone where µ(F) = 0. Here, we ﬁnd that the structure group
+of the bundle “degenerates” to S(U(2) × U(1)) and, hence, the low-energy gauge group enhances from E6
+to E6 × U(1). This theory has the same chiral asymmetry between 27 and 27 multiplets as the theory at
+a generic supersymmetric point in moduli space (although their individual numbers may change), bundle
+moduli for the S(U(2) × U(1)) bundle and additional singlet ﬁelds CL.
+The families/anti-families and
+the CL ﬁelds carry a charge under the additional U(1) symmetry.
+It is well-known, in the context of
+heterotic compactiﬁcations [11, 12, 14], that a low-energy U(1) symmetry which arises from of a U(1) factor
+in the internal gauge group is anomalous in the Green-Schwarz sense. The U(1) vector ﬁeld is massive as
+a consequence of the Higgs mechanism. In addition, associated to this U(1) is a D-term which contains a
+Fayet-Illiopolous (FI) contribution1. In our case, we ﬁnd that the U(1) D-term takes the following form at
+lowest order in the expansions of heterotic M-theory, and close to the boundary between the supersymmetric
+and non-supersymmetric regions:
+DU(1) = f(ti) −
+X
+M, ¯
+N
+QMGM ¯
+NCM ¯C
+¯
+N .
+(1.7)
+Here GL ¯
+M is a positive deﬁnite metric and QL are the U(1) charges of the ﬁelds CL. The FI term, f(ti),
+takes the form (up to a positive constant of proportionality)
+f(ti) ∼µ(F)
+V
+(1.8)
+1We note that for internal gauge ﬁelds with structure group G = U(1), it is known [11, 12, 14, 15] that Eq. (1.6) leads to a
+D-term potential associated with a Green-Schwarz anomalous U(1) symmetry [12, 14]. In fact, it is not diﬃcult to derive this
+D-term potential from Eq. (1.6). In the present paper, however, we are interested in the case of non-Abelian internal gauge groups,
+speciﬁcally G = SU(n).
+4
+
+with V the Calabi-Yau volume and µ(F) is the slope parameter (described above) of a sub-bundle. The
+associated D-term potential is the explicit form of the potential described in equation (1.6).
+Let us discuss this D-term (1.7) in the various regions of the K¨ahler cone. At the stability wall, µ(F) = 0,
+the FI term vanishes and, hence, the ﬁelds CM have a vanishing vacuum expectation value. The combination
+of K¨ahler moduli perpendicular to the stability wall receives a mass from the FI term and represents the
+Higgs particle. Its axionic superpartner is absorbed by the U(1) vector ﬁeld. All of the CL ﬁelds are massless
+at the stability wall. Now we move into the region µ(F) < 0 where supersymmetry should be preserved.
+In this region, the FI term is negative and the ﬁelds CM develop a compensating vev to set DU(1) = 0.
+Of course, this only works if there is at least one negative U(1) charge QL and we will verify that this is
+indeed the case. In this way, we ﬁnd that supersymmetry is preserved in the region µ(F) < 0, as expected.
+One might also ask about matching the number of states we observe in this theory to the results obtained
+from a standard analysis of the supersymmetric region. We ﬁnd that when the ﬁelds CL develop a vev, the
+U(1) gauge boson receives an additional contribution to its mass and eventually becomes so massive that
+it should be dropped from the low-energy spectrum. In this way, we recover the E6 symmetry at a generic
+superymmetric point. Further, due to the non-vanishing CL vevs, one combination of ﬁelds, predominately
+made up from CL ﬁelds, now becomes the Higgs multiplet and should be removed from the spectrum. For a
+matching of states between the theory at the stability wall and at a generic supersymmetric point in moduli
+space we need, therefore, that the number of S(U(2) × U(1)) bundle moduli plus the number of CL ﬁelds
+equals the number of SU(3) bundle moduli plus one. Again, we will explicitly verify that this is true in
+general. What happens if we move into the region µ(F) > 0 where we expect supersymmetry to be broken?
+The above D-term will only lead to broken supersymmetry in this region if the CL ﬁelds cannot compensate
+for the, now positive, FI term. In other words, all of the charges, QL, need to be negative if our D-term is
+to reproduce the supersymmetry properties of the gauge bundle as derived in higher dimensions. We will
+show that this is indeed always the case. In summary, the above D-term reproduces all of the expected
+features of supersymmetry breaking induced by internal gauge ﬁelds, a subject usually studied in the context
+of algebraic geometry. As such, it provides a physical picture for the mathematical notion of slope stability
+for vector bundles and it opens up a range of physical applications, for example in relation to heterotic model
+building and moduli stabilisation.
+In the remainder of this paper, we derive the potential described above, in detail, from ﬁrst principles.
+In the next section, we discuss the ten-dimensional picture, by introducing the mathematical description
+of supersymmetric and non-supersymmetric gauge ﬁeld vevs in terms of vector bundles via the theorem of
+Donaldson, Uhlenbeck, and Yau [3, 4]. We describe how one may study any given model to see if it preserves
+or breaks supersymmetry at a given point in moduli space. Section 3 uses this technology to show, from
+a ten-dimensional perspective, how supersymmetric and non-supersymmetric regions, with stability walls
+between them, arise in the K¨ahler cone. In Section 4, we describe the four-dimensional eﬀective description
+of this phenomenon and derive the D-term (1.7). In Section 5, we conﬁrm the picture described in this
+introduction by studying the vacuum space of the four-dimensional eﬀective theory. Higher order corrections
+are explored in Section 6. In Section 7, we conclude and discuss further work. Certain mathematical details
+and a conjecture are provided in Appendix A. In Appendix B, we provide another detailed example of a
+bundle exhibiting a stability wall in the K¨ahler cone and the explicit ﬁeld theory describing it.
+5
+
+2
+Vector Bundle Stability in Heterotic Compactiﬁcations
+A supersymmetric heterotic string compactiﬁcation requires the geometric input of a complex three-dimensional
+Calabi-Yau manifold, X, and a holomorphic vector bundle, V , deﬁned over X. The gauge connection, A, on
+V with associated ﬁeld strength, F, must satisfy the Hermitian Yang-Mills equations (1.1). On a holomorphic
+vector bundle, V , one can always choose a connection with a purely (1, 1) ﬁeld strength, F, so that the last
+two conditions in (1.1), Fab = Fab = 0, are satisﬁed. To solve the ﬁrst equation (1.1), gabFba = 0, is more
+diﬃcult, at least for the case of non-Abelian bundle structure groups. However, for Calabi-Yau manifolds,
+there exists a powerful way of transforming this equation into a problem in algebraic geometry. For K¨ahler
+manifolds, the Donaldson-Uhlenbeck-Yau theorem [3, 4] states that on each poly-stable holomorphic vector
+bundle V , there exists a unique connection satisfying the Hermitian Yang-Mills equation (1.1). Thus, to ver-
+ify that our vector bundle is consistent with supersymmetry we need to verify that it possesses the property
+of poly-stability.
+The concept of stability of a bundle (or coherent sheaf), F, over a K¨ahler three-fold, X, is deﬁned by
+means of a quantity called the slope:
+µ(F) ≡
+1
+rk(F)
+Z
+X
+c1(F) ∧J ∧J .
+(2.1)
+Here, J is the K¨ahler form on X, and rk(F) and c1(F) are the rank and the ﬁrst Chern class of F, respectively.
+A bundle V is now called stable (resp. semi-stable) if for all sub-sheaves F ⊂V with 0 < rk(F) < rk(V ) the
+slope satisﬁes
+µ(F) < µ(V )
+(resp. µ(F) ≤µ(V )) .
+(2.2)
+A bundle is poly-stable if it can be decomposed into a direct sum of stable bundles (V = L
+n Vn), which all
+have the same slope (µ(Vi) = µ(V )). It follows that every stable bundle is poly-stable and, in turn, every
+poly-stable bundle is semi-stable2. Thus, as a series of implications: stable ⇒poly-stable ⇒semi-stable.
+In this work, we will consider holomorphic vector bundles with structure group SU(n) with n = 3, 4, 5.
+Since the slope of these bundles vanishes(c1(V ) = 0 for SU(n) bundles), in order for V to be stable we must
+have that all proper sub-sheaves, F, of V have strictly negative slope. Thus if F ⊂V we require,
+µ(F) < 0 .
+(2.3)
+But what qualiﬁes a sheaf F to be a sub-sheaf of V ? This is simply the condition that it has smaller rank
+and that there exists an embedding F ֒→V . The space of homomorphisms between F and V , denoted
+HomX(F, V ), is isomorphic to the space of global holomorphic sections H0(X, F∗⊗V ). Hence, we have that
+V stable ⇐⇒µ(F) < 0 ∀F s.t. 0 < rk(F) < n and H0(X, F∗⊗V ) ̸= 0 .
+(2.4)
+To begin our study of stability, we will ﬁrst re-write the slope condition (2.1) into a form better suited
+to our purposes. Given a basis of harmonic (1, 1) forms Ji on X, where i, j = 1, . . . , h1,1(X), we expand the
+K¨ahler form as J = tiJi with the ti being the K¨ahler moduli. Inserting this into Eq. (2.1), the slope of a
+sheaf F can then be written as
+µ(F) =
+1
+rk(F)dijkci
+1(F)tjtk ,
+(2.5)
+where the dijk =
+R
+X Ji ∧Jj ∧Jk are the triple intersection numbers of X, and c1(F) = ci
+1(F)Ji. It is useful
+to deﬁne the “dual K¨ahler moduli”, si, by
+si ≡dijktjtk .
+(2.6)
+2Note that the converse to these statements do not hold. That is, not every semi-stable bundle is poly-stable, etc.
+6
+
+The slope then turns into
+µ(F) =
+1
+rk(F)sici
+1(F) ,
+(2.7)
+and is, hence, given by a simple dot product between the ﬁrst Chern class of F and the dual K¨ahler moduli
+si. As stated above, we are interested in bundles V with structure group G = SU(n) so that c1(V ) = 0 and
+µ(V ) = 0. Using Eq. (2.7), stability for such a bundle V then amounts to the condition
+µ(F) =
+1
+rk(F)ci
+1(F)si < 0 ,
+(2.8)
+for all F ⊂V . Hence, for a given de-stabilizing sub-sheaf F ⊂V , Eq. (2.8) divides si space into two regions
+(the condition µ(F) = 0 deﬁnes a co-dimension 1 hyperplane in si space). To understand stability of a
+bundle, we need to analyse, for all relevant sub-sheaves F ⊂V , how these regions relate to the K¨ahler cone
+(the allowed set of K¨ahler parameters si). Concretely, this amounts to ﬁnding a region in the K¨ahler cone
+which is not de-stabilised by any sub-sheaf F ⊂V .
+In the mathematics literature, when a bundle is called ‘stable’ this is frequently taken to mean stable with
+respect to all possible si. A choice of a vector si is referred to as a ‘polarization’. That is, the bundle which
+is stable with respect to all polarizations is stable everywhere in the K¨ahler cone. However, viewed from the
+perspective of physics, this is actually a stronger condition than we require. In a heterotic compactiﬁcation,
+we shall deﬁne our low-energy eﬀective theory perturbatively around a particular vacuum corresponding to
+some point in moduli space. So, it is suﬃcient to show that the bundle is stable somewhere in the K¨ahler
+cone (with the hope that we may eventually stabilize the moduli within this region).
+In previous work
+[17, 16], several of the authors made use of this viewpoint to formulate stability criteria for bundles deﬁned
+over Calabi-Yau manifolds with h1,1(X) > 1. The resulting algorithm is a generalization of the stability
+condition given by Hoppe [18] which, in its original form, applies to Calabi-Yau manifolds with h1,1(X) = 1.
+In Ref. [17], we describe this algorithmic method for determining the stable regions of a bundle. We will not
+repeat the details of this analysis here, but rather highlight some of its important features in the following.
+2.1
+Algorithmic testing of slope stability
+Vector bundle stability is a notoriously diﬃcult property to prove. The main obstacle arises in classifying
+all possible sub-sheaves, F, of the bundle V . There are no general techniques known for identifying such
+sub-sheaves or for computing their topological properties such as Chern classes (and, hence, their slopes from
+Eq. (2.1)). However, as described in Ref. [17], despite these obstacles, progress can be made by systematically
+constraining the possible sub-sheaves, F ⊂V .
+2.1.1
+Sub-line bundles and stability
+In this section we will demonstrate that, in order to prove stability at any given point in K¨ahler moduli space,
+it is suﬃcient to test the slope criteria (2.2) for all sub-line bundles L of certain anti-symmetric powers, ∧kV ,
+of the bundle V .
+To begin, consider a rank-n vector bundle V over a projective variety X. If F is a sub-sheaf of V then it
+injects into V via the resolution
+0 →F →V →K →0 ,
+(2.9)
+with rk(F) < rk(V ) and K = V/F. We shall consider such sub-sheaves one rank at a time. First, we observe
+that since V is a vector bundle, it is torsion-free and, thus, has no rank-zero sub-sheaves. So, we begin with
+7
+
+the case of a rank one sub-sheaf. Since F is torsion free, there is an injection
+F
+i
+−→F∗∗
+(2.10)
+where F∗∗is the double-dual of F. A locally free coherent sheaf, L, is isomorphic to its double-dual, that
+is L∗∗≈L. Since F is rank one and torsion free, it can be shown that F∗∗is locally free and, hence, a line
+bundle [19]. Dualizing the sequence (2.9) twice and using (2.10) we have
+F ⊂F∗∗⊂V ∗∗≈V .
+(2.11)
+It is straightforward to show that µ(F) = µ(F∗∗). Thus, instead of checking the slope condition (2.2) for
+all rank-one torsion-free sub-sheaves of V , it suﬃces to check it for all sub-line bundles. But what about
+sub-sheaves of higher rank?
+Let F be a torsion free sub-sheaf of rank k (with 1 < k < n). Once again, we have an inclusion 0 →F →V
+which in turn induces a mapping
+∧k F →∧kV
+(2.12)
+which can also be shown to be an injection [20]. By deﬁnition of the anti-symmetric tensor power ∧k, ∧kF is
+a rank one sheaf. Since F is torsion free, so is ∧kF [21]. Next, by an argument similar to the one given above
+(in and around (2.10)), we can argue that there is a line bundle L associated to ∧kF, namely L = (∧kF)∗∗.
+Note that in general for a rank n bundle V ,
+c1(∧kV ) =
+n −1
+k −1
+
+c1(V ) .
+(2.13)
+Thus we observe that for SU(n) bundles, which have c1(V ) = 0, it follows that c1(∧kV ) = 0 as well. Likewise,
+we see that applied to a rank k, sub-line bundle, F, (2.13) gives us µ(∧kF) = µ(F). Therefore, for each
+rank k de-stabilizing sub-sheaf of V we have a corresponding de-stabilizing sub-line bundle L ⊂∧kV with
+the same slope as F. Thus in proving stability of an SU(n) vector bundle V , we need only show that if
+L ⊂∧kV , then
+µ(L) < µ(∧kV ) = 0
+(2.14)
+for all k with 0 < k < n. Since line bundles are classiﬁed by their ﬁrst Chern class on a Riemannian manifold,
+this is a dramatic simpliﬁcation of the problem of stability. Rather than the untenable problem of considering
+all sub-sheaves, we have only to analyze and constrain the well-deﬁned set of line bundle sub-sheaves of ∧kV .
+2.1.2
+Constraints on line bundle sub-sheaves
+What constraints can we place on the line bundles which must be considered in examining the stability of
+an SU(n) bundle V ? Using the results of the previous subsection, we begin by considering a line bundle
+sub-sheaf L of ∧kV . We present several simple characteristics that distinguish line bundle sub-sheaves of
+stable SU(n) bundles.
+First, as discussed in (2.4), by deﬁnition, if L ⊂∧kV then
+HomX(L, ∧kV ) ̸= 0 .
+(2.15)
+Therefore, we have a non-trivial cohomology condition to check for any candidate line bundle sub-sheaf3 of
+V . Note that in this section, we will consider the mapping of L ֒→∧kV for generic values of the bundle
+moduli of V .
+3Note that HomX(L, ∧k(V )) ̸= 0 implies that L is a line bundle sub-sheaf rather than a sub-line bundle of V . This follows from
+the fact that while injective maps exist, the image of L in V may not be a bundle. Equivalently, it is possible that V/L is not
+always a bundle [22].
+8
+
+The second observation is that for SU(n) bundles, if V is stable then H0(X, V ) = H0(X, V ∗) = 0. Indeed,
+if H0(X, V ) were non-vanishing, then it is clear that HomX(O, V ) ∼= H0(X, O∗⊗V ) = H0(X, V ) ̸= 0 and,
+hence, that the trivial sheaf O would de-stabilize V for any choice of K¨ahler moduli. A similar argument
+holds for V ∗which is stable exactly if V is. For this reason, checking that H0(X, V ) = H0(X, V ∗) = 0 for an
+SU(n) bundle V is a useful ﬁrst test for stability which we can carry out before proceeding further. Assuming
+this has been veriﬁed, it is clear that all possible de-stabilizing line bundle sub-sheaves, L ⊂V (or L ⊂V ∗),
+must satisfy H0(X, L) = 0. Furthermore, if an SU(n) bundle is stable then its anti-symmetric tensor powers,
+∧kV , are at least semi-stable [19, 21]. As a result, by scanning for possible line bundle sub-sheaves of ∧kV
+for all values of k, we can deﬁnitively determine the region of stability of the SU(n) bundle V . If we discover
+that for a ﬁxed polarization, ∧kV is destabilized by a line bundle L, then by the observations above, we know
+that V itself is unstable for this K¨ahler form due to a rank k sub-sheaf F ⊂V .
+To summarize, the method of analyzing the stability of an SU(n) bundle at any given point in K¨ahler
+moduli space proceeds as follows.
+• Check that H0(X, V ) = H0(X, V ∗) = 0.
+Should this not be the case, the bundle is unstable everywhere in K¨ahler cone and we can stop.
+• Consider all possible line bundles L, as classiﬁed by their ﬁrst Chern class.
+The results of the previous subsection assure us that we need only consider line bundles rather than all
+sheaves of rank k < n.
+• Discard all line bundles, L, for which Hom(L, ∧kV) = 0 for all k < n.
+If Hom(L, ∧kV ) = 0, such a line bundle is not a sub sheaf of ∧kV for any k < n and thus need not be
+considered4. As a simpliﬁcation, for k = 1, n −1, we can discard all line bundles with H0(X, L) ̸= 0.
+Indeed, since we have already veriﬁed that H0(X, V ) = H0(X, V ∗) = 0, such line bundles cannot inject
+into V and ∧n−1V ≃V ∗.
+• Check the slope of the remaining line bundles
+We must check the slope µ(L) of the remaining line bundles at the point in K¨ahler moduli space we
+are considering. If µ(L) ≥µ(V ) = 0, then L destabilizes V at that point in moduli space. If no such
+line bundle exists, then V is slope-stable at this point in K¨ahler moduli space.
+3
+Stability Walls in the K¨ahler Cone
+The stability condition (2.8) clearly depends on the choice of K¨ahler parameters and thus a bundle need
+not be stable throughout its entire K¨ahler cone. Furthermore, the choice of bundle moduli can aﬀect which
+potentially de-stabilizing sub-sheaves inject into V . In principle then, “walls” between regions of stabil-
+ity/instability such as those depicted in the (dual) K¨ahler cone in Figure 1 can occur. In the neighborhood
+of such stability walls, the supersymmetric structure of the low energy eﬀective theory must be studied in
+more detail than in the stable region. We begin by exploring the structure of stability walls in K¨ahler moduli
+space.
+While this discussion can be applied to a K¨ahler cone of any size, to illustrate this concept, we will
+consider a two-dimensional K¨ahler cone (that is, h1,1(X) = 2) given by the positive quadrant in the (s1, s2)
+4As an additional simplifying technique, we note that while scanning for possible line bundle sub-sheaves of ∧kV , if it is true
+that H0(X, ∧kV ) = 0 ∀k, we can eliminate any line bundles for which H0(X, L) ̸= 0.
+9
+
+plane of dual K¨ahler moduli. Suppose that V is an SU(n) bundle V and that a stability wall5 of the form
+shown in Figure 1 is generated by a de-stabilizing sub-sheaf F ⊂V with c1(F) = −kJ1 + mJ2, where k > 0
+and m > 0 6. From Eq. (2.8), the slope of such a sub-sheaf is given by
+s
+2
+1
+1
+1
+2
+1
+UNSTABLE
+UNSTABLE
+STABLE
+k/m
+p/q
+c (F )=(−k,m)
+c (F )=(p,−q)
+s
+Figure 1:
+A two-dimensional dual K¨ahler cone, deﬁned by s1 ≥0 and s2 ≥0, where si = dijktjtk. Shown are two de-
+stabilizing sub-sheaves F1 and F2 with ﬁrst Chern classes given by c1(F1) = (−k, m) and c1(F2) = (p, −q) for some integers
+k, m, p, q. The bundle V is stable between the lines with slopes k/m and p/q.
+µ(F) =
+1
+rk(F)ci
+1(F)si =
+1
+rk(F)(−ks1 + ms2) .
+(3.1)
+This means that, for all K¨ahler parameters (s1, s2) where µ(F) > 0, that is, for s2/s1 > k/m, the bundle is
+unstable while for µ(F) < 0, or s2/s1 < k/m, it is potentially stable, subject, of course, to other possible
+destabilizing sub-sheaves. For example, in addition, there may exist a sub-sheaf with ﬁrst Chern class given
+by c1(F) = pJ1−qJ2, where p > 0 and q > 0, which would yield a lower boundary line with slope p/q. If these
+two sub-sheaves are the “maximally destabilizing” ones on either side of the K¨ahler cone, then the bundle is
+supersymmetric for all values p/q < s2/s1 < k/m. For a two-dimensional K¨ahler cone, the supersymmetric
+region of a general bundle will be deﬁned by these upper and lower boundaries as illustrated in Figure 1. For
+the present discussion, we will focus our attention on the theory near one of these boundary lines.
+What happens on the line with slope k/m itself?
+There, the bundle is manifestly semi-stable since
+µ(F) = µ(V ) = 0. However, to decide whether the low energy theory is supersymmetric or not, we must
+consider not only our position in K¨ahler moduli space, but in bundle moduli space as well. If we examine
+this line in K¨ahler moduli space while remaining at an arbitrary point in bundle moduli space for which
+5In general, for an h1,1(X)-dimensional K¨ahler moduli space, the stability wall will be a (h1,1(X) −1)-dimensional hyperplane.
+6Note that for an h1,1(X)-dimensional, positive K¨ahler cone, if F is to deﬁne a stability wall, ci
+1(F) must contain at least one
+negative and one positive component. For this reason, a bundle deﬁned on a manifold with h1,1(X) = 1 is stable everywhere or
+nowhere.
+10
+
+V is an indecomposable rank n bundle, then supersymmetry will be broken. This must be the case since
+supersymmetric vacua exist if and only if the bundle is poly-stable. A semi-stable bundle can only be poly-
+stable if it is a direct sum of stable bundles. Therefore, the stability wall in K¨ahler moduli space will only
+correspond to a supersymmetric solution if the bundle decomposes into a direct sum V →F ⊕K where
+rk(F) + rk(K) = rk(V ) and c1(F) = −c1(K). Such bundle decompositions near a wall of semi-stability were
+discussed for K3 manifolds in Ref. [5].
+At this special “decomposable” locus in bundle moduli space, the bundle is split and poly-stable. While
+the topological quantities of V remain the same at this locus, other important features of the bundle and the
+corresponding low energy theory can change. For instance, at this decomposable locus, the structure group
+of an SU(n) bundle will become S(U(n1) × U(n2)) with n1 = rk(F) and n2 = rk(K). As we shall discuss in
+detail in the next section, this change in the structure group of V will also alter the visible gauge symmetry
+of the four-dimensional theory. For instance, if rk(V ) = 3, then the commutant of S(U(2) × U(1)) in E8 is
+no longer E6, but is enhanced to E6 × U(1).
+Before one can study such supersymmetric theories further, it is prudent to ask whether such a decom-
+posable point exists in the moduli space of V . Fortunately, it can be shown that if there exists a sub-sheaf
+F of V which injects into V , then there will always exist a locus in the moduli space of V for which V
+decomposes as a direct sum F ⊕V/F. If we deﬁne the relationship between F and V via an ‘extension’ short
+exact sequence
+0 →F →V →V/F →0 ,
+(3.2)
+then it is well-known that the space of non-isomorphic extensions is given by Ext1(V/F, F) [23]. Furthermore,
+the zero-element of the Ext group corresponds to the decomposable locus V = F ⊕K, where K = V/F. If an
+indecomposable sub-sheaf F deﬁnes a stability wall in moduli space, then, by deﬁnition, it must be stable7.
+Simply dualizing the short exact sequence (3.2), 0 →(V/F)∗→V ∗→. . . we see that (V/F)∗must also be
+stable, since otherwise, it would destabilize V in the region with µ(F) < 0, counter to our assumption of a
+stability wall. Thus, on a boundary, both F and V/F are stable sheaves.
+To see that the decomposition, V = F ⊕V/F is given as a sum of stable bundles, rather than just stable
+torsion-free coherent sheaves, we must consider a Harder-Narasimhan ﬁltration of V [24]. More speciﬁcally,
+since V is decomposable and semi-stable, we will consider a Jordan-H¨older ﬁltration. Points on a moduli space
+of strictly semi-stable sheaves do not correspond to unique objects, rather they represent an “S-Equivalence
+class” [19, 24, 25]. Two bundles are S-equivalent if their Jordan-H¨older graded sums Gr(V ) = F1⊕V/F1⊕. . .
+are isomorphic. For any S-equivalence class, there is a unique poly-stable representative up to isomorphism.
+That is, there is a unique graded sum in which the summands are stable bundles (i.e. a Seshadri Filtration,
+see [24, 25]) and, as a result, we can consider the decomposition of V into this sum.
+Thus, for bundles with non-trivial stable/unstable regions in K¨ahler moduli space, there will always exist
+a locus in the moduli space of V for which V holomorphically decomposes as a direct sum of poly-stable
+bundles on the stability wall. We will now present a simple example of a Calabi-Yau manifold X and a
+bundle V which exhibits a stability wall.
+7It is possible that F could be a direct sum of stable objects with the same slope. In this case, we would simply obtain a further
+decomposition for V , that is, V ∼F1 ⊕F2 ⊕. . ..
+11
+
+3.1
+A stability wall example
+Up to this point, our entire discussion has been completely general. Let us now exemplify our previous
+comments by considering a bundle deﬁned on the complete intersection Calabi-Yau manifold [26],
+X =
+"
+P1
+P3
+
+2
+4
+#
+,
+(3.3)
+deﬁned by a polynomial of bi-degree (2, 4) in the ambient space P1 × P3. This manifold has two K¨ahler
+moduli, so h1,1(X) = 2. A basis of harmonic (1, 1) forms is given by the K¨ahler forms J1 and J2 of the
+ambient projective spaces P1 and P3 (pulled back to X). We denote the corresponding K¨ahler moduli by
+t1 and t2. The K¨ahler cone is the positive quadrant t1 ≥0 and t2 ≥0 and the non-zero triple intersection
+numbers are given by d122 = 4 and d222 = 2. From Eq. (2.6), we can calculate the dual K¨ahler moduli s1
+and s2 and we ﬁnd
+s1 = 4(t2)2 ,
+s2 = 8t1t2 + 2(t2)2 .
+(3.4)
+Hence, expressed in terms of these dual K¨ahler moduli, the K¨ahler cone is the positive quadrant above the
+line s2/s1 = 1/2. Line bundles on X are characterised by two integers, k and l, and are denoted by OX(k, l).
+Their ﬁrst Chern class is given by c1(OX(k, l)) = kJ1 + lJ2.
+We will deﬁne a rank 3 monad bundle [27, 28, 16] on this space by the short exact sequence
+0 →V →OX(1, 0) ⊕OX(1, −1) ⊕OX(0, 1)⊕2
+f
+−→OX(2, 1) →0 .
+(3.5)
+The bundle V is deﬁned as the kernel of the map f. This map is derived from polynomials of bi-degree
+((1, 1), (1, 2), (2, 0), (2, 0)) (mapping sections of OX(1, 0) ⊕OX(1, −1) ⊕OX(0, 1)⊕2 to sections of OX(2, 1)).
+The rank of V is three and c1(V ) = 0 so that the structure group is generically SU(3). At a generic point in
+moduli space, the only non-vanishing cohomology of this SU(3) bundle is h1(X, V ) = 2. This means there
+are two families in 27 multiplets and no anti-families in 27. The moduli space of V has dimension
+h1(X, V ⊗V ∗) = 22,
+(3.6)
+so that we have 22 E6 singlet ﬁelds which should be interpreted as bundle moduli 8. We select the bun-
+dle (3.5) solely because it provides a straightforward example of a bundle with both supersymmetric and
+non-supersymmetric regions in its moduli space, and make no attempt here to consider models with fully
+realistic particle spectra.
+To analyze the stability of this rank three bundle we must consider the potentially de-stabilizing rank one
+and two sub-sheaves. As discussed in the previous subsections, this may be done more simply by considering
+potentially de-stabilizing line bundle sub-sheaves of V and ∧2V ∼= V ∗.
+Beginning with rank one sub-sheaves, we consider all sub-line bundles of V .
+One can verify that
+H0(X, V ) = 0 for the bundle (3.5) and that all line bundles OX(k, l), where k, l ≥0 have sections. Hence,
+such semi-positive line bundles need not be considered. Further, semi-negative line bundles OX(k, l), where
+k, l ≤0 always have a negative slope in the interior of the K¨ahler cone and are irrelevant. It is, therefore,
+clear that the only line bundles we need to consider are those with ‘mixed’ positive/negative entries in their
+ﬁrst Chern classes. That is, L is given by OX(−k, m) or OX(p, −q) for k, m, p, q > 0. We seek such line
+bundles for which HomX(L, V ) ̸= 0. A straightforward but lengthy analysis (see [16, 17] for details) yields
+that if L = OX(−k, m) then HomX(L, V ) ̸= 0 for k ≥3 and m = 1. Further, OX(p, −q) does not inject for
+8See [28, 29] for general formulae for the spectra and moduli of monad bundles.
+12
+
+any values of p, q. Hence, the “maximally destabilizing” rank one sub-sheaf corresponds to the line bundle
+L1 = OX(−3, 1) and we have the short exact sequence
+0 →L1 →V →V/L1 →0 .
+(3.7)
+This implies that above a line with slope s2/s1 = 3 in the K¨ahler cone, the bundle is deﬁnitely unstable while
+it may be stable below this line.
+However, we still need to consider rank two destabilizing sub-sheaves or, equivalently, rank one line bundle
+sub-sheaves of ∧2V . As before, we ﬁnd that no lower boundary exists, that is, HomX(O(p, −q), ∧2V ) = 0
+for all values of p, q > 0. For the upper boundary, we consider sub-bundles of the form L = OX(−k, m) in
+∧2V . Since V is an SU(n) bundle we have ∧2V ≃V ∗. This means we can extract information about ∧2V
+from the dual
+0 →OX(−2, −1) →OX(−1, 0) ⊕OX(−1, 1) ⊕OX(0, −1)⊕2 →V ∗→0
+(3.8)
+of the monad sequence (3.5). Twisting this sequence by L∗= OX(k, −m) we get
+0 →OX(k −2, −1 −m) →OX(k −1, −m) ⊕OX(k −1, 1 −m) ⊕OX(k, −1 −m)⊕2 →L∗⊗V ∗→0 . (3.9)
+One can verify from this sequence that HomX(L, ∧2V ) ∼= H0(X, L∗⊗V ∗) ̸= 0 only for L = O(−k, 1) and
+k ≥1. Hence, the maximally destabilizing line bundle is L2 = OX(−1, 1) and we have
+0 →L2 →V ∗→V ∗/L2 →0 .
+(3.10)
+Thus, V ∗is stable only below the line with slope s2/s1 = 1. Equivalently, this implies that there is a rank
+two sub-sheaf, F of V with c1(F) = −J1 + J2 and
+0 →F →V →V/F →0 .
+(3.11)
+Since the rank two sub-sheaf F de-stabilizes a larger region of the dual K¨ahler cone then the rank one
+sub-sheaf L1, the existence of L1 = OX(−3, 1) is irrelevant here. While there are an inﬁnite number of sub-
+sheaves that de-stabilize some portion of the K¨ahler cone, for this bundle there is only one relevant stability
+wall which is determined by the rank two sub-sheaf F ⊂V . From Eq. (3.1), the slope of this sub-sheaf is
+given by
+µ(F) = 1
+2(−s1 + s2) ,
+(3.12)
+and it follows that V is stable below the line with slope s2/s1 = 1. The dual K¨ahler cone, together with the
+region of stability, are plotted in Figure 2.
+The discussion of the last two sections is rather mathematical in nature. It would be desirable to have
+more physical insight into what is going on, and to be able to describe stability walls in the K¨ahler cone in
+terms of the four-dimensional eﬀective action. To this end, in the next section, we will study the eﬀective
+four-dimensional theory describing ﬂuctuations about the stability wall, that is, the locus in moduli space
+where the bundle structure group decomposes. We will then use these results, and the ones of the present
+section, to discuss what happens physically as one crosses a wall of stability.
+4
+Eﬀective Field Theory at the Decomposable Locus
+In this section, we will compute the potential in the four-dimensional eﬀective theory near the locus in bundle
+moduli space where the sequence 0 →F →V →K →0 becomes the trivial extension, that is, where the
+bundle decomposes as V = F ⊕K. To perform such a computation, the ﬁrst thing we need to know is the
+low energy spectrum. We will describe this in two stages; ﬁrst presenting those ﬁelds which descend from
+ten-dimensional gauge ﬁelds before continuing to describe those which arise from other sources.
+13
+
+1
+S
+1
+2
+2
+1
+c (L )=(−1,1)
+1
+3
+1
+1/2
+STABLE
+UNSTABLE
+c (L )=(−3,1)
+S
+Figure 2:
+The dual K¨ahler cone and the regions of stability/instability for the monad bundle described in Section 3.1. Here
+L1 and L2 are line bundle sub-sheaves of V and ∧2(V ) respectively. The boundaries of the dual K¨ahler cone are denoted by
+the s2-axis and the line with slope 1/2.
+4.1
+Four-dimensional spectrum from the gauge sector
+As stated in the previous section, it is clear from the sequence 0 →F →V →K →0, and the fact that
+c1(V ) vanishes, that F and K have equal and opposite ﬁrst Chern class. Thus, at the decomposable point
+in bundle moduli space the structure group of V is S(U(n1) × U(n2)), where n1 + n2 = n. It will turn out
+that this is not the most convenient way in which to express this group for what follows, in particular for the
+calculation of the spectrum. As such, we will now carry out a little bit of group theory in order to obtain a
+more suitable form.
+Locally, at the level of Lie algebras, S(U(n1)×U(n2)) is equivalent to SU(n1)×SU(n2)×U(1). Elements
+of the former group are deﬁned by a pair (A, B), where A and B are n1 × n1 and n2 × n2 unitary matrices
+respectively, satisfying the condition det A det B = 1. Elements of SU(n1) × SU(n2) × U(1) are deﬁned by a
+triplet (A, B, E), where A and B are n1 × n1 and n2 × n2 special unitary matrices respectively and E is the
+U(1) phase. We may deﬁne a map σ : SU(n1)×SU(n2)×U(1) →S(U(n1)×U(n2)) by (A, B, E) →(A, B) =
+(En2A, (E∗)n1B) and it is easy to verify that this map is onto and that Ker(σ) ∼= Zn1n2. Hence, globally
+S(U(n1) × U(n2)) ∼= (SU(n1) × SU(n2) × U(1))/Zn1n2. To understand the matter content of the low energy
+heterotic theory we must consider the branching of the adjoint of E8 under the bundle structure group and
+its commutant. In the standard texts [30], these branchings are given in terms of SU(n1) × SU(n2) × U(1)
+rather than S(U(n1) × U(n2)) which is why we have discussed the relation between those two groups.
+For the sake of brevity we will only consider one possible structure group in the main text of this paper.
+We shall detail in full the case SU(3) →S(U(2) × U(1)) and note that all other SU(n) decompositions
+follow in an entirely analogous manner9. We consider, then, the case where we have an SU(3) structure
+9For example, there are two possible decompositions for an SU(3) bundle. First, we have SU(3) →S(U(2) × U(1)) ≈SU(2) ×
+14
+
+group at a generic point in moduli space, degenerating to SU(2) × U(1) at the stability wall about which we
+construct our low energy theory. This gives us a low energy gauge group E6 × U(1) at this locus. Under the
+decomposition E8 ⊃E6 × SU(2) × U(1) the adjoint of E8 decomposes as follows.
+248
+=
+(1, 1)0 + (1, 2)−3 + (1, 2)3 + (1, 3)0 + (78, 1)0
+(4.1)
++(27, 1)2 + (27, 2)−1 + (27, 1)−2 + (27, 2)1
+In the above decomposition, the ﬁrst number in the bracket is the E6 representation, the second number is
+that of a SU(2) representation and the subscript is the U(1) charge. We note that our sign conventions diﬀer
+somewhat from those of [30].
+The ﬁeld content of the low energy theory is determined by the ﬁrst and zeroth cohomologies of various
+combinations of F and K as determined by the decomposition (4.1). The ﬁrst cohomologies tell us about
+scalars and the zeroth about gauge bosons in the four-dimensional eﬀective theory. We must remember that
+the groups SU(2) and U(1) in the above branching are not directly the structure groups of F and K in
+the decomposition V = F ⊕K. Rather, since F is a rank two bundle with non-vanishing ﬁrst Chern class
+its structure group is U(2). Further, the structure group of K is U(1) with the additional constraint that
+c1(F) + c1(K) = 0 10, so that the overall structure group of F ⊕K is S(U(2) × U(1)). The proceeding group
+theory discussion tells us that the elements of this structure group are given by (EA, (E∗)2) where (A, E) ∈
+SU(2) × U(1). We have summarised the information about the various representations and cohomologies,
+associated to low-energy chiral multiplets, in Table 1. Note that the charges given as a subscript in the
+ﬁrst column refer to the U(1) ⊂SU(2) × U(1) while the charges in the last column refer to the U(1) in the
+commutant of S(U(2) × U(1)) in E8. Let us interpret the ﬁelds that appear here carefully. The (27, 1)2,
+(27, 1)−2, (27, 2)−1 and (27, 2)1 multiplets unambiguously represent matter ﬁelds while the (1, 3)0 multiplet
+clearly corresponds to moduli of the S(U(2) × U(1)) bundle. The remaining two cohomologies, however, are
+a little bit more subtle to interpret. From the point of view of the theory at stability wall - the point of view
+we are considering here - these ﬁelds are charged under a visible sector gauge group (the enhanced U(1)) and,
+hence, they are matter ﬁelds. However, it would also not be unreasonable to regard them as bundle moduli.
+In general, we think of the cohomology H1(X, V ⊗V ∗) as representing bundle moduli 11. At the stability
+wall, where the bundle V decomposes as V = F ⊕K, this bundle cohomology splits into various parts as
+H1(X, V ⊗V ∗) = H1(X, F ⊗F∗) ⊕H1(X, F∗⊗K) ⊕H1(X, F ⊗K∗) .
+(4.2)
+Here, we have used that K is a line bundle in the case we are considering and that H1(X, O) = 0 on
+a Calabi-Yau manifold. Thus, it is not unreasonable to interpret H1(X, F∗⊗K) and H1(X, F ⊗K∗) as
+giving rise to bundle moduli. Thinking about the perturbations such degrees of freedom would contribute
+to the higher dimensional gauge ﬁeld, we see that they describe the deformations of the split bundle where
+F and K are mixed into one another; that is, they parametrize movement in moduli space away from the
+U(1), corresponding to V →F ⊕K, a sum of a rank two and a rank one bundle. There is a second possibility, namely SU(3) →
+S(U(1) × U(1) × U(1)) ≈U(1) × U(1), corresponding to a decomposition into three line bundles: V →L1 ⊕L2 ⊕L3. In this latter
+case, one would ﬁnd two additional low energy U(1) symmetries. In the interests of brevity, we will only detail the case of a single
+U(1) here.
+10Note that we have assumed here that it is the rank 2 sub-sheaf which injects everywhere and destabilizes V . The same analysis
+can be repeated assuming that it is the rank 1 sub-sheaf which is destabilizing without changing the result. This is because the
+only information which will enter the considerations of this subsection is the nature of the bundle at the decomposable locus in
+bundle moduli space.
+11More precisely, as a vector space, H1(X, V ⊗V ∗) can be viewed as the tangent space to bundle moduli space.
+15
+
+Representation
+Cohomology
+Physical U(1) charge
+(1, 2)−3
+H1(X, F ⊗K∗)
+−3/2
+(1, 2)3
+H1(X, F∗⊗K)
+3/2
+(1, 3)0
+H1(X, F ⊗F∗)
+0
+(27, 1)2
+H1(X, K)
+1
+(27, 2)−1
+H1(X, F)
+−1/2
+(27, 1)−2
+H1(X, K∗)
+−1
+(27, 2)1
+H1(X, F∗)
+1/2
+Table 1: Representations, cohomologies and U(1) charges associated to the zero modes which arise at the stability wall. The
+ﬁrst column gives the representation under E6 × SU(2) × U(1), the second column is the relevant cohomology involving F
+and K, and the last column is the charge of the states under the U(1) which is in the commutant of S(U(2) × U(1)) in E8.
+decomposable locus. However, we stress that, in this work, the eﬀective ﬁeld theory that we will derive
+will describe perturbations around the decomposable locus, and hence, we will think of the charged ﬁelds in
+H1(X, F∗⊗K) and H1(X, F ⊗K∗) as matter. In the following, these ﬁelds will be denoted by CL.
+4.2
+Four dimensional spectrum from the gravitational sector
+In addition to the ﬁelds of the previous subsection, we have the usual low energy moduli from the gravitational
+sector of the eleven-dimensional theory. It is important to note that some of these moduli are also charged
+under the U(1) symmetry in the low energy gauge group even though they do not descend from higher-
+dimensional gauge ﬁelds. The moduli ﬁelds which are not associated to the E8 × E8 gauge ﬁelds include the
+dilaton, the (complexiﬁed) K¨ahler moduli, the complex structure moduli and possible ﬁve-brane moduli. It
+turns out that, of these ﬁelds, only the complex structure moduli are not charged under the U(1) symmetry.
+For now, we will focus on tree level results where only the K¨ahler moduli are of importance. The other ﬁelds
+will come into play in Section 6 where we calculate what, in the weakly coupled language, correspond to one-
+loop corrections. For reasons which will become clear, the following arguments will be carried out using the
+language of the strongly-coupled E8 × E8 heterotic string [31]-[35], that is, M-theory on the orbifold S1/Z2.
+However, analogous arguments leading to the same results can be presented starting with the weakly-coupled
+ten-dimensional theory [2].
+In terms of higher-dimensional ﬁelds, the K¨ahler moduli T i, where i, j, k = 1, . . . , h1,1(X) can be written
+as follows.
+T i = ti + 2iχi
+(4.3)
+Here ti are the K¨ahler parameters of the Calabi-Yau manifold, which we have already encountered in our
+bundle stability analysis, and χi are the associated T -axions which descend from the M-theory three-form as
+C11a¯b = χiJia¯b .
+(4.4)
+We recall that {Ji} is a basis of harmonic (1, 1) forms on the Calabi-Yau manifold, chosen to be dual to a
+basis {Ci} of the second Calabi-Yau homology such that
+1
+v1/3
+Z
+Ci Jj = δi
+j ,
+(4.5)
+16
+
+where v is an arbitrary coordinate volume of the Calabi-Yau space. The index 11 refers to the coordinate of
+the S1/Z2 orbifold, and a, b, . . . and ¯a,¯b, . . . denote holomorphic and anti-holomorphic Calabi-Yau indices.
+It is a well-known fact that anti-symmetric tensor ﬁelds in heterotic theories transform under E8 × E8
+gauge transformations [2]. Consider a local inﬁnitesimal gauge transformation,
+δAA = −DAǫ ,
+(4.6)
+where the derivative is covariant and ǫ is the gauge transformation parameter. Under such a change of gauge
+the two-form C11AB transforms as
+δC11AB = −
+κ11
+4π
+2/3 1
+4π δ(x11)tr(ǫFAB) ,
+(4.7)
+where A, B = 0, . . . , 9 label the coordinates transverse to the S1/Z2 orbifold. Let us concentrate ﬁrst on the
+internal components of equation (4.7) by writing δC11a¯b = δχiJia¯b. Integration over Ci × S1/Z2 then leads
+to the following gauge transformation
+δχi = −ǫSǫ2
+R
+16π
+Z
+Ci tr(ǫF)
+(4.8)
+for the T -axions, where we have introduced the dimensionless O(κ2/3
+11 ) combination of constants
+ǫSǫ2
+R =
+κ11
+4π
+2/3
+8
+4πρv1/3
+(4.9)
+and πρ is the coordinate volume of the S1/Z2 interval.
+The constants ǫS and ǫR are the usual expan-
+sion parameters deﬁning four-dimensional heterotic M-theory [36].
+In weakly coupled language, ǫsǫ2
+R =
+8πα′/(4v10)1/3, where v10 is the Calabi-Yau coordinate volume in the 10-dimensional theory. Hence, the
+eﬀects considered here are order α′ but at tree level. Corrections which are one-loop from a weakly coupled
+perspective will be discussed in Section 6. Normally, the transformation (4.8) does not lead to a non-trivial
+gauge transformation of the T -axions under the visible sector gauge group. This is because if F is nonzero,
+in order for χ to have a non-trivial transformation according to (4.8), then F breaks the associated gauge
+symmetry at the compactiﬁcation scale and so it does not appear as a factor in the visible sector gauge
+group. However, in our case we have a U(1) factor in the structure group of our bundle which, due to its self
+commutation, is both visible and hidden at the same time. In particular, F can have a non-trivial vev in the
+U(1) direction without breaking the associated visible sector gauge symmetry.
+Thus, for our case, we have a non-trivial U(1) transformation for the moduli T k. If we consider a gauge
+transformation associated with the additional U(1) seen in the visible sector, with a gauge parameter denoted
+by ˜ǫ, we may rewrite (4.8) in terms of the ﬁrst Chern c1(F) of the de-stabilizing sub-sheaf F as follows.
+δχi = −3
+16ǫSǫ2
+R˜ǫ ci
+1(F)
+(4.10)
+In addition, the singlet matter ﬁelds CL carry a U(1) charge QL and transform linearly as
+δCL = −i˜ǫQLCL .
+(4.11)
+It is known [11, 12, 13] that a low-energy U(1) symmetry in heterotic compactiﬁcations which arises as the
+commutant of a U(1) factor in the internal bundle structure group is generally anomalous in the Green-
+Schwarz sense.
+In this case, the triangle anomalies in the four-dimensional theory are cancelled by an
+anomalous variation of the gauge kinetic function, as usual.
+Perhaps not so well-known, but explained
+in detail in Ref. [14], is that this includes an anomalous variation of the T -modulus dependent threshold
+17
+
+corrections of the gauge kinetic function which transforms under (4.10). We stress that this is diﬀerent from
+the perhaps better known “universal” anomalous U(1) where the triangle anomaly is cancelled by a variation
+of the dilaton only [11, 13]. This universal anomaly arises when the anomalous U(1) symmetry has no internal
+counterpart in the bundle structure group. Such a situation can arise in the SO(32) heterotic string but not
+in smooth compactiﬁcations of the E8 × E8 theory. Hence, in the present context we are always dealing with
+a “non-universal” anomalous U(1) symmetry which transforms the T -moduli as in Eq. (4.10). In general,
+amomalous U(1) symmetries are associated to FI terms in the four-dimensional theory. While the universal
+heterotic U(1) implies the well-known dilaton-dependent FI term [11, 13], the present non-universal case
+leads to a T -dependent FI term [14] at leading order. We will now derive this FI term explicitly.
+4.3
+The four dimensional potential
+The potential of an N = 1 supersymmetric theory contains two types of contribution: those from D and
+F-terms. As we will see later, F-terms are less relevant in our context, so we focus on D-terms and their
+associated potential. To do this, we need to know the K¨ahler potential of the ﬁelds involved. Having deferred
+loop corrections to Chapter 6, we concentrate here on the leading order which only involves the T -moduli
+T i = ti +2iχi and the singlet matter ﬁelds CL. We will work in the usual approximation keeping only leading
+terms in CL and in inverse powers of the T -moduli. The usual K¨ahler potential for the T -moduli is given by
+κ2
+4KT = −ln V ,
+V = 1
+6K ,
+(4.12)
+where V is the Calabi-Yau volume and K is the cubic polynomial
+K = dijktitjtk = 1
+8dijk(T i + ¯T i)(T j + ¯T j)(T k + ¯T k) .
+(4.13)
+The CL part of the K¨ahler potential has the form
+Kmatter = GLMCL ¯CM .
+(4.14)
+Here GLM is the matter ﬁeld space metric, which depends on the various moduli in the theory. The precise
+form of this metric will not be needed but it will be important that it is positive deﬁnite.
+We now have all of the information we require to compute the D-term contribution to the four dimensional
+theory’s potential. Given that we have identiﬁed the transformation properties of our low-energy ﬁelds, in
+particular under the U(1) symmetry, this derivation is standard and can, in a somewhat diﬀerent context, be
+found in the literature (see for example, [14, 15]). Nevertheless, we will carry this out explicitly, to present a
+complete and coherent argument. According to the usual structure of four-dimensional N = 1 supergravity,
+the D-terms are determined by the following equations [37].
+gI ¯
+J ¯X
+¯
+Jη
+=
+i
+∂
+∂M I Dη
+(4.15)
+gI ¯
+JXIη
+=
+−i
+∂
+∂¯
+M ¯
+J Dη
+(4.16)
+Here, the M I represent all of the ﬁelds in the theory, gI ¯
+J the complete ﬁeld space metric, and η is an index
+labeling the adjoint of the gauge group. The quantities X are the holomorphic Killing vectors which generate
+those analytic isometries of the K¨ahler ﬁeld space which can be gauged. Under such a gauge transformation,
+the ﬁelds M I then transform as
+δM I = −ǫηXIη ,
+(4.17)
+18
+
+where ǫη are the gauge parameters. We can now determine the Killing vector for the U(1) symmetry by
+comparing this expression with the ﬁeld transformations (4.10) and (4.11) which we have derived from the
+higher-dimensional theory. This leads to
+Xi
+=
+i3
+8ǫSǫ2
+Rci
+1(F)
+(4.18)
+XL
+=
+iQLCL .
+(4.19)
+Inserting this Killing vector into (4.15) and solving for the associated U(1) D-term we obtain
+DU(1) = 3
+16
+ǫSǫ2
+R
+κ2
+4
+µ(F)
+V
+−
+X
+L, ¯
+M
+QLGL ¯
+MCL ¯C
+¯
+M ,
+(4.20)
+where κ2
+4 = κ2
+11/(v2πρ) is the four-dimensional Planck constant. Here, we have neglected contributions to this
+D-term from 27 and 27 multiplets charged under the U(1) symmetry. As long as E6 remains unbroken these
+further contributions vanish and, for our explicit example, this will indeed be enforced by the E6 D-terms.
+We note that the above D-term consists of a FI piece which is proportional to the slope
+µ(F) = 1
+2ci
+1(F)si = 1
+2dijkci
+1(F)tjtk = 1
+8dijkci
+1(F)(T j + ¯T j)(T k + ¯T k) ,
+(4.21)
+of the destabilizing sub-sheaf F and a standard matter ﬁeld piece. We also recall that V is the Calabi-Yau
+volume given in Eq. (4.12).
+5
+Stability Walls in the Eﬀective Theory
+In this section, we will study the vacuum structure of the eﬀective theory derived in the previous section.
+Our aim is to show how this four-dimensional, ﬁeld theory based analysis reproduces features seen in the
+mathematical, ten-dimensional analysis of Section 3. In other words, we would like to show how the abstract
+mathematical concept of bundle stability and its implications for supersymmetry can be understood in a
+physical way, from our four-dimensional eﬀective theory. It is clear from the expression (4.20) for the D-term
+that the nature of the four-dimensional vacuum space crucially depends on the charges QL of the matter
+ﬁeld singlets CL. We begin with a general discussion and then illustrate the main points with the example
+discussed in Section 3.1.
+We need to understand how the interplay between the FI and matter ﬁeld terms in Eq. (4.20) can
+reproduce the expected pattern of broken or unbroken supersymmetry. A crucial observation is that the FI
+term is proportional, with a positive constant of proportionality, to the slope, µ(F), of the destabilizing sub-
+sheaf F. We recall from our previous discussion that this slope is negative in the part of the K¨ahler moduli
+space where the bundle is stable and hence supersymmetric, and that it is positive where the bundle breaks
+supersymmetry. The stability wall which separates these two regions in K¨ahler moduli space is deﬁned by
+µ(F) = 0. Given these features of the FI term, one can ask how the D-term (4.20) for µ(F) < 0 can vanish
+and hence preserve supersymmetry as we would expect. To achieve this, the FI term obviously has to be
+cancelled by the matter ﬁeld contribution in (4.20) through a suitable adjustment of the matter ﬁeld vevs.
+This will work precisely if there is at least one negatively charged matter ﬁeld CL, with QL < 0 present. On
+the other hand, if the D-term (4.20) is to be non-zero and thus break supersymmetry for µ(F) > 0, as we
+expect it should, all matter ﬁelds need to be negatively charged; that is, there should be no matter ﬁelds with
+QL > 0. The D-term (4.20) then becomes a sum of two positive deﬁnite terms in the non-supersymmetric
+region and there is no way in which they can cancel each other.
+19
+
+Hence, for the D-term to correctly describe the expected pattern of supersymmetry breaking the zero
+modes at the stability wall are constrained in a speciﬁc way. Let us focus on our main class of examples,
+namely bundles V with SU(3) structure group which decompose as V = F ⊕K, where F is the rank two
+de-stabilizing sub-sheaf. Then we can indeed show that the required constraints on the particle spectrum
+are satisﬁed. We recall from Table 1 that the singlet matter ﬁelds CL correspond to the cohomology groups
+H1(X, F ⊗K∗) and H1(X, F∗⊗K), where the former leads to negative and the latter to positive charge.
+Then one can show the following
+Lemma 1. Let V be a holomorphic vector bundle with structure group SU(3) deﬁned over X, a Calabi-
+Yau 3-fold. If F is a rank 2, stable sub-sheaf of V , deﬁning the “wall” in the dual K¨ahler cone given by
+µ(F) = 0, such that V is stable for µ(F) < 0 and unstable for µ(F) > 0, then H1(X, F ⊗(V/F)∗) ̸= 0 and
+H1(X, F∗⊗V/F) = 0 (for any eﬀective ﬁeld theory describing only V ).12
+The proof of this lemma (generalized to SU(n) bundles) is provided in Appendix A. It states that all singlet
+matter ﬁelds CL result from the cohomology group H1(X, F ⊗K∗) and therefore, from Table 1, are negatively
+charged, as required. The fact that all of the ﬁelds CL carry U(1) charges of the same sign means, of course,
+that the U(1) symmetry is anomalous. This is in line with expectations and we know that this triangle
+anomaly is cancelled by the four-dimensional version of the Green-Schwarz mechanism. Since we are dealing
+with a non-universal anomalous U(1), as discussed, this involves an anomalous variation of the threshold
+correction to the gauge kinetic function induced by the transformation (4.10) of the T -axions. Details of this
+can be found in Ref. [14].
+We would now like to discuss the D-term (4.20) and its associated vacuum space and particle masses in
+more detail. This will provide us with a general picture of how the theory at the stability wall relates to the
+standard heterotic low-energy theory at a generic point in the supersymmetric part of K¨ahler moduli space.
+As mentioned before, we will focus on the part of the moduli space where E6 is unbroken, so that we do
+not need to consider vevs of 27 and 27 multiplets. Hence, the ﬁelds of central interest are the T -moduli
+T i = ti + 2iχi and the singlet matter ﬁelds CL. It is clear that the D-term (4.20) gives mass to precisely one
+real combination of the K¨ahler moduli ti and the matter ﬁelds CL, the Higgs ﬁeld. Expanding (4.20) around
+a vacuum (that is, a vanishing D-term, DU(1) = 0) by writing ti = ⟨ti⟩+ δti and CL = ⟨CL⟩+ δCL, we ﬁnd
+that this massive linear combination is given by
+DU(1) = −3
+16
+ǫSǫ2
+R
+κ2
+4
+Gjkcj
+1(F)δtk −
+X
+L, ¯
+M
+QLGL ¯
+M
+
+CL
+δ ¯C
+¯
+M + δCL D
+¯C
+¯
+ME
+,
+(5.1)
+where
+Gij = −∂2 ln V
+∂ti∂tj
+(5.2)
+is the K¨ahler moduli space metric, expressed in terms of the Calabi-Yau volume V as deﬁned in Eq. (4.12). In
+this discussion, we are ignoring terms which are higher order in
+
+CL
+and inverse powers of ti. The Goldstone
+mode, the corresponding linear combination of T -axions χi and CL phases, is absorbed by the U(1) vector
+boson in the super-Higgs eﬀect. Since supersymmetry is unbroken, the mass of the linear combination (5.1)
+and the U(1) vector boson must be equal and they can be computed from Eq. (5.1) or from the χi and CL
+12If H1(X, F∗⊗V/F) ̸= 0 then the bundle deﬁned by the extension Ext1(F, V/F) = H1(X, F∗⊗V/F) is not isomorphic to V .
+This case corresponds to a branch structure in the eﬀective ﬁeld theory which provides a transition to a new vector bundle and will
+be explored in more detail in [38].
+20
+
+kinetic terms. Either way one ﬁnds the mass is given by
+m2
+U(1) = 1
+s
+
+(3ǫSǫ2
+R)2
+256κ2
+4
+ci
+1(F)cj
+1(F)Gij +
+X
+L, ¯
+M
+QLQ
+¯
+MGL ¯
+M⟨C⟩L⟨¯C⟩
+¯
+M
+
+,
+(5.3)
+where s = Re(S) is the real part of the dilaton. To obtain this result from Eq. (5.1) it is necessary to
+canonically normalise the kinetic terms
+1
+4κ2
+4 Gij∂δti∂δtj and GL ¯
+M∂δCL∂δ ¯C ¯
+M.
+Let us discuss this result, beginning at a point on the stability wall. At the stability wall, µ(F) = 0 and
+it follows from Eq. (4.20) that ⟨CL⟩= 0 in order to have a vanishing D-term. Hence, at the stability wall the
+Higgs ﬁeld is a linear combination of K¨ahler moduli δti only, while the Goldstone mode consists of T -axions
+χi. The U(1) and Higgs mass are then given by the ﬁrst term in Eq. (5.3) which scales like 1/(st2) for a
+typical K¨ahler modulus t. This is to be compared with the mass of a typical gauge sector massive mode
+which scales as 1/(st). We see that the U(1) and Higgs masses are suppressed by a factor 1/t and, hence,
+that in the large radius limit and close to the stability wall it is consistent to keep these ﬁelds in the low
+energy theory.
+What happens as we move away from the stability wall into the supersymmetric region? From Eq. (4.20)
+the matter ﬁeld vevs ⟨CL⟩are now non-vanishing and their ﬂuctuations δCL contribute to the Higgs ﬁelds
+and the Goldstone mode. Once we move suﬃciently away from the stability wall, so that µ(F) = O(t2),
+Eq. (4.20) implies GL ¯
+MCL ¯C ¯
+M ∼1/t. Hence, far away from the stability wall, the U(1) mass (5.3) scales
+as 1/(st) and becomes comparable to a typical heavy gauge sector mass. In this limit, we should, therefore,
+remove the U(1) vector multiplet and the Higgs multiplet from the low-energy theory. In this way, we recover
+the standard E6 gauge group at a generic supersymmetric point in the K¨ahler moduli space.
+What about the matching of chiral multiplets to the usual analysis? First, we note that far away from
+the stability wall the Higgs multiplet becomes predominantly a linear combination of the matter ﬁelds CL.
+This means that there are massless “T -moduli” in this region, which are slightly corrected versions of the
+naively deﬁned ﬁelds, consistent with the expectation from standard heterotic compactiﬁcations. As for the
+E6 singlet matter ﬁelds, at the stability wall we have h1(X, F ⊗(V/F)∗) ﬁelds CL and h1(X, F ⊗F∗) bundle
+moduli. Away from the stability wall, one combination of CL ﬁelds is removed from the low-energy theory
+so that we remain with h1(X, F ⊗(V/F)∗) + h1(X, F ⊗F∗) −1 singlet ﬁelds. To match standard heterotic
+compactiﬁcations, this must equal h1(X, V ⊗V ∗), the number of bundle moduli at a generic supersymmetric
+point in K¨ahler moduli space. That is is indeed always the case is stated in the following lemma.
+Lemma 2. Let V be a holomorphic vector bundle with structure group SU(3) deﬁned over X, a Calabi-Yau 3-
+fold. If F is a rank 2, stable sub-sheaf of V , deﬁning the “wall” in the dual K¨ahler cone given by ci
+1(F)si = 0,
+such that V is stable for µ(F) < 0 and unstable for µ(F) > 0, and further, H1(X, F∗⊗V/F) = 0, then
+h1(X, V ⊗V ∗) = h1(X, F ⊗(V/F)∗) + h1(X, F ⊗F∗) −1 ,
+(5.4)
+where h1(X, V ⊗V ∗) is the generic dimension of bundle moduli space when V is a stable bundle.
+The proof of this lemma can be found in Appendix A.
+In summary, we see that the D-term (4.20) correctly reproduces all of the expected physical features
+of gauge bundle supersymmetry.
+Speciﬁcally, the D-term vanishes and, hence, preserves supersymmetry
+precisely in the region where the gauge bundle is stable while it is non-vanishing in the region where the
+bundle is unstable. We have seen that in the large radius limit and at the stability wall it is consistent to
+keep the massive U(1) vector multiplet and the Higgs multiplet in the low energy theory. Away from the
+21
+
+stability wall, however, these ﬁelds develop heavy masses and have to be dropped. In this way, we recover
+the usual heterotic eﬀective theory at a generic, supersymmetric point in moduli space.
+It is clear that the physics of the non-supersymmetric region of the K¨ahler cone is dominated by the
+potential wall due to the non-vanishing D-term (4.20). Since there is no perturbative vacuum in this region,
+we shall refrain from discussing the mass spectrum in this part of ﬁeld space. However, to ﬁnish this section
+we shall make a few comments about the regime of the non-supersymmetric region where our eﬀective ﬁeld
+theory analysis is valid. In addition to the usual expansions of heterotic M-theory, which will be discussed
+in more detail in section 6, validity of our approach requires that the potentials present should be below the
+compactiﬁcation scale. Furthermore, the CL ﬁeld vevs should not be too large, since we have assumed they
+were small in deriving the eﬀective potential in this section. Obviously, both of these conditions are satisﬁed
+close to the transition between the supersymmetric and non-supersymmetric regions of moduli space and,
+as such, the above discussion can be trusted. Far into the non-supersymmetric region one may not expect a
+four dimensional description to exist at all. The potential grows in size as we penetrate inside this zone until
+eventually it becomes of the same mass scale as heavy states which have been truncated in our analysis. To
+give some idea of scale, let us examine the size of the potential in the non-supersymmetric region when all
+CL vevs vanish. At a typcial non-supersymmetric point in ﬁeld space, the ratio of this potential to the fourth
+power of a typical mass of a heavy gauge sector state is of order s, the dilaton, when working in string units.
+As such, in a valid regime of the eﬀective theory where s is large, one should typically not include regions
+with such a potential in the four-dimensional theory. Close to the boundary with the supersymmetric region
+(where the D-term potential vanishes exactly), however, the potential is surpressed from its usual scale by
+the smallness of µ(F)2/V4/3, which smoothly increases from zero as we enter the non-supersymmetric part
+of the K¨ahler cone. Thus, we can trust our analysis and investigate this potential in the four-dimensional
+theory in the region near to the boundary where (µ(F)2/V4/3)s << 1.
+5.1
+An example
+To illustrate the above general discussion, let us return to the example of Section 3.1. Recall, that we have
+deﬁned the monad bundle, (3.5) on the complete intersection Calabi-Yau manifold (3.3). As mentioned in
+Section 3.1, we ﬁnd that the SU(3) bundle, V , decomposes as V →F ⊕K where K = OX(1, −1) is a line
+bundle. The de-stabilizing sub-sheaf F ⊂V has rank two13 and is described by the monad
+0 →F →OX(1, 0) ⊕OX(0, 1)⊕2 →OX(2, 1) →0 .
+(5.5)
+The locus in the moduli space of V where it decomposes as V = F ⊕K corresponds to setting to setting to zero
+the bi-degree (1, 2) polynomials in the monad map, f, given in (3.5). Using the results of Refs. [28, 17], we can
+calculate the dimensions of the cohomology groups of F and K listed in Table 1. The results are summarised
+in Table 2. The only matter ﬁelds present which are charged under the additional U(1) symmetry appear in
+the ﬁrst and ﬁfth row in the table. They both have negative charge under the four-dimensional U(1), listed
+in the third column. In particular, this means that the singlet matter ﬁelds CL, which correspond to the ﬁrst
+row in the table, are all negatively charged, in accordance with Lemma 1. Further, in this particular model
+it turns out that the 27 matter multiplets are also negatively charged. This means, by gauge invariance,
+that the F-term part of the potential vanishes. Having only 27 but no 27 multiplets means the 27 vevs
+13In this example F is a bundle that injects into V everywhere in moduli space, while K is a line-bundle and only injects at the
+decomposable point. That F is indeed a bundle and not simply a sheaf has been checked explicitly using the computer algebra
+packages [39].
+22
+
+Representation
+Cohomology
+Physical U(1)charge
+Dimension of Cohomology
+(1, 2)−3
+H1(X, F ⊗K∗)
+−3/2
+16
+(1, 2)3
+H1(X, F∗⊗K)
+3/2
+0
+(1, 3)0
+H1(X, F ⊗F∗)
+0
+7
+(27, 1)2
+H1(X, K)
+1
+0
+(27, 2)−1
+H1(X, F)
+−1/2
+2
+(27, 1)−2
+H1(X, K∗)
+−1
+0
+(27, 2)1
+H1(X, F∗)
+1/2
+0
+Table 2: Particle content of the model deﬁned by the bundle (3.5) at the decomposable locus where V = F ⊕K, with F
+deﬁned by (5.5) and K = OX(1, −1).
+will be forced to zero by the E6 D-terms. Hence, they do not contribute to the U(1) D-term (4.20). For
+the present example and all models with similar particle content, the U(1) D-term (4.20) therefore describes
+the full vacuum space. In general, models with positively charged E6 multiplets or anti-families in 27 exist.
+For such models one would expect superpotential terms or D-ﬂat directions with non-vanishing 27 and 27
+vevs, leading to a more complicated structure of the vacuum space. As explained before, for such models the
+U(1) D-term (4.20) describes the part of the vacuum space where E6 is unbroken. A generalised expression,
+including the family and anti-family degrees of freedom in the D-term, can trivially be derived.
+From Eqs. (4.20) the D-term for this example reads
+DU(1) = 3
+16
+ǫSǫ2
+R
+κ2
+4
+µ(F)
+V
++ 3
+2
+16
+X
+L, ¯
+M=1
+GL ¯
+MCL ¯C
+¯
+M ,
+(5.6)
+where, from Eqs. (3.12), (3.4), the slope is given by
+µ(F) = 1
+2(−s1 + s2) ,
+s1 = 4(t2)2 ,
+s2 = 8t1t2 + 2(t2)2 .
+(5.7)
+For the volume we have
+V = 2t1(t2)2 + 1
+3(t2)3 .
+(5.8)
+In Figure 3 we plot the D-term potential (5.6) as a function of the dual K¨ahler cone variables s1 and s2,
+deﬁned in Eq. (3.4). The CL vevs, which are not plotted due to lack of dimensions, have been chosen to be
+at their minimum. The potential rising from zero in the unstable region is clearly visible, as is the stability
+wall determined by the line with slope 1 (in agreement with the bundle stability regions shown in Figure
+2). Figure 4 shows the D-term potential from Eq. (5.6) as a function of the coordinate s1, with s2 chosen
+such that the plot traces a line perpendicular to the stability wall in the K¨ahler cone, and the radius |C| of
+a representative singlet matter ﬁeld. This ﬁgure makes it clear that there is no “boundary” to the vacuum
+space at the stability wall in K¨ahler moduli space if one considers the full ﬁeld space of the theory.
+At the stability wall, where t2 = 4t1 and ⟨CL⟩= 0, the variation of the D-term (5.6) becomes
+DU(1) = 9ǫSǫ2
+R
+640κ2
+4
+1
+(t1)2 (4δt1 −δt2) .
+(5.9)
+This shows that it is the combination 4δt1 −δt2 of K¨ahler moduli perpendicular to the stability wall which
+becomes massive at this point, as is also evident from Figure 4. The mass of this linear combination is given
+23
+
+0.5
+1.5
+S1
+0.5
+1.5
+S2
+0
+2
+V
+Figure 3: The potential in the dual K¨ahler cone as a functions of the two dual K¨ahler variables. The potential has been
+minimized with respect to the CL ﬁelds (which are not plotted here). The ﬂat region of the potential is where the bundle is
+stable. The positive deﬁnite potential wall which one encounters upon entering the region where the bundle is unstable can
+clearly be seen, arising at the line with slope = 1.
+1.
+0.5
+0.
+-0.5
+-1.
+ÈCÈ
+1.5
+2.
+2.5
+S1
+0.01
+0.035
+0.06
+V
+Figure 4:
+The D-term potential from Eq. (5.6), as a function of s1, a dual K¨ahler modulus, and the absolute value, |C|,
+of a representative singlet matter ﬁeld C. In this plot we have chosen s2 = 4 −s1 so that we are examining a line in K¨ahler
+moduli space perpendicular to the boundary between the supersymmetric and non-supersymmetric regions. The boundary itself
+is found at s1 = 2 in this diagram. Since the exact form of the K¨ahler potential for the matter ﬁelds is not known, a simple,
+canonical form has been chosen for illustrative purposes.
+24
+
+by
+m2
+U(1) = 3(ǫSǫ2
+R)2
+256κ2
+4
+1
+s(t1)2 .
+(5.10)
+This expression shows explicitly the aforementioned 1/t2 scaling of the U(1) vector and Higgs masses which
+justiﬁes keeping these states in the low-energy theory close to the stability wall. As discussed earlier, far away
+from the stability wall the Higgs multiplet becomes pre-dominantly a linear combination of the CL multiplets
+and there are two massless K¨ahler moduli as one would expect at a generic point in the supersymmetric region.
+From Table 2, we have 16 singlet matter ﬁelds CL and 7 bundle moduli at the stability wall. With one of
+the CL becoming massive one would expect 16 + 7 −1 = 22 bundle moduli at a generic supersymmetric
+point in moduli space and this is indeed the number we have computed for this example, see Eq. (3.6).
+This illustrates the general statement in Lemma 2. An additional example, with an unrelated manifold and
+method of bundle construction is provided in Appendix B.
+5.2
+Results in bundle stability from the eﬀective theory
+So far, we have used mathematical information on vector bundle stability to construct a low-energy description
+of bundle supersymmetry. Now that we have established such a picture, let us reverse our approach and see
+if can recover some of the mathematical results in bundle stability from the eﬀective ﬁeld theory. A key fact
+to remember is the interpretation of the charged matter ﬁelds, CL, as bundle moduli of the SU(3) bundle -
+as described in Section 4. When these ﬁelds vanish the bundle decomposes as V = F ⊕K, and has structure
+group S(U(2) × U(1)). For non-vanishing CL vevs, at a generic point in moduli space, the bundle no longer
+splits up into a direct sum of sub-bundles, and the structure group reverts to SU(3).
+First, in what we would expect to be the supersymmetric region of K¨ahler moduli space, the ﬁelds CL
+must acquire a vev if the D-term is to vanish. From this observation, we reproduce the fact that the bundle
+will only produce a supersymmetric vacuum in the so-called “stable” region of K¨ahler moduli space, if it is
+at a generic (that is, non-split) point in its moduli space, that is, if the structure group is SU(3). If, in the
+normally “stable” region of K¨ahler moduli space, the bundle moduli move to the decomposable locus where
+the structure group is S(U(2) × U(1)), the D-term is non-vanishing and supersymmetry is broken. This is
+all in perfect agreement with the algebro-geometric analysis presented in section 2.
+As we learned in Section 2, at the stability wall in K¨ahler moduli space, in order to have a supersymmetric
+theory, the bundle must be split and semi-stable; that is, it must decompose into a direct sum of stable bundles
+of the same slope. From (4.20) we again see this behaviour reproduced. The FI term vanishes on this line
+in K¨ahler moduli space. Hence, the vanishing of the D-term required by supersymmetry forces the CL ﬁeld
+vevs to vanish - taking us precisely to the split point in bundle moduli space.
+As before, our discussion here allows us to go further than has been previously possible and discuss what
+happens in the region where supersymmetry is spontaneously broken as well. Although the D-term (4.20)
+cannot vanish in this part of moduli space, for ﬁxed K¨ahler moduli, the D-term potential can be minimized
+by vanishing ﬁelds CL.
+Thus, the bundle will relax to the decomposable locus in bundle moduli space
+throughout this region, as well as at the stability wall, in the absence of non-perturbative eﬀects.
+As a ﬁnal comment, it is interesting to note that the D-term (4.20) does not depend on the complex
+structure ﬁelds. Thus, it should also be true that the stability regions derived in Section 3 are not dependent
+on the choice of complex structure, for those bundles which can give rise to supersymmetric theories in four
+dimensions. This result, which is somewhat surprising from a mathematical perspective, will be discussed
+further in the Appendix.
+25
+
+6
+Higher Order Corrections
+In the analysis of proceeding sections we have worked to ﬁrst order in the strong coupling expansion param-
+eter, ǫS, and the square of the matter ﬁelds. The strong coupling expansion parameter ǫS itself, as opposed
+to the combination ǫSǫ2
+R which is what was deﬁned in (4.9) and has appeared heretofore, is given by the
+following [31, 36],
+ǫS =
+κ11
+4π
+2/3 2πρ
+v2/3 .
+(6.1)
+In the weakly coupled langauge, we have been working, up to this point, at string theory tree-level. One can
+do better than this and work out those O(ǫ2
+S) corrections that correspond to string one-loop corrections14.
+In particular, the D-term given in (4.20), receives ǫ2
+S corrections which can be calculated. Corrections to the
+matter ﬁeld part of the D-term (4.20) are uninteresting. The only fact that we have used about this term is
+the positive deﬁnite nature of the matter ﬁeld metric GL ¯
+M, and this will not be changed by such corrections.
+However, the O(ǫ2
+S) corrections to the FI term are of some interest and we now proceed to derive these. At
+lowest order, the T -moduli had a non-trivial U(1) transformation while all other moduli ﬁelds were invariant.
+As we will see, at higher order, the dilaton S and the ﬁve-brane position moduli Zα, where α = 1, . . . , N
+numbers the diﬀerent ﬁve-branes, also transform non-trivially. We start by deﬁning these four-dimensional
+superﬁelds in terms of the underlying geometric ﬁelds. The deﬁnition of the T -moduli, T i = ti + 2iχi, is as
+previously given (see Eq. (4.3)). For the dilaton and the ﬁve-brane moduli we have [43, 42]
+S
+=
+V0 + πǫS
+N
+X
+α=1
+βα
+i tiz2
+α + i
+ 
+σ + 2πǫS
+N
+X
+α
+βα
+i χiz2
+α
+!
+(6.2)
+Zα
+=
+βα
+i
+ tizα + 2i(−ni
+ανα + χizα)
+
+.
+(6.3)
+Here, V0 is the Calabi-Yau volume averaged over the orbifold and σ is the dilatonic axion, the dual of the
+four-dimensional two-form Bµν = C11µν. Further, zα is the distance from the left orbifold ﬁxed plane to the
+α-th ﬁve-brane, the βα
+i are the charges associated to the α-th ﬁve-brane and ni
+α = βα
+i /(P
+i(βα
+i )2). The ﬁelds
+να are axions located on the ﬁve-brane world-volumes. In order to compute the corrections to the D-term,
+we need to consider the U(1) transformations of the ﬁelds at order ǫ2
+S. For the T -moduli and the matter
+ﬁelds, these transformations are given in Eqs. (4.10) and (4.11) with no further corrections at O(ǫ2
+S). The
+transformation of the dilaton and ﬁve-brane position superﬁelds are slightly more subtle in their origin. To
+discuss the dilaton, we consider the relevant terms in the four-dimensional eﬀective action which involve the
+two-form Bµν = C11µν. These terms are [14]
+S4d,B = −1
+2κ2
+4
+Z
+M4
+
+V 2
+0 H ∧∗H + 3
+4πǫ2
+Sǫ2
+Rci
+1(F)βiB ∧F
+
+,
+(6.4)
+where H = dB + . . . and the dots indicate a Chern-Simons three-form which is irrelevant for the present
+discussion. Further, F = dA is the ﬁeld strength of the U(1) gauge ﬁeld A and the integer charges βi of the
+E8 sector under consideration are deﬁned as
+βi =
+1
+16π2
+Z
+X
+
+trF ∧F −1
+2trR ∧R
+
+∧Ji .
+(6.5)
+14Corrections corresponding to higher orders in α′ would require knowledge of the K¨ahler potential for bundle moduli, which is
+only known for special cases [40]. For a discussion of higher order corrections in α′ to the supersymmetry/slope stability condition
+in the Type II context, see e.g. [41].
+26
+
+In order to dualise the two-form B to the dilatonic axion σ, we set H0 = dB and add to the above action
+the term
+1
+κ2
+4
+Z
+M4
+H0 ∧dσ .
+(6.6)
+By integrating out H0, we ﬁnd the kinetic term
+S4d,dual = −1
+κ2
+4
+Z
+M4
+ 1
+V 2
+0
+Σ ∧∗Σ
+
+(6.7)
+for the dilatonic axion σ, where the “ﬁeld strength” Σ is deﬁned as
+Σ = dσ −3
+8πǫ2
+Sǫ2
+Rci
+1(F)βiA .
+(6.8)
+This ﬁeld strength needs to be invariant under U(1) gauge transformations with δA = −D˜ǫ, which implies
+the following transfomation law for the dilatonic axion.
+δσ = −3
+8πǫ2
+Sǫ2
+Rci
+1(F)βi ˜ǫ .
+(6.9)
+The ﬁve-brane axions να do not transform under U(1) transformations, so the χi transformation (4.10) and
+the above σ transformation (6.9) are all we have to take into account at the component ﬁeld level. Note that,
+from Eqs. (6.2), (6.3) and (4.3), this implies non-trivial transformations for all superﬁelds S, Zα and T i. In
+particular, the ﬁve-brane moduli superﬁelds Zα in Eq. (6.3) pick up a non-trivial transformation through
+their dependence on the T -axions χi.
+Taking these new ﬁeld transformations into account, we may now calculate the correction to our D-term,
+(4.20), at order ǫ2
+S. For this we need the relevant corrections to the K¨ahler potential. In Eq. (4.12) we have
+already given the K¨ahler potential for the T -moduli which remains unchanged at the orders we require. The
+K¨ahler potential for the dilaton and the ﬁve-brane moduli is given by
+KS = −ln
+"
+S + ¯S −πǫS
+N
+X
+α=1
+(Zα + ¯Zα)2
+βα
+i (T i + ¯T i)
+#
+(6.10)
+Given these expressions, we may follow exactly the same procedure as in Section 4 to obtain the corrected
+D-term
+DU(1) = f −
+X
+L ¯
+M
+QLGL ¯
+MCL ¯C
+¯
+M .
+(6.11)
+Here, the FI term f is given by
+f
+=
+f (0) + f (1)
+(6.12)
+f (0)
+=
+3
+16
+ǫSǫ2
+R
+κ2
+4
+µ(F)
+V
+(6.13)
+f (1)
+=
+3πǫ2
+Sǫ2
+R
+8κ2
+4
+1
+S + ¯S
+"
+βici
+1(F) + π
+N
+X
+α=1
+(Zα + ¯Zα)2
+(βα
+i (T i + ¯T i))2 βα
+i ci
+1(F)
+#
+(6.14)
+We see that the leading contribution, f (0), to the FI term precisely reproduces our previous result (4.20)
+while the correction term f (1) is surpressed by an extra power of ǫS, as expected. As mentioned earlier, the
+second term in (6.11) will also receive corrections. However, since these small corrections cannot change the
+sign of this term they are of no immediate interest to us here.
+The O(ǫ2
+S) correction f (1) to the FI term depends on ﬁelds other than the K¨ahler moduli. This means
+that the position of the stability wall in the K¨ahler cone will change slightly as we change, for example, the
+27
+
+value of the dilaton or the ﬁve-brane moduli Zα. Naively, this suggests that we have lost the link, as espoused
+in the rest of the paper, between the mathematical stability analysis and the four-dimensional eﬀective ﬁeld
+theory. However, this is not the case.
+The crucial point is that the four-dimensional ﬁelds which appear in the above expression are not quite
+those which are “experienced by the gauge ﬁelds”. In heterotic M-theory, the vacuum solution in eleven
+dimensions includes a warping in the eleventh direction which introduces dependence of the K¨ahler moduli
+on the orbifold coordinate. In other words, the six dimensional manifold changes shape slightly as we traverse
+the S1/Z2 orbifold direction. The four dimensional K¨ahler moduli ti which appear in the above expressions
+(for example, in Eq. (6.11)) are the orbifold average of these varying K¨ahler parameters. The gauge ﬁelds
+of our bundle, however, reside on one of the orbifold ﬁxed planes at either end of the interval. Thus, in
+performing the stability analysis of Sections 2 and 3, it is not the averaged quantities which are relevant, but
+the K¨ahler moduli of the Calabi-Yau 3-fold at the relevant orbifold ﬁxed plane. It is precisely the diﬀerence
+between those K¨ahler parameters at the orbifold ﬁxed plane and the averaged ones which accounts for the
+correction given in equation (6.14). This may be checked explicitly using the expressions for the warping of
+heterotic M-theory given in Refs. [32, 33, 35, 42]. Note that, in the case of Abelian bundles, such corrections
+have been discovered elsewhere in the literature [15, 44].
+To make this precise, let us drop the requirement that we write the FI term in terms of four-dimensional
+superﬁelds. Instead, we introduce the K¨ahler moduli ˜si of the Calabi-Yau manifold on the relevant orbifold
+ﬁxed plane (as opposed to the averaged K¨ahler moduli si) and denote by ˜µ(F) = ci
+1(F)˜si/2 and ˜V the
+corresponding slope and volume. Then one can show that the corrected D-term (6.11) can be written as
+DU(1) = 3
+16
+ǫSǫ2
+R
+κ2
+4
+˜µ(F)
+˜V
+−
+X
+L, ¯
+M
+QLGL ¯
+MCL ¯C
+¯
+M
+(6.15)
+All correction terms have disappeared and the FI term is proportional to the slope computed for K¨ahler
+parameters on the orbifold plane, where the bundle is actually deﬁned. This is precisely the slope one would
+deﬁne in a mathematical context. Hence, our interpretation of the U(1) D-term in terms of gauge bundle
+stability is completely unchanged by higher order corrections.
+7
+Conclusions and Further Work
+In this paper, we have explored in detail the structure of heterotic theories near a stability wall, separating
+regions in K¨ahler moduli space where a non-Abelian internal gauge bundle preserves or breaks supersymmetry.
+We have found four-dimensional eﬀective theories valid near such boundaries which provide us with an explicit
+low-energy description of bundle supersymmetry breaking and with a physical picture for the mathematical
+notion of slope stability. A key observation in our analysis is that at a stability wall the structure group of the
+internal gauge bundle decomposes and acquires a U(1) factor. This leads to an additional U(1) symmetry
+in the four-dimensional eﬀective theory which is Green-Schwarz anomalous. The associated U(1) D-term
+consists of a FI term and a matter ﬁeld term and it controls the supersymmetry properties of the bundle
+from a four-dimensional point of view. Speciﬁcally, the FI term is proportional to the slope µ(F) of the
+destabilizing sub-sheaf F ⊂V of the internal vector bundle V . For negative slope the bundle V is stable. In
+the four-dimensional theory this is reproduced, since non-trivial vacuum expectation values of U(1) charged
+matter ﬁelds compensate the FI term so that the U(1) D-term vanishes and supersymmetry is preserved. For
+positive slope, that is an unstable bundle V , the FI term changes sign. As all U(1) charges have the same
+sign, the FI term cannot be cancelled by matter ﬁeld vevs in this case and supersymmetry is broken. In four
+28
+
+dimensions, the relation between the theory at the stability wall and at a generic supersymmetric point is
+governed by the super-Higgs eﬀect. As one moves away from the stability wall the U(1) vector ﬁeld mass
+increases and has to be removed from the low-energy theory, together with the associated Higgs multiplet.
+The implied matching of degrees of freedom can be precisely reproduced by a cohomology calculation. We
+have also shown that our results are robust under corrections suppressed from the leading eﬀects by a power
+of ǫS (the strong coupling expansion parameter), corresponding to string one-loop corrections. While the
+FI term does receive corrections at this order, they have a simple interpretation in terms of 11-dimensional
+geometry. While the standard four-dimensional K¨ahler moduli ti = Re(T i) measure the average Calabi-Yau
+size across the orbifold, the gauge bundle and its stability properties are sensitive to the Calabi-Yau moduli,
+˜ti, on the relevant orbifold ﬁxed plane. The order ǫ2
+S corrections to the FI term simply accounts for the
+diﬀerence between those two types of moduli when the D-term is expressed in terms of the standard four-
+dimensional ﬁelds ti. In other words, the order ǫ2
+S terms disappear when the D-term is written in terms of
+˜ti. Hence, these one-loop corrections do not suggest a modiﬁcation of the mathematical notion of bundle
+stability but simply reﬂect the fact that the gauge ﬁelds are localised in the orbifold direction. We stress that
+the basic picture we provide here, while illustrated for the sake of clarity with vector bundles with SU(3)
+structure group decomposing into S(U(2) × U(1)), is very general. We expect its main features to holds for
+any Calabi-Yau three-fold and for any construction of vector bundles. Indeed, the validity of our approach
+has been checked in a large number of disparate examples.
+Our results suggest many further directions for research, some mathematical in nature and some physical.
+It would be of great interest to study various generalisations and extensions of the mechanism described in
+this paper. In the present paper, we have focused, when describing examples, on simple cases with two
+K¨ahler moduli, so that the stability walls in K¨ahler moduli space are lines. We stress, however, that the
+phenomenon we have described is much more general and appears in K¨ahler cones of any dimensionality
+greater than one. In general, the stable region is a sub-cone of the K¨ahler cone with each co-dimension
+one face giving rise to a D-term of the type we have described. At each generic point on the stability wall
+only one of these D-term will be relevant. However, for more than two K¨ahler moduli co-dimension one
+faces can intersect so that there are special loci on the stability wall where two or more D-terms need to
+be considered at a time. Further study of more complicated examples would be an interesting future line of
+research. Further generalisation could involve considering more complicated splitting types at the stability
+wall, such as SU(3) →S(U(1) × U(1) × U(1)), and SU(n) bundle structure groups with n > 3. Indeed, the
+authors have already studied such cases in detail and hope to present examples of this type in future work.
+An interesting observation is that the four-dimensional eﬀective ﬁeld theory only depends on the structure
+of the gauge bundle at the split locus in moduli space. This suggests that phenomena similar to the ones
+described here can link nominally diﬀerent bundles together via smooth transitions in physical moduli space.
+The authors are currenty actively investigating this eﬀect.
+From a more phenomenological perspective, the potential we provide may be of some interest in moduli
+stabilization [45]. Its perturbative nature means that this potential is relatively steep. Thus, if one were to
+balance it against a non-perturbative potential, such as that due to membrane instantons, one might be able
+to obtain a naturally small scale of supersymmetry breaking. An investigation of whether such an idea is
+phenomenologically viable is underway. Global remnants of the anomalous U(1) symmetry at the stability
+wall may have implications for the structure of the theory even at a generic supersymmetric point in moduli
+space. For example, one might be able to conclude that certain superpotential terms are forbidden. Such
+considerations may be used to constrain the type of vector bundles which can lead to realistic low-energy
+29
+
+models.
+Finally one can imagine attempting to use the analysis described in this work to investigate what may be
+said about bundle stability purely from the point of view of the four-dimensional eﬀective theory. One goal of
+such work would be to give a simple set of rules, for example based on four-dimensional anomaly cancellation,
+which would guarantee that a given vector bundle on a Calabi-Yau manifold is stable in a certain region of
+moduli space.
+Acknowledgments
+The authors would like to thank to Nathan Seiberg, Juan Maldacena, Ron Donagi, and Ignatios Antoniadis
+for useful discussions. The work of L. A. and B. A. O. is supported in part by the DOE under contract No.
+DE-AC02-76-ER-03071. Further, B. A. O. would like to acknowledge the Ambrose Monell Foundation at the
+IAS for partial support. A. L. is supported by the EC 6th Framework Programme MRTN-CT-20040503369.
+J. G. is supported by STFC UK.
+8
+Appendix A: Two lemmas and a conjecture
+In this section, we will state the two lemmas used in Section 5 (regarding the dimensions of certain cohomology
+groups) somewhat more formally and provide proofs.
+These results will be an example of the types of
+cohomology conditions one can derive in the context of slope stability. Similar conditions can be derived
+when diﬀerent SU(n) bundle decompositions are considered or when additional enhanced U(1) symmetries
+are present. Furthermore, we will make a conjecture regarding the complex structure dependence of a stability
+wall.
+Let X be a Calabi-Yau three-fold with K¨ahler form J and V a holomorphic vector bundle deﬁned over
+X with structure group SU(n), where n = 3, 4, 5. We will consider a case in which a single sub-sheaf F ⊂V
+of rank n −1 de-stabilizes V in some part of the K¨ahler moduli space of X. We deﬁne the slope, µ(F), of F
+for a given polarization J = tkJk by
+µ(F) =
+1
+rk(F)
+Z
+X
+c1(F) ∧J ∧J .
+(8.1)
+Let us further suppose that F itself is slope-stable and has a slope such that it destabilizes only part of the
+K¨ahler cone (as in Fig. 1 in Section 3). Thus, V is stable for polarizations J with µ(F) < 0 and unstable
+for polarizations J with µ(F) > 0. The two regions are separated by a stability wall in K¨ahler moduli space
+where µ(F) = 0 and V is semi-stable. Using the short exact sequence
+0 →F →V →V/F →0 ,
+(8.2)
+we note, as in Sections 3 and 4, that we can write V = F ⊕V/F as an element in its S-equivalence class.
+Our physical four-dimensional picture of bundle stability suggests certain conditions on bundle coho-
+mology which we now discuss. Due to the Fayet-Iliopoulos (FI) D-term (4.20) derived in this paper, the
+preservation of supersymmetry in the eﬀective theory depends upon the existence (or absence) of certain
+charged matter ﬁelds (the ﬁelds CL in (4.20)) described by H1(X, F ⊗(V/F)∗) and H1(X, F∗⊗V/F).
+Speciﬁcally, in order to preserve supersymmetry in the region of moduli space with µ(F) < 0, the ﬁelds
+CL described by H1(X, F ⊗(V/F)∗) must acquire a vacuum expectation value and cancel the FI term in
+(4.20), hence setting the potential to zero in this region of K¨ahler moduli space. In particular, this means
+30
+
+that such ﬁelds must exist and hence H1(X, F ⊗(V/F)∗) ̸= 0. On the other hand, if the region of mod-
+uli space for which µ(F) > 0 is to have broken supersymmetry, there must be no ﬁelds CL described by
+H1(X, F∗⊗V/F) = 0. Stating this more formally, we must have the following Lemma:
+Lemma I. Let V be a holomorphic vector bundle with structure group SU(n) (n = 3, 4, 5) deﬁned over X,
+a Calabi-Yau 3-fold with K¨ahler form J. If F is a rank (n −1), stable sub-sheaf of V , deﬁning a “stability
+wall” in in the K¨ahler cone given by µ(F) = 0, such that V is stable for µ(F) < 0 and unstable for µ(F) > 0,
+then H1(X, F ⊗(V/F)∗) ̸= 0 and H1(X, F∗⊗V/F) = 0 (for any eﬀective ﬁeld theory describing V ).
+Proof. We begin with the ﬁrst condition H1(X, F ⊗(V/F)∗) ̸= 0. Consider twisting the sequence (8.2) by
+the line bundle K∗, where K = (V/F)∗∗≈V/F. This leads to the short exact sequence
+0 →F ⊗K∗→V ⊗K∗→K ⊗K∗→0 .
+(8.3)
+Then the associated long exact sequence in cohomology contains the terms
+0 →H0(X, F ⊗K∗) →H0(X, V ⊗K∗) →H0(X, K ⊗K∗) →H1(X, F ⊗K∗) →. . .
+(8.4)
+Because V is stable for µ(F) < 0, it must follow that at a generic point in the bundle moduli space of V ,
+H0(X, V ⊗K∗) = 0 (otherwise K would be a sub-sheaf of V and would destabilize V ). Furthermore, since K
+is a line-bundle on a Calabi-Yau manifold, H0(X, K ⊗K∗) = 1. As a result, we have
+0 →H0(X, K ⊗K∗) →H1(X, F ⊗K∗) →. . .
+(8.5)
+and it is clear that we must have H1(X, F ⊗K∗) ̸= 0 in order to avoid a contradiction. However, since the
+value of this cohomology is unaﬀected as we move to the decomposable locus in the moduli space of V (as
+described in Section 3), we see that H1(X, F ⊗(V/F)∗) ̸= 0 is satisﬁed, as expected.
+We turn now to the second cohomology condition that we must investigate. In order for the theory to
+break supersymmetry above the line with µ(F) = 0, it must be the case that H1(X, F∗⊗V/F) = 0. This
+too follows immediately from the deﬁnition of a stability boundary. Suppose that H1(X, F∗⊗V/F) ̸= 0,
+then there exists a non-trivial extension:
+0 →V/F →˜V →F →0 .
+(8.6)
+But, by deﬁnition, this implies that there exists an injective map from V/F to ˜V at generic points in moduli
+space (away from the decomposable locus). Thus, we must ask, can ˜V be isomorphic to V ? If this is the case,
+then V/F is a sub-sheaf of V that destabilizes V in the region µ(F) < 0. But by construction, we know that
+F destabilizes V in the region with µ(F) > 0, hence the bundle is stable nowhere in K¨ahler moduli space.
+This is a contradiction, since we are considering the situation in which the line µ(F) = 0 deﬁnes the boundary
+of a stable/unstable transition in the moduli space. Thus, if V is stable for µ(F) < 0, then the extension
+Ext1(V/F, F) = H1(X, F∗⊗V/F) deﬁning ˜V is not isomorphic to V . Thus, if H1(X, F∗⊗V/F) ̸= 0 we are
+considering an eﬀective theory in which branch structure is present, connecting more than one vector bundle.
+However, for the statement of this lemma, we shall consider only the eﬀective theory describing V .
+Note that similar vanishing conjectures could be formulated for other possible bundle decompositions of
+V . However, in the presence of additional U(1) gauge ﬁelds and diﬀerent decompositions of E8 under these
+symmetries, each case must be investigated on an individual basis.
+Next, we turn to the proof of the second lemma in Section 5. It states the following:
+31
+
+Lemma II. Let V be a holomorphic vector bundle with structure group SU(n) deﬁned over X, a Calabi-
+Yau 3-fold with K¨ahler form J. If F is a rank n −1, stable sub-sheaf of V , deﬁning a stability wall in in
+the K¨ahler cone given by µ(F) = 0, such that V is stable for µ(F) < 0 and unstable for µ(F) > 0, and
+H1(X, F∗⊗V/F) = 0, then
+h1(X, V ⊗V ∗) = h1(X, F ⊗(V/F)∗) + h1(X, F ⊗F∗) −1 ,
+(8.7)
+where h1(X, V ⊗V ∗) is the generic dimension of bundle moduli space when V is a stable bundle.
+Proof. Consider once again the short exact sequence (8.2) which deﬁnes the sub-sheaf F. In order to relate
+the generic (stable) bundle moduli of V to the possible deformations of F ⊕K, we will compute h1(X, V ⊗V ∗)
+using (8.2). To begin, we consider the following three short exact sequences that follow directly from (8.2).
+0 →F ⊗V ∗→V ⊗V ∗→K ⊗V ∗→0
+(8.8)
+0 →F ⊗K∗→F ⊗V ∗→F ⊗F∗→0
+(8.9)
+0 →K ⊗K∗→K ⊗V ∗→K ⊗F∗→0
+(8.10)
+From these sequences we can consider long exact sequences in cohomology. We begin with (8.9). Using
+the results of Lemma I, and the fact that for this class of examples V is stable for µ(F) < 0, we have
+H0(X, F ⊗V ∗) = 0 and H2(X, F ⊗K∗) = 0. Thus,
+0 →H0(X, F ⊗F∗) →H1(X, F ⊗K∗) →H1(X, F ⊗V ∗) →H0(X, F ⊗F∗) →0 .
+(8.11)
+Next, from (8.10), we note that since K is a line bundle, K ⊗K∗≈O and hence, H1(X, K ⊗K∗) = 0 and by
+Lemma I, we have that H1(X, K ⊗F∗) = 0. Further, we have H0(X, K ⊗F∗) = 0 since F is stable. Hence,
+it follows that
+h0(X, K ⊗V ∗) = 1 and h1(X, K ⊗V ∗) = 0 .
+(8.12)
+Substituting this information into the cohomology sequence for (8.8), we ﬁnd
+0 →H0(X, V ⊗V ∗) →H0(X, K ⊗V ∗) →H1(X, F ⊗V ∗) →H1(X, V ⊗V ∗) →0
+(8.13)
+Then, in terms of dimensions:
+h1(X, V ⊗V ∗) = h0(X, V ⊗V ∗) −h0(X, K ⊗V ∗) + h1(X, F ⊗V ∗)
+(8.14)
+and upon substitution
+h0(X, V ⊗V ∗) −1 + h0(X, F ⊗F) + h1(F ⊗F) + h1(X, F ⊗K∗) .
+(8.15)
+Finally, since V and F are stable h0(X, V ⊗V ∗) = 1 = h1(X, F ⊗F∗) and we arrive at the result,
+h1(X, V ⊗V ∗) = h1(X, F ⊗K∗) + h1(F ⊗F∗) −1
+(8.16)
+as required.
+We end this section by a statement of a conjecture. This is less easy to verify than the cohomology
+conditions described above, though we have found it to be true in all the cases that we have investigated.
+The central result of this paper is the form of the FI D-term given in (4.20) which reproduces the notion
+32
+
+of vector bundle stability for a supersymmetric, anomaly free15 bundle. As discussed in Section 5, the form
+of this potential clearly does not depend on the complex structure moduli of the Calabi-Yau manifold X.
+In addition, using the techniques of Section 3, we have searched through numerous examples, and have yet
+to ﬁnd a complex structure dependent boundary wall for an anomaly free bundle. As a result, we posit the
+conjecture:
+Conjecture. Let V be an anomaly-free holomorphic vector bundle with structure group SU(n) (n = 3, 4, 5)
+deﬁned over X, a Calabi-Yau 3-fold. If there exists a wall of semi-stability of V in K¨ahler moduli space
+(deﬁning the boundary between stable and unstable regions), then the position of this wall is independent of
+the complex structure moduli of X.
+This conjecture is a consequence of our ﬁeld-theoretical approach to slope-stability but it is not obvious
+to the authors how to prove it from an algebraic geometry viewpoint.
+9
+Appendix B: Another example
+To highlight the versatility of the formalism developed in this paper, in this section we will sketch another
+example bundle, its regions of stability in the K¨ahler cone and the eﬀective ﬁeld theory modeling this behavior.
+We shall once again consider a bundle deﬁned on a complete intersection Calabi-Yau manifold, X. The
+so-called ‘bi-cubic’ 3-fold:
+X =
+"
+P2
+P2
+
+3
+3
+#
+,
+(9.1)
+deﬁned by a polynomial of bi-degree (3, 3) in the ambient space P2 × P2.
+As in our previous example,
+h1,1(X) = 2 and the K¨ahler cone is the positive quadrant t1 ≥0 and t2 ≥0. The non-zero triple intersection
+numbers are given by d122 = 3 and d112 = 3. It follows that the dual K¨ahler moduli s1 and s2 are
+s1 = 3t2(2t1 + t2) ,
+s2 = 3t1(2t2 + t1) .
+(9.2)
+Hence, the dual K¨ahler cone in this case is the entire positive quadrant. We shall deﬁne line bundles OX(m, n)
+on this space using the same notation as in Section 3.1.
+On the given manifold, we deﬁne a bundle, V , by extension [50],
+0 →W →V →L →0 ,
+(9.3)
+where L is a line bundle and W is a rank 2, U(2) monad bundle deﬁned as follows
+0 →W →OX(2, 0)⊕3 →OX(2, 2) →0
+(9.4)
+L = OX(−4, 2).
+Since the ﬁrst chern classes of L and W satisfy
+c1(W) = −c1(L)
+(9.5)
+the extension bundle V deﬁned by (9.3) has c1(V ) = 0 and hence deﬁnes an SU(3) bundle. Furthermore,
+V is a non-trivial extension of L by W (i.e. V is not simply the sum W ⊕L since Ext1(L, W) ̸= 0). The
+15Recall that a vector bundle V in the E8 × E8 heterotic theory deﬁnes an anomaly free superymmetric theory if ch2(T X) −
+ch2(V ) = W where W is an eﬀective class of X [2, 47, 46]. This condition is necessary here, as without it anti ﬁve-branes or a
+non-supersymmetric hidden bundle would be required to make the reduction from eleven to four dimensions consistent. This would
+result in a theory which was not supersymmetric in four dimensions [48, 49], and as such the analysis of this paper would not apply.
+33
+
+spectrum of the four dimensional E6 theory associated to V consists of 18 27 matter ﬁelds and 18 27’s for
+a net chiral asymmetry of zero. In addition, there are generically h1(X, V ⊗V ∗) = 530 bundle moduli.
+We can now ask, what are the regions of stability of V in the K¨ahler cone? A simple analysis using the
+techniques of Section 2.1.2 veriﬁes ﬁrst that W is an everywhere stable U(2) bundle, and furthermore, that
+W is generically the only de-stabilizing sub-sheaf of V . Thus, since c1(W) = 4J1 −2J2, V itself is stable
+above the line with slope s2/s1 = 2 and unstable beneath it. We will now reproduce this geometric result
+from the point of view of the eﬀective ﬁeld theory developed in this work.
+As was argued in Section 3, at the line of semi-stablility in the dual K¨ahler cone deﬁned by s2 = 2s1, V
+will be forced away from an SU(3) conﬁguration towards the structure group S(U(2) × U(1)) (and the four
+dimensional symmetry will be enhanced to E6 × U(1)). As in the example given in 5.1, V decomposes as
+V = F ⊕K where in this case F = W and K = L (as deﬁned above in (9.4)). Note that the split locus is
+simply the zero of the group Ext1(L, W) which describes the space of possible extensions. Using the results
+of [27, 16, 28] to compute the cohomology of W and L on the bi-cubic, and the representation decomposition
+given in Table 1, we ﬁnd that non-vanishing massless spectrum of V at the decomposable locus is given by
+h1(X, W)−1/2 = 18
+h1(X, L∗)−1 = 18 ,
+(9.6)
+h1(X, W ⊗W)0 = 9
+h1(X, W ⊗L∗)−3/2 = 522 .
+(9.7)
+The subscript on the cohomology denotes the U(1) charge of the ﬁelds. We may now write down the U(1)
+D-term (4.20) contribution to the potential
+DU(1) = 3
+16
+ǫSǫ2
+R
+κ2
+4
+µ(W)
+V
++ 3
+2
+16
+X
+L, ¯
+M=1
+GL ¯
+MCL ¯C
+¯
+M ,
+(9.8)
+where here, from (9.4), the slope is given by
+µ(W) = 1
+2(4s1 −2s2)
+(9.9)
+while for the volume we have
+V = 3
+2(t1t2)(t1 + t2) .
+(9.10)
+The relevant charged matter ﬁelds CL in this case are the ﬁelds in H1(X, W ⊗L∗), since the ﬁelds
+associated to H1(X, W) and H1(X, L∗) will have vevs forced to zero by the requirement that E6 remains
+unbroken. As we would predict based from the algebro-geometric results of the stability analysis, negatively
+charged matter is present so that the vevs of the charged ﬁelds can adjust to cancel the FI term when
+µ(F) < 0, setting the D-term to zero. Thus, supersymmetry is preserved for the region of dual K¨ahler
+moduli space deﬁned by s2 > 2s1. However, since there is no positively charged matter available, for the
+region of moduli space where µ(F) > 0, the FI term cannot be cancelled and supersymmetry is broken. This
+is in agreement with what we would expect from the general results of Lemma 1.
+Finally, for this example, we can verify the general predictions of Lemma 2 by considering the number of
+bundle moduli associated to V at a generic point in its moduli space as well as at the decomposable locus.
+According to Lemma 2, we would expect there to be one extra light modulus at the stability wall. For the
+bundle V deﬁned by (9.3), at a generic point in its moduli space, h1(X, V ⊗V ∗) = 530. Moreover, using
+the results of (9.6) we observe that at the decomposable locus, the number of bundle moduli is given by
+h1(X, W ⊗W ∗) + h1(X, W ⊗L∗) = 531. Thus, as described in Section 5, as we move in K¨ahler moduli
+space away from the stability wall, one degree of freedom is made massive by the Higgs mechanism, (5.3), as
+expected.
+34
+
+References
+[1] P. Candelas, G. T. Horowitz, A. Strominger and E. Witten, “Vacuum Conﬁgurations For Superstrings,”
+Nucl. Phys. B 258, 46 (1985).
+[2] M. B. Green, J. H. Schwarz and E. Witten, “Superstring Theory. Vol. 2: Loop Amplitudes, Anomalies
+And Phenomenology,” Cambridge, Uk: Univ. Pr. (1987) 596 P. (Cambridge Monographs On Mathe-
+matical Physics)
+[3] K. Uhlenbeck and S.-T. Yau, “On the existence of Hermitian Yang-Mills connections in stable bundles”,
+Comm. Pure App. Math., 39, 257, (1986).
+[4] S. Donaldson, “Anti Self-Dual Yang-Mills Connections over Complex Algebraic Surfaces and Stable
+Vector Bundles”, Proc. London Math. Soc., 3, 1, (1985).
+[5] E.
+R.
+Sharpe,
+“Kaehler
+cone
+substructure,”
+Adv.
+Theor.
+Math.
+Phys.
+2
+(1999)
+1441
+[arXiv:hep-th/9810064].
+[6] L. B. Anderson, J. Gray, A. Lukas and B. Ovrut, “The Edge Of Supersymmetry: Stability Walls in
+Heterotic Theory,” arXiv:0903.5088 [hep-th]. To appear in Phys.Lett.B.
+[7] S. K. Donaldson, “Some numerical results in complex diﬀerential geometry,” math.DG/0512625.
+[8] M. R. Douglas, R. L. Karp, S. Lukic and R. Reinbacher, “Numerical solution to the Hermitian Yang-Mills
+equation on the Fermat quintic,” JHEP 0712, 083 (2007) [arXiv:hep-th/0606261].
+[9] M. R. Douglas, R. L. Karp, S. Lukic and R. Reinbacher, “Numerical Calabi-Yau metrics,” J. Math.
+Phys. 49, 032302 (2008) [arXiv:hep-th/0612075].
+[10] V. Braun, T. Brelidze, M. R. Douglas and B. A. Ovrut, “Calabi-Yau Metrics for Quotients and Complete
+Intersections,” JHEP 0805, 080 (2008) [arXiv:0712.3563 [hep-th]].
+[11] M. Dine, N. Seiberg, X. G. Wen and E. Witten, “Nonperturbative Eﬀects on the String World Sheet,”
+Nucl. Phys. B 278, 769 (1986).
+[12] M. Dine, N. Seiberg and E. Witten, “Fayet-Iliopoulos Terms in String Theory,” Nucl. Phys. B 289, 589
+(1987).
+[13] J. Distler and B. R. Greene, “Aspects of (2,0) String Compactiﬁcations,” Nucl. Phys. B 304, 1 (1988).
+[14] A. Lukas and K. S. Stelle, “Heterotic anomaly cancellation in ﬁve dimensions,” JHEP 0001, 010 (2000)
+[arXiv:hep-th/9911156].
+[15] R. Blumenhagen, G. Honecker and T. Weigand, “Loop-corrected compactiﬁcations of the heterotic string
+with line bundles,” JHEP 0506, 020 (2005) [arXiv:hep-th/0504232].
+[16] L. B. Anderson,“Heterotic and M-theory Compactiﬁcations for String Phenomenology,” Univ. of Oxford,
+D.Phil Thesis (2008). arXiv:0808.3621 [hep-th].
+[17] L. B. Anderson, Y. H. He, and A. Lukas, “Vector bundle stability in heterotic monad models”, to appear.
+[18] H. Hoppe, ”Generischer spaltungstypumun zweite Chernklassesstabiler Vektorraumbundel vom rang 4
+auf P4”, Math. Z., 187, 345, (1884).
+[19] R. Friedman, “Algebraic surfaces and holomorphic vector bundles”, Springer Verlag, 1991, New York.
+[20] R. Donagi, B. A. Ovrut, T. Pantev and R. Reinbacher, “SU(4) Instantons on Calabi-Yau Threefolds
+with Z2 × Z2 Fundamental Group,” JHEP 0401, 022 (2004). [arXiv:hep-th/0307273].
+35
+
+[21] S. Kobayashi, “Diﬀerential Geometry of Complex Vector Bundles”, Princeton University Press, (1987),
+Princeton.
+[22] D. Grayson. Private communication.
+[23] R. Hartshorne, “Algebraic Geometry, Springer,” GTM 52, Springer-Verlag, 1977. P. Griﬃth, J. Harris,
+“Principles of algebraic geometry,” 1978.
+[24] D. Huybrechts and M. Lehn, “The geometry of the moduli space of stable of sheaves”. Aspects of
+Mathematics, E 31 (1997).
+[25] S.
+Bradlow,
+“Hermitian-Einstein
+Inequalities
+and
+Harder-Narasimhan
+Filtrations”.
+[arXiv:alg-geom/9506008].
+[26] T. Hubsch, “Calabi-Yau Manifolds — A Bestiary for Physicists,” World Scientiﬁc, Singapore, 1994.
+[27] L. B. Anderson, Y. H. He and A. Lukas, “Heterotic compactiﬁcation, an algorithmic approach,” JHEP
+0707, 049 (2007) [arXiv:hep-th/0702210].
+[28] L. B. Anderson, Y. H. He and A. Lukas,“Monad Bundles in Heterotic String Compactiﬁcations,” JHEP
+0807, 104 (2008). arXiv:0805.2875 [hep-th]].
+[29] L. B. Anderson, J. Gray, G. Grayson, Y. H. He, and A. Lukas, “Yukawa couplings in Heterotic Com-
+pactiﬁcation”. [arXiv:0904.2186 [hep-th]].
+[30] R. Slansky, “Group Theory For Uniﬁed Model Building,” Phys. Rept. 79 (1981) 1.
+[31] E. Witten, “Strong Coupling Expansion Of Calabi-Yau Compactiﬁcation,” Nucl. Phys. B 471, 135
+(1996) [arXiv:hep-th/9602070].
+[32] A. Lukas, B. A. Ovrut and D. Waldram, “On the four-dimensional eﬀective action of strongly coupled
+heterotic string theory,” Nucl. Phys. B 532, 43 (1998) [arXiv:hep-th/9710208].
+[33] A. Lukas, B. A. Ovrut, K. S. Stelle and D. Waldram, “The universe as a domain wall,” Phys. Rev. D
+59, 086001 (1999) [arXiv:hep-th/9803235].
+[34] R.
+Donagi, A. Lukas, B. A.
+Ovrut and D. Waldram, “Holomorphic Vector Bundles and Non-
+Perturbative Vacua in M-Theory”, JHEP 9906 (1999) 034. arXiv:hep-th/9901009.
+[35] A. Lukas, B. A. Ovrut, K. S. Stelle and D. Waldram, “Heterotic M-theory in ﬁve dimensions,” Nucl.
+Phys. B 552, 246 (1999) [arXiv:hep-th/9806051].
+[36] A. Lukas, B. A. Ovrut and D. Waldram, “Non-standard embedding and ﬁve-branes in heterotic M-
+theory,” Phys. Rev. D 59, 106005 (1999) [arXiv:hep-th/9808101].
+[37] J. Wess and J. Bagger, “Supersymmetry and supergravity,” Princeton, USA: Univ. Pr. (1992) 259.
+[38] L. B. Anderson, J. Gray, A. Lukas, and B. Ovrut, To appear.
+[39] G.-M. Greuel, G. Pﬁster, and H. Sch¨onemann, “Singular: a computer algebra system for polyno-
+mial computations,” Centre for Computer Algebra, University of Kaiserslautern (2001). Available at
+http://www.singular.uni-kl.de/
+D. Grayson and M. Stillman, “Macaulay 2, a software system for research in algebraic geometry.”
+Available at http://www.math.uiuc.edu/Macaulay2/
+J. Gray, Y. H. He, A. Ilderton and A. Lukas, “STRINGVACUA: A Mathematica Package for Study-
+ing Vacuum Conﬁgurations in String Phenomenology,” Comput. Phys. Commun. 180, 107 (2009)
+[arXiv:0801.1508 [hep-th]].
+36
+
+J. Gray, Y. H. He, A. Ilderton and A. Lukas, “A new method for ﬁnding vacua in string phenomenology,”
+JHEP 0707, 023 (2007) [arXiv:hep-th/0703249].
+J. Gray, Y. H. He and A. Lukas, “Algorithmic algebraic geometry and ﬂux vacua,” JHEP 0609, 031
+(2006) [arXiv:hep-th/0606122].
+J. Gray, “A Simple Introduction to Grobner Basis Methods in String Phenomenology,” arXiv:0901.1662
+[hep-th].
+[40] J. Gray and A. Lukas, “Gauge Five Brane Moduli In Four-Dimensional Heterotic Models,” Phys. Rev.
+D 70, 086003 (2004) [arXiv:hep-th/0309096].
+J. Gray, “An explicit example of a moduli driven phase transition in heterotic models,” Phys. Rev. D
+72, 066004 (2005) [arXiv:hep-th/0406241].
+[41] M. R. Douglas, B. Fiol and C. Romelsberger, “Stability and BPS branes,” JHEP 0509, 006 (2005)
+[arXiv:hep-th/0002037].
+[42] M. Br¨andle, “Aspects of branes in (heterotic) M-theory,” Dissertation: Humboldt-Universit¨at zu Berlin.
+[43] M. Brandle and A. Lukas, “Five-branes in heterotic brane-world theories,” Phys. Rev. D 65, 064024
+(2002) [arXiv:hep-th/0109173].
+[44] R. Blumenhagen, S. Moster and T. Weigand, “Heterotic GUT and standard model vacua from simply
+connected Calabi-Yau manifolds,” Nucl. Phys. B 751, 186 (2006) [arXiv:hep-th/0603015].
+[45] V. Braun, B.
+A. Ovrut, “Stabilizing Moduli with a Positive Cosmological Constant in Heterotic M-
+Theory”, JHEP0607:035,2006. arXiv:hep-th/0603088.
+[46] M. R. Douglas, R. Reinbacher and S. T. Yau, “Branes, bundles and attractors: Bogomolov and beyond,”
+arXiv:math/0604597.
+[47] F. Bogomolov, “Holomorphic tensors and vector bundles on projective varieties”. Math. USSR. Izv. 13,
+(1979), 499-555.
+[48] J. Gray, A. Lukas and B. Ovrut, “Flux, Gaugino Condensation and Anti-Branes in Heterotic M-theory,”
+Phys. Rev. D 76, 126012 (2007) [arXiv:0709.2914 [hep-th]].
+[49] J. Gray, A. Lukas and B. Ovrut, “Perturbative anti-brane potentials in heterotic M-theory,” Phys. Rev.
+D 76, 066007 (2007) [arXiv:hep-th/0701025].
+[50] R. Donagi,Y. H. He, B. A. Ovrut, and R. Reinbacher, “Moduli Dependent Spectra of Heterotic Com-
+pactiﬁcations”, Phys.Lett. B598 (2004) 279-284. arXiv:hep-th/0403291.
+R. Donagi,Y. H. He, B. A. Ovrut, and R. Reinbacher, “The Spectra of Heterotic Standard Model Vacua”,
+JHEP0506:070,2005. arXiv:hep-th/0411156.
+V. Braun, Y. H. He, B. A. Ovrut, and T. Pantev, “A Heterotic Standard Model”, Phys.Lett.B618:252-
+258,2005. arXiv:hep-th/0501070.
+V. Braun, Y. H. He, B. A. Ovrut, and T. Pantev, “Vector Bundle Extensions, Sheaf Cohomology, and
+the Heterotic Standard Model”, Adv.Theor.Math.Phys.10:4,2006. arXiv:hep-th/0505041
+V. Braun, Y. H. He and B. A. Ovrut, “Stability of the Minimal Heterotic Standard Model Bundle”,
+JHEP0606:032,2006. arXiv:hep-th/0602073
+V. Braun, Y. H. He, B. A. Ovrut, and T. Pantev, “The Exact MSSM Spectrum from String Theory”,
+JHEP0605:043,2006. arXiv:hep-th/0512177.
+37

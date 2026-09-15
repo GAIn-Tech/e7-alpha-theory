@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "derivative": {
+    "scalar": {
+      "real": 17.15080039872068,
+      "imag": -0.011554862360233962
+    },
+    "vector": {
+      "real": 0.0024902685063255972,
+      "imag": -6.988634911698206e-05
+    },
+    "mixed": {
+      "real": -1.8311520389056872,
+      "imag": 0.7161900083237385
+    },
+    "total_Landau": {
+      "real": 15.322138628321317,
+      "imag": 0.7045652596143875
+    },
+    "independent_adaptive_five_point": [
+      {
+        "step": "0.01",
+        "value": {
+          "real": 15.322138628321317,
+          "imag": 0.7045652596143875
+        },
+        "abs_error": 4.0695889375794044e-22
+      },
+      {
+        "step": "0.005",
+        "value": {
+          "real": 15.322138628321317,
+          "imag": 0.7045652596143875
+        },
+        "abs_error": 2.543493085950584e-23
+      }
+    ]
+  },
+  "distances": {
+    "nearest_other_scalar_pole": 4283.5,
+    "nearest_active_threshold": 4174.0,
+    "nearest_active_physical_threshold": 4174.0,
+    "inactive_radial_plus_soft_threshold_distance": 0
+  },
+  "epsilon_diagnostic_coefficients": {
+    "relative_complex_shift": 128.98024813200814,
+    "relative_real_shift": 116.93173610213269,
+    "relative_imaginary_shift": 54.43228362227317,
+    "displacement_total": 4.977300964669421,
+    "displacement_worst_block": 5.052910064510268,
+    "wavefunction_Landau": 15.338329255513841,
+    "scalar_pole_isolation": 130.07929775423725,
+    "active_threshold_isolation": 133.49177573796723
+  },
+  "conditional_bounds": [
+    {
+      "analysis_tolerance": 0.1,
+      "epsilon_upper_bounds": {
+        "relative_complex_shift": 0.0007753125106229633,
+        "relative_real_shift": 0.0008551998228492575,
+        "relative_imaginary_shift": 0.0018371450423417652,
+        "displacement_total": 0.020091210218115017,
+        "displacement_worst_block": 0.019790575870796166,
+        "wavefunction_Landau": 0.006519614902910751,
+        "scalar_pole_isolation": 0.0007687618377901534,
+        "active_threshold_isolation": 0.0007491098192917242
+      },
+      "necessary_joint_upper": 0.0007491098192917242
+    },
+    {
+      "analysis_tolerance": 0.01,
+      "epsilon_upper_bounds": {
+        "relative_complex_shift": 7.753125106229633e-05,
+        "relative_real_shift": 8.551998228492575e-05,
+        "relative_imaginary_shift": 0.0001837145042341765,
+        "displacement_total": 0.0020091210218115014,
+        "displacement_worst_block": 0.0019790575870796165,
+        "wavefunction_Landau": 0.000651961490291075,
+        "scalar_pole_isolation": 7.687618377901535e-05,
+        "active_threshold_isolation": 7.491098192917241e-05
+      },
+      "necessary_joint_upper": 7.491098192917241e-05
+    },
+    {
+      "analysis_tolerance": 0.001,
+      "epsilon_upper_bounds": {
+        "relative_complex_shift": 7.753125106229633e-06,
+        "relative_real_shift": 8.551998228492575e-06,
+        "relative_imaginary_shift": 1.837145042341765e-05,
+        "displacement_total": 0.00020091210218115015,
+        "displacement_worst_block": 0.00019790575870796165,
+        "wavefunction_Landau": 6.519614902910751e-05,
+        "scalar_pole_isolation": 7.687618377901534e-06,
+        "active_threshold_isolation": 7.491098192917241e-06
+      },
+      "necessary_joint_upper": 7.491098192917241e-06
+    }
+  ],
+  "displacement": {
+    "norm": 40.435784188406004,
+    "x_norm": 8.124038404635963,
+    "relative_norm_coefficient": 4.977300964669421,
+    "radial_projection_coefficient": -5.045920232892039,
+    "block_relative_coefficients": {
+      "h1": 3.9906114963776265,
+      "h2": 3.9906114963771606,
+      "A": 5.052910064510268,
+      "Phi": 4.440648334957212
+    },
+    "stationarity_residual": 8.541915090560218e-11,
+    "receipt_displacement_error": 1.2653357435930405e-10
+  },
+  "negative_controls": {
+    "below_threshold_direct_rational_error": 1.0691058840368783e-50,
+    "equal_mass_cut_slope_error": 4.994729051984791e-50,
+    "threshold_collision_rejected": true,
+    "drop_imaginary_derivative_change": 0.7045652596143875,
+    "reverse_cut_sign_derivative_change": 1.409130519228775,
+    "omit_mixed_derivative_change": 1.966226313935202,
+    "wrong_epsilon_order_at_1e_minus_7_ratio": 10000000.0
+  }
+}
+
+STDERR

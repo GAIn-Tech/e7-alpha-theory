@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "claim_boundary": "Exact finite-catalog countermodels show quotient-order primality is neither necessary nor sufficient for net three. The index equation filters specified CY3 compactifications but does not select geometry or four dimensions. No universal physics no-go.",
+  "preregistration_sha256": "fc538b899ff38c1951a837f48bba1e8f62856a891808416587001d2313d91fdf",
+  "catalog": [
+    {
+      "name": "Tian-Yau Z3",
+      "d": 3,
+      "euler_cover": -18,
+      "internal_real_dim": 6,
+      "free": true,
+      "descended": true,
+      "bianchi": true,
+      "modular": true,
+      "source": "https://arxiv.org/pdf/2401.15078",
+      "external_dim": 4,
+      "cover_index": {
+        "numerator": -9,
+        "denominator": 1
+      },
+      "quotient_index": {
+        "numerator": -3,
+        "denominator": 1
+      },
+      "net_abs": {
+        "numerator": 3,
+        "denominator": 1
+      },
+      "prime_order": true,
+      "physical_admissibility_inputs_pass": true
+    },
+    {
+      "name": "bicubic Z3",
+      "d": 3,
+      "euler_cover": -162,
+      "internal_real_dim": 6,
+      "free": true,
+      "descended": true,
+      "bianchi": true,
+      "modular": true,
+      "source": "https://people.maths.ox.ac.uk/szendroi/atmp_triadophilia.pdf",
+      "external_dim": 4,
+      "cover_index": {
+        "numerator": -81,
+        "denominator": 1
+      },
+      "quotient_index": {
+        "numerator": -27,
+        "denominator": 1
+      },
+      "net_abs": {
+        "numerator": 27,
+        "denominator": 1
+      },
+      "prime_order": true,
+      "physical_admissibility_inputs_pass": true
+    },
+    {
+      "name": "order-12 three-family",
+      "d": 12,
+      "euler_cover": -72,
+      "internal_real_dim": 6,
+      "free": true,
+      "descended": true,
+      "bianchi": true,
+      "modular": true,
+      "source": "https://arxiv.org/pdf/0910.5464",
+      "external_dim": 4,
+      "cover_index": {
+        "numerator": -36,
+        "denominator": 1
+      },
+      "quotient_index": {
+        "numerator": -3,
+        "denominator": 1
+      },
+      "net_abs": {
+        "numerator": 3,
+        "denominator": 1
+      },
+      "prime_order": false,
+      "physical_admissibility_inputs_pass": true
+    },
+    {
+      "name": "quintic Z5xZ5",
+      "d": 25,
+      "euler_cover": -200,
+      "internal_real_dim": 6,
+      "free": true,
+      "descended": true,
+      "bianchi": true,
+      "modular": true,
+      "source": "https://people.maths.ox.ac.uk/szendroi/atmp_triadophilia.pdf",
+      "external_dim": 4,
+      "cover_index": {
+        "numerator": -100,
+        "denominator": 1
+      },
+      "quotient_index": {
+        "numerator": -4,
+        "denominator": 1
+      },
+      "net_abs": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "prime_order": false,
+      "physical_admissibility_inputs_pass": true
+    }
+  ],
+  "theorems": {
+    "prime_not_sufficient": true,
+    "prime_not_necessary": true,
+    "four_dimensions_is_parent_minus_internal_input": true,
+    "index_filter_net3_iff_abs_euler_eq_6d": true,
+    "partition_homonym_fields_absent_from_physical_tuple": true
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "claim_boundary": "Finite-momentum transverse vector-vector bubble and momentum-independent vector seagull from the canonical mass term in strict Landau gauge. Mixed scalar-vector derivative bubbles, external mixing, and general-xi cancellation remain; this is not a full, physical, or gauge-independent pole.",
+  "kinematics": {
+    "p2_over_epsilonM2": 4320.0,
+    "Q2_over_epsilonM2": 1.0,
+    "feynman_prescription": "-i0",
+    "inverse_propagator": "s-m_tree^2-Pi(s)"
+  },
+  "enumeration": {
+    "vectors": 79,
+    "massive": 67,
+    "massless": 12,
+    "mass_shells": [
+      {
+        "m2": 0.0,
+        "multiplicity": 12,
+        "D_block_frobenius2": 1.4135679929143248e-60
+      },
+      {
+        "m2": 0.8619521939629216,
+        "multiplicity": 1,
+        "D_block_frobenius2": 0.0
+      },
+      {
+        "m2": 1.0000000000000009,
+        "multiplicity": 3,
+        "D_block_frobenius2": 1.2838007592267248e-58
+      },
+      {
+        "m2": 1.5000000000000018,
+        "multiplicity": 24,
+        "D_block_frobenius2": 1.6000000000000045
+      },
+      {
+        "m2": 5.000000000000009,
+        "multiplicity": 6,
+        "D_block_frobenius2": 6.4000000000000234
+      },
+      {
+        "m2": 10.0,
+        "multiplicity": 4,
+        "D_block_frobenius2": 21.599999999999994
+      },
+      {
+        "m2": 16.5,
+        "multiplicity": 12,
+        "D_block_frobenius2": 204.79999999999993
+      },
+      {
+        "m2": 25.000000000000018,
+        "multiplicity": 12,
+        "D_block_frobenius2": 500.0000000000004
+      },
+      {
+        "m2": 34.80471447270375,
+        "multiplicity": 1,
+        "D_block_frobenius2": 0.0
+      },
+      {
+        "m2": 36.50000000000003,
+        "multiplicity": 4,
+        "D_block_frobenius2": 345.6000000000004
+      }
+    ],
+    "active_ordered_D_pairs": 62,
+    "open_ordered_threshold_channels": 62,
+    "massless_D_row_column_norm": 1.1889356554979436e-30
+  },
+  "vertices": {
+    "D_A": "(R v_A)(R x)^T+(R x)(R v_A)^T",
+    "Q_AA": "2(R v_A)(R v_A)^T",
+    "hAA_feynman_rule": "i D_A,ab g_mn",
+    "hhAA_feynman_rule": "i Q_AA,ab g_mn",
+    "bubble_symmetry_factor": 0.5
+  },
+  "result": {
+    "transverse_VV_bubble_real": 76.73560821024982,
+    "transverse_VV_bubble_imag": -31.9290185806042,
+    "vector_seagull_momentum_independent": 15.035667088293076,
+    "bubble_plus_seagull_real": 91.7712752985429,
+    "bubble_plus_seagull_imag": -31.9290185806042
+  },
+  "renormalization": {
+    "scheme": "MSbar",
+    "finite_kernel": "K=2Iab+[X+Y+2Iab-2s(U+V)+s^2W]/4+2",
+    "UV_local_bubble_coefficient_removed": 5.1293849218933545,
+    "note": "The +2 is the d=4-2eps evanescent projector contribution; no finite local mass counterterm is added."
+  },
+  "checks": {
+    "quadrature_n": 512,
+    "p0_direct_bubble": 39.966288631651786,
+    "p0_vector_CW_Hessian_bubble": 39.966288631651786,
+    "p0_abs_difference": 0.0,
+    "degenerate_basis_rotation_abs_difference": 1.464821375527116e-14,
+    "independent_256_vs_512_abs_difference": 0.0
+  },
+  "ghost": {
+    "xi": 0,
+    "direct_radial_ghost_vertex": 0.0,
+    "boundary": "Background-Rxi FP scalar vertices are proportional to xi and vanish only in the strict xi->0 boundary; no general-xi cancellation is claimed."
+  },
+  "remaining": [
+    "mixed scalar-vector derivative bubbles",
+    "external scalar-vector pole determinant mixing",
+    "general-xi longitudinal/Goldstone/ghost cancellation"
+  ],
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-vector-bubble-gate\\calculation.py": "c84960050bfc511051dc3abb090055521fef587d3dcabad4ba33a32861bb2d78",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-gauge-pole-gate\\calculation.py": "2cb39ec03da3d09b125ce8a3f418d71a53c45d799cba31e95f2a5b79cd5ed7c2",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-gauge-pole-gate\\REPORT.md": "f1e7eee1427c10096bd9bb2142ca9011697c483b8a96cd58bf9eceeae361f4df",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-gate\\calculation.py": "5d4a82d90a505595c2c6cefe0771e36faa49135d08d2b9623538fcf9e4a00307",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\SOURCE_NOTES.md": "5cb753f65fc847fe9488e7f3a1cf5485cbb68061112e82c3f07eb4581ef4817f",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb"
+  }
+}

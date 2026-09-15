@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "claim_boundary": "Sourced CY3 standard embedding plus exact arithmetic and conditional Lean cover-index magnitude cancellation; not a stabilized Standard Model.",
+  "axiom_free_declarations": [
+    "CoverIndex.triple_injective",
+    "CoverIndex.degree_three_cover_net_three",
+    "CoverIndex.degree_three_zero_index",
+    "CoverIndex.three_family_witness"
+  ],
+  "source_excerpt_count": 6,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "-o",
+        "Formalization.olean",
+        "Formalization.lean"
+      ],
+      "returncode": 0,
+      "stdout": "Formalization.lean:9:0: warning: Definition `congr` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\nFormalization.lean:11:0: warning: Definition `trans` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\nFormalization.lean:13:0: warning: Definition `symm` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\nFormalization.lean:18:0: warning: Definition `succ_inj` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\nFormalization.lean:22:0: warning: Definition `zero_not_succ` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\n'CoverIndex.triple_injective' does not depend on any axioms\n'CoverIndex.degree_three_cover_net_three' does not depend on any axioms\n'CoverIndex.degree_three_zero_index' does not depend on any axioms\n'CoverIndex.three_family_witness' does not depend on any axioms\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "Challenge.lean"
+      ],
+      "returncode": 0,
+      "stdout": "CoverIndex.triple_injective (a b : CoverIndex.N) :\n  CoverIndex.E (CoverIndex.triple a) (CoverIndex.triple b) \u2192 CoverIndex.E a b\nCoverIndex.degree_three_cover_net_three (q cover : CoverIndex.N) (cover_law : CoverIndex.E (CoverIndex.triple q) cover)\n  (cover_value : CoverIndex.E cover CoverIndex.nine) : CoverIndex.E q CoverIndex.three\nCoverIndex.degree_three_zero_index (q : CoverIndex.N) (cover_law : CoverIndex.E (CoverIndex.triple q) CoverIndex.N.z) :\n  CoverIndex.E q CoverIndex.N.z\nCoverIndex.three_family_witness : CoverIndex.E CoverIndex.three CoverIndex.three\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Python313\\python.exe",
+        "-B",
+        "exact_certificate.py",
+        "--verify"
+      ],
+      "returncode": 0,
+      "stdout": "PASS saved exact certificate replay: Euler -18 -> -6; net27=3; E8 full root branching; negative controls\n",
+      "stderr": ""
+    }
+  ],
+  "sha256": {
+    "certificate.json": "629998a92f42c7d105fb9d59320bc3d8e65a980a66347c99ed2f29f322f80c61",
+    "Challenge.lean": "1ab432e5d62c90c3d7e2157c25b1c6dc16181e76e4c41a9627d86dd7e158526b",
+    "collect_evidence.py": "dcb050cd0f557bc07fa2e580b29521bf33e81382804bd13b7efbb1919b10636f",
+    "exact_certificate.py": "6278004a873b578c1627be5fbe5ff40a2003199eb321689170e9ede6ce130b67",
+    "Formalization.lean": "6b37a1de537c91c97d1595dbc8df5f7fba1f150f01b0aa87aa04e0bd9f27919e",
+    "formalization.yaml": "b19994de175a4bf6a2683bff79d724b70b3f9c2ff185e260995bbe079ee76f1f",
+    "RELEASE_DISCLOSURE.md": "c84dad0c4f3880959f8d14c247bcc6a44d8f57df4fb99dc156377705cf5c4951",
+    "REPORT.md": "dc5654f000530965ec34125ba60e447c1cb5b1b98e64f0fc964ed37c3baa77ed",
+    "source_evidence.json": "4b0bb3aa2fb27b24772bf60e994e2b4865adc8814c0962fa72bd7a6ce03ca820",
+    "sources\\composite12.pdf": "cb999f7a4b6dbd955c4263ea4d67303c091a4e9b34d4077e84503cb4ba4dd82a",
+    "sources\\composite12.txt": "f28351233e561bac228361b87f534943d9a7200d6596a6463a5063c46a949294",
+    "sources\\triadophilia.pdf": "096bc05a6c57d7b45101181664a15b497f4b606a27daed918fff59ef08acc398",
+    "sources\\triadophilia.txt": "790f02208f59e7824875d9b7c3a60df6edd6e3798fa510fe293cde9f08c77d6f",
+    "sources\\yukawas.pdf": "8d37e6c7c3d79c7fe279be4ce3a0698a52bccf7e8e581640a5ac70b9df47e7f9",
+    "sources\\yukawas.txt": "cde76ac93fc60abc1f23d6dd83de41ee031c13d56a7d213361010bd86d20d458",
+    "verify.py": "52e44d7f470a15679171e9afe75ebdc30eae3c4e524b88e7e4ee44b1e55de7d1"
+  }
+}

@@ -1,0 +1,2215 @@
+[PDF PAGE 1]
+Preprint typeset in JHEP style - HYPER VERSION
+MIT-CTP-4132, NSF-KITP-10-096, UCSB-Math-2010-19
+Global aspects of the space of 6D N = 1 supergravities
+Vijay Kumar1,2, David R. Morrison3 and Washington Taylor1
+1Center for Theoretical Physics
+Department of Physics
+Massachusetts Institute of Technology
+Cambridge, MA 02139, USA
+2Kavli Institute for Theoretical Physics
+University of California, Santa Barbara
+Santa Barbara, CA 93106, USA
+3Departments of Mathematics and Physics
+University of California, Santa Barbara
+Santa Barbara, CA 93106, USA
+vijayk at mit.edu, drm at math.ucsb.edu, wati at mit.edu
+Abstract: We perform a global analysis of the space of consistent 6D quantum gravity
+theories with N = 1 supersymmetry, including models with multiple tensor multiplets. We
+prove that for theories with fewer than T = 9 tensor multiplets, a ﬁnite number of distinct
+gauge groups and matter content are possible. We ﬁnd inﬁnite families of ﬁeld combinations
+satisfying anomaly cancellation and admitting physical gauge kinetic terms for T > 8. We
+ﬁnd an integral lattice associated with each apparently-consistent supergravity theory; this
+lattice is determined by the form of the anomaly polynomial. For models which can be
+realized in F-theory, this anomaly lattice is related to the intersection form on the base of
+the F-theory elliptic ﬁbration. The condition that a supergravity model have an F-theory
+realization imposes constraints which can be expressed in terms of this lattice. The analysis
+of models which satisfy known low-energy consistency conditions and yet violate F-theory
+constraints suggests possible novel constraints on low-energy supergravity theories.
+arXiv:1008.1062v1  [hep-th]  5 Aug 2010
+
+[PDF PAGE 2]
+Contents
+1.
+Introduction
+1
+2.
+Anomalies and lattices
+3
+2.1
+Anomaly cancellation
+3
+2.2
+Proof of integrality
+5
+2.3
+Integral lattices and dyonic strings
+9
+3.
+Finite bound for ﬁxed T < 9
+10
+4.
+Inﬁnite families for T ≥9
+15
+4.1
+Example: Inﬁnite families at ﬁxed T ≥9
+15
+4.2
+Example: Inﬁnite families with unbounded numbers of factors
+16
+5.
+Supergravity models in F-theory
+17
+5.1
+Mapping to F-theory
+18
+5.2
+F-theory constraints on low-energy supergravity
+20
+6.
+Examples
+25
+6.1
+Examples with F-theory realizations: SU(N) product models at T = 1
+26
+6.2
+Example: Embedding failure
+26
+6.3
+Example: Outside the Mori cone
+27
+6.4
+Example: New possibilities and constraints for T > 1
+28
+6.5
+Example: Inﬁnite families at T ≥9
+30
+7.
+Global picture of the 6D N = 1 landscape
+31
+7.1
+Extent of the space of 6D supergravities
+32
+7.2
+Charting the space of supergravities with string constructions
+34
+7.3
+Connectivity of the space of 6D supergravities
+35
+8.
+Conclusions
+36
+1. Introduction
+Six-dimensional N = 1 supergravity is a useful domain for studying fundamental questions
+about the space of string vacua. On the one hand, the space of such theories is strongly
+constrained by gravitational, gauge, and mixed anomalies [1, 2]. On the other hand, 6D
+supergravity includes a rich variety of models with diﬀerent gauge groups and matter
+– 1 –
+
+[PDF PAGE 3]
+representations. Given the diﬃculty of attaining a systematic classiﬁcation of string vacua
+in four dimensions, and our limited knowledge at this point regarding constraints on the
+space of low-energy 4D ﬁeld theories which can be consistently coupled to quantum gravity,
+it is desirable to ﬁnd a context in which we can develop tools and experience for addressing
+global questions of this nature. 6D N = 1 supergravity promises to provide a tractable
+framework in which we can address questions such as the global extent of the space of
+quantum-consistent low-energy theories, and begin to map how diﬀerent string vacuum
+constructions ﬁll regions in this space of low-energy theories.
+In [3, 4, 5] we began a systematic analysis of the space of low-energy 6D N = 1
+supergravity theories. We showed in [4] that for theories with one tensor ﬁeld (those models
+which admit a Lagrangian), there are a ﬁnite number of distinct nonabelian gauge groups
+and matter representations possible in models which do not suﬀer from clear quantum
+inconsistencies from anomaly violation or wrong-sign kinetic terms.
+In [5] we gave an
+explicit map from the set of such models to topological data for F-theory constructions.
+For most apparently-consistent low-energy models this map appears to give good string
+vacua through F-theory constructions. In some cases, however, the image of the map was
+found to exhibit some pathology; in such cases the models do not correspond to any known
+F-theory vacuum.
+In this paper, we extend this global analysis to theories with multiple tensor ﬁelds.
+The Lagrangian describing gauge groups and matter ﬁelds for 6D N = 1 supergravity
+theories with one tensor ﬁeld was originally developed in [6]. Field equations for the (non-
+Lagrangian) models with multiple tensor ﬁelds were analyzed by Romans [7]. In a theory
+with T antisymmetric 2-form tensor ﬁelds, the associated scalars parameterize a coset space
+SO(1, T)/SO(T). We use the underlying SO(1, T) structure to give a fairly simple proof
+that for models with T < 9, there are a ﬁnite number of possible nonabelian gauge groups
+and matter representations consistent with anomaly cancellation and physical gauge kinetic
+terms. We ﬁnd that for any T, each apparently-consistent low-energy supergravity theory
+can be associated with an integral lattice Λ.
+We use the structure of the lattice Λ to
+connect with F-theory, and identify constraints on low-energy theories associated with the
+existence of an F-theory vacuum construction. Thus, the results of this paper generalize
+and subsume many of the results of [4, 5]; the general structure developed for models with
+arbitrary T clariﬁes in some ways the more speciﬁc arguments previously given at T = 1.
+In Section 2 we review the structure of anomaly cancellation in general 6D N = 1
+supergravity theories, and demonstrate that each anomaly-free theory can be associated
+with an integral lattice. In Section 3 we prove that the number of gauge groups and matter
+representations for consistent theories is ﬁnite for T < 9. We give explicit examples of
+inﬁnite families where the theorem breaks down at T ≥9 in Section 4. In Section 5 we use
+the integral lattice for each theory to construct topological data which would be associated
+with any corresponding F-theory construction, and describe constraints on the class of
+models which can be realized through F-theory. Section 6 contains some examples of F-
+theory embeddings of supergravity models, illustrating how geometrical constraints from
+– 2 –
+
+[PDF PAGE 4]
+F-theory rule out the possibility of F-theory realizations of some apparently-consistent low-
+energy models. Section 7 contains some discussion of global aspects of the 6D supergravity
+landscape, and Section 8 contains a summary of the conclusions.
+Note that the analysis in Sections 2, 3, and 4 depends only upon the structure of
+low-energy supergravity and is independent of any structure associated with string theory.
+2. Anomalies and lattices
+We consider 6D supergravity theories with semi-simple gauge group G = Q
+i Gi. The anal-
+ysis of abelian factors will appear elsewhere [8]; such abelian factors have little eﬀect on the
+structure of the nonabelian part of the theory. We include matter hypermultiplets which
+transform in a general representation of G, and T tensor multiplets. For theories with
+multiple tensor multiplets, there is a generalized Green-Schwarz mechanism (described by
+Sagnotti [9]), which allows for a larger class of gauge anomalies to be cancelled. In this
+section we review this mechanism using the notation of [10], and show that the anomaly
+cancellation conditions imply the existence of an integral lattice associated with any con-
+sistent 6D N = 1 theory.
+2.1 Anomaly cancellation
+Anomalies can be cancelled by the Green-Schwarz-Sagnotti mechanism if the anomaly
+polynomial I8 can be written in the form
+I8(R, F) = 1
+2ΩαβXα
+4 Xβ
+4
+(2.1)
+Here Xα
+4 is a 4-form constructed from the curvatures of the Yang-Mills and spin connections
+Xα
+4 = 1
+2aαtrR2 +
+X
+i
+bα
+i
+ 2
+λi
+trF 2
+i
+
+(2.2)
+where aα, bα
+i are vectors in the space R1,T and Ωαβ is a natural metric (symmetric bilinear
+form) on this space.
+The tr here refers to the trace in an appropriate “fundamental”
+representation of the group Gi, and λi is a normalization factor.
+These normalization
+factors are ﬁxed by demanding that the smallest topological charge of an embedded SU(2)
+instanton is 1, as explained in [11]. These factors are listed in Table 1 for all the simple
+groups. I8(R, F) is completely speciﬁed by the multiplets in the low-energy theory and can
+be computed using the formulae in [12, 13].
+An
+Bn
+Cn
+Dn
+E6
+E7
+E8
+F4
+G2
+λ
+1
+2
+1
+2
+6
+12
+60
+6
+2
+Table 1: Normalization factors for the simple groups
+– 3 –
+
+[PDF PAGE 5]
+When T̸ = 1, one cannot write down a Lorentz covariant Lagrangian. One can con-
+struct a partition function, however, along the lines of [14, 15] by coupling the extra
+(anti-self-dual) tensor ﬁelds to an auxillary 3-form gauge potential. The anomaly can be
+cancelled by a local counterterm of the form
+δLGSS = −ΩαβBα ∧Xβ
+4
+(2.3)
+The 2-form ﬁeld Bα has an anomalous gauge transformation, and the above term makes
+the tree-level Lagrangian gauge-variant in exactly the right way to cancel the one-loop
+anomaly. The gauge invariant 3-form ﬁeld strength is deﬁned as
+Hα = dBα + 1
+2aαω3L + 2
+X
+i
+1
+λi
+bα
+i ωi
+3Y
+(2.4)
+where ω3L and ωi
+3Y are Chern-Simons 3-forms of the spin connection and gauge ﬁeld re-
+spectively.
+The only (1, 0) supersymmetry multiplets that contain scalars are the hypermultiplets
+(4 real scalars) and the tensor multiplet (1 real scalar). The hypermultiplet moduli space
+is a quaternionic K¨ahler manifold, analogous to the 4D N = 2 case. The tensor multiplet
+scalar moduli space locally takes the form of the coset space SO(1, T)/SO(T) [7], and can
+be parameterized by a vector jα in the space R1,T of norm Ωαβjαjβ = +1. From the
+viewpoint of the low-energy theory, the above space is just one possible solution to the
+requirements imposed by SUSY, although no others are known. In Section 5.2 we will see
+that the space SO(1, T)/SO(T) arises naturally as a coset space containing the Teichmuller
+space of K¨ahler metrics in F-theory compactiﬁcations as an open set.
+The anomaly polynomial does not specify the vectors aα, bβ
+i , but only constrains the
+SO(1, T) invariant quantities
+Ωαβaαaβ,
+Ωαβaαbβ
+i ,
+Ωαβbα
+i bβ
+j
+(2.5)
+We will use the notation x·y to denote the SO(1, T) invariant product Ωαβxαyβ. Vanishing
+of the trR4 anomaly implies that
+H −V = 273 −29T
+(2.6)
+where H, V, T denote the number of hyper, vector, and tensor multiplets respectively. The
+trF 4 contribution to the total anomaly must also cancel for the anomaly to factorize in the
+form (2.1). This gives the condition
+Bi
+adj =
+X
+R
+xi
+RBi
+R
+(2.7)
+where the coeﬃcients AR, BR, CR are deﬁned as
+trRF 2 = ARtrF 2
+(2.8)
+trRF 4 = BRtrF 4 + CR(trF 2)2
+(2.9)
+– 4 –
+
+[PDF PAGE 6]
+and xi
+R denotes the number of hypermultiplets transforming in representation R under
+gauge group factor Gi. We will similarly denote by xij
+RS the number of hypermultiplets
+transforming in representations R, S under the factors Gi, Gj.
+The remaining anomaly factorization conditions relate inner products between the
+vectors a, bi to group theory coeﬃcients and the representations of matter ﬁelds
+a · a = 9 −T
+(2.10)
+a · bi = 1
+6λi
+ 
+Ai
+adj −
+X
+R
+xi
+RAi
+R
+!
+(2.11)
+bi · bi = −1
+3λ2
+i
+ 
+Ci
+adj −
+X
+R
+xi
+RCi
+R
+!
+(2.12)
+bi · bj = λiλj
+X
+RS
+xij
+RSAi
+RAj
+S.
+(2.13)
+We demonstrate in the following section that these inner products are all integers, so that
+a, bi can be used to deﬁne an integral lattice.
+In the case when T = 1, which was studied in [2, 16, 4], the Green-Schwarz mechanism
+requires that the anomaly polynomial factorize as a simple product of polynomials. To
+relate this familiar case to the general formalism, we can choose the bilinear form on
+SO(1, 1) as
+Ωαβ =
+ 
+0 1
+1 0
+!
+(2.14)
+For T = 1 we have a2 = 8. The form (2.14) and the anomaly polynomial (2.1) are invariant
+under the rescaling
+(X1
+4, X2
+4) →(µ X1
+4, µ−1 X2
+4)
+(2.15)
+We can use this scale degree of freedom to set aα ≡(a1, a2) = (−2, −2). We can then
+identify bi in this basis with parameters αi, ˜αi through
+bi = λi
+2 (αi, ˜αi) .
+(2.16)
+Once this basis is chosen for Ωαβ, a, and bi, the anomaly polynomial takes the familiar,
+friendly form used in [5] and most literature on T = 1 models
+I8 = X1X2 = (trR2 −
+X
+i
+αitrF 2
+i )(trR2 −
+X
+i
+˜αitrF 2
+i )
+(2.17)
+The only symmetry unﬁxed is a Z2 symmetry of the bilinear form that exchanges X1 ↔X2.
+2.2 Proof of integrality
+The inner products of the vectors aα, bα
+i are related to group invariants (AR, CR) and the
+number of charged hypermultiplets in various representations. In this section we show that
+– 5 –
+
+[PDF PAGE 7]
+these inner products are quantized in Z when the normalization factors λi are chosen as in
+Table 1. (2.11-2.13) imply that the inner products a · bi, bi · bi, bi · bj are all quantized in
+integers if
+λi
+P
+R xi
+RAi
+R −Ai
+adj
+6
+∈Z
+λ2
+i
+P
+R xi
+RCi
+R −Ci
+adj
+3
+∈Z
+(2.18)
+λiAi
+R ∈Z
+We will prove the above statements for each of the simple groups, case by case.
+For
+the SU(N) (and Sp(N)) series, this is easily proved using properties of Young diagrams,
+which are in one-to-one correspondence with the irreducible representations of SU(N) (and
+Sp(N)). For an arbitrary group G not of the form SU(N) or Sp(N), we ﬁnd a sequence
+of maximal subgroups that terminates in SU(N) or Sp(N), e.g. E8 ⊃SU(9), SO(8) ⊃
+SO(7) ⊃SO(6) ∼= SU(4). Then, by computing the branching of representations of G we
+can show integrality for G.
+We start with SU(N), N ≥4; the coeﬃcients AR, BR, CR can be easily calculated
+using two diagonal generators T12, T34 which, in the fundamental representation, take the
+form
+(T12)ab = δa1δb1 −δa2δb2
+(2.19)
+(T34)ab = δa3δb3 −δa4δb4
+(2.20)
+as in the appendix of [4]. The group theory factors AR, BR, CR can be computed in terms
+of traces of these generators.
+AR = 1
+2trRT 2
+12
+(2.21)
+BR + 2CR = 1
+2trRT 4
+12
+(2.22)
+CR = 3
+4trRT 2
+12T 2
+34
+(2.23)
+In the traces above, we sum over all states in the representation R, which can be represented
+in terms of the associated Young diagram DR. In (2.23), let |s⟩denote a state in the
+representation normalized to ⟨s|s⟩= 1. A basis of such states corresponds to the set of
+Young tableaux, given by the Young diagram DR labelled using integers from 1, 2, · · · , N.
+Let πij denote the operation that switches the labels i ↔j in a Young tableau. The states
+{|s⟩, π12|s⟩, π34|s⟩, π12 ◦π34|s⟩} all give equal contributions to the trace. (Note that these
+states need not be distinct, but when they are not all distinct, the contribution vanishes,
+since either the number of appearances of 1 and 2 are equal or the number of appearances
+of 3 and 4 are equal.)
+This makes trRT 2
+12T 2
+34 a multiple of 4, and therefore CR is an
+integer divisible by 3 for every representation of SU(N), N ≥4. This shows that for
+SU(N), N ≥4,
+1
+3
+ X
+R
+xRCR −Cadj
+!
+∈Z
+(2.24)
+– 6 –
+
+[PDF PAGE 8]
+Anomaly cancellation requires the vanishing of the trF 4 term, which sets P
+R xRBR −
+Badj = 0. If we deﬁne ER := 1
+2trRT 4
+12, then (2.22), (2.24) and the F 4 condition together
+imply that P
+R xRER −Eadj is divisible by 6. From the same kind of argument as above
+we know that in a representation R, the states |s⟩, π12|s⟩would together contribute n(s)2
+to AR and n(s)4 to ER, with n(s) := ⟨s|T12|s⟩∈Z. Since n(s)2 ≡n(s)4 (mod 6), we have
+ER ≡AR (mod 6). Therefore,
+1
+6
+ X
+R
+xRAR −Aadj
+!
+∈Z .
+(2.25)
+Since the normalization factor for SU(N) in Table 1 is 1, this shows that for an SU(N ≥4)
+factor in the gauge group all the conditions in (2.18) are satisﬁed.
+For the other subgroups of GL(N), we can again use the Young diagram approach
+(see [17] for details on Young diagrams for the other classical groups). The irreducible
+representations of Sp(N) are in one-to-one correspondence with Young diagrams with all
+possible contractions with the ϵ symbol subtracted. If we choose appropriate generators
+from the Cartan subalgebra of Sp(N) as in [4], whose squares are exactly equal to the
+squares of the SU(N) generators we chose above, the above proof for SU(N) carries through
+unchanged. In the case of SO(N), the set of Young diagrams only gives the representations
+with integer weight; these exclude the spinor representations. With the right choice of
+generators, the above proof shows that for the integer weight representations, we have
+integral inner products. If we include spinor representations, the inner products are actually
+quantized in 1
+2Z.
+Including the factor of 2 in the normalization of SO(N) in Table 1,
+however, we ﬁnd that the inner products are again integral. An alternate proof of integrality
+for the SO(N) representations involves using a sequence of maximal subgroups. We will
+discuss this method in general below, and then apply it to the SO(N) case and also to the
+exceptional groups.
+Consider a general simple group G. We wish to show that whenever P
+R xRBR−Badj =
+0, the conditions (2.18) are satisﬁed. Let H be a simple, maximal (proper) subgroup of the
+simple Lie group G. For a given representation R of G, we can compute the decomposition
+of R into irreducible representations Si of the maximal subgroup H ⊂G: R = ⊕in(R)iSi
+where n(R)i denotes the multiplicity of representation Si.
+trRF 2
+G =
+X
+i
+n(R)itrSiF 2
+H =
+ X
+i
+n(R)iASi(H)
+!
+trF 2
+H
+(2.26)
+trRF 4
+G =
+X
+i
+n(R)itrSiF 4
+H =
+ X
+i
+n(R)iBSi(H)
+!
+trF 4
+H +
+ X
+i
+n(R)iCSi(H)
+!
+(trF 2
+H)2
+(2.27)
+Here tr denotes the trace in the fundamental representation of H. This gives us a way of
+computing AR(G) for an arbitrary group G using its maximal subgroup [13].
+AR(G) = trRF 2
+G
+trfF 2
+G
+=
+P
+i n(R)iASi(H)
+P
+i n(f)iASi(H) .
+(2.28)
+– 7 –
+
+[PDF PAGE 9]
+Here, for clarity, trf explicitly denotes the trace in the (suitably normalized) fundamental
+representation f of G with f = ⊕in(f)iSi under H ⊂G.
+Anomaly cancellation for G implies that P
+R xRBR(G) −Badj(G) = 0. Then,
+X
+R
+xRtrRF 4
+G −tradjF 4
+G =
+ X
+R
+xRCR(G) −Cadj(G)
+!
+(trfF 2
+G)2
+⇒
+X
+R
+xRCR(G) −Cadj(G) =
+P
+R xR
+P
+i n(R)iCSi(H) −P
+i n(adj)iCSi(H)
+(P
+i n(f)iASi(H))2
+.
+(2.29)
+If we have integrality for the group H, i.e. for every {yS ∈Z} satisfying
+X
+S
+ySBS(H) = 0 ⇒
+(
+λH
+P
+S ySAS(H) ∈6Z
+λ2
+H
+P
+S ySCS(H) ∈3Z
+(2.30)
+then, using ySi = P
+R xR n(R)i −n(adj)i we have
+λH
+ X
+i
+n(f)iASi(H)
+! P
+R xRAR(G) −Aadj(G)
+6
+∈Z
+(2.31)
+λ2
+H
+ X
+i
+n(f)iASi(H)
+!2 P
+R xRCR(G) −Cadj(G)
+3
+∈Z
+(2.32)
+The conditions (2.18) are then all satisﬁed for a group G, if we prove that
+λG = λH
+X
+i
+n(f)iASi(H)
+(2.33)
+for a maximal subgroup H.
+We ﬁrst consider the particular case of G = E8 and the maximal subgroup SU(9) ⊂E8
+[13]. The coeﬃcients AR, BR, CR for E8 are deﬁned using the adjoint representation as the
+fundamental.
+E8 ⊃SU(9)
+248 = 84 ⊕84 ⊕adj
+(2.34)
+Using A84(SU(9)) = 21, Aadj(SU(9)) = 18, we have integrality for E8, because λE8 = 60
+and λSU(9) = 1, and therefore relation (2.33) is satisﬁed
+λE8 = λSU(9)(2A84 + Aadj) = 60 .
+(2.35)
+In fact, the branching rule in (2.34) makes clear the origin of the normalization factors.
+Since
+tradjF 2
+E8 = 2 tr84F 2
+SU(9) + tradjF 2
+SU(9) = 60 tr9F 2
+SU(9),
+(2.36)
+including a normalization factor of 1/60 for the E8 group trace, relative to the SU(9) trace,
+ensures that the minimum instanton number of any conﬁguration of E8 gauge ﬁelds is 1.
+– 8 –
+
+[PDF PAGE 10]
+For the SO(N) series, we can show that (2.33) is satisﬁed by induction. For N = 6,
+SO(6) ∼= SU(4) we have
+tr6F 2
+SO(6) = tr6F 2
+SU(4) = 2 trF 2
+SU(4)
+(2.37)
+Equation (2.33) is again satisﬁed since λSO(6) = 2, λSU(4) = 1. For the inductive step, since
+SO(N −1) is a maximal subgroup of SO(N),
+trNF 2
+SO(N) = trN−1F 2
+SO(N−1)
+(2.38)
+Thus, integrality for SO(N −1) implies integrality for SO(N), and the inductive step is
+proved.
+Similarly, we can prove integrality for the groups E6, E7, F4 using the maximal sub-
+groups Sp(4), SU(8), SO(9) respectively.
+In each case we ﬁnd that relation (2.33) is
+satisﬁed. We have thus shown that the inner products a · bi, bi · bi, bi · bj are all integral if
+all simple factors in the gauge group are drawn from the list
+{SU(N ≥4), SO(N ≥7), Sp(N ≥2), E6,7,8, F4}
+(2.39)
+and suitable scaling factors are applied to the anomaly coeﬃcients. The groups SU(2), SU(3)
+and G2 are conspicuously absent from this list. The normalization factors for these groups
+are 1, 1 and 2 respectively, but in these cases, the condition that local anomalies are absent
+does not constrain the inner products to be integral. There is a more subtle anomaly,
+however, ﬁrst discussed in [18], where the partition function is invariant under local gauge
+transformations (gauge current is conserved quantum mechanically), but not invariant
+under “large” gauge transformations. The analysis of such “global anomalies” in six di-
+mensions was carried out in [19], and more thoroughly in [20]. Using their results, we ﬁnd
+that the inner products in question are non-integral for SU(2), SU(3) and G2 precisely
+when the low-energy theory is plagued by a global anomaly, which renders these theories
+inconsistent.
+Therefore, imposing that the low-energy theory is free of local and global anomalies,
+we have shown that the anomaly coeﬃcients deﬁne an integral lattice Λ. This lattice Λ
+will play a crucial role in deﬁning possible embeddings into F-theory.
+2.3 Integral lattices and dyonic strings
+Since the inner products a·a, a·bi, bi·bj compatible with the anomaly cancellation equations
+are all integral, we can use this inner product structure to form an integral lattice
+Λ =
+
+
+
+
+
+
+a2
+−a · b1 −a · b2 · · ·
+−a · b1
+b2
+1
+b1 · b2 · · ·
+−a · b2 b1 · b2
+b2
+2
+· · ·
+...
+...
+...
+...
+
+
+
+
+
+
+(2.40)
+– 9 –
+
+[PDF PAGE 11]
+Note that this lattice may be degenerate; in some cases there can be linear relations between
+the vectors a, bi.
+We choose to deﬁne the lattice in terms of −a rather than a since
+generally −a is a positive vector in the sense that −a·j > 0 for those models with F-theory
+descriptions, as we discuss in Section 5.
+For models which have a consistent quantum UV completion, there is a natural inter-
+pretation of the lattice Λ in terms of the charge lattice of BPS states. The BPS states of
+the 6D N = (1, 0) SUSY algebra are extended string-like states, known as dyonic strings,
+with arbitrary charges under the (1, T) multiplet of two-form ﬁelds Bα [21]. For theories
+with nonabelian gauge ﬁelds, there are BPS states known as gauge dyonic strings, where
+the gauge ﬁeld has an instanton proﬁle in the directions transverse to the string [22]. For
+every nonabelian factor Gi in the gauge group, there is a corresponding gauge dyonic string
+with conserved 2-form charge given by the vector bi. (The dyonic string is obtained from
+the gauge dyonic string by taking the instanton size →0 limit.). In a consistent quan-
+tum theory, just as the product of electric and magnetic monopole charges is quantized in
+standard 4D electromagnetic theory due to the single-valued nature of the electron wave
+function, the inner product b·b′ of dyonic string charges is quantized in the 6D theory [23].
+Thus, we expect that in a consistent quantum theory, if there are quantum excitations
+associated with the solitonic dyonic strings, these states must live in an integral lattice ˜Λ
+of signature (1, T) of which Λ is a sublattice. It is interesting and perhaps suggestive that
+the integrality of the lattice Λ follows directly from the anomaly cancellation conditions,
+with no further assumptions about the quantum consistency of the theory or the existence
+of quantum string states.
+3. Finite bound for ﬁxed T < 9
+In this section we prove that for ﬁxed T < 9 there are a ﬁnite number of distinct possible
+combinations of nonabelian gauge group and matter representations. This analysis is purely
+based on aspects of the low-energy supergravity theory, and is independent of string theory
+or any other speciﬁc UV completion.
+The ﬁnite range of possible gauge groups and matter representations for T = 1 was
+proven in [4]. We give a similar proof here for any ﬁxed T between 0 and 8, using the
+SO(1, T) invariant inner product structure on the vectors a, bi, j.
+As in [4], we ignore
+abelian factors; such factors do not aﬀect the anomaly cancellation conditions (2.7-2.13)
+on the nonabelian gauge group factors. The constraint on inﬁnite families breaks down
+at T = 9 due to the change of sign of a2 = 9 −T. When a has positive norm, it places
+stronger constraints on the range of allowed models. We give explicit examples of inﬁnite
+families of anomaly-free models with acceptable gauge kinetic terms at T = 9 and greater
+in Section 4.
+The proof for T < 9 proceeds by contradiction. We assume that there is an inﬁnite
+family of models {M(γ)} = {M(1), M(2), . . .} with nonabelian gauge groups {G(γ)}. There
+are a ﬁnite number of (semi-simple) groups G with dimension below any ﬁxed bound. For
+– 10 –
+
+[PDF PAGE 12]
+each ﬁxed G, there are a ﬁnite number of representations whose dimension is below the
+bound (2.6) on the number of hypermultiplets. Thus, as argued in [4], any inﬁnite family
+{G(γ)} must include gauge groups of arbitrarily large dimension. For any given model in the
+family we decompose the semi-simple gauge group into a product of simple group factors
+G(γ) = G(γ)
+1
+× G(γ)
+2
+× · · · × G(γ)
+k(γ). We divide the possibilities into two cases as in [4].
+1. The dimension of the simple factors in the groups G(γ) is bounded across all γ, that is
+dim(G(γ)
+i
+) ≤D for all 1 ≤i ≤k(γ) for every theory M(γ). In this case, the number
+of simple factors is unbounded over the family.
+2. The dimension of at least one simple factor in G(γ) is unbounded. For example, the
+gauge group is of the form G(γ) = SU(N(γ)) × ˜G(γ), where N(γ) →∞.
+Case 1: In this case we can rule out inﬁnite families for arbitrary but ﬁxed T. In case
+1 there are an unbounded number of simple factors, but the dimension of each factor G(γ)
+i
+is bounded by dim G(γ)
+i
+≤D. Assume that we have an inﬁnite sequence of models whose
+gauge groups have N(γ) factors, with N(γ) unbounded. To simplify notation, we drop the
+subscript γ which indexes theories in the family {M(γ)}. We consider one model M in
+this inﬁnite sequence, with N factors. We divide the factors Gi into 3 classes:
+1. Type Z: b2
+i = 0
+2. Type N: b2
+i < 0
+3. Type P: b2
+i > 0
+We begin by recapitulating some simple arguments from [4]. Since the dimension of
+each factor is bounded, the contribution to H −V from −V is bounded below by −ND.
+For ﬁxed T the total number of hypermultiplets is then bounded by
+H ≤273 −29T + ND ≡B ∼O(N) .
+(3.1)
+This means that the dimension of any given representation is bounded by the same value
+B.
+The number of gauge group factors λ under which any matter ﬁeld can transform
+nontrivially is then bounded by 2λ ≤B, so λ ≤O(ln N).
+Now, consider the diﬀerent types of factors. Denote the number of type N, Z, P factors
+by NN,Z,P , where
+N = NN + NZ + NP .
+(3.2)
+We can write the bi’s in a (not necessarily integral) basis where Ω= diag(+1, −1, −1, . . .)
+as
+bi = (xi,⃗yi) .
+(3.3)
+For any type P factor, |xi| > |⃗yi|, so bi · bj > 0 for any pair of type P factors. Thus, there
+are hypermultiplets charged under both gauge groups for every pair of type P factors. A
+– 11 –
+
+[PDF PAGE 13]
+hypermultiplet charged under λ ≥2 gauge group factors appears in λ(λ −1) (ordered)
+pairs, and contributes at least 2λ to the total number of hypermultiplets H. Each ordered
+pair under which this hypermultiplet is charged then contributes at least
+2λ
+λ(λ −1) ≥1
+(3.4)
+to the total number of hypermultiplets H. It follows that the NP (NP −1) type P pairs,
+under which at least one hypermultiplet is charged, contribute at least NP (NP −1) to H,
+so
+NP (NP −1) ≤B
+(3.5)
+Thus,
+NP ≤
+√
+B + 1 ∼O(
+√
+N)
+(3.6)
+which is much smaller than N for large N. So most of the b′
+is associated with gauge group
+factors in any inﬁnite family must be type Z or type N.
+Now consider type N factors. Any set of r mutually orthogonal type N vectors deﬁnes
+an r-dimensional negative-deﬁnite subspace of R1,T . This means, in particular, that we
+cannot have T + 1 mutually orthogonal type N vectors. If we have NN type N vectors,
+we can deﬁne a graph whose nodes are the type N vectors, where an edge connects every
+two nodes associated with perpendicular vectors.
+Tur´an’s theorem [24] states that the
+maximum number of edges on any graph with n vertices which does not contain a subset
+of T + 1 completely connected vertices is
+(1 −1/T)n2/2
+(3.7)
+where the total number of possible edges is n(n−1)/2. Thus, applying this theorem to the
+graph described above on nodes associated with type N vectors, the number of ordered
+pairs with charged hypermultiplets must be at least
+N2
+N
+T
+−NN .
+(3.8)
+It then follows that
+NN ≤
+√
+TB + T ∼O(
+√
+N) .
+(3.9)
+Finally, consider type Z factors. Vectors bi, bj of the form (3.3) associated with two
+type Z factors each have |xi| = |⃗yi| and have a positive inner product unless they are
+parallel, in which case bi · bj = 0. Denote by µ the size of the largest collection of parallel
+type Z vectors. Each type Z vector is perpendicular to fewer than µ other type Z vectors,
+so there are at least NZ(NZ −µ) pairs of type Z factors under which there are charged
+hypers. We must then have
+NZ(NZ −µ) = (NZ −µ)(N −NP −NN) ≤B .
+(3.10)
+But from (3.6, 3.9) this means that NZ −µ is of order at most O(1) (and is bounded by D
+as N →∞), while NZ is of order O(N). Thus, all but a fraction of order 1/N of the type
+– 12 –
+
+[PDF PAGE 14]
+Group
+Matter content
+H −V
+a · b
+b2
+SU(N)
+2N
+N2 + 1
+0
+-2
+(N + 8)
++ 1
+1
+2N2 + 15
+2 N + 1
+1
+-1
+(N −8)
++ 1
+1
+2N2 −15
+2 N + 1
+-1
+-1
+16
++ 2
+15N + 1
+2
+0
+SO(N)
+(N −8)
+1
+2N2 −7
+2N
+-1
+-1
+Sp(N/2)
+(N + 8)
+1
+2N2 + 7
+2N
+1
+-1
+16
++ 1
+15N −1
+2
+0
+Table 2: Allowed charged matter for an inﬁnite family of models with gauge group H(N). The
+last two columns give the values of a · b, b2 in the factorized anomaly polynomial.
+Z factors have vectors in a common parallel direction. In [4], we showed that all group +
+matter conﬁgurations which give type Z factors have a positive value for H −V . The total
+contribution to H −V is then bounded by
+H −V > µ −[(NZ −µ) + NP + NN] (D) ∼O(N)
+(3.11)
+which exceeds the bound H −V ≤273 −29T for suﬃciently large N. Thus, we have ruled
+out case 1 by contradiction for all T > 0.
+Case 2:
+In [4] we proved that there are no inﬁnite families with factors of unbounded size for
+T = 1. A very similar proof works up to T = 8; we outline this proof using the inner
+product structure and vectors a, bi, j, making use of results from [4]. As discussed in [4],
+for SU(N) the F 4 anomaly cancellation condition
+BAdj = 2N =
+X
+R
+xRBR
+(3.12)
+can only be satisﬁed at large N when the number of multiplets xR vanishes in all represen-
+tations other than the fundamental, adjoint, and two-index antisymmetric and symmetric
+representations. For these representations, indexed in that order, (3.12) becomes
+2N = x1 + 2Nx2 + (N −8)x3 + (N + 8)x4 .
+(3.13)
+Note that we do not distinguish here between representations and their conjugates, which
+give equal anomaly contributions.
+The solutions to (3.13) at large N, along with the
+corresponding solutions for the other classical groups SO(N), Sp(N) are listed in Table 2.
+We discard solutions (x1, x2, x3, x4) = (0, 1, 0, 0) and (0, 0, 1, 1), where a · bi = b2
+i = 0 since
+for T < 9 these relations combined with a2 > 0 imply that bi = 0 and therefore that the
+kinetic term for the gauge ﬁeld is identically zero. The contribution to H −V from each
+of the group and matter combinations in Table 2 diverges as N →∞. This cannot be
+cancelled by contributions to −V from an inﬁnite number of factors, for the same reasons
+which rule out case 1. Thus, any inﬁnite family must have an inﬁnite sub-family, with
+– 13 –
+
+[PDF PAGE 15]
+gauge group of the form ˆH(M) × H(N) × ˜GM,N, with both M, N →∞. For any factors
+Gi, Gj with a · bi, a · bj̸ = 0, in a (non-integral) basis where Ω= diag(+1, −1, −1, . . .), and
+a = (
+√
+a2, 0, 0, . . .) writing
+bi = (xi,⃗yi)
+(3.14)
+with xi = a · bi/
+√
+a2 we have
+xixj = (a · bi)(a · bj)/a2 ≥bi · bj =
+X
+R,S
+xRSARAS .
+(3.15)
+Since xixj can be taken to be constant for the inﬁnite family of pairs ˆH(M), H(N), while
+AR grows for all representations besides the fundamental, the only possible ﬁelds charged
+under more than one of the inﬁnite factors in Table 2 are bifundamentals.
+We now consider all possible inﬁnite families built from products of groups and rep-
+resentations in Table 2 with bounded H −V . There are 5 such combinations with two
+factors. These combinations were enumerated in [4], and are listed in Table 4 in that paper.
+These combinations include two inﬁnite families shown to satisfy anomaly factorization by
+Schwarz [25], as well as three other similar families. In [4] it was shown that for T = 1 the
+models in all ﬁve of these inﬁnite families are unacceptable because the gauge kinetic term
+for the two factors are opposite in sign and therefore one is always unphysical. The same
+consequence follows as long as T < 9, where a2 > 0. This can be shown as follows: For
+each two-factor inﬁnite family we have two vectors b1, b2 which satisfy a · (b1 + b2) = 0 and
+(b1+b2)2 = 0. But these conditions imply b1+b2 = 0, so that j ·b1 and j ·b2 cannot both be
+positive. For example, for the theory found by Schwarz with gauge group SU(N)×SU(N)
+with two bifundamental ﬁelds, we have a · b1 = a · b2 = 0, b2
+1 = b2
+2 = −2, b1 · b2 = 2,
+from which it follows that b1 = −b2. This proof breaks down when a2 ≤0, since then
+a · b = b2 = 0 is not suﬃcient to prove b = 0. In the following section we give an inﬁnite
+family of examples which has no clear inconsistency at T = 9.
+Note that while for T = 1 there are no inﬁnite families with more than two large gauge
+factors, at larger T there are families with three large gauge factors. For example, there is
+an inﬁnite family of models with
+G = SU(N −8) × SU(N) × SU(N + 8)
+(3.16)
+with bifundamental matter in the (N −8, N, 1) and (1, N, N + 8) representations. (This
+model cannot occur at T = 1 since then it is not possible to have b1 · b3 = 0 when
+a · bi = 0, b2
+i = −2). For this model, and for the similar models with the ﬁrst and/or last
+factor replaced with Sp(N/2 −4) and/or SO(N + 8), a similar argument to that used to
+rule out the two-factor inﬁnite families shows that b1 + b2 + b3 = 0 when T < 9 so that we
+cannot have j · bi > 0 for all three gauge group factors.
+This proves case 2 of the analysis. So we have proven that for T < 9 there are a ﬁnite
+number of distinct gauge groups and matter content which satisfy anomaly cancellation
+with physical kinetic terms for all gauge ﬁeld factors. We have ruled out inﬁnite families
+– 14 –
+
+[PDF PAGE 16]
+with unbounded numbers of gauge group factors at any ﬁnite T, though we show that such
+inﬁnite families exist when T is unbounded in Section 4. We have not ruled out inﬁnite
+families with a ﬁnite number of gauge group factors which become unbounded at ﬁnite
+T > 8. Indeed, we give an explicit construction of such a family in Section 4.
+A systematic enumeration of the ﬁnite set of possible gauge groups and matter content
+compatible with a ﬁxed T < 9 is in principle possible. One approach to the enumeration
+is to break the gauge group into blocks associated with simple factors and their associated
+matter content, and then to combine blocks in such a way that the gravitational anomaly
+H −V is not exceeded. This approach was discussed and applied for some classes of models
+in [5]. With more tensor ﬁelds, the limit H −V = 273 −29T more strictly constrains
+the range of possible matter representations, although the increased dimensionality of the
+space R1,T allows blocks to be combined more freely. One could proceed with a systematic
+enumeration by sequentially classifying all models with matter transforming under at most
+λ distinct gauge group factors for increasing values of λ. It is easy to see that for any given
+gauge group there are a ﬁnite number of matter representations such that H/λ −V <
+273 −29T. This bound is a useful guide in constructing all allowed models, though care
+must be taken since for any ﬁxed T there can be a ﬁnite number of type N blocks which
+contribute negatively to H −V . We leave a complete and systematic enumeration of the
+ﬁnite set of possible T < 9 models for future work.
+4. Inﬁnite families for T ≥9
+In this section we give some examples of inﬁnite families of models which satisfy anomaly
+cancellation and admit correct-sign kinetic terms, when T ≥9.
+4.1 Example: Inﬁnite families at ﬁxed T ≥9
+From the way in which the ﬁniteness proof breaks down at T = 9, it is fairly straightforward
+to construct an inﬁnite class of apparently-consistent supergravity models at T = 9. We
+consider again the inﬁnite class of models found by Schwarz with gauge group G = SU(N)×
+SU(N) and two bifundamental matter ﬁelds, but now with T > 8. For this gauge group
+and matter representation, at T = 9 we need vectors −a, b1, b2 with inner product matrix
+Λ =
+
+
+
+0 0
+0
+0 −2 2
+0 2 −2
+
+
+.
+(4.1)
+In a basis with Ω= diag(+1, −1, −1, . . .), this can be realized through the vectors
+−a = (3, −1, −1, −1, −1, −1, −1, −1, −1, −1)
+b1 = (1, −1, −1, −1,
+0,
+0,
+0,
+0,
+0,
+0)
+b2 = (2,
+0,
+0,
+0, −1, −1, −1, −1, −1, −1)
+(4.2)
+– 15 –
+
+[PDF PAGE 17]
+This choice of vectors satisﬁes the correct gauge kinetic term sign conditions j · bi > 0 for
+j = (1, 0, 0, . . .). It is straightforward to construct similar examples for T > 9 by simply
+adding additional 1’s in additional columns for a.
+We will show in Section 6 that at T = 9 these models are incompatible with F-theory
+for large enough values of N and thus do not have any known string realization.
+4.2 Example: Inﬁnite families with unbounded numbers of factors
+Although we proved that for any ﬁxed T there are no inﬁnite families with unbounded
+numbers of factors (case 1), this restriction does not hold when T itself is unbounded. From
+the gravitational anomaly condition (2.6) it would seem that a family with increasing T
+is diﬃcult to construct, as the upper bound on H −V becomes increasingly negative. By
+choosing gauge factors with minimal matter, however, we can ﬁnd anomaly-free models
+with arbitrarily many gauge group factors. This is not possible for most types of gauge
+group factors. For example, for factors of the form SU(N), as noted in [5], for any number
+of antisymmetric tensor representations the F 4 condition ﬁxes the number of fundamental
+representations so that H/2 −V is positive. Thus, for factors of this form we cannot build
+combinations with arbitrarily negative total H −V with matter transforming under at
+most two gauge group factors.
+To minimize the total H −V we can consider gauge group factors such as SO(8)
+and E8, for which no charged matter is needed to satisfy the anomaly equations. For a
+pure SO(8) factor, we have V = 28. Since each such factor is associated with a type N
+vector with b2
+i = −4, we need an additional tensor in T to accommodate a type N vector
+perpendicular to the b vectors from all other factors for each SO(8) factor. Adding one
+SO(8) factor and one tensor to a model contributes a total of
+∆(H −V + 29T) = 1
+(4.3)
+to the total gravitational anomaly, so the number of such factors which can be added is
+large but bounded.
+The same is not true for E8 factors. Each such factor has V = 248. Considering
+only the constraints from anomaly cancellation and gauge kinetic term sign conditions, we
+can construct a family of models with gauge group G = Ek
+8 and no charged matter. The
+associated vectors {−a, bi} satisfy −a·bi = −10, b2
+i = −12, bi ·bj = 0, i̸ = j. For suﬃciently
+large T such vectors can be found. For example, when T = 9 + 8k, a representation with
+the inner product Ω= diag(+1, −1, −1, . . .) is given by
+−a = (
+3, −1, (−1)4
+, (−1)4
+, −1,
+−1, −1, −1, · · · )
+b1 = ( −1, −1, (−1)3, −3,
+(0)4
+,
+0,
+0,
+0,
+0, · · · )
+b2 = ( −1, −1,
+04
+, (−1)3, −3,
+0,
+0,
+0,
+0, · · · )
+...
+bk = ( −1, −1,
+04
+,
+· · ·
+, 04, (−1)3, −3,
+0, · · · )
+(4.4)
+– 16 –
+
+[PDF PAGE 18]
+The notation xn indicates that the entry x repeats n times. Note that the last 4k + 8
+entries of all the vectors b1, b2, · · · , bk are all zero. This represents an inﬁnite family of
+models satisfying anomaly cancellation. There exists a choice of j such that gauge kinetic
+terms for all factors have the correct sign,
+j = (−|j0|, 0, 0, · · · , 0, 1, 1, · · · , 1),
+|j0| >
+√
+4k + 8 ,
+(4.5)
+where the last 4k + 8 entries in j are 1. By choosing (4k + 8)/3 > |j0|, we can also arrange
+for −a · j > 0. As we show in Section 6, this class of models is nevertheless not compatible
+with F-theory and has no known string realization for large enough k.
+5. Supergravity models in F-theory
+Based only on the structure of the low-energy supergravity theory, we have now shown
+that there are a ﬁnite number of possible gauge groups and matter representations for
+models with T < 9. Every consistent supergravity model, furthermore, is characterized by
+an integral lattice Λ. The next question we would like to address is which of these mod-
+els can be realized in string theory. By determining the subset of apparently-consistent
+low-energy theories which can be realized through each of the known approaches to string
+compactiﬁcation, we can hope to chart the full space of 6D supergravity theories. Identify-
+ing characteristic features of models which cannot be realized through any existing string
+construction may lead to the identiﬁcation of new string vacua, or new constraints on the
+low-energy theories.
+We focus here on identifying F-theory constructions of low-energy supergravity models.
+In subsection 5.1 we show that the structure of anomaly-free N = 1 6D supergravity
+theories is closely related to that of F-theory compactiﬁcations, allowing us to map the
+discrete data of the 6D supergravity theory to topological data for an F-theory construction.
+This generalizes the analysis of [5], in which the map from low-energy supergravity to F-
+theory topological data was described for models with T = 1.
+In subsection 5.2 we examine some of the constraints on low-energy theories which
+must be satisﬁed for an F-theory realization to exist. While, as discussed in [5], a large
+fraction of the apparently-consistent supergravity models at T = 1 seem consistent with F-
+theory, the constraints imposed by F-theory limit the range of possible models substantially
+as T increases. For T > 8, F-theory reduces the inﬁnite number of apparently-consistent
+models to a ﬁnite number. We do not attempt to give a complete and deﬁnitive analysis
+of the constraints from F-theory on low-energy theories here, but we identify a number of
+general constraints on the structure of the low-energy theory imposed by F-theory. We
+give some speciﬁc examples of these F-theory constraints on apparently-consistent models
+with various values of T in Section 6.
+– 17 –
+
+[PDF PAGE 19]
+5.1 Mapping to F-theory
+F-theory∗[27, 28] is a limit of string theory which generalizes type IIB string theory by
+allowing the axiodilaton τ to vary over a d-dimensional compactiﬁcation space B. This can
+be thought of as describing an auxiliary 2-torus whose complex structure depends upon
+the axiodilaton, giving an elliptic ﬁbration over B. The elliptic ﬁber degenerates at com-
+plex codimension one loci in the base B, which correspond to 7-branes. Speciﬁc types of
+singularities of the elliptic ﬁbration structure on divisors ξi in the base give rise to cor-
+responding nonabelian gauge group factors Gi in the resulting low-energy gravity theory.
+When B is a (complex) 2-dimensional space, the F-theory construction is characterized by
+an elliptically ﬁbered Calabi-Yau 3-fold with section. As shown in [27, 28], F-theory can be
+used to describe nonperturbative string vacua which are inaccessible by direct supergravity
+compactiﬁcation, including 6D models with multiple tensor ﬁelds. F-theory is the most
+general approach developed so far to construct compactiﬁcations of string theory to six
+dimensions. There are heterotic compactiﬁcations on K3 with certain kinds of bifunda-
+mental matter ﬁelds, however, which are not described in the standard F-theory approach.
+We discuss this further in Section 7; we are not aware of any other string constructions of
+N = 1 6D supergravity models which do not also have F-theory descriptions.
+In low-energy theories that arise from F-theory compactiﬁcations, various aspects of
+the low-energy physics including the gauge group and matter content are controlled by the
+geometry of the elliptic 3-fold. Much of the work on F-theory has focused on understanding
+the consequences for the low-energy theory of speciﬁc geometric structures in the Calabi-
+Yau compactiﬁcation space.
+We would like to turn this around and ask — Given the
+low-energy theory, what are the necessary conditions for the existence of a UV-completion
+in the form of an F-theory compactiﬁcation?
+The structure of the integral lattice Λ determined by the vectors a, bi is closely related
+to the cohomology lattice of a two-dimensional F-theory base B. For example, the anomaly
+conditions (2.13) relate the inner product bi · bj to the number of hypermultiplets simulta-
+neously charged under Gi ×Gj. In F-theory, the number of such hypermultiplets is related
+to the intersection product of divisors ξi in the base B associated with the nonabelian
+gauge group factors Gi. Analysis of anomaly cancellation in F-theory constructions shows
+that these inner products can be identiﬁed [10, 29, 30]
+bi · bj = ξi · ξj .
+(5.1)
+In fact, as discussed in [5], we can associate the SO(1, T) vector bi for each factor Gi
+with a corresponding divisor ξi in the base B.
+This furthermore leads us to interpret
+the bilinear form Ωαβ as the intersection product in H2(B, Z). The vector a with norm
+a · a = 9 −T is naturally identiﬁed with the canonical divisor of the base KB, which
+also satisﬁes KB · KB = 9 −T. The inner products between a and bi also agree with the
+corresponding inner products in F-theory, −a · bi = −KB · ξi [10, 29, 30]. The requirement
+∗See [26] for a good general review and introduction to F-theory.
+– 18 –
+
+[PDF PAGE 20]
+of physical gauge kinetic terms requires that there exist an SO(1, T) vector j satisfying
+j · j = 1 with j · bi > 0 for all i. This vector corresponds in F-theory to the K¨ahler form J
+on the base B, and the condition J · ξi > 0 is the requirement that the curves wrapped by
+7-branes have positive volume. This successfully identiﬁes all the parameters of the low-
+energy theory, up to the two-derivative level†, with geometric quantities in the F-theory
+compactiﬁcation. To summarize, for any supergravity model with an F-theory realization,
+we must have a lattice embedding
+Λ ,→H2(B, Z)
+(5.2)
+which can be associated with an explicit map from the vectors a, bi, j into divisor classes
+in B so that
+a →KB
+(5.3)
+bi →ξi
+(5.4)
+j →J
+(5.5)
+where KB is the canonical divisor, the ξi are eﬀective, irreducible curves, and J is a K¨ahler
+class on the base.
+Example: T = 1
+In [5] we gave an explicit formulation of the map (5.2) for the case T = 1. In that
+case, the F-theory base manifold is restricted to be a Hirzebruch surface Fm, whose second
+cohomology admits a basis (integral for even m)
+e1 = Dv + m
+2 Ds
+(5.6)
+e2 = Ds
+(5.7)
+in which the intersection form takes the form (2.14). In terms of the coordinates αi, ˜αi for
+bi, the divisor associated with each vector bi then becomes
+bi →λi
+2 (αie1 + ˜αie2) .
+(5.8)
+The correspondence described through this map gives us an explicit construction of
+the topological F-theory data for any supergravity model which can be realized in F-theory.
+Not all gauge groups and matter representations associated with anomaly-free supergravity
+models, however, have valid F-theory realizations. A complete description of the necessary
+and suﬃcient conditions on the low-energy supergravity data which guarantee the existence
+of an F-theory construction is somewhat complicated and is left for future work. We now
+describe, however, some of the simple constraints necessary for a model to have an F-theory
+realization. As we discuss in Section 6, these constraints are suﬃcient to rule out a number
+of apparently-consistent models at T < 9 and all inﬁnite families of apparently-consistent
+models at T ≥9.
+†except for the metric on the hypermultiplet moduli space
+– 19 –
+
+[PDF PAGE 21]
+5.2 F-theory constraints on low-energy supergravity
+Lattice embedding
+The ﬁrst condition which is clearly necessary to realize a model in F-theory is the
+embedding condition (5.2), which states that the lattice Λ must admit an embedding into
+H2(B, Z) for some F-theory base B. The space H2(B, Z), as we discuss in detail below,
+has the structure of a unimodular lattice. The embedding condition (5.2) thus implies the
+existence of a lattice embedding of Λ into a unimodular lattice.
+More speciﬁc constraints on which models can be mapped to F-theory can be deter-
+mined by giving a complete categorization of the cohomology groups of complex surfaces
+B which are acceptable base manifolds for an F-theory compactiﬁcation. To this end we
+now discuss in slightly more detail the geometry of the base B, which is a general complex,
+K¨ahler, 2-dimensional surface with an eﬀective anti-pluricanonical divisor. (The existence
+of such a divisor is a weak form of “positive curvature”.) The space H2(B, Z) has the
+structure of a free Z-module (without torsion) of rank b2(B), and the intersection product
+deﬁnes a symmetric inner product, making this into a “lattice”. Poincar´e duality further
+implies that the lattice with the inner product is self-dual, or equivalently unimodular.
+The signature of the lattice is (2h2,0 + 1, h1,1 −1) by the Hodge index theorem, where hi,j
+denote the Hodge numbers. If the base B had any holomorphic 1-forms or holomorphic
+2-forms, then the total space of the elliptic ﬁbration would also have holomorphic 1-forms
+of holomorphic 2-forms, and so it would have enhanced supersymmetry (and necessarily be
+of the form (K3 × T 2)/G or T 6/G). Thus, to ensure that the F-theory model has exactly
+N = 1 supersymmetry, we must assume that h1,0(B) = h2,0(B) = 0; it follows that the
+lattice has signature (1, h1,1 −1).
+There are two key properties of the base B which lead to a complete classiﬁcation: ﬁrst,
+the line bundles O(−4KB) and O(−6KB) have sections f and g (which serve as coeﬃcients
+in the Weierstrass equation of the F-theory model), and second, h1,0(B) = h2,0(B) = 0. It
+then follows from the classiﬁcation of algebraic surfaces (see for example [31]) that either
+B is an Enriques surface, B = P2, or B is the blowup of a Hirzebruch surface Fm in
+k ≥0 points. A third property—that there is no curve in B along which f vanishes at
+least 4 times and g vanishes at least 6 times (the “minimal” property of a Weierstrass
+equation)—guarantees that |m| ≤12 [28].
+The number of tensor multiplets in the low-energy theory is T = h1,1 −1 [28], and
+so H2(B, Z) is a T + 1 dimensional unimodular lattice of signature (1, T). If the lattice
+is even, then by Milnor’s theorem [32] we must have T ≡1 (mod 8) and the lattice is
+isomorphic (as a Z-module) to U ⊕E8(−1)⊕k, where
+U =
+ 
+0 1
+1 0
+!
+.
+(5.9)
+When the lattice is odd, then the lattice is isomorphic to ZT+1 with the inner product
+– 20 –
+
+[PDF PAGE 22]
+diag{+1, −1, −1, · · · , −1}. The only bases with even lattices are the Hirzebruch surfaces
+Fm for even m, with lattice U, and the Enriques surface with lattice U ⊕E8(−1). All other
+possible bases are blowups of Hirzebruch surfaces Fm, |m| ≤12, and P2, all of which lead
+to odd lattices.
+To summarize, given a low-energy theory with T tensor multiplets characterized by the
+lattice Λ, an F-theory realization can only exist if Λ embeds, as a lattice, into a signature
+(1, T) unimodular lattice.
+In F-theory, the lattice H2(B, Z) ∼= H2(B, Z) corresponds to the charge lattice of BPS
+states obtained by wrapping D3 branes on curves in B. This is precisely the charge lattice
+of BPS dyonic string states ˜Λ, discussed in Section 2.3, into which there must be a lattice
+embedding Λ ,→˜Λ. A similar unimodularity condition arises in the compactiﬁcation of the
+heterotic string on the torus, from modular invariance of the world-sheet string theory. It
+is interesting to speculate whether this kind of unimodularity condition may be a general
+consistency condition for any quantum 6D supergravity theory. It may be, for example,
+that such a condition is necessary for unitarity of the theory. We leave further investigation
+of this question to future work.
+Constraint on canonical class and singular divisors
+F-theory imposes strong constraints on the possible values of a. From (5.3), a maps to
+the canonical class KB of B. For those surfaces with H2(B, Z) ∼= U, we can always choose
+a basis so that a →KB = (−2, −2) as discussed in Section 2. For the Enriques surface,
+KB = a = 0. For all the remaining surfaces, we can choose a basis with respect to which
+H2(B, Z) has inner product diag{+1, −1, −1, · · · , −1}, and such that KB takes the form
+−KB = (3, −1, −1, . . . , −1) .
+(5.10)
+This imposes substantial constraints on the choice of a. In particular, a is primitive‡ in all
+cases with odd lattices.
+The geometry of elliptic ﬁbrations implies that vectors bi must map to eﬀective irre-
+ducible divisors ξi in any F-theory realization under the map in (5.4). This constraint has
+various consequences, an example of which is the following:
+Claim: If b2 < 0, then the vector b must be primitive in any F-theory realization.
+We prove this by contradiction; assume that b maps to an irreducible, eﬀective divisor ξ,
+and that b2 < 0 with b a non-primitive vector. Then, there exists an integer n > 1 such
+that the class ξ′ := ξ/n is integral and, therefore, an eﬀective divisor. Now, ξ′ · ξ < 0, and
+since ξ is an irreducible, eﬀective divisor this implies that ξ′ must contain ξ as a component.
+This is impossible because it would require the class (1/n −k)ξ to be eﬀective, for integers
+k ≥1, n ≥2.
+‡A lattice vector v is primitive if 1
+dv is not a lattice vector ∀d ∈Z, |d|̸ = 1.
+– 21 –
+
+[PDF PAGE 23]
+These conditions on a, bi impose further constraints on which supergravity models can
+be compatible with F-theory.
+Positivity conditions and the K¨ahler and Mori cones
+As noted above, the supergravity constraint that all gauge ﬁelds have kinetic terms of
+the correct sign, j · bi > 0, has a corresponding interpretation in F-theory. In F-theory,
+the divisors ξi supporting the singularity giving rise to nonabelian gauge group factors
+must all be eﬀective and irreducible, from which it follows that J · ξi > 0 where J is the
+K¨ahler form of B. This is an example of an F-theory constraint with a clear analogue in
+the low-energy theory. In F-theory there is a similar constraint on the (negative of the)
+canonical class −KB, so that for all F-theory compactiﬁcations −KB·J > 0. This constraint
+has no obvious counterpart in supergravity. Note, however, that just as supersymmetry
+constrains the action so that the gauge kinetic term is proportional to −j · bi tr F 2
+i [9], a
+similar argument suggests that the action should have a higher-derivative term proportional
+to j · a tr R2. Such higher-derivative terms can have sign constraints from causality [33];
+we leave a further exploration of this possible constraint on low-energy models for further
+work.
+To understand the F-theory constraints on ξi and J more clearly, it is helpful to
+describe in more detail the structure of the K¨ahler cone and dual Mori cone.
+As discussed in Section 2, the low-energy theories have an SO(1, T)/SO(T) moduli
+space of tensor multiplet scalars and a hypermultiplet moduli space.
+In the F-theory
+compactiﬁcations we are considering, the h1,1(B) = T + 1 K¨ahler moduli of the base
+correspond to the tensor moduli space (except the overall volume of B, which is in a
+hypermultiplet), while the complex structure moduli of the elliptic ﬁbration correspond to
+the hypermultiplet moduli space of the low-energy theory. The K¨ahler metric is completely
+speciﬁed by a choice of K¨ahler form J ∈H1,1(B, R) ∼= H2(B, Z) ⊗R. Therefore, J is a
+vector in the space R1,T which can be normalized to satisfy Vol(B) = 1 =
+1
+2J · J.
+To
+study the structure of the moduli space, we can imagine starting with a ﬁxed vector J and
+looking at the transformations of R1,T that generate inequivalent K¨ahler forms. The total
+space of such transformations is SO(1, T); SO(T) transformations in the transverse space
+orthogonal to J do not change the metric, and so the moduli space of inequivalent metrics
+is (locally) parameterized by SO(1, T)/SO(T).
+In general, B has an automorphism group eΓ and some quotient Γ of eΓ acts faithfully
+on H2(B, Z). For example, if B = F0 or B is the blowup of F0 at a single point, then
+Γ ∼= Z2, while if B is the blowup of F0 at two distinct points then Γ is the dihedral group of
+order 12. Note that Γ must be a subgroup of Aut(H2(B, Z)), the automorphism group of
+the lattice (which leaves the inner product invariant). The subgroup Γ ⊂Aut(H2(B, Z))
+induced by automorphisms of B introduces a further identiﬁcation on the moduli space,
+since these just correspond to large diﬀeomorphisms. The moduli space of ﬁxed volume,
+– 22 –
+
+[PDF PAGE 24]
+K¨ahler metrics is then
+MK ⊂Γ\SO(1, T)/SO(T)
+(5.11)
+This locally agrees with the structure of the moduli space we see from the low-energy
+theory. The discrete group Γ ⊂Aut(H2(B, Z)) corresponds to the S-duality group; in the
+T = 1 cases this was discussed in [34].
+The constraint on J from the F-theory side is that J must lie within the K¨ahler cone
+of the base surface. Since h2,0(B) = 0, the Kleiman criterion [35] characterizes the K¨ahler
+cone as the set of those J such that (1) J · J > 0 and, (2) for all eﬀective divisors D,
+J · D > 0. If we normalize the volume to 1, the ﬁrst condition simply states that J lies in
+SO(1, T)/SO(T) as above. To analyze the second condition, it is useful to work with the
+dual of the K¨ahler cone, called the Mori cone [36], which is the set of linear combinations
+P riDi of eﬀective divisors Di using nonnegative real coeﬃcients ri. A K¨ahler class J is
+outside the K¨ahler cone if J ·D < 0 for D an eﬀective divisor. For such K¨ahler classes, there
+is no known F-theory vacuum construction. Note that the K¨ahler cone is thus essentially
+deﬁned in terms of the Mori cone.
+The F-theory constraint that ξi is eﬀective and irreducible implies that ξi lies within the
+Mori cone for B. Thus, it follows from combining this constraint with the deﬁnition of the
+K¨ahler cone that J ·ξi > 0 for all i, though the Mori cone and K¨ahler cone conditions taken
+together are a stronger set of constraints than this inequality which we can understand from
+the low-energy theory.
+As an example of the Mori cone and dual K¨ahler cone, consider the bases Fm, which
+lead to T = 1. For these bases B, the set of eﬀective divisors is generated by Dv and Ds,
+with intersection pairings
+Dv · Dv = −m,
+Dv · Ds = 1,
+Ds · Ds = 0 .
+(5.12)
+Eﬀective divisors corresponding to irreducible curves are given by
+Dv,
+aDv + bDs, a ≥0, b ≥ma .
+(5.13)
+In this case, the Mori cone occupies the ﬁrst quadrant {aDv + bDs | a ≥0, b ≥0}, and
+the dual K¨ahler cone can be described as {aDv + bDs | a ≥0, b ≥ma}. The volume one
+classes in the K¨ahler cone are those aDv + bDs with a > 0 for which
+b = ma2 + 1
+2a
+.
+(5.14)
+As another example of a K¨ahler cone, we consider the blowup of F1 in a single point
+away from Dv (which coincides with the blowup of P2 at two distinct points). We can take
+as a basis for H1,1(B) the exceptional divisor E as well as curves Dv and Ds −E, where
+Dv and Ds are pulled back from F1. (Note that Ds −E is the proper transform of that
+ﬁber on F1 which passed through the point which was blown up.) In this basis, if we write
+a putative K¨ahler class as J = aE + bDv + c(Ds −E) then
+J2 = −a2 −b2 + 2ac + 2bc −c2
+(5.15)
+– 23 –
+
+[PDF PAGE 25]
+b
+a
+Figure 1: K¨ahler cone for the one point blowup of F1 away from Dv.
+so if we set the volume to one we can solve for c:
+c = a + b ±
+√
+2ab −1.
+(5.16)
+We learn that ab ≥1
+2; also, since J·Ds = b and Ds is eﬀective, a and b must be positive. The
+set of such volume one classes can be represented as a double cover of the semi-hyperbola
+ab ≥1
+2 branched on the boundary.
+We now investigate the conditions on the K¨ahler cone imposed by the various eﬀective
+divisors. We have
+J · E = −a + c = b ±
+√
+2ab −1
+(5.17)
+J · Dv = −b + c = a ±
+√
+2ab −1
+(5.18)
+J · (Ds −E) = a + b −c = ∓
+√
+2ab −1.
+(5.19)
+Since all of these must be nonnegative, we must have c = a + b −
+√
+2ab −1 (which selects
+one of the two branches of the double cover), as well as b ≥
+√
+2ab −1 and a ≥
+√
+2ab −1.
+These latter two conditions are additional semi-hyperbolas in the a −b plane, and the
+region they deﬁne is illustrated in Figure 1 above.
+Note that the Z2 automorphism in this example exchanges the curves Dv and E, and
+so acts to exchange a and b in the equations and ﬁgure above.
+Kodaira condition
+The Kodaira condition corresponds to the mathematical requirement that the elliptic
+ﬁbration over B with singularities on the divisors ξi associated with nonabelian group
+factors gives a Calabi-Yau manifold. This condition states that
+−12KB =
+X
+i
+νiξi + Y
+(5.20)
+where KB is the canonical divisor, νi are multiplicities associated with diﬀerent singularity
+types (e.g. N for SU(N), 6 for SO(8), 10 for E8, etc.), and Y is a residual divisor, which
+– 24 –
+
+[PDF PAGE 26]
+must be a sum of eﬀective divisors and satisﬁes J ·Y > 0 unless Y = 0. Pulling this relation
+back to the low-energy theory, this condition becomes
+j · (−12a −
+X
+i
+νibi) ≥0.
+(5.21)
+This condition is also helpful as a simple guide in determining which low-energy theories
+admit an F-theory realization.
+Weierstrass model
+As far as we know, the existence of a map (5.2) to a prospective F-theory base does
+not guarantee that there is an F-theory construction for a given model, even when all the
+topological and K¨ahler cone conditions just listed are satisﬁed. An explicit elliptic ﬁbration
+must be constructed with correct singularity types for the desired matter content; this is
+generally accomplished using Weierstrass models, the Kodaira singularity classiﬁcation,
+and the Tate algorithm [28, 37].
+We do not know any general way to prove from the
+topological data that there exists a Weierstrass model with the desired properties. In [5]
+we gave explicit constructions of Weierstrass models for some simple low-energy gauge
+group and matter combinations with T = 1. We found that in these cases there is a precise
+correspondence between the number of degrees of freedom needed in the Weierstrass model
+to construct given gauge and matter content and the associated value of H −V in the
+low-energy model. Based on this correspondence we conjectured (by a simple degree of
+freedom counting) that it will always be possible to construct Weierstrass models precisely
+when the gravitational anomaly bound on H −V is not exceeded. It would be nice to
+have either a proof of this conjecture, or an explicit counterexample. Note, however, that
+there are various matter combinations found in [5] which do not currently have known F-
+theory realizations through explicit local Weierstrass constructions. A proof of the general
+conjecture that Weierstrass models exist for any model admitting a map (5.2) satisfying
+the various topological F-theory conditions would presumably require a more complete
+understanding of the range of possible matter content which can be produced by local
+singularities, even in the case T = 1.
+6. Examples
+In the previous section we have described some features of the geometrical data underlying
+any F-theory construction. We do not have a completely determined set of rules which can
+be used to identify the subset of low-energy supergravity theories which do have F-theory
+realizations. What does seem to be the case, however, is that when no map of the form
+(5.2) exists from Λ, a, bi, j into the geometry associated with any possible F-theory base
+B for a given low-energy model, or one of the previously listed constraints such as the
+Kodaira condition is violated, there is no known string construction of that low-energy
+model. Models which do not admit such a map must at the present time be regarded as
+– 25 –
+
+[PDF PAGE 27]
+lying in the “swampland” [38] consisting of theories which cannot be ruled out from low-
+energy considerations and yet which cannot be realized in string theory. In this section we
+describe some explicit examples of such low-energy models with no known string theory
+realization.
+We focus in this section on explicit examples of low-energy theories which illustrate
+various features of the associated lattice and F-theory map. We begin with several examples
+encountered in the previous paper [5] on T = 1 models. We ﬁrst describe a large class of
+simple models which do apparently admit F-theory realizations, and then describe models
+where the F-theory map does not lead to acceptable divisors.
+The lattice embedding
+language clariﬁes the issues involved in these cases. We then return to the inﬁnite families
+described in Section 4, and show how these families violate some of the conditions for
+F-theory constructions.
+6.1 Examples with F-theory realizations: SU(N) product models at T = 1
+In [5] we systematically analyzed a simple general class of supergravity models, considering
+all models with gauge group factors SU(N), N ≥4 and matter in fundamental, bifunda-
+mental, and antisymmetric tensor representations. We identiﬁed all 16,418 models of this
+type which satisfy anomaly cancellation at T = 1. We performed some basic checks which
+indicated that the topological conditions such as the Kodaira condition are satisﬁed auto-
+matically for all these models as a consequence of the anomaly cancellation conditions. We
+developed Weierstrass models for a few of these theories and found that generally the num-
+ber of degrees of freedom ﬁxed in the Weierstrass polynomial description matched precisely
+with the contribution to H −V from each part of the model. This is expected, as the num-
+ber of unﬁxed degrees of freedom corresponding to moduli in the model should correspond
+to the number of uncharged hypermultiplets. This agreement makes it seem plausible that
+all the models in this class, which satisfy all the F-theory topological conditions, have true
+F-theory realizations through Weierstrass models. As we discuss below, the close agree-
+ment between supergravity anomaly constraints and topological F-theory constraints seems
+particularly strong at T = 1; for larger values of T, we ﬁnd more apparently satisfactory
+low-energy supergravity models which cannot be realized in F-theory; examples of this type
+even arise among the class of models with SU(N) gauge group factors restricted to matter
+in fundamental, bifundamental, and antisymmetric tensor representations.
+6.2 Example: Embedding failure
+In [5] we found a number of models at T = 1 which do not seem to have acceptable F-
+theory counterparts. It is illuminating to consider these models from the point of view of
+the lattice embedding Λ →H2(B, Z). One problematic model encountered in [5] has the
+following structure:
+– 26 –
+
+[PDF PAGE 28]
+G = SU(4)
+matter = 1 × adjoint + 10 ×
++ 40 ×
+(6.1)
+Λ =
+ 
+8 10
+10 10
+!
+(6.2)
+H −V = 220
+(6.3)
+It is not hard to check that this lattice Λ cannot be integrally embedded in any uni-
+modular SO(1, 1) lattice. In particular, there is no embedding in the lattice U, where we
+can choose −a = (2, 2); then in terms of (2.16) we have α, ˜α = 5 ±
+√
+5. There is also no
+integral embedding in the lattice diag (+1, −1). Choosing −a = (3, −1), we have b = (x, y)
+with 3x + y = 10, x2 −y2 = 10, with no integer solutions.
+Thus, this model seems not to have a realization in F-theory. A similar situation arises
+for the same group with one adjoint, 11 antisymmetric and 44 fundamental representations,
+with H −V = 242. These models are the only ones we have encountered explicitly at
+T = 1 which do not have a unimodular lattice embedding. It would be very interesting to
+understand whether there is a novel string construction which could lead to models such
+as these, or if the absence of a unimodular embedding can be related to a breakdown of
+consistency for a general quantum gravity theory.
+6.3 Example: Outside the Mori cone
+Another class of models we found in [5] which does not appear to admit an F-theory
+realization has less extreme problems. For example, consider a model with
+G = SU(N)
+matter = 1 ×
++ (N −8) ×
+(6.4)
+Λ =
+ 
+8 −1
+−1 −1
+!
+(6.5)
+This model has an embedding into the lattice diag (+1, −1) realized through the vec-
+tors −a = (3, −1), b = (0, −1). If we identify the lattice diag (+1, −1) with the second
+cohomology of F1 by using the standard basis (Du, Dv) with Du = Dv +Ds (which satisﬁes
+D2
+u = 1, D2
+v = −1, Dv · Du = 0), then the class −a maps to 3Du −Dv = 2Dv + 3Ds which
+coincides with −KF1. However, b maps to −Dv, which is not an eﬀective class, so this
+embedding does not send the vector b into the Mori cone. In fact, further checking shows
+that no embedding in this case maps a to KF1 while sending b into the Mori cone. Thus,
+there is no F-theory realization of these models.
+There are a number of other low-energy models which do not admit an F-theory
+realization in the analysis of [5], and which suﬀer from similar “cone” problems when
+a lattice embedding is found. For example, we encountered in [39] a model with structure
+– 27 –
+
+[PDF PAGE 29]
+G = SU(24) × SO(8)
+matter = 3 × ( , 1)
+(6.6)
+Λ =
+
+
+
+8 3 −1
+3 1 0
+−1 0 −1
+
+
+
+(6.7)
+H −V = 225
+(6.8)
+This lattice is degenerate and admits an embedding into diag (+1, −1) through
+−a = (3, −1)
+(6.9)
+b1 = (1, 0)
+(6.10)
+b2 = (0, −1)
+(6.11)
+Just as above, this is compatible with the intersection form on F1, but where b2 →−Dv,
+giving a class outside the Mori cone.
+It would be interesting to investigate whether there is some residue of the Mori cone
+constraint in low-energy supergravity. One can imagine that a class of apparently-consistent
+low-energy theories with no F-theory realization may be given by a novel stringy construc-
+tion analogous to F-theory outside the Mori cone (or its dual, the K¨ahler cone).
+It is
+familiar from type II compactiﬁcation that passing outside the K¨ahler cone may give valid
+orbifold or non-geometric Landau-Ginzburg phases of string compactiﬁcations [40]. This
+seems harder to understand in the F-theory context, where the moduli are real,§ than in
+the type II context, where the moduli are complex and it is easier to continuously deform a
+model to a region outside the K¨ahler cone. In any case, it would be interesting to explore
+this phenomenon in F-theory, or through dual constructions.
+6.4 Example: New possibilities and constraints for T > 1
+When the number of tensor multiplets T increases, the constraint from the gravitational
+anomaly becomes stronger as H −V ≤273 −29T. This would seem to more strongly
+constrain the number of possible models. In general, models which are possible at T = 1
+continue to be acceptable until T is so large that the number of charged hypermultiplets
+exceeds the constraint from the gravitational anomaly; in most cases this can be realized by
+simply adding an additional unit to −a in the extra negative-deﬁnite dimension provided
+by each additional tensor multiplet.
+Because the dimensionality of the space in which
+a, bi are embedded increases as T increases, however, new possibilities for combinations
+of gauge group factors arise. Although this increases the number of apparently-consistent
+§Note that in another context with real K¨ahler moduli – compactiﬁcations of M theory to ﬁve dimensions
+– some of the walls of the K¨ahler cone serve as obstructions to further deformation [41, 42].
+– 28 –
+
+[PDF PAGE 30]
+supergravity models, F-theory realizations of these new possibilities at larger values of T
+are more strongly constrained by the condition of embeddability in a unimodular lattice.
+SU(N) factors at T = 2
+A simple example of how the situation changes at increased T is given by the class
+of models having gauge group factors SU(N) with matter only in the fundamental repre-
+sentation. Anomaly cancellation conditions require that the number of fundamentals for
+each such factor is f = 2N. At T = 1, models with a single SU(N) gauge group factor
+are possible up to N = 15 by the gravitational anomaly condition. It seems that these
+models all admit F-theory realizations. The associated divisor in F2 for these models is Dv,
+and −K = 2Dv + 4Ds, so all topological constraints are satisﬁed for each of these models.
+We constructed explicit Weierstrass models for this family of models up to SU(14) in [5],
+and believe that such a model exists for SU(15), though the algebra needed to explicitly
+construct such a solution becomes complicated.
+Now consider models with multiple SU(N) factors under each of which all matter
+transforms under either the trivial or fundamental representation. The vector b associated
+with an SU(N) factor with f = 2N fundamental matter ﬁelds must satisfy a·b = 0, b2 = −2.
+At T = 1, we cannot have a model with more than one such SU(N) factor and only
+fundamental matter, since a · b = 0 gives a unique vector b up a scale factor. When we
+consider analogous models at T = 2, however, the situation is rather diﬀerent. Consider a
+group G = SU(N)×SU(N) where each of the matter ﬁelds transforms in the fundamental
+representation of at most one SU(N) factor (we assume for simplicity that there are no
+bifundamental matter ﬁelds). For T = 1, as just mentioned, there is no consistent model
+with physical gauge kinetic terms. On the other hand, when T > 1, we have the same inner
+products a · bi, bi · bj, but the vectors b1, b2 need not be linearly dependent. The associated
+lattice is
+Λ =
+
+
+
+9 −T
+0
+0
+0
+−2 0
+0
+0 −2
+
+
+
+(6.12)
+From the low-energy point of view this seems like a perfectly acceptable model. There
+is, however, no embedding of this lattice into a unimodular lattice for T = 2.
+In the
+canonical form of the SO(1, 2) metric diag (+1, −1, −1), where −a = (3, −1, −1), if we
+write b = (x, y, z) for integral x, y, z then we must have
+3x + y + z = 0
+(6.13)
+x2 −y2 −z2 = −2 .
+(6.14)
+The only solutions to these Diophantine equations are
+b = (0, 1, −1),
+b = (0, −1, 1) ,
+(6.15)
+so we cannot have two vectors b1, b2 in a (1, 2) unimodular lattice which are perpendicular
+both to one another and to a, where both have norm −2. Thus, though at T = 2 this
+– 29 –
+
+[PDF PAGE 31]
+model seems perfectly acceptable from the low-energy point of view, it cannot be realized
+through F-theory by any known mechanism.
+We see from this example that as T increases, the constraints on which gauge fac-
+tors and matter content can be combined in the low-energy theory are reduced, and the
+unimodular embedding constraint becomes a stronger constraint. This seems to be a gen-
+eral feature of models at T > 1. Thus, the fraction of models in the swampland seems
+to increase at larger T, even though the gravitational anomaly constraint becomes more
+stringent.
+6.5 Example: Inﬁnite families at T ≥9
+In Section (4.1) we described an inﬁnite family of models at T ≥9 analogous to the
+SU(N) × SU(N) models shown by Schwarz to satisfy anomaly factorization at T = 1
+in [25]. It is clear from the above discussion that these models violate the consistency
+conditions needed for an F-theory construction. Note that the a and bi’s from (4.2) satisfy
+−a = b1 + b2 at T = 9. This means that Y = −12a −N(b1 + b2) must have j · Y < 0
+at N > 12, violating the Kodaira condition (5.21). The vectors listed in (4.2) are not
+uniquely determined, so one may suspect that there might exist another choice of vectors
+that satisfy the necessary conditions for an F-theory embedding.
+This is not possible,
+however. The preceding argument can be strengthened and generalized along the following
+lines to show that no inﬁnite family of models can be realized in F-theory at T = 9. For
+any such model we have, as discussed in case 2 in the proof in Section 3, a · (b1 + b2) = 0
+and (b1 + b2)2 = 0. For T = 9, a2 = 0 so a is a null (type Z) vector. It follows that
+b1 + b2 = −xa. Moreover, since −a, b1, b2 are eﬀective, we have x > 0. The vector a must
+be primitive in F-theory, and can be put in the form −a = (3, −1, −1, · · · ), so x is an
+integer. So, j · Y = j · (−12a)(1 −aNx), where aN is N
+12 for SU(N), N+6
+12
+for SO(2N), N
+12
+for Sp(N
+2 ) [28]. Since aN grows with N in all three cases, at large enough N we must have
+j ·Y < 0. It follows that the Kodaira condition is violated at large enough N. This bounds
+the range of N at T = 9 for any of the inﬁnite classes of models considered in case 2 in the
+proof of ﬁniteness. Note that in [43], the SU(N) × SU(N) model with 9 tensor multiplets
+was identiﬁed for N = 8.
+We also described in Section 4.2 an inﬁnite family of models with gauge group Ek
+8 and
+T = 9 + 8k for arbitrary k. For the vectors −a, bi listed in (4.4), there is no F-theory
+realization. This is because the residual locus in such an embedding is not eﬀective. It is
+easily checked that
+j · Y = 12j · (−a) −10
+k
+X
+i=1
+j · bi
+= 12(4k + 8) −|j0|(10k + 36)
+< 12(4k + 8) −(10k + 36)
+√
+4k + 8 < 0, for k ≥1
+(6.16)
+This conclusion depends upon the choice of vectors in 4.4. Note that the k = 2 member of
+– 30 –
+
+[PDF PAGE 32]
+this family can be realized in heterotic-M-theory compactiﬁed on K3 × S1/Z2, as outlined
+in [34]. The fact that this inﬁnite family of models cannot be realized in F-theory also
+follows, however, from a more general argument which we now give.
+In fact, there is a uniform bound on the rank of the total gauge group which holds
+for all F-theory models (although we do not know precisely what the bound is), and this
+excludes the inﬁnite family with gauge group Ek
+8 as well as all other inﬁnite families. To see
+that there is such a bound, note that, as discussed previously, the base B of any F-theory
+model must admit a map to a minimal surface Bmin which is either an Enriques surface,
+P2, or one of the Hirzebruch surfaces Fm with |m| ≤12. The coeﬃcients f and g in the
+Weierstrass equation of the F-theory model push forward to sections ¯f ∈H0(−4KBmin)
+and ¯g ∈H0(−6KBmin), with an induced discriminant ¯∆= {4 ¯f3 +27¯g2 = 0} ∈|−12KBmin|.
+Now each component of the gauge group is either associated to a component of ¯∆(with its
+rank determined by the multiplicity) or to a singular point of ¯∆which is blown up by the
+map B →Bmin. The multiplicities of the components of ¯∆are uniformly bounded (since
+−12KBmin can be written as a sum of eﬀective divisors in only ﬁnitely many ways), so we
+only need to show that the total ranks of gauge groups coming from singular points are
+bounded. Note that when Bmin is an Enriques surface, ¯∆is empty so there is nothing to
+check.
+For each ﬁxed Bmin which is not an Enriques surface, we consider the set of all possible
+pairs ( ¯f, ¯g) ⊂H0(−4KBmin)⊕H0(−6KBmin). We can stratify this set according to the types
+of singularities of ¯∆which appear, and each stratum is a locally closed algebraic subset.
+Moreover, each stratum has a unique associated gauge group, and so there is a speciﬁc
+rank which is associated to it.
+But the Hilbert basis theorem implies that any stratiﬁcation of an aﬃne algebraic
+variety into locally closed algebraic subsets has only ﬁnitely many strata. Thus, there are
+only ﬁnitely many possible diﬀerent gauge groups which can occur, so in particular, their
+ranks must be bounded. And since there are only ﬁnitely many possibilities for Bmin (other
+than Enriques surfaces), there is a uniform bound for all F-theory models. As in the proof
+of ﬁniteness from Section 3, this also shows that there is a ﬁnite number of distinct gauge
+groups and matter representations which can be realized through F-theory.
+7. Global picture of the 6D N = 1 landscape
+The strong constraints which anomalies place on nonabelian gauge group structure and
+matter content in N = 1 6D theories have given us a global outline of which of these
+supergravity theories have the potential to describe consistent quantum theories. Explicit
+knowledge of this set of theories gives us a powerful tool for exploring the connection
+between string theory and low-energy physics. We can in principle make a list of the ﬁnite
+number of possible theories with T < 9.
+For each of the various approaches to string
+compactiﬁcation (heterotic, F-theory, . . . ) we can then determine which subset of these
+possible theories can be realized through each class of construction. For T > 8, there are
+– 31 –
+
+[PDF PAGE 33]
+inﬁnite families of models satisfying the known low-energy consistency conditions, and our
+analytic control of the total space is weaker. In this section we summarize some of our
+knowledge regarding the extent and connectivity of the 6D N = 1 supergravity landscape.
+Note that the term “landscape” is often used to denote a space of eﬀective theories
+containing discrete points with no massless moduli (ﬂat directions). Generally such a land-
+scape includes supersymmetric AdS vacua in addition to metastable dS vacua with broken
+supersymmetry. In the case of six-dimensional vacua, it is actually impossible to stabi-
+lize all the moduli while preserving supersymmetry. In Minkowski space, the gravitational
+anomaly condition H −V + 29T = 273 makes it impossible to avoid moduli. Since the
+tensor multiplet contains massless scalars, to avoid tensor moduli we must have T = 0.
+This implies that H ≥273 and therefore we have hypermultiplet moduli. In six dimen-
+sions, there are also no N = 1 supersymmetric AdS vacua. This can be seen from the fact
+that there are no AdS6 superalgebras with 8 supercharges in the Nahm classiﬁcation [44].
+The “landscape” in this paper refers to the complete moduli space of 6D gravity theories
+with one supersymmetry, although all these vacua are Minkowski and have massless scalar
+moduli.
+7.1 Extent of the space of 6D supergravities
+For T = 1, our understanding of the space of theories, while still incomplete in many
+respects, seems to suggest a simple global picture.
+There are a ﬁnite number of low-
+energy nonabelian gauge groups and matter content which are compatible with anomaly
+cancellation and physical constraints on gauge kinetic terms. We have an explicit approach
+to embedding these models into F-theory, which seems successful for almost all acceptable
+gauge groups and matter content. There are a few exotic combinations of gauge groups and
+matter representations which give lattices which cannot be embedded into any unimodular
+lattice associated with an acceptable F-theory base. For the moment, these models live in
+the swampland. In the T = 1 supergravity landscape there are also some models which we
+have found whose realization in F-theory would require divisors outside the Mori cone. This
+may correspond to a new class of orbifold or non-geometric F-theory construction whose
+precise implementation remains to be elucidated. For the vast majority of T = 1 models,
+we have an explicit map from each model to a set of divisor classes in a given F-theory
+base. Degree of freedom counting suggests that this topological data can be completed to
+a full F-theory construction through a Weierstrass model, though a proof of this assertion
+in a general context remains to be found. We have not addressed here the question of U(1)
+factors in the gauge group and their associated charges. The anomaly constraints on U(1)
+factors are more complicated [13] and lead to systems of Diophantine equations, whose
+analysis will be discussed elsewhere [8].
+We have shown in this paper that the situation for T < 9 is similar to that for T = 1
+as a2 is positive. Again, there are a ﬁnite number of distinct nonabelian groups and matter
+representations possible for this class of models. As T increases, it seems to be easier to
+construct models which violate the conditions outlined in Section 5.2 and which, therefore,
+– 32 –
+
+[PDF PAGE 34]
+have no F-theory realization. Thus, the apparent swampland increases as T increases.
+For T ≥9, however, the situation changes dramatically.
+As a2 becomes negative,
+inﬁnite families of apparently-consistent low-energy theories appear. Some inﬁnite families
+arise at ﬁxed T, such as an inﬁnite family we have explicitly constructed with gauge group
+SU(N) × SU(N) at T ≥9.
+The inﬁnite families at ﬁnite T must contain a bounded
+number of gauge group factors, as shown in Section 3. Other inﬁnite families of models
+extend to arbitrarily large values of T, and the number of simple factors in the gauge group
+can become unbounded as T →∞. The inﬁnite families described in Section 4 satisfy the
+unimodular embedding constraint, indicating that this constraint is not a strong constraint
+for the existence of an F-theory construction. As shown in Section 6.5, however, the inﬁnite
+families we have explicitly constructed are not compatible with other constraints from F-
+theory, such as the Kodaira constraint.
+The bounded rank argument in Section 6.5 shows that the number of 6D N = 1
+supergravity models compatible with F-theory must be ﬁnite. A heuristic version of this
+argument is as follows: each of the nonabelian gauge group factors Gi and associated
+matter ﬁelds are realized in F-theory by tuning the coeﬃcients of polynomials f, g in the
+Weierstrass model
+y2 = x3 + fx + g .
+(7.1)
+For any F-theory model on a blowup of a space Fm, f, g can be thought of as sections of
+−4K, −6K respectively over (a generally singular) Fm, and have a ﬁxed number of total
+coeﬃcients available for tuning (roughly 244 = 273−29). Since each gauge group factor and
+associated matter require tuning additional coeﬃcients to achieve the desired singularity
+type for the ﬁbration (which may be at a singular point in the base which needs to be blown
+up), only a ﬁnite number of distinct combinations of gauge groups and matter content can
+be realized in this fashion.
+This argument can be translated into the language of the low-energy supergravity the-
+ory. As described in [5], in any 6D N = 1 supergravity theory the set of ﬁelds can be
+decomposed into “blocks” associated with the simple factors in the gauge group and asso-
+ciated matter representations. The ﬁniteness argument above for F-theory models suggests
+that, for models consistent with F-theory, each block added to a model must contribute
+positively to H−V +29T. This is certainly the case for most supergravity blocks associated
+with F-theory singularities which we understand. We leave a more general and rigorous
+proof of these assertions for future work, but this argument suggests that by classifying in-
+dividual blocks which contribute positive values H −V +29T we should in principle be able
+to enumerate all of the ﬁnite set of supergravity models with possible F-theory realizations
+at any ﬁxed T, even when exotic matter ﬁelds such as those encountered in [5] are included
+for which the F-theory singularity type is not yet classiﬁed. Including the transitions we
+discuss in the following subsection which change the value of T, corresponding to blowing
+up singular points on the F-theory base, would in principle make it possible to connect the
+entire ﬁnite set of F-theory vacua in terms of the low-energy structure.
+– 33 –
+
+[PDF PAGE 35]
+It was recently shown that all 10D supergravity theories not realized in string theory
+are inconsistent as quantum theories [45]. It was conjectured in [3] that this “string uni-
+versality” property holds for 6D N = 1 supergravities. Whether or not this is true, it is
+interesting to speculate that the constraints associated with F-theory constructions may
+have some shadow in the low-energy theory which can lead to new quantum consistency
+conditions for 6D supergravities. For example, the constraint that Λ be embeddable in a
+unimodular lattice, or the sign constraint −a · j > 0 may be realizable in some simple way
+as consistency conditions on any low-energy supergravity theory, as discussed in Section 5.
+For other constraints, such as the detailed constraints on the form of a or the K¨ahler/Mori
+cone, it is harder to see how such conditions can arise directly from the supergravity de-
+scription. It may be that these conditions can best be understood in terms of the BPS
+string states underlying the anomaly lattice Λ; we hope to return to this question in future
+work.
+7.2 Charting the space of supergravities with string constructions
+One important question is whether the constraints imposed by F-theory are satisﬁed by
+all 6D models arising from string constructions, or whether they are just signatures of an
+F-theory “corner” of the 6D supergravity landscape. We have looked at some examples
+of 6D theories realized through other string constructions, including CFTs and Gepner
+models [46, 47], orientifold models [48, 43] intersecting brane models [49, 50], heterotic
+constructions [2, 39], and non-geometric string vacua [51]. In general, at least from a limited
+sampling, it seems that most of the low-energy theories associated with these constructions
+can be mapped to acceptable data for an F-theory construction, so F-theory seems to cover
+a large fraction of the space of 6D low-energy theories which can be realized through any
+string construction. It would, however, clearly be desirable to explore the other branches of
+string theory more completely, to develop a more systematic understanding of how the sets
+of low-energy theories arising from other string constructions intersect with those coming
+from F-theory, and to ascertain whether the constraints described in 5.2 are truly universal
+stringy constraints for 6D N = 1 theories.
+One exception we have encountered to the general existence of F-theory constructions
+is given by a class of heterotic line bundle constructions described in [39]. In that paper we
+analyzed a class of low-energy models arising from heterotic string compactiﬁcations which
+are also characterized by lattices, but in a slightly diﬀerent fashion than those models
+considered here. For a ﬁxed gauge group containing factors U(N) × U(M), the models
+examined in [39] can have some number of bifundamental matter ﬁelds in the (N, ¯
+M) +
+( ¯N, M) representation and some number of bifundamental matter ﬁelds in the (N, M) +
+( ¯N, ¯
+M) representation. Each type of ﬁeld contributes in the same way to the anomaly
+polynomials, so models with the same total number of bifundamental ﬁelds map through
+(5.2) to identical F-theory constructions. We do not know of any mechanism in F-theory as
+it currently exists to construct models with diﬀerent distributions of bifundamental matter
+ﬁelds of these two types.
+Thus, in this class of models the heterotic theory generates
+– 34 –
+
+[PDF PAGE 36]
+models which cannot be realized in F-theory, although these models do not violate any
+of the constraints described in Section 5.2.
+It would be nice to no whether there is a
+generalization of F-theory which would capture these heterotic models with mixed classes
+of bifundamental ﬁelds.
+One class of models which we have not yet considered is the class of gauged supergravity
+models [52, 20]. It may be possible to perform a similar analysis of general 6D gauged
+supergravity models, although the signiﬁcance of such supergravity theories is unclear as
+they do not give rise to stable Minkowski vacua. We leave this for future work.
+7.3 Connectivity of the space of 6D supergravities
+In most of this paper, and in the preceding discussion, we have referred to supergravity
+models with distinct gauge groups and matter content as distinct “theories” or “models”.
+This is not quite correct. In fact, each consistent model with a ﬁxed gauge group and
+matter content has a moduli space of vacua. At certain limits in the moduli space, the
+theory can develop a singularity and the ﬁeld content can change in a discrete fashion. The
+simplest example of this is the phenomenon of Higgsing, familiar from the standard model
+and basic quantum ﬁeld theory, in which a vacuum expectation value of scalar ﬁelds breaks
+a gauge symmetry, giving mass to a formerly massless gauge ﬁeld while removing one or
+more scalar ﬁelds from the spectrum. Such transitions in the full space of six-dimensional
+supergravity theories connect diﬀerent branches while preserving the total H −V . More
+exotic transitions, studied in [53, 34, 28], arise at singular points where strings become
+massless, associated with points in the low-energy theory where j · bi vanishes. Passing
+through such transition points can change the number of tensor multiplets in the theory,
+still preserving H −V + 29T. In this way, the set of six-dimensional supergravity models
+is really a highly-connected space with many branches of diﬀerent dimensionality. The
+tools we have developed in this and preceding papers may be useful in exploring the global
+structure of this space. For example, the anomaly constraints can be used to characterize
+allowed transitions in terms of the ﬁeld content of the low-energy theory. With a better
+understanding of what kinds of transitions between branches are allowed, it may be possible
+to prove that the space of acceptable models is connected into a single moduli space. Thus,
+we may be able to probe the validity of at least the elliptically-ﬁbered version of the Reid
+fantasy [54] by analysis of the connectivity structure of the countable set of apparently-
+consistent low-energy N = 1 6D supergravity theories.
+If in fact it could be shown that the set of consistent low-energy 6D theories is con-
+nected, it would provide a picture in which there is a single consistent N = 1 supergravity
+theory, with many connected branches having diﬀerent gauge groups and matter content.
+If it could be shown that either the entire space of theories, or a connected subset
+thereof, corresponds to the set of theories which can be realized by F-theory or other string
+constructions, it would give a very simple picture of string theory as a single uniﬁed theory
+underlying quantum gravity in 6D. Indeed, it seems likely that this can be realized for the
+– 35 –
+
+[PDF PAGE 37]
+set of models which can be realized through F-theory, since the various singularity types
+realized by tuning the coeﬃcients of f, g in (7.1) are all connected continuously in the
+space of coeﬃcients. Thus, at least the space of F-theory compactiﬁcations should form
+a connected moduli space, with various branches associated with 6D supergravity theories
+with various gauge groups and matter content.
+8. Conclusions
+In this paper we have addressed some global questions regarding the space of consistent
+supergravity theories in six dimensions. We have focused on theories with N = 1 super-
+symmetry and nonabelian gauge groups. We have extended our previous analysis of such
+theories to incorporate multiple tensor multiplets. We have shown that when the number
+of tensor multiplets T is less than 9, there are a ﬁnite number of possible gauge groups
+and matter representations possible for such theories. We have identiﬁed inﬁnite families
+of models at T = 9 and greater which satisfy anomaly cancellation and which have proper
+signs for all gauge kinetic terms.
+We have shown that every consistent 6D supergravity theory can be associated with an
+integral lattice, associated with the coeﬃcients in the anomaly polynomial. This lattice can
+be used to construct topological data for an F-theory compactiﬁcation whenever one exists.
+We have found a variety of low-energy supergravity models which do not violate any known
+consistency conditions from the low-energy point of view but which have no embedding in
+F-theory. The geometrical constraints of F-theory provide criteria for identifying such low-
+energy models from the associated lattice structure, and suggest possible new low-energy
+consistency conditions for quantum supergravity theories.
+The overall picture is that, while for Lagrangian models with only one tensor ﬁeld most
+apparently-consistent supergravity theories have realizations in F-theory, for models with
+more tensor ﬁelds the vast majority of apparently-consistent models have no known string
+realization through F-theory or any other string vacuum construction. Thus, most of these
+models lie in the “swampland”. If these models cannot be realized through some novel
+string construction, it will indicate that string theory imposes strong constraints on 6D
+N = 1 supergravity theories beyond the known stringent anomaly cancellation and gauge
+kinetic term sign constraints. If these additional constraints can be understood in terms
+of new quantum consistency conditions on the set of low-energy eﬀective theories, it will
+provide a new window on general theories of quantum gravity; if not, it will indicate the
+existence of stringy constraints which may distinguish string theory from other possible
+UV-complete quantum gravity theories.
+The perspective and tools developed in this work provide a framework in which it
+may be possible to carry out a systematic mapping of the landscape of 6D supergravity
+theories. Identifying which subsets of this landscape are associated with the diﬀerent classes
+of string vacuum construction, and understanding how the many branches of this landscape
+are connected through Higgs and tensionless string transitions, promises to lead to a richer
+– 36 –
+
+[PDF PAGE 38]
+understanding of how the diﬀerent string constructions are related, and of the nature of the
+landscape and the swampland. Such understanding in the simpler case of six dimensions
+will hopefully teach us some new lessons which may be relevant in the more complicated
+and physically relevant case of four dimensions.
+Acknowledgements: We would like to thank Allan Adams, Maissam Barkeshli, Mas-
+simo Bianchi, Oliver de Wolfe, Thomas Faulkner, Greg Moore, John McGreevy, Satoshi
+Nagaoka, Daniel Park, Sakura Sch¨afer-Nameki, John Schwarz and Ergin Sezgin for helpful
+discussions. W.T. thanks the Kavli Institute for Theoretical Physics and the Aspen Center
+for Physics for hospitality during various stages of this project, and D.R.M. thanks the
+Aspen Center for Physics and the Simons Center for Geometry and Physics for hospitality
+during the ﬁnal stages. V.K. thanks the Kavli Institute for Theoretical Physics for support
+through the Graduate Fellows program. This research was supported by the DOE un-
+der contract #DE-FC02-94ER40818 and by the National Science Foundation under grants
+DMS-0606578 and PHY05-51164. Any opinions, ﬁndings, and conclusions or recommen-
+dations expressed in this material are those of the authors and do not necessarily reﬂect
+the views of the granting agencies.
+References
+[1] L. Alvarez-Gaume and E. Witten, “Gravitational Anomalies,” Nucl. Phys. B 234, 269 (1984).
+[2] M. B. Green, J. H. Schwarz and P. C. West, “Anomaly Free Chiral Theories In
+Six-Dimensions,” Nucl. Phys. B 254, 327 (1985).
+[3] V. Kumar and W. Taylor, “String Universality in Six Dimensions,” arXiv:0906.0987
+[hep-th].
+[4] V. Kumar and W. Taylor, “A bound on 6D N = 1 supergravities,” JHEP 0912, 050 (2009)
+arXiv:0910.1586 [hep-th].
+[5] D. R. Morrison, V. Kumar and W. Taylor, “Mapping 6D N = 1 supergravity to F-theory,”
+arXiv:0911.3393 [hep-th].
+[6] H. Nishino and E. Sezgin, “Matter And Gauge Couplings Of N=2 Supergravity In
+Six-Dimensions,” Phys. Lett. B 144, 187 (1984).
+H. Nishino and E. Sezgin, “The Complete N=2, D = 6 Supergravity With Matter And
+Yang-Mills Couplings,” Nucl. Phys. B 278, 353 (1986).
+[7] L. J. Romans, “Selfduality For Interacting Fields: Covariant Field Equations For
+Six-Dimensional Chiral Supergravities,” Nucl. Phys. B 276, 71 (1986).
+[8] D. S. Park and W. Taylor, to appear
+[9] A. Sagnotti, “A Note on the Green-Schwarz mechanism in open string theories,” Phys. Lett.
+B 294, 196 (1992) arXiv:hep-th/9210127.
+[10] V. Sadov, “Generalized Green-Schwarz mechanism in F theory,” Phys. Lett. B 388, 45
+(1996) arXiv:hep-th/9606008.
+[11] C. W. Bernard, N. H. Christ, A. H. Guth and E. J. Weinberg, “Pseudoparticle parameters
+for arbitrary gauge groups,” Phys. Rev. D 16, 2967 (1977).
+– 37 –
+
+[PDF PAGE 39]
+[12] M. B. Green, J. H. Schwarz and E. Witten, “Superstring Theory. Vol. 2: Loop Amplitudes,
+Anomalies And Phenomenology,” Cambridge, Uk: Univ. Pr. ( 1987) 596 P. ( Cambridge
+Monographs On Mathematical Physics)
+[13] J. Erler, “Anomaly Cancellation In Six-Dimensions,” J. Math. Phys. 35, 1819 (1994)
+arXiv:hep-th/9304104.
+[14] E. Witten, “Five-brane eﬀective action in M-theory,” J. Geom. Phys. 22, 103 (1997)
+[arXiv:hep-th/9610234].
+[15] D. Belov and G. W. Moore, “Holographic action for the self-dual ﬁeld,”
+arXiv:hep-th/0605038.
+[16] A. Salam and E. Sezgin, “Anomaly Freedom In Chiral Supergravities,” Phys. Scripta 32, 283
+(1985).
+E. Bergshoeﬀ, T. W. Kephart, A. Salam and E. Sezgin, “Global Anomalies In
+Six-Dimensions,” Mod. Phys. Lett. A 1, 267 (1986).
+S. V. Ketov, “Cancellation Of Gravitational Anomalies In D = 6 Supergravities,” Sov. Phys.
+J. 32, 801 (1989).
+S. V. Ketov, “Anomalies Of Kaluza-Klein Theories In Six-Dimensions,” Class. Quant. Grav.
+7, 1387 (1990).
+[17] M. Hamermesh, “Group Theory and its Application to Physical Problems,” Addison Wesley
+Publ. Co. Reading (1962).
+[18] E. Witten, “An SU(2) anomaly,” Phys. Lett. B 117, 324 (1982).
+[19] M. Bershadsky and C. Vafa, “Global anomalies and geometric engineering of critical theories
+in six dimensions,” arXiv:hep-th/9703167.
+[20] R. Suzuki and Y. Tachikawa, “More anomaly-free models of six-dimensional gauged
+supergravity,” J. Math. Phys. 47, 062302 (2006) arXiv:hep-th/0512019.
+[21] M. J. Duﬀ, S. Ferrara, R. R. Khuri and J. Rahmfeld, “Supersymmetry and dual string
+solitons,” Phys. Lett. B 356, 479 (1995) [arXiv:hep-th/9506057].
+[22] M. J. Duﬀ, H. Lu and C. N. Pope, “Heterotic phase transitions and singularities of the gauge
+dyonic string,” Phys. Lett. B 378, 101 (1996) [arXiv:hep-th/9603037].
+[23] S. Deser, A. Gomberoﬀ, M. Henneaux and C. Teitelboim, “p-brane dyons and
+electric-magnetic duality,” Nucl. Phys. B 520, 179 (1998) [arXiv:hep-th/9712189].
+[24] P. Tur´an . “On an extremal problem in graph theory,” Matematikai ´es Fizikai Lapok 48:
+436-452 (1941).
+[25] J. H. Schwarz, “Anomaly-Free Supersymmetric Models in Six Dimensions,” Phys. Lett. B
+371, 223 (1996) arXiv:hep-th/9512053.
+[26] F. Denef, “Les Houches Lectures on Constructing String Vacua,” arXiv:0803.1194 [hep-th].
+[27] C. Vafa, “Evidence for F-Theory,” Nucl. Phys. B 469, 403 (1996) arXiv:hep-th/9602022.
+[28] D. R. Morrison and C. Vafa, “Compactiﬁcations of F-Theory on Calabi–Yau Threefolds – I,”
+Nucl. Phys. B 473, 74 (1996) arXiv:hep-th/9602114.
+D. R. Morrison and C. Vafa, “Compactiﬁcations of F-Theory on Calabi–Yau Threefolds –
+II,” Nucl. Phys. B 476, 437 (1996) arXiv:hep-th/9603161.
+– 38 –
+
+[PDF PAGE 40]
+[29] A. Grassi, D. R. Morrison, “Group representations and the Euler characteristic of elliptically
+ﬁbered Calabi-Yau threefolds”, J. Algebraic Geom. 12 (2003), 321-356 arXiv:math/0005196.
+[30] A. Grassi, D. R. Morrison, “Anomalies and the Euler characteristic of elliptically ﬁbered
+Calabi-Yau threefolds,” to appear.
+[31] W. Barth, C. Peters, and A. Van de Ven, “Compact complex surfaces”, Springer-Verlag, 1984.
+[32] J. Milnor, “On simply connected 4-manifolds,” Symposium internacional de topolog´ıa
+algebraica, Universidad Nacional Aut´onoma de M´exico and UNESCO, Mexico City, 1958,
+pp. 122–128.
+[33] A. Adams, N. Arkani-Hamed, S. Dubovsky, A. Nicolis and R. Rattazzi, “Causality,
+analyticity and an IR obstruction to UV completion,” JHEP 0610, 014 (2006)
+arXiv:hep-th/0602178.
+[34] N. Seiberg and E. Witten, “Comments on String Dynamics in Six Dimensions,” Nucl. Phys.
+B 471, 121 (1996) arXiv:hep-th/9603003.
+[35] S. Kleiman, “Toward a numerical theory of ampleness,” Ann. of Math. (2) 84 (1966) 293–344.
+[36] S. Mori, “Threefolds whose canonical bundles are not numerically eﬀective,” Ann. of Math.
+(2) 116 (1982) 133–176.
+[37] M. Bershadsky, K. A. Intriligator, S. Kachru, D. R. Morrison, V. Sadov and C. Vafa,
+“Geometric singularities and enhanced gauge symmetries,” Nucl. Phys. B 481, 215 (1996)
+arXiv:hep-th/9605200.
+[38] C. Vafa, “The string landscape and the swampland,” arXiv:hep-th/0509212.
+N. Arkani-Hamed, L. Motl, A. Nicolis and C. Vafa, “The string landscape, black holes and
+gravity as the weakest force,” JHEP 0706, 060 (2007) arXiv:hep-th/0601001.
+H. Ooguri and C. Vafa, “On the geometry of the string landscape and the swampland,” Nucl.
+Phys. B 766, 21 (2007) arXiv:hep-th/0605264.
+[39] V. Kumar and W. Taylor, “Freedom and Constraints in the K3 Landscape,” JHEP 0905,
+066 (2009) arXiv:0903.0386 [hep-th].
+[40] J. Polchinski, “String theory. Vol. 2: Superstring theory and beyond,” Cambridge, UK: Univ.
+Pr. (1998) 531 p
+[41] E. Witten, “Phase transitions in M-theory and F-theory,” Nucl. Phys. B 471 (1996)
+195–216, arXiv:hep-th/9603150.
+[42] D. R. Morrison and N. Seiberg, “Extremal transitions and ﬁve-dimensional supersymmetric
+ﬁeld theories,” Nucl. Phys. B 483 (1997) 229–247, arXiv:hep-th/9609070.
+[43] A. Dabholkar and J. Park, “An Orientifold of Type-IIB Theory on K3,” Nucl. Phys. B 472,
+207 (1996) arXiv:hep-th/9602030.
+A. Dabholkar and J. Park, “Strings on Orientifolds,” Nucl. Phys. B 477, 701 (1996)
+arXiv:hep-th/9604178.
+[44] W. Nahm, “Supersymmetries and their representations,” Nucl. Phys. B 135, 149 (1978).
+[45] A. Adams, O. de Wolfe and W. Taylor, “String universality in ten dimensionalities,”
+arXiv:1006.1352 [hep-th].
+– 39 –
+
+[PDF PAGE 41]
+[46] C. Angelantonj, M. Bianchi, G. Pradisi, A. Sagnotti and Y. S. Stanev, “Comments on
+Gepner models and type I vacua in string theory,” Phys. Lett. B 387, 743 (1996)
+arXiv:hep-th/9607229.
+[47] K. Schellekens, private communication
+[48] E. G. Gimon and J. Polchinski, “Consistency Conditions for Orientifolds and D-Manifolds,”
+Phys. Rev. D 54, 1667 (1996) arXiv:hep-th/9601038;
+E. G. Gimon and C. V. Johnson, “K3 Orientifolds,” Nucl. Phys. B 477, 715 (1996)
+arXiv:hep-th/9604129.
+[49] R. Blumenhagen, V. Braun, B. Kors and D. Lust, “Orientifolds of K3 and Calabi-Yau
+manifolds with intersecting D-branes,” JHEP 0207, 026 (2002) arXiv:hep-th/0206038.
+[50] S. Nagaoka and W. Taylor, to appear
+[51] S. Hellerman, J. McGreevy and B. Williams, “Geometric Constructions of Nongeometric
+String Theories,” JHEP 0401, 024 (2004) arXiv:hep-th/0208174.
+[52] S. Randjbar-Daemi, A. Salam, E. Sezgin and J. A. Strathdee, “An Anomaly Free Model In
+Six-Dimensions,” Phys. Lett. B 151, 351 (1985);
+S. D. Avramis, A. Kehagias and S. Randjbar-Daemi, “A new anomaly-free gauged
+supergravity in six dimensions,” JHEP 0505, 057 (2005) arXiv:hep-th/0504033;
+[53] M. J. Duﬀ, R. Minasian and E. Witten, “Evidence for Heterotic/Heterotic Duality,” Nucl.
+Phys. B 465, 413 (1996) arXiv:hep-th/9601036.
+[54] M. Reid, “The moduli space of 3-folds with K = 0 may nevertheless be irreducible,” Math.
+Ann. 278 (1987) 329–334.
+– 40 –

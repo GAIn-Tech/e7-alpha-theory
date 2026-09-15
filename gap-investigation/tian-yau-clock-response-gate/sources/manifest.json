@@ -1,0 +1,18 @@
+{
+  "hashes": {
+    "sources\\dilaton.pdf": "3996b7e3154ab5d16d2a61fc9140842e58a979c3a2d3d7b11146f00121a24b4f",
+    "sources\\dilaton.txt": "fa6481cf6ba652600ab785b8632d4eb4ca4c2eefc2b1bfe9474cb59b0c5a714e",
+    "sources\\equation-evidence.json": "c4995c9bcc202316f1aeba60eeab271bba539d18977ea057399c624d94a735f1",
+    "sources\\hyperphysics.html": "ab9ca746b09476aad88fa773f8b3b19f0822f065d64efac6e282f8929f7483d6",
+    "sources\\hyperphysics.txt": "5a139b9a31458a9c195ad706b1fdb0546bd93f304559d7f338f3e66c6c535902",
+    "sources\\ledger.json": "42fd55b89346a06e11fbd4419f7d25bf65cdf21b93ca357b3b8425746801ac48",
+    "sources\\nist-comparison.pdf": "66990148f942f18ff8a88c2bac91ce1db398fd531a0e7126eccd0c848d7cfb9a",
+    "sources\\nist-comparison.txt": "23f5dc4aa0f815b7a78ec2e269e5eb4b1c5c6b8da1b84fd912c2b09317c86c0d",
+    "sources\\retrieval.json": "c3df321748ddbd7459e5812088f7e189c3eab71b6da8b953fb1a8094b5f84260",
+    "sources\\walls.pdf": "f00a9450f4e969120255d020f51ab1abc7760b45c2a9ee19685f99bf480b4a9b",
+    "sources\\walls.txt": "1f2a90c58805d6c662eb1cadead6192ff0c0a8c23ade2e11a013a08a03d86ea9",
+    "sources\\yukawas.pdf": "8d37e6c7c3d79c7fe279be4ce3a0698a52bccf7e8e581640a5ac70b9df47e7f9",
+    "sources\\yukawas.txt": "cde76ac93fc60abc1f23d6dd83de41ee031c13d56a7d213361010bd86d20d458"
+  },
+  "retrieval_note": "HTTP HyperPhysics freshly fetched; HTTPS web extraction failed. PDFs retained exactly; Kim returned v4. Predecessor Yukawa/NIST files copied byte-for-byte. No substitutes for failed HTML."
+}

@@ -1,0 +1,17 @@
+{
+  "H0_character_checks": 43,
+  "Higgs_boundary_changes": 735,
+  "absolute_comparison_factor_computed": false,
+  "boundary_DAG_pivots": 2526,
+  "full_Koszul_sector_nilpotence": 2808,
+  "independent_ranks": [
+    7,
+    6,
+    7
+  ],
+  "nonclosed_keywise_Leibniz": 676,
+  "nonzero_Higgs_boundary_products": 735,
+  "passed": true,
+  "product_boundary_equalities": 98,
+  "wrong_curvature_failures": 1224
+}

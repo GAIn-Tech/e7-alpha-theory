@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "n": 3,
+      "q": 1,
+      "R": "1",
+      "flux_over_2pi": 3,
+      "dirac_index": 3,
+      "orientation_reversed_index": -3,
+      "maxwell_scaling": "9"
+    },
+    {
+      "n": 3,
+      "q": 1,
+      "R": "2",
+      "flux_over_2pi": 3,
+      "dirac_index": 3,
+      "orientation_reversed_index": -3,
+      "maxwell_scaling": "9/4"
+    },
+    {
+      "n": 4,
+      "q": 1,
+      "R": "1",
+      "flux_over_2pi": 4,
+      "dirac_index": 4,
+      "orientation_reversed_index": -4,
+      "maxwell_scaling": "16"
+    },
+    {
+      "n": 3,
+      "q": 2,
+      "R": "1",
+      "flux_over_2pi": 3,
+      "dirac_index": 6,
+      "orientation_reversed_index": -6,
+      "maxwell_scaling": "9"
+    }
+  ],
+  "claim_boundary": "Exact topology/algebra example: integral flux fixes c1 and the twisted Dirac index q*n, but does not by itself fix the continuous radius or action extremum. Family count depends on charge, representation multiplicity, projection, and orientation; primality is neither necessary nor sufficient."
+}

@@ -1,0 +1,47 @@
+{
+  "axiom_reports": [
+    "'WilsonMass.add_succ_left' does not depend on any axioms",
+    "'WilsonMass.right_swap' does not depend on any axioms",
+    "'WilsonMass.right_cancel' does not depend on any axioms",
+    "'WilsonMass.paired_mass_preserves_net' does not depend on any axioms",
+    "'WilsonMass.four_pairs_witness' does not depend on any axioms"
+  ],
+  "certificate_replay_exit": 0,
+  "challenge_exit_code": 0,
+  "hashes": {
+    "Challenge.lean": "71878400301aaae828fc45e8d455a68d445c77ff82b6f4b67f124ea915b9f6c0",
+    "Formalization.lean": "467ec14e4286ee31058fc1b15d391c0af3967c0f68f9a8c18af761de7dd07ef5",
+    "RELEASE_DISCLOSURE.md": "4449bc008aa5512f13382140b52c7c9428f8001fcee81edfade7c3bc4d2a3a82",
+    "REPORT.md": "e34d3bc351847684c70087e589790127f0069a83c616d7d56a20c13a3aff2e9a",
+    "certificate.json": "35d65a9d9050d001927b080d258bcdbb4cd4b8256b5aede759f5d0ea4bfa60da",
+    "exact_certificate.py": "c807d1eea5d1f7a90fb85c61bc5480526fec5537eac52cd16bdfe7ba57e2b752",
+    "formalization.yaml": "60c22f8dc281a7f79fd09f82886a6b9b5f94a5ad4dc4e84a323aed03f3fcc0de",
+    "interactions.py": "6935331db1d9008382c92434ce54732879b602380375021306e482ffa8921f56",
+    "verify.py": "8d908d69282652f694e8f0d5c911ac6121dc01525235efbae54c2038116ef9ab"
+  },
+  "lean_exit_code": 0,
+  "negative_controls": {
+    "exclusive_creation_rejected_existing": true,
+    "missing_receipt_rejected": true,
+    "saved_receipt_restored": true,
+    "tampered_receipt_rejected": true
+  },
+  "passed": true,
+  "physical_checks": {
+    "Weyl_classes": 8,
+    "achieved_mass_ranks": null,
+    "full_Higgs_stabilizer_dimension": 12,
+    "toral_points": 729,
+    "trinification_spectrum": {
+      "L": 9,
+      "Lbar": 6,
+      "Q": 7,
+      "Qbar": 4,
+      "Qc": 7,
+      "Qcbar": 4
+    }
+  },
+  "predecessor_exact_replay_exit": 0,
+  "python_executable": "C:\\Python313\\python.exe",
+  "scope": "Local exact and kernel checks; no compactification superpotential solution or hosted CI."
+}

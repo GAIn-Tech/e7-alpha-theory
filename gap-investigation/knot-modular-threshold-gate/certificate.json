@@ -1,0 +1,361 @@
+{
+  "passed": true,
+  "claim_boundary": "Exact E7 gauge-block links and charged lattice shells; source-based N=2 K3xT2 threshold-difference nonidentifiability, not Tian-Yau N=1 thresholds. Analytic derivative proof uses external eta product/calculus/pi bounds; rational inequalities checked exactly.",
+  "S": [
+    [
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1/2",
+        "0",
+        "-1/2",
+        "0",
+        "1/2",
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "T": [
+    [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  ],
+  "normalized_Hopf": [
+    [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "unknot": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "nontrivial_framed_unknot": {
+    "-4": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "-3": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-1",
+      "0"
+    ],
+    "-2": [
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "-1": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    "0": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "1": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-1",
+      "0"
+    ],
+    "2": [
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "3": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    "4": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "fusion": {
+    "000": 1,
+    "001": 0,
+    "010": 0,
+    "011": 1,
+    "100": 0,
+    "101": 1,
+    "110": 1,
+    "111": 0
+  },
+  "vacuum_strings_through_length_10": [
+    1,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "charge_trace": {
+    "shells": [
+      {
+        "sector": 0,
+        "norm_squared": "0",
+        "count": 1,
+        "trace_H_squared": "0"
+      },
+      {
+        "sector": 0,
+        "norm_squared": "2",
+        "count": 126,
+        "trace_H_squared": "72"
+      },
+      {
+        "sector": 0,
+        "norm_squared": "4",
+        "count": 756,
+        "trace_H_squared": "864"
+      },
+      {
+        "sector": 1,
+        "norm_squared": "3/2",
+        "count": 56,
+        "trace_H_squared": "24"
+      },
+      {
+        "sector": 1,
+        "norm_squared": "7/2",
+        "count": 576,
+        "trace_H_squared": "576"
+      }
+    ],
+    "charged_vacuum_shift_minus_7_24": [
+      "0",
+      "72",
+      "1368"
+    ],
+    "charged_nonvacuum_shift_11_24": [
+      "24",
+      "744"
+    ]
+  },
+  "modular_forms": {
+    "through_degree": 40,
+    "ramanujan_D_E4_E6": true,
+    "E4_cubed_minus_E6_squared_equals_1728_eta24": true
+  },
+  "threshold_difference": {
+    "instanton_number": 24,
+    "beta_E7": 72,
+    "beta_E8": -72,
+    "Lambda_E8_minus_E7_prefactor": -144,
+    "T_path": "T=i*t, 2<=t<=3, U=5i; zero Wilson lines; trivial torus fibration",
+    "exp12_rational_lower": "134497725536507702213569/826385373016328125",
+    "q_upper": "1/100000",
+    "I_derivative_lower": "6996270002099993/13999580004199986",
+    "I_3_minus_I_2_strict_lower": "49/100",
+    "Lambda_difference_change_strict_upper": "-1764/25"
+  },
+  "negative_controls": {
+    "mirror_framing_detected": true,
+    "mirror_Hopf_unchanged": true,
+    "quantum_dimension_not_56": true,
+    "state_count_not_charge_trace": true,
+    "zero_prefactor_no_forced_dependence": true
+  },
+  "sha256": {
+    "certificate.py": "f902093336369eec064e5228b6389e26750b179f30eee3e5924b190f89de5da8",
+    "Formalization.lean": "81c0a17a1dfb25ef752d0d39f1c8d2230aa12ddfc5a4aa212f902c9c6434ff50",
+    "Challenge.lean": "8b66cf85ac90d03f4d039bb0ae2967740f5fbc65976c64951115dae6538a8eb6",
+    "sources\\dilaton.txt": "fa6481cf6ba652600ab785b8632d4eb4ca4c2eefc2b1bfe9474cb59b0c5a714e",
+    "sources\\jones.txt": "bcddc4b532a40f382b825543e3d9b77989b65b46b19c46ab2c7067a72be4e4e1",
+    "sources\\ledger.json": "bb7e34233eab4c1789f2f7955988d86d24c9c0640132ad8e5383a742c28780ba",
+    "sources\\manifest.json": "f60ad369683510ffc39697ccbf414196f7b7873c8157b069ef484d23d7c97e76",
+    "sources\\modular-algebra.py": "00552d14022417b60fbd80ce85e11ed17875822f4bf61198e774696fc900335c",
+    "sources\\modular-report.md": "cec3f42509a53ac30451898f0a554a793ef4b9faa8b07ac51a6aae724d1ebdff",
+    "sources\\mukhi.txt": "473c988806907eaffcb24c040d472784ba3c324db4b94136d2cd01f17040742d",
+    "sources\\threshold.pdf": "c9da693683f9d27c01e9f3c794ab75378bf7f0e2a55e8bb5da7ae09b2272031f",
+    "sources\\threshold.txt": "bc8767abc30e207c9705ba180faf14bde7da7b37b4f8bb9c66a941481964e6ee",
+    "sources\\witten.txt": "32e22386eb5f3e3679c7bf67630d7c3e2c48a268c37fa2c2e205f0aa48292927"
+  }
+}

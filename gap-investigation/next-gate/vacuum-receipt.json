@@ -1,0 +1,388 @@
+{
+  "artifact_sha256": {
+    "vacuum-report.md": "7760e475c485cf6c396be968e98ef896dd3cb95f5265f777f9fbd408c9892d6f",
+    "vacuum_audit.py": "494bf67ec22e9a5812ce7ea2d007bc314a47261d9344e836f5cb50b0bbfbae35"
+  },
+  "candidate_property": "abs(self.alpha_inv - 137) < 0.1 and self.e7_preserved and self.moduli_stabilized and self.swampland_ok",
+  "claim_boundary": "Exact finite arithmetic and source audit only; no vacuum equations solved, no stability or E7-invariance certification, no physical no-go, no alpha fit, no Lean proof.",
+  "cross_route": {
+    "G2_eight_sevens_alpha_inv": "140",
+    "G2_flux_4_alpha_inv": "137",
+    "G2_flux_4_claimed_stabilized_count": 1,
+    "G2_n_moduli": 43,
+    "part8_eight_sevens_alpha_inv": "137"
+  },
+  "diagnostic_domain": {
+    "arity": 8,
+    "entry_max": 10,
+    "entry_min": 0,
+    "not_original_search": true,
+    "not_physical_vacua": true,
+    "ordered_total": 214358881
+  },
+  "dp_crosschecks": [
+    {
+      "cap": 2,
+      "n": 1,
+      "passed": true,
+      "tuples": 3
+    },
+    {
+      "cap": 3,
+      "n": 3,
+      "passed": true,
+      "tuples": 64
+    },
+    {
+      "cap": 2,
+      "n": 4,
+      "passed": true,
+      "tuples": 81
+    }
+  ],
+  "extra_per_entry_units7_with_cap10_target_count": 1,
+  "function_inventory": [
+    {
+      "end_line": 148,
+      "line": 92,
+      "name": "analyze_master_formula"
+    },
+    {
+      "end_line": 272,
+      "line": 225,
+      "name": "analyze_g2_route"
+    },
+    {
+      "end_line": 411,
+      "line": 359,
+      "name": "analyze_f_theory_route"
+    },
+    {
+      "end_line": 551,
+      "line": 501,
+      "name": "analyze_heterotic_route"
+    },
+    {
+      "end_line": 705,
+      "line": 655,
+      "name": "analyze_swampland_route"
+    },
+    {
+      "end_line": 769,
+      "line": 712,
+      "name": "analyze_topological_origin"
+    },
+    {
+      "end_line": 839,
+      "line": 776,
+      "name": "analyze_plus_four_correction"
+    },
+    {
+      "end_line": 945,
+      "line": 864,
+      "name": "search_unique_vacuum"
+    },
+    {
+      "end_line": 1018,
+      "line": 952,
+      "name": "synthesize_findings"
+    },
+    {
+      "end_line": 1118,
+      "line": 1025,
+      "name": "run_experiment"
+    },
+    {
+      "end_line": 1146,
+      "line": 1121,
+      "name": "save_results"
+    },
+    {
+      "end_line": 1156,
+      "line": 1149,
+      "name": "main"
+    },
+    {
+      "end_line": 196,
+      "line": 178,
+      "name": "compute_gauge_coupling"
+    },
+    {
+      "end_line": 222,
+      "line": 198,
+      "name": "analyze_moduli_stabilization"
+    },
+    {
+      "end_line": 316,
+      "line": 309,
+      "name": "gauge_group"
+    },
+    {
+      "end_line": 335,
+      "line": 318,
+      "name": "compute_gauge_coupling"
+    },
+    {
+      "end_line": 356,
+      "line": 337,
+      "name": "analyze_flux_stabilization"
+    },
+    {
+      "end_line": 446,
+      "line": 444,
+      "name": "string_coupling"
+    },
+    {
+      "end_line": 467,
+      "line": 448,
+      "name": "compute_gauge_coupling"
+    },
+    {
+      "end_line": 498,
+      "line": 469,
+      "name": "analyze_e8_branching"
+    },
+    {
+      "end_line": 598,
+      "line": 575,
+      "name": "weak_gravity_bound"
+    },
+    {
+      "end_line": 623,
+      "line": 600,
+      "name": "distance_conjecture_analysis"
+    },
+    {
+      "end_line": 652,
+      "line": 625,
+      "name": "unique_vacuum_conditions"
+    },
+    {
+      "end_line": 861,
+      "line": 856,
+      "name": "is_candidate"
+    },
+    {
+      "end_line": 1139,
+      "line": 1124,
+      "name": "convert_for_json"
+    }
+  ],
+  "missing_physical_input_scope": "Manual inspection of exp47 and its summary: no specified finite action/metric/gauge-kinetic function with derived vacuum equations and mass spectrum; boolean/count proxies cannot certify them.",
+  "next_physical_gate": {
+    "required_before_execution": [
+      "One independently specified finite action and field domain",
+      "Flux basis, true singlet/commutator constraints and tadpole bounds",
+      "Gauge equivalence and charge/trace conventions",
+      "Stationarity equations and kinetic metric",
+      "Complete isolated solutions plus flat-direction and physical mass/stability checks",
+      "Gauge-kinetic function evaluated without target selection"
+    ],
+    "status": "BLOCKED_MISSING_ACTION",
+    "stop_rule": "No target-informed parameter, domain, constraint or correction adjustment; report missing data or continuous freedom and stop."
+  },
+  "passed": true,
+  "pretarget_distribution": [
+    {
+      "alpha_inv": "267/2",
+      "ordered_count": 3256,
+      "permutation_orbit_count": 11,
+      "sum": 7
+    },
+    {
+      "alpha_inv": "134",
+      "ordered_count": 115124,
+      "permutation_orbit_count": 105,
+      "sum": 14
+    },
+    {
+      "alpha_inv": "269/2",
+      "ordered_count": 1028456,
+      "permutation_orbit_count": 393,
+      "sum": 21
+    },
+    {
+      "alpha_inv": "135",
+      "ordered_count": 4003736,
+      "permutation_orbit_count": 900,
+      "sum": 28
+    },
+    {
+      "alpha_inv": "271/2",
+      "ordered_count": 8110272,
+      "permutation_orbit_count": 1379,
+      "sum": 35
+    },
+    {
+      "alpha_inv": "136",
+      "ordered_count": 9162736,
+      "permutation_orbit_count": 1492,
+      "sum": 42
+    },
+    {
+      "alpha_inv": "273/2",
+      "ordered_count": 5836336,
+      "permutation_orbit_count": 1127,
+      "sum": 49
+    },
+    {
+      "alpha_inv": "137",
+      "ordered_count": 2010423,
+      "permutation_orbit_count": 593,
+      "sum": 56
+    },
+    {
+      "alpha_inv": "275/2",
+      "ordered_count": 332376,
+      "permutation_orbit_count": 200,
+      "sum": 63
+    },
+    {
+      "alpha_inv": "138",
+      "ordered_count": 19448,
+      "permutation_orbit_count": 40,
+      "sum": 70
+    },
+    {
+      "alpha_inv": "277/2",
+      "ordered_count": 120,
+      "permutation_orbit_count": 3,
+      "sum": 77
+    }
+  ],
+  "pretarget_ordered_total": 30622283,
+  "schema": "exp47-next-gate-v1",
+  "source_expression_checks": {
+    "alpha_inv": "dim_e7 + flux_correction",
+    "e7_preserved": "sum(flux) % 7 == 0",
+    "flux": "tuple(np.random.randint(0, 11, size=4).tolist())",
+    "flux_correction": "sum(flux) / (2 * rank_e7)",
+    "moduli_stabilized": "sum((1 for f in flux if f > 0)) >= 3",
+    "swampland_ok": "120 < alpha_inv < 150"
+  },
+  "source_sha256": {
+    "EXP47_UNIQUE_VACUUM_SUMMARY.md": "18ceca003121d5afa6f2e77a4d768565b2a93063976e752e81441c323b715f68",
+    "exp47_unique_vacuum.py": "2796da571b197dfed015021ad423ac913d64756c6ae4e498c86291a693df119b",
+    "gap-investigation/REPORT.md": "86e1e2f39817c5ffdf76b8dac2d59d3d418a1c0bdfbec2acb345d9224e1ae9d9"
+  },
+  "target_selected_ordered_count": 2010423,
+  "target_selected_permutation_orbit_count": 593,
+  "target_selected_sums": [
+    56
+  ],
+  "witnesses": [
+    {
+      "all_entries_multiple_of_7": true,
+      "alpha_inv": "137",
+      "flux": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "in_original_domain": false,
+      "positive_count_at_least_3": true,
+      "range_120_150": true,
+      "sum": 56,
+      "sum_divisible_by_7": true,
+      "target_selected": true
+    },
+    {
+      "all_entries_multiple_of_7": false,
+      "alpha_inv": "137",
+      "flux": [
+        6,
+        8,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "in_original_domain": false,
+      "positive_count_at_least_3": true,
+      "range_120_150": true,
+      "sum": 56,
+      "sum_divisible_by_7": true,
+      "target_selected": true
+    },
+    {
+      "all_entries_multiple_of_7": true,
+      "alpha_inv": "137",
+      "flux": [
+        0,
+        0,
+        7,
+        7,
+        7,
+        7,
+        14,
+        14
+      ],
+      "in_original_domain": false,
+      "positive_count_at_least_3": true,
+      "range_120_150": true,
+      "sum": 56,
+      "sum_divisible_by_7": true,
+      "target_selected": true
+    },
+    {
+      "alpha_inv": "269/2",
+      "flux": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        7,
+        7
+      ],
+      "in_original_domain": false,
+      "positive_count_at_least_3": true,
+      "range_120_150": true,
+      "sum": 21,
+      "sum_divisible_by_7": true,
+      "target_selected": false
+    },
+    {
+      "alpha_inv": "267/2",
+      "flux": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "in_original_domain": true,
+      "positive_count_at_least_3": true,
+      "range_120_150": true,
+      "sum": 7,
+      "sum_divisible_by_7": true,
+      "target_selected": false
+    },
+    {
+      "alpha_inv": "135",
+      "flux": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        7,
+        14
+      ],
+      "in_original_domain": false,
+      "positive_count_at_least_3": true,
+      "range_120_150": true,
+      "sum": 28,
+      "sum_divisible_by_7": true,
+      "target_selected": false
+    }
+  ]
+}

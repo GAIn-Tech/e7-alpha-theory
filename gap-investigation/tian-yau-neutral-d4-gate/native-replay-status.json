@@ -1,0 +1,8 @@
+{
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-neutral-d4-gate\\verify.py"
+  ],
+  "exit_code": 0
+}

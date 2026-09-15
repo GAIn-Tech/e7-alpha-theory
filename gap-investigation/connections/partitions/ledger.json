@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/html/2302.04615v1",
+      "title": "dedekind",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "andrzej.szepietowski@ug.edu.pl\nAbstract\nWe study some divisibility properties of Dedekind numbers. We show that the ninth Dedekind number is congruent to 6 modulo 210.\n1\nIntroduction\nWe define\nD\nn\nD_{n}\nto be the set of all monotone Boolean",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://fisica.usac.edu.gt/public/curccaf_proc/quevedo1/node4.html",
+      "title": "narain",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "identified under the \n\nduality group\n.\nThis is the situation that gets generalized to higher dimensions.\n\nIn general, compactification on a\n-dimensional torus has the\n\nmoduli space\nwith \n\npoints identified under the duality group\n.\n\nFor the heterotic string with 16 extra left moving coordinates\nwith\n\na similar modification to the duality group.\n\nThe left- and right- moving momenta\nlive on an\n\neven, selfdual lattice of signature\n, which\n\nis usually called the Narain lattice\n[\n9\n].\n\nThis generalizes the\nlattice defined by the\n\nintegers\nof eq. (\n9\n).\nWe can easily verify in this case that the dimension of\nis\ncorresponding to the number of independent\n\ncomponents of\nwith\n. For\nwe have a \n\n4D string model with a moduli space of dimension\n. To\n\nthis we have to add the dilaton field\nwhich, together\n\nwith the spacetime components of the antisymmetric\n\ntensor\n, can be combined into a new modular\n\nparameter:\n(11)\nHere the axion field\ni",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/html/1112.5106v2",
+      "title": "k3",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "ent bundle\n𝒯\nK\n​\n3\n{\\mathcal{T}}_{K3}\n.\nThe standard embedding breaks one\nE\n8\nE_{8}\nto the maximal commutant\nE\n7\nE_{7}\n, i.e.\nE\n8\n×\nE\n8\n⟶\nE\n8\n×\nE\n7\n×\n⟨\nS\n​\nU\n​\n(\n2\n)\n⟩\n,\nE_{8}\\times E_{8}\\longrightarrow E_{8}\\times E_{7}\\times\\langle SU(2)\\rangle\\ ,\n(3.3)\nwhere\n⟨\nH\n⟩\n\\langle H\\rangle\ndenotes the broken group factor. For the standard embedding the hermitean Yang-Mills equations\n(\n2.7\n) take the form\nℱ\n∈\nH\n1\n,\n1\n​\n(\nEnd\n​\n𝒯\nK\n​\n3\n)\n,\nℱ\n∧\nJ\n=\n0\n,\n{\\mathcal{F}",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.whitman.edu/mathematics/cgt_online/book/section03.03.html",
+      "title": "selfconjugate",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": ", as we saw in example\n3.3.3\n.\nEx 3.3.7\nA partition of $n$ is self-conjugate \nif its Ferrers diagram is symmetric around the main diagonal, so that\nits conjugate is itself. Show that the number of self-conjugate\npartitions of $n$ is equal to the number of partitions of $n$ into\ndistinct odd parts.",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://btw-47.github.io/rademacher2.pdf",
+      "title": "rademacher",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "express the ﬁnite sum Ac(n) in terms\nof Dedekind sums (see, for example, [13, Equations 3, 4]). There is also a simpler (and more illuminating)\nformula for Ac(n) due to Selberg [19, Equation 18], whose work is ﬂeshed out in [18, Lectures 22–23].\nRademacher’s original derivation [16] and su",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://swc-math.github.io/aws/2013/2013OnoNotes.pdf",
+      "title": "mocknotes",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "tion 4.1. Ramanujan’s functions are the\nholomorphic parts of special weight 1/2 harmonic Maass forms. This realization makes it\npossible to now prove theorems such as Theorem 1.2. We shall give the proof in Section 13.\nThe connection between Ramanujan’s mock theta functions and harmonic Maass forms\ndoes not immediately shed light on Ramanujan’s vague deﬁnition. Moreover, Ramanujan’s\nstrange example concerning f(q) and b(q) shows that mo",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://arxiv.org/html/1604.08837v1",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "rivial character or the sign character.\nWe call (ρ,V)(\\rho,V) a *chiral representation* if det∘ρ\\det\\circ\\rho is the sign character of SnS\\_{n}.\n\nRecall that the irreducible complex representations of SnS\\_{n} are parametrized by partitions of nn.\nFor brevity, we shall say that λ\\lambda is a *chiral partition* if the corresponding representation (ρλ,Vλ)(\\rho\\_{\\lambda},V\\_{\\lambda}) is chiral11\n1\nThe use of the field 𝐂\\mathbf{C} is not important. Our results hold over any field of characteristic different from two, so long as VλV\\_{\\lambda} is interpreted as the representation corresponding to λ\\lambda in Young’s seminormal form..",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC60793",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "example, we have\n\n|  |\n| --- |\n| 1.2 |\n\nWe have shown ([13](#B13), [17](#B17)) that if ℓ ≥ 5 is prime and *m* is any positive integer, then there are infinitely many congruences of the form\n\nAs in the case of Ramanujan's congruences, all of these arithmetic progressions lie within the class −δℓ (mod ℓ). To summarize, the current state of knowledge consists of a systematic theory of congruences within the progressions −δℓ (mod ℓ), as well as some sporadic examples of congruences that fa",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://arxiv.org/pdf/1208.4074",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": ", don.zagier@mpim-bonn.mpg.de Abstract: We show that the meromorphic Jacobi form that counts the quarter-BPS states in N = 4 string theories can be canonically decomposed as a sum of a mock Jacobi form and an Appell-Lerch sum.\nThe quantum degeneracies of single-centered black holes are Fourier coeﬃcients of this mock Jacobi form, while the Appell-Lerch sum captures the degeneracies of multi-centered black holes which decay upon wall-crossing. The completion of the mock Jacobi form restores the modular symmetries expected from AdS3/CFT2 holography but has a holomorphic anomaly reﬂecting the non-compactness of the microscopic CFT. For every positive integral value m of the magnetic charge invariant of the black hole, our analysis leads to a special mock Jacobi form of weight two and index m, which we characterize uniquely up to a Jacobi cusp form. This family of special forms and another closely related family of weight-one forms contain almost all the known mock modular forms including the mock theta functions of Ramanujan, the generating function of Hurwitz-Kronecker class numbers, the mock modular forms appearing in the Mathieu and Umbral moonshine, as well as an inﬁnite number of new examples.\nKeywords: black holes, mock modular forms, superstrings, wall-crossing.\narXiv:1208.4074v2 [hep-th] 3 Apr 2014 Contents 1.\nInt",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://mathenchant.wordpress.com/2021/12/17/numbers-from-games",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "as 0, 1, *α*, and *α*+1 respectively). Conway’s kind of multiplication turns the nimbers \\*0, \\*1, \\*2, and \\*3 into a funny incarnation of the finite field of order 4. Nor is this an isolated coincidence. Conway’s multiplication turns the nimbers \\*0 through \\*15 into a funny incarnation of the finite field of order 16. And for any *n*, if we set *N* equal to 2 to the power of 2*n*, Conway’s multiplication turns the nimbers \\*0 through \\*(*N*−1) into a funny incarnation of the finite field of order *N*. (See also Peter Cameron’s blog essay, listed in the References.)\n\nConway didn’t know the full story on that day in 1969; he was discovering it in bits and pieces. He didn’t have t",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-109/issue-4/Elliptic-genera-and-quantum-field-theory/cmp/1104117076.pdf",
+      "title": "Witten: Elliptic Genera and Quantum Field Theory",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "e series of operators indicated in (1).\nSubsequent work [6, 7, 15] showed, roughly, that it is possible to use elliptic modular forms to write a generating functional for this infinite series of operators.\nTo be precise, the modular forms in question were modular forms for the congruence subgroup Γo(2) of SL(2, Z), which can be viewed as the subgroup that leaves fixed one of the three non-trivial spin structures on an elliptic curve.\nOchanine introduced [6] the notion of an \"elliptic genus\" and synthesized the above statements in the following conjecture: for any elliptic genus and any spin manifold M with S 1 action, the character valued elliptic genus is a constant. I will not he",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

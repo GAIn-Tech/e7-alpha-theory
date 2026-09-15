@@ -1,0 +1,20 @@
+name: adjoint-radial-perturbative-window-gate
+scope: Conditional necessary radial perturbative diagnostics in the declared 4D renormalizable EFT
+formal_proof: none
+proof_assistant: no new Lean theorem claimed
+exact_computation: Fraction dimension-six stationary-displacement counterfamily
+numerical_computation:
+  action_tensors: inherited double-precision canonical 188-scalar 79-vector action; fresh native predecessor replay
+  derivative: analytic rational PV with i0 cut plus independent adaptive tensor/master five-point derivative
+  integration: mpmath 1.3.0 vendored by predecessor, 45 decimal digits
+  interval_certificate: false
+assumptions:
+  - fixed renormalized MSbar action and finite matching convention
+  - fixed nonexceptional gauge for isolated pole counting
+  - full physical-flat resummed vacuum and higher-order remainder remain unproved
+  - EFT cutoff and omitted Wilson coefficients are unspecified
+  - epsilon and M remain free, not selected from alpha or a desired mass
+review_status: AI-assisted self-assessed; no independent expert review
+automation_disclosure: Python and mpmath calculations; predecessor conditional exact SymPy identity replay
+hosted_ci: not run
+physical_claim: no physical pole mass, width, stable full quantum vacuum, compactification or coupling prediction

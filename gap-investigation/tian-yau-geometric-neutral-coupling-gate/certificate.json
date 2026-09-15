@@ -1,0 +1,1179 @@
+{
+  "branch": {
+    "S_and_T_F": "zero by holomorphic ungauged PQ rule, not by assigned cup tensor",
+    "bundle_F_inherited": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "bundle_common_kernel_dimension": 5,
+    "geometric_Z_F": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "claim_boundary": "Actual classical relative tangent-monad derivative kills all nine charged representatives in all nine invariant complex directions; primary-sourced axion holomorphy excludes dilaton/Kahler dependence perturbatively. Supports full-neutral massless cubic F on c0,c1/beta0,beta1. Not an instanton derivative, full W, exact string vacuum, stabilized vacuum, all-orders alpha-prime cohomology count or Lean proof.",
+  "controls": {
+    "derivative_nilpotence_probes": 81,
+    "known_bundle_nonzero": [
+      [
+        12,
+        5,
+        1,
+        "-1"
+      ],
+      [
+        13,
+        6,
+        1,
+        "-1"
+      ],
+      [
+        14,
+        7,
+        0,
+        "-1"
+      ],
+      [
+        15,
+        8,
+        0,
+        "-1"
+      ]
+    ],
+    "nonzero_exact_change_transports": 26,
+    "omitted_Koszul_derivative_detected": 7,
+    "omitted_basis_transport_detected": 7,
+    "positive_PQ_Taylor_generators": [
+      "I",
+      "2*I*M",
+      "3*I*M**2",
+      "4*I*M**3"
+    ]
+  },
+  "family": [
+    {
+      "Jacobian_derivative": [
+        [
+          0,
+          3,
+          "3*x3**2"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 0,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "x3**3",
+        "0",
+        "0"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          0,
+          2,
+          "x3**2"
+        ],
+        [
+          0,
+          3,
+          "2*x2*x3"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 1,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "x2*x3**2",
+        "0",
+        "0"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          0,
+          2,
+          "2*x2*x3"
+        ],
+        [
+          0,
+          3,
+          "x2**2"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 2,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "x2**2*x3",
+        "0",
+        "0"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          0,
+          2,
+          "3*x2**2"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 3,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "x2**3",
+        "0",
+        "0"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          0,
+          1,
+          "3*x1**2"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 4,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "x1**3",
+        "0",
+        "0"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          0,
+          0,
+          "x1*x3"
+        ],
+        [
+          0,
+          1,
+          "x0*x3"
+        ],
+        [
+          0,
+          3,
+          "x0*x1"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 5,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "x0*x1*x3",
+        "0",
+        "0"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          0,
+          0,
+          "x1*x2"
+        ],
+        [
+          0,
+          1,
+          "x0*x2"
+        ],
+        [
+          0,
+          2,
+          "x0*x1"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 6,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "x0*x1*x2",
+        "0",
+        "0"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          2,
+          4,
+          "y1*y3"
+        ],
+        [
+          2,
+          5,
+          "y0*y3"
+        ],
+        [
+          2,
+          7,
+          "y0*y1"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 7,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "0",
+        "0",
+        "y0*y1*y3"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "Jacobian_derivative": [
+        [
+          2,
+          4,
+          "y1*y2"
+        ],
+        [
+          2,
+          5,
+          "y0*y2"
+        ],
+        [
+          2,
+          6,
+          "y0*y1"
+        ]
+      ],
+      "U_Z_slab": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "action_images": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "complex_direction": 8,
+      "deformed_Euler_identity": true,
+      "delta_polynomials": [
+        "0",
+        "0",
+        "y0*y1*y2"
+      ],
+      "first_required_slice": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "inventory": {
+    "bundle_Ext1_inherited": 16,
+    "complex_structure": 9,
+    "complexified_Kahler_including_internal_B_axions": 6,
+    "dilaton_including_universal_axion": 1,
+    "total_neutral_chiral_infinitesimal": 32
+  },
+  "passed": true,
+  "source_hashes": {
+    "heterotic-e6-three-family-gate/REPORT.md": "dc5654f000530965ec34125ba60e447c1cb5b1b98e64f0fc964ed37c3baa77ed",
+    "tian-yau-actual-survivor-coupling-gate/MATHEMATICS.md": "b8ba475a6ff2c50ac005f8eebd074e2906d635330682f9bbac184d5943e7c99b",
+    "tian-yau-actual-survivor-coupling-gate/REPORT.md": "c29038ff31dac427c8bead3fdc776e13b9736644a45f33ac3c3fc6d8d8edfc0f",
+    "tian-yau-actual-survivor-coupling-gate/artifact-manifest.json": "bcf0c1550ff27c0611fedbc122d1e64a9ab93d9372735be30423f8d260038b91",
+    "tian-yau-actual-survivor-coupling-gate/final-controls-initial-failed.py": "a67a81b39e9fc723994c967b705e999aa2b90a9dc6c40114f956fc8cd7a52495",
+    "tian-yau-actual-survivor-coupling-gate/final-controls.json": "1369ea27caf88ad0c94c8f7d8bfab863724bb0354d2e63d7bb10b14c9177b117",
+    "tian-yau-actual-survivor-coupling-gate/final_controls.py": "585a7079bc9b04270f271d942d1486913a2e1777c7170d2f64f110263d3dab5c",
+    "tian-yau-actual-survivor-coupling-gate/module-action.json": "f1f51a94dd5e54e438d2de3b9dc11c62a88f782cd26e11ac81e3cbddce5e6a7e",
+    "tian-yau-actual-survivor-coupling-gate/module_action.py": "36df96e95ddf8a86568e09f9bae0747e1f1660b915be90b95c0f8a2828adf0ee",
+    "tian-yau-actual-survivor-coupling-gate/native-replay-status.json": "18c3ab0d389855af0c1b7a3b1b4f98a159f71a5cd248e32af4760c02d692ea35",
+    "tian-yau-actual-survivor-coupling-gate/native-replay.log": "79c522b9981e2c3a6f7c8588ef9ef6241eb61492d61c2ad6842bf236743aa866",
+    "tian-yau-actual-survivor-coupling-gate/native_replay.py": "8c78b5319c35db77581fdabb9c39b6e9be324779df555147595baead3c52829c",
+    "tian-yau-actual-survivor-coupling-gate/serre-tensor.json": "1c306fc44846b44650dad96e0eb8fa027a59eb56def4af3d4c576c9bb540a1cd",
+    "tian-yau-actual-survivor-coupling-gate/serre_pairing.py": "9465ddc12b0b4d90de10fbd9ccc3e52e939595f72a17d4cba804835f2ad0ec4a",
+    "tian-yau-actual-survivor-coupling-gate/verify.py": "3ca99385ba2f3aae1c68cabde124a976895b1340f72ee98a6fd941df7173cec7",
+    "tian-yau-bundle-coupling-gate/certificate.json": "a5c0d10fe37b8766242bda8dff614dbe8e33c532866bf0c6ea5d70406c95da79",
+    "tian-yau-bundle-coupling-gate/exact_certificate.py": "0994c7c83bc51ab1bee11c8637c455244ced07e9f23c83c14545fcb96f94e104",
+    "tian-yau-bundle-coupling-gate/geometry.json": "1246dbd09c95297e79fa5d24d0ba7a5abd9d45882de12ffc4168ba150e98a198",
+    "tian-yau-flavor-higgs-consistency-gate/REPORT.md": "59d4f2e4d6fa1ed478867e9adddde6a24bffb0e540a0e8f7447b7b927bc2e610",
+    "tian-yau-flavor-higgs-consistency-gate/calculate.py": "fc2f831f49d72773eb6189eeb39d0270af0fd7fe12502583d869349b9a85ad8b",
+    "tian-yau-flavor-higgs-consistency-gate/certificate.json": "ee714241c3c2483378afe2cb2a9112ce0075bcea3b015c640d12fcebbf0a6468",
+    "tian-yau-flavor-higgs-consistency-gate/native_replay.py": "e35be08639a83f7817c43f90743dab98a3a2f1c9471a61c0ab64357f6ff47839",
+    "tian-yau-flavor-higgs-consistency-gate/release-manifest.json": "e50cc2b4b8e2d885e1a2f5490dff315c7f0cd2373047e3d4014a48e75833d2d3",
+    "tian-yau-flavor-higgs-consistency-gate/source-manifest.json": "26c8fe05b9604d89ad9dc9561062d6f509b22559f83dec8e7669f48eeade44ac",
+    "tian-yau-flavor-higgs-consistency-gate/verify.py": "414c702ce4b8c20da18a74bd814e522cc3b9ec81a71fdd9810c14fc093ac15e6",
+    "tian-yau-geometric-neutral-coupling-gate/calculate.py": "b36d1bf90297555bc84d014635d9b20471b0d47ffd57ec9cc6e85e9e0bc501c5",
+    "tian-yau-geometric-neutral-coupling-gate/sources/decoupling.md": "fff368fca56b12db0e28b8ca2de27bfb87933b05ac129d9a6f34e263fc8499cb",
+    "tian-yau-geometric-neutral-coupling-gate/sources/nonrenormalization.md": "1463e627c5a403cb111d72d98b6542df87c3f80c23e865eea9561496d49e5b77",
+    "tian-yau-geometric-neutral-coupling-gate/sources/yukawa.md": "4bf3349fee70d36390fcfa4236af1a35ef4c1f7291c48101a40cbd32c5335a14",
+    "tian-yau-neutral-d2-gate/partial_chains.py": "191aa808af6a46cf9c4d923e41f9d2fb2695727356fc02835276157e5b257351",
+    "tian-yau-neutral-d2-gate/total_cech.py": "b37917b4511ae519b948adae03c2ca592bd115b460bc52e6ada54e29fcb2749b",
+    "tian-yau-neutral-d2-gate/try_d2.py": "7a9931b1b183f9fc57ea2f068ae1b262a996cf4275531c328f74df9cf8c12914",
+    "tian-yau-neutral-d4-gate/compute.py": "ee878a85611a93929f7eccffd0c36d5998279f83866af1030162d7aa021686ef",
+    "tian-yau-neutral-d4-gate/d4-chains.json": "ff97c93f893d2164011e0381613a29a83013ea74d022b84bba9b15ca6599ad34",
+    "tian-yau-neutral-d4-gate/native-replay-status.json": "8986939f13c10d82de1e07be91a2e2b60c064e9fc1c7809a512dde949e53654a",
+    "tian-yau-neutral-d4-gate/receipt.json": "fd17ac76776d89312a21c6c4ba7870185c11ed877212e41d5dcfddb7a299d71e",
+    "tian-yau-neutral-d4-gate/verify.py": "4e5d5a5aa270c75c75ddbe952cd736676e90d6d623813dacb7d2def69bf103d3",
+    "tian-yau-nonlinear-dflat-gate/REPORT.md": "2f8a5bc1fced7d4a767860062082dc5e98b6be6ca0aeede7d7ad8641cc58c6d3",
+    "tian-yau-nonlinear-dflat-gate/certificate.json": "e60c2dc22d499e610dbde5ad896e592328d324fe8e300d5b0a7938a61c4cd3df",
+    "tian-yau-survivor-yoneda-gate/exact_audit.py": "18448b95bb0675d3daac79ddc823155d0deef2faa9a3699943ecb2609dd00a06",
+    "tian-yau-wilson-line-gate/REPORT.md": "e34d3bc351847684c70087e589790127f0069a83c616d7d56a20c13a3aff2e9a",
+    "tian-yau-wilson-line-gate/interactions.py": "6935331db1d9008382c92434ce54732879b602380375021306e482ffa8921f56",
+    "tian-yau-worldsheet-instanton-gate/REPORT.md": "9c709b2c22c9c57bed5908a0331f4bd18202ec4d5bcd308dc90318a6e9167fa2"
+  },
+  "sympy": "1.13.3"
+}

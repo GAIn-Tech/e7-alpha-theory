@@ -1,0 +1,68 @@
+[
+  {
+    "name": "pacheco",
+    "url": "https://arxiv.org/pdf/0804.1362",
+    "chars": 87196,
+    "ok": true
+  },
+  {
+    "name": "grana",
+    "url": "https://arxiv.org/pdf/0904.2333",
+    "chars": 104954,
+    "ok": true
+  },
+  {
+    "name": "witten_flux",
+    "url": "https://arxiv.org/pdf/hep-th/9609122",
+    "chars": 35539,
+    "ok": true
+  },
+  {
+    "name": "gkp",
+    "url": "https://arxiv.org/pdf/hep-th/0105097",
+    "chars": 75859,
+    "ok": true
+  },
+  {
+    "name": "e7_stability",
+    "url": "https://arxiv.org/pdf/0706.1893",
+    "chars": 62692,
+    "ok": true
+  },
+  {
+    "name": "sixd_review",
+    "url": "https://arxiv.org/pdf/hep-th/0611133",
+    "chars": 385288,
+    "ok": true
+  },
+  {
+    "name": "sphere_index",
+    "url": "https://arxiv.org/pdf/2001.02208",
+    "chars": 35988,
+    "ok": true
+  },
+  {
+    "name": "witten_jones",
+    "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/witten.pdf",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "freed_index",
+    "url": "https://arxiv.org/pdf/2107.03557",
+    "chars": 150908,
+    "ok": true
+  },
+  {
+    "name": "dirac1937",
+    "url": "https://www.nature.com/articles/139323a0",
+    "ok": false,
+    "error": "No module named 'bs4'"
+  },
+  {
+    "name": "wu_yang",
+    "url": "https://encyclopediaofmath.org/wiki/Dirac_monopole",
+    "ok": false,
+    "error": "No module named 'bs4'"
+  }
+]

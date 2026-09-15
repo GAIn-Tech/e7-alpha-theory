@@ -1,0 +1,64 @@
+{
+  "canonical_response": "Matrix([[-sqrt(2)/(r + 1), -sqrt(6)*r/(3*r + 3)], [sqrt(2)/(r - 1), -sqrt(6)*r/(3*r - 3)]])",
+  "claim_boundary": "Exact truncated holomorphic threshold response with tree metric; neither full physical gauge thresholds, hidden-sector measurement, stabilized vacuum, nor clock prediction is established.",
+  "clock_rank": 1,
+  "determinant": "4*sqrt(3)*r/(3*(r - 1)*(r + 1))",
+  "determinant_error_bound": "2*epsilon**2 + 2*epsilon/(1 - r)",
+  "full_real_dilaton_kahler_dimension": 7,
+  "gamma": "3/pi (inherited nonzero ray pairing 24, source normalization beta/2)",
+  "gram_determinant": "16*r**2/(3*(r - 1)**2*(r + 1)**2)",
+  "gram_trace": "4*(r**2 + 1)*(r**2 + 3)/(3*(r - 1)**2*(r + 1)**2)",
+  "hidden_response_on_visible_blind_direction": "-2*sqrt(6)*r/(3*r - 3)",
+  "kernel_dimension": 5,
+  "lean": {
+    "binary_sha256": "c3f02a2b739078d1237af9feefd27ec85b943b56870234b42bc0111d6699d54d",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\cross-domain-observable-next-gate\\Response.lean:23:2: warning: Variable name `addZero` is not explicitly referenced.\n\nThe binding can be removed (if unused) or named `_` (if used implicitly).\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'PairedThreshold.paired_response_separates' does not depend on any axioms\n'PairedThreshold.paired_response_dilaton' does not depend on any axioms\n"
+  },
+  "log_coordinate_error_linear_coefficients": [
+    "-r/(r - 1)",
+    "-1/(r - 1)",
+    "r/(r + 1)",
+    "-1/(r + 1)"
+  ],
+  "negative_controls": {
+    "characteristic_two_not_injective": true,
+    "tree_limit_rank_loss": true,
+    "wrong_same_sign_rank_loss": true
+  },
+  "own_hashes": {
+    "Response.lean": "acd36f845ace8b8cad24772dc300978372509b6330d5b303eb753c856602ca2f",
+    "calculate.py": "817b2dd6768ff8a8c11136cbb674908e0731e8ffd63afaa56ee182f673fe393b",
+    "source.html": "5846666cf622a2440188974b82360944df6c5949a7a0eff906dab43d76f6e1c9"
+  },
+  "paired_map_rank": 2,
+  "passed": true,
+  "rank_bound_witnesses": [
+    {
+      "certified_nonzero": true,
+      "epsilon": "1/100",
+      "margin": "88901/495000",
+      "r": "1/10"
+    },
+    {
+      "certified_nonzero": false,
+      "epsilon": "1/100",
+      "margin": "-91099999/4999995000",
+      "r": "1/1000"
+    }
+  ],
+  "source_hashes": {
+    "arithmetic-compactification-selection-gate/REPORT.md": "09d6bcd087c612cdd493098a3e72140109dd4771ccb17de99a130f1541f26693",
+    "atomic-clock-gate/REPORT.md": "db5caf6fb2859c905bedeb38f3812d52486d95f0226d21cc09bb1d06743496bb",
+    "clock-matching-gate/REPORT.md": "d168209b0aa7b7eaedd1311b4af38f39ef3d1e57cab5c952c83b0064964874ee",
+    "connections/dirac/REPORT.md": "d0eb54451a914c4cdf4114f7e16303c6b8e0bbe7640969ab9842bf613452a13e",
+    "connections/knots/REPORT.md": "abfc2d96891c76788b0e53e3cbdb2201907fc414e830ab150aced10bb92fc5ef",
+    "connections/partitions/REPORT.md": "4b157011bfd381d57801aa76f3159e2af1f8b8b51819592222f003e325225149",
+    "knot-modular-threshold-gate/REPORT.md": "1df53546b46a2259448843644b9254d8bb88e55bac78d9b4ef022aa8b31abc1e",
+    "tian-yau-clock-response-gate/REPORT.md": "73cbec381c4a6f904f73d36fc87b0a6ad8f680fa46c5eb45b8e5dcca94d6ef9c",
+    "tian-yau-moduli-stabilization-gate/REPORT.md": "63334856333c9b40a6816a4ff197a40e38341f3414184df172b9199cbbc64069"
+  },
+  "sympy_version": "1.13.3",
+  "visible_blind_direction": "Matrix([[-sqrt(3)*r/3], [1]])"
+}

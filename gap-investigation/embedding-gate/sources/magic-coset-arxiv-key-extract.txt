@@ -1,0 +1,60 @@
+PDF page 20
+Recalling the treatment Sec. 4, in line (4.28) one can recognize:
+T : = Adj (E6 × U (1)) = 780 + 10;
+(4.33)
+P : = 27−2 + 27′
++2,
+(4.34)
+where, by the deﬁnitions introduced in Sec. 4, P denotes (the irreducible decomposition of) the Lie
+algebra of the coset M (1.2) (as representation space of T). Furthermore, 27−2+27′
++2 manifestly shows
+the complex (special K¨ahler) structure of M itself, which is then spoiled by the further subsequent
+branchings needed for the Iwasawa parametrization (4.12).
+Furthermore, the lines (4.29) and (4.30) give the SO (8) × [U (1)]3 (or SO (8) × [SO (1, 1)]3) ir-
+reducible branching of the 79 compact generators of E7(−25), namely of the generators of its max-
+imal compact subgroup E6(−78) × U (1).
+On the other hand, the lines (4.31) and (4.32) give the
+SO (8) × [U (1)]3 (or SO (8) × [SO (1, 1)]3) irreducible branching of the 54 non-compact generators of
+E7(−25), namely of the generators of M itself. In particular, recalling the deﬁnitions of Sec. 4:
+T′ : = 10,0,0 + 8c,0,−3,1 + 8s,0,−3,−1 + 8c,0,+3,−1 + 8s,0,+3,+1
++10,0,0 + 8v,0,0,+2 + 8v,0,0,−2 + 10,0,0;
+(4.35)
+S : = Adj (SO (8)) = 280,0,0.
+(4.36)
+T′ is the Lie algebra of the non-maximal (and non-symmetric) coset (dimR = 51):
+E6(−78) × U (1)′
+SO (8)
+= E6(−78)
+SO (8) × U (1)′ ,
+(4.37)
+or, in the choice of chain (4.27), of its relevant (i.e. minimally) non-compact form:
+E6(−26) × SO (1, 1)′
+SO (8)
+= E6(−26)
+SO (8) × SO (1, 1)′ .
+(4.38)
+Out of the six SO (8)-singlets:
+1−2,+4,0, 1−2,−2,+2, 1−2,−2,−2, 1+2,−4,0, 1+2,+2,−2, 1+2,+2,+2
+(4.39)
+in lines (4.31) and (4.32), three linear combinations generate H3, whereas the remaining linear com-
+binations, orthogonal with respect to the Cartan-Killing form, together with the manifestly SO (8)-
+triality-symmetric branching:
+8v,−2,−2,0 + 8c,−2,+1,+1 + 8s,−2,+1,−1
++8v,+2,+2,0 + 8c,+2,−1,−1 + 8s,+2,−1,+1
+(4.40)
+of lines (4.31) and (4.32), generate P′.
+Analogously, the smallest non-trivial symplectic irrep., namely the fundamental 56 of E7(−25),
+branches as (see e.g. [32]):
+56 = 27+1 + 27′
+−1 + 1+3 + 1−3
+(4.41)
+= 1+1,+4 + 10+1,−2 + 16+1,+1
++1−1,−4 + 10−1,+2 + 16′
+−1,−1
++1+3,0 + 1−3,0
+(4.42)
+= 1+1,+4,0 + 1+1,−2,+2 + 1+1,−2,−2 + 8v,+1,−2,0 + 8c,+1,+1,+1 + 8s,+1,+1,−1
++1−1,−4,0 + 1−1,+2,−2 + 1−1,+2,+2 + 8v,−1,+2,0 + 8c,−1,−1,−1 + 8s,−1,−1,+1
++1+3,0,0 + 1−3,0,0,
+(4.43)
+19

@@ -1,0 +1,9 @@
+scope: conditional all-xi free-master pole-difference identity
+proof_engine: SymPy 1.13.3 exact rational symbolic algebra
+lean_version: 4.32.1
+lean_status: blocked_standard_Init_missing_no_theorem_claimed
+project_cancellation_axioms: none
+actual_tensor_evidence: NumPy_double_precision_not_exact
+review: self_assessed_AI_assisted
+hosted_ci: not_run
+claim_boundary: no_full_pole_width_matching_or_compactification

@@ -1,0 +1,14 @@
+schema_version: 1
+scope: exact equivariant tangent monad, bounded polynomial subspace, and its charged obstruction map
+geometry: Tian-Yau Fermat/bilinear CICY in P3xP3 modulo free Z3
+formal:
+  tool: Lean 4.32.1 minimal prelude/no Init
+  theorems: [BundleCup.terminal_zero_cup, BundleCup.boundary_is_closed]
+  axioms: none
+automation: AI-assisted SymPy exact algebra and drafting
+review_status: self-assessed
+not_claimed:
+  - full H1(End TX)
+  - unobstructed bundle branch
+  - complete neutral F-flatness
+  - stabilized Standard Model vacuum

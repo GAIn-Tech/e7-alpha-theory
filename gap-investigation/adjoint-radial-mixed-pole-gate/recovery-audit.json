@@ -1,0 +1,35 @@
+{
+  "dimensions": {
+    "real_scalar": 188,
+    "vector": 79,
+    "Goldstone": 67,
+    "physical": 121
+  },
+  "norm2_all_SV": 12.000000000000002,
+  "norm2_Goldstone_SV_omitted": 11.596820257368204,
+  "norm2_physical_SV_retained": 0.40317974263179734,
+  "Ward_HK_max": 6.143086039855922e-12,
+  "radial_eigenvector_residual": 2.6999128828965727e-12,
+  "tree_hA_norm": 0.0,
+  "tree_hG_norm": 0.0,
+  "nearest_other_scalar_pole_gap": 4283.5,
+  "failed_assertion": {
+    "assertion": "Physical quotient alone is complete for strict-Landau internal scalar-vector bubbles",
+    "passed": false,
+    "reason": "Massless gauge-Goldstone scalars remain internal propagating fields in xi=0. Their nonzero squared derivative couplings are projected out by the interrupted code."
+  },
+  "interrupted_code_other_errors": [
+    "UV residue omitted A tadpole residues and B(X,0) residue; full BSV residue is 3s, not expression used there.",
+    "Unpivoted QR of dependent gauge tangent columns does not reliably identify all Goldstones.",
+    "setup called inside 79-entry comprehension, generating expensive tensors repeatedly; no checkpoint existed.",
+    "passed=True was hardcoded; zero-momentum/rotation diagnostics were not asserted."
+  ],
+  "claim_boundary": "Verified failed completeness assertion in interrupted candidate; not a verified finite-momentum mixed correction and not a physical/gauge-independent pole.",
+  "passed": true,
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\calculation.py": "e61099a0ef5366d657027d1c6c309d31669f89d441828cb637fb20d39b383e5e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-vector-bubble-gate\\receipt.json": "5dbc73ba2439e9300768350f6c628461335d2b046822525395d52561bfdd18a7",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-gate\\receipt.json": "1c14b00705ecbb8973257680a00df941d035c01aa2e064976264ae904f9345be"
+  }
+}

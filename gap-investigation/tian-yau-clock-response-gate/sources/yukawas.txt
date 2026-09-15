@@ -1,0 +1,1998 @@
+Physical Yukawa Couplings
+in Heterotic String Compactifications
+Giorgi Butbaiaa, Dami´an Mayorga Pe˜nab, Justin Tanc,
+Per Berglunda, Tristan H¨ubschd, Vishnu Jejjalae, Challenger Mishrac
+aDepartment of Physics and Astronomy, University of New Hampshire, Durham, NH 03824, USA
+bCAMSGD, Department of Mathematics, Instituto Superior T´ecnico, Universidade de Lisboa, 1049-
+001 Lisboa, Portugal
+cDepartment of Computer Science & Technology, University of Cambridge, Cambridge CB3 0FD, UK
+dDepartment of Physics and Astronomy, Howard University, Washington, DC 20059, USA
+eMandelstam Institute for Theoretical Physics, School of Physics, NITheCS, and CoE-MaSS,
+University of the Witwatersrand, Johannesburg, WITS 2050, South Africa
+E-mail: Giorgi.Butbaia@unh.edu, damian.mayorga.pena@tecnico.ulisboa.pt,
+jt796@cam.ac.uk, Per.Berglund@unh.edu, thubsch@howard.edu,
+v.jejjala@wits.ac.za, cm2099@cam.ac.uk
+Abstract:
+One of the challenges of heterotic compactification on a Calabi–Yau threefold
+is to determine the physical (27)3 Yukawa couplings of the resulting four-dimensional N = 1
+theory. In general, the calculation necessitates knowledge of the Ricci-flat metric. However,
+in the standard embedding, which references the tangent bundle, we can compute normalized
+Yukawa couplings from the Weil–Petersson metric on the moduli space of complex structure
+deformations of the Calabi–Yau manifold.
+In various examples (the Fermat quintic, the
+intersection of two cubics in P5, and the Tian–Yau manifold), we calculate the normalized
+Yukawa couplings for (2, 1)-forms using the Weil–Petersson metric obtained from the Kodaira–
+Spencer map. In cases where h1,1 = 1, this is compared to a complementary calculation based
+on performing period integrals.
+A third expression for the normalized Yukawa couplings
+is obtained from a machine learned approximate Ricci-flat metric making use of explicit
+harmonic representatives. The excellent agreement between the different approaches opens
+the door to precision string phenomenology.
+arXiv:2401.15078v2  [hep-th]  1 May 2024
+
+Contents
+1
+Introduction
+1
+2
+Heterotic Yukawa couplings
+4
+3
+Physical Yukawa couplings via the Kodaira–Spencer map
+7
+3.1
+Computing normalizations
+7
+3.2
+Constructing the Kodaira–Spencer map
+10
+4
+Numerical results
+13
+4.1
+Mirror of P5[3, 3]
+13
+4.2
+Quintic and the Gepner model Y4;5
+14
+4.3
+Tian–Yau quotient
+17
+5
+Machine learning harmonic representatives
+21
+5.1
+Preliminaries
+21
+5.2
+Harmonic objective
+22
+6
+Discussion and outlook
+24
+A Proofs of lemmas
+27
+1
+Introduction
+String theory on Calabi–Yau manifolds has offered the promise of deriving the complete
+structure of the Standard Model of particle physics from the compactification geometry [1].
+We focus here on the case of the “standard embedding” [1–6] of heterotic E8 ×E8 superstring
+theory on Calabi–Yau threefolds for which there are 1
+2|χ| generations of particles in the low-
+energy spectrum. A modern approach to model building, which invokes bundle structures,
+does not insist that the Euler characteristic χ = ±6 and is perhaps physically more appealing
+for string phenomenology as we can work with manifolds with a small number of moduli [7–
+11]. For reviews on the matter see, e.g., [12, 13].
+Viewed in this more general framework, the standard embedding is the case in which the
+vector bundle V is taken to be the tangent bundle of the Calabi–Yau compatification TX,
+– 1 –
+
+i.e., the holomorphic sheaf of vector fields on X whose connection solves the Hermitian Yang–
+Mills equations. The standard embedding provides fertile ground for study and is particularly
+amenable to numerical analysis. We start here as an initial step.
+By virtue of the Calabi–Yau manifold admitting a Ricci-flat metric in each K¨ahler class,
+compactification of the heterotic theory on such a geometry preserves N = 1 supersymmetry
+in the four-dimensional effective field theory. The Calabi–Yau threefold X is as well an SU(3)
+holonomy manifold. The commutant of SU(3) in E8 is E6, which embeds generations of the
+particle spectrum of the Standard Model in its 27 and 27 representations. An important
+question then is to determine the Yukawa couplings that describe how strongly the low-
+energy fields interact. The (27)3 couplings are topological (without the worldsheet instantons
+included), whereas the (27)3 couplings require knowledge of the complex geometry of the
+Calabi–Yau space [14–16]. In this paper, we focus on the latter set of couplings, expressed in
+terms of forms resident in H2,1(X), to which we now turn. (For more details, see [3].)
+The Calabi–Yau condition is also equivalent to the existence of a nowhere vanishing
+holomorphic top form
+Ω(3,0) = 1
+3!Ωµνρ dzµ ∧dzν ∧dzρ ,
+(1.1)
+which provides for the isomorphism H2,1(X)
+Ω≈H1(X, TX). For a given (2, 1)-form, we can
+write an equivalent (0, 1) TX-valued form as
+1
+2!ωµνσ dzµ ∧dzν ∧dzσ
+←→
+dzσ(ωσµ = Ω
+µνρωνρσ)∂µ .
+(1.2)
+Schematically, the (27)3 couplings are
+κ =
+Z
+X
+Ω∧ωµ ∧ων ∧ωρ Ωµνρ .
+(1.3)
+These are the unnormalized Yukawa couplings: the integral depends only on the cohomology
+class of ω and not the actual representative. The normalized Yukawa couplings, corresponding
+to the physical couplings of the model, demand a diagonalization of the kinetic terms. In
+general, calculating the normalized couplings requires using the Ricci-flat Calabi–Yau metric
+in order to choose particular harmonic representatives.
+This complication is circumvented in the standard embedding V ∼= TX. In this case,
+the deformations of V correspond one-to-one to the complex structure deformations of the
+base Calabi–Yau manifold, and the metric on the h2,1-dimensional space of deformations is
+the Weil–Petersson metric. The crucial fact is that the Weil–Petersson metric on the moduli
+space can be calculated without recourse to the Ricci-flat Calabi–Yau metric [17]. This is
+sufficient to calculate the normalized Yukawa couplings.
+– 2 –
+
+This effort is part of a program to improve numerical results in string phenomenology.
+These developments have been revived because machine learning provides good approxima-
+tions for Ricci-flat Calabi–Yau metrics [18–25] and more recently facilitates the computation
+of the spectrum of harmonic forms [26–29] that enter into the calculation of Yukawa couplings.
+In this work, we use numerical integration techniques to compute the field normalizations and
+the normalized Yukawa couplings for various heterotic compactifications in the standard em-
+bedding. Furthermore, we use a similar implementation as the one underlying the spectral
+neural network construction [24] in order to obtain harmonic, tangent bundle valued (0, 1)-
+forms. The explicit computation of the normalization for those objects requires the Ricci-flat
+Calabi–Yau metric.
+Our aim is to demonstrate that those normalization agree with the
+Weil–Petersson results.
+We consider two one-parameter Calabi–Yau threefolds, the intersection of two cubics in
+P5, the quintic hypersurface in P4 (and their mirrors) as well as the complete intersection
+Tian–Yau manifold. We shall compute the Weil–Petersson metric in two different ways: (i)
+via a Kodaira–Spencer map for all cases considered, and (ii) via the calculation of period
+integrals for Calabi–Yau spaces with h2,1 = 1 only.1
+In particular, we check that for the
+examples with h2,1 = 1 the Kodaira–Spencer and the period computations agree.
+This
+validates the Kodaira–Spencer algorithms implemented.
+These calculations are compared
+to each other and found to match the canonical computation, using the Ricci-flat Calabi–Yau
+metric that is calculated numerically using machine learning.
+Our work presents the first calculation of physically normalized Yukawa couplings for
+several complete intersection Calabi–Yau (CICY) manifolds with standard embedding, as
+well as a versatile extension of the Kodaira–Spencer method advanced by Keller–Lukic [31].
+The techniques are: firstly, more efficient than machine learning based methods, and secondly,
+more general than existing methods for computing analytically continued periods, which are
+anyway only feasible for a small number of moduli.
+The organization of the paper is as follows. In Section 2, we sketch the general com-
+putation of Yukawa couplings associated to H2,1(X). Recalling that tangent bundle valued
+(0, 1)-forms are dual to (2, 1)-forms and that these span the massless degrees of freedom
+transforming as 27 under E6, we construct polynomial representatives for the (0, 1)-forms.
+In Section 3, we discuss the Kodaira–Spencer map and its use in the computation of the field
+normalizations (see Section 3.1). In Section 4, we present numerical results. For the mirror of
+the intersection of two cubics in P5, we compare the period integral result with the numerical
+integration that produces the Weil–Petersson metric and demonstrate the agreement of both
+1When h2,1 > 1, the analogous calculation requires solving Picard–Fuchs partial differential equations and
+is more complicated than the h2,1 = 1 case, where we essentially have an ordinary differential equation [30].
+– 3 –
+
+methods. We also compute the Yukawa coupling for this example and show that it agrees
+with the period result for any value of the modular deformation. In addition, we consider a
+Z5 × Z5 quotient of the Fermat quintic and the Z3 quotient of the Tian–Yau manifold. For
+the Fermat quotient, we compare the normalized Yukawa couplings to the conformal field
+theory computations [32] and show that the Kodaira–Spencer normalization produces the
+correct results. Similarly, for the Tian–Yau quotient, we contrast our computation with the
+unnormalized Yukawa couplings of [33]. For this case, we obtain the normalized couplings
+as well as their behavior along a modulus direction. Our methods are general and can be
+readily applied to the standard embedding of any complete intersection Calabi–Yau manifold.
+In Section 5, we discuss the method employed to search for the harmonic representatives and
+the direct computation of the normalizations which makes use of machine learned Ricci-flat
+metric. We discuss our implementation for the quintic and the bicubic. Finally, in Section 6,
+we present conclusions and prospects for future work.
+The numerical implementation of the Weil–Petersson metric as well as the calculation
+of approximate Ricci-flat Calabi–Yau metrics are part of a JAX [34] library called cymyc
+(Calabi–Yau Metrics, Yukawas, and Curvature) [35], to be released soon.
+Note added: One week after the first version of this preprint appeared on arXiv, the
+preprint [36] considered machine learning based calculation of physical Yukawa couplings in
+non-standard embeddings.
+2
+Heterotic Yukawa couplings
+Let us begin by considering the E8 ×E8 heterotic string compactified on a Calabi–Yau three-
+fold X. The compactification breaks E8 × E8 to a smaller subgroup. In order for N = 1
+supersymmetry to be preserved in the resulting four-dimensional effective theory, the struc-
+ture group H of a principal bundle V over X must be embedded into E8 × E8. The matter
+in four dimensions can be obtained from the corresponding decomposition of the E8 × E8
+adjoint representation.
+For simplicity, consider a subgroup G in a single E8 with G the commutant of H in E8,
+so that the effective gauge symmetry in four dimensions is G × E8. The matter in the visible
+sector is then supplied by the decomposition of the 248-dimensional adjoint representation of
+E8,
+248 = AdjE8 →(AdjH, 1) ⊕(1, AdjG)
+M
+i
+(R(i)
+H , R(i)
+G ) ,
+(2.1)
+– 4 –
+
+where R(i)
+H and R(i)
+G are suitable representations of H and G. More specifically, matter in the
+representation R(i)
+G of the effective gauge group is represented by harmonic (0, 1)-forms a(i)
+that take values in a vector bundle Vi,2 i.e., a(i) ∈H1(X, Vi).
+We discuss computation of the trilinear interaction terms. The holomorphic Yukawa cou-
+plings λ(a(i), b(j), c(k)) may be nonzero provided the tensor product R(i)
+G ⊗R(j)
+G ⊗R(k)
+G contains
+a G-invariant, and may be computed, generalizing (1.3), as
+κ(a(i), b(j), c(k)) =
+Z
+X
+Ω∧eΩ
+ a(i), b(j), c(k)
+,
+(2.2)
+where Ωis the holomorphic (3, 0) form and eΩ(a(i), b(j), c(k)) is the appropriate contraction
+with the (0, 1) V -valued forms, with eΩa suitable deformation of the standard Ωas long as Vi
+is a rank-3 deformation of TX. The couplings (2.2) only become the physical ones once we
+know the K¨ahler potential for the matter fields, which yields the corresponding kinetic terms.
+The low-energy effective action of an N = 1 theory is written as
+Seff =
+Z
+d4x
+Z
+d4θ K
+ Φa, Φb
++
+1
+4g2
+Z
+d2θ tr WαWα +
+Z
+d2θ W(Φa)
+
++ h.c.
+
+,
+(2.3)
+where Φa are chiral superfields and Wα is the gauge field strength associated to the vector
+superfield. The superpotential W(Φa) is a holomorphic function of the superfields and is gauge
+invariant with R-charge 2. The Yukawa couplings originate from this term in the effective
+action. The K¨ahler potential, which is explicitly not holomorphic, contains the kinetic terms:3
+K
+ Φa, Φb
+⊃Nab ΦaΦb + . . . .
+(2.4)
+The entries of the normalization matrix Nab are proportional to the inner product
+Nab ∼(a, b) =
+Z
+X
+a ∧¯⋆V b ,
+(2.5)
+between the harmonic representatives a, b of their respective classes in H1(X, Vi). Equipped
+with this inner product, starting from a given basis {a(i)
+k }h1(Vi)
+k=1
+, we may obtain an orthonor-
+mal basis {a(i)′
+k }h1(Vi)
+k=1
+via diagonalization of the normalization matrix induced by (2.5) and
+rescaling by the square root of the eigenvalues, i.e., the normalizations Na′
+k of each eigen-
+form a(i)′
+k . This change of basis converts the holomorphic Yukawa couplings into the physical
+Yukawa couplings, computed as
+Y
+ a(i) ′, b(j) ′, c(k) ′
+=
+R
+X Ω∧eΩ
+ a(i) ′, b(j) ′, c(k) ′
+R
+X Ω∧Ω
+.
+(2.6)
+2The index i denotes different bundles, such as V , V ∗, and V ⊗V ∗.
+3From the underlying worldsheet quantum field theory, this kinetic term normalization metric emerges as a
+two-point correlation function defining (the appropriate generalization of) the Zamolodchikov metric [37]. In
+the special case when Vi = TX, this equals the Weil–Petersson metric [38].
+– 5 –
+
+Reflecting on what we have discussed so far, we emphasize the following two points.
+• The computation of the holomorphic Yukawa couplings in (2.2) does not require knowl-
+edge of the harmonic representatives in H1(X, Vi), i.e., the unnormalized couplings are
+the same when computed using elements in the cohomology classes [a(i)], [b(j)], and
+[c(k)]. The calculation of λ is quasi-topological [39, 40].
+• This is not the case for the normalization (2.5), since the Hodge star ⋆V between har-
+monic bundle-valued forms requires knowledge of the Ricci-flat metric on X and the
+Hermitian structure on V . The calculation of κ requires geometric input.
+Here we briefly note that one requires geometric computations involving the metric to
+utilize the Ricci-flat representative for the K¨ahler class being considered in order for the
+metric on the Calabi–Yau complex structure moduli space to be K¨ahler, an argument we will
+make more precise in the discussion after Lemma 2.
+Let us now specialize to the case where H = SU(3), for which the adjoint decomposition
+takes the form
+248 →(78, 1) ⊕(1, 8) ⊕(27, 3) ⊕(27, 3) .
+(2.7)
+As E6 × SU(3) is a maximal subgroup of E8, we identify E6 as the GUT gauge group G.
+The number of 27 multiplets are counted by h1(V ) while the number of 27 multiplets are
+counted by h1(V ∗) = h2(V ). There might also be additional singlet fields corresponding to
+bundle moduli; these are counted by h1(V ⊗V ∗). In the standard embedding, the role of
+the holomorphic vector bundle V is played by the tangent sheaf TX, whose structure group
+is indeed SU(3). Setting V = TX implies that the difference between the number of massless
+27 and 27 representations is an index, half of the Euler characteristic. It also motivates the
+following lemma (see Appendix A for a detailed proof):
+Lemma 1. Let X be a Calabi–Yau manifold, then: H1(X, TX) ≃Hn−1,1
+∂
+(X) and the
+isomorphism is given by:
+[α] 7−→[Ω(α)] ,
+(2.8)
+where Ω∈Hn,0
+∂(X) is nowhere zero.
+For the particular case of Calabi–Yau threefolds, this implies the well-known isomor-
+phism H1(X, TX) ≃H2,1(X). Recall further that for this particular case, the pairing (2.5)
+becomes the Weil–Petersson metric on the Calabi–Yau complex structure moduli space (see
+also Definition 1 below),
+(a, b) =
+Z
+X
+a ∧¯⋆gb
+def
+= ⟨a, b⟩WP .
+(2.9)
+– 6 –
+
+This may be computed by exploiting the existence of the Ricci-flat metric without its
+direct invocation, owing to special geometry, as we shall see in the sequel.
+We are interested in the computation of Yukawa couplings of the form (27)3 which involve
+only elements in H1(X, TX). In this case, the pairing introduced in (2.2) can be written as
+eΩ(a, b, c)
+def
+= aµ ∧bν ∧cρ Ωµνρ ,
+(2.10)
+where the (3, 0)-form Ωacts by contraction on the V3 TX-valued (0, 3)-form to give an or-
+dinary, C-valued (0, 3)-form. If we take an orthogonal basis {ak}h1(TX)
+k=1
+the corresponding
+normalized Yukawa couplings take the form
+Yijk =
+Z
+X
+Ω∧eΩ(ai, aj, ak)
+p
+NiNjNk
+Z
+X
+Ω∧Ω
+.
+(2.11)
+3
+Physical Yukawa couplings via the Kodaira–Spencer map
+3.1
+Computing normalizations
+In order to discuss the computation of the canonical normalization matrix via the Weil–
+Petersson metric (2.9), we briefly recall some facts on the metric on the complex structure
+moduli of a Calabi–Yau manifold X with K¨ahler class [ω] ∈H1,1
+∂(X). We shall mostly follow
+the notation of [41]. Let us start by considering a complex analytic family (in the sense of
+Kodaira and Spencer [42], for more details see: [43]) (X, B, ϖ) of Calabi–Yau manifolds over
+a base B such that 0 ∈B ⊆Cdim H1(X,TX) with projection map ϖ: X →B and Xt := ϖ−1(t)
+with X := X0. Recall that the Weil–Petersson metric ⟨−, −⟩WP on the moduli space T0B of
+complex deformations of X can be written as a K¨ahler metric such that X0 = X and [ωt] = [ω].
+We shall refer to this family as a polarized complex analytic family, with polarization induced
+by [ω].
+Definition 1. Let gt ∈[ω] denote the unique Ricci-flat metric on Xt ∈X in the polarized
+complex analytic family (X, B, ϖ). The Weil–Petersson metric is then defined as:
+⟨a, b⟩WP =
+Z
+Xt
+ρ(a) ∧⋆gtHρ(b) ,
+(3.1)
+where ρ: TtB →H1(X, TX) is the Kodaira–Spencer map [42, 43] and H: Hp,q
+∂(X) →
+Hp,q
+∂(X) is the harmonic projection.
+The Kodaira–Spencer map can be defined in the following manner: Let {Uj} be a finite
+cover of Xt with local coordinates {z1
+j , . . . , zn
+j } such that for every Uj ∩Uk̸ = ∅the gluing
+– 7 –
+
+maps are given by fjk : B × Uk →Uj. Then, the Kodaira–Spencer map is defined as follows:
+ρ
+ ∂
+∂t
+
+=
+"(
+∂fµ
+jk(zk, t)
+∂t
+∂
+∂zµ
+j
+)#
+,
+where zk = fkj(zj, t) .
+(3.2)
+Note that from [41] we have im ρ ⊆H1(X, TX)ω where H1(X, TX)ω is the subspace of
+polarization preserving deformations: [ϕ] ∈H1(X, TX)ω if [ω(ϕ)] = 0. It can be shown that
+if ϕ ∈[ϕ] is harmonic, then gt(ϕ) = 0 identically [44]. This leads to the following lemma:
+Lemma 2. Let Ω∈Hn,0
+∂(Xt) where n = dim Xt, be non-zero, then:
+⟨a, b⟩WP = −
+Z
+Xt
+Ω(Hρ(a)) ∧Ω(Hρ(b))
+Z
+Xt
+Ω∧Ω
+Z
+Xt
+volgt .
+(3.3)
+Proof. See Appendix A or Refs. [41, 45].
+At first glance, it may seem that evaluation of (3.1) requires the metric gt on Xt, which
+also induces a metric on Ω0,1(TXt). However, the Ricci-flatness consequence volgt ∝Ωt ∧Ωt
+ensures (2.5) may be expressed in terms of the standard cup product on Hp,q
+¯∂(Xt) with
+p + q = n.
+Since our numerical methods use representatives of the Kodaira–Spencer classes ρ(a) ∈
+H1(X, TX) which are not necessarily harmonic, the polarization-preserving condition gt(ϕ) =
+0 is not necessarily guaranteed to hold. We therefore show explicitly, at the level of forms,
+that the Weil–Petersson metric may be computed with arbitrary representatives. We shall
+first briefly recall the explicit construction of the Kodaira–Spencer class:
+Recall that for any t, t′ ∈B, we have Xt ≃Xt′ diffeomorphic as real manifolds. For
+simplicity, let t′ = 0, and denote the diffeomorphism by:
+ζt : X
+≃
+−→Xt .
+(3.4)
+Then, the corresponding infinitesimal deformation ξ to ζt at t = 0 is a set of non-holomorphic
+vector fields: ξ = {ξj}j defined on a finite open cover {Uj}j of X. Then, we may construct
+Kodaira–Spencer class corresponding to ξ using ˇCech co-cycle defined by:
+[{∂ξj}j] ∈ˇH1(X, TX) ≃H1(X, TX) .
+(3.5)
+From the results of [41, 45], the ⟨−, −⟩WP is shown to be a K¨ahler metric with the local
+K¨ahler potential given by the canonical intersection pairing on Hn,0
+∂(X). We shall show that
+– 8 –
+
+such identification can also be computed with arbitrary representatives without application of
+harmonic projections. In particular, let Ω(t) be a holomorphic n-form on the total space which
+is smoothly varying with respect to the deformation parameter t ∈B of the polarized complex
+analytic family (X, B, ϖ) and restricts to a non-zero holomorphic (n, 0) form Ωt ∈Hn,0
+∂(Xt)
+on each fibre. Then one has the following decomposition:
+dΩt
+dt
+
+t=0
+= Ω′ + Ω(ϕ) ∈Γ(X, Ωn,0) ⊕Γ(X, Ωn−1,1),
+respectively,
+(3.6)
+where ϕ ∈H1(TX) is a representative of the Kodaira–Spencer class. The arguments of [41,
+44, 45] apply the harmonic projection to ϕ to show that Ω′ is holomorphic. Since the general
+numerical methods that we consider do not compute harmonic representatives, we show that
+the result holds true for an arbitrary choice of the representatives, when the (n, 0) part Ω′ of
+the variation in the canonical holomorphic form is not necessarily holomorphic.
+Theorem 1. The identification of ⟨−, −⟩WP with the K¨ahler metric using (3.6) is true
+for an arbitrary choice of representatives of the Kodaira–Spencer class.
+Proof. Let (−, −) denote the intersection pairing on Hp,q
+∂(X) with p + q = n:
+(α, β) =
+Z
+X
+α ∧β .
+(3.7)
+Then, without loss of generality, we shall show that:
+⟨a, a⟩WP
+Z
+X
+volg
+=
+dΩt
+dt
+
+t=0
+, dΩt
+dt
+
+t=0
+
+(Ω, Ω)
++
+
+
+Ω, dΩt
+dt
+
+t=0
+
+2
+(Ω, Ω)2
+,
+(3.8)
+where the decomposition (3.6) is arbitrary and a ∈T0B such that ρ(a) = [ϕ]. This implies that
+the terms in (3.8) due to the Γ(X, Ωn,0) component of the decomposition (3.6) are not necessarily
+zero. Recall that closure is a topological condition; we have: dΩt = 0 for all t, which implies:
+∂Ω′ + ∂Ω′ + ∂(Ω(ϕ)) = 0 .
+(3.9)
+Note that deg ∂Ω′ = (n + 1, 0) whereas deg ∂Ω′ = deg ∂(Ω(ϕ)) = (n, 1), thus ∂Ω′ = 0 due to the
+Hodge decomposition. Let ψ ∈Γ(X, Ωn−1,0) be such that:
+Ω(ϕ) + ∂ψ = HΩ(ϕ) ,
+(3.10)
+whose existence is guaranteed by the Hodge theorem. Then, by combining (3.9) and (3.10) we
+obtain:
+∂Ω′ + ∂(Ω(ϕ)) + ∂∂ψ −∂∂ψ = ∂(Ω′ + ∂ψ) + ∂H(Ω(ϕ)) = 0 .
+(3.11)
+– 9 –
+
+However, using K¨ahler identities, we have: ∂H(Ω(ϕ)) = 0, thus Ω′ + ∂ψ = cΩfor some constant
+c ∈C by compactness. Thus, to show that (3.8) is true, it remains to compute the intersection
+products. In particular, we have:
+dΩt
+dt
+
+t=0
+, dΩt
+dt
+
+t=0
+
+= (Ω′, Ω′) + (Ω(ϕ), Ω(ϕ)) ,
+(3.12)
+where the (Ω′, Ω′) can be decomposed as:
+(Ω′, Ω′) = (cΩ−∂ψ, cΩ−∂ψ) = |c|2(Ω, Ω) + (∂ψ, ∂ψ) ,
+(3.13)
+where we have used ∂Ω= 0.
+Note that (∂ψ, ∂ψ) is not necessarily zero.
+Similarly, we may
+decompose (Ω(ϕ), Ω(ϕ)) as:
+(Ω(ϕ), Ω(ϕ)) = (HΩ(ϕ) −∂ψ, HΩ(ϕ) −∂ψ) = (HΩ(ϕ), HΩ(ϕ)) + (∂ψ, ∂ψ) ,
+(3.14)
+where we have used the harmonicity condition. A simple integration by parts argument and ap-
+plication of Stokes’ theorem gives: (∂ψ, ∂ψ) = −(ψ, ∂∂ψ) and (∂ψ, ∂ψ) = −(ψ, ∂∂ψ) = (ψ, ∂∂ψ),
+thus, we have:
+dΩt
+dt
+
+t=0
+, dΩt
+dt
+
+t=0
+
+= |c|2(Ω, Ω) +
+ HΩ(ϕ), HΩ(ϕ)
+
+.
+(3.15)
+Finally, we have:
+dΩt
+dt
+
+t=0
+, Ω
+
+= (Ω′, Ω) = (cΩ−∂ψ, Ω) = c(Ω, Ω) .
+(3.16)
+From this, direct calculation shows that:
+−
+dΩt
+dt
+
+t=0
+, dΩt
+dt
+
+t=0
+
+(Ω, Ω)
++
+
+
+Ω, dΩt
+dt
+
+t=0
+
+2
+(Ω, Ω)2
+= −
+ HΩ(ϕ), HΩ(ϕ)
+
+(Ω, Ω)
+.
+(3.17)
+The result then follows from the statement of Lemma 2, where we have used the fact that
+H(Ω(ϕ)) = Ω(Hϕ), which follows from Ricci-flatness of Xt [45].
+3.2
+Constructing the Kodaira–Spencer map
+In this section we shall briefly review the method described in [31] and show that it naturally
+generalizes to Calabi–Yau complete intersections. The main idea described in [31] is to find
+explicit form of the decomposition: (3.6) and then apply numerical integration techniques to
+compute the canonical intersection pairings (3.17). As described in Section 3.1, the (n, 0)-
+terms in the decomposition (3.6) now contribute non-trivially to the Weil–Petersson metric
+and both components must be computed explicitly.
+First, let us briefly set up the notation defining the complete intersection Calabi–Yau X.
+Recall that the information defining X can be given as a configuration matrix:
+X =
+
+
+n1
+...
+nm
+q1
+1 . . . q1
+K
+...
+...
+...
+qN
+1 . . . qN
+K
+
+,
+(3.18)
+– 10 –
+
+where, after fixing the point in the complex structure moduli, the defining equations are
+given by polynomials: {pj}K
+j=1 of appropriate degrees specified by (3.18). To describe the
+deformations of X, we may identify H1(TX) with a quotient [46]:
+H1(TX) ≃
+K
+M
+l=1
+H0(X, OX(ql))
+
+∼
+∋F .
+(3.19)
+Thus, suppose ζt : X −→Xt denotes the diffeomorphism induced by the deformation F
+in (3.19), then we have pj(ζt) + tFj(ζt) = 0 for all j ∈{1, . . . , K}. Let {Zj}M
+j=1 for M =
+n1 + · · · + nN be the set of local coordinates on the ambient space: A = Pn1 × · · · × PnN .
+Let ξ ∈TX be the generator of the diffeomorphism corresponding to F. Note that ξ is a
+non-holomorphic section of TA that satisfies:
+∂pj
+∂Zk ξk + Fj = 0,
+for all j ∈{1, · · · , K} .
+(3.20)
+From above it follows that the solution for ξ is not unique.
+In [15, 31] the authors give
+examples of particular solutions to (3.20). We shall instead derive a general solution. Let
+Jac(p) denote the matrix {∂pj/∂Zk}j,k. Then, after fixing a metric g on the ambient space,
+it suffices to compute Moore–Penrose pseudoinverse with respect to metric g and kernel of
+Jac(p). Explicitly, the right pseudoinverse Jac(p)+ with respect to g is given by:
+Jac(p)+ = Jac(p) ·
+ Jac(p) · Jac(p)
+−1 ,
+(3.21)
+where all inner products are induced by the metric g. Thus, a general solution to (3.20) is
+given by:
+ξk = (Jac(p)+)kjFj +
+X
+i
+ciχk
+i ,
+for ci ∈C ,
+(3.22)
+where C{χi}i = ker Jac(p). Note that the expressions given in [15, 31] correspond to the
+coefficients ci = 0 (3.22), but they differ by the choice of the metric g on the ambient space.
+From the non-holomorphic local vector field ξ corresponding to the deformation F, we
+may compute the Kodaira–Spencer class using the method described in Section 3.1 as:
+ρ
+ ∂
+∂t
+
+=
+
+∂ξ
+
+.
+(3.23)
+Which allows us to compute unnormalized Yukawa coupling using the Kodaira–Spencer map
+in the following manner, let ξi be the vector field corresponding to ρ(∂/∂ti), then, the unnor-
+malized Yukawa coupling κijk is given by the following integral:
+κijk =
+Z
+X
+Ωαβγ
+∂ξα
+i
+∂zµ
+∂ξβ
+j
+∂zν
+∂ξγ
+k
+∂zδ Ω∧dzµ ∧dzν ∧dzδ
+(3.24)
+– 11 –
+
+Thus, what remains to compute is the decomposition (3.6). In the case of hypersurfaces,
+this has been done in [31]. We show that this naturally generalizes to arbitrary complete
+intersections with codim > 1.
+This can be done by differentiating the Poincar´e residue
+equation. First, note that for a sufficiently small t > 0, the vector field ξ in TA induces an
+automorphism of the ambient space A:
+A
+At
+X
+Xt
+ˇζt
+ζt
+(3.25)
+Let Ut ⊂At be some open set, and pick local coordinates (Z1
+t , . . . , ZM
+t ) on Ut, such that
+Zj
+0 = Zj for all j, where M = dim At. Using the adjunction formula, we may relate canonical
+bundles of Xt and At as: KXt = KAt ⊗det
+
+NXt|At
+	
+Xt, which leads to:
+Ωt ∧dp1
+t ∧· · · ∧dpK
+t = dZ1
+t ∧· · · ∧dZM
+t
+,
+(3.26)
+where Ωt ∈Γ(Xt, KXt). Following [31], we consider perturbation of (3.26) at t = 0 in the
+direction ξ ∈TA. In particular, we have:
+d
+dt
+ dZ1
+t ∧· · · ∧dZM
+t
+ 
+t=0
+= d
+dt det
+
+δj
+k + t ∂ξj
+∂Zk
+
+j,k
+
+t=0
+dZ1 ∧· · · ∧dZM+
+(3.27)
++
+M
+X
+j,k=1
+∂ξj
+∂Z
+k dZ1 ∧· · · ∧d
+dZj ∧dZ
+k ∧· · · ∧dZM .
+Furthermore, note that:
+d
+dt(dpj
+t)
+
+t=0
+= d
+ ∂pj
+∂Zk ξk + F j
+
+= 0 ,
+(3.28)
+where we have used (3.20). This implies that: dp1
+t ∧· · · ∧dpK
+t = dp1 ∧· · · ∧dpK. Thus, the
+derivative (3.6) satisfies the following relation:
+dΩt
+dt
+
+t=0
+∧dp1 ∧· · · ∧dpK
+
+X
+= Tr Jac(ξ) dZ1 ∧· · · ∧dZK
+
+X
++
+(3.29)
++
+M
+X
+j,k=1
+∂ξj
+∂Z
+k dZ1 ∧· · · ∧d
+dZj ∧dZ
+k ∧· · · ∧dZM
+
+X
+.
+Let α ∈Γ(X, Ωn,0) and β ∈Γ(X, Ωn−1,1) be the (n, 0) and (n −1, 1) terms in the decompo-
+sition (3.6), respectively. Then, the forms can be expanded as:
+α = f(Z)dZ1 ∧· · · ∧dZn,
+β =
+n
+X
+j,k=1
+gj
+k(Z)dZ1 ∧· · · ∧d
+dZj ∧· · · ∧dZn ∧dZ
+k .
+(3.30)
+– 12 –
+
+Combining (3.30) and (3.26) and solving for f(Z) we obtain:
+f(Z) = Tr Jac(ξ)
+.
+det
+
+∂pj
+∂Zn+k
+K
+j,k=1 .
+(3.31)
+Similarly, solving for gj
+k(Z), we obtain:
+gj
+k(Z) =
+(−1)n−j
+det
+
+∂pj′
+∂Zn+k′
+K
+j′,k′=1
+"
+∂ξj
+∂Z
+k +
+K
+X
+l=1
+∂ξj
+∂Z
+n+l
+∂Z
+n+l
+∂Z
+k
+#
+,
+(3.32)
+where we have applied pullback i: X ,→A as:
+i∗dZ
+n+l =
+n
+X
+k=1
+∂Z
+n+l
+∂Z
+k dZ
+k .
+(3.33)
+Combining the results, we see that (3.31) and (3.32) are natural generalizations of the results
+of [31] in the case of K > 1.
+4
+Numerical results
+Here we compute the Weil–Petersson metric using the Kodaira–Spencer map, and thereby
+obtain the physical Yukawa couplings, for a range of different complete intersection Calabi–
+Yau manifolds. This requires the numerical evaluation of integrals over the Calabi–Yau fibres
+Xt, which are approximated by Monte Carlo integration over Xt,
+Z
+Xt
+volgtf ≃1
+N
+N
+X
+k=1
+f(p(t)
+k ) ,
+(4.1)
+where the distribution of the random points {p(t)
+k }N
+k=1 is chosen to be uniform with respect
+to the Fubini–Study metric on the embedding space Pn1 × · · · × PnK ⊃Xt [47, 48]. Here
+N = 250, 000 in all experiments unless stated otherwise. All computations are performed
+using our JAX library [24] and some make use of the point sampling package of cymetric [23].
+4.1
+Mirror of P5[3, 3]
+Consider the Calabi–Yau threefold X belonging to the deformation space P5[3, 3] via the
+following system of defining equations:
+x3
+0 + x3
+1 + x3
+2 −3ψ x3x4x5 = 0 ,
+x3
+3 + x3
+4 + x3
+5 −3ψ x0x1x2 = 0 .
+(4.2)
+This space has h2,1 = 73 and h1,1 = 1 and it is a member of the one parameter family of
+Calabi–Yau manifolds considered, e.g., in [49]. Its mirror, e
+X (with swapped Hodge numbers),
+– 13 –
+
+is constructed as a blowup of a finite quotient of this same zero-locus. That way, the complex
+structure parameter ψ in the description of X one-to-one corresponds to the K¨ahler class
+of the mirror, e
+X. Note however that the limit ψ →0 makes the intersection of the two
+quadrics (4.2) (as well as their finite quotient) singular along a network of curves.
+This
+singularization of both X and e
+X gives rise to the pole-singularity at ψ →0 seen in the plots
+in Figure 1 and Figure 2.
+The grid of points in Figure 1 corresponds to the Kodaira–Spencer computation, and
+we observe good agreement between the two methods.
+The modulus dependent Yukawa
+coupling is presented in Figure 1(b) where we again obtain a matching of the results from
+both techniques.
+Re(ψ)
+0.0
+0.5
+1.0
+1.5
+2.0
+Im(ψ)
+−2.0
+−1.5
+−1.0
+−0.5
+0.0
+WP(ψ)
+0.0
+0.2
+0.4
+0.6
+0.8
+WP using periods
+Numerical WP
+(a) Weil–Petersson metric
+Re(ψ)
+0.0
+0.5
+1.0
+1.5
+2.0
+Im(ψ)
+−2.0
+−1.5
+−1.0
+−0.5
+0.0
+WP(ψ)
+0
+1
+2
+3
+4
+5
+Yukawa using periods
+Numerical Yukawa
+(b) Normalized Yukawa coupling
+Figure 1: Comparison of the Weil–Petersson metrics (a) and the normalized Yukawa couplings
+(b) on a uniform grid in (r, θ) on the disc {z ∈C | |z| ≤2}, computed using periods with the
+method described in Section 3.2 for the mirror of P5[3, 3].
+4.2
+Quintic and the Gepner model Y4;5
+One of the simplest exactly soluble models is given by a Gepner model Y4;5 [32, 50–52], which
+corresponds to a specific point in the moduli of the quintic threefold P4[5]. It has been shown
+in [32] that the normalized Yukawa couplings can be expressed as powers of a constant κ
+given by a ratio of Γ-functions:
+κ =
+Γ(3/5)3Γ(1/5)
+Γ(2/5)3Γ(4/5)
+1/2
+≈1.09236 .
+(4.3)
+– 14 –
+
+0.25
+0.50
+0.75
+1.00
+1.25
+1.50
+1.75
+2.00
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+gψψ
+Singular point:
+ψ = 1
+ψ
+WP using periods
+Numerical WP
+Figure 2: Comparison of the period (solid blue line) vs. the Kodaira–Spencer computation for
+the Weil–Petersson metric on the intersection of two cubics (4.2) using points between (0.01, 2)
+along the line Im(ψ) = 0. The red vertical line indicates the logarithmic singularity at ψ = 1.
+In particular, in the model Y4;5, we consider a quintic threefold X defined as a zero locus
+of Fermat quintic Z5
+0 + · · · + Z5
+4 = 0 under quotient G = Z5 × Z′
+5. The resulting Calabi–
+Yau manifold has h1,1(X/G) = 1 and h2,1(X/G) = 5 and Euler number −200/(5 × 5) = −8
+(see: [53, 54]) hence a heterotic string compactification with standard embedding will yield
+four chiral generations. One can show that the group G is freely acting, with its generators
+being
+Z5 :
+zj →αjzj ,
+(4.4)
+Z′
+5 :
+zj →zj+1 ,
+(4.5)
+The monomial representatives of the H2,1(X/G) ≃H1(TX/G) are shown in Table 1.
+The Yukawa couplings for the Gepner model Y4;5 were already computed in [32]. We want
+to employ the method described in Section 3.2 in order to make a direct comparison. We first
+show that monomial families in Table 1 indeed form an orthogonal basis. In the basis of 1, the
+Weil–Petersson metric entries are given in the grayscale grid of Figure 3. Evidently, the off-
+diagonal components vanish, wherefore the Yukawa couplings can be computed using (2.11).
+– 15 –
+
+Family
+Monomial F
+Comment
+1
+Z2
+i Z3
+j
+i̸ = j
+2
+ZiZjZ3
+k
+i̸ = j̸ = k
+3
+ZiZ2
+j Z2
+k
+i̸ = j̸ = k
+4
+ZiZjZkZ2
+l
+i̸ = j̸ = k̸ = l
+5
+Z0Z1Z2Z3Z4
+–
+Table 1:
+Monomial representatives of H1(TX/G) under identification (3.19) for the Gepner
+model Y4;5.
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+0.000
+0.002
+0.004
+0.006
+0.008
+0.010
+Figure 3: Numerical values of the normalization matrix Nij = ⟨bi, bj⟩WP for the Gepner model
+Y4;5.
+Using numerical integration techniques, we compute the 95% confidence intervals of the
+values for the normalized Yukawa couplings for the quintic quotient model. In Figure 4 we
+contrast our results with those of [32].
+Y1,1,2
+Y1,2,3
+Y1,3,4
+Y2,2,2
+Y2,2,3
+Y2,3,3
+Y2,3,4
+Y2,4,4
+Y3,3,4
+Y3,3,5
+Y3,4,4
+Y4,4,4
+Y4,4,5
+Y5,5,5
+1.0
+1.2
+1.4
+1.6
+Numerical Yijk
+Expected Yijk
+1.190
+1.195
+Y2,4,4
+Figure 4: Comparison of the numerical normalized Yukawa couplings of for the Gepner model
+Y4;5 with the exact results in [32]. The error bars indicate the 95% confidence interval.
+– 16 –
+
+As can be observed in Figure 4, the numerical values computed using the methods de-
+scribed in the Section 3.2 are within the margin of the error of the exact results computed in
+the work [32].
+Finally, note that the coupling corresponding to the family 5 in Table 1 matches the
+coupling of the mirror quintic e
+X which has h2,1( e
+X) = 1.
+In particular, recall that the
+invariant/normalized Yukawa coupling defined in [55] attains value of κ5 at Landau–Ginzburg
+point in the complex structure moduli of e
+X. From Figure 4, the numerical value corresponding
+to this family is:
+Y5,5,5 = 1.550 ± 0.002 ,
+(4.6)
+which is close to the exact value of κ5 ≈1.555.
+4.3
+Tian–Yau quotient
+We start with a complete intersection in P3 × P3 given by the following configuration matrix
+X =
+"
+3
+3
+3 1 0
+0 1 3
+#
+.
+(4.7)
+All manifolds in this deformation class have Hodge numbers h1,1 = 14 and h1,2 = 23, and so
+χ = −18. To be specific, we choose the defining polynomials to be of the form
+p1 = 1
+3
+ x3
+0 + x3
+1 + x3
+2 + x3
+3
+
+= 0 ,
+(4.8a)
+p2 = x0y0 + x1y1 + x2y2 + x3y3 = 0 ,
+(4.8b)
+p3 = 1
+3
+ y3
+0 + y3
+1 + y3
+2 + y3
+3
+
+= 0 ,
+(4.8c)
+where, following the notation of [33] we take x and y to denote coordinates in the first and
+second P3s respectively. The manifold (4.8) has a freely acting Z3 symmetry specified as
+follows
+(x0, x1, x2, x3) →(x0, α2x1, αx2, αx3) ,
+(y0, y1, y2, y3) →(y0, αy1, α2y2, α2y3) ,
+(4.9)
+with α = e2πi/3. The Tian–Yau manifold is constructed by quotienting out the freely acting
+Z3 symmetry (4.9), yielding a quotient Calabi–Yau manifold with χ = −6 [4, 56].
+Similarly as in the case of the quintic threefold discussed in Section 4.2, we consider
+the orthogonal basis of H1(TX/Z3) specified by the corresponding monomial representatives
+shown in Table 2, constructed by Gram–Schmidt orthogonalization using the inner product
+defined by the Weil–Petersson metric.
+– 17 –
+
+Family
+Monomial F
+λ1
+x0x1x2 e1
+λ2
+x0x1x3 e1
+λ3
+y0y1y2 e3
+λ4
+y0y1y3 e3
+λ5
+x3y3 e2
+λ6
+1
+√
+8(x3y3 + 3x2y2) e2
+λ7
+r
+3
+8(x0y0 −x1y1) e2
+λ8
+x2y3 e2
+λ9
+x3y2 e2
+Table 2: Monomial representatives of H1(TX/Z3) considered in [33] under identification (3.19).
+The eigenmodes λ6 and λ7 are normalized with respect to the Weil–Petersson metric for Z3
+quotient of the Tian–Yau manifold.
+In Table 2 we have chosen {ej}j to be such that NX|P3×P3 ≃O(3, 0) e1 ⊕O(1, 1) e2 ⊕
+O(0, 3) e3. Using the numerical method discussed in Section 3.2, we compute the unnormal-
+ized Yukawa couplings:
+κijk =
+Z
+X/Z3
+Ω∧Ω(λi, λj, λk) ,
+(4.10)
+and verify the results by comparing the ratios to the Table 3 of [33]. In particular, the values
+of bκijk
+def
+= κijk/κ111 computed numerically using (4.10) and compared to [33] are shown in
+Figure 5, where we observe an exact match of the results.4
+Before computing the normalized Yukawa couplings, we first verify that the basis specified
+in Table 2 is indeed orthogonal. In particular, we plot the numerical values of the Weil–
+Petersson metric Nij := ⟨λi, λj⟩WP in Figure 6. As can be observed in Figure 6, the basis
+{λj}j of H1(TX/Z3) is indeed orthogonal.
+This then allows us to use (2.11) to compute
+normalized Yukawa couplings. We show the numerical results in Figure 7.
+Further we compute the moduli dependent normalized and unnormalized Yukawa cou-
+plings. Consider the following deformation of p2 (cf., (4.8b) above, following [57, Eq. (1)]):
+p2 = x0y0 + x1y1 + (1 + ϵ)(x2y2 + x3y3) = 0 ,
+ϵ ∈R .
+(4.11)
+In Figure 8, we present the ϵ-dependent couplings κaaa, using the basis of [57] and focusing
+on 0 ≤ϵ ≤2; note that this basis differs from the one shown in Table 2. The couplings
+4Except for κ246, which is incorrectly given in [33] to be 0, when it should equal
+√
+8 µ in their notation.
+– 18 –
+
+bκ1,1,1
+bκ2,2,2
+bκ3,3,3
+bκ4,4,4
+bκ5,5,5
+bκ6,6,6
+bκ7,7,7
+bκ8,8,8
+bκ9,9,9
+bκ1,3,5
+bκ1,3,6
+bκ1,3,7
+bκ2,4,5
+bκ2,4,6
+bκ2,4,7
+bκ1,4,9
+bκ2,3,8
+bκ6,6,5
+bκ7,7,5
+bκ7,7,6
+bκ5,6,7
+0
+1
+2
+3
+Numerical bκijk
+Expected bκijk
+0.98
+1.00
+1.02
+bκ9,9,9
+Figure 5: Comparison of the unnormalized Yukawa couplings for the Z3 quotient of the Tian–Yau
+manifold Tian–Yau manifold with the results of [33]. The error bars indicate the 95% confidence
+interval.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0.00
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+Figure 6: Numerical values of the normalization matrix Nij = ⟨λi, λj⟩WP for the Z3 quotient
+of the Tian–Yau manifold (4.7).
+Y1,1,1
+Y2,2,2
+Y3,3,3
+Y4,4,4
+Y5,5,5
+Y6,6,6
+Y7,7,7
+Y8,8,8
+Y9,9,9
+Y1,3,5
+Y1,3,6
+Y1,3,7
+Y2,4,5
+Y2,4,6
+Y2,4,7
+Y1,4,9
+Y2,3,8
+Y6,6,5
+Y7,7,5
+Y7,7,6
+Y5,6,7
+0
+1
+2
+3
+Unnormalized Yijk
+Normalized Yijk
+Figure 7: The changes induced by the numerical normalization on the Yukawa couplings for the
+Z3 quotient of the Tian–Yau manifold (4.7) are indicated by the red arrows.
+– 19 –
+
+0.00
+0.25
+0.50
+0.75
+1.00
+1.25
+1.50
+1.75
+2.00
+−1
+0
+1
+2
+3
+4
+bκ222(ϵ)
+bκ555(ϵ)
+bκ888(ϵ)
+ϵ
+Figure 8: Nonzero ‘cubic’ Yukawa couplings, bκaaa = κaaa/κ111 for the Z3 quotient of the Tian–
+Yau manifold using 128 points in moduli space uniformly distributed between (0.01, 2) along the
+line 0 ≤ϵ ≤2. Solid lines denote expected results from [57], while dotted points represent our
+numerical computation.
+(κ111, κ222, κ333, κ444) and (κ777, κ888) are respectively degenerate while the others vanish, in
+agreement with the results in [57]. In Figure 9, we plot the absolute value of the normalized
+Yukawa couplings on a logarithmic scale.5
+Post-normalization, we note that as ϵ increases, a hierarchy between Y5 = Y555 and the
+other couplings develops,6 and they appear to converge to different values in the large-ϵ
+regime. Looking at the logarithmic plot of the absolute values for the normalized Yukawa
+couplings we identify a hierarchy of 102 in the couplings. We defer a further analysis of the
+phenomenological implications of this large-ϵ hierarchy, as well as the bκ222/bκ555“crossover”
+near ϵ ≈0.15 in Figure 8 to a later effort; for an early phenomenological discussion at the
+level of the unnormalized Yukawa textures, see also [57].
+5Plotting absolute values shows an artificial “crossover” near ϵ ≈0.20: In fact, Y888 and Y555 have op-
+posite signs and never coincide. In turn, the physical normalization moves the actual Y222/Y555 “crossover”
+coincidence from ϵ ≈0.15 in Figure 8 to ϵ ≈0.05 in Figure 9.
+6Similar hierarchies appearing after normalization have been observed for toroidal orbifolds [58].
+– 20 –
+
+0.00
+0.25
+0.50
+0.75
+1.00
+1.25
+1.50
+1.75
+2.00
+10−1
+100
+Y222(ϵ)
+Y555(ϵ)
+Y888(ϵ)
+ϵ
+Figure 9: Normalized Yukawa couplings for the Z3 quotient of the Tian–Yau manifold, smoothed
+using the Savitzky–Golay filter of window size 8 and polynomial order 3 to remove noise due to
+numerical integration in the computation of the Weil–Petersson metric. Notice the onset of a
+large-ϵ hierarchy.
+5
+Machine learning harmonic representatives
+5.1
+Preliminaries
+Given a Calabi–Yau (X, g, ω), we wish to obtain an expression for forms which are harmonic
+with respect to the unique Ricci-flat metric gt in each K¨ahler class. Consider the complex
+analytic family (X, B, π) such that π−1(0)
+def
+= X0 = X. Any two fibres in this family are
+diffeomorphic as real manifolds, X0 ≃Xt. The corresponding generator ξ, of the infinitesimal
+diffeomorphism is a non-holomorphic section of TX0. In what follows we let (E, G) denote
+a holomorphic vector bundle over X equipped with a Hermitian structure, which may be
+considered the data of a smoothly varying Hermitian inner product G on each fibre Ex.
+Recall ¯∂E : Ωp,q(E) →Ωp,q+1(E) is the natural generalisation of the Dolbeault operator to
+holomorphic bundle-valued forms Ωp,q(E). For the case where E is the holomorphic tangent
+bundle TX, the K¨ahler metric g plays the role of the fibre metric G. In what follows we
+identify E with TX, although in principle our method may be reproduced for an arbitrary
+holomorphic vector bundle if the Hermitian inner product G is known.
+We may obtain a basis for TtB ≃H1(X, TX) by first computing ξ(z, ¯z) in local holomor-
+phic coordinates {zi}n
+i=1 on U ⊂X0. Then one obtains a representative of the corresponding
+Kodaira–Spencer class as ϕ = ϕµ
+ν d¯zν ⊗
+∂
+∂zµ
+def
+= ¯∂Eξ ∈H1(X, TX), where ϕµ
+ν d¯zν = ¯∂ξµ. Note
+[ϕ]̸ = 0 as ξ is not globally defined. By Hodge theory, every cohomology class contains a
+– 21 –
+
+unique harmonic representative η, related to ϕ through an ¯∂E-exact correction:
+η = ϕ + ¯∂E s ∈H0,1
+¯∂(X, TX) ,
+s ∈C∞(TX) ,
+(5.1)
+where s is a non-holomorphic section of TX. Note that ¯∂E η = 0 locally by construction and
+thus the harmonicity condition reduces to ¯∂†
+Eη = 0, which we encode numerically.
+5.2
+Harmonic objective
+To recover the (0, 1) TX-valued forms which are harmonic with respect to gt, there are a range
+of possibilities to pursue, owing to the rich interplay between geometry, topology and analysis
+realized in Hodge theory. Here η is obtained through a straightforward two-stage process.
+First, we approximate the Ricci-flat metric for a given choice of complex structure on X.
+Secondly, we fix the learned metric on Xt and parameterize the sections sθ corresponding to
+the basis for TtB using a neural network with parameters θ. Noting that ¯∂†
+Eη ∈C∞(TX), we
+use the natural objective for training:
+ℓ(θ) :=
+
+¯∂†
+Eηθ, ¯∂†
+Eηθ
+
+=
+Z
+Xt
+¯∂†
+Eηθ ∧¯⋆E ¯∂†
+Eηθ ,
+(5.2)
+=
+Z
+Xt
+volgt gµν(¯∂†
+Eηθ)µ(¯∂†
+Eηθ)ν .
+(5.3)
+Note the expression for the Weil–Petersson metric (3.17) simplifies to the pairing between
+the interior product of the respective harmonic representatives with the holomorphic (n, 0)
+form if the Kodaira–Spencer representative is chosen to be harmonic. For the case of a general
+gauge bundle where a representative of the H1(X, E) cohomology may not be available, one
+would have to enforce the closure condition ¯∂Eη = 0 in addition to the co-closure condition.
+Note that the Ricci-flat metric gt does double duty in the case of the standard embedding
+as it naturally induces a metric on Ω0,1(TXt). To find harmonic bundle-valued representatives
+for a general holomorphic vector bundle V using the objective (5.2), one must compute the
+Hermitian metric on the fibres of V in addition to the metric gt.
+As an example, we consider the mirror e
+X of X = P5[3, 3], described in Section 4.1,
+parametrized by the complex structure parameter ψ. We first find explicit harmonic repre-
+sentatives of the Kodaira–Spencer class [∂ξ] via the objective (5.2) using a standard fully
+connected neural network with four layers with intermediate dimensions [64, 32, 32, 48] and
+the Gaussian error linear unit activation function. We used the Adam optimization algorithm
+with a learning rate of 10−4 in all experiments. We empirically observed that the results were
+insensitive to the choice of hyperparameters considered. We subsequently compute the Weil–
+Petersson metric gψψ on an independent validation set consisting of 250,000 fibre points for
+– 22 –
+
+each point in moduli space. In Figure 10, we plot gψψ obtained using the intersection pairing
+valid for harmonic representatives (3.17), together with the numerical values obtained for
+general representatives by the Kodaira–Spencer approach, as well as the exact period compu-
+tation across discrete points in complex moduli space. The evolution of the loss function (5.2)
+throughout the training is shown on Figure 11 for the benchmark points ψ = 0.2 , 0.45 , 1.05.
+0.25
+0.50
+0.75
+1.00
+1.25
+1.50
+1.75
+2.00
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+gψψ
+ψ
+WP using periods
+Non-harmonic representative
+Harmonic representative
+Kodaira-Spencer
+Harmonic representative (gFS)
+1.24
+1.26
+0.24
+0.26
+0.28
+Figure 10: Weil–Petersson metric computed for the mirror of the intersection of two cubics (4.2)
+along Im(ψ) = 0, obtained from the Kodaira–Spencer map, the period integral and the machine-
+learned harmonic representative method; cf. Figure 2. Red + - labeled points indicate computation
+of the intersection pairing (3.17) using only the non-harmonic ‘reference’ representatives of the
+Kodaira–Spencer class.
+We observe that the harmonic forms computed using the approximate Ricci-flat metric
+as input are able to recover the value of the Weil–Petersson metric away from the singularities
+in moduli space. This supplies an additional reassurance similar in spirit to the topological
+computations from local geometry in [59] — that numerical approximations to the Ricci-flat
+metric are able to yield physically meaningful data. While we have restricted our attention
+to the standard embedding, these results are an encouraging step towards conducting similar
+computations for more general gauge bundles to extract relevant effective field theory param-
+eters. Our method provides an improved approximation to the Weil–Petersson metric over
+the non-harmonic representatives even near points in moduli space of the mirror ^
+P5[3, 3] close
+to the singularity at ψ = 0, and continues to yield the expected result near logarithmic sin-
+gularities such as ψ = 1. However, the fidelity of approximation degrades as one approaches
+the ψ = 0 singularity; we aim to address this issue in ongoing work.
+– 23 –
+
+0
+100
+200
+300
+400
+500
+Iteration
+100
+6 × 10−1
+2 × 100
+3 × 100
+4 × 100
+Harmonic Loss
+ψ = 0.2
+ψ = 0.45
+ψ = 1.05
+Figure 11: Evolution of the loss function for harmonic representative during the training for the
+mirror of P5[3, 3], Eqs. (4.2), at several values of ψ. Note that the values of the harmonic loss (the
+co-closed condition Eq. (5.2)) at different points in moduli space are not strictly comparable as this
+merely measures the vanishing condition ∆gψψη = 0 for different values of ψ, and the fidelity of
+the metric to the unique Ricci-flat metric varies as a function of ψ, for an identical computational
+budget at each point. Just because a metric better satisfies the harmonicity condition w.r.t. gψψ
+does not mean that it will yield a more accurate prediction of physical observables, as this also
+depends on the ’accuracy’ of the metric.
+Finally, we also consider the Weil–Petersson metric of the mirror quintic ]
+P4[5] at Fermat
+point (ψ = 0).
+From the machine learned harmonic representative, we obtain the value:
+gψψ = 0.1906, which is well within the typical 95% confidence interval of the numerical
+integration of the exact value [55]:
+25Γ(4/5)5Γ(2/5)5
+Γ(1/5)5Γ(3/5)5 ≈0.1922 .
+(5.4)
+6
+Discussion and outlook
+The as yet unrealized dream of string phenomenology is to start from a construction involving
+higher dimensional geometry and objects such as strings and branes to obtain an effective four-
+dimensional theory satisfying all known particle physics and cosmological constraints from real
+– 24 –
+
+world experiments and observations. Plausibly, we must look for Standard Model or beyond
+the Standard Model physics as an N = 0 (non-supersymmetric) quantum field theory in a
+de Sitter background. With our current understanding of string theory, there is no obvious
+direct attack for achieving this goal in one fell swoop. A more tractable initial step is to obtain
+a four-dimensional N = 1 theory that includes the Standard Model spectrum and interactions
+and has Yukawa couplings commensurate with observed mass hierarchies in a three generation
+model. In order to perform this set of calculations within a heterotic compactification on a
+Calabi–Yau threefold, we require knowledge of the Ricci-flat metric in a given K¨ahler class
+as a function of the complex structure moduli. This is necessary ab initio for normalizing
+the kinetic terms in the K¨ahler potential and ultimately for addressing more complicated
+issues such as moduli stabilization, incorporating α′-corrections, and breaking supersymmetry.
+Perhaps the most straightforward laboratory for studying the problem invokes the “standard
+embedding,” wherein the holomorphic vector bundle is the tangent bundle on the Calabi–Yau
+manifold. The important technical simplification that occurs within this setting is that the
+normalized Yukawa couplings can be computed directly using the Weil–Petersson metric on
+the complex structure moduli space. In this work, we have performed the analysis for several
+Calabi–Yau geometries and calculated the normalized Yukawa couplings.
+The Kodaira–Spencer approach [31] we have used applies to Calabi–Yau geometries with
+arbitrary h2,1(X). Moreover, we can generalize these techniques to Calabi–Yau threefolds
+realized as hypersurfaces in toric varieties, namely those geometries obtained from applying
+Batyrev’s procedure [60] to the Kreuzer–Skarke list [61] of four-dimensional reflexive poly-
+topes.
+In particular, we are performing analogous computations of Yukawa couplings in multi-
+parameter families and for various three generation models such as [4, 62–65]. The results are
+compared to Yukawa coupling calculations reliant on machine learned harmonic representa-
+tives using the Ricci-flat Calabi–Yau metric. This work is forthcoming [66]. We as well intend
+to adapt these methods to non-standard embeddings, for which the number of generations
+of particles in the low-energy spectrum need not be given by the Euler characteristic of the
+Calabi–Yau base space.
+Accompanying this work and our earlier paper [24], we aim to release our code base, the
+software library cymyc [35], written in JAX, to compute Calabi–Yau Metrics, Yukawas, and
+Curvature. On complete intersection Calabi–Yau manifolds, the spectral networks we employ
+supply, to date, the most efficient tool for numerically approximating the Ricci-flat metric
+using ∼105 or ∼106 points.7
+7The point selection follows the prescription of Shiffman–Zelditch [47]. Preliminary experiments indicate
+that computational performance may be improved with different point selection schemes.
+– 25 –
+
+The numerical calculation of the Weil–Petersson metric for arbitrary number of complex
+structure moduli will also be useful for studying the swampland distance conjecture [67].
+Recently there has been some progress in this direction, by employing the Kodaira–Spencer
+method [31] for studying the moduli metric on Fermat quintic [27].
+A synoptic view of this research places it in the broader context of a Big Data approach
+to string phenomenology and the vacuum selection problem. We envision a systematic search
+through the estimated mole of Standard Model-like string constructions [11] arising from com-
+plete intersection Calabi–Yau geometries and the heptagoogol moles (10700+23) of toric ones so
+as to find “the needle in the haystack,” which is us, living in our Universe. To make progress,
+we must incorporate some combination of the algebro-geometric and analytic methods into
+the mechanized algorithm. Each configuration is an entire (continuous) deformation space
+of models, so it seems important to obtain the physically normalized Yukawa couplings as
+functions of the complex structure deformation parameters and the K¨ahler class of the metric.
+Ideally, we would input a Calabi–Yau geometry and ask whether there exists a point in its
+moduli space that recovers a quantum field theory with desired phenomenological properties
+and if so to deduce its low-energy effective action upon compactification. We suspect that
+string Standard Models with hierarchies in the Yukawa couplings are extremely rare, as at a
+generic point in moduli space, most of the couplings will be of O(1). Finding special points in
+moduli space where this expectation is dashed poses a central challenge for obtaining realistic
+models of particle physics. Given the vastness of potential compactification geometries, it
+must be the case that if we find one model with the correct physics, there will be hugely
+many.
+More ambitiously, the question of whether Calabi–Yau compactifications (a priori, with
+Minkowski spacetime) can be uplifted to accommodate our asymptotically de Sitter space-
+time may well depend “Goldilocks” style, delicately on nearly-but-not-quite/almost-conifold-
+singular Calabi–Yau manifolds [59, 68]. Our earlier machine learning investigations scanning
+for curvature clumping on singular K3 surfaces [24] (generalized to Calabi–Yau threefolds),
+should provide a solid stepping stone in searching for such models.
+Acknowledgements
+We thank Nana Cabo Bizet and Fernando Quevedo as well as the organizers and participants
+at String Data 2023 at Caltech for comments on this work. PB and GB are supported in
+part by the Department of Energy grant DE-SC0020220. TH is grateful to the Department
+of Mathematics, University of Maryland, College Park MD, and the Physics Department
+of the Faculty of Natural Sciences of the University of Novi Sad, Serbia, for the recurring
+hospitality and resources. VJ is supported by the South African Research Chairs Initiative
+– 26 –
+
+of the Department of Science and Innovation and the National Research Foundation. DM
+is supported by FCT/Portugal through CAMGSD, IST-ID, projects UIDB/04459/2020 and
+UIDP/04459/2020. CM is supported by a Fellowship with the Accelerate Science program
+at the Computer Laboratory, University of Cambridge. JT is supported by a studentship
+with the Accelerate Science Program. The authors would like to thank the Isaac Newton
+Institute for Mathematical Sciences for support and hospitality during the program “Black
+holes: bridges between number theory and holographic quantum information” when work on
+this paper was undertaken; this work was supported by EPSRC grant number EP/R014604/1.
+A
+Proofs of lemmas
+For completeness, we provide proofs of Lemma 1 and Lemma 2. We recall that we have
+used Lemma 1 to establish that H1(X, TX) ≃H2,1(X) and Lemma 2 to describe the Weil–
+Petersson metric.
+Lemma 1
+Let X be a Calabi–Yau manifold, then: H1(X, TX) ≃Hn−1,1
+∂
+(X) and the iso-
+morphism is given by:
+[α] 7−→[Ω(α)] ,
+(2.8′)
+where Ω∈Hn,0
+∂(X) is non-zero.
+Proof. We shall first show the isomorphism is a consequence of Serre duality. For brevity we shall
+suppress the reference to the manifold X. Then, by multiple applications of Serre duality, we obtain:
+H1(TX) ≃H0,1(TX) ≃Hn,n−1(T ∗
+X)∗≃Hn−1(Ωn ⊗T ∗
+X)∗.
+(A.1)
+However, since Ωn = KX ≃OX and T ∗
+X ≃Ω, we have:
+Hn−1(Ωn ⊗T ∗
+X)∗≃H1,n−1(OX)∗≃Hn−1,1(O∗
+X) ≃Hn−1,1(OX) ,
+(A.2)
+thus proving the claim H1(TX) ≃Hn−1,1
+∂
+(X). We shall now show that the isomorphism is given by
+the interior product. It is trivial to see that the interior product gives an isomorphism on the sections:
+Γ(X, Ωn−1,1) ≃Γ(X, Ω0,1(TX)) [41], thus what remains to show is that the map preserves kernels
+and images of ∂. Let p ∈X and pick local coordinates (z1, . . . , zn) centered at point p. Suppose
+that [α] = 0 in H1(TX), then, α = ∂ϕ for some non-holomorphic vector field ϕ ∈Γ(X, TX). Let
+Ω= f(z)dz1 ∧· · · ∧dzn in the local coordinates defined above, where f(z) is holomorphic. Then, the
+interior product is given explicitly by:
+Ω(∂ϕ) =
+n
+X
+µ=1
+(−1)µ−1f αµ
+ν dzν ∧bµ =
+n
+X
+µ=1
+(−1)µ−1f ∂ϕ
+∂zν dzν ∧bµ ,
+(A.3)
+– 27 –
+
+where we abbreviated bµ
+def
+= dz1 ∧· · · ∧d
+dzµ ∧· · · ∧dzn. That above is exact follows immediately from
+the fact that f is holomorphic, thus ∂f = 0. Similarly, let α be ∂-closed, then:
+∂Ω(α) =
+n
+X
+µ=1
+(−1)µ−1f ∂αµ
+ν
+∂zσ dzσ ∧dzν ∧bµ = 0 .
+(A.4)
+Lemma 2 Let Ω∈Hn,0
+∂(Xt) where n = dim Xt, be non-zero, then:
+⟨a, b⟩WP = −
+Z
+Xt
+Ω(Hρ(a)) ∧Ω(Hρ(b))
+Z
+Xt
+Ω∧Ω
+Z
+Xt
+volgt .
+(3.3′)
+Proof. The result follows from direct calculation in local coordinates. Let p ∈Xt and consider local
+coordinates (z1, . . . , zn) centered at p. Let α = Hρ(a) and β = Hρ(b), then:
+Ω(α) =
+n
+X
+µ,ν=1
+(−1)µ−1αµ
+ν f dzν ∧bµ ,
+(A.5)
+where α = αµ
+ν dzν ⊗∂µ and Ω= f(z) dz1 ∧· · · ∧dzn. Combining the results for both deformations
+yields the following:
+Ω(α) ∧Ω(β) =
+n
+X
+µ,µ′,ν,ν′=1
+(−1)µ+µ′|f|2 αµ
+ν βµ′
+ν′ dzν ∧bµ ∧dzν′ ∧bµ′ .
+(A.6)
+It is easy to see that the only non-vanishing terms have indices µ = ν′ and µ′ = ν, which leads to the
+following expression:
+Ω(α) ∧Ω(β) =
+ 
+n
+X
+µ,ν=1
+(−1)µ+ναµ
+ν βν
+µ (−1)µ+ν−1
+!
+Ω∧Ω= −αµ
+ν βν
+µ Ω∧Ω.
+(A.7)
+Finally, since α and β are both chosen to be harmonic, using the results of [44] (or Lemma 3), it
+is immediate that αµ
+ν βνµ = gµν gσδ αµ
+δ βν
+σ where (see Definition 1) gt = gµν dzµ ∧dzν. Furthermore,
+noting that the flat metric on compact Xt solves the Monge–Amp`ere equation: volgt = κ Ω∧Ωfor
+some constant κ ∈C, we obtain:
+Z
+Xt
+Ω(α) ∧Ω(β) = −1
+κ
+Z
+Xt
+α ∧⋆gtβ .
+(A.8)
+After identifying κ with
+R
+Xt volgt
+ R
+Xt Ω∧Ω, the result follows.
+We also note that there exists a method of computation of the harmonic representative
+which avoids the use of the computationally expensive derivatives of the Ricci-flat metric.
+The result follows from the following lemma.
+– 28 –
+
+Lemma 3. Let X be Calabi–Yau with K¨ahler class [ω] ∈H1,1(X)∩H2(X) and α ∈Ω0,1(TX)
+is closed, then the following are equivalent:
+1. α is harmonic with respect to Ricci-flat metric in the K¨ahler class [ω].
+2. α is polarization preserving with respect to [ω] and ∂Ω(α) = 0.
+In statement 2, polarization preserving is in the sense of [41, 44].
+Proof. That 1 ⇒2 is proved in [44] and depends on Ricci-flatness of the metric.
+Conversely, to
+show that 2 ⇒1, pick an open set U ⊂X and local coordinates (z1, . . . , zn) on U such that Ω=
+f(z)dz1 ∧· · · ∧dzn. Locally, we may expand ∂Ω(α) as:
+∂Ω(α) = ∂
+ n
+X
+µ=1
+(−1)µ−1f(z) αµ
+ν dzν ∧bµ
+!
+,
+=
+n
+X
+µ=1
+∂
+∂zµ
+ f(z) αµ
+ν
+
+dzν ∧dz1 ∧· · · ∧dzn = 0 ,
+(A.9)
+where bµ := dz1 ∧· · · ∧d
+dzµ ∧· · · ∧dzn. Similarly, the polarization preserving condition, at the level of
+forms, can be written as:
+gµρ gσν αµ
+ν = ασ
+ρ .
+(A.10)
+Finally, using the local Monge–Amp`ere equation, det g = κ|f(z)|2, we obtain:
+∂
+∂zµ
+ gσν gµρ ασ
+ρ det g
+
+dzν = κ ∂
+∂zµ
+ |f(z)|2gσν gµρ ασ
+ρ
+
+dzν ,
+= κf(z) ∂
+∂zµ
+ f(z) αµ
+ν
+
+dzν = 0 .
+(A.11)
+Equivalently, extending the results globally to X, we have: ∂
+†α = 0 and since ∂α = 0 by definition,
+we see that α is indeed harmonic.
+References
+[1] P. Candelas, G. T. Horowitz, A. Strominger and E. Witten, Vacuum configurations for
+superstrings, Nucl. Phys. B 258 (1985) 46–74.
+[2] L. J. Dixon, V. Kaplunovsky and J. Louis, On Effective Field Theories Describing (2,2) Vacua
+of the Heterotic String, Nucl. Phys. B 329 (1990) 27–82.
+[3] T. H¨ubsch, Calabi–Yau Manifolds: a Bestiary for Physicists. World Scientific Publishing Co.
+Inc., River Edge, NJ, 2nd ed., 1994.
+[4] P. Candelas, X. De la Ossa, Y.-H. He and B. Szendroi, Triadophilia: A special corner of the
+landscape, Adv. Th. Math. Phys. 12 (2008) 429–473, [0706.3134].
+– 29 –
+
+[5] P. Candelas and R. Davies, New Calabi–Yau manifolds with small Hodge numbers, Fortsch.
+Phys. 58 (2010) 383–466, [0809.4681].
+[6] V. Braun, P. Candelas and R. Davies, A three-generation Calabi–Yau manifold with small
+Hodge numbers, Fortsch. Phys. 58 (2010) 467–502, [0910.5464].
+[7] V. Bouchard and R. Donagi, An SU(5) heterotic standard model, Phys. Lett. B 633 (2006)
+783–791, [hep-th/0512149].
+[8] V. Braun, Y.-H. He, B. A. Ovrut and T. Pantev, The exact MSSM spectrum from string theory,
+JHEP 05 (2006) 043, [hep-th/0512177].
+[9] M. R. Douglas, Calabi–Yau metrics and string compactification, Nucl. Phys. B 898 (2015)
+667–674, [1503.02899].
+[10] L. B. Anderson, A. Constantin, J. Gray, A. Lukas and E. Palti, A comprehensive scan for
+heterotic SU(5) GUT models, JHEP 01 (2014) 047, [1307.4787].
+[11] A. Constantin, Y.-H. He and A. Lukas, Counting string theory standard models, Phys. Lett. B
+792 (2019) 258–262, [1810.00444].
+[12] L. B. Anderson and M. Karkheiran, TASI lectures on geometric tools for string
+compactifications, PoS TASI2017 (2018) 013, [1804.08792].
+[13] Y.-H. He, The Calabi–Yau Landscape: From Geometry, to Physics, to Machine Learning.
+Lecture Notes in Mathematics. Springer, 5, 2021, 10.1007/978-3-030-77562-9.
+[14] A. Strominger, Yukawa couplings in superstring compactification, Phys. Rev. Lett. 55 (1985)
+2547.
+[15] P. Candelas, Yukawa couplings between (2, 1)-forms, Nucl. Phys. B 298 (1988) 458–492.
+[16] B. R. Greene, K. H. Kirklin, P. J. Miron and G. G. Ross, 27**3 Yukawa Couplings for a Three
+Generation Superstring Model, Phys. Lett. B 192 (1987) 111–118.
+[17] P. Candelas and X. de la Ossa, Moduli space of Calabi–Yau manifolds, Nucl. Phys. B 355
+(1991) 455–481.
+[18] A. Ashmore, Y.-H. He and B. A. Ovrut, Machine Learning Calabi–Yau Metrics, Fortsch. Phys.
+68 (2020) 2000068, [1910.08605].
+[19] L. B. Anderson, M. Gerdes, J. Gray, S. Krippendorf, N. Raghuram and F. Ruehle,
+Moduli-dependent Calabi–Yau and SU(3)-structure metrics from machine learning, 2012.04656.
+[20] M. R. Douglas, S. Lakshminarasimhan and Y. Qi, Numerical Calabi–Yau metrics from
+holomorphic networks, 2012.04797.
+[21] V. Jejjala, D. K. Mayorga Pena and C. Mishra, Neural network approximations for Calabi–Yau
+metrics, JHEP 08 (2022) 105, [2012.15821].
+[22] M. R. Douglas, Holomorphic feedforward networks, Pure Appl. Math. Quart. 18 (2022)
+251–268, [2105.03991].
+– 30 –
+
+[23] M. Larfors, A. Lukas, F. Ruehle and R. Schneider, Numerical metrics for complete intersection
+and Kreuzer–Skarke Calabi–Yau manifolds, Mach. Learn. Sci. Tech. 3 (2022) 035014,
+[2205.13408].
+[24] P. Berglund, G. Butbaia, T. H¨ubsch, V. Jejjala, D. Mayorga Pe˜na, C. Mishra and J. Tan,
+Machine learned Calabi–Yau metrics and curvature, 2211.09801.
+[25] M. Gerdes and S. Krippendorf, CYJAX: A package for Calabi–Yau metrics with JAX, Mach.
+Learn. Sci. Tech. 4 (2023) 025031, [2211.12520].
+[26] A. Ashmore, Eigenvalues and eigenforms on Calabi–Yau threefolds, 2011.13929.
+[27] A. Ashmore and F. Ruehle, Moduli-dependent kk towers and the swampland distance conjecture
+on the quintic Calabi–Yau manifold, Phys. Rev. D 103 (2021) 106028, [2103.07472].
+[28] A. Ashmore, Y.-H. He, E. Heyes and B. A. Ovrut, Numerical spectra of the Laplacian for line
+bundles on Calabi–Yau hypersurfaces, JHEP 07 (2023) 164, [2305.08901].
+[29] H. Ahmed and F. Ruehle, Level crossings, attractor points and complex multiplication, JHEP
+06 (2023) 164, [2304.00027].
+[30] D. R. Morrison, Picard–Fuchs equations and mirror maps for hypersurfaces, AMS/IP Stud.
+Adv. Math. 9 (1998) 185–199, [hep-th/9111025].
+[31] J. Keller and S. Lukic, Numerical Weil–Petersson metrics on moduli spaces of Calabi–Yau
+manifolds, J. Geom. Phys. 92 (2015) 252–270, [0907.1387].
+[32] J. Distler and B. Greene, Some exact results on the superpotential from Calabi–Yau
+compactifications, Nucl. Phys. B 309 (1988) 295–316.
+[33] P. Candelas and S. Kalara, Yukawa couplings for a three-generation superstring
+compactification, Nucl. Phys. B 298 (1988) 357–368.
+[34] J. Bradbury, R. Frostig, P. Hawkins, M. J. Johnson, C. Leary, D. Maclaurin, G. Necula et al.,
+JAX: composable transformations of Python+NumPy programs, 2018.
+[35] G. Butbaia, D. Mayorga Pe˜na, J. Tan, P. Berglund, T. H¨ubsch, V. Jejjala and C. Mishra,
+cymyc: A JAX package for Calabi–Yau metrics Yukawas and curvature (to appear), 2402.xxxx.
+[36] A. Constantin, C. S. Fraser-Taliente, T. R. Harvey, A. Lukas and B. Ovrut, Computation of
+Quark Masses from String Theory, 2402.01615.
+[37] A. B. Zamolodchikov, Irreversibility of the flux of the renormalization group in a 2D field
+theory, JETP Lett. 43 (1986) 730–732.
+[38] P. Candelas, T. Hubsch and R. Schimmrigk, Relation between the Weil–Petersson and
+Zamolodchikov metrics, Nucl. Phys. B 329 (1990) 583–590.
+[39] S. Blesneag, E. I. Buchbinder, P. Candelas and A. Lukas, Holomorphic Yukawa couplings in
+heterotic string theory, JHEP 01 (2016) 152, [1512.05322].
+[40] S. Blesneag, E. I. Buchbinder and A. Lukas, Holomorphic Yukawa couplings for complete
+intersection Calabi–Yau manifolds, JHEP 01 (2017) 119, [1607.03461].
+– 31 –
+
+[41] G. Tian, Smoothness of the universal deformation space of compact Calabi–Yau manifolds and
+its Peterson–Weil metric, in Mathematical Aspects of String Theory (S.-T. Yau, ed.), vol. 1,
+pp. 629–648, World Scientific, 1987. DOI.
+[42] K. Kodaira and D. C. Spencer, On deformations of complex analytic structures, I, Annals of
+Mathematics 67 (1958) 328–401.
+[43] K. Kodaira, Complex Manifolds and Deformation of Complex Structures. Springer, New York,
+Jan, 2005, https://doi.org/10.1007/b138372.
+[44] A. Nannicini, Weil-Petersson metric in the moduli space of compact polarized K¨ahler-Einstein
+manifolds of zero first Chern class, Man. Math. 54 (1986) 405–438.
+[45] A. N. Todorov, The Weil–Petersson geometry of the moduli space of SU(n ≥3) (Calabi-Yau)
+manifolds. I, Comm. Math. Phys. 126 (1989) 325–346.
+[46] P. S. Green, T. Hubsch and C. A. Lutken, All Hodge numbers of all complete intersection
+Calabi-Yau manifolds, Class. Quant. Grav. 6 (1989) 105–124.
+[47] B. Shiffman and S. Zelditch, Distribution of zeros of random and quantum chaotic sections of
+positive line bundles, Communications in Mathematical Physics 200 (1999) 661–683.
+[48] V. Braun, T. Brelidze, M. R. Douglas and B. A. Ovrut, Calabi-Yau metrics for quotients and
+complete intersections, Journal of High Energy Physics 2008 (2008) 080.
+[49] A. Joshi and A. Klemm, Swampland distance conjecture for one-parameter Calabi–Yau
+threefolds, JHEP 08 (2019) 086, [1903.00596].
+[50] D. Gepner, Space-time supersymmetry in compactified string theory and superconformal models,
+Nucl. Phys. B 296 (1988) 757.
+[51] D. Gepner, Exactly solvable string compactifications on manifolds of SU(N) holonomy, Phys.
+Lett. B 199 (1987) 380–388.
+[52] S. Kalara and R. N. Mohapatra, CP violation and Yukawa couplings in superstring models: A
+four-generation example, Phys. Rev. D 35 (May, 1987) 3143–3150.
+[53] A. Constantin, J. Gray and A. Lukas, Hodge numbers for all CICY quotients, JHEP 01 (2017)
+001, [1607.01830].
+[54] P. Candelas and C. Mishra, Highly symmetric quintic quotients, Fortsch. Phys. 66 (2018)
+1800017, [1709.01081].
+[55] P. Candelas, X. C. De La Ossa, P. S. Green and L. Parkes, A pair of Calabi–Yau manifolds as
+an exactly soluble superconformal theory, Nucl. Phys. B 359 (1991) 21–74.
+[56] G. Tian and S. Yau, Three dimensional algebraic manifolds with c1 = 0 and χ = −6, in
+Mathematical Aspects of String Theory, pp. 543–559. World Scientific, 1987.
+[57] S. Kalara and R. N. Mohapatra, Yukawa couplings and phenomenology of a three generation
+superstring model, Phys. Rev. D 36 (1987) 3474.
+– 32 –
+
+[58] K. Ishiguro, T. Kobayashi and H. Otsuka, Hierarchical structure of physical Yukawa couplings
+from matter field K¨ahler metric, JHEP 07 (2021) 064, [2103.10240].
+[59] P. Berglund, T. H¨ubsch and D. Minic, On de Sitter spacetime and string theory, Int. J. Mod.
+Phys. D 32 (12, 2023) 2330002 (111), [2212.06086].
+[60] V. V. Batyrev, Dual polyhedra and mirror symmetry for Calabi–Yau hypersurfaces in toric
+varieties, J. Alg. Geom. 3 (1994) 493–545, [alg-geom/9310003].
+[61] M. Kreuzer and H. Skarke, Complete classification of reflexive polyhedra in four-dimensions,
+Adv. Theor. Math. Phys. 4 (2000) 1209–1230, [hep-th/0002240].
+[62] B. R. Greene, K. H. Kirklin, P. J. Miron and G. G. Ross, A Superstring Inspired Standard
+Model, Phys. Lett. B 180 (1986) 69.
+[63] B. R. Greene, K. H. Kirklin, P. J. Miron and G. G. Ross, A Three Generation Superstring
+Model. 1. Compactification and Discrete Symmetries, Nucl. Phys. B 278 (1986) 667–693.
+[64] B. R. Greene, K. H. Kirklin, P. J. Miron and G. G. Ross, A Three Generation Superstring
+Model. 2. Symmetry Breaking and the Low-Energy Theory, Nucl. Phys. B 292 (1987) 606–652.
+[65] R. Schimmrigk, A New Construction of a Three Generation Calabi-Yau Manifold, Phys. Lett.
+B193 (1987) 175.
+[66] P. Berglund, G. Butbaia, T. H¨ubsch, V. Jejjala, D. Mayorga Pe˜na, C. Mishra and J. Tan,
+Precision strting phenomenology (in preparation), 2402.xxxx.
+[67] H. Ooguri and C. Vafa, On the Geometry of the String Landscape and the Swampland, Nucl.
+Phys. B 766 (2007) 21–33, [hep-th/0605264].
+[68] B. V. Bento, D. Chakraborty, S. L. Parameswaran and I. Zavala, A new de Sitter solution with
+a weakly warped deformed conifold, JHEP 12 (2021) 124, [2105.03370].
+– 33 –

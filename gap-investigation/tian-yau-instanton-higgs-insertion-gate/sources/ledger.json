@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/html/2402.13563v1",
+      "title": "Modular forms and hierarchical Yukawa couplings in heterotic Calabi-Yau compactifications",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "However, it will be corrected by instanton contributions.",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "with standard embedding.",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+schema_version: 1
+name: arithmetic-compactification-selection-gate
+review_status: self-assessed; not independently peer reviewed
+formal_scope: finite countermodel non-identifiability for a prime-status classifier; composite target witness; unused-label countermodel
+external_premises:
+  - sourced CY3 Euler numbers, free quotient degrees and standard embeddings
+  - HRR and finite etale index multiplicativity
+  - heterotic Bianchi/HYM/worldsheet consistency of catalog constructions
+kernel: Lean 4.32.1, prelude only, no Init or Mathlib
+project_axioms: []
+automation: AI-assisted research and writing; standard-library exact Python; Lean kernel checks
+local_gate: C:/Python313/python.exe -B verify.py --verify
+hosted_ci: not run
+physical_boundary: finite sourced catalog and conditional no-selection theorem; not a universal physics no-go or vacuum-selection derivation

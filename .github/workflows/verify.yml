@@ -1,0 +1,19 @@
+name: verify-release
+
+on:
+  pull_request:
+  push:
+    branches: [master, rigorous-openai-style-release]
+
+jobs:
+  release-certificate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Generate release certificate
+        run: python release/openai-style/numerical_certificate.py > release/openai-style/certificate-fresh.json
+      - name: Test release certificate
+        run: python -m pytest tests/test_release_certificate.py -q

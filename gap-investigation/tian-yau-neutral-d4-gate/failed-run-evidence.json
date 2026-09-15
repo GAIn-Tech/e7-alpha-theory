@@ -1,0 +1,27 @@
+{
+  "actual_failing_line": " assert counts['source_boundary']>0 and counts['target_d1_boundary']>0",
+  "actual_failing_line_number": 91,
+  "cause": "hc vanishes on normalized harmonic lifts; attempted source-boundary test generated no perturbations, so source_boundary count was zero. A direct separate run of this initial source also failed at that same assertion with correct source text.",
+  "failed_exit_code": 1,
+  "failed_process": "proc_34c5ee2e337f",
+  "failed_uptime_seconds": 657,
+  "fresh_calculate_exit_code": 0,
+  "fresh_controls": {
+    "cech_contraction_keys": 6470,
+    "nilpotence_keys": 6470,
+    "source_boundary": 4,
+    "target_d1_boundary": 64,
+    "target_vertical_boundary": 6,
+    "wrong_End_sign": 4,
+    "wrong_curvature": 4,
+    "wrong_primitive_sign": 10
+  },
+  "further_negative_control_lesson": "Consistently flipping both supercommutator right-action signs can preserve its square. Detect this convention mutation against the actual fixed first-lift equation, not nilpotence alone.",
+  "initial_source_bytes": 8170,
+  "receipt_state_at_snapshot": "Neither receipt.json nor d4-chains.json existed; no release receipt was overwritten.",
+  "reconstructed_initial_sha256": "f2fa446e6107603bae85b4b1aec2bdaf4ad85431ad1147d188767363d6322f80",
+  "repair": "Generate explicit admissible character-preserving Laurent perturbations outside the harmonic support, apply hc, and require eta and dv(eta) nonzero. Check all four changed source total cocycles. Do not drop the source-boundary assertion.",
+  "scientific_result_origin": "compute.py independently assembled all four columns from actual chain endpoints before release verifier controls. All four raw endpoints were empty after exact accumulation; derived matrix rank was zero. The later equality assertion is an independent consistency check, not an assignment of endpoints.",
+  "source_snapshot_type": "Reconstructed by reversing recorded source patches; no contemporaneous source hash existed for this failed process.",
+  "stale_traceback_explanation": "The running process loaded its code before on-disk edits. Traceback rendering read later file lines, so displayed line122 rank assertion was not executed at that location."
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/acloc.html",
+      "title": "hyperphysics",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Very accurate clocks can be constructed by locking an electronic oscillator to the frequency of an atomic transition. The frequencies associated with such transitions are so reproducible that the definition of the second is now tied to the frequency associated with a transition in cesium-133:\n1 second = 9,192, 631,770 cycles of the standard Cs-133 transition\nThe two most widely used atomic clocks in recent years have been the\ncesium beam atomic clock\nand the\nrubidium clock\n. Such clocks have provided the accuracy necessary to test\ngeneral relativity\nand to track variations in the frequencies o",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.bipm.org/en/si-base-units/second",
+      "title": "bipm",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "It is defined by taking the fixed numerical value of the caesium frequency Δν\nCs\n, the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom, to be\n9 192 631 770\nwhen expressed in the unit Hz, which is equal to s\n–1\n.\nThis definition implies the exact relation Δν\nCs\n= 9 192 631 770 Hz. Inverting this relation gives an expression for the unit second in terms of the defining constant\nΔν\nCs\n:\nor\nThe effect of this definition is that the second is equal to the duration of\n9 192 631 770\nperiods of the radiation corresponding to the transition between the two hyperfine leve",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?alphinv",
+      "title": "codata",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "137.035 999 177\nStandard uncertainty\n0.000 000 021\nRelative standard uncertainty\n1.6 x 10\n-10\nConcise form\n137.035 999 177(21)\nClick\nhere\nfor\ncorrelation coefficient\nof this constant with other constants\nSource: 2022 CODATA\nrecommended values\nDefinition of\nuncertainty\nCorrelation coefficient with\nany other constant",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://tf.nist.gov/general/pdf/2295.pdf",
+      "title": "nist-comparison",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Temporal variation of Ry is common to all transition frequencies and its contribution is\nremoved from frequency ratio measurements. The term Nj contains the dependence of the\nspeciﬁc transition involved; it can be either positive or negative, and tends to be larger for\ntransitions involving heavier atoms, where relativistic corrections play a more important role\nfor the atomic energies. Values of Nj have been calculated for several electronic transitions of\natomic and molecules of cosmological and laboratory interest, including Hg+ [4] and Al+ [54],\nas well as for HFS transitions in the microw",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.nist.gov/news-events/news/2021/03/nist-team-compares-3-top-atomic-clocks-record-accuracy-over-both-fiber-and",
+      "title": "nist-network",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "frequency ratios, the quantitative relationships between the frequencies of the atoms as measured in three pairs (ytterbium-strontium, ytterbium-aluminum, aluminum-strontium). The results are the three most accurate measurements ever made of natural constants. Frequency ratios are considered constants and are used in some international standards and tests of fundamental physics theories.\nFrequency ratios offer an important advantage as a metric for evaluating optical atomic clocks. A direct measurement of an optical clock frequency in the usual units of hertz (one cycle per second) is limited",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://www.nature.com/articles/s41586-021-03253-4",
+      "title": "network-paper",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Here we operate a network of optical clocks based on\n27\nAl\n+\n(ref.\n6\n),\n87\nSr (ref.\n7\n) and\n171\nYb (ref.\n8\n), and measure their frequency ratios with fractional uncertainties at or below 8 × 10\n−18\n. Exploiting this precision, we derive improved constraints on the potential coupling of ultralight bosonic dark matter to standard model fields\n9\n,\n10\n. Our optical clock network utilizes not just optical fibre\n11\n, but also a 1.5-kilometre free-space link\n12\n,\n13\n. This advance in frequency ratio measurements lays the groundwork for future networks of mobile, airborne and remote optical clocks tha",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

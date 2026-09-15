@@ -1,0 +1,106 @@
+[
+  {
+    "column": 0,
+    "equations": [
+      {
+        "primitive_terms": 596,
+        "residual_terms": 0,
+        "rhs_terms": 840,
+        "step": 1
+      },
+      {
+        "primitive_terms": 884,
+        "residual_terms": 0,
+        "rhs_terms": 2533,
+        "step": 2
+      },
+      {
+        "primitive_terms": 117,
+        "residual_terms": 0,
+        "rhs_terms": 501,
+        "step": 3
+      }
+    ],
+    "endpoint_d1_terms": 39,
+    "endpoint_curvature_terms": 39,
+    "endpoint_sum_terms": 0
+  },
+  {
+    "column": 1,
+    "equations": [
+      {
+        "primitive_terms": 596,
+        "residual_terms": 0,
+        "rhs_terms": 840,
+        "step": 1
+      },
+      {
+        "primitive_terms": 884,
+        "residual_terms": 0,
+        "rhs_terms": 2533,
+        "step": 2
+      },
+      {
+        "primitive_terms": 117,
+        "residual_terms": 0,
+        "rhs_terms": 501,
+        "step": 3
+      }
+    ],
+    "endpoint_d1_terms": 39,
+    "endpoint_curvature_terms": 39,
+    "endpoint_sum_terms": 0
+  },
+  {
+    "column": 2,
+    "equations": [
+      {
+        "primitive_terms": 596,
+        "residual_terms": 0,
+        "rhs_terms": 840,
+        "step": 1
+      },
+      {
+        "primitive_terms": 832,
+        "residual_terms": 0,
+        "rhs_terms": 2384,
+        "step": 2
+      },
+      {
+        "primitive_terms": 0,
+        "residual_terms": 0,
+        "rhs_terms": 0,
+        "step": 3
+      }
+    ],
+    "endpoint_d1_terms": 0,
+    "endpoint_curvature_terms": 0,
+    "endpoint_sum_terms": 0
+  },
+  {
+    "column": 3,
+    "equations": [
+      {
+        "primitive_terms": 596,
+        "residual_terms": 0,
+        "rhs_terms": 840,
+        "step": 1
+      },
+      {
+        "primitive_terms": 832,
+        "residual_terms": 0,
+        "rhs_terms": 2384,
+        "step": 2
+      },
+      {
+        "primitive_terms": 0,
+        "residual_terms": 0,
+        "rhs_terms": 0,
+        "step": 3
+      }
+    ],
+    "endpoint_d1_terms": 0,
+    "endpoint_curvature_terms": 0,
+    "endpoint_sum_terms": 0
+  }
+]

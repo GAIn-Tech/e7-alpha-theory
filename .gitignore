@@ -5,4 +5,16 @@ __pycache__/
 *.nbi
 .DS_Store
 *.png
+
+# Installer caches are redundant; the selected toolchain is archived once in LFS.
+/gap-investigation/adjoint-radial-rxi-lean-gate/toolchain/
+/gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/
+/gap-investigation/adjoint-radial-rxi-lean-gate/distribution-catalog.zip
+/gap-investigation/adjoint-radial-rxi-lean-gate/lean-4.32.1-windows.zip
 *.pdf
+# Preserve research source evidence previously hidden by broad PDF/PNG rules.
+!gap-investigation/**/*.pdf
+!gap-investigation/**/*.png
+/.handoff-local/
+# Original source snapshot remains local; published as checksummed partitions.
+/handoff-artifacts/lean-4.32.1-windows-selected.zip

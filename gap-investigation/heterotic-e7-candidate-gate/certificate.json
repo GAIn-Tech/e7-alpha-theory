@@ -1,0 +1,33 @@
+{
+  "bianchi": {
+    "c2_TX_on_K3": 24,
+    "c2_V1_on_K3": 24,
+    "c2_V2_on_K3": 0,
+    "fivebrane_class_on_K3": 0,
+    "passed": true
+  },
+  "branching": {
+    "E7_to_E6xU1": "56 = 27_1 + 27bar_-1 + 1_3 + 1_-3",
+    "net_E6_27_minus_27bar_per_56": 0
+  },
+  "candidate": "E8xE8 on K3 x T2 with V1=pr_K3^*TK3 and V2 trivial",
+  "claim_boundary": "Exact characteristic-class and representation arithmetic only; existence/HYM and physical interpretation are source-dependent and separately disclosed.",
+  "commutant": "E7 x E8 (plus generic torus U(1)^4)",
+  "negative_controls": {
+    "composite_c2_24_allowed": true,
+    "prime_required": false,
+    "rank2_c3_6_rejected_by_rank": true,
+    "rank3_c3_6_index": "3",
+    "rank3_commutant": "E6, not E7"
+  },
+  "passed": true,
+  "schema_version": 1,
+  "su2_index": {
+    "c1": 0,
+    "c3": 0,
+    "chi_V_equals_half_c3": "0",
+    "equals_three": false,
+    "net_56_chirality": 0,
+    "rank": 2
+  }
+}

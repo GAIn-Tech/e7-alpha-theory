@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "one_shifting_field_no_nonconstant_invariant_kinetic_coefficient",
+      "result": "unsat",
+      "smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun q () Real)\n(declare-fun slope () Real)\n(assert\n (and (distinct q 0.0) true))\n(assert\n (= (* q slope) 0.0))\n(assert\n (and (distinct slope 0.0) true))\n(check-sat)\n"
+    },
+    {
+      "name": "neutral_scalar_can_have_kinetic_slope",
+      "result": "sat",
+      "smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun q () Real)\n(declare-fun slope () Real)\n(assert\n (= q 0.0))\n(assert\n (= (* q slope) 0.0))\n(assert\n (and (distinct slope 0.0) true))\n(check-sat)\n"
+    },
+    {
+      "name": "two_shifting_fields_allow_invariant_direction",
+      "result": "sat",
+      "smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun q () Real)\n(declare-fun r () Real)\n(declare-fun fa () Real)\n(declare-fun fb () Real)\n(assert\n (= q 1.0))\n(assert\n (= r 1.0))\n(assert\n (= fa 1.0))\n(assert\n (= fb (- 1.0)))\n(assert\n (= (+ (* q fa) (* r fb)) 0.0))\n(check-sat)\n"
+    },
+    {
+      "name": "WZ_anomaly_cancellation_does_not_require_kinetic_slope",
+      "result": "sat",
+      "smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun q () Real)\n(declare-fun anomaly () Real)\n(declare-fun wz () Real)\n(declare-fun slope () Real)\n(assert\n (= q 1.0))\n(assert\n (and (distinct anomaly 0.0) true))\n(assert\n (= (+ anomaly (* q wz)) 0.0))\n(assert\n (= (* q slope) 0.0))\n(check-sat)\n"
+    }
+  ],
+  "scope": "Z3 exact local algebra only. Ward-identity translation, gauge transformations, operator independence and physical degrees of freedom are external assumptions. No Lean, global gauge completion, measured clock signal or all-scalar no-go claimed."
+}

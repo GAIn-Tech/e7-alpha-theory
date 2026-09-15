@@ -1,0 +1,78 @@
+{
+  "weyl_invariant_dimensions": {
+    "2": 1,
+    "3": 0,
+    "4": 1
+  },
+  "gauge_jacobian_annihilation_checks": 78,
+  "passed": true,
+  "claim_boundary": "Exact full real-field Hessian inertia via SOS Jacobian and rational rank; engineered tree-level EFT, not naturalness/quantum/UV proof. Renormalizable flat example and scoped 11-physical-flat obstruction.",
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-vacuum-gate\\checks.py": "0031b169339176d2fab33c3b9d42ab5edc4bf04701f645f2172088c9c3735db8",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-breaking-gate\\breaking_checks.py": "1a9f243a376891b15e801b3afd4bfce8d209a946add0343883406dbcc1a50c3e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-breaking-gate\\breaking-receipt.json": "53ac8c47225961ef29e41efd258f2701a02419a08f66481a8768dbdb853e1416",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-vacuum-gate\\sources\\deppisch.pdf": "a8a062fd2ba833fc9a0eb14e5ae9f55dddee7f132d1a506eca3262b21e36673b"
+  },
+  "chevalley_serre_checks": 102,
+  "representation_dimension": 27,
+  "real_scalar_dimension": 186,
+  "generators": 78,
+  "A0": "6Y in arbitrary mass unit M",
+  "A0_eigenvalues": [
+    -4,
+    -3,
+    -2,
+    0,
+    1,
+    2,
+    3,
+    6
+  ],
+  "A0_eigenvalue_multiplicities": {
+    "-4": 3,
+    "-3": 4,
+    "-2": 3,
+    "0": 2,
+    "1": 6,
+    "2": 6,
+    "3": 2,
+    "6": 1
+  },
+  "TrA0_squared": 180,
+  "polynomial_degree": 8,
+  "EFT_highest_operator_dimension": 16,
+  "p_prime_eigenvalues": {
+    "-4": "-16800",
+    "-3": "3240",
+    "-2": "-1920",
+    "0": "864",
+    "1": "-600",
+    "2": "960",
+    "3": "-3780",
+    "6": "259200"
+  },
+  "renormalizable_hessian": {
+    "positive": 109,
+    "zero": 77,
+    "negative": 0,
+    "gauge_zero": 66,
+    "physical_zero": 11
+  },
+  "EFT_hessian": {
+    "positive": 120,
+    "zero": 66,
+    "negative": 0,
+    "gauge_zero": 66,
+    "physical_zero": 0
+  },
+  "centralizer_A_dimension": 16,
+  "SU5_sphere_tangent": 23,
+  "SU5_gauge_orbit": 12,
+  "unavoidable_physical_flat_lower_bound": 11,
+  "negative_control_hessian_quadratic": -32,
+  "trace_identity": "12 Tr27(A^4)=(Tr27(A^2))^2; Tr27(A^3)=0, exact Cartan polynomial check",
+  "negative_controls": {
+    "wrong_sign_tachyon_detected": true,
+    "remove_EFT_physical_flats_detected": true
+  }
+}

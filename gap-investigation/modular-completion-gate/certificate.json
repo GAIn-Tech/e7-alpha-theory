@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "claim_boundary": "Exact worldsheet modular building block, not full string vacuum or spacetime chirality/family/dimension/scale selection. Python cyclotomic equalities are not Lean modular proofs.",
+  "cyclotomic_modulus": "X^8-X^4+1",
+  "S": [
+    [
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1/2",
+        "0",
+        "-1/2",
+        "0",
+        "1/2",
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "T": [
+    [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  ],
+  "topological_ST_cube_phase": "exp(2pi i *7/8)",
+  "relations": {
+    "S_squared_identity": true,
+    "ST_cubed_identity": true,
+    "unitary": true,
+    "diagonal_invariant": true
+  },
+  "negative_controls": {
+    "missing_E7_sector_S_failure": true,
+    "offdiagonal_T_failure": true,
+    "unglued_product_S_failure": true,
+    "omitting_central_phase_ST_failure": true
+  },
+  "glue_isotropic_subgroup": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "glue_perp": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "lattice": {
+    "gram_determinant": "2",
+    "lambda": [
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-1/2",
+      "1/2"
+    ],
+    "theta_E7": [
+      1,
+      126,
+      756
+    ],
+    "theta_E7_coset_shift_3_4": [
+      56,
+      576
+    ],
+    "theta_E8": [
+      1,
+      240,
+      2160
+    ],
+    "E8_root_alpha_inner_product_counts": {
+      "-2": 1,
+      "-1": 56,
+      "0": 126,
+      "1": 56,
+      "2": 1
+    },
+    "E7_vacuum_character": [
+      1,
+      133,
+      1673
+    ],
+    "E7_nonvacuum_character": [
+      56,
+      968
+    ],
+    "A1_vacuum_character": [
+      1,
+      3,
+      4
+    ],
+    "A1_nonvacuum_character": [
+      2,
+      2
+    ],
+    "E8_glued_character": [
+      1,
+      248,
+      4124
+    ],
+    "unglued_character": [
+      1,
+      136,
+      2076
+    ],
+    "glue_index": 2,
+    "glued_determinant": "1"
+  },
+  "sha256": {
+    "exact_certificate.py": "00552d14022417b60fbd80ce85e11ed17875822f4bf61198e774696fc900335c",
+    "Formalization.lean": "de8fad59ff039de6e7c044ffa26b6b21c03eeca71a71db3a9a58541ee030a5e2",
+    "Challenge.lean": "7a6f807ecb79a9d933ba8a0922c5ba2e90dc282e5c6e07969c3928fe873ee201",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\connections\\partitions\\exact_certificate.py": "c9d1424014f51eb1bd5a03fe79c18126ed7f338672d3f29bf9982e2a6aa37d18",
+    "sources\\frenkel.md": "1ffa7c90421f99c241aba214725a97a139e1d54f90c1dc3a04390281d3aaeb73",
+    "sources\\lee_sun_wang.md": "30db0fb021301c2f1a14d679998f9d21bae2ea78eb593f720d306d32063d6a3d",
+    "sources\\mukhi_poddar.md": "b6c9f05e778eb00d35d8e8dc0e9a90198ab163977336afdb84f327e5dc888b29",
+    "sources\\weil.md": "ba7631aa8b9816d1de9e93abddcce9649f22a1fcb209da2e0263cc1cbc0a8eb7"
+  }
+}

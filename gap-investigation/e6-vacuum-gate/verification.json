@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "numpy": "2.4.6",
+  "python": "3.11.15 (main, Aug  7 2026, 02:24:19) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26220-SP0",
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-vacuum-gate\\checks.py"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"weyl_invariant_dimensions\": {\n    \"2\": 1,\n    \"3\": 0,\n    \"4\": 1\n  },\n  \"gauge_jacobian_annihilation_checks\": 78,\n  \"passed\": true,\n  \"claim_boundary\": \"Exact full real-field Hessian inertia via SOS Jacobian and rational rank; engineered tree-level EFT, not naturalness/quantum/UV proof. Renormalizable flat example and scoped 11-physical-flat obstruction.\",\n  \"source_hashes\": {\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\e6-vacuum-gate\\\\checks.py\": \"0031b169339176d2fab33c3b9d42ab5edc4bf04701f645f2172088c9c3735db8\",\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\e6-breaking-gate\\\\breaking_checks.py\": \"1a9f243a376891b15e801b3afd4bfce8d209a946add0343883406dbcc1a50c3e\",\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\e6-breaking-gate\\\\breaking-receipt.json\": \"53ac8c47225961ef29e41efd258f2701a02419a08f66481a8768dbdb853e1416\",\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\e6-vacuum-gate\\\\sources\\\\deppisch.pdf\": \"a8a062fd2ba833fc9a0eb14e5ae9f55dddee7f132d1a506eca3262b21e36673b\"\n  },\n  \"chevalley_serre_checks\": 102,\n  \"representation_dimension\": 27,\n  \"real_scalar_dimension\": 186,\n  \"generators\": 78,\n  \"A0\": \"6Y in arbitrary mass unit M\",\n  \"A0_eigenvalues\": [\n    -4,\n    -3,\n    -2,\n    0,\n    1,\n    2,\n    3,\n    6\n  ],\n  \"A0_eigenvalue_multiplicities\": {\n    \"-4\": 3,\n    \"-3\": 4,\n    \"-2\": 3,\n    \"0\": 2,\n    \"1\": 6,\n    \"2\": 6,\n    \"3\": 2,\n    \"6\": 1\n  },\n  \"TrA0_squared\": 180,\n  \"polynomial_degree\": 8,\n  \"EFT_highest_operator_dimension\": 16,\n  \"p_prime_eigenvalues\": {\n    \"-4\": \"-16800\",\n    \"-3\": \"3240\",\n    \"-2\": \"-1920\",\n    \"0\": \"864\",\n    \"1\": \"-600\",\n    \"2\": \"960\",\n    \"3\": \"-3780\",\n    \"6\": \"259200\"\n  },\n  \"renormalizable_hessian\": {\n    \"positive\": 109,\n    \"zero\": 77,\n    \"negative\": 0,\n    \"gauge_zero\": 66,\n    \"physical_zero\": 11\n  },\n  \"EFT_hessian\": {\n    \"positive\": 120,\n    \"zero\": 66,\n    \"negative\": 0,\n    \"gauge_zero\": 66,\n    \"physical_zero\": 0\n  },\n  \"centralizer_A_dimension\": 16,\n  \"SU5_sphere_tangent\": 23,\n  \"SU5_gauge_orbit\": 12,\n  \"unavoidable_physical_flat_lower_bound\": 11,\n  \"negative_control_hessian_quadratic\": -32,\n  \"trace_identity\": \"12 Tr27(A^4)=(Tr27(A^2))^2; Tr27(A^3)=0, exact Cartan polynomial check\",\n  \"negative_controls\": {\n    \"wrong_sign_tachyon_detected\": true,\n    \"remove_EFT_physical_flats_detected\": true\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-vacuum-gate\\test_vacuum.py"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_eft_not_renormalizable (__main__.VacuumTests.test_eft_not_renormalizable) ... ok\ntest_external_X_tangent (__main__.VacuumTests.test_external_X_tangent) ... ok\ntest_full_eft_inertia (__main__.VacuumTests.test_full_eft_inertia) ... ok\ntest_missing_receipt_rejected (__main__.VacuumTests.test_missing_receipt_rejected) ... ok\ntest_renormalizable_physical_flats (__main__.VacuumTests.test_renormalizable_physical_flats) ... ok\ntest_representation_and_invariant_completeness (__main__.VacuumTests.test_representation_and_invariant_completeness) ... ok\ntest_tampered_receipt_rejected (__main__.VacuumTests.test_tampered_receipt_rejected) ... ok\ntest_tampered_source_hash_rejected (__main__.VacuumTests.test_tampered_source_hash_rejected) ... ok\ntest_wrong_sign_is_tachyonic (__main__.VacuumTests.test_wrong_sign_is_tachyonic) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 10.905s\n\nOK\n"
+    }
+  ],
+  "hashes": {
+    "checks.py": "0031b169339176d2fab33c3b9d42ab5edc4bf04701f645f2172088c9c3735db8",
+    "receipt.json": "aa8c1df89f06fe44e57ad68d28d61e0880f1e2159de71191cd3cd80c5bb78a8f",
+    "test_vacuum.py": "47d471977f09e880ee899031d8316b30c12a116e73e012979a8388188a933d82",
+    "REPORT.md": "ed5f74870baaa360868da18bfe9521d8ebabdb91d478fa9eae00df17768f3a79",
+    "sources/deppisch.pdf": "a8a062fd2ba833fc9a0eb14e5ae9f55dddee7f132d1a506eca3262b21e36673b",
+    "sources/retrieval-receipt.json": "8e11eee8f1e89adc606e5ccd64ef49a8a37c428e8d427bab86eed4bc3dad0974"
+  }
+}

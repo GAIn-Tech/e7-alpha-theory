@@ -1,0 +1,17 @@
+{
+  "calculation_stdout_sha256": "02857193134a7025fa4058cf2b412e42ef96b106eb70492c23c67771ea0e40d6",
+  "certificate_sha256": "6cddcb228340327fea0f43b729e924b96e27c1f4d8369dd578f64c7668b8bd6c",
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-geometric-neutral-coupling-gate\\calculate.py"
+  ],
+  "manifest_sha256": "dd79f1919fa1bf9010a71b684031b68799761161f68f52be56b09b9d31ed41e9",
+  "missing_receipt_rejected": true,
+  "passed": true,
+  "release_file_count": 11,
+  "returncode": 0,
+  "scope": "Immutable local exact replay. External geometric/PQ theorems are written proof inputs, not Lean-checked; no full string vacuum.",
+  "source_and_receipt_bytes_unchanged": true,
+  "tampered_receipt_rejected": true
+}

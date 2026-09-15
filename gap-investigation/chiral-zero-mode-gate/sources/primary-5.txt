@@ -1,0 +1,1779 @@
+Dynamics of E6 chiral gauge theories
+Andrew Goh ,1,2,* Hitoshi Murayama ,1,2,3,†,‡ Gup Singh ,1,2,§ Bethany Suter ,1,2,∥and Jason Wong
+1,2,¶
+1Theory Group, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA
+2Berkeley Center for Theoretical Physics, University of California, Berkeley, California 94720, USA
+3Kavli Institute for the Physics and Mathematics of the Universe (WPI),
+University of Tokyo, Kashiwa 277-8583, Japan
+(Received 28 May 2025; accepted 5 July 2025; published 4 August 2025)
+We present exact nonperturbative vacuum solutions to chiral gauge theories based on the E6 gauge group
+and several matter fermions in the fundamental 27-dimensional representation. They are obtained when
+supersymmetric versions are perturbed by small supersymmetry breaking by anomaly mediation. The
+universality classes obtained are very different from what can be conjectured by the tumbling hypothesis. In
+particular, the case with three 27s may have an unbroken SU(3) symmetry with massless composite
+fermions in 10 of SU(3). For this case, we employed numerical techniques to obtain the exact ground state.
+DOI: 10.1103/cksl-66x7
+I. INTRODUCTION
+Nature is chiral, namely, it distinguishes left from right.
+The best theory for fundamental physics today is the so-
+called Standard Model of particle physics, which is a chiral
+gauge theory. Yet surprisingly, even the definition of a
+chiral gauge theory is not completely clear [1]. For
+instance, a standard gauge-invariant regularization method,
+such as Pauli-Villars with massive fields with wrong
+statistics to cancel UV divergences, is not possible for
+chiral gauge theories because the gauge invariance forbids a
+mass term.1 The dimensional regularization does not allow
+for a definition of the Levi-Civita tensor and hence one
+cannot define γ5 ¼ i
+4! ϵμνρσγμγνγργσ as is required for a
+chiral projection. Lattice gauge theories have an intrinsic
+fermion doubling problem despite progress [3–11]. Higher-
+derivative regularization (see, e.g., [12,13]) is not practical
+in most contexts.
+Nonperturbative dynamics of chiral gauge theories is
+even less clear given the lack of their precise definition and
+lattice simulations to date. The only known way for an
+“educated guess” is the tumbling hypothesis. It postulates
+that fermions form bilinear condensates in the most
+attractive channel (MAC) similar to QCD [14]. Yet by
+definition of the theory being chiral, such bilinear operators
+are not gauge invariant. Given Elitzur’s theorem, gauge-
+invariant operators cannot have a nonvanishing expectation
+value [15]. Nonetheless, the hypothesis assumes exactly
+such a condensate that then breaks the gauge group by its
+own dynamics. By repeating this process, eventually the
+theory becomes vectorlike, and the chain ends with a QCD-
+like condensate. This hypothesis identifies an unbroken
+global symmetry as well as a spectrum of massless
+composite fermions that match the ’t Hooft anomalies in
+the original UV theory. Even though the method is
+applicable to all chiral gauge theories, it lacks theoretical
+justifications or evidence from numerical simulations.
+Recently, it was pointed out that chiral gauge theories
+augmented by supersymmetry (SUSY) and anomaly medi-
+ated supersymmetry breaking (AMSB) allow for exact
+solutions as long the size of supersymmetry breaking is
+small compared to the dynamical scale of the gauge theory
+m ≪Λ [16]. This paper marked the first time that chiral
+gauge theories could be solved exactly. It is fascinating that
+the solution turned out to be very different from what was
+expected from the tumbling hypothesis. The challenge of
+this method is that supersymmetric gauge theories need to
+be studied individually for different gauge groups and
+particle contents, and it is much harder to draw general
+lessons compared to tumbling. It is imperative to accumu-
+late a large number of cases to understand the general
+consequence of chiral gauge theories.
+AMSB has the remarkable property of “UV insensitiv-
+ity” which grants predictive power for strongly coupled
+theories in four dimensions [17,18]. Namely, the effects of
+*Contact author: agoh@berkeley.edu
+†Contact author: hitoshi@berkeley.edu
+‡Hamamatsu Professor.
+§Contact author: gupsingh@berkeley.edu
+∥Contact author: bethany_suter@berkeley.edu
+¶Contact author: jtwong71@berkeley.edu
+Published by the American Physical Society under the terms of
+the Creative Commons Attribution 4.0 International license.
+Further distribution of this work must maintain attribution to
+the author(s) and the published article’s title, journal citation,
+and DOI. Funded by SCOAP3.
+1A potential exception to the rule is an infinite tower of Pauli–
+Villars fields [2].
+PHYSICAL REVIEW D 112, 045001 (2025)
+2470-0010=2025=112(4)=045001(13)
+045001-1
+Published by the American Physical Society
+
+broken supersymmetry can be precisely studied in the IR
+theory regardless of UV physics. Furthermore, the super-
+symmetric limit is continuously connected to nonsuper-
+symmetric gauge theories via the supersymmetry breaking
+parameter m which decouples squarks and gauginos. These
+noteworthy features of AMSB allow us to simply draw
+from known nonperturbative results in the pure super-
+symmetric theory to compute exact vacuum solutions in
+nonsupersymmetric strongly coupled theories.
+This program aims for a general tool to study strongly
+coupled chiral or nonchiral gauge theories by first studying
+their supersymmetric counterparts with small AMSB.
+Recently, this technique of perturbed AMSB has been
+applied to study a variety of chiral gauge theories [16,19–
+21]. The vacuum structure and mass spectrum for these
+cases have been solved exactly. The technique has also
+been applied to Seiberg’s results in supersymmetric theo-
+ries [22,23] to study the dynamics of QCD-like theories
+[24–26]. If we expect that the exact solutions for small
+SUSY breaking m ≪Λ continuously connect to the non-
+SUSY limit m ≫Λ where the theory is strongly coupled,
+we can uniquely identify the unbroken symmetries of the
+ground states and associated massless spectra of particles in
+non-SUSY gauge theories. In many cases, the near-SUSY
+limit m ≪Λ allows for a weakly coupled description,
+while the non-SUSY limit m ≫Λ is intrinsically strongly
+coupled and does not have well-controlled approximation
+methods.
+The Bardeen-Cooper-Schrieffer (BCS) Bose-Einstein
+condensate (BEC) crossover, established both experimen-
+tally and theoretically in atomic, molecular, and optical
+(AMO) and condensed matter physics [27,28], provides an
+encouraging support for this program. The BCS state due to
+a weak attractive force in a Fermi gas continuously connects
+to the BEC of bosonic bound states of fermions formed by
+nonperturbative strong attractive force. Knowing that it is a
+crossover, we can learn a lot about the strong coupling limit
+(BEC) by studying the weak coupling limit (BCS).
+However, it is not decisively known whether or not there is
+a phase transition when the SUSY breaking parameter is
+taken to be on the same order of the strong coupling scale
+m ∼Λ, but there are plausible arguments which suggest that
+there will not be a phase transition, implying a continuous
+connection to non-SUSY limits where m →∞. Ultimately,
+if we are to anticipate an advent of theoretical breakthroughs
+in lattice gauge theory in the near future, the nonperturbative
+resultsobtainedbyAMSBwillhave tobeverified withlattice
+simulations.
+In this paper, we study the dynamics of non-SUSY chiral
+gauge theories based on E6 using the method of AMSB
+with the supersymmetry breaking parameter taken to be
+infinitesimal. The group structure of E6 is quite nontrivial
+in comparison to the more commonly studied classical
+groups. However, it serves as an additional class of simple
+chiral gauge theories that is worthy of examination given
+that E6 admits complex representations in which all of its
+representations
+are
+anomaly-free
+by
+construction.
+Therefore, we can naturally embed Weyl fermions in the
+27-dimensional representation.
+II. SUPERSYMMETRIC E6 WITH 27’S
+In the UV, we consider chiral superfields ψiði ¼
+1; …; NFÞ that are in the 27-dimensional fundamental
+representation of E6 and in the fundamental representation
+of the SUðNFÞ global symmetry. The 27 representation of
+E6 can be expressed in terms of the maximal subgroup
+SUð3Þ × SUð3Þ × SUð3Þ in which we find the following
+decomposition,
+27 →ð3; ¯3; 1Þ ⊕ð1; 3; ¯3Þ ⊕ð¯3; 1; 3Þ:
+ð1Þ
+The 27 can then be expressed as three 3 × 3 matrices. In the
+IR, below the strong coupling scale Λ, the theory can be
+described in terms of the gauge invariant polynomials,
+which are identified as coordinates of the moduli space.
+These invariants can be constructed using the fully sym-
+metric, cubic invariant primitive tensor dμνλ,2
+SðijkÞ ¼ dμνλψμ
+i ψν
+jψλ
+k;
+ð2Þ
+Tijk;lmn ¼ Dμνλ;ξρσψμ
+i ψν
+jψλ
+kψξ
+lψρ
+mψσn;
+ð3Þ
+where the invariant T only appears for NF ≥3 and the rank
+6 invariant tensor Dμνλ;ξρσ is formed from antisymmetric
+products of the cubic invariant
+Dμνλ;ξρσ ¼ 1
+36 dαβγðdμξαdνρβdλσγ −dνξαdμρβdλσγ
+−dνραdμξβdλσγ þ …Þ:
+ð4Þ
+Here, the Greek indices (μ; ν; λ; ξ; ρ; σ ¼ 1; …; 27) are
+E6 fundamental representation indices and the Latin indices
+(i; j; k; l; m; n ¼ 1; …; NF) are SUðNFÞ flavor indices.
+These gauge invariants polynomials can also be expressed
+in terms of Young tableaux,
+ð5Þ
+In this work, we discuss cases NF ¼ 1, 2, 3. For NF ¼ 4,
+the moduli space is modified by quantum corrections and it
+is difficult to make concrete conclusions with AMSB. We
+therefore leave this case for future work. As each funda-
+mental field develops a vacuum expectation value (VEV),
+2The E6 primitive tensor dμνλ is normalized so that every entry
+is either 0; 1.
+GOH, MURAYAMA, SINGH, SUTER, and WONG
+PHYS. REV. D 112, 045001 (2025)
+045001-2
+
+the generic symmetry breaking pattern is then E6 →F4 →
+SOð8Þ →SUð3Þ →1. In each case, we use gauge sym-
+metry to rotate the fields to leave only the first 3 × 3 matrix
+nonzero, so that the D-flat configurations reside in the
+ð3; ¯3; 1Þ part of the representation.
+The result is summarized in Table I, together with other
+cases that have already been studied [16,19–21]. In most
+cases, the conjectured symmetry breaking pattern based on
+the tumbling hypothesis is not reproduced by the analysis
+based on SUSY and AMSB. Details follow in the next
+sections.
+For the E6 theories with NF 27’s, the tumbling hypothesis
+suggests SUðNFÞ is broken to SOðNFÞ with no massless
+fermions. The MAC is ðψfi;ψjgÞð27Þ whose VEV breaks E6
+to SO(10). Out of ψð27Þ, the singlet pair condenses and 10 þ
+16 remain. The next MAC is ðψfi;ð10Þψjgð10ÞÞð1Þ which
+condenses without further breaking of the gauge group.
+Finallyðψfi;ð16Þψjgð16ÞÞð10Þ condensesand breaksSO(10)
+to SO(9). The 16 is then a real representation and the SO(9)
+theory is vectorlike. The theory is gapped and there are no
+massless fermions.
+What we find in this work is very different from what
+tumbling suggests. For NF ¼ 1, there is no global sym-
+metry to speak of. For NF ¼ 2, tumbling suggests
+SUð2Þ →SOð2Þ, while SUSY þ AMSB suggests no global
+symmetry left. The case NF ¼ 3 is interesting. We found
+three local minima, each with different symmetry breaking
+patterns. Any one of them could persist to the non-SUSY
+limit m →∞. In particular, the case NF ¼ 3 with unbroken
+SU(3)
+with
+massless
+composite
+fermions
+in
+the
+representation was totally unanticipated.
+III. ANOMALY MEDIATION
+With AMSB, we infinitesimally break N ¼ 1 super-
+symmetry. All supersymmetry breaking is parametrized in
+terms of the Weyl compensator superfield Φ ¼ 1 þ θ2m
+where θ is the usual Grassmann coordinate in superspace.
+All dimensionful fields in the supersymmetric Lagrangian
+are multiplied by the Weyl compensator, producing a new
+Lagrangian,
+L ¼
+Z
+d4θΦΦK þ
+Z
+d2θΦ3W þ H:c:;
+ð6Þ
+where K and W are the Kähler potential and superpotential,
+respectively. In a conformal theory, this compensator field
+could be removed by a simple rescaling of all fields by
+TABLE I.
+Conjectured global symmetries and massless fermion content of the nonsupersymmetric chiral gauge theories.
+Representations of massless fermions are shown in Young tableaux of unbroken non-Abelian groups. The SUSYþ AMSB column
+shows the exact results valid for m ≪Λ which extend continuously to m ≫Λ if there is no phase transition at m ∼Λ. The Tumbling
+column shows the hypotheses predicted by a sequential self-breaking of the gauge group by fermion bilinear operators in the MAC.
+UV theory
+SUSY þ AMSB
+Tumbling
+NF
+Gglobal
+Hglobal
+mf ¼ 0
+Hglobal
+mf ¼ 0
+[16,21]
+0
+SUðNC −4Þ × Uð1Þ
+SpðNC −5Þ × Uð1Þ
+□þ 1
+SUðNC −4Þ × Uð1Þ
+1
+SUðNC −3Þ × Uð1Þ2
+SpðNC −3Þ × Uð1Þ
+□
+SUðNC −4Þ × Uð1Þ
+2
+SUðNC −2Þ × SUð2Þ × Uð1Þ2
+SpðNC −3Þ × Uð1Þ2
+□
+SUðNC −4Þ × SUð2Þ × Uð1Þ
+[16,21]
+0
+SUðNC −4Þ × Uð1Þ
+SpðNC −4Þ
+None
+SUðNC −4Þ × Uð1Þ
+1
+SUðNC −3Þ × Uð1Þ2
+SpðNC −4Þ × Uð1Þ
+None
+SUðNC −4Þ × Uð1Þ
+2
+SUðNC −2Þ × SUð2Þ × Uð1Þ2
+SpðNC −4Þ × SUð2Þ × Uð1Þ
+None
+SUðNC −4Þ × SUð2Þ × Uð1Þ
+[19]
+0
+SUðNC þ 4Þ × Uð1Þ
+SOðNC þ 4Þ
+None
+SUðNC þ 4Þ × Uð1Þ
+SOð10Þ þ NFψð16Þ [20]
+1
+None
+None
+None
+None
+None
+2
+SU(2)
+SU(2)
+None
+SO(2)
+None
+3
+SU(3)
+SO(3)
+None
+SO(3)
+None
+E6 þ NFψð27Þ [This Work]
+1
+None
+None
+None
+None
+None
+2
+SU(2)
+None
+None
+SO(2)
+None
+3
+SU(3)
+SU(3)
+SO(3)
+None
+Uð1Þ × Uð1Þ
+Siii (i ¼ 1, 2, 3)
+None
+None
+DYNAMICS OF E6 CHIRAL GAUGE THEORIES
+PHYS. REV. D 112, 045001 (2025)
+045001-3
+
+ψ →Φ−1ψ, leaving supersymmetry unbroken. However,
+once a mass scale is introduced in the theory, the Weyl
+compensator cannot be fully removed by a rescaling. This
+introduces a new term proportional to the SUSY breaking
+scale m into the tree-level Lagrangian,
+Ltree ¼ m
+
+ψμ
+i
+∂W
+∂ψμ
+i
+−3W
+
+þ H:c:;
+ð7Þ
+in addition to the normal F-term and D-term scalar
+potentials.
+It is often useful to require that the theory live along the
+D-flat directions, or equivalently at points in the moduli
+space where the D-term potential vanishes. This occurs
+when the following condition is satisfied:
+Da ¼
+X
+i
+ϕ†
+i Taϕi ¼ 0:
+ð8Þ
+With the addition of the new AMSB contribution, the
+potential now has a nonsupersymmetric vacuum and the
+squarks and gauginos gain nonzero VEVs.
+IV. NF = 1 CASE
+For E6 with one flavor, there is no continuous global
+symmetry. While there is a nonanomalous Z6 symmetry
+which acts on ψ →e2πi=6ψ. As long as S ≠0, it is broken
+to Z3, which is identical to the center of the E6 gauge
+group. Thus, there is no nontrivial global symmetry left.
+The F4 gaugino condensate generates a nonperturbative
+superpotential for the theory. The exact form of the
+superpotential is uniquely fixed up to an overall scale
+factor to be a function of the gauge and global invariant
+combination of the fundamental field ψ. In terms of the
+gauge invariant IR field S, the superpotential takes the form
+WNF¼1 ¼
+Λ33
+S2
+1=9
+:
+ð9Þ
+A single D-flat direction breaks E6 to F4. Without loss of
+generality, we can restrict to the first 3 × 3 submatrix of the
+27 of E6. We use the SUð3Þ × SUð3Þ gauge symmetry to
+rotate the D-flat direction into the form
+hψi ¼
+0
+B
+@
+v
+v
+v
+1
+C
+A:
+ð10Þ
+In terms of v, the superpotential simplifies to
+hWNF¼1i ¼
+Λ33
+6v6
+1=9
+:
+ð11Þ
+The total potential including the terms from AMSB (see
+Fig. 1) is
+hVNF¼1i ¼ 2 × 65=9Λ22=3
+81v10=3
+−99 × 67=9mΛ11=3
+81v2=3
+;
+ð12Þ
+which can be easily minimized to find the VEV,
+hvi ¼ 27=24
+35=6
+5Λ11=3
+11m
+3=8
+:
+ð13Þ
+Thus, the minimum value of the scalar potential is
+hVNF¼1imin ¼ −33 × 31=3
+5 × 25=12
+11m5Λ11
+4
+1=4
+:
+ð14Þ
+There is no global symmetry to check for the ’t Hooft
+anomaly, so the mass spectrum only consists of the Higgs
+superfield which breaks supersymmetry. The correspond-
+ing fermion and scalar Higgs masses are
+M2
+f ¼ 121
+9 m2;
+M2
+b;light ¼ 242
+45 m2;
+M2
+b;heavy ¼ 968
+45 m2;
+ð15Þ
+which satisfies the supertrace rule.
+V. NF = 2 CASE
+In this section, we discuss the features of E6 with two
+fields in the fundamental representation. In addition to the
+gauge group E6, there is also a global flavor symmetry
+SUð2ÞF. We expect the gauge symmetry to break according
+to the following pattern,
+E6 →SOð10Þ × Uð1Þ1 →SOð8Þ × Uð1Þ1 × Uð1Þ2:
+ð16Þ
+The SO(8) gaugino condensate generates a nonperturbative
+superpotential fixed in terms of the gauge and global
+invariant S4 to be of the form
+0.5
+1.0
+1.5
+2.0 v
+–2
+2
+4
+6
+V(v)
+VNF=1(v) with Λ = 1, m = 1
+2
+m =
+1
+2
+m = 0
+FIG. 1.
+A plot of the NF ¼ 1 scalar potential as a function of v
+with Λ ¼ 1, and m ¼ 1=2. The plot shows the potential with
+AMSB m ¼ 1=2, and without AMSB m ¼ 0.
+GOH, MURAYAMA, SINGH, SUTER, and WONG
+PHYS. REV. D 112, 045001 (2025)
+045001-4
+
+WNF¼2 ¼
+Λ30
+S4
+1=6
+:
+ð17Þ
+We construct the S4 global invariant from the standard
+normalization of the SUð2ÞF Clebsch-Gordan coefficients.
+Since the only gauge invariant is the four-component S
+tensor, the minimum must break the global SUð2ÞF at least
+partially. In addition, the global symmetry suffers from the
+Witten anomaly as this theory has 27 massless fermions in
+the UV. Thus, we expect the ground state produced from
+AMSB to fully break the global symmetry.
+To come up with a general D-flat parametrization, we
+consider the symmetry breaking pattern discussed above. In
+breaking E6 →SOð10Þ × Uð1Þ1, the branching rule for 27
+of E6 is that 27 →ð16; −1Þ ⊕ð10; 2Þ ⊕ð1; −4Þ, so the
+embedding of SO(10) into the fundamental representation
+of E6 is accomplished with a spinor, vector, and scalar of
+SO(10). Branching rules down to SO(8) gives us 8v; 8s; 8c
+and three scalars. We can set the nontrivial representations
+of SO(8) to vanish in determining the general D-flat
+configuration, since the embedding of SO(8) into E6 yields
+six SO(8) scalars in the two fundamental fields of E6. The
+D-flat conditions from the remaining Uð1Þ1 × Uð1Þ2 fix
+two of these scalars, leaving four fields to parametrize our
+four D-flat directions. Each triplet of scalars under SO(8)
+has the charges given in Table II.
+The D-flat conditions for two pairs of these SO(8)
+singlets are then
+2jXþj2 þ 2jX−j2 −4jY2j2 ¼ 0;
+jXþj2 −jX−j2 ¼ 0;
+ð18Þ
+where X; Y are doublets of the global SUð2ÞF. Assuming
+X; Y are real, the general solution is
+Xþ ¼ v
+cosθ
+sinθ
+
+;
+X−¼ v
+cosϕ
+sinϕ
+
+;
+Y ¼ v
+cosχ
+sinχ
+
+:
+ð19Þ
+These scalars fit into the fundamental E6 fields to produce
+the full D-flat configuration,
+hψ1i ¼ v
+0
+B
+@
+cos θ
+cos ϕ
+cos χ
+1
+C
+A;
+hψ2i ¼ v
+0
+B
+@
+sin θ
+sin ϕ
+sin χ
+1
+C
+A:
+ð20Þ
+Using the global SUð2ÞF flavor symmetry, we rotate the
+field χ to 0 without loss of generality.
+In terms of this D-flat parametrization, the superpotential
+becomes
+hWNF¼2i ¼
+
+315
+7
+ﬃﬃ
+3
+p
+−3
+ﬃﬃ
+7
+p
+1=6
+×
+Λ5
+v2ðsinðθ −ϕÞ sinðθÞ sinðϕÞÞ1=3 :
+ð21Þ
+The scalar potential thus takes the form
+hVNF¼2i ¼
+351=6
+3 × 32=3
+
+ﬃﬃ
+2
+p
+ð15ð5 þ
+ﬃﬃﬃﬃﬃ
+21
+p
+ÞÞ1=6 Λ10ð2 þ csc2ðθ −ϕÞ þ csc2ðθÞ þ csc2ðϕÞÞ
+v6ðsinðθ −ϕÞ sinðθÞ sinðϕÞÞ2=3
+−
+90mΛ5
+ð7
+ﬃﬃ
+3
+p
+−3
+ﬃﬃ
+7
+p
+Þ1=6v2 ðsinðθ −ϕÞ sinðθÞ sinðϕÞÞ−1=3
+
+:
+ð22Þ
+We find a unique minimum where hθi ¼ π=3 and
+hϕi ¼ 2π=3, and
+hvi ¼ 27=16ð7ð5 þ
+ﬃﬃﬃﬃﬃ
+21
+p
+ÞÞ1=48
+31=16 × 55=24
+Λ5
+m
+1=4
+:
+ð23Þ
+The hS111i and hS122i components are nonvanishing in this
+case, breaking the global SUð2ÞF fully. We also find no
+massless fermions in the spectrum in Table III since the
+global symmetry fully breaks so the ’t Hooft anomaly and
+Witten anomaly are trivially satisfied.
+Figure 2 shows the geometry of the scalar potential after
+introducing the AMSB term. In the angular ðθ; ϕÞ space,
+TABLE II.
+Charges of the triplet of scalars in the embedding of
+SO(8) into a fundamental representation of E6 for the case of
+NF ¼ 2 flavors. The gauge symmetry Uð1Þ1 × Uð1Þ2 is part of
+the six-dimensional maximal torus of E6.
+Xþ
+X−
+Y
+Uð1Þ1
+2
+2
+−4
+Uð1Þ2
+1
+−1
+0
+DYNAMICS OF E6 CHIRAL GAUGE THEORIES
+PHYS. REV. D 112, 045001 (2025)
+045001-5
+
+the scalar potential is divided into triangular subregions
+bounded by enhanced SO(9) gauge symmetric parametri-
+zations. The potential is periodic by π in both θ and ϕ, and
+exhibits a reflection symmetry θ ↔ϕ. There is then a
+unique minimum at θ ¼ π=2 and 2π=3, which corresponds
+geometrically to the centroid of the upper left triangle
+in Fig. 2.
+In addition to the global SUð2ÞF symmetry which is
+completely broken, there is a discrete Z12 symmetry where
+ψ1;2 →e2πi=12ψ1;2. With S ≠0, it is broken to Z3, which is
+identical to the center of the E6 gauge group. Therefore,
+there is no nontrivial global symmetry left.
+VI. NF = 3 CASE
+In this section, we discuss the case with a gauged E6 and 3
+fields in the fundamental representation, producing a global
+SUð3ÞF flavor symmetry. In addition to the usual S invariant
+used in the previous cases, there is also a new invariant T as
+shown in Eq. (3). The superpotential is now generated by the
+SU(3) gaugino condensate and in terms of S and T. There are
+three combinations of S and T that are gauge and global
+invariant and with the same Uð1ÞR charge: T3; TS4, and S6.
+All of these terms appear in the superpotential,
+WNF¼3 ¼
+
+Λ27
+aT3 þ bTS4 þ cS6
+1=3
+;
+ð24Þ
+where
+a ¼ 1; b ¼ 6
+ﬃﬃ
+3
+p
+; c ¼ −28
+ﬃﬃ
+3
+p
+=5
+are
+coefficients
+determined by requiring the superpotential to blow up when
+the gauge symmetry doesn’t fully break to SU(3) (see
+Appendix A for additional details). Using the Hilbert
+Series technique, we know that S4 and S6 are the only
+unique global invariants produced from the S invariant. T is a
+singlet of the global SUð3ÞF; a vacuum which only gives T a
+VEV would preserve the global symmetry, thereby requiring
+a nontrivial ’t Hooft anomaly matching condition.
+There are eleven total D-flat directions which break E6
+down to SU(3). These match the eleven independent
+parameters found in the invariant polynomials, one in
+the singlet T and ten in S. We describe a partial 10-
+dimensional parametrization of these D-flat directions in
+Appendix B. We could not find a closed form 11-dimen-
+sional parametrization as the D-flat constraints yield a
+nontrivial set of algebraic equations. However we found
+that a three-dimensional submanifold sufficed for finding
+possible ground states of the theory. Additional testing
+through numerical methods presented in Sec. VII justifies
+this simplification.
+Since we are unable to find a full parametrization of the
+D-flat directions, we start with a single parameter that
+corresponds to the parametrizing the T tensor. From here,
+we can add two more parameters that act as spherical
+parameters that tune S4 and S6. This parametrization is
+given below,
+hψ1i ¼ v
+0
+B
+@
+cos θ
+sin θ sin ϕ
+sin θ cos ϕ
+1
+C
+A;
+hψ2i ¼ v
+0
+B
+@
+−sin θ sin ϕ
+sin θ cos ϕ
+cos θ
+1
+C
+A;
+hψ3i ¼ v
+0
+B
+@
+sin θ cos ϕ
+cos θ
+sin θ sin ϕ
+1
+C
+A:
+ð25Þ
+TABLE III.
+Masses of the D-flat directions for NF ¼ 2 flavors.
+We have divided up the masses of the scalars to those heavier than
+the fermions and lighter than the fermions, denoted by M2
+b;heavy
+and M2
+b;light. Higgs refers to the supermultiplet in the field
+direction of the VEV. The global SUð2ÞF symmetry is fully
+broken, so that there are three Nambu-Goldstone bosons in the
+mass spectrum. In addition, there are no massless fermions which
+we attribute to the ’t Hooft anomaly and Witten anomaly being
+trivially satisfied. The supertrace also vanishes as expected.
+Higgs
+mðNGÞ
+mf ¼ 0
+ms
+SUð2ÞF →1
+M2
+b;heavy
+100
+3 m2
+50
+9 m2
+∅
+∅
+M2
+f
+25m2
+25
+9 m2
+∅
+∅
+M2
+b;light
+50
+3 m2
+0
+∅
+∅
+1
+1
+3
+∅
+∅
+FIG. 2.
+A plot of the NF ¼ 2 scalar potential over the angular
+coordinates θ; ϕ with Λ ¼ 1, and m ¼ 1=2. The dashed line
+indicates the region where the theory exhibits an enhanced SO(9)
+symmetry.
+GOH, MURAYAMA, SINGH, SUTER, and WONG
+PHYS. REV. D 112, 045001 (2025)
+045001-6
+
+Unlike most theories in which SUSY is broken via AMSB,
+we find three vacua with different symmetry breaking
+patterns. Moreover, all of these cases satisfy ’t Hooft
+anomaly matching conditions, so these minima are candi-
+dates in the non-SUSY limit.
+We ascribe the multiple distinct vacua to the structure of
+the superpotential in Eq. (24). The singular nature of the
+superpotential along enhanced symmetry regions corre-
+sponding to SO(8) and G2 (see Figs. 3 and 4) separates the
+scalar potential into three different regions. In each of these
+regions, AMSB can produce at most a single vacuum, and
+in our case of an E6 gauge theory with NF ¼ 3 flavors, we
+have found a maximal set of three valid vacua.
+A. Unbroken global SU(3) vacuum
+The vacuum that leaves the global symmetry fully unbro-
+ken corresponds to a vanishing S invariant. Since the T
+invariant is transforms trivially under the flavor symmetry
+when NF ¼ 3, a VEV parametrized by T can lead to a
+potential vacuum that leaves the global symmetry unaffected
+upon integrating out the broken gauge superfields. A non-
+tachyonic mass spectrum and matching ’t Hooft anomaly
+further vindicates this vacuum as a valid minimum.
+We can achieve a vanishing S invariant from Eq. (25) by
+setting hθi ¼ π=4 and hϕi ¼ π=2. Along this D-flat direc-
+tion, the T invariant is parametrized by the scale of the UV
+fields by hTi ¼ v6=2. Since hS4i ¼ hS6i ¼ 0 here, the
+superpotential takes a more convenient form,
+hWNF¼3ijT ¼
+Λ9
+a1=3T ¼ 2Λ9
+a1=3v6 :
+ð26Þ
+The scalar potential then has the explicit form,
+hVNF¼3ijT ¼ 48Λ18
+a2=3v14 −36mΛ9
+a1=3v6 ;
+ð27Þ
+which can be quickly minimized to obtain the VEV
+hvijT ¼
+ 28Λ9
+9a1=3m
+1=8
+:
+ð28Þ
+In the limit m ≪Λ, the VEV becomes parametrically large,
+so that our analysis starting with the UV fields is justified
+over working directly with the gauge invariants. The
+vacuum energy in this case is
+hVNF¼3ijT;min ¼ −108
+ﬃﬃ
+6
+p
+77=4a1=12 ðm7Λ9Þ1=4
+¼ −8.78168… × ðm7Λ9Þ1=4:
+ð29Þ
+At this vacuum, the global symmetry is left fully
+unbroken, so the mass spectra and ’t Hooft anomaly should
+agree with this symmetry pattern. We find ten massless
+fermions in the spectrum, which correspond to the S tensor
+due to the lack of T in the superpotential along this
+–2
+–1
+0
+1
+2
+–2
+–1
+0
+1
+2
+v cos(θ)
+v sin(θ)
+VNF=3 (v, θ , π /2) with Λ = 1, m = 1
+2
+–2.5
+–1.5
+–0.5
+0.5
+1.5
+2.5
+SO(8)
+G2
+FIG. 3.
+A plot of the NF ¼ 3 scalar potential over the
+coordinates v, θ with ϕ ¼ π=2, Λ ¼ 1, and m ¼ 1=2. The dashed
+and solid lines indicate regions of enhanced symmetry, splitting
+off the potential into separate regions that each contain a
+minimum.
+–2
+–1
+0
+1
+2
+–2
+–1
+0
+1
+2
+v cos(θ)
+v sin(θ)
+VNF=3 (v, θ ,  *) with Λ = 1, m = 1
+2
+–2.5
+–1.5
+–0.5
+0.5
+1.5
+2.5
+SO(8)
+G2
+FIG. 4.
+A plot of the NF ¼ 3 scalar potential over the
+coordinates v, θ with ϕ ≈0.57827, Λ ¼ 1, and m ¼ 1=2. The
+dashed and solid lines indicate regions of enhanced symmetry,
+splitting off the potential into separate regions that each contain a
+minimum. This particular cross section of the moduli space
+contains the deepest vacuum state with a value of around
+V ¼ −3.01811.
+DYNAMICS OF E6 CHIRAL GAUGE THEORIES
+PHYS. REV. D 112, 045001 (2025)
+045001-7
+
+direction. Indeed, the UV anomaly AUV ¼ 27 matches the
+IR
+anomaly
+for
+the
+massless
+10
+of
+SUð3ÞF
+with
+AIR ¼ ð3 þ 3Þð3 þ 6Þ=2 ¼ 27.
+B. Unbroken global Uð1Þ × Uð1Þ vacuum
+The second vacuum is less trivial and breaks the global
+symmetry partially from SUð3ÞF to Uð1Þ1 × Uð1Þ2. In this
+case, the global invariants S4 and S6 are algebraically
+dependent through the polynomial PðS4; S6Þ ¼ ðS4Þ1=4 −
+αðS6Þ1=6 for some constant α. Moreover, the T invariant is
+nonvanishing, so all terms in the denominator of the super-
+potential equation (24) contribute towards the scalar potential.
+We can achieve a partially broken vacuum of Uð1Þ1 ×
+Uð1Þ2 with a nonzero VEV for only hS123i of the S
+invariant. With our parametrization in Eq. (25), we set
+hϕi ¼ π=2 to produce this desired behavior. From our
+normalization convention described in Appendix A, the
+global invariants are parametrized by v, θ via
+hS4iϕ¼π=2 ¼ −v12
+18
+ﬃﬃ
+3
+p ðcos3θ −sin3θÞ4;
+hS6iϕ¼π=2 ¼ −5v18
+378
+ﬃﬃ
+3
+p ðcos3θ −sin3θÞ6;
+hTiϕ¼π=2 ¼ v6
+48ð10þ6cos4θ þ15sin2θ −5sin6θÞ:
+ð30Þ
+Along these D-flat directions, the superpotential and scalar
+potential are
+hWNF¼3iϕ¼π=2 ¼
+Λ922=3 csc2 2θ
+v6ðcos3 θ þ sin3 θÞ2=3
+hVNF¼3iϕ¼π=2 ¼
+Λ18 csc16 θ sec6 θ
+192 × 22=3v14ð1 þ cot3 θÞ10=3
+× ð55 þ 12 cos 4θ −3 cos 8θ
+þ 24 sin 2θ −8 sin 6θÞ
+−9mΛ9
+21=3v6
+csc4 θ sec2 θ
+ð1 þ cot3 θÞ10=3 :
+ð31Þ
+With this form of the scalar potential, we can numerically
+minimize over the parameters v, θ to obtain a vacuum
+solution with
+hvi ¼
+
+5.06183…×Λ9
+m
+1=8
+;
+hθi ¼ 2.61549…;
+ð32Þ
+where hθi does not depend on the particular value of m or
+Λ. The vacuum energy in this case has the form
+hVNF¼3imin ¼ −9.91804… × ðm7Λ9Þ1=4:
+ð33Þ
+TABLE IV.
+This table lists the masses of the D-flat directions as well as their representations under the global symmetries at tree level
+for each of the three vacua. For those with no non-Abelian global symmetries remaining, the number instead denotes the multiplicity of
+the fields in each category. We have divided up the masses of the scalars to those heavier than the fermions and lighter than the fermions,
+denoted by M2
+b;heavy and M2
+b;light. Higgs refers to the supermultiplet in the field direction of the VEV. NG refers to Nambu-Goldstone
+supermultiplets for spontaneously broken global symmetries. Only the first two vacua have massless fermions; their scalar partners
+acquire positive mass squared from two-loop AMSB. The second vacua has one fermion and two scalars that were neither rational
+fractions nor proportional to common irrational numbers up to high numerical precision; these masses together fulfill the sum rule, a
+nontrivial test.
+Higgs
+mðNGÞ
+mf ¼ 0
+ms
+SUð3ÞF →SUð3ÞF; V ¼ −2.61081…
+M2
+b;heavy
+648
+7 m2
+∅
+0
+∅
+M2
+f
+81m2
+∅
+0
+∅
+M2
+b;light
+486
+7 m2
+∅
+0
+∅
+SUð3ÞF
+1
+∅
+∅
+SUð3ÞF →Uð1Þ1 × Uð1Þ2; V ¼ −2.61549…
+M2
+b;heavy
+648
+7 m2
+162
+49 m2
+0
+≈15.53m2
+M2
+f
+81m2
+81
+49 m2
+0
+≈11.22m2
+M2
+b;light
+486
+7 m2
+0
+0
+≈6.91m2
+Uð1Þ1 × Uð1Þ2
+1
+6
+3
+1
+SUð3ÞF →1; V ¼ −3.01811…
+M2
+b;heavy
+648
+7 m2
+162
+49 m2
+∅
+486
+49 m2
+M2
+f
+81m2
+81
+49 m2
+∅
+324
+49 m2
+M2
+b;light
+486
+7 m2
+0
+∅
+162
+49 m2
+1
+1
+8
+∅
+2
+GOH, MURAYAMA, SINGH, SUTER, and WONG
+PHYS. REV. D 112, 045001 (2025)
+045001-8
+
+The corresponding mass spectra is shown in the second
+section of Table IV where we see that the supertrace rule is
+satisfied and that there are no tachyons in the spectrum.
+The less trivial check that this solution is a candidate
+vacuum is to show that the ’t Hooft anomaly matches in the
+UVand IR. The unbroken global symmetry Uð1Þ1 × Uð1Þ2
+correspond to the Cartan generators of SUð3ÞF. We have
+chosen our parametrization, Eq. (25), to already be diago-
+nal under the Uð1Þ1 × Uð1Þ2 subgroup, so that our massless
+UV and IR fields transform as charges given in Table V,
+from which we see that all of the ’t Hooft anomalies match.
+C. Fully broken global symmetry vacuum
+The final vacuum solution has vanishing T and S4 global
+invariants, fully breaking the global SUð3ÞF symmetry.
+Thus, only the S6 global invariant acquires a nonzero VEV,
+and in this case we obtain the deepest scalar potential value
+at tree level for our choice of m and Λ.
+We numerically minimize (see Sec. VII) the scalar
+potential over all three parameters v; θ; ϕ in Eq. (25) and
+obtain
+hvi ¼
+
+5.55590… × Λ9
+m
+1=8
+;
+hθi ¼ 1.27330…;
+hϕi ¼ 2.05978…;
+ð34Þ
+with a corresponding vacuum energy of
+hVNF¼3imin ¼ −10.15167… × ðm7Λ9Þ1=4:
+ð35Þ
+The analytical expression for the global invariants,
+superpotential, and scalar potential are lengthy and can
+be found in Appendix C.
+We observe no massless fermions and the ’t Hooft
+anomaly is satisfied in this vacuum, since the SUð3ÞF
+global symmetry of the theory is fully broken. The mass
+spectra obtained from our numerical analysis are shown in
+Table IV. Once again, we can see that the supertrace is
+satisfied, further verifying this as a candidate vacuum
+solution.
+VII. NUMERICS
+For NF ≤2 the relatively low dimensional moduli
+spaces allow for analytical methods. However in the case
+of NF ¼ 3 with the introduction of the T gauge invariant,
+we employ numerical techniques. We use the
+Python
+wrapper of SymEngine, a C++ backend symbolic manipu-
+lation library, and the Mathematica package GroupMath for
+the construction of our gauge invariants. We parse the
+GroupMath output using ReGex and create symbolic expres-
+sions in Python to differentiate and write our superpotential
+and thus our scalar potential.
+To find an explicit expression for the T invariant, we use
+the definition in Eq. (4) in terms of the primitive invariant
+dμνλ of E6, whose definition we use from E6Tensors [29]. We
+can then export this tensor as a CSV file into Python and
+continue our analysis with SymEngine.
+We use the Broyden-Fletcher-Goldfarb-Shanno algo-
+rithm to minimize the scalar potential. To reduce computa-
+tional complexity, we restrict the number of chiral
+superfields to the first nine components of each of our
+UV fields as described in Sec. II. Minimizing our scalar
+potential gives us numerical values for these UV fields.
+From here, we substitute this numerical VEV into the
+symbolic second derivative expression of the superpotential
+to obtain the fermion masses.
+The complexity of our gauge invariants made obtaining
+scalar and pseudoscalar masses computationally challeng-
+ing, so we outline a more efficient method. In this approach,
+we construct the superpotential and scalar potential by
+treating the global invariants as SymEngine functions of
+the UV fields. This enables us to treat the superpotential
+and scalar potential as functionals of the global invariants
+and differentiate implicitly twice with respect to the UV
+fields. Once these symbolically differentiated expressions
+are obtained, we evaluate the global invariants and their
+derivatives along a given VEV. We can reduce the amount
+of computations further by invoking the commutativity of
+derivatives. Finally, we can substitute the VEV into the
+second derivative of the scalar potential, where again we
+utilize the symmetric exchange of derivatives to decrease
+the computational steps.
+We found this approach to be significantly more efficient
+compared to writing the superpotential and scalar potential
+explicitly in terms of the UV fields. The structure of group
+invariants for linear representations are polynomials, so that
+derivatives of these global invariants only involve the
+power rule. Hence, the large number of 818,100 non-
+vanishing terms of the T invariant does not pose an issue
+with runtime. The remaining derivatives only involve the
+global invariants, which takes minimal computation time.
+With this technique, we obtain numerical mass spectra
+which appear in Table IV. We verify the analytical value of
+these masses to 512 binary bits of precision which
+correspond roughly to 154 decimals of precision. We
+perform the same numerical precision in all parts of our
+numerical calculations including the supertrace check. This
+computational approach to obtaining numerical solutions
+can be extended to other gauge theories as a useful tool
+TABLE V.
+Charges of the unbroken Uð1Þ1 × Uð1Þ2 global
+symmetry for the massless UV and IR fermionic modes.
+ψ1
+ψ2
+ψ3
+S111
+S222
+S333
+Uð1Þ1
+0
+−1
+1
+0
+−1
+1
+Uð1Þ2
+2
+−1
+−1
+6
+−3
+−3
+DYNAMICS OF E6 CHIRAL GAUGE THEORIES
+PHYS. REV. D 112, 045001 (2025)
+045001-9
+
+alongside analytical methods, especially when the gauge
+theory and matter representations pose a high-dimensional
+problem that makes full analytical techniques difficult to
+implement.
+We also include a short animation of the NF ¼ 3
+potential that interpolates between Figs. 3 and 4 in an
+online repository [30]. We see that from these three D-flat
+directions in Eq. (25) there are indeed only three distinct
+minima for this configuration, which are split by the
+enhanced symmetry regions corresponding to unbroken
+SO(8) and G2 gauge symmetry.
+VIII. CONCLUSIONS
+In this paper, we obtained exact solutions to chiral E6
+gauge theories with NF ¼ 1, 2, 3 matter fields in the 27
+representation when supersymmetry is perturbed by a small
+supersymmetry breaking m ≪Λ via anomaly mediation.
+The main results are summarized in Table I. Combined with
+all other results obtained using this method to date, we find
+quite different patterns of symmetry breaking and massless
+composite spectra from what could be conjectured based on
+the tumbling hypothesis in the nonsupersymmetric limit.
+Even though there is a wealth of evidence that the exact
+solutions for m ≪Λ smoothly connect to the nonsuper-
+symmetric limit m ≫Λ for vectorlike gauge theories [31],
+there could still be phase transitions between the two limits
+in these chiral gauge theories. Nonetheless, we would like
+to emphasize that naively taking the limit m →∞does give
+us a self-consistent conjecture on nonsupersymmetric
+dynamics and it is worth exploring.
+Another important application is to stay within the
+validity range m ≪Λ and use it to build models of physics
+beyond the standard model at high energies, where super-
+symmetry could indeed be present with a small supersym-
+metry breaking. In this case, we can employ the exact
+solutions we have directly, to address problems such as the
+composite axion for the Peccei-Quinn quality problem,
+dark matter with composite dynamics, composite inflaton
+field, nonperturbative dynamics for baryogenesis, etc.
+Finally, it would be useful to extend the analysis to more
+general types of supersymmetry breaking. We would like to
+give masses to both gauginos and scalars to approach the
+nonsupersymmetric theory and the anomaly mediation
+provides them in a UV-insensitive fashion. On the other
+hand, D-terms [both conventional U(1) as well as Uð1ÞR]
+are also UV-insensitive, while they do not generate gaugino
+masses and hence they are not sufficient for the purpose.
+Yet one can study the combination of them to see if there is
+an interesting phase diagram to be explored. In addition,
+some theories can incorporate a tree-level superpotential to
+explicitly break (a part of) the symmetries that could also
+provide a rich phase diagram to be studied. We hope to
+explore both of these directions in the near future to
+understand the big picture on dynamics of chiral gauge
+theories.
+ACKNOWLEDGMENTS
+The work of B. A. S. is supported by the NSF GRFP
+Fellowship and BSF-2018140. This material is based upon
+work supported by the National Science Foundation
+Graduate Research Fellowship Program under Grant
+No. DGE 2146752. The work of H. M. is supported by
+the Director, Office of Science, Office of High Energy
+Physics of the U.S. Department of Energy under the
+Contract No. DE-AC02-05CH11231, by the NSF Grant
+No. PHY-2210390, by the JSPS Grant-in-Aid for Scientific
+Research No. JP23K03382, MEXT Grants-in-Aid for
+Transformative Research Areas (A) No. JP20H05850,
+No. JP20A203, Hamamatsu Photonics, K. K., and Tokyo
+Dome Corporation. In addition, H. M. is supported by the
+World Premier International Research Center Initiative
+(WPI) MEXT, Japan.
+Any opinions, findings, and conclusions or recommen-
+dations expressed in this material are those of the author(s)
+and do not necessarily reflect the views of the National
+Science Foundation.
+DATA AVAILABILITY
+No data were created or analyzed in this study.
+APPENDIX A: FIXING SUPERPOTENTIAL
+COEFFICIENTS FOR NF = 3
+The superpotential generated by the SU(3) gaugino
+condensate is of the form,
+WNF¼3 ¼
+
+Λ27
+aT3 þ bTS4 þ cS6
+1=3
+;
+ðA1Þ
+where a, b, c are coefficients that we determine from the
+condition that the superpotential is poorly behaved when
+the gauge symmetry does not fully break to SU(3).
+We determine the a, b, c relative coefficients using two
+different D-flat configurations that preserve a larger gauge
+symmetry than SU(3). One configuration that breaks E6 to
+G2 is the following,
+hψ1i ¼
+0
+B
+@
+1
+0
+0
+1
+C
+A;
+hψ2i ¼
+0
+B
+@
+0
+1
+0
+1
+C
+A;
+hψ3i ¼
+0
+B
+@
+0
+0
+1
+1
+C
+A:
+ðA2Þ
+GOH, MURAYAMA, SINGH, SUTER, and WONG
+PHYS. REV. D 112, 045001 (2025)
+045001-10
+
+The G2 configuration have nonvanishing hTi and hS123i
+components so that we obtain a nontrivial relation in setting
+the denominator of the superpotential equation (A1) to
+vanish.
+A less trivial configuration that breaks E6 to SO(8) is
+hψ1i ¼
+0
+B
+@
+u
+x
+x 1
+C
+A;
+hψ2i ¼
+
+v
+y
+y
+
+;
+hψ3i ¼
+0
+B
+@
+w
+z
+z
+1
+C
+A;
+ðA3Þ
+and where the D-flat constraints require that y2 þ u2 ¼
+x2 þ v2 and z2 þ u2 ¼ x2 þ w2.
+Our choice of normalization convention for T; S4, and S6
+is based on the GroupMath package. We generate the T tensor
+through its definition in Eq. (3) including a factor of 1=36
+to account for the 36 terms of products of S to match the
+symmetry pattern in Eq. (5). The S4 and S6 invariants are
+produced from the canonical definition of S in Eq. (2) and
+plugged into GroupMath to yield SU(3) invariant tensors.
+With these normalizations and testing these enhanced
+symmetry configurations, we obtain relative coefficients
+b ¼ 6
+ﬃﬃ
+3
+p
+a;
+c ¼ −28
+ﬃﬃ
+3
+p
+5
+a;
+ðA4Þ
+and from now on we set a ¼ 1 as a convention. This exact
+value can be determined through an exact gaugino con-
+densate calculation, but we find that this is not necessary for
+the rest of this computation.
+APPENDIX B: 10D PARAMETRIZATION OF
+MODULI SPACE
+The case of NF ¼ 3 flavors of E6 has eleven D-flat
+directions. Here, we describe how to write an explicit
+parametrization of ten of these D-flat directions. Let us start
+by embedding nine vectors in R3 labeled li, mj, nk with
+i ¼ 1, 2, 3 into the ð3; ¯3; 1Þ block of three 27s of E6 as
+hψii ¼
+0
+B
+@
+l1
+m3
+n2
+n3
+l2
+m1
+m2
+n1
+l3
+1
+C
+A:
+ðB1Þ
+We simplify our analysis by setting l3, m3, n3 to vanish.
+The D-flat conditions then restrict the form of the remain-
+ing vectors for i ≠j,
+li · mj ¼ mi · nj ¼ ni · lj ¼ 0
+X
+2
+i¼1
+li · li ¼
+X
+2
+i¼1
+mi · mi ¼
+X
+2
+i¼1
+ni · ni:
+ðB2Þ
+These constraints can be solved for analytically using
+Mathematica to produce a 10-dimensional parametrization
+of the D-flat directions for E6 with three 27s. To do this, we
+set the length of jlij ¼ jmij ¼ jnij and then impose
+orthogonality conditions. We satisfy the orthogonality
+constraints by letting li be general vectors, and set the
+complement mj and nj with i ≠j to span the orthogonal
+plane to li. We can then solve the remaining orthogonality
+condition mi · nj ¼ 0 explicitly in this reduced parameter
+space. This yields a seven-dimensional parametrization of
+the D-flat directions, but we can include three additional
+parameters corresponding to the global SUð3ÞF symmetry.
+Adding an eleventh parameter to the D-flat parametriza-
+tion requires one of l3, m3, n3 to be nonzero. This greatly
+increases the number of orthogonality conditions, leading
+to equations that are much more difficult to separate and
+solve. We do not pursue a full parametrization because of
+this complication, and numerical checks improve our
+confidence that an entire parametrization of D-flatness is
+unnecessary for our analysis.
+APPENDIX C: GLOBAL INVARIANTS FOR NF = 3
+FULLY BROKEN GLOBAL SYMMETRY CASE
+In the E6 gauge theory with NF ¼ 3 flavors, we can use
+the VEV in Eq. (25) to find the resultant global invariants,
+as well as the superpotential and scalar potential, explicitly.
+These expressions are analytical, but lengthy, so we have
+provided their form in this appendix. For brevity, we write
+sθ ¼ sin θ and cθ ¼ cos θ. With these simplifications, the
+analytical expression for the global invariants are
+DYNAMICS OF E6 CHIRAL GAUGE THEORIES
+PHYS. REV. D 112, 045001 (2025)
+045001-11
+
+hTi ¼ 2
+3 v6ð5s3
+2θs3
+ϕ þ s6
+θð5s3
+2ϕ þ 4ðs6
+ϕ þ c6
+ϕÞÞ −40s3
+θc3
+θc3
+ϕ þ 4c6
+θÞ;
+hS4i ¼
+v12
+36
+ﬃﬃ
+3
+p
+
+512s9
+θc3
+θðs9
+ϕ −c9
+ϕ þ 57s3
+ϕc6
+ϕ −57s6
+ϕc3
+ϕÞ þ 57s6
+2θs3
+2ϕ −1
+2 s12
+θ ð4s3
+ϕ −3cϕ −c3ϕÞ4 −96s6
+θc6
+θð3c4ϕ þ 5Þ
+−512s3
+θc9
+θðc3
+ϕ −s3
+ϕÞ −128c12
+θ
+
+;
+hS6i ¼ 1280v18
+189
+ﬃﬃ
+3
+p
+15
+16 s6
+θc12
+θ ð17s6ϕ −51s2ϕ −6c4ϕ −10Þ þ 6s3
+θc15
+θ ðs3
+ϕ −c3
+ϕÞ þ 20s9
+θc9
+θðs9
+ϕ −c9
+ϕ −78s3
+ϕc6
+ϕ þ 78s6
+ϕc3
+ϕÞ
+þ s18
+θ
+4096 ð4s3
+ϕ −3cϕ −c3ϕÞ6 −3
+256 s15
+θ c3
+θð−4s3
+ϕ þ 3cϕ þ c3ϕÞ3ð66s2ϕ −22s6ϕ þ 3c4ϕ þ 5Þ
+−3
+512 s12
+θ c6
+θð9360s2ϕ −520s6ϕ −1560s10ϕ −6330 þ 12465c4ϕ −4326c8ϕ þ 751c12ϕÞ −c18
+θ
+
+:
+ðC1Þ
+The superpotential takes a rather simple form,
+hWi ¼
+25=3Λ9
+v6s2
+θ½ðc3
+ϕ þ s3
+ϕÞ2ðc3
+θ −c3
+ϕs3
+θÞ2ðc3
+θ þ s3
+θs3
+ϕÞ21=3 :
+ðC2Þ
+In terms of the superpotential, the scalar potential becomes
+hVi ¼ −v16hWi4s4
+θ
+48Λ27
+½c12
+θ ð27mv2c6
+ϕs2
+θ þ 54mv2c3
+ϕs2
+θs3
+ϕ −4hWic4
+ϕ þ 27mv2s2
+θs6
+ϕ −4hWis4
+ϕÞ
+þ 2c9
+θs3
+θð−27mv2c9
+ϕs2
+θ −27mv2c6
+ϕs2
+θs3
+ϕ þ 27mv2c3
+ϕs2
+θs6
+ϕ þ 8hWic7
+ϕ þ 27mv2s2
+θs9
+ϕ −8hWis7
+ϕÞ
+þ c6
+θs6
+θð8hWic4
+ϕs6
+ϕ −16hWis10
+ϕ þ 2c6
+ϕð4hWis4
+ϕ −81mv2s2
+θs6
+ϕÞ þ 2c3
+ϕð8hWis7
+ϕ −27mv2s2
+θs9
+ϕÞ
+þ 16hWic7
+ϕs3
+ϕ þ 27mv2c12
+ϕ s2
+θ −16hWic10
+ϕ þ 27mv2s2
+θs12
+ϕ −54mv2c9
+ϕs2
+θs3
+ϕÞ
+−2c3
+θc3
+ϕs9
+θs3
+ϕð−27mv2c9
+ϕs2
+θ −27mv2c6
+ϕs2
+θs3
+ϕ þ c3
+ϕð27mv2s2
+θs6
+ϕ −8hWis4
+ϕÞ þ 8hWic4
+ϕs3
+ϕ
+þ 16hWic7
+ϕ þ 27mv2s2
+θs9
+ϕ −16hWis7
+ϕÞ
+þ c4
+ϕs12
+θ s4
+ϕðc8
+ϕð27mv2s2
+θs2
+ϕ −4hWiÞ þ c5
+ϕð54mv2s2
+θs5
+ϕ −16hWis3
+ϕÞ −16hWic6
+ϕs2
+ϕ
+þ c2
+ϕð27mv2s2
+θs8
+ϕ −16hWis6
+ϕÞ −16hWic3
+ϕs5
+ϕ −4hWis8
+ϕÞ
+−16hWic10
+θ s2
+θðc3
+ϕ þ s3
+ϕÞ2 þ 16hWic7
+θs5
+θðc3
+ϕ −s3
+ϕÞðc3
+ϕ þ s3
+ϕÞ2 −4hWic4
+θs8
+θðc6
+ϕ −s6
+ϕÞ2:
+ðC3Þ
+[1] R. D. Ball, Chiral gauge theory, Phys. Rep. 182, 1 (1989).
+[2] R. Narayanan and H. Neuberger, Infinitely many regulator
+fields for chiral fermions, Phys. Lett. B 302, 62 (1993).
+[3] P. H. Ginsparg and K. G. Wilson, A remnant of chiral
+symmetry on the lattice, Phys. Rev. D 25, 2649 (1982).
+[4] D. B. Kaplan, A method for simulating chiral fermions on
+the lattice, Phys. Lett. B 288, 342 (1992).
+[5] Y. Shamir, Chiral fermions from lattice boundaries, Nucl.
+Phys. B406, 90 (1993).
+[6] R. Narayanan and H. Neuberger, A construction of lattice
+chiral gauge theories, Nucl. Phys. B443, 305 (1995).
+[7] M. Lüscher, Exact chiral symmetry on the lattice and the
+Ginsparg-Wilson relation, Phys. Lett. B 428, 342 (1998).
+[8] M. Golterman, Lattice chiral gauge theories, Nucl. Phys. B,
+Proc. Suppl. 94, 189 (2001).
+[9] M. Golterman and Y. Shamir, SU(N) chiral gauge theories
+on the lattice, Phys. Rev. D 70, 094506 (2004).
+[10] D. M. Grabowska and D. B. Kaplan, Nonperturbative regu-
+lator for chiral gauge theories?, Phys. Rev. Lett. 116,
+211602 (2016).
+[11] D. M. Grabowska and D. B. Kaplan, Chiral solution to the
+Ginsparg-Wilson equation, Phys. Rev. D 94, 114504 (2016).
+GOH, MURAYAMA, SINGH, SUTER, and WONG
+PHYS. REV. D 112, 045001 (2025)
+045001-12
+
+[12] A. A. Slavnov, Invariant regularization of nonlinear chiral
+theories, Nucl. Phys. B31, 301 (1971).
+[13] M. Lüscher, Chiral gauge theories revisited, Subnucl. Ser.
+38, 41 (2002).
+[14] S. Raby, S. Dimopoulos, and L. Susskind, Tumbling gauge
+theories, Nucl. Phys. B169, 373 (1980).
+[15] S. Elitzur, Impossibility of spontaneously breaking local
+symmetries, Phys. Rev. D 12, 3978 (1975).
+[16] C. Csáki, H. Murayama, and O. Telem, Some exact
+results in chiral gauge theories, Phys. Rev. D 104,
+065018 (2021).
+[17] L. Randall and R. Sundrum, Out of this world supersym-
+metry breaking, Nucl. Phys. B557, 79 (1999).
+[18] G. F. Giudice, M. A. Luty, H. Murayama, and R. Rattazzi,
+Gaugino mass without singlets, J. High Energy Phys. 12
+(1998) 027.
+[19] C. Csáki, H. Murayama, and O. Telem, More exact results
+on chiral gauge theories: The case of the symmetric tensor,
+Phys. Rev. D 105, 045007 (2022).
+[20] D. Kondo, H. Murayama, and C. Sylber, Dynamics of
+simplest chiral gauge theories, arXiv:2209.09287.
+[21] J. M. Leedom, H. Murayama, G. Singh, B. Suter, and J.
+Wong, Exact results in chiral gauge theories with flavor,
+arXiv:2503.08772.
+[22] N. Seiberg, Exact results on the space of vacua of four-
+dimensional SUSY gauge theories, Phys. Rev. D 49, 6857
+(1994).
+[23] N. Seiberg, Electric—magnetic duality in supersymmetric
+nonAbelian gauge theories, Nucl. Phys. B435, 129 (1995).
+[24] H. Murayama, Some exact results in QCD-like theories,
+Phys. Rev. Lett. 126, 251601 (2021).
+[25] D. Kondo, H. Murayama, B. Noether, and D. R. Varier,
+Broken conformal window, J. High Energy Phys. 04 (2025)
+152.
+[26] C. Csáki, A. Gomes, H. Murayama, B. Noether, D. R. Varier,
+and O. Telem, Guide to anomaly-mediated supersymmetry-
+breaking QCD, Phys. Rev. D 107, 054015 (2023).
+[27] M. M. Parish, The BCS–BEC Crossover (Imperial College
+Press, London, 2014), pp. 179–197.
+[28] M. Randeria and E. Taylor, BCS-BEC crossover and the
+unitary Fermi gas, Annu. Rev. Condens. Matter Phys. 5, 209
+(2014).
+[29] T. Deppisch, E6Tensors: A Mathematica package for E6
+Tensors, Comput. Phys. Commun. 213, 130 (2017).
+[30] A. Goh, H. Murayama, G. Singh, B. Suter, and J. Wong, E6
+NF ¼ 3 AMSB potential, 10.5281/zenodo.15258774.
+[31] D. Kondo, H. Murayama, and B. Noether, Near-SUSY to
+non-SUSY crossover, arXiv:2505.18138.
+DYNAMICS OF E6 CHIRAL GAUGE THEORIES
+PHYS. REV. D 112, 045001 (2025)
+045001-13

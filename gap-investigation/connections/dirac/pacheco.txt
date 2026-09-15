@@ -1,0 +1,2323 @@
+PAGE 1
+arXiv:0804.1362v2  [hep-th]  20 Aug 2008
+Preprint typeset in JHEP style - HYPER VERSION
+Imperial/TP/08/DW/01
+M-theory, exceptional generalised geometry and
+superpotentials
+Paulo Pires Pacheco
+Department of Physics, Imperial College London
+London, SW7 2AZ, UK
+Daniel Waldram
+Department of Physics, Imperial College London
+London, SW7 2AZ, UK
+Institute for Mathematical Sciences, Imperial College London
+London, SW7 2AZ, UK
+Abstract: We discuss the structure of “exceptional generalised geometry” (EGG), an
+extension of Hitchin’s generalised geometry that provides a uniﬁed geometrical description
+of backgrounds in eleven-dimensional supergravity. On a d-dimensional background, as
+ﬁrst described by Hull, the action of the generalised geometrical O(d, d) symmetry group is
+replaced in EGG by the exceptional U-duality group Ed(d). The metric and form-ﬁeld de-
+grees of freedom combine into a single geometrical object, so that EGG naturally describes
+generic backgrounds with ﬂux, and there is an EGG analogue of the Courant bracket
+which encodes the diﬀerential geometry. Our focus is on the case of seven-dimensional
+backgrounds with N = 1 four-dimensional supersymmetry. The corresponding EGG is the
+generalisation of a G2-structure manifold. We show it is characterised by an element φ
+in a particular orbit of the 912 representation of E7(7), which deﬁnes an SU (7) ⊂E7(7)
+structure. As an application, we derive the generic form of the four-dimensional eﬀective
+superpotential, and show that it can be written in a universal form, as a homogeneous
+E7(7)-invariant functional of φ.
+
+PAGE 2
+Contents
+1.
+Introduction
+1
+2.
+EGG in seven dimensions
+3
+2.1
+Review of generalised geometry
+3
+2.2
+The exceptional generalised tangent space and E7(7)
+5
+2.3
+The exceptional generalised metric and SU (8)/Z2 structures
+9
+3.
+Supersymmetric backgrounds and EGG
+11
+3.1
+Eﬀective theories and ﬁeld decompositions
+11
+3.2
+Review of generalized geometry of N = 2 type II backgrounds
+13
+3.3
+N = 1 M-theory backgrounds, EGG and SU (7) structures
+16
+4.
+Application: the eﬀective superpotential
+18
+4.1
+Generic form of the eﬀective superpotential
+19
+4.2
+An E7(7) covariant expression
+20
+5.
+Conclusions
+23
+A. Conventions
+25
+A.1 Eleven-dimensional supergravity
+25
+A.2 Cliﬀ(7, 0) and seven-dimensional spinors
+26
+B. The exceptional Lie group E7(7)
+27
+B.1
+Deﬁnition and the 56 representation
+27
+B.2
+The 133 and 912 representations
+28
+B.3
+A GL(7) subgroup
+29
+B.4
+The SU (8)/Z2 subgroup and spinor indices
+30
+1. Introduction
+Type II string backgrounds in d dimensions which include non-trivial ﬂuxes have a natural
+description in terms of Hitchin’s generalised geometry [1, 2, 3, 4], where the metric and
+NS–NS B-ﬁeld are combined into a single geometrical object, transforming under O(d, d).
+This description has proved very useful in, among other things: characterising supersym-
+metric backgrounds, ﬁnding new examples with non-zero ﬂuxes and writing supersymmet-
+ric low-energy eﬀective theories [5]–[25]; describing topological string theories and generic
+N = (2, 2) σ-models [26]–[39]; as well as motivating the structure of non-geometrical back-
+grounds [40]–[48].
+– 1 –
+
+PAGE 3
+The aim of this paper is to understand some details of how similar constructions
+based on the exceptional groups Ed(d) can be used to describe M-theory, or more precisely,
+eleven-dimensional supergravity backgrounds. The general form of such constructions, as
+well as those arising from type II theories, has been described recently by Hull [49]. That
+work was partially motivated by the existence of so-called “non-geometrical” backgrounds,
+which appear consistent as string theory vacua and are typically dual to supergravity back-
+grounds, but do not themselves have a consistent global description in supergravity. This
+suggested considering extensions of generalised geometry based on generic O(d, d) or Ed(d)
+bundles, whereas only a subclass of such bundles arise in supergravity. The corresponding
+geometry was generically dubbed “extended” (or more speciﬁcally “M-geometry” for the
+generalisation of eleven-dimensional supergravity).
+Here, however, we will consider only supergravity backgrounds and concentrate on
+the physically important example of seven-dimensional backgrounds and hence the group
+E7(7). There are two parts to the analysis. First to build the analog of the generalised
+geometry and then to describe the geometrical objects that characterise supersymmetric
+N = 1 backgrounds in four dimensions. In analogy to the type II analysis in [11, 20],
+we consider the particular application of writing the N = 1 superpotential in a generic
+E7(7)-invariant form.
+The essential idea of the construction is that O(d, d) symmetries of generalised d-
+dimensional geometry, which in string theory are related to T-duality symmetries, should
+be replaced by the U-duality exceptional symmetry groups Ed(d) [50, 51, 52]. Since the U-
+duality connects all the bosonic degrees of freedom of eleven-dimensional supergravity, or
+for type II theories, both NS–NS and R–R degrees of freedom, this extension should provide
+a geometrisation of generic ﬂux backgrounds. The fact that the full eleven-dimensional su-
+pergravity could be reformulated in terms of Ed(d) objects was ﬁrst pointed out by de Wit
+and Nicolai [53] (for E7(7)) and then by Nicolai [54] and Koepsell, Nicolai and Samtleben [55]
+(for E8(8)), the latter calling the construction “exceptional geometry”. Motivated by these
+authors’ and Hull’s nomenclature [49], we will refer to the variant of Hitchin’s generalised
+geometry relevant to eleven-dimensional (and type II) supergravity as EGG for “excep-
+tional generalised geometry”.
+This reserves “extended” and “M” for generic M-theory
+backgrounds, potentially including non-geometrical examples.
+We should note here that recently there have also been more ambitious related pro-
+posals connecting inﬁnite-dimensional exceptional algebras to supergravity. The original
+proposal of [56, 57] had the goal of giving an eleven-dimensional covariant formulation of
+M-theory with E11 invariance, as well as of lower-dimensional gauged supergravities [58],
+while the work of [59] describes a gauged-ﬁxed version of the supergravity dynamics in
+terms of an explicit E10 coset construction.
+The paper is arranged as follows.
+In section 2, after brieﬂy reviewing generalised
+geometry, we describe how the analogous E7(7)-invariant EGG can be deﬁned for a seven-
+dimensional manifold M. Much of this analysis appears in [49]. The corresponding ex-
+ceptional generalised tangent space (EGT) encodes all the topological information of the
+conventional tangent space TM as well as the topology of the “gerbe”, the analogue of a
+U(1)-bundle, on which the supergravity three-form A is a connection. We give new details
+– 2 –
+
+PAGE 4
+on how the tangent space bundle embeds into the EGG, as well as the precise form of the
+gerbes. We also deﬁne the analogue of the Courant bracket on the EGT which encodes
+the diﬀerential geometry. We then introduce the notion of an SU (8)/Z2 structure on the
+EGT and show that this encodes supergravity metric g and three-form A. (This is equiv-
+alent to the result [49], familiar from toroidal reductions [50], that they parameterize an
+element of the coset space E7(7) /(SU (8)/Z2).) We show in particular how the non-linear
+Chern–Simons-like terms for A appear naturally in this formalism.
+In section 3, we again start with review.
+We discuss the pure O(6, 6) spinors Φ±
+which characterise generalised geometrical six-dimensional type II backgrounds preserving
+N = 2 supersymmetry in four dimensions, and deﬁne an SU (3) × SU (3) structure on the
+generalised tangent space. We then make the analogous analysis for EGG. (A short related
+discussion of supersymmetric backgrounds appeared in section 8 of [49].) Without ﬂux, for
+the background to have N = 1 supersymmetry in four dimensions, the compactiﬁcation
+manifold must have a G2-structure. We show that the generalisation to EGG is that the
+EGT must admit an SU (7) structure. This is equivalent to the existence of a nowhere
+vanishing tensor φ transforming in the 912 of E7(7). It is not a generic element but, to be
+stabilized by SU (7) must lie in a particular orbit under E7(7).
+In section 4 we give an application of the these results. We ﬁrst derive the form of
+the superpotential for a generic N = 1 compactiﬁcation of eleven-dimensional supergravity
+slightly extending the results of [60]. We then use the structure φ, which plays the role of
+the chiral scalar ﬁelds in the four-dimensional theory, to show that the superpotential can
+be rewritten in a E7(7)-invariant form.
+We conclude in section 5 with a brief discussion of our results and of possible further
+work.
+2. EGG in seven dimensions
+In this section we discuss the structure of exceptional generalised geometry, focusing on
+the case of seven dimensions. Much of this analysis also appears in [49]. Here we approach
+the construction from the point of view of geometrical structures and include some new
+details on the gerbe topology and tangent space embedding, as well the deﬁnition of the
+analogue of the Courant bracket. Our particular motivation will be compactiﬁcation of
+eleven-dimensional supergravity to a four-dimensional eﬀective theory. However here we
+will ﬁrst simply introduce the EGG formalism and leave the more detailed connection to
+supergravity to the following section. We start by reviewing the structure of generalised
+geometry [1, 2, 3, 4] since the EGG structure arises in a very analogous way.
+2.1 Review of generalised geometry
+In deﬁning generalised geometry [1, 2, 3, 4] on a d-dimensional manifold, one starts with
+the (untwisted) generalised tangent space E0 = TM ⊕TM∗. Let us denote elements of E0
+by X = x + ξ. There is then a natural O(d, d)-invariant metric η on E given by
+η(X, X) := ixξ.
+(2.1)
+– 3 –
+
+PAGE 5
+In particular, η is invariant under the GL(d) ⊂O(d, d) action on the ﬁbres of TM and
+T ∗M. The metric is also invariant under so called “B-shifts” where for any B ∈Λ2T ∗M
+we deﬁne
+eBX := x + (ξ −ixB) .
+(2.2)
+The diﬀerential geometry of the generalised tangent space is encoded in the Courant
+bracket which generalises the Lie bracket between two vectors. It is deﬁned by
+[x + ξ, y + ζ] = [x, y] + Lxζ −Lyξ −1
+2d (ixζ −iyξ) ,
+(2.3)
+where [x, y] is the usual Lie bracket of vector ﬁelds and Lx is the Lie derivative, so Lxα =
+ixdα + dixα for any form α. Note that its automorphism group is not the full group of
+local O(d, d) transformations but only the subgroup generated by diﬀeomorphisms and
+the B-shifts (2.2) (with dB = 0). Formally we can write this as the semidirect product
+Diﬀ(M) ⋉Ω2
+closed(M).
+The usefulness of generalised geometry in string theory and supergravity is that the
+ordinary metric g and NS–NS two-form ﬁeld B combine naturally into a single object, the
+so-called generalised metric G [2]. This is an O(2d)-invariant metric which is compatible
+with η, that is η−1Gη−1 = G−1. If we split into TM and T ∗M, we can write the O(d, d)
+metric as the matrix
+η = 1
+2
+ 
+0
+1
+1 0
+!
+,
+where
+X =
+ 
+x
+ξ
+!
+.
+(2.4)
+The generic generalised metric can then be written as
+G = 1
+2
+ 
+g −Bg−1B Bg−1
+−g−1B
+g−1
+!
+,
+(2.5)
+where g is an ordinary Riemannian metric, and B ∈Λ2T ∗M is the NS-NS two-form.
+Note that one can also deﬁne G as a product structure Π. Writing Π = η−1G one has
+Π2 =
+1, and in addition η(X, Y ) = η(ΠX, ΠY ). Hence Π is a product structure, compatible
+with η, and the projections 1
+2(1 ± Π) project onto two d-dimensional subspaces C±, such
+that E = C+ ⊕C−. From this perspective, given η, one sees that G deﬁnes an O(d)×O(d)
+structure, and η and G decompose into the separate metrics on C+ and C−. One can view
+g and B as parametrising the coset space O(d, d)/O(d) × O(d).
+One can also write
+G(X, Y ) = G0(eBX, eBY )
+(2.6)
+where
+G0 = 1
+2
+ 
+g
+0
+0 g−1
+!
+.
+(2.7)
+If B leads to a non-trivial ﬂux H it is only locally deﬁned as a two-form. Globally one
+must patch by gauge transformations, so on the overlap U(α) ∩U(β) one has
+B(α) −B(β) = dΛ(αβ),
+(2.8)
+– 4 –
+
+PAGE 6
+(so Λ(αβ) = −Λ(βα)) while on the triple overlap U(α) ∩U(β) ∩U(γ)
+Λ(αβ) + Λ(βγ) + Λ(γα) = dΛ(αβγ),
+(2.9)
+(implying Λ(αβγ) = −Λ(αγβ) etc.).
+Mathematically this means B is a connection on a
+gerbe (see for instance [61]). If the ﬂux is quantised H ∈H3(M,
+Z) then one has g(αβγ) =
+eiΛ(αβγ) ∈U(1) and these elements satisfy a cocycle condition on U(α) ∩U(β) ∩U(γ) ∩U(δ)
+g(βγδ)g−1
+(αγδ)g(αβδ)g−1
+(αβγ) = 1.
+(2.10)
+Formally the g(αβγ) deﬁne the gerbe, while the Λ(αβ) deﬁne a “connective structure” on the
+gerbe. Together they encode the analogue of the topological data of a U(1) gauge bundle.
+If B is non-trivial, the form of the generalised metric (2.6) means that G cannot really
+be an inner product on sections of E0 = TM ⊕T ∗M. Instead, the generalised vectors must
+be sections of an extension E
+0 −→T ∗M −→E −→TM −→0,
+(2.11)
+where on the intersection of two patches Uα ∩Uβ one identiﬁes X(α) = e−dΛ(αβ)X(β), or in
+components
+x(α) + ξ(α) = x(β) + (ξ(β) + ix(β)dΛ(αβ)).
+(2.12)
+Here Λ(αβ) is the same one-form that appears in deﬁning the connection B (though of
+course it is independent of the particular choice of B). Thus we see that E encodes both
+the topological structure of the tangent space TM and the connective structure of the
+gerbe. Note that the form of the twisting (2.12) is such that, since the Courant bracket is
+B-shift invariant (when B is closed), it can still be deﬁned on sections of the twisted E.
+2.2 The exceptional generalised tangent space and E7(7)
+We would now like to describe an exceptional generalised geometry (EGG), analogous to
+the generalised geometry of Hitchin, but relevant to the description of eleven-dimensional
+supergravity rather than simply the NS–NS sector of type II. We will concentrate on the
+case of a seven-dimensional manifold M. The basic construction has been described, in
+general dimension d, in [49] and is closely related to the work of [53, 54, 55].
+Introducing the generalised tangent space allowed one to construct objects transform-
+ing under O(d, d). The g and B degrees of freedom, parametrising the generalised metric
+G, then deﬁne an element in the O(d, d)/O(d) × O(d) coset. This coset structure is famil-
+iar from the moduli space of toroidal compactiﬁcations of NS-NS sector ten-dimensional
+supergravity to 10 −d dimensions (see for instance [62]). In addition, there is, of course,
+a stringy O(d, d;
+Z) T-duality symmetry relating equivalent compactiﬁcations. The string
+winding and momentum charges transform in the 2d-dimensional vector representation of
+O(d, d), namely TM ⊕T ∗M.
+If one includes Ramond–Ramond ﬁelds, or equivalently considers toroidal compactiﬁ-
+cations of eleven-dimensional supergravity [50, 51], the moduli spaces are cosets Ed(d)/H
+(where Ed(d) is the maximally non-compact real form of the exceptional group and H is
+– 5 –
+
+PAGE 7
+the corresponding maximal compact subgroup). Elements in the coset are parametrised
+by the components of the eleven-dimensional supergravity ﬁelds on the compact space,
+namely the metric g and three-form A potential (and potentially its dual six-form ˜A). The
+discrete subgroup E(d(d)(Z) is the U-duality group relating diﬀerent equivalent M-theory
+backgrounds [52]. The momentum and brane charges ﬁll out a particular representation
+of Ed(d). In particular, in d = 7, the momentum, membrane, ﬁvebrane and Kaluza–Klein
+monopole charges [63] ﬁll out the 56 representation of E7(7). (Note that the deﬁnition
+of E7(7), together with some details of its various representations, is summarised in ap-
+pendix B.)
+Given this extension from the T-duality group O(d, d) to U-duality group Ed(d), it is
+natural to introduce a corresponding extension of generalised geometry. For d = 7, the
+analogue of the generalised tangent space is an “exceptional generalised tangent space”
+(EGT) which transforms in the 56 representation of E7(7). As in generalised geometry,
+the GL(7,
+R) structure group of the tangent and cotangent spaces should be a subgroup of
+E7(7), and we also expect the gauge transformations of A, like the B-shifts in generalised
+geometry, to be somehow embedded into E7(7).
+The construction of the EGT is as follows. As described in appendix B.1, there is an
+SL(8,
+R) subgroup of E7(7) under which the 56 representation is given by
+E0 = Λ2V ⊕Λ2V ∗
+(2.13)
+where V is the eight-dimensional fundamental representation of SL(8,
+R). The GL(7,
+R)
+structure group of the tangent space TM embeds as (see appendix B.3)
+V =
+
+(Λ7T ∗M)1/4 ⊗TM
+
+⊕(Λ7T ∗M)−3/4.
+(2.14)
+One then ﬁnds
+E0 = (Λ7T ∗M)−1/2 ⊗
+
+TM ⊕Λ2T ∗M ⊕Λ5T ∗M ⊕(T ∗M ⊗Λ7T ∗M)
+
+.
+(2.15)
+(Note that the ﬁnal term in brackets can also be written as (Λ7T ∗M)2⊗Λ6TM). The bundle
+(Λ7T ∗M)−1/2 is isomorphic to the trivial bundle, thus there is always a (non-canonical)
+isomorphism
+E0 ≃TM ⊕Λ2T ∗M ⊕Λ5T ∗M ⊕(T ∗M ⊗Λ7T ∗M).
+(2.16)
+It is E0 which is the (untwisted) exceptional generalised tangent space1. Except for the
+overall tensor density factor of (Λ7T ∗M)−1/2, we see that we can identify it as a sum of vec-
+tors, two-forms, ﬁve-forms and one-forms tensor seven-forms. Given the isomorphism (2.16)
+we can write
+X = x + ω + σ + τ ∈E0,
+(2.17)
+1Note that there is a second possible way to embed GL(7,
+R), and hence choice for E0, analogous to
+the choice of spin-structures of O(d, d) [2], where E0 is deﬁned as in (2.15) except with an overall factor
+of Λ7T M/|Λ7T M|. This bundle has a similar isomorphism to (2.16) but with T M and T ∗M exchanged
+everywhere.
+– 6 –
+
+PAGE 8
+where, writing the GL(7,
+R) indices explicitly, we have xm, ωmn, σm1...m5 and τm,n1...n7.
+Physically in M-theory we expect these to correspond to momentum, membrane, ﬁvebrane
+and Kaluza–Klein monopole charge respectively.
+Recall that the T-duality symmetry group acting on the generalised tangent space was
+deﬁned in terms of a natural O(d, d)-invariant metric. As discussed in appendix B.1, the
+group E7(7) is deﬁned by, not a metric, but a symplectic structure Ωand symmetric quartic
+invariant q on the 56-dimensional representation space. These are given explicitly in terms
+of SL(8,
+R) representations in the appendix (B.1), and are by deﬁnition GL(7,
+R), hence
+diﬀeomorphism, invariant.
+Having identiﬁed the GL(7,
+R) tangent space symmetry in E7(7), we would next like
+to identify the analogues of the B-shifts.
+This is essentially contained in the original
+dimensional reduction of eleven-dimensional supergravity on T 7 [50]. We note that the
+133-dimensional adjoint representation of E7(7) decomposes under GL(7,
+R) as
+A = (TM ⊗T ∗M) ⊕Λ6TM ⊕Λ6T ∗M ⊕Λ3TM ⊕Λ3T ∗M.
+(2.18)
+Given there is a three-form potential A in eleven-dimensional supergravity, the analogue of
+B-shifts should be A-shifts generated by A ∈Λ3T ∗M. In fact, we will also consider ˜A-shifts
+with ˜A ∈Λ6T ∗M corresponding to the dual six-form potential. This will be described in
+more detail in the next section. For now we simply note that A and ˜A are both elements
+of the adjoint bundle (2.18). Their action on X ∈E is given in (B.23). It exponentiates to
+eA+ ˜
+AX = x + [ω + ixA] +
+
+σ + A ∧ω + 1
+2A ∧ixA + ix ˜A
+
++
+
+τ + jA ∧σ −j ˜A ∧ω + jA ∧ix ˜A + 1
+2jA ∧A ∧ω + 1
+6jA ∧A ∧ixA
+
+,
+(2.19)
+where we are using a notion for elements of T ∗M ⊗(Λ7T ∗M) deﬁned in (B.24). Note
+that the action truncates at cubic order. The corresponding Lie algebra, unlike the case of
+B-shifts is not Abelian. We have the commutator
+[A + ˜A, A′ + ˜A′] = −A ∧A′.
+(2.20)
+That is, two A-shifts commute to give a ˜A shift [64].
+When A and ˜A are non-trivial one is led to deﬁning a twisted EGT which encodes
+the patching of the potentials.
+This is again completely analogous to the generalised
+geometrical case. One starts with
+X0 ∈TM ⊕Λ2T ∗M ⊕Λ5T ∗M ⊕(T ∗M ⊗Λ7T ∗M).
+(2.21)
+On a given patch U(α) we deﬁne the shifted element
+X(α) = eA(α)+ ˜
+A(α)X0.
+(2.22)
+In passing from one patch to another we have, on U(α) ∩U(β),
+X(α) = edΛ(αβ)+d˜Λ(αβ)X(β),
+(2.23)
+– 7 –
+
+PAGE 9
+provided the connections A and ˜A patch as
+A(α) −A(β) = dΛ(αβ),
+˜A(α) −˜A(β) = d˜Λ(αβ) −1
+2dΛ(αβ) ∧A(β).
+(2.24)
+As we will see in the next section this corresponds exactly to the patching of the three-
+and six-form potentials arising from eleven-dimensional supergravity.
+The patching (2.23) imply that X(α) are sections of a twisted EGT which we will
+denote as E. Explicitly in components we have
+x(α) = x(β),
+ω(α) = ω(β) + ix(β)dΛ(αβ),
+σ(α) = σ(β) + dΛ(αβ) ∧ω(β) + 1
+2dΛ(αβ) ∧ix(β)dΛ(αβ) + ix(β)d˜Λ(αβ),
+τ(α) = τ(β) + jdΛ(αβ) ∧σ(β) −jd˜Λ(αβ) ∧ω(β) + jdΛ(αβ) ∧ix(β)d˜Λ(αβ)
++ 1
+2jdΛ(αβ) ∧dΛ(αβ) ∧ω(β) + 1
+6jdΛ(αβ) ∧dΛ(αβ) ∧ix(β)dΛ(αβ)
+(2.25)
+One can deﬁne E formally via a series of extensions
+0 −→Λ2T ∗M −→E′′ −→TM −→0,
+0 −→Λ5T ∗M −→E′ −→E′′ −→0,
+0 −→T ∗M ⊗Λ7T ∗M −→E −→E′ −→0,
+(2.26)
+in analogy with (2.11).
+As for the B-ﬁeld, the potentials A and ˜A are formally connections on gerbes. To
+deﬁne the connective structure of the gerbe we must deﬁne the patchings on successively
+higher-order intersections. For A, on the corresponding multiple intersections of patches
+we have
+Λ(αβ) + Λ(βγ) + Λ(γα) = dΛ(αβγ)
+on U(α) ∩U(β) ∩U(γ),
+Λ(βγδ) −Λ(αγδ) + Λ(αβδ) −Λ(αβγ) = dΛ(αβγδ)
+on U(α) ∩U(β) ∩U(γ) ∩U(δ).
+(2.27)
+For a quantised ﬂux F = dA(α) we have g(αβγδ) = eiΛ(αβγδ) ∈U(1) with the cocycle
+condition
+g(βγδǫ)g−1
+(αγδǫ)g(αβδǫ)g−1
+(αβγǫ)g(αβγδ) = 1,
+(2.28)
+on U(α) ∩· · · ∩U(ǫ). For ˜Λ(αβ) there is a similar set of structures, with the ﬁnal cocycle
+condition deﬁned on a octuple intersection U(α1) ∩· · · ∩U(α8).
+The bundle E encodes all the topological information of the supergravity background:
+the twisting of the tangent space TM as well as the patching of the form potentials, but,
+as for (2.11) is independent of the particular choice of A and ˜A.
+Finally we would like to identify the analogue of the Courant bracket for the EGT. We
+look for a pairing with A- and ˜A-shifts as automorphisms when dA = d ˜A = 0. One ﬁnds
+– 8 –
+
+PAGE 10
+the unique “exceptional Courant bracket” (ECB):
+
+x+ω + σ + τ, x′ + ω′ + σ′ + τ ′
+=
+[x, x′] + Lxω′ −Lx′ω −1
+2d
+ ixω′ −ix′ω
+
++ Lxσ′ −Lx′σ −1
+2d
+ ixσ′ −ix′σ
+
++ 1
+2ω ∧dω′ −1
+2ω′ ∧dω
++ 1
+2Lxτ ′ −1
+2Lx′τ + 1
+2
+ jω ∧dσ′ −jσ′ ∧dω
+
+−1
+2
+ jω′ ∧dσ −jσ ∧dω′
+(2.29)
+If Gclosed(M) is the group generated by closed A and ˜A shifts, the ECB is invariant under
+the Diﬀ(M) ⋉Gclosed(M).
+2.3 The exceptional generalised metric and SU (8)/Z2 structures
+Having deﬁned the EGT, its topology and the corresponding bracket, one can then intro-
+duce, as in [49], the analog of the generalised metric which encodes the ﬁelds of eleven-
+dimensional supergravity. The motivation is that, when compactiﬁed on T 7, the moduli
+arising from the eleven-dimensional supergravity ﬁelds g and A parametrise a E7(7) /(SU (8)/Z2)
+coset space [50]. Rather than consider a ﬁxed element of the coset space, one takes one
+that is a function of position in the manifold M [53]. In the following, instead of starting
+with the coset, we show how the exceptional generalised metric can be deﬁned as a generic
+SU (8)/Z2 structure on the EGT.
+Fixing an element of the coset space E7(7) /(SU (8)/Z2) is equivalent to choosing a
+particular SU (8)/Z2 subgroup of E7(7). Making such a choice at each point in M cor-
+responds geometrically to a SU (8)/Z2 structure on E. Such a structure can be deﬁned
+as follows. The 56 representation decomposes into 28 + ¯
+28 under SU (8)/Z2. Thus an
+SU (8)/Z2 structure is equivalent to the existence of a decomposition of the (complexiﬁed)
+EGT E ⊗
+C = C ⊕¯C where the ﬁbres of C transform in the 28 of SU (8)/Z2. However
+this is the same as an almost complex structure J with J2 = −1 on E. For J to deﬁne an
+SU (8)/Z2 subgroup it must also be compatible with the E7(7) structure. Recall that the
+latter was deﬁned by a symplectic form Ωand a quartic invariant q. Compatibility requires
+Ω(JX, JY ) = Ω(X, Y ),
+q(JX) = q(X),
+(2.30)
+or in other words J ∈E7(7). (Note the that ﬁrst condition is just the usual condition
+between a symplectic and an almost complex structure required to deﬁne an Hermitian
+metric.) Such an almost complex structure J deﬁnes an SU (8)/Z2 structure on E.
+In contrast to the generalised geometry case where the O(d) × O(d) structure was
+equivalent to a compatible almost product structure satisfying Π2 =
+1, for SU (8)/Z2 ⊂
+E7(7) the structure is deﬁned by a compatible almost complex structure satisfying J2 = −1.
+Given J and Ωone can then deﬁne the corresponding exceptional generalised metric (EGM)
+G by
+G(X, Y ) = Ω(X, JY ),
+(2.31)
+which gives a positive deﬁnite metric on E.
+We now turn to how one constructs the generic form of J and hence G. Given a metric
+ˆgab on the SL(8,
+R) representation space V , a natural way to deﬁne a particular almost
+– 9 –
+
+PAGE 11
+complex structure J0 (using the conventions of appendix B.1, so that, in particular, pairs
+of indices aa′ and bb′ are antisymmetrised) is as
+J0X =
+ 
+0
+−ˆgabˆga′b′
+ˆgabˆga′b′
+0
+! 
+xbb′
+x′
+bb′
+!
+=
+ 
+−ˆgabˆga′b′x′
+bb′
+ˆgabˆga′b′xbb′
+!
+.
+(2.32)
+By construction J2
+0 = −1. The corresponding EGM is
+G0(X, Y ) = ˆgabˆga′b′xaa′ybb′ + ˆgabˆga′b′x′
+aa′y′
+bb′.
+(2.33)
+From the deﬁnitions (B.3) and (B.4) of Ωand q it is clear that J0 ∈E7(7) provided det ˆg = 1.
+Under an inﬁnitesimal E7(7) transformation µ ∈133 we have
+δJ0 = [µ, J0] =
+ 
+µ+aa′
+bb′
+−2µ+abˆga′b′
+−2µ+
+abˆga′b′
+−µ+
+aa′bb′
+!
+(2.34)
+where µ±
+abcd = 1
+2(µabcd±∗µabcd) and µ±
+ab = 1
+2(µab ±µba) where indices are raised and lowered
+using ˆg. Thus J0 is invariant under the subgroup generated by µ−
+ab and µ−
+abcd. As discussed
+in appendix B.4 this is precisely SU (8)/Z2 (see (B.30)).
+Given the embedding (2.14) of GL(7,
+R) ⊂SL(8,
+R) discussed in detail in appendix B.3,
+we can deﬁne ˆg in terms of a seven-dimensional metric g as
+ˆgab = (det g)−1/4
+ 
+gmn
+0
+0
+det g
+!
+.
+(2.35)
+Acting on elements of X = x + ω + σ + τ we have
+G0(X, X) = 2
+ |x|2 + |ω|2 + |σ|2 + |τ|2
+,
+(2.36)
+where |τ|2 = 1
+7!τm.n1...n7τ m,n1...n7, |σ|2 = 1
+5!σn1...n5σn1...n5 etc. and, so that the result is a
+scalar, we have dropped on overall factor of (det g)1/2, which is natural, since in writing
+X = x + ω + σ + τ we are using the isomorphism (2.16).
+Given a seven-dimensional metric g we have been able to write a particular SU (8)/Z2
+structure J0. A generic structure, given all such structures lie in the same orbit, will be
+of the form J = hJ0h−1 where h ∈E7(7), or equivalently G(X, Y ) = G0(h−1X, h−1Y ).
+We write h = eµ with the Lie algebra element µ = (µab, µabcd) ∈133. The elements µmn
+generate the GL(7,
+R) subgroup and acting on J0 simply change the form of the metric g.
+The additional components µ8m and µm8 modify the form of ˆg (2.35). Since only µ+
+ab acts
+non-trivially on J0, we need only consider transformations with, say, µm8. Similarly since
+only µ+
+abcd acts non-trivially we can generate a generic J using only, say µmnp8. However,
+µm8 and µmnp8 transformations precisely correspond to the subgroup of A- and ˜A-shifts.
+Thus, given a generic g deﬁning G0, the generic EGM can be written as
+G(X, Y ) = G0(e−A−˜
+AX, e−A−˜
+AY ).
+(2.37)
+This is analogous to the form (2.6) of the generalised metric in generalised geometry.
+Note also that for non-trivial A and ˜A, G0 is an EGM on the untwisted EGT given by
+TM ⊕Λ2T ∗M ⊕Λ5T ∗M ⊕(T ∗M ⊗Λ7T ∗M), while G is an EGM on the twisted bundle E
+given by (2.26).
+– 10 –
+
+PAGE 12
+3. Supersymmetric backgrounds and EGG
+We will now relate the EGG deﬁned in the previous section to eleven-dimensional super-
+gravity and in particular seven-dimensional supersymmetric backgrounds. After identifying
+the standard decomposition of the supergravity degrees of freedom on such backgrounds,
+we ﬁrst brieﬂy review the corresponding connection between type II backgrounds and gen-
+eralised geometry before turning to EGG.
+The physical context we are interested in is where the eleven-dimensional spacetime is
+topologically a product of a four-dimensional “external” and a seven-dimensional “internal”
+space
+M10,1 = M3,1 × M7
+(3.1)
+If M7 is compact we can consider compactifying eleven-dimensional supergravity to give an
+eﬀective four-dimensional theory. In particular, the eﬀective theory could be supersymmet-
+ric. We could also look for particular examples of compactiﬁcations which are solutions of
+the supergravity ﬁeld equations and preserve some number of supersymmetries. In either
+case, the geometry of M7 is restricted, and some discussion of the latter case appears in [49].
+The goal here is to understand how this restricted geometry can be naturally described
+in terms of EGG structures on M7. We will also focus on the low-energy eﬀective theory
+rather than the on-shell supersymmetric backgrounds.
+3.1 Eﬀective theories and ﬁeld decompositions
+Given the product (3.1), the tangent bundle decomposes as TM10,1 = TM3,1⊕TM7 and all
+the supergravity ﬁelds can be decomposed under a local Spin(3, 1) × Spin(7) ⊂Spin(10, 1)
+symmetry. Normally one would derive a four-dimensional eﬀective description by truncat-
+ing the Kaluza–Klein spectrum of modes on M7 to give a four-dimensional theory with a
+ﬁnite number of degrees of freedom. For instance, compactifying on a torus and keeping
+massless modes, one ﬁnds that the degrees of freedom actually arrange themselves into
+multiplets transforming under E7(7) for the bosons and SU (8) for the fermions.
+However, one can also keep the full dependence of all eleven-dimensional ﬁelds on both
+the position on M3,1 and M7. One can then simply rewrite the eleven-dimensional theory,
+breaking the local Spin(10, 1) symmetry to Spin(3, 1) × Spin(7), so that it is analogous to
+a four-dimensional theory. This was done explicitly by de Wit and Nicolai [53], retaining
+all 32 supersymmetries, where it was shown that in general the degrees of freedom fall
+into E7(7) and SU (8)/Z2 representations. In this paper we will ultimately be interested
+in such reformulations focusing on only four of the supercharges so that the theory has a
+structure analogous to N = 1 four-dimensional supergravity. Note that formally the only
+requirement for making such rewritings is not that M10,1 is topologically a product, but
+rather that the tangent space TM10,1 decomposes into a four- and seven-dimensional part
+TM10,1 = T ⊕F.
+(3.2)
+For simplicity, here we will concentrate on the case of a product manifold, though all of our
+analysis actually goes through in the more general case, with the EGT deﬁned in terms of
+– 11 –
+
+PAGE 13
+F rather than TM7. The analogous analysis in terms of generalised geometry for type II
+compactiﬁcations was given in [11, 20].
+Let us brieﬂy note how the ﬁelds decompose under Spin(3, 1) × Spin(7). Our conven-
+tions for eleven-dimensional supergravity are summarised in appendix A.1. The degrees
+of freedom are the metric gMN, three-form AMNP and gravitino ΨM. Consider ﬁrst the
+Spin(3, 1) scalars. The eleven-dimensional metric decomposes as a warped product
+ds2(M11) = e2Eg(4)
+µν dxµdxν + gmndxmdxn,
+(3.3)
+where µ = 0, 1, 2, 3 denote coordinates on the external space.
+To get a conventionally
+normalised Einstein term in the four-dimensional eﬀective theory we must take
+e−2E =
+p
+det g,
+(3.4)
+where det g is the determinant of gmn. In a conventional compactiﬁcation, deformations of
+the internal metric gmn lead to scalar moduli ﬁelds in the eﬀective theory. Moduli ﬁelds
+can also arise from the ﬂux F. Keeping only Spin(3, 1) scalar parts, one can decompose
+F = ∗7 ˜F ∧e4Eǫ(4) + F
+(3.5)
+where F ∈Λ4T ∗M7 and ˜F ∈Λ7T ∗M7 and ǫ(4) =
+p
+−g(4)dx0 ∧· · · ∧dx3. The eleven-
+dimensional equation of motion and Bianchi identify (A.4) then decompose as
+d ˜F + 1
+2F ∧F = 0,
+d
+ e4E ∗7 ˜F
+
+= 0,
+dF = 0,
+d
+ e4E ∗7 F
+
++ e4E ∗7 ˜F ∧F = 0
+(3.6)
+so one can introduce, locally,
+F = dA,
+˜F = d ˜A −1
+2A ∧F,
+(3.7)
+where A ∈Λ3T ∗M7 and ˜A ∈Λ6T ∗M7. By deﬁnition, F and ˜F are globally elements of
+Λ4T ∗M and Λ7T ∗M respectively. Thus on U(α) ∩U(β) we have
+dA(α) −dA(β) = 0
+d ˜A(α) −d ˜A(β) = 1
+2
+ A(α) −A(β)
+
+∧dA(β)
+(3.8)
+This implies that the potentials A and ˜A must patch precisely as given by (2.24). We see
+that the twisting of the EGT (2.23) is precisely that corresponding to the supergravity
+potentials. Furthermore, given the discussion of the previous section 2.3 the scalar degrees
+of freedom gmn and Amnp and ˜Am1...m6 scalars can be combined together as an EGM or
+equivalently an almost complex structure J on E.
+Turning brieﬂy to the remaining ﬁelds, there are 28 bosonic Spin(3, 1) vector degrees
+of freedom coming from oﬀ-diagonal components of the metric gµm and from Aµmn. One
+usually also introduces the corresponding dual potentials giving a total of 56. Finally for
+the fermionic degrees of freedom we decompose the eleven-dimensional gamma matrices as
+Γµ = e−Eγµ ⊗
+1
+Γm = iγ(4) ⊗γm.
+(3.9)
+– 12 –
+
+PAGE 14
+The seven-dimensional gamma-matrix conventions are deﬁned in A.2, while the four-
+dimensional gamma matrices are chosen to satisfy {γµ, γν} = 2g(4)
+µν
+1 and γµ1...µ4 = γ(4)ǫ(4)
+µ1...µ4.
+The real eleven-dimensional spinors correspondingly decompose as
+ǫ = eE/2θ+ ⊗ζc + eE/2θ−⊗ζ
+32 = (2, 8) + (¯2, ¯8)
+(3.10)
+where iγ(4)θ± = ±θ± (with θc
++ = Dθ∗
++ = θ−and −γ∗
+µ = D−1γµD) are chiral four-
+dimensional spinors and ζc is a complex Spin(7) spinor. The factor of eE/2 and the choice
+of labelling ζ versus ζc are conventional. Thus Ψµ decomposes as eight spin-3
+2 fermions,
+while Ψm gives 56 spin-1
+2 fermions.
+As discussed in appendix A.2 there is a natural embedding of SU (8) in the Cliﬀord
+algebra Cliﬀ(7, 0;
+R) with the complex Spin(7) spinors transforming in the fundamental
+representation. In reformulating the eleven-dimensional theory, all the degrees of freedom,
+fermionic and bosonic arrange as SU (8) representations [53]. Thus we can actually promote
+the Spin(3, 1) × Spin(7) symmetry to Spin(3, 1) × SU (8). This decomposition corresponds
+to the N = 8 four-dimensional supergravity multiplet. It is summarized in table 1 where
+rs transforms as the r representation of SU (8) with Spin(3, 1) spin s.
+gmn, Amnp, ˜Am1...m6 :
+350 + ¯
+350
+Ψm :
+561/2
+gµm, Aµmn + duals :
+281 + ¯
+281
+Ψµ :
+83/2
+g(4)
+µν :
+12
+Table 1: Decomposition of eleven-dimensional supergravity ﬁelds under Spin(3, 1) × SU (8)
+To summarise, from a EGG perspective, the scalar degrees of freedom deﬁne an
+SU (8)/Z2 structure on the EGT. Given this structure (or rather the existence of a double
+cover SU (8) structure, which is not always guaranteed) one can then deﬁne SU (8) spinors
+and hence the fermionic degrees of freedom. This is the EGG analogue of requiring a met-
+ric, or O(d) structure, and hence a set of vielbeins, before one can deﬁne ordinary spinors
+on a curved manifold.
+3.2 Review of generalized geometry of N = 2 type II backgrounds
+The generic eﬀective four-dimensional N = 2 supersymmetric theories arising from type II
+supergravity compactiﬁed on M3,1 × M6 were analysed in terms of generalised geometry
+in [11, 20]. The structure was as follows.
+The metric and B-ﬁeld on M6 combine into a generalised metric (2.5). This deﬁnes a
+O(6) × O(6) structure on the generalised tangent space (2.11), that is the decomposition
+E = C+ ⊕C−. Assuming the double cover Spin(6)×Spin(6) exists, one can deﬁne Spin(6)
+spinors on C+ and C−separately. In terms of the original ten-dimensional spinors one has
+the decomposition
+ǫ1 = θ1
++ ⊗ζ1
+−+ θ1
+−⊗ζ1
++
+ǫ2 = θ2
++ ⊗ζ2
+± + θ2
+−⊗ζ2
+∓
+(3.11)
+– 13 –
+
+PAGE 15
+where in the second line one takes the upper sign for type IIA and the lower for type IIB.
+(Here ζ± are complex, chiral Spin(6) spinors, with ζ−= ζc
++.) The two spinors ζ1
++ and ζ2
++
+naturally transform under the two spin groups Spin(6) × Spin(6).
+Next, we want to concentrate on eﬀective theories with N = 2 supersymmetry in four
+dimensions. This means, we want to identify a ﬁxed pair of spinors (ζ1
++, ζ2
++). The eight
+four-dimensional supersymmetric parameters are then parametrised by (θ1
++, θ2
++). In order
+to be able to use these supersymmetries to decompose all modes of the ten-dimensional
+ﬁelds into N = 2 multiplets, we must require that (ζ1
++, ζ2
++) are non-vanishing and globally
+deﬁned. (We can then project the supersymmetry from an action on M9,1 to an action on
+M3,1.) But this condition is the same as requiring each spinor to deﬁne an SU (3) structure.
+Thus we have
+N = 2 eﬀective theory ⇔SU (3) × SU (3) structure on E.
+(3.12)
+The structure can be deﬁned by the existence of the generalised metric G on E together
+with a pair of Spin(6) × Spin(6) spinors (ζ1
++, ζ2
++).
+A conventional SU (3) structure can similarly be deﬁned by a ordinary metric g together
+with a globally deﬁned, nowhere vanishing spinor ζ+. However, one can also deﬁne the
+structure by a pair of real forms J ∈Λ2T ∗M6 and ρ ∈Λ3T ∗M6. In the case where the
+SU (3) structure is integrable, that is when M6 is a Calabi–Yau manifold, J is the K¨ahler
+form and ρ is the real part of the holomorphic three-form2 Ω= ρ + iˆρ. Generically (J, ρ)
+only deﬁne a SU (3) structure if J ∧ρ = 0 and J ∧J ∧J = 3
+2ρ ∧ˆρ.
+It is natural to ask if the SU (3) × SU (3) structure can be similarly deﬁned in terms
+of O(6, 6) objects. It can, and the representations in question are the spinors of Spin(6, 6).
+These are deﬁned as follows. (For more details see appendix A of [20].) For E0 = TM6 ⊕
+T ∗M6 the spinor bundle S(E0) is isomorphic to the bundle of forms
+S(E) = (Λ7T ∗M6)−1/2 ⊗Λ∗T ∗M6.
+(3.13)
+More generally, for E, an extension of the form (2.11), on any patch U(α), a spinor Υ(α) ∈
+S(E) is a sum of forms, with the patching
+Υ(α) = e−dΛ(αβ)Υ(β),
+(3.14)
+where the action is by wedge product. Spinors of O(6, 6) are Majorana–Weyl. The positive
+and negative helicity spin bundles S±(E) are locally isomorphic to the bundles of even and
+odd forms Λeven/oddT ∗M6. The Cliﬀord action on Υ ∈S(E), viewed as a sum of forms, is
+given by
+(x + ξ) · Υ = ixΥ + ξ ∧Υ.
+(3.15)
+The usual spinor bilinear form on S(E) is given by the Mukai pairing
+
+·, ·
+
+on forms.
+Explicitly
+
+Υ, Υ′
+=
+X
+p
+(−)[(p+1)/2]Υ(p) ∧Υ′
+(6−p) ,
+(3.16)
+2Note that ˆρ can be determined as a homogeneous function of ρ of degree one.
+– 14 –
+
+PAGE 16
+where the subscripts denote the degree of the component forms in Λ∗T ∗M6 and [(p + 1)/2]
+takes the integer part of (p + 1)/2. Note that, given the isomorphism (3.13), the ordinary
+exterior derivative deﬁnes a natural generalised Dirac operator d : S±(E) →S∓(E).
+Given a generalised metric G, on can decompose Spin(6, 6) spinors under Spin(6) ×
+Spin(6).
+Projecting each subspace C± onto TM deﬁnes a common Spin(6) subgroup.
+Under this group Υ ∈S(E) transform as a bispinor, that is, as an element of Cliﬀ(6, 0;
+R).
+Explicitly one can write real Υ± ∈S± as
+Υ± = ζ+¯ζ′
+± ± ζ−¯ζ′
+∓,
+(3.17)
+where ζ+, ζ′
++ are ordinary Spin(6) spinors and elements of the Spin(d) bundles S+(C+)
+and S+(C−) respectively. From this perspective Υ± is a matrix. It can be expanded as
+Υ± =
+X
+p
+1
+8p!Υ±
+m1...mpγm1...mp,
+(3.18)
+with
+Υ±
+m1...mp = tr(Υ±γmp...m1) ∈ΛpT ∗M6,
+(3.19)
+and where γm are Spin(6) gamma-matrices and the trace is over the Spin(6) indices. For
+Υ+ only the even forms are non-zero, while for Υ−the odd forms are non-zero. This gives
+an explicit realisation of the isomorphism between S±(E) and Λeven/oddT ∗M6.
+One can introduce a pair of Spin(6)×Spin(6) spinors which deﬁne the SU (3) × SU (3)
+structure. Write the complex objects
+Φ+ := e−Bζ1
++¯ζ2
++,
+Φ−:= e−Bζ1
++¯ζ2
+−,
+(3.20)
+where again e−B acts by wedge product. Note that in the special case where ζ1
++ = ζ2
++, the
+two SU (3) structures are the same, and we have
+Φ+ = 1
+8e−B−iJ,
+Φ−= −i
+8e−BΩ.
+(3.21)
+Generically, each Φ± individually deﬁnes an SU (3, 3) structure on E.
+Provided these
+structures are compatible, together they deﬁne a common SU (3) × SU (3) structure. The
+requirements of compatibility, in terms of the Mukai pairing (3.16) is that [11]
+
+Φ+, V · Φ−
+=
+
+¯Φ+, V · Φ−
+= 0
+∀V ∈E,
+
+Φ+, ¯Φ+
+=
+
+Φ−, ¯Φ−
+.
+(3.22)
+If Φ± are given by (3.20) they are automatically compatible [10]. However, one can also
+reverse the logic.
+The SU (3, 3) structures can actually be deﬁned using only the real
+parts Υ± = Re Φ±. Furthermore any pair of Spin(6, 6) spinors (Υ+, Υ−) satisfying the
+conditions (3.22) deﬁne an SU (3) × SU (3) structure. So
+SU (3) × SU (3) structure on E ⇔(Υ+, Υ−).
+(3.23)
+The spinor bundles S±(E) are 32-dimensional. The compatibility requirement (3.22)
+gives 13 conditions. Thus the space of (Υ+Υ−) is 51-dimensional. Diﬀerent structures
+– 15 –
+
+PAGE 17
+(ζ+, ζ−) can be related by O(6, 6) transformations. Since a given structure is SU (3) × SU (3)
+invariant, the space of all structures should be related to the coset space Σ = O(6, 6)/SU (3) × SU (3),
+which is 50-dimensional. From this perspective the compatible pair (Υ+, Υ−) give an em-
+bedding, as a one-dimensional family of orbits,
+(Υ+, Υ−) :
+O(6, 6)
+SU (3) × SU (3) ×
+R+֒ →S+(E) ⊕S−(E).
+(3.24)
+The additional
+R+ factor corresponds simply to an overall rescaling of the generalised
+spinors.
+The key point of introducing all these structures is that they provide a very simple
+way to characterise the eﬀective theory. As shown in [11, 20], Φ± parametrise a special
+K¨ahler space underlying the vector or hypermultiplet scalar degrees of freedom, and there
+are simple expressions for the N = 2 analogues of the superpotential in terms of Φ±.
+3.3 N = 1 M-theory backgrounds, EGG and SU (7) structures
+We would now like to identify the analogue of the N = 2 SU (3) × SU (3) structure of
+type II theories for N = 1 compactiﬁcations of eleven-dimensional supergravity.
+An
+SU (3) × SU (3) structure is the generalised geometrical extension of a conventional super-
+symmetric SU (3) structure and hence, when on-shell, generalises the notion of a Calabi–
+Yau three-fold. The structure introduced here is similarly the EGG generalisation of a G2
+structure on a seven-dimensional manifold.
+Identifying an N = 1 background requires picking out four preferred supersymmetries
+out of 32, or equivalently a ﬁxed seven-dimensional spinor ζ in the general decomposi-
+tion (3.10).
+This decomposition is the most general compatible with four-dimensional
+Lorentz invariance [65], and generically deﬁnes a complex ζ on the internal space. Given
+an EGM G we have an SU (8)/Z2 structure on E, and ζ transforms as the fundamental
+representation 8 of double cover SU (8). To deﬁne a generic low-energy eﬀective theory the
+spinor ζ must be globally deﬁned and nowhere vanishing. The stabilizer group in SU (8)
+of a ﬁxed element of the vector 8 representation is SU (7). Thus, given a ﬁxed spinor ζ at
+each point of M, we see that
+N = 1 eﬀective theory ⇔SU (7) structure on E.
+(3.25)
+The projection E →TM7 deﬁnes a GL(7,
+R) subgroup of E7(7). Given a EGM G, this
+deﬁnes a Spin(7) ⊂SU (8) subgroup. We can then decompose ζ into real Spin(7) spinors,
+ζ = ζ1 + iζ2
+(3.26)
+Each ζi is stabilised by a G2 ∈Spin(7) subgroup. Thus from the point of the view of the
+ordinary tangent space TM7, if ζi are globally deﬁned and non-vanishing we have a pair of
+G2 structures. However, all we really require is a globally deﬁned non-vanishing complex
+ζ. Thus in general we may not have either G2 structure. In analogy to the case where ζ is
+real and we have a single G2 structure, we can deﬁne the complex bilinears
+ϕmnp = i¯ζcγmnpζ
+and
+ψmnpq = (∗7ϕ)mnpq = −¯ζcγmnpqζ.
+(3.27)
+– 16 –
+
+PAGE 18
+Locally, the pair of ζi are preserved by a SU (3) group.
+We have seen that one way to deﬁne the structure is as the pair of EGM and SU (8)
+spinor (G, ζ).
+However, as in the type II case, we can also ﬁnd an element lying in a
+particular orbit in an E7(7) representation which can also be used to deﬁne the structure.
+We expect that it can be deﬁned as a spinor bilinear. As we discuss in a moment, this
+space should also correspond to the N = 1 chiral multiplet space in the four-dimensional
+eﬀective theory.
+Decomposing under SU (7), the 56 representation has no singlets so cannot have ele-
+ments stabilized by SU (7). The adjoint 133 does have a singlet. In terms of the spinor ζ,
+the singlet in µ ∈133, using its decomposition 133 = 63 + 35 + ¯
+35 under SU (8), can be
+written as
+µ0 =
+ µ0αβ, µ0 αβγδ, ¯µ0αβγδ
+,
+=
+ ζα¯ζβ −1
+8(¯ζζ)δαβ, 0, 0
+
+.
+(3.28)
+However, it is easy to see that this is stabilized by U(7) rather than SU (7). The next
+smallest E7(7) representation is 912. (See appendix B.2 for our conventions for E7(7) rep-
+resentations.) We can deﬁne the following SU (7)-singlet complex element in terms of its
+SU (8) decomposition, that is 912 = 36 + 420 + ¯
+36 +
+¯
+420,
+φ0 = (φ0αβ, φ0αβγδ, ¯φ0 αβ, ¯φ0 αβγδ)
+= (ζαζβ, 0, 0, 0),
+(3.29)
+Finally we can form the structure together with the form-ﬁeld potentials
+φ = eA+ ˜
+Aφ0.
+(3.30)
+Such a φ does indeed deﬁne a generic SU (7) structure.
+To see this, we ﬁrst note that under an inﬁnitesimal E7(7) transformation we have
+δφ0αβ = (µαγζγ)ζβ + ζα(µβγζγ),
+δφ0αβγδ = 0,
+δ ¯φ0 αβ = 0,
+δ ¯φ0 αβγδ = µαβγǫζǫζδ.
+(3.31)
+Thus φ0 is stabilized by elements of E7(7) satisfying
+µαβζβ = 0,
+µαβγδζδ = 0.
+(3.32)
+Since ¯µαβγδ = ∗µαβγδ, the second condition can only be satisﬁed if µαβγδ = 0. Since µαβ
+is an element of the adjoint of SU (8) we see that φ0 is indeed stabilised by SU (7). Since
+eA+ ˜
+A ∈E7(7) the stabilizer of φ must also be SU (7). Finally, note that the SU (8) repre-
+sentations were deﬁned using the gamma matrices ˆγa deﬁned using the seven dimensional
+metric g. Since action by eA+ ˜
+A generates a generic EGM, we see that (when taken with
+the choice of generic g and spinor ζ, which are implicit when we write (3.29)) the action
+of eA+ ˜
+A must generate a generic element of the orbit under E7(7).
+– 17 –
+
+PAGE 19
+Note that we could also deﬁne a real object λ = Re φ
+λ = eA+ ˜
+A(ζαζβ, 0, ¯ζα ¯ζβ, 0),
+(3.33)
+which also manifestly deﬁnes the same SU (7) structure. Let N(E) be the 912 representa-
+tion space based on the EGT E, at each point x ∈M7, we can view λ as an embedding of
+the coset space
+λ : E7(7)
+SU (7) ×
+R+֒ →N(E),
+(3.34)
+where the
+R+ factor simply corresponds to a rescaling of λ. We will call this orbit subspace
+Σ. There should then be a natural complex structure on Σ which allows one to deﬁne the
+holomorphic φ. This is in analogy to Υ± and Φ± in generalised geometry. Note that λ far
+from ﬁlls out the whole of the 912 representation space. Rather we are considering a very
+particular orbit. One could always write down the particular non-linear conditions which
+deﬁne the orbit, that is, the analogues of (3.22).
+Finally let us also consider how the supergravity ﬁelds decompose under the SU (7)
+subgroup and how these correspond to diﬀerent N = 1 multiplets. We have for SU (7) ⊂
+SU (8)
+8 = 7 + 1,
+35 = 35,
+28 = 21 + 7,
+56 = 35 + 21.
+(3.35)
+This means we can arrange the degrees of freedom as in table 2. Note that the coset space
+multiplet
+SU (7) rep
+ﬁelds
+chiral
+35
+gmn, Amnp, ˜Am1...m7, Ψm
+vector
+21
+gµm, Aµnp, Ψm
+spin-3
+2
+7
+gµm, Aµnp, Ψµ
+gravity
+1
+gµν, Ψµ
+Table 2: Multiplet structure under SU (7)
+E7(7) / SU (7) actually decomposes into 35 + 7 + ¯
+35 + ¯7. Thus there are more degrees of
+freedom in λ than chiral degrees of freedom. The same phenomenon appears in the type
+II case and is associated to the gauge freedom of the extra spin-3
+2 multiplets. One solution
+is to assume in a given truncation of the theory that there are no 7 degrees of freedom.
+Note that in this picture we expect there to be a natural K¨ahler metric on the coset space
+Σ = E7(7) / SU (7) ×
+R+ corresponding to the K¨ahler metric on the chiral scalar ﬁeld space
+of N = 1 theories [66].
+4. Application: the eﬀective superpotential
+In the previous section we found the objects deﬁning the SU (7) structure relevant to N = 1
+reformulations of eleven-dimensional supergravity. The elements φ ∈Σ should correspond
+to the chiral multiplet degrees of freedom. As such there should be an analogue of the
+four-dimensional superpotential W, as a holomorphic function of φ. In this section, we will
+– 18 –
+
+PAGE 20
+derive the generic structure of W and show that it can be written in an E7(7) covariant
+form. This is the analogue of the corresponding generalised geometry calculation in the
+case of type II given in [11, 20]. Note that the structure of W, for the special case of a G2
+structure was previously derived in [60].
+4.1 Generic form of the eﬀective superpotential
+We will read oﬀW from the variation of the four-dimensional gravitino. Recall that the
+N = 1 gravitino variations are given by
+δψµ+ = ∇µθ+ + 1
+2ieK/2Wγµθ−+ . . . ,
+(4.1)
+where W is the superpotential and K the K¨ahler potential. The expressions for eK/2W can
+then be derived directly from the eleven-dimensional gravitino variation (see appendix A.1
+for our conventions)
+δΨM = ∇Mǫ +
+1
+288
+ ΓM NP QR −8δN
+MΓP QR
+FMNP Q + . . . ,
+(4.2)
+where the dots denote terms depending on ΨM.
+We must ﬁrst identify the correctly normalised four-dimensional gravitino ψµ. A naive
+decomposition ΨM = (Ψµ, Ψm) and identifying ψµ as part of Ψµ, leads to cross-terms in
+the kinetic energy, so instead we ﬁrst need to diagonalise the four-dimensional gravitino
+kinetic energy term. This requires the following shift
+˜Ψµ := Ψµ + 1
+2ΓµΓmΨm.
+(4.3)
+One further has to rescale by a factor of eE, and hence identify the four-dimensional
+gravitino ψµ as the SU (7) singlet part
+˜Ψµ = eE/2ψµ+ ⊗ζc + eE/2ψc
+µ+ ⊗ζ + . . .
+(4.4)
+where the dots denote non-singlet terms. This rescaling by eE/2 is the reason for adopting
+the conventions in the spinor decomposition given in (3.10). Given we can rescale ζc by
+including factors in θ+, we can always choose a normalisation
+¯ζζ = 1.
+(4.5)
+This allows us to introduce the projectors
+Π+ := 1
+2(1 + iγ(4)) ⊗ζc¯ζc
+Π−:= 1
+2(1 −iγ(4)) ⊗ζ ¯ζ
+(4.6)
+such that
+e−E/2Π+ ˜Ψµ = ψµ+ ⊗ζc.
+(4.7)
+It is now straightforward to calculate δψµ in terms of ζc, F and ˜F. By deﬁnition
+δψµ ⊗ζc = e−E/2Π+δ ˜Ψµ = e−E/2Π+
+ δΨµ + 1
+2ΓµΓmδΨm
+
+= ∇µθ+ ⊗ζc + 1
+2ieK/2Wγµθ−⊗ζc,
+(4.8)
+– 19 –
+
+PAGE 21
+which gives
+eK/2W = 1
+4ieE 
+4¯ζcγm∇mζ + 1
+4!Fmnpq ¯ζcγmnpqζ −i ∗7 ˜F ¯ζcζ
+
+.
+(4.9)
+We have used the fact that ¯ζcγmζ = 0 identically to remove ∇mE terms. This expression
+can be put in a more standard form by writing:
+ζ ¯ζc = 1
+8(¯ζcζ)1 −
+1
+8·3!(¯ζcγmnpζc)γmnp.
+(4.10)
+Thus, since ¯ζcγmζ = ¯ζcγmnζ = 0, we have
+(¯ζcγm∇mζ)(¯ζcζ) = ¯ζcγm∇m(ζ ¯ζc)ζ
+=
+i
+8·3!∇mϕnpq(¯ζcγmγnpqζ)
+= −
+i
+8·4!(dϕ)mnpq(∗7ϕ)mnpq
+= −i
+8 ∗7 (ϕ ∧dϕ),
+(4.11)
+where we used (3.27). Similarly,
+1
+4!Fmnpq ¯ζcγmnpqζ = −∗7 (F ∧ϕ).
+(4.12)
+Hence
+∗7 eK/2W = 1
+8eE
+ 1
+¯ζcζ ϕ ∧dϕ −2iF ∧ϕ + 2 ˜F ¯ζcζ
+
+= 1
+8
+¯ζcζeE h
+d( ˜ϕ −iA) ∧( ˜ϕ −iA) + 2d ˜A −id(A ∧˜ϕ)
+i
+(4.13)
+where we have introduced the renormalised ˜ϕ = ϕ/¯ζcζ.
+In the case where ζc = ζ we have a global G2 structure, our normalisation conven-
+tion (4.5) implies that ¯ζcζ = 1 and one ﬁnds that (4.13) agrees with that derived in [60].
+The generic SU (7) case diﬀers form the simple G2 case as through the pre-factor ¯ζcζ and
+the fact that ˜ϕ is no longer real.
+4.2 An E7(7) covariant expression
+In this section we show that one may rewrite the superpotential term (4.13) in a manifestly
+E7(7) invariant form using the SU (7) structure φ ∈912. This is the analogue of the O(6, 6)
+invariant expressions for the N = 2 prepotentials given in [20] for type IIA and IIB theories
+compactiﬁed on SU (3) × SU (3) structure backgrounds.
+We ﬁrst need to introduce an embedding of the derivative operator into an E7(7) rep-
+resentation.
+Given the GL(7) decomposition of the EGT given in (2.15), we see that,
+assuming for the moment we have a metric g, we can introduce an operator
+D = (Dab, Dab) ∈56
+(4.14)
+with
+Dmn = Dm8 = Dmn = 0,
+Dm8 = (det g)1/4∇m.
+(4.15)
+– 20 –
+
+PAGE 22
+Transforming to spinor indices gives
+D = (Dαβ, ¯Dαβ) = (−
+1
+2
+√
+2γm αβ∇m,
+1
+2
+√
+2γm
+αβ∇m).
+(4.16)
+Given the derivative operator we can deﬁne its action on φ ∈912. In particular using the
+product between 56 and 912 (see (B.15) or (B.31)) we can deﬁne an object in the 133
+representation which we denote as (D · φ)AB = DCφC(AB) (where indices are raised and
+lowered using the symplectic structure ΩAB).
+The claim is that the superpotential can be written as
+(D · φ) φ = −
+ 3
+4
+√
+2
+e−EeK/2W
+
+φ,
+(4.17)
+where (D · φ) φ ∈912 denotes the adjoint action of D · φ on φ itself. The statement is that
+(D · φ) φ is itself an SU (7) singlet, proportional to φ and W is related to the constant of
+proportionality. Note that we expect W to be a holomorphic function of φ, since φ encodes
+the chiral multiplet scalar ﬁelds, whereas the K¨ahler potential should be a function of both
+φ and its complex conjugate. This suggests we should identify eE and eK/2, or equivalently
+e−K = const. × √det g. We return to this brieﬂy in section 5.
+To show (4.17) requires two steps. First recall that we deﬁned φ = eA+ ˜
+Aφ0. Writing
+h = eA+ ˜
+A ∈E7(7), one can then deﬁne a new operator D0 with a connection taking values
+in the adjoint of E7(7) by conjugating by h. Making the E7(7) indices explicit, we deﬁne
+DAB
+0
+C = DAδBC + κABC,
+(4.18)
+where κABC = (h−1)BEDAhEC. One then has D · φ = eA+ ˜
+A(D0 · φ0) where
+(D0 · φ0)AB = ΩCD
+
+DCφD(AB)
+0
++ κCDEφE(AB)
+0
++ κC(AEφDE|B)
+0
++ κC(BEφD|A)E
+0
+
+,
+(4.19)
+where we have used the fact that hABDB = DA.
+The expression (4.17) can thus be
+rewritten as
+(D0 · φ0) φ0 = −
+ 3
+4
+√
+2 e−EeK/2W
+
+φ0.
+(4.20)
+It is then straightforward to calculate (D0 · φ0) φ0. Using the Hadamard formula
+eP Qe−P = Q + [P, Q] + 1
+2[P, [P, Q]] + . . . ,
+(4.21)
+for operators P and Q, one can calculate D0. Given the commutator algebra (2.20), we
+have
+e−A−˜
+A∇meA+ ˜
+A = ∇m + ∇m(A + ˜A) + 1
+2[∇m(A + ˜A), A + ˜A] + . . .
+= ∇m + ∇mA + ∇m ˜A −1
+2∇mA ∧A
+:= ∇m + κm.
+(4.22)
+– 21 –
+
+PAGE 23
+Note that this expression truncates at quadratic order. Again the connection κm takes
+values in the E7(7) Lie algebra. In the SU (8)/Z2 basis φ0 takes the form (3.29). Hence
+(∇m + κm)φ0αβ = ∇m(ζαζβ) + (κmαγζγ)ζβ + ζα(κmβγζγ),
+(∇m + κm)φ0αβγδ = 0,
+(∇m + κm)¯φ0 αβ = 0,
+(∇m + κm)¯φ0 αβγδ = κm αβγǫζǫζδ.
+(4.23)
+so that
+(D0 · φ0)αβ =
+3i
+8
+√
+2
+h
+∇m(ζαζγ)γmγβ
++ κmαγζγζδγmδβ −ζαγmβγκmγδζδ −ζαγm γδκm γδβǫζǫi
+(D0 · φ0)αβγδ = −
+i
+2
+√
+2
+κm [αβγ|ǫζǫγm
+δ]θζθ.
+(4.24)
+Finally, again using the identity ζαγm
+αβζβ = 0 we ﬁnd
+[(D0 · φ0) φ0]αβ = −3i
+4
+√
+2
+
+ζγγmγδ∇mζδ + ζγγm
+γδκmδǫζǫ
+ζαζβ
+= −3i
+4
+√
+2
+h
+¯ζcγm(∇m + κm)ζ
+i
+φαβ
+0 ,
+(4.25)
+with all other components vanishing. We see that, as claimed, (D0 · φ0) φ0 is proportional
+to φ0.
+Finally we recall that κm corresponded to an “A-shift” of ∇mA and a “ ˜A-shift” of
+∇m ˜A −1
+2∇mA ∧A. Only the SU (8)/Z2 adjoint component κmαβ survives in (4.25). Using
+the decomposition (B.30) together with the deﬁnitions (B.22) we ﬁnd this component is
+given by
+κm =
+1
+4·4!(∇mA)npqγnpq −1
+4i
+
+∗7
+ ∇m ˜A −1
+2∇mA ∧A
+
+nγn
+(4.26)
+and hence
+¯ζcγm(∇m + κm)ζ = ¯ζcγm∇mζ +
+1
+4·4!Fmnpq ¯ζcγmnpqζ −i(∗7 ˜F)¯ζcζ
+= −ie−EeK/2W,
+(4.27)
+as required.
+We now return brieﬂy to a subtlety in the deﬁnition of D. As written (4.15), D is
+only deﬁned given a metric g. However φ deﬁnes an SU (7) structure on E and hence a
+metric g (and form ﬁelds A and ˜A). Thus, as written, we can think of D as deﬁned in
+terms of φ. This is in contrast with the type II SU (3) × SU (3) case. There the exterior
+derivative deﬁned a natural generalised Dirac operator d : S±(E) →S∓(E) independent
+of the structure (or speciﬁcally any metric). It is also in contrast with the ﬁnal result: the
+ﬁnal superpotential can be written (4.13) using only the exterior derivative.
+The indication is that one can actually deﬁne D independently of the metric, such that
+it has a sensible action on φ. In this sense the diﬀerential EGG is set up before introducing
+– 22 –
+
+PAGE 24
+any structure, as is that case in generalised geometry. One would also expect that such a
+D is dual to the ECB in the same way that the exterior derivative on S±(E) is dual to
+the ordinary Courant bracket [4]. A subtlety in the generalised geometrical case is that
+the isomorphism between S±(E) and Λ∗T ∗M is not unique: the natural isomorphism is
+to (ΛdT ∗M)−1/2 ⊗Λ∗T ∗M [2]. Thus to deﬁne the exterior derivative one must rescale by
+something in (ΛdT ∗M)−1/2. We expect something similar in the deﬁnitions of φ and D,
+removing the need for (det g)1/4 in (4.15).
+5. Conclusions
+In this paper we have discussed an extension of generalised geometry applicable to eleven-
+dimensional supergravity and for which the symmetry group is the continuous U-duality
+group Ed(d). The general form of such constructions was recently discussed by Hull [49].
+Here we speciﬁcally focused on generic N = 1 ﬂux compactiﬁcations to four dimensions,
+for which the relevant symmetry group is E7(7). We showed that N = 1 supersymmetry
+implies that there is SU (7) structure on this “exceptional generalised geometry” (EGG)
+deﬁned by an element φ in a particular orbit in the 912 representation of E7(7). This is
+the analogue of the pair of generalised spinors Φ±, each deﬁning a generalised complex
+structure, which characterise N = 2 type II backgrounds. In the four-dimensional theory
+it encodes the chiral multiplet scalar degrees of freedom. As an application we showed
+that the superpotential for generic N = 1 ﬂux compactiﬁcations could be written as an
+E7(7)-invariant homogeneous, holomorphic function of φ.
+In fact, almost all the objects appearing in generalised geometry have analogues in
+EGG. There is an exceptional generalised tangent space E, now combining vectors, two-
+forms, ﬁve-forms and an eight-index tensor. This is twisted by gerbes which capture the
+topological information encoded in the patching of the three-form supergravity potential
+A and its dual ˜A – the analogues of the NS–NS B-ﬁeld. There is also a natural exceptional
+Courant bracket, encoding the diﬀerential structure on E. The seven-dimensional metric
+g and potentials A and ˜A then combine to deﬁne an SU (8)/Z2 structure on E. This is the
+analogue of the generalised metric, combining metric and B-ﬁeld, that deﬁnes an O(d) ×
+O(d) structure in generalised geometry. If the background has N = 1 supersymmetry this
+structure is further reﬁned to SU (7), while for type II six-dimensional N = 2 backgrounds
+generalised geometry
+exceptional generalised geometry
+E0 = T M ⊕T M ∗
+E0 = T M ⊕Λ2T ∗M ⊕Λ5T ∗M ⊕(T ∗M ⊗Λ7T ∗M)
+structure
+group
+structure
+group
+η
+O(d, d)
+(Ω, q)
+E7(7)
+Π
+GL(d) × GL(d)
+J
+GL(28,
+C)
+G
+O(2d)
+G
+O(56)
+(η, Π) or (η, G)
+O(d) × O(d)
+(Ω, q, J) or (Ω, q, G)
+SU (8)/Z2
+Table 3: Comparing generalised and exceptional generalised geometry
+– 23 –
+
+PAGE 25
+the generalised structure is SU (3) × SU (3) ⊂O(6) × O(6). These parallels are partially
+summarised in table 3.
+There are a number of obvious extensions of this work one would like to consider.
+Directly related to the results described here are the questions, ﬁrst, of the deﬁnition of
+the derivative operator D and, secondly, of the form of the K¨ahler potential [66].
+As
+discussed in section 4.2, we expect that the deﬁnition (4.15) of D can be replaced with one
+written in terms of the ordinary partial derivative without need for a metric. This should,
+in an appropriate sense following [4], be the dual of the exceptional Courant bracket deﬁned
+in (2.29).
+As for the superpotential the K¨ahler potential (or rather the K¨ahler metric) can be
+calculated directly by identifying the four-dimensional kinetic terms in the decomposition
+of the eleven-dimensional theory.
+One would again expect the potential to be a E7(7)
+invariant. We know from the work on type II theories [11, 20] that e−K is proportional
+to the metric density √det g.
+A similarly relation here would be compatible with the
+expression (4.17) for W being a holomorphic function of φ.
+In the type II case we also ﬁnd [11, 20] that e−K is proportional to the Hitchin
+functional [1, 67]. This is true both for the ordinary geometrical case for backgrounds
+parametrised by an SU (3) structure and for the extension to the generalised geometrical
+Hitchin functional for SU (3, 3) structures Φ±. Hitchin has already introduced a functional
+for a conventional G2 structure.
+One expects that the E7(7)-invariant K¨ahler potential
+should be the EGG generalisation of this functional for SU (7) structures deﬁned by φ
+which includes the potential A and ˜A degrees of freedom. This also should be the natural
+generalisation of the action for topological M-theory [68]. As the generalised geometrical
+functionals necessarily arose at one-loop in the topological B-model [30], one conjecture
+is that the putative EGG SU (7) functional would appear at one-loop in topological M-
+theory.
+However, note that the extension could also be to the generalised geometrical
+G2 × G2 functional [69].
+An obvious question to address is to consider not the four-dimensional eﬀective theory
+but the on-shell supersymmetric backgrounds [66]. For type II theories, satisfying the six-
+dimensional Killing spinor equations is equivalent to simple diﬀerential conditions on the
+SU (3) × SU (3) structures (Φ+, Φ−) [6, 8, 10, 15]. One expects a very similar relation in
+EGG for the SU (7) structure φ using the operator D. These “integrability” conditions on
+the generalised geometry and EGG structures are the generalisations of the G-structure
+and intrinsic torsion classiﬁcation of supersymmetric backgrounds [70].
+One can also repeat the analysis here for compactiﬁcations of eleven-dimensional su-
+pergravity to other dimensions, or for that matter for type II theories where the EGG
+“geometrises” the Ramond–Ramond degrees of freedom [49]. There will also be relations
+between backgrounds in diﬀerent dimensions. For instance the four-dimensional type II
+N = 2 backgrounds [11, 20] should be encoded in the dimensional reduction of the N = 1
+backgrounds discussed here. In particular, one notes that in terms of the generalised struc-
+tures O(6, 6) ⊂E7(7) and for supersymmetry SU (3) × SU (3) ⊂SU (7).
+Let us end by noting two further connections. Hull’s work [49] was partly motivated
+by the existence of non-geometrical backgrounds [40]–[48].
+The exceptional generalised
+– 24 –
+
+PAGE 26
+tangent space (2.26) is patched not by generic elements of E7(7) but only elements in the
+subgroup GL(7) ⋉Gclosed(M), that is the usual geometrical patching of the tangent spaces
+together with A- and ˜A-shifts (by exact forms). It is very natural to extend the twisting
+to generic E7(7) bundles as discussed in [49]. Such spaces cannot directly describe non-
+geometrical backgrounds since the underlying space M is still a conventional manifold.
+Nonetheless they are closely connected to the doubled T-fold and U-fold geometries of [40].
+It was argued recently [71] that the generic four-dimensional N = 8 gauged supergravity
+theories arise from compactiﬁcation on a 56-dimensional “megatorus” U-fold. Interestingly
+such generic supergravities are encoded by an embedding tensor [72] which, like φ, lies in
+the 912 representation of E7(7). Here, we have focused on N = 1 theories rather than
+N = 8 in four dimensions.
+The appearance of the 912 representation is nonetheless
+indirectly connected to the embedding tensor. For N = 8, the embedding tensor appears
+(via the T-tensor) in the supersymmetry variations of the eight gravitinos and 56 spin-1
+2
+ﬁelds. Decomposing under SU (8) the 36 representation appears in the former and the 420
+in the latter. In order to deﬁne an N = 1 theory, we further decompose under SU (7).
+The 36 representation decomposes as 36 = 1 + 7 + 28.
+The ﬁrst term goes with the
+N = 1 gravitino and corresponds to the superpotential term (4.1). In addition the 420
+representation decomposes as 420 = 224+140+35+21. The chiral multiplets are the 35
+representation (see table 2), and so the 35 term in the T-tensor corresponds the derivative
+of the superpotential with respect to the chiral scalars. Thus the structure φ and the N = 8
+embedding tensor share a common 35 representation under the SU (7) decomposition.
+Acknowledgments
+We would like to thank Jerome Gauntlett, Jan Louis and, in particular, Mariana Gra˜na
+and Chris Hull for helpful discussions. P. P. P. thanks the FCT (part of the Portuguese
+Ministry of Education) for ﬁnancial support under scholarship SFRH/BD/10889/2002.
+D. W. is supported by a Royal Society University Research Fellowship and thanks the
+Aspen Center for Physics, CEA/Saclay and the Isaac Newton Institute for Mathematical
+Sciences for hospitality during the completion of this work.
+A. Conventions
+A.1 Eleven-dimensional supergravity
+We adopt conventions where the eleven-dimensional supergravity action takes the form
+(see for instance [60])
+S =
+1
+2κ2
+Z
+M11
+√−g
+ R −¯ΨMΓMNP DNΨP
+
+−1
+2F ∧∗F −1
+6A ∧F ∧F + . . . ,
+(A.1)
+while the variation of the gravitino ΨM is given by
+δΨM = ∇Mǫ +
+1
+288
+ ΓM NP QR −8δN
+MΓP QR
+FMNP Q + . . . .
+(A.2)
+– 25 –
+
+PAGE 27
+(The dots represent four-fermi terms and terms coupling ΨM and F.)
+Here M, N =
+0, 1, . . . , 10 are eleven-dimensional indices, the metric g has signature (−, +, . . . , +) and
+ΓM are the eleven-dimensional gamma matrices satisfying
+{ΓM, ΓN} = 2gMN
+1,
+(A.3)
+with ΓM1...M11 =
+1ǫM1...M11 where the volume form ǫ is given by ǫ = √−g dx0 ∧· · · ∧dx10.
+The spinors ǫ and ΨM are Majorana. Given the intertwining relation −ΓT
+M = C−1ΓMC, we
+deﬁne the conjugate spinor ¯ΨM = ΨT
+MC−1. Note that the equation of motion and Bianchi
+identity for the ﬂux F read
+d ∗F + 1
+2F ∧F = 0,
+dF = 0.
+(A.4)
+A.2 Cliﬀ(7, 0) and seven-dimensional spinors
+Let us also ﬁx our conventions for Spin(7) (see also Appendix C of [50]). The Cliﬀord
+algebra Cliﬀ(7, 0;
+R) is generated by the gamma matrices γm with m = 1, . . . , 7 satisfying
+{γm, γn} = 2gmn
+1.
+(A.5)
+One ﬁnds Cliﬀ(7, 0;
+R) ≃GL(8,
+C) and hence the spinor representation of the Cliﬀord
+algebra is complex and eight-dimensional. We deﬁne the intertwiners A and C by
+γ†
+M = AγmA−1,
+−γT
+m = C−1γmC,
+(A.6)
+with A† = A, CT = C and such that −γ∗
+m = D−1γmD with D = CAT . Given a spinor ζ
+we deﬁne the conjugate spinors
+¯ζc = ζc†A,
+ζ = Dζc∗.
+(A.7)
+Furthermore, we write
+γm1...m7 = γ(7)ǫm1...m7
+(A.8)
+with ǫ = √gdx1 ∧· · · ∧dx7. Note that one can choose the gamma matrices such that
+γ(7) = i.
+The intertwiner A provides an hermitian metric on the spinor space, which
+is invariant under the subgroup SU (8) ⊂Cliﬀ(7, 0;
+R), with a Lie algebra spanned by
+{γm1,m2, γm1m2m3, γm1...m6, γm1...m7}.
+The even part of the Cliﬀord algebra generated by the γmn has Cliﬀ(7, 0;
+R)even ≃
+GL(8,
+R) and hence a real spinor representation with ζ = ζc. Thus the spin group Spin(7) ⊂
+Cliﬀ(7, 0;
+R)even similarly has a real spinor representation. For real spinors, ¯ζ = ζTC−1,
+and C−1 provides metric on the spin space.
+This is invariant under a Spin(8) group
+with Lie algebra spanned by {γm1m2, γm1...m6}. This can alternatively be described by, for
+a, b = 1, . . . 8
+ˆγab =
+
+
+
+
+
+
+
+(det g)−1/4γmn
+if a = m, b = n
+(det g)1/4γmγ(7)
+if a = m, b = 8
+−(det g)1/4γnγ(7)
+if a = 8, b = n
+(A.9)
+– 26 –
+
+PAGE 28
+which generate the Spin(8) Lie algebra with metric
+ˆgab = (det g)−1/4
+ 
+gmn
+0
+0
+det g
+!
+.
+(A.10)
+Here we have introduced some factors of det g to match the form of ˆg used elsewhere in the
+paper (in particular the decomposition under GL(7,
+R) given in section B.3). With these
+conventions, the spinors ζ are of positive chirality with respect to Spin(8).
+If we make the spinor indices explicit writing ζα with α = 1, . . . , 8 we can raise and
+lower spinor indices using the metric C−1 so, for instance,
+ˆγab αβ = C−1
+αγ ˆγabγβ,
+ˆγabαβ = ˆγmnαγCγβ.
+(A.11)
+One also has the useful completeness relations, reﬂecting Spin(8) triality,
+ˆγabαβˆγabγδ = 16δ[α
+[γ δβ]
+δ] ,
+ˆγabαβˆγcdαβ = 16δ[c
+[aδd]
+b] .
+(A.12)
+B. The exceptional Lie group E7(7)
+In this appendix we review some of the properties of the group E7(7) relevant to this paper.
+A detailed deﬁnition of E7(7) and an fairly exhaustive description of its properties can be
+found in Appendix B of [50] which itself refers to the original work by Cartan [73].
+B.1 Deﬁnition and the 56 representation
+The group E7(7) can be deﬁned by its action on the basic 56-dimensional representation as
+follows. Let W be a real 56-dimensional vector space with a symplectic product Ω, then
+E7(7) is a subgroup of Sp(56,
+R) leaving invariant a particular quartic invariant q.
+Explicitly one can deﬁne Ωand q using the SL(8,
+R) ⊂E7(7) subgroup. If V is an
+eight-dimensional vector space, on which SL(8,
+R) acts in the fundamental representation,
+then the 56 representation decomposes as
+56 = 28 + 28′
+(B.1)
+the 28 representation corresponding to Λ2V and the 28′ to Λ2V ∗. Note that using ǫ ∈Λ8V ,
+the totally antisymmetric form preserved by the SL(8,
+R) action on V , one can identify Λ2V ∗
+with Λ6V . In summary, one identiﬁes
+W = Λ2V ⊕Λ2V ∗
+(B.2)
+and writes X ∈W as the pair (xab, x′
+ab) where a, b = 1, . . . , 8.
+The symplectic product Ωis then given by, where A = 1, . . . , 56
+Ω(X, Y ) = ΩABXAY B = xaby′
+ab −x′
+abyab,
+(B.3)
+– 27 –
+
+PAGE 29
+and the quartic invariant q is
+q(X) = qABCDXAXBXCXD
+= xabx′
+bcxcdx′
+da −1
+4xabx′
+abxcdx′
+cd
++ 1
+96
+
+ǫabcdefghxabxcdxefxgh + ǫabcdefghx′
+abx′
+cdx′
+efx′
+gh
+
+(B.4)
+In what follows it will be useful to use a matrix notation where we write
+XA =
+ 
+xaa′
+x′
+aa′
+!
+(B.5)
+such that the symplectic form
+ΩAB =
+ 
+0
+δb
+aδb′
+a′
+δa
+b δa′
+b′
+0
+!
+(B.6)
+Throughout it is assumed that all pairs of primed and unprimed indices (a, a′) etc are
+antisymmetrised.
+B.2 The 133 and 912 representations
+There are two other representations of interest in this paper. First is the adjoint.
+By
+deﬁnition it is a 133-dimensional subspace A of the Lie algebra sp(56,
+R). It decomposes
+under SL(8,
+R) as
+A = (V ⊗V ∗)0 ⊕Λ4V ∗
+µ = (µab, µabcd)
+133 = 63 + 70,
+(B.7)
+where (V ⊗V ∗)0 denotes traceless matrices, so µaa = 0. The action on the 56 representation
+is given by
+δxab = µacxcb + µbcxac + ∗µabcdx′
+cd,
+δx′
+ab = −µcax′
+cb −µcbx′
+ac + µabcdxcd,
+(B.8)
+with ∗µa1...a4 = 1
+4!ǫa1...a8µa5...a8. In terms of the matrix notation we have δXA = µABXB
+with
+µAB =
+ 
+2µabδa′
+b′
+∗µaa′bb′
+µaa′bb′ −2µbaδb′
+a′
+!
+.
+(B.9)
+Note that µAB = µACΩ−1 CB is a symmetric matrix. Taking commutators of the adjoint
+action gives the Lie algebra µ′′ = [µ, µ′]
+µ′′ ab = (µacµ′ cb −µ′ acµcb) + 1
+3(∗µac1c2c3µ′
+bc1c2c3 −∗µ′ ac1c2c3µbc1c2c3),
+µ′′
+abcd = 4(µe
+[aµ′
+bcd]e + µ′ e
+[aµbcd]e).
+(B.10)
+The other representation of interest in this paper is the 912. The representation space
+N decomposes under SL(8,
+R) as
+N = S2V ⊕(Λ3V ⊗V ∗)0 ⊕S2V ∗⊕(Λ3V ∗⊗V )0
+φ = (φab, φabcd, φ′
+ab, φ′
+abc
+d)
+912 = 36 + 420 + 36′ + 420′,
+(B.11)
+– 28 –
+
+PAGE 30
+where SnV denotes the symmetric product and (Λ3V ⊗V ∗)0 denotes traceless tensors, so
+φabcc = 0. The adjoint action of E7(7) on φ is given by
+δφab = µacφcb + µbcφac −1
+3(∗µacdeφ′
+cde
+b + ∗µbcdeφ′
+cde
+a),
+δφabcd = 3µ[aeφbc]ed −µedφabce + ∗µabceφ′
+ed + ∗µef[abφ′
+efd
+c] −∗µefg[aφ′
+efg
+bδc]
+d ,
+δφ′
+ab = −µcaφ′
+cb −µcbφ′
+ac −1
+3(µacdeφcdeb + µbcdeφcdea),
+δφ′
+abc
+d = −3µe
+[aφ′
+bc]e
+d + µdeφ′
+abc
+e + µabceφed + µef[abφefd
+c] −µefg[aφefgbδd
+c].
+(B.12)
+In terms of Sp(56,
+R) indices, we have φABC, corresponding to the Young tableau A C
+B
+with
+φABCΩAB = 0. The diﬀerent components are given by
+φaa′bb′cc′ = −1
+12(ǫabb′cc′efgφ′
+efg
+a′ −ǫbaa′cc′efgφ′
+efg
+b′),
+φaa′bb′
+cc′ = 2φabδa′
+c δb′
+c′ −φaa′bcδb′
+c′ + φbb′acδa′
+c′ ,
+φaa′
+bb′cc′ = φacδa′
+b δc′
+b′ −2φaa′cbδc′
+b′ −φcc′abδa′
+b′ ,
+(B.13)
+with φaa′
+bb′cc′ = −φbb′aa′cc′ and identical expressions for φaa′bb′cc′ etc. but with raised and
+lowered indices reversed.
+Finally we will also need the tensor product
+56 × 912 = 133 + . . . .
+(B.14)
+In terms of Sp(56,
+R) indices we have µAB = XCΩCDφD(AB), while in terms of SL(8,
+R)
+components one ﬁnds
+µab = 3
+4
+ xacφ′
+cb −x′
+bcφca
++ 3
+4
+
+xcdφ′
+cdb
+a −x′
+cdφcdab
+
+,
+µabcd = −3
+
+φ′
+[abc
+ex′
+d]e + 1
+4!ǫabcdm1...m4φm1m2m3exm4e
+.
+(B.15)
+B.3 A GL(7) subgroup
+As described in section 2.2, the tangent space structure group embeds in the action of E7(7)
+on the EGT. To make this embedding explicit we must identify a particular GL(7,
+R) ⊂
+SL(8,
+R) ⊂E7(7) subgroup.
+In this appendix we identify this group and give explicit
+expressions for part of the E7(7) action in terms of GL(7,
+R) (that is spacetime tensor)
+representations.
+We start with the embedding of GL(7,
+R) in SL(8,
+R) given by the matrix
+ 
+(det M)−1/4Mmn
+0
+0
+(det M)3/4
+!
+∈SL(8,
+R),
+(B.16)
+where M ∈GL(7,
+R). If GL(7,
+R) acts linearly on the seven-dimensional vector space F
+this corresponds to the decomposition of the eight-dimensional representation space V as
+V = (Λ7F)−1/4F ⊕(Λ7F)3/4.
+(B.17)
+– 29 –
+
+PAGE 31
+The 56 representation (B.2) of E7(7) then decomposes as3
+W = (Λ7F ∗)−1/2 ⊗
+
+F ⊕Λ2F ∗⊕Λ5F ∗⊕F ∗⊗(Λ7F ∗)
+
+.
+(B.18)
+We can write an element of W as
+X = x + ω + σ + τ,
+(B.19)
+where x ∈(Λ7F ∗)−1/2 ⊗F etc. If we write the index m = 1, . . . , 7 for the fundamental
+GL(7,
+R) representation, note that, ignoring the tensor density factor (Λ7F ∗)−1/2, τ has
+the index structure τm,n1...n7, where n labels the F ∗factor and n1 . . . n7 the Λ7F ∗factor.
+We can make the identiﬁcation between GL(7,
+R) indices and SL(8,
+R) indices explicit by
+writing (again ignoring the (Λ7F ∗)−1/2 factor)
+xm8 = xm
+xmn = σmn
+1...7
+x′
+m8 = τm,1...7
+x′
+mn = ωmn,
+(B.20)
+where σmn
+p1...p7 = (7!/5!)δm
+[p1δn
+p2σp3...p7].
+We can similarly decompose the 133 representation. We ﬁnd
+A = (V ⊗V ∗)0 ⊕Λ4V ∗
+= F ⊗F ∗⊕Λ6F ⊕Λ6F ∗⊕Λ3F ⊕Λ3F ∗.
+(B.21)
+We will be particularly interested in the action of the Λ3F ∗and Λ6F ∗parts of 133 on X.
+Identifying
+µmnp8 = 1
+2Amnp ∈Λ3V ∗
+µm8 = −A′m
+1...7 ∈Λ6V ∗
+(B.22)
+where A′m
+p1...p7 = (7!/6!)δm
+[p1 ˜Ap2...p7] we have the action in the Lie algebra
+(A + ˜A) · X = ixA +
+ ix ˜A + A ∧ω
+
++
+ jA ∧σ −j ˜A ∧ω
+
+.
+(B.23)
+Here we have introduced a new notation. The symbol j denotes the ﬁrst pure F ∗index of
+sections of F ∗⊗(Λ7F ∗). Hence
+
+jα(p+1) ∧β(7−p)
+m,n1...n7 :=
+7!
+p!(7 −p)!αm[n1...npβnp+1...n7]
+(B.24)
+B.4 The SU (8)/Z2 subgroup and spinor indices
+The maximal compact subgroup of E7(7) is SU (8)/Z2. In the supersymmetry transforma-
+tions, the spinors transform in the fundamental representation under (the double cover)
+SU (8). Thus it is often useful to have the decomposition of the various E7(7) representations
+in terms of SU (8)/Z2.
+In particular, one can use the common Spin(8) subgroup to relate the decompositions
+under SL(8,
+R) and SU (8)/Z2. Let ˆγab be Spin(8) gamma matrices deﬁned in (A.9). We
+3Note that, up to the (Λ7F ∗)−1/2 factor, the same embedding of GL(7,
+R) was identiﬁed in [74]. This
+followed from an analysis of E11 representations in [57].
+– 30 –
+
+PAGE 32
+can raise and lower SL(8,
+R) indices using the metric ˆg. Similarly, spinor indices can be
+raised a lowered using C−1. Under SU (8)/Z2 the 56 representation decomposes as
+X = (xαβ, ¯xαβ)
+56 = 28 + ¯
+28.
+(B.25)
+If the symplectic product takes the form
+Ω(X, Y ) = i
+
+xαβ ¯yαβ −¯xαβyαβ
+(B.26)
+then (xab, x′
+ab) and (xαβ, ¯xαβ) are related by
+xαβ =
+1
+4
+√
+2(xab + ix′ab)ˆγabαβ,
+¯xαβ =
+1
+4
+√
+2(xab −ix′ab)ˆγab αβ,
+(B.27)
+with ˆγabαβ and ˆγab αβ given by (A.11), or equivalently
+ 
+xαβ
+¯xαβ
+!
+=
+1
+4
+√
+2
+ 
+ˆγabαβ
+iˆγab αβ
+ˆγab αβ −iˆγabαβ
+! 
+xab
+x′
+ab
+!
+(B.28)
+Recall that the SU (8) subgroup of Cliﬀ(7, 0;
+R) leaves the norm ¯ζζ invariant. Since the
+deﬁning 56 representation decomposes as a spinor bilinear, both the
+1 and −1 elements in
+SU (8) leave X invariant and hence we see explicitly that the subgroup of interest of E7(7)
+is actually SU (8)/Z2.
+Viewing a 56-dimensional index either as a pair of SL(8,
+R) indices or as a pair of spinor
+indices, the relation (B.28) can be used to convert between SL(8,
+R) and SU (8)/Z2 decom-
+positions of any other E7(7) representations. In particular, decomposing the adjoint repre-
+sentation µ under SU (8)/Z2 as 133 = 63 + 35 + ¯
+35 and writing µ = (µαβ, µαβγδ, ¯µαβγδ),
+with ¯µαβγδ = ∗µαβγδ and µαα = 0, one ﬁnds
+δxαβ = µαγxγβ + µβγxαγ + µαβγδ¯xγδ,
+δ¯xαβ = −µγα¯xγβ −µγβ¯xαγ + ¯µαβγδxγδ,
+(B.29)
+with
+µαβ = 1
+4µ−
+abˆγab αβ −1
+48iµ−
+abcdˆγabcd αβ,
+µαβγδ =
+1
+16
+ 2µ+
+acg(8)
+bd + iµ+
+abcd
+
+ˆγab [αβˆγcd γδ].
+(B.30)
+where µ±
+ab = 1
+2(µab ± µba) and µ±
+abcd = 1
+2(µabcd ± ∗µabcd), and the anti-symmetrisation in
+the second line is only over α, β, γ and δ. Note that in both lines the contraction with the
+relevant combination of gamma matrices automatically projects onto µ±
+ab and µ±
+abcd, so one
+could in practice leave out the ± superscripts.
+Finally we can similarly introduce the decomposition of the 912 representation under
+SU (8)/Z2, writing φ = (φαβ, φαβγδ, ¯φαβ, ¯φαβγδ). The adjoint action of E7(7) then takes
+exactly the same form as in (B.12) but with spinor indices replacing SL(8) indices. We can
+also write the 56 × 912 →133 product in terms of spinor indices. One ﬁnd
+µαβ = 3
+4i
+ xαγ ¯φγβ −¯xβγφγα
++ 3
+4i
+
+xγδ ¯φγδβα −¯xγδφγδαβ
+
+,
+µαβγδ = −3i
+ ¯φ[αβγ
+ǫ¯xδ]ǫ + 1
+4!ǫαβγδµ1...µ4φµ1µ2µ3ǫxµ4ǫ
+.
+(B.31)
+– 31 –
+
+PAGE 33
+The additional factor of i as compared to the SL(8) expression (B.15) comes from the addi-
+tion factor of i between the SL(8) and SU (8)/Z2 expressions for the symplectic form (B.3)
+and (B.26) respectively.
+References
+[1] N. Hitchin, “Generalized Calabi-Yau manifolds,” Quart. J. Math. Oxford Ser. 54 (2003) 281
+[arXiv:math.dg/0209099].
+[2] M. Gualtieri, “Generalized Complex Geometry,” Oxford University DPhil thesis (2004)
+[arXiv:math.DG/0401221].
+[3] N. Hitchin, “Instantons, Poisson structures and generalized K¨ahler geometry,” Commun.
+Math. Phys. 265, 131 (2006) [arXiv:math.dg/0503432].
+[4] N. Hitchin, “Brackets, forms and invariant functionals,” arXiv:math.dg/0508618.
+[5] S. Gurrieri, J. Louis, A. Micu and D. Waldram, “Mirror symmetry in generalized Calabi-Yau
+compactiﬁcations,” Nucl. Phys. B 654, 61 (2003) [arXiv:hep-th/0211102].
+[6] M. Grana, R. Minasian, M. Petrini and A. Tomasiello, “Supersymmetric backgrounds from
+generalized Calabi-Yau manifolds,” JHEP 0408 (2004) 046 [arXiv:hep-th/0406137].
+[7] P. Grange and R. Minasian, “Modiﬁed pure spinors and mirror symmetry,” Nucl. Phys. B
+732, 366 (2006) [arXiv:hep-th/0412086].
+[8] C. Jeschek and F. Witt, “Generalised G2-structures and type IIB superstrings,” JHEP 0503
+(2005) 053 [arXiv:hep-th/0412280].
+[9] P. Berglund and P. Mayr, “Non-perturbative superpotentials in F-theory and string duality,”
+arXiv:hep-th/0504058.
+[10] M. Grana, R. Minasian, M. Petrini and A. Tomasiello, “Generalized structures of N = 1
+vacua,” JHEP 0511 (2005) 020 [arXiv:hep-th/0505212].
+[11] M. Gra˜na, J. Louis and D. Waldram, “Hitchin functionals in N = 2 supergravity,” JHEP
+0601 (2006) 008 [arXiv:hep-th/0505264].
+[12] P. Koerber, “Stable D-branes, calibrations and generalized Calabi-Yau geometry,” JHEP
+0508, 099 (2005) [arXiv:hep-th/0506154].
+[13] L. Martucci and P. Smyth, “Supersymmetric D-branes and calibrations on general N = 1
+backgrounds,” JHEP 0511, 048 (2005) [arXiv:hep-th/0507099].
+[14] M. Gra˜na, “Flux compactiﬁcations in string theory: A comprehensive review,” Phys. Rept.
+423, 91 (2006) [arXiv:hep-th/0509003].
+[15] C. Jeschek and F. Witt, “Generalised geometries, constrained critical points and
+Ramond-Ramond ﬁelds,” arXiv:math/0510131.
+[16] I. Benmachiche and T. W. Grimm, “Generalized N = 1 orientifold compactiﬁcations and the
+Hitchin functionals,” Nucl. Phys. B 748, 200 (2006) [arXiv:hep-th/0602241].
+[17] J. Louis and S. Vaula, “N = 1 domain wall solutions of massive type II supergravity as
+generalized geometries,” JHEP 0608, 058 (2006) [arXiv:hep-th/0605063].
+[18] R. Minasian, M. Petrini and A. Zaﬀaroni, “Gravity duals to deformed SYM theories and
+generalized complex geometry,” JHEP 0612, 055 (2006) [arXiv:hep-th/0606257].
+– 32 –
+
+PAGE 34
+[19] M. Grana, R. Minasian, M. Petrini and A. Tomasiello, “A scan for new N = 1 vacua on
+twisted tori,” JHEP 0705 (2007) 031 [arXiv:hep-th/0609124].
+[20] M. Grana, J. Louis and D. Waldram, “SU(3) × SU (3) compactiﬁcation and mirror duals of
+magnetic ﬂuxes,” arXiv:hep-th/0612237.
+[21] A. Tomasiello, “Reformulating Supersymmetry with a Generalized Dolbeault Operator,”
+arXiv:0704.2613 [hep-th].
+[22] S. Morris, “Doubled geometry versus generalized geometry,” Class. Quant. Grav. 24, 2879
+(2007).
+[23] P. Koerber and D. Tsimpis, “Supersymmetric sources, integrability and generalized-structure
+compactiﬁcations,” JHEP 0708, 082 (2007) [arXiv:0706.1244 [hep-th]].
+[24] D. Cassani and A. Bilal, “Eﬀective actions and N = 1 vacuum conditions from
+SU (3) × SU (3) compactiﬁcations,” JHEP 0709, 076 (2007) [arXiv:0707.3125 [hep-th]].
+[25] A. Butti, D. Forcella, L. Martucci, R. Minasian, M. Petrini and A. Zaﬀaroni, “On the
+geometry and the moduli space of beta-deformed quiver gauge theories,” arXiv:0712.1215
+[hep-th].
+[26] A. Kapustin, “Topological strings on noncommutative manifolds,” Int. J. Geom. Meth. Mod.
+Phys. 1, 49 (2004) [arXiv:hep-th/0310057].
+[27] A. Kapustin and Y. Li, “Topological sigma-models with H-ﬂux and twisted generalized
+complex manifolds,” arXiv:hep-th/0407249.
+[28] U. Lindstrom, M. Rocek, R. von Unge and M. Zabzine, “Generalized K¨ahler geometry and
+manifest N = (2, 2) supersymmetric nonlinear sigma-models,” JHEP 0507, 067 (2005)
+[arXiv:hep-th/0411186].
+[29] R. Zucchini, “Generalized complex geometry, generalized branes and the Hitchin sigma
+model,” JHEP 0503 (2005) 022 [arXiv:hep-th/0501062].
+[30] V. Pestun and E. Witten, “The Hitchin functionals and the topological B-model at one
+loop,” Lett. Math. Phys. 74, 21 (2005) [arXiv:hep-th/0503083].
+[31] U. Lindstrom, M. Rocek, R. von Unge and M. Zabzine, “Generalized K¨ahler manifolds and
+oﬀ-shell supersymmetry,” Commun. Math. Phys. 269, 833 (2007) [arXiv:hep-th/0512164].
+[32] V. Pestun, “Topological strings in generalized complex space,” Adv. Theor. Math. Phys. 11,
+399 (2007) [arXiv:hep-th/0603145].
+[33] A. Kapustin and E. Witten, “Electric-magnetic duality and the geometric Langlands
+program,” arXiv:hep-th/0604151.
+[34] W. Merrell, L. A. P. Zayas and D. Vaman, “Gauged (2,2) Sigma Models and Generalized
+Kahler Geometry,” JHEP 0712, 039 (2007) [arXiv:hep-th/0610116].
+[35] A. Kapustin and A. Tomasiello, “The general (2,2) gauged sigma model with three-form
+ﬂux,” JHEP 0711, 053 (2007) [arXiv:hep-th/0610210].
+[36] U. Lindstrom, M. Rocek, I. Ryb, R. von Unge and M. Zabzine, “New N = (2, 2) vector
+multiplets,” JHEP 0708, 008 (2007) [arXiv:0705.3201 [hep-th]].
+[37] N. Halmagyi and A. Tomasiello, “Generalized K¨ahler Potentials from Supergravity,”
+arXiv:0708.1032 [hep-th].
+– 33 –
+
+PAGE 35
+[38] P. Grange and S. Schafer-Nameki, “Towards mirror symmetry `a la SYZ for generalized
+Calabi-Yau manifolds,” JHEP 0710, 052 (2007) [arXiv:0708.2392 [hep-th]].
+[39] A. Lawrence, T. Sander, M. B. Schulz and B. Wecht, “Torsion and Supersymmetry
+Breaking,” arXiv:0711.4787 [hep-th].
+[40] C. M. Hull, “A geometry for non-geometric string backgrounds,” JHEP 0510, 065 (2005)
+[arXiv:hep-th/0406102].
+[41] J. Shelton, W. Taylor and B. Wecht, “Nongeometric ﬂux compactiﬁcations,” JHEP 0510
+(2005) 085 [arXiv:hep-th/0508133].
+[42] A. Dabholkar and C. Hull, “Generalised T-duality and non-geometric backgrounds,” JHEP
+0605 (2006) 009 [arXiv:hep-th/0512005].
+[43] C. M. Hull, “Global Aspects of T-Duality, Gauged Sigma Models and T-Folds,” JHEP 0710
+(2007) 057 [arXiv:hep-th/0604178].
+[44] C. M. Hull, “Doubled geometry and T-folds,” JHEP 0707 (2007) 080 [arXiv:hep-th/0605149].
+[45] J. Shelton, W. Taylor and B. Wecht, “Generalized ﬂux vacua,” JHEP 0702, 095 (2007)
+[arXiv:hep-th/0607015].
+[46] P. Grange and S. Schafer-Nameki, “T-duality with H-ﬂux: Non-commutativity, T-folds and
+G × G structure,” Nucl. Phys. B 770, 123 (2007) [arXiv:hep-th/0609084].
+[47] R. A. Reid-Edwards, “Geometric and non-geometric compactiﬁcations of IIB supergravity,”
+arXiv:hep-th/0610263.
+[48] C. M. Hull and R. A. Reid-Edwards, “Gauge Symmetry, T-Duality and Doubled Geometry,”
+arXiv:0711.4818 [hep-th].
+[49] C. M. Hull, “Generalised geometry for M-theory,” arXiv:hep-th/0701203.
+[50] E. Cremmer and B. Julia, “The SO(8) Supergravity,” Nucl. Phys. B 159 (1979) 141.
+[51] B. Julia in Supergravity and Superspace, eds. S. W. Hawking and M. Rocek, CUP, Cambridge
+(1981);
+B. Julia, “Inﬁnite Lie Algebras In Physics,” in Uniﬁed ﬁeld theories and beyond : proceedings,
+5th Johns Hopkins Workshop on Current Problems in Particle Theory, Johns Hopkins,
+Baltimore (1981).
+[52] C. M. Hull and P. K. Townsend, “Unity of superstring dualities,” Nucl. Phys. B 438 (1995)
+109 [arXiv:hep-th/9410167].
+[53] B. de Wit and H. Nicolai, “D = 11 Supergravity With Local SU (8) Invariance,” Nucl. Phys.
+B 274, 363 (1986).
+[54] H. Nicolai, “D = 11 Supergravity with Local SO(16) Invariance,” Phys. Lett. B 187, 316
+(1987).
+[55] K. Koepsell, H. Nicolai and H. Samtleben, “An exceptional geometry for d = 11
+supergravity?,” Class. Quant. Grav. 17, 3689 (2000) [arXiv:hep-th/0006034].
+[56] P. C. West, “E11 and M theory,” Class. Quant. Grav. 18, 4443 (2001)
+[arXiv:hep-th/0104081].
+[57] P. C. West, “E11, SL(32) and central charges,” Phys. Lett. B 575, 333 (2003)
+[arXiv:hep-th/0307098].
+– 34 –
+
+PAGE 36
+[58] F. Riccioni and P. C. West, “E(11)-extended spacetime and gauged supergravities,” JHEP
+0802, 039 (2008) [arXiv:0712.1795 [hep-th]].
+[59] T. Damour, M. Henneaux and H. Nicolai, “E(10) and a ’small tension expansion’ of M
+theory,” Phys. Rev. Lett. 89, 221601 (2002) [arXiv:hep-th/0207267];
+A. Kleinschmidt and H. Nicolai, “E(10) and SO(9,9) invariant supergravity,” JHEP 0407,
+041 (2004) [arXiv:hep-th/0407101].
+[60] T. House and A. Micu, “M-theory compactiﬁcations on manifolds with G2 structure,” Class.
+Quant. Grav. 22 (2005) 1709 [arXiv:hep-th/0412006].
+[61] N. J. Hitchin, “Lectures on special Lagrangian submanifolds,” arXiv:math/9907034.
+[62] A. Giveon, M. Porrati and E. Rabinovici, “Target space duality in string theory,” Phys.
+Rept. 244, 77 (1994) [arXiv:hep-th/9401139].
+[63] C. M. Hull, “Gravitational duality, branes and charges,” Nucl. Phys. B 509, 216 (1998)
+[arXiv:hep-th/9705162].
+[64] E. Cremmer, B. Julia, H. Lu and C. N. Pope, “Dualisation of dualities. II: Twisted
+self-duality of doubled ﬁelds and superdualities,” Nucl. Phys. B 535 (1998) 242
+[arXiv:hep-th/9806106].
+[65] A. Lukas and P. M. Saﬃn, “M-theory compactiﬁcation, ﬂuxes and AdS4,” Phys. Rev. D 71
+(2005) 046005 [arXiv:hep-th/0403235].
+[66] P. Pires Pacheco and D. Waldram, work in progress.
+[67] N. J. Hitchin, “The geometry of three-forms in six and seven dimensions,”
+arXiv:math/0010054.
+[68] R. Dijkgraaf, S. Gukov, A. Neitzke and C. Vafa, “Topological M-theory as uniﬁcation of form
+theories of gravity,” Adv. Theor. Math. Phys. 9, 603 (2005) [arXiv:hep-th/0411073],
+N. Nekrasov, “A la recherche de la M-theorie perdue. Z theory: Casing M/F theory,”
+arXiv:hep-th/0412021,
+A. A. Gerasimov and S. L. Shatashvili, “Towards integrability of topological strings. I:
+Three-forms on Calabi-Yau manifolds,” JHEP 0411, 074 (2004) [arXiv:hep-th/0409238].
+[69] J. de Boer, P. de Medeiros, S. El-Showk and A. Sinkovics, “G2 Hitchin functionals at one
+loop,” arXiv:0706.3119 [hep-th].
+[70] J. P. Gauntlett, D. Martelli, S. Pakis and D. Waldram, “G-structures and wrapped
+NS5-branes,” Commun. Math. Phys. 247, 421 (2004) [arXiv:hep-th/0205050] ;
+J. P. Gauntlett and S. Pakis, “The geometry of D = 11 Killing spinors,” JHEP 0304, 039
+(2003) [arXiv:hep-th/0212008].
+[71] G. Dall’Agata, N. Prezas, H. Samtleben and M. Trigiante, “Gauged Supergravities from
+Twisted Doubled Tori and Non-Geometric String Backgrounds,” arXiv:0712.1026 [hep-th].
+[72] B. de Wit, H. Samtleben and M. Trigiante, “On Lagrangians and gaugings of maximal
+supergravities,” Nucl. Phys. B 655, 93 (2003) [arXiv:hep-th/0212239];
+B. de Wit, H. Samtleben and M. Trigiante, “The maximal D = 4 supergravities,” JHEP
+0706, 049 (2007) [arXiv:0705.2101 [hep-th]].
+[73] E. Cartan “Oeuvres completes T1 , Part 1 (These),” Gauthier-Villars Paris 1952
+– 35 –
+
+PAGE 37
+[74] P. C. West, “E11 origin of brane charges and U-duality multiplets,” JHEP 0408, 052 (2004)
+[arXiv:hep-th/0406150];
+P. C. West, “Brane dynamics, central charges and E11,” JHEP 0503, 077 (2005)
+[arXiv:hep-th/0412336].
+– 36 –

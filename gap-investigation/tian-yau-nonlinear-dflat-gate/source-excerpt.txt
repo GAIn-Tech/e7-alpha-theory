@@ -1,0 +1,5 @@
+Source: https://www.numdam.org/item/10.5802/ccirm.4.pdf
+Chris Woodward, Moment maps and geometric invariant theory, Vol. 1, no 1 (2010), p. 55-98.
+Verbatim excerpt retrieved with web_extract, introduction:
+The proof of the Kempf-Ness theorem depends on the convexity of certain Kempf-Ness functions whose minima are zeros of the moment map.
+Scope: this supports the contextual sentence only; the local stabilizer/scaled-slice proof in REPORT.md is this lane's derivation.

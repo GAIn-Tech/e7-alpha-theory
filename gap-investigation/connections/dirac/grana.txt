@@ -1,0 +1,2846 @@
+PAGE 1
+arXiv:0904.2333v3  [hep-th]  28 Jul 2009
+IPhT-T09/039
+ZMP-HH/09-3
+Imperial/TP/2009/DW/01
+E7(7) formulation of N = 2 backgrounds
+Mariana Gra˜naa, Jan Louisb,c, Aaron Simd and Daniel Waldramd,e
+aInstitut de Physique Th´eorique, CEA/ Saclay
+91191 Gif-sur-Yvette Cedex, France
+mariana.grana@cea.fr
+bII. Institut f¨ur Theoretische Physik der Universit¨at Hamburg
+Luruper Chaussee 149, D-22761 Hamburg, Germany
+jan.louis@desy.de
+cZentrum f¨ur Mathematische Physik, Universit¨at Hamburg,
+Bundesstrasse 55, D-20146 Hamburg
+dDepartment of Physics, Imperial College London
+London, SW7 2BZ, U.K.
+aaron.sim@imperial.ac.uk, d.waldram@imperial.ac.uk
+eInstitute for Mathematical Sciences, Imperial College London
+London, SW7 2PG, U.K.
+ABSTRACT
+In this paper we reformulate N = 2 supergravity backgrounds arising in type II string
+theory in terms of quantities transforming under the U-duality group E7(7). In particular
+we combine the Ramond–Ramond scalar degrees of freedom together with the O(6, 6)
+pure spinors which govern the Neveu-Schwarz sector by considering an extended version of
+generalised geometry. We give E7(7)-invariant expressions for the K¨ahler and hyperk¨ahler
+potentials describing the moduli space of vector and hypermultiplets, demonstrating that
+both correspond to standard E7(7) coset spaces. We also ﬁnd E7(7) expressions for the
+Killing prepotentials deﬁning the scalar potential, and discuss the equations governing
+N = 1 vacua in this formalism.
+April 2009
+
+PAGE 2
+1
+Introduction
+Backgrounds which involve manifolds with G-structure naturally appear in string theory
+as generalisations of Calabi–Yau and other special holonomy compactiﬁcations [1, 2].
+As for conventional special holonomy manifolds these backgrounds can be classiﬁed by
+the amount of supersymmetry that they leave unbroken. In both cases supersymmetry
+requires the existence of nowhere vanishing and globally deﬁned spinors. This in turn
+reduces the structure group to a subgroup G which leaves the spinors invariant.
+For special holonomy manifolds the spinors are also covariantly constant with respect
+to the Levi-Civita connection which is what in turn implies that the manifold has a re-
+duced holonomy group. On the other hand, the spinors of backgrounds with G-structure
+are covariantly constant with respect to a diﬀerent, torsionful connection [1, 3, 4, 5].
+In type II supergravity, there are two spinors parameterising the supersymmetry. It is
+then natural to consider a further generalisation to G × G-structures, with each spinor
+invariant under a diﬀerent G subgroup. Geometrically this can be viewed [6] as a struc-
+ture on the sum of the tangent and cotangent spaces, using the notion of “generalised
+geometry” ﬁrst introduced by Hitchin [7, 8]. In this case one can forget the conventional
+geometrical structure on the manifold and discuss the background just in terms of the
+G × G-structures. It has the advantage that these structures are often better deﬁned
+globally and also can satisfy integrability conditions that are the analogues of special
+holonomy.
+From a particle physics point of view backgrounds which leave four supercharges
+unbroken (corresponding to N = 1 in four space-time dimensions (d = 4)) are the
+most interesting. However it is often useful to ﬁrst study backgrounds with additional
+supercharges as in this case the couplings in the eﬀective action are more constrained. In
+a series of papers [9, 10, 11] we considered backgrounds with eight unbroken supercharges
+(corresponding to N = 2 in d = 4) and formulated them in the language of SU(3)×SU(3)-
+structures.
+In refs. [10, 11] we studied this problem from two diﬀerent points of view. On the
+one hand, by losing manifest SO(9, 1)-invariance one can rewrite the ten-dimensional
+supergravity in a form where only eight supercharges are manifest. This corresponds to
+a rewriting of the ten-dimensional action in “N = 2 form” though without any Kaluza-
+Klein reduction [12]. A slightly diﬀerent point of view arises when one considers a Kaluza-
+Klein truncation keeping only the light modes. In this case one can integrate over the
+six-dimensional manifold and derive an “honest” N = 2 eﬀective action in d = 4. In this
+paper we will only consider the ﬁrst approach.1
+For G×G-structures the “uniﬁcation” of the tangent and cotangent bundle suggests a
+formalism where instead of the usual tangent space structure group GL(6, R), the group
+O(6, 6) is used, acting on the sum of tangent and cotangent spaces. It turns out that
+the N = 2 geometry is most naturally described by two complex 32-dimensional (pure)
+spinors Φ± of O(6, 6) [7]. Each of them individually deﬁnes an SU (3, 3) structure. The
+magnitude and phase of Φ± are unphysical, so each can be viewed as parameterising
+a point in an O(6, 6) orbit corresponding to the special K¨ahler coset space MSK =
+O(6, 6)/U(3, 3). The respective K¨ahler potentials can be expressed in terms of the square
+1Further aspects about both eﬀective actions are discussed, for example, in refs. [13]–[19].
+1
+
+PAGE 3
+root of the O(6, 6) quartic invariant built out of Φ±, known as the Hitchin function. We
+review these results in detail in section 2.
+The O(6, 6) formalism naturally captures the degrees of freedom of the NS-sector, i.e.
+the metric and the B-ﬁeld, but it does not incorporate the Ramond-Ramond (RR) sector
+four-dimensional scalars into a geometrical description.
+One knows that for Calabi–
+Yau compactiﬁcations including the RR-scalars promotes the special K¨ahler manifold
+MSK into a dual quaternionic-K¨ahler (QK) space MQK. The map MSK →MQK is a
+generic property of type II string backgrounds and is called the c-map [20, 21]. One can
+also consider the hyperk¨ahler cone (or the Swann bundle) over MQK [22, 23]. Such a
+construction always exists and physically corresponds to the coupling of hypermultiplets
+to superconformal supergravity [24, 25]. The hyperk¨ahler cone has one extra quaternionic
+dimension corresponding to a superconformal compensator multiplet. The presence of
+the compensator gauges the SU (2)R-symmetry of N = 2 together with a dilatation
+symmetry. The metric on the cone is then determined by a hyperk¨ahler potential χ.
+Thus the question arises if there is a generalisation of the O(6, 6) formalism which
+describes the deformation space MQK. This is the topic of the present paper. By analogy
+with the corresponding discrete T- and U-duality groups, one wants to replace the group
+O(6, 6) of the NS-sector by E7(7) which acts non-trivially on all scalar ﬁelds and mixes
+the scalars from the NS sector with the scalars in the RR sector [26].2 Geometrically,
+this “extends” Hitchin’s generalised geometry and includes the RR degrees of freedom in
+a yet larger structure called “extended geometry” or “exceptional generalised” geometry
+(EGG) [27, 28]. It is important to note that E7(7) is not a symmetry of EGG (nor is O(d, d)
+a symmetry of generalised geometry).3 Instead, the construction is covariant with respect
+to a subgroup built from the diﬀeomorphism symmetry and the gauge transformations
+of the NS and RR form-ﬁelds, and, in addition, the objects of interest come naturally in
+E7(7) representations.
+We ﬁnd that the quaternionic-K¨ahler manifold MQK is one of the homogeneous Wolf
+spaces [32, 33], namely MQK = E7(7) /(SO∗(12)×SU (2)), for which the hyperk¨ahler cone
+is MHKC = R+ × E7(7) / SO∗(12). The latter space can be viewed as the moduli space of
+highest weight SU (2) embeddings into E7(7) [32]. From this construction a hyperk¨ahler
+potential χ can be given in terms of the SU (2) generators [34, 35]. By decomposing E7(7)
+under its subgroup SL(2, R) × O(6, 6) we specify explicitly the embeddings of one pure
+spinor, the RR potential C and the dilaton-axion. Then using the result of [35] we are
+able to establish agreement with the expression for χ given in [36, 37] for hyperk¨ahler
+cones which generically arise via the c-map.
+We also ﬁnd that the space O(6, 6)/U(3, 3) can be promoted to the special E7(7)
+K¨ahler coset MSK = R+ × E7(7) / E6(2) which again admits an action of the U-duality
+group E7(7). Furthermore its K¨ahler potential is given by the square root of the E7(7)
+quartic invariant built out of the 56 representation. This expression can be viewed as an
+E7(7) Hitchin function.
+The E7(7) cosets just discussed do not appear directly in the N = 2 supergravity but
+a compatibility condition between the two spinors Φ± (or more precisely, between the
+2In this paper we will refer to these groups loosely as T- and U-duality, though the connection to the
+actual discrete duality groups is only clear for toroidal compactiﬁcations.
+3This is in contrast to more ambitious proposals such as [29]-[31].
+2
+
+PAGE 4
+SO∗(12) and E6(2) structures) has to be imposed. Furthermore, if the low-energy theory
+is to contain no additional massive gravitino multiplets, they either have to be integrated
+out or an appropriate projection is required. As these massive N = 2 gravitino multiplets
+contain scalar degrees of freedom, the scalar geometry is altered. This is reviewed in more
+detail in section 2.
+In addition to the kinetic terms, the scalar potential can also be expressed in an E7(7)
+language, though now in a way that depends on the diﬀerential geometry of the EGG.
+Generically in N = 2 supergravity the scalar potential is given in terms of an SU (2)-
+triplet of Killing prepotentials Pa. We propose an E7(7) form for Pa which coincides with
+the known expressions given in [10, 11] when decomposed under the SL(2, R) × O(6, 6)
+subgroup of E7(7).
+One can also consider the form of the N = 1 vacuum equations
+in this formalism. We do not give a complete description here but show at least how
+the standard O(6, 6) equations [6] can be embedded as particular components of E7(7)
+expressions.
+This paper is organised as follows. Throughout, for deﬁniteness, we focus on the
+case of type IIA backgrounds, though the same formalism works equally well for type
+IIB. In section 2 we recall how the N = 2 backgrounds can be written in terms of the
+generalised geometrical O(6, 6) formalism following [10, 11]. In section 3 we include the
+RR degrees of freedom and formulate the combined structure in terms of an exceptional
+generalised geometry (EGG) [27, 28]. In particular, in section 3.1 we ﬁrst give some basic
+E7(7) deﬁnitions and in 3.2 we introduce the notion of exceptional generalised geometry.
+Then in sections 3.3 and 3.4 we discuss the moduli spaces for the hypermultiplet and
+vector multiplet sectors in terms of E7(7) coset manifolds, specifying in particular the
+SL(2, R) × O(6, 6) embedding of the NS and RR degrees of freedom. We give an E7(7)-
+invariant expression for the hyperk¨ahler potential χ following the explicit construction of
+ref. [35] and we also show that the K¨ahler potential on the vector multiplet moduli space
+M+
+SK is given by the square-root of the E7(7) quartic invariant in complete analogy to the
+Hitchin function in the O(6, 6) case. In section 3.5 we discuss the combined vector and
+hypermultiplet sectors, which results in some compatibility condition between the struc-
+tures in E7(7), as well as some constraints coming from requiring a standard supergravity
+action. In section 4.1 we then give an E7(7) expression for the Killing prepotentials. Sec-
+tion 4.2 discusses the E7(7) version of the N = 1 background conditions determined in
+ref. [6]. Section 5 contains our conclusions and some of the more technical details of the
+computations are presented in two appendices.
+2
+Review of O(6, 6) formalism
+In this section we brieﬂy recall some of the results of refs. [10, 11] in order to set the stage
+for our analysis. We will use the conventions of [11]. It is perhaps helpful to stress again
+that in this paper we are not making a dimensional reduction of type II supergravity.
+Rather we are rewriting the full ten-dimensional theory in a four-dimensional N = 2 lan-
+guage, where one can decompose the degrees of freedom into hypermultiplets and vector
+multiplets. Necessarily this requires breaking the manifest local Spin(9, 1) symmetry to
+Spin(3, 1) × Spin(6), and also that we can consistently pick out eight of the 32 super-
+symmetries. One can then introduce special K¨ahler and quaternionic moduli spaces for
+3
+
+PAGE 5
+the corresponding scalar (with respect to Spin(3, 1)) degrees of freedom. However these
+degrees of freedom will still depend on the coordinates of all ten dimensions.
+As an example, suppose we have a product manifold M9,1 = M3,1 × M6 with an
+SU (3) structure on M6 deﬁned by a two-form J and a three-form Ω, both of which
+are scalars with respect to Spin(3, 1). If we had a Calabi–Yau manifold then Ωand
+J are constrained by requiring dJ = dΩ= 0. Let us focus on Ω. In a conventional
+dimensional reduction one expands Ωin terms of harmonic forms (αA, βA) according to
+Ω= ZAαA−FB(Z)βB, and then shows that there is a special K¨ahler moduli space Mtrunc
+for the four-dimensional ﬁelds ZA which depends on the complex geometry of the Calabi–
+Yau manifold. Similarly, for manifolds of SU(3) structure, where nowhere vanishing J
+and Ωexist but are generically not closed, one can truncate the degrees of freedom to a
+ﬁnite dimensional subspace, and do a similar expansion as in Calabi-Yau manifolds, but
+in this case involving forms which are not necessarily harmonic. The moduli space Mtrunc
+spanned by the four-dimensional ﬁelds is still special K¨ahler [11, 14]. In this paper on the
+other hand we look at the space of all structures Ω. Rather than a ﬁnite set of moduli
+ZA one can choose a diﬀerent three-form Ωat each point in the six-dimensional space.
+The space of such Ωat a given point is R+ × GL(6, R)/ SL(3, C) and it turns out that
+this is also a special K¨ahler space MSK. In summary, we have two cases, given x ∈M3,1
+and y ∈M6
+untruncated:
+Ω= Ω(x, y) ∈Λ3TM6 ,
+Ω(x, y) ∈MSK
+at each point (x, y) ∈M3,1 × M6 ,
+ﬁnite truncation:
+Ω= ZA(x) αA(y) −FB(Z(x)) βB(y) ,
+ZA(x) ∈Mtrunc
+at each point x ∈M3,1 .
+(2.1)
+Note that MSK ≃R+ × GL(6, R)/ SL(3, C) is the same for all manifolds M6 while
+Mtrunc depends on the particular manifold. Furthermore Mtrunc can be obtained from
+the ﬁbration of MSK over M6 by restricting to a ﬁnite subspace of sections Ω.
+More generally in [10, 11] we simply assumed that the tangent bundle of the ten-
+dimensional space-time splits according to TM9,1 = T 3,1 ⊕F, where F admits a pair
+of nowhere vanishing Spin(6)-spinors. Here, for simplicity, we will always consider the
+case where M9,1 = M3,1 × M6 so F = TM6 and usually just write TM for TM6. The
+split of the tangent space implies that all ﬁelds of the theory can be decomposed under
+Spin(3, 1)×Spin(6). In particular one can decompose the two supersymmetry parameters
+of type II supergravity ǫ1, ǫ2 as4
+ǫ1 = ε1
++ ⊗η1
+−+ ε1
+−⊗η1
++ ,
+ǫ2 = ε2
++ ⊗η2
+± + ε2
+−⊗η2
+∓,
+(2.2)
+where in the second line the upper sign is taken for type IIA and the lower for type IIB.
+Here ηI
++ with I = 1, 2 are spinors of Spin(6) while εI are Weyl spinors of Spin(3, 1).5 We
+4In section 3.5 we will ﬁnd some subtleties in counting the degrees of freedom on the moduli spaces,
+that actually will lead us to slightly generalise this N = 2 spinor ansatz.
+5In each case ηI
+−and εI
+−are the charge conjugate spinors and the ± subscripts denote the chirality
+(for more details see appendix A of [11]).
+4
+
+PAGE 6
+see that for a given pair (η1
++, η2
++) there are eight spinors parameterised by εI
+±. These are
+the eight supersymmetries which remain manifest in the reformulated theory. Each of
+the ηI is invariant under a (diﬀerent) SU (3) inside Spin(6). The two SU (3) intersect in
+an SU (2) and the established nomenclature calls this situation a local SU (2)-structure.
+Such backgrounds have a very natural interpretation in terms of generalised geometry.
+Recall that this is deﬁned in terms of the generalised tangent space
+E = TM ⊕T ∗M
+(2.3)
+built from the sum of the tangent and cotangent spaces. If M is d-dimensional, there is
+a natural O(d, d)-invariant metric6 on E, given by η(Y, Y ) = iyξ where Y = y + ξ ∈E,
+with y ∈TM and ξ ∈T ∗M. One can then combine (η1, η2) into two 32-dimensional
+complex “pure” spinors Φ± ∈S± of O(6, 6). They are deﬁned as the spinor bilinears, or
+equivalently sums of odd or even forms,
+Φ+ = e−Bη1
++¯η2
++ ≡e−BΦ+
+0 ,
+Φ−= e−Bη1
++¯η2
+−≡e−BΦ−
+0 ,
+(2.4)
+In the special case where the two spinors are aligned we have η1 = η2 ≡η. In this case
+there is only a single SU (3) structure, familiar from the case of Calabi–Yau compactiﬁ-
+cation, and one has
+Φ+ = e−(B+iJ) ,
+Φ−= −ie−BΩ,
+(2.5)
+where Ωis the complex (3, 0)-form and J is the real (1, 1)-form.
+Each pure spinor is invariant under an SU (3, 3) subgroup of O(6, 6) and so each
+individually is said to deﬁne an SU (3, 3) structure on E. In particular this deﬁnes a
+generalised (almost) complex structure. Explicitly one can construct the invariant tensor
+J ±A
+B = i
+
+Φ±, ΓAB ¯Φ±
+
+Φ±, ¯Φ±
+,
+(2.6)
+satisfying (J ±)2 = −1. Here, ΓA with A = 1, . . . , 12 are gamma-matrices of O(6, 6), ΓAB
+are antisymmetrised products of gamma-matrices, indices are raised and lowered using η
+and the bracket denotes the Mukai pairing deﬁned by
+
+ψ, χ
+
+=
+X
+p
+(−)[(p+1)/2]ψp ∧χ6−p ≡(s(ψ) ∧χ)6 .
+(2.7)
+(The subscripts denote the degree of the component forms, and the operation s assigns the
+appropriate signs to the component forms. This pairing is simply the natural real bilinear
+on O(6, 6) spinors. Note that the pure spinors Φ± also satisfy
+
+Φ+, ¯Φ+
+=
+
+Φ−, ¯Φ−
+.)
+The generalised almost complex structures J ± also induce a decomposition of the
+generalised spinor bundles S± into modules with deﬁnite eigenvalue under the action of
+1
+4J ±
+ABΓAB. In particular, one ﬁnds
+1
+4J ±
+ABΓAB Φ± = 3iΦ±,
+1
+4J ±
+ABΓAB ¯Φ± = −3i¯Φ± .
+(2.8)
+6We use η to denote both the O(d, d) metric and the O(d) spinors ηI. The distinction between them
+should be clear from the context.
+5
+
+PAGE 7
+One can also use this action to deﬁne a coarser grading of S±, namely an almost complex
+structure on S±, ﬁrst introduced in this context by Hitchin [7], and given by
+J±
+Hit = exp
+ 1
+8πJ ±
+ABΓAB
+,
+(2.9)
+such that (in six-dimensions and acting on S±(E)) one has (J±
+Hit)2 = −1 and in particular,
+J±
+HitΦ± = −iΦ±.
+One ﬁnds that the speciﬁc Φ± given by (2.4) also satisfy the “compatibility” condition
+
+Φ+, ΓAΦ−
+= 0
+∀A .
+(2.10)
+This implies that the common stabiliser group in O(6, 6) of the pair (Φ+, Φ−) is SU (3) ×
+SU (3), or equivalently that together they deﬁne an SU (3) × SU(3) structure in O(6, 6).
+One can also view this structure in terms of the way the supergravity metric g and
+B-ﬁeld are encoded in generalised geometry. One can combine g and B into an O(2d)
+metric on the generalised tangent space. This is compatible with the O(d, d) metric such
+that together they are invariant under O(d) × O(d) and hence deﬁne an O(d) × O(d)
+structure. Thus in the six-dimensional case one can regard g and B as parameterising
+the 36-dimensional (Narain) coset space O(6, 6)/O(6) × O(6). The two six-dimensional
+spinors ηI transform separately under the two Spin(6) groups. Therefore the nowhere
+vanishing pair (η1, η2) deﬁnes a separate SU (3) structure in each O(6) factor.
+Thus
+collectively we see that g, B and the pair (η1, η2) deﬁne an SU (3) × SU (3) structure in
+generalised geometry.
+In summary we conclude that each pure spinor Φ± deﬁnes an SU(3, 3) structure and
+that each parameterises a 32-dimensional coset space [7]
+f
+M±
+SK = O(6, 6)
+SU(3, 3) × R+.
+(2.11)
+The appearance of the coset G/H can also be understood as follows. It is the orbit
+generated by the G-action on an element which is stabilised by H. A simple example is
+the sphere Sd = SO(d + 1)/SO(d), which can be seen as the orbit of the unit vector in
+Rd+1 when acting with the group SO(d+1). We have precisely the same situation in that
+Φ+, say, can be viewed as parameterising O(6, 6) orbits which are stabilised by SU (3, 3).
+The R+ then corresponds to the freedom to additionally rescale Φ+. In fact the real part
+of Φ± alone is stabilised by SU (3, 3). Since a generic real spinor is 32 dimensional, as
+are the orbits, we see that in this case the orbit of Re Φ± forms an open set in the space
+of all real spinors (a so called “stable orbit”) [7].
+It turns out that the magnitude and phase of Φ± are not physical. Modding out by
+such complex rescalings gives the spaces
+M±
+SK = f
+M±
+SK/C∗≃O(6, 6)
+U(3, 3) .
+(2.12)
+As we will review below, there is a natural rigid special K¨ahler metric on f
+M±
+SK and a
+local special K¨ahler metric on M±
+SK. The K¨ahler potentials read [7]
+e−K± = i
+
+Φ±, ¯Φ±
+.
+(2.13)
+6
+
+PAGE 8
+Note that a complex rescaling of the pure spinors Φ± is unphysical in that it corresponds
+to a K¨ahler transformation in K±.
+This degree of freedom in Φ± will be part of a
+superconformal compensator in the E7(7) formulation.
+Given that the groups SO(6, 6) and SU (3, 3) are non-compact, the spaces M±
+SK and
+f
+M±
+SK are both non-compact and have pseudo-Riemannian metrics on them. In particular
+the signature of the metric on M±
+SK is (18, 12). We return to this below.
+As we have mentioned above, the two Re Φ± together satisfying (2.10) deﬁne an
+SU (3) × SU (3) structure inside O(6, 6). Therefore the compatible pair (Re Φ+, Re Φ−)
+parameterises the 52-dimensional coset
+(Re Φ+, Re Φ−) :
+f
+M =
+O(6, 6)
+SU (3) × SU(3) × R+ × R+ .
+(2.14)
+(Note that the dimensionality of f
+M counts correctly the 2 × 32 degrees of freedom in
+Re Φ+, Re Φ−minus the 12 compatibility constraints of (2.10).) f
+M is a particular slice
+in the product space M+
+SK × M−
+SK. Again for the physical moduli space one needs to
+mod out by the C∗actions on Φ±, giving the 48-dimensional coset O(6, 6)/U(3) × U(3).
+Note, however, that this counting still does not match the physical NS supergravity de-
+grees of freedom which is the 36-dimensional space of g and B, parameterising the Narain
+coset O(6, 6)/O(6)×O(6). Furthermore, we note that the metric on O(6, 6)/U(3)×U(3)
+has signature (36, 12). Thus there are twelve degrees of freedom in the latter coset which
+are not really physical (and have the wrong sign kinetic term). Under SU(3) × SU(3)
+these transform as triplets (3, 1), (1, 3) and their complex conjugates. In terms of N = 2
+supergravity, these representations are associated with the massive spin- 3
+2 multiplets and
+one expects that these directions are gauge degrees of freedom of the massive spin- 3
+2 mul-
+tiplets. This leaves a 36-dimensional space as the physical parameter space. It would be
+interesting to give a geometrical interpretation of this reduction, perhaps as a symplectic
+reduction of M+
+SK × M−
+SK with a moment map corresponding to the constraint (2.10).
+We can make this physical content explicit by using the decomposition under SU (3)×
+SU (3) to assign the deformations along the orbits of Φ+ and Φ−as well as the RR degrees
+of freedom to N = 2 multiplets. In type IIA, the RR potential contains forms of odd
+degree, which from the four-dimensional point of view contribute to vectors and scalars.
+The vectors, having one space-time index, are even forms on the internal space and
+we denote them C+
+µ , while the scalars are internal odd forms denoted C−.
+In order
+to recover the standard N = 2 supergravity structure we imposed in refs. [10, 11] the
+constraint that no massive spin- 3
+2 multiplets appear. As we mentioned, this corresponds
+to projecting out any triplet of the form (3, 1), (1, 3) or their complex conjugates. With
+this projection only the gravitational multiplet together with hyper-, tensor-, and vector
+multiplets survive. These are shown for type IIA in Table 2.1. (In what follows, we
+restrict to type IIA theory, the type IIB case follows easily by changing chiralities.) gµν
+and C+
+µ (1) denote the graviton and the graviphoton, respectively, which together form the
+bosonic components of the gravitational multiplet.7 Φ+ represents the scalar degrees of
+freedom in the vector multiplets (with the (3, ¯3) part of C+
+µ being the vectors) while Φ−
+together with C−combines into a hypermultiplet. Finally the four-dimensional dilaton φ,
+Bµν and the SU (3)×SU(3) singlet component of C−
+(1) form the universal tensor multiplet.
+7The subscript (1) indicates that it is the SU (3) × SU (3) singlet of the RR forms C+
+µ or C−.
+7
+
+PAGE 9
+multiplet
+SU (3) × SU (3)rep.
+bosonic ﬁeld content
+gravity multiplet
+(1, 1)
+gµν, C+
+µ (1)
+vector multiplets
+(3, ¯3)
+C+
+µ , Φ+
+hypermultiplets
+(3, 3)
+Φ−, C−
+tensor multiplet
+(1, 1)
+Bµν, φ, C−
+(1)
+Table 2.1: N=2 multiplets in type IIA
+After requiring compatible spinors and projecting out the triplets, N = 2 supergravity
+requires the scalar manifold to be
+M = M+
+SK × MQK ,
+(2.15)
+where the ﬁrst factor arises from Φ+ (or more generally from the vector multiplets),
+while the second factor comes from the hypermultiplets (Φ−, C−) and the dualised tensor
+multiplet. In the NS-subsector, i.e. for C−= 0, one has the submanifold
+MNS = M+
+SK × M−
+SK × SU(1, 1)
+U(1)
+,
+(2.16)
+where the K¨ahler potentials of the ﬁrst two factors are still given by (2.13) [38, 9, 10, 11],
+while for the last factor it reads
+e−KS = −i(S −¯S) = 2e−2φ .
+(2.17)
+The four-dimensional dilaton φ is related to the ten-dimensional dilaton ϕ by φ = ϕ −
+1
+4 ln det gmn. Equivalently one can write
+e−2φ = e−2ϕ vol6 ,
+(2.18)
+where vol6 is the volume form on M, so e−2φ transforms as a six-form. In S it combines
+with the six-form ˜B corresponding to the ten-dimensional dual of Bµν, into the complex
+six-form ﬁeld S = ˜B + ie−2φ. Let us stress that, even though we are using the same
+notation, the individual factors in (2.16) are not given by (2.12). The latter only appear
+before applying the triplet-projection and the compatibility constraint.
+In the case of a single SU(3) structure the K¨ahler potentials (2.13) reduce to the
+familiar Calabi-Yau expressions [38]. Inserting (2.5) into (2.13) one arrives at
+e−K+ = 4
+3J ∧J ∧J ,
+e−K−= iΩ∧¯Ω.
+(2.19)
+The exponentials e−K± in (2.13) coincide with the Hitchin function H deﬁned for stable
+spinors of O(6, 6). If we write ρ± = 2 Re Φ± then H is the square root of the spinor
+quartic invariant q(ρ±) of O(6, 6), that is
+e−K± = H(ρ±) =
+p
+q(ρ±) ,
+(2.20)
+8
+
+PAGE 10
+where
+q(ρ) =
+1
+48
+
+ρ, ΓABρ
+
+ρ, ΓABρ
+
+.
+(2.21)
+As was ﬁrst shown by Hitchin [7], given that the Mukai pairing deﬁnes a symplectic
+structure, the Hitchin function encodes the complex structure (2.9) such that together
+they deﬁne a rigid special K¨ahler metric on f
+M±
+SK and hence a local special K¨ahler metric
+on M±
+SK. In particular one can construct a second spinor ˆρ± from ∂H/∂ρ±. Writing
+Φ± = 1
+2(ρ± + iˆρ±), the Hitchin function is given by the expression (2.13).
+To complete the description of the ten-dimensional supergravity in terms of N = 2
+language, we must give the Killing prepotentials Pa which determine the N = 2 scalar
+potential. These are similarly expressed in terms of Φ± and can be written in a O(6, 6)
+form. For type IIA they read [11]8
+P+ = P1 + iP2 = −2ie
+1
+2 K−+φ
+Φ+, dΦ−
+,
+P3 = −1
+√
+2
+ie2φ
+Φ+, G
+
+.
+(2.22)
+Note here we have introduced the closed RR ﬁeld strengths G = e−BF where F are the
+more conventional ﬁeld strengths satisfying dF −H ∧F = 0. It will be useful to introduce
+a potential for G, somewhat unconventionally denoted9 C−,
+G = e−BF ≡
+√
+2dC−,
+(2.23)
+where the factor of
+√
+2 is introduced to match the E7(7) conventions in what follows.
+3
+Reformulation in terms of E7(7) and EGG
+In this section we are extending the formalism reviewed in the previous one by including
+the RR degrees of freedom C−(for deﬁniteness, we will consider the case of type IIA).
+Intuitively this extension can be understood as promoting the T-duality group O(6, 6) to
+the full U-duality group E7(7) which acts on all degrees of freedom (not only the ones in
+the NS-sector) and in particular mixes NS with RR scalars. From the supergravity point
+of view adding RR scalars promotes the moduli space MNS given in (2.16) to the moduli
+space M = M+
+SK × MQK given in (2.15). In particular one of special K¨ahler manifolds
+(M−
+SK for type IIA) together with the dilaton factor is enlarged to a quaternionic-K¨ahler
+component MQK.
+Geometrically, this formulation involves going to an extension of Hitchin’s generalised
+geometry, called “extended” or “exceptional generalised” geometry (EGG) [27, 28]. In
+conventional generalised geometry the internal metric and B-ﬁeld degrees of freedom are
+“geometrised” by considering structures on the generalised tangent space TM ⊕T ∗M. In
+EGG, one further extends the tangent space, so as to completely geometrise all the degrees
+freedom including the RR ﬁelds C−and the four-dimensional axion-dilaton (φ, ˜B), as
+structures on this larger “exceptional” generalised tangent space.
+8Note that here we have made an SU (2)R rotation (P1, P2, P3) 7→(P1, −P2, −P3) as compared to
+the expressions in [11].
+9This potential is usually called A in the literature.
+9
+
+PAGE 11
+This section is arranged as follows. In section 3.1 we give some basic E7(7) deﬁnitions
+and in 3.2 we brieﬂy discuss the structure of the EGG relevant to type IIA compacti-
+ﬁcations to four dimensions. This formalism leads to the expectation that the moduli
+spaces M+
+SK and MQK should be cosets of the form E7(7) /H. This is discussed in sec-
+tions 3.3 and 3.4 for the hyper- and vector multiplets respectively. In 3.3.1 we brieﬂy
+review some properties of the superconformal compensator formalism which is related
+to the hyperk¨ahler cone construction discussed in 3.3.2 and 3.3.3.
+Given the known
+properties of homogeneous spaces, we argue in 3.3.2 what form the coset describing the
+hypermultiplet moduli spaces should take. In section 3.3.3 we show it explicitly by spec-
+ifying the embedding of the NS and RR degrees of freedom, and give an E7(7) invariant
+expression for the hyperk¨ahler potential χ following the explicit construction of ref. [35],
+showing as well its consistency with the literature [36]. In section 3.4 we turn to the
+vector multiplet moduli space M+
+SK. In 3.4.1 we argue what coset it should correspond
+to, and in 3.4.2 we give its explicit construction. We show that there is indeed a natural
+special K¨ahler metric, generalising the construction of [7], and that the corresponding
+K¨ahler potential is given by the square-root of the E7(7) quartic invariant in complete
+analogy to the Hitchin function in the O(6, 6) case. In section 3.5 we discuss the hyper
+and vector-multiplet sectors and their compatibility.
+3.1
+Basic E7(7) group theory
+The group E7(7) can be deﬁned in terms of its fundamental 56-dimensional representation.
+It is the subgroup of Sp(56, R) which preserves, in addition to the symplectic structure
+S, a particular symmetric quartic invariant Q.
+In order to make the connection to the generalised geometry formalism it will be
+useful to study the decomposition under
+E7(7) ⊃SL(2, R) × O(6, 6) ,
+(3.1)
+where O(6, 6) corresponds to T-duality symmetry of generalised geometry, while SL(2, R)
+is the S-duality symmetry. The latter acts on the axion-dilaton S = ˜B + ie−2φ (where
+˜B is the six-form dual to Bµν, and e−2φ is the four-dimensional dilaton six-form de-
+ﬁned in (2.18)) by fractional linear transformations.10 The fundamental representation
+decomposes as
+56 = (2, 12) + (1, 32) ,
+λ =
+ λiA, λ+
+,
+(3.2)
+where i = 1, 2 labels the SL(2, R) doublet while A = 1, . . . , 12 labels the fundamental
+representation of O(6, 6). λ+ denotes a 32-dimensional positive-chirality O(6, 6) Weyl
+spinor.
+The adjoint representation 133 decomposes as
+133 = (3, 1) + (1, 66) + (2, 32′) ,
+µ =
+ µi
+j, µA
+B, µi−
+.
+(3.3)
+10This should not be confused with the S-duality in type IIB mixing the dilaton with the axion coming
+from the RR sector.
+10
+
+PAGE 12
+This choice of spinor chiralities λ+, µi−is precisely the one relevant for type IIA; the
+corresponding expressions for type IIB would require a swap of the chiralities.
+The
+O(6, 6) vector indices A can be raised and lowered using the O(6, 6) metric ηAB, while
+the SL(2, R) indices can be raised and lowered using the SL(2, R) invariant anti-symmetric
+tensor ǫ, so that for any given doublet vi we deﬁne vi = ǫijvj where ǫ12 = 1 and vi = ǫijvj
+with ǫ12 = −1.
+The E7(7) symplectic and quartic invariants are given by
+S(λ, λ′) = ǫijλi · λ′j +
+
+λ+, λ′+
+,
+Q(λ) =
+1
+48
+
+λ+, ΓABλ+
+λ+, ΓABλ+
+−1
+2ǫijλi
+Aλj
+B
+
+λ+, ΓABλ+
++ 1
+2ǫijǫkl
+ λi · λk  λj · λl
+,
+(3.4)
+where X · Y = ηABXAY B and ΓAB is the antisymmetrised product of O(6, 6) gamma-
+matrices. The action of the adjoint representation (with parameter µ) which leaves these
+invariant is given by
+δλiA = µi
+jλjA + µA
+BλiB +
+
+µi−, ΓAλ+
+,
+δλ+ = 1
+4µABΓABλ+ + ǫijλiAΓAµj−.
+(3.5)
+The adjoint action on the 133 representation (with parameter µ′) is given by δµ = [µ′, µ]
+where
+δµi
+j = µ′i
+kµk
+j −µi
+kµ′k
+j + ǫjk
+ 
+µ′i−, µk−
+−
+
+µi−, µ′k−
+,
+δµA
+B = µ′A
+CµC
+B −µA
+Cµ′C
+B + ǫij
+
+µ′i−, ΓA
+Bµj−
+,
+δµi−= µ′i
+jµj−−µi
+jµ′j−+ 1
+4µ′
+ABΓABµi−−1
+4µABΓABµ′i−.
+(3.6)
+One can also deﬁne the invariant trace in the adjoint representation
+tr µ2 = 1
+2µi
+jµj
+i + 1
+4µA
+BµB
+A + ǫij
+
+µi−, µj−
+.
+(3.7)
+Let us brieﬂy mention a diﬀerent decomposition of E7(7).
+The maximal compact
+subgroup of E7(7) is SU (8)/Z2. In particular, in the supersymmetry transformations, the
+two type II spinors really transform in the fundamental representation under (the double
+cover) SU (8). The fundamental and the adjoint representation of E7(7) decompose under
+SU (8)/Z2 as
+56 = 28 + ¯
+28 ,
+133 = 63 + 35 + ¯
+35 ,
+λ = (λαβ, ¯λαβ) ,
+µ = (µα
+β, µαβγδ, ¯µαβγδ) ,
+(3.8)
+where α = 1, . . . , 8 denotes the fundamental of SU (8) and where λαβ and µαβγδ are totally
+antisymmetric, µαα = 0 and (∗¯µ)αβγδ = µαβγδ (indices are raised and lowered with the
+SU (8) Hermitian metric, constructed from the spinor conjugation matrix). The action
+of the adjoint representation on the fundamental representation is given by
+δλαβ = µα
+γλγβ + µβ
+γλαγ + µαβγδ¯λγδ,
+δ¯λαβ = −µγ
+α¯λγβ −µγ
+β¯λαγ + ¯µαβγδλγδ,
+(3.9)
+Although we will not give it here, one can use six-dimensional gamma matrices to give
+explicit relations between the SU (8)/Z2 and SL(2, R) × O(6, 6) decompositions.
+11
+
+PAGE 13
+3.2
+EGG for type IIA with E7(7)
+To deﬁne exceptional generalised geometry for type IIA compactiﬁed to four dimensions,
+one starts with an extended generalised tangent space (EGT) of the form11
+E = TM ⊕T ∗M ⊕Λ5T ∗M ⊕
+ T ∗M ⊗Λ6T ∗M
+
+⊕ΛevenT ∗M .
+(3.10)
+The ﬁrst two terms correspond to the generalised tangent bundle of conventional gener-
+alised geometry and are loosely associated to the momentum and winding of string states.
+The next two terms can be thought of corresponding to NS ﬁve-brane and Kaluza–Klein
+monopole charges. The ﬁnal term is isomorphic to S+, the positive helicity Spin(6, 6)
+spinor bundle, and is associated to D-brane charges. The EGT space is 56-dimensional
+and, just as there was a natural O(d, d)-invariant metric on TM ⊕T ∗M, there is a natural
+symplectic form S and symmetric quartic invariant Q on E. The group that preserves
+both S and Q is E7(7). Thus the analogue of the O(d, d) action is a natural E7(7) action on
+E. Essentially (3.10) corresponds to a decomposition of the 56 fundamental representa-
+tion of E7(7) under a particular GL(6, R) ⊂E7(7) which is identiﬁed with diﬀeomorphisms
+of M. The embedding of GL(6, R) in E7(7) is described explicitly in Appendix A. More
+precisely, as discussed there, E corresponds to the decomposition of the fundamental
+representation weighted by (Λ6T ∗M)1/2.
+One can similarly decompose the adjoint 133 representation of E7(7) under this
+GL(6, R) subgroup and ﬁnds (see (A.8))
+A0 = (TM ⊗T ∗M) ⊕Λ2TM ⊕Λ2T ∗M
+⊕R ⊕Λ6T ∗M ⊕Λ6TM ⊕ΛoddT ∗M ⊕ΛoddTM .
+(3.11)
+The ﬁrst term corresponds to the GL(6, R) action. However, there is a second important
+subgroup one can obtain from taking only the p-form elements of A0
+B + ˜B + C−∈Λ2T ∗M ⊕Λ6T ∗M ⊕ΛoddT ∗M ,
+(3.12)
+giving a nilpotent sub-algebra (A.11). These are the EGG analogues of the “B-shift”
+symmetries of generalised geometry and are in one-to-one correspondence with the form-
+ﬁelds of the IIA supergravity. In particular, B is the internal B-ﬁeld, C−the RR-form
+potentials and ˜B is an internal six-form corresponding to the ten-dimensional dual of
+Bµν. To identify B, ˜B and C−in the SL(2, R) × O(6, 6) decomposition of the adjoint
+representation (3.3), we note, as explained in detail in Appendix A, that the embedding
+of GL(6, R) ⊂SL(2, R) × O(6, 6) ⊂E7(7) breaks the SL(2, R) symmetry, picking out a
+SL(2, R) vector vi. Using this vector, we identify B, ˜B and C−as the following elements
+in the 133
+µi
+j = ˜B1...6vivj ,
+˜B ∈Λ6T ∗M ,
+µA
+B =
+ 0
+0
+B
+0
+
+,
+B ∈Λ2T ∗M ,
+µi−= viC−,
+C−∈ΛoddT ∗M .
+(3.13)
+11This structure was ﬁrst discussed in [27] and, in an M-theory context, in [28]. For a more complete
+description of the geometry in this particular case see [39].
+12
+
+PAGE 14
+Geometrically, these form-ﬁeld potentials together with the metric and dilaton encode
+an SU (8)/Z2 structure on E [28], i.e. they parameterise the coset E7(7) /(SU (8)/Z2).
+Formally this structure is an element I ∈E7(7) that, like a complex structure, satisﬁes
+I2 = −1. This then deﬁnes a (exceptional generalised) metric (EGM) on E given by
+G(λ, λ) = S(λ, Iλ) where λ ∈E. This is the analogue of the generalised metric on
+TM ⊕T ∗M. One can show that a generic EGM can be written as12
+G(λ, λ) = G0(eC−e
+˜Be−Bλ, eC−e
+˜Be−Bλ) ,
+(3.14)
+where G0 is a speciﬁc EGM built from g and the dilaton φ, the form of which will not
+be important, and eC−e ˜Be−B are the exponentiated actions of the adjoint elements given
+in (3.12). Hence C−, ˜B, B g and φ encode a generic EGM, or equivalently a point in the
+coset E7(7) /(SL(2, R) × O(6, 6)).
+If the form ﬁeld strengths are nontrivial, the potentials B, ˜B and C−can only be
+deﬁned locally. The EGM is then really a metric on a twisted version of (3.10), where
+we introduce on each patch U(α)
+λ(α) = eC−
+(α)e
+˜B(α)e−B(α)λ,
+(3.15)
+such that on U(α) ∩U(β) we have a patching by gauge transformations
+λ(α) = edΛ+
+(αβ)ed˜Λ(αβ)e−dΛ(αβ)λ(β) ,
+(3.16)
+which implies
+B(α) = B(β) + dΛ(αβ) ,
+C−
+(α) = C−
+(β) + dΛ+
+(αβ) + e−dΛ(αβ)C−
+(β) ,
+˜B(α) = ˜B(β) + d˜Λ(αβ) +
+
+dΛ+
+(αβ), e−dΛ(αβ)C−
+(β)
+
+.
+(3.17)
+These correspond precisely to the gauge transformations of the relevant supergravity
+potentials. Comparing with (2.23), we see, in particular, that the ﬁeld strengths H = dB
+and F =
+√
+2eBdC−are gauge invariant. The transformation of ˜B similarly matches the
+form given in [40], specialised to six dimensions.
+Having summarised the key components of the EGG, let us now turn to the issue
+of how this structure can be used to describe the hypermultiplet and vector multiplet
+sectors.
+3.3
+Hypermultiplet sector
+N = 2 supergravity constrains the scalar degrees of freedom in the hypermultiplets to
+span a quaternionic-K¨ahler manifold MQK. Over any such manifold one can construct
+a hyperk¨ahler cone MHKC which has one additional quaternionic dimension [23, 24]. In
+the following section we brieﬂy review the appearance of K¨ahler cones in superconformal
+supergravity. The metric on the cone is characterised by a single function χ known as the
+hyperk¨ahler potential. In section 3.3.3 we then identify how the NS and RR degrees of
+freedom can be embedded into an E7(7) EGG structure. We show that they parameterise
+a coset known as a “Wolf space” [32, 33], which admits a standard construction of a
+hyperk¨ahler cone [35], with an E7(7) invariant expression for the hyperk¨ahler potential.
+12The choice of sign for B is conventional, to match the usual generalised geometry B-shift.
+13
+
+PAGE 15
+3.3.1
+Hyperk¨ahler cones and superconformal supergravity
+Superconformal supergravity has as the space-time symmetry group the superconformal
+group instead of the super-Poincare group.
+Using a compensator formalism one can
+construct superconformally invariant actions and then obtain Poincare supergravity as
+an appropriately gauge ﬁxed version. We cannot review the entire subject here but let
+us recall the properties relevant for our subsequent discussion following refs. [24, 25].
+In the case of N = 2 one adds a compensating vector multiplet and a compensating
+hypermultiplet to the spectrum and couples all multiplets to the Weyl supermultiplet
+which contains the gravitational degrees of freedom. One of the resulting features is that
+the N = 2 R-symmetry SU (2)R×U(1)R together with the dilation symmetry are gauged.
+Furthermore, the dimension of the scalar manifolds are enlarged by one ‘unit’ and its
+geometry is altered. For the hypermultiplets this precisely corresponds to the hyperk¨ahler
+cone construction where the four additional scalar ﬁelds of the compensator can be viewed
+as forming a cone (with one radial direction and an S3) over the quaternionic-K¨ahler
+base MQK.
+The geometry of this cone is no longer quaternionic-K¨ahler but instead
+hyperk¨ahler in that the three local almost complex structures of MQK lift to globally
+deﬁned integrable structures on the cone. Conversely, a quaternionic-K¨ahler manifold
+can be viewed as a quotient
+MQK =
+MHKC
+SU (2)R × R+ ,
+(3.18)
+where R+ corresponds to the dilatations and the SU (2)R rotates the three almost complex
+structures of MQK.
+MHKC can be characterised by a hyperk¨ahler potential χ which is simultaneously a
+K¨ahler potential for all three complex structures. A generic expression for χ in terms
+of the three complex structures was given in [23, 24], while for the speciﬁc case of hy-
+perk¨ahler cones which arise from a special geometry via the c-map, χ was determined in
+refs. [36, 37]. In this case a particularly simple expression results in a gauge where the
+SU (2)R is partially ﬁxed to a U(1)R subgroup [36] and one ﬁnds13
+χ = G−1
+0 e−KSK ,
+(3.19)
+where KSK is the K¨ahler potential of special K¨ahler subspace MSK and G0 contains
+the dilaton φ together with the compensator corresponding to the cone direction. More
+precisely,14 here KSK = K−and
+G−1
+0
+= 1
+2 e
+1
+2 K−−φ ,
+(3.20)
+where in this parameterisation the compensator for the dilatations and the U (1)R are
+identiﬁed with the degrees of freedom in the pure spinor Φ−which correspond to the
+complex rescaling Φ−→cΦ−.15 Inserting (2.13) one ﬁnds
+χ =
+1
+2e−φ q
+i
+
+Φ−, ¯Φ−
+.
+(3.21)
+13The expression for χ in an arbitrary gauge is given in [37].
+14Note that compared to ref. [36] we have a diﬀerent convention of the dilaton. The dilaton used in
+that paper is obtained from the dilaton here by the replacement 2φ →−φ.
+15Note that this expression for the compensator also appears in the N = 1 orientifolded version
+analysed in ref. [41].
+14
+
+PAGE 16
+On the HKC also the expression for the Killing prepotentials Pa change. In ref. [24]
+it was found
+PHCK
+±
+= χ e±iα P± ,
+PHCK
+3
+= χ P3 ,
+(3.22)
+where eiα parameterises the angle variable of the U (1)R, and Pa are the Killing prepo-
+tentials on the quaternionic space. In the notation used above eiα is the phase of the
+scale parameter c.
+3.3.2
+Expected coset for hypermultiplet sector
+As argued before, we expect the moduli space MQK to be a coset of the form E7(7) /H,
+corresponding to deﬁning a particular structure H on the exceptional generalised tangent
+space E. Given the coset structure of M−
+SK displayed in (2.12), and the fact that this
+moduli space is related to MQK by the c-map M−
+SK →MQK, we can actually make a
+simple conjecture for the form of MQK. For the case of special K¨ahler coset spaces the
+corresponding quaternionic spaces are known [20, 42, 43]. For our particular case, we
+learn that the c-map relates
+c-map :
+M−
+SK = O(6, 6)
+U(3, 3) →MQK =
+E7(7)
+SO∗(12) × SU(2) .
+(3.23)
+The map is usually given for the compact real versions of these groups so we have ac-
+tually generalised slightly to consider particular non-compact forms16 giving a pseudo-
+Riemannian metric of signature (40, 24). The compact version of MQK is one of the
+well-known Wolf spaces [32, 33] and has dim(MQK) = 64. We see that as anticipated
+the U-duality group E7(7) determines the geometry of the quaternionic-K¨ahler space, and
+corresponds to the space of SO∗(12) × SU (2) structures on E. Furthermore, the dimen-
+sion 64 precisely matches the expected supergravity hypermultiplet degrees of freedom:
+30 in Φ+ (since it is deﬁned modulo complex rescalings), 32 in C+ and two more in φ and
+˜B. The hyperk¨ahler cone corresponding to the Wolf space given in (3.23) is the space
+MHKC =
+E7(7)
+SO∗(12) × R+ ,
+(3.24)
+with dim(MHCK) = 68. This space has been studied very explicitly in the mathematical
+literature and in particular a hyperk¨ahler potential χ has been given [35]. Let us now
+use this construction to verify our expectations.
+3.3.3
+Hyperk¨ahler cone construction `a la Swann
+In this section we show explicitly how Φ−, C−together with the dilaton/axion pair (φ, ˜B)
+parameterise the 64-dimensional Wolf space MQK = E7(7) /(SO∗(12) × SU (2)), give the
+construction of the corresponding hyperk¨ahler cone metric on MHKC following [35] and
+derive the form of the hyperk¨ahler potential χ.
+16The non-compact group SO∗(2n) is a real form of the complex group SO(2n, C) where the elements
+of the corresponding Lie algebra are complex matrices of the form
+ A
+B
+−B∗A∗
+
+with A = −AT and B = B†.
+For more details see for instance [44].
+15
+
+PAGE 17
+The analysis of compact symmetric spaces G/H with quaternionic geometry is due
+to Wolf [32] and Alekseevskii [33] who showed there is one such space for each compact
+simple Lie group. Swann [23] subsequently identiﬁed the corresponding hyperk¨ahler cone
+structures, viewing MHKC as an orbit in the adjoint representation under the complexiﬁed
+G. Koback and Swann then gave an explicit expression of the hyperk¨ahler cone [35]. Here,
+we will follow these constructions to give an explicit form of the quaternionic geometry
+on E7(7) /(SO∗(12) × SU (2)) in terms of the supergravity degrees of freedom.
+The hyperk¨ahler cone MHKC can be viewed as an orbit in the 133 adjoint represen-
+tation in two ways. In the complexiﬁed version one starts with an element K+ ∈eC
+7
+corresponding to a highest weight root in the Lie algebra. The space MHKC is then the
+orbit of K+ under EC
+7 . In this picture K+ is stabilised under 99 elements of EC
+7 so that
+MHKC is a 133 −99 = 34 complex-dimensional space. Given a real structure, which for
+us means the non-compact real form E7(7), one can identify the complex conjugates of
+elements of 133. This deﬁnes K−= ¯K+ and hence, for each K+ in the orbit, a partic-
+ular su(2) subalgebra in the real algebra e7(7) generated by K± and the corresponding
+K3 ∼[K+, K−]. In this second picture MHKC is the orbit of this su(2) algebra, under
+the real group E7(7), together with an overall scaling, where the triplet Ka is stabilised
+by a 66-dimensional SO∗(12) subgroup of E7(7). The overall scaling of Ka represents the
+radial direction of the hyperk¨ahler cone, while the SU (2) action on the cone is realized
+by the action of the su(2) algebra on itself, rotating the triplet Ka.
+As discussed in section 3.1, under SL(2, R)×O(6, 6) the adjoint representation of E7(7)
+decomposes as µ =
+ µij, µAB, µi−
+corresponding to 133 = (3, 1) + (1, 66) + (2, 32′)
+(see (3.3)). Given an SU (3, 3) structure Φ−
+0 as deﬁned in (2.4), we can then identify a
+triplet of elements, where K(0)
+± = K(0)
+1
+± iK(0)
+2 ,
+K(0)
++ =
+ 0, 0, uiΦ−
+0
+
+,
+K(0)
+−=
+ 0, 0, ¯ui¯Φ−
+0
+
+,
+K(0)
+3
+= 1
+4iκ−1
+Φ−, ¯Φ−  (ui¯uj + ¯uiuj), (iu¯u)J −A
+0
+B, 0
+
+.
+(3.25)
+We have also used the fact that
+
+Φ−
+0 , ¯Φ−
+0
+
+=
+
+Φ−, ¯Φ−
+and deﬁned
+κ =
+q
+1
+2i
+
+Φ−, ¯Φ−
+(−iu¯u) .
+(3.26)
+Here ui is a complex vector transforming as a doublet under SL(2, R), J −
+0 is the gener-
+alised complex structure (2.6) deﬁned by Φ−
+0 and we abbreviate uv = ǫijujvi = uivi =
+−uivi. The triplet (K(0)
+1 , K(0)
+2 , K(0)
+3 ) then satisﬁes the (real) su(2) algebra
+
+K(0)
+a , K(0)
+b
+
+= 2κ ǫabcK(0)
+c
+.
+(3.27)
+We have included an overall scaling κ in the su(2) algebra since, as mentioned above,
+this corresponds to the radial direction on the hyperk¨ahler cone.
+We would now like to see the action of E7(7) on the triplet K(0)
+a
+to ﬁnd the dimension
+of the corresponding orbit. In particular we should ﬁnd that the triplet is stabilised by a
+66-dimensional subgroup of E7(7). We ﬁrst note that, by deﬁnition, Φ−
+0 and hence J −
+0 are
+16
+
+PAGE 18
+invariant under SU (3, 3) ∈O(6, 6) which correspond to 35 stabilising elements. There
+are no elements of sl(2, R) which leave ui invariant, though the element
+ ui¯uj + ¯uiuj, −1
+3(iu¯u)J −A
+0
+B, 0
+
+(3.28)
+in sl(2, R)×so(6, 6) does commute with all three K(0)
+a , and also with the SU (3, 3) action.
+Finally we have the action of elements of the form (0, 0, µi−). Without loss of generality
+we can write µi−= uiµ−+ ¯ui¯µ−, and then ﬁnd using (3.6) that, to be a stabiliser, µ−is
+required to satisfy
+
+Φ−
+0 , µ−
+=
+
+Φ−
+0 , ¯µ−
+= 0 ,
+1
+4J −
+0 ABΓABµ−= iµ−.
+(3.29)
+Under the SU (3, 3) group deﬁned by Φ−
+0 , the 32′ spinor representation decomposes as
+1 + 1 + 15 + ¯
+15. The conditions (3.29) imply that µ−is in the 15 representation, and
+hence we see there are a further 30 real elements in e7(7) which stabilise the K(0)
+a . Thus
+together with the su(3, 3) algebra and the element (3.28) we see that the stabiliser group
+is 66 dimensional. It is relatively straightforward to show that this group has signature
+(30, 36) and hence corresponds to SO∗(12).
+We now address how to generate a generic element in the orbit from the speciﬁc
+K(0)
+a
+discussed so far.
+We ﬁrst note that the O(6, 6) ⊂E7(7) transformations of Φ−
+0
+by B as in (2.4) generate the full O(6, 6) orbit. These transformations are embedded
+in E7(7) as in (3.13). On the other hand, SL(2, R) elements simply rotate ui, which was
+already assumed to be general. Apart from the SU (2) rotations among the K(0)
+a , the only
+additional motion in the orbit comes from elements of the form (0, 0, µi−). We expect that
+these should correspond to the RR scalars C−. To see this explicitly, we ﬁrst recall that 30
+of these leave K(0)
+a
+invariant, while anything of the form µi−= A Re(uiΦ−)+B Im(uiΦ−)
+simply generates part of the SU (2) rotations among the triplet K(0)
+a . The remaining 32
+degrees of freedom can be generated by acting with the RR potential C−embedded in
+E7(7) as in (3.13), since it is easy to show that none of these elements leave K(0)
+a
+invariant.
+Hence the generic triplet in the orbit can be written as
+Ka = eC−e
+˜Be−BK(0)′
+a
+,
+(3.30)
+where K(0)′
+a
+are the SU(2) rotation of K(0)
+a , that we can parameterise as
+K(0)′
+3
+= 1
+2 sin θ eiα K(0)
++ + 1
+2 sin θ e−iα K(0)
+−−cos θ K(0)
+3
+,
+K(0)′
++
+= 1
+2(1 −cos θ)ei(ψ+α)K(0)
++ −1
+2(1 + cos θ)ei(ψ−α)K(0)
+−−eiψ sin θK(0)
+3
+.
+(3.31)
+Note that the angle α corresponds to an U(1) ⊂SU (2) phase rotation on K(0)
++ , which
+can be absorbed in Φ−
+0 . Similarly the e ˜B action is in SL(2, R) and so is strictly speaking
+unnecessary since it can be absorbed in a redeﬁnition of ui. However it is useful to include
+it to see the structure of how the supergravity potentials appear. To see that the orbit is
+68-dimensional we note that Φ−and C−each contributes 32 degrees of freedom. In the
+original ansatz we can always rescale Φ−→cΦ−and ui →c−1ui for c ∈C −{0} so there
+are really only two new real degrees of freedom in ui. In addition there are two degrees
+of freedom in θ and ψ giving a total of 68.
+17
+
+PAGE 19
+Having given an explicit parameterisation of the coset space, we can now consider the
+hyperk¨ahler structure and hyperk¨ahler potential following ref. [35]. The result for the
+latter is very simple: at a generic point on MHKC it is given by
+χ =
+q
+−1
+8 tr(K+K−) ,
+(3.32)
+where the trace is deﬁned in (3.7). Inserting (3.25), (3.30) and (3.31) we ﬁnd that
+χ =
+q
+1
+8(−iu¯u)i
+
+Φ−, ¯Φ−
+=
+q
+1
+8(−iu¯u)H(Re Φ−) ,
+(3.33)
+where in the second equation we have used (2.13) and (2.20). Note that in fact χ = 1
+2κ
+where κ was the normalization of the su(2) algebra (3.27) and so is manifestly an SU (2)
+invariant. Furthermore, it is independent of C−since it is an E7(7)-invariant function of
+Ka, and eC−is an E7(7) transformation. Comparing with (3.21) we see that the χ agree
+if we identify17
+−iu¯u = 2e−2φ .
+(3.34)
+In section 4.1 we compute the Killing prepotentials which will allow us to determine the
+dilaton dependence of u, providing an independent conﬁrmation of (3.34).
+In addition to the hyperk¨ahler potential there should be a triplet of complex structures
+(I1, I2, I3) acting on vectors in the tangent space of the cone. Recall that a general point
+on the cone is deﬁned by the triplet Ka, while a generic vector can be viewed as small
+deformation δKa along the cone. A general deformation around the orbit is generated
+by the action of some µ ∈133 on Ka. To ﬁll out the full cone we also need to consider
+rescalings of Ka. Thus a vector in the tangent space of the cone at the point Ka is a
+triplet that can be written as
+ξa = [µ, Ka] + µ0Ka.
+(3.35)
+for some µ ∈133 and µ0 ∈R+. Since Ka satisfy the su(2) algebra (3.27), one only needs
+to specify two elements (say K1 and K2 or equivalently K+) to determine the triplet.
+Similarly, the vector in the tangent space is completely determined by giving only two of
+the three ξa. The three complex structures are then most easily deﬁned by picking out
+diﬀerent pairs of ξa to specify the vector. In particular one deﬁnes the structure I3 by
+taking the vector deﬁned by the pair (ξ1, ξ2) with the simple action
+I3 (ξ1 + iξ2) = i (ξ1 + iξ2) ,
+(3.36)
+with the corresponding cyclic relations deﬁning I1 and I2.
+3.4
+Vector multiplets
+We now turn to the vector multiplet moduli space M+
+SK. The superconformal supergrav-
+ity formalism requires an additional vector multiplet whose scalar degrees of freedom
+17In a generic SU (2) gauge, i.e. using χ as found in [37], we would get −iu¯u = 2e−2φ sin2 θ. This
+would not spoil the consistency veriﬁed in section 4.1 below, so for convenience we use the gauge ﬁxed
+expression (3.21). We thank B. Pioline for discussions on this point.
+18
+
+PAGE 20
+are the conformal compensator corresponding to the overall scale of Φ+. This adds a
+U(1) × R+ factor to the moduli space, turning the local special K¨ahler geometry M+
+SK
+into a rigid one f
+M+
+SK. Both of them are expected to be cosets of the form E7(7) /H, up
+to an R+ factor. In the following section we anticipate the form of the coset. In section
+3.4.2 we identify the embedding of the NS degrees of freedom into an orbit which spans
+the expected coset, and show that the K¨ahler potential is given by the square-root of the
+E7(7) quartic invariant in complete analogy to the Hitchin function in the O(6, 6) case.
+3.4.1
+Expected cosets for vector multiplet moduli space
+It is well known [43] which coset manifolds have a local special K¨ahler geometry and
+there is only one candidate based on E7(7)
+M+
+SK =
+E7(7)
+E6(2) ×U(1) .
+(3.37)
+(Again we are actually using a particular non-compact and non-Riemannian version with
+signature (30, 24).) There is also the corresponding rigid special K¨ahler space
+f
+M+
+SK = E7(7)
+E6(2)
+× R+ ,
+(3.38)
+such that M+
+SK = f
+MSK/C∗.
+3.4.2
+Explicit construction
+We would like to see explicitly how Φ+ can be used to parameterise the special K¨ahler
+coset spaces (3.37) and (3.38) and how the metric on each is deﬁned in terms of E7(7)
+objects.
+The space f
+M+
+SK is actually what is known as a “prehomogeneous” vector space [45],
+that is, it is an open orbit of E7(7) in the 56-dimensional representation.
+This is in
+complete analogy to the Φ± moduli spaces, which were open orbits in the spinor rep-
+resentations 32± under O(6, 6). However, it is in contrast to the hypermultiplet space
+MHKC discussed above.
+For us, the main point is that we should be able to realise
+the space as the orbit of some embedding of Φ+ in the 56 representation. As discussed
+in section 3.1, under SL(2, R) × O(6, 6), the fundamental representation decomposes as
+λ =
+ λiA, λ+
+corresponding to 56 = (2, 12) + (1, 32). We would like to have a real
+orbit, so it is natural to start with an embedding
+λ(0) =
+ 0, ρ+
+0
+
+,
+(3.39)
+where ρ+
+0 = 2 Re Φ+
+0 . (The factor of two is chosen to match (2.20)).
+To check that this is a reasonable choice, we ﬁrst note that it implies that Φ+ is a
+singlet under the S-duality group SL(2, R) ⊂E7(7). This is exactly what we would ex-
+pect. In section 2 we recalled that the dilaton is part of a hypermultiplet, and therefore it
+should not couple to Φ+, implying the latter is a singlet under S-duality. Alternatively, in
+type IIA the U (1)R acts on the Spin(6) spinors by the phase rotation ηI
++ →eiα/2ηI
++. This
+19
+
+PAGE 21
+follows from (2.2) together with the fact that the four-dimensional supersymmetry param-
+eters ε1
++, ε2
++ transform with opposite phases under the U (1)R, while the ten-dimensional
+ǫ1, ǫ2 are invariant.18 Using (2.4) we see that Φ+ is a singlet under the U(1)R in type
+IIA while Φ−rotates with a phase. This phase rotation is generated by the SU (2)R
+generator K3 deﬁned in section 3.3.3. Since (3.25) shows the embedding of SU (2)R into
+E7(7), we conclude that Φ+ has to be singlet under the S-duality SL(2, R). Thus we see
+that embedding Φ+ into the 56 of E7(7) is also consistent with the action of the N = 2
+R-symmetry.
+In order to ﬁll out the full orbit, we must act on λ(0) with E7(7) so
+λ = g · λ(0) ,
+g ∈E7(7) .
+(3.40)
+We can see that the dimension of the orbit is indeed 56 by looking at the stabiliser of λ(0).
+Using the decomposition (3.3) we see from (3.5) that δλ(0) = 0 holds for the following 78
+elements of e7(7): three from the SL(2, R) elements µij, which do not act on λ(0); 35 from
+µAB since by construction Re Φ+
+0 is stabilised by SU (3, 3) ⊂O(6, 6); and 40 from µi−,
+since they must satisfy
+
+µi−, ΓA Re Φ+
+0
+
+= 0, giving 24 conditions for 64 parameters µi−.
+Put another way, decomposing under SL(2, R) × SU(3, 3) ⊂E7(7), the adjoint action of
+the stabiliser group transforms as (3, 1) + (1, 35) + (2, 20), which is precisely how the
+adjoint of E6(2) decomposes under SL(2, R) × SU (3, 3) ⊂E6(2).
+Since the full orbit for Ka corresponded to a eC−e ˜Be−B transformation on K(0)
+a
+we
+might expect the same for λ. That is, the generic element is given by
+λ = eC−e
+˜Be−Bλ(0) .
+(3.41)
+However, this is not yet the full story. Such transformations do not quite ﬁll out the
+orbit. Instead, 12 degrees for freedom are missing. We will come back to this point in
+the following section.
+As we have mentioned, it is well-known [46, 42, 43] that the space (3.38) admits a
+special K¨ahler metric. We now turn to the explicit construction of this metric, which
+will follow exactly Hitchin’s construction of the corresponding special K¨ahler metric
+on the space O(6, 6)/ SU(3, 3) × R+ of Re Φ± [7]. As there, we start with a natural
+symplectic structure, since, as discussed in section 3.1, by deﬁnition E7(7) preserves a
+symplectic structure S(λ, λ′) on the fundamental representation. The complex structure,
+and hence special K¨ahler geometry then arise from the natural generalisation of the
+Hitchin function (2.20).
+Instead of the O(6, 6) spinor quartic invariant we take the
+quartic invariant Q(λ) in (3.4) that deﬁnes the E7(7) group. We then deﬁne the Hitchin
+function
+H(λ) =
+p
+Q(λ) .
+(3.42)
+As before, one can view H(λ) as a Hamiltonian and deﬁne the corresponding Hamiltonian
+vector ﬁeld ˆλ, given by, for any ν in the 56 representation,
+S(ν, ˆλ) = −νA ∂H
+∂λA ,
+(3.43)
+18The same argument implies that in type IIB the spinors ηI
++ rotate with opposite phases.
+20
+
+PAGE 22
+where A = 1, . . . , 56 runs over the elements of the fundamental representation. Explicitly
+we have
+ˆλiA =
+1
+2H
+
+λ+, ΓA
+Bλ+
+λiB −1
+H
+ λi · λj
+
+λjA,
+ˆλ+ = −1
+2H
+ 1
+12
+
+λ+, ΓABλ+
+−ǫijλi
+Aλj
+B
+
+ΓABλ+ .
+(3.44)
+The complex structure on f
+M+
+SK is then given by
+JSK
+A
+B = ∂ˆλA
+∂λB .
+(3.45)
+Equivalently the metric on f
+M+
+SK is given by the Hessian
+gSK
+AB =
+∂H
+∂λA∂λB .
+(3.46)
+Following the same arguments of [7] it is easy to show that this metric is special K¨ahler.
+Finally, note that one can deﬁne the holomorphic object, analogous to Φ+,
+L = 1
+2
+ λ + iˆλ
+
+,
+(3.47)
+such that the K¨ahler potential is given by
+e−KSK = H(λ) = iS(L, ¯L) .
+(3.48)
+On the subspace e−Bλ(0) = (0, ρ+) we have
+H(λ) =
+p
+q(ρ+) ,
+L = (0, Φ+) ,
+JSK · ν =
+ J −A
+BνiB, J+
+Hit · ν+
+,
+(3.49)
+where q(ρ+) is the spinor quartic invariant (2.21) and J+
+Hit is the Hitchin complex struc-
+ture (2.9) on the spinor space. Thus we see that the special K¨ahler metric on R+ ×
+E7(7) / E6(2) reduces to the special K¨ahler metric on R+ × O(6, 6)/ SU(3, 3) on this sub-
+space.
+3.5
+Hypermultiplets and vector multiplets: compatibility con-
+ditions and SU (8) representations
+In this section we turn to the question of compatibility between the structures arising in
+the vector multiplet and hypermultiplet sectors.
+To start with, note that the vector multiplet moduli space M+
+SK is 54-dimensional,
+whereas the original O(6, 6)/U(3, 3) space was 30-dimensional, and one would expect
+no additional degrees of freedom in this sector. A partial answer to this discrepancy is
+that, as in the O(6, 6) case, we expect there to be some compatibility condition between
+the hypermultiplet SO∗(12) structure and the vector multiplet E6(2) structure.
+This
+can be seen by considering the way the supergravity degrees of freedom are encoded in
+21
+
+PAGE 23
+E7(7). Recall that in the EGG the internal bosonic metric, form-ﬁeld and axion-dilaton
+degrees of freedom are encoded in the exceptional generalised metric (3.14). This deﬁnes
+an SU (8)/Z2 structure on the exceptional generalised tangent space E. The fermions
+in the supergravity transform under the local SU (8) group, as do the supersymmetry
+parameters. In particular, recall that for the O(6, 6) case the pair (η1, η2) transforms
+under Spin(6) × Spin(6) ≃SU (4) × SU (4).
+Thus to see the SU (8) transformation
+properties we simply rewrite our original spinor decomposition (2.2) as
+ǫ1
+ǫ2
+
+= ε1
++ ⊗(θ1)∗+ ε2
++ ⊗(θ2)∗+ c.c.
+(3.50)
+where (θI)∗are the complex conjugates of two elements θ1 and θ2 of the 8 representation
+of SU (8)
+θ1 =
+η1
++
+0
+
+,
+θ2 =
+ 0
+η2
+−
+
+.
+(3.51)
+Together, the pair (θ1, θ2) is invariant under SU (6) ⊂SU (8) transformations. Thus we
+see that for N = 2 supersymmetry, comparing the generalised and exceptional generalised
+geometries we have the structures
+gen. geom.:
+SU (3) × SU (3)
+⊂O(6) × O(6)
+⊂O(6, 6)
+exceptional gen. geom.:
+SU (6)
+⊂SU (8)/Z2
+⊂E7(7) .
+(3.52)
+Thus in general we expect the hypermultiplet SO∗(12) structure and the vector multiplet
+E6(2) structure to be constrained such that they have a common SU (6) subgroup, that
+is, as embedding in E7(7) compatibility requires
+SO∗(12) ∩E6(2) = SU (6) .
+(3.53)
+Thus together the consistent hypermultiplet and vector multiplet moduli spaces, coming
+from the cones MHKC and f
+M+
+SK, describe the coset space
+f
+M = E7(7)
+SU (6) × R+ × R+ ,
+(3.54)
+or if we go to MQK and M+
+SK, we have E7(7) /(SU (6)×U(2)). The U(2) factor corresponds
+to R-symmetry rotations on the two θ1 and θ2. This last space is 94-dimensional with
+signature (70, 24), while the sum of the dimensions of MQK and MSK is 118. This implies
+that the compatibility condition (3.53) should impose 24 conditions. Let us see if this
+is indeed the case: requiring that the SO∗(12) stabiliser of Ka shares a common SU(6)
+subgroup with the E6(2) stabiliser of λ translates into the requirement
+Ka · λ = 0 ,
+a = 1, 2, 3 ,
+(3.55)
+where we are simply taking the adjoint action on the fundamental representation. It is
+equivalent to K+ · L = 0 (with L deﬁned in (3.47)). In particular we see from (3.5) and
+(3.25) that
+ K(0)
++ · L(0)iA = ui
+Φ−, ΓAΦ+
+,
+ K(0)
++ · L(0)+ = 0 ,
+(3.56)
+22
+
+PAGE 24
+so, at this point, compatibility is equivalent to the compatibility condition (2.10) between
+Φ+ and Φ−, which amounts only to 12 conditions. Thus there are 12 conditions unac-
+counted for. On the other hand, if we count up the degrees of freedom in Φ+, Φ−, C−
+and φ, ˜B we get 48 + 32 + 2 = 82, while f
+M is 94-dimensional, again leaving 12 degrees
+of freedom unaccounted for.
+Looking at our spinor ansatz (3.51) we can immediately see what is missing: the
+expressions for θ1 and θ2 are not generic. A generic SU (6) structure is given by
+θ1 =
+η1
++
+˜η1
+−
+
+,
+θ2 =
+˜η2
++
+η2
+−
+
+.
+(3.57)
+˜η1, ˜η2 introduce 16 real new parameters. However, there is a U(2) R-symmetry rotating
+the two θI, which can be used to remove four parameters, and therefore there are indeed
+precisely 12 new degrees of freedom. The special property of the ansatz (3.51) is that
+the SU (6) structure decomposes into SU(3) × SU (3) under O(6, 6) ⊂E7(7). There is
+nothing about this freedom that is special to the E7(7) formulation, we could always have
+used it to generalise our original N = 2 ansatz (2.2) even in the O(6, 6) formulation.
+In terms of the SU(6) subgroup, these extra degrees of freedom transform in the 6 + ¯6
+representation. Including these degrees of freedom, as we have mentioned, the “local”
+version of f
+M, i.e. the coset E7(7) /(SU (6)×U(2)) contains 24 non-physical modes beyond
+the 70 parameterised by the supergravity degrees of freedom g, B, C−and (φ, ˜B). As
+before, we expect that these are related to the massive spin- 3
+2 degrees of freedom and can
+be gauged away. Alternatively we can view this as simply projecting out all the 6 and ¯6
+degrees of freedom.
+Regarding the number of conditions imposed by compatibility, we saw in the previous
+section that the generic element λ = eC−λ(0) has 44 degrees of freedom and therefore
+the action of C−does not ﬁll out the full 56-dimensional orbit f
+M+
+SK. The missing 12
+extra degrees of freedom are precisely those that correspond to using the generic spinor
+ansatz (3.57). Thus we can write the generic element λ in the form (3.41), provided
+λ(0) = ˜g(0, ρ+) where ˜g ∈SU (6) ⊂SU(8)/Z2 ⊂E7(7) is the element which transforms
+the restricted ansatz (3.51) to the general form (3.57). Equivalently we can write λ in
+the terms of the SU (8)/Z2 decomposition (3.8) of E7(7), as
+λ = (λαβ, λαβ) = eC−e
+˜Be−Bλ(0) ,
+λ(0)αβ = ǫIJθIαθJβ ,
+¯λ(0)
+αβ = ǫIJθI∗
+α θJ∗
+β
+,
+(3.58)
+where ǫ12 = −ǫ21 = 1 and θI are the generic spinors (3.57). In this form, it is easy
+to see that λ is invariant under SU (2)R. For a generic element in the 56, compatibility
+requirement (3.55) amounts to 24 conditions, as opposed to 12 for the case of λ belonging
+to the 44-dimensional orbit.
+From a supergravity perspective the appearance of C−in the vector multiplet sector is
+unexpected, since in simple Calabi–Yau models it corresponds to a hypermultiplet degree
+of freedom. Equally odd is that the moduli space O(6, 6)/ SU(3, 3) × R+ spanned by Φ+
+has been promoted to the larger space (3.38). As we have discussed these extra degrees of
+freedom can be accounted for by compatibility condition (3.55) and the generalised spinor
+ansatz (3.57). It is helpful to note, however, that if we project out all the SU (3)×SU(3)
+23
+
+PAGE 25
+triplets (or equivalently the SU(6) representations 6 and ¯6), then the moduli spaces of
+λ and Φ+ agree, and C−does not appear in the vector multiplet sector. As we argued,
+projecting out the triplets precisely ensures the absence of additional (massive) spin-
+3
+2 gravitino multiplets. Their presence would change the standard form of the N = 2
+supergravity and in particular the decoupling of vector multiplets and hypermultiplets
+would no longer hold.
+The construction presented here shows that if we include all
+representations then we can rewrite the ﬁeld space in terms of E7(7) objects, but with
+vector multiplet and hypermultiplet moduli spaces coupled through the compatibility
+condition (3.55). The expectation is that the additional (non-physical) coupled degrees
+of freedom are associated to the massive spin- 3
+2 multiplets and can be gauged away.
+In the previous sections, we actually always used the restricted SU (3)×SU (3) spinor
+ansatz given by (3.51) when making explicit calculations. This means that we do not
+quite ﬁll out the true moduli spaces. Nonetheless our ﬁnal expressions are written as
+though all the structures were generic, so that, although we calculated in a slightly
+restricted case, we believe the resulting formulas are in fact true in general. One key
+point, as we will see, is that the ansatz (3.51) is general enough to encode the generic
+supersymmetric N = 1 vacua.
+Let us end this section by noting that the coset space MQK describing the hypermul-
+tiplet moduli space can also be simply described in terms of the SU (8)/Z2 decomposition
+of E7(7) directly as bilinears of the SU (8) spinors θI. Using the notation of (3.8) we have
+Ka = (Ka
+β
+β, Kαβγδ
+a
+, ¯Ka αβγδ) = eC−e
+˜B e−B e−φK(0)
+a
+K(0)
+a
+α
+β = 1
+2σa I
+JθI α¯θJ β ,
+K(0)αβγδ
+a
+= 0 ,
+¯K(0)
+a αβγδ = 0 ,
+(3.59)
+where σa are the Pauli matrices, eC−is the action of the RR scalars C−in E7(7) as above,
+e ˜B is the axion action in SL(2, R) ⊂E7(7) and e−B is just the usual action of the NS B-ﬁeld
+in O(6, 6) embedded in E7(7). Here we span the full 63-dimensional subspace just using
+the restricted ansatz (3.51). This reproduces (3.25) in the gauge (3.34). From (3.50)
+we see that the SU (2)R R-symmetry acts on the doublet θI. Given the form (3.59),
+this translates into rotations of the triplet Ka as expected.
+It is also easy to check
+compatibility with λ, namely using (3.58) and (3.9) we see that Ka · λ = 0.
+4
+Killing prepotentials and N = 1 vacua
+Thus far we have identiﬁed how the vector multiplet and hypermultiplet degrees of free-
+dom are naturally encoded as orbits in the fundamental and adjoint representations of
+E7(7) respectively. In particular we have identiﬁed the corresponding special K¨ahler and
+quaternionic geometries which govern the kinetic terms of the ﬁelds.
+In this section we turn ﬁrst to the Killing prepotential terms in the N = 2 action,
+which encode the gauging of the vector multiplets and the scalar potential, and second, we
+brieﬂy discuss the form of the N = 1 supersymmetric vacua equations in this formulation.
+Both objects, unlike the kinetic terms, now depend on the diﬀerential structure of the
+EGG, but, as we will see, can still be written in E7(7) form.
+24
+
+PAGE 26
+4.1
+Killing prepotentials
+Since we are interested in the diﬀerential structure, we start by introducing an embedding
+of the exterior derivative d in E7(7). Taking a slightly diﬀerent version of the EGT, the
+one weighted by (Λ6T ∗M)−1/2 (see (A.5), (A.6)), namely
+E−1/2 = TM ⊕T ∗M ⊕Λ5TM ⊕
+ TM ⊗Λ6TM
+
+⊕ΛevenTM ,
+(4.1)
+we then embed the exterior derivative d in the one-form component T ∗M. In the notation
+of Eq. (3.2) this deﬁnes an element of the 56
+D = (DiA, D+) = (vidA, 0) ,
+A = 1, . . . , 12 ,
+(4.2)
+where the operator dA only has entries in its ‘lower’ six components, i.e. dA = (0, ∂m)
+where m = 1, . . . , 6.
+The form of the N = 2 prepotentials (2.22) and (3.22) suggests that the Killing
+prepotentials on the hyperk¨ahler cone can be written in terms of E7(7) objects as
+PHKC
+a
+= iS(L, DKa) ,
+(4.3)
+where the symplectic pairing S is deﬁned in (3.4) and DKa represents the 56 component
+in the product 56 × 133, that is, the usual action of the adjoint on the fundamental
+representation. Let us show that this is indeed the case. We will give the proof for the
+slightly restricted ansatz (3.51). However, given it can be put in E7(7) form, we believe
+it to be true in general.
+We ﬁrst note that the compatibility conditions (3.55) imply that an SU (2) rota-
+tion on Ka simply rotates the prepotentials Pa as expected.
+In particular the terms
+with derivatives of the rotation matrix drop out. Thus in calculating (4.3) we can ef-
+fectively take K(0)′
+a
+= K(0)
+a
+in (3.31), and hence Ka = eC−e ˜Be−BK(0)
+a .
+We also have
+L = eC−e ˜Be−BL0 so we can rewrite S(L, DKa) = S(e ˜Be−BL0, e−C−DKa). The explicit
+calculation of e−C−DKa is given in appendix B. Using e ˜Be−BL0 = (0, Φ+) we then ﬁnd
+PHKC
++
+= iS(L, DK+) = i(uv)
+
+Φ+, dΦ−
+,
+PHKC
+−
+= iS(L, DK−) = i(¯uv)
+
+Φ+, d¯Φ−
+,
+PHKC
+3
+= iS(L, DK3) = −i(uv)(¯uv)
+√−2iu¯u
+q
+i
+
+Φ−, ¯Φ− 
+Φ+, dC−
+.
+(4.4)
+The next step is to compare these expressions with (3.22) and (2.22). We ﬁnd
+uv = −2e
+1
+2K−+φχ eiα ,
+(uv)(¯uv)
+√−2iu¯u
+q
+i
+
+Φ−, ¯Φ−
+= e2φχ .
+(4.5)
+Inserting the ﬁrst equation into the second and using (2.13), we conﬁrm Eq. (3.33) for
+the the hyperk¨ahler potential, and thus are left with
+uv = −
+q
+−1
+2iu¯u eφeiα .
+(4.6)
+25
+
+PAGE 27
+We have already argued that the conformal compensator degrees of freedom Y correspond
+to a common rescaling of ui. Using a parameterisation adapted to the convention of
+appendix A where we take v1 = 1 and v2 = 0, we write 19
+
+u1
+u2
+
+= Y
+
+S
+−1
+
+.
+(4.7)
+Since ui transforms as an SL(2, R) doublet according to
+
+u1
+u2
+
+→
+
+a
+b
+c
+d
+ 
+u1
+u2
+
+,
+ad −bc = 1 ,
+(4.8)
+one checks that S indeed transforms by fractional linear transformations
+S →−aS −b
+cS −d .
+(4.9)
+Inserting (4.7) (or its covariant version, as in footnote 19) into (4.6) yields
+Y = reiα = −uv ,
+S −¯S = 2ie−2φ .
+(4.10)
+As anticipated the comparison of the Killing prepotentials successfully determined the
+dilaton dependence in ui. Inserting back (4.10) into (3.33) we indeed ﬁnd the hyperk¨ahler
+potential χ as given in (3.21), where, in the O(6, 6) version, one uses the rescaling am-
+biguity between ui and Φ−mentioned below (3.31) to interpret √r as the overall scale
+of Φ−. We also note that, as expected we can generate the axion component of S by the
+˜B-transformation SL(2, R) action given in (3.13). Explicitly, if we get the map
+u(0) = Y
+
+ie−2φ
+−1
+
+7→(e
+˜B)i
+ju(0) j = Y
+
+ie−2φ
+−1
+
++ Y
+ ˜B
+−1
+
+= Y
+
+S
+−1
+
+,
+(4.11)
+where S = ˜B + ie−2φ.
+4.2
+N = 1 vacuum equations
+We now turn to a brief discussion of how the equations deﬁning the N = 1 vacua for
+type II compactiﬁcations [6] can be reformulated in E7(7) language. We will simply give a
+sketch of the form of the corresponding equations leaving a full analysis for future work.
+Speciﬁcally we give E7(7) expressions which encode the N = 1 equations in their O(6, 6)
+spinor components, and then discuss to what extent these hold in general.
+Recall that deﬁning an N = 1 vacuum picks out a particular preserved supersymmetry
+in the N = 2 eﬀective theory breaking the SU (2)R symmetry to U(1)R. Correspondingly,
+as discussed in [10, 11], one can identify the N = 1 superpotential W as a complex linear
+combination of the N = 2 Killing prepotentials Pa. The remaining orthogonal combina-
+tion is then related to the N = 1 D-term. Concretely, given the decomposition (3.50),
+one identiﬁes the preserved N = 1 supersymmetry as ε = ¯nIεI where nI is a normalised
+19Introducing an orthogonal vector ωi (such that vω = 1) we can also write more covariantly, u =
+Y (Sv + ω).
+26
+
+PAGE 28
+SU(2)R doublet ¯nI (satisfying ¯nInI = 1). Writing n1 = a and n2 = ¯b, one then has the
+U(1)R doublet and singlet combinations
+eK/2W = eK+/2waPa,
+(w+, w−, w3) =
+ a2, −¯b2, −2a¯b
+
+,
+D = raPa.
+(r+, r−, r3) =
+ ab, ¯a¯b, |a|2 −|b|2
+,
+(4.12)
+corresponding to the superpotential and D-term respectively.20
+In general the equations governing N = 1 vacua [6] should be obtainable by extremis-
+ing the superpotential and setting the D-term to zero [16, 17]. Using the parameterisation
+above, the preserved supersymmetries take the form
+ǫ = ε+ ⊗eA/2 θ∗+ c.c. ,
+where
+θ =
+
+aη1
++
+¯bη2
+−
+
+,
+(4.13)
+and A is the warp factor in front of the four-dimensional metric. In the special case
+of |a|2 = |b|2, and for zero cosmological constant on the four-dimensional space, the
+corresponding equations, in our conventions, are [16, 47]
+d
+ e3A−ϕΦ′+
+= 0 ,
+
+d
+ e−ϕ Re Φ′−
+−iG
+
+1,0 = 0 ,
+d
+ e2A−ϕ Im Φ′−
+= 0 .
+(4.14)
+where
+Φ′+ = a¯bΦ+ ,
+Φ′−= abΦ−,
+(4.15)
+while ϕ is the ten-dimensional dilaton and |1,0 represents the projection onto the +i
+eigenspace using the Hitchin complex structure J+
+Hit. From (4.12) it is not hard to see
+that the ﬁrst two equations in (4.14) can essentially be obtained from variations of the
+superpotential while the third one corresponds to the D-term equation.
+An important point here is that although our original parameterisation of the N = 2
+supersymmetries was not completely generic, the N = 1 vacuum parameterisation is
+generic. Recall that the N = 2 SU (8) spinor ansatz given in (3.50) is restricted since
+some components vanish. Nonetheless, the N = 1 supersymmetry (4.13) can be written
+with this ansatz as aθ1+¯bθ2 and is completely generic. The stabiliser of θ is SU (7). Thus,
+in terms of structures, since the N = 1 vacuum is determined solely by θ, it deﬁnes a
+particular SU (7) structure on the exceptional generalised tangent space E. By contrast,
+as we have seen, to deﬁne the N = 2 eﬀective theory, we require two spinors θ1 and θ2
+deﬁning a SU (6) structure.
+In the language of E7(7), the preserved N = 1 symmetry picks a particular complex
+structure on the hyperk¨ahler cone, and uses it to deﬁne the N = 1 chiral ﬁeld inside the
+20 This is equivalent to making an SU (2)R rotation by the matrix
+M I
+J =
+ a
+¯b
+−b
+¯a
+
+,
+|a|2 + |b|2 = 1 .
+27
+
+PAGE 29
+hypermultiplet. In terms of ωa, ra, this reads21
+K(0)′
+3
+= raK(0)
+a
+,
+K(0)′
++
+= waK(0)
+a
+,
+(4.16)
+where K′
+3 corresponds to the particular N = 1 complex structure and K′
++ deﬁnes the
+chiral ﬁeld. Parameterising a and b as
+a = sin 1
+2θeiγ ,
+b = cos 1
+2θeiβ ,
+(4.17)
+and deﬁning ψ ≡γ −β, α ≡γ + β, we get raK(0)
+a
+= K(0)′
+3
+then matches the expres-
+sions (3.31). As mentioned before, γ + β can be identiﬁed with the U (1)R angle α in
+the compensator Y (see eq. 4.10), while θ and γ −β are the Euler angles. From the
+expression (4.15) for Φ′+ we see that there should be a rescaling of L by a¯b. Given the
+SU (8) covariant expression (3.58) we see that the phase of this rescaling corresponds to
+diagonal U(1) in the U(2)R symmetry given by θI 7→ei(γ−β)/2θI.
+For the case |a|2 = |b|2 = 1 corresponding to θ = −π/2, given we can always absorb
+two phases by redeﬁning η1 and η2, without loss of generality we can set γ+β = α = π/2,
+and ψ = π/2, so that
+K(0)′
+3
+= K(0)
+2
+,
+K(0)′
++
+= −K(0)
+1
++ iK(0)
+3
+.
+(4.18)
+By comparing the expressions (3.25) and (3.49) for K(0)′
+a
+and L one is led the naive
+conjecture for the generic E7(7) form of the N = 1 equations
+D
+ e3A−ϕL
+
+= 0 ,
+(4.19)
+DK+|1,0 = 0 ,
+(4.20)
+D
+ e2AK3
+
+= 0 .
+(4.21)
+Here Ka = eC−e−BK(0)′
+a
+and the projector |1,0 now projects onto the +i eigenspace of
+JSK, the complex structure on the 56 representation deﬁned by L and given in (3.45).
+Furthermore, in the ﬁrst line we are taking the projection onto the 133 representation
+of DL ∈56 × 56. Finally we also choose Y = e−ϕ in the expression (4.7) for ui.
+To investigate to what extent these equations hold, we again focus on the simple
+|a|2 = |b|2 case. Consider ﬁrst the equation (4.19) for L. We need the projection onto
+the 133 representation of the symmetric 56 × 56 tensor product. It is given by
+(λ · λ′)i
+j = 2ǫjk(λi · λ′k) ,
+(λ · λ′)A
+B = 2ǫij
+
+(λiAλ′j
+B) + (λ′iAλj
+B)
+
++
+
+λ+, ΓA
+Bλ′+
+,
+(λ · λ′)i−=
+ λiAΓAλ′+ + λ′iAΓAλ+
+.
+(4.22)
+Writing L = eC−e−BL0 = eC−(0, Φ+), using the same generalised connection as in ap-
+pendix B one ﬁnds
+e−C−D
+ e3A−ϕL
+i
+j =
+√
+2e3A−ϕvivj
+
+Φ+, G
+
+,
+e−C−D
+ e3A−ϕL
+A
+B = 0 ,
+e−C−D
+ e3A−ϕL
+i−= vid
+ e3A−ϕΦ+
+,
+(4.23)
+21 One can also derive these expressions from (3.59), rotating the SU (8) spinors θI by the matrix M
+given in footnote 20.
+28
+
+PAGE 30
+where we have used G =
+√
+2dC−. We see that the spinor component D(e3A−ϕL)i−=
+0 indeed reproduces the ﬁrst equation (4.14). The other components vanish provided
+
+Φ+, G
+
+= 0, but it is easy to see that this is implied by the ﬁrst equation in (4.14).
+Let us now turn to the hypermultiplet equations. Using the results in appendix B
+and the relations (4.18) we ﬁnd for the spinor components
+e−C−D
+ e2AK3
++ = d
+
+e2A(uv) Im Φ−
+,
+e−C−(DK+)+ = −d
+
+(uv) ReΦ−
+−i(uv)(¯uv)
+√−2iu¯u
+q
+i
+
+Φ−, ¯Φ−
+dC−
+(4.24)
+Given Y = e−ϕ we have
+uv = −e−ϕ ,
+−iu¯u = 2e−2ϕe−2φ = 2e−4ϕ vol6 ,
+(4.25)
+where we have used (2.18). Since in our conventions, i
+
+Φ−, ¯Φ−
+= 8 vol6 (see for in-
+stance (2.19)) we then have
+e−C−D
+ e2AK3
++ = −d
+ e2A−ϕ Im Φ−
+,
+e−C−(DK+)+ = d
+ e−ϕ Re Φ−
+−iG,
+(4.26)
+On the subspace L = e−BL(0) = (0, Φ+), by equation (3.49), we have for the spinor
+component of the 56 that (JSK ·ν)+ = J+
+Hit·ν+. Hence we see that the spinor components
+of (4.20) and (4.21) do indeed reproduce the corresponding equations in (4.14).
+In summary, we see that we have reproduced the N = 1 vacuum equations in
+E7(7) form.
+The L equation is equivalent to the ﬁrst equation in (4.14).
+Decompos-
+ing into SL(2, R) × O(6, 6) representations we see that spinor components of the Ka
+equations (4.20) and (4.21) are equivalent the the second and third equations in (4.14).
+However, it is harder to see how the vector components of these equations can be implied
+by supersymmetry. It seems likely that one would need to take further projections to get
+a consistent E7(7) form of the equations.
+5
+Conclusions
+In this paper we studied N = 2 backgrounds of type II string theory from a geometric
+viewpoint where the U-duality group is manifest. The formalism we have used, known
+as extended or exceptional generalised geometry, has been developed in refs. [27, 28] and
+is an extension of Hitchin’s generalised geometry [7]. The latter framework “uniﬁes” the
+tangent and cotangent bundles, such that the T-duality group acting on the degrees of
+freedom in the NS-sector is manifest. Incorporating the RR-sector requires a formalism
+where the full U-duality group acts on some even larger generalised tangent bundle.
+For the case at hand the T-duality group is O(6, 6) and the NS degrees of freedom
+are most conveniently represented by two pure spinors Φ±. Each of them is invariant
+under an SU (3, 3) action and thus parameterises a speciﬁc O(6, 6) orbit corresponding
+(after a quotient by C∗) to the special K¨ahler cosets MSK = O(6, 6)/U(3, 3). Together,
+given a compatibility condition, the two spinors deﬁne an SU(3) ×SU (3) structure. The
+29
+
+PAGE 31
+two SU (3) factors correspond to the invariance groups of the two six-dimensional spinors
+used to deﬁne the N = 2 background. Incorporating the RR degrees of freedom enlarges
+the T-duality group to the U-duality group E7(7) which contains SL(2, R) × O(6, 6) as
+one of its subgroups. Furthermore, N = 2 requires that one of the special K¨ahler cosets
+is promoted to a quaternionic K¨ahler manifold by means of the c-map [20].
+In this paper we showed that the NS and RR degrees of freedom which populate
+N = 2 hypermultiplets can be embedded into the 133 adjoint representation of E7(7)
+and that they parameterise an E7(7) orbit corresponding to the Wolf-space MQK =
+E7(7) /(SO∗(12) × SU (2)) which is indeed quaternionic-K¨ahler.
+A point in the orbit
+is deﬁned by a triplet of real elements Ka ﬁxing an SU (2) subgroup of E7(7). The SU (2)
+action is the R-symmetry of the N = 2 theory. We also constructed the correspond-
+ing hyperk¨ahler cone and hyperk¨ahler potential following refs. [23, 34, 35] and showed
+agreement with the expressions given in [36, 37].
+Similarly, we demonstrated that the degrees of freedom which reside in N = 2 vector
+multiplets can be embedded into a complex element L of the 56 fundamental represen-
+tation of E7(7). This parameterises an E7(7) orbit, corresponding, after a C∗quotient,
+to the special K¨ahler coset MSK = E7(7) /(E6(2) ×U(1)). Again the U(1) factor is an R-
+symmetry, which combines with the SU(2) factor from the hypermultiplets to give U(2)R.
+The corresponding K¨ahler potential is given by the logarithm of the square root of the
+E7(7) quartic invariant in complete analogy with the appearance of the Hitchin function
+invariant in the O(6, 6) formalism [7, 10, 11]. We noted that to ﬁll out the full E7(7) orbit
+in the 56 representation requires generalising the original N = 2 spinor ansatz to its
+most generic form (3.57). These six-dimensional spinors transform in the fundamental
+representation of the local U-duality group SU (8). By considering an N = 2 background
+one picks out two SU (8) spinors deﬁning an SU (6) structure which decomposes into
+SU (3) × SU (3) under the T-duality subgroup. Correspondingly, there is a compatibility
+condition between the hypermultiplet Ka and vector multiplet L such that together they
+are indeed invariant under a SU (6) subgroup of E7(7).
+Finally, the Killing prepotentials (or moment maps) Pa which determine the scalar
+potential and couple the two sectors, can also be given in an E7(7) language. Unlike
+the kinetic term moduli spaces, the prepotentials depend on the diﬀerential structure
+of the exceptional generalised geometry. Nonetheless they also take a simple form in
+terms of E7(7) objects which we demonstrated agrees with the expressions calculated
+in [11]. We ended by considering supersymmetric N = 1 backgrounds. Without giving a
+complete description we showed that there are natural E7(7) expressions which encode the
+supersymmetry conditions. However, there are indications that these probably require
+additional projections to give a fully consistent E7(7) form.
+There are a number of natural extensions of this work one could consider. First is
+of course to consider other dimensions and numbers of preserved supersymmetries [48].
+The former corresponds to exceptional generalised geometry with diﬀerent Ed(d) U-duality
+groups, while the latter correspond to diﬀerent preserved structures within these groups.
+It is important to note that the formulation presented here is not E7(7) covariant: in
+particular the E7(7) symmetry is broken by picking out the particular GL(6, R) subgroup
+which acts on the tangent space. The actual symmetry group for the supergravity theory
+is a semidirect product of this diﬀeomorphism symmetry group with the gauge potential
+transformations given in (3.17). Together these form a parabolic subgroup of E7(7). Our
+30
+
+PAGE 32
+formalism is covariant with respect to this subgroup.
+One could also consider more
+general so-called “non-geometrical” backgrounds [49], which in some sense incorporate
+more of the full U-duality group.
+From the evidence of the O(6, 6)-formulation, one
+expects the E7(7) expressions for the kinetic and potential terms would hold in this more
+general context. Furthermore, there also seems to be an intriguing relation between the
+moduli spaces which we discussed in this paper and the charge orbits and moduli spaces
+of extremal black hole attractor geometries [50].22
+One could also consider what this formulation implies for the topological string, which
+describes the vector multiplet sector of type II supergravity. It has been argued [51]
+that the O(6, 6) Hitchin functionals are the actions of the corresponding target space
+theories. In the E7(7) formalism, we have seen that the kinetic terms are now described
+by the analogue of a Hitchin function on R+ × E7(7) / E6(2) given by the square-root
+of the E7(7) quartic invariant. Interestingly, as in the O(6, 6) case this space is also a
+so-called “prehomogeneous space”, implying it is an open orbit in the 56 dimensional
+representation.
+It would be very interesting to see how the one-loop calculations of
+ref. [52] are encoded in this U-duality context, and how this is connected to the extension
+of the topological string to M-theory.
+Acknowledgements
+This work is supported by DFG – The German Science Foundation, the European
+RTN Programs HPRN-CT-2000-00148, HPRN-CT-2000-00122, HPRN-CT-2000-00131,
+MRTN-CT-2004-005104, MRTN-CT-2004-503369. M.G. is partially supported by ANR
+grant BLAN06-3-137168.
+We have greatly beneﬁted from conversations and correspondence with P. C´amara,
+S. Ferrara, B. Pioline, M. Rocek, F. Saueressig and S. Vandoren.
+A
+A GL(6, R) subgroup of E7(7)
+We would like to identify a particular embedding of GL(6, R) in SL(2, R)×O(6, 6) ⊂E7(7).
+This will correspond to the action of diﬀeomorphisms on the exceptional tangent space
+in the EGG. For the O(6, 6) factor, we simply take the embedding of GL(6, R) that
+arises in generalised geometry. If a ∈GL(6, R) acts on vectors y ∈TM as y 7→ay,
+then GL(6, R) ⊂O(6, 6) acts on the fundamental 12 representation as, given y + ξ ∈
+TM ⊕T ∗M,
+
+y
+ξ
+
+7→
+
+a
+0
+0
+(a−1)T
+ 
+y
+ξ
+
+.
+(A.1)
+We also choose to embed GL(6, R) in the SL(2, R) factor so that, an SL(2, R) doublet wi
+transforms as
+w1
+w2
+
+7→
+(det a)−1/2
+0
+0
+(det a)1/2
+ w1
+w2
+
+.
+(A.2)
+22We thank S. Ferrara for drawing our attention to this relation.
+31
+
+PAGE 33
+Putting these two ingredients together implies that elements λ = (λiA, λ+) of the 56
+representation of E7(7), decomposing under GL(6, R), transform as sections of a bundle
+E0 =
+ Λ6T ∗M
+−1/2 ⊗
+h
+TM ⊕T ∗M
+⊕Λ5T ∗M ⊕
+ T ∗M ⊗Λ6T ∗M
+
+⊕ΛevenT ∗M
+i
+,
+(A.3)
+where
+λ1A ∈
+ Λ6T ∗M
+−1/2 ⊗
+h
+Λ5T ∗M ⊕
+ T ∗M ⊗Λ6T ∗M
+ i
+,
+λ2A ∈
+ Λ6T ∗M
+−1/2 ⊗
+h
+TM ⊕T ∗M
+i
+,
+λ+ ∈
+ Λ6T ∗M
+−1/2 ⊗ΛevenT ∗M .
+(A.4)
+It will be helpful to also deﬁne spaces weighted by a power of Λ6T ∗M so
+Ep = (Λ6T ∗M)p ⊗E0 ,
+(A.5)
+such that
+E ≡E1/2 = TM ⊕T ∗M ⊕Λ5T ∗M ⊕
+ T ∗M ⊗Λ6T ∗M
+
+⊕ΛevenT ∗M ,
+E−1/2 = TM ⊕T ∗M ⊕Λ5TM ⊕
+ TM ⊗Λ6TM
+
+⊕ΛevenTM .
+(A.6)
+Thus we can write a general element of E as
+λ = y + ξ + ν + π + λ+ ∈E ,
+(A.7)
+where y ∈TM, ξ ∈T ∗M, ν ∈Λ5T ∗M, π ∈T ∗M⊗Λ6T ∗M and λ+ ∈ΛevenT ∗M such that
+the (2, 12) components are λ2A = ym+ξm and λ1m = νm
+1...6 (with νm
+m1...m6 = 6δm
+[m1νm2...m6])
+and λ1
+m = πm,1...6.
+One can also make a corresponding decomposition of the adjoint representation. We
+ﬁnd
+A0 = (TM ⊗T ∗M) ⊕Λ2TM ⊕Λ2T ∗M
+⊕R ⊕Λ6T ∗M ⊕Λ6TM ⊕ΛoddT ∗M ⊕ΛoddTM ,
+(A.8)
+where µ = (µij, µAB, µi−) ∈A0 has
+µ1
+1 = −µ2
+2 ∈R ,
+µ1
+2 ∈Λ6T ∗M ,
+µ2
+1 ∈Λ6TM ,
+µA
+B ∈(TM ⊗T ∗M) ⊕Λ2TM ⊕Λ2T ∗M ,
+µ1−∈ΛoddT ∗M ,
+µ2−∈ΛoddTM .
+(A.9)
+We also deﬁne Ap = (Λ6T ∗M)p ⊗A0.
+Note that we can identify a subgroup of E7(7) generated by the forms in A0. Intro-
+ducing a vector vi with v1 = 1 and v2 = 0, we can write them in a more covariant way
+as
+µi
+j = ˜B1...6vivj ,
+˜B ∈Λ6T ∗M ,
+µA
+B =
+0
+0
+B
+0
+
+,
+B ∈Λ2T ∗M ,
+µi−= viC−,
+C−∈ΛoddT ∗M ,
+(A.10)
+32
+
+PAGE 34
+with the sub-algebra in e7(7)
+
+B + ˜B + C−, B′ + ˜B′ + C−′
+= 2
+
+C−, C−′
++ B ∧C−′ −B′ ∧C−,
+(A.11)
+that is, the commutator corresponds to a transformation with ˜B′′ = 2
+
+C−, C−′
+and
+C−′′ = B ∧C−′ −B′ ∧C−. Note that this Lie algebra is nilpotent with index four. The
+adjoint action of the subalgebra on an element λ = y + ξ + ν + π + λ+ is given by
+ B + ˜B + C−
+· λ = −iyB +
+ iy ˜B +
+
+C−, ˆλ+
++
+ jB ∧ν + jξ ∧˜B +
+
+C−, jλ+
++ B ∧λ+ ,
+(A.12)
+where we are using the notation that the symbol j denotes the pure T ∗M index of
+T ∗M ⊗Λ6T ∗M and the symbol ˆdenotes the TM index of TM ⊗Λ6T ∗M ≃Λ5T ∗M. In
+particular, given for any one-form γ, the element
+
+C−, ˆλ+
+∈Λ5T ∗M is given by
+γ ∧
+
+C−, ˆλ+
+=
+
+C−, γ ∧λ+
+.
+(A.13)
+while the elements jB ∧ν and
+
+C−, jλ+
+in T ∗M ⊗Λ6T ∗M are given by, for any vector
+ym,
+ym (jB ∧ν)m,m1...m6 =
+ iyB ∧ν
+
+m1...m6 ,
+ym 
+jξ ∧˜B
+
+m,m1...m6 =
+ iyξ
+ ˜Bm1...m6 ,
+ym
+C−, jλ+
+m,m1...m6 =
+
+C−, iyλ+
+m1...m6 .
+(A.14)
+B
+Computing DKa
+We would like to calculate the derivative DKa where D ∈56 is the embedding of the
+exterior derivative given by (4.2) and in the action of D on Ka we project onto the 56
+representation.
+It will be useful to introduce explicit indices for the components of the 56 and 133
+representations. Viewed as elements of the larger symplectic group Sp(56, R) ⊃E7(7)
+we can write DA, and KAB
+a
+= KBA
+a , where A, B = 1, . . . , 56 . One then has (DKa)C =
+SABDAKBC
+a
+where SAB is the symplectic structure (3.4). Given µAB ∈133 and some
+E7(7) group element g such that µ′ = gµ we have
+(Dµ′)C = SABDA 
+gB
+B′gC
+C′µB′C′
+= gC
+C′ g−1A′
+ASA′B′
+h
+DAµB′C′ + AAB′
+BµBC′ + AAC′
+BµB′Bi
+,
+(B.1)
+where we have used SA′B′gA′
+AgB′
+B = SAB and have introduced the generalised connection
+AAB
+C = g−1B
+D
+ DAgD
+C
+
+∈56 × 133 .
+(B.2)
+We now specialize to the case where g = eC−. Given D = (vidA, 0) and using (3.13)
+and (3.6) we then have g−1A′
+ADA = DA′.23 Hence the connection is given by
+ e−C−DAeC−B
+C = DAδB
+C + AAB
+C .
+(B.3)
+23Note that more generally all the form ﬁeld transformations leave D invariant, that is, e−C−D =
+e−˜
+BD = eBD = D.
+33
+
+PAGE 35
+This can then be calculated using a variant of the Baker–Campbell–Hausdorﬀformula
+which, in this context, reads
+e−C−dAeC−= dA · 1 + dAC−+ 1
+2![dAC−, C−] + 1
+3![[dAC−, C−], C−] + . . . .
+(B.4)
+This series truncates at second order with the only non-vanishing component24
+[dAC−, C−]i
+j = 2vivj
+
+dAC−, C−
+.
+(B.5)
+Given (e−C−DAKa)BC =
+
+(e−C−DAeC−)e−BK(0)
+a
+BC and using (3.25) and the adjoint
+action of the generalised connection we ﬁnd the nonzero components
+ e−C−DiAK+
+j
+k = vi
+dAC−, Φ−  vjuk + ujvk
+
+,
+ e−C−DiAK+
+B
+C = vi(uv)
+
+dAC, ΓB
+CΦ−
+,
+ e−C−DiAK+
+j−= vidA  ujΦ−
+−vi(uv)
+
+dAC−, C−
+vjΦ−,
+(B.6)
+with (e−C−DAK−)BC given by complex conjugation and
+ e−C−DiAK3
+j
+k = 1
+4vidA 
+κ−1i
+
+Φ−, ¯Φ−
+(uj¯uk + ¯ujuk)
+
+−1
+4viiκ−1
+Φ−, ¯Φ−
+×
+
+dAC−, C− 
+(uv)(vj¯uk + ¯ujvk) + (¯uv)(vjuk + ujvk)
+
+,
+ e−C−DiAK3
+B
+C = −1
+4vidA 
+κ−1i
+
+Φ−, ¯Φ−
+(−iu¯u)J B
+C
+
+,
+ e−C−DiAK3
+j−= −1
+4viκ−1i
+
+Φ−, ¯Φ−
+×
+h  (¯uv)uj + (uv)¯uj
+dAC−−1
+4vj(u¯u)JBCΓBCdAC−i
+.
+(B.7)
+Using (B.1) and (3.5) to project on the 56 component we then have
+e−C− DK+
+iA = vi(uv)
+ 
+dAC−, Φ−
++
+
+Φ−, ΓA
+BdBC−
+,
+e−C− DK+
++ = d
+
+(uv)Φ−
+,
+(B.8)
+with again the complex conjugate expressions for DK−and
+e−C− DK3
+iA = 1
+4dA 
+κ−1i
+
+Φ−, ¯Φ−  (¯uv)ui + (uv)¯ui
+−1
+4vidB 
+κ−1i
+
+Φ−, ¯Φ−
+(−iu¯u)J A
+B
+
+−1
+2κ−1vi(uv)(¯uv)i
+
+Φ−, ¯Φ−
+dAC−, C−
+,
+e−C− DK3
++ = −1
+2κ−1i
+
+Φ−, ¯Φ−
+(uv)(¯uv)dC−.
+(B.9)
+References
+[1] J. P. Gauntlett,
+N. W. Kim,
+D. Martelli and D. Waldram,
+“Fivebranes
+wrapped on SLAG three-cycles and related geometry,” JHEP 0111 (2001) 018
+[arXiv:hep-th/0110034].
+24We have vivi = ǫijvivj = 0.
+34
+
+PAGE 36
+J. P. Gauntlett, D. Martelli, S. Pakis and D. Waldram, “G-structures and wrapped
+NS5-branes,” Commun. Math. Phys. 247 (2004) 421 [arXiv:hep-th/0205050].
+J. P. Gauntlett, D. Martelli and D. Waldram, “Superstrings with intrinsic torsion,”
+Phys. Rev. D 69, 086002 (2004) [arXiv:hep-th/0302158].
+[2] For reviews see, for example,
+M. Gra˜na, “Flux compactiﬁcations in string theory:
+A comprehensive review,”
+Phys. Rept. 423 (2006) 91 [arXiv:hep-th/0509003],
+M. R. Douglas and S. Kachru, “Flux compactiﬁcation,” arXiv:hep-th/0610102,
+R. Blumenhagen, B. K¨ors, D. L¨ust and S. Stieberger, “Four-dimensional string com-
+pactiﬁcations with D-branes, orientifolds and ﬂuxes,” arXiv:hep-th/0610327,
+B. Wecht, “Lectures on Nongeometric Flux Compactiﬁcations,” Class. Quant. Grav.
+24 (2007) S773 [arXiv:0708.3984 [hep-th]],
+H. Samtleben, “Lectures on Gauged Supergravity and Flux Compactiﬁcations,”
+Class. Quant. Grav. 25 (2008) 214002 [arXiv:0808.4076 [hep-th]],
+and references therein.
+[3] M. Rocek, “Modiﬁed Calabi–Yau manifolds with torsion,” in: Essays on Mirror
+Manifolds, ed. S.T. Yau (International Press, Hong Kong, 1992).
+S. J. Gates, C. M. Hull, and M. Rocek, “Twisted Multiplets And New Supersym-
+metric Nonlinear Sigma Models,” Nucl. Phys. B248 (1984) 157.
+C. M. Hull, “Superstring Compactiﬁcations With Torsion And Space-Time Super-
+symmetry,” in Turin 1985, Proceedings, Superuniﬁcation and Extra Dimensions,
+347.
+C. M. Hull, “Compactiﬁcations Of The Heterotic Superstring,” Phys. Lett. B 178
+(1986) 357.
+A. Strominger, “Superstrings With Torsion,” Nucl. Phys. B 274 (1986) 253.
+[4] S. Chiossi and S. Salamon, “The Intrinsic Torsion of SU(3) and G2 Structures,” in
+Diﬀerential geometry, Valencia, 2001, pp. 115, arXiv: math.DG/0202282.
+[5] S. Salamon, Riemannian Geometry and Holonomy Groups, Vol. 201 of Pitman Re-
+search Notes in Mathematics, Longman, Harlow, 1989.
+D. Joyce, “Compact Manifolds with Special Holonomy”, Oxford University Press,
+Oxford, 2000.
+[6] M. Gra˜na, R. Minasian, M. Petrini and A. Tomasiello, “Generalized structures of
+N = 1 vacua,” JHEP 0511 (2005) 020 [arXiv:hep-th/0505212].
+[7] N. Hitchin, “The geometry of three-forms in six and seven dimensions,” J. Diﬀ.
+Geom. 55 (2000), no.3 547 [arXiv: math.DG/0010054],
+N. Hitchin, “Stable forms and special metrics,” in “Global Diﬀerential Geometry:
+The Mathematical Legacy of Alfred Gray”, M.Fernandez and J.A.Wolf (eds.), Con-
+temporary Mathematics 288, American Mathematical Society, Providence (2001)
+[arXiv:math.DG/0107101],
+35
+
+PAGE 37
+N. Hitchin, “Generalized Calabi-Yau manifolds,” Quart. J. Math. Oxford Ser. 54
+(2003) 281 [arXiv:math.dg/0209099].
+[8] M. Gualtieri, “Generalized Complex Geometry,” Oxford University DPhil thesis
+(2004) [arXiv:math.DG/0401221].
+C. Jeschek and F. Witt, “Generalised G2-structures and type IIB superstrings,”
+JHEP 0503 (2005) 053 [arXiv:hep-th/0412280].
+[9] S.
+Gurrieri,
+J.
+Louis,
+A.
+Micu
+and
+D.
+Waldram,
+“Mirror
+symmetry
+in
+generalized
+Calabi–Yau
+compactiﬁcations,”
+Nucl.
+Phys.
+B
+654
+(2003)
+61
+[arXiv:hep-th/0211102].
+S. Gurrieri and A. Micu, “Type IIB theory on half-ﬂat manifolds,” Class. Quant.
+Grav. 20 (2003) 2181 [arXiv:hep-th/0212278].
+[10] M. Gra˜na, J. Louis and D. Waldram, “Hitchin functionals in N = 2 supergravity,”
+JHEP 0601 (2006) 008 [arXiv:hep-th/0505264].
+[11] M. Grana, J. Louis and D. Waldram, “SU (3) × SU (3) compactiﬁcation and mirror
+duals of magnetic ﬂuxes,” JHEP 0704, 101 (2007) [arXiv:hep-th/0612237].
+[12] B. de Wit and H. Nicolai, “D = 11 Supergravity With Local SU (8) Invariance,”
+Nucl. Phys. B 274, 363 (1986).
+[13] I. Benmachiche and T. W. Grimm, “Generalized N = 1 orientifold compactiﬁcations
+and the Hitchin functionals,” Nucl. Phys. B 748 (2006) 200 [arXiv:hep-th/0602241].
+[14] A. K. Kashani-Poor and R. Minasian, “Towards reduction of type II theories on
+SU(3) structure manifolds,” JHEP 0703 (2007) 109 [arXiv:hep-th/0611106].
+[15] R. D’Auria, S. Ferrara and M. Trigiante, “On the supergravity formulation of mir-
+ror symmetry in generalized Calabi-Yau manifolds,” Nucl. Phys. B 780 (2007) 28
+[arXiv:hep-th/0701247].
+[16] P. Koerber and L. Martucci, “From ten to four and back again: how to generalize
+the geometry,” JHEP 0708 (2007) 059 [arXiv:0707.1038 [hep-th]].
+[17] D. Cassani and A. Bilal, “Eﬀective actions and N = 1 vacuum conditions from
+SU(3) × SU (3) compactiﬁcations,” JHEP 0709, 076 (2007) [arXiv:0707.3125 [hep-
+th]],
+D. Cassani, “Reducing democratic type II supergravity on SU (3) × SU (3) struc-
+tures,” JHEP 0806 (2008) 027 [arXiv:0804.0595 [hep-th]].
+[18] D. Cassani and A. K. Kashani-Poor, “Exploiting N = 2 in consistent coset reduc-
+tions of type IIA,” arXiv:0901.4251 [hep-th].
+[19] L. Martucci, “On moduli and eﬀective theory of N = 1 warped ﬂux compactiﬁca-
+tions,” arXiv:0902.4031 [hep-th].
+[20] S. Cecotti, S. Ferrara and L. Girardello, “Geometry of Type II Superstrings and the
+Moduli of Superconformal Field Theories,” Int. J. Mod. Phys. A 4, 2475 (1989).
+36
+
+PAGE 38
+[21] S. Ferrara and S. Sabharwal, “Dimensional Reduction Of Type II Superstrings,”
+Class. Quant. Grav. 6 (1989) L77,
+S. Ferrara and S. Sabharwal, “Quaternionic Manifolds For Type II Superstring Vacua
+Of Calabi-Yau Spaces,” Nucl. Phys. B 332 (1990) 317.
+[22] S. Salamon, “Quaternionic K¨ahler manifolds,” Invent Math. 67 (1982) 143,
+S. Salamon, “Diﬀerential geometry of quaternionic manifolds,” Ann. Sci. ENS Supp.
+19 (1986),
+A. Swann, “Aspects symplectiques de la geometrie quaternionique,” C.R. Acad. Sci.
+Paris, t. 308 (1989) 225.
+[23] A. Swann, “HyperK¨ahler and quaternionic K¨ahler geometry”, Math. Ann. 289, 421
+(1991).
+[24] B. de Wit, B. Kleijn and S. Vandoren, “Superconformal hypermultiplets,” Nucl.
+Phys. B 568 (2000) 475 [arXiv:hep-th/9909228],
+B. de Wit, M. Rocek and S. Vandoren, “Hypermultiplets, hyperk¨ahler cones and
+quaternion-K¨ahler geometry,” JHEP 0102, 039 (2001) [arXiv:hep-th/0101161],
+B. de Wit, M. Rocek and S. Vandoren, “Gauging isometries on hyperK¨ahler
+cones
+and
+quaternion-K¨ahler
+manifolds,”
+Phys.
+Lett.
+B
+511,
+302
+(2001)
+[arXiv:hep-th/0104215].
+[25] A. Van Proeyen, “Lecture notes on N=2 supergravity”,
+http://itf.fys.kuleuven.be/∼toine/LectParis.pdf.
+[26] C. M. Hull and P. K. Townsend, “Unity of superstring dualities,” Nucl. Phys. B
+438, 109 (1995) [arXiv:hep-th/9410167].
+[27] C. M. Hull, “Generalised geometry for M-theory,” JHEP 0707, 079 (2007)
+[arXiv:hep-th/0701203].
+[28] P. P. Pacheco and D. Waldram, “M-theory, exceptional generalised geometry and
+superpotentials,” JHEP 0809, 123 (2008) [arXiv:0804.1362 [hep-th]].
+[29] P. C. West,
+“E11
+and M theory,”
+Class. Quant. Grav. 18,
+4443 (2001)
+[arXiv:hep-th/0104081],
+P. C. West, “E11, SL(32) and central charges,” Phys. Lett. B 575, 333 (2003)
+[arXiv:hep-th/0307098].
+[30] T. Damour, M. Henneaux and H. Nicolai, “E10 and a ‘small tension expansion’ of
+M Theory,” Phys. Rev. Lett. 89, 221601 (2002) [arXiv:hep-th/0207267],
+A. Kleinschmidt and H. Nicolai, “E10 and SO(9, 9) invariant supergravity,” JHEP
+0407, 041 (2004) [arXiv:hep-th/0407101].
+[31] C. Hillmann, “Generalized E7(7) coset dynamics and D = 11 supergravity,” JHEP
+0903, 135 (2009) [arXiv:0901.1581 [hep-th]].
+[32] J. A. Wolf, “Complex homogeneous contact manifolds and quaternionic symmetric
+spaces,” J. of Math. Mech., 14 (1965), 1033.
+37
+
+PAGE 39
+[33] D. V. Alekseevskii, “Classiﬁcation of quaternionic spaces with transitive solvable
+group of motions,” Math. USSR Izvestija 9 (1975) 297.
+[34] P. Kobak and A. Swann, “Hyperk¨ahler Potentials in Cohomogeneity Two”,
+arXiv:math/0001024.
+[35] P. Kobak and A. Swann, “The Hyperk¨ahler Geometry Associated to Wolf Spaces”,
+arXiv:math/0001025.
+[36] M. Rocek, C. Vafa and S. Vandoren, “Hypermultiplets and topological strings,”
+JHEP 0602, 062 (2006) [arXiv:hep-th/0512206],
+M. Rocek, C. Vafa and S. Vandoren, “Quaternion-Kahler spaces, hyperkahler cones,
+and the c-map,” arXiv:math.dg/0603048.
+[37] A. Neitzke, B. Pioline and S. Vandoren, “Twistors and black holes,” JHEP 0704
+(2007) 038 [arXiv:hep-th/0701214].
+[38] A. Strominger, “Yukawa Couplings In Superstring Compactiﬁcation,” Phys. Rev.
+Lett. 55 (1985) 2547,
+A. Strominger, “Special Geometry,” Commun. Math. Phys. 133 (1990) 163,
+P. Candelas and X. de la Ossa, “Moduli Space Of Calabi–Yau Manifolds,” Nucl.
+Phys. B 355, 455 (1991).
+[39] A. Sim, “Exceptionally Generalised Geometry and Supergravity,” Imperial College
+London PhD Thesis, October 2008.
+[40] E. A. Bergshoeﬀ, M. de Roo, S. F. Kerstan, T. Ortin and F. Riccioni, “IIA ten-forms
+and the gauge algebras of maximal supergravity theories,” JHEP 0607, 018 (2006)
+[arXiv:hep-th/0602280].
+[41] T. W. Grimm and J. Louis, “The eﬀective action of type IIA Calabi-Yau orien-
+tifolds,” Nucl. Phys. B 718, 153 (2005) [arXiv:hep-th/0412277].
+[42] S. Cecotti, “Homogeneous Kahler manifolds and T-algebras in N = 2 supergravity
+and superstrings,” Commun. Math. Phys. 124, 23 (1989).
+[43] B. de Wit and A. Van Proeyen, “Hidden symmetries, special geometry and quater-
+nionic manifolds,” Int. J. Mod. Phys. D 3 (1994) 31 [arXiv:hep-th/9310067],
+B. de Wit, F. Vanderseypen and A. Van Proeyen, “Symmetry structure of special
+geometries,” Nucl. Phys. B 400, 463 (1993) [arXiv:hep-th/9210068].
+[44] A. O. Barut and A. J. Bracken, “The remarkable algebra so∗(2n), its representations,
+its Cliﬀord algebra and potential applications,” J. Phys. A 23, 641 (1990),
+M. Henneaux, D. Persson and P. Spindel, “Spacelike Singularities and Hidden Sym-
+metries of Gravity,” Living Rev. Rel. 11, 1 (2008) [arXiv:0710.1818 [hep-th]].
+[45] M. Sato and T. Kimura, “A classiﬁcation of irreducible prehomogeneous vector
+spaces and their relative invariants,” Nagoya Mathematical Journal, 65 1 (1977).
+38
+
+PAGE 40
+[46] M. Gunaydin, G. Sierra and P. K. Townsend, “Exceptional Supergravity Theories
+And The Magic Square,” Phys. Lett. B 133, 72 (1983),
+M. Gunaydin, G. Sierra and P. K. Townsend, “The Geometry Of N = 2 Maxwell-
+Einstein Supergravity And Jordan Algebras,” Nucl. Phys. B 242, 244 (1984).
+[47] A. Tomasiello, “Reformulating Supersymmetry with a Generalized Dolbeault Oper-
+ator,” JHEP 0802, 010 (2008) [arXiv:0704.2613 [hep-th]].
+[48] H. Triendl and J. Louis, “Type II compactiﬁcations on manifolds SU(2) × SU(2)
+structure,” arXiv:0904.2993 [hep-th].
+[49] S. Hellerman, J. McGreevy and B. Williams, “Geometric constructions of nongeo-
+metric string theories,” JHEP 0401, 024 (2004) [arXiv:hep-th/0208174],
+A. Dabholkar and C. Hull, “Duality twists, orbifolds, and ﬂuxes,” JHEP 0309, 054
+(2003) [arXiv:hep-th/0210209],
+S. Kachru, M. B. Schulz, P. K. Tripathy and S. P. Trivedi, “New supersymmetric
+string compactiﬁcations,” JHEP 0303, 061 (2003) [arXiv:hep-th/0211182],
+A. Flournoy, B. Wecht and B. Williams, “Constructing nongeometric vacua in string
+theory,” Nucl. Phys. B 706, 127 (2005) [arXiv:hep-th/0404217],
+J. Shelton, W. Taylor and B. Wecht, “Nongeometric Flux Compactiﬁcations,” JHEP
+0510, 085 (2005) [arXiv:hep-th/0508133],
+K. S. Narain, M. H. Sarmadi and C. Vafa, “Asymmetric orbifolds: Path integral and
+operator formulations,” Nucl. Phys. B 356, 163 (1991).
+[50] See, for example,
+S. Ferrara, K. Hayakawa and A. Marrani, “Lectures on Attractors and Black Holes,”
+Fortsch. Phys. 56 (2008) 993 [arXiv:0805.2498 [hep-th]],
+S. Bellucci, S. Ferrara and A. Marrani, “Attractors in Black,” Fortsch. Phys. 56
+(2008) 761 [arXiv:0805.1310 [hep-th]],
+and references therein.
+[51] R. Dijkgraaf, S. Gukov, A. Neitzke and C. Vafa, “Topological M-theory as uni-
+ﬁcation of form theories of gravity,” Adv. Theor. Math. Phys. 9, 603 (2005)
+[arXiv:hep-th/0411073],
+A. A. Gerasimov and S. L. Shatashvili,
+“Towards integrability of topologi-
+cal strings. I: Three-forms on Calabi-Yau manifolds,” JHEP 0411, 074 (2004)
+[arXiv:hep-th/0409238],
+N. Nekrasov, “A la recherche de la M-theorie perdue. Z theory: Casing M/F theory,”
+arXiv:hep-th/0412021.
+[52] V. Pestun and E. Witten, “The Hitchin functionals and the topological B-model at
+one loop,” Lett. Math. Phys. 74, 21 (2005) [arXiv:hep-th/0503083].
+39

@@ -1,0 +1,32 @@
+schema_version: '1.0'
+subject: Paired heterotic topological threshold response
+status: locally-verified
+review: AI-assisted self-assessment; no independent peer review
+lean:
+  version: 4.32.1
+  imports: []
+  file: Response.lean
+  theorems:
+    - PairedThreshold.paired_response_separates
+    - PairedThreshold.paired_response_dilaton
+  project_specific_axioms: []
+  scope: Conditional additive algebra; no real calculus or string-theory formalization
+  warning: unused addZero argument in first theorem
+certificate:
+  file: certificate.json
+  command: C:/Python313/python3.exe -B calculate.py --negative-controls
+  arithmetic: SymPy 1.13.3 exact symbolic and rational arithmetic
+  empirical_inputs: []
+  atomic_input: inherited rounded Al/Hg sensitivity 16/5, diagnostic only
+  replay: requires saved payload; does not regenerate before comparison
+physical_boundary:
+  model: Tian-Yau free Z3 quotient tangent standard embedding; E6 not E7
+  truncation: topological holomorphic one-loop slope and tree canonical metric
+  missing:
+    - Full physical thresholds and validated derivative bounds
+    - Completed Higgs vacuum and photon matching
+    - Hidden-sensitive observable
+    - Moduli stabilization and field history
+    - Mass and nuclear response functions
+    - Grading-resolved neutral Ext1 classes
+ci: not-run

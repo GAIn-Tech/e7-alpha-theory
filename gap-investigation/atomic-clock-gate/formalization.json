@@ -1,0 +1,11 @@
+{
+  "scope": "Conditional local frequency-ratio identifiability in exact SMT arithmetic",
+  "tool": "Z3 5.1.0",
+  "lean_kernel_proofs": 0,
+  "smt_checks": 13,
+  "physical_inputs": "Explicit response ansatz and rounded NIST coefficients; see REPORT.md",
+  "automation": "AI-assisted; local executed replay",
+  "review_status": "self-assessed",
+  "hosted_ci": "not run",
+  "claim_boundary": "No E7 action, atomic many-body calculation, or CODATA-gap explanation proved"
+}

@@ -1,0 +1,315 @@
+=== PDF PAGE 1 ===
+                 Search for ultralight scalar dark matter with atomic spectrosopy
+
+                 Ken Van Tilburg,1, ∗Nathan Leefer,2, † Lykourgos Bougas,2, ‡ and Dmitry Budker2, 3, 4, §
+                          1Stanford Institute for Theoretical Physics, Stanford University, Stanford, CA 94305, USA
+                                            2Helmholtz Institut Mainz, 55128 Mainz, Germany
+                                 3Institut f¨ur Physik, Johannes Gutenberg Universit¨at-Mainz, 55128 Mainz, Germany
+                                       4University of California at Berkeley, Berkeley, CA 94720, USA
+                                                          (Dated: April 9, 2015)
+
+                 We report new limits on ultralight scalar dark matter (DM) with dilaton-like couplings to photons
+                       that can induce oscillations in the ﬁne-structure constant α. Atomic dysprosium exhibits an elec-
+                         tronic structure with two nearly degenerate levels whose energy splitting is sensitive to changes in
+                       α. Spectroscopy data for two isotopes of dysprosium over a two-year span is analyzed for coherent
+                           oscillations with angular frequencies below 1 rad s−1. No signal consistent with a DM coupling is
+                         identiﬁed, leading to new constraints on dilaton-like photon couplings over a wide mass range. Un-2015                 der the assumption that the scalar ﬁeld comprises all of the DM, our limits on the coupling exceed
+                       those from equivalence-principle tests by up to 4 orders of magnitude for masses below 3 · 10−18 eV.
+                      Excess oscillatory power, inconsistent with ﬁne-structure variation, is detected in a control channel,
+                    and is likely due to a systematic eﬀect. Our atomic spectroscopy limits on DM are the ﬁrst of theirApr
+                        kind, and leave substantial room for improvement with state-of-the-art atomic clocks.
+8
+
+          Dark matter (DM) makes up the majority of matter    underlying global symmetry of φ near the Planck scale
+          density in our Universe.  Its ubiquitous abundance can   ∼G−1/2N     [12]. Quantum corrections proportional to d2e
+        be measured through its gravitational inﬂuence, but lit-   and naturalness considerations together suggest a min-
+            tle is known about the microphysical properties of the   imum mass-squared for φ. However, given the existing
+     DM particle(s), such as the mass, spin, and any nongrav-    hierarchy problems of the Standard Model, we remain
+           itational interactions.  If the DM is bosonic rather than    agnostic to this issue and consider the full mφ–de param-
+          fermionic, it can have a sub-eV mass and such high occu-    eter space (see Ref. [13] for more discussion).
+         pation numbers that it acts more like a classical wave—      Equivalence principle (EP) tests such as the E¨ot-Wash
+         with frequency equal to its mass—than a particle. Light    experiment [14] and Lunar Laser Ranging [15] constrain
+         bosonic dark matter has a natural production mecha-    the coupling de to be much less than unity: |de| ≲3.6 ·
+         nism, namely early-universe misalignment of the ﬁeld rel-    10−4 at 95% conﬁdence level (CL) for mφ ≲3·10−14 eV.[physics.atom-ph]    ative to the minimum of its potential [1–3]. Several mo-    This limit will likely be improved to |de| ≲7.8·10−5 with
+          tivated candidates in this category exist in the literature,    atom-interferometry techniques [16]. The EP-violating
+        most notably the QCD axion [4–6] and other axion-like    force that φ mediates scales as |de|2, making vast im-
+           particles, which, as parity-odd pseudo-Nambu-Goldstone    provements to these limits challenging.
+         bosons (PNGBs) of compact symmetry groups, primar-      Light scalar ﬁelds do not behave as perfect cold DM
+            ily have derivative interactions with matter [7].  Light,   on short length scales, where their density perturbations
+          parity-even bosons may also arise as PNGBs of noncom-    have a nonzero sound speed. For mφ ≲10−22 eV, they
+         pact groups such as those of scale, conformal, or shift   would have inhibited cosmological structure growth [17–
+         symmetries, the most famous examples of which are dila-    19] in conﬂict with observations, though these bounds
+         tons [8–10].  Small explicit breakings of these symme-    disappear if φ only makes up a small fraction of the dark
+           tries may induce nonderivative operators for the scalar    matter. Because of its eﬀect on structure formation, light
+          ﬁelds, such as mass terms and higher-dimensional oper-    scalar dark matter in the 10−24–10−20 eV range has been
+          ators coupling them to matter.                          proposed [20, 21] to solve several long-standing astro-
+        We focus on ultralight scalar ﬁelds φ with couplings to    physical puzzles, such as the core-cusp, missing satellite,
+         the (square of the) electromagnetic ﬁeld tensor Fµν:       and too-big-to-fail problems [22]. DM self-interactionsarXiv:1503.06886v2
+                           −1 + deκφ                  such as cubic or quartic potential terms likewise produce         L ⊃1    −1  φφ2 +         FµνF µν,    (1)    pressure contributions [23]; if they are suﬃciently small                 2(∂µφ)2  2m2         4e2
+                                                                          in the early universe, they can be neglected in the present        where κ ≡√4πGN, GN  is Newton’s constant, and                                                                     era [13].
+         e ≈0.303 is the electromagnetic gauge coupling (we use                                                                     In Ref. [13], it was pointed out that the interaction
+          units in which ℏ= c = 1). The interaction is normalized                                                                          in Eq. (1) leads to a fractional oscillation in the ﬁne-
+         such that de = 1 yields an attractive force of gravita-                                                                      structure constant if φ comprises the dark matter:
+          tional strength between electromagnetic energy densities
+          at distances smaller than the inverse mass (r ≲m−1φ  )               α(t) ≃α [1 + deκφ0 cos(mφt + δ)] ,        (2)
+         through scalar φ exchange [11]. Couplings de ≪1 gener-
+           ically arise  if quantum gravity eﬀects weakly break an    with α ≡e2/4π and δ an arbitrary phase. The amplitude
+=== PDF PAGE 2 ===
+                                                                                                     2
+
+φ0 depends on the ambient dark matter energy density          Even        Odd
+ρDM ≈0.3 GeV cm−3 as:
+           √2ρDM             10−15 eV                           J = 9                               164Dy
+      κφ0 ≃κ     ≈6 · 10−16                      .    (3)                                   1.4 μm                    754 MHz
+           mφ            mφ                               669 nm
+
+The amplitude φ0 scales as the square root of the en-
+ergy density, so even  if φ makes up a tiny fraction of
+                                                                                                4.8 μm     J = 9
+the DM energy density, the oscillation in Eq. (2) may                                                       235 MHz                                                                                                            4f106s6p            162Dystill be detectable. The ﬁeld oscillation has an angular
+frequency equal to mφ, and a coherence time of order                                                                                                                          Energy2π/mφv2, with v ∼10−3 the velocity dispersion of the                                                                                                                   J = 8             A: J = 10    B: J = 10
+DM in our Galaxy [24]. The amplitude in Eq. (3) scales                                                                                                            4f95d6s2             4f105d6s     4f95d26s
+inversely with the frequency of the oscillation, motivat-                                                                             564 nm                              τ ~ 8 μs      τ > 200 μs
+ing measurements of this eﬀect at low frequencies. Our
+measurements are sensitive to angular frequencies below
+1 rad s−1, or DM masses mφ ≲10−15 eV, for which                         833 nm
+we can take the DM oscillations to be coherent on the
+time scales of our experiment.  At angular frequencies
+higher than 1 rad s−1, experiments with low noise ﬂoors             J = 8                    753.464  753.489  753.514  753.539  753.564
+                                                                                                 4f106s2such as gravitational-wave observatories and other reso-                                                    Freq. (MHz)
+nant detectors may also reach sensitivity beyond existing
+bounds [13], despite the smaller oscillation amplitude.      FIG. 1.  Energy level diagram of dysprosium showing the
+  Transition energies in atoms are convenient observables    nearly-degenerate pair of states A and B, and the transitions
+to look for low-frequency signals of changes in masses and    used for state preparation and ﬂuorescence detection. The
+                                                                     inset shows the A and B states for 164Dy (754 MHz) andcouplings, and have been used to look for linear drifts in
+                                                        162Dy (235 MHz), and their response to a positive change in
+α [25–31]. Atoms are exactly reproducible systems across                                                              α: the transition frequency increases in 162Dy and decreases
+long time scales, their electronic structure solely deter-     in 164Dy. The bottom-right graph displays a lineshape deriva-
+mined by masses and couplings of the Standard Model.     tive for the 754 MHz transition in 164Dy.
+While experimental imperfections can lead to ﬂuctua-
+tions in observed transition frequencies, recent advances
+in optical metrology techniques have allowed for the de-     The energy splitting between the nearly degenerate
+termination of transition frequencies with stabilities and    pair  is extremely  sensitive  to  variation  of the ﬁne-
+accuracies approaching δν/ν ∼10−18 [32–36].               structure constant. A change in α yields a frequency shift
+  In this work, we perform a spectroscopic analysis in    δν = ±νδα δα/α with νδα ≈2 · 1015 Hz [39]. By compari-
+two isotopes of dysprosium to search for the coupling in    son, optical frequency measurements with trapped atoms
+Eq. (1) through the eﬀect of Eq. (2). In the remainder   and ions have similar absolute sensitivities to variation in
+of this Letter, we describe the atomic level structure of    α, but the near-degeneracy of the A and B levels relaxes
+dysprosium and the experimental setup, followed by an    requirements on the fractional accuracy and stability of
+account of the data analysis. No statistically signiﬁcant    the frequency reference. Spectroscopy in Dy resulted in
+oscillation consistent with α variation is observed; new    one of the most stringent constraints on a present-day,
+limits are placed on couplings of DM lighter than 10−15     linear variation of α at the level of |∆α/α| ≲10−16 yr−1,
+eV.                                                      the best limit on a possible coupling of α to gravitational
+  Dysprosium (Dy) is a rare-earth element with nuclear    potential [25], and stringent limits on violation of Lorentz
+charge Z = 66 and 7 stable isotopes, of which we use    invariance for electrons [40].
+those with atomic masses A = 162 & 164. A large num-    A beam of dysprosium atoms is generated by an oven
+ber of valence electrons endows Dy with a complex en-    operating at 1400 K, and prepared in state B by two laser
+ergy level structure, including a nearly degenerate pair of    excitations followed by a spontaneous decay, as shown
+opposite-parity states, denoted A and B for the even and    in Fig. 1. The lifetime of state B is long enough that
+odd states, respectively [37]. Spectroscopy of the radio-     it can be considered metastable in this experiment [38].
+frequency (rf) electric-dipole transition between A and   An rf electric ﬁeld, whose frequency is compared with
+B revealed that their energy splitting corresponds to fre-    a cesium reference and a GPS-stabilized rubidium oscil-
+quencies less than 2000 MHz, and that in some isotopes,     lator, then excites atoms to state A, which decays to
+A is the more energetic state (162Dy), while in others    the ground state through several channels, one of them
+(164Dy), B has the higher energy [38]. Figure 1 depicts    emitting a 564-nm photon. This ﬂuorescence is detected
+the relevant energy level structure, with a focus on 162Dy    with a photomultiplier tube (PMT), allowing the reso-
+and 164Dy.                                            nant frequency to be determined by maximizing ﬂuo-
+=== PDF PAGE 3 ===
+                                                                                                     3
+
+
+                                                  an “in-phase” control channel data combination which
+                                         g)            can be checked for systematic eﬀects. Because each iso-
+                                                             tope’s transition frequency was not observed simultane-
+                             e)                        f)         ously, any systematic eﬀects in the control data need to
+                                                   be subtracted to account for potential spectral leakage of
+                    d)                                    these eﬀects into the signal data.
+                                                     Measurements were performed on 10 diﬀerent days
+                                                          over a two-year period (2010–2012), as in Ref. [25]. We
+          833 nm                                                                      split up the data into two diﬀerent sets, one long-term
+                                                      data set (hereafter “LT”) of combined measurements on
+                                                         the ﬁrst 9 measurement days, and a short-term data set
+                b)                                   (“ST”) of the last day of measurements. In the LT data
+                                c)                               set, the measurements of ν162 and ν164 are averaged over       a)                                                the course of each of the 9 days, such that each day-
+                                  669 nm         averaged measurement is dominated by a systematic er-
+                                                              ror of 0.48 Hz (1 Hz on the ﬁrst day, due to a diﬀerent
+                                                        experimental conﬁguration). After subtracting the over-
+                                                                           all mean in both LT sets, we deﬁne the LT signal data
+                                                                 set as νsignal(ti) ≡ν162(ti) −ν164(ti), sensitive to vari-
+FIG. 2.  Simpliﬁed apparatus layout.  a) Thermal beam of    ations of α. Adding the frequencies from each isotope
+dysprosium atoms an oven heated to 1400 K. b) Skimmers    in phase deﬁnes the LT control data set νcontrol(ti) ≡
+collimate the beam.  c) Linear polarizers suppress residual    ν162(ti) + ν164(ti). The ST data set comprises 2303 mea-
+ellipticipy due to birefringence of vacuum chamber windows.                                                      surements of ν162 and ν164 taken over a span of 14.5 h
+d) Cylindrical lenses match the divergence of the atom and
+                                                  on 19 October 2012. Data from each isotope are mean-
+laser beams, for eﬃcient population transfer [41].  e) Mag-
+                                                           subtracted, and combined into the ST signal time seriesnetic ﬁeld coils compensate stray magnetic ﬁelds. f) Radio-
+frequency ﬁeld interaction region.  g) Photomultiplier tube    data as νsignal({ti, tj}) = ν162({ti}) −ν164({tj}).  Simi-
+for ﬂuorescence detection.                                         lar to the LT data combination, we also construct a ST
+                                                             control data set νcontrol({ti, tj}).
+                                                Our aim is to search for harmonic variations in the
+rescence with respect to the electric-ﬁeld frequency. A    dysprosium transition frequency data. A signal or limit
+simpliﬁed illustration of our setup is shown in Fig. 2,    at an angular frequency ω can then be converted into a
+and more details can be found in Refs. [42, 43].  The    signal or limit for scalar dark matter with coupling de
+                   p˙Nτ), where   and mass mφ ≃ω. We perform linear least-squares anal-optimal statistical precision is σν = γ/(2π
+γ/(2π) ≈20 kHz is the natural linewidth of the transition     ysis (LLA) on νcontrol(ti) and νsignal(ti) with waveforms
+(see bottom panel of Fig. 1), ˙N is the number of ﬂuores-    of type ν = ν0 cos(ωt + ϕ) + νc and νc a constant oﬀ-
+cent photons per unit time, and τ is the total integration    set [44]. The highest analyzed angular frequency ωmax
+time. An estimate of ˙N = 109 s−1 gives a statistical mea-     is taken to be 4π/∆tmin, with tmin the shortest time be-                    √
+surement precision of σν √τ = 0.6 Hz/  Hz. In the actual    tween measurements. LLA can also capture variations at
+experiment, the statistical background is dominated by    angular frequencies smaller than the inverse time span of
+leakage into the PMT of blackbody radiation and scat-    the data set T, when the waveform becomes essentially
+tered light from the 669-nm excitation laser, limiting the    a frequency drift (near a node) or a quadratic frequency                           √
+statistical precision for 162Dy and 164Dy to 4 Hz/  Hz.    change (near an antinode).
+This corresponds to a sensitivity of δα/α ≈2 · 10−15     From the best-ﬁt LLA waveform, we construct a nor-
+after one second of integration, and improves as 1/√τ.     malized power spectrum:
+  Our data consist of transition frequency measurements
+on 162Dy and 164Dy—denoted by ν162 ≈235 MHz and                   P(ω) ≡N0 ν20,                  (4)                                                                                                        4σ2ν
+ν164 ≈754 MHz, respectively—recorded at diﬀerent
+times  ti.  The energy hierarchy of states A and B  is    where σ2ν  is the average variance of ν(ti), and N0  is
+reversed between these isotopes, which means that the    the number of data points.  For high angular frequen-
+response of their transition frequencies to a variation of     cies 2π/T ≲ω < ωmax, the LLA power spectrum re-
+α is opposite in sign, shown diagramatically in Fig. 1.    duces to the modiﬁed periodogram of Ref. [45], and has
+An increase in α would increase the transition frequency    simple statistical properties for white noise with equal
+between the A and B states in 162Dy, but decrease it in    uncertainties on each data point (a good ﬁrst-order ap-
+164Dy. With measurements in both isotopes, two types    proximation for both of our data sets).  In this limit,
+of data sets can be constructed: one “out-of-phase” sig-    the power P(ω) at any frequency has a simple cumula-
+nal data set maximally sensitive to α variation, the other    tive distribution function (CDF) which is ω-independent:
+=== PDF PAGE 4 ===
+                                                                                                      4
+
+                                                                                                                        log10Ωrad s -1
+      2
+                                                                          -8         -6         -4         -2           0
+      1                                                                       0
+      0                                               raw control datalog10PHΩL-1
+    -2
+                                                                 -2      2
+      1                                                                                                      2012
+      0                                               raw signal data                        equivalence principle tests                 Oct                                                                                 19log10PHΩL-1                                                          -4                                     data    -2                                                                                                                                                                        log10de                        ST
+      2
+      1
+                                                                 -6      0                                                         corrected signal data
+                                                                                                                                                                     limitlog10PHΩL-1       observed limit                                                                             2010-2012                                                                                             data                   observed                                                                                                                                    expected limit                                                                                                                                    H±1Σ,2ΣL    -2       observedexpected fitfit ±1Σ,2Σ                                        LT
+    -3                                                          -8
+         -5       -4       -3       -2       -1         0           -24        -22        -20        -18        -16
+                                                    s -1                                                                  log10mΦeV
+                                     log10Ωrad FIG. 3. Power spectra of the                              best-ﬁt waveforms for three com-    FIG. 4. Upper limits at 95% CL on the coupling |de| to pho-
+ binations of the ST data. The thin line and the dark and light    tons as a function of dark matter mass mφ. Shaded bands
+ bands correspond to the expected median and 68%- & 95%-    correspond to 68%- and 95%-CL intervals around the me-
+ CL intervals for the best ﬁt. The raw control data set shows    dian expected limit (thin line); thick lines depict the observed
+ excess power at angular frequency ω ≈1.4 · 10−3 rad s−1 (in-    upper limits. Parameter space excluded at 95% CL by EP-
+ dicated by the arrow), which leaks into the raw signal data     violating force tests is shown in gray.
+ in nearby frequency bands. After ﬁtting out this eﬀect, the
+ power in both data combinations  is consistent with white
+ noise, shown for the signal data in the bottom panel. The    of 4.3 · 103 s.  Its best-ﬁt amplitude of ν0 ≈0.78 Hz is
+ 95% CL upper limit is depicted by a thick, dark blue line    comparable to the magnitude of a systematic error due
+ above the corrected best-ﬁt signal power.                      to unstable electronic oﬀsets [25], while its period may
+                                                           point to room temperature ﬂuctuations. Variations due
+                                                             to reference clock instabilities are excluded because they
+ Prob{P(ω) < P} = 1−e−P . It follows that the expected                                                    would produce a larger eﬀect in 164Dy than in 162Dy.
+ median, and the 68% and 95% conﬁdence intervals are                                             Upon subtracting the best-ﬁt waveform to the variation
+ 0.69, [0.17, 1.8], and [0.023, 3.8], respectively. At inter-                                                                 in the control data, which partially leaked into the signal
+ mediate and low angular frequencies ω ≲2π/T, the sta-                                                       data in neighboring frequency bands, the ST corrected
+ tistical behavior of the power is quite complicated, and                                                    power spectra were compatible with white-noise ﬂuctua-
+ we simulated its expected distribution with Monte Carlo                                                                   tions. For the raw LT data, the observed power spectra
+ (MC) using the same errors as on the data.                                                                 in both the control and signal data were also consistent
+  We set a 95% CL upper bound on the power by as-                                                       with white noise.
+ suming the observed best-ﬁt oscillation is a true signal,                                                    Assuming the ﬁeld φ comprises all of the DM, power
+ adding white noise via MC many times, and taking the                                                             values can be translated to absolute values of the scalar
+ 95th-percentile value of the combined power.  At high                                                           coupling to photons via:
+ frequencies, an approximate, analytic expression for this
+ value can be obtained [46].  In the presence of a real                        1      4σ2ν           1/2
+                                                                  |de(mφ)| ≃             P(mφ)       ,     (5) signal with power Ps, the CDF of the periodogram is                                                                 κφ0(mφ)  N0ν2δα
+ modiﬁed to Prob(P(ω) < P | Ps) = 1−e−(P +Ps)φ(P, Ps),
+ where φ(P, Ps) ≡P∞m=0 Pmk=0 P kP sm /k!m!.  Given an    where νδα ≈2 · 1015 Hz is the aforementioned sensitivity
+ observed power Ps, we deﬁne our 95%-CL upper limit    coeﬃcient to fractional variations of α. Note that any
+ Plim by 0.95 ≈Prob(P(ω) < Plim | Ps).  At very low   bound on |de| scales only as the square root of the energy
+ angular frequencies ω ≪2π/T, where the periodogram    density in the φ ﬁeld via Eq. (3). Figure 4 shows the 95%-
+ statistics are invalid, the expected limit on the power   CL upper limit on |de| as a function of mass mφ ≃ω for
+ (amplitude) scales as ω−4 (ω−2) because one cannot ex-    both data sets.  In particular, the observed limit from
+ clude being near an antinode of an oscillation.             the ST data is the limit curve of Fig. 3 transformed with
+   In Fig. 3, we plot the results of this analysis for the ST    Eq. (5). For masses mφ ≲3 · 10−18 eV, our ST limits on
+ data set. Excess power is observed in the control data—     |de| exceed those set by EP tests. In our most sensitive
+ sensitive only to in-phase ﬂuctuations of ν162 and ν164—   mass window—mφ ∼10−22 eV, which coincides with the
+ at high signiﬁcance: P(1.4·10−3 rad s−1) ≈57. We could    astrophysically motivated mass range [21]—we exclude
+ not conclusively identify the source of this monochro-  DM couplings down to de ≈4.2·10−8 times gravitational
+ matic variation, observed independently in both isotopes    strength.
+ with approximately equal amplitude, phase, and period    We have presented the best limit on neutral scalar dark
+=== PDF PAGE 5 ===
+                                                                                                     5
+
+matter coupling to photons for masses below 3·10−18 eV.     [18] R. Hlozek, D. Grin, D. J. E. Marsh, and P. G. Ferreira,
+It is also the ﬁrst limit of its kind—exploiting the re-         (2014), arXiv:1410.2896 [astro-ph.CO].
+sponse of atomic transition energies to tiny fractional     [19] B. Bozek, D. J. E. Marsh, J. Silk, and R. F. G. Wyse,
+                                                                      (2014), arXiv:1409.3544 [astro-ph.CO].oscillations of the ﬁne-structure constant—and we hope
+                                                                         [20] W. Hu, R. Barkana,  and A. Gruzinov, Phys.Rev.Lett.
+many similar searches will follow. Optical clock systems                                                                85, 1158 (2000), arXiv:astro-ph/0003365 [astro-ph].
+will likely improve on our limit of |de| with suﬃcient     [21] D. J. E. Marsh and A.-R. Pop, (2015), arXiv:1502.03456
+data. Combined with existing microwave and future nu-         [astro-ph.CO].
+clear clocks, one can also achieve sensitivity to fractional     [22] D. H. Weinberg,  J. S. Bullock, F. Governato, R. K.
+variations in the electron, quark, and proton masses, ex-        de Naray, and A. H. G. Peter,  (2013), arXiv:1306.0913
+panding the potential discovery reach of light scalar dark         [astro-ph.CO].
+                                                                         [23] M. S. Turner, Phys.Rev. D28, 1243 (1983).matter to other couplings [13]. Small-scale precision ex-
+                                                                         [24] L. Krauss, J. Moody, F. Wilczek,  and D. E. Morris,
+periments can thus search for cosmic dark matter with                                                               Phys. Rev. Lett. 55, 1797 (1985).
+feeble interactions generated at the highest energy scales.     [25] N. Leefer, C. T. M. Weber, A. Cing¨oz, J. R. Torgerson,
+ We thank Asimina Arvanitaki  for collaboration in       and D. Budker, Physical Review Letters 111, 060801
+the initial stages of this work, and Masha Baryakhtar,         (2013).
+Savas Dimopoulos, Junwu Huang, Xinlu Huang, and Tim     [26] T. Rosenband, D. B. Hume, P. O. Schmidt, C. W. Chou,
+                                                           A. Brusch, L. Lorini, W. H. Oskay, R. E. Drullinger,
+Wiser for valuable discussions. NL was supported by
+                                                             T. M. Fortier, et al., Science 319, 1808 (2008).
+a Marie Curie International Incoming Fellowship within                                                                         [27] T. M. Fortier, N. Ashby, J. C. Bergquist, M. J. Delaney,
+the 7th European Community Framework Programme.           S. A. Diddams, T. P. Heavner, L. Hollberg, W. M. Itano,
+                                                                         S. R. Jeﬀerts, et al., Phys. Rev. Lett. 98, 070801 (2007).
+                                                                         [28] R. M. Godun, P. B. R. Nisbet-Jones, J. M. Jones, S. A.
+                                                                King, L. A. M. Johnson, H. S. Margolis, K. Szymaniec,
+                                                                         S. N. Lea, K. Bongs, and P. Gill, Phys. Rev. Lett. 113,
+  ∗kenvt@stanford.edu                                        210801 (2014).
+   † naleefer@uni-mainz.de                                           [29] N. Huntemann, B. Lipphardt, C. Tamm, V. Gerginov,
+   ‡ lybougas@uni-mainz.de                                            S. Weyers,  and E. Peik, Phys. Rev. Lett. 113, 210802
+   § budker@uni-mainz.de                                            (2014).
+ [1] J. Preskill, M. B. Wise,  and F. Wilczek, Phys.Lett.     [30] J. Gu´ena, M. Abgrall, D. Rovera, P. Rosenbusch, M. E.
+    B120, 127 (1983).                                           Tobar, P. Laurent, A. Clairon, and S. Bize, Phys. Rev.
+ [2] M. Dine and W. Fischler, Phys.Lett. B120, 137 (1983).          Lett. 109, 080801 (2012).
+ [3] L. Abbott and P. Sikivie, Phys.Lett. B120, 133 (1983).      [31] M. E. Tobar, P. L. Stanwix, J. J. McFerran, J. Gu´ena,
+ [4] R. D. Peccei and H. R. Quinn, Phys.Rev.Lett. 38, 1440       M. Abgrall, S. Bize, A. Clairon, P. Laurent, P. Rosen-
+     (1977).                                                       busch, et al., Phys. Rev. D 87, 122004 (2013).
+ [5] S. Weinberg, Phys.Rev.Lett. 40, 223 (1978).                  [32] N. Hinkley, J. A. Sherman, N. B. Phillips, M. Schioppo,
+ [6] F. Wilczek, Phys.Rev.Lett. 40, 279 (1978).                   N. D. Lemke, K. Beloy, M. Pizzocaro, C. W. Oates, and
+ [7] P. W. Graham and S. Rajendran, Phys.Rev. D88, 035023        A. D. Ludlow, Science 341, 1215 (2013).
+     (2013), arXiv:1306.6088 [hep-ph].                               [33] B. Bloom, T. Nicholson,  J. Williams,  S. Campbell,
+ [8] T. Taylor and G. Veneziano, Phys.Lett. B213, 450       M. Bishof, et al., Nature 506, 71 (2014), arXiv:1309.1137
+     (1988).                                                          [physics.atom-ph].
+ [9] J. R. Ellis, N. Tsamis, and M. B. Voloshin, Phys.Lett.     [34] N. Huntemann, M. Okhapkin, B. Lipphardt, S. Weyers,
+    B194, 291 (1987).                                         C. Tamm, et al., Phys.Rev.Lett. 108, 090801 (2012).
+[10] T. Damour and A. M. Polyakov, Nucl.Phys. B423, 532     [35] W. Oskay, S. Diddams, E. Donley, T. Fortier, T. Heavner,
+     (1994), arXiv:hep-th/9401069 [hep-th].                             et al., Phys.Rev.Lett. 97, 020801 (2006).
+[11] T. Damour and J. F. Donoghue, Phys.Rev. D82, 084033     [36] C. W. Chou, D. B. Hume, J. C. J. Koelemeij, D. J.
+     (2010), arXiv:1007.2792 [gr-qc].                              Wineland,  and T. Rosenband, Phys. Rev. Lett. 104,
+[12] R. Kallosh, A. D. Linde, D. A. Linde, and L. Susskind,        070802 (2010).
+    Phys.Rev. D52, 912 (1995), arXiv:hep-th/9502069 [hep-     [37] V. A. Dzuba, V. V. Flambaum, and I. B. Khriplovich,
+     th].                                                                   Zeitschrift f¨ur Physik D Atoms, Molecules and Clusters
+[13] A. Arvanitaki, J. Huang, and K. Van Tilburg, Phys.Rev.         1, 243 (1986).
+   D91, 015015 (2015), arXiv:1405.2925 [hep-ph].               [38] D. Budker, D. DeMille, E. D. Commins, and M. S. Zolo-
+[14] S. Schlamminger, K.-Y. Choi, T. A. Wagner, J. H. Gund-         torev, Physical Review A 50, 132 (1994).
+     lach, and E. G. Adelberger, Phys.Rev.Lett. 100, 041101     [39] V. A. Dzuba and V. V. Flambaum, Physical Review A
+     (2008), arXiv:0712.0607 [gr-qc].                               77, 012515 (2008).
+[15] J. G. Williams,  S. G. Turyshev,  and D. H. Boggs,     [40] N. Leefer and M. A. Hohensee, (2013), arXiv:1307.6762.
+    Phys.Rev.Lett. 93, 261101 (2004), arXiv:gr-qc/0411113     [41] A.-T. Nguyen, G. D. Chern, D. Budker,  and M. Zolo-
+     [gr-qc].                                                            torev, Physical Review A 63, 013406 (2000).
+[16] S. Dimopoulos, P. W. Graham, J. M. Hogan, and M. A.     [42] A. Cing¨oz, N. A. Leefer, S. J. Ferrell, A. Lapierre, A. T.
+    Kasevich, Phys.Rev.Lett. 98, 111102 (2007), arXiv:gr-        Nguyen, V. V. Yashchuk, D. Budker, S. K. Lamoreaux,
+    qc/0610047 [gr-qc].                                      and J. R. Torgerson, in European Physical Journal: Spe-
+[17] D. J. E. Marsh and J. Silk, Mon.Not.Roy.Astron.Soc.          cial Topics, Vol. 163 (2008) pp. 71–88, arXiv:0811.3992.
+    437, 2652 (2013), arXiv:1307.1705 [astro-ph.CO].             [43] C. T. M. Weber, N. Leefer,  and D. Budker, Physical
+=== PDF PAGE 6 ===
+                                                                                                     6
+
+
+    Review A - Atomic, Molecular, and Optical Physics 88,         Fourier transform (DFT). However, our data is unevenly
+    1 (2013), 1308.2391.                                       sampled (ti+1 −ti is diﬀerent for each i), a scenario in
+[44] A common way to search for harmonics in time series        which a DFT is ill-suited.
+    data—in this case measurements ν(ti)—is the discrete     [45] J. Scargle, Astrophys.J. 263, 835 (1982).
+                                                                         [46] E. J. Groth, Astrophys.J.Suppl.Ser. 29, 285 (1975).

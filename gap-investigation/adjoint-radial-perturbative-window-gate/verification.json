@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "claim_boundary": "Conditional necessary perturbative diagnostics only; not certified physical pole/width, full resummed vacuum, error enclosure, or compactification prediction.",
+  "manifest_sha256": "c13a732828e5a9ae330bb2703b2c4952f9b0d21f5a7fcb984014de35226820f6",
+  "saved_receipts_compared_without_regeneration": true,
+  "predecessors_unchanged": true,
+  "negative_controls": {
+    "missing_rejected": true,
+    "tampered_rejected": true
+  },
+  "replays": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-perturbative-window-gate\\calculate.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "880e2a149f692a53b43e3297cebbd0152e58794ab9d76afcdf40b6d620b04914",
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-perturbative-window-gate\\replay-0.txt"
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-perturbative-window-gate\\gauge_cutoff_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "0abb3fdcc21000d56663405d1023102daa0bcc5a9f95bbb6c43c7b7b6a60acda",
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-perturbative-window-gate\\replay-1.txt"
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-convergence-gate\\run_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "df95f5774ae601f31babf8c2e3c4c16d976e75a442a985c64c7b5e2647dc11a6",
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-perturbative-window-gate\\replay-2.txt"
+    },
+    {
+      "command": [
+        "C:/Python313/python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\symbolic_certificate.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "0c3c12adc283a33535099aa21d334c0d2d2d85acf5bee638ddf810634a310629",
+      "log": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-perturbative-window-gate\\replay-3.txt"
+    }
+  ],
+  "hosted_CI": "not run",
+  "Lean": "no new proof claimed"
+}

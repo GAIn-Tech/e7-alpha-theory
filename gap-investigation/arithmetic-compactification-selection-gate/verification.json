@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "claim_boundary": "Finite sourced catalog; exact arithmetic and axiom-free countermodel theorem. Not a universal physical no-go or selector.",
+  "axiom_free_declarations": [
+    "ArithmeticSelection.prime_observable_nonidentifiable",
+    "ArithmeticSelection.prime_not_necessary",
+    "ArithmeticSelection.unused_label_countermodel"
+  ],
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "-o",
+        "Formalization.olean",
+        "Formalization.lean"
+      ],
+      "returncode": 0,
+      "stdout": "Formalization.lean:11:0: warning: Definition `trans` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\nFormalization.lean:12:0: warning: Definition `symm` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\nFormalization.lean:14:0: warning: Definition `false_ne_true` is a proposition; use `theorem` instead of `def`\n\nNote: This linter can be disabled with `set_option linter.defProp false`\n'ArithmeticSelection.prime_observable_nonidentifiable' does not depend on any axioms\n'ArithmeticSelection.prime_not_necessary' does not depend on any axioms\n'ArithmeticSelection.unused_label_countermodel' does not depend on any axioms\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "Challenge.lean"
+      ],
+      "returncode": 0,
+      "stdout": "ArithmeticSelection.prime_observable_nonidentifiable (select : ArithmeticSelection.B \u2192 ArithmeticSelection.B)\n  (ty : ArithmeticSelection.E (select ArithmeticSelection.B.t) ArithmeticSelection.B.f)\n  (bicubic : ArithmeticSelection.E (select ArithmeticSelection.B.t) ArithmeticSelection.B.t) : ArithmeticSelection.Empty\nArithmeticSelection.prime_not_necessary (primeStatus : ArithmeticSelection.B)\n  (isComposite : ArithmeticSelection.E primeStatus ArithmeticSelection.B.f) :\n  ArithmeticSelection.E primeStatus ArithmeticSelection.B.f\nArithmeticSelection.unused_label_countermodel (label : ArithmeticSelection.B) :\n  ArithmeticSelection.E (ArithmeticSelection.flip (ArithmeticSelection.flip label)) label\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Python313/python.exe",
+        "-B",
+        "exact_certificate.py",
+        "--verify"
+      ],
+      "returncode": 0,
+      "stdout": "PASS exact catalog replay: prime-order necessity and sufficiency both refuted\n",
+      "stderr": ""
+    }
+  ],
+  "sha256": {
+    "certificate.json": "f885c1ab4f605e4e369daf8257a8c70c69927c6d911e14296a16bbfc3b21cf08",
+    "Challenge.lean": "395f79d71d7400a922b82534ea59043dc415dfcb96e31bdb53f5c53a8929746f",
+    "exact_certificate.py": "4ac6354eee6e878f2f19708ecc8db12b4456140ef5645dd7956fa26683e49e06",
+    "Formalization.lean": "78a1f1b5101f1415231a9097ed481f0dbaba7956032a94e27d825807993db133",
+    "formalization.yaml": "34f0b1c9f011c7668cfacadb211e3c99c8dc0b603e8bf243dcf4059a02c5763c",
+    "PREREGISTRATION.md": "fc538b899ff38c1951a837f48bba1e8f62856a891808416587001d2313d91fdf",
+    "RELEASE_DISCLOSURE.md": "4ac937a4e571abb84e0745a517aa7d2d9550d1020985d9a19d0b3ff95778459f",
+    "REPORT.md": "09d6bcd087c612cdd493098a3e72140109dd4771ccb17de99a130f1541f26693",
+    "verify.py": "1044bb8dd78d9d215d3feed315465ff08c15032dcaeba3b383bdbe21d54eec40"
+  }
+}

@@ -1,0 +1,14 @@
+Formalization.lean:9:0: warning: Definition `congr` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+Formalization.lean:11:0: warning: Definition `trans` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+Formalization.lean:13:0: warning: Definition `symm` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+'WilsonMass.add_succ_left' does not depend on any axioms
+'WilsonMass.right_swap' does not depend on any axioms
+'WilsonMass.right_cancel' does not depend on any axioms
+'WilsonMass.paired_mass_preserves_net' does not depend on any axioms
+'WilsonMass.four_pairs_witness' does not depend on any axioms

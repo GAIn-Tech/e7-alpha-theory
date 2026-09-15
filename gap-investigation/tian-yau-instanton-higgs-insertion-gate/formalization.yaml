@@ -1,0 +1,12 @@
+scope: exact curve restrictions and standard-embedding pure-dual-matter cubic instanton jet
+model: Fermat-bilinear Tian-Yau free Z3 quotient, tangent standard embedding, E6 route
+formal_prover: none
+exact_engine: Python 3.13 with SymPy
+physical_input: A-model divisor Yukawa to heterotic charged-cubic identification
+physical_normalization: unspecified holomorphic vertex and field normalization
+full_charged_E8_Dirac_map: uncomputed
+nonlinear_bundle_family: uncomputed
+full_superpotential: uncomputed
+review_status: self-assessed; no independent expert review
+automation_disclosure: AI-assisted derivation, source retrieval, exact code and written report
+ci_status: not run; native immutable replay and negative controls only

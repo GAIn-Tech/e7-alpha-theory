@@ -1,0 +1,1028 @@
+=== PDF PAGE 1 ===
+                      Searching for dilaton dark matter with atomic clocks
+
+                                                 Asimina Arvanitaki∗
+                             Perimeter Institute for Theoretical Physics, Waterloo, Ontario, N2L 2Y5, Canada
+
+                                     Junwu Huang† and Ken Van Tilburg‡
+                                      Stanford Institute for Theoretical Physics, Department of Physics,
+                                              Stanford University, Stanford, CA 94305, USA
+                                                        (Dated: February 3, 2015)
+
+                 We propose an experiment to search for ultralight scalar dark matter (DM) with dilatonic in-
+                          teractions. Such couplings can arise for the dilaton as well as for moduli and axion-like particles
+                         in the presence of CP violation. Ultralight dilaton DM acts as a background ﬁeld that can cause
+                         tiny but coherent oscillations in Standard Model parameters such as the ﬁne structure constant and
+                       the proton-electron mass ratio. These minute variations can be detected through precise frequency
+                      comparisons of atomic clocks. Our experiment extends current searches for drifts in fundamen-
+                           tal constants to the well-motivated high-frequency regime. Our proposed setups can probe scalars
+                          lighter than 10−15 eV with discovery potential of dilatonic couplings as weak as 10−11 times the
+                       strength of gravity, improving current equivalence principle bounds by up to 8 orders of magnitude.2015
+               We point out potential 104 sensitivity enhancements with future optical and nuclear clocks, as well
+                        as possible signatures in gravitational wave detectors. Finally, we discuss cosmological constraints
+                    and astrophysical hints of ultralight scalar DM, and show they are complimentary to and compatibleJan
+                      with the parameter range accessible to our proposed laboratory experiments.
+30             PACS numbers: 14.80.Va, 06.20.Jr, 42.62.Eh, 95.35.+d
+
+
+                                 I. INTRODUCTION                     signatures. The topologically complex manifolds that are
+                                                                    required to produce the large number of vacua also imply
+         With the Higgs discovery at the Large Hadron Col-    the existence of many particles: axions, moduli, photons,
+           lider (LHC), the Standard Model (SM) is now complete.    dilatons, or even entire hidden sectors. These particles[hep-ph]   However successful it may be, the particle content of the    have widely varying properties and viable mass ranges,
+      SM only accounts for about 5% of the energy content of   and it is possible that several may signiﬁcantly contribute
+         our universe. Motivated by the hierarchy problem and    to the DM of our universe. From the above multitude
+         the WIMP miracle, we had associated the scale of an-    of candidates, we would like to entertain the possibility
+         other 27% of our world with the TeV scale, and expected    that the DM is composed of an ultralight boson with dila-
+         the LHC and direct detection experiments to shed light    tonic couplings. Contrary to fermionic DM candidates,
+        on the nature of dark matter (DM). Their null results    the misalignment mechanism for light bosons produces
+          to date diminish the connection of new physics with the    a non-thermal, cold component of DM and opens the
+         electroweak scale and deepen the mystery of the scale    parameter space to the sub-keV mass range. The cou-
+        and properties of DM.                                       plings of these bosons to SM particles could be greatly
+         The largest component of the cosmos oﬀers the biggest    suppressed, circumventing the usual collider and direct
+         mystery of all.  The cosmological constant (CC) chal-    detection constraints. The scalar mass can be protected
+          lenges our notion of Naturalness by more than 60 or-   by shift symmetry or the smallness of the couplings, or
+          ders of magnitude.  There is no experimental evidence    perhaps it could be tuned to be small, just like the Higgs
+           for physics beyond the SM at the relevant energy scale;   mass and the CC.arXiv:1405.2925v2
+          theories that try to predict the CC value stumble on this      For masses well below 1 eV, bosonic DM in our galaxy
+           fact, even if we ignore the theoretical inconsistencies that    has densities that exceed λ−3dB, where λdB is the de Broglie
+          usually plague those models.  This leaves us with one    wavelength of the particle. In this case, the scalar DM
+        known framework where a complete picture of the cos-    exhibits coherence and behaves like a wave with ampli-
+        mos can be embedded: the string landscape. The many    tude ∼√ρDM/mDM and coherence time 2π(mDMv2vir)−1,
+         vacua of string theory could accommodate the smallness    where vvir is the virial velocity of DM in our galaxy [1].
+           of the CC due to environmental selection.                 This coherence oﬀers a new avenue for detecting DM and
+          Even though such a framework cannot be tested di-    can be used to enhance the reach of laboratory experi-
+          rectly at low energies, it gives rise to a variety of indirect    ments.
+                                                                     In this paper, we focus on the non-derivative coupling
+                                                                            of such DM candidates to the SM:
+
+                                                                      φ
+           ∗aarvanitaki@perimeterinstitute.ca                                           ∗OSM,                     (1)             †                                     M             curlyh@stanford.edu
+             ‡ kenvt@stanford.edu                                    where OSM denotes terms in the SM Langrangian. The
+=== PDF PAGE 2 ===
+                                                                                                     2
+
+scale M ∗can be many orders of magnitude above the    energy couplings can be written as:
+Planck scale. Such couplings exist for the dilaton and
+                                                                        1                                                      Zmoduli, as well as for axions in the presence of CP viola-                                              S =                                                             d4xp|g|                                                   −V (φ) + LSM + Lφtion. When such a particle is the DM, its scalar coupling                    2∂µφ∂µφ
+to   the    SM will               cause                     coherent                                  oscillations                                               of fundamen-                                                                          de
+tal    constants,             such                   as                     the ﬁne structure                                       constant                                                 or the     Lφ = κφ +                                                             FµνF µν −dgβ3 GAµνGAµν
+                                                                         4e2           2g3
+proton-electron mass ratio, at a frequency set by the DM
+mass. These will in turn cause oscillations in the energy                                                       −dmeme¯ee − X (dmi + γmidg)mi ¯ψiψi  ,   (2)
+levels of atoms and can thus have a clear signature in                                                                                         i=u,d
+devices that set our current standard for time: atomic
+clocks.                                            √4π                                                    where κ ≡                                                                                                                        , β3 is the QCD beta function, and γmi                                                                   MPl
+                                                           are the anomalous dimensions of the u and d quarks. We  Rapid advances in frequency metrology—in particu-
+                                                        parametrize the scalar potential aslar the technology of mode-locked lasers and the self-
+referencing frequency comb [2–6]—have exhibited high                                                                     1        1       1
+precision that can be sensitive to these minute oscilla-           V (φ) = 2m2φφ2 + 3aφφ3 + 4λφφ4.        (3)tions. The long-term stability of the best 133Cs atomic
+clocks at the 10−16 level has recently been eclipsed by   The eﬀective couplings in Eq. (2) are ubiquitous in mod-
+that of optical clocks, which are approaching stabilities of     els involving very light scalars in semi-hidden sectors.
+10−18. Since the energies of atomic transitions in clocks   Most notably, the QCD axion and other axion-like parti-
+based on diﬀerent elements have varying dependencies     cles also have scalar couplings in the presence of CP vio-
+on the proton-electron mass ratio and the ﬁne-structure     lation, in addition to their usual pseudoscalar couplings.
+constant, their comparison can reveal the eﬀects of a    For the QCD axion there is a non-zero scalar coupling to
+scalar dark matter ﬁeld with couplings as in Eq. (1).    the quarks [8–10]:
+Changes in the frequency of a microwave or optical tran-
+sition can now be measured to incredible precision with                10−16             3 · 10−11
+                                                  ≲κdˆm ≲                     ,         (4)a femtosecond frequency comb produced by mode-locked                                                                        fa                  fa
+lasers. The technology and methods involved in our ex-
+perimental proposal have already been demonstrated in    where fa is the axion decay constant, and dˆm is the cou-
+labs around the world; we propose a new way of using    pling to the symmetric combination of the quark masses:
+these tools to search for new fundamental physics im-
+proving current searches by many orders of magnitude.                                                                dˆm ≡dmdmd + dmumu .             (5)
+                                                           md + mu
+ We start by deﬁning the framework for couplings of the
+schematic form presented in Eq. (1) in Sec. II. In Sec. III,   The upper bound on the scalar coupling is set by neutron
+we outline a simpliﬁed version of our experimental pro-     electric dipole moment searches, while the lower bound
+posal. We quantify the sensitivity of our setup to the     is set by the amount of CP violation in the Standard
+scalar coupling of DM in Sec. IV, and compare the reach    Model. Note that there is a large theoretical uncertainty
+to existing limits from ﬁfth-force searches and EP tests    in the exact value of this coupling. We also expect dg,
+in Sec. V. Potential signatures in gravitational-wave ob-   dme and de couplings to be radiatively generated for the
+servatories are presented in Sec. VI. We discuss the cos-  QCD axion.
+mology and the astrophysical constraints on ultralight     Another way in which non-derivative couplings of a
+scalars in Sec. VII. Finally, we conclude in Sec. VIII. A     light scalar can appear is through a Higgs portal.  In
+discussion on possible ultraviolet completions of dilaton    the model of [11], a super-renormalizable coupling to
+DM is presented in Appendix A.                          the Higgs L ⊃AφH†H induces couplings of an ultra-
+                                                                   light scalar to the SM, suppressed by a factor Avew/m2h
+                                                                 relative to the scalar couplings of the Higgs. However,
+                                                         the simplest model requires A < √2λhmφ to avoid
+                                                  an unstable direction in the scalar potential.  Hence
+                                                         the expected couplings to e.g. the fermion masses are
+                                                     dmi ≲10−13  10−18mφ eV  , probably too small to detect
+II.  DILATON COUPLINGS OF DARK MATTER    with current technology, as we will show in Sec. IV. For
+                                                         the remainder of the paper, we shall focus on the phe-
+                                                   nomenology of Eqs. (2) & (3), and postpone a discussion
+ We consider an ultralight singlet scalar ﬁeld that makes    of ultraviolet embeddings of this dilaton-like theory until
+up all—or an O(1) fraction—of the local dark matter    appendix A.
+density, and focus on its possible scalar couplings with     With the action in Eq. (2), a tiny mass mφ, and suf-
+the Standard Model through higher-dimensional opera-    ﬁciently weak couplings—negligible self-interactions and
+tors. Adopting the conventions of [7], the relevant low-    di ≪1—the history of the scalar ﬁeld on scales larger
+=== PDF PAGE 3 ===
+                                                                                                     3
+
+than m−1φ   is well-approximated by a background ﬁeld    such monochromatic light with fractional stabilities down
+that starts oscillating when H ∼mφ and whose energy    to 10−18 [12, 13]; mode-locked lasers generating femtosec-
+density redshifts as that of ordinary cold, pressureless   ond pulses can be used as measurement “tools” to com-
+DM. Its present-day behaviour can then be described as    pare their frequencies [4, 5].
+the solution to its equation of motion:                   The basic observation is that the energies fA of diﬀer-
+                                                          ent atomic transitions (labeled by A) can have varying
+           φ(t,⃗x) = φ0 cos(mφt −⃗kφ ·⃗x + . . . ).        (6)    scalings with certain mass ratios and the ﬁne structure
+                                                            constant:
+We take its current energy density ρφ = 12m2φφ20 to equal                                  ζA                                                              µA
+the local DM density ρDM ≈0.3 GeV/ cm3, and assume                 fA ∝         (α)ξA+2              (9)
+                                                                              µb
+a wave vector given by the virial velocity: |⃗kφ| ≃mφvvir
+with vvir ≈10−3. With these assumptions, we obtain the    where µA is the nuclear magnetic moment of nucleus A,
+fractional amplitude of φ relative to the reduced Planck   and µb is the Bohr magneton. The ratio µA/µb is linearly
+scale:                                                     proportional to me/mp and the orbital and spin g-factors
+                                                                  of the nucleus. The exponent ζA is 1 for hyperﬁne transi-
+       p8πρφ              10−18 eV                    tions, and 0 for optical transitions. We have factored out   κφ0 =     = 6.4 · 10−13         F 1/2,   (7)
+       mφMPl            mφ                  a conventional exponent of 2 in the α dependence due to
+                                                         the scaling of the Rydberg constant R∞∝α2.
+where F ≡ρφ/ρDM is the fractional contribution of φ to     Via Eqs. 6 & 8, the dark matter causes minute, coher-
+the local DM density.                                     ent oscillations in µA/µb and α:
+  The classic probes of the scalar couplings in Eq. (2) are
+ﬁfth-force experiments, and searches for deviations from       µA     µA                                        ≃          [1 + (dme −dg + MAdˆm) κφ(t)] ;
+the weak equivalence principle (EP). Current technology         µb       µb   0
+can set limits on the di down to the 10−5 level, as we         α = α0 [1 + deκφ(t)] .                      (10)
+will discuss in Sec. V. With one extra assumption—that
+                                              The scaling of µA/µb with the light quark masses, asthe energy density in the φ ﬁeld makes up the DM—other
+                                                       parametrized by the MAdˆm term, has been estimated forphenomenological signatures come into play, such as tem-
+                                                               several relevant nuclei in [14]; for e.g. A = 133Cs, we haveporal and spatial variation of mass ratios and gauge cou-
+plings. Writing κφ as the ﬁeld normalized to the reduced  MA ≈+0.07. From Eqs 9 & 10, we thus obtain fractional          √
+                                                              variations in the frequency ratio of atomic transitions APlanck mass MPl/  4π, the above deﬁnitions are such
+                                                 and B:that
+                                                             δ (fA/fB)   h                               i  ∂ln Λ3       ∂ln mi(Λ3)        ∂ln α               ≃ ζA (dme −dg + MAdˆm) + ∆ξABde κφ(t),
+      = dg,        = dmi,     = de,   (8)      fA/fB
+   ∂(κφ)          ∂(κφ)           ∂(κφ)
+                                                                                                               (11)
+where Λ3  is the QCD conﬁnement scale and α is the    with ∆ξAB ≡ξA −ξB. For example, if A is a hyperﬁne
+ﬁne-structure constant. Hence if the local value of the    microwave transition and B is an electronic optical tran-
+φ ﬁeld changes, the eﬀective masses and gauge couplings     sition, ζA = 1, yielding sensitivity to dg, dme, and dˆm.1
+of fundamental particles change as well.  The mass of     If A and B are two diﬀerent optical transitions, ζA = 0,
+the proton mp changes primarily due to the change of    but ∆ξAB will be an O(1) number (see Table I), yield-
+the QCD conﬁnement scale Λ3 via the dg coupling, and    ing sensitivity to de. We shall take B to be an optical
+subdominantly due to the change of the quark masses    transition throughout the paper.
+mu,d via the symmetric dˆm coupling deﬁned in Eq. (5).      Before we describe the setup of our experiment, we ﬁrst
+Comparing this with Eq. (8), we quickly see that experi-    review the generation of an optical frequency comb as
+ments with extreme sensitivity to changes in mp/me or α    well as the workings of an optical clock laser in Sec. III A.
+can conceivably constrain the parameters di to sub-unity  A description of how the ratio fA/fB is measured follows
+levels.                                                         in Sec. III B, in the case where A and B are both elec-
+                                                              tronic transitions in the optical frequency range of 1014–
+                                                           1015 Hz (the modiﬁcation to a microwave-optical com-
+ III. CONCEPT AND EXPERIMENTAL SETUP                                                          parison is straightforward). We postpone a discussion of
+                                                           nuclear transitions to Sec. IV C. We will omit many tech-
+  The goal of our proposal is to search for dark-matter-    nical details; the reader is referred to [5, 15, 16] for more
+induced oscillations in the frequency ratios of certain    complete descriptions of these techniques.
+atomic transitions, which can be electronic, hyperﬁne,
+or nuclear in nature.  Since the eﬀects will be small,
+we need  stable sources  of  light with a narrow  line     1 Actually,   such  a  comparison  only  constrains  a  (non-
+width, as well as a way to measure the frequency of      compact)  region  in  the  two-dimensional  parameter  space
+pairs of such lines precisely.   Cavity-stabilized lasers      {(dme −dg + MAdm)ˆ   , de}. With clock comparisons of diﬀerent
+locked  to atomic transitions—atomic clocks—provide       pairs of atomic transitions, one can disentangle this degeneracy.
+=== PDF PAGE 4 ===
+                                                                                                     4
+
+EHtL                                                   main, this carrier-envelope phase shift manifests itself as
+               1fc             DΦ2Πfc             DΦΠfc                                                     a rigid frequency shift f0 = frep∆φce/2π of the spectrum
+                                                                               [5]. The frequency comb lines are thus located at
+
+                                                                        fn = f0 + nfrep.                (12)                                                                                                               t
+                                              The pulse repetition rate frep (and thus also f0) of a fem-
+                         1frep                                    tosecond laser is typically in the microwave frequency
+                                                 band (∼108 Hz), meaning that the lines of an optical
+                                (a)
+                                              comb with signiﬁcant power occur at very large n. Mea-
+                                                     surement of frep can be done with a fast photodiode [19],EHfL
+                                                          while measuring and stabilizing f0 has also become a
+                                                                              frep                                                       standard technique, in particular when the pulses are
+                                                           short enough so the comb spans at least an octave in
+                                                         frequency so “self-referencing” becomes feasible [5]. The
+                                                                   stability of combs based on Ti:sapphire lasers has been
+   f0=frepDΦ2Π
+                                                     demonstrated to be better than 8·10−20 [20], so Eq. (12)
+                                                             constitutes a near-perfect “ruler” in frequency space.                                                                                                               f
+  0                                                           fc                   An optical clock laser is a cavity-stabilized laser whose
+                               (b)                             frequency is locked to the energy of an electronic tran-
+                                                                  sition inside an atom. In practice, the continuous-wave
+FIG. 1.  (Color online) Diagrams of the (a) time and (b)    laser source is incident on a trapped, laser-cooled ion or
+frequency domains of a femtosecond laser with a time-evolving   on a sample of free-falling cold atoms, while a photomul-
+carrier-envelope phase φce, repetition rate frep, and carrier     tiplier tube (PMT) measures resonance absorption of the
+frequency fc. The comb in (b) is a Fourier transform of the    laser light at the desired electronic transition energy (see
+pulse train in (a). In practice, fc/frep ∼106 but here we have                                                              Fig. 2). The laser source has frequency-determining com-
+taken it to be O(10) for illustrative purposes.                                                      ponents that keep it stabilized to the cavity and locked on
+                                                        resonance with the transition in the ion/atoms through
+                                                     a feedback mechanism. Care is taken to eliminate ﬂuc-
+                                                           tuations in the length of the stabilizing cavity, as well as
+    A.  Frequency comb and atomic clock laser
+                                                             noise sources in the transition energy of the single ion or
+                                                         the sample of cold atoms.  In Table I, we list demon-
+   It was ﬁrst realized in [17, 18] that a regularly spaced                                                            strated short- and long-term stabilities of clock lasers
+train of short pulses (in the time domain) corresponds to                                                      based on a wide range of elements, alongside correspond-
+a “comb” in the frequency domain—a superposition of                                                           ing references to the state-of-the-art setups which con-
+regularly spaced narrow lines.2  Development of mode-                                                             tain ample discussion on sources of noise and instability
+locked Ti:sapphire lasers has made the production of                                                               in atomic clock lasers. In summary, a setup such as the
+few-femtosecond-wide pulse trains possible. To under-                                                     one depicted in Fig. 2 can output ultranarrow laser light
+stand how a frequency comb is formed, ﬁrst consider a                                                      with frequencies fA,B of stability ∼10−15 Hz−1/2, where
+single pulse. Its frequency spectrum will be the Fourier
+                                              we can take fA,B to precisely match energy level diﬀer-
+transform of its envelope function, centered at the opti-
+                                                          ences in ion/atom samples A and B.
+cal frequency of its carrier. The width of the spectrum is
+inversely proportional to the temporal width of the pulse
+envelope. For a train of pulses at ﬁxed repetition rate
+frep, the Fourier expansion will be dominated by modes
+of discrete frequencies separated by frep (only for these        B.  Measurement of clock frequency ratios
+can there be constructive interference), with largest am-
+plitudes still near fc (see Fig. 1). A complication arises     With two optical clock lasers and a frequency comb,
+from the fact that the phase velocity of the optical car-    the corresponding two atomic transition energies can be
+rier diﬀers from the group velocity of the pulses in the   compared [15, 16]. Light from both clock lasers can be
+gain medium of the femtosecond laser, causing a change    transported through ﬁbers and superposed on that of a
+∆φce of the carrier-envelope phase between two pulses of    frequency comb, incident on a fast photodiode.   If fA
+magnitude ∆φce = 2π(v−1group −v−1phase)Lcavityfc mod 2π,   and fB are included in the range of the comb, they will
+where Lcavity = c/frep is the length of the cavity used for    both be “close” to lines nA and nB in the comb (see
+the femtosecond laser (see Fig. 1). In the frequency do-    Fig. 2), giving rise to beating patterns at microwave beat
+                                                             frequencies fb,A and fb,B, respectively.  The measured
+                                                         frequency ratio is:
+
+2                                                           fA        f0 + nAfrep + fb,A  See [4–6] for a more rigorous treatment and elaborate review              =                               .         (13)
+  including references; here we give a heuristic derivation.                    fB expt   f0 + nBfrep + fb,B
+=== PDF PAGE 5 ===
+                                                                                                     5
+
+
+      Species           Transition                λ (nm)     Short                                                                              10−15√       Long  10−18    ζA       ξA
+                                                                         Hz
+      133Cs [21]       hyperﬁne                      3.3 · 107        2 · 102            360        1       2.83
+     199Hg+ [15]      5d106s 2S 1 ↔5d96s2 2D 5       282              2.8             19         0      −3.19
+                                        2                 2
+     171Yb+ [22]      4f146s 2S 1 ↔4f136s2 2F 7       467             2.0             71         0      −5.30
+                                        2                 2
+      27Al+ [23]        3s2 1S0 ↔3s3p 3P0            267              2.8               8.6         0       0.008
+      88Sr+ [24]        5s 2S 1 ↔4d 2D 5              674            16              25         0       0.43
+                                   2            2
+     171Yb [12]        6s2 1S0 ↔6s6p 3P0            578            0.32               1.6         0       0.31
+      87Sr [13]          5s2 1S0 ↔5s5p 3P0            698            0.34               6.4         0       0.06
+     162Dy [25]       4f105d6s ↔4f95d26s          4.0 · 108         4.0 · 106                  -          0      8.5 · 106
+     164Dy [25]       4f95d26s ↔4f105d6s          1.3 · 109         1.3 · 107                  -          0    −2.6 · 106
+     229mTh3+ [26]    nuclear                 ∼1.6 · 102     ∼1        ∼1             -     ∼104
+
+
+TABLE I. Transition type & wavelength, and short- & long-term stabilities of current state-of-the-art microwave and optical
+atom clocks and the planned thorium nuclear clock. Variation of the line frequency with changes in the ratio µA/µb and ﬁne
+structure constant α are parametrized with ζA and ξA as in Eq. (9).
+
+
+    laser A                                                      laser B      measure the frequency fA of the clock based on the hy-
+                                                     perﬁne transition, and still simultaneously determine fB
+ PMT                                                    PMT    with the help of a frequency comb as above:              atom A                                     atom B
+E
+                                                            fA             fA                         fb,A                                          fb,B                      =                            (14)
+                                                              fB expt   f0 + nBfrep + fb,B
+       fn = f0 + n frep
+                            freq. comb                           where again  all quantities on the right-hand side are
+                                                    microwave frequencies referenced to the same hydrogen                                                                                             f
+0                        fA                         fB                     maser.  Typically, the precision of the left-hand side of
+                                                     Eq. (14) is limited by the short-term stability of the hy-
+FIG. 2.  (Color online) Experimental setup of a frequency    perﬁne atomic clock.
+comparison of two optical lines. One clock laser based on a      In Table I, we provide a summary of commonly used
+“red” transition fA and another based on a “blue” transi-    atomic clocks based on the hyperﬁne cesium transition
+tion fB. Light from both clock lasers is superposed with that   and various electronic transitions, as well as a proposed
+from a frequency comb. Measurement of the beat frequencies    nuclear clock based on thorium (see Sec. IV D). The fre-
+fb,A and fb,B, and comb frequencies f0 and frep, provides the    quencies of various “clock transitions” scale diﬀerently
+necessary information for a frequency ratio measurement.                                                      with changes in the magnetic moments and ﬁne-structure
+                                                            constant, as shown by the ζA and ξA coeﬃcients of Eq. (9)
+                                                               in the last two columns of Table I. This variation in ξA
+                                                     mainly comes from a complex overall eﬀect of spin-orbit
+Note that the measured frequencies on the right-hand    couplings and many-body eﬀects in the electron cloud,
+side (f0, frep, fb,A, fb,B) of Eq. (13) are all microwave fre-    which have been calculated and listed in [16, 28].  In
+quencies (by construction). They can all be referenced to   two isotopes of dysprosium, these eﬀects conspire to yield
+the same microwave frequency standard (hydrogen maser    near-degenerate electronic levels separated by an energy
+or Cs-fountain clock). It follows that the stability of the    splitting in the microwave regime, oﬀering competitive
+optical clocks is the only limiting factor on the precision    sensitivity to changes in α despite a worse fractional
+of the left-hand side of Eq. (13), because the stability    frequency stability [25]. We also list the demonstrated
+of the microwave frequency reference standard cancels    short- and long-term stability of clocks based on these
+out in the frequency ratio. Other noise sources such as    transitions.
+general-relativistic time delay ﬂuctuations coming from
+e.g. changes in the gravitational potential due to Earth’s
+motion in the gravitational ﬁeld of the Sun (with peak                   IV.  SENSITIVITY
+changes of O(10−10) and inverse year frequency) are com-
+mon for both clocks, and thus also cancel out in the ratio.                                                            In this section, we quantify the reach of our pro-
+  This setup can be modiﬁed to perform a comparison of    posed clock comparison experiments. The basic modus
+a hyperﬁne line fA in the microwave regime to a line fB    operandi is to interrogate two atomic clocks A and B
+in the optical regime [27]. A hydrogen maser can directly   and measure their frequency ratio fA/fB after averaging
+=== PDF PAGE 6 ===
+                                                                                                     6
+
+for a time τ1, and repeat this measurement at regular                                      log10@fΦHzD
+time intervals ∆τ for a total integration time τint. (We            -8  -6  -4  -2   0    2    4    6    8    10
+                                                                       0
+will assume minimal down-time, such that τ1 ≃∆τ.)                                                      CI EP
+The output of this procedure is a discrete time series
+of fA/fB with a total τint/∆τ number of points. Dark-        -2
+matter-induced oscillations in the frequency ratio would
+show up as an isolated peak in the discrete Fourier trans-        -4
+                                                  dg                    CD EPform (DFT) of this time series, at a (monochromatic)
+frequency fφ = mφ/2π.   If there is such a monochro-        log10                    clock                                                             -6
+matic peak in the DFT, one could determine the mag-
+nitude of some linear combination of the {di} times the                                                             -8         optical-MW                                      axionsquare root of the fractional abundance pρφ/ρDM via
+Eqs. (6), (7) & (10) and the strength of the signal; a non-                                        QCD
+observation of a peak in the DFT would set constraints       -10                                                              -24  -22  -20  -18  -16  -14  -12  -10  -8  -6  -4
+(depending on the noise). In what follows, we estimate
+                                                                                                         log10@mΦeVD
+the detection reach for the couplings {dg, dˆm, dme, de} at
+unity signal-to-noise ratio (SNR = 1), assuming only one
+                                                       FIG. 3. (Color online) Sensitivity to dg as a function of thecoupling dominates.
+                                                                    scalar dark matter mass mφ = 2πfφ with the microwave-
+                                                                    optical clock comparison experiment described in the text, for
+                                                                                  τint = 106, 108 s (thin blue, thick blue), assuming φ makes up
+     A.  Microwave-optical clock comparison                                                                                 all of the local dark matter. Regions excluded by composition-
+                                                         dependent (CD EP) and -independent (CI EP) equivalence
+  The type of setup described in Sec. III for a microwave-     principle tests are colored in red and orange, respectively,
+optical transition frequency comparison has been per-    assuming dg ≫dmi, de.
+formed before, most recently in [29] by comparing a
+133Cs-fountain atomic clock with a 199Hg+ optical clock,
+and also in [30] with 171Yb instead of 199Hg+. These ex-                                       log10@fΦHzD
+periments were primarily sensitive to linear drifts in fun-            -8  -6  -4  -2   0    2    4    6    8    10
+                                                                               ˙α                   0
+damental constants: they placed limits on e.g. α. Unless                                                   CI EP
+the scalar ﬁeld responsible for these variations is much
+                                                             -2
+lighter than the run time of the experiments (a few years,
+corresponding to a DM mass of ∼10−22 eV), this is not                                                             -4                 CD EP
+an optimized analysis for looking for scalar ﬁeld dark                            clock                                                                        dm`
+matter: the expected phenomenology is coherent oscilla-        -6
+tions in mass ratios and the ﬁne structure constant.                log10                                                                                                optical-MW We suggest monitoring the frequency ratio fCs/fSr+ at        -8                                                  axion
+a 1 Hz sampling rate and 1 s averaging time per measure-                                     QCD
+ment (∆τ ≃τ1 ≈1 s). It does not matter which optical       -10
+clock is used for the comparison, as long as it has a bet-
+ter short-term stability than a Cs clock. We picked 88Sr+       -12
+                                                              -24  -22  -20  -18  -16  -14  -12  -10  -8  -6  -4
+because it has a relatively long wavelength for an opti-
+                                                                                                         log10@mΦeVDcal clock (so the optical synthesis is easier), and because
+ξCs−ξSr+ ≈2.4 is relatively small (see Table I), minimiz-
+                                                                   mˆ  as a functioning the obfuscating eﬀect of the de coupling in Eq. (11).    FIG.  4.   (Color online) Sensitivity to d
+                                                                       of the  scalar dark matter mass mφ =  2πfφ  with theAt such short interrogation times, the uncertainty σ1 of
+                                                              microwave-optical clock comparison experiment, assuming
+the frequency ratio measurement is dominated by the
+                                                       dmˆ ≫dg, de, dme. The green region depicts allowed scalar
+(in)stability of the Cs fountain [29], at 2 · 10−13 Hz−1/2    couplings of the QCD axion as in Eq. (4). Plot labels other-
+[27].3 Expected coherence times of the dark matter oscil-    wise similar to Fig. 3.
+lations are of order τcoh ≃2π(mφv2)−1 with v ≈10−3 [1],
+so we expect to boost the sensitivity σ1 of a single mea-
+surement by a factor of β = (min{τint, τcoh}/∆τ)1/2—the
+square root of the number of coherent measurements.        For simplicity, we assume in the rest of this subsection
+                                                          that dg, dˆm or dme are the only non-zero couplings, so a
+                                                                  sensitivity of σn ≡σ1/β on the amplitude of the oscilla-
+                                                             tion in the frequency translates directly into a bound on
+3 In other words, the fractional stability of a Cs-fountain atomic   dgF 1/2, dˆmF 1/2 and dmeF 1/2 via Eqs. (7) & (11). We
+  clock is 2 · 10−13/ pτ1/s where τ1 is the interrogation/averaging    plot the expected SNR = 1 sensitivity for the three cou-
+  time for a single measurement.                                 plings in Figs. 3, 4 & 5 for integration times τint of 106 s
+=== PDF PAGE 7 ===
+                                                                                                     7
+
+                                  log10@fΦHzD                                                                  log10@fΦHzD
+        -8  -6  -4  -2   0    2    4    6    8    10             -8  -6  -4  -2   0    2    4    6    8    10
+      0                                                                0                  CI EP
+                                                                                         CI EP
+                CD EP
+    -2                                                       -2
+                                                                CD EP
+    -4                                                       -4
+dme                     clock                              de
+    -6                                                                                                      log10 -6log10                                                                                                     clock    -8         MW-optical                                         -8
+   -10                                                        -10                                                     axion                                                                                                                               optical-optical                                                                                 QCD
+   -12                                                        -12
+     -24  -22  -20  -18  -16  -14  -12  -10  -8  -6  -4         -24  -22  -20  -18  -16  -14  -12  -10  -8  -6  -4
+                               log10@mΦeVD                                                             log10@mΦeVD
+
+FIG. 5.   (Color online) Sensitivity to dme  as a function    FIG. 6. (Color online) Sensitivity to de as a function of the
+of the  scalar dark matter mass mφ =  2πfφ  with the     scalar dark matter mass mφ = 2πfφ with the optical-optical
+microwave-optical clock comparison experiment, assuming    clock comparison experiment described in the text, for τint =
+dme ≫dmi, de, dg. Plot labels otherwise similar to Fig. 3.        106, 108 s (thin blue, thick blue), assuming φ makes up all
+                                                                       of the local dark matter. Regions excluded by composition-
+                                                         dependent (CD EP) and -independent (CI EP) equivalence
+                                                                    principle tests are colored in red and orange, respectively,
+                                                         assuming de ≫dmi, dg.  The green region depicts allowed(thin blue) and 108 s (thick blue), respectively, assum-
+                                                                    scalar couplings of the QCD axion.
+ing φ is all of the dark matter (F = 1). The sensitivity
+is better for lower masses because the amplitude κφ0 is
+bigger in Eq. (7); at high masses, there is an additional
+suppression due to short coherence times (leading to the
+                                                                         ilar electron structures and transition dynamics (see Ta-
+“kink” at fφ ≈10−2 Hz in all three ﬁgures)). We require
+       2π                                                    ble I). Speciﬁcally, the short-term stability of these clocks∆τ <      < τint, so the signal shows up as an isolated     mφ                                                     can be as good as 2.0·10−15 Hz−1/2 and 2.8·10−15 Hz−1/2
+peak within the range of the DFT of the measurement                                                                  for Yb+ and Al+, respectively, and ξYb+ −ξAl+ ≈−5.3.
+time series. Of course, this experiment can still be sensi-
+                         2π                          With the same 1 Hz sampling rate of fYb+/fAl+, wetive to masses for which                > τint—via a drift in the fre-                   mφ                                                             plot in Fig. 6 the SNR = 1 sensitivity to the de coeﬃ-
+quency ratio or a peak in the ﬁrst mode of the DFT—but    cient for integration times of τint = 106 s (thin blue) and
+any positive signal could not be ascribed unambiguously     τint = 108 s (thick blue), using the same assumptions as
+to the eﬀects of oscillating dark matter. We denoted this    in Sec. IV A. Because of the superior short-term stabil-
+by the dotted, ﬂat extension of our sensitivity curves in     ity of optical clocks, the sensitivity to the de coupling
+Figs. 3, 4 & 5, as the expectation value of the drift over     is strong. This is particularly exciting given the weaker
+the run time of the experiment is independent of mφ in   bounds on de from equivalence principle tests, to which
+this regime. We note that cosmological constraints (see   we turn in Sec. V.
+Sec. VII) imply that φ cannot be all of the DM in the
+universe for masses mφ ≲10−21 eV, and that the sensi-
+tivity of our proposal scales as F −1/2 = p ρDM/ρφ with           C.  Improvements in optical clocks
+the fraction F of the local dark matter density in φ.
+
+                                                            Optical clocks based on single ions are nearing their
+                                                          ultimate fractional stability limit due to quantum pro-
+       B.  Optical-optical clock comparison             jection noise (QPN). The path towards further stability
+                                                    improvements thus naturally veers towards using optical
+  As explained in Sec. III, a comparison of two electronic    clocks based on a large number of neutral atoms trapped
+optical transition lines is very sensitive to changes in α    in optical lattices, whose QPN scales like N −1/2 where N
+alone, and thus the de coeﬃcient, without confounding     is the number of interrogated atoms [31]. The most no-
+eﬀects due to dg, dˆm, or dme. We propose measuring    table examples in this category are optical clocks based
+variations of the frequency ratio of two optical clocks,   on 171Yb0 [12] and 87Sr0 [13, 32], which have demon-
+one based on a single 171Yb+ ion, the other on a sin-    strated short-term stabilities of 3 · 10−16 Hz−1/2 and are
+gle 27Al+ ion. Optical clocks based on these ions have    approaching long-term stabilities at the 10−18 level (see
+demonstrated excellent short-term stability, and behave    Table I). Further progress in this area will require push-
+diﬀerently under variations of α because of their dissim-    ing the envelope in optical cavity technology for the clock
+=== PDF PAGE 8 ===
+                                                                                                     8
+
+laser, as thermal-noise-induced ﬂuctuations of the cavity                                       log10@fΦHzD
+length start becoming a limiting factor [33, 34]. Next-            -8  -6  -4  -2   0    2    4    6    8    10
+                                                                       0
+generation optical coatings (the dominant thermal noise                          CI EP
+source) such as microstructured gratings [35] or mirrors            CD EP
+based on gallium arsenide [36] may push short-term in-        -4               clock
+stabilities below 10−17 Hz−1/2 [37].
+  Optical clock lasers based on a large sample of atoms                                                                        dm` -8      MW-optical
+that do not wholly rely on optical cavities for their short-
+term stability are also under consideration [38, 39]. These        log10                                        ∆ν   1                                                       axionsystems may reach the QPN-limited instability                                                                                                  clock        QCD                                                         ν0 √Nτ1        -12
+where ∆ν is the spectroscopic linewidth of the clock sys-tem, ν0 is the frequency of the clock transiton, N is the       -16         nuclear-optical
+number of atoms measured, and τ1 is the averaging time
+in seconds (we have assumed a 1 s measurement time).         -24  -22  -20  -18  -16  -14  -12  -10  -8  -6  -4
+With a line quality of ∆ν/ν0 ∼10−15 and N ∼1010,                                    log10@mΦeVD
+short-term instabilities of ∼10−20 Hz−1/2 may be within
+reach.4 Furthermore, advanced systems using arrays of    FIG. 7. (Color online) Same as in Fig. 4, adding the reach
+coherent atomic samples may exhibit Heisenberg-limited    on dmˆ with a future nuclear-optical clock comparison after
+performance, for which the instability ∆ν                                              ν0 N√τ11   could be      τint = 108 s. The future dmˆ  sensitivity of the composition-
+                                                         dependent EP test in [48] is shown as a dashed red line.as low as 10−21 Hz−1/2 with only N ∼106 atoms [38].
+  The diﬀerence ξA −ξB in the coeﬃcients of Eq. (9) is
+typically small if A and B are both transitions in neutral
+atoms, as seen in Table I, leading to a reduced sensitiv-                                       log10@fΦHzD
+ity to de relative to comparisons between two ion clocks            -8  -6  -4  -2   0    2    4    6    8    10                                                                       0
+(or an ion-atom clock system) for the same instability.                      CI EP
+However, at their current rate of stability improvements,                CD EP
+optical clocks based on neutral atoms will likely lead to        -4
+better potential sensitivity to de in the future.
+                                                  de  -8                  clock
+              D.  Nuclear clocks                                          log10                         clock                                                                                                                 optical-optical
+                                                              -12   It has been suggested in [26, 40] that a nuclear clock                            nuclear-optical                     axion
+based on a narrow isomer transition in 229mTh may be                                QCD                                                              -16
+used to set a better bound on drifts of fundamental con-
+stants. The thorium nucleus has the remarkable prop-                                                              -24  -22  -20  -18  -16  -14  -12  -10  -8  -6  -4
+erty of having an excited isomer state of only 7.6±0.5 eV                                                                                                         log10@mΦeVD
+and linewidth of ∼104 Hz, accessible to current lasers.5
+The small gap of 7.6 eV between the isomer and ground
+                                                       FIG. 8. (Color online) Same as in Fig. 6, adding the reach
+state—typically O(100 keV) for most nuclei—arises due
+                                                      on de with a future nuclear-optical clock comparison after
+to an accidental cancellation between contributions from                                                                                  τint = 108 s. The future de sensitivity of the composition-
+electromagnetic and strong interactions [42–46].  This    dependent EP test in [48] is shown as a dashed red line.
+leads to an enhancement in sensitivity to changes in α,
+Λ3, and quark masses [47]:
+
+        δfTh
+           ≈104 (de + 10(dg −dˆm) + . . . ) ,     (15)    inside a CaF2 lattice [49], or a single-ion clock based         fTh
+                                                  on 229Th3+  [26].  The latter proposal could reach its
+where dˆm is the dilaton coupling to the symmetric com-    quantum-limited stability of 10−15 Hz−1/2 for interroga-
+bination of the quark masses as in Eq. (5).                  tion times of a second or longer, if thermal noise can be
+  Proposals have been put forward to build a solid-state    controlled. Comparison with a line from an optical clock
+thorium nuclear clock, using either 229Th2+ ions doped     is feasible given the recent development of “vacuum ul-
+                                                               traviolet” frequency combs [50, 51].  Anticipating these
+                                                            technologies to mature in the next decade, we project
+4 Private communication with Leo Hollberg.                   a combined uncertainty of ∼10−15 Hz−1/2 for the op-
+5 It must be noted that the 7.6 eV thorium line has not yet been     tical synthesis process and stability of both the nuclear
+  directly observed; the size of the gap has been determined via   and optical clock. Translating this to sensitivity to the
+  indirect measurements of nuclear decays of uranium [41].          couplings in Eq. (2), we project minimal reach with a
+=== PDF PAGE 9 ===
+                                                                                                     9
+
+nuclear-optical clock comparison (in dotted blue) for dˆm,     [55, 56], which measures the diﬀerential acceleration for
+de and dg and in Figs. 7, 8 & 9, respectively.            Be and Ti on Earth, are both sensitive to fractional
+                                                              diﬀerential accelerations of order 10−13.  Because LLR
+                                                                               is done at a larger length scale and the Earth and
+    V. EQUIVALENCE PRINCIPLE TESTS      Moon have similar chemical composition, the E¨otWash
+                                                      experiment  is  typically more  constraining,  setting a
+  Ultralight  scalars can mediate  long-range Yukawa    limit |αEarth(αBe −αTi)| ≲  3.6  · 10−13  at 95% CL.
+forces between uncharged objects, and will thus result    For dg ≳dmi, de, this constrains |dg| ≲7.2 · 10−6 for
+in deviations from the equivalence principle (EP). In the   mφ ≲1/REarth [7].  Similarly, with dˆm, dme or de the
+parametrization of [7], a scalar (in addition to gravity)    only non-zero couplings in Eq. (17), minimal bounds of
+will create the potential                                        |dˆm| ≲2.5 · 10−5, |dme| ≲7.1 · 10−3 and |de| ≲3.6 · 10−4
+                                                           are  obtained.   The  atom-interferometric experiment
+       V = −GmAmB  1 + αAαBe−mφrAB   ;           proposed in [48] (currently under construction) will im-
+                rAB                                  prove the minimal coupling bounds to |dˆm| ≲2.0 · 10−5,
+            ∂ln [κmA(κφ)]                               |dme| ≲8.5·10−4 and |de| ≲7.8·10−5 once it reaches ini-      αA =           ≡dg + αA.           (16)               ∂κφ                                            tial design precision of |αEarth(α85Rb −α87Rb)| ≲10−15.
+                                              The minimal composition-dependent EP constraints are
+  For macroscopic objects, most of the rest mass comes    depicted as red regions in Figs. 3, 5 & 6. The future
+from the nucleus mass, so unless dg is suppressed relative    reach on dˆm and de with the proposal of [48] is shown as
+to the dmi or de, we expect αA ≃dg ≫αA. In this case,    a thin dashed red line in Figs. 7 & 8.
+αA is not strongly dependent on the chemical composi-
+tion of object A, but one can still detect a scalar force
+by looking for a departure from V ∝r−1 in Eq. (16) in          VI.  GRAVITATIONAL ANTENNAS
+experiments with linear size of order mφ. For a review,
+we refer the reader to [52], from which we displayed a                                                      There are two ways in which the scalar φ of Eq. (2)
+compendium of composition-independent bounds on dg    can inﬂuence the macroscopic motions of matter.6 We
+as the orange region in Fig. 3. Composition-independent                                                           discussed the ﬁrst in Sec. V: apparent violations of the
+tests of the EP can also directly constrain dˆm, dme and    equivalence principle through new scalar forces, which do
+de.  Without any extra assumptions, these constraints    not hinge on the assumption that φ makes up the dark
+are weaker because of the relatively small quark-mass,                                                      matter density. With this assumption, however, spatial
+electron-mass, and electromagnetic contributions to the                                                            gradients in the non-relativistic φ waves can cause tidal
+rest mass of atoms. We can quantify this by writing                                                                forces not unlike those produced by gravitational waves
+                                              (GW). In what follows, we will quantify the sensitivity             h
+     αA ≡ + (dˆm −dg)Qˆm + (dδm −dg)Qδm             of GW detectors such as LIGO [58, 59], Advanced LIGO
+                                                                    [60, 61], AGIS [62, 63], and eLISA [64] to ultralight scalar                                     i
+         + (dme −dg)Qme + deQe A,         (17)    dark matter waves.
+                                                To leading order, the potential for an otherwise free-
+          dmdmd+dmumu                               dmdmd−dmumu                                                    are     falling test mass M (e.g. a LIGO mirror) in a scalar wavewhere dˆm =                      and dδm =            md+mu                                md−mu
+the dilaton couplings to the symmetric and antisymmet-     φ(t,⃗x) = φ0 cos(mφt −⃗kφ ·⃗x + α) is
+ric combination of the quark masses respectively. The
+                          ∂ln mA                        V = M [1 + αMκφ(t,⃗x)] ≃M [1 + dgκφ(t,⃗x)] ,   (18)
+“charge vector” Qˆm ≡  ∂ln ˆm   is ∼0.1 and decreases          √
+by ∼10−2 for elements with high atomic number A,                4π                                                      with κ ≡                                                                                                                     , and where we have approximated αM ≃                                                                  MPlwhile Qδm is small and nearly constant across the pe-
+                                            ∂ln mA           dg (cf. Eq. (16)) since we care about test masses com-
+riodic table. The charge vector Qme ≡  ∂ln me  is also    posed of neutral atoms, whose rest mass is primarily de-
+nearly constant at the rough value of 2.5 · 10−4, while                                                      termined by the QCD scale Λ3. For simplicity, let us as-
+Qe ≡∂ln∂lnmAα  ranges from 3·10−4 for the lightest elements   sume the scalar wave travels in the x-direction,⃗kφ = kφˆx.
+to 4·10−3 for heavy elements (Z ≳50) (see [7] for formu-                                              Then the potential in Eq. (18) will cause test masses to
+las of the Qi). We therefore estimate that the minimal    deviate from their geodesics⃗xM by a displacement:
+composition-independent EP bounds on dˆm, dme and de
+are weaker than those on dg by factors of 10, 4 · 103 and                                                  δxM ∼dgkφκφ0 sin(mφt −kφxM + α).     (19)
+103, respectively. We indicated them as orange regions                m2φ
+in Figs. 4, 5 & 6.
+  At  distances   larger  than  the  Earth’s   radius,
+composition-dependent EP tests are more constraining     6                                                                      In [57], it is suggested that future millisecond pulsar timing mea-
+than the composition-independent ones. Most notably,      surements may become sensitive to the oscillating pressure cre-
+Lunar Laser Ranging (LLR) [53, 54], which measures the       ated by a scalar dark matter ﬁeld (cfr. the γp term in Sec. VII A)
+diﬀerential acceleration of the Earth and Moon in the       in a narrow mass range around ∼10−23 eV, purely from the
+Sun’s gravitational ﬁeld, and the E¨otWash experiment       gravitational coupling of φ.
+=== PDF PAGE 10 ===
+                                                                                                    10
+
+                                 log10@fΦHzD                         reason, smaller detectors such as (Advanced) LIGO and
+        -8  -6  -4  -2   0    2    4    6    8    10    AGIS-LEO [63] cannot surpass current EP experiments
+      0
+                    eLISA                               CI EP          inlocaltermsoverdensityof sensitivityof φ darkto ourmatter).model (unless there is a
+                                         HAdvLLIGO    -4   CD EP
+                    clock      AGISHfutL
+dg  -8                                                          VII. COSMOLOGY AND ASTROPHYSICS           MW-opticallog10                            clock   -12                                          axion                 A.  Cosmic production and evolution
+                             QCD                      nuclear-optical
+                                                The energy associated with coherent oscillations of   -16
+                                                                   light scalars can play the role of the dark matter energy
+     -24  -22  -20  -18  -16  -14  -12  -10  -8  -6  -4    density. Light scalar dark matter can be non-thermally
+                               log10@mΦeVD                     produced through vacuum misalignment in the early uni-
+                                                             verse (“misalignment mechanism”) [65]. The evolution of
+                                                     a light scalar ﬁeld with initial amplitude φ0,i can be de-FIG. 9. (Color online) Same as in Fig. 3, adding the reach
+on dg with a future nuclear-optical clock comparison after    scribed classically (because of high occupation numbers)
+τint = 108 s.  The estimated sensitivity to dg with current   by its equation of motion:
+and proposed gravitational wave detectors is also depicted:
+LIGO (brown), Advanced Ligo (dashed brown), AGIS-Future                             ¨φ + 3H ˙φ + V ′(φ) = 0,             (22)
+(dashed purple), eLISA (dashed gray).
+                                                    where the Hubble scale is deﬁned as H = a,˙a and V (φ) =
+                                                                  12m2φφ2 + aφ3 φ3 + λφ4 φ4 as before. When the Hubble scale
+                                                                               is very large, speciﬁcally when H2 ≫V ′(φ0,i)/φ0,i, the  Between two mirrors positioned at xM ≃0 and xM ≃
+                                                               scalar ﬁeld and its energy density will be “frozen” at φ0,iL, the return trip time for light between the two mirrors
+                                                 and V (φ0,i), respectively. In this regime, V (φ0,i) acts asis approximately treturn ≃2L + δt with:
+                                                     a contribution to the vacuum energy. As the universe ex-
+     δt ≃4dgkφκφ0 sin2  mφL  sin(mφL + α),     (20)    pands and the Hubble scale drops well below the critical
+         m2φ          2                              value (H2 ≃V ′(φ0,i)/φ0,i), the ﬁeld will start oscillating
+                                                      with negligible friction. If the oscillations are harmonic—
+where we have taken v ≪min{1, mφL}.                when the m2φφ2/2 term dominates—the energy density of
+ A gravitational wave with ⊕-polarization moving in     oscillations ρφ ≃m2φφ20/2 with amplitude φ0 acts as cold,
+the z-direction with phase α, strain amplitude h0, and    pressureless dark matter on length scales larger than the
+angular frequency ω, causes an analogous time delay of    ﬁeld’s Compton wavelength ∼2π/mφ.
+δt = h0ω sin(ωL) sin(ωL + α).  Hence, we ﬁnd that (up     The one-loop eﬀective potential V (φ) has to satisfy
+to angular factors), a scalar wave has an eﬀective GW    several constraints if φ is to be a viable dark matter can-
+strain amplitude                                             didate. Most obviously, we want to avoid runaway behav-
+                                                                    ior of φ or convergence to minima other than φ = 0 in
+                       mφL                                                       our parametrization of V (φ). It is likely suﬃcient to re-           h0,SW ∼2dgkφκφ0 tan               ,        (21)
+               mφ          2                     quire anharmonicities to be small when the scalar starts
+                                                                  oscillating at H ∼mφ,  i.e. |aφφ0,i|, |λφφ20,i| < m2φ, al-and angular frequency ω = mφ. Of course, the angular                                                    though this is not a strict condition, as unknown Planck-
+response function  of a GW detector  is diﬀerent  for
+                                                           ian dynamics and higher-dimensional operators may be
+a scalar wave.  After averaging over the appropriate
+                                                      important at those high ﬁeld values.
+antenna patterns and taking into account that the scalar
+                                                The couplings to the SM in Eq. (2) radiatively generate
+wave is expected to have a wave vector⃗kφ ≃mφ⃗v and                                                                 self-interaction parameters of order
+coherence time τcoh ≃2π(mφv2)−1 with v ≈10−3,
+we estimated the sensitivity of various interferometors                                                           3
+to scalar dark matter waves with dg couplings using     δaφ,SM ∼−(dmiκmi)3 mi ∼−10−58 eV  dmt     (23)
+                                                                    16π2                  10−6
+Eq. (21). (The sensitivity to dme and de is much weaker
+because the charge  vectors Qme and Qe deﬁned  in                                                       δλφ,SM ∼+(dmiκmi)4 ∼+10−92   dmt   4        (24)Sec. V are small.)  The resulting estimated reach  is                  16π2              10−6
+plotted in Fig. 9. In general, we ﬁnd that larger inter-
+ferometers such as the large version of AGIS [62] and    where, to get numerical estimates, we have plugged in
+eLISA [64] have better sensitivity, because the eﬀective    the top quark mass mt and corresponding coupling dmt—
+strain amplitude  in Eq. (21)  increases  linearly with    probably the biggest SM correction (the Higgs boson con-
+interferometer size L (assuming L ≪m−1φ  ).  For this    tributes with opposite sign).  In addition, gravitational
+=== PDF PAGE 11 ===
+                                                                                                    11
+
+eﬀects will introduce an eﬀective quartic of δλφ,grav ∼      For the remainder of the discussion, we will combine
+−m2φ/M Pl2 ≈−10−92  10−18mφ eV  2.                          the couplings aφ and λφ into an eﬀective quartic coupling
+
+
+
+                                10δa2φ,SM
+                 λeﬀφ ≡δλφ,SM −      + δλφ,grav
+                            9m2φ
+
+                                                                                                         2                               dmt   4          dmt   6  10−18 eV  2         mφ                ∼+10−92        −10−80                   −10−92                      ,              (25)
+                              10−6            10−6     mφ               10−18 eV
+
+
+serving as an eﬀective measure of attractive (λeﬀφ < 0)                B.  Structure formation
+or repulsive (λeﬀφ > 0) self-interactions of φ in the non-
+relativistic limit. The cubic contribution (which is always     The ﬁeld φ should act as dark matter today, so  it
+negative) in Eq. (25) tends to dominate for the parameter   must presently be in its oscillating phase, implying that
+range of interest in this paper, implying that φ typically   mφ ≳H ≈10−33 eV.  If the transition to the oscillat-
+has attractive self-interactions.  Imposing that the po-    ing regime happens close to the surface of last scatter-
+tential be harmonic when the ﬁeld φ enters its oscillating    ing, the integrated Sachs-Wolfe eﬀect will cause distor-
+phase at H ∼mφ (anharmonicities today will be much    tions in the anisotropy spectrum of the cosmic microwave
+smaller because the density redshifts as ρφ ∝a−3) to    background [66]. This phenomenon provides a handle to
+avoid runaway behavior yields the condition:               exclude light scalars as a signiﬁcant component of dark
+                                                      matter for masses below 10−26 eV [67].
+                                                The most stringent cosmology limits on such ultralight
+                                                                scalars are due to the fact that they are not entirely pres-
+       m2φ          ρDM,U    mφ     5/2
+   λeﬀφ ≲    ≲10−86                                         .  (26)    sureless dark matter [68], because of the tiny mass and
+         φ20,i            ρφ     10−18 eV                 self-interactions of φ. In the oscillating phase, the pres-
+                                                           sure pφ ≡˙φ2/2 −V (φ) will vary much on time scales
+                                                            shorter than H−1 and can have a non-zero average over
+We note that  this  is a weak  condition,  as  higher-    one oscillation cycle of the ﬁeld φ when the potential
+dimensional operators may stabilize the full one-loop ef-     is anharmonic aφ, λφ̸ = 0.  Following [68], we quantify
+fective potential at high ﬁeld values. However, it is strik-    this as pφ = (γ + γp −1)ρφ, where γ  is the average
+ing that couplings di ≲10−6 in Eq. (26), within reach of    of (pφ + ρφ)/ρφ = ˙φ2/V (φ0) over one oscillation cycle,
+our proposed clock comparison experiment, are roughly   and γp indicates the oscillatory piece, irrelevant on large
+in the right ballpark to satisfy the inequality 26 if φ com-   enough time and length scales. Treating the anharmonic
+prises all of the DM in the universe ρφ = ρDM,U.           terms as small corrections, one ﬁnds:
+
+
+
+                                                       i+1/2                                           1 −VV (φ0)(φ)                     1 Z T   ˙φ2        R −φ0+φ0 h                                                  dφ       3λeﬀφ φ20       λeﬀφ 2φ40 !
+                γ =         ≃2              ≈1 +     + O                          (27)                  T  0  V (φ)dt     +φ0 h       (φ) i−1/2         16m2φ       m4φ                                       R                                           1 −VV (φ0)     dφ                                       −φ0
+
+
+
+In the next subsection, we shall discuss the consequences    bations δk ≡δρk/ρ at scales |k| obey the approximate
+of the resulting average pressure on large-scale structure     classical evolution equation:
+formation.
+                                                        "                                                                            4πρtot      k2     3λeﬀφ φ20 ! k2 #
+  Density  perturbations  of  ultralight  scalar  ﬁelds        ¨δk + 2H ˙δk ≃      2 −      +                δk.                                   M Pl     4m2φa2   16m2φ    a2have  non-zero sound  speeds  at  short  length  scales.
+There  is a well-known scale-dependent sound speed                                                       (28)
+c2s,(m) = max n1, |k|2/(4m2φa2)o [69], as well as a scale-                                                At large length scales (small |k|), this evolution equation
+independent sound speed contribution c2s,(λ) = γ−1 when    describes the growth of structure δk ∝a in the pres-
+the average pressure is non-zero [68].  Density pertur-    ence of cold dark matter after matter-radiation equality.
+=== PDF PAGE 12 ===
+                                                                                                    12
+
+At short length scales, however, Eq. (28) does no longer                                        log10@fΦHzLD
+admit linear growth δk solutions. The c2s,(m) term will in-             -8  -6  -4  -2   0    2    4    6    8    10                                                               -50
+hibit growth at length scales below a Jeans length LJ,(m),                                                               -55
+while the c2s,(λ) term can also inhibit (λeﬀφ > 0) or expo-        -60                        formation
+nentiate
+where         (λeﬀφ < 0) growth at scales shorter than LJ,(λ),        -65                   structureHquarticL               axion                                                                                          H~mΦ                                                                                                                eff                                                               -70       ΛΦ                  at                                                ΛΦ                                                                                    QCD
+                                                                                                                                                                 grav                                                    2 !1/2           -75           topHdmt~10-6L                 !1/4             3π|λeﬀφ |M Pl        π3M Pl2                                                                                                                                       harmonicity       ΛΦ LJ,(m) ≃                       ;  LJ,(λ) ≃                               ,          log10  -80          ρφm2φ                 8m4φ                                                                                                          formation                                                               -85            HmassL
+                                                   (29)                                                               -90                                                                                                                                                                                                                                                                                                                  structure
+and we have assumed the scalar φ makes up all of the        -95               SR           SR
+dark matter density (ρφ ≃ρtot). As a conservative esti-        -100                                                               -24 -22 -20 -18 -16 -14 -12 -10  -8  -6  -4
+mate, we posit that growth on length scales larger than
+                                                                                                           log10@mΦeVLDcurrent galactic sizes could not have been disturbed by
+the above growth inhibition (or acceleration).  Specif-
+                                                       FIG. 10. (Color online) Cosmological and astrophysical con-ically, we require L(a) > max{LJ,(m)(a), LJ,(λ)(a)} for
+                                                                      straints in the mφ–|λeﬀφ | plane.  Structure formation con-any length scale L(a0) ≳100 kpc at any time between                                                                      straints are indicated in dark and light gray. Superradiance
+matter-radiation equality and the present (aeq < a < a0).                                                       (SR) bounds from observations of supermassive black holes
+Note that in the matter dominated era, we have the scal-                                                                are depicted as the two left most yellow regions, while the
+ings LJ,(m)(a) ∝a3/4, LJ,(λ)(a) ∝a0, so the above con-    bounds from observations of stellar mass black holes are de-
+dition is strongest at a = aeq. We thus obtain estimated    picted as the right most yellow region. For reference, we in-
+bounds on the potential parameters:                         clude the eﬀective quartic contribution generated for φ when
+                                                        dmt ∼10−6 from SM corrections (blue), the gravitational
+                            mφ     4        contribution to the eﬀective quartic for a massive scalar ﬁeld  mφ ≳6 · 10−21 eV;  |λeﬀφ  | ≲3 · 10−79                      .                                     10−18 eV            (black), as well as the mass-quartic relation for the QCD axion
+                                                   (30)     (green). The structure formation bounds assume ρφ ∼ρDM,
+                                                     and disappear when ρφ ≲10−1ρDM.
+We note that these constraints disappear completely
+when φ is only a sub-dominant component of dark mat-
+ter, and that these estimates are more conservative than
+other recent studies.                                       observations [69, 71].8 We note that this mass range is
+  Observations of the Lyman α ﬂux power spectrum with    straddling the ﬁrst bound of Eq. (30), and thus provides
+the Keck High Resolution Echelle Spectrometer (HIRES)    extra motivation to look for scalar oscillations in the mass
+and the Magellan Inamori Kyocera Echelle (MIKE) im-    range for which the clock comparison tests of Sec. IV are
+ply the existence of hydrogen clouds with a comoving   most sensitive.
+size down to around 100 kpc at high redshift [70], and      In Fig. 10, we show the constraints in Eq. (30) on the
+were used in [71] to exclude scalar ﬁelds lighter than   mφ–|λeﬀφ  | parameter space in dark and light gray. We also
+∼10−21 eV as the dominant component of dark mat-    plot the (negative) quartic contribution of Eq. (24) from a
+ter,7 consistent with our estimate in Eq. (30). Current    dmt ∼10−6 coupling to the top quark mass term in blue,
+and future experiments on weak lensing and 21 cm exper-    as well as the eﬀective (negative) quartic generated from
+iments [73, 74] and CMB polarization measurements [75]    gravitational eﬀects in black. For reference, we include
+will likely shed more light on the possible mass range of    the QCD axion mass-quartic relation λa ∼−(ma/Λ3)4
+light scalar DM. Regarding the quartic, [76] previously    in green. From Fig. 10, we conclude that couplings di
+set an upper bound of |λeﬀφ  | ≲10−74  10−18mφ eV 4 by re-    that can be probed by the experiment we propose in
+quiring that the scalar DM be non-relativistic at matter-    Secs. III & IV can easily be consistent with cosmolog-
+radiation equality, to an arbitrary degree of γ−1 ∼10−3.     ical and astrophysical constraints.
+Scalar dark matter with mass ∼10−21–10−22 eV as a      In fact, they are complimentary: the structure forma-
+O(0.1) fraction of the total DM density has previously    tion constraint on the mass motivates searches for DM
+been proclaimed to resolve some tension between struc-     oscillations with sub-year periods, while the constraint
+ture formation simulations based on ΛCDM model and   on the quartic coupling motivates searches for di cou-
+                                                              plings much smaller than those accessible with current
+                                       EP experiments.
+
+7 The limit in [71] relies on an analogy between scalar and warm
+  dark matter, and only gives an order of magnitude correct ex-
+  clusion limit; detailed hydrodynamical simulations of structure     8 For a short review on the small-scale astrophysical controversies,
+  formation with light scalar DM are needed to make this limit      namely the cusp-core problem, the missing-satellite problem, and
+  more precise [72].                                                   the too-big-to-fail problem, see [75].
+=== PDF PAGE 13 ===
+                                                                                                    13
+
+
+         C.  Isocurvature perturbations                          D.  Superradiance
+
+
+  Non-observation of isocurvature ﬂuctuations in the      Precision observations of rotating black holes can con-
+CMB could also constrain very light dilatons, especially    strain ultralight and weakly interacting scalar ﬁelds. In
+in light of recent evidence for B-modes from the BI-     [84], it is argued that light scalars can form gravitational
+CEP2 collaboration [77].   If these B-modes are domi-   bound states with a black hole  if the Compton wave-
+nantly sourced by primordial gravitational waves, they    length of the scalar is comparable to the Schwarzschild
+would suggest a tensor-scalar ratio of r ≈0.2, favoring a    radius of the black hole. A rapidly spinning black hole
+high scale of inﬂation: Hinﬂ≈1·1014 GeV. Their primor-    can then lose energy and angular momentum through a
+dial origin is currently under debate due to potential dust    variant of the Penrose process—superradiance—causing
+contributions suggested in [78] and recently measured by    the occupation numbers of the scalar ﬁeld in certain
+the Planck collaboration [79]. In the following, we will   bound energy levels to grow exponentially. When the
+discuss the potential implications of a high inﬂationary    resulting “scalar cloud” collapses after it reaches an in-
+scale.                                                             stability due to gravitational or self-interactions, a large
+  Scalar ﬁelds which are eﬀectively massless during inﬂa-    fraction of the angular momentum of the bound black
+tion experience random ﬂuctuations in the ﬁeld value Aiso    hole system will be  lost.  Observations of old, near-
+that is isocurvature in nature. The isocurvature ﬂutua-    extremal black holes can thus exclude the existence of
+tions are uncorrelated with the adiabatic density pertur-    weakly interacting scalars for a range of Compton wave-
+bations As, while CMB observations require Aiso/As ≲    lengths [84].
+0.04 [80].  The random isocurvature perturbations are     The spin and mass of near-extremal black holes can be
+suﬃciently suppressed if the ﬁeld value φ0,i during inﬂa-   measured to high precision with X-ray spectroscopy [85–
+tion is near the Planck scale [81]:                               87]. In particular, observations of rapidly rotating black
+                                                             holes                                                                      in the range                                                                       ≲108M⊙excludes                                             106M⊙≲MBH
+               ρφ       r   1/2    0.04    1/2                                                            non-interacting                                                                                 scalars                                                                                            for the mass                                                                                         range 10−18.2 eV ≲    κφ0,i ≳1                                       (31)
+            ρDM,U    0.16      Aiso/As           mφ ≲10−17.6 eV and 10−16.7 eV ≲mφ ≲10−16.1 eV,
+                                                          while rapidly spinning stellar-mass black hole observa-
+If we neglect anharmonic terms in the potential, the ini-
+                                                              tions exclude QCD axions in the range 10−12.3 eV ≲
+tial amplitude of the ﬁeld is typically a few orders of
+                                       mφ ≲10−10.8 eV [88]. However, in the model we are con-magnitude below the Planck scale:
+                                                                 sidering, the mass m2φ and quartic λeﬀφ  are two indepen-
+                   10−18 eV  1/4    ρφ    1/2           dent parameters, unlike for an axion where the two are
+   κφ0,i ≈3 · 10−3                                               .   (32)    related via the cos(a/fa) potential. If the eﬀective quar-               mφ        ρDM,U
+                                                                       tic is suﬃciently large, instabilities in the scalar cloud
+Naively, Eqs. (31) & (32) together imply that φ cannot    form early enough to render supperradiance ineﬀective
+be all of the DM in the universe:                      and evade the afore-mentioned bound.  In Fig. 10, we
+                                           1/2                  plot the superradiance exclusion ranges in the mφ–|λeﬀφ  |             ρφ           10−18 eV              ≲10−5                          .        (33)    plane in yellow.
+          ρDM,U         mφ
+
+However, this constraint  is easily evaded by having a
+large initial ﬁeld amplitude satisfying Eq. (31), and a                   VIII.  DISCUSSION
+mechanism which dilutes the energy density in φ af-
+ter inﬂation so as to not overclose the universe.  One     The unprecedented  precision  of atomic  clocks  al-
+way to transition from a near-Planckian initial ampli-    lows us to probe new parameter space of dark mat-
+tude to one consistent with the current DM energy den-    ter with higher-dimensional scalar couplings way be-
+sity is through the cosmological attractor mechanism of   yond the grasp of ﬁfth-force and EP violation searches.
+[82] discussed in Appendix A. Isocurvature ﬂuctuations   The sensitivity varies depending on whether the DM
+could also be small  if φ has a high mass during inﬂa-    can couple with dimension-ﬁve operators to the gluonic
+tion. For example, the renormalizable coupling to cur-    ﬁeld strength through the coupling dg. In particular, if
+vature ξφ2R for ξ ∼O(1) gives a classical contribution    the DM only has couplings to the electromagnetic ﬁeld
+of ⟨R⟩≃12H2inﬂ∼(1014.5 GeV)2 to the mass-squared of    strength or behaves like a Yukawa modulus, ﬁfth-force
+φ during inﬂation, and has only a tiny eﬀect today [83].    or EP violation tests which are dominated by the glu-
+Similar in spirit, one could make the mass dependent    onic coupling lose their sensitivity and the improvement
+on the inﬂaton ﬁeld value. We thus conclude that there    in the reach of the couplings de and dmi can be in excess
+exist natural solutions to the isocurvature constraint of    of 8 orders of magnitude.
+Eq. (33) in our dilaton model. Even  if ρφ/ρDM,U ∼1     The detection reach of our proposed experiments de-
+were untenable, the sensitivity of our experiment only    pends on the abundance of φ, while ﬁfth-force searches
+scales at the square root of the φ abundance, with large   and EP tests are independent of any cosmic abundance
+discovery potential even for subdominant components of    constraints. Nevertheless, the misalignment mechanism
+the DM energy density.                                        of DM production suggests that such an assumption is
+=== PDF PAGE 14 ===
+                                                                                                    14
+
+
+generic.  In fact, for most of the parameter space, the          Appendix A: Ultraviolet embedding
+initial displacement of the ﬁeld has to be tuned to some
+degree in order to avoid overclosure of our universe with      Perturbative  formulations  of  string theory  predict
+DM. Such a tuning is well justiﬁed when anthropic con-    the existence of a scalar partner to the graviton—the
+siderations are taken into account. Scanning of the initial    dilaton—which typically has gravitational-strength cou-
+displacement of the bosonic ﬁeld can be easily achieved    plings to ordinary matter.  As we have explained in
+in a long era of inﬂation, as every Hubble time H−1, any    Sec. V, such couplings are excluded quite robustly by
+scalar ﬁeld will ﬂuctuate by an amount of order H. Due    non-observations of equivalence principle violations. Two
+to this random walk, the bosonic ﬁeld will scan the en-    classes of solutions to this apparent problem exist in the
+tirity of its natural range after N ≲M Pl/H22      e-foldings.     literature: either the dilaton gets a suﬃciently high mass
+ A major concern in our model of an ultralight scalar    (so the dilatonic force is short-range and thus less con-
+ﬁeld coupling to the SM  is the issue of naturalness.    strained), or there is some mechanism at work to suppress
+Naively putting a hard cutoﬀΛ ∼10 TeV, we ﬁnd a    low-energy couplings to the Standard Model. A construc-
+mass correction to the φ mass of order:                     tion of the latter scenario was ﬁrst attempted in [82, 89]
+                                                                  for a massless dilaton, where a cosmological attractor
+                                                   2          mechanism (dubbed the “least coupling principle” and
+  δm2φ ∼(κdmimiΛ)2 ∼(10−11 eV)2   dmt      ,   (34)    ﬁrst noticed in [90, 91] in the context of scalar-tensor             16π2                  10−6
+                                                              theories of gravity) was responsible for diluting the cou-
+                                                                 plings.
+where we have plugged in the top mass mt to get a numer-    We summarize the ﬁnal conclusions of [82], and discuss
+ical estimate. This suggested mass range is several orders                                                         the obstacles of generalizations to our model where the
+of magnitude away from the parameter space probed by                                                            dilaton φ is to be the DM and thus necessarily has a mass
+our proposed setups. However, this estimate may be too                                                                 (albeit a very small one). The dynamics of the dilaton
+naive. The cutoﬀcould be much lower than 10 TeV; for                                                              interactions are encoded in the lagrangian:
+the axion, the cutoﬀis the QCD scale Λ ∼Λ3, and for a
+Higgs portal it is the Higgs mass Λ ∼mh. Furthermore,             L ⊃V (φ) + Bi(κφ)OSMi   ,          (A1)
+in the framework of the string theory landscape, the idea               √
+of naturalness is challenged. In this case, the scalar ﬁeld    where κφ ≡κφ ≡  4π φ is the ﬁeld in (modiﬁed) Planck                                                                         MPl
+could be tuned to be light via environmental selection    units as before and OSMi    is a schematic for SM operators
+because otherwise it would overclose the universe, or per-    such as mi ¯ψiψi. We redeﬁne φ such that φ = 0 is the
+haps the smallness of the dilaton mass is correlated with   minimum of V (φ). For simplicity, let us ﬁrst take the as-
+the smallness of the cosmological constant in our vacuum.    sumption of universal Bi(κφ) = B(κφ) with a local mini-
+  The continued absence of new physics at the TeV scale  mum (another possibility is a runaway direction [92, 93]).
+weakens the motivation for naturalness of the weak scale   The attractor mechanism is operative in the early stages
+and the WIMP miracle.  In combination with the om-    of the radiation-dominated era, when H2 ≫V ′′(φ) and
+nipresent cosmological constant problem, this expands   we can eﬀectively treat the dilaton as massless even in the
+the possibilities for dark matter. At the same time, the    presence of a non-trivial potential V (φ). As the universe
+rapid progress in ﬁelds like clock technology gives rise to    cools down and passes through several mass thresholds
+new experimental probes of physics beyond the Standard    of SM particles, φ is gradually attracted to the minimum
+Model, and may suggest a new direction of smaller scale   φB0  of B(κφ), to settle at a value φ∗0 = φB0 + ∆φ∗0.  If
+experimental searches away from the high-energy frontier    the curvature Ci ≡B′′i (κφ) is suﬃciently large, the at-
+probed by colliders.                                         traction is eﬃcient and |∆φ∗0| ≪φB0 .  If the dilaton is
+                                                           exactly massless and has no self-interactions (V (φ) iden-
+                                                                     tically zero) as assumed in [82], the EP-violating forces
+                                                           are explained to be small because φ∗0 is so close to φB0 at
+        ACKNOWLEDGMENTS                                           ∆φ∗0
+                                                         the present day, with |di| ∼Ci φ∗0 ≪1 in Eq. (2).
+                                                     While the above mechanism is an elegant way to dilute
+ We would like to thank Masha Baryakhtar, Savas Di-    the dilaton couplings, there are several problems with
+mopoulos, Giorgio Gratta, Leo Hollberg, Kiel Howe,    this construction. The eﬀective potential V (φ) and dila-
+Xinlu Huang, Mark  Kasevich,  John  March-Russell,    ton coupling functions Bi(κφ) are renormalized through
+Jeremy Mardon, Maxim Pospelov, Alex Sugarbaker, Yi-    loops of dilaton, graviton and matter ﬁelds, and perhaps
+jun Tang, Gabriele Veneziano, Xu Yi, and Tim Wiser    also non-perturbative string dynamics. These (incalcula-
+for helpful discussions. This work is partially supported    ble) eﬀects will in general break the assumed universality
+by ERC grant BSMOXFORD N◦228169.  Research at    of the Bi(κφ) functions; in particular, the minima of the
+Perimeter Institute is supported by the Government of    Bi(κφ) will not coincide, precluding an explanation of
+Canada through Industry Canada and by the Province    the smallness of most di couplings. An additional com-
+of Ontario through the Ministry of Economic Develop-    plication arises when the low-energy eﬀective potential
+ment & Innovation.                               V (φ) is taken into account, even in the case of universal
+=== PDF PAGE 15 ===
+                                                                                                    15
+
+Bi = B with minimum φB0 . Internal dilaton loops gen-    pect |di| ∼Ciκφ∗0 at present, which is typically ruled out
+erally split the degeneracy of the minima of V (φ) and     for Ci ∼O(1) and the masses considered in this paper
+B(κφ), or φB0̸ = 0. When the universe cools down to   (mφ < 10−15 eV), as we showed in Sec. V.
+H2 ∼V ′′(φ), the potential will kick in and displace φ0      In summary, the mechanism of [82] is eﬃcient when
+away from φB0 , undoing the attraction to the B(κφ) min-    the curvature of the Bi(κφ) functions is large, and can
+imum.                                                   suppress the di couplings when the minima of the Bi(κφ)
+                                                 and V (φ) are approximately degenerate, which requires We  consider the more  generic  possibility  of non-
+                                                             functional tuning in Eq. (A1) unless some symmetry prin-overlapping coupling functions Bi(κφ) and non-trivial
+                                                                  ciple is at work.  It has been suggested that S-duality,scalar potential V (φ).  In our model, where we assume
+                                                      with transformations gs →1/gs for the string couplingthe dilaton to be a signiﬁcant fraction of the dark mat-
+                                                 and φ →−φ as symmetries of the UV theory, could pos-ter produced through vacuum misalignment, we actually
+                                                                 sibly help yield a minimum for all Bi(κφ) and V (φ) atrequire the ﬁeld value to be non-zero at the start of the
+                                            φ ≃0 without tuning. For large-curvature Bi(κφ) func-oscillating phase (φ∗0̸ = 0), because otherwise ρφ would be
+                                                                  tions, the dilaton cannot both be a signiﬁcant componentnegligible today. Assuming the mass term dominates the
+                                                                  of DM and have small di couplings, as Eq. (A2) impliespotential at all times, we can calculate φ∗0 to be the am-
+                                                     a non-degeneracy of the V (φ) and Bi(κφ) minima in thisplitude of the ﬁeld when it starts oscillating at H ∼mφ:
+                                                                case. We thus conclude that dilatonic dark matter mod-
+                                                                       els should have a priori low-curvature Bi(κφ) coupling
+                        10−18 eV  1/4   ρφ   1/2         functions in the ﬁeld space region close to the minimum
+   κφ∗0 ≡κφ∗0 ≈3 · 10−3                                            .        of the eﬀective potential V (φ) in order to have small EP-
+                   mφ       ρDM
+                                                              violating eﬀects. We hope that our above discussion and                                             (A2)
+                                                         the potential discovery reach of our proposed experiment
+                                                               in Secs. III & IV spurs future UV-model-building eﬀorts
+After ρφ redshifts to its present-day value, we would ex-    in this direction.
+
+
+
+
+
+ [1] L. Krauss, J. Moody, F. Wilczek,  and D. E. Morris,     [15] T. Rosenband, D. Hume, P. Schmidt, C. Chou, A. Br-
+    Phys. Rev. Lett. 55, 1797 (1985).                                usch, L. Lorini, W. Oskay, R. Drullinger, T. Fortier,
+ [2] R. Holzwarth, T. Udem, T. W. H¨ansch, J. C. Knight,          J. Stalnaker, et al., Science 319, 1808 (2008).
+   W. J. Wadsworth, and P. S. J. Russell, Physical Review     [16] S. Lea, Eur.Phys.J.ST 163, 37 (2008).
+     Letters 85, 2264 (2000).                                         [17] Y. V. Baklanov and V. Chebotayev, Applied physics 12,
+ [3] S. A. Diddams, D.  J. Jones,  J. Ye,  S. T. Cundiﬀ,        97 (1977).
+     J. L. Hall, J. K. Ranka, R. S. Windeler, R. Holzwarth,     [18] R. Teets, J. Eckstein,  and T. W. H¨ansch, Phys. Rev.
+    T. Udem, and T. W. H¨ansch, Phys. Rev. Lett. 84, 5102         Lett. 38, 760 (1977).
+     (2000).                                                            [19] D. J. Jones, S. A. Diddams, J. K. Ranka, A. Stentz, R. S.
+ [4] T. Udem, R. Holzwarth, and T. W. H¨ansch, Nature 416,        Windeler, J. L. Hall, and S. T. Cundiﬀ, Science 288, 635
+    233 (2002).                                                      (2000).
+ [5] S. T. Cundiﬀand J. Ye, Rev.Mod.Phys. 75, 325 (2003).     [20] L.-S. Ma, Z. Bi, A. Bartels, K. Kim, L. Robertsson,
+ [6] S. A. Diddams, JOSA B 27, B51 (2010).                  M. Zucco, R. S. Windeler, G. Wilpers, C. Oates, L. Holl-
+ [7] T. Damour and J. F. Donoghue, Phys.Rev. D82, 084033         berg, et al., Quantum Electronics, IEEE Journal of 43,
+     (2010), arXiv:1007.2792 [gr-qc].                              139 (2007).
+ [8] M. Pospelov, Phys.Rev. D58, 097703 (1998), arXiv:hep-     [21] T. E. Parker, Metrologia 47, 1 (2010).
+    ph/9707431 [hep-ph].                                            [22] N. Huntemann, M. Okhapkin, B. Lipphardt, S. Weyers,
+ [9] M. Pospelov, Phys.Lett. B530, 123 (2002), arXiv:hep-        C. Tamm,  and E. Peik, Physical Review Letters 108,
+    ph/0109044 [hep-ph].                                       090801 (2012).
+[10] M. Pospelov and A. Ritz, Annals Phys. 318, 119 (2005),     [23] C. W. Chou, D. B. Hume, J. C. J. Koelemeij, D. J.
+    arXiv:hep-ph/0504231 [hep-ph].                             Wineland,  and T. Rosenband, Physical review letters
+[11] F. Piazza and M. Pospelov, Phys.Rev. D82, 043533        104, 070802 (2010).
+     (2010), arXiv:1003.2313 [hep-ph].                               [24] A. A. Madej, P. Dub´e, Z. Zhou, J. E. Bernard,  and
+[12] N. Hinkley, J. A. Sherman, N. B. Phillips, M. Schioppo,       M. Gertsvolf, Phys. Rev. Lett. 109, 203002 (2012).
+    N. D. Lemke, K. Beloy, M. Pizzocaro, C. W. Oates, and     [25] N. Leefer, C. T. M. Weber, A. Cingoz, J. R. Torger-
+    A. D. Ludlow, ArXiv e-prints  (2013), arXiv:1305.5869         son, and D. Budker, Phys.Rev.Lett. 111, 060801 (2013),
+     [physics.atom-ph].                                            arXiv:1304.6940 [physics.atom-ph].
+[13] B. J. Bloom, T. L. Nicholson,  J. R. Williams, S. L.     [26] C. J. Campbell, A. G. Radnaev, A. Kuzmich, V. A.
+    Campbell, M. Bishof, X. Zhang, W. Zhang, S. L. Brom-        Dzuba, V. V. Flambaum, and A. Derevianko, Phys. Rev.
+      ley, and J. Ye, ArXiv e-prints  (2013), arXiv:1309.1137         Lett. 108, 120802 (2012).
+     [physics.atom-ph].                                                [27] J. Stalnaker, S. Diddams, T. Fortier, K. Kim, L. Holl-
+[14] V. V. Flambaum, D. B. Leinweber, A. W. Thomas, and         berg,  J. Bergquist, W. Itano, M. Delany, L. Lorini,
+    R. D. Young, Phys. Rev. D 69, 115006 (2004).            W. Oskay, T. Heavner, S. Jeﬀerts, F. Levi, T. Parker,
+=== PDF PAGE 16 ===
+                                                                                                    16
+
+
+    and J. Shirley, Applied Physics B 89, 167 (2007).                (2012), arXiv:1204.3268 [physics.atom-ph].
+[28] V. A. Dzuba, V. V. Flambaum, and J. K. Webb, Phys.     [50] A. Ozawa, J. Rauschenberger, C. Gohle, M. Herrmann,
+    Rev. A 59, 230 (1999).                                   D. R. Walker,  V.  Pervak,  A. Fernandez,  R.  Graf,
+[29] T. M. Fortier, N. Ashby, J. C. Bergquist, M. J. Delaney,        A. Apolonski, R. Holzwarth, F. Krausz, T. W. H¨ansch,
+     S. A. Diddams, T. P. Heavner, L. Hollberg, W. M. Itano,       and T. Udem, Phys. Rev. Lett. 100, 253901 (2008).
+     S. R. Jeﬀerts, K. Kim, F. Levi, L. Lorini, W. H. Oskay,     [51] A. Cing¨oz, D. C. Yost, T. K. Allison, A. Ruehl, M. E.
+    T. E. Parker, J. Shirley, and J. E. Stalnaker, Phys. Rev.        Fermann, I. Hartl,  and J. Ye, Nature 482, 68 (2012),
+     Lett. 98, 070801 (2007).                                      arXiv:1109.1871 [physics.atom-ph].
+[30] E.  Peik,  B.  Lipphardt,  H.  Schnatz,  T.  Schneider,     [52] E. Fischbach and C. Talmadge,   (1996), arXiv:hep-
+    C. Tamm,  and S. G. Karshenboim, Phys. Rev. Lett.        ph/9606249 [hep-ph].
+    93, 170801 (2004).                                               [53] J. G. Williams,  S. G. Turyshev,  and D. H. Boggs,
+[31] W. M. Itano, J. C. Bergquist, J. J. Bollinger, J. M. Gilli-        Phys.Rev.Lett. 93, 261101 (2004), arXiv:gr-qc/0411113
+    gan, D. J. Heinzen, F. L. Moore, M. G. Raizen, and D. J.          [gr-qc].
+    Wineland, Phys. Rev. A 47, 3554 (1993).                      [54] J. G.  Williams,  S. G.  Turyshev,   and D.  Boggs,
+[32] S.  Blatt,  A.  Ludlow,  G.  Campbell,  J.  Thomsen,        Class.Quant.Grav. 29, 184004 (2012), arXiv:1203.2150
+    T. Zelevinsky, et al., Phys.Rev.Lett. 100, 140801 (2008),          [gr-qc].
+    arXiv:0801.1874 [physics.atom-ph].                             [55] S. Schlamminger, K.-Y. Choi, T. A. Wagner, J. H. Gund-
+[33] Y. Jiang, A. Ludlow, N. Lemke, R. Fox, J. Sherman, L.-S.          lach, and E. G. Adelberger, Phys.Rev.Lett. 100, 041101
+    Ma, and C. Oates, Nature Photonics 5, 158 (2011).             (2008), arXiv:0712.0607 [gr-qc].
+[34] T. L. Nicholson, M. J. Martin, J. R. Williams, B. J.     [56] T.  Wagner,  S.  Schlamminger,  J.  Gundlach,   and
+    Bloom, M. Bishof, M. D. Swallows, S. L. Campbell, and        E. Adelberger, Class.Quant.Grav. 29, 184002 (2012),
+     J. Ye, Phys. Rev. Lett. 109, 230801 (2012).                    arXiv:1207.2442 [gr-qc].
+[35] F. Br¨uckner, D. Friedrich, T. Clausnitzer, M. Britzger,     [57] A. Khmelnitsky and V. Rubakov, JCAP 1402, 019
+    O.   Burmeister,   K.   Danzmann,    E.-B.   Kley,         (2014), arXiv:1309.5888 [astro-ph.CO].
+    A. T¨unnermann,  and R. Schnabel, Phys. Rev. Lett.     [58] B.  Abbott  et  al. (LIGO  Scientiﬁc  Collaboration),
+    104, 163903 (2010).                                         Rept.Prog.Phys. 72, 076901 (2009), arXiv:0711.3041 [gr-
+[36] G. D. Cole, S. Grblacher, K. Gugler, S. Gigan,  and          qc].
+   M. Aspelmeyer, Applied Physics Letters 92, 261108     [59] LIGO Scientiﬁc Collaboration, “Ligo science run 6 sensi-
+     (2008).                                                                 tivity curve,” (2010), California Institute of Technology,
+[37] T.  Kessler,  C. Hagemann,  C.  Grebing,  T.  Legero,        http://www.ligo.caltech.edu/∼jzweizig/distribution/LSC Data/.
+    U. Sterr, F. Riehle, M. Martin, L. Chen,  and J. Ye,     [60] LIGO   Scientiﬁc   Collaboration,   “Advanced    ligo
+    Nature Photonics 6, 687 (2012).                                 anticipated   sensitivity  curves,”     (2009),   Califor-
+[38] L. Hollberg, C. Oates, G. Wilpers, C. Hoyt, Z. Barber,         nia   Institute   of   Technology,   LIGO-T0900288-v3,
+     S. Diddams, W. Oskay,  and J. Bergquist, Journal of         https://dcc.ligo.org/public/0002/T0900288/003/.
+    Physics B: Atomic, Molecular and Optical Physics 38,     [61] G.  M.  Harry  (LIGO   Scientiﬁc   Collaboration),
+    S469 (2005).                                                 Class.Quant.Grav. 27, 084006 (2010).
+[39] L. Hollberg, Optical Atomic Phase Reference and “Clock”     [62] S. Dimopoulos, P. W. Graham, J. M. Hogan, M. A. Kase-
+     for Space, Tech. Rep. (National Aeronautics and Space          vich, and S. Rajendran, Phys.Rev. D78, 122002 (2008),
+    Administration, 2013).                                        arXiv:0806.2125 [gr-qc].
+[40] E. Peik and C. Tamm, EPL (Europhysics Letters) 61,     [63] J. M. Hogan, D. M. S. Johnson, S. Dickerson, T. Ko-
+    181 (2003).                                                      vachy, A. Sugarbaker, S.-W. Chiow, P. W. Graham,
+[41] B. R. Beck, J. A. Becker, P. Beiersdorfer, G. V. Brown,       M. A. Kasevich, B. Saif, S. Rajendran, P. Bouyer, B. D.
+    K. J. Moody, J. B. Wilhelmy, F. S. Porter, C. A. Kil-         Seery, L. Feinberg,  and R. Keski-Kuha, General Rela-
+    bourne, and R. L. Kelley, Phys. Rev. Lett. 98, 142501          tivity and Gravitation 43, 1953 (2011), arXiv:1009.2702
+     (2007).                                                          [physics.atom-ph].
+[42] V. V. Flambaum, Phys. Rev. Lett. 97, 092502 (2006).       [64] P. Amaro-Seoane, S. Aoudia, S. Babak, P. Binetruy,
+[43] V. Flambaum, N. Auerbach,  and V. Dmitriev, Euro-        E. Berti, et al., Class.Quant.Grav. 29, 124016 (2012),
+     phys.Lett. 85, 50005 (2009), arXiv:0807.3218 [nucl-th].          arXiv:1202.0839 [gr-qc].
+[44] J.  C.  Berengut,  V. A. Dzuba,  V. V. Flambaum,     [65] A. D. Linde, Phys.Lett. B201, 437 (1988).
+    and S. G. Porsev, Phys.Rev.Lett. 102, 210801 (2009),     [66] P. G. Ferreira and M. Joyce, Phys.Rev. D58, 023503
+    arXiv:0903.1891 [physics.atom-ph].                              (1998), arXiv:astro-ph/9711102 [astro-ph].
+[45] L. Wense, P. Thirolf, D. Kalb, and M. Laatiaoui, JINST     [67] L. Amendola and R. Barbieri, Phys.Lett. B642, 192
+     8, P03005 (2013), arXiv:1211.0710 [nucl-ex].                     (2006), arXiv:hep-ph/0509257 [hep-ph].
+[46] X. Zhao, Y. N. Martinez de Escobar, R. Rundberg, E. M.     [68] M. S. Turner, Phys.Rev. D28, 1243 (1983).
+    Bond, A. Moody, and D. J. Vieira, Phys. Rev. Lett. 109,     [69] W. Hu, R. Barkana,  and A. Gruzinov, Phys.Rev.Lett.
+    160801 (2012).                                              85, 1158 (2000), arXiv:astro-ph/0003365 [astro-ph].
+[47] J. C. Berengut and V. V. Flambaum, Journal of Physics:     [70] M. Viel, G. D. Becker, J. S. Bolton, and M. G. Haehnelt,
+    Conference Series 264, 012010 (2011).                          Physical Review D88, 043502 (2013), arXiv:1306.2314
+[48] S. Dimopoulos, P. W. Graham, J. M. Hogan, and M. A.         [astro-ph.CO].
+    Kasevich, Phys.Rev.Lett. 98, 111102 (2007), arXiv:gr-     [71] D.  J. E. Marsh and  J.  Silk,   (2013), 10.1093/mn-
+    qc/0610047 [gr-qc].                                              ras/stt2079, arXiv:1307.1705 [astro-ph.CO].
+[49] G. A. Kazakov, A. N. Litvinov, V. I. Romanenko, L. P.     [72] D. J. E. Marsh, E. Macaulay, M. Trebitsch, and P. G.
+    Yatsenko, A. V. Romanenko, M. Schreitl, G. Winkler,          Ferreira, Phys.Rev. D85, 103514 (2012), arXiv:1110.0502
+    and T. Schumm, New Journal of Physics 14, 083019         [astro-ph.CO].
+=== PDF PAGE 17 ===
+                                                                                                    17
+
+
+[73] K. Kadota, Y. Mao, K. Ichiki,  and J. Silk,  (2013),       B728, 532 (2014), arXiv:1304.7270 [hep-ph].
+    arXiv:1312.1898 [hep-ph].                                        [84] A. Arvanitaki and S. Dubovsky, Phys.Rev. D83, 044026
+[74] L. Amendola et al. (Euclid Theory Working Group), Liv-         (2011), arXiv:1004.3558 [hep-th].
+    ing Rev.Rel. 16, 6 (2013), arXiv:1206.1225 [astro-ph.CO].     [85] C. S. Reynolds,  (2013), arXiv:1302.3260 [astro-ph.HE].
+[75] D. H. Weinberg,  J. S. Bullock, F. Governato, R. K.     [86] C. S. Reynolds, Class.Quant.Grav. 30, 244004 (2013),
+    de Naray, and A. H. G. Peter,  (2013), arXiv:1306.0913        arXiv:1307.3246 [astro-ph.HE].
+    [astro-ph.CO].                                                    [87] D. Walton, E. Nardini, A. Fabian, L. Gallo, and R. Reis,
+[76] B. Li, T. Rindler-Daller,  and P. R. Shapiro,  (2013),         (2012), arXiv:1210.4593 [astro-ph.HE].
+    arXiv:1310.6061 [astro-ph.CO].                                 [88] A. Arvanitaki, M. Baryakhtar, and X. Huang,  (2014),
+[77] P. A. R. Ade et al. (BICEP2 Collaboration),  (2014),        arXiv:1411.2263 [hep-ph].
+    arXiv:1403.4302 [astro-ph.CO].                                 [89] T. Damour and A. M. Polyakov, Gen.Rel.Grav. 26, 1171
+[78] R. Flauger, J. C. Hill, and D. N. Spergel, JCAP 1408,         (1994), arXiv:gr-qc/9411069 [gr-qc].
+    039 (2014), arXiv:1405.7351 [astro-ph.CO].                    [90] T. Damour and K. Nordtvedt, Phys.Rev. D48, 3436
+[79] P.  Ade   et   al.  (Planck  Collaboration),     (2014),         (1993).
+    arXiv:1409.2495 [astro-ph.GA].                                 [91] T. Damour and K. Nordtvedt, Phys.Rev.Lett. 70, 2217
+[80] P.  Ade   et   al.  (Planck  Collaboration),     (2013),         (1993).
+    arXiv:1303.5082 [astro-ph.CO].                                 [92] T. Damour, F. Piazza, and G. Veneziano, Phys.Rev.Lett.
+[81] D. J. E. Marsh, D. Grin, R. Hlozek, and P. G. Ferreira,        89, 081601 (2002), arXiv:gr-qc/0204094 [gr-qc].
+     (2014), arXiv:1403.4216 [astro-ph.CO].                         [93] T. Damour, F. Piazza,  and G. Veneziano, Phys.Rev.
+[82] T. Damour and A. M. Polyakov, Nucl.Phys. B423, 532       D66, 046007 (2002), arXiv:hep-th/0205111 [hep-th].
+     (1994), arXiv:hep-th/9401069 [hep-th].
+[83] S. Folkerts, C. Germani,  and J. Redondo, Phys.Lett.
