@@ -1,0 +1,11 @@
+{
+  "certificate_sha256": "ee714241c3c2483378afe2cb2a9112ce0075bcea3b015c640d12fcebbf0a6468",
+  "controls": {
+    "missing_rejected": true,
+    "tampered_rejected": true
+  },
+  "mode": "immutable replay",
+  "passed": true,
+  "release_manifest_sha256": "e50cc2b4b8e2d885e1a2f5490dff315c7f0cd2373047e3d4014a48e75833d2d3",
+  "source_and_receipt_unchanged": true
+}

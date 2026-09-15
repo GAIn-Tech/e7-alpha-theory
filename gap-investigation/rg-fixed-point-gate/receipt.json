@@ -1,0 +1,175 @@
+{
+  "claim_boundary": "Exact algebra conditional on sourced perturbative coefficients. No all-orders QFT, SM matching, CODATA fit, or Lean proof claimed.",
+  "invariants": {
+    "CA": "18",
+    "CF": "57/4",
+    "TF": "6",
+    "dimF": 56,
+    "dimG": 133
+  },
+  "rows": [
+    {
+      "Dirac_flavors": 0,
+      "b0": "66",
+      "b1": "3672",
+      "b2_MSbar": "308556"
+    },
+    {
+      "Dirac_flavors": 1,
+      "b0": "58",
+      "b1": "2610",
+      "b2_MSbar": "721431/4"
+    },
+    {
+      "Dirac_flavors": 2,
+      "b0": "50",
+      "b1": "1548",
+      "b2_MSbar": "129519/2"
+    },
+    {
+      "Dirac_flavors": 3,
+      "b0": "42",
+      "b1": "486",
+      "b2_MSbar": "-152955/4"
+    },
+    {
+      "Dirac_flavors": 4,
+      "b0": "34",
+      "b1": "-576",
+      "b2_MSbar": "-128637",
+      "a2": "17/288",
+      "omega": "289/72",
+      "CA_a2": "17/16",
+      "CF_a2": "323/384",
+      "N_T_a2": "17/12",
+      "gamma_mass_1loop": "323/64",
+      "third_to_second_term_abs": "242981/18432"
+    },
+    {
+      "Dirac_flavors": 5,
+      "b0": "26",
+      "b1": "-1638",
+      "b2_MSbar": "-825741/4",
+      "a2": "1/63",
+      "omega": "52/63",
+      "CA_a2": "2/7",
+      "CF_a2": "19/84",
+      "N_T_a2": "10/21",
+      "gamma_mass_1loop": "19/14",
+      "third_to_second_term_abs": "4369/2184"
+    },
+    {
+      "Dirac_flavors": 6,
+      "b0": "18",
+      "b1": "-2700",
+      "b2_MSbar": "-543267/2",
+      "a2": "1/150",
+      "omega": "6/25",
+      "CA_a2": "3/25",
+      "CF_a2": "19/200",
+      "N_T_a2": "6/25",
+      "gamma_mass_1loop": "57/100",
+      "third_to_second_term_abs": "6707/10000"
+    },
+    {
+      "Dirac_flavors": 7,
+      "b0": "10",
+      "b1": "-3762",
+      "b2_MSbar": "-1296927/4",
+      "a2": "5/1881",
+      "omega": "100/1881",
+      "CA_a2": "10/209",
+      "CF_a2": "5/132",
+      "N_T_a2": "70/627",
+      "gamma_mass_1loop": "5/22",
+      "third_to_second_term_abs": "720515/3145032"
+    },
+    {
+      "Dirac_flavors": 8,
+      "b0": "2",
+      "b1": "-4824",
+      "b2_MSbar": "-364230",
+      "a2": "1/2412",
+      "omega": "1/603",
+      "CA_a2": "1/134",
+      "CF_a2": "19/3216",
+      "N_T_a2": "4/201",
+      "gamma_mass_1loop": "19/536",
+      "third_to_second_term_abs": "6745/215472"
+    },
+    {
+      "Dirac_flavors": 9,
+      "b0": "-6",
+      "b1": "-5886",
+      "b2_MSbar": "-1566513/4"
+    }
+  ],
+  "N8_a3_bracket": [
+    "307568592465771168527199854687/764393311937622329102512032841728",
+    "410091456621028224702933139583/1019191082583496438803349377122304"
+  ],
+  "N8_relative_shift_bracket": [
+    "37376230365144727387903786627/1267650600228229401496703205376",
+    "9344057591286181846975946657/316912650057057350374175801344"
+  ],
+  "N8_linear_halving_scale_ratio": "mu/mu0=2^(-603); mu^2/mu0^2=2^(-1206), for t=ln(mu); local linearized sensitivity only",
+  "passed": true,
+  "z3_version": "5.1.0",
+  "checks": [
+    {
+      "name": "integer_IR_window",
+      "result": "unsat",
+      "sha256": "579b7eb26bdcc16637dd29d9e52451b886bd87b7457add0b229a832902fe1494"
+    },
+    {
+      "name": "no_interacting_UV",
+      "result": "unsat",
+      "sha256": "67edfad0f213f154f2b23bc70a82e565bde6156e772103c2c68a90fdce147cd3"
+    },
+    {
+      "name": "one_loop_no_positive_zero",
+      "result": "unsat",
+      "sha256": "47201717dd835a8501ac6586be2da0fac35759c80c58c0ce83529443fe67c8e7"
+    },
+    {
+      "name": "two_loop_root_unique",
+      "result": "unsat",
+      "sha256": "1af4db400da4c8cde80c4f74d38e94da91c870db040bc797b234a17dcc906fef"
+    },
+    {
+      "name": "IR_slope_positive",
+      "result": "unsat",
+      "sha256": "1bcc04d0e7497857a125b82b35264bd9f3c8621cad8a5e0ffffe0cf9f05108d0"
+    },
+    {
+      "name": "flow_below_root",
+      "result": "unsat",
+      "sha256": "98e5ae2765a1bc0d18fa3e02c60f3c7b6d4a045a647d005a9122f908bb22d368"
+    },
+    {
+      "name": "flow_above_root",
+      "result": "unsat",
+      "sha256": "912cd30f64a4a581b3d32c1048fe41abdcc0db450da5de536744748fab67881b"
+    },
+    {
+      "name": "difference_factorization",
+      "result": "unsat",
+      "sha256": "fd4ff8cc3018caffb3af89051b8c080ca44a09ed92c25b2740b1f0d17788b801"
+    },
+    {
+      "name": "finite_linear_map_injective",
+      "result": "unsat",
+      "sha256": "934dee418592a9e22562556fbd48b0d880f38041b1b755c7afa2ff8bc169ddbc"
+    },
+    {
+      "name": "normalization_products",
+      "result": "unsat",
+      "sha256": "fec5b199c9fe2065f0e6527bbd52502a8d44f9ba42a3edea7115a43d972e7e4d"
+    }
+  ],
+  "source_hashes": {
+    "check_rg.py": "948a17931b1bf746283b84efc43b4d2d124afce936184b98414dc750af7ef01d",
+    "exceptional-source.txt": "b7d0afd0437ed222625d828c35af0923d69b8ffef7b2f4508fc4e3326397902c",
+    "beta-source.txt": "6614cd5be8c5ddae47f7969c0ff34fbf688e5b9bad364bc12f0d8be9838b0139"
+  }
+}

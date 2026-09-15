@@ -1,0 +1,37 @@
+schema_version: 1
+subject: conditional scalar E7 electromagnetic matching and optical clock identification
+status: self-assessed
+physical_prediction: false
+empirical_inputs: none
+embedding: fixed standard SU5 hypercharge, kY=5/3; conditional broken theory
+scalar: canonical phi, u=(phi-phi_star)/F, F=(4*pi*G)^(-1/2)
+kinetic_family: f7(u)=f0*exp(b*u), f0>0
+lean:
+  version: 4.32.1
+  file: Matching.lean
+  environment: minimal prelude, no Init or Mathlib
+  declarations:
+    - ClockMatching.left_inverse_identifies
+    - ClockMatching.two_stage_identification
+  axioms: []
+  assumptions: explicit left inverse maps for clock response and threshold-fixed matching
+  excluded: real arithmetic, quantum matching, scalar dynamics, atomic structure, E7 completion
+smt:
+  implementation: check_matching.py
+  domain: exact real arithmetic
+  checks: 23
+  saved_inputs: smt/*.smt2
+  proof_status: solver-checked, not kernel proof certificates
+  receipt: gate-receipt.json
+  replay: default command compares full retained payload without regeneration
+negative_controls:
+  - missing receipt
+  - altered solver result
+  - forged physical claim boundary
+  - omitted check
+  - altered source hash
+source_evidence: sources/citation-ledger.json
+verification: verification.json
+ci: not run; real local solver and kernel subprocesses retained
+review: not independently peer reviewed
+automation_disclosure: AI-assisted derivation and implementation; primary PDFs, actual Z3 and Lean execution are evidence

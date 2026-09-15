@@ -1,0 +1,41 @@
+{
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-breaking-gate\\breaking_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"singlets\": [[0, -1, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1]], \"dimensions\": [45, 45, 24, 12], \"root_transitions\": 432, \"kY\": \"5/3\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\e6-breaking-gate\\test_breaking.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_charge_and_mass (__main__.Gate.test_charge_and_mass) ... ok\ntest_missing (__main__.Gate.test_missing) ... ok\ntest_saved (__main__.Gate.test_saved) ... ok\ntest_scoped_F_equation (__main__.Gate.test_scoped_F_equation) ... ok\ntest_tamper_hash (__main__.Gate.test_tamper_hash) ... ok\ntest_tamper_payload (__main__.Gate.test_tamper_payload) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.783s\n\nOK\n"
+    }
+  ],
+  "hashes": {
+    "breaking-receipt.json": "53ac8c47225961ef29e41efd258f2701a02419a08f66481a8768dbdb853e1416",
+    "breaking_checks.py": "1a9f243a376891b15e801b3afd4bfce8d209a946add0343883406dbcc1a50c3e",
+    "development-receipt-superseded.json": "9eef7b24b028f2f0eaf79cd05015f4ba3240429526da5efd97ba5e3290ebde65",
+    "REPORT.md": "77d2128cbe9745dd9633975e2895bd4a57160eaaa49dacabd1613e3feb3c71e4",
+    "test_breaking.py": "d99a8d365da8c305fb78d477f4bba84182657b457bb404454d0c064f76e8e72d",
+    "sources\\1311.0775v2.html": "19b321cf5689b0020ab0ddd980da3ea4d4435093ce96833fd5b4e1fa88452889",
+    "sources\\1311.0775v2.txt": "30a9ea8c90fc2e90c1512cf2dbaa02d4ebe6697507abf141a1694f885b4b0561",
+    "sources\\1504.00904.html": "99f8c343757fb409629b23bd3507a2e8ddb2071676abd77e21bf3c8d79de505f",
+    "sources\\1504.00904.txt": "6ccd05a493634b6923187b6de12e7a3e9f352777a5984fb4403a16411336cf65",
+    "sources\\1607.06900v3.html": "a722202c6756a846b4f20901ce3cf6ae01ca8f5663b4924045d9436b1b2356c1",
+    "sources\\1607.06900v3.txt": "105078eb31bb1b4c61f390a7fa716d19106a062820b14927b02b65c0f7715531",
+    "sources\\citations.json": "785c98e6a82cc4cac052a3c6e88b11f3ebd56489c1d8db3e602dcc70409356e6",
+    "sources\\evidence-notes.md": "f4e8d72ce6c2f0211cbcdbdadde014cc0c48670f0857a05b66b144fed27bf9d7",
+    "sources\\kalashnikov-inspire.json": "55ae96677fd99cfcb46e12fdb8c33b31626c8f86c2645e3bfb25d0d17499b882"
+  },
+  "passed": true
+}

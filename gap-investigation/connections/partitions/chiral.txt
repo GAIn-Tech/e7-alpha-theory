@@ -1,0 +1,1141 @@
+##### Report GitHub Issue
+
+Content selection saved. Describe the issue below:
+
+![](/static/base/1.0.1/images/icons/smileybones-small.svg)
+![arXiv logo](/static/base/1.0.1/images/arxiv-logo-primary-light.svg)
+
+# Representations of symmetric groups with non-trivial determinant
+
+###### Abstract.
+
+We give a closed formula for the number of partitions λ\lambda of nn such that the corresponding irreducible representation VλV\_{\lambda} of SnS\_{n} has non-trivial determinant.
+We determine how many of these partitions are self-conjugate and how many are hooks.
+This is achieved by characterizing the 22-core towers of such partitions.
+We also obtain a formula for the number of partitions of nn such that the associated permutation representation of SnS\_{n} has non-trivial determinant.
+
+###### Key words and phrases:
+
+###### 2010 Mathematics Subject Classification
+
+## 1. Introduction
+
+Let (ρ,V)(\rho,V) be a complex representation of the symmetric group SnS\_{n}.
+Let det:G​L𝐂​(V)→𝐂∗\det:GL\_{\mathbf{C}}(V)\to\mathbf{C}^{\*} denote the determinant function.
+The composition det∘ρ:Sn→𝐂∗\det\circ\rho:S\_{n}\to\mathbf{C}^{\*}, being a multiplicative character of SnS\_{n}, is either the trivial character or the sign character.
+We call (ρ,V)(\rho,V) a *chiral representation* if det∘ρ\det\circ\rho is the sign character of SnS\_{n}.
+
+Recall that the irreducible complex representations of SnS\_{n} are parametrized by partitions of nn.
+For brevity, we shall say that λ\lambda is a *chiral partition* if the corresponding representation (ρλ,Vλ)(\rho\_{\lambda},V\_{\lambda}) is chiral11
+1
+The use of the field 𝐂\mathbf{C} is not important. Our results hold over any field of characteristic different from two, so long as VλV\_{\lambda} is interpreted as the representation corresponding to λ\lambda in Young’s seminormal form..
+
+It is natural to ask, given a positive integer nn, how many partitions λ\lambda of nn are chiral.
+According to Stanley [[8](#bib.bib8), Exercise 7.55], this problem was first considered by L. Solomon.
+We review his contribution, which is explained by Stanley in the exercises in his book, in Section [3](#S3 "3. Counting Tableaux ‣ Representations of symmetric groupswith non-trivial determinant").
+Let b⁡(n)b(n) denote the number of chiral partitions of nn.
+The complementary sequence p⁡(n)−b⁡(n)p(n)-b(n) (p⁡(n)p(n) denotes the number of partitions of nn) was added to the Online Encyclopedia of Integer Sequences [[7](#bib.bib7)] as sequence A045923 in 1999.
+It looks mysterious:
+
+|  |  |  |
+| --- | --- | --- |
+|  | 1,1,1,2,2,7,7,10,10,34,40,53,61,103,112,143,145,369,458,579,…,1,1,1,2,2,7,7,10,10,34,40,53,61,103,112,143,145,369,458,579,\dotsc, |  |
+
+but the sequence b⁡(n)b(n) itself looks much nicer:
+
+|  |  |  |
+| --- | --- | --- |
+|  | 0,1,2,3,5,4,8,12,20,8,16,24,40,32,64,88,152,16,32,48,….0,1,2,3,5,4,8,12,20,8,16,24,40,32,64,88,152,16,32,48,\dotsc. |  |
+
+The most striking result of this paper is a formula for b⁡(n)b(n):
+
+###### Theorem 1.
+
+If nn is an integer having binary expansion
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (1) |  | n=ϵ+2k1+2k2+⋯+2kr,ϵ∈{0,1}, 0<k1<k2<⋯<kr,n=\epsilon+2^{k\_{1}}+2^{k\_{2}}+\dotsb+2^{k\_{r}},\,\epsilon\in\{0,1\},\;0<k\_{1}<k\_{2}<\dotsb<k\_{r}, |  |
+
+then the number of chiral partitions of nn is given by
+
+|  |  |  |
+| --- | --- | --- |
+|  | b⁡(n)=2k2+⋯+kr​(2k1−1+∑v=1k1−12(v+1)​(k1−2)−(v2)+ϵ​2(k12)).b(n)=2^{k\_{2}+\dotsb+k\_{r}}\Big(2^{k\_{1}-1}+\sum\_{v=1}^{k\_{1}-1}2^{(v+1)(k\_{1}-2)-\binom{v}{2}}+\epsilon 2^{\binom{k\_{1}}{2}}\Big). |  |
+
+Given a partition λ\lambda, let fλf\_{\lambda} denote the dimension of VλV\_{\lambda}.
+For any integer mm, let v2​(m)v\_{2}(m) denote the largest among integers vv such that 2v2^{v} divides mm.
+Theorem 1 is a consequence of a more refined counting result:
+
+###### Theorem 2.
+
+If nn is an integer having binary expansion ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")),
+then the number bv​(n)b\_{v}(n) of chiral partitions λ\lambda of nn for which v2​(fλ)=vv\_{2}(f\_{\lambda})=v is given by
+
+|  |  |  |
+| --- | --- | --- |
+|  | bv​(n)=2k2+⋯+kr×{2k1−1if ​v=0,2(v+1)​(k1−2)−(v2)if ​0<v<k1,ϵ​2(k12)if ​v=k,0if ​v>k1.b\_{v}(n)=2^{k\_{2}+\dotsb+k\_{r}}\times\begin{cases}2^{k\_{1}-1}&\text{if }v=0,\\ 2^{(v+1)(k\_{1}-2)-\binom{v}{2}}&\text{if }0<v<k\_{1},\\ \epsilon 2^{\binom{k\_{1}}{2}}&\text{if }v=k,\\ 0&\text{if }v>k\_{1}.\end{cases} |  |
+
+Theorem [2](#Thmtheorem2 "Theorem 2. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant") follows from the characterization of the 22-core tower of a chiral partition in Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant").
+A characterization of 22-core towers of self-conjugate chiral partitions (see Corollary [7](#Thmtheorem7 "Corollary 7. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") and its proof) gives us:
+
+###### Theorem 3.
+
+A positive integer nn admits a self-conjugate chiral partition if and only if n=3n=3 or n=2k+ϵn=2^{k}+\epsilon for some k≥2k\geq 2 and ϵ∈{0,1}\epsilon\in\{0,1\}.
+There is one self-conjugate chiral partition of 33.
+When n=2k+ϵn=2^{k}+\epsilon with k≥2k\geq 2 and ϵ∈{0,1}\epsilon\in\{0,1\}, the number of self-conjugate chiral partitions is 2k−22^{k-2}.
+
+A study of the number a⁡(n)a(n) of odd-dimensional representations of SnS\_{n} was carried out by Macdonald in [[3](#bib.bib3)].
+In Section [5](#S5 "5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant"), we show that 2/5≤a⁡(n)/b⁡(n)≤12/5\leq a(n)/b(n)\leq 1.
+It turns out that the growth of b⁡(n)b(n) is much slower than that of the partition function.
+Our characterization of chiral partitions allows for rapid enumeration and uniform random sampling of the very sparse subset of chiral partitions.
+
+Using only elementary results about the parity of binomial coefficients, we count the number of chiral hooks of size nn in Section [6](#S6 "6. Chiral Hooks ‣ Representations of symmetric groupswith non-trivial determinant").
+
+Another important class of representations of SnS\_{n} is the class of permutation representations.
+For each partition λ=(λ1,…,λl)\lambda=(\lambda\_{1},\ldots,\lambda\_{l}) of nn let
+
+|  |  |  |
+| --- | --- | --- |
+|  | Xλ={(X1,…,Xl)∣X1⊔⋯⊔Xl={1,…,n},|Xi|=λi},X\_{\lambda}=\{(X\_{1},\ldots,X\_{l})\mid X\_{1}\sqcup\cdots\sqcup X\_{l}=\{1,\ldots,n\},\,|X\_{i}|=\lambda\_{i}\}, |  |
+
+the set of all set-partitions of {1,…,n}\{1,\dotsc,n\} of shape λ\lambda.
+The action of SnS\_{n} on {1,…,n}\{1,\dotsc,n\} gives rise to an action on XλX\_{\lambda}.
+
+The space 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] of 𝐂\mathbf{C}-valued functions on XλX\_{\lambda} becomes a representation of SnS\_{n} whose dimension is the multinomial coefficient (nλ1,…,λl)\binom{n}{\lambda\_{1},\dotsc,\lambda\_{l}}.
+The characters of 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] form a basis of the space of class functions on SnS\_{n}.
+In Section [7](#S7 "7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant"), we characterize the partitions λ\lambda of nn for which 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is chiral (see Theorem [16](#Thmtheorem16 "Theorem 16. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant")).
+This characterization allows us to compute the number c⁡(n)c(n) of such partitions exactly.
+Let ν⁡(n)\nu(n) denote the number of times 11 occurs in the binary expansion of nn (for nn as in ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")), ν⁡(n)=r+ϵ\nu(n)=r+\epsilon).
+Let BkB\_{k} denote the kkth Bell number, which is the number of set-partitions of {1,2,…,k}\{1,2,\ldots,k\}.
+
+###### Theorem 4.
+
+Let n≥3n\geq 3.
+If nn is even, then
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (2) |  | c⁡(n)=12​(Bν⁡(n−2)+2−Bν⁡(n−2)+1+Bν⁡(n−2)).c(n)=\frac{1}{2}(B\_{\nu(n-2)+2}-B\_{\nu(n-2)+1}+B\_{\nu(n-2)}). |  |
+
+If nn is odd, with v2​(n−1)=kv\_{2}(n-1)=k, then
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (3) |  | c⁡(n)=16​(Bν⁡(n−3)+3−3​Bν⁡(n−3)+3+5​Bν⁡(n−3)+1+2​Bν⁡(n−3))+Bν⁡(n)+k−2+Bν⁡(n)−2​Bν⁡(n)−1.c(n)=\frac{1}{6}(B\_{\nu(n-3)+3}-3B\_{\nu(n-3)+3}+5B\_{\nu(n-3)+1}+2B\_{\nu(n-3)})\\ +B\_{\nu(n)+k-2}+B\_{\nu(n)}-2B\_{\nu(n)-1}. |  |
+
+## 2. 22-core Tower of a Partition
+
+We briefly recall the definition and basic properties of 22-core towers.
+More details can be found in Olsson’s monograph [[5](#bib.bib5)].
+
+For a partition λ\lambda and an integer p>1p>1, let corep​λ\mathrm{core}\_{p}{\lambda} denote the pp-core, and quop​λ\mathrm{quo}\_{p}{\lambda} denote the pp-quotient of λ\lambda.
+The partition corep​λ\mathrm{core}\_{p}{\lambda} is what remains of Young diagram of λ\lambda after successively removing the rims of as many pp-hooks as possible.
+The pp-quotient quop​λ\mathrm{quo}\_{p}{\lambda} is a pp-tuple (λ0,…,λp−1)(\lambda\_{0},\dotsc,\lambda\_{p-1}) of partitions.
+The total number of cells in quop​λ\mathrm{quo}\_{p}{\lambda} is the number of pp-hooks whose rims were removed from λ\lambda to obtain corep​λ\mathrm{core}\_{p}{\lambda}.
+Consequently,
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (4) |  | |λ|=|corep​λ|+p⁡(|λ0|+⋯+|λp−1|).|\lambda|=|\mathrm{core}\_{p}{\lambda}|+p(|\lambda\_{0}|+\dotsb+|\lambda\_{p-1}|). |  |
+
+The size of the partition λk\lambda\_{k} in the pp-quotient is the number of nodes in the Young diagram of λ\lambda whose hook-lengths are multiples of pp, and whose hand-nodes have content congruent to kk modulo pp (by definition, the content of the node (i,j)(i,j) is j−ij-i).
+The partition λ\lambda can be recovered uniquely from corep​λ\mathrm{core}\_{p}{\lambda} and quop​λ\mathrm{quo}\_{p}{\lambda}.
+
+Given a partition λ\lambda, its 22-core tower is defined as follows: it has rows numbered by integers 0,1,2,…0,1,2,\dotsc.
+The iith row of this tower has 2i2^{i} many 22-cores.
+The 00th row has the partition α∅:=core2​λ\alpha\_{\emptyset}:=\mathrm{core}\_{2}{\lambda}.
+The first row consists of the partitions
+
+|  |  |  |
+| --- | --- | --- |
+|  | α0,α1,\alpha\_{0},\alpha\_{1}, |  |
+
+where, if quo2​λ=(λ0,λ1)\mathrm{quo}\_{2}{\lambda}=(\lambda\_{0},\lambda\_{1}), then αi=core2​λi\alpha\_{i}=\mathrm{core}\_{2}{\lambda\_{i}}.
+Let quo2​λi=(λi​0,λi​1)\mathrm{quo}\_{2}{\lambda\_{i}}=(\lambda\_{i0},\lambda\_{i1}), and define αi​j=core2​λi​j\alpha\_{ij}=\mathrm{core}\_{2}{\lambda\_{ij}}.
+The second row of the 22-core tower is
+
+|  |  |  |
+| --- | --- | --- |
+|  | α00,α01,α10,α11.\alpha\_{00},\alpha\_{01},\alpha\_{10},\alpha\_{11}. |  |
+
+Inductively, having defined partitions λx\lambda\_{x} for a binary sequence xx, define the partitions λx​0\lambda\_{x0} and λx​1\lambda\_{x1} by
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (5) |  | quo2​λx=(λx​0,λx​1),\mathrm{quo}\_{2}{\lambda\_{x}}=(\lambda\_{x0},\lambda\_{x1}), |  |
+
+and let αx​ϵ=core2​λx​ϵ\alpha\_{x\epsilon}=\mathrm{core}\_{2}{\lambda\_{x\epsilon}} for ϵ=0,1\epsilon=0,1.
+The iith row of the 22-core tower of λ\lambda consists of the partitions αx\alpha\_{x}, where xx runs over the set of all 2i2^{i} binary sequences of length ii, listed from left to right in lexicographic order.
+
+Visually, the 22-core tower is represented as the binary tree:
+
+|  |  |  |
+| --- | --- | --- |
+|  | α∅\textstyle{\alpha\_{\emptyset}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}α0\textstyle{\alpha\_{0}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}α1\textstyle{\alpha\_{1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}α00\textstyle{\alpha\_{00}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}α01\textstyle{\alpha\_{01}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}α10\textstyle{\alpha\_{10}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}α11\textstyle{\alpha\_{11}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}α000\textstyle{\begin{matrix}\alpha\_{000}\\ \vdots\end{matrix}}α001\textstyle{\begin{matrix}\alpha\_{001}\\ \vdots\end{matrix}}α010\textstyle{\begin{matrix}\alpha\_{010}\\ \vdots\end{matrix}}α011\textstyle{\begin{matrix}\alpha\_{011}\\ \vdots\end{matrix}}α100\textstyle{\begin{matrix}\alpha\_{100}\\ \vdots\end{matrix}}α101\textstyle{\begin{matrix}\alpha\_{101}\\ \vdots\end{matrix}}α110\textstyle{\begin{matrix}\alpha\_{110}\\ \vdots\end{matrix}}α111\textstyle{\begin{matrix}\alpha\_{111}\\ \vdots\end{matrix}} |  |
+
+A partition is uniquely determined by its 22-core tower, which has non-empty partitions in finitely many places.
+For example, (5,4,2,2,1,1)(5,4,2,2,1,1) has 22-core (1)(1) and 22-quotient ((2,2,1,1),(1))((2,2,1,1),(1)).
+The partition (2,2,1,1)(2,2,1,1) has trivial 22-core and 22-quotient ((1,1),(1))((1,1),(1)).
+Finally, (1,1)(1,1) has empty 22-core and quotient ((1),∅)((1),\emptyset).
+Therefore the 22-core tower of (5,4,2,2,1,1)(5,4,2,2,1,1) is given by:
+
+|  |  |  |
+| --- | --- | --- |
+|  | (1)\textstyle{(1)\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}∅\textstyle{\emptyset\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}(1)\textstyle{(1)\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}∅\textstyle{\emptyset\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}(1)\textstyle{(1)\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}∅\textstyle{\emptyset\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}∅\textstyle{\emptyset\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}(1)\textstyle{(1)}∅\textstyle{\emptyset}∅\textstyle{\emptyset}∅\textstyle{\emptyset}∅\textstyle{\emptyset}∅\textstyle{\emptyset}∅\textstyle{\emptyset}∅\textstyle{\emptyset} |  |
+
+Given a partition λ\lambda of nn, let wi​(λ)w\_{i}(\lambda) denote the sum of the sizes of the partitions in the iith row of the 22-core tower of λ\lambda.
+The identity ([4](#S2.E4 "In 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant")) implies that
+
+|  |  |  |
+| --- | --- | --- |
+|  | n=∑i=0∞wi​(λ)​2i.n=\sum\_{i=0}^{\infty}w\_{i}(\lambda)2^{i}. |  |
+
+In particular, the number of non-trivial rows in the 22-core tower of λ\lambda is at most the number of digits in the binary expansion of nn.
+Also let w⁡(λ)=∑i≥0wi​(λ)w(\lambda)=\sum\_{i\geq 0}w\_{i}(\lambda).
+Define the *22-deviation* of λ\lambda as
+
+|  |  |  |
+| --- | --- | --- |
+|  | e2​(λ)=w⁡(λ)−ν⁡(|λ|).e\_{2}(\lambda)=w(\lambda)-\nu(|\lambda|). |  |
+
+The following result gives a formula for the 22-adic valuation v2​(fλ)v\_{2}(f\_{\lambda}).
+
+###### Theorem 5 ([[5](#bib.bib5), Proposition 6.4]).
+
+For any partition λ\lambda, v2​(fλ)=e2​(λ)v\_{2}(f\_{\lambda})=e\_{2}(\lambda).
+
+In the running example λ=(5,4,2,2,1,1)\lambda=(5,4,2,2,1,1), which is a partition of 1515, the 22-deviation is zero, and so fλf\_{\lambda} is odd (in fact, f(5,4,2,2,1,1)=243243f\_{(5,4,2,2,1,1)}=243243).
+
+Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") characterizes partitions parametrizing representations with dimensions of specified 22-adic valuation in terms of their 22-core towers.
+Theorem [2](#Thmtheorem2 "Theorem 2. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant") follows from a similar characterization of chiral partitions which we are now ready to state:
+
+###### Theorem 6.
+
+Suppose nn is a positive integer with binary expansion ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")).
+Then a partition λ\lambda of nn is chiral if and only if one of the following happens:
+
+The partition λ\lambda satisfies
+
+|  |  |  |
+| --- | --- | --- |
+|  | wi​(λ)={1if i∈{k1,…,kr}, or if ϵ=1 and i=0,0otherwise,w\_{i}(\lambda)=\begin{cases}1&\text{if }i\in\{k\_{1},\dotsc,k\_{r}\},\text{ or if }\epsilon=1\text{ and }i=0,\\ 0&\text{otherwise,}\end{cases} |  |
+
+and the unique non-trivial partition in the k1k\_{1}th row of the 22-core tower of λ\lambda is αx\alpha\_{x}, where the binary sequence xx of length kk begins with ϵ\epsilon.
+In this case fλf\_{\lambda} is odd.
+
+For some 0<v<k10<v<k\_{1},
+
+|  |  |  |
+| --- | --- | --- |
+|  | wi​(λ)={2if ​i=k1−v,1if ​k1−v+1≤i≤k1−1​ or ​i∈{k2,…,kr},or if ​ϵ=1​ and ​i=0,0otherwise,w\_{i}(\lambda)=\begin{cases}2&\text{if }i=k\_{1}-v,\\ 1&\text{if }k\_{1}-v+1\leq i\leq k\_{1}-1\text{ or }i\in\{k\_{2},\dotsc,k\_{r}\},\\ &\text{or if }\epsilon=1\text{ and }i=0,\\ 0&\text{otherwise,}\end{cases} |  |
+
+and the two non-trivial partitions in the (k−v)(k-v)th row of the 22-core tower of λ\lambda are αx\alpha\_{x} and αy\alpha\_{y}, for binary sequences xx and yy such that xx begins with 00 and yy begins with 11.
+In this case v2​(fλ)=vv\_{2}(f\_{\lambda})=v.
+
+We have ϵ=1\epsilon=1 and the partition λ\lambda satisfies
+
+|  |  |  |
+| --- | --- | --- |
+|  | wi​(λ)={3if ​i=0,1if ​i∈{1,…,k1−1,k2,…,kr}.w\_{i}(\lambda)=\begin{cases}3&\text{if }i=0,\\ 1&\text{if }i\in\{1,\dotsc,k\_{1}-1,k\_{2},\dotsc,k\_{r}\}.\end{cases} |  |
+
+In this case, v2​(fλ)=k1v\_{2}(f\_{\lambda})=k\_{1}.
+
+Not only does Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") prove the enumerative results in Theorems [1](#Thmtheorem1 "Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant") and [2](#Thmtheorem2 "Theorem 2. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant"), it also provides fast algorithms to:
+
+sequentially enumerate all chiral partitions of nn with given v2​(fλ)v\_{2}(f\_{\lambda}).
+
+generate a uniformly random chiral partition of nn with given v2​(fλ)v\_{2}(f\_{\lambda}).
+
+It also provides the distribution of v2​(fλ)v\_{2}(f\_{\lambda}) among the chiral partitions of nn.
+In particular, note that if λ\lambda is a chiral partition of nn, then v2​(fλ)∈[0,k1−1]v\_{2}(f\_{\lambda})\in[0,k\_{1}-1] when nn is of the form ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")) with ϵ=0\epsilon=0, and v2​(fλ)∈[0,k1]v\_{2}(f\_{\lambda})\in[0,k\_{1}] when ϵ=1\epsilon=1.
+
+Another interesting consequence of Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") is a characterization of self-conjugate chiral partitions:
+
+###### Corollary 7.
+
+A positive integer nn admits a self-conjugate chiral partition if and only if n=3n=3, or n=2k+ϵn=2^{k}+\epsilon for some k≥2k\geq 2 and ϵ∈{0,1}\epsilon\in\{0,1\}.
+Moreover, λ\lambda is a self-conjugate chiral partition of 2k+ϵ2^{k}+\epsilon if and only if λ\lambda is self-conjugate and v2​(fλ)=1v\_{2}(f\_{\lambda})=1.
+The number of self-conjugate chiral partitions of 2k+ϵ2^{k}+\epsilon is 2k−22^{k-2} for k≥2k\geq 2.
+
+###### Proof.
+
+Let λ′\lambda^{\prime} denote the conjugate of a partition λ\lambda.
+Recall that core2​(λ′)=(core2​λ)′\mathrm{core}\_{2}{(\lambda^{\prime})}=(\mathrm{core}\_{2}{\lambda})^{\prime}, and if quo2​λ=(λ0,λ1)\mathrm{quo}\_{2}{\lambda}=(\lambda\_{0},\lambda\_{1}), then quo2​λ′=(λ1′,λ0′)\mathrm{quo}\_{2}{\lambda^{\prime}}=(\lambda\_{1}^{\prime},\lambda\_{0}^{\prime}) (see, for example, [[5](#bib.bib5), Proposition 3.5]).
+It follows that the 22-core tower of λ′\lambda^{\prime} is obtained by reflecting the 22-core tower of λ\lambda about the vertical axis, and then replacing each entry with its conjugate.
+If λ\lambda is self-conjugate, then its 22-core tower has to be invariant under this operation.
+In particular, no row numbered by a positive integer can have weight equal to 11.
+
+If n>3n>3, this can only happen if the case ([6.2](#S2.I1.i2 "item 6.2 ‣ Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant")) in Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") is realized with n=2k+ϵn=2^{k}+\epsilon and v=1v=1.
+
+Now suppose λ\lambda is a self-conjugate partition of 2k+ϵ2^{k}+\epsilon and v2​(fλ)=1v\_{2}(f\_{\lambda})=1.
+By Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant"), wk−1​(λ)=2w\_{k-1}(\lambda)=2, wi​(λ)=0w\_{i}(\lambda)=0 for 0<i<k−10<i<k-1, and w0​(λ)=ϵw\_{0}(\lambda)=\epsilon.
+Let xx and yy be the two binary sequences of length k−1k-1 which index the non-empty entries in the 22-core tower of λ\lambda.
+The symmetry of the 22-core tower ensures that one begins with 00 and the other with 11.
+Thus λ\lambda satisfies the conditions in ([6.2](#S2.I1.i2 "item 6.2 ‣ Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant")), and is therefore chiral.
+
+In order to count the number of such partitions, note that each of xx and yy determine each other, and for xx beginning with 00, there are 2k−22^{k-2} choices.
+∎
+
+The proof of Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") requires the characterization of chiral partitions in terms of counting a class of Young tableaux, which we take up in the next section.
+
+## 3. Counting Tableaux
+
+In Young’s seminormal form, the representation VλV\_{\lambda} has basis indexed by standard tableaux of shape λ\lambda:
+
+|  |  |  |
+| --- | --- | --- |
+|  | {vT∣T is a standard tableau of shape λ}.\{v\_{T}\mid\text{$T$ is a standard tableau of shape $\lambda$}\}. |  |
+
+Let s1s\_{1} denote the simple transposition (1,2)(1,2).
+The vectors vTv\_{T} are all eigenvectors for the involution ρλ​(s1)\rho\_{\lambda}(s\_{1}).
+Note that, in a standard tableau, 22 always occurs either in the first row, or in the first column.
+We have:
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (6) |  | ρλ​(s1)​vT={vTif 2 lies in the first row of T,−vTif 2 lies in the first column of T.\rho\_{\lambda}(s\_{1})v\_{T}=\begin{cases}v\_{T}&\text{if $2$ lies in the first row of $T$,}\\ -v\_{T}&\text{if $2$ lies in the first column of $T$.}\end{cases} |  |
+
+Let gλg\_{\lambda} denote the number of standard tableaux of shape λ\lambda such that 22 occurs in the first column of TT.
+The equation ([6](#S3.E6 "In 3. Counting Tableaux ‣ Representations of symmetric groupswith non-trivial determinant")) implies that
+
+|  |  |  |
+| --- | --- | --- |
+|  | det(ρλ​(s1))=(−1)gλ,\det(\rho\_{\lambda}(s\_{1}))=(-1)^{g\_{\lambda}}, |  |
+
+so λ\lambda is chiral if and only if gλg\_{\lambda} is odd.
+Observe that the trace of ρλ​(s1)\rho\_{\lambda}(s\_{1}) is the difference between the multiplicity of +1+1 as an eigenvalue minus the multiplicity of −1-1 as an eigenvalue.
+Since the multiplicity of +1+1 is fλ−gλf\_{\lambda}-g\_{\lambda}, and the multiplicity of −1-1 is gλg\_{\lambda},
+
+|  |  |  |
+| --- | --- | --- |
+|  | trace⁡(ρλ​(s1))=fλ−2​gλ.\mathrm{trace}(\rho\_{\lambda}(s\_{1}))=f\_{\lambda}-2g\_{\lambda}. |  |
+
+This is the value of the symmetric group character χλ\chi\_{\lambda} at the class consisting of permutations with cycle decomposition (2,1n−2)(2,1^{n-2}).
+This character value is given by (see [[4](#bib.bib4), Example 3, p. 11] or [[8](#bib.bib8), Exercise 7.51]):
+
+|  |  |  |
+| --- | --- | --- |
+|  | χλ​(2,1n−2)=fλ(n2)​C​(λ),\chi\_{\lambda}(2,1^{n-2})=\frac{f\_{\lambda}}{\binom{n}{2}}C(\lambda), |  |
+
+where
+
+|  |  |  |
+| --- | --- | --- |
+|  | C⁡(λ)=∑(i,j)∈λ(j−i),C(\lambda)=\sum\_{(i,j)\in\lambda}(j-i), |  |
+
+and (i,j)∈λ(i,j)\in\lambda is to be understood to mean that (i,j)(i,j) is a cell in the Young diagram of λ\lambda, or in other words, that ii and jj are positive integers with j≤λij\leq\lambda\_{i} for each ii indexing a part of λ\lambda. As a consequence (see Stanley [[8](#bib.bib8), Exercise 7.55]):
+
+###### Theorem 8.
+
+Given a partition λ\lambda of nn, we have
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (7) |  | gλ=fλ​((n2)−C​(λ))2​(n2).g\_{\lambda}=\frac{f\_{\lambda}\left(\binom{n}{2}-C(\lambda)\right)}{2\binom{n}{2}}. |  |
+
+The partition λ\lambda of nn is chiral if and only if gλg\_{\lambda} is odd.
+
+## 4. Proof of Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant")
+
+The 22-core tower of a partition records how it can be reduced to its core by removing maximal rim-hooks whose sizes are powers of two.
+Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") will be proved by analyzing the contributions of the contents of these rim-hooks to C⁡(λ)C(\lambda).
+This is achieved in two parts: the first is a reduction to the case where n=ϵ+2kn=\epsilon+2^{k}, with ϵ∈{0,1}\epsilon\in\{0,1\} (Lemma [12](#Thmtheorem12 "Lemma 12. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")), and the second is a characterization of chiral partitions of ϵ+2k\epsilon+2^{k} (Lemma [13](#Thmtheorem13 "Lemma 13. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")).
+
+###### Lemma 9.
+
+Let λ\lambda be any partition.
+For each binary sequence xx, let λx\lambda\_{x} denote the partition obtained recursively from λ\lambda by ([5](#S2.E5 "In 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant")).
+Fix δ∈{0,1}\delta\in\{0,1\}.
+The nodes of λx\lambda\_{x}, as xx runs over all binary sequences of length ii beginning with δ\delta, correspond to the nodes of λ\lambda whose hook-lengths are multiples of 2i2^{i} and whose hand nodes have content congruent to δ\delta modulo 22.
+
+###### Proof.
+
+The lemma follows by applying [[5](#bib.bib5), Theorem 3.3] recursively.
+∎
+
+###### Lemma 10.
+
+Let λ\lambda be a partition.
+Then the 22-core tower of core2i​λ\mathrm{core}\_{2^{i}}{\lambda} is obtained by replacing all the partitions in rows numbered ii and larger by the empty partition in the 22-core tower of λ\lambda.
+
+###### Proof.
+
+Since the 22-core tower of a 22-core is concentrated in the 00th row, the lemma holds for i=0i=0.
+The proof proceeds by induction on ii using the following general fact:
+for integers pp and qq, we always have
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (8) |  | quop​(corep​q​λ)=coreq​(quop​λ),\mathrm{quo}\_{p}{(\mathrm{core}\_{pq}{\lambda})}=\mathrm{core}\_{q}{(\mathrm{quo}\_{p}{\lambda})}, |  |
+
+where the right hand side is interpreted as the qq-tuple of cores of the partitions in quop​λ\mathrm{quo}\_{p}{\lambda}.
+This can be deduced from the assertion about the removal of hooks in [[5](#bib.bib5), Theorem 3.3].
+
+Let ω\omega be the partition whose 22-core tower is obtained from that of λ\lambda by replacing all the partitions in rows numbered ii and larger by the trivial partition.
+We wish to show that ω=core2i​λ\omega=\mathrm{core}\_{2^{i}}{\lambda}.
+Clearly, core2​λ=core2​(core2i​λ)=core2​ω\mathrm{core}\_{2}{\lambda}=\mathrm{core}\_{2}{(\mathrm{core}\_{2^{i}}{\lambda})}=\mathrm{core}\_{2}{\omega}.
+
+The 22-core tower T⁡(λ)T(\lambda) of λ\lambda looks like
+
+|  |  |  |
+| --- | --- | --- |
+|  | T⁡(λ)=    core2​λ         T⁡(λ0)   T⁡(λ1)    T(\lambda)=\lx@xy@svg{\hbox{\raise 2.5pt\hbox{\kern 15.66496pt\hbox{\ignorespaces\ignorespaces\ignorespaces\hbox{\vtop{\halign{\entry@#!@&&\entry@@#!@\cr&&\cr&&\crcr}}}\ignorespaces{\hbox{\kern-3.0pt\raise 0.0pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{}$}}}}}}}{\hbox{\kern 39.66496pt\raise 0.0pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{\mathrm{core}\_{2}{\lambda}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}$}}}}}}}\ignorespaces\ignorespaces\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces\ignorespaces\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{\hbox{\lx@xy@drawline@}}{\hbox{\kern 110.45499pt\raise 0.0pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{}$}}}}}}}{\hbox{\kern-15.66496pt\raise-31.72221pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{T(\lambda\_{0})}$}}}}}}}{\hbox{\kern 53.7275pt\raise-31.72221pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{}$}}}}}}}{\hbox{\kern 97.79002pt\raise-31.72221pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{T(\lambda\_{1})}$}}}}}}}\ignorespaces}}}}\ignorespaces |  |
+
+where quo2​λ=(λ0,λ1)\mathrm{quo}\_{2}{\lambda}=(\lambda\_{0},\lambda\_{1}), and T⁡(λi)T(\lambda\_{i}) is the 22-core tower of λi\lambda\_{i}.
+Similarly, the 22-core tower of ω\omega looks like:
+
+|  |  |  |
+| --- | --- | --- |
+|  | T⁡(ω)=    core2​λ         T⁡(ω0)   T⁡(ω1)    T(\omega)=\lx@xy@svg{\hbox{\raise 2.5pt\hbox{\kern 15.86055pt\hbox{\ignorespaces\ignorespaces\ignorespaces\hbox{\vtop{\halign{\entry@#!@&&\entry@@#!@\cr&&\cr&&\crcr}}}\ignorespaces{\hbox{\kern-3.0pt\raise 0.0pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{}$}}}}}}}{\hbox{\kern 39.86055pt\raise 0.0pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{\mathrm{core}\_{2}{\lambda}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}$}}}}}}}\ignorespaces\ignorespaces\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces\ignorespaces\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{}\ignorespaces\ignorespaces{\hbox{\lx@xy@drawline@}}\ignorespaces{\hbox{\lx@xy@drawline@}}{\hbox{\kern 110.84616pt\raise 0.0pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{}$}}}}}}}{\hbox{\kern-15.86055pt\raise-31.72221pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{T(\omega\_{0})}$}}}}}}}{\hbox{\kern 53.92308pt\raise-31.72221pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{}$}}}}}}}{\hbox{\kern 97.98561pt\raise-31.72221pt\hbox{\hbox{\kern 0.0pt\raise 0.0pt\hbox{\hbox{\kern 3.0pt\raise-2.5pt\hbox{$\textstyle{T(\omega\_{1})}$}}}}}}}\ignorespaces}}}}\ignorespaces |  |
+
+where quo2​ω=(ω0,ω1)\mathrm{quo}\_{2}{\omega}=(\omega\_{0},\omega\_{1}).
+Since T⁡(ω)T(\omega) is obtained from T⁡(λ)T(\lambda) by replacing all the partitions in rows numbered ii and larger by the empty partition, T⁡(ωi)T(\omega\_{i}) is obtained from T⁡(λi)T(\lambda\_{i}) by replacing partitions in rows numbered i−1i-1 and larger by the empty partition.
+By the induction hypothesis, ωi=core2i−1​λi\omega\_{i}=\mathrm{core}\_{2^{i-1}}{\lambda\_{i}}.
+We have:
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  | quo2​ω\displaystyle\mathrm{quo}\_{2}{\omega} | =core2i−1​(quo2​λ)\displaystyle=\mathrm{core}\_{2^{i-1}}{(\mathrm{quo}\_{2}{\lambda})} |  |
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  | =quo2​(core2i​λ),\displaystyle=\mathrm{quo}\_{2}{(\mathrm{core}\_{2^{i}}{\lambda})}, |  |
+
+by applying ([8](#S4.E8 "In Proof. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")) with p=2p=2 and q=2i−1q=2^{i-1}.
+We have shown that ω\omega and core2i​λ\mathrm{core}\_{2^{i}}{\lambda} have the same 22-core and 22-quotient, from which follows that ω=core2i​λ\omega=\mathrm{core}\_{2^{i}}{\lambda}.
+∎
+
+###### Lemma 11.
+
+For any partition λ\lambda, and any positive integer ii,
+
+|  |  |  |
+| --- | --- | --- |
+|  | v2​(fλ)=v2​(fcore2i​λ)+v2​(fμ)+ν⁡(n−|core2i​λ|)+ν⁡(|core2i​λ|)−ν⁡(n).v\_{2}(f\_{\lambda})=v\_{2}(f\_{\mathrm{core}\_{2^{i}}{\lambda}})+v\_{2}(f\_{\mu})+\nu(n-|\mathrm{core}\_{2^{i}}{\lambda}|)+\nu(|\mathrm{core}\_{2^{i}}{\lambda}|)-\nu(n). |  |
+
+where μ\mu denotes the partition whose 22-core tower is obtained from the 22-core tower of λ\lambda by replacing all the partitions in rows numbered 0,…,i−10,\dotsc,i-1 by the empty partition.
+As a consequence,
+
+|  |  |  |
+| --- | --- | --- |
+|  | v2​(fλ)≥v2​(fcore2i​λ)+v2​(fμ).v\_{2}(f\_{\lambda})\geq v\_{2}(f\_{\mathrm{core}\_{2^{i}}{\lambda}})+v\_{2}(f\_{\mu}). |  |
+
+###### Remark.
+
+In the inequality in Lemma [11](#Thmtheorem11 "Lemma 11. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant"), it should be understood that for the empty partition ∅\emptyset of 00, we have f∅=1f\_{\emptyset}=1.
+
+###### Proof.
+
+Let α=core2i​λ\alpha=\mathrm{core}\_{2^{i}}{\lambda}.
+By Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant"), we have:
+
+|  |  |  |
+| --- | --- | --- |
+|  | v2​(fλ)=∑j=0i−1wj​(λ)+∑j≥iwj​(λ)−ν⁡(n),v\_{2}(f\_{\lambda})=\sum\_{j=0}^{i-1}w\_{j}(\lambda)+\sum\_{j\geq i}w\_{j}(\lambda)-\nu(n), |  |
+
+and by the additional use of Lemma [10](#Thmtheorem10 "Lemma 10. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant"),
+
+|  |  |  |
+| --- | --- | --- |
+|  | v2​(fα)=∑j=0i−1wj​(λ)−ν⁡(|α|).v\_{2}(f\_{\alpha})=\sum\_{j=0}^{i-1}w\_{j}(\lambda)-\nu(|\alpha|). |  |
+
+So we have:
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  | v2​(fλ)−v2​(fα)\displaystyle v\_{2}(f\_{\lambda})-v\_{2}(f\_{\alpha}) | =∑j≥iwi​(λ)−(ν⁡(n)−ν⁡(|α|))\displaystyle=\sum\_{j\geq i}w\_{i}(\lambda)-(\nu(n)-\nu(|\alpha|)) |  |
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  | =∑j≥iwi​(λ)−ν⁡(n−|α|)+[ν⁡(n−|α|)+ν⁡(|α|)−ν⁡(n)]\displaystyle=\sum\_{j\geq i}w\_{i}(\lambda)-\nu(n-|\alpha|)+[\nu(n-|\alpha|)+\nu(|\alpha|)-\nu(n)] |  |
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  | =v2​(fμ)+ν⁡(n−|α|)+ν⁡(|α|)−ν⁡(n),\displaystyle=v\_{2}(f\_{\mu})+\nu(n-|\alpha|)+\nu(|\alpha|)-\nu(n), |  |
+
+completing the proof of the identity in the lemma.
+Recall that for any integers kk and ll, ν⁡(k+l)≤ν⁡(k)+ν⁡(l)\nu(k+l)\leq\nu(k)+\nu(l).
+In particular, ν⁡(n−|core2i​λ|)+ν⁡(|core2i​λ|)−ν⁡(n)≥0\nu(n-|\mathrm{core}\_{2^{i}}{\lambda}|)+\nu(|\mathrm{core}\_{2^{i}}{\lambda}|)-\nu(n)\geq 0, so the inequality in the lemma follows.
+∎
+
+###### Lemma 12.
+
+Let λ\lambda be a partition of a positive integer nn as in ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")).
+Let α=core2k1+1​λ\alpha=\mathrm{core}\_{2^{k\_{1}+1}}{\lambda}.
+Then λ\lambda is chiral if and only if both the following conditions hold:
+
+α\alpha is a chiral partition of ϵ+2k1\epsilon+2^{k\_{1}}.
+
+If μ\mu is the partition whose 22-core tower is obtained from the 22-core tower of λ\lambda by replacing the partitions appearing in rows numbered 0,…,k10,\dotsc,k\_{1} by the empty partition, then v2​(fμ)=0v\_{2}(f\_{\mu})=0.
+
+###### Proof.
+
+Suppose λ\lambda is chiral.
+Recall that the 22-adic valuation of a binomial coefficient (nk)\binom{n}{k} is ν⁡(k)+ν⁡(n−k)−ν⁡(n)\nu(k)+\nu(n-k)-\nu(n).
+It follows that v2​(n2)=k1−1v\_{2}\binom{n}{2}=k\_{1}-1 if nn is of the form ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")).
+Moreover, since α\alpha is obtained from λ\lambda by removing 2k1+12^{k\_{1}+1}-rim hooks, |α|≡nmod2k1+1|\alpha|\equiv n\mod 2^{k\_{1}+1}.
+So,
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (9) |  | v2​(n2)=v2​(|α|2)=k1−1.v\_{2}\binom{n}{2}=v\_{2}\binom{|\alpha|}{2}=k\_{1}-1. |  |
+
+As (i,j)(i,j) runs over a rim-hook rr of size 2k1+12^{k\_{1}+1}, (j−i)(j-i) visits each residue class modulo 2k1+12^{k\_{1}+1} exactly once.
+So
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑(i,j)∈r(j−i)≡2k1​(2k1+1−1)≡0mod2k1.\sum\_{(i,j)\in r}(j-i)\equiv 2^{k\_{1}}(2^{k\_{1}+1}-1)\equiv 0\mod 2^{k\_{1}}. |  |
+
+Since α\alpha is obtained from λ\lambda by removing a sequence of such hooks, we have:
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (10) |  | C⁡(λ)≡C⁡(α)mod2k1.C(\lambda)\equiv C(\alpha)\mod 2^{k\_{1}}. |  |
+
+Since v2​(gλ)=0v\_{2}(g\_{\lambda})=0, ([7](#S3.E7 "In Theorem 8. ‣ 3. Counting Tableaux ‣ Representations of symmetric groupswith non-trivial determinant")) gives
+
+|  |  |  |
+| --- | --- | --- |
+|  | v2​((n2)−C⁡(λ))=k1−v2​(fλ)≤k1.v\_{2}\left(\binom{n}{2}-C(\lambda)\right)=k\_{1}-v\_{2}(f\_{\lambda})\leq k\_{1}. |  |
+
+Together with ([10](#S4.E10 "In Proof. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")), we get that
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (11) |  | v2​((n2)−C⁡(λ))=v2​((|α|2)−C⁡(α)).v\_{2}\left(\binom{n}{2}-C(\lambda)\right)=v\_{2}\left(\binom{|\alpha|}{2}-C(\alpha)\right). |  |
+
+Since v2​(fα)≤v2​(fλ)v\_{2}(f\_{\alpha})\leq v\_{2}(f\_{\lambda}) (by Lemma [11](#Thmtheorem11 "Lemma 11. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")), it follows from ([7](#S3.E7 "In Theorem 8. ‣ 3. Counting Tableaux ‣ Representations of symmetric groupswith non-trivial determinant")) that v2​(gα)≤v2​(gλ)v\_{2}(g\_{\alpha})\leq v\_{2}(g\_{\lambda}).
+Since v2​(gλ)=0v\_{2}(g\_{\lambda})=0, it must be that v2​(gα)=0v\_{2}(g\_{\alpha})=0, i.e., α\alpha is also chiral.
+
+Another consequence of the above argument is that v2​(fα)=v2​(fλ)v\_{2}(f\_{\alpha})=v\_{2}(f\_{\lambda}).
+which (by Lemma [11](#Thmtheorem11 "Lemma 11. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")) means that ν⁡(n)=ν⁡(|α|)+ν⁡(n−|α|)\nu(n)=\nu(|\alpha|)+\nu(n-|\alpha|), and v2​(fμ)=0v\_{2}(f\_{\mu})=0.
+In particular, the 22-deviation of α\alpha comes from the first k1k\_{1}-rows of its 22-core tower, so the binary expansion of |α||\alpha| cannot have digits beyond the k1k\_{1}th place value.
+Since ν⁡(n)=ν⁡(|α|)+ν⁡(n−|α|)\nu(n)=\nu(|\alpha|)+\nu(n-|\alpha|), we must have |α|=2k1+ϵ|\alpha|=2^{k\_{1}}+\epsilon.
+
+For the converse, note that the conditions ([12.1](#S4.I1.i1 "item 12.1 ‣ Lemma 12. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")) and ([12.2](#S4.I1.i2 "item 12.2 ‣ Lemma 12. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")) imply that e2​(μ)=0e\_{2}(\mu)=0 and hence e2​(λ)=e2​(α)e\_{2}(\lambda)=e\_{2}(\alpha), so v2​(fα)=v2​(fλ)v\_{2}(f\_{\alpha})=v\_{2}(f\_{\lambda}).
+Also, v2​(n2)=v2​(2k1+ϵ2)=k1−1v\_{2}\binom{n}{2}=v\_{2}\binom{2^{k\_{1}}+\epsilon}{2}=k\_{1}-1.
+So in order to show that λ\lambda is chiral, it suffices to show that
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (12) |  | v2​((n2)−C⁡(λ))≤v2​((2k1+ϵ2)−C⁡(α)).v\_{2}\left(\binom{n}{2}-C(\lambda)\right)\leq v\_{2}\left(\binom{2^{k\_{1}}+\epsilon}{2}-C(\alpha)\right). |  |
+
+Since α\alpha is chiral and v2​(gα)=0v\_{2}(g\_{\alpha})=0.
+Now ([7](#S3.E7 "In Theorem 8. ‣ 3. Counting Tableaux ‣ Representations of symmetric groupswith non-trivial determinant")) implies that v2​((2k1+ϵ2)−C⁡(α))≤k1v\_{2}\left(\binom{2^{k\_{1}}+\epsilon}{2}-C(\alpha)\right)\leq k\_{1}.
+The identity ([10](#S4.E10 "In Proof. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")) still holds true, so we must have equality in ([12](#S4.E12 "In Proof. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")).
+∎
+
+###### Lemma 13.
+
+Let λ\lambda be a partition of n=ϵ+2kn=\epsilon+2^{k}, where ϵ∈{0,1}\epsilon\in\{0,1\}, and k≥1k\geq 1.
+Then λ\lambda is chiral if and only if one of the following conditions holds:
+
+The partition λ\lambda satisfies
+
+|  |  |  |
+| --- | --- | --- |
+|  | wi​(λ)={1if i=k, or if ϵ=1 and i=0,0otherwise,w\_{i}(\lambda)=\begin{cases}1&\text{if }i=k,\text{ or if }\epsilon=1\text{ and }i=0,\\ 0&\text{otherwise,}\end{cases} |  |
+
+and the unique non-empty partition in the kkth row of the 22-core tower of λ\lambda is αx\alpha\_{x}, where the binary sequence xx of length kk begins with ϵ\epsilon.
+In this case fλf\_{\lambda} is odd.
+
+For some 0<v<k0<v<k,
+
+|  |  |  |
+| --- | --- | --- |
+|  | wi​(λ)={2if ​i=k−v,1if k−v+1≤i≤k−1, or if ϵ=1 and i=0,0otherwise,w\_{i}(\lambda)=\begin{cases}2&\text{if }i=k-v,\\ 1&\text{if }k-v+1\leq i\leq k-1,\text{ or if }\epsilon=1\text{ and }i=0,\\ 0&\text{otherwise,}\end{cases} |  |
+
+and the two non-empty partitions in the (k−v)(k-v)th row of the 22-core tower of λ\lambda are αx\alpha\_{x} and αy\alpha\_{y}, for binary sequences xx and yy such that xx begins with 00 and yy begins with 11.
+In this case v2​(fλ)=vv\_{2}(f\_{\lambda})=v.
+
+We have ϵ=1\epsilon=1 and the partition λ\lambda satisfies
+
+|  |  |  |
+| --- | --- | --- |
+|  | wi​(λ)={3if ​i=0,1if ​1≤i≤k−1.w\_{i}(\lambda)=\begin{cases}3&\text{if }i=0,\\ 1&\text{if }1\leq i\leq k-1.\end{cases} |  |
+
+In this case, v2​(fλ)=kv\_{2}(f\_{\lambda})=k.
+
+###### Proof.
+
+Let v=v2​(fλ)v=v\_{2}(f\_{\lambda}).
+Since v2​(n2)=k−1v\_{2}\binom{n}{2}=k-1, Theorem [7](#S3.E7 "In Theorem 8. ‣ 3. Counting Tableaux ‣ Representations of symmetric groupswith non-trivial determinant") implies that λ\lambda is chiral if and only if
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (13) |  | v2​((n2)−C⁡(λ))=k−v.v\_{2}\left(\binom{n}{2}-C(\lambda)\right)=k-v. |  |
+
+Consider first the case where v=0v=0.
+Then, by Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant"), λ\lambda has a unique 2k2^{k}-hook.
+Suppose that the content (column number minus row number) of the foot node of this hook is c+ϵc+\epsilon for some integer cc.
+Then the nodes in the rim rr of this hook have contents c+ϵ,c+ϵ+1,…,c+n−1c+\epsilon,c+\epsilon+1,\dotsc,c+n-1.
+Consequently, if we write C⁡(r)C(r) for the sum of contents of the nodes in rr, then
+
+|  |  |  |
+| --- | --- | --- |
+|  | C⁡(r)=2k​c+(n2).C(r)=2^{k}c+\binom{n}{2}. |  |
+
+Furthermore λ\lambda has at most one node not in rr, whose content is 00.
+So C⁡(λ)=C⁡(r)C(\lambda)=C(r) and we have
+
+|  |  |  |
+| --- | --- | --- |
+|  | (n2)−C⁡(λ)=−2k​c,\binom{n}{2}-C(\lambda)=-2^{k}c, |  |
+
+which has valuation kk if and only if cc is odd.
+Since rr is a hook of even length, its hand and foot nodes always have contents of different parity.
+So λ\lambda is chiral if and only if the content of the hand node of rr has the same parity as ϵ\epsilon.
+By Lemma [9](#Thmtheorem9 "Lemma 9. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant") this is equivalent to saying that the unique non-trivial partition in the kkth row of the 22-core tower of λ\lambda is λx\lambda\_{x}, where xx is a binary sequence beginning with ϵ\epsilon.
+
+Now consider the case where v=1v=1 and k≥2k\geq 2.
+Then, by Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant"),
+
+|  |  |  |
+| --- | --- | --- |
+|  | wi​(λ)={2if ​i=k−1,1if ​ϵ=1​ and ​i=0,0otherwise.w\_{i}(\lambda)=\begin{cases}2&\text{if }i=k-1,\\ 1&\text{if }\epsilon=1\text{ and }i=0,\\ 0&\text{otherwise.}\end{cases} |  |
+
+Thus the 22-core of λ\lambda, which is a partition of size ϵ\epsilon is obtained by removing two rim-hooks r1r\_{1} and r2r\_{2} of size 2k−12^{k-1} from λ\lambda.
+As a consequence, C⁡(λ)=C⁡(r1)+C⁡(r2)C(\lambda)=C(r\_{1})+C(r\_{2}).
+Suppose that the hand-nodes of these hooks have contents c1c\_{1} and c2c\_{2} respectively.
+Then
+
+|  |  |  |
+| --- | --- | --- |
+|  | C⁡(r1)+C⁡(r2)=2k−1​(c1+c2)−2k−1​(2k−1−1).C(r\_{1})+C(r\_{2})=2^{k-1}(c\_{1}+c\_{2})-2^{k-1}(2^{k-1}-1). |  |
+
+We have
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  | (n2)−C⁡(λ)\displaystyle\binom{n}{2}-C(\lambda) | =2k−1​(2k−1+2​ϵ)−(C⁡(r1)+C⁡(r2))\displaystyle=2^{k-1}(2^{k}-1+2\epsilon)-(C(r\_{1})+C(r\_{2})) |  |
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  | =2k​(2k−1+2k−2−1+ϵ)−2k−1​(c1+c2).\displaystyle=2^{k}(2^{k-1}+2^{k-2}-1+\epsilon)-2^{k-1}(c\_{1}+c\_{2}). |  |
+
+This has valuation k−1k-1 if and only if c1+c2c\_{1}+c\_{2} is odd, in other words, the two non-trivial entries in the 22-core tower of λ\lambda are in the (k−1)(k-1)st row and are of the form λx\lambda\_{x} and λy\lambda\_{y} where xx and yy are binary sequences such that xx begins with 00, which yy begins with 11.
+
+Now consider the case where 1<v<k1<v<k.
+Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") implies that wi​(λ)=0w\_{i}(\lambda)=0 for all i<k−vi<k-v, except if ϵ=1\epsilon=1, in which case w0​(λ)=1w\_{0}(\lambda)=1.
+Let jj be the smallest positive integer for which wj​(λ)>0w\_{j}(\lambda)>0.
+Then j≥k−vj\geq k-v, and since ∑i≥j2i​wi​(λ)=2k\sum\_{i\geq j}2^{i}w\_{i}(\lambda)=2^{k}, wj​(λ)w\_{j}(\lambda) must be even.
+For each i≥ji\geq j, core2i​λ\mathrm{core}\_{2^{i}}{\lambda} is obtained from core2i+1​λ\mathrm{core}\_{2^{i+1}}{\lambda} by the removal of wi​(λ)w\_{i}(\lambda) 2i2^{i}-rim-hooks, and core2j​λ\mathrm{core}\_{2^{j}}{\lambda} is a partition of ϵ\epsilon.
+Now, if rr is a rim-hook of size 2i2^{i} for some i>ji>j with hand-node content cc, then since its nodes have contents c,c−1,…,c−(2i−1)c,c-1,\dotsc,c-(2^{i}-1),
+
+|  |  |  |
+| --- | --- | --- |
+|  | C⁡(r)=2i​c−(2i2)≡0mod2j,C(r)=2^{i}c-\binom{2^{i}}{2}\equiv 0\mod 2^{j}, |  |
+
+so C⁡(λ)≡C⁡(core2i​λ)mod2jC(\lambda)\equiv C(\mathrm{core}\_{2^{i}}{\lambda})\mod 2^{j} for all i>ji>j.
+If r1r\_{1} and r2r\_{2} are two rim-hooks of size 2j2^{j}, with hand-node contents c1c\_{1} and c2c\_{2}, then
+
+|  |  |  |
+| --- | --- | --- |
+|  | C⁡(r1)+C⁡(r2)=2j​(c1+c2)+2j​(2j−1)≡0mod2j,C(r\_{1})+C(r\_{2})=2^{j}(c\_{1}+c\_{2})+2^{j}(2^{j}-1)\equiv 0\mod 2^{j}, |  |
+
+So C⁡(λ)≡C⁡(core2j​λ)mod2jC(\lambda)\equiv C(\mathrm{core}\_{2^{j}}{\lambda})\mod 2^{j}.
+But core2j​λ=core2​λ\mathrm{core}\_{2^{j}}{\lambda}=\mathrm{core}\_{2}{\lambda} is a partition of ϵ\epsilon, so C⁡(core2j​λ)=0C(\mathrm{core}\_{2^{j}}{\lambda})=0.
+Thus, if j>k−vj>k-v, then
+
+|  |  |  |
+| --- | --- | --- |
+|  | v2​((n2)−C⁡(λ))>k−v.v\_{2}\left(\binom{n}{2}-C(\lambda)\right)>k-v. |  |
+
+It follows that if λ\lambda is chiral, then j=k−vj=k-v, whence the conditions that wk−v​(λ)=2w\_{k-v}(\lambda)=2, and wi​(λ)=1w\_{i}(\lambda)=1 for k−v<i<kk-v<i<k are forced, and ([13](#S4.E13 "In Proof. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")) holds if and only if the hand nodes of the two 2k−v2^{k-v}-hooks have contents of opposite parity.
+
+Now consider the case where v=kv=k.
+In this case λ\lambda is chiral if and only if C⁡(λ)C(\lambda) is odd.
+If rr is a rim-hook of size 2i2^{i}, then C⁡(r)C(r) is even unless i=1i=1.
+So C⁡(λ)≡C⁡(core4​λ)mod2C(\lambda)\equiv C(\mathrm{core}\_{4}{\lambda})\mod 2.
+If rr is a rim-hook of size 22, then C⁡(r)C(r) is odd.
+Also, C⁡(core2​λ)=0C(\mathrm{core}\_{2}{\lambda})=0.
+It follows that λ\lambda is chiral if and only if w1​(λ)w\_{1}(\lambda) is odd.
+Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") now implies that wi​(λ)=1w\_{i}(\lambda)=1 for all 1≤i<k1\leq i<k, and that the 22-core of λ\lambda is a partition of 2+ϵ2+\epsilon.
+Since no partition of 22 is a 22-core, this case can occur only when ϵ=1\epsilon=1, giving the case ([13.3](#S4.I2.i3 "item 13.3 ‣ Lemma 13. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant")).
+
+This leaves us with the case where v>kv>k.
+Since the denominator of the right hand side of ([7](#S3.E7 "In Theorem 8. ‣ 3. Counting Tableaux ‣ Representations of symmetric groupswith non-trivial determinant")) has valuation kk, gλg\_{\lambda} can never be odd in this case.
+∎
+
+Reading Lemma [12](#Thmtheorem12 "Lemma 12. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant") together with Lemma [13](#Thmtheorem13 "Lemma 13. ‣ 4. Proof of Theorem ‣ Representations of symmetric groupswith non-trivial determinant") now gives Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant").
+
+## 5. The Growth of b⁡(n)b(n) and Sage code
+
+Recall that, if nn is a positive integer with binary expansion ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")),
+then the number of partitions of nn such that fλf\_{\lambda} is odd (which we will call *odd partitions*) is given by
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (14) |  | a⁡(n)=2k1+⋯+kr.a(n)=2^{k\_{1}+\dotsb+k\_{r}}. |  |
+
+This result was proved by Macdonald [[3](#bib.bib3)].
+It has a nice interpretation in terms of Theorem [5](#Thmtheorem5 "Theorem 5 ([, Proposition 6.4]). ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant"):
+If nn has binary expansion ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")) and λ\lambda is a partition of nn such that fλf\_{\lambda} is odd, then the rows k1,…,krk\_{1},\dotsc,k\_{r} of the 22-core tower of λ\lambda have one non-empty entry each, namely the partition (1)(1).
+There are 2ki2^{k\_{i}} choices for the location of the entry in the kik\_{i}th row.
+The remaining rows, with the exception of the 00th row when ϵ=1\epsilon=1, have all entries ∅\emptyset, and ([14](#S5.E14 "In 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant")) is obtained.
+The subgraph of Young’s graph consisting of odd partitions is discussed in [[1](#bib.bib1)].
+
+It turns out that the functions a⁡(n)a(n) and b⁡(n)b(n) track each other closely (see Figure [1](#S5.F1 "Figure 1 ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant")).
+
+![Refer to caption](1604.08837v1/a_vs_b.png)
+
+###### Theorem 14.
+
+For every positive integer nn,
+
+|  |  |  |
+| --- | --- | --- |
+|  | 2/5≤a⁡(n)/b⁡(n+2)≤1.2/5\leq a(n)/b(n+2)\leq 1. |  |
+
+Moreover, a⁡(n)/b⁡(n+2)=1a(n)/b(n+2)=1 if and only if nn is divisible by 44.
+
+###### Proof.
+
+Suppose that n+2n+2 has the form ([1](#S1.E1 "In Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant")), then the formula for b⁡(n)b(n) in Theorem [1](#Thmtheorem1 "Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant") implies that
+
+|  |  |  |
+| --- | --- | --- |
+|  | a⁡(n)b⁡(n+2)=a⁡(2k1+ϵ)b⁡(2k1+ϵ+2).\frac{a(n)}{b(n+2)}=\frac{a(2^{k\_{1}}+\epsilon)}{b(2^{k\_{1}}+\epsilon+2)}. |  |
+
+Therefore it suffices to prove the inequalities for n+2=2k+ϵn+2=2^{k}+\epsilon for k≥1k\geq 1 and ϵ∈{0,1}\epsilon\in\{0,1\}.
+
+We will first prove the lower bound on a⁡(n)/b⁡(n+2)a(n)/b(n+2), which can be rewritten as:
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (15) |  | 2​b​(n+2)≤5​a​(n)2b(n+2)\leq 5a(n) |  |
+
+We will first show that
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (16) |  | 2​b​(2k)≤3​a​(2k−2).2b(2^{k})\leq 3a(2^{k}-2). |  |
+
+The left hand side comes from counting, as vv goes from 00 to k−1k-1, the possible 22-core towers that give rise to partitions λ\lambda of 2k2^{k} with v2​(fλ)=vv\_{2}(f\_{\lambda})=v, and v2​(gλ)=0v\_{2}(g\_{\lambda})=0.
+For 0<v≤k−10<v\leq k-1, this entails the choice of a sequence of entries in rows v+1,…,k−1v+1,\dots,k-1, and the choice of two entries in the vvth row, one in each half.
+Given such a configuration CC, define ϕ⁡(C)\phi(C) to be the configuration obtained by replacing the right entry of the (k−v)(k-v)th row of CC by the entries in rows 1,…,k−v−11,\dotsc,k-v-1 which lie on the geodesic joining this entry to the apex of the tower.
+
+For example, taking k=5k=5 and v=2v=2, Figure [2](#S5.F2 "Figure 2 ‣ Proof. ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant") shows a possible configuration of non-trivial entries (represented by colored circles) in the 22-core tower of a chiral partition λ\lambda of 3232 with v⁡(fλ)=2v(f\_{\lambda})=2.
+
+![Refer to caption](1604.08837v1/c.png)
+
+The configuration ϕ⁡(C)\phi(C) is obtained by replacing the green entry in this figure by the two green entries in Figure [3](#S5.F3 "Figure 3 ‣ Proof. ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant").
+
+![Refer to caption](1604.08837v1/phic.png)
+
+The configuration ϕ⁡(C)\phi(C) comes from exactly two possible configurations CC.
+The possible positions of the right side entry in the (k−v)(k-v)th row of these configurations are indicated in red.
+In general, they are the left child and right child of the entry in the row just above the first row with an entry in the left half of ϕ⁡(C)\phi(C).
+Thus C↦ϕ⁡(C)C\mapsto\phi(C) is a 22-to-11 map from a set which counts ∑v=1k−1bv​(2k)\sum\_{v=1}^{k-1}b\_{v}(2^{k}) to a set which counts a⁡(2k−2)a(2^{k}-2).
+Thus we have
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (17) |  | 2​∑v=1k−1bv​(2k)≤a⁡(2k−2).2\sum\_{v=1}^{k-1}b\_{v}(2^{k})\leq a(2^{k}-2). |  |
+
+Thus we will have proved ([16](#S5.E16 "In Proof. ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant")) if we show that b0​(2k)≤a⁡(2k−2)b\_{0}(2^{k})\leq a(2^{k}-2).
+But this is clear, since
+
+|  |  |  |
+| --- | --- | --- |
+|  | b0​(2k)=2k−1≤2(k2)=a⁡(2k−2)​ for all ​k≥1.b\_{0}(2^{k})=2^{k-1}\leq 2^{\binom{k}{2}}=a(2^{k}-2)\text{ for all }k\geq 1. |  |
+
+Note that b⁡(2k+1)=b⁡(2k)+a⁡(2k−1)b(2^{k}+1)=b(2^{k})+a(2^{k}-1), and that a⁡(2k−2)=a⁡(2k−1)a(2^{k}-2)=a(2^{k}-1).
+So we have
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+|  | 2​b​(2k+1)\displaystyle 2b(2^{k}+1) | =2​b​(2k)+2​a​(2k−1)\displaystyle=2b(2^{k})+2a(2^{k}-1) |  | |
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+|  |  | ≤3​a​(2k−2)+2​a​(2k−1)\displaystyle\leq 3a(2^{k}-2)+2a(2^{k}-1) | [using ([16](#S5.E16 "In Proof. ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant"))] |  |
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+|  |  | =5​a​(2k−2).\displaystyle=5a(2^{k}-2). |  | |
+
+Together with ([16](#S5.E16 "In Proof. ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant")), this establishes ([15](#S5.E15 "In Proof. ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant")) for n=2k+ϵn=2^{k}+\epsilon.
+
+The upper bound on a⁡(n)/b⁡(n+2)a(n)/b(n+2) says that a⁡(n)≤b⁡(n+2)a(n)\leq b(n+2).
+Once again, it may be assumed that n+2=2k+ϵn+2=2^{k}+\epsilon.
+For k<3k<3, the inequality is verified by direct computation.
+For k≥3k\geq 3, we will show that
+
+|  |  |  |
+| --- | --- | --- |
+|  | bk−1​(2k+ϵ)+bk−2​(2k+ϵ)=a⁡(2k+ϵ−2).b\_{k-1}(2^{k}+\epsilon)+b\_{k-2}(2^{k}+\epsilon)=a(2^{k}+\epsilon-2). |  |
+
+By Theorem [2](#Thmtheorem2 "Theorem 2. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant"), (and dividing by the right hand side) this reduces to:
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (18) |  | 2k⁡(k−2)−(k−12)−(k2)+2(k−1)​(k−2)−(k−22)−(k2)=1.2^{k(k-2)-\binom{k-1}{2}-\binom{k}{2}}+2^{(k-1)(k-2)-\binom{k-2}{2}-\binom{k}{2}}=1. |  |
+
+The exponents of the left hand side both simplify to −1-1, and the identity follows.
+∎
+
+Theorem [14](#Thmtheorem14 "Theorem 14. ‣ 5. The Growth of 𝑏(𝑛) and Sage code ‣ Representations of symmetric groupswith non-trivial determinant") says that a⁡(n)a(n) is a good proxy for estimating the growth of b⁡(n)b(n).
+The order of the sequence a⁡(n)a(n) fluctuates widely; when n=2kn=2^{k}, a⁡(n)=2ka(n)=2^{k} and when n=2k−1n=2^{k}-1, a⁡(n)=2k⁡(k−1)/2a(n)=2^{k(k-1)/2}.
+In any case, a⁡(n)a(n) is dwarfed by the growth of the partition function:
+
+|  |  |  |
+| --- | --- | --- |
+|  | p⁡(n)∼14​n​3​exp⁡(π​2​n/3)​ as ​n→∞.p(n)\sim\frac{1}{4n\sqrt{3}}\exp(\pi\sqrt{2n/3})\text{ as }n\to\infty. |  |
+
+For example, Theorem [1](#Thmtheorem1 "Theorem 1. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant") predicts a relatively large value for b⁡(4097)b(4097) (compared to neighboring integers), but even so, the probability of a partition of 40974097 being chiral is
+
+|  |  |  |
+| --- | --- | --- |
+|  | b⁡(4097)/p⁡(4097)≈4.488811279418092×10−30,b(4097)/p(4097)\approx 4.488811279418092\times 10^{-30}, |  |
+
+which is astronomically small.
+But using Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant"), one may easily generate a random chiral partition of 40974097.
+A sample run of our code, which is available at <http://www.imsc.res.in/~amri/chiral.sage>, gives a random chiral partition of 40974097 instantaneously on a conventional office desktop:
+
+Our code based on Theorem [6](#Thmtheorem6 "Theorem 6. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant") also provides functions for generating random chiral partitions with dimension having fixed 22-adic valuation, and for enumerating all chiral partitions of λ\lambda of nn (with dimension having fixed 22-adic valuation if desired).
+
+## 6. Chiral Hooks
+
+Hooks, namely partitions of the form h⁡(a,b)=(a+1,1b)h(a,b)=(a+1,1^{b}) for a,b≥0a,b\geq 0, form an order ideal in Young’s lattice.
+For a partition λ\lambda of nn, let λ−\lambda^{-} denote the set of partitions of n−1n-1 whose Young diagrams are obtained by removing a box from the Young diagram of λ\lambda.
+The statistic fλf\_{\lambda} is given by the recursive rule
+
+|  |  |  |
+| --- | --- | --- |
+|  | fλ=∑μ∈λ−fμ,f\_{\lambda}=\sum\_{\mu\in\lambda^{-}}f\_{\mu}, |  |
+
+with the initial condition f(1)=1f\_{(1)}=1.
+For hooks, this can be rewritten as:
+
+|  |  |  |
+| --- | --- | --- |
+|  | fh⁡(a,b)=fh⁡(a−1,b)+fh⁡(a,b−1),f\_{h(a,b)}=f\_{h(a-1,b)}+f\_{h(a,b-1)}, |  |
+
+with the initial condition fh⁡(0,0)=0f\_{h(0,0)}=0.
+This is nothing but the ancient rule of the Sanskrit prosodist Pingala for generating the *Meru Prastaara* (now known as Pascal’s triangle; see [[6](#bib.bib6)]).
+It is well-known (see Theorem [18](#Thmtheorem18 "Theorem 18. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant")) that the number of odd entries in the nnth row of the Meru Prastaara (i.e., the number of integers 0≤k≤n0\leq k\leq n for which (nk)\binom{n}{k} is odd) is 2ν⁡(n)2^{\nu(n)}.
+
+Chirality depends on the parity of gλg\_{\lambda} which, like fλf\_{\lambda}, satisfies the recursive identity
+
+|  |  |  |
+| --- | --- | --- |
+|  | gλ=∑μ∈λ−gμ,g\_{\lambda}=\sum\_{\mu\in\lambda^{-}}g\_{\mu}, |  |
+
+but only for |λ|>2|\lambda|>2, and with initial conditions g(2)=0g\_{(2)}=0 and g(1,1)=1g\_{(1,1)}=1.
+
+|  |  |  |
+| --- | --- | --- |
+|  | 1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}2\textstyle{2\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}3\textstyle{{\color[rgb]{1,0,0}3}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}3\textstyle{{\color[rgb]{1,0,0}3}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}4\textstyle{4\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}6\textstyle{6\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}4\textstyle{4\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}5\textstyle{{\color[rgb]{1,0,0}5}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}10\textstyle{10\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}10\textstyle{10\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}5\textstyle{{\color[rgb]{1,0,0}5}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}}6\textstyle{6}15\textstyle{{\color[rgb]{1,0,0}15}}20\textstyle{20}15\textstyle{{\color[rgb]{1,0,0}15}}6\textstyle{6}1\textstyle{{\color[rgb]{1,0,0}1}}0\textstyle{0\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}0\textstyle{0\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}0\textstyle{0\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}0\textstyle{0\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}2\textstyle{2\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}0\textstyle{0\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}3\textstyle{{\color[rgb]{1,0,0}3}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}3\textstyle{{\color[rgb]{1,0,0}3}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}0\textstyle{0\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}4\textstyle{4\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}6\textstyle{6\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}4\textstyle{4\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}1\textstyle{{\color[rgb]{1,0,0}1}\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces\ignorespaces}0\textstyle{0}1\textstyle{{\color[rgb]{1,0,0}1}}5\textstyle{{\color[rgb]{1,0,0}5}}10\textstyle{10}10\textstyle{10}5\textstyle{{\color[rgb]{1,0,0}5}}1\textstyle{{\color[rgb]{1,0,0}1}} |  |
+
+When restricted to hooks, this results in a shifted version (see Figure [4](#S6.F4 "Figure 4 ‣ 6. Chiral Hooks ‣ Representations of symmetric groupswith non-trivial determinant")) of the Meru Prastaara.
+We have:
+
+|  |  |  |
+| --- | --- | --- |
+|  | gh⁡(a,b)={fh⁡(a,b−1)if ​b>0,0otherwise.g\_{h(a,b)}=\begin{cases}f\_{h(a,b-1)}&\text{if }b>0,\\ 0&\text{otherwise}.\end{cases} |  |
+
+An immediate consequence is:
+
+###### Theorem 15.
+
+The hook h⁡(a,b)h(a,b) is chiral if and only if b>0b>0 and (a+b−1a)\binom{a+b-1}{a} is odd.
+Thus the number of chiral hooks of size nn is 2ν⁡(n−1)2^{\nu(n-1)}.
+
+## 7. Chirality for Permutation Representations
+
+### 7.1. Characterization of Chiral Permutation Representations
+
+For a positive integer
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (19) |  | n=2k0+⋯+2kr, 0≤k0<⋯<kr,n=2^{k\_{0}}+\dotsb+2^{k\_{r}},\,0\leq k\_{0}<\dotsb<k\_{r}, |  |
+
+define bin⁡(n)={k0,…,kr}\bin(n)=\{k\_{0},\ldots,k\_{r}\}, a set of cardinality ν⁡(n)\nu(n).
+We say that a partition λ=(λ1,…,λl)\lambda=(\lambda\_{1},\dotsc,\lambda\_{l}) of nn is *neat* when bin⁡(n)\bin(n) is the disjoint union of bin⁡(λ1),…,bin⁡(λl)\bin(\lambda\_{1}),\dotsc,\bin(\lambda\_{l}).
+Thus, the number of neat partitions of nn is the Bell number Bν⁡(n)B\_{\nu(n)}.
+Given λ\lambda and a part λi\lambda\_{i} of λ\lambda with bin⁡(λi)⊆bin⁡(n)\bin(\lambda\_{i})\subseteq\bin(n), note that λ\lambda is neat if and only if the partition obtained by removing λi\lambda\_{i} from λ\lambda is neat.
+
+###### Theorem 16.
+
+(Characterization) Let λ\lambda be a partition of nn. Then 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is chiral if and only if one of the following holds:
+
+λ\lambda has exactly two or three odd parts, and the partition obtained by removing these odd parts from λ\lambda is neat.
+
+λ\lambda has exactly one odd part aa, bin⁡(a)⊆bin⁡(n−2)\bin(a)\subseteq\bin(n-2), and the partition obtained by removing aa from λ\lambda is neat.
+
+The proof of Theorem [16](#Thmtheorem16 "Theorem 16. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") begins with the following lemma:
+
+###### Lemma 17.
+
+For a partition λ=(λ1,…,λl)\lambda=(\lambda\_{1},\dotsc,\lambda\_{l}) of nn, the representation 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is chiral if and only if
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑1≤i<j≤l(n−2λ1,…,λi−1,…,λj−1,…,λl)​ is odd.\sum\_{1\leq i<j\leq l}\binom{n-2}{\lambda\_{1},\dotsc,\lambda\_{i}-1,\dotsc,\lambda\_{j}-1,\dotsc,\lambda\_{l}}\text{ is odd.} |  |
+
+###### Proof.
+
+Consider the action of s1∈Sns\_{1}\in S\_{n} on XλX\_{\lambda}.
+Its orbits in XλX\_{\lambda} are of cardinality 11 or 22.
+The representation 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is chiral if and only if the number of orbits of size 22 is odd.
+The orbits of size two are formed by elements of XλX\_{\lambda} where 11 and 22 occur in different parts of the partition.
+Such an orbit is determined by a set-partition of {3,4,…,n}\{3,4,\dotsc,n\} obtained by removing 11 and 22 from the set-partitions in the orbits.
+This gives the formula in the lemma.
+∎
+
+The following result is well-known (see for example, [[2](#bib.bib2), Theorem 1]), and tacitly used throughout this section:
+
+###### Theorem 18.
+
+For a partition λ\lambda of nn, the multinomial coefficient
+
+|  |  |  |
+| --- | --- | --- |
+|  | (nλ1,…,λl)\binom{n}{\lambda\_{1},\dotsc,\lambda\_{l}} |  |
+
+is odd if and only if λ\lambda is neat.
+
+Remark: This implies that the number of partitions λ\lambda of nn so that the dimension of 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is odd is equal to Bν⁡(n)B\_{\nu(n)}.
+
+###### Lemma 19.
+
+If the partition λ=(λ1,…,λl)\lambda=(\lambda\_{1},\dotsc,\lambda\_{l}) has either no odd parts or at least four odd parts, then 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is not chiral.
+Consequently, if nn is even and 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is chiral, then λ\lambda has exactly two odd parts.
+If nn is odd and 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is chiral, then λ\lambda has exactly one or three odd parts.
+
+###### Proof.
+
+By Theorem [18](#Thmtheorem18 "Theorem 18. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant"), each of the summands in Lemma [17](#Thmtheorem17 "Lemma 17. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") will be even if either of the hypotheses is true, because at least two of the integers in the partitions obtained by reducing two parts of λ\lambda by 11 will be odd.
+∎
+
+Here is an ingredient for the case that λ\lambda has exactly three odd parts; its proof is immediate from Theorem [18](#Thmtheorem18 "Theorem 18. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant").
+
+###### Lemma 20.
+
+Let n1+⋯+nm=nn\_{1}+\cdots+n\_{m}=n. If n1n\_{1} is odd and n2,…,nmn\_{2},\ldots,n\_{m} are all even, then
+
+|  |  |  |
+| --- | --- | --- |
+|  | (nn1,…,nm)≡(n−1n1−1,n2,…,nm)mod2.\binom{n}{n\_{1},\dotsc,n\_{m}}\equiv\binom{n-1}{n\_{1}-1,n\_{2},\dotsc,n\_{m}}\mod 2. |  |
+
+###### Lemma 21.
+
+Suppose λ\lambda has exactly one odd part aa. Then 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] is chiral if and only if both of the following hold:
+
+bin⁡(a)⊆bin⁡(n−2)\bin(a)\subseteq\bin(n-2).
+
+The partition obtained by removing aa from λ\lambda is neat.
+
+###### Proof.
+
+Write (λ1,…,λm)(\lambda\_{1},\ldots,\lambda\_{m}) for the partition obtained by removing aa from λ\lambda.
+Elementary properties of multinomial coefficients give
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑i=1m(n−2a−1,λ1,…,λi−1,…,λm)=(n−2a−1)​∑i=1m(n−a−1λ1,…,λi−1,…,λm)=(n−2a−1)​(n−aλ1,…,λm).\begin{split}\sum\_{i=1}^{m}\binom{n-2}{a-1,\lambda\_{1},\ldots,\lambda\_{i}-1,\ldots,\lambda\_{m}}&=\binom{n-2}{a-1}\sum\_{i=1}^{m}\binom{n-a-1}{\lambda\_{1},\ldots,\lambda\_{i}-1,\ldots,\lambda\_{m}}\\ &=\binom{n-2}{a-1}\binom{n-a}{\lambda\_{1},\ldots,\lambda\_{m}}.\end{split} |  |
+
+The result follows, since the other terms from Lemma [17](#Thmtheorem17 "Lemma 17. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") are necessarily even.
+∎
+
+We have all we need to prove the characterization:
+
+###### Proof of Theorem [16](#Thmtheorem16 "Theorem 16. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant").
+
+Lemma [19](#Thmtheorem19 "Lemma 19. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") breaks the problem into the cases of 1,21,2, or 33 odd parts. The case of one odd part is Lemma [21](#Thmtheorem21 "Lemma 21. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant"). The case of two odd parts is straightforward using Lemma [17](#Thmtheorem17 "Lemma 17. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant"). For the case of three odd parts, use Lemma [20](#Thmtheorem20 "Lemma 20. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant").
+∎
+
+### 7.2. Counting of Chiral Permutation Representations
+
+###### Lemma 22.
+
+Let n≥2n\geq 2 be even. The number of partitions λ\lambda of nn with exactly two odd parts and with 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] chiral, is equal to
+
+|  |  |  |
+| --- | --- | --- |
+|  | (Bν⁡(n−2)+2−Bν⁡(n−2)+1+Bν⁡(n−2))/2.(B\_{\nu(n-2)+2}-B\_{\nu(n-2)+1}+B\_{\nu(n-2)})/2. |  |
+
+###### Proof.
+
+We must count the number of partitions λ\lambda of nn which have exactly two odd parts, and so that the partition obtained by removing these odd parts from λ\lambda is neat. Equivalently, the partition of n−2n-2 obtained by subtracting 11 from these odd parts is neat.
+Thus we need to count the number of set-partitions of bin⁡(n−2)\bin(n-2) with two marked parts, these two parts being allowed to be empty (adding 11 to these parts will give the desired partition of nn). To do this, add two new elements, say aa and bb, to the set bin⁡(n−2)\bin(n-2).
+This set has Bν⁡(n−2)+2B\_{\nu(n-2)+2} set-partitions, but Bν⁡(n−1)+1B\_{\nu(n-1)+1} of these have aa and bb in the same part, and should be excluded from counting.
+Except when aa and bb both lie in singleton parts (and there are Bν⁡(n−2)B\_{\nu(n-2)} such partitions), each of these set partitions of bin⁡(n−2)⊔{a,b}\bin(n-2)\sqcup\{a,b\} give rise to two set-partitions of bin⁡(n−2)\bin(n-2) with two marked parts.
+So the number of set-partitions of bin⁡(n−2)\bin(n-2) with two marked parts, where the marked parts are not both empty, is given by
+
+|  |  |  |
+| --- | --- | --- |
+|  | (Bν⁡(n−2)+2−Bν⁡(n−2)+1−Bν⁡(n−2))/2.(B\_{\nu(n-2)+2}-B\_{\nu(n-2)+1}-B\_{\nu(n-2)})/2. |  |
+
+There remain the set partitions of bin⁡(n−2)\bin(n-2) with two marked parts where both marked parts are empty.
+By simply ignoring the marked parts, these are in bijective correspondence with the Bν⁡(n−2)B\_{\nu(n-2)} set-partitions of bin⁡(n−2)\bin(n-2).
+The lemma follows.
+∎
+
+###### Lemma 23.
+
+Let n≥3n\geq 3 be odd. The number of partitions λ\lambda of nn with exactly three odd parts and with 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] chiral, is equal to
+
+|  |  |  |
+| --- | --- | --- |
+|  | 16​(Bν⁡(n−3)+3−3​Bν⁡(n−3)+2+5​Bν⁡(n−3)+1+2​Bν⁡(n−3)).\frac{1}{6}(B\_{\nu(n-3)+3}-3B\_{\nu(n-3)+2}+5B\_{\nu(n-3)+1}+2B\_{\nu(n-3)}). |  |
+
+###### Proof.
+
+This is similar to the previous calculation. Such partitions of nn correspond to neat partitions of n−3n-3 with three distinguished parts. Once again, adding three elements to bin⁡(n−3)\bin(n-3) and making the necessary corrections gives the result.
+∎
+
+The part of c⁡(n)c(n) corresponding to partitions with exactly one odd part is surprisingly difficult to compute, although the answer is simple.
+
+###### Theorem 24.
+
+Let n≥1n\geq 1 be odd. The number of partitions λ\lambda of nn with exactly one odd part and with 𝐂⁡[Xλ]\mathbf{C}[X\_{\lambda}] chiral, is equal to
+
+|  |  |  |
+| --- | --- | --- |
+|  | Bν⁡(n)+k−2+Bν⁡(n)−2​Bν⁡(n)−1,B\_{\nu(n)+k-2}+B\_{\nu(n)}-2B\_{\nu(n)-1}, |  |
+
+###### Proof.
+
+The number of partitions satisfying the conditions of Lemma [21](#Thmtheorem21 "Lemma 21. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") is
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| (20) |  | ∑r=0ν⁡(n)−2∑s=1k−1∑t=0k−s−1(ν⁡(n)−2r)​(k−s−1t)​Bν⁡(n)+k−r−s−t−2+∑r=0ν⁡(n)−2(ν⁡(n)−2r)Bν⁡(n)−1−r.\sum\_{r=0}^{\nu(n)-2}\sum\_{s=1}^{k-1}\sum\_{t=0}^{k-s-1}\binom{\nu(n)-2}{r}\binom{k-s-1}{t}B\_{\nu(n)+k-r-s-t-2}\\ +\sum\_{r=0}^{\nu(n)-2}\binom{\nu(n)-2}{r}B\_{\nu(n)-1-r}. |  |
+
+where k=v2​(n−1)k=v\_{2}(n-1), and ν⁡(n)\nu(n) is the number of 11’s in the binary expansion of nn.
+
+The reason is as follows: if v2​(n−1)=kv\_{2}(n-1)=k, then the binary expansions of nn and n−2n-2 are of the form:
+
+|  |  |  |
+| --- | --- | --- |
+|  | n=∗∗…∗10…01↑k↓n−2=∗∗…∗01…11\begin{matrix}n=&\*&\*&\dotsc&\*&1&0&\dotsc&0&1\\ &&&&&\uparrow&&&&\\ &&&&&k&&&&\\ &&&&&\downarrow&&&&\\ n-2=&\*&\*&\dotsc&\*&0&1&\dotsc&1&1\\ \end{matrix} |  |
+
+The odd part aa is obtained by choosing bin⁡(a)⊆bin⁡(n−2)\bin(a)\subseteq\bin(n-2).
+Suppose that bin⁡(a)\bin(a) has an element 1<i≤k−11<i\leq k-1.
+Let ss be the least such ii.
+Suppose |bin⁡(a)∩{k+1,k+2,…}|=r|\bin(a)\cap\{k+1,k+2,\dots\}|=r and |bin⁡(a)∩{s+1,…,k−1}|=t|\bin(a)\cap\{s+1,\dots,k-1\}|=t.
+The number of ways of choosing these subsets is (ν⁡(n)−2r)×(k−s−1r)\binom{\nu(n)-2}{r}\times\binom{k-s-1}{r}.
+Once these are chosen, |bin⁡(n−a)∩{k+1,k+2,…}|=ν⁡(n)−2−r|\bin(n-a)\cap\{k+1,k+2,\dotsc\}|=\nu(n)-2-r.
+Also, |bin⁡(n−a)∩{s+1,…,k−1}|=k−s−1−t|\bin(n-a)\cap\{s+1,\dots,k-1\}|=k-s-1-t.
+So
+
+|  |  |  |
+| --- | --- | --- |
+|  | |bin⁡(n−a)|=[ν⁡(n)−2−r]+[k−s−1−t]+1,|\bin(n-a)|=[\nu(n)-2-r]+[k-s-1-t]+1, |  |
+
+giving rise to the first term.
+
+The second term corresponds to those values of aa for which bin⁡(a)∩{2,…,k−1}=∅\bin(a)\cap\{2,\dots,k-1\}=\emptyset.
+Let r=|bin⁡(a)∩{k+1,k+2,…}|r=|\bin(a)\cap\{k+1,k+2,\dotsc\}|.
+The number of choices for bin⁡(a)\bin(a) is then (ν⁡(n)−2r)\binom{\nu(n)-2}{r}. This concludes our explanation for the expression ([20](#S7.E20 "In Proof. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant")).
+
+For a sequence fnf\_{n}, recall from finite difference calculus the jjth differential of fnf\_{n}, a sequence defined by:
+
+|  |  |  |
+| --- | --- | --- |
+|  | (Δj​f)n=∑i=0j(−1)i​(ji)​fn+j−i.(\Delta^{j}f)\_{n}=\sum\_{i=0}^{j}(-1)^{i}\,\binom{j}{i}f\_{n+j-i}. |  |
+
+One recovers ff from its differentials via “Taylor’s Formula”
+
+|  |  |  |
+| --- | --- | --- |
+|  | fm+n=∑i=0n(ni)​(Δi​f)m.f\_{m+n}=\sum\_{i=0}^{n}\binom{n}{i}(\Delta^{i}f)\_{m}. |  |
+
+###### Lemma 25.
+
+For j≥0j\geq 0, we have
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑i=0n(ni)​Bn+j−i=(Δj​B)n+1.\sum\_{i=0}^{n}\binom{n}{i}B\_{n+j-i}=(\Delta^{j}B)\_{n+1}. |  |
+
+###### Proof.
+
+Start with the explicit expression for the right hand side,
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑i=0j(−1)i​(ji)​Bn+1+j−i.\sum\_{i=0}^{j}(-1)^{i}\binom{j}{i}B\_{n+1+j-i}. |  |
+
+Using the fundamental recursion for the Bell numbers
+in the above formula, we get
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑i=0j(−1)i​(ji)​∑k=0n+j−i(n+j−ik)​Bn+j−i−k.\sum\_{i=0}^{j}(-1)^{i}\binom{j}{i}\sum\_{k=0}^{n+j-i}\binom{n+j-i}{k}B\_{n+j-i-k}. |  |
+
+We now replace the kk sum by ℓ=k+i\ell=k+i and interchange the ℓ\ell and ii sum to get
+
+|  |  |  |
+| --- | --- | --- |
+|  | (∑ℓ=0j∑i=0ℓ+∑ℓ=j+1j+n∑i=0j)(−1)i(ji)(n+j−iℓ−i)Bn+j−ℓ.\left(\sum\_{\ell=0}^{j}\sum\_{i=0}^{\ell}+\sum\_{\ell=j+1}^{j+n}\sum\_{i=0}^{j}\right)(-1)^{i}\binom{j}{i}\binom{n+j-i}{\ell-i}B\_{n+j-\ell}. |  |
+
+An application of the well-known Chu-Vandermonde identity,
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑i=0min⁡(j,ℓ)(−1)i​(ji)​(n+j−iℓ−i)=(nℓ),\sum\_{i=0}^{\min(j,\ell)}(-1)^{i}\binom{j}{i}\binom{n+j-i}{\ell-i}=\binom{n}{\ell}, |  |
+
+collapses the two sums above and gives the desired result.
+∎
+
+###### Lemma 26.
+
+We have
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑r=0ν⁡(n)−2∑s=1k−1∑t=0k−s−1(ν⁡(n)−2r)​(k−s−1t)​Bν⁡(n)+k−r−s−t−2=Bν⁡(n)+k−2−Bν⁡(n)−1.\sum\_{r=0}^{\nu(n)-2}\sum\_{s=1}^{k-1}\sum\_{t=0}^{k-s-1}\binom{\nu(n)-2}{r}\binom{k-s-1}{t}B\_{\nu(n)+k-r-s-t-2}\\ =B\_{\nu(n)+k-2}-B\_{\nu(n)-1}. |  |
+
+###### Proof.
+
+Take the rr-sum inside and apply Lemma [25](#Thmtheorem25 "Lemma 25. ‣ Proof. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") to obtain
+
+|  |  |  |
+| --- | --- | --- |
+|  | ∑s=1k−1∑t=0k−s−1(k−s−1t)​(Δk−s−t​B)ν⁡(n)−1=∑s=0k−2∑t=0s(st)​(Δt+1​B)ν⁡(n)−1=∑t=0k−2(Δt+1​B)ν⁡(n)−1​∑s=tk−2(st)=∑t=0k−2(k−1t+1)​(Δt+1​B)ν⁡(n)−1=∑t=1k−1(k−1t)​(Δt​B)ν⁡(n)−1=Bν⁡(n)+k−2−Bν⁡(n)−1.\begin{split}\sum\_{s=1}^{k-1}\sum\_{t=0}^{k-s-1}\binom{k-s-1}{t}(\Delta^{k-s-t}B)\_{\nu(n)-1}&=\sum\_{s=0}^{k-2}\sum\_{t=0}^{s}\binom{s}{t}(\Delta^{t+1}B)\_{\nu(n)-1}\\ &=\sum\_{t=0}^{k-2}(\Delta^{t+1}B)\_{\nu(n)-1}\sum\_{s=t}^{k-2}\binom{s}{t}\\ &=\sum\_{t=0}^{k-2}\binom{k-1}{t+1}(\Delta^{t+1}B)\_{\nu(n)-1}\\ &=\sum\_{t=1}^{k-1}\binom{k-1}{t}(\Delta^{t}B)\_{\nu(n)-1}\\ &=B\_{\nu(n)+k-2}-B\_{\nu(n)-1}.\end{split} |  |
+
+as claimed. (We have used Lemma [25](#Thmtheorem25 "Lemma 25. ‣ Proof. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") again in the last equation.)
+∎
+
+The second sum in ([20](#S7.E20 "In Proof. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant")) gives, again using Lemma [25](#Thmtheorem25 "Lemma 25. ‣ Proof. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant"), Bν⁡(n)−Bν⁡(n)−1B\_{\nu(n)}-B\_{\nu(n)-1} (the boundary term). Finally for ([20](#S7.E20 "In Proof. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant")), we obtain
+
+|  |  |  |
+| --- | --- | --- |
+|  | Bν⁡(n)+k−2+Bν⁡(n)−2​Bν⁡(n)−1,B\_{\nu(n)+k-2}+B\_{\nu(n)}-2B\_{\nu(n)-1}, |  |
+
+completing the proof of Theorem [24](#Thmtheorem24 "Theorem 24. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant").
+∎
+
+Theorem [4](#Thmtheorem4 "Theorem 4. ‣ 1. Introduction ‣ Representations of symmetric groupswith non-trivial determinant") now follows from Theorem [16](#Thmtheorem16 "Theorem 16. ‣ 7.1. Characterization of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant") and Lemmas [22](#Thmtheorem22 "Lemma 22. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant"), [23](#Thmtheorem23 "Lemma 23. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant"), and [24](#Thmtheorem24 "Theorem 24. ‣ 7.2. Counting of Chiral Permutation Representations ‣ 7. Chirality for Permutation Representations ‣ Representations of symmetric groupswith non-trivial determinant").
+
+### Acknowledgements
+
+We thank Dipendra Prasad for encouraging us to work on this problem.
+We thank A. Raghuram for suggesting a preliminary version of Corollary [7](#Thmtheorem7 "Corollary 7. ‣ 2. 2-core Tower of a Partition ‣ Representations of symmetric groupswith non-trivial determinant").
+This research was driven by computer exploration using the open-source
+mathematical software Sage [[10](#bib.bib10)] and its algebraic
+combinatorics features developed by the Sage-Combinat
+community [[9](#bib.bib9)]. AA was partially supported by UGC centre for Advanced Study grant. AP was partially supported by a Swarnajayanti Fellowship of the Department of Science & Technology (India).
+
+## References
+
+![[LOGO]][IMAGE]
+
+## Instructions for reporting errors
+
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+methods listed below:
+
+**Tip:** You can select the relevant text first, to include it in your report.
+
+Our team has already identified [the following issues](https://github.com/arXiv/html_feedback/issues). We appreciate your time reviewing and reporting rendering errors we
+may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+all.
+
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a [list of packages that need conversion](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML), and welcome [developer contributions](https://github.com/brucemiller/LaTeXML/issues).
+
+![Simons Foundation](/static/base/1.0.1/images/funders/simons-foundation.png)
+![Simons Foundation International](/static/base/1.0.1/images/funders/simons-foundation-international.png)
+![Schmidt Sciences](/static/base/1.0.1/images/funders/schmidt-sciences.png)

@@ -1,0 +1,698 @@
+arXiv:hep-th/0103135v1  16 Mar 2001
+#HUTP-01/A013
+BUHEP-01-4
+LBNL-47614
+UCB-PTH-01-09
+Anomalies on Orbifolds
+Nima Arkani-Hamed,∗Andrew G. Cohen† and Howard Georgi,‡
+Lyman Laboratory of Physics
+Harvard University
+Cambridge, MA 02138
+Abstract
+We discuss the form of the chiral anomaly on an S1/Z2 orbifold with chiral boundary
+conditions. We ﬁnd that the 4-divergence of the higher-dimensional current evaluated
+at a given point in the extra dimension is proportional to the probability of ﬁnding
+the chiral zero mode there. Nevertheless the anomaly, appropriately deﬁned as the
+ﬁve dimensional divergence of the current, lives entirely on the orbifold ﬁxed planes
+and is independent of the shape of the zero mode.
+Therefore long distance four
+dimensional anomaly cancellation ensures the consistency of the higher dimensional
+orbifold theory.
+∗arkani@bose.harvard.edu
+Permanent address: Department of Physics, University of California, Berkeley, CA 94720
+†cohen@andy.bu.edu
+Permanent address: Physics Department, Boston University, Boston, MA 02215
+‡georgi@physics.harvard.edu
+
+1
+Introduction
+Theories involving spatial dimensions beyond the four of ordinary experience have long been of
+interest to physicists.
+Especially interesting are higher dimensional theories on orbifolds [1, 2],
+spaces obtained from compact extra dimensions by dividing by a discrete symmetry. Such a compact
+theory may be viewed at low energies as an eﬀective 4-dimensional theory involving a spectrum of
+Kaluza-Klein particles. For an orbifold compactiﬁcation, the resulting theory may be chiral and
+the corresponding gauge theory anomalous [3]. To ensure consistency of the orbifold gauge theory,
+the anomalies must cancel.
+It is therefore interesting to ask what the conditions for anomaly
+cancellation look like from the eﬀective theory point of view. In particular, does cancellation of the
+4-dimensional anomaly in the eﬀective theory imply conservation of the corresponding 5-dimensional
+current? This is reasonable in the anomaly’s avatar as an infrared phenomenon. If not, additional
+restrictions on the low energy theory beyond conventional anomaly cancellation might be required.
+How could a 5-dimensional anomaly, a failure of 5-dimensional current conservation, remain after
+4-dimensional anomaly cancellation? If the orbifold theory has an anomaly throughout the bulk,
+satisfying anomaly cancellation conditions in the eﬀective 4-dimensional theory would in general
+not suﬃce to ensure bulk anomaly cancellation. Even if the 5-dimensional anomaly is localized at
+the orbifold ﬁxed points, if this anomaly depends on details of the bulk physics, such as the wave
+functions of the Kaluza-Klein modes, 4-dimensional anomaly cancellation would again be insuﬃcient
+to ensure bulk anomaly cancellation.
+We will demonstrate that while orbifold compactiﬁcation can introduce anomalous charge non-
+conservation, it is localized at the orbifold ﬁxed points. To see this, we must compute the full
+5-dimensional divergence of the 5-dimensional current. The 4-dimensional divergence gives a con-
+tribution to the anomaly that is non-zero in the bulk and depends on the shape of the zero modes.
+However, the 5-divergence has an additional piece that is the extra dimensional derivative of the
+extra component of the current, and this piece precisely cancels the anomaly in the bulk. The com-
+plete anomaly is independent of the details of the bulk physics. For example, for a 5-dimensional
+fermion coupled to an external gauge potential AC(x, x4) on an S1/Z2 orbifold with ﬁxed points at
+x4 = 0 and x4 = L we will ﬁnd1
+∂CJC(x, x4) = 1
+2
+h
+δ(x4) + δ(x4 −L)
+i
+Q .
+(1.1)
+where JC is the 5-dimensional current and Q is just the usual 4-dimensional chiral anomaly for a
+charged Dirac fermion in an external gauge potential Aµ(x, x4):
+Q =
+1
+16π2Fµν ˜F µν
+(1.2)
+This expression has no dependence on the details of the Kaluza-Klein mode decomposition. This
+implies that cancellation of the 4-dimensional anomaly is suﬃcient to eliminate the 5-dimensional
+anomaly.
+1We use a capital Roman letter like C to refer generically to all dimensions, C = 0, 1, 2, 3 or 4, and a Greek letter
+like µ to refer speciﬁcally to the usual four dimensions.
+2
+
+2
+The 4-dimensional anomaly
+We begin with a brief review of a free Dirac fermion of mass m in four dimensions coupled to an
+external gauge potential Aµ(x). The classical equations of motion for the fermion lead to the na¨ıve
+equation for the divergence of the axial current jµ
+5 = ψγµγ5ψ:
+∂µjµ
+5 + 2im ψγ5ψ = 0 .
+(2.1)
+However the corresponding operator equation in the quantum theory receives a famous correc-
+tion, the anomaly:
+∂µjµ
+5 + 2im ψγ5ψ = Q .
+(2.2)
+with Q given by (1.2).
+It is worthwhile to consider the expectation value of this equation in the presence of the external
+gauge potential. Note that a non-zero expectation value for the divergence of the current would
+require a pole at p2 = 0 in the expectation value of the current itself. For a massive fermion there
+is no state to produce such a pole, and consequently the expectation value of the divergence of the
+axial current must vanish. The operator equation (2.2) then implies
+2im ⟨ψγ5ψ⟩= Q .
+(2.3)
+Since this theory involves only an external gauge ﬁeld we are free to contemplate the above
+equations for the case of a single Weyl fermion rather than a Dirac fermion. In this case the fermion
+is massless, and the mass term in (2.2) vanishes. Also the anomaly of the 2-component Weyl fermion
+is half that of a 4-component Dirac fermion:
+(Weyl fermion)
+∂µjµ = 1
+2Q .
+(2.4)
+For the Weyl fermion the expectation value of the divergence of the current does not vanish—the
+massless chiral fermion is exactly the state needed to produce the pole in the expectation value of
+the axial current:
+(Weyl fermion)
+⟨∂µjµ⟩= 1
+2Q .
+(2.5)
+In our subsequent discussion we will encounter a theory with many fermions with various masses
+Mi and chiral charges qi, interacting with gauge potentials with complicated non-diagonal chiral
+couplings to the fermions Aµ
+ij. The generalization of (2.2) is straightforward:
+∂µJµ
+5 + 2i ψMγ5ψ = 1
+2Q ,
+(2.6)
+where Q is the trace of the chiral charge with the external gauge ﬁelds:
+Q =
+1
+16π2 tr q F · ˜F .
+(2.7)
+A non-zero expectation value of the divergence of the current still requires a pole in the current
+itself. The arguments of Coleman-Grossman [4] show that only massless modes can produce such a
+pole, and consequently
+⟨∂µJµ
+5 ⟩=
+1
+32π2 tr
+
+P0 q P0 F P0 · ˜F
+
+.
+(2.8)
+3
+
+where P0 is the projector onto the massless sector of the theory.
+We will see that the essential diﬀerence in the emergence of the anomaly for massless and massive
+fermions is reﬂected in the structure of the 5-dimensional anomaly. Only zero modes associated
+with massless fermions in the eﬀective 4-dimensional theory produce anomalies in the 4-dimensional
+divergence. However, massive modes can still aﬀect the anomaly through terms like (2.3).
+3
+Chiral fermions in ﬁve dimensions
+Our starting point is a chiral orbifold model with a 4-component fermion ﬁeld in ﬁve dimensions
+coupled to a classical gauge ﬁeld. In order to avoid unnecessary clutter in our equations, we will
+consider only the abelian example — the extension to the non-abelian case is straightforward. The
+extra dimension, x4, is in the interval [0, L] and the mass depends on x4. The action is
+S =
+Z
+dx
+Z L
+0 dx4 ψ
+
+i̸D −iγ4D4 −m(x4)
+
+ψ ,
+(3.1)
+where̸
+D = γµDµ,
+DC = ∂C + i AC
+(3.2)
+with AC a classical gauge potential. This theory has a na¨ıvely conserved current
+JC(x, x4) = ψ(x, x4) γC ψ(x, x4) .
+(3.3)
+The Dirac matrix γ4 is related to what is conventionally called γ5 by a factor of i,
+γ4 = −iγ5 .
+(3.4)
+The key to the model is the orbifold construction that restricts the physical region in the extra
+dimension to the interval [0, L]. To implement this we extend the ﬁelds to functions on the doubled
+interval x4 ∈[0, 2L), and then impose
+ψ(x, x4) = ψ(x, 2L + x4) = γ5 ψ(x, −x4) ,
+(3.5)
+Aµ(x, x4) = Aµ(x, 2L + x4) = Aµ(x, −x4) ,
+(3.6)
+A4(x, x4) = A4(x, 2L + x4) = −A4(x, −x4) ,
+(3.7)
+In order for the action to be well deﬁned the mass function must satisfy
+m(x4) = m(2L + x4) = −m(−x4) .
+(3.8)
+It is through the boundary condition (3.5) that chirality enters into the theory. Speciﬁcally, (3.5-
+3.7) imply that the boundaries of the physical region, x4 = 0, L, are ﬁxed-points of the orbifold. If
+we decompose ψ into chiral components, ψ±, where
+ψ = ψ+ + ψ−,
+γ5ψ± = ±ψ± ,
+(3.9)
+4
+
+then (3.5-3.7) are equivalent to deﬁning all the ﬁelds on a circle, x4 ∈[0, 2L) with 2L identiﬁed with
+0, but with ψ+, and Aµ symmetric about the ﬁxed points x4 = 0, L, and ψ−and A4 antisymmetric.
+The classical Lagrangian (3.1) and the orbifold boundary conditions (3.5-3.7) are invariant under
+gauge transformations of the form
+ψ(x, x4)
+→
+eiφ(x,x4) ψ(x, x4) ,
+(3.10)
+Aµ(x, x4)
+→
+Aµ(x, x4) −∂µ φ(x, x4) ,
+(3.11)
+A4(x, x4)
+→
+A4(x, x4) −∂4 φ(x, x4) .
+(3.12)
+provided φ satisﬁes
+φ(x, x4) = φ(x, 2L + x4) = φ(x, −x4) .
+(3.13)
+The orbifold boundary conditions (3.5-3.7) give rise to a massless chiral fermion, and we expect
+that this gauge symmetry is then broken by the chiral anomaly. We seek the precise form of the
+anomaly. In particular, we are interested in the “shape” of the anomaly in the extra dimension.
+Because we have kept the mass function m(x4) arbitrary except for the boundary conditions, we
+can get very diﬀerent shapes for the wave function of the chiral zero mode in the extra dimension.
+If the anomaly depends on the shape of the zero mode, and therefore on the mass function, this
+would make it diﬃcult to cancel the anomaly in the 5-dimensional theory. We will see explicitly
+that this does not happen.
+4
+Calculation of the Anomaly
+We begin by choosing a gauge2 in which A4 = 0. In this gauge the KK mode wave functions are
+independent of the gauge ﬁelds. To decompose the fermion ﬁeld into KK modes, we deﬁne the
+functions ξ±
+M(x4) satisfying
+h
+−∂4 + m(x4)
+i
+ξ−
+M(x4) = Mξ+
+M(x4) ,
+h
+∂4 + m(x4)
+i
+ξ+
+M(x4) = Mξ−
+M(x4)
+(4.1)
+with M ≥0 for ξ+
+M and M > 0 for ξ−
+M. The ξ±
+M(x4) can be chosen real and respectively symmetric
+and antisymmetric about the ﬁxed points x4 = 0 and x4 = L. The Ms are the masses of the KK
+modes and the ξ±
+M(x4) are their wave functions. They form an orthogonal basis for the functions on
+the circle [0, 2L) respectively symmetric and antisymmetric about the ﬁxed points. Alternatively
+they form an orthogonal basis for the functions on [0, L] satisfying respectively Neumann and
+Dirichlet boundary conditions at the ﬁxed points. We normalize them such that
+Z L
+0 dx4 ξ+
+M(x4) ξ+
+M′(x4) =
+Z L
+0 dx4 ξ−
+M(x4) ξ−
+M′(x4) = δMM′ .
+(4.2)
+The orbifold boundary conditions ensure that no zero mode appears in the ξ−
+M. It is nevertheless
+convenient to introduce ξ−
+0
+≡0 which will allow us to treat the plus and minus modes more
+2The gauge transformations (3.10-3.12) and the boundary conditions (3.5-3.7) guarantee that such a gauge exists.
+5
+
+symmetrically. This mode clearly does not satisfy (4.2), but we will never encounter a formula
+which involves the norm of this function. Now we expand the fermion ﬁelds in the ξMs
+ψ±(x, x4) =
+X
+M
+ψM±(x) ξ±
+M(x4) ,
+(4.3)
+where
+ψM±(x) =
+Z L
+0 dx4 ξ±
+M(x4) ψ±(x, x4) .
+(4.4)
+Inserting (4.3) into the action, (3.1), gives
+S =
+Z
+dx
+Z L
+0 dx4
+ X
+M
+"
+ψM+(x) ξ+
+M(x4) + ψM−(x) ξ−
+M(x4)
+#
+(4.5)
+
+i̸ ∂−̸ A −γ5∂4 −m(x4)
+
+X
+M′
+"
+ψM′+(x) ξ+
+M′(x4) + ψM′−(x) ξ−
+M′(x4)
+#!
+=
+Z
+dx
+ X
+M
+ψM(x)
+
+i̸ ∂−M
+
+ψM(x)
+(4.6)
+−
+X
+M,M′
+ψM′+(x)̸ A+
+M′M(x) ψM+(x) −
+X
+M,M′
+ψM′−(x)̸ A−
+M′M(x) ψM−(x)
+!
+where
+ψM(x) = ψM+(x) + ψM−(x)
+(4.7)
+is a 4-component 4-dimensional Dirac ﬁeld for each M > 0 and equal to ψ+
+0 for M = 0, and
+Aµ±
+M′M(x) =
+Z L
+0
+dx4 ξ±
+M′(x4) ξ±
+M(x4) Aµ(x, x4) .
+(4.8)
+Using this mode decomposition the components of the current JC become
+Jµ(x, x4) =
+X
+M′,M
+ 
+ξ+
+M′(x4) ξ+
+M(x4) ψM′+(x) γµ ψM+(x)
++ξ−
+M′(x4) ξ−
+M(x4) ψM′−(x) γµ ψM−(x)
+!
+,
+(4.9)
+J4(x, x4) =
+X
+M′,M
+ 
+ξ+
+M′(x4) ξ−
+M(x4) ψM′+(x) iγ5 ψM−(x)
++ξ−
+M′(x4) ξ+
+M(x4) ψM′−(x) iγ5 ψM+(x)
+!
+,
+(4.10)
+We can write all this in a useful matrix notation by collecting the ψM(x) into a column vector
+Ψ(x), the gauge potentials into matrices Aµ± with matrix elements Aµ±
+M′M and introducing the mass
+matrix M with matrix elements MδM′M. Then
+S =
+Z
+dx Ψ(x)
+
+i̸ ∂−̸A −M
+
+Ψ(x)
+(4.11)
+6
+
+where̸
+A ≠A+ P+ +̸A−P−
+(4.12)
+and as usual
+P± = 1 ± γ5
+2
+.
+(4.13)
+Evidently, this is a theory of a single massless Weyl fermion and an inﬁnite tower of Dirac fermions,
+interacting with classical gauge ﬁeld Aµ with a complicated matrix coupling in the ﬂavor space of
+the 4-dimensional fermion ﬁelds. Note that these couplings are chiral.
+A similar matrix notation simpliﬁes the current. Deﬁne
+Ξ(x4) = Ξ+(x4) P+ + Ξ−(x4) P−,
+(4.14)
+with Ξ±(x4) the matrices with matrix elements
+h
+Ξ±(x4)
+i
+M′M = ξ±
+M′(x4)ξ±
+M(x4) ,
+(4.15)
+and
+Ω(x4) = Ω+(x4) P+ + Ω−(x4) P−,
+(4.16)
+with Ω±(x4) the matrices with matrix elements
+h
+Ω±(x4)
+i
+M′M = ξ∓
+M′(x4) ξ±
+M(x4) .
+(4.17)
+In this notation the 5-dimensional current (3.3) is
+Jµ(x, x4) = Ψ(x) γµ Ξ(x4) Ψ(x) ,
+J4(x, x4) = Ψ(x) iγ5 Ω(x4) Ψ(x) .
+(4.18)
+Clasically, this current is conserved. This is obvious from the starting point, but we can see
+it directly in this notation by separately computing the derivative of J4 and the 4-dimensional
+divergence of Jµ. The derivative of J4 is
+∂4 J4(x, x4) = Ψ(x) iγ5 ∂4Ω(x4) Ψ(x)
+(4.19)
+and using the equations for the KK wave functions gives
+∂4Ω+(x4)
+=
+−M Ξ+(x4) + Ξ−(x4) M ,
+(4.20)
+∂4Ω−(x4)
+=
+M Ξ−(x4) −Ξ+(x4) M .
+(4.21)
+The 4-dimensional divergence is
+∂µ Jµ(x, x4) =
+
+∂µ Ψ(x)
+
+γµ Ξ(x4) Ψ(x) + Ψ(x) γµ Ξ(x4)
+
+∂µ Ψ(x)
+
+(4.22)
+= iΨ(x) M
+
+Ξ+(x4) P+ + Ξ−(x4) P−
+
+Ψ(x) −iΨ(x)
+
+Ξ+(x4) P−+ Ξ−(x4) P+
+
+M Ψ(x)
+which exactly cancels the contribution of (4.19) and gives current conservation, at least at the
+classical level.
+7
+
+The cancellation of the Aµ dependence in (4.22) is not obvious in this notation, but follows
+because of the completeness of the ξ functions. We will need this result below, so we will pause to
+discuss it here. Consider, for example, the matrix product
+Ξ−(x4) Aµ−(x) .
+(4.23)
+The important point is that we can write
+Ξ−(x4) Aµ−(x) = Aµ(x, x4) Ξ−(x4) .
+(4.24)
+To see this, look at the M′-M matrix element (both M′ and M non-zero because we are looking at
+Ξ−),
+X
+M′′>0
+ξ−
+M′(x4) ξ−
+M′′(x4)
+Z L
+0
+dx′
+4 ξ−
+M′′(x′
+4) ξ−
+M(x′
+4) Aµ(x, x′
+4)
+(4.25)
+= ξ−
+M′(x4) ξ−
+M(x4) Aµ(x, x4)
+(4.26)
+where (4.26) follows because the ξ−
+M(x4) are complete on the space of functions that vanish at the
+boundaries, and the product ξ−
+M(x4) Aµ(x, x4) is such a function. Similar arguments can be used to
+show that
+Aµ−(x) Ξ−(x4) = Aµ(x, x4) Ξ−(x4) .
+(4.27)
+and
+Ξ+(x4) Aµ+(x) = Aµ+(x) Ξ+(x4) = Aµ(x, x4) Ξ+(x4) .
+(4.28)
+Because of (4.24), (4.27) and (4.28), the Aµ dependence cancels in the 4-dimensional divergence
+(4.22) and the 5-dimensional current is classically conserved.
+Quantum mechanically, because (4.11) is just a 4-dimensional gauge theory (with an admittedly
+peculiar gauge ﬁeld) we know that the current has an anomalous divergence that is simply the trace
+of the chiral charge in the current with the square of the gauge ﬁeld strength. Thus the anomaly is
+equal to
+1
+32π2 tr
+
+Ξ+(x4) F +(x) · ˜F +(x) −Ξ−(x4) F −(x) · ˜F −(x)
+
+(4.29)
+where F µν±(x) = ∂µAν±(x) −∂νAµ±(x). But now arguments precisely analogous to those leading
+to (4.24) imply that we can rewrite (4.29) as
+1
+32π2F(x, x4) · ˜F(x, x4) tr
+
+Ξ+(x4) −Ξ−(x4)
+
+(4.30)
+It remains to calculate the trace in (4.30). Using (4.15) we can write
+tr
+
+Ξ+(x4) −Ξ−(x4)
+
+=
+X
+M≥0
+ξ+
+M(x4)2 −
+X
+M>0
+ξ−
+M(x4)2 .
+(4.31)
+To evaluate this, consider
+∆(x4, y4) ≡
+X
+M≥0
+ξ+
+M(x4) ξ+
+M(y4) −
+X
+M>0
+ξ−
+M(x4) ξ−
+M(y4)
+(4.32)
+8
+
+which reduces to (4.31) if we set y4 = x4. Because the ξ−
+M(y4) functions are antisymmetric at y4 = 0
+while the ξ+
+M(y4) are symmetric, we can write
+∆(x4, −y4) =
+X
+M≥0
+ξ+
+M(x4) ξ+
+M(y4) +
+X
+M>0
+ξ−
+M(x4) ξ−
+M(y4) .
+(4.33)
+But taken together, the ξ+
+M and ξ−
+M are a complete set of functions with periodic boundary conditions
+on the interval [0, 2L), so we can write3
+∆(x4, −y4) = 2
+X
+N
+δ(x4 −y4 −2NL) .
+(4.34)
+Thus
+∆(x4, x4) = 2
+X
+N
+δ(2x4 −2NL) =
+X
+N
+δ(x4 −NL) .
+(4.35)
+Note that these delta functions deﬁned on the physical interval [0, L] satisfy
+Z L
+0 δ(x4)f(x4) = 1
+2f(0)
+(4.36)
+Z L
+0 δ(x4 −L)f(x4) = 1
+2f(L)
+(4.37)
+Restricting to the interval [0, L], we have the ﬁnal result that the anomaly is
+∂CJC = 1
+2
+h
+δ(x4) + δ(x4 −L)
+i
+Q .
+(4.38)
+This result is very gratifying. It shows that there is no anomaly in the 5-dimensional bulk and
+that the anomaly on the orbifold ﬁxed points is entirely independent of the shape of the modes.
+This implies that the cancellation of the 4-dimensional anomaly is suﬃcient to eliminate the 5-
+dimensional anomaly.
+Also note that the anomaly appears “split” between the two ﬁxed points—if we integrate over
+the extra dimension we pick up one-half of the anomaly of a chiral mode from x4 = 0 and one-half
+from x4 = L. Again this is independent of the shape of the chiral zero mode.
+Using (2.8), we can compute the matrix element of ∂µJµ. Only the chiral zero mode contributes,
+so
+⟨∂µJµ(x, x4)⟩= 1
+2Q0 ξ+
+0 (x4)2
+(4.39)
+where Q0 is just Q calculated with gauge potential Aµ+
+00 . Thus the 4-divergence of the current has a
+matrix element varying in the bulk as the square of the zero mode wave function, but this variation
+is precisely canceled by the rest of the 5-divergence, to produce (4.38).
+3The ξs are however still normalized on the half-circle, and are then
+√
+twice as large as the eigenfunctions properly
+normalized on the circle.
+9
+
+5
+Anomaly Cancellation
+We close this brief note with an example of anomaly cancellation. Because the anomaly is indepen-
+dent of the bulk physics, cancellation of anomalies is also straightforward. If we have a collection
+of 5-dimensional fermions, all that is required is that the zero modes form an anomaly-free rep-
+resentation of the low-energy 4-dimensional gauge group. These zero modes may have completely
+diﬀerent wave functions in the extra dimension. Our analysis in sections 3 and 4 shows that the
+5-dimensional anomaly is independent of the details and cancels if the 4-dimensional low energy
+theory is anomaly free. As an extreme example, consider a theory with 2 fermions: Ψ and X with
+charge +1 and −1 and piece-wise constant mass terms mΨ(x4) = −mX(x4) = m for 0 < x4 < L
+and satisfying the boundary condition (3.8). The zero modes ψ0, χ0 have charge +1, −1 and there-
+fore the 4-dimensional low energy theory is anomaly free. But for large mL, these zero modes are
+concentrated at opposite boundaries. For large mL > 0, the zero mode ψ0 is concentrated near
+x4 = 0 while the zero mode χ0 is concentrated near x4 = L (and vice versa for m < 0). In the limit
+mL →∞, the non-zero modes are arbitrarily heavy and the zero modes live entirely on the separate
+ﬁxed points at x4 = 0 and x4 = L. Nevertheless, our general analysis shows that the 5-dimensional
+anomalies must cancel for all m.
+For simplicity we will show how this works for a 4-dimensional gauge potential Aµ(x) which
+is constant in x4, which corresponds to turning on only the gauge ﬁeld zero mode. In this case
+Aµ
+00(x) = Aµ(x). Here we will discuss in detail only the extreme limit, mL →∞and show how our
+result for the form of the anomaly can be interpreted in terms of familiar 4-dimensional results.
+First consider the contribution of Ψ to the anomaly. As mL →∞the square of the properly
+normalized zero mode wave function goes to
+ψ+
+0 (x4)2 = 2 δ(x4)
+(5.1)
+and the 5-dimensional theory has a chiral fermion bound to the ﬁxed point x4 = 0 [5]. From (4.39)
+we see that the 4-divergence is exactly what we expect from a single chiral fermion localized at
+x4 = 0:
+⟨∂µJµ
+ψ(x, x4)⟩= 1
+2Q 2 δ(x4) .
+(5.2)
+Since the full anomaly (4.38) is always evenly split between the two ﬁxed points, the contribution
+from ∂4J4 must then be
+⟨∂4J4
+ψ⟩= −1
+2Q δ(x4) + 1
+2Q δ(x4 −L) .
+(5.3)
+This has a natural eﬀective theory interpretation. Since the fermion in the bulk is massive, we
+should integrate it out. This results in a Chern-Simons term in the bulk eﬀective action [6], whose
+gauge variation resides entirely at the boundaries x4 = 0, L, reproducing (5.3). The full anomaly is
+the sum of the 4-dimensional divergence and the variation of the Chern-Simons term, and this sum
+is evenly split between the two ﬁxed points at x4 = 0 and L.
+For X, as mL →∞the square of the properly normalized zero mode wave function goes to
+χ+
+0 (x4)2 = 2 δ(x4 −L) ,
+(5.4)
+10
+
+the 5-dimensional theory has a chiral fermion bound to the ﬁxed point x4 = L, and the 4-divergence
+of the current has the form
+⟨∂µJµ
+χ(x, x4)⟩= −1
+2Q 2 δ(x4 −L) .
+(5.5)
+The full anomaly (4.38) is always evenly split between the two ﬁxed points, and thus the contribution
+from ∂4J4 must be the same as that in (5.3),
+⟨∂4J4
+χ⟩= −1
+2Q δ(x4) + 1
+2Q δ(x4 −L) .
+(5.6)
+Again, this comes from the variation of a Chern-Simons term in the bulk eﬀective action. Adding
+(5.2), (5.3), (5.5) and (5.6), we see explicitly the cancellation of the 5-dimensional anomaly.
+Acknowledgements
+H.G. is supported in part by the National Science Foundation under grant number NSF-PHY/98-
+02709.
+A.G.C. is supported in part by the Department of Energy under grant number #DE-
+FG02-91ER-40676. N.A-H. is supported in part by the Department of Energy. under Contracts
+DE-AC03-76SF00098, the National Science Foundation under grant PHY-95-14797, the Alfred P.
+Sloan foundation, and the David and Lucille Packard Foundation.
+References
+[1] L. Dixon, J.A. Harvey, C. Vafa and E. Witten, Nucl. Phys.B261, 678 (1985).
+[2] For an example of an orbifold in ﬁeld theory see A. Pomarol and M. Quiros, Phys. Lett. B438,
+255 (1998) [hep-ph/9806263].
+[3] S.L. Adler Phys. Rev.177, 2426 (1969); J.S. Bell and R. Jackiw, Nuovo Cim.A60, 47 (1969).
+[4] S. Coleman and B. Grossman, Nucl. Phys.B203, 205 (1982).
+[5] H. Georgi, A.K. Grant, G. Hailu, Phys. Rev.D63, 064027 (2001).
+[6] C.G. Callan and J.A. Harvey, Nucl. Phys.B250, 427 (1985).
+11

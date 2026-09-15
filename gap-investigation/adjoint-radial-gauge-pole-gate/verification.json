@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "calculation_exit_code": 0,
+  "artifacts_unchanged": {
+    "calculation.py": "2cb39ec03da3d09b125ce8a3f418d71a53c45d799cba31e95f2a5b79cd5ed7c2",
+    "receipt.json": "015dbc77f009978e3fbe99da49d95544ac834c90bb2b249eda52e99e9c692e45",
+    "REPORT.md": "f1e7eee1427c10096bd9bb2142ca9011697c483b8a96cd58bf9eceeae361f4df"
+  },
+  "claim_boundary": "Replay of bounded zero-momentum gauge determinant gate; finite-p pole diagrams remain."
+}

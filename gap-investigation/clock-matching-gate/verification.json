@@ -1,0 +1,67 @@
+{
+  "canonical_directory": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\clock-matching-gate",
+  "claim_boundary": "Conditional scalar EFT matching and local identifiability only; no E7 completion or numerical physical prediction.",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\clock-matching-gate\\check_matching.py"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"verified_existing_checks\": 22, \"receipt_sha256\": \"51c19a0cf5e9efeac37621601fe0f558e6d04d5f258ac82ccff15f18d0bf4cbe\", \"unchanged\": true}\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\clock-matching-gate\\check_matching.py",
+        "--negative-controls"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"forged_claim_boundary_rejected\": true, \"missing_check_rejected\": true, \"missing_receipt_rejected\": true, \"tampered_result_rejected\": true, \"tampered_source_hash_rejected\": true}\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\clock-matching-gate\\Matching.lean"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "'ClockMatching.left_inverse_identifies' does not depend on any axioms\n'ClockMatching.two_stage_identification' does not depend on any axioms\n"
+    }
+  ],
+  "count_correction_provenance": {
+    "changed_files": [
+      "REPORT.md",
+      "formalization.yaml"
+    ],
+    "new_receipt_sha256": "51c19a0cf5e9efeac37621601fe0f558e6d04d5f258ac82ccff15f18d0bf4cbe",
+    "old_receipt_sha256": "bdb4c922fc4b1133c35fac59fcee0fce24a6d46f6ce31693ed71ecdc3071111d",
+    "reason": "Narrative and metadata count corrected from 23 to actual 22; mathematical definitions and all SMT results unchanged. Original receipt replay passed before correction and bytes preserved here."
+  },
+  "exact_primary_quotations_verified": 9,
+  "hosted_ci": "not run",
+  "lean_axiom_free_declarations": 2,
+  "negative_controls": {
+    "forged_claim_boundary_rejected": true,
+    "missing_check_rejected": true,
+    "missing_receipt_rejected": true,
+    "tampered_result_rejected": true,
+    "tampered_source_hash_rejected": true
+  },
+  "passed": true,
+  "primary_pdfs_verified": 4,
+  "receipt_sha256_after": "51c19a0cf5e9efeac37621601fe0f558e6d04d5f258ac82ccff15f18d0bf4cbe",
+  "receipt_sha256_before": "51c19a0cf5e9efeac37621601fe0f558e6d04d5f258ac82ccff15f18d0bf4cbe",
+  "receipt_unchanged": true,
+  "solver_check_count": 22,
+  "solver_status_counts": {
+    "sat": 7,
+    "unsat": 15
+  },
+  "source_manifest_files_verified": 17,
+  "verification_script_sha256": "b26c1eae0382802a32437a69dab0d051bed7da09bfe9debda9ae71c4b62e66b7"
+}

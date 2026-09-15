@@ -1,0 +1,22 @@
+schema_version: 1
+subject: Tian-Yau geometric-neutral cubic F gate
+model: E8xE8 heterotic tangent SU3 standard embedding with E6 Wilson line
+verification:
+  arithmetic: exact rational and symbolic SymPy
+  chain_data: actual predecessor Cech Koszul tangent and dual cocycles
+  lean_kernel: not_attempted
+  hosted_ci: not_run
+  independent_review: not_performed
+external_inputs:
+  - first-order standard-embedding moduli-decoupling theorem
+  - holomorphic Wilsonian perturbative axion shift nonrenormalization
+  - relative Kodaira-Spencer obstruction and Serre pairing interpretation
+  - smooth proper constant-rank family cohomology base change
+scope: all inventoried neutral equations of the massless perturbative cubic truncation
+excluded:
+  - nonperturbative matter and bundle derivatives
+  - higher-field superpotential obstruction maps
+  - all-orders corrected cohomology count
+  - stabilized or exact string vacuum
+  - E7 or alpha prediction
+automation_disclosure: AI-assisted derivation and code; exact local replay; written external mathematical and physical arguments

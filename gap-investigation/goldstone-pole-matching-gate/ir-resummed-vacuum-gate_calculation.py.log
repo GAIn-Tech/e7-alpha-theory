@@ -1,0 +1,141 @@
+{
+  "claim_boundary": "Leading 78x78 hard zero-momentum matching and ring potential value. No full resummed stationary branch, C2 remainder or pole mass proof.",
+  "passed": true,
+  "dimensions": {
+    "Goldstone": 67,
+    "physical_soft": 11,
+    "hard_scalar": 110
+  },
+  "hard_Hessian_antisymmetry": 2.546585164964199e-11,
+  "hard_Ward_max_abs": 2.3283064365386963e-10,
+  "leading_soft_Goldstone_column_operator_norm": 6.372057418343806e-08,
+  "matched_hard_stationary_sample": {
+    "epsilon": 1e-07,
+    "gradient_norm": 2.406763763678469e-19,
+    "hard_Schur_min_over_epsilon_squared": 1.1816680771553707,
+    "massive_min_over_epsilon": 0.9999996967812408,
+    "full_gauge_Ward_residual": 8.461767113168862e-22
+  },
+  "step_controls": [
+    {
+      "direction": "octet_rep",
+      "step": 4e-05,
+      "relative_error": 8.79933999872224e-11
+    },
+    {
+      "direction": "octet_rep",
+      "step": 2e-05,
+      "relative_error": 1.4643804404544925e-10
+    },
+    {
+      "direction": "octet_rep",
+      "step": 1e-05,
+      "relative_error": 6.467081468900548e-10
+    },
+    {
+      "direction": "Goldstone_rep",
+      "step": 4e-05,
+      "relative_error": 4.8284708254746914e-11
+    },
+    {
+      "direction": "Goldstone_rep",
+      "step": 2e-05,
+      "relative_error": 1.1714713060681058e-11
+    },
+    {
+      "direction": "Goldstone_rep",
+      "step": 1e-05,
+      "relative_error": 4.0342823667100975e-12
+    },
+    {
+      "direction": "shift",
+      "step": 4e-05,
+      "relative_error": 7.289970862554302e-06
+    },
+    {
+      "direction": "shift",
+      "step": 2e-05,
+      "relative_error": 1.8226118929225242e-06
+    },
+    {
+      "direction": "shift",
+      "step": 1e-05,
+      "relative_error": 4.5573012204135203e-07
+    }
+  ],
+  "physical_soft_ring": [
+    {
+      "epsilon": 1e-07,
+      "physical_soft_ring_V_50_digits": "-4.7099523710955469996543728873027966111989363703705E-29",
+      "physical_soft_ring_V_80_digits": "-4.7099523710955469996543728873027966111989363703706679764748514632921818936978606E-29",
+      "absolute_value_envelope": "7.0621360330571325124826150830591491880603266526562434872586431103773564388656244E-29"
+    },
+    {
+      "epsilon": 5e-08,
+      "physical_soft_ring_V_50_digits": "-3.0610493054765205729328137309492107847218608927782E-30",
+      "physical_soft_ring_V_80_digits": "-3.0610493054765205729328137309492107847218608927782624046731235438490394735563848E-30",
+      "absolute_value_envelope": "4.5835815730165575459970670770634014445312289799776080290573063249574472492021454E-30"
+    },
+    {
+      "epsilon": 2.5e-08,
+      "physical_soft_ring_V_50_digits": "-1.9864864868864526694260277545838585546527415962968E-31",
+      "physical_soft_ring_V_80_digits": "-1.9864864868864526694260277545838585546527415962967858275309155769627907897197542E-31",
+      "absolute_value_envelope": "2.9708300783577545448078123295092716540779711262781649241112254412056542025707971E-31"
+    }
+  ],
+  "radial_Goldstone_log_obstruction": {
+    "unit_direction": "x0 / norm(x0)",
+    "coefficient_of_epsilon_squared_log_eta": 40230.483544677314,
+    "regulator_scan": [
+      {
+        "eta_dimensionless": 0.0001,
+        "radial_log_term_over_epsilon_squared": -370536.4467756649
+      },
+      {
+        "eta_dimensionless": 1e-08,
+        "radial_log_term_over_epsilon_squared": -741072.89355133
+      },
+      {
+        "eta_dimensionless": 1e-16,
+        "radial_log_term_over_epsilon_squared": -1482145.78710266
+      },
+      {
+        "eta_dimensionless": 1e-32,
+        "radial_log_term_over_epsilon_squared": -2964291.57420532
+      }
+    ],
+    "scope": "Analytic coefficient of the Gaussian Goldstone ring curvature singularity. Higher hard matching and pole-momentum terms not included."
+  },
+  "negative_controls": {
+    "opposite_self_energy_sign_Goldstone_norm": 43596.75081225091,
+    "retain_tree_Goldstone_mass_norm": 21798.3754061573,
+    "noncommuting_double_count_subtraction": [
+      {
+        "t": 0.001,
+        "correct_remainder_over_t2": -0.013057797441083131,
+        "wrong_sign_remainder_over_t": -0.3672653736642295
+      },
+      {
+        "t": 0.0005,
+        "correct_remainder_over_t2": -0.013059897914198884,
+        "wrong_sign_remainder_over_t": -0.3672588458157455
+      },
+      {
+        "t": 0.00025,
+        "correct_remainder_over_t2": -0.013060951156110973,
+        "wrong_sign_remainder_over_t": -0.36725558110457746
+      }
+    ]
+  },
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\calculation.py": "3f4d86ec9b184b6b9ce33001df01eb533e6e45af1046dd3dea795d0a57b02b92",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\REPORT.md": "0da41847227e2a62b4a38d911e827b03b092501ce6ba37422fa6afa5fa77485c",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\radiative-vacuum-gate\\diagnostic.py": "e2db575600561a7e31834b2b85d9abf7f8aa97285fbe8c4749c1bf637609d618",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\radiative-vacuum-gate\\REPORT.md": "e8f12d8f553fa24ee59ff9b297d23367ef22356009003090ca3d079ab2b2fe85",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\radiative-vacuum-gate\\receipt.json": "a0b9b45c7c31f824e00782e1338a58f75b709dc18858161460e0dbedfd23bf49",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\sources\\1406.2355.pdf": "ec0172d1dc3494e525f27bb770ee42e5a0ed245b4b72e782540b6ee2dec7de39",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\sources\\1406.2652.pdf": "f31bb37224bbcc5520e72c0193a56de622593be83e979becba4d184f585d2f12"
+  }
+}

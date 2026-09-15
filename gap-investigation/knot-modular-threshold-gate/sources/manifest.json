@@ -1,0 +1,25 @@
+{
+  "new_retrieval": {
+    "requested": "https://arxiv.org/pdf/1611.09442",
+    "final": "https://arxiv.org/pdf/1611.09442",
+    "bytes": 388457
+  },
+  "files": {
+    "dilaton.txt": "fa6481cf6ba652600ab785b8632d4eb4ca4c2eefc2b1bfe9474cb59b0c5a714e",
+    "jones.txt": "bcddc4b532a40f382b825543e3d9b77989b65b46b19c46ab2c7067a72be4e4e1",
+    "modular-algebra.py": "00552d14022417b60fbd80ce85e11ed17875822f4bf61198e774696fc900335c",
+    "modular-report.md": "cec3f42509a53ac30451898f0a554a793ef4b9faa8b07ac51a6aae724d1ebdff",
+    "mukhi.txt": "473c988806907eaffcb24c040d472784ba3c324db4b94136d2cd01f17040742d",
+    "threshold.pdf": "c9da693683f9d27c01e9f3c794ab75378bf7f0e2a55e8bb5da7ae09b2272031f",
+    "threshold.txt": "bc8767abc30e207c9705ba180faf14bde7da7b37b4f8bb9c66a941481964e6ee",
+    "witten.txt": "32e22386eb5f3e3679c7bf67630d7c3e2c48a268c37fa2c2e205f0aa48292927"
+  },
+  "inherited_sources": {
+    "witten.txt": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\connections\\knots\\witten1989.txt",
+    "jones.txt": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\connections\\knots\\jones.txt",
+    "mukhi.txt": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\connections\\knots\\mukhi2020.txt",
+    "dilaton.txt": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-clock-response-gate\\sources\\dilaton.txt",
+    "modular-report.md": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\modular-completion-gate\\REPORT.md",
+    "modular-algebra.py": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\modular-completion-gate\\exact_certificate.py"
+  }
+}

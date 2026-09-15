@@ -1,0 +1,1356 @@
+
+--- PAGE 1 ---
+arXiv:hep-th/0412243v3  7 Jul 2005
+hep-th/0412243
+HUTP-04/A034
+Khovanov-Rozansky Homology and Topological Strings
+Sergei Gukov1, Albert Schwarz2, and Cumrun Vafa1
+1 Jeﬀerson Physical Laboratory,
+Harvard University,
+Cambridge, MA 02138, USA
+2 Department of Mathematics,
+University of California,
+Davis, CA 95616, USA
+Abstract
+We conjecture a relation between the sl(N) knot homology, recently introduced by
+Khovanov and Rozansky, and the spectrum of BPS states captured by open topological
+strings. This conjecture leads to new regularities among the sl(N) knot homology groups
+and suggests that they can be interpreted directly in topological string theory. We use this
+approach in various examples to predict the sl(N) knot homology groups for all values of
+N. We verify that our predictions pass some non-trivial checks.
+Dedicated to the memory of F.A. Berezin.
+December 2004
+
+
+--- PAGE 2 ---
+1. Introduction and Summary
+During the past twenty years, topological ﬁeld theories have been the source of the vig-
+orous interaction between theoretical physics and pure mathematics, increasingly fruitful
+for both ﬁelds. One of the famous examples of topological ﬁeld theories is a Chern-Simons
+gauge theory [1,2]. Observables in this theory are naturally associated with knots and
+links. Speciﬁcally, given an oriented knot, K, and a representation of the gauge group, R,
+one can construct a Wilson loop operator, WR(K), whose expectation value turns out to
+be a polynomial invariant of K, such as the Jones polynomial and its generalizations [2].
+Here, we will be mainly interested in the case where R =
+is the fundamental
+representation of sl(N). The corresponding quantum invariant
+PN(q) = ⟨W (K)⟩
+(1.1)
+is a one-variable specialization of the HOMFLY polynomial [3]. It can be determined by
+the sl(N) skein relation
+qNPN(L+) −q−NPN(L−) = (q−1 −q)PN(L0)
+(1.2)
+and by the normalization
+PN(unknot, q) = [N] = qN −q−N
+q −q−1
+(1.3)
+L
+L
+L
++
+0
+−
+Fig. 1: Link diagrams connected by the skein relation.
+As shown in [4], Chern-Simons theory can be embedded in string theory. Later it was
+shown [5,6,7] using highly non-trivial ‘stringy dualities’ that this leads to a reformulation
+of quantum sl(N) knot invariants in terms of topological string amplitudes (Gromov-
+Witten invariants). Moreover, it was realized that the polynomial invariants PN(q) can be
+1
+
+
+--- PAGE 3 ---
+reformulated in terms of integers N
+,Q,s which capture the spectrum of BPS states in the
+string Hilbert space1 [7,8]:
+PN(q) =
+1
+q −q−1
+X
+s,Q∈ZZ
+N
+,Q,sqNQ+s
+(1.4)
+It is diﬃcult to give a mathematically rigorous deﬁnition of BPS degeneracies.
+In the
+simpler case of closed topological strings, there is a similar notion of BPS degeneracies
+[6]. Attempts to give it a precise mathematical deﬁnition [9,10,11,12,13] led to a deeper
+understanding of Gromov-Witten invariants, though even there not all questions are an-
+swered. In the open string case, even though a mathematically rigorous proof of (1.4) is not
+available this equation is strongly supported by physical arguments and highly non-trivial
+checks, in particular, by the fact that considering it as a deﬁnition of N
+,Q,s one always
+obtains integers.
+In another line of development, the quantum sl(N) invariant PN(q) was lifted to a
+homological knot invariant [14,15,16,17]. For a given knot K and a ﬁxed value of N, the
+sl(N) homological invariant is a doubly graded cohomology theory, Hi,j
+N (K), whose Euler
+characteristic with respect to one of the gradings equals the quantum sl(N) invariant,
+PN(q) =
+X
+i,j∈ZZ
+(−1)iqj dim Hi,j
+N (K)
+(1.5)
+Following [18], we also introduce the graded Poincar´e polynomial,
+KhN(q, t) :=
+X
+i,j∈ZZ
+tiqj dim Hi,j
+N (K)
+(1.6)
+Relegating technical details to the following sections, let us summarize some important
+features of HN:
+i) HN is a functor (from the category of links and cobordisms to the category of vector
+spaces [16,18,19,20]);
+ii) HN is stronger than PN, at least in the case N = 2;
+iii) HN is hard to compute (at present, only the sl(2) homological invariant has been
+computed for knots with small number of crossings [18,21]);
+iv) HN cries out for a physical interpretation!
+1 In our normalization, the integer invariants N
+,Q,s are non-trivial only for even values of s.
+2
+
+
+--- PAGE 4 ---
+In this paper, we take a modest step towards understanding the physical interpre-
+tation of the sl(N) knot homology by relating it to the BPS spectrum of states in open
+topological strings. It naturally leads us to new regularities among the homology groups,
+Hi,j
+N (K), which we hope may ultimately lead to a better understanding of the sl(N) ho-
+mological invariant on the deep conceptual level. In particular, we will be interested in
+the dependence of the homology groups Hi,j
+N (K) on the rank of sl(N). By analogy with
+(1.4), we expect that, at least for suﬃciently large values of N, the following complex has
+a very simple structure:
+H•
+N{+1} −H•
+N{−1}
+(1.7)
+where {n} denotes the shift in q-grading up by n. Speciﬁcally, we propose the following:
+Conjecture: For a knot K and suﬃciently large2 values of N, the graded Poincar´e poly-
+nomial of the doubly graded complex (1.7) can be expressed in terms of N-independent
+integer invariants DQ,s,r(K),
+(q −q−1)KhN(q, t) =
+X
+Q,s,r∈ZZ
+DQ,s,rqNQ+str
+(1.8)
+Notice, this conjecture implies that (for suﬃciently large N) the set of values of the grading
+i in Hi,j
+N (K) is contained in a set that does not depend on N. There is also a generalization
+of this conjecture for links, see below.
+The integer invariants DQ,s,r provide a reﬁnement of the open string BPS degeneracies
+by decomposition of the states in terms of an additional U(1) charge (grading) r in a sense
+that
+N
+,Q,s =
+X
+r∈ZZ
+(−1)rDQ,s,r.
+(1.9)
+This is parallel to the reﬁnement of BPS degeneracies for closed strings found in [22].
+Notice, that the conjectured relation (1.8) is manifestly consistent with eqs. (1.4) - (1.6)
+and the relation (1.9).
+Organization of the Paper
+In section 2, we brieﬂy review some of the main statements about integer BPS degen-
+eracies for open strings and the sl(N) knot homology. The more detailed physical setup
+2 It turns out, however, that for many simple knots this conjecture works for all N ≥2.
+3
+
+
+--- PAGE 5 ---
+and the interpretation of the sl(N) knot homology as BPS degeneracies DQ,s,r is discussed
+in section 3. In section 4, we study explicit examples. In particular, we use (1.8) to pre-
+dict the sl(N) homological invariants for certain knots with small number of crossings and
+verify that our predictions pass some non-trivial checks. In section 5, we discuss various
+generalizations of the above conjecture. Finally, in the appendices we present the explicit
+form of the HOMFLY polynomial and the sl(2) homological invariant for some knots.
+2. Preliminaries
+2.1. Conventions
+Here we follow the standard conventions in knot theory, where the unreduced Jones
+polynomial has expansion in integer powers of q, J ∈ZZ[q, q−1]. For example, in these
+conventions, the quantum sl(N) invariant of the trivial knot has the form (1.3). These
+conventions are compatible with the ones used in [14,15,16,17,18], but diﬀer from the
+conventions used in the physics literature [5,6,7,8,23,24]. The two sets of conventions are
+related by a simple change q →q1/2. We also warn the reader that in some literature our
+variable q is denoted q−1 and, similarly, t is denoted t−1.
+Throughout, we work overQ. In particular, all cohomology groups areQ-vector spaces,
+and dim(Hi,j
+N ) denotes dimQ(Hi,j
+N ).
+2.2. A Brief Review of the BPS Degenaracies and Knot Invariants
+The generating function of Wilson loop (knot) observables in Chern-Simons theory
+can be written in terms of the f-polynomials [7]:
+FCS(V ) =
+∞
+X
+d=1
+X
+R
+1
+dfR(qd, λn)TrRV d
+(2.1)
+where λ := qN and N is the rank of the gauge group. The polynomials fR(q, λ) can be
+expanded in q and λ [7,8]
+fR(q, λ) =
+1
+q −q−1
+X
+s,Q
+NR,Q,sλQqs =
+=
+X
+g≥0
+X
+Q
+X
+R′,R′′
+CRR′R′′SR′(q) b
+NR′′,g,Q(q−1 −q)2g−1λQ
+(2.2)
+4
+
+
+--- PAGE 6 ---
+In this expression, R, R′, and R′′ denote representations of the symmetric group, which
+we can label by Young tableaus with ℓboxes. The coeﬃcients CRR′R′′ are the Clebsch-
+Gordan coeﬃcients of the symmetric group, and the function SR(q) is non-zero only for
+hook representations of the form
+(2.3)
+Speciﬁcally, if R is a hook representation with ℓ−d boxes in the ﬁrst row, then SR(q) =
+(−1)dq−ℓ−1
+2 +d, and SR(q) = 0 otherwise. Finally, the numbers NR,Q,s and b
+NR,g,Q encode
+the BPS spectrum for open topological strings.
+The integer BPS degeneracies can be deﬁned in terms of cohomology computations on
+certain spaces. In particular, for the fundamental represenation, b
+N
+,g,Q can be deﬁned as
+the Euler characteristics of the cohomology of moduli spaces3 Mg,Q. We refer the reader
+to the original papers [6,7,8] for the details, and brieﬂy sketch here the results that will be
+relevant to us in what follows. There is an explicit expression for b
+N
+,g,Q in terms of the
+cohomology of Mg,Q,
+b
+N
+,g,Q = ǫ χ(Mg,Q)
+(2.4)
+where4 ǫ = ±1.
+In the case we are considering, R =
+, the polynomial f (q, λ) is the unnormalized
+HOMFLY polynomial. Its value at λ = qN gives the sl(N) polynomial PN(q):
+PN(q) = f (q, qN)
+(2.5)
+The polynomial f (q, λ) has a simple representation in terms of b
+NR,g,Q:
+f (q, λ) =
+X
+Q
+X
+g≥0
+b
+N
+,g,Q(q−1 −q)2g−1λQ
+(2.6)
+Comparing this formula with eq. (2.2), we obtain an expression for the integers N
+,Q,s in
+terms of b
+N
+,g,Q,
+N
+,Q,s = −
+X
+g≥0
+(−1)g+s/2
+
+2g
+g + s/2
+
+b
+N
+,g,Q
+(2.7)
+Using (2.4), we can further express N
+,Q,s via dimensions of the cohomology groups
+Hk(Mg,Q),
+N
+,Q,s = −ǫ
+X
+g≥0,k
+(−1)k+g+s/2
+
+2g
+g + s/2
+
+dim Hk(Mg,Q)
+(2.8)
+3 As discussed in section 3 this is the moduli space of holomorphic curves of genus g with one
+boundary ending on a suitable Lagrangian submanifold.
+4 As discussed in [7] the origin of the sign ǫ is related to the analytic continuation one has to
+make in order to relate topological string amplitudes with the quantum-group knot invariants.
+5
+
+
+--- PAGE 7 ---
+Example. The Unknot
+For the unknot the corresponding moduli spaces are isolated points, so that
+Hk(Mg,Q) =
+nQ
+if k = g = 0 and Q = ±1
+0
+otherwise
+(2.9)
+Hence, from (2.4) we ﬁnd that the only non-zero invariants are [7]:
+b
+N
+,0,Q=±1 = ∓1
+(2.10)
+This leads to the usual expression for the HOMFLY polynomial
+f (unknot) = λ −λ−1
+q −q−1 = qN −q−N
+q −q−1
+(2.11)
+Let us consider another example.
+Example. The Trefoil Knot
+In this case, the non-zero BPS invariants are [8]:
+b
+N
+,0,1 = 2,
+b
+N
+,0,3 = −3,
+b
+N
+,0,5 = 1,
+b
+N
+,1,1 = 1,
+b
+N
+,1,3 = −1
+(2.12)
+Substituting this into (2.6), we ﬁnd
+f (31) = 2λ −3λ3 + λ5
+q−1 −q
++ (λ −λ3)(q−1 −q)
+(2.13)
+Notice, that in the rank 2 case, λ = q2, we recover the usual expression for the unreduced
+Jones polynomial of the trefoil knot,
+J(31) = q + q3 + q5 −q9
+(2.14)
+2.3. A Brief Review of the sl(N) Knot Homology
+In a fascinating work [14], Khovanov introduced a new homological knot invariant,
+which has the Jones polynomial as its graded Euler characteristic. Subsequently, this work
+was extended to a categoriﬁcation of the quantum sl(3) invariant [16] and, more recently,
+to a categoriﬁcation of the quantum sl(N) invariant [17]. Although these constructions
+diﬀer in details, the basic idea is to associate a chain complex of graded vector spaces,
+6
+
+
+--- PAGE 8 ---
+C•
+N(L), to a plane diagram of a link L colored by a fundamental representation of sl(N).
+The bigraded cohomology groups of this complex,
+HN(L) := H∗(C•
+N)
+(2.15)
+do not depend, up to isomorphism, on the choice of the projection of L. It is also convenient
+to deﬁne the graded Poincar´e polynomial,
+KhN(L) :=
+X
+i,j∈ZZ
+tiqj dim Hi,j
+N (L)
+(2.16)
+and the graded Euler characteristic,
+χq(L) :=
+X
+i,j∈ZZ
+(−1)iqj dim Hi,j
+N (L)
+(2.17)
+One of the main results in [14,16,17] states that χq(L) is equal to the quantum sl(N)
+invariant of L:
+PN(q) = χq(L) = KhN(L)|t=−1
+(2.18)
+Notice, that since the Euler characteristic of the cohomology Hi,j
+N (L) is the same as the
+Euler characteristic of the chain complex Ci,j
+N (L) itself, we can write (2.17) - (2.18) as
+PN(q) =
+X
+i,j∈ZZ
+(−1)iqj dim Ci,j
+N (L)
+(2.19)
+Example. The Trefoil Knot
+For the trefoil knot and N = 2, the Khovanov’s invariant KhN=2(L) has the
+following form:
+KhN=2(31) = q + q3 + q5t2 + q9t3
+(2.20)
+It is easy to see that at t = −1 we recover the usual Jones polynomial (2.14) of the
+trefoil knot.
+Now, let us say a few words about the structure of the complex C•
+N(L). Let W =
+⊕mWm be a graded vector space. Its graded dimension is
+dimq W =
+X
+m
+qm dim Wm
+(2.21)
+7
+
+
+--- PAGE 9 ---
+In the spirit of the derived categories, we will be considering chain complexes of these
+graded vector spaces, e.g.
+C• :
+. . . −→
+dr−1
+Cr
+−→
+dr
+Cr+1
+−→
+dr+1
+Cr+2
+−→
+dr+2
+. . .
+(2.22)
+where r is the “height” of the graded vector space Cr.
+Let us also introduce two translation functors: the degree shift
+W{l}m := Wm−l
+(2.23)
+and the height shift
+C[s]r := Cr−s
+(2.24)
+In other words, C•[s] denotes the complex C• shifted s places to the right. Also, note that
+(2.23) implies
+dimq W{l} = ql dimq W
+(2.25)
+=
+1
+1
+1
+1
+2
+Fig. 2:
+A planar trivalent graph Γ near a “wide edge” and its representation
+in the Murakami-Ohtsuki-Yamada terminology [25], where each oriented edge is
+labelled by a fundamental weight of sl(N).
+For each value of N, there is a combinatorial algorithm to construct the ZZ⊕ZZ-graded
+chain complex C•
+N(L) from a plane diagram D of the link L. Namely, using a suitable skein
+relation one takes all possible resolutions of the link diagram D,
+C•
+N(L) =
+M
+Γ
+C•
+N(Γ)
+(2.26)
+where each resolution Γ is a planar trivalent graph, as in ﬁg. 2. For example, in the sl(2)
+case, each Γ is a collection of plane cycles, and a simple algorithm for constructing C•
+2(L)
+was proposed by Khovanov in the original paper [14]; essentially, one has
+C•
+2(Γ) ∼= V ⊗#(cycles)
+(2.27)
+8
+
+
+--- PAGE 10 ---
+Here, V is a cohomology ring of a 2-sphere, V ∼= H∗(S2), so that dimq(V ) = q + q−1.
+Similarly, in the sl(3) case, one can systematically construct C•
+3(L) using web cobordisms
+(“foams”) [16].
+A general algorithm, which in principle5 allows to construct the sl(N) knot homology
+for arbitrary N, was proposed recently by Khovanov and Rozansky [17]. In this approach,
+C•
+N(L) is constructed as a ZZ ⊕ZZ ⊕ZZ2-graded complex of Q-vector spaces. It turns out
+that the cohomology groups of this complex are non-trivial only for one value of the ZZ2
+grading, so that H∗(C•
+N) is ZZ ⊕ZZ-graded as in (2.15). Basically, a 2-periodic complex
+C•
+N(L) is a tensor product of matrix factorizations:
+M 0 −→
+d0 M 1 −→
+d1 M 0
+(2.28)
+We remind that a matrix factorization of a homogeneous potential W(xi) is a collection
+of two free modules M 0, M 1 over the ring of polynomials in xi, and two maps d0 : M 0 →
+M 1 and d1 : M 1 →M 0, such that
+d0d1 = W · Id
+,
+d1d0 = W · Id
+(2.29)
+Choosing a basis in M 0, M 1 we can think of d0 and d1 as matrices with polynomial entries.
+One can also combine d0 and d1 into an odd matrix of the form
+Q =
+
+0
+d1
+d0
+0
+
+(2.30)
+so that (2.29) can be written in a compact form
+Q2 = W · Id
+(2.31)
+In other words, Q can be regarded as an odd endomorphism (also known as “twisted diﬀer-
+ential”) acting on a free ZZ2-graded module M = M 0⊕M 1 over R = Q[xi]. When, following
+Khovanov and Rozansky [17], one takes a tensor product over matrix factorizations of the
+form (2.28), the W’s cancel, so that Q becomes an ordinary diﬀerential, Q2 = 0, and the
+result becomes a complex,
+C•
+N(L) = ⊗i Mi
+(2.32)
+5
+In practice, the previous two constructions remain more suitable for explicit calculations of
+the sl(2) and sl(3) knot homology.
+9
+
+
+--- PAGE 11 ---
+A factorization M is called trivial (or contractible) if it has the form
+R −→
+1 R −→
+W R
+(2.33)
+Dividing the category of matrix factorizations (2.28) by the equivalence relation
+M ∼M ⊕Mtrivial
+(2.34)
+we get a “derived” category of factorizations of W, denoted by hmfW in [17], whose
+isomorphisms are morphisms which induce isomorphisms in cohomology. Furthermore,
+this category has a triangulated structure, which plays an important role in the notion
+of D-brane stability, see [26] for a recent review. In fact, the category hmfW is a simple
+example of a “D-brane category”, whose objects are D-branes in N = 2 Landau-Ginzburg
+model with a superpotential W [27,28,29,30]. In particular, with each “twisted complex,”
+Mi ∈hmfWi, we can associate a Landau-Ginzburg model and a D-brane in it.
+The
+tensor product of these Landau-Ginzburg models is a two-dimensional N = 2 theory, cf.
+[31,32,33,34]:
+⊗i LGWi
+(2.35)
+We refer the reader to [14,16,17,18] for further details on the construction of the sl(N)
+knot homology.
+3. Physical Interpretation of the sl(N) Knot Cohomology
+In this section we start by brieﬂy reviewing6 the relations between BPS states and
+topological strings. We then discuss how Chern-Simons theory on M is embedded in open
+topological strings on T ∗M. We also review how in the case of M = S3 ‘large N’ stringy
+dualities relate it to closed topological string on a deformed geometry (the small resolution
+of the nodal singularity). Also reviewed is how the HOMFLY polynomial invariants can
+be formulated in this context.
+We then go on to deﬁne a reﬁned version of the BPS
+degeneracies which leads to a reﬁnement of open topological string amplitudes. We then
+propose a relation between this reﬁned BPS degeneracies to the sl(N) knot homology
+which is a categoriﬁcation of quantum sl(N) polynomial invariants.
+6 For a more detailed review on these topics the reader can consult [35].
+10
+
+
+--- PAGE 12 ---
+3.1. Topological Strings and BPS Degeneracies
+Closed topological string, which encodes Gromov-Witten invariants, deals with holo-
+morphic maps from closed Riemann surfaces of arbitrary genus to Calabi-Yau threefolds
+X. The partition function Z is a function of the K¨ahler moduli of Calabi-Yau threefold,
+which we denote by T and of the string coupling constant gs. The dependence on T arises
+by weighing each map by exp(−A) where A is the area of the curve. The gs dependence
+enters by weighing a genus g Riemann surface by the factor g2g−2
+s
+. It has been argued in
+[6] that Z can be rewritten in terms of integers nk
+Q as
+Z(T, gs) =
+Y
+k,Q
+h ∞
+Y
+n=1
+(1 −q2n+2ke−⟨Q,T ⟩)nink
+Q
+where q = e−gs/2 and Q denotes an element of H2(X, ZZ). The integers nk
+Q denote the
+degeneracy of BPS states.
+More precisely these correspond to embedded holomorphic
+curves in the class Q and the index k is related to the genus of the curve. Physically
+these degeneracies are computed by studying the moduli spaces of D-branes in the class
+Q. Note that the moduli space includes the choice of a ﬂat connection on the D-brane
+in addition to the moduli associated to moving the D-brane inside X. Let us consider
+an idealized situation (the more general case was discussed in [11]; see also [9,10,12,13]):
+Suppose that as we vary the curve inside X its genus does not change (and assume there
+are no monodromies of the cycles of the Riemann surface). In this case the moduli space
+naturally splits into the moduli space of the ﬂat connection, which is a 2g dimensional
+torus T 2g, and that of the geometric moduli MQ
+Geom.:
+MQ = T 2g × MGeom.
+In this simple situation one ﬁnds that
+X
+k
+nk
+Qqk = χ(MGeom.) · (q −q−1)2g
+Here the factor (q−q−1)2g corresponds to the Poincar´e polynomial of T 2g. The reader may
+wonder why the Poincar´e polynomial for the full space MQ does not enter the topological
+string amplitudes, and only the Euler characteristic of the geometric moduli enters? The
+reason is that as one changes the complex moduli of Calabi-Yau X, it turns out that
+MGeom. changes topology (and even dimension!), but its Euler characteristic does not
+change. So only χ is an invariant of the Calabi-Yau X.
+11
+
+
+--- PAGE 13 ---
+However, there are cases where X is rigid and has no complex moduli.
+In such
+cases one could have obtained a more reﬁned invariant by introducing a new parameter
+t which captures the Poincar´e polynomial PMGeom(t) of the geometric moduli.
+In the
+physical context this corresponds to an addition ‘charge’ that we can measure and reﬁne
+the degeneracies to nk,k′
+Q
+. This extra charge appears as follows: In compactiﬁcations on
+M-theory on Calabi-Yau 3-folds we end up with a four dimensional space IR4. The rotation
+symmetry group is thus SO(4) = SU(2)L × SU(2)R. The charge measured by powers of q
+(together with (−1)F ) corresponds to U(1)L ∈SU(2)L. We could also measure the charge
+U(1)R ∈SU(2)R. So we would have considered
+X
+k,k′
+nk,k′
+Q
+q2ktk′ = (q −q−1)2gPMGeom(t)
+In fact in view of the application to the knots it is natural to redeﬁne the basis of the
+U(1)L × U(1)R charges. This is because in that case we have to introduce Lagrangain
+D-branes which ﬁll IR2 ⊂IR4. We still have a U(1)⊗2 symmetry. However one of the
+U(1)’s corresponds to the physical spin in the subspace IR2 and is given by the diagonal
+in U(1)L × U(1)R. We will thus redeﬁne7
+q →iqt
+1
+2
+and write
+PQ(q, t) =
+X
+k,k′
+nk,k′
+Q
+(q2t)k(t/q2)k′ = (−1)g(qt
+1
+2 + q−1t−1
+2 )2gPMGeom(t)
+(3.1)
+This structure of course presupposes that the moduli space MQ has a product structure.
+This is seldom the case. One case where this happens naturally is when the geometric
+moduli space is a point. One may think that in the more general case the splitting of
+the Poincar´e polynomial to two variable polynomials may not exist. However physical
+reasoning, i.e. the existence of two U(1) charges that one can measure, guarantees that
+this must be possible even if the moduli space does not split. Moreover if X is rigid it is an
+invariant for the Calabi-Yau. Examples of this have already been computed and checked
+against physical computations in [22], see also [10,36] for a mathematical discussion. This
+7 The choice of i = √−1 and also the factor of 1/2 in the exponent of t in the formula is for
+convenience of comparison with the conventions used in the knot theory literature.
+12
+
+
+--- PAGE 14 ---
+means that PQ(q, t) always exists but it does not in general take the simple form given
+above as a product of two prefactors.
+One can also consider open topological strings. To do this we consider Lagrangian
+subspaces Li of X with some multiplicity Ni associated to each. We then consider holo-
+morphic maps from Riemann surfaces with arbitrary boundaries such that the boundaries
+all lie on some Lagrangian brane Li. Each such conﬁgurations will receive a factor Ni;
+or if the boundary circle wraps over the cycle S1 r times, with holonomy factor Ui, we
+pick up a factor of trU r
+i . The open topological string amptitudes can again be recast in
+terms of the BPS degeneracies, D2 branes embedded in X which can have a boundary
+on the Lagrangian submanifold. The degeneracies will also have a label of Representation
+of the brane, encoding diﬀerent ways the D2 branes end on the Lagrangian submanifold.
+The story in this case is somewhat more complicated that in the closed string case [7,8] .
+However just as in the closed string case one expects the counting of these degeneracies to
+depend on choice of charge Q in the relative homology H2(X, Li), the spin s and in addi-
+tion on the representation label R, NR,Q,s, which is related to cohomology computations
+on the moduli space of D2 branes with boundaries (again including the ﬂat connection).
+The open topological string amplitudes can be written in terms of NR,Q,s as discussed in
+(2.1).
+What we would like to ask now is whether we can deﬁne a more reﬁned invariant even
+in this case, in other words, are there more physical charges we can measure? Let us recall
+how the open string BPS charges get embedded in the closed string charges [7,8]: As noted
+above we have Lagrangian D-branes ﬁlling IR2 ⊂IR4 and thus in the open string context
+we still have both U(1) symmetries. Let us denote these two charges by (s, r), where s
+denotes the spin in IR2. Thus we expect that any degeneracies can also be further reﬁned
+according to these two charges, in particular we would get new degeneracies eDR,Q,s,r which
+have the property that
+NR,Q,s =
+X
+r
+(−1)r eDR,Q,s,r
+(3.2)
+One could ask if the integers eDR,Q,s,r are invariant, i.e. do they depend on moduli of
+Calabi-Yau or moduli of the brane? It is easy to see, just as in the closed string case, that
+they could depend on the complex structure moduli of the Calabi-Yau. But they cannot
+depend on the K¨ahler moduli of the Calabi-Yau, or the moduli of the brane. The latter
+statement follows from the fact that the BPS states are in the (c, c) multiplets whereas
+the K¨ahler moduli of Calabi-Yau or the brane moduli are in the (a, c) multiplets and so it
+13
+
+
+--- PAGE 15 ---
+cannot give mass to the (c, c) multiplets. In particular if we are dealing with a rigid Calabi-
+Yau we would ﬁnd the more reﬁned invariants eDR,Q,s,r, similar to what we discussed for
+the closed string BPS states.
+In this paper for simplicity we will mainly concentrate on the case where R =
+, i.e.,
+N
+,Q,s and the corresponding reﬁnement will be denoted by eDQ,s,r. For the representation
+R =
+the only relevant BPS brane are Riemann surfaces with one boundary on the
+Lagrangian submanifold. Suppose we have an isolated Riemann surface of genus g with
+one boundary. Then, just as we discussed in the closed string case we would ﬁnd the
+reﬁned Poincar´e polynomial:
+X
+s,r
+eDQ,s,rqstr = (−1)g(qt
+1
+2 + q−1t−1
+2 )2g
+(3.3)
+3.2. Chern-Simons Theory and Open Topological Strings
+It was shown in [4] that U(N) Chern-Simons theory on a three manifold M can be
+reformulated in terms of open topological string on the Calabi-Yau manifold X = T ∗M,
+where we consider N D-branes wrapping the Lagrangian cycle M. What this means is
+that we consider Riemann surfaces with boundaries and ‘count’ holomorphic maps from
+the Riemann surface onto T ∗M with the condition that the boundary ends on M, and
+that each boundary gets a factor of N corresponding to which brane it ends on. Moreover
+the Chern-Simons coupling 2πi/(k + N) gets identiﬁed with topological string coupling
+constant gs. In fact there are no honest holomorphic maps from Riemann surfaces to T ∗M
+however we end up with degenerate maps which approach a holomorphic map.
+These
+degenerate maps correspond to ribbon graphs on M and in fact reproduce the Feynman
+graphs of the Chern-Simons perturbation theory.
+3.3. Open Topological String on S3 and a Large N Duality
+It was shown in [5] that for the case of M = S3, with N branes wrapping S3 there
+is an equivalent description of the open topological strings in terms of a closed topological
+string. The corresponding Calabi-Yau is obtained by a geometric transition: S3 shrinks
+to a point, leading to conifold which can be smoothed out by a small blow up leading
+to a Calabi-Yau geometry which is a total space of the bundle O(−1) ⊕O(−1) over P1.
+Moreover the K¨ahler moduli of P1 (i.e. its area) is T = Ngs = 2πiN/k + N. In other
+words
+exp(−T/2) = λ = qN
+This therefore gives a relation between Chern-Simons theory on S3 and closed topological
+strings on the resolved conifold.
+14
+
+
+--- PAGE 16 ---
+3.4. Introducing the Knots
+One can extend the above relation between Chern-Simons theory on S3 and topological
+strings on resolved conifold, to include knot observables [7]: Consider a knot K in S3. K
+deﬁnes a non-compact Lagrangian submanifold LK in T ∗S3 given by the conormal bundle.
+If we wrap M D-branes on LK we also get a Chern-Simons theory on it. We have two
+Wilson loop observables U, V on S3 and LK. Viewing V as ﬁxed, wrapping branes on LK
+deforms the Chern-Simons theory on S3 and gives a new partition function:
+Z(V, N, k) =
+X
+R
+trRV ⟨trRU⟩=
+X
+R
+(trRV )WR(K)
+The large N duality relates this to computation of topological strings on the resolved
+conifold where the branes wrapping S3 have disappeared, but the branes wrapping LK
+continue to be there. The fact that there should be such a Lagrangian LK even after the
+transition has been shown in [37]. This means that we can rewrite Z(V, N, k) in terms of
+open topological strings in this new geometry. The N and k dependence capture the K¨ahler
+moduli dependence and the string coupling constant, and the V dependence captures how
+the Riemann surface ends on LK (if a boundary wraps around the S1 ⊂LK r times it
+leads to a factor trV r). In this case the Calabi-Yau is rigid and so we can deﬁne the reﬁned
+invariants eDR,Q,s,r associated to each knot K. For the case of R =
+it is natural to expect
+this is related to sl(N) knot homology. Let us try to see if we can make this connection
+more precise.
+From the deﬁnition of open topological string amplitude and its relation to quantum
+sl(N) knot invariant (1.4) it follows that
+PN(q) =
+1
+q −q−1
+X
+Q,s,r∈ZZ
+(−1)rqNQ+s eDQ,s,r
+(3.4)
+where we also used (3.2). It is tempting in the above formula to replace (−1) by a new
+variable t and write the generating function of the reﬁned BPS degeneracies eDQ,s,r in the
+form
+1
+q −q−1
+X
+Q,s,r∈ZZ
+eDQ,s,rqNQ+str
+(3.5)
+We expect, that there is a similar expression for the graded Poincar´e polynomial of the
+sl(N) homological invariant in terms of some integers DQ,s,r, cf. (1.8):
+KhN(q, t) =
+1
+q −q−1
+X
+Q,s,r∈ZZ
+DQ,s,rqNQ+str
+(3.6)
+15
+
+
+--- PAGE 17 ---
+where DQ,s,r obey
+N
+,Q,s =
+X
+r∈ZZ
+(−1)rDQ,s,r
+(3.7)
+The above statement, if true, would give a highly non-trivial prediction for the N-
+dependence of the homological sl(N) invariants. In fact, we ﬁnd this dependence is satisﬁed
+in all the examples we have checked, as will be discussed in the next section.
+Although we do not claim that the generating functions (3.5) and (3.6) need to be
+equal, we expect a simple relation between the reﬁned BPS invariants, DQ,s,r, and their
+physical counterparts, eDQ,s,r. Indeed, in the examples considered below, one can recognize
+contributions of genus-g curves of the form
+X
+s,r
+DQ,s,rqstr = (−1)g(qt
+1
+2 + q−1t−1
+2 )2gtαKQ
+(3.8)
+where αK is some simple invariant of the knot K. Comparing this expression with (3.1)
+and (3.3), one can interpret such terms either as contributions of isolated curves, in which
+case PMGeom(t) = 1, or as contributions8 of genus-g curves with PMGeom(t) = tαKQ. In
+the ﬁrst case, we expect the extra factor of tαKQ to come from the change of basis for
+(Q, s, r) in the relation between DQ,s,r and eDQ,s,r:
+DQ,s,r = eDQ,s,r−αKQ
+(3.9)
+This change of basis would be very natural in a relation between two graded homology
+theories. Notice, it does not aﬀect the N-dependence of (3.5) - (3.6) which is true even
+without such a shift. It would be important to understand this change of basis more deeply.
+It is tempting to speculate that this is related to replacing the sl(N) knot homology with
+a gl(N) version, as the corresponding Chern-Simons theory related to topological strings
+is the U(N) version and not the SU(N) version.
+On the other hand, if we interpret (3.8) as a contribution of genus-g curve with
+PMGeom(t) = tαKQ, there is no need for the change of basis r →r −αKQ, and we can
+simply identify DQ,s,r = eDQ,s,r.
+8 Such contributions can arise if there is a non-trivial monodromy.
+16
+
+
+--- PAGE 18 ---
+4. Examples
+4.1. The Unknot
+The conjecture (1.8) automatically holds for the unknot, the only knot for which all
+the sl(N) knot homology groups are known at present.
+Indeed, for the unknot, the sl(N) knot cohomology coincides with its graded Euler
+characteristic (1.3) (since all the non-trivial groups Hi,j
+N (unknot) are only in degree i = 0).
+Therefore, the graded Poincar´e polynomial manifestly obeys the relation (1.8),
+KhN(q, t) =
+1
+q −q−1
+X
+Q,s,r
+DQ,s,rqNQ+str
+with non-zero invariants
+D−1,0,0 = −1,
+D1,0,0 = 1
+(4.1)
+Notice, that, in the case of the unknot, the moduli spaces Mg,Q are isolated points when
+Q = 1 and Q = −1, cf. (2.9). These are precisely the values of Q for which we ﬁnd
+non-trivial invariants (4.1). Moreover, for each value of Q, the invariants (4.1) have the
+structure (3.3) consistent with a contribution of an isolated curve with g = 0.
+Let us consider the explicit form of the sl(N) cohomology groups for the unknot. For
+example, for N = 4 we have
+Hi,j
+N=4 :
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Q
+0
+Q
+0
+Q
+0
+Q
+0
+0
+0
+(4.2)
+where the vertical direction represents the index i, while the horizontal direction represents
+the grading j. In general, the complex H•
+N(unknot) has N non-trivial elements. On the
+other hand, the complex (1.7) obtained from (4.2) has only two non-trivial elements,
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+⊖Q
+0
+0
+0
+0
+0
+0
+0
+Q
+0
+0
+(4.3)
+where we used the equivalence Q ⊖Q ∼= 0.
+17
+
+
+--- PAGE 19 ---
+4.2. The Trefoil Knot
+In this case, the complex (1.7) has six non-trivial elements9. Similarly, there are only
+six non-zero BPS invariants N
+,Q,s for the following values of (Q, s):
+(1, −2),
+(3, −2),
+(1, 2),
+(3, 0),
+(3, 2),
+(5, 0)
+(4.5)
+It is natural to expect that each of the non-zero BPS invariants comes from a single
+cohomology group which, in turn, corresponds to a particular element in (1.7) with the
+same value of (Q, s):
+N
+,Q,s = (−1)rDQ,s,r
+(4.6)
+Notice, there is no summation over r in this formula. There is a unique choice of such
+DQ,s,r consistent with the sl(2) homological invariant (2.20):
+D3,−2,0 = 1,
+D3,0,2 = 1,
+D5,0,3 = 1,
+D1,−2,0 = −1,
+D1,2,2 = −1,
+D3,2,3 = −1
+(4.7)
+Given these numbers, one can use (1.8) to compute all sl(N) cohomology groups for the
+trefoil knot. For example, substituting (4.7) into (1.8) we ﬁnd the following homological
+sl(3) invariant:
+KhN=3(31) = q2 + q4 + q6 + q6t2 + q8t2 + q12t3 + q14t3
+(4.8)
+Remarkably, this result is in perfect agreement with the one obtained using the technique
+of foams10 [16]. For the sl(4) and sl(5) homology, we predict
+KhN=4(31) = q3 + q5 + q7 + q9 + q7t2 + q9t2 + q11t2 + q15t3 + q17t3 + q19t3
+(4.9)
+9 For example, for N = 2 it has the form
+3 |
+⊖Q
+Q
+2 |
+⊖Q
+Q
+1 |
+0 |
+⊖Q
+Q
++
+−0−
+−1−
+−2−
+−3−
+−4−
+−5−
+−6−
+−7−
+−8−
+−9−
+−10−
+→j
+(4.4)
+where the vertical (resp. horizontal) direction represents index i (resp. index j) and we used
+Q ⊖Q ∼= 0.
+10 We thank M. Khovanov for explanations and very helpful discussions on the “computational
+shortcuts” used in these computations.
+18
+
+
+--- PAGE 20 ---
+KhN=5(31) = q4+q6+q8+q10+q12+q8t2+q10t2+q12t2+q14t2+q18t3+q20t3+q22t3+q24t3
+(4.10)
+We note that, the structure of the reﬁned integer invariants (4.7) for Q = 1 and Q = 5
+has the form (3.8) consistent with a contribution of genus-g curves. For example, for Q = 1
+we have
+X
+s,r
+DQ,s,rqstr = t
+h
+−(q−1t−1/2 + qt1/2)2 + 2
+i
+(4.11)
+which corresponds to a contribution of curves with g = 0 and g = 1. This is a strong
+evidence suggesting that embedding the knot homology in our physical setup is indeed
+correct. Moreover, since both terms in (4.11) have an extra factor of t, it also suggests,
+though not conclusively, that these curves are isolated and that we indeed have an aﬃne
+change of basis in comparing knot homology with BPS spectrum, as discussed in the
+previous section. It would be extremely interesting to consider the Lagrangian D-brane
+associated to the trefoil and check whether or not there are isolated curves with Q = 1
+and g = 0, 1 ending on it.
+We ﬁnd similar contributions of genus-g curves for other torus knots, T2,2m+1, where
+the maximal genus of such curves grows linearly with the number of crossings, gmax = m.
+Again, these examples suggest that, in order to compare the invariants DQ,s,r with the
+physical BPS degeneracies eDQ,s,r, one has to make a change of basis, r →r −Q/2. Note
+that in the case of the unknot we did not have to change the basis. This suggests that the
+change of basis involves a simple knot invariant αK, cf. (3.9).
+4.3. The Knot 51
+Following the same reasoning as in the previous example, we consider the set of values
+(Q, s) which correspond to non-zero integer invariants N
+,Q,s:
+(3, 0),
+(3, −4),
+(3, 4),
+(5, 0),
+(5, −2),
+(5, 2),
+(5, −4),
+(5, 4),
+(7, −2),
+(7, 2)
+(4.12)
+Again, following the natural assumption that these are the values of (Q, s) which corre-
+spond to non-trivial elements in (1.7), we can ﬁnd the invariants DQ,s,r which encode the
+sl(N) homological invariants,
+D5,−4,0 = 1,
+D5,−2,2 = 1,
+D7,−2,3 = 1,
+D5,2,4 = 1,
+D7,2,5 = 1,
+D3,−4,0 = −1,
+D3,0,2 = −1,
+D5,0,3 = −1,
+D3,4,4 = −1,
+D5,4,5 = −1
+(4.13)
+19
+
+
+--- PAGE 21 ---
+Given these numbers, one can use (1.8) to compute all sl(N) cohomology groups for the
+knot 51. For example, in the case N = 3 we get
+KhN=3(51) = q6+q8+q10+q10t2+q12t2+q16t3+q18t3+q14t4+q16t4+q20t5+q22t5 (4.14)
+Again, this result is in a perfect agreement with the sl(3) knot homology computed using
+the technique of foams [16]. It would be interesting to check the other sl(N) knot homology
+groups that follow from (4.13).
+It is easy to generalize these examples to arbitrary torus knots T2,2m+1. For every
+torus knot T2,2m+1, we ﬁnd a complete agreement between our predictions based on (1.8)
+and the sl(3) knot homology groups computed using the technique of web cobordisms (the
+details will be discussed elsewhere [38]).
+5. Generalizations
+The proposed relation between the knot cohomology and the spectrum of BPS states
+leads to non-trivial predictions for both knot theory and physics. Apart from the com-
+putational predictions, examples of which we discussed in the previous section, there are
+interesting generalizations suggested by this relation. For example, it suggests that there
+should exist a categoriﬁcation of more general knot invariants associated with arbitrary
+representations of sl(N), not just the fundamental representation. Similarly, since knot co-
+homology can be deﬁned over arbitrary ground ﬁelds, including ﬁnite number ﬁelds, there
+should exist corresponding physical realizations in terms of BPS states. This would be in-
+teresting to study further. Also, it would be very exciting to ﬁnd a combinatorial deﬁnition
+of the integer invariants DQ,s,r, and of their generalizations to other representations.
+The formulation of the sl(N) homological invariant in terms of the reﬁned BPS in-
+variants DQ,s,r can also be extended to links. Let L be an oriented link in S3 with ℓ
+components, K1, . . ., Kℓ, all of which carry a fundamental representation of sl(N). As in
+(1.1), the expectation value of the corresponding Wilson loop operator W(L) = W
+,···, (L)
+is related to the polynomial sl(N) invariant, with a minor modiﬁcation,
+PN(L) = q−2Nlk(L)⟨W(L)⟩
+(5.1)
+where lk(L) = P
+a<b lk(Ka, Kb) is the total linking number of L.
+The formulation of
+PN(L) in terms of integer BPS invariants also needs some modiﬁcation [8]. Namely, in our
+notations,
+⟨W(L)⟩(c) = (q−1 −q)ℓ−2 X
+Q,s
+N(
+,···,
+),Q,sqNQ+s
+(5.2)
+20
+
+
+--- PAGE 22 ---
+where ⟨W(L)⟩(c) is the connected correlation function. For example, for a two-component
+link, we have
+⟨W(L)⟩(c) = ⟨W(L)⟩−⟨W(K1)⟩⟨W(K2)⟩
+(5.3)
+and
+PN(L) = q−2Nlk(L)h
+PN(K1)PN(K2) +
+X
+Q,s
+N(
+,
+),Q,sqNQ+si
+(5.4)
+where PN(K1) and PN(K2) denote the sl(N) polynomials of the link components.
+We wish to write a similar expression for the graded Poincar´e polynomial KhN(L)
+in terms of integer invariants DQ,s,r(L). Because of the corrections involving the sl(N)
+invariants of the sublinks, this formulation is less obvious than in the case of knots. For
+example, for a two-component link L, we ﬁnd, cf. (1.8),
+KhN(L) = q−2Nlk(L)h
+tαKhN(K1)KhN(K2) +
+1
+q −q−1
+X
+Q,s,r∈ZZ
+DQ,s,rqNQ+stri
+(5.5)
+where α is a simple invariant of L, and the integer invariants DQ,s,r and N(
+,
+),Q,s are
+related as follows:
+N(
+,
+),Q,s−1 −N(
+,
+),Q,s+1 =
+X
+r∈ZZ
+(−1)rDQ,s,r
+(5.6)
+Notice, this relation is quite diﬀerent from what we had in the case of knots, cf. (1.9).
+The ﬁrst term in (5.5) is similar to the ﬁrst term in (5.4). In order to understand
+the structure of the second term, note that the factor (q−1 −q)ℓ−2 in (5.2) is a product
+of two terms, (q−1 −q)−1 and (q−1 −q)ℓ−1, which have diﬀerent origin and should be
+treated diﬀerently. The ﬁrst term, (q−1 −q)−1, comes from the Schwinger computation [7]
+and remains intact once PN(L) is lifted to the homological sl(N) invariant. On the other
+hand, the factor (q−1 −q)ℓ−1 is similar to the contribution of a genus-g curve, (q−1 −q)2g,
+discussed in section 3.
+In the homological sl(N) invariant this factor is replaced by a
+polynomial expression in q±1 and t±1. Applying the same logic to (5.2) gives the second
+term in (5.5).
+Acknowledgments
+We would like to thank D. Bar-Natan, R. Dijkgraaf, M. Gross, K. Intriligator, A. Ka-
+pustin, M. Khovanov, A. Klemm, M. Mari˜no, H. Ooguri, J. Roberts and D. Thurston for
+21
+
+
+--- PAGE 23 ---
+useful discussions. S.G. would also like to thank the Caltech Particle Theory Group for
+kind hospitality. The work of A.S. is supported by NSF grant DMS-0204927. This work
+was conducted during the period S.G. served as a Clay Mathematics Institute Long-Term
+Prize Fellow. S.G. is also supported in part by RFBR grant 04-02-16880. The work of
+C.V. is supported in part by NSF grants PHY-0244821 and DMS-0244464.
+Note added: A preliminary version of the present work was presented by one of us
+(S.G.) at Caltech and UCSD seminars in October 2004. Since then, there have been some
+interesting developments which provide additional support for the conjecture (1.8), see
+e.g. [39] for independent computations of the Khovanov-Rozansky homology in some of
+the examples considered here (see also [38]).
+22
+
+
+--- PAGE 24 ---
+Appendix A. HOMFLY Polynomial for Some Knots
+Let us list the polynomial invariant f (q, λ) for some simple knots:
+f (31) = λq−2 + q2λ −λ3 −λ3q−2 −q2λ3 + λ5
+q−1 −q
+f (41) = λ−3 −λ−1q−2 −q2λ−1 + λq−2 + λq2 −λ3
+q−1 −q
+f (51) = λ3 + λ3q−4 + q4λ3 −λ5 −λ5q−4 −λ5q−2 −q2λ5 −q4λ5 + λ7q−2 + q2λ7
+q−1 −q
+f (61) = λ−3 + λ−1 −q−2λ−1 −q2λ−1 −λ + λ3q−2 + q2λ3 −λ5
+q−1 −q
+According to (2.6), the polynomial f (q, λ) can be viewed as a generating function of the
+BPS invariants b
+N
+,g,Q (or N
+,Q,s). Notice, that the BPS invariants for the knots 31, 41,
+and 61 obey a simple relation,
+b
+N
+,g,Q(31) −b
+N
+,g,Q(41) + b
+N
+,g,Q(61) = b
+N
+,g,Q(unknot)
+(A.1)
+Appendix B. sl(2) Knot Homology for Some Knots
+Here, following [18], we list Khovanov’s sl(2) invariants, Kh2(L), for some simple knots:
+Kh2(31) = q + q3 + q5t2 + q9t3
+Kh2(41) = q + q−1 + q−1t−1 + qt + q−5t−2 + q5t2
+Kh2(51) = q3 + q5 + q7t2 + q11t3 + q11t4 + q15t5
+Kh2(52) = q + q3 + q3t + q5t2 + q7t2 + q9t3 + q9t4 + q13t5
+Kh2(61) = 2q−1 + q−1t−1 + q−5t−2 + q + qt + q3t + q5t2 + q5t3 + q9t4
+Kh2(71) = q5 + q7 + q9t2 + q13t3 + q13t4 + q17t5 + q17t6 + q21t7
+Notice, that the sl(2) homological invariants for the knots 31, 41 and 61 are closely related:
+Kh2(31) −Kh2(41) + Kh2(61) =q + q−1
++ q3(1 + t) + q5(t2 + t3) + q9(t3 + t4)
+(B.1)
+The right-hand side of this expression evaluated at t = −1 gives Kh2(unknot), in agreement
+with (A.1).
+23
+
+
+--- PAGE 25 ---
+References
+[1]
+A. Schwarz, “New topological invariants arising in the theory of quantized ﬁelds,”
+Baku International Topological Conf., Abstracts (part II) (1987).
+[2]
+E. Witten, “Quantum Field Theory And The Jones Polynomial,” Commun. Math.
+Phys. 121, 351 (1989).
+[3]
+P. Freyd, D. Yetter, J. Hoste, W. Lickorish, K. Millett, A. Oceanu, “A New Polynomial
+Invariant of Knots and Links,” Bull. Amer. Math. Soc. 12 (1985) 239.
+[4]
+E. Witten, “Chern-Simons gauge theory as a string theory,” Prog. Math. 133 (1995)
+637, hep-th/9207094.
+[5]
+R. Gopakumar and C. Vafa, “On the gauge theory/geometry correspondence,” Adv.
+Theor. Math. Phys. 3 (1999) 1415, hep-th/9811131.
+[6]
+R. Gopakumar and C. Vafa, “M-theory and topological strings. I,II,” hep-th/9809187;
+hep-th/9812127.
+[7]
+H. Ooguri, C. Vafa, “Knot Invariants and Topological Strings,” Nucl.Phys. B577
+(2000) 419.
+[8]
+J. M. F. Labastida, M. Marino and C. Vafa, “Knots, links and branes at large N,”
+JHEP 0011, 007 (2000), hep-th/0010102.
+[9]
+S. Hosono, M.-H. Saito, A. Takahashi, “Holomorphic Anomaly Equation and BPS
+State Counting of Rational Elliptic Surface,” Adv.Theor.Math.Phys. 3 (1999) 177.
+[10]
+S. Hosono, M.-H. Saito, A. Takahashi, “Relative Lefschetz Action and BPS State
+Counting,” Internat. Math. Res. Notices, (2001), No. 15, 783.
+[11]
+S. Katz, A. Klemm and C. Vafa, “M-theory, topological strings and spinning black
+holes,” Adv. Theor. Math. Phys. 3 (1999) 1445, hep-th/9910181.
+[12]
+D. Maulik, N. Nekrasov, A. Okounkov, R. Pandharipande, “Gromov-Witten theory
+and Donaldson-Thomas theory, I,” math.AG/0312059.
+[13]
+S. Katz, “Gromov-Witten, Gopakumar-Vafa, and Donaldson-Thomas invariants of
+Calabi-Yau threefolds,” math.ag/0408266.
+[14]
+M. Khovanov, “A categoriﬁcation of the Jones polynomial,” math.QA/9908171.
+[15]
+M. Khovanov, “Categoriﬁcations of the colored Jones polynomial,” math.QA/0302060.
+[16]
+M. Khovanov, “sl(3) link homology I,” math.QA/0304375.
+[17]
+M. Khovanov, L. Rozansky, “Matrix factorizations and link homology,” math.QA/0401268.
+[18]
+D. Bar-Natan, “On Khovanov’s categoriﬁcation of the Jones polynomial,” math.QA/0201043.
+[19]
+M. Khovanov, “An invariant of tangle cobordisms,” math.QA/0207264.
+[20]
+M. Jacobsson, “An invariant of link cobordisms from Khovanov’s homology theory,”
+math.GT/0206303.
+[21]
+A. Shumakovitch, KhoHo — a program for computing and studying Khovanov ho-
+mology, http://www.geometrie.ch/KhoHo
+24
+
+
+--- PAGE 26 ---
+[22]
+T. J. Hollowood, A. Iqbal and C. Vafa, “Matrix models, geometric engineering and
+elliptic genera,” hep-th/0310272.
+[23]
+J. M. F. Labastida and M. Marino, “Polynomial invariants for torus knots and topo-
+logical strings,” Commun. Math. Phys. 217 (2001) 423, hep-th/0004196.
+[24]
+J. M. F. Labastida and M. Marino, “A new point of view in the theory of knot and
+link invariants,” math.qa/0104180.
+[25]
+H. Murakami, T. Ohtsuki, S. Yamada, “HOMFLY polynomial via an invariant of
+colored plane graphs,” Enseign. Math. 44 (1998) 325.
+[26]
+P. S. Aspinwall, “D-branes on Calabi-Yau manifolds,” hep-th/0403166.
+[27]
+M. Kontsevich, unpublished.
+[28]
+A. Kapustin and Y. Li, “D-branes in Landau-Ginzburg models and algebraic geome-
+try,” JHEP 0312 (2003) 005, hep-th/0210296.
+[29]
+D. Orlov, “Triangulated Categories of Singularities and D-Branes in Landau-Ginzburg
+Orbifold,” math.AG/0302304.
+[30]
+I. Brunner, M. Herbst, W. Lerche and B. Scheuner, “Landau-Ginzburg realization of
+open string TFT,” hep-th/0305133.
+[31]
+S. K. Ashok, E. Dell’Aquila and D. E. Diaconescu, “Fractional branes in Landau-
+Ginzburg orbifolds,” hep-th/0401135.
+[32]
+S. K. Ashok, E. Dell’Aquila, D. E. Diaconescu and B. Florea, “Obstructed D-branes
+in Landau-Ginzburg orbifolds,” hep-th/0404167.
+[33]
+K. Hori and J. Walcher, “F-term equations near Gepner points,” hep-th/0404196.
+[34]
+I. Brunner, M. Herbst, W. Lerche and J. Walcher, “Matrix factorizations and mirror
+symmetry: The cubic curve,” hep-th/0408243.
+[35]
+“Mirror Symmetry” (Clay Mathematics Monographs, V. 1), K. Hori et.al. ed, Amer-
+ican Mathematical Society, 2003.
+[36]
+A. Schwarz and I. Shapiro, “Some remarks on Gopakumar-Vafa invariants,” hep-
+th/0412119.
+[37]
+C. Taubes, “Lagrangians for the Gopakumar-Vafa conjecture,” math.DG/0201219.
+[38]
+N. Dunﬁeld, S. Gukov, J. Rasmussen, “The Superpolynomial for Knot Homologies,”
+math.GT/0505662.
+[39]
+D. Bar-Natan, “Some Khovanov-Rozansky Computations” ;
+http://www.math.toronto.edu/ drorbn/Misc/KhovanovRozansky/index.html
+25

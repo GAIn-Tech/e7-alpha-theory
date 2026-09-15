@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/acloc.html",
+      "title": "HyperPhysics Atomic Clocks",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Very accurate clocks can be constructed by locking an electronic oscillator to the frequency of an atomic transition.",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/pdf/2305.08263",
+      "title": "Kim: On one-loop corrected dilaton action, retained v4",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "where V is a string-frame Calabi-Yau volume",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "w go back to heterotic string compactiﬁcation to understand the loop\ncorrection to the K¨ahler potential. Let us ﬁrst study the eﬀective action at the string-\ntree level. We will momentarily suppress the Chern-Simons form. At string tree-level,\nthe K¨ahler potential in terms of L, which is the 4d dilaton multiplet in heterotic\ncompactiﬁcation on a Calabi-Yau threefold X3, is given as\nK(S, ¯S, L) = K(S, ¯S) + log L .\n(3.45)\nSimilarly, the prepotential F is given as\nF = 2\n3 .\n(3.46)\nThe kinetic term of the linear multiplet is then given as\n−1\n4κ2\nZ\nd4x 1\nl2(∂l)2 + . . . .\n(3.47)\nNow let us dualize the ﬁeld L into S0. We write the solution of (3.44) as\nL =\n2\n(S0 + ¯S0) .\n(3.48)\nIn the dual formalism, the K¨ahler potential for moduli ﬁelds is now written as a more\nfamiliar form\nK(S, ¯S, S0 + ¯S0) = K(S, ¯S) −log(S0 + ¯S0) ,\n(3.49)\nwhere the scalar component of S0 is\ns0 = e−2φV + i\nZ\nX3\nB6 ,\n(3.50)\n21\n\nwhere V is a string-frame Calabi-Yau volume, and φ is the 10d dilaton. As one can\nsee, the scalar component of S0 scales as g−2\ns , whereas the scalar component of L scales\nas g2\ns.\nNow let us consider string one-loop correction to the eﬀective action.\nAs the\nstring one-loop contribution must be suppressed by g2\ns compared to the string",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "ergravity action in terms of chiral multiplets S0 and S.\nWe shall now go back to heterotic string compactiﬁcation to understand the loop\ncorrection to the K¨ahler potential. Let us ﬁrst study the eﬀective action at the string-\ntree level. We will momentarily suppress the Chern-Simons form. At string tree-level,\nthe K¨ahler potential in terms of L, which is the 4d dilaton multiplet in heterotic\ncompactiﬁcation on a Calabi-Yau threefold X3, is given as\nK(S, ¯S, L) = K(S, ¯S) + log L .\n(3.45)\nSimilarly, the prepotential F is given as\nF = 2\n3 .\n(3.46)\nThe kinetic term of the linear multiplet is then given as\n−1\n4κ2\nZ\nd4x 1\nl2(∂l)2 + . . . .\n(3.47)\nNow let us dualize the ﬁeld L into S0. We write the solution of (3.44) as\nL =\n2\n(S0 + ¯S0) .\n(3.48)\nIn the dual formalism, the K¨ahler potential for moduli ﬁelds is now written as a more\nfamiliar form\nK(S, ¯S, S0 + ¯S0) = K(S, ¯S) −log(S0 + ¯S0) ,\n(3.49)\nwhere the scalar component of S0 is\ns0 = e−2φV + i\nZ\nX3\nB6 ,\n(3.50)\n21\n\nwhere V is a string-frame Calabi-Yau volume, and φ is the 10d dilaton. As one can\nsee, the scalar component of S0 scales as g−2\ns , whereas the scalar component of L scales\nas g2\ns.\nNow let us consider string one-loop correction to the eﬀective action.\nAs the\nstring one-",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "term of the linear multiplet is given by\n1\n4κ2\nZ\nd4x ˜KLL(∂l)2 ,\n(3.53)\nthe string one-loop corrected kinetic term is in general written as\n−1\n4κ2\nZ\nd4x1 + G(S, ¯S)l\nl2\n(∂l)2 .\n(3.54)\nAs we concluded in the previous section, G(S, ¯S) vanishes identically, and the dilaton\nkinetic term is not renormalized at one-loop.\nDoes it mean that the kinetic term of the dilaton multiplet as a chiral multiplet\nis not renormalized at string one-loop? As we previously mentioned numerous times,\nthe answer is no. We shall dualize the linear multiplet L to S0, using the constraint\nequation\nS0 + ¯S0\n9\n= 1\n3L\n\u00122\n3 + V (S, ¯S)L\n\u0013\n−V (S, ¯S) .\n(3.55)\nTherefore, the linear superﬁeld L is related to S0 + ¯S0 as\nL =\n2\nS0 + ¯S0 + 6V (S, ¯S) .\n(3.56)\nPlugging the solution (3.56) back to the action, we obtain that the K¨ahler potential\nfor the chiral multiplet S0 is simply\nK = K(S, ¯S) −log(S0 + ¯S0 + 6V (S, ¯S)) ,\n(3.57)\nwhich indeed contains the string-loop correction\nδK = −6V (S, ¯S)\nS0 + ¯S0\n.\n(3.58)\n22\n\nWe now observed that there is no contradiction between what we found in the\nprevious section, and the well known result that there is indeed a non-vanishing string\none-loop correction to the K¨ahler potential in 4d N = 1 compactiﬁcations of heterotic\nstri",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "π2 log M2\npl\nµ2 + ca\n16π2K+T(Ga)\n8π2\nlog g−2\na (µ)−\nX\nr\nTa(r)\n8π2 log det Z(r)(µ2) ,\n(3.75)\nwhere K is the tree-level moduli K¨ahler potential, Z(r) is the tree-level matter kinetic\nterm in an irreducible representation r,\nca =\nX\nTa(r) −T(Ga) ,\n(3.76)\nand\nba =\nX\nTa(r) −3T(G) .\n(3.77)\nWe can relate the Planck mass to the string mass scale by using\nM2\npl = M2\nst Re S ,\n(3.78)\nto rewrite the KL formula as\n1\ng2a(µ) = ka Re S +\nba\n16π2 log M2\nst\nµ2 + Re f (1)\na\n16π2\n+\nca\n16π2 ˆK −\nX\nr\nTa(r)\n8π2 log det Z(tree)\n(r)\n, (3.79)\n25\n\nwhere ˆK is deﬁned as\nˆK := K + log(S + ¯S) .\n(3.80)\nThe ﬁeld theoretical threshold correction then can be obtained by identifying the\nﬁeld theoretical KL formula with the stringy threshold computation\n1\ng2\na(µ) =\n1\ng2\na(Mst) +\nba\n16π2 log M2\nst\nµ2 + ∆a\n16π2 ,\n(3.81)\nwhere the gauge coupling at string scale at one-loop is deﬁned as\n1\ng2a(Mst) = ka Re S +\nka\n16π2∆univ .\n(3.82)\nWe identify (3.81) with (3.79) to obtain the formula we were after\n∂φ ¯∂¯φ ˜∆a = ∂φ ¯∂¯φ\n \ncaK −\nX\nr\n2Tra(r) log det Ztree\n(r)\n!\n.\n(3.83)\nWe are not quite done yet, because we need to understand how ˜∆a is related to\nthe Green-Schwarz term. To relate ˜∆a to the Green-Schwarz term that parametrizes\nthe string one-loop correction to the K¨ahle",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/0905.1748",
+      "title": "Anderson et al: Stability Walls in Heterotic Theories",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "The usual K",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "U(1) implies the well-known dilaton-dependent FI term [11, 13], the present non-universal case\nleads to a T -dependent FI term [14] at leading order. We will now derive this FI term explicitly.\n4.3\nThe four dimensional potential\nThe potential of an N = 1 supersymmetric theory contains two types of contribution: those from D and\nF-terms. As we will see later, F-terms are less relevant in our context, so we focus on D-terms and their\nassociated potential. To do this, we need to know the K¨ahler potential of the ﬁelds involved. Having deferred\nloop corrections to Chapter 6, we concentrate here on the leading order which only involves the T -moduli\nT i = ti +2iχi and the singlet matter ﬁelds CL. We will work in the usual approximation keeping only leading\nterms in CL and in inverse powers of the T -moduli. The usual K¨ahler potential for the T -moduli is given by\nκ2\n4KT = −ln V ,\nV = 1\n6K ,\n(4.12)\nwhere V is the Calabi-Yau volume and K is the cubic polynomial\nK = dijktitjtk = 1\n8dijk(T i + ¯T i)(T j + ¯T j)(T k + ¯T k) .\n(4.13)\nThe CL part of the K¨ahler potential has the form\nKmatter = GLMCL ¯CM .\n(4.14)\nHere GLM is the matter ﬁeld space metric, which depends on the various moduli in the theory. The precise\nform of this metric will n",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "t leading order. We will now derive this FI term explicitly.\n4.3\nThe four dimensional potential\nThe potential of an N = 1 supersymmetric theory contains two types of contribution: those from D and\nF-terms. As we will see later, F-terms are less relevant in our context, so we focus on D-terms and their\nassociated potential. To do this, we need to know the K¨ahler potential of the ﬁelds involved. Having deferred\nloop corrections to Chapter 6, we concentrate here on the leading order which only involves the T -moduli\nT i = ti +2iχi and the singlet matter ﬁelds CL. We will work in the usual approximation keeping only leading\nterms in CL and in inverse powers of the T -moduli. The usual K¨ahler potential for the T -moduli is given by\nκ2\n4KT = −ln V ,\nV = 1\n6K ,\n(4.12)\nwhere V is the Calabi-Yau volume and K is the cubic polynomial\nK = dijktitjtk = 1\n8dijk(T i + ¯T i)(T j + ¯T j)(T k + ¯T k) .\n(4.13)\nThe CL part of the K¨ahler potential has the form\nKmatter = GLMCL ¯CM .\n(4.14)\nHere GLM is the matter ﬁeld space metric, which depends on the various moduli in the theory. The precise\nform of this metric will not be needed but it will be important that it is positive deﬁnite.\nWe now have all of the information we require to compute the D-ter",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://arxiv.org/pdf/2401.15078",
+      "title": "Butbaia et al: Physical Yukawa Couplings",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "The low-energy effective action of an N = 1 theory is written as",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://tf.nist.gov/general/pdf/2295.pdf",
+      "title": "Lorini: Recent atomic clock comparisons",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "physical studies mentioned above attain\nexquisite sensitivity to small temporal changes in α, for example, by looking far back in time, to\nphysics phenomena that happened long ago. The prominent examples include the 109",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "nction of a non-relativistic part, which depends only on\nthe structure involved in the transition, and a relativistic part Fj(α), which depends on the\nspeciﬁc transition j that is considered. Thus the transition frequencies can be written in the\nfollowing manner:\nνj(el) = RyFj(α)\nνj(FS) = α2RyFj(α)\nνj(HFS) = α2 µ\nµB\nRyFj(α),\n(7)\nwhere Ry is the Rydberg constant,\nµ\nµB is the ratio between the magnetic moment of the nucleus µ\nand the Bohr magneton µB. The theory and the notation used here come from [51–53]. Relative\nsensitivity of νj(el) and νj(HFS) with respect to a temporal variation of fundamental constants\n\nAtomic Clocks and Fundamental Constants\n31\ncan be written taking the logarithm and then diﬀerentiating with respect to the time the ﬁrst\nand the third term of equation (7):\nd ln νj(el)\ndt\n= d ln Ry\ndt\n+ Nj\nd ln α\ndt\nd ln νj(HFS)\ndt\n= d ln Ry\ndt\n+ d ln(µ/µB)\ndt\n+ (2 + Nj)d ln α\ndt\n,\n(8)\nwhere Nj in equation (8) is deﬁned as Nj = d ln Fj(α)\nd ln α\n.\nTemporal variation of Ry is common to all transition frequencies and its contribution is\nremoved from frequency ratio measurements. The term Nj contains the dependence of the\nspeciﬁc transition involved; it can be either positive or negative, and tends to be larger for\ntransitions i",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "evaluation is actually dependent on the nuclear model\nused, which cannot provide an accuracy consistent with the measurements. Recently, a diﬀerent\nparametrization has been proposed in [58], where the magnetic moments have been written in\nterms of the parameters Xe = (me/ΛQCD) and Xq = (mq/ΛQCD) where me is the mass of the\nelectron, mq is the mass of the quark and ΛQCD is the quantum chromodinamic scale.\nThe measurement of the frequency ratio of Al+ to Hg+ provides a cleaner temporal\nconstraint on ˙α/α because it is a direct frequency ratio and does not involve the Cs metric\nand nuclear magnetic moments. The sensitivity on ˙α/α given by the Al+ to Hg+ ratio is also\nhigh, owing to the large negative relativistic contribution for Hg+ and the unprecedented accu-\nracy of the measurement data. From equation (9), temporal variation of Al+ to Hg+ becomes:\nd\ndt\n\u0001\nνAl+\nνHg+\n\u0002\nνAl+\nνHg+\n= ˙α\nαN,\n(12)\nwhere N = NHg+ −NAl+ ≈−3.2 and NAl+ ≈0. For the evaluation of ˙α/α, measurements\ndata reported in ﬁgure 7(b) were condensed in ﬁve points, spanning from December 2006 to\nDecember 2007.\nThe line connecting the two extreme points provides the following constraint [32]:\nd\ndt ln\n\u0003 νAl+\nνHg+\n\u0004\n= (−5.3 ± 7.9) · 10−17 yr−1,\n(13)\nwhich oﬀers a ten-fol",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

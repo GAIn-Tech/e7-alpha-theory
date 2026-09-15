@@ -1,0 +1,664 @@
+=== PDF PAGE 1 ===
+arXiv:hep-ph/0511256v2  5 Dec 2005
+SHEP–05–35
+Exceptional Supersymmetric Standard Model
+S. F. King1, S. Moretti2, R. Nevzorov3 4
+School of Physics and Astronomy, University of Southampton,
+Southampton, SO17 1BJ, U.K.
+Abstract
+We discuss some phenomenological aspects of an E6 inspired supersymmetric stan-
+dard model with an extra U(1)N gauge symmetry under which right-handed neutri-
+nos have zero charge, allowing a conventional see-saw mechanism. The µ problem is
+solved in a similar way to the NMSSM, but without the accompanying problems of
+singlet tadpoles or domain walls. The above exceptional supersymmetric standard
+model (ESSM) involves the low energy matter content of three 27 representations
+of E6, which is broken at the GUT scale, and allows gauge coupling uniﬁcation due
+to an additional pair of Higgs-like doublets. The ESSM predicts a Z′ boson and
+exotic quarks which, if light enough, will provide spectacular new physics signals at
+the LHC. We study the LHC phenomenology of the Z′ and extra quarks, including
+their production and decay signatures particular to the ESSM. We also discuss the
+two-loop upper bound on the mass of the lightest CP-even Higgs boson, and show
+that it can be signiﬁcantly heavier than in either the MSSM or the NMSSM.
+1E-mail: sfk@hep.phys.soton.ac.uk.
+2E-mail: stefano@hep.phys.soton.ac.uk.
+3E-mail: nevzorov@phys.soton.ac.uk.
+4On leave of absence from the Theory Department, ITEP, Moscow, Russia.
+
+=== PDF PAGE 2 ===
+1.
+Introduction
+The minimal supersymmetric standard model (MSSM) provides a very attractive super-
+symmetric extension of the standard model (SM) in which the superpotential contains
+the bilinear term µHdHu, where Hd,u are the two Higgs doublets which develop vacuum
+expectation values (VEVs) at the weak scale and µ is the supersymmetric Higgs mass pa-
+rameter which can be present before SUSY is broken. However, despite its attractiveness,
+the MSSM suﬀers from the µ problem: one would naturally expect µ to be either zero or
+of the order of the Planck scale, while, in order to get the correct pattern of electroweak
+symmetry breaking (EWSB), µ is required to be in the TeV range. The next-to-minimal
+supersymmetric standard model (NMSSM) is an attempt to solve the µ problem of the
+MSSM by generating the aforementioned term dynamically as the low energy VEV of a
+singlet ﬁeld S via the interaction λSHdHu. In order to avoid a low energy global U(1)
+symmetry, the superpotential is also supplemented by a trilinear term S3. However the
+superpotential of the NMSSM remains invariant under a discrete Z3 symmetry which,
+when broken at the weak scale, leads to the formation of domain walls in the early uni-
+verse, which are inconsistent with modern cosmology. In an attempt to break the Z3
+symmetry, operators suppressed by powers of the Planck scale could be introduced. But
+these give rise to quadratically divergent tadpole contributions which would destabilize
+the mass hierarchy. (For a review of the MSSM and NMSSM see e.g. [1].)
+An elegant solution to the µ problem can emerge in the framework of ten dimen-
+sional heterotic superstring theory based on E8 × E′
+8 [2]. Compactiﬁcation of the ex-
+tra dimensions results in the breakdown of E8 down to E6 or one of its subgroups in
+the observable sector [3]. At the string scale, E6 can be broken directly to the rank-6
+subgroup SU(3)C × SU(2)L × U(1)Y × U(1)ψ × U(1)χ via the Hosotani mechanism [4].
+Two anomaly-free U(1)ψ and U(1)χ symmetries of the rank-6 model are deﬁned by [5]:
+E6 →SO(10) × U(1)ψ, SO(10) →SU(5) × U(1)χ. In this article we explore a particular
+E6 inspired supersymmetric model with one extra U(1)N gauge symmetry deﬁned by:
+U(1)N = 1
+4U(1)χ +
+√
+15
+4 U(1)ψ ,
+(1)
+under which right-handed neutrinos have no charge and thus may gain large Majorana
+masses in accordance with the see-saw mechanism (for a review see e.g.[6]). The extra
+U(1)N gauge symmetry survives to low energies and serves to forbid an elementary µ
+term as well as terms like Sn in the superpotential but allows the interaction λSHdHu.
+After EWSB the scalar component of the singlet superﬁeld acquires a non-zero VEV,
+⟨S⟩= s/
+√
+2, breaking U(1)N and an eﬀective µ = λs/
+√
+2 term is automatically generated.
+Clearly there are no domain wall problems in such a model since there is no discrete Z3
+symmetry, and instead of a global symmetry there is a gauged U(1)N. Anomalies are
+1
+
+=== PDF PAGE 3 ===
+cancelled by complete 27 representatations of E6 which survive to low energies, even
+though E6 is broken at the GUT scale.
+We refer to the model described above as the exceptional supersymmetric standard
+model (ESSM). The ESSM thus represents a low energy alternative to the MSSM or
+NMSSM, and provides a solution to the µ problem without domain wall problems. The
+ESSM contains a rich phenomenology accessible to the LHC in the form of a Z′ plus three
+families of exotic quarks and non-Higgs doublets. In a companion paper we have made a
+comprehensive study of the theory and phenomenology of the ESSM [7]. The purpose of
+this accompanying letter is to summarize the phenomenological highlights of our study,
+including the two loop upper bound on the lightest CP-even Higgs mass, and the LHC
+phenomenology of the Z′ and exotic quarks (including some new phenomenological results)
+in a form that will be more easily accessible to our phenomenological and experimental
+colleagues. For more details we refer the interested reader to the accompanying full length
+paper [7]. Previously, the implications of SUSY models with an additional U(1)N gauge
+symmetry had been studied in the context of leptogenesis [8], EW baryogenesis [9] and
+neutrino physics [10]. Supersymmetric models with a U(1)N gauge symmetry under which
+right-handed neutrinos are neutral have been speciﬁcally considered in [11] from the point
+of view of Z −Z′ mixing and the neutralino sector, in [12] where a renormalization group
+(RG) analysis was performed, and in [13] where a one-loop Higgs mass upper bound was
+presented.
+In the next section we brieﬂy review the ESSM. In sect.3 we analyse the upper bound
+on the lightest CP-even Higgs boson mass including leading two-loop corrections. Then
+in sect. 4 we discuss the phenomenology of some of the extra particles predicted by the
+ESSM and analyze their production cross-sections and signatures at the LHC. Our results
+are summarized in sect. 5.
+2.
+The ESSM
+One of the most important issues in models with additional Abelian gauge symmetries is
+the cancellation of anomalies. In E6 theories the anomalies are cancelled automatically.
+Therefore any model based on E6 subgroups which contains complete representations
+should be anomaly-free. Thus in order to ensure anomaly cancellation the particle con-
+tent of the ESSM should include complete fundamental 27 representations of E6. These
+multiplets decompose under the SU(5) × U(1)N subgroup of E6 [12] as follows:
+27i →(10, 1)i + (5∗, 2)i + (5∗, −3)i + (5, −2)i + (1, 5)i + (1, 0)i .
+(2)
+The ﬁrst and second quantities in the brackets are the SU(5) representation and extra
+U(1)N charge while i is a family index that runs from 1 to 3. An ordinary SM family
+2
+
+=== PDF PAGE 4 ===
+which contains the doublets of left-handed quarks Qi and leptons Li, right-handed up-
+and down-quarks (uc
+i and dc
+i) as well as right-handed charged leptons, is assigned to
+(10, 1)i + (5∗, 2)i. Right-handed neutrinos Nc
+i should be associated with the last term in
+Eq. (2) (1, 0)i. The next-to-last term in Eq. (2) (1, 5)i represents SM-type singlet ﬁelds
+Si which carry non-zero U(1)N charges and therefore survive down to the EW scale. The
+pair of SU(2)-doublets (H1i and H2i) that are contained in (5∗, −3)i and (5, −2)i have the
+quantum numbers of Higgs doublets. Other components of these SU(5) multiplets form
+color triplet of exotic quarks Di and Di with electric charges −1/3 and +1/3 respectively.
+The matter content and correctly normalized Abelian charge assignment are in Tab. 1.
+Q
+uc
+dc
+L
+ec
+Nc
+S
+H2
+H1
+D
+D
+H′
+H′
+q
+5
+3QY
+i
+1
+6
+−2
+3
+1
+3
+−1
+2
+1
+0
+0
+1
+2
+−1
+2
+−1
+3
+1
+3
+−1
+2
+1
+2
+√
+40QN
+i
+1
+1
+2
+2
+1
+0
+5
+−2
+−3
+−2
+−3
+2
+−2
+Table 1: The U(1)Y and U(1)N charges of matter ﬁelds in the ESSM, where QN
+i
+and QY
+i
+are
+here deﬁned with the correct E6 normalization factor required for the RG analysis.
+The most general renormalizable superpotential which is allowed by the E6 symmetry
+can be written in the following form:
+WE6
+=
+W0 + W1 + W2 ,
+W0
+=
+λijkSi(H1jH2k) + κijkSi(DjDk) + hN
+ijkNc
+i (H2jLk) + hU
+ijkuc
+i(H2jQk)+
++hD
+ijkdc
+i(H1jQk) + hE
+ijkec
+i(H1jLk) ,
+W1
+=
+gQ
+ijkDi(QjQk) + gq
+ijkDidc
+juc
+k ,
+W2
+=
+gN
+ijkNc
+i Djdc
+k + gE
+ijkec
+iDjuc
+k + gD
+ijk(QiLj)Dk .
+(3)
+Although B −L is conserved automatically, some Yukawa interactions in Eq. (3) violate
+baryon number conservation resulting in rapid proton decay.
+The baryon and lepton
+number violating operators can be suppressed by imposing an appropriate Z2 symmetry
+which is usually called R-parity. But the straightforward generalization of the deﬁnition
+of R-parity, assuming BD = 1/3 and BD = −1/3, implies that W1 and W2 are forbidden
+by this symmetry and the lightest exotic quark is stable. Models with stable charged
+exotic particles are ruled out by diﬀerent experiments [14].
+To prevent rapid proton decay in E6 supersymmetric models a generalized deﬁnition
+of R-parity should be used.
+There are two ways to do that.
+If H1i, H2i, Si, Di, Di
+and the quark superﬁelds (Qi, uc
+i, dc
+i) are even under a discrete ZL
+2 symmetry while the
+lepton superﬁelds (Li, ec
+i, Nc
+i ) are odd all terms in W2 are forbidden (Model I). Then
+the remaining superpotential is invariant with respect to a U(1)B global symmetry if the
+exotic quarks Di and Di are diquark and anti-diquark, i.e. BD = −2/3 and BD = 2/3.
+3
+
+=== PDF PAGE 5 ===
+An alternative possibility is to assume that the exotic quarks Di and Di as well as lepton
+superﬁelds are all odd under ZB
+2 whereas the others remain even. Then we get Model II
+in which all Yukawa interactions in W1 are forbidden by the discrete ZB
+2 symmetry. Here,
+exotic quarks are leptoquarks. The two possible models are summarized as:
+WESSM I = W0 + W1 ,
+WESSM II = W0 + W2 .
+(4)
+In addition to the complete 27i representations some components of the extra 27′
+and 27′ representations must survive to low energies in order to preserve gauge coupling
+uniﬁcation. We assume that an additional SU(2) doublet components H′ of (5∗, 2) from
+a 27′ and corresponding anti-doublet H
+′ from 27′ survive to low energies.
+In either model the superpotential involves a lot of new Yukawa couplings in compar-
+ison to the SM. In general these new interactions induce non-diagonal ﬂavor transitions.
+To suppress ﬂavor changing processes one can postulate a ZH
+2
+symmetry under which
+all superﬁelds except one pair of H1i and H2i (say Hd ≡H13 and Hu ≡H23) and one
+SM-type singlet ﬁeld S ≡S3 are odd. Then only one Higgs doublet Hd interacts with the
+down-type quarks and charged leptons and only one Higgs doublet Hu couples to up-type
+quarks while the couplings of all other exotic particles to ordinary quarks and leptons are
+forbidden. This eliminates any problem related with non-diagonal ﬂavor transitions. The
+SU(2) doublets Hu and Hd play the role of Higgs ﬁelds generating the masses of quarks
+and leptons after EWSB. Thus it is natural to assume that only S, Hu and Hd acquire
+non-zero VEVs.
+The ZH
+2 symmetry reduces the structure of the Yukawa interactions in (4):
+WESSM I, II
+−→
+λiS(H1iH2i) + κiS(DiDi)+
++fαβSα(HdH2β) + ˜fαβSα(H1βHu) + WMSSM(µ = 0) ,
+(5)
+where α, β = 1, 2 and i = 1, 2, 3 . In Eq. (5) we choose the basis of H1α, H2α, Di and
+Di so that the Yukawa couplings of the singlet ﬁeld S have ﬂavor diagonal structure.
+Here we deﬁne λ ≡λ3 and κ ≡κ3. If λ or κi are large at the Grand Uniﬁcation scale
+MX they aﬀect the evolution of the soft scalar mass m2
+S of the singlet ﬁeld S rather
+strongly resulting in negative values of m2
+S at low energies that triggers the breakdown of
+the U(1)N symmetry. To guarantee that only Hu, Hd and S acquire a VEV we impose a
+certain hierarchy between the couplings H1i and H2i to the SM-type singlet superﬁelds Si:
+λ ≫λ1,2, fαβ and ˜fαβ. Although λ1,2, fαβ and ˜fαβ are expected to be considerably smaller
+than λ they must be large enough to generate suﬃciently large masses for the exotic
+particles to avoid conﬂict with direct particle searches at present and former accelerators.
+Keeping only Yukawa interactions whose couplings are allowed to be of order unity gives
+approximately:
+WESSM I, II ≈λS(HdHu) + κiS(DiDi) + ht(HuQ)tc + hb(HdQ)bc + hτ(HdL)τ c .
+(6)
+4
+
+=== PDF PAGE 6 ===
+The ZH
+2 symmetry discussed above forbids all terms in W1 or W2 that would allow
+the exotic quarks to decay. Therefore the discrete ZH
+2 symmetry can only be approximate
+although ZB
+2 or ZL
+2 must be exact to prevent proton decay. In our model we allow only the
+third family SU(2) doublets Hd and Hu to have Yukawa couplings to the ordinary quarks
+and leptons of order unity. This is a self-consistent assumption since the large Yukawa
+couplings of the third generation (in particular, the top-quark Yukawa coupling) provide
+a radiative mechanism for generating the Higgs VEVs [15]. The Yukawa couplings of two
+other pairs of SU(2) doublets H1i and H2i as well as H′ and exotic quarks to the quarks
+and leptons of the third generation are supposed to be signiﬁcantly smaller (≲0.1) so
+that none of the other exotic bosons gain VEVs. These couplings break the ZH
+2 symmetry
+explicitly resulting in ﬂavor changing neutral currents (FCNCs). In order to suppress the
+contribution of new particles and interactions to K0 −K
+0 oscillations and to the muon
+decay channel µ →e−e+e−in accordance with experimental limits, it is necessary to
+assume that the Yukawa couplings of new exotic particles to the quarks and leptons of
+the ﬁrst and second generations are less than or of order 10−4.
+3.
+Upper bound on the lightest CP-even Higgs mass
+As in the NMSSM, the ESSM Higgs sector includes two doublets Hu and Hd as well as
+the SM-type singlet ﬁeld S. The interactions between them are deﬁned by the structure
+of the gauge interactions and by Eq.(6). At the physical vacuum Higgs ﬁelds develop the
+VEVs ⟨Hd⟩= vd
+√
+2, ⟨Hu⟩= vu
+√
+2 and ⟨S⟩=
+s
+√
+2, thus breaking the SU(2)L×U(1)Y ×U(1)N
+symmetry to U(1)EM, associated with electromagnetism. Instead of vd and vu it is more
+convenient to use tan β = vu
+vd
+and v =
+p
+v2
+d + v2
+u, where v = 246 GeV. After the breakdown
+of the gauge symmetry two CP-odd and two charged Goldstone modes in the Higgs sector
+are absorbed by the Z, Z′ and W ± gauge bosons so that only six physical degrees of
+freedom are left. They represent three CP-even (as in the NMSSM), and one CP-odd
+and two charged Higgs states (as in the MSSM). However, unlike the MSSM or NMSSM,
+there is an additional Z′, as well as exotic matter, as discussed in the next section.
+SUSY models predict that the mass of the lightest Higgs particle is limited from above.
+The ESSM is not an exception. When the soft masses of the superpartners of the top-
+quark are equal, i.e. m2
+Q = m2
+U = M2
+S, the two-loop upper bound on the lightest CP-even
+Higgs boson mass mh in the ESSM can be written in the following form:
+m2
+h
+≲
+λ2
+2 v2 sin2 2β + M2
+Z cos2 2β + g
+′2
+1 v2
+
+˜Q1 cos2 β + ˜Q2 sin2 β
+2 
+1 −3h2
+t
+8π2l
+
++
+3h4
+tv2 sin4 β
+8π2
+1
+2Ut + l +
+1
+16π2
+3
+2h2
+t −8g2
+3
+
+(Ut + l)l
+
+,
+(7)
+5
+
+=== PDF PAGE 7 ===
+where
+Ut = 2 X2
+t
+M2
+S
+
+1 −1
+12
+X2
+t
+M2
+S
+
+,
+l = ln
+M2
+S
+m2
+t
+
+,
+(8)
+Xt is the usual stop mixing parameter, ¯g =
+p
+g2
+2 + g′2, g′ =
+p
+3/5g1, whereas ˜Q1 and
+˜Q2 are the U(1)N charges of Hd and Hu respectively. Here g2, g1 and g′
+1 are the gauge
+couplings of the SU(2)L, U(1)Y and U(1)N interactions. The couplings g2 and g′ are known
+precisely. Thus, by assuming gauge coupling uniﬁcation one can determine the value of
+the extra U(1)N gauge coupling. It turns out that g′
+1(Q) ≃g1(Q) for any renormalization
+scale Q smaller than the uniﬁcation one: Q ≲MX [7].
+Eq. (7) is a simple generalization of the approximate expressions for the two-loop
+theoretical restriction on the mass of the lightest Higgs particle obtained in the MSSM
+[16] and NMSSM [17]. At tree level the upper limit on the mass of the lightest Higgs
+particle is described by the sum of the three terms in the square brackets.
+One-loop
+corrections from the top-quark and its superpartners increase the bound on the lightest
+CP-even Higgs boson mass in SUSY models substantially. The inclusion of leading two-
+loop corrections reduces the upper limit on mh signiﬁcantly and nearly compensates the
+growth of the theoretical restriction on mh with increasing SUSY breaking scale MS
+which is caused by one-loop corrections. In order to enhance the contribution of loop
+eﬀects we assume maximal mixing in the stop sector (i.e. Xt =
+√
+6MS). We also adopt
+MS = 700 GeV. Then the theoretical restriction on the lightest Higgs mass (7) depends
+on λ and tan β only. The requirement of validity of perturbation theory up to the Grand
+Uniﬁcation scale constrains the parameter space further setting a limit on the Yukawa
+coupling λ for each value of tan β. Relying on the results of the analysis of the RG ﬂow
+in the ESSM presented in [7] one can obtain the maximum possible value of the lightest
+Higgs scalar for each particular choice of tan β.
+The dependence of the two-loop upper bound on the mass of the lightest Higgs particle
+is examined in Fig. 1 where it is compared with the corresponding limits in the MSSM and
+NMSSM. At moderate values of tan β (tan β = 1.6 −3.5) the upper limit on the lightest
+Higgs boson mass in the ESSM is considerably higher than in the MSSM and NMSSM.
+It reaches the maximum value ∼150 GeV at tan β = 1.5 −2. In the considered part of
+the parameter space the theoretical restriction on the mass of the lightest CP-even Higgs
+boson in the NMSSM exceeds the corresponding limit in the MSSM because of the extra
+contribution to m2
+h induced by the additional F-term in the Higgs scalar potential of the
+NMSSM. The size of this contribution, which is described by the ﬁrst term in the square
+brackets of Eq. (7), is determined by the Yukawa coupling λ. The upper limit on the
+coupling λ caused by the validity of perturbation theory in the NMSSM is more stringent
+than in the ESSM due to the presence of exotic 5 + 5-plets of matter in the particle
+6
+
+=== PDF PAGE 8 ===
+spectrum of the ESSM that leads to the growth of gi(Q) at high energies.
+Since the
+gi(Q) increase prevents the appearance of the Landau pole in the evolution of the Yukawa
+couplings the maximum allowed λ(mt) value for each tan β is greater in the ESSM than in
+the NMSSM. The increase of λ(mt) is thus accompanied by the growth of the theoretical
+restriction on the mass of the lightest CP-even Higgs particle. This is the reason why
+the upper limit of mh in the NMSSM is considerably less than in the ESSM at moderate
+values of tan β.
+mh
+1
+2
+3
+4
+5
+6
+7
+20
+40
+60
+80
+100
+120
+140
+160
+tan β
+Figure 1: The dependence of the two-loop upper bound on the lightest Higgs boson mass on tan β
+for mt(mt) = 165 GeV, m2
+Q = m2
+U = M2
+S, Xt =
+√
+6MS and MS = 700 GeV. The solid, lower
+and upper dotted lines represent the limit on mh in the MSSM, NMSSM and ESSM respectively.
+At large tan β ≳10 the contribution of the F-term of the SM-type singlet ﬁeld to m2
+h
+vanishes. Therefore with increasing tan β the upper bound on the lightest Higgs boson
+mass in the NMSSM approaches the corresponding limit in the MSSM. In the ESSM the
+theoretical restriction on the mass of the lightest Higgs scalar also diminishes when tan β
+rises. But even at very large values of tan β the upper limit on mh in the ESSM is still
+4 −5 GeV larger than the ones in the MSSM and NMSSM because of the U(1)N D-term
+contribution to mh (last term in the square brackets of Eq. (7)).
+Note that the quoted upper limits for the ESSM, as well as the MSSM and NMSSM,
+are sensitive to the value of the top-quark mass, the SUSY breaking scale and also depend
+on the precise form of the two-loop approximations used. Here we have used an analytic
+approximation of the two-loop eﬀects which slightly underestimates the full two-loop
+corrections. The upper bounds quoted here may therefore be further increased by several
+7
+
+=== PDF PAGE 9 ===
+GeV. However the main point we wish to make is that the upper bound on the lightest
+CP-even Higgs scalar in the ESSM is always signiﬁcantly larger than in the MSSM as well
+as the NMSSM.
+4.
+Z′ and exotica phenomenology at the LHC
+The presence of a relatively light Z′ or of exotic multiplets of matter permits to distinguish
+the ESSM from the MSSM or NMSSM. Collider experiments [18] and precision EW tests
+[19] imply that the Z′ is typically heavier than 500 −600 GeV while the mixing angle
+between Z and Z′ is smaller than a few ×10−3. The analysis performed in [20] revealed
+that a Z′ boson in E6 inspired models can be discovered at the LHC if its mass is less than
+4 −4.5 TeV. At the same time the determination of the Z′ couplings should be possible
+up to MZ′ ∼2 −2.5 TeV using Drell-Yan (DY) production [21].
+Fig. 2 shows the diﬀerential distribution in invariant mass of the lepton pair l+l−(for
+one species of lepton l = e, µ) in DY production at the LHC with and without light exotic
+quarks with representative masses µDi = 250 GeV for all three generations and with
+MZ′ = 1.2 TeV. This distribution is promptly measurable at the CERN collider with a
+high resolution and would enable one to not only conﬁrm the existence of a Z′ state but
+also to establish the possible presence of additional exotic matter, by simply ﬁtting to
+the data the width of the Z′ resonance [21]. In order to perform such an exercise, the Z′
+couplings to ordinary matter ought to have been previously established elsewhere, as a
+modiﬁcation of the latter may well lead to eﬀects similar to those induced by our exotic
+matter.
+The exotic quarks can also be pair produced directly and decay with novel signatures.
+In the ESSM the exotic quarks and squarks receive their masses from the large VEV of the
+singlet S, according to the terms κiS(DiDi) in Eq. (6). Their couplings to the quarks and
+leptons of the ﬁrst and second generation should be rather small, as previously discussed
+in sect.2. The exotic quarks can be relatively light in the ESSM since their masses are set
+by the Yukawa couplings κi and λi that may be small. This happens, for example, when
+the Yukawa couplings of the exotic particles have hierarchical structure which is similar
+to the one observed in the ordinary quark and lepton sectors. Since the exotic squarks
+also receive soft masses from SUSY breaking, they are expected to be much heavier, and
+their production cross-sections will be considerably smaller.
+If exotic quarks of the nature described here do exist at low scales, they could possibly
+be accessed through direct pair hadroproduction at the LHC. Fig. 3 shows the production
+cross section of exotic quark pairs at the LHC as a function of the invariant mass of
+the ﬁnal state. The lifetime and decay modes of these particles are determined by the
+8
+
+=== PDF PAGE 10 ===
+Figure 2: Diﬀerential cross section in the ﬁnal state invariant mass, denoted by Ml+l−, at the
+LHC for DY production (l = e or µ only) in presence of a Z′ with and without the (separate)
+contribution of exotic D-quarks with µDi = 250 GeV for MZ′ = 1.2 TeV.
+Figure 3: Cross section at the LHC for pair production of exotic D-quarks as a function of the
+invariant mass of DD pair. Similar cross sections of tt and bb production are also included for
+comparison.
+operators that break the ZH
+2 symmetry. If ZH
+2 is only slightly broken then exotic quarks
+may live for a long time. Then they will form bound states with ordinary quarks. It
+means that at the LHC it may be possible to study the spectroscopy of new composite
+9
+
+=== PDF PAGE 11 ===
+scalar leptons or baryons. When ZH
+2 is broken signiﬁcantly exotic quarks can also produce
+a remarkable signature. Since according to our initial assumptions the ZH
+2 symmetry is
+mostly broken by the operators involving quarks and leptons of the third generation the
+exotic quarks decay either via D →t + ˜b, D →b + ˜t , if the exotic quarks D are diquarks
+or via D →t+ ˜τ, D →τ +˜t, D →b+ ˜ντ, D →ντ +˜b if they are are leptoquarks. Because
+in general sfermions decay into corresponding fermion and neutralino one can expect that
+each diquark will decay further into t- and b-quarks while a leptoquark will produce a
+t-quark and a τ-lepton in the ﬁnal state with rather high probability.
+As each t-quark decays into a b-quark whereas a τ-lepton gives one charged lepton l in
+the ﬁnal state with a probability of 35%, both these scenarios would generate an excess
+in the b-quark production cross section. In this respect SM data samples which should be
+altered by the presence of exotic D-quarks are those involving t¯t production and decay
+as well as direct b¯b production. For this reason, Fig. 3 shows the cross sections for these
+two genuine SM processes alongside those for the exotica. Detailed LHC analyses will
+be required to establish the feasibility of extracting the excess due to the light exotic
+particles predicted by our model. However, Fig. 3 should clearly make the point that -
+for the discussed parameter conﬁguration - one is in a favorable position in this respect,
+as the decay BRs of the exotic objects are much larger than the expected four-body cross
+section involving heavy quarks and/or leptons, as discussed in [7]. Thus the presence of
+light exotic quarks in the particle spectrum could result in an appreciable enhancement of
+the cross section of either pp →ttbb + X and pp →bbbb + X if exotic quarks are diquarks
+or pp →ttl+l−+ X and pp →bbl+l−+ X if new quark states are leptoquarks.
+5.
+Conclusions
+We have considered the ESSM deﬁned by a U(1)N gauge group extension of the SM under
+which right-handed neutrinos are neutral, with anomalies cancelled by the low energy
+matter content of three 27 representations of an E6 gauge group broken at the GUT
+scale. In the ESSM the µ problem is solved in a similar way to the NMSSM, but without
+the accompanying problems of singlet tadpoles or domain walls. The ESSM allows the
+conventional see-saw mechanism, and gauge coupling uniﬁcation due to an additional pair
+of Higgs-like doublets.
+In this letter we have focussed on some interesting phenomenological aspects of the
+model, with the full details given in an accompanying longer paper [7]. If the Z′ boson and
+exotic quarks are light enough they will be visible at the LHC, providing spectacular new
+physics signals. For example, the three extra families of exotic charge 1/3 quarks, which
+must be either diquarks or leptoquarks to ensure baryon number conservation, may be
+10
+
+=== PDF PAGE 12 ===
+directly produced in pairs with decay signatures determined by the hierarchical structure
+of the Yukawa interactions in the ESSM. The exotic quarks may decay into either a heavy
+quark-antiquark pair Q ¯Q or a heavy quark and lepton pair Qτ(ντ) where Q is either b or
+t quark. This would result in the growth of the cross section of either pp →QQ ¯Q ¯Q + X
+or pp →l+l−Q ¯Q + X at the LHC.
+We have also studied the Z′ which may be observed directly as a resonance in the
+di-lepton invariant mass of DY events, and shown that the exotic quarks can make their
+presence felt indirectly via a visible increase in the Z′ width. The extra matter also has
+the indirect eﬀect of increasing the lightest CP-even Higgs boson mass. The point is that
+extra exotic matter predicted by the ESSM changes the RG ﬂow of the gauge and Yukawa
+couplings relaxing the restrictions on the Yukawa couplings coming from the validity of
+perturbation theory up to the scale MX as compared with the MSSM and NMSSM. Larger
+values of Yukawa couplings at the EW scale and the extra D-term contribution in the
+Higgs potential both serve to increase the upper limit on the mass of the lightest CP-even
+Higgs boson. We have shown that, in the leading two-loop approximation, the lightest
+Higgs mass does not exceed about 150−155 GeV which is much higher than in the MSSM
+or NMSSM.
+The discovery of the Z′ and exotic quarks would provide a smoking gun signature of
+the ESSM, providing circumstantial evidence for an underlying E6 gauge structure at the
+GUT scale, and a window into string theory.
+Acknowledgements: RN thanks E. Boos, D. I. Kazakov and M. I. Vysotsky for discus-
+sions. The authors are grateful to A. Djouadi, J. Kalinowski, D. J. Miller and P. M. Zerwas
+for comments and acknowledge support from the PPARC grant PPA/G/S/2003/00096,
+the NATO grant PST.CLG.980066 and the EU network MRTN 2004-503369.
+References
+[1] D.J.H. Chung, L.L. Everett, G.L. Kane, S.F. King, J.D. Lykken, L.T. Wang, Phys. Rept.
+407 (2005) 1.
+[2] M.B.Green, J.H.Schwarz, E.Witten, ‘Superstring Theory’, Cambridge Univ. Press, 1987.
+[3] F. del Aguila, G.A. Blair, M. Daniel, G.G. Ross, Nucl. Phys. B 272 (1986) 413.
+[4] Y. Hosotani, Phys. Lett. B 129 (1983) 193.
+[5] J.L. Hewett, T.G. Rizzo, Phys. Rept. 183 (1989) 193; M.Cvetiˇc, P. Langacker, Phys. Rev.
+D 54 (1996) 3570; Mod. Phys. Lett. A 11 (1996) 1247; P. Langacker, J. Wang, Phys. Rev.
+D 58 (1998) 115010.
+[6] S.F. King, Rept. Prog. Phys. 67 (2004) 107.
+[7] S.F. King, S. Moretti, R. Nevzorov, arXiv:hep-ph/0510419.
+11
+
+=== PDF PAGE 13 ===
+[8] T. Hambye, E. Ma, M. Raidal, U. Sarkar, Phys. Lett. B 512 (2001) 373.
+[9] E. Ma, M. Raidal, J. Phys. G 28 (2002) 95.
+[10] E. Ma, Phys. Lett. B 380 (1996) 286.
+[11] E. Keith, E. Ma, Phys. Rev. D 54 (1996) 3587; D. Suematsu, Phys. Rev. D 57 (1998) 1738.
+[12] E. Keith, E. Ma, Phys. Rev. D 56 (1997) 7155.
+[13] Y. Daikoku, D. Suematsu, Phys. Rev. D 62 (2000) 095006.
+[14] J. Rich, M. Spiro, J. Lloyd-Owen, Phys. Rept. 151 (1987) 239; P.F. Smith, Contemp. Phys.
+29 (1988) 159; T.K. Hemmick et al., Phys. Rev. D 41 (1990) 2074.
+[15] L.E. Ib´a˜nez, G.G. Ross, Phys. Lett. B 110 (1982) 215; J. Ellis, D.V. Nanopoulos, K. Tam-
+vakis, Phys. Lett. B 121 (1983) 123; J. Ellis, J. Hagelin, D.V. Nanopoulos, K. Tamvakis,
+Phys.Lett. B 125 (1983) 275; L. Alvarez-Gaum´e, J. Polchinski, M. Wise, Nucl.Phys. B 221
+(1983) 495.
+[16] M. Carena, M. Quiros, C.E.M. Wagner, Nucl. Phys. B 461 (1996) 407.
+[17] U. Ellwanger, C. Hugonie, Eur. Phys. J. C 25 (2002) 297.
+[18] F. Abe et al., Phys. Rev. Lett. 79 (1997) 2192; P. Abreu et al., Phys. Lett. B 485 (2000)
+45; R. Barate et al., Eur. Phys. J. C 12 (2000) 183.
+[19] J. Erler, P. Langacker, Phys. Lett. B 456 (1999) 68.
+[20] M. Cvetiˇc, S. Godfrey, hep-ph/9504216; A. Leike, Phys. Rept. 317 (1999) 143; J. Kang, P.
+Langacker, Phys. Rev. D 71 (2005) 035014.
+[21] M. Dittmar, A. Djouadi, A.-S. Nicollerat, Phys. Lett. B 583 (2004) 111.
+12

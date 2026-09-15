@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.numdam.org/item/10.5802/ccirm.4.pdf",
+      "title": "Chris Woodward, Moment maps and geometric invariant theory",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "The proof of the Kempf-Ness theorem depends on the convexity of certain Kempf-Ness functions whose minima are zeros of the moment map.",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

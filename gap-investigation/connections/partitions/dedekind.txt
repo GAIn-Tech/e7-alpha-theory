@@ -1,0 +1,8273 @@
+Divisibility properties of Dedekind numbers
+Report GitHub Issue
+×
+Title:
+Content selection saved. Describe the issue below:
+Description:
+Submit without GitHub
+Submit in GitHub
+arXiv is now an independent nonprofit!
+Learn more
+×
+Back to arXiv
+Why HTML?
+Report Issue
+Back to Abstract
+Download PDF
+Abstract
+1
+Introduction
+2
+Preliminaries
+2.1
+Posets
+2.2
+Permutations and equivalence relation
+3
+Divisibility of Dedekind numbers by 2
+4
+Divisibility of Dedekind numbers by 3
+5
+Counting functions from
+B
+2
+B^{2}
+to
+D
+n
+D_{n}
+6
+Counting functions from
+B
+3
+B^{3}
+to
+D
+n
+D_{n}
+7
+Counting functions from
+B
+4
+B^{4}
+into
+D
+n
+D_{n}
+8
+Application
+8.1
+Remainder of
+d
+9
+d_{9}
+divided by 5
+8.2
+Remainder of
+d
+9
+d_{9}
+divided by 7
+References
+License: arXiv.org perpetual non-exclusive license
+arXiv:2302.04615v1 [math.CO] 09 Feb 2023
+Divisibility properties of Dedekind numbers
+Bartłomiej Pawelski
+Institute of Informatics
+University of Gdańsk
+Poland
+bartlomiej.pawelski@ug.edu.pl
+Andrzej Szepietowski
+Institute of Informatics
+University of Gdańsk
+Poland
+andrzej.szepietowski@ug.edu.pl
+Abstract
+We study some divisibility properties of Dedekind numbers. We show that the ninth Dedekind number is congruent to 6 modulo 210.
+1
+Introduction
+We define
+D
+n
+D_{n}
+to be the set of all monotone Boolean functions of
+n
+n
+variables. The cardinality of this set—
+d
+n
+d_{n}
+is known as the
+n
+n
+–th Dedekind number. Values of
+d
+n
+d_{n}
+are described by the OEIS
+(On-Line Encyclopedia of Integer Sequence)
+sequence
+A000372
+(see Table
+1
+).
+In 1990, Wiedemann calculated
+d
+8
+d_{8}
+[
+12
+]
+. His result was confirmed in 2001 by Fidytek, Mostowski, Somla, and Szepietowski
+[
+3
+]
+. The impulse for writing our paper came from the letter from Wiedemann to Sloane
+[
+13
+]
+informing about the computation of the eighth Dedekind number, specifically this fragment: “Unfortunately, I don’t see how to test it…”. Wiedemann only knew that
+d
+8
+d_{8}
+is even. Despite its obvious importance, there is a lack of studies on the divisibility of Dedekind numbers. As far as we know, the only paper concerning this question is Yamamoto’s paper
+[
+14
+]
+, where he shows that if
+n
+n
+is even, then
+d
+n
+d_{n}
+is also even.
+Our research aims to fill this lack by proposing new methods to determine the divisibility of Dedekind numbers. As an application of these methods, we compute remainders of
+d
+9
+d_{9}
+divided by one-digit prime numbers, which (we hope) will help to verify the value
+d
+9
+d_{9}
+after its first computation.
+Our main result is the following system of congruences:
+d
+9
+≡
+0
+(
+mod
+2
+)
+,
+d_{9}\equiv 0\;(\bmod\;2),
+d
+9
+≡
+0
+(
+mod
+3
+)
+,
+d_{9}\equiv 0\;(\bmod\;3),
+d
+9
+≡
+1
+(
+mod
+5
+)
+,
+d_{9}\equiv 1\;(\bmod\;5),
+d
+9
+≡
+6
+(
+mod
+7
+)
+.
+d_{9}\equiv 6\;(\bmod\;7).
+By the Chinese remainder theorem, we have
+d
+9
+≡
+6
+(
+mod
+210
+)
+.
+d_{9}\equiv 6\;(\bmod\;210).
+2
+Preliminaries
+Let
+B
+B
+denote the set
+{
+0
+,
+1
+}
+\{0,1\}
+and
+B
+n
+B^{n}
+the
+set of
+n
+n
+-element sequences of
+B
+B
+.
+A Boolean function with
+n
+n
+variables is any function
+from
+B
+n
+B^{n}
+into
+B
+B
+. There are
+2
+n
+2^{n}
+elements in
+B
+n
+B^{n}
+and
+2
+2
+n
+2^{2^{n}}
+Boolean functions with
+n
+n
+variables.
+There is the order relation in
+B
+B
+(namely:
+0
+≤
+0
+0\leq 0
+,
+0
+≤
+1
+\;0\leq 1
+,
+1
+≤
+1
+\;1\leq 1
+)
+and the partial order in
+B
+n
+B^{n}
+:
+for any two elements:
+x
+=
+(
+x
+1
+,
+…
+,
+x
+n
+)
+x=(x_{1},\dots,x_{n})
+,
+y
+=
+(
+y
+1
+,
+…
+,
+y
+n
+)
+\;y=(y_{1},\dots,y_{n})
+in
+B
+n
+B^{n}
+,
+x
+≤
+y
+if and only if
+x
+i
+≤
+y
+i
+for all
+1
+≤
+i
+≤
+n
+.
+x\leq y\quad\hbox{if and only if}\quad x_{i}\leq y_{i}\quad\hbox{for all $1\leq i\leq n$}.
+A function
+h
+:
+B
+n
+→
+B
+h:B^{n}\to B
+is monotone if
+x
+≤
+y
+⇒
+h
+⁡
+(
+x
+)
+≤
+h
+⁡
+(
+y
+)
+.
+x\leq y\Rightarrow h(x)\leq h(y).
+Let
+D
+n
+D_{n}
+denote the set of monotone functions with
+n
+n
+variables
+and let
+d
+n
+d_{n}
+denote
+|
+D
+n
+|
+|D_{n}|
+.
+We have the partial order in
+D
+n
+D_{n}
+defined by:
+g
+≤
+h
+if and only if
+g
+⁡
+(
+x
+)
+≤
+h
+⁡
+(
+x
+)
+for all
+​
+x
+∈
+B
+n
+.
+g\leq h\quad\hbox{if and only if}\quad g(x)\leq h(x)\quad\hbox{for all }x\in B^{n}.
+We shall represent the elements of
+D
+n
+D_{n}
+as strings of bits of
+length
+2
+n
+2^{n}
+. Two elements of
+D
+0
+D_{0}
+will be represented as 0 and 1.
+Any element
+g
+∈
+D
+1
+g\in D_{1}
+can be represented as
+the concatenation
+g
+⁡
+(
+0
+)
+∗
+g
+⁡
+(
+1
+)
+g(0)*g(1)
+, where
+g
+⁡
+(
+0
+)
+,
+g
+⁡
+(
+1
+)
+∈
+D
+0
+g(0),g(1)\in D_{0}
+and
+g
+⁡
+(
+0
+)
+≤
+g
+⁡
+(
+1
+)
+g(0)\leq g(1)
+. Hence,
+D
+1
+=
+{
+00
+,
+01
+,
+11
+}
+D_{1}=\{00,01,11\}
+.
+Each element of
+g
+∈
+D
+2
+g\in D_{2}
+is the concatenation (string) of four bits:
+g
+⁡
+(
+00
+)
+∗
+g
+⁡
+(
+10
+)
+∗
+g
+⁡
+(
+01
+)
+∗
+g
+⁡
+(
+11
+)
+g(00)*g(10)*g(01)*g(11)
+which can be represented as
+a concatenation
+g
+0
+∗
+g
+1
+g_{0}*g_{1}
+, where
+g
+0
+,
+g
+1
+∈
+D
+1
+g_{0},g_{1}\in D_{1}
+and
+g
+0
+≤
+g
+1
+g_{0}\leq g_{1}
+.
+Hence,
+D
+2
+=
+{
+0000
+,
+0001
+,
+0011
+,
+0101
+,
+0111
+,
+1111
+}
+D_{2}=\{0000,0001,0011,0101,0111,1111\}
+.
+Similarly, any element of
+g
+∈
+D
+n
+g\in D_{n}
+can be represented as
+a concatenation
+g
+0
+∗
+g
+1
+g_{0}*g_{1}
+, where
+g
+0
+,
+g
+1
+∈
+D
+n
+−
+1
+g_{0},g_{1}\in D_{n-1}
+and
+g
+0
+≤
+g
+1
+g_{0}\leq g_{1}
+.
+Therefore, we can treat functions in
+D
+n
+D_{n}
+as sequences of bits and as integers. By
+⪯
+\preceq
+we denote the total order in
+D
+n
+D_{n}
+induced by the total order in integers. Additionally, we shall write
+x
+≺
+y
+x\prec y
+if
+x
+⪯
+y
+x\preceq y
+and
+x
+≠
+y
+x\neq y
+.
+For a set
+Y
+⊆
+D
+n
+Y\subseteq D_{n}
+, by
+Y
+2
+Y^{2}
+we denote the Cartesian power
+Y
+2
+=
+Y
+×
+Y
+Y^{2}=Y\times Y
+, that is the set of all ordered pairs
+(
+x
+,
+y
+)
+(x,y)
+with
+x
+,
+y
+∈
+Y
+x,y\in Y
+. Similarly for more
+than two factors, we write
+Y
+k
+Y^{k}
+for the set of ordered
+k
+k
+-tuples of elements of
+Y
+Y
+.
+By
+⊤
+\top
+we denote the maximal element in
+D
+n
+D_{n}
+, that is
+⊤
+=
+(
+1
+…
+1
+)
+\top=(1\ldots 1)
+; and by
+⊥
+\bot
+the minimal element in
+D
+n
+D_{n}
+, that is
+⊥
+=
+(
+0
+…
+0
+)
+\bot=(0\ldots 0)
+. For two elements
+x
+,
+y
+∈
+D
+n
+x,y\in D_{n}
+, by
+x
+|
+y
+x|y
+we denote the bitwise or; and by
+x
+&
+y
+x\&y
+we denote the bitwise and. Furthermore,
+re
+⁡
+(
+x
+,
+y
+)
+\re(x,y)
+denotes
+|
+{
+z
+∈
+D
+n
+:
+x
+≤
+z
+≤
+y
+}
+|
+|\{z\in D_{n}:x\leq z\leq y\}|
+. Note that
+re
+⁡
+(
+x
+,
+⊤
+)
+=
+|
+{
+z
+∈
+D
+n
+:
+x
+≤
+z
+}
+|
+\re(x,\top)=|\{z\in D_{n}:x\leq z\}|
+and
+re
+⁡
+(
+⊥
+,
+y
+)
+=
+|
+{
+z
+∈
+D
+n
+:
+z
+≤
+y
+}
+|
+\re(\bot,y)=|\{z\in D_{n}:z\leq y\}|
+.
+2.1
+Posets
+A
+poset (partially ordered set)
+(
+S
+,
+≤
+)
+(S,\leq)
+consists of a set
+S
+S
+together with a binary relation (partial order)
+≤
+\leq
+which is reflexive, transitive, and antisymmetric.
+Given two posets
+(
+S
+,
+≤
+)
+(S,\leq)
+and
+(
+T
+,
+≤
+)
+(T,\leq)
+a function
+f
+:
+S
+→
+T
+f:S\to T
+is
+monotone
+, if
+x
+≤
+y
+x\leq y
+implies
+f
+⁡
+(
+x
+)
+≤
+f
+⁡
+(
+y
+)
+f(x)\leq f(y)
+.
+By
+T
+S
+T^{S}
+we denote the poset of all monotone functions from
+S
+S
+to
+T
+T
+with the partial order defined by:
+f
+≤
+g
+if and only if
+f
+⁡
+(
+x
+)
+≤
+g
+⁡
+(
+x
+)
+​
+for all
+​
+x
+∈
+S
+.
+f\leq g\quad\hbox{ if and only if}\quad f(x)\leq g(x)\hbox{ for all }x\in S.
+In this paper we use the following well-known lemma; see
+[
+11
+]
+:
+Lemma 1
+.
+The poset
+D
+n
++
+k
+D_{n+k}
+is isomorphic to the poset
+D
+n
+B
+k
+D_{n}^{B^{k}}
+—the poset of monotone functions from
+B
+k
+B^{k}
+to
+D
+n
+D_{n}
+.
+2.2
+Permutations and equivalence relation
+Let
+S
+n
+S_{n}
+denote the set of permutations on
+{
+1
+,
+…
+,
+n
+}
+\{1,\ldots,n\}
+.
+Every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+defines the permutation on
+B
+n
+B^{n}
+by
+π
+⁡
+(
+x
+)
+=
+x
+∘
+π
+\pi(x)=x\circ\pi
+(we treat each element
+x
+∈
+B
+n
+x\in B^{n}
+as a function
+x
+:
+{
+1
+,
+…
+,
+n
+}
+→
+{
+0
+,
+1
+}
+x:\{1,\ldots,n\}\to\{0,1\}
+).
+Note that
+x
+≤
+y
+x\leq y
+if and only if
+π
+⁡
+(
+x
+)
+≤
+π
+⁡
+(
+y
+)
+\pi(x)\leq\pi(y)
+.
+The permutation
+π
+\pi
+also generates the permutation
+on
+D
+n
+D_{n}
+. Namely, by
+π
+⁡
+(
+g
+)
+=
+g
+∘
+π
+\pi(g)=g\circ\pi
+.
+Note that
+π
+⁡
+(
+g
+)
+\pi(g)
+is monotone if
+g
+g
+is monotone.
+By
+∼
+\sim
+we denote an equivalence relation on
+D
+n
+D_{n}
+. Namely,
+two functions
+f
+,
+g
+∈
+D
+n
+f,g\in D_{n}
+are
+equivalent
+,
+f
+∼
+g
+f\sim g
+, if there is a
+permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+such that
+f
+=
+π
+⁡
+(
+g
+)
+f=\pi(g)
+.
+For a function
+f
+∈
+D
+n
+f\in D_{n}
+its
+equivalence class
+is the set
+[
+f
+]
+=
+{
+g
+∈
+D
+n
+:
+g
+∼
+f
+}
+[f]=\{g\in D_{n}:g\sim f\}
+. By
+γ
+⁡
+(
+f
+)
+\gamma(f)
+we denote
+|
+[
+f
+]
+|
+|[f]|
+.
+For
+m
+>
+1
+m>1
+, let
+E
+n
+,
+m
+=
+{
+f
+∈
+D
+n
+:
+γ
+⁡
+(
+f
+)
+≡
+0
+(
+mod
+m
+)
+}
+E_{n,m}=\{f\in D_{n}:\gamma(f)\equiv 0\pmod{m}\}
+and
+E
+n
+,
+m
+c
+=
+D
+n
+−
+E
+n
+,
+m
+E_{n,m}^{c}=D_{n}-E_{n,m}
+.
+For the class
+[
+f
+]
+[f]
+, we define its
+canonical representative
+as the one element in
+[
+f
+]
+[f]
+chosen to represent the class. One of the possible approaches is to choose its minimal
+(according to the total order
+⪯
+\preceq
+) element
+[
+12
+]
+. Sometimes we shall identify the class
+[
+f
+]
+[f]
+with its canonical representative and treat
+[
+f
+]
+[f]
+as an element in
+D
+n
+D_{n}
+.
+By
+R
+n
+R_{n}
+we denote the set of equivalence classes and by
+r
+n
+r_{n}
+we denote the number of the equivalence classes; that is
+r
+n
+=
+|
+R
+n
+|
+r_{n}=|R_{n}|
+. Values of
+r
+n
+r_{n}
+are described by
+A003182
+OEIS sequence;
+see Table
+1
+.
+n
+n
+d
+n
+d_{n}
+r
+n
+r_{n}
+0
+2
+2
+1
+3
+3
+2
+6
+5
+3
+20
+10
+4
+168
+30
+5
+7,581
+210
+6
+7,828,354
+16,353
+7
+2,414,682,040,998
+490,013,148
+8
+56,130,437,228,687,557,907,788
+1,392,195,548,889,993,358
+Table 1:
+Known values of
+d
+n
+d_{n}
+(
+A000372
+) and
+r
+n
+r_{n}
+(
+A003182
+)
+3
+Divisibility of Dedekind numbers by 2
+In 1952, Yamamoto
+[
+14
+]
+proved that if
+n
+n
+is even, then
+d
+n
+d_{n}
+is also even. Obviously, the parity of
+d
+9
+d_{9}
+cannot be checked with this property. However, there are other methods to check it. One of the possible approaches is by using the duality property of Boolean functions.
+For each
+x
+∈
+D
+n
+x\in D_{n}
+, we have
+dual
+x
+d
+x^{d}
+which is obtained by reversing and negating
+all bits. For example,
+1111
+d
+=
+0000
+1111^{d}=0000
+and
+0001
+d
+=
+0111
+0001^{d}=0111
+. An element
+x
+∈
+D
+n
+x\in D_{n}
+is
+self-dual
+if
+x
+=
+x
+d
+x=x^{d}
+. For example,
+0101
+0101
+and
+0011
+0011
+are self-duals in
+D
+2
+D_{2}
+.
+If
+x
+x
+is not self-dual, and
+y
+=
+x
+d
+≠
+x
+y=x^{d}\neq x
+, then
+y
+d
+=
+x
+y^{d}=x
+. Thus, non-self-duals form pairs
+of the form
+(
+x
+,
+x
+d
+)
+(x,x^{d})
+, where
+x
+≠
+x
+d
+x\neq x^{d}
+. Let
+k
+n
+k_{n}
+denote the number of these pairs and let
+λ
+n
+\lambda_{n}
+denote the number of self-dual functions in
+D
+n
+D_{n}
+.
+We have that
+d
+n
+=
+2
+​
+k
+n
++
+λ
+n
+d_{n}=2k_{n}+\lambda_{n}
+.
+Hence,
+λ
+n
+≡
+d
+n
+(
+mod
+2
+)
+\lambda_{n}\equiv d_{n}\pmod{2}
+.
+Values of
+λ
+n
+\lambda_{n}
+are described by the OEIS sequence
+A001206
+;
+see Table
+2
+. The last known term of this sequence—
+λ
+9
+\lambda_{9}
+was calculated in 2013 by Brouwer et al.
+[
+1
+]
+.
+n
+n
+λ
+n
+\lambda_{n}
+0
+0
+1
+1
+2
+2
+3
+4
+4
+12
+5
+81
+6
+2,646
+7
+1,422,564
+8
+229,809,982,112
+9
+423,295,099,074,735,261,880
+Table 2:
+Known values of
+λ
+n
+\lambda_{n}
+(
+A001206
+)
+Corollary 2
+.
+d
+9
+≡
+λ
+9
+≡
+0
+(
+mod
+2
+)
+d_{9}\equiv\lambda_{9}\equiv 0\pmod{2}
+One can directly check that
+d
+n
+≡
+λ
+n
+(
+mod
+2
+)
+d_{n}\equiv\lambda_{n}\pmod{2}
+for
+n
+≤
+8
+n\leq 8
+.
+4
+Divisibility of Dedekind numbers by 3
+By Lemma
+1
+, the poset
+D
+n
++
+3
+D_{n+3}
+is isomorphic to the poset
+D
+n
+B
+3
+D_{n}^{B^{3}}
+—the set of monotone functions from
+B
+3
+=
+{
+000,001,010,100,110
+,
+101
+,
+011
+,
+111
+}
+B^{3}=\{000,001,010,100,110,101,011,111\}
+to
+D
+n
+D_{n}
+.
+
+Consider the function
+H
+H
+which for every triple
+(
+x
+,
+y
+,
+z
+)
+∈
+D
+n
+3
+(x,y,z)\in D_{n}^{3}
+returns the value
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+=
+re
+⁡
+(
+⊥
+,
+x
+&
+y
+&
+z
+)
+⋅
+∑
+s
+≥
+x
+​
+|
+y
+|
+​
+z
+re
+⁡
+(
+x
+|
+y
+,
+s
+)
+⋅
+re
+⁡
+(
+x
+|
+z
+,
+s
+)
+⋅
+re
+⁡
+(
+y
+|
+z
+,
+s
+)
+.
+H(x,y,z)=\re(\bot,x\&y\&z)\cdot\sum_{s\geq x|y|z}\re(x|y,s)\cdot\re(x|z,s)\cdot\re(y|z,s).
+Observe that
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+H(x,y,z)
+is equal to the number of monotone functions
+f
+∈
+D
+n
+B
+3
+f\in D_{n}^{B^{3}}
+with
+f
+⁡
+(
+001
+)
+=
+x
+f(001)=x
+,
+f
+⁡
+(
+010
+)
+=
+y
+f(010)=y
+and
+f
+⁡
+(
+100
+)
+=
+z
+f(100)=z
+. Indeed, for
+f
+⁡
+(
+000
+)
+f(000)
+we can choose any value
+t
+t
+satisfying
+t
+≤
+x
+&
+y
+&
+z
+t\leq x\&y\&z
+, which can be done in
+re
+⁡
+(
+⊥
+,
+x
+&
+y
+&
+z
+)
+\re(\bot,x\&y\&z)
+ways. For
+f
+⁡
+(
+111
+)
+f(111)
+we can choose any element in
+{
+s
+∈
+D
+n
+:
+s
+≥
+x
+​
+|
+y
+|
+​
+z
+}
+\{s\in D_{n}:s\geq x|y|z\}
+. Furthermore, after the value
+f
+⁡
+(
+111
+)
+=
+s
+f(111)=s
+is chosen, then the values
+f
+⁡
+(
+011
+)
+f(011)
+,
+f
+⁡
+(
+101
+)
+f(101)
+,
+f
+⁡
+(
+110
+)
+f(110)
+can be chosen independently
+from each other. We can choose a value for
+f
+⁡
+(
+011
+)
+f(011)
+in
+re
+⁡
+(
+x
+|
+y
+,
+s
+)
+\re(x|y,s)
+ways; a value for
+f
+⁡
+(
+101
+)
+f(101)
+in
+re
+⁡
+(
+x
+|
+z
+,
+s
+)
+\re(x|z,s)
+ways; and a value for
+f
+⁡
+(
+110
+)
+f(110)
+in
+re
+⁡
+(
+y
+|
+z
+,
+s
+)
+\re(y|z,s)
+ways.
+000
+000
+001
+001
+010
+010
+100
+100
+011
+011
+101
+101
+110
+110
+111
+111
+Figure 1:
+Poset
+B
+3
+B^{3}
+.
+For
+A
+⊆
+D
+n
+3
+=
+D
+n
+×
+D
+n
+×
+D
+n
+A\subseteq D_{n}^{3}=D_{n}\times D_{n}\times D_{n}
+, let
+H
+⁡
+(
+A
+)
+H(A)
+denote
+∑
+(
+x
+,
+y
+,
+z
+)
+∈
+A
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+\sum_{(x,y,z)\in A}H(x,y,z)
+.
+By Lemma
+1
+, we have that
+d
+n
++
+3
+=
+H
+⁡
+(
+D
+n
+3
+)
+=
+∑
+x
+∈
+D
+n
+∑
+y
+∈
+D
+n
+∑
+z
+∈
+D
+n
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+.
+d_{n+3}=H(D_{n}^{3})=\sum_{x\in D_{n}}\sum_{y\in D_{n}}\sum_{z\in D_{n}}H(x,y,z).
+The value of
+H
+H
+is invariant under any permutation of its arguments. Let
+x
+,
+y
+,
+z
+∈
+D
+n
+x,y,z\in D_{n}
+and suppose that
+x
+⪯
+y
+⪯
+z
+x\preceq y\preceq z
+. We have the following types of equivalence classes:
+1.
+x
+=
+y
+=
+z
+x=y=z
+, with one element in class
+2.
+x
+≺
+y
+=
+z
+x\prec y=z
+, with three elements in class
+3.
+x
+=
+y
+≺
+z
+x=y\prec z
+, with three elements in class
+4.
+x
+≺
+y
+≺
+z
+x\prec y\prec z
+, with six elements in class.
+A similar property is exploited by Fidytek et al.
+[
+3
+, Algorithm 3]
+to speed up their computation of
+d
+8
+d_{8}
+. However, they work with a more complex level-4-algorithm. After applying it to our situation,
+d
+n
++
+3
+d_{n+3}
+can be expressed as the following summation:
+d
+n
++
+3
+=
+∑
+x
+∈
+D
+n
+H
+⁡
+(
+x
+,
+x
+,
+x
+)
++
+3
+⋅
+∑
+x
+,
+y
+∈
+D
+n
+x
+≺
+y
+(
+H
+⁡
+(
+x
+,
+x
+,
+y
+)
++
+H
+⁡
+(
+x
+,
+y
+,
+y
+)
+)
++
+6
+⋅
+∑
+x
+,
+y
+,
+z
+∈
+D
+n
+x
+≺
+y
+≺
+z
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+d_{n+3}=\sum_{x\in D_{n}}H(x,x,x)+3\cdot\sum_{\begin{subarray}{c}x,y\in D_{n}\\
+x\prec y\end{subarray}}(H(x,x,y)+H(x,y,y))+6\cdot\sum_{\begin{subarray}{c}x,y,z\in D_{n}\\
+x\prec y\prec z\end{subarray}}H(x,y,z)
+(1)
+Thus,
+d
+n
++
+3
+≡
+∑
+x
+∈
+D
+n
+H
+⁡
+(
+x
+,
+x
+,
+x
+)
+(
+mod
+3
+)
+.
+d_{n+3}\equiv\sum_{x\in D_{n}}H(x,x,x)\pmod{3}.
+Now we can use one more iteration of symmetry exploitation.
+a
+a
+b
+b
+c
+c
+d
+d
+e
+e
+f
+f
+Figure 2:
+Poset
+C
+C
+.
+Consider the poset
+C
+C
+presented in Figure
+4
+.
+Note that
+∑
+x
+∈
+D
+n
+H
+⁡
+(
+x
+,
+x
+,
+x
+)
+=
+|
+D
+n
+C
+|
+\sum_{x\in D_{n}}H(x,x,x)=|D_{n}^{C}|
+—the number of functions from the poset
+C
+C
+to
+D
+n
+D_{n}
+.
+Let
+H
+′
+H^{\prime}
+denote the function which for each
+u
+,
+v
+,
+w
+∈
+D
+n
+u,v,w\in D_{n}
+returns
+H
+′
+​
+(
+u
+,
+v
+,
+w
+)
+=
+(
+∑
+s
+≤
+(
+u
+&
+v
+&
+w
+)
+r
+​
+e
+​
+[
+s
+,
+u
+&
+v
+&
+w
+]
+)
+⋅
+r
+​
+e
+​
+[
+u
+​
+|
+v
+|
+​
+w
+,
+⊤
+]
+.
+H^{\prime}(u,v,w)=\Big(\sum_{s\leq(u\&v\&w)}re[s,u\&v\&w]\Big)\cdot re[u|v|w,\top].
+(2)
+Observe that
+H
+′
+​
+(
+u
+,
+v
+,
+w
+)
+H^{\prime}(u,v,w)
+is equal to the number of monotone functions
+h
+∈
+D
+n
+C
+h\in D_{n}^{C}
+with
+h
+⁡
+(
+c
+)
+=
+u
+h(c)=u
+,
+h
+⁡
+(
+d
+)
+=
+v
+h(d)=v
+and
+h
+⁡
+(
+e
+)
+=
+w
+h(e)=w
+.
+Indeed, for
+h
+⁡
+(
+f
+)
+h(f)
+we can choose any value
+t
+t
+satisfying
+t
+≥
+u
+​
+|
+v
+|
+​
+w
+t\geq u|v|w
+, which can be done in
+re
+⁡
+(
+u
+​
+|
+v
+|
+​
+w
+,
+⊤
+)
+\re(u|v|w,\top)
+ways. For
+h
+⁡
+(
+a
+)
+h(a)
+we can choose any element in
+{
+s
+∈
+D
+n
+:
+s
+≤
+u
+&
+v
+&
+w
+}
+\{s\in D_{n}:s\leq u\&v\&w\}
+. Furthermore, after the value
+h
+⁡
+(
+a
+)
+=
+s
+h(a)=s
+is chosen, then the value
+h
+⁡
+(
+b
+)
+h(b)
+can be chosen in
+re
+⁡
+(
+s
+,
+u
+&
+v
+&
+w
+)
+\re(s,u\&v\&w)
+ways.
+Hence,
+∑
+x
+∈
+D
+n
+H
+⁡
+(
+x
+,
+x
+,
+x
+)
+=
+∑
+u
+,
+v
+,
+w
+∈
+D
+n
+H
+′
+​
+(
+u
+,
+v
+,
+w
+)
+.
+\sum_{x\in D_{n}}H(x,x,x)=\sum_{u,v,w\in D_{n}}H^{\prime}(u,v,w).
+(3)
+The value of
+H
+′
+H^{\prime}
+is invariant under any permutation of its arguments, so we can use the same symmetry–based simplification as in Equation
+1
+:
+∑
+u
+,
+v
+,
+w
+∈
+D
+n
+H
+′
+​
+(
+u
+,
+v
+,
+w
+)
+=
+∑
+u
+∈
+D
+n
+H
+′
+​
+(
+u
+,
+u
+,
+u
+)
++
+3
+⋅
+∑
+u
+,
+v
+∈
+D
+n
+u
+≺
+v
+(
+H
+′
+(
+u
+,
+u
+,
+v
+)
++
+H
+′
+(
+u
+,
+v
+,
+v
+)
+)
++
+6
+⋅
+∑
+u
+,
+v
+,
+w
+∈
+D
+n
+u
+≺
+v
+≺
+w
+H
+′
+(
+u
+,
+v
+,
+w
+)
+\sum_{u,v,w\in D_{n}}H^{\prime}(u,v,w)=\sum_{u\in D_{n}}H^{\prime}(u,u,u)\\
++3\cdot\sum_{\begin{subarray}{c}u,v\in D_{n}\\
+u\prec v\end{subarray}}(H^{\prime}(u,u,v)+H^{\prime}(u,v,v))+6\cdot\sum_{\begin{subarray}{c}u,v,w\in D_{n}\\
+u\prec v\prec w\end{subarray}}H^{\prime}(u,v,w)
+(4)
+Thus, we have
+d
+n
++
+3
+≡
+∑
+u
+∈
+D
+n
+H
+′
+​
+(
+u
+,
+u
+,
+u
+)
+(
+mod
+3
+)
+d_{n+3}\equiv\sum_{u\in D_{n}}H^{\prime}(u,u,u)\pmod{3}
+Observe that
+∑
+u
+∈
+D
+n
+H
+′
+​
+(
+u
+,
+u
+,
+u
+)
+\sum_{u\in D_{n}}H^{\prime}(u,u,u)
+is equal to the number of monotone functions from
+the path
+P
+4
+P_{4}
+to
+D
+n
+D_{n}
+.
+Szepietowski
+[
+11
+]
+shows that monotone functions from the path
+P
+4
+=
+(
+a
+<
+b
+<
+c
+<
+d
+)
+P_{4}=(a<b<c<d)
+to a poset
+S
+S
+, are connected to the elements of the array
+M
+​
+(
+S
+)
+3
+=
+M
+⁡
+(
+S
+)
+×
+M
+⁡
+(
+S
+)
+×
+M
+⁡
+(
+S
+)
+M(S)^{3}=M(S)\times M(S)\times M(S)
+, where
+M
+⁡
+(
+S
+)
+M(S)
+is the array of the poset
+S
+S
+. Namely, for
+i
+,
+j
+∈
+S
+i,j\in S
+, we have
+M
+​
+(
+S
+)
+​
+[
+i
+,
+j
+]
+=
+1
+M(S)[i,j]=1
+if
+i
+≤
+j
+i\leq j
+, and
+M
+​
+(
+S
+)
+​
+[
+i
+,
+j
+]
+=
+0
+M(S)[i,j]=0
+otherwise. Moreover the sum of elements of
+M
+​
+(
+S
+)
+3
+M(S)^{3}
+is equal to
+|
+S
+P
+4
+|
+|S^{P_{4}}|
+.
+For example, for the poset
+D
+1
+=
+{
+00
+<
+01
+<
+11
+}
+D_{1}=\{00<01<11\}
+, we have
+M
+⁡
+(
+D
+1
+)
+=
+(
+1
+1
+1
+0
+1
+1
+0
+0
+1
+)
+M(D_{1})=\left(\begin{array}[]{ccc}1&1&1\\
+0&1&1\\
+0&0&1\end{array}\right)
+and
+M
+​
+(
+D
+1
+)
+3
+=
+(
+1
+3
+6
+0
+1
+3
+0
+0
+1
+)
+M(D_{1})^{3}=\left(\begin{array}[]{ccc}1&3&6\\
+0&1&3\\
+0&0&1\end{array}\right)
+The sum of the elements of
+(
+M
+​
+(
+D
+1
+)
+3
+)
+(M(D_{1})^{3})
+is equal to 15, which is equal to
+|
+D
+1
+P
+4
+|
+|D_{1}^{P_{4}}|
+—the number of monotone functions from
+P
+4
+P_{4}
+to
+D
+1
+D_{1}
+.
+Furthermore, consider the poset
+D
+2
+=
+{
+0000
+,
+0001
+,
+0011
+,
+0101
+,
+0111
+,
+1111
+}
+D_{2}=\{0000,0001,0011,0101,0111,1111\}
+and its array
+M
+⁡
+(
+D
+2
+)
+=
+(
+1
+1
+1
+1
+1
+1
+0
+1
+1
+1
+1
+1
+0
+0
+1
+0
+1
+1
+0
+0
+0
+1
+1
+1
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+1
+)
+M(D_{2})=\left(\begin{array}[]{cc|cc|cc}1&1&1&1&1&1\\
+0&1&1&1&1&1\\
+\hline\cr 0&0&1&0&1&1\\
+0&0&0&1&1&1\\
+\hline\cr 0&0&0&0&1&1\\
+0&0&0&0&0&1\end{array}\right)
+Consider now the array
+M
+​
+(
+D
+2
+)
+3
+=
+(
+1
+3
+6
+6
+14
+20
+0
+1
+3
+3
+9
+14
+0
+0
+1
+0
+3
+6
+0
+0
+0
+1
+3
+6
+0
+0
+0
+0
+1
+3
+0
+0
+0
+0
+0
+1
+)
+M(D_{2})^{3}=\left(\begin{array}[]{cc|cc|cc}1&3&6&6&14&20\\
+0&1&3&3&9&14\\
+\hline\cr 0&0&1&0&3&6\\
+0&0&0&1&3&6\\
+\hline\cr 0&0&0&0&1&3\\
+0&0&0&0&0&1\end{array}\right)
+The sum of the elements of
+(
+M
+​
+(
+D
+2
+)
+3
+)
+(M(D_{2})^{3})
+is equal to 105, which is equal to
+|
+D
+2
+P
+4
+|
+|D_{2}^{P_{4}}|
+—the number of monotone functions from
+P
+4
+P_{4}
+to
+D
+2
+D_{2}
+.
+In a similar we can compute
+|
+D
+n
+P
+4
+|
+|D_{n}^{P_{4}}|
+for
+n
+=
+3
+,
+4
+,
+5
+n=3,4,5
+. Unfortunately, this method cannot be easily applied for
+n
+=
+6
+n=6
+, because the array
+M
+⁡
+(
+D
+6
+)
+M(D_{6})
+is too big. However, Pawelski
+[
+9
+]
+proposes another method:
+|
+D
+(
+n
++
+m
+)
+P
+4
+|
+=
+|
+D
+n
+P
+4
+×
+B
+m
+|
+=
+|
+(
+D
+n
+P
+4
+)
+B
+m
+|
+|D_{(n+m)}^{P_{4}}|=|D_{n}^{P_{4}\times B^{m}}|=|(D_{n}^{P_{4}})^{B^{m}}|
+(also see
+[
+11
+]
+).
+Using the same program as used to compute
+|
+D
+5
+P
+4
+|
+|D_{5}^{P_{4}}|
+[
+9
+]
+we can calculate
+|
+D
+6
+P
+4
+|
+|D_{6}^{P_{4}}|
+and the result (see Table
+3
+) is divisible by 3.
+Corollary 3
+.
+As
+|
+D
+6
+P
+4
+|
+=
+868329572680304346696
+|D_{6}^{P_{4}}|=868329572680304346696
+is divisible by 3, then also
+d
+9
+d_{9}
+is divisible by 3.
+n
+n
+|
+D
+n
+P
+4
+|
+|D_{n}^{P_{4}}|
+|
+D
+n
+P
+4
+|
+mod
+3
+|D_{n}^{P_{4}}|\bmod 3
+0
+5
+2
+1
+15
+0
+2
+105
+0
+3
+3,490
+1
+4
+2,068,224
+0
+5
+262,808,891,710
+1
+6
+868,329,572,680,304,346,696
+0
+Table 3:
+Known values of
+|
+D
+n
+P
+4
+|
+|D_{n}^{P_{4}}|
+. Note that
+d
+n
++
+3
+≡
+|
+D
+n
+P
+4
+|
+(
+mod
+3
+)
+d_{n+3}\equiv|D_{n}^{P_{4}}|\pmod{3}
+.
+One can directly check that
+d
+n
++
+3
+≡
+|
+D
+n
+P
+4
+|
+(
+mod
+3
+)
+d_{n+3}\equiv|D_{n}^{P_{4}}|\pmod{3}
+for
+n
+≤
+5
+n\leq 5
+.
+5
+Counting functions from
+B
+2
+B^{2}
+to
+D
+n
+D_{n}
+By Lemma
+1
+, the poset
+D
+n
++
+2
+D_{n+2}
+is isomorphic to the poset
+D
+n
+B
+2
+D_{n}^{B^{2}}
+—the poset of monotone functions from
+B
+2
+=
+{
+00
+,
+01
+,
+10
+,
+11
+}
+B^{2}=\{00,01,10,11\}
+to
+D
+n
+D_{n}
+.
+Consider the function
+G
+G
+which for every pair
+(
+x
+,
+y
+)
+∈
+D
+n
+2
+(x,y)\in D_{n}^{2}
+returns the value
+G
+(
+x
+,
+y
+)
+=
+re
+(
+x
+|
+y
+,
+⊤
+)
+⋅
+re
+(
+⊥
+,
+x
+&
+y
+)
+G(x,y)=\re(x|y,\top)\cdot\re(\bot,x\&y)
+.
+Observe that
+G
+⁡
+(
+x
+,
+y
+)
+G(x,y)
+is equal to the number of functions
+f
+∈
+D
+n
+B
+2
+f\in D_{n}^{B^{2}}
+with
+f
+⁡
+(
+01
+)
+=
+x
+f(01)=x
+and
+f
+⁡
+(
+10
+)
+=
+y
+f(10)=y
+. Indeed, we can choose
+f
+⁡
+(
+11
+)
+f(11)
+in
+re
+(
+x
+|
+y
+,
+⊤
+)
+\re(x|y,\top)
+ways
+and
+f
+⁡
+(
+00
+)
+f(00)
+in
+re
+⁡
+(
+⊥
+,
+x
+&
+y
+)
+\re(\bot,x\&y)
+ways. Note that
+re
+(
+⊥
+,
+x
+&
+y
+)
+=
+re
+(
+x
+d
+|
+y
+d
+,
+⊤
+)
+\re(\bot,x\&y)=\re(x^{d}|y^{d},\top)
+, where
+x
+d
+x^{d}
+is the dual of
+x
+x
+.
+For
+A
+⊆
+D
+n
+×
+D
+n
+A\subseteq D_{n}\times D_{n}
+let
+G
+⁡
+(
+A
+)
+G(A)
+denote
+∑
+(
+x
+,
+y
+)
+∈
+A
+G
+⁡
+(
+x
+,
+y
+)
+\sum_{(x,y)\in A}G(x,y)
+.
+By Lemma
+1
+, we have that
+d
+n
++
+2
+=
+G
+⁡
+(
+D
+n
+×
+D
+n
+)
+=
+∑
+x
+∈
+D
+n
+∑
+y
+∈
+D
+n
+G
+⁡
+(
+x
+,
+y
+)
+.
+d_{n+2}=G(D_{n}\times D_{n})=\sum_{x\in D_{n}}\sum_{y\in D_{n}}G(x,y).
+Observe that, for every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+and every
+x
+,
+y
+∈
+D
+n
+x,y\in D_{n}
+, we have
+G
+⁡
+(
+x
+,
+y
+)
+=
+G
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+π
+⁡
+(
+y
+)
+)
+G(x,y)=G(\pi(x),\pi(y))
+.
+Indeed,
+z
+≥
+x
+|
+y
+z\geq x|y
+iff
+π
+⁡
+(
+z
+)
+≥
+π
+⁡
+(
+x
+)
+|
+π
+⁡
+(
+y
+)
+\pi(z)\geq\pi(x)|\pi(y)
+.
+Hence,
+re
+(
+x
+|
+y
+,
+⊤
+)
+=
+re
+(
+π
+(
+x
+)
+|
+π
+(
+y
+)
+,
+⊤
+)
+\re(x|y,\top)=\re(\pi(x)|\pi(y),\top)
+.
+Lemma 4
+.
+Let
+Y
+Y
+be a subset
+Y
+⊆
+D
+n
+Y\subseteq D_{n}
+and suppose that
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+for every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+;
+and let
+x
+x
+and
+y
+y
+be two equivalent,
+x
+∼
+y
+x\sim y
+, elements in
+D
+n
+D_{n}
+. Then:
+1.
+G
+⁡
+(
+{
+x
+}
+×
+Y
+)
+=
+G
+⁡
+(
+{
+y
+}
+×
+Y
+)
+G(\{x\}\times Y)=G(\{y\}\times Y)
+.
+2.
+G
+⁡
+(
+[
+x
+]
+×
+Y
+)
+=
+γ
+⁡
+(
+x
+)
+⋅
+G
+⁡
+(
+{
+x
+}
+×
+Y
+)
+G([x]\times Y)=\gamma(x)\cdot G(\{x\}\times Y)
+.
+3.
+if
+m
+m
+divides
+γ
+⁡
+(
+x
+)
+\gamma(x)
+, then
+m
+m
+divides
+G
+⁡
+(
+[
+x
+]
+×
+Y
+)
+G([x]\times Y)
+4.
+m
+m
+divides
+G
+⁡
+(
+E
+n
+,
+m
+×
+Y
+)
+G(E_{n,m}\times Y)
+and
+G
+⁡
+(
+Y
+×
+E
+n
+,
+m
+)
+G(Y\times E_{n,m})
+Proof.
+Notice that condition
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+implies that
+π
+\pi
+is a bijection on
+Y
+Y
+, or in other words,
+π
+\pi
+permutes the elements of
+Y
+Y
+.
+(1)
+G
+⁡
+(
+{
+x
+}
+×
+Y
+)
+=
+∑
+s
+∈
+Y
+G
+⁡
+(
+x
+,
+s
+)
+=
+∑
+s
+∈
+Y
+G
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+π
+⁡
+(
+s
+)
+)
+=
+∑
+t
+∈
+π
+⁡
+(
+Y
+)
+G
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+t
+)
+=
+=
+∑
+t
+∈
+Y
+G
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+t
+)
+=
+G
+⁡
+(
+{
+π
+⁡
+(
+x
+)
+}
+×
+Y
+)
+G(\{x\}\times Y)=\sum_{s\in Y}G(x,s)=\sum_{s\in Y}G(\pi(x),\pi(s))=\sum_{t\in\pi(Y)}G(\pi(x),t)=\\
+=\sum_{t\in Y}G(\pi(x),t)=G(\{\pi(x)\}\times Y)
+.
+We use the fact that
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+.
+(4) Observe that
+E
+n
+,
+m
+×
+Y
+E_{n,m}\times Y
+is a sum of disjoint sets of the form
+[
+x
+]
+×
+Y
+[x]\times Y
+, where
+γ
+⁡
+(
+x
+)
+\gamma(x)
+is divisible by
+m
+m
+.
+∎
+Lemma 5
+.
+For each
+Y
+=
+D
+n
+Y=D_{n}
+,
+[
+y
+]
+[y]
+,
+E
+n
+,
+m
+E_{n,m}
+, or
+E
+n
+,
+m
+c
+E_{n,m}^{c}
+, and each permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+, we have
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+.
+As an immediate corollary, we have that
+d
+n
++
+2
+=
+∑
+x
+∈
+R
+n
+γ
+⁡
+(
+x
+)
+⋅
+G
+⁡
+(
+{
+x
+}
+×
+D
+n
+)
+.
+d_{n+2}=\sum_{x\in R_{n}}\gamma(x)\cdot G(\{x\}\times D_{n}).
+Example 6
+.
+Consider the poset
+D
+2
+=
+{
+0000
+,
+0001
+,
+0011
+,
+0101
+,
+0111
+,
+1111
+}
+D_{2}=\{0000,0001,0011,0101,0111,1111\}
+. There are five equivalent classes: namely,
+R
+2
+=
+{
+{
+0000
+}
+,
+{
+0001
+}
+,
+{
+0011
+,
+0101
+}
+,
+{
+0111
+}
+,
+{
+1111
+}
+}
+R_{2}=\{\{0000\},\{0001\},\{0011,0101\},\{0111\},\{1111\}\}
+.
+Two elements:
+0101
+0101
+and
+0011
+0011
+are equivalent.
+For
+m
+=
+2
+m=2
+, we have
+E
+2
+,
+2
+=
+{
+0011
+,
+0101
+}
+E_{2,2}=\{0011,0101\}
+and
+E
+2
+,
+2
+c
+=
+{
+0000
+,
+0001
+,
+0111
+,
+1111
+}
+.
+E^{c}_{2,2}=\{0000,0001,0111,1111\}.
+Table
+4
+presents values of
+G
+⁡
+(
+x
+,
+y
+)
+G(x,y)
+for
+x
+,
+y
+∈
+D
+2
+x,y\in D_{2}
+.
+Let
+Y
+=
+[
+0011
+]
+=
+{
+0011
+,
+0101
+}
+Y=[0011]=\{0011,0101\}
+. For every permutation
+π
+∈
+S
+2
+\pi\in S_{2}
+, we have
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+.
+Furthermore,
+G
+⁡
+(
+{
+0011
+}
+×
+Y
+)
+=
+G
+⁡
+(
+{
+0101
+}
+×
+Y
+)
+=
+9
++
+4
+=
+13
+G(\{0011\}\times Y)=G(\{0101\}\times Y)=9+4=13
+; and
+G
+⁡
+(
+[
+0011
+]
+×
+Y
+)
+=
+2
+⋅
+13
+=
+26
+G([0011]\times Y)=2\cdot 13=26
+, which is divisible by 2.
+Similarly, for
+Z
+=
+[
+0001
+]
+=
+{
+0001
+}
+Z=[0001]=\{0001\}
+, we have that
+π
+⁡
+(
+Z
+)
+=
+Z
+\pi(Z)=Z
+for every permutation
+π
+∈
+S
+2
+\pi\in S_{2}
+.
+Furthermore,
+G
+⁡
+(
+{
+0011
+}
+×
+Z
+)
+=
+G
+⁡
+(
+{
+0101
+}
+×
+Z
+)
+=
+6
+G(\{0011\}\times Z)=G(\{0101\}\times Z)=6
+; and
+G
+⁡
+(
+[
+0011
+]
+×
+Z
+)
+=
+2
+⋅
+6
+=
+12
+G([0011]\times Z)=2\cdot 6=12
+, which is divisible by 2. By summing up all values in Table
+4
+we obtain
+G
+⁡
+(
+D
+2
+×
+D
+2
+)
+=
+168
+=
+d
+4
+G(D_{2}\times D_{2})=168=d_{4}
+.
+x
+y
+0000
+0001
+0011
+0101
+0111
+1111
+0000
+6
+5
+3
+3
+2
+1
+0001
+5
+10
+6
+6
+4
+2
+0011
+3
+6
+9
+4
+6
+3
+0101
+3
+6
+4
+9
+6
+3
+0111
+2
+4
+6
+6
+10
+5
+1111
+1
+2
+3
+3
+5
+6
+Table 4:
+Values of
+G
+⁡
+(
+x
+,
+y
+)
+G(x,y)
+for
+x
+,
+y
+∈
+D
+2
+x,y\in D_{2}
+.
+Theorem 7
+.
+d
+n
++
+2
+≡
+G
+⁡
+(
+D
+n
+×
+D
+n
+)
+≡
+G
+⁡
+(
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+)
+(
+mod
+m
+)
+d_{n+2}\equiv G(D_{n}\times D_{n})\equiv G(E_{n,m}^{c}\times E_{n,m}^{c})\pmod{m}
+and
+d
+n
++
+2
+≡
+∑
+x
+∈
+R
+n
+∩
+E
+n
+,
+m
+c
+∑
+y
+∈
+E
+n
+,
+m
+c
+γ
+⁡
+(
+x
+)
+⋅
+G
+⁡
+(
+x
+,
+y
+)
+(
+mod
+m
+)
+.
+d_{n+2}\equiv\sum_{x\in R_{n}\cap E_{n,m}^{c}}\sum_{y\in E_{n,m}^{c}}\gamma(x)\cdot G(x,y)\pmod{m}.
+Here we identify each class
+[
+x
+]
+∈
+R
+n
+[x]\in R_{n}
+with
+its canonical representative.
+Proof.
+Let
+A
+1
+A_{1}
+denote
+E
+n
+,
+m
+×
+D
+n
+E_{n,m}\times D_{n}
+and
+A
+2
+A_{2}
+denote
+D
+n
+×
+E
+n
+,
+m
+D_{n}\times E_{n,m}
+.
+Observe that
+A
+1
+∩
+A
+2
+=
+E
+n
+,
+m
+×
+E
+n
+,
+m
+A_{1}\cap A_{2}=E_{n,m}\times E_{n,m}
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+=
+D
+n
+×
+D
+n
+−
+(
+A
+1
+∪
+A
+2
+)
+E_{n,m}^{c}\times E_{n,m}^{c}=D_{n}\times D_{n}-(A_{1}\cup A_{2})
+and
+G
+⁡
+(
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+)
+=
+G
+⁡
+(
+D
+n
+×
+D
+n
+)
+−
+G
+⁡
+(
+A
+1
+)
+−
+G
+⁡
+(
+A
+2
+)
++
+G
+⁡
+(
+A
+1
+∩
+A
+2
+)
+.
+G(E_{n,m}^{c}\times E_{n,m}^{c})=G(D_{n}\times D_{n})-G(A_{1})-G(A_{2})+G(A_{1}\cap A_{2}).
+By Lemma
+4
+(2), we have that
+m
+m
+divides
+G
+⁡
+(
+A
+1
+)
+G(A_{1})
+,
+G
+⁡
+(
+A
+2
+)
+G(A_{2})
+, and
+G
+⁡
+(
+A
+1
+∩
+A
+2
+)
+G(A_{1}\cap A_{2})
+.
+Hence,
+d
+n
++
+2
+≡
+G
+⁡
+(
+D
+n
+×
+D
+n
+)
+≡
+G
+⁡
+(
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+)
+(
+mod
+m
+)
+.
+d_{n+2}\equiv G(D_{n}\times D_{n})\equiv G(E_{n,m}^{c}\times E_{n,m}^{c})\pmod{m}.
+Observe that
+π
+⁡
+(
+E
+n
+,
+m
+c
+)
+=
+E
+n
+,
+m
+c
+\pi(E_{n,m}^{c})=E_{n,m}^{c}
+, for every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+. Hence, by Lemma
+4
+(4):
+d
+n
++
+2
+≡
+∑
+x
+∈
+R
+n
+∩
+E
+n
+,
+m
+c
+∑
+y
+∈
+E
+n
+,
+m
+c
+γ
+⁡
+(
+x
+)
+⋅
+G
+⁡
+(
+x
+,
+y
+)
+(
+mod
+m
+)
+.
+d_{n+2}\equiv\sum_{x\in R_{n}\cap E_{n,m}^{c}}\sum_{y\in E_{n,m}^{c}}\gamma(x)\cdot G(x,y)\pmod{m}.
+∎
+Example 8
+(Continuation of Example
+6
+)
+.
+By summing the relevant values listed in Table
+4
+, we obtain
+G
+⁡
+(
+E
+2
+,
+2
+c
+×
+E
+2
+,
+2
+c
+)
+=
+6
++
+5
++
+2
++
+1
++
+5
++
+10
++
+4
++
+2
++
+2
++
+4
++
+10
++
+5
++
+1
++
+2
++
+5
++
+6
+=
+70
+G(E_{2,2}^{c}\times E_{2,2}^{c})=6+5+2+1+5+10+4+2+2+4+10+5+1+2+5+6=70
+. By Theorem
+7
+, we have
+d
+4
+≡
+70
+(
+mod
+2
+)
+d_{4}\equiv 70\pmod{2}
+. Indeed,
+d
+4
+=
+168
+d_{4}=168
+, which is even.
+6
+Counting functions from
+B
+3
+B^{3}
+to
+D
+n
+D_{n}
+In the next two sections, we show that similar techniques can be also applied to functions
+in
+D
+n
+B
+3
+D_{n}^{B^{3}}
+and
+D
+n
+B
+4
+D_{n}^{B^{4}}
+.
+In Section
+4
+we define the function
+H
+H
+. We have shown that
+d
+n
++
+3
+=
+H
+⁡
+(
+D
+n
+3
+)
+=
+∑
+x
+∈
+D
+n
+∑
+y
+∈
+D
+n
+∑
+z
+∈
+D
+n
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+d_{n+3}=H(D_{n}^{3})=\sum_{x\in D_{n}}\sum_{y\in D_{n}}\sum_{z\in D_{n}}H(x,y,z)
+Observe that for every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+and every
+x
+,
+y
+,
+z
+∈
+D
+n
+x,y,z\in D_{n}
+, we have
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+=
+H
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+π
+⁡
+(
+y
+)
+,
+π
+⁡
+(
+z
+)
+)
+H(x,y,z)=H(\pi(x),\pi(y),\pi(z))
+.
+Lemma 9
+.
+Let
+Y
+Y
+and
+Z
+Z
+be subsets
+Y
+,
+Z
+⊆
+D
+n
+Y,Z\subseteq D_{n}
+and suppose that
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+and
+π
+⁡
+(
+Z
+)
+=
+Z
+\pi(Z)=Z
+for every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+; and let
+x
+x
+and
+y
+y
+be two equivalent,
+x
+∼
+y
+x\sim y
+, elements in
+D
+n
+D_{n}
+. Then:
+1.
+H
+⁡
+(
+{
+x
+}
+×
+Y
+×
+Z
+)
+=
+H
+⁡
+(
+{
+y
+}
+×
+Y
+×
+Z
+)
+H(\{x\}\times Y\times Z)=H(\{y\}\times Y\times Z)
+.
+2.
+H
+⁡
+(
+[
+x
+]
+×
+Y
+×
+Z
+)
+=
+γ
+⁡
+(
+x
+)
+⋅
+H
+⁡
+(
+{
+x
+}
+×
+Y
+×
+Z
+)
+H([x]\times Y\times Z)=\gamma(x)\cdot H(\{x\}\times Y\times Z)
+.
+3.
+if
+m
+m
+divides
+γ
+⁡
+(
+x
+)
+\gamma(x)
+, then
+m
+m
+divides
+H
+⁡
+(
+[
+x
+]
+×
+Y
+×
+Z
+)
+H([x]\times Y\times Z)
+4.
+m
+m
+divides
+H
+⁡
+(
+E
+n
+,
+m
+×
+Y
+×
+Z
+)
+H(E_{n,m}\times Y\times Z)
+.
+Proof.
+(1)
+H
+⁡
+(
+{
+x
+}
+×
+Y
+×
+Z
+)
+=
+∑
+s
+∈
+Y
+∑
+t
+∈
+Z
+H
+⁡
+(
+x
+,
+s
+,
+t
+)
+=
+∑
+s
+∈
+Y
+∑
+t
+∈
+Z
+H
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+π
+⁡
+(
+s
+)
+,
+π
+⁡
+(
+t
+)
+)
+=
+∑
+u
+∈
+π
+⁡
+(
+Y
+)
+∑
+v
+∈
+π
+⁡
+(
+Z
+)
+H
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+u
+,
+v
+)
+=
+∑
+u
+∈
+Y
+∑
+∈
+Z
+H
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+u
+,
+v
+)
+=
+H
+⁡
+(
+{
+π
+⁡
+(
+x
+)
+}
+×
+Y
+×
+Z
+)
+H(\{x\}\times Y\times Z)=\sum_{s\in Y}\sum_{t\in Z}H(x,s,t)=\sum_{s\in Y}\sum_{t\in Z}H(\pi(x),\pi(s),\pi(t))=\sum_{u\in\pi(Y)}\sum_{v\in\pi(Z)}H(\pi(x),u,v)=\sum_{u\in Y}\sum_{\in Z}H(\pi(x),u,v)=H(\{\pi(x)\}\times Y\times Z)
+.
+We use the fact that
+π
+\pi
+is a bijection on
+Y
+×
+Z
+Y\times Z
+and permutes the elements of
+Y
+×
+Z
+Y\times Z
+.
+∎
+As an immediate corollary, we have
+d
+n
++
+3
+=
+H
+⁡
+(
+D
+n
+×
+D
+n
+×
+D
+n
+)
+=
+∑
+x
+∈
+R
+n
+γ
+⁡
+(
+x
+)
+⋅
+H
+⁡
+(
+{
+x
+}
+×
+D
+n
+×
+D
+n
+)
+.
+d_{n+3}=H(D_{n}\times D_{n}\times D_{n})=\sum_{x\in R_{n}}\gamma(x)\cdot H(\{x\}\times D_{n}\times D_{n}).
+Theorem 10
+.
+d
+n
++
+3
+≡
+H
+⁡
+(
+D
+n
+×
+D
+n
+×
+D
+n
+)
+≡
+H
+⁡
+(
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+)
+(
+mod
+m
+)
+d_{n+3}\equiv H(D_{n}\times D_{n}\times D_{n})\equiv H(E_{n,m}^{c}\times E_{n,m}^{c}\times E_{n,m}^{c})\pmod{m}
+and
+d
+n
++
+3
+≡
+∑
+x
+∈
+R
+n
+∩
+E
+n
+,
+m
+c
+∑
+y
+∈
+E
+n
+,
+m
+c
+∑
+z
+∈
+E
+n
+,
+m
+c
+γ
+⁡
+(
+x
+)
+⋅
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+(
+mod
+m
+)
+.
+d_{n+3}\equiv\sum_{x\in R_{n}\cap E_{n,m}^{c}}\sum_{y\in E_{n,m}^{c}}\sum_{z\in E_{n,m}^{c}}\gamma(x)\cdot H(x,y,z)\pmod{m}.
+Here, again, we identify each class
+[
+x
+]
+∈
+R
+n
+[x]\in R_{n}
+with
+its canonical representative.
+Proof.
+Let
+A
+1
+,
+A
+2
+,
+A
+3
+A_{1},A_{2},A_{3}
+denote
+E
+n
+,
+m
+×
+D
+n
+×
+D
+n
+E_{n,m}\times D_{n}\times D_{n}
+,
+D
+n
+×
+E
+n
+,
+m
+×
+D
+n
+D_{n}\times E_{n,m}\times D_{n}
+, and
+D
+n
+×
+D
+n
+×
+E
+n
+,
+m
+D_{n}\times\ D_{n}\times E_{n,m}
+, respectively.
+Observe that
+A
+1
+∩
+A
+2
+=
+E
+n
+,
+m
+×
+E
+n
+,
+m
+×
+D
+n
+A_{1}\cap A_{2}=E_{n,m}\times E_{n,m}\times D_{n}
+A
+1
+∩
+A
+3
+=
+E
+n
+,
+m
+×
+D
+n
+×
+E
+n
+,
+m
+A_{1}\cap A_{3}=E_{n,m}\times D_{n}\times E_{n,m}
+A
+2
+∩
+A
+3
+=
+D
+n
+×
+E
+n
+,
+m
+×
+E
+n
+,
+m
+A_{2}\cap A_{3}=D_{n}\times E_{n,m}\times E_{n,m}
+A
+1
+∩
+A
+2
+∩
+A
+3
+=
+E
+n
+,
+m
+×
+E
+n
+,
+m
+×
+E
+n
+,
+m
+A_{1}\cap A_{2}\cap A_{3}=E_{n,m}\times E_{n,m}\times E_{n,m}
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+=
+D
+n
+×
+D
+n
+×
+D
+n
+−
+⋃
+i
+=
+1
+3
+A
+i
+E_{n,m}^{c}\times E_{n,m}^{c}\times E_{n,m}^{c}=D_{n}\times D_{n}\times D_{n}-\bigcup_{i=1}^{3}A_{i}
+Similarly as in
+[
+8
+, Chapter 2.]
+, one can prove the following form of the principle of inclusion and exclusion:
+H
+⁡
+(
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+)
+=
+H
+⁡
+(
+D
+n
+×
+D
+n
+×
+D
+n
+−
+⋃
+i
+=
+1
+3
+A
+i
+)
+H(E_{n,m}^{c}\times E_{n,m}^{c}\times E_{n,m}^{c})=H(D_{n}\times D_{n}\times D_{n}-\bigcup_{i=1}^{3}A_{i})
+=
+H
+⁡
+(
+D
+n
+×
+D
+n
+×
+D
+n
+)
+−
+H
+⁡
+(
+A
+1
+)
+−
+H
+⁡
+(
+A
+2
+)
+−
+H
+⁡
+(
+A
+3
+)
+=H(D_{n}\times D_{n}\times D_{n})-H(A_{1})-H(A_{2})-H(A_{3})
++
+H
+⁡
+(
+A
+1
+∩
+A
+2
+)
++
+H
+⁡
+(
+A
+1
+∩
+A
+3
+)
++
+H
+⁡
+(
+A
+2
+∩
+A
+3
+)
+−
+H
+⁡
+(
+A
+1
+∩
+A
+2
+∩
+A
+3
+)
+.
++H(A_{1}\cap A_{2})+H(A_{1}\cap A_{3})+H(A_{2}\cap A_{3})-H(A_{1}\cap A_{2}\cap A_{3}).
+Moreover, we have that
+m
+m
+divides the following numbers:
+•
+H
+⁡
+(
+A
+i
+)
+H(A_{i})
+for
+i
+=
+1
+,
+2
+,
+3
+i=1,2,3
+•
+H
+⁡
+(
+A
+i
+∩
+A
+j
+)
+H(A_{i}\cap A_{j})
+for
+1
+≤
+i
+<
+j
+≤
+3
+1\leq i<j\leq 3
+•
+H
+⁡
+(
+A
+1
+∩
+A
+2
+∩
+A
+3
+)
+H(A_{1}\cap A_{2}\cap A_{3})
+.
+Hence,
+d
+n
++
+3
+≡
+H
+⁡
+(
+D
+n
+×
+D
+n
+×
+D
+n
+)
+≡
+H
+⁡
+(
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+×
+E
+n
+,
+m
+c
+)
+(
+mod
+m
+)
+.
+d_{n+3}\equiv H(D_{n}\times D_{n}\times D_{n})\equiv H(E^{c}_{n,m}\times E^{c}_{n,m}\times E_{n,m}^{c})\pmod{m}.
+Observe that
+π
+⁡
+(
+E
+n
+,
+m
+c
+)
+=
+E
+n
+,
+m
+c
+\pi(E_{n,m}^{c})=E_{n,m}^{c}
+, for every
+π
+∈
+S
+n
+\pi\in S_{n}
+, hence by Lemma
+9
+(2), we have
+d
+n
++
+3
+≡
+∑
+x
+∈
+R
+n
+∩
+E
+n
+,
+m
+c
+∑
+y
+∈
+E
+n
+,
+m
+c
+∑
+z
+∈
+E
+n
+,
+m
+c
+γ
+⁡
+(
+x
+)
+⋅
+H
+⁡
+(
+x
+,
+y
+,
+z
+)
+(
+mod
+m
+)
+.
+d_{n+3}\equiv\sum_{x\in R_{n}\cap E_{n,m}^{c}}\sum_{y\in E_{n,m}^{c}}\sum_{z\in E_{n,m}^{c}}\gamma(x)\cdot H(x,y,z)\pmod{m}.
+∎
+Example 11
+.
+Consider
+D
+4
+D_{4}
+. There are 168 elements in
+D
+4
+D_{4}
+and 30 equivalent classes in
+R
+4
+R_{4}
+. The distribution of these equivalence classes based on their
+γ
+\gamma
+value is presented in Table
+5
+.
+For instance, there are six equivalent classes
+[
+x
+]
+[x]
+with
+γ
+⁡
+(
+x
+)
+=
+1
+\gamma(x)=1
+, two equivalent classes with
+γ
+⁡
+(
+x
+)
+=
+3
+\gamma(x)=3
+, and so forth. For
+m
+=
+2
+m=2
+, the set
+E
+4
+,
+2
+c
+E^{c}_{4,2}
+contains only twelve elements
+and
+R
+4
+∩
+E
+4
+,
+2
+c
+R_{4}\cap E^{c}_{4,2}
+contains eight elements. Similarly, for
+m
+=
+3
+m=3
+, the set
+E
+4
+,
+3
+c
+E^{c}_{4,3}
+contains 42 elements and
+R
+4
+∩
+E
+4
+,
+3
+c
+R_{4}\cap E^{c}_{4,3}
+consists of 15 elements.
+Example 12
+.
+We have utilized a Java implementation of the Theorem
+10
+. For
+n
+=
+4
+n=4
+and
+m
+=
+2
+,
+3
+,
+4
+,
+6
+,
+12
+m=2,3,4,6,12
+we have:
+d
+7
+≡
+2320978352
+(
+mod
+2
+)
+d_{7}\equiv 2320978352\pmod{2}
+, therefore
+d
+7
+mod
+2
+=
+0
+d_{7}\bmod 2=0
+,
+d
+7
+≡
+74128573428
+(
+mod
+3
+)
+d_{7}\equiv 74128573428\pmod{3}
+, therefore
+d
+7
+mod
+3
+=
+0
+d_{7}\bmod 3=0
+,
+d
+7
+≡
+128268820802
+(
+mod
+4
+)
+d_{7}\equiv 128268820802\pmod{4}
+, therefore
+d
+7
+mod
+4
+=
+2
+d_{7}\bmod 4=2
+,
+d
+7
+≡
+89637133284
+(
+mod
+6
+)
+d_{7}\equiv 89637133284\pmod{6}
+, therefore
+d
+7
+mod
+6
+=
+0
+d_{7}\bmod 6=0
+,
+d
+7
+≡
+566167187562
+(
+mod
+12
+)
+d_{7}\equiv 566167187562\pmod{12}
+, therefore
+d
+7
+mod
+12
+=
+6
+d_{7}\bmod{12}=6
+,
+One can check these values directly by dividing
+d
+7
+d_{7}
+by 2, 3, 4, 6, and 12.
+k
+k
+|
+{
+f
+∈
+R
+4
+:
+γ
+⁡
+(
+f
+)
+=
+k
+}
+|
+|\{f\in R_{4}:\gamma(f)=k\}|
+1
+6
+3
+2
+4
+9
+6
+6
+12
+7
+Table 5:
+Number of
+f
+∈
+R
+4
+f\in R_{4}
+with
+γ
+⁡
+(
+f
+)
+=
+k
+\gamma(f)=k
+.
+7
+Counting functions from
+B
+4
+B^{4}
+into
+D
+n
+D_{n}
+By Lemma
+1
+, the poset
+D
+n
++
+4
+D_{n+4}
+is isomorphic to the poset
+D
+n
+B
+4
+D_{n}^{B^{4}}
+—the set of monotone functions from
+B
+4
+B^{4}
+to
+D
+n
+D_{n}
+.
+Consider the function
+F
+F
+, which for every six elements
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+∈
+D
+n
+a,b,c,d,e,f\in D_{n}
+, gets
+how many functions
+g
+∈
+D
+n
+B
+4
+g\in D_{n}^{B^{4}}
+satisfy:
+g
+⁡
+(
+0011
+)
+=
+a
+g(0011)=a
+,
+g
+⁡
+(
+0101
+)
+=
+b
+g(0101)=b
+,
+g
+⁡
+(
+1001
+)
+=
+c
+g(1001)=c
+,
+g
+⁡
+(
+0110
+)
+=
+d
+g(0110)=d
+,
+g
+⁡
+(
+1010
+)
+=
+e
+g(1010)=e
+,
+g
+⁡
+(
+1100
+)
+=
+f
+g(1100)=f
+.
+Or in other words
+F
+F
+counts in how many ways we can choose
+the values of
+g
+g
+for other elements of
+B
+4
+B^{4}
+.
+Observe that the values for upper elements:
+(
+1111
+)
+(1111)
+,
+(
+0111
+)
+(0111)
+,
+(
+1011
+)
+(1011)
+,
+(
+1101
+)
+(1101)
+,
+(
+1110
+)
+(1110)
+can be
+chosen independently from the values for lower elements:
+(
+0000
+)
+(0000)
+,
+(
+0001
+)
+(0001)
+,
+(
+0010
+)
+(0010)
+,
+(
+0100
+)
+(0100)
+,
+(
+1000
+)
+(1000)
+.
+Consider now how many ways one can choose the values
+for the upper elements:
+(
+1111
+)
+(1111)
+,
+(
+0111
+)
+(0111)
+,
+(
+1011
+)
+(1011)
+,
+(
+1101
+)
+(1101)
+,
+(
+1110
+)
+(1110)
+.
+First, we choose
+g
+⁡
+(
+1111
+)
+g(1111)
+witch must be greater or equal than each of
+the values
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+a,b,c,d,e,f
+, so
+g
+⁡
+(
+1111
+)
+g(1111)
+can be chosen
+from the values greater or equal than
+a
+|
+b
+​
+|
+c
+|
+​
+d
+​
+|
+e
+|
+​
+f
+a|b|c|d|e|f
+.
+Next, if the value of
+g
+⁡
+(
+1111
+)
+g(1111)
+is chosen, then the values
+g
+⁡
+(
+0111
+)
+g(0111)
+,
+g
+⁡
+(
+1011
+)
+g(1011)
+,
+g
+⁡
+(
+1101
+)
+g(1101)
+,
+g
+⁡
+(
+1110
+)
+g(1110)
+can be chosen independently
+from each other. And
+g
+⁡
+(
+0111
+)
+g(0111)
+must be greater or equal than each one of
+g
+⁡
+(
+0011
+)
+=
+a
+g(0011)=a
+,
+g
+⁡
+(
+0101
+)
+=
+b
+g(0101)=b
+,
+g
+⁡
+(
+0110
+)
+=
+d
+g(0110)=d
+. Hence
+a
+​
+|
+b
+|
+​
+d
+≤
+g
+⁡
+(
+0111
+)
+≤
+g
+⁡
+(
+1111
+)
+a|b|d\leq g(0111)\leq g(1111)
+.
+Thus
+g
+⁡
+(
+0111
+)
+g(0111)
+can be chosen in
+re
+⁡
+(
+a
+​
+|
+b
+|
+​
+d
+,
+g
+⁡
+(
+1111
+)
+)
+\re(a|b|d,g(1111))
+ways
+(remember that
+re
+⁡
+(
+u
+,
+v
+)
+\re(u,v)
+is the number of elements between
+u
+u
+and
+v
+v
+).
+Similarly, the value of
+g
+⁡
+(
+1011
+)
+g(1011)
+can be chosen in
+re
+⁡
+(
+a
+​
+|
+c
+|
+​
+e
+,
+g
+⁡
+(
+1111
+)
+)
+\re(a|c|e,g(1111))
+ways;
+g
+⁡
+(
+1101
+)
+g(1101)
+in
+re
+⁡
+(
+b
+​
+|
+c
+|
+​
+f
+,
+g
+⁡
+(
+1111
+)
+)
+\re(b|c|f,g(1111))
+ways; and
+g
+⁡
+(
+1110
+)
+g(1110)
+in
+re
+⁡
+(
+d
+​
+|
+e
+|
+​
+f
+,
+g
+⁡
+(
+1111
+)
+]
+\re(d|e|f,g(1111)]
+ways.
+The number of ways
+g
+g
+can be extended to the upper elements is equal
+to
+H
+=
+∑
+u
+≥
+a
+|
+b
+​
+|
+c
+|
+​
+d
+​
+|
+e
+|
+​
+f
+re
+⁡
+(
+a
+​
+|
+b
+|
+​
+d
+,
+u
+)
+⋅
+re
+⁡
+(
+a
+​
+|
+c
+|
+​
+e
+,
+u
+)
+⋅
+re
+⁡
+(
+b
+​
+|
+c
+|
+​
+f
+,
+u
+)
+⋅
+re
+⁡
+(
+d
+​
+|
+e
+|
+​
+f
+,
+u
+)
+.
+H=\sum_{u\geq a|b|c|d|e|f}\re(a|b|d,u)\cdot\re(a|c|e,u)\cdot\re(b|c|f,u)\cdot\re(d|e|f,u).
+Similarly one can show that
+the number of ways
+g
+g
+can be extended to the lower elements is equal
+to
+h
+=
+∑
+u
+≤
+a
+&
+b
+&
+c
+&
+d
+&
+e
+&
+f
+re
+⁡
+(
+u
+,
+a
+&
+b
+&
+c
+)
+⋅
+re
+⁡
+(
+u
+,
+a
+&
+d
+&
+e
+)
+⋅
+re
+⁡
+(
+u
+,
+b
+&
+d
+&
+f
+)
+⋅
+re
+⁡
+(
+u
+,
+c
+&
+e
+&
+f
+)
+.
+h=\sum_{u\leq a\&b\&c\&d\&e\&f}\re(u,a\&b\&c)\cdot\re(u,a\&d\&e)\cdot\re(u,b\&d\&f)\cdot\re(u,c\&e\&f).
+Altogether there are
+F
+⁡
+(
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+)
+=
+H
+⋅
+h
+F(a,b,c,d,e,f)=H\cdot h
+functions satisfying:
+g
+⁡
+(
+0011
+)
+=
+a
+g(0011)=a
+,
+g
+⁡
+(
+0101
+)
+=
+b
+g(0101)=b
+,
+g
+⁡
+(
+1001
+)
+=
+c
+g(1001)=c
+,
+g
+⁡
+(
+0110
+)
+=
+d
+g(0110)=d
+,
+g
+⁡
+(
+1010
+)
+=
+e
+g(1010)=e
+,
+g
+⁡
+(
+1100
+)
+=
+f
+g(1100)=f
+.
+For
+A
+⊆
+(
+D
+n
+)
+6
+A\subseteq(D_{n})^{6}
+let
+F
+⁡
+(
+A
+)
+F(A)
+denote
+∑
+(
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+)
+∈
+A
+F
+⁡
+(
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+)
+\sum_{(a,b,c,d,e,f)\in A}F(a,b,c,d,e,f)
+.
+By Lemma
+1
+,
+d
+n
++
+4
+=
+F
+⁡
+(
+D
+n
+6
+)
+=
+∑
+a
+∈
+D
+n
+∑
+b
+∈
+D
+n
+∑
+c
+∈
+D
+n
+∑
+d
+∈
+D
+n
+∑
+e
+∈
+D
+n
+∑
+f
+∈
+D
+n
+F
+⁡
+(
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+)
+d_{n+4}=F(D_{n}^{6})=\sum_{a\in D_{n}}\sum_{b\in D_{n}}\sum_{c\in D_{n}}\sum_{d\in D_{n}}\sum_{e\in D_{n}}\sum_{f\in D_{n}}F(a,b,c,d,e,f)
+Observe that for every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+and every
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+∈
+D
+n
+a,b,c,d,e,f\in D_{n}
+, we have
+F
+⁡
+(
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+)
+=
+F
+⁡
+(
+π
+⁡
+(
+a
+)
+,
+π
+⁡
+(
+b
+)
+,
+π
+⁡
+(
+c
+)
+,
+π
+⁡
+(
+d
+)
+,
+π
+⁡
+(
+e
+)
+,
+π
+⁡
+(
+f
+)
+)
+F(a,b,c,d,e,f)=F(\pi(a),\pi(b),\pi(c),\pi(d),\pi(e),\pi(f))
+.
+Consider Cartesian product
+Y
+=
+Y
+1
+×
+Y
+2
+×
+Y
+3
+×
+Y
+4
+×
+Y
+5
+Y=Y_{1}\times Y_{2}\times Y_{3}\times Y_{4}\times Y_{5}
+and let
+π
+⁡
+(
+y
+1
+,
+…
+,
+y
+5
+)
+=
+(
+π
+⁡
+(
+y
+1
+)
+,
+…
+,
+π
+⁡
+(
+y
+5
+)
+)
+\pi(y_{1},\ldots,y_{5})=(\pi(y_{1}),\ldots,\pi(y_{5}))
+. Observe that, if
+π
+⁡
+(
+Y
+i
+)
+=
+Y
+i
+\pi(Y_{i})=Y_{i}
+for every
+i
+i
+, then
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+and
+π
+\pi
+permutes the elements of
+Y
+Y
+.
+Lemma 13
+.
+Let
+Y
+Y
+be a subset
+Y
+⊆
+D
+n
+5
+Y\subseteq D_{n}^{5}
+and suppose that
+π
+⁡
+(
+Y
+)
+=
+Y
+\pi(Y)=Y
+for every permutation
+π
+∈
+S
+n
+\pi\in S_{n}
+; and let
+x
+x
+and
+y
+y
+be two equivalent,
+x
+∼
+y
+x\sim y
+, elements in
+D
+n
+D_{n}
+. Then:
+1.
+F
+⁡
+(
+{
+x
+}
+×
+Y
+)
+=
+F
+⁡
+(
+{
+y
+}
+×
+Y
+)
+F(\{x\}\times Y)=F(\{y\}\times Y)
+.
+2.
+F
+⁡
+(
+[
+x
+]
+×
+Y
+)
+=
+γ
+⁡
+(
+x
+)
+⋅
+F
+⁡
+(
+{
+x
+}
+×
+Y
+)
+F([x]\times Y)=\gamma(x)\cdot F(\{x\}\times Y)
+.
+3.
+If
+m
+m
+divides
+γ
+⁡
+(
+x
+)
+\gamma(x)
+, then
+m
+m
+divides
+F
+⁡
+(
+[
+x
+]
+×
+Y
+)
+F([x]\times Y)
+.
+4.
+m
+m
+divides
+F
+⁡
+(
+E
+n
+,
+m
+×
+Y
+)
+F(E_{n,m}\times Y)
+.
+Proof.
+(1)
+F
+⁡
+(
+{
+x
+}
+×
+Y
+)
+=
+∑
+s
+∈
+Y
+F
+⁡
+(
+x
+,
+s
+)
+=
+∑
+s
+∈
+Y
+F
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+π
+⁡
+(
+s
+)
+)
+=
+∑
+u
+∈
+π
+⁡
+(
+Y
+)
+F
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+u
+)
+=
+∑
+u
+∈
+Y
+F
+⁡
+(
+π
+⁡
+(
+x
+)
+,
+u
+)
+=
+F
+⁡
+(
+{
+π
+⁡
+(
+x
+)
+}
+×
+Y
+)
+F(\{x\}\times Y)=\sum_{s\in Y}F(x,s)=\sum_{s\in Y}F(\pi(x),\pi(s))=\sum_{u\in\pi(Y)}F(\pi(x),u)=\sum_{u\in Y}F(\pi(x),u)=F(\{\pi(x)\}\times Y)
+.
+We use the fact that
+π
+\pi
+is a bijection on
+Y
+Y
+and permutes the elements of
+Y
+Y
+.
+∎
+As a corollary we have
+d
+n
++
+4
+=
+F
+⁡
+(
+D
+n
+6
+)
+=
+F
+⁡
+(
+D
+n
+×
+D
+n
+×
+D
+n
+×
+D
+n
+×
+D
+n
+×
+D
+n
+)
+d_{n+4}=F(D_{n}^{6})=F(D_{n}\times D_{n}\times D_{n}\times D_{n}\times D_{n}\times D_{n})
+and
+d
+n
++
+4
+=
+∑
+x
+∈
+R
+n
+γ
+⁡
+(
+x
+)
+⋅
+F
+⁡
+(
+{
+x
+}
+×
+D
+n
+×
+D
+n
+×
+D
+n
+×
+D
+n
+×
+D
+n
+)
+.
+d_{n+4}=\sum_{x\in R_{n}}\gamma(x)\cdot F(\{x\}\times D_{n}\times D_{n}\times D_{n}\times D_{n}\times D_{n}).
+Theorem 14
+.
+d
+n
++
+4
+≡
+F
+⁡
+(
+D
+n
+6
+)
+≡
+F
+⁡
+(
+(
+E
+n
+,
+m
+c
+)
+6
+)
+(
+mod
+m
+)
+d_{n+4}\equiv F(D_{n}^{6})\equiv F((E_{n,m}^{c})^{6})\pmod{m}
+and
+d
+n
++
+4
+≡
+∑
+a
+∈
+R
+n
+∩
+E
+n
+,
+m
+c
+∑
+b
+∈
+E
+n
+,
+m
+c
+∑
+c
+∈
+E
+n
+,
+m
+c
+∑
+d
+∈
+E
+n
+,
+m
+c
+∑
+e
+∈
+E
+n
+,
+m
+c
+∑
+f
+∈
+E
+n
+,
+m
+c
+γ
+⁡
+(
+a
+)
+⋅
+F
+⁡
+(
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+)
+(
+mod
+m
+)
+.
+d_{n+4}\equiv\sum_{a\in R_{n}\cap E_{n,m}^{c}}\sum_{b\in E_{n,m}^{c}}\sum_{c\in E_{n,m}^{c}}\sum_{d\in E_{n,m}^{c}}\sum_{e\in E_{n,m}^{c}}\sum_{f\in E_{n,m}^{c}}\gamma(a)\cdot F(a,b,c,d,e,f)\pmod{m}.
+Proof.
+Let
+A
+1
+A_{1}
+denote
+E
+n
+,
+m
+×
+D
+n
+5
+E_{n,m}\times D_{n}^{5}
+;
+let
+A
+2
+A_{2}
+denote
+D
+n
+×
+E
+n
+,
+m
+×
+D
+n
+4
+D_{n}\times E_{n,m}\times D_{n}^{4}
+; and so on.
+More precisely, for
+i
+i
+,
+1
+≤
+i
+≤
+6
+1\leq i\leq 6
+, let
+A
+i
+A_{i}
+denote
+D
+n
+i
+−
+1
+×
+E
+n
+,
+m
+×
+D
+n
+6
+−
+i
+D_{n}^{i-1}\times E_{n,m}\times D_{n}^{6-i}
+.
+For any nonempty subset
+I
+⊆
+{
+1
+,
+…
+,
+6
+}
+I\subseteq\{1,\ldots,6\}
+, let
+A
+I
+=
+⋂
+i
+∈
+I
+A
+i
+A_{I}=\bigcap_{i\in I}A_{i}
+.
+Additionally, let
+A
+∅
+=
+D
+n
+6
+A_{\emptyset}=D_{n}^{6}
+.
+Observe that
+(
+E
+n
+,
+m
+c
+)
+6
+=
+D
+n
+6
+−
+⋃
+i
+=
+1
+6
+A
+i
+.
+(E_{n,m}^{c})^{6}=D_{n}^{6}-\bigcup_{i=1}^{6}A_{i}.
+Similarly as in
+[
+8
+, Chapter 2.]
+, one can prove the following form of the principle of inclusion and exclusion:
+F
+⁡
+(
+(
+E
+n
+,
+m
+c
+)
+6
+)
+=
+F
+⁡
+(
+D
+n
+6
+−
+⋃
+i
+=
+1
+6
+A
+i
+)
+=
+∑
+I
+⊆
+{
+1
+,
+…
+,
+6
+}
+(
+−
+1
+)
+|
+I
+|
+​
+F
+​
+(
+A
+I
+)
+.
+F((E_{n,m}^{c})^{6})=F(D_{n}^{6}-\bigcup_{i=1}^{6}A_{i})=\sum_{I\subseteq\{1,\ldots,6\}}(-1)^{|I|}F(A_{I}).
+Moreover, if
+I
+≠
+∅
+I\neq\emptyset
+, then
+m
+m
+divides
+F
+⁡
+(
+A
+I
+)
+F(A_{I})
+.
+Hence,
+d
+n
++
+4
+≡
+F
+⁡
+(
+D
+n
+6
+)
+≡
+F
+⁡
+(
+(
+E
+n
+,
+m
+c
+)
+6
+)
+(
+mod
+m
+)
+.
+d_{n+4}\equiv F(D_{n}^{6})\equiv F((E^{c}_{n,m})^{6})\pmod{m}.
+Observe that
+π
+⁡
+(
+E
+n
+,
+m
+c
+)
+=
+E
+n
+,
+m
+c
+\pi(E_{n,m}^{c})=E_{n,m}^{c}
+, for every
+π
+∈
+S
+n
+\pi\in S_{n}
+, hence by Lemma
+13
+(2), we have
+d
+n
++
+4
+≡
+∑
+a
+∈
+R
+n
+∩
+E
+n
+,
+m
+c
+∑
+b
+∈
+E
+n
+,
+m
+c
+∑
+c
+∈
+E
+n
+,
+m
+c
+∑
+d
+∈
+E
+n
+,
+m
+c
+∑
+e
+∈
+E
+n
+,
+m
+c
+∑
+f
+∈
+E
+n
+,
+m
+c
+γ
+⁡
+(
+a
+)
+⋅
+F
+⁡
+(
+a
+,
+b
+,
+c
+,
+d
+,
+e
+,
+f
+)
+(
+mod
+m
+)
+.
+d_{n+4}\equiv\sum_{a\in R_{n}\cap E_{n,m}^{c}}\sum_{b\in E_{n,m}^{c}}\sum_{c\in E_{n,m}^{c}}\sum_{d\in E_{n,m}^{c}}\sum_{e\in E_{n,m}^{c}}\sum_{f\in E_{n,m}^{c}}\gamma(a)\cdot F(a,b,c,d,e,f)\pmod{m}.
+∎
+Example 15
+.
+We utilized a Java implementation of the Theorem
+14
+. For
+n
+=
+4
+n=4
+and
+m
+=
+2
+,
+3
+,
+4
+,
+6
+,
+12
+m=2,3,4,6,12
+we have:
+d
+8
+≡
+53336702474849828
+d_{8}\equiv 53336702474849828
+, therefore
+d
+8
+mod
+2
+=
+0
+d_{8}\bmod 2=0
+,
+d
+8
+≡
+3019662424037271148
+(
+mod
+3
+)
+d_{8}\equiv 3019662424037271148\pmod{3}
+, therefore
+d
+8
+mod
+3
+=
+1
+d_{8}\bmod 3=1
+,
+d
+8
+≡
+25754060568741983624
+(
+mod
+4
+)
+d_{8}\equiv 25754060568741983624\pmod{4}
+, therefore
+d
+8
+mod
+4
+=
+0
+d_{8}\bmod 4=0
+,
+d
+8
+≡
+14729824485525634108
+(
+mod
+6
+)
+d_{8}\equiv 14729824485525634108\pmod{6}
+, therefore
+d
+8
+mod
+6
+=
+4
+d_{8}\bmod 6=4
+,
+d
+8
+≡
+15054599294580333880
+(
+mod
+12
+)
+d_{8}\equiv 15054599294580333880\pmod{12}
+, therefore
+d
+8
+mod
+12
+=
+4
+d_{8}\bmod{12}=4
+,
+One can check these values directly by dividing
+d
+8
+d_{8}
+by 2, 3, 4, 6, and 12.
+8
+Application
+To compute remainders of
+d
+9
+d_{9}
+divided by 5 and 7, we chose the algorithm described in Section
+5
+.
+Our implementation lists all 490,013,148 elements of
+R
+7
+R_{7}
+and calculates
+γ
+⁡
+(
+x
+)
+\gamma(x)
+and
+re
+⁡
+(
+⊥
+,
+x
+)
+\re(\bot,x)
+for each element
+x
+∈
+R
+7
+x\in R_{7}
+. This feat was previously accomplished only by Van Hirtum in 2021
+[
+4
+]
+. It is worth noting that the number of elements
+x
+x
+in
+R
+n
+R_{n}
+with
+γ
+⁡
+(
+x
+)
+=
+n
+!
+\gamma(x)=n!
+for
+n
+>
+1
+n>1
+can be found in the OEIS sequence
+A220879
+(see Table
+6
+). Using the available precalculated sets, we can efficiently determine the
+7
+7
+th term of the sequence, which is not recorded in the OEIS.
+n
+n
+A220879
+¯
+\hrefhttps://oeis.org/A220879\hskip 1.42262pt
+(
+n
+)
+(n)
+1
+0
+2
+1
+3
+0
+4
+0
+5
+7
+6
+7281
+7
+468822749
+Table 6:
+Inequivalent monotone Boolean functions of
+n
+n
+variables with no symmetries.
+k
+k
+|
+{
+f
+∈
+R
+7
+:
+γ
+⁡
+(
+f
+)
+=
+k
+}
+|
+|\{f\in R_{7}:\gamma(f)=k\}|
+1
+9
+7
+27
+21
+75
+30
+5
+35
+117
+42
+99
+70
+90
+84
+9
+105
+1206
+120
+4
+140
+702
+210
+3255
+252
+114
+315
+2742
+360
+18
+420
+26739
+504
+237
+630
+47242
+720
+4
+840
+75024
+1260
+1024050
+1680
+3128
+2520
+20005503
+5040
+468822749
+Table 7:
+Number of
+f
+∈
+R
+7
+f\in R_{7}
+with the given
+γ
+⁡
+(
+f
+)
+\gamma(f)
+.
+Our program’s most critical part, the Boolean function canonization procedure, is based on fast Van Hirtum’s approach
+[
+4
+, Section 5.2.9]
+and implemented in Rust. Our program is running on a 32-thread machine with Xeon cores.
+After the preprocessed data has been loaded into the main memory, the test was performed and the known value of
+d
+8
+d_{8}
+was successfully reproduced in just 16 seconds. However, using this method to check the divisibility of
+d
+9
+d_{9}
+for any value of
+m
+m
+is significantly more challenging.
+In order to determine which remainders can be computed by our methods, we can use the information in Table
+7
+.
+Note that
+E
+7
+,
+m
+c
+=
+∑
+x
+∈
+R
+7
+γ
+⁡
+(
+x
+)
+mod
+m
+≠
+0
+γ
+⁡
+(
+x
+)
+.
+E_{7,m}^{c}=\sum_{\begin{subarray}{c}x\in R_{7}\\
+\gamma(x)\bmod m\neq 0\end{subarray}}\gamma(x).
+The four smallest
+E
+7
+,
+m
+c
+E_{7,m}^{c}
+are
+E
+7
+,
+7
+c
+E_{7,7}^{c}
+with 9999 elements,
+E
+7
+,
+3
+c
+E_{7,3}^{c}
+with 108873 elements,
+E
+7
+,
+21
+c
+E_{7,21}^{c}
+with 118863 elements, and
+E
+7
+,
+5
+c
+E_{7,5}^{c}
+with 154863 elements. Since
+d
+9
+d_{9}
+is already known to be divisible by 3, the next step is to compute remainders of
+d
+9
+d_{9}
+divided by 5 and 7.
+8.1
+Remainder of
+d
+9
+d_{9}
+divided by 5
+∑
+x
+∈
+R
+7
+∩
+E
+7
+,
+5
+c
+∑
+y
+∈
+E
+7
+,
+5
+c
+γ
+⁡
+(
+x
+)
+⋅
+G
+⁡
+(
+x
+,
+y
+)
+=
+1404812111893131438640857806
+,
+\sum_{x\in R_{7}\cap E_{7,5}^{c}}\sum_{y\in E_{7,5}^{c}}\gamma(x)\cdot G(x,y)=1404812111893131438640857806,
+therefore by Theorem
+7
+, we have
+d
+9
+mod
+5
+=
+1
+d_{9}\bmod 5=1
+. We calculated this number in approximately 7 hours.
+Moreover, using Theorem
+14
+we have
+d
+9
+≡
+157853570524864492086
+(
+mod
+5
+)
+d_{9}\equiv 157853570524864492086\pmod{5}
+, which confirms that
+d
+9
+mod
+5
+=
+1
+d_{9}\bmod 5=1
+.
+8.2
+Remainder of
+d
+9
+d_{9}
+divided by 7
+∑
+x
+∈
+R
+7
+∩
+E
+7
+,
+7
+c
+∑
+y
+∈
+E
+7
+,
+7
+c
+γ
+⁡
+(
+x
+)
+⋅
+G
+⁡
+(
+x
+,
+y
+)
+=
+299895177645066825375626
+,
+\sum_{x\in R_{7}\cap E_{7,7}^{c}}\sum_{y\in E_{7,7}^{c}}\gamma(x)\cdot G(x,y)=299895177645066825375626,
+therefore by Theorem
+7
+, we have
+d
+9
+mod
+7
+=
+6
+d_{9}\bmod 7=6
+. We calculated this number in approximately half an hour.
+References
+[1]
+A. E. Brouwer, C. F. Mills, W. H. Mills, and A. Verbeek.
+Counting families of mutually intersecting sets
+in
+Electron. J. Comb.
+20
+(2013).
+[2]
+F. a Campo, Relations between powers of Dedekind numbers and exponential sums related to them,
+J. Integer Sequences
+21
+(2018),
+Article 18.4.4
+.
+[3]
+R. Fidytek, A. W. Mostowski, R. Somla, and A. Szepietowski,
+Algorithms counting monotone Boolean functions,
+Inform. Process. Lett.
+79
+(2001), 203–209.
+[4]
+L. Van Hirtum.
+A path to compute the 9th Dedekind
+number using FPGA supercomputing (2021), master’s thesis. Available at
+https://hirtum.com/thesis.pdf
+.
+[5]
+A. D. Korshunov,
+Solution of Dedekind’s problem on the number of monotonic Boolean functions,
+Dokl. Akad. Nauk SSSR
+,
+233:4
+(1977), 543–546.
+[6]
+A. D. Korshunov,
+Monotone Boolean functions,
+Russian Math. Surveys
+,
+58
+:5 (2003), 929–1001.
+[7]
+G. Markowsky,
+Enumerating free distributive lattices, Department of Computer Science, University of Maine, Report,
+89-10
+(1989).
+[8]
+G. E. Martin,
+Counting: The Art of Enumerative Combinatorics,
+Springer, 2001.
+[9]
+B. Pawelski, On the number of inequivalent monotone Boolean functions of 8 variables,
+J. Integer Sequences
+25
+(2022),
+Article 25.7.7
+.
+[10]
+N. J. A. Sloane.
+The On-line Encyclopedia of Integer Sequences
+https://oeis.org
+[11]
+A. Szepietowski, Fixes of permutations acting on monotone Boolean functions
+J. Integer Sequences
+25
+(2022),
+Article 25.9.6
+.
+[12]
+D. Wiedemann, A computation of the eighth Dedekind number,
+Order
+8
+(1991), 5–6.
+[13]
+D. Wiedemann.
+Letter to N. J. A. Sloane (1990). Available at
+https://oeis.org/A000372/a000372.pdf
+[14]
+K. Yamamoto.
+Note on the order of free distributive lattices
+in
+Sci. Rep. Kanazawa Univ.
+,
+II
+(1953), 5–6
+2010
+Mathematics Subject Classification
+: Primary 06E30.
+Keywords
+: Dedekind numbers,
+Monotone Boolean functions,
+Ninth Dedekind number,
+Congruence modulo,
+Chinese remainder theorem
+(Concerned with sequences
+A000372
+,
+A001206
+,
+A003182
+and
+A220879
+.)
+Experimental support, please
+view the build logs
+for errors. Generated by
+L
+A
+T
+E
+xml
+.
+Instructions for reporting errors
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+      support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+      methods listed below:
+Click the "Report Issue"
+(
+)
+button, located in the page header.
+Tip:
+You can select the relevant text first, to include it in your report.
+Our team has already identified
+the following issues
+. We appreciate your time reviewing and reporting rendering errors we
+      may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+      should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+      all.
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a
+list of packages that need conversion
+, and welcome
+developer contributions
+.
+We gratefully acknowledge support from
+        our
+major funders
+,
+member institutions
+,
+,
+        and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

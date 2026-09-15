@@ -1,0 +1,22 @@
+{
+  "input_sha256": "197bdcebf7c08334ff65b81a5893e55b07906ad1a4de00358a4d75dca12f8c36",
+  "declarations": [
+    "physical_factorization",
+    "physical_on_shell",
+    "physical_amplitude_on_shell",
+    "off_shell_nonzero",
+    "pair_factorization",
+    "pair_on_shell",
+    "pair_amplitude_on_shell",
+    "missing_ghost",
+    "wrong_ghost_sign",
+    "missing_ghost_nonzero",
+    "stationary_residual",
+    "unnormalized_compatibility",
+    "normalized_compatibility",
+    "compatibility_nonzero",
+    "compatibility_witness",
+    "finite_compatibility_sum"
+  ],
+  "translation": "All channel coefficients are syntactic arithmetic translations; factor targets are separately reduced with SymPy. Lean proves equality from unreduced channel sums."
+}

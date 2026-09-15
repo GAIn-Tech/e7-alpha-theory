@@ -1,0 +1,12 @@
+version: 1
+scope: "Conditional hard-mode shifted vacuum and abstract fixed-point/Schur theorems"
+proof_assistant: "Lean 4.32.1, prelude/kernel-only, no Mathlib"
+sorry_count: 0
+axioms: []
+external_premises:
+  - "Metric completeness, contraction tail bound, decay, continuity and Newton bridge"
+  - "E6 representation and exact rational Hessian computed in Python"
+  - "Analytic spectral subbundle and finite-dimensional implicit function theorem"
+  - "Uncalculated IR-resummed remainder for any full quantum continuation claim"
+automation_disclosure: "AI-assisted Python/NumPy/Fraction and Lean; floating results not interval bounds"
+review_status: "self-assessed; no expert review or hosted CI"

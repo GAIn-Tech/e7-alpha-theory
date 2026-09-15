@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "claim_boundary": "Local exact/Lean bridge and sourced scoped physical counterexample; not a Tian-Yau threshold calculation.",
+  "axiom_free_declarations": [
+    "KnotThreshold.two_nontrivial_fuse_vacuum",
+    "KnotThreshold.three_nontrivial_not_vacuum",
+    "KnotThreshold.fiber_target_obstruction",
+    "KnotThreshold.nonconstant_observation",
+    "KnotThreshold.concrete_target_obstruction",
+    "KnotThreshold.visible_recovery"
+  ],
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "-o",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\knot-modular-threshold-gate\\Formalization.olean",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\knot-modular-threshold-gate\\Formalization.lean"
+      ],
+      "returncode": 0,
+      "stdout": "'KnotThreshold.two_nontrivial_fuse_vacuum' does not depend on any axioms\n'KnotThreshold.three_nontrivial_not_vacuum' does not depend on any axioms\n'KnotThreshold.fiber_target_obstruction' does not depend on any axioms\n'KnotThreshold.nonconstant_observation' does not depend on any axioms\n'KnotThreshold.concrete_target_obstruction' does not depend on any axioms\n'KnotThreshold.visible_recovery' does not depend on any axioms\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\knot-modular-threshold-gate\\Challenge.lean"
+      ],
+      "returncode": 0,
+      "stdout": "KnotThreshold.two_nontrivial_fuse_vacuum :\n  KnotThreshold.Same (KnotThreshold.fusion KnotThreshold.Bit.one KnotThreshold.Bit.one) KnotThreshold.Bit.zero\nKnotThreshold.three_nontrivial_not_vacuum\n  (h :\n    KnotThreshold.Same\n      (KnotThreshold.fusion (KnotThreshold.fusion KnotThreshold.Bit.one KnotThreshold.Bit.one) KnotThreshold.Bit.one)\n      KnotThreshold.Bit.zero) :\n  KnotThreshold.Empty\nKnotThreshold.fiber_target_obstruction.{u, v, w} {State : Sort u} {Data : Sort v} {Target : Sort w} (obs : State \u2192 Data)\n  (target : State \u2192 Target) (x y : State) (fiber : KnotThreshold.Same (obs x) (obs y))\n  (different : KnotThreshold.Same (target x) (target y) \u2192 KnotThreshold.Empty) (recover : Data \u2192 Target)\n  (matches : \u2200 (z : State), KnotThreshold.Same (recover (obs z)) (target z)) : KnotThreshold.Empty\nKnotThreshold.nonconstant_observation :\n  KnotThreshold.Same (KnotThreshold.obs (KnotThreshold.State.mk KnotThreshold.Bit.zero KnotThreshold.Bit.zero))\n      (KnotThreshold.obs (KnotThreshold.State.mk KnotThreshold.Bit.one KnotThreshold.Bit.zero)) \u2192\n    KnotThreshold.Empty\nKnotThreshold.concrete_target_obstruction (recover : KnotThreshold.Bit \u2192 KnotThreshold.Bit)\n  (matches : \u2200 (s : KnotThreshold.State), KnotThreshold.Same (recover (KnotThreshold.obs s)) (KnotThreshold.target s)) :\n  KnotThreshold.Empty\nKnotThreshold.visible_recovery (s : KnotThreshold.State) :\n  KnotThreshold.Same ((fun b => b) (KnotThreshold.obs s)) (KnotThreshold.obs s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Python313\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\knot-modular-threshold-gate\\certificate.py",
+        "--verify"
+      ],
+      "returncode": 0,
+      "stdout": "PASS exact saved certificate replay: links, fusion, charge moments, Ramanujan q-series, strict threshold derivative bound\n",
+      "stderr": ""
+    }
+  ],
+  "sha256": {
+    "certificate.json": "ec6265965348d68e1c8280fd40a97701c0449e37c4e753ae8d06b9281dea3e7c",
+    "certificate.py": "f902093336369eec064e5228b6389e26750b179f30eee3e5924b190f89de5da8",
+    "Challenge.lean": "8b66cf85ac90d03f4d039bb0ae2967740f5fbc65976c64951115dae6538a8eb6",
+    "Formalization.lean": "81c0a17a1dfb25ef752d0d39f1c8d2230aa12ddfc5a4aa212f902c9c6434ff50",
+    "prepare.py": "359e23743f8d130f8ee37818f893ca654252ce14625fdeac907ca37d9ae06fc3",
+    "RELEASE_DISCLOSURE.md": "111d9ced433480b1bad400a66f8898878a5375df744f47790179b201fc772cae",
+    "REPORT.md": "1df53546b46a2259448843644b9254d8bb88e55bac78d9b4ef022aa8b31abc1e",
+    "sources\\dilaton.txt": "fa6481cf6ba652600ab785b8632d4eb4ca4c2eefc2b1bfe9474cb59b0c5a714e",
+    "sources\\jones.txt": "bcddc4b532a40f382b825543e3d9b77989b65b46b19c46ab2c7067a72be4e4e1",
+    "sources\\ledger.json": "bb7e34233eab4c1789f2f7955988d86d24c9c0640132ad8e5383a742c28780ba",
+    "sources\\manifest.json": "f60ad369683510ffc39697ccbf414196f7b7873c8157b069ef484d23d7c97e76",
+    "sources\\modular-algebra.py": "00552d14022417b60fbd80ce85e11ed17875822f4bf61198e774696fc900335c",
+    "sources\\modular-report.md": "cec3f42509a53ac30451898f0a554a793ef4b9faa8b07ac51a6aae724d1ebdff",
+    "sources\\mukhi.txt": "473c988806907eaffcb24c040d472784ba3c324db4b94136d2cd01f17040742d",
+    "sources\\threshold.pdf": "c9da693683f9d27c01e9f3c794ab75378bf7f0e2a55e8bb5da7ae09b2272031f",
+    "sources\\threshold.txt": "bc8767abc30e207c9705ba180faf14bde7da7b37b4f8bb9c66a941481964e6ee",
+    "sources\\witten.txt": "32e22386eb5f3e3679c7bf67630d7c3e2c48a268c37fa2c2e205f0aa48292927",
+    "verify.py": "dd77a03b6fde77e6bf695b551ac40145eabe3a760ca0bf2a7382d198e9912e73"
+  }
+}

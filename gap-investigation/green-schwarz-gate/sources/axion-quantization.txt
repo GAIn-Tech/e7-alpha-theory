@@ -1,0 +1,2615 @@
+[PDF PAGE 1]
+YITP-SB-2023-27, MIT-CTP/5606
+Quantization of Axion-Gauge Couplings and
+Non-Invertible Higher Symmetries
+Yichul Choi1,2, Matthew Forslund1, Ho Tat Lam3, and Shu-Heng Shao1
+1C. N. Yang Institute for Theoretical Physics, Stony Brook University
+2Simons Center for Geometry and Physics, Stony Brook University
+3Center for Theoretical Physics, Massachusetts Institute of Technology
+Abstract
+We derive model-independent quantization conditions on the axion couplings (sometimes
+known as the anomaly coefficients) to the Standard Model gauge group [SU(3) × SU(2) ×
+U(1)Y ]/Zq with q = 1, 2, 3, 6. Using these quantization conditions, we prove that any QCD
+axion model to the right of the E/N = 8/3 line on the |gaγγ|-ma plot must necessarily face the
+axion domain wall problem in a post-inflationary scenario. We further demonstrate the higher-
+group and non-invertible global symmetries in the Standard Model coupled to a single axion.
+These generalized global symmetries lead to universal bounds on the axion string tension and
+the monopole mass. If the axion were discovered in the future, our quantization conditions
+could be used to constrain the global form of the Standard Model gauge group.
+arXiv:2309.03937v2  [hep-ph]  22 Mar 2024
+
+[PDF PAGE 2]
+Contents
+1
+Introduction
+1
+2
+Quantization of the axion couplings to gauge fields
+4
+2.1
+Quantum numbers of Peccei-Quinn fermions
+. . . . . . . . . . . . . . . . . . . .
+6
+2.2
+Fractional instantons
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+2.3
+Chern-Simons gauge theory
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+3
+Constraints on the effective axion-photon coupling gaγγ
+15
+4
+Higher symmetries of the Standard Model coupled to an axion
+18
+4.1
+Higher-group and non-invertible global symmetries . . . . . . . . . . . . . . . . .
+18
+4.2
+Bounds on string tension and monopole mass . . . . . . . . . . . . . . . . . . . .
+19
+5
+Conclusions
+22
+A More on the higher-group and non-invertible symmetries
+24
+A.1
+Higher-group symmetries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+A.2
+Non-invertible symmetries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+B
+Fractional axion-gauge couplings
+33
+1
+Introduction
+Axions have long been a major target in particle phenomenology. Originally emerging as an elegant
+solution to the strong CP problem [1, 2, 3, 4], axions have since been identified as one of the most
+well-motivated dark matter candidates [5, 6, 7, 8], appearing in a number of extensions of the
+Standard Model (SM). They have motivated dozens of unique experimental searches bridging a
+wide variety of disciplines such as collider physics, astrophysics, condensed matter physics, and
+quantum optics [8]. Axion-like particles can provide a natural candidate for the inflaton [9, 10], and
+may also play a central role in a variety of important cosmological effects such as the cosmological
+constant problem [10]. Axion-like particles also exist ubiquitously in string theory [11, 12, 13, 14,
+15, 16]. See, for example, [17, 10, 18, 19, 20, 21] for various reviews.
+1
+
+[PDF PAGE 3]
+Symmetry and topology have always been at the center stage in axion physics. In recent years,
+there has been a transformative development in our understanding of symmetries in theoretical
+physics, motivated by advancements in high energy physics, condensed matter physics, and math-
+ematical physics. Global symmetries have been generalized in several different directions, includ-
+ing the higher-form symmetries, higher-group symmetries, non-invertible symmetries, and more.
+(See [22, 23, 24, 25, 26, 27] for reviews.) In particular, the axion shift global symmetry, a classical
+U(1) global symmetry that suffers from the quantum Adler-Bell-Jackiw (ABJ) anomaly [28, 29],
+is recently recognized to be an exact non-invertible global symmetry in the axion-Maxwell theory
+[30, 31, 32, 33] (which build on earlier works in [34, 35]). This is a new kind of symmetry that does
+not have an inverse. Higher-group symmetries for axions are also found in [36, 37, 38, 39, 40, 41],
+as well as non-invertible higher-form symmetries [32, 33]. These new symmetries lead to universal
+inequalities on the energy scales where various emergent global symmetries are broken in the UV
+completion of axion models [40, 32]. In particular, for axion-electrodynamics, it was shown in
+[32] that the axion string tension T and the monopole mass mmonopole are bounded from below by
+the mass of the lightest electrically charged particle melectric, i.e., melectric ≲min
+n
+mmonopole,
+√
+T
+o
+.1
+In this paper, we extend the previous analysis in [40, 32] to the full SM coupled to a single
+axion field θ(x). The three coupling constants K3, K2, K1 (defined in (2.1)) between the axion
+field and the instanton number densities of the su(3) × su(2) × u(1)Y gauge fields are quantized
+by imposing the periodic identification θ(x) ∼θ(x) + 2π. The precise quantization conditions
+depend on the global form of the SM gauge group, which we explain below. It is known that a Z6
+center subgroup of SU(3) × SU(2) × U(1)Y acts trivially on all the SM particles. Therefore, the
+SM gauge group need not be a product group, but can be one of the following:
+GSM = [SU(3) × SU(2) × U(1)Y ]/Zq ,
+q = 1, 2, 3, 6 .
+(1.1)
+More physically, the global form of GSM depends on what gauge charges are allowed or introduced
+in physics beyond the Standard Model (BSM). For example, in the SU(5) and many other Grand
+Unified Theories (GUT), all new particles carry vanishing Z6 charges, and q = 6.2 In other UV
+models for the axion (such as the simplest version of the KSVZ model where the heavy fermion is
+in the fundamental of SU(3) but neutral under SU(2) × U(1)Y [42, 43]), the heavy fermions may
+carry nontrivial Z6 charges, and the corresponding global form of GSM is different.3 See [47] for
+1Note that the electrically and magnetically charged particles are not on the same footing, i.e., there is no electro-
+magnetic duality. This is because we assume at low energies the effective theory contains an axion field that couples
+to the gauge field as θF ∧F.
+2Said differently, the SM gauge group is embedded as a [SU(3) × SU(2) × U(1)Y ]/Z6 ⊂SU(5) subgroup, but
+not as a product group SU(3) × SU(2) × U(1)Y .
+3The q = 6 case is in many ways phenomenologically preferred. In particular, if q̸ = 6, the Z6-charged BSM
+particles cannot decay into the SM particles and form stable relics in cosmology. See Section 3 for more discussions.
+For the same reason, we assume that the hypercharge is never smaller than 1/6 and the gauge group U(1)Y is compact.
+The q = 6 case can also be realized from F-theory [44, 45, 46].
+2
+
+[PDF PAGE 4]
+more discussions.
+We provide several bottom-up derivations of the quantization conditions of the axion-gauge
+couplings Ki’s for each version of the global form of the SM gauge group. Below the electroweak
+symmetry breaking (EWSB) scale, this gives the quantization conditions of the axion-gluon cou-
+pling N and (bare) axion-photon coupling E (defined in (2.2)).4 These quantization conditions
+are satisfied by every UV consistent axion models, but our derivation is universal and model-
+independent. We summarize our quantization conditions in Table 1.
+Our quantization conditions give interesting constraints on the effective axion-photon coupling
+gaγγ, which is expressed in terms of the ratio E/N. We show that, in the q = 6 case, any QCD
+axion model lying to the right of the E/N = 8/3 line (realized by one of the DFSZ models
+[48, 49] and many GUT models) on the |gaγγ|-ma plot must necessarily have more than one axion
+domain wall in a post-inflationary scenario. Our result provides an invariant meaning for the ratio
+E/N = 8/3, which is taken as a primary target for experimental detection.
+We further analyze the generalized global symmetries, including the higher-group and non-
+invertible symmetries. We summarize the generalized global symmetries, which depend on the
+number theoretic properties of the quantized axion-gauge couplings Ki, in Table 2. In many cases,
+we find that one symmetry is subordinate to the other, meaning that the former cannot exist without
+the latter. This hierarchy constrains the energy scales where these symmetries are broken, from
+which we derive universal inequalities on the axion string tension and the hypercharge monopole
+mass, generalizing [40, 32].
+The rest of the paper is organized as follows. In Section 2, we provide several different deriva-
+tions for the model-independent quantization on the couplings between the axion and the SM gauge
+fields. In Section 3, we apply the quantization conditions to constrain the effective axion-photon
+coupling gaγγ. Section 4 discusses the generalized global symmetries of the SM coupled a single
+axion field, and how they can be used to bound the axion string tension and the monopole mass.
+In Appendix A, we provide more details on the higher-group and non-invertible symmetries in the
+SM coupled to an axion. Finally, appendix B discusses fractional axion-gauge couplings in the
+presence of additional topological degrees of freedom.
+4The couplings Ki (and also E, N) are sometimes referred to as the “anomaly coefficients” in the literature. This is
+accurate if the axion model arises from the Peccei-Quinn (PQ) mechanism where there is a classical global symmetry
+suffering from an ABJ anomaly. However, there are more general UV realizations of the axion models (such as
+from string theory or extra dimensions), where the Ki’s might not admit an interpretation in terms of any anomaly
+coefficient. Since our discussion is universal and does not refer to a particular UV completion of the axion model, we
+prefer not to refer to the Ki’s as the “anomaly coefficients.”
+3
+
+[PDF PAGE 5]
+2
+Quantization of the axion couplings to gauge fields
+The axion field, denoted as a, is a periodic scalar field whose periodicity is given by a ∼a + 2πf,
+where f is the axion decay constant. We consider a generic coupling of the axion field to the SM
+gauge fields,
+K3g2
+3
+32π2
+a
+f Ga
+µν eGa,µν + K2g2
+2
+32π2
+a
+f F a
+µν eF a,µν + K1g2
+1
+16π2
+1
+36
+a
+f Bµν eBµν .
+(2.1)
+Here, gi’s are the gauge coupling constants, and Ga
+µν, F a
+µν, and Bµν are the SU(3), SU(2) and
+U(1)Y field strengths, respectively. The coupling constants Ki’s can take only a quantized set of
+values, and the precise quantization conditions will be determined below. The dual field strengths
+are defined as eGa
+µν =
+1
+2ϵµνρσGa,ρσ and similarly for the SU(2) and U(1)Y field strengths. The
+U(1)Y hypercharge gauge field is normalized such that QY ∈Z/6.5 Without loss of generality, we
+assume K3 ≥0, which can always be achieved by a field redefinition a →−a.
+Below the EWSB scale, (2.1) reduces to
+Ng2
+3
+16π2
+a
+f Ga
+µν eGa,µν + Ee2
+16π2
+a
+f FEM,µν eF µν
+EM + · · · ,
+(2.2)
+where · · · denotes the coupling between the axion and the massive gauge fields. The electric
+coupling e = g1 cos θW = g2 sin θW is fixed by the coupling g1, g2 and the weak mixing angle
+θW ≡tan−1(g1/g2). Here we follow the standard convention in the literature [50] to denote the
+axion-gluon coupling by N.6 It is related to K3 (which equals the number NDW of axion domain
+walls) as7
+K3 = NDW = 2N .
+(2.3)
+The (bare) axion-photon coupling E is related to K1, K2 as
+E = 1
+36(K1 + 18K2) .
+(2.4)
+This can be obtained from the standard relations, AEM,µ = sin θWA3
+µ+cos θWBµ, Zµ = cos θWA3
+µ−
+sin θWBµ, and W ±
+µ =
+1
+√
+2(A1
+µ ∓iA2
+µ). Here Aa
+µ and Bµ are the SU(2) and U(1)Y gauge fields,
+respectively.
+For our purposes, it is convenient to absorb the gauge couplings as well as the axion decay
+constant by rescaling the fields as
+θ ≡a
+f ,
+F a
+3,µν ≡g3Ga
+µν ,
+F a
+2,µν ≡g2F a
+µν ,
+F1,µν ≡1
+6g1Bµν ,
+Fµν ≡eFEM,µν ,
+(2.5)
+5For instance, the covariant derivative acting on the left-handed quark doublet is Dµ = ∂µ −ig1 1
+6Bµ + · · · where
+Bµν = ∂µBν −∂νBµ.
+6In the literature, the term “axion-like particle” (ALP) is sometimes used instead of “axion” if N = 0. We will not
+make any such distinction.
+7It is somewhat awkward that N can sometimes be a half integer, while K3 = NDW is always a positive integer as
+we will discuss later. In contrast, the bare axion-photon coupling E is generally not an integer.
+4
+
+[PDF PAGE 6]
+q
+GSM
+Quantization of Ki’s
+Quantization of N and E
+1
+SU(3)×SU(2)×U(1)Y
+K3, K2, K1 ∈Z
+N ∈1
+2Z, E ∈
+1
+36Z
+2
+SU(3) × U(2)
+K3, K2 ∈Z, K1 ∈2Z,
+2K2 + K1 ∈4Z
+N ∈1
+2Z, E ∈1
+9Z
+3
+U(3) × SU(2)
+K3, K2 ∈Z, K1 ∈3Z,
+6K3 + K1 ∈9Z
+N ∈1
+2Z, E ∈
+1
+12Z,
+4N + 12E ∈3Z
+6
+S(U(3) × U(2))
+K3, K2 ∈Z, K1 ∈6Z,
+24K3 + 18K2 + K1 ∈36Z
+N ∈1
+2Z, E ∈1
+3Z,
+4N + 3E ∈3Z
+Table 1: Quantization conditions of the axion couplings to the gauge fields for the possible global
+forms of the SM gauge group.
+where the fields on the right-hand side are normalized to have the canonical kinetic term such as
+−1
+4F µν
+EMFEM,µν. By an abuse of terminology, we refer to both θ and a as an axion. θ has the peri-
+odicity of 2π, θ ∼θ + 2π, which should be viewed as a gauge symmetry. The SU(3), SU(2), and
+U(1)Y gauge fields in this normalization convention are denoted as Aa
+3,µ, Aa
+2,µ, and A1,µ, respec-
+tively.
+In terms of the differently normalized fields (2.5), the axion coupling (2.1) can be equivalently
+written as
+K3
+8π2θ Tr F3 ∧F3 + K2
+8π2θ Tr F2 ∧F2 + K1
+8π2θ F1 ∧F1 ,
+(2.6)
+where we have also adopted the differential form notation. The traces are taken in the funda-
+mental representation, and the Lie algebra generators are normalized such that Tr(T aT b) = 1
+2δab.
+Similarly, the coupling after EWSB (2.2) can be written as
+N
+4π2θ Tr F3 ∧F3 + E
+8π2θ F ∧F .
+(2.7)
+We summarize the quantization conditions in Table 1.8 We present them both in terms of
+Ki’s as well as in terms of E and N. The latter are more natural below the EWSB scale and are
+8The values of the individual Ki’s can change under field redefinitions of the fermions of the form ψ →eiθψ
+[51]. Nonetheless, our quantization conditions in Table 1 are invariant under such field redefinitions. This serves as a
+consistency check of these conditions.
+5
+
+[PDF PAGE 7]
+commonly used in the literature. They are also directly relevant for the axion-photon coupling gaγγ
+discussed in Section 3. Interestingly, we find that the quantizations of different Ki’s, E, and N
+are sometimes correlated depending on the global form of the SM gauge group. In the rest of this
+section, we explain how the conditions are derived. We provide several independent (but related)
+derivations of the quantization conditions:
+1. Assuming the PQ mechanism, we derive the quantization conditions from analyzing the quan-
+tum numbers of the PQ fermions.
+2. Fractional instanton numbers. This extends the analysis in [52] for T 4 to general spacetime
+manifolds.
+3. Anomaly vanishing condition of certain 1-form global symmetries in 3d Chern-Simons gauge
+theories.
+4. Higher-group symmetries.
+The first three derivations will be presented in the rest of this section, while the last one is discussed
+in Appendix A.1.
+In some axion models, such as the DFSZ model [48, 49], the axion coupling (2.2) below the
+EWSB scale is a valid description, but at higher energy scales the UV theory is different from the
+one we consider in (2.1). In such cases, only the couplings E and N are meaningful whereas Ki’s
+are not. Our results on the quantization conditions of E and N are still valid even in those cases.
+We work under the minimal setup where the only degrees of freedom are the SM fields and
+a single axion field. However, in the presence of additional topological degrees of freedom, the
+axion-gauge couplings Ki can be further fractionalized [53], which we review in Appendix B. Here
+we assume that there aren’t such topological degrees of freedom.
+2.1
+Quantum numbers of Peccei-Quinn fermions
+We begin by demonstrating the quantization conditions in Table 1 by assuming that the couplings
+between the axion and the SM gauge fields (2.1) are generated by the spontaneous breaking of
+a classical U(1)PQ global symmetry in a UV model with additional heavy fermions. The axion
+couplings to the gauge fields are then given by the ABJ triangle anomaly coefficients, from which
+we derive the quantization conditions. Even though this derivation is intuitive, it is not universal
+and is subject to the above assumption on the UV completion. In later subsections, we provide
+more rigorous, model-independent derivations that reproduce the same results.
+We denote an SU(2) irreducible representation by its spin J = 0, 1
+2, 1, · · · , and an SU(3)
+representation by {ℓ1, ℓ2} with ℓ1 ≥ℓ2. Here ℓi is the number of boxes in the i-th row of the
+Young diagram. For instance, 3 = {1, 0}, ¯3 = {1, 1}, and 8 = {2, 1} are the fundamental,
+6
+
+[PDF PAGE 8]
+anti-fundamental, and adjoint representations, respectively. The hypercharge is normalized so that
+QY ∈Z/6.
+Let X(R) ∈Z be the U(1)PQ charge of a heavy left-handed Weyl fermion R whose quantum
+numbers are (ℓi(R), J(R), QY (R)). Then, the triangle anomaly coefficients are given by
+K3 = 2
+X
+R
+X(R) T(ℓi(R)) d(J(R)) ,
+K2 = 2
+X
+R
+X(R) T(J(R)) d(ℓi(R)) ,
+K1 =
+X
+R
+X(R) (6QY (R))2 d(ℓi(R)) d(J(R)) .
+(2.8)
+Here, T(X) and d(X) denote the (Dynkin) index and dimension of a representation X, respec-
+tively. If the SM gauge group GSM is given by [SU(3) × SU(2) × U(1)Y ]/Zq, only those rep-
+resentations R with trivial charge under Zq ⊂SU(3) × SU(2) × U(1)Y are allowed. See [54]
+for related discussions. Depending on the allowed set of representations, Ki’s in (2.8) can take
+different sets of quantized values.
+We first begin with the q = 1 case, where there is no restriction on the set of allowed rep-
+resentations. The index and dimension of arbitrary SU(2) and SU(3) representations are given
+by
+T(J) = 1
+12(2J)(2J + 1)(2J + 2) ,
+d(J) = 2J + 1 ,
+T(ℓi) = 1
+48(ℓ1 −ℓ2 + 1)(ℓ1 + 2)(ℓ2 + 1)(ℓ2
+1 + ℓ2
+2 + 3ℓ1 −ℓ1ℓ2) ,
+d(ℓi) = 1
+2(ℓ1 −ℓ2 + 1)(ℓ1 + 2)(ℓ2 + 1) .
+(2.9)
+It is straightforward to show that the index is always an integer or a half integer, for instance, by
+induction. From (2.8), we obtain
+q = 1 :
+K3, K2, K1 ∈Z .
+(2.10)
+In terms of the axion couplings below the EWSB scale, this leads to
+q = 1 :
+N ∈1
+2Z ,
+E ∈1
+36Z .
+(2.11)
+Consider now the q = 2 case, where the SM gauge group becomes GSM = [SU(3) × SU(2) ×
+U(1)Y ]/Z2 = SU(3)×U(2). We denote elements of SU(3)×SU(2)×U(1)Y by a triple (g, h, eiα).
+Only the representations on which the Z2 subgroup generated by (13×3, −12×2, −1) acts trivially
+are allowed. The element −12×2 ∈SU(2) is represented by (−1)2J times the identity matrix in
+7
+
+[PDF PAGE 9]
+the spin J representation, whereas an element eiα ∈U(1)Y acts as eiα(6QY ) on a hypercharge QY
+representation. Hence, the condition on the allowed representations for q = 2 is
+2J = 6QY
+mod 2 .
+(2.12)
+Combined with (2.8) and (2.9), this leads to
+q = 2 :
+K3, K2 ∈Z ,
+K1 ∈2Z ,
+2K2 + K1 ∈4Z .
+(2.13)
+The conditions on individual Ki’s are easy to see. On the other hand, the last condition follows
+from the fact that 2 × 2T(J) + (6QY )2d(J) is divisible by 4 for every representation satisfying
+(2.12). After EWSB, we have
+q = 2 :
+N ∈1
+2Z ,
+E ∈1
+9Z .
+(2.14)
+If q = 3, the SM gauge group is GSM = [SU(3) × SU(2) × U(1)Y ]/Z3 = U(3) × SU(2), and
+the allowed representations are those on which the Z3 ⊂SU(3) × SU(2) × U(1)Y subgroup gen-
+erated by (e4πi/313×3, 12×2, e2πi/3) acts trivially. The element e4πi/313×3 ∈SU(3) is represented
+by e4πi(ℓ1+ℓ2)/3 times the identity matrix on the {ℓ1, ℓ2} representation. Therefore, the allowed
+representations satisfy
+ℓ1 + ℓ2 = 6QY
+mod 3 .
+(2.15)
+It follows that
+q = 3 :
+K3, K2 ∈Z ,
+K1 ∈3Z ,
+6K3 + K1 ∈9Z .
+(2.16)
+The last condition is due to the fact that 6 × 2T(ℓi) + (6QY )2d(ℓi) is divisible by 9 for every
+representation satisfying (2.15).9 After EWSB, we have
+q = 3 :
+N ∈1
+2Z ,
+E ∈1
+12Z ,
+4N + 12E ∈3Z .
+(2.19)
+9One way to check this is as follows. Using (2.15), we first write 6QY = (ℓ1 + ℓ2) + 3x where x is an integer.
+Then, from (2.9), we have
+6 × 2T(ℓi) + (6QY )2d(ℓi) = 3
+4f(ℓi) + 3xg(ℓi)
+mod 9 ,
+(2.17)
+where
+f(ℓi) ≡(ℓ1 −ℓ2 + 1)(ℓ1 + 2)(ℓ2 + 1)(ℓ2
+1 + ℓ2
+2 + ℓ1ℓ2 + ℓ1) ,
+g(ℓi) ≡(ℓ1 + ℓ2)(ℓ1 −ℓ2 + 1)(ℓ1 + 2)(ℓ2 + 1) .
+(2.18)
+Since 6 × 2T(ℓi) + (6QY )2d(ℓi) is an integer, f(ℓi) = 0 mod 4 for all ℓi. To prove 6 × 2T(ℓi) + (6QY )2d(ℓi) = 0
+mod 9, we need to prove f(ℓi) = g(ℓi) = 0 mod 3 for all ℓi. This can be proved by, for instance, first explicitly
+checking that f(ℓi) = 0 mod 3 for ℓ2 = 0, 1, 2, then noting that f(ℓ1, ℓ2 + 3) = f(ℓ1, ℓ2) mod 3. The same argument
+applies to g(ℓi).
+8
+
+[PDF PAGE 10]
+Finally, for the q = 6 case, the gauge group is GSM = [SU(3) × SU(2) × U(1)Y ]/Z6 =
+S(U(3) × U(2)). The representations must be invariant under the Z6 ⊂SU(3) × SU(2) × U(1)Y
+subgroup generated by (e2πi/313×3, −12×2, e2πi/6). This requires
+2J = 6QY
+mod 2
+and
+ℓ1 + ℓ2 = 6QY
+mod 3 .
+(2.20)
+All the particles in the SM, and also in the SU(5) and various other GUT models, obey (2.20).
+This leads to
+q = 6 :
+K3, K2 ∈Z ,
+K1 ∈6Z ,
+24K3 + 18K2 + K1 ∈36Z .
+(2.21)
+Below the EWSB scale, we have
+q = 6 :
+N ∈1
+2Z ,
+E ∈1
+3Z ,
+4N + 3E ∈3Z .
+(2.22)
+The correlated quantization condition between N and E, which comes from 24K3 +18K2 +K1 ∈
+36Z, will play an important role in putting constraints on the effective axion-photon coupling
+gaγγ discussed in Section 3. Proving 24K3 + 18K2 + K1 ∈36Z is equivalent to showing that
+24K3 + 18K2 + K1 = 0 both mod 4 and mod 9, since 36 = 4 · 9 and gcd(4, 9) = 1. To
+check these conditions from (2.8), it is sufficient to consider the contribution from a single heavy
+PQ fermion whose quantum numbers (ℓi, J, QY ) are subject to the condition (2.20). Indeed, it is
+straightforward to show that
+24 × 2T(ℓi)d(J) + 18 × 2T(J)d(ℓi) + (6QY )2d(ℓi)d(J)
+=
+(
+[ 2 × 2T(J) + (6QY )2d(J) ] d(ℓi) = 0
+mod 4 ,
+[ 6 × 2T(ℓi) + (6QY )2d(ℓi) ] d(J) = 0
+mod 9 .
+(2.23)
+The first condition follows from 2J = 6QY mod 2, and the second from ℓ1 + ℓ2 = 6QY mod
+3. Note that (2.21) is also equivalent to imposing the q = 2 and q = 3 conditions (2.13), (2.16)
+simultaneously.
+2.2
+Fractional instantons
+We now provide a rigorous, model-independent derivation of the quantization conditions from the
+fractional instanton numbers. This derivation is universal and does not require any assumption
+about the UV origin of the axion. The fractional instantons on T 4 of the SM gauge group have
+been previously studied in [52] by imposing the ’t Hooft’s twisted boundary conditions [55, 56].
+The periodic identification of the dynamical axion field θ ∼θ + 2π is a gauge symmetry, and
+the exponentiated action eiS should be gauge-invariant. In other words, eiS should be single-valued
+9
+
+[PDF PAGE 11]
+under θ ∼θ+2π. In the presence of the axion coupling (2.6), eiS transforms under θ ∼θ+2π by a
+phase exp(2πi P
+i
+Kini), where ni’s are the instanton numbers (see (2.24) below). The quantization
+of the instanton numbers (which depends on the global form of the SM gauge group) then gives
+the quantization of the Ki’s, and therefore E, N.
+We begin with q = 1. The SU(3), SU(2), and U(1)Y instanton numbers in this case are not
+correlated, and they separately satisfy10
+n3 ≡
+1
+8π2
+Z
+Tr F3∧F3 ∈Z ,
+n2 ≡
+1
+8π2
+Z
+Tr F2∧F2 ∈Z ,
+n1 ≡
+1
+8π2
+Z
+F1∧F1 ∈Z . (2.24)
+Therefore, eiS is single-valued under the identification θ ∼θ + 2π for all possible instanton con-
+figurations if and only if the quantization condition (2.10) is satisfied.
+For q = 2, since the SM gauge group is GSM = [SU(3)×SU(2)×U(1)Y ]/Z2 = SU(3)×U(2),
+the two gauge fields A2 and A1 combine into a single U(2) gauge field given by AU(2) ≡A2 +
+A112×2. It follows that the instanton numbers n2 and n1 are generally fractional, with the fractional
+parts correlated as follows:
+n2 ∈1
+2Z ,
+n1 ∈1
+4Z ,
+n2 −2n1 ∈Z .
+(2.25)
+To derive (2.25), recall that the first and second Chern classes for the U(2) gauge field AU(2) are
+c1(FU(2)) = 1
+2πTr FU(2) = 1
+2π(2F1) ,
+c2(FU(2)) =
+1
+8π2
+h
+Tr F 2
+U(2) −
+ Tr FU(2)
+2i
+=
+1
+8π2Tr F 2
+2 −
+2
+8π2F 2
+1 ,
+(2.26)
+where FU(2) is the U(2) field strength. The Chern classes satisfy11
+Z
+c2(FU(2)) ∈Z ,
+1
+2
+Z
+c1(FU(2)) ∧c1(FU(2)) ∈Z ,
+(2.27)
+from which (2.25) follows straightforwardly. By rewriting K2n2 + K1n1 as K2(n2 −2n1) +
+K1+2K2
+4
+(4n1), we find that eiS is single-valued if and only if the quantization condition (2.13) is
+satisfied.
+10Throughout the paper, we assume that the spacetime manifold is spin, which is natural due to the presence of
+fermions. On non-spin manifolds, we have n1 ∈1
+2Z. It is worth mentioning that, however, the existence of fermions
+in the theory does not necessarily require the spacetime manifold to be spin, since the theory may admit more involved
+spacetime tangential structures such as spinc. We do not explore these more general possibilities for the SM in this
+work. See [57, 58] for related discussions in the context of the SM and GUT models.
+11The condition 1
+2
+R
+c1(FU(2))∧c1(FU(2)) ∈Z is valid only on spin manifolds. On non-spin manifolds, we instead
+have
+R
+c1(FU(2)) ∧c1(FU(2)) ∈Z.
+10
+
+[PDF PAGE 12]
+There is an alternative way to find the allowed values of fractional instanton numbers (2.25).
+First, we may view A2 and A1 separately as SO(3) = SU(2)/Z2 and U(1)/Z2 gauge fields, re-
+spectively. By saying that A1 is a U(1)/Z2 gauge field, we mean that 2A1 is a properly normalized
+U(1) gauge field satisfying the usual quantization of magnetic fluxes
+H 2F1
+2π ∈Z. The fact that
+the two gauge fields combine into the U(2) gauge field AU(2) = A2 + A112×2 further means that
+[37, 59]
+c1(F1) = w2(A2)
+mod 2 .
+(2.28)
+Here the first Chern class c1(F1) = 2F1
+2π is viewed as an element of the cohomology group H2(X, Z)
+where X is the spacetime manifold. w2(A2) ∈H2(X, Z2) is the second Stiefel-Whitney class for
+A2, which measures the obstruction to lift an SO(3) bundle to an SU(2) bundle.12 The relation
+(2.28) guarantees that the transition functions of the SO(3) and U(1)/Z2 bundles are correlated in
+such a way that they consistently combine into a U(2) bundle. Moreover, the fractional part of the
+instanton number for the SO(3) gauge field A2 can be determined from the second Stiefel-Whitney
+class as [60, 62, 63, 64, 37, 59]
+n2 = 1
+4
+Z
+P(w2(A2))
+mod 1 .
+(2.29)
+P : H2(X, Z2) →H4(X, Z4) is the Pontryagin square, which is reviewed, for instance, in [59,
+Appendix B]. On spin manifolds, we have
+R
+P(w2(A2)) = 0, 2 mod 4. From these, we can
+recover (2.25) as follows. First, the fact that c1(F1) = 2F1
+2π has integral periods implies that n1 =
+1
+8
+R
+c1(F1)∧c1(F1) ∈1
+4Z. Next, (2.29) together with the fact that
+R
+P(w2(A2)) = 0, 2 mod 4 gives
+us n2 ∈1
+2Z. Lastly, taking the Pontryagin square of both sides of (2.28) and integrating them over
+the spacetime manifold leads to the correlated condition n2 −2n1 ∈Z.
+We now move on to the q = 3 case. The SM gauge group is GSM = [SU(3) × SU(2) ×
+U(1)Y ]/Z3 = U(3) × SU(2), and the two gauge fields A3 and A1 combine into a U(3) gauge field
+AU(3) ≡A3 +A113×3. The instanton numbers n3 and n1 can take fractional values and they satisfy
+n3 ∈1
+3Z ,
+n1 ∈1
+9Z ,
+n3 −6n1 ∈Z ,
+(2.30)
+Similar to before, (2.30) is most easily understood in terms of the Chern classes of the U(3) gauge
+field. We have
+c1(FU(3)) = 1
+2πTr FU(3) = 1
+2π(3F1) ,
+c2(FU(3)) =
+1
+8π2
+h
+Tr F 2
+U(3) −
+ Tr FU(3)
+2i
+=
+1
+8π2Tr F 2
+3 −
+6
+8π2F 2
+1 .
+(2.31)
+The quantization (2.27) then leads to (2.30). By rewriting K3n3 + K1n1 as K3(n3 −6n1) +
+K1+6K3
+9
+(9n1), we see that eiS is single-valued if and only if (2.16) is satisfied.
+12An exposition for the Stiefel-Whitney classes aimed at physicists can be found, for instance, in [60, 61].
+11
+
+[PDF PAGE 13]
+Alternatively, to derive (2.30), we may first view A3 and A1 as PSU(3) = SU(3)/Z3 and
+U(1)/Z3 gauge fields, respectively. The condition that they combine into a U(3) gauge field im-
+plies that
+c1(F1) = w2(A3)
+mod 3 ,
+(2.32)
+where the first Chern class c1(F1) =
+3F1
+2π for A1 is again viewed as an element of H2(X, Z).
+Similarly, the fractional part of the PSU(3) instanton number is determined by w2(A3) as [60, 62,
+63, 64, 37, 59]
+n3 = 1
+3
+Z
+w2(A3) ∪w2(A3)
+mod 1 .
+(2.33)
+From these, the quantization of the individual fractional instanton numbers, n3 ∈1
+3Z and n1 ∈1
+9Z,
+follows immediately. The correlated quantization condition n3 −6n1 ∈Z is also easily obtained
+by taking the square on both sides of (2.32) and then integrating them over the spacetime manifold.
+Finally, for q = 6, the allowed fractional values of the instanton numbers and their correlations
+are:
+n3 ∈1
+3Z ,
+n2 ∈1
+2Z ,
+n1 ∈1
+36Z ,
+n3 −24n1 ∈Z ,
+n2 −18n1 ∈Z ,
+2n3 + n2 + 6n1 ∈Z .
+(2.34)
+(The last condition 2n3+n2+6n1 ∈Z is redundant and can be obtained from the other conditions,
+but we keep it for later convenience.) One can derive (2.34) as follows. Since now the SM gauge
+group is [SU(3)×SU(2)×U(1)Y ]/Z6, we may view the gauge fields A3, A2, and A1 as PSU(3),
+SO(3), and U(1)/Z6 gauge fields, respectively, where the various characteristic classes are related
+by [37, 59]
+c1(F1) = w2(A2)
+mod 2
+and
+c1(F1) = w2(A3)
+mod 3 .
+(2.35)
+The conditions in (2.35) imply that the transition functions of PSU(3), SO(3), and U(1)/Z6
+bundles are correlated in such a way that they consistently combine into a [SU(3) × SU(2) ×
+U(1)Y ]/Z6 bundle. The properly normalized first Chern class which has integral periods is now
+c1(F1) = 6F1
+2π , and the fractional parts of SO(3) and PSU(3) instanton numbers are again given
+by (2.29) and (2.33), respectively. The quantizations of the individual instanton numbers in (2.34)
+follow immediately, and the correlated quantization conditions n3 −24n1 ∈Z and n2 −18n1 ∈
+Z are obtained by taking (Pontryagin) squares of the two sides of equations in (2.35) and then
+integrating them over the spacetime manifold, similar to the q = 2 and q = 3 cases. To obtain the
+quantization condition of Ki’s in (2.21), we can rewrite K3n3 +K2n2 +K1n1 as K3(n3 −24n1)+
+K2(n2 −18n1) + K1+18K2+24K3
+36
+(36n1). We see that the exponentiated action eiS is single-valued
+if and only if (2.21) is satisfied.
+As a side remark, the conditions on the instanton numbers can be used to derive the periodicities
+12
+
+[PDF PAGE 14]
+and identifications of the θ-angles in the SM (not coupled to an axion):
+q = 1 :
+(θ3, θ2, θ1) ∼(θ3 + 2π, θ2, θ1) ∼(θ3, θ2 + 2π, θ1) ∼(θ3, θ2, θ1 + 2π) ,
+q = 2 :
+(θ3, θ2, θ1) ∼(θ3 + 2π, θ2, θ1) ∼(θ3, θ2 + 4π, θ1) ∼(θ3, θ2, θ1 + 8π)
+∼(θ3, θ2 + 2π, θ1 + 4π) ,
+q = 3 :
+(θ3, θ2, θ1) ∼(θ3 + 6π, θ2, θ1) ∼(θ3, θ2 + 2π, θ1) ∼(θ3, θ2, θ1 + 18π)
+∼(θ3 + 2π, θ2, θ1 + 6π) ,
+q = 6 :
+(θ3, θ2, θ1) ∼(θ3 + 6π, θ2, θ1) ∼(θ3, θ2 + 4π, θ1) ∼(θ3, θ2, θ1 + 72π)
+∼(θ3 + 2π, θ2, θ1 + 24π) ∼(θ3, θ2 + 2π, θ1 + 36π)
+∼(θ3 + 4π, θ2 + 2π, θ1 + 12π) ,
+(2.36)
+where θ3, θ2, and θ1 are respectively the SU(3), SU(2), and U(1)Y θ-angles (normalized the same
+way as in (2.6)). Many of these periodicities were derived in [47]. Note that depending on the
+global form of the SM gauge group, θ-angles can have extended as well as correlated periodicities.
+Upon EWSB, θ-angle for the electromagnetic gauge field is given by θEM = (θ1 + 18θ2)/36,
+whose (correlated) periodicity can be inferred from (2.36). The normalization for θEM is such that
+the Lagrangian contains θEMe2
+16π2 FEM,µν eF µν
+EM where FEM,µν is the canonically normalized EM gauge
+field strength (2.5).
+2.3
+Chern-Simons gauge theory
+Next, we provide an alternative (but related) derivation of the quantization conditions, which is
+based on the relationship between the 4d axion couplings and 3d Chern-Simons gauge theories
+[65]. More specifically, we rephrase the quantization condition on Ki’s as the vanishing condition
+of an ’t Hooft anomaly of a certain 1-form global symmetry [63] in a 3d Chern-Simons theory.
+Related discussions can be found, for instance, in [37]. We emphasize that this derivation is con-
+ceptually equivalent to the one in Section 2.2, but phrased in terms of the anyon spins of a 3d
+theory.
+The main point is that the invariance of the axion couplings to the gauge fields under θ ∼θ+2π
+is equivalent to requiring that the 3d Chern-Simons theory
+LCS = K3
+4π Tr
+
+A3dA3 + 2
+3A3
+3
+
++ K2
+4π Tr
+
+A2dA2 + 2
+3A3
+2
+
++ K1
+4π A1dA1 ,
+(2.37)
+based on the gauge group [SU(3) × SU(2) × U(1)Y ]/Zq is well-defined and gauge-invariant. The
+Chern-Simons Lagrangian (2.37) is not a globally well-defined differential form, as the gauge fields
+themselves are not. To define the Chern-Simons action in a mathematically precise way, one ex-
+tends the Chern-Simons gauge fields to a 4-manifold whose boundary is the spacetime 3-manifold.
+13
+
+[PDF PAGE 15]
+One then considers a 4d bulk theory with Lagrangian dLCS, which is a well-defined differential
+form on the 4-manifold [66]. The quantization condition on Ki’s follows from requiring that the
+theory does not depend on the choice of the auxiliary 4-manifold, which in turn is equivalent to
+requiring exp(2πi P
+i
+Kini) = 1 on every closed 4-manifolds. This is analogous to the quantization
+of the coefficient for the Wess-Zumino-Witten term in the pion Lagrangian [67]. Alternatively, the
+Chern-Simons coupling (2.37) arises from the circle compactification of the axion coupling (2.6)
+in the presence of a nontrivial winding number of the axion field around the internal circle.
+To find the conditions on Ki’s from (2.37), we begin from q = 1. In this case, the Chern-
+Simons couplings are well-defined for arbitrary integer Ki’s.13 The theory has a Z(1)
+3 ×Z(1)
+2 ×Z(1)
+|K1|
+1-form center global symmetry.14 The Z(1)
+3
+1-form symmetry is generated by the SU(3) Wilson
+line W3 in the representation {ℓ1, ℓ2} = {K3, 0}, the Z(1)
+2
+1-form symmetry is generated by the
+SU(2) Wilson line W2 in the representation J = K2/2, and finally the Z(1)
+|K1| 1-form symmetry is
+generated by the U(1) Wilson line W1 ≡exp(i
+H
+A1).
+We obtain a Chern-Simons theory based on the gauge group [SU(3)×SU(2)×U(1)Y ]/Zq with
+q = 2, 3, 6 by gauging a Z(1)
+q
+subgroup of the 1-form symmetry. For instance, consider the q = 2
+case, where the A2 and A1 gauge fields combine into a U(2) = [SU(2) × U(1)Y ]/Z2 gauge field.
+Starting from the q = 1 Chern-Simons theory, we need to gauge the Z(1)
+2
+⊂Z(1)
+3
+× Z(1)
+2
+× Z(1)
+|K1|
+subgroup generated by the Wilson line W2W K1/2
+1
+to obtain the q = 2 theory [68]. For this to make
+sense, first of all, we require K1 ∈2Z, in accordance with (2.13). Furthermore, to be able to
+gauge a 1-form symmetry, the corresponding ’t Hooft anomaly must vanish. The ’t Hooft anomaly
+of a Z(1)
+N 1-form symmetry in 3d QFTs is measured by the topological spin of the generating line
+operator modulo 1/2 (on spin manifolds) [64]. In our case, the topological spin of the Wilson line
+W2W K1/2
+1
+is
+K2
+4 + K1
+8 = 2K2 + K1
+8
+mod 1
+2 .
+(2.38)
+Requiring this to vanish, we recover the quantization condition (2.13).
+For q = 3, the two gauge fields A3 and A1 now combine into a U(3) = [SU(3) × U(1)Y ]/Z3
+gauge field. Therefore, starting from the q = 1 Chern-Simons theory, we obtain the q = 3 theory
+by gauging the Z(1)
+3
+⊂Z(1)
+3
+× Z(1)
+2
+× Z(1)
+|K1| subgroup generated by the Wilson line W3W K1/3
+1
+. This
+requires K1 ∈3Z. The ’t Hooft anomaly, i.e., the topological spin of the Wilson line W3W K1/3
+1
+is
+given by
+K3
+3 + K1
+18 = 6K3 + K1
+18
+mod 1
+2 .
+(2.39)
+The anomaly vanishes if and only if the quantization condition (2.16) is satisfied.
+13On non-spin manifolds, we instead need to require K1 ∈2Z, whereas K2, K3 ∈Z is not affected.
+14In the presence of the Chern-Simons coupling K1
+4π A1dA1 in 3d, magnetic monopoles carry electric charges which
+are multiples of K1, and they break the U(1)(1) center symmetry down to Z(1)
+|K1|.
+14
+
+[PDF PAGE 16]
+Finally, to obtain the q = 6 theory, we need to gauge the Z(1)
+6
+⊂Z(1)
+3
+× Z(1)
+2
+× Z(1)
+|K1| subgroup
+generated by the Wilson line W3W2W K1/6
+1
+, which first requires K1 ∈6Z. The topological spin of
+this Wilson line is
+K3
+3 + K2
+4 + K1
+72 = 24K3 + 18K2 + K1
+72
+mod 1
+2 ,
+(2.40)
+and it vanishes if and only the quantization condition (2.21) is satisfied.
+3
+Constraints on the effective axion-photon coupling gaγγ
+We now discuss model-independent constraints on the axion physics from the quantization of the
+axion couplings to the SM gauge fields. We assume that we have a single QCD axion whose
+mass ma comes from the coupling to QCD. We focus on the effective axion-photon coupling gaγγ
+defined as
+Laγγ = −1
+4gaγγ aFEM,µν eF µν
+EM .
+(3.1)
+Here FEM,µν is the field strength for the canonically normalized EM gauge field (2.5). The effective
+coupling gaγγ receives contribution from the bare coupling E as well as the mixing with π0 [69]:
+gaγγ =
+α
+2π f
+2N
+ E
+N −1.92(4)
+
+=
+
+0.203(3) E
+N −0.39(1)
+ ma
+GeV2 ,
+(3.2)
+where ma is the axion mass and α = e2/4π is the fine structure constant. We have written the
+above expression in the standard notations of E, N. Recall that K3 = NDW = 2N is the number
+of axion domain walls.
+The quantization condition in Section 2 implies that the value of gaγγ/ma cannot be an arbitrary
+real number, but is subject to some rationality constraint from the ratio E/N. While any given real
+number can be approximated arbitrarily well by a rational number, an accurate approximation
+requires a large denominator N, which is related to the number of axion domain walls NDW = 2N.
+In the absence of other mechanisms, stable domain walls formed after inflation will survive till
+today and are inconsistent with the current observations. Therefore, to avoid the axion domain
+wall problem in cosmology, the value of NDW is preferred to be small in realistic, post-inflationary
+axion models. For any given upper bound on NDW, there is a strict lower bound on |gaγγ|/ma from
+the quantization conditions on E and N.
+Another cosmological constraint on the UV completion of the axion model is the stable relic
+problem [70, 71]. There are typically new heavy fermions in UV axion models. These heavy
+particles have to be able to decay into the SM particles, otherwise they will form stable relics.
+This is possible if the UV particles carry trivial gauge charge under the Z6 ⊂SU(3) × SU(2) ×
+15
+
+[PDF PAGE 17]
+U(1)Y subgroup, as all SM particles do. While particles with Z6 gauge charge can potentially
+pair annihilate into the SM particles, such scattering processes are suppressed as the universe
+expands, and some relic density remains. Therefore, the global form of the SM gauge group is
+preferred to be [SU(3) × SU(2) × U(1)Y ]/Zq=6 in any axion model without the stable relics in
+cosmology. This is also the gauge group that is compatible with the various GUT models such as
+SU(5), Spin(10), E6. See, for example, [18] and references therein for an extensive discussion on
+the phenomenological criteria for axion models. For this reason, we focus on the q = 6 case below.
+The quantization conditions (2.22) for E and N in the q = 6 case are 4N + 3E ∈3Z, N ∈
+1
+2Z,
+E ∈1
+3Z. If we want to avoid the domain wall problem, i.e., NDW = 2N = 1, then gaγγ
+in (3.2) cannot be arbitrarily small because of the quantization condition (2.22). This leads to the
+following model-independent lower bound:
+|gaγγ|
+ma
+≥0.15(1) GeV−2 ,
+if NDW = 1 .
+(3.3)
+The lower bound is saturated by
+E
+N = 8
+3 ,
+NDW = 2N = 1,
+E = 4
+3
+(3.4)
+which is the closest rational number E/N to 1.92 subject to the condition (2.22) and NDW = 1.
+This ratio is famously realized by one of the classic DFSZ models [48, 49]. (It is worthwhile noting
+that the standard DFSZ models have NDW = 3 or 6, while NDW = 1 can be achieved by relaxing
+PQ charge universality such as in [72].) It is also the ratio realized by the SU(5), Spin(10), E6
+GUT models [50, 73]. In other words, the region to the right of the E/N = 8/3 line on the
+|gaγγ|-ma plot must necessarily face the domain wall problem in a post-inflationary scenario (see
+Figure 1, modified from [74]). This provides an invariant meaning to the ratio E/N = 8/3 in the
+landscape of axion models.
+There are many proposed solutions to the axion domain wall problems in the literature, so
+models with NDW > 1 are still potentially phenomenologically viable. Here we merely point out
+that those QCD axion models violating the lower bound (3.3) must necessarily have NDW > 1.
+It should be emphasized that this lower bound relies on the assumption that the axion mass ma is
+dominated by the contribution from QCD.15 It is also worth pointing out that in the post-inflationary
+scenario with NDW = 1, there is an upper bound on f to avoid overproducing axions as dark matter
+from axion string simulations. The precise bound is a matter of some debate [75, 76, 77], but
+conservatively corresponds to f ≲1011 GeV. This would greatly restrict the bottom left region of
+the E/N = 8/3 line in Figure 1.16
+15Going beyond this assumption requires some careful model building to ensure that any additional contributions to
+the axion potential do not spoil the solution to the strong CP problem. See Section 6.6 of [18] for some examples and
+discussions.
+16We thank I. Garcia Garcia for discussions on this point.
+16
+
+[PDF PAGE 18]
+10−12
+10−11
+10−10
+10−9
+10−8
+10−7
+10−6
+10−5
+10−4
+10−3
+10−2
+10−1
+100
+101
+102
+103
+104
+105
+106
+107
+ma [eV]
+10−19
+10−18
+10−17
+10−16
+10−15
+10−14
+10−13
+10−12
+10−11
+10−10
+10−9
+10−8
+10−7
+10−6
+|gaγγ| [GeV−1]
+E/N = 8/3
+NDW > 1
+ADMX
+ORGAN
+RBF+UF
+CAPP
+QUAX
+BASE
+ADMX SLIC
+MWD X-rays
+MWD
+Polarisation
+MUSE
+VIMOS
+γ
+XMM-Newton
+INTEGRAL
+NuSTAR
+Leo T
+Neutron stars
+Figure 1: Constraints on the effective axion-photon coupling gaγγ versus the axion mass ma, mod-
+ified from [74]. The model-independent quantization conditions (2.22) imply that any QCD axion
+model in the gray region below the E/N = 8/3 line necessarily faces the axion domain wall prob-
+lem in a post-inflationary scenario, i.e., NDW > 1.
+As we increase the allowed tolerance of NDW, eventually the lower bound will be smaller
+than the uncertainty in (3.2) and cease to be meaningful. For instance, the lower bound with
+NDW ≤2 is |gaγγ|
+ma
+≥0.05(1) GeV−2, which is saturated by E/N = 5/3.17 For other values of
+q = 1, 2, 3 (which are not phenomenologically preferred because of the stable relic problem), the
+quantization conditions for E, N are different, and the lower bounds on |gaγγ|/ma are saturated
+by E/N = 35/18, 2, 13/6, respectively. However, these lower bounds with q̸ = 6 are of the same
+order as the uncertainty in (3.2).
+Finally, it is worth mentioning that in the simplest version of the KSVZ model [42, 43], the
+heavy fermion transforms as (3, 1, 0) under the su(3) × su(2) × u(1)Y gauge algebra. Therefore,
+the global form of the SM gauge group must correspond to q = 1 or q = 2. To realize the q = 3
+or q = 6 cases, the heavy fermion must to have a nonzero hypercharge [21]. To be more specific,
+the condition (2.15) requires 6QY = 1 mod 3 for such a fermion. Relatedly, the ratio E/N = 0
+(which is commonly labeled as the “KSVZ” line in the |gaγγ|-ma plot) cannot be realized for q = 3
+and q = 6 by a single heavy fermion transforming under the fundamental of SU(3), because such
+a fermion must carry a nontrivial electric charge and therefore E̸ = 0.
+17Incidentally, the E/N = 5/3 line appears as the boundary of the “axion window” in [70, 71, 18].
+17
+
+[PDF PAGE 19]
+4
+Higher symmetries of the Standard Model coupled to an ax-
+ion
+In this section we show that the SM coupled to an axion enjoys a myriad of generalized global
+symmetries, and discuss their implications on the possible UV completions of the theory [40, 32].
+Many different examples of generalized global symmetries of axion models have been studied
+in the past, including higher-group symmetries [36, 37, 38, 39, 40], non-invertible higher-form
+symmetries [32, 33], and non-invertible axion shift symmetries [30, 31, 32, 33].
+4.1
+Higher-group and non-invertible global symmetries
+We focus on two kinds of generalized global symmetries of the SM coupled to a single axion. One
+is the higher-group symmetry which involves the center 1-form symmetry and the winding 2-form
+symmetry. We sometimes also refer to the center 1-form symmetry as the electric 1-form symme-
+try, since it acts on the Wilson lines. The winding 2-form symmetry comes from the conserved
+3-form current J(3)
+winding =
+1
+2π ⋆dθ, where the superscript denotes the form degree. The other gener-
+alized symmetry that we consider is the non-invertible 1-form symmetry discussed in [32, 33]. The
+non-invertible 1-form symmetry arises from the part of the electric U(1)(1) 1-form symmetry of
+the free Maxwell theory, which appears to be explicitly broken in the presence of an axion. It was
+realized in [32, 33] that this U(1)(1) symmetry is not entirely broken by the coupling to the axion;
+rather, it is resurrected as a non-invertible 1-form symmetry labeled by Q/Z (which is dubbed as
+the “non-invertible Gauss law” in [32]). The non-invertible 1-form symmetry acts invertibly on the
+Wilson lines, but non-invertibly on the monopoles and axion strings.
+These two generalized symmetries are insensitive to the details of the axion potential and mass,
+unlike the axion shift symmetry. Moreover, they are not broken by any higher-dimensional local
+operators, which is a general feature of higher-form global symmetries [63]. To break them, one
+needs to introduce additional dynamical degrees of freedom such as new matter fields that trans-
+form nontrivially under the center of the gauge group, dynamical monopoles and/or axion strings.
+The existence of these two generalized symmetries is solely determined by the values of Ki’s,
+which is summarized in Table 2.18 We also write the results in terms of the couplings N and E
+below the EWSB scale. The derivation of these generalized global symmetries largely follows the
+formalism in [40, 32], which we review in Appendix A.
+18Similar to the quantization conditions, the global symmetry structure presented in Table 2 is invariant under field
+redefinitions of fermions.
+18
+
+[PDF PAGE 20]
+q
+Higher-Group
+Non-Invertible
+1
+24K3 + 18K2 + K1
+K
+mod K
+48N + 36E
+K
+mod K
+K1 mod 6
+36E mod 6
+2
+6K3 + K1
+(K/2)
+mod K
+2
+12N + 36E
+(K/2)
+mod K
+2
+K1
+2 mod 3
+18E mod 3
+3
+2K2 + K1
+(K/3)
+mod K
+3
+36E
+(K/3) mod K
+3
+K1
+3 mod 2
+12E mod 2
+6
+—
+—
+—
+—
+Table 2: Summary of the higher-group for the center 1-form and winding 2-form symmetries,
+and non-invertible 1-form symmetries of the SM coupled to an axion, written both in terms of
+(K3, K2, K1) and (N, E). Whenever an entry in one of the columns is nonzero there exists the
+corresponding symmetry. Here K ≡gcd(6, K1) = gcd(6, 36E). Note that K1 and K are always
+integer multiples of q due to the quantization condition in Table 1. The q = 6 case does not have
+these generalized global symmetries.
+4.2
+Bounds on string tension and monopole mass
+Whenever the values of the axion couplings admit a higher-group or non-invertible symmetry,
+then there must be a hierarchy to the energy scales at which the different symmetries are broken.
+These constraints have been considered for the higher-group symmetries of axion-Yang-Mills,
+axion-QCD, and axion-Maxwell theory [40], as well as for the non-invertible symmetries of axion-
+Maxwell theory [32]. In our case the symmetry structure is more complicated but the overall logic
+remains the same, which we now discuss.
+The generalized global symmetries we discuss are typically emergent in the IR, and they are
+therefore broken as we go to higher energies. However, as a consequence of the higher-group and
+non-invertible symmetries, they are not all on the same footing. Sometimes a “child” symmetry
+GC is subordinate to a “parent” symmetry GP, in the sense that the former symmetry cannot exist
+without the latter. For instance, the child non-invertible symmetry GC is typically tied to a parent
+invertible symmetry GP, and the algebra of symmetry elements of GC contains those of GP.19 This
+19The simplest example is the non-invertible symmetry D in the Ising model (see, for instance, [78, 79, 80, 81, 82]).
+19
+
+[PDF PAGE 21]
+E
+GC, GP
+
+ZZ
+GC, GP
+
+ZZ
+GC,
+ZZ
+GP
+EP
+EC
+allowed
+EC ≲EP
+E
+GC, GP
+GC,
+ZZ
+GP
+
+ZZ
+GC,
+ZZ
+GP
+EC
+EP
+forbidden
+EP ≲EC
+Figure 2: For generalized global symmetries, it is common that one “child” symmetry GC cannot
+exist on its own without a “parent” symmetry GP. In axion physics, GC, GP are emergent in the IR,
+and this hierarchical structure constrains the energy scales EC, EP these symmetries are broken.
+hierarchical structure constrains the renormalization group flows, since it is not possible to have
+an effective field theory at an intermediate scale where the child symmetry is preserved while the
+parent one is broken. This gives universal inequalities on the energy scales where the symmetries
+become emergent. These inequalities take the form EC ≲EP, where EC and EP are the energy
+scales above which the child and parent symmetries are broken, respectively. Since the symmetries
+are emergent, the inequalities we derive are approximate. See Figure 2.
+Let us first consider the case where there is a nontrivial higher-group symmetry. There are
+two invertible symmetries of interest: the U(1)(2) winding 2-form symmetry, and the Z(1)
+K/q electric
+1-form symmetry, where as usual superscripts denote the form degrees of the global symmetries
+and K ≡gcd(6, K1). We denote Ewinding and Ecenter as the energy scales below which U(1)(2) and
+Z(1)
+K/q become emergent, respectively. Now suppose we flow to a scale below Ecenter. Due to the
+higher-group symmetry structure explained in Appendix A, turning on the background gauge field
+for the Z(1)
+K/q electric symmetry automatically activates the background gauge field for the U(1)(2)
+winding symmetry as well, which only makes sense if we are also below the scale Ewinding [83]. In
+other words, the Z(1)
+K/q electric symmetry is the “child” symmetry GC which cannot exist without
+the “parent” symmetry GP = U(1)(2). We conclude that
+Ecenter ≲Ewinding.
+(4.1)
+Its algebra D × D = 1 + η involves an invertible parent Z2 symmetry generated by η (i.e., η2 = 1), and therefore the
+child non-invertible symmetry D cannot exist without its parent η.
+20
+
+[PDF PAGE 22]
+When we have a non-invertible symmetry, we obtain stronger bounds. We denote the emer-
+gence scale for the non-invertible 1-form symmetry again as, by an abuse of notation, Ecenter, since
+it acts on the Wilson lines in the same way as the ordinary center 1-form symmetry. In addition,
+we also associate to the U(1)(1) magnetic 1-form symmetry an emergence energy scale Emagnetic.
+The magnetic 1-form symmetry is generated by the 2-form current J(2)
+magnetic = 1
+2 ⋆(qF1), where F1
+is the field strength for U(1)Y . The fusion algebra of the non-invertible 1-form symmetry operator
+explained in Appendix A shows that it cannot exist without the winding 2-form symmetry and
+the magnetic 1-form symmetry. In other words, the non-invertible center 1-form symmetry is the
+“child” symmetry GC, and both the magnetic 1-form symmetry and winding 2-form symmetries
+are “parent” symmetries GP. We therefore find the constraint
+Ecenter ≲min {Emagnetic, Ewinding} .
+(4.2)
+So far, we have been agnostic to the physical interpretation of the emergence scales. Let us
+now explore the implications for physical quantities of interest. Ewinding physically corresponds
+to the energy scale at which axion strings become dynamical and may unwind. This is naturally
+associated with the string tension, Ewinding ∼
+√
+T, although it may be quite a bit smaller than
+√
+T
+depending on the UV theory. For example, in the KSVZ model considered in [40], it was found to
+be associated with Ewinding ∼(mρf)1/2, where mρ is the mass of the radial mode of the scalar field
+responsible for PQ symmetry breaking, and f its vacuum expectation value. At weak couplings,
+mρ ≪f ∼
+√
+T.
+Emagnetic is most naturally associated with the mass of the lightest hypercharge monopole,
+Emagnetic ∼mmonopole, although depending on the UV theory, it may again be significantly smaller.
+For example, if the dynamical monopole is an ’t Hooft-Polyakov monopole associated with a
+UV non-abelian gauge group G, then the magnetic symmetry breaking scale is instead the Hig-
+gsing scale v at which G is broken to U(1)Y . The mass of the ’t Hooft-Polyakov monopole is
+mmonopole ∼v/g, which is much larger than v for a weakly coupled theory.
+Similarly, Ecenter can be associated with the mass of the lightest particle charged under the
+center of the gauge group, which we denote as Ecenter ∼mcenter. To be more precise, for the case of
+higher-group symmetry, mcenter is the mass of the lightest particle charged under the ZK/q subgroup
+of the center of the gauge group. For the case of non-invertible symmetry, mcenter is the mass of the
+lightest particle charged under the Z6/q center of the gauge group. In both cases, we refer to mcenter
+loosely as the mass of the lightest “Z6-charged particle.” We emphasize that such a particle can
+either be a new fundamental field with Z6 gauge charge, or a solitonic excitation of the monopole
+and axion string dictated by the anomaly inflow.
+Combining these interpretations, we conclude that our inequalities imply
+mcenter ≲
+√
+T
+(4.3)
+21
+
+[PDF PAGE 23]
+whenever the higher-group symmetry exists, and
+mcenter ≲min
+n
+mmonopole,
+√
+T
+o
+(4.4)
+whenever the non-invertible 1-form symmetry exists. In short, the tension of axion strings and the
+mass of hypercharge monopoles are generically bounded from below by the mass of the lightest
+particle charged under the center of the SM gauge group.
+The higher-group symmetry inequality is easy to understand for UV completions based on
+the PQ mechanism. For example, consider an axion with couplings Ki obeying the quantization
+conditions of q = 1 in Table 1 but not q = 6. Any PQ UV completion would then require at least
+one heavy fermion charged under the ZK/q subgroup of the gauge group to be integrated out near
+the scale f.20 Therefore, mcenter ≲
+√
+T ∼f is automatically satisfied. On the other hand, if the
+true SM gauge group had q = 1 but the axion couplings were to satisfy the q = 6 quantization
+conditions, then the higher-group symmetry would be trivial from Table 2, and we would not have
+any inequality. In terms of a PQ UV completion, this means that the heavy fermion(s) integrated
+out near the scale f may have trivial charge under the ZK/q subgroup of the gauge group, and so
+there is no constraint on mcenter. This also provides an intuitive explanation for why the higher-
+group symmetry conditions in Table 2 are so similar to the quantization conditions in Table 1, at
+least in the context of PQ UV completions. We should emphasize, however, that our inequalities
+apply universally to any UV completion, not restricted to the PQ mechanism.
+The non-invertible symmetry implies two inequalities, mcenter ≲
+√
+T as well as mcenter ≲
+mmonopole. The former can be intuitively understood in PQ UV completions, similar to the higher-
+group case. On the other hand, mcenter ≲mmonopole can be verified in models where U(1)Y is
+embedded in a UV non-abelian gauge group G. In this case, mcenter ∼gv is the mass of the
+additional massive gauge bosons, whereas mmonopole ∼v/g. The inequality mcenter ≲mmonopole is
+then satisfied at weak couplings. More generally, these inequalities can also be satisfied by the
+solitonic excitations on the monopoles and the axion strings from anomaly inflow (see Section 7.1
+of [32]).
+5
+Conclusions
+The ambiguity in the global form of the SM gauge group generally has few experimentally ob-
+servable effects, and is not often discussed as a result. However, for an axion, we have shown that
+20If the global form of the SM gauge group corresponds to q = 1 and K1 ∈6Z, so that we have the invertible
+Z(1)
+6
+∼= Z(1)
+2
+× Z(1)
+3
+1-form symmetry, it is possible that only the Z(1)
+2
+(or Z(1)
+3 ) subgroup participates in the higher-
+group symmetry, depending on the values of Ki’s. In this case, for a heavy fermion that is neutral under the Z(1)
+2
+(or
+Z(1)
+3 ) subgroup of the original Z(1)
+6 , its mass would not be subject to our inequality.
+22
+
+[PDF PAGE 24]
+this global structure is of central importance in dictating the allowed values of its quantized cou-
+plings to the SM gauge fields, resulting in the conditions in Table 1. These quantization conditions
+have immediate phenomenological implications. In particular, the original KSVZ axion model is
+incompatible with both the q = 3 and q = 6 quantization conditions unless the heavy fermion is
+given a hypercharge. For the case of q = 6 – the phenomenologically preferred value from the per-
+spective of GUTs and the non-observation of cosmologically stable exotic relics – the quantization
+yields a highly non-trivial correlation between E and N. We have used this correlation to show
+that the smallest allowed effective coupling to photons |gaγγ| for a post-inflationary QCD axion
+with domain wall number NDW = 1 is realized by the ratio E/N = 8/3.
+Of course, if an axion were discovered, other consequences would become immediately rel-
+evant. Unambiguously measuring all of an axion’s couplings may be extremely challenging de-
+pending on the region of parameter space it populates, and would require several different experi-
+mental observables. Nevertheless, by measuring the couplings E and N separately and testing the
+quantization conditions, one could potentially falsify q = 6, regardless of whether the axion is of
+pre-inflationary or post-inflationary type and without ever discovering a Z6-charged particle. Such
+a discovery would greatly restrict viable UV completions of the SM gauge groups. Additionally,
+generalizing [40, 32], we have shown that there is a higher-group symmetry structure between the
+electric 1-form center symmetry and the U(1)(2) winding 2-form symmetry of the axion when-
+ever the couplings satisfy the conditions in Table 2. Similarly, the electric 1-form symmetry also
+becomes non-invertible depending on the value of E. These symmetries result in model indepen-
+dent constraints between the masses of Z6-charged particles, the masses of hypercharge magnetic
+monopoles, and the axion string tension.
+There are several avenues for further study. We have considered the simplest case of a single
+axion coupled only to the SM gauge group. However, in recent years, there have been a number of
+axion models developed going beyond these minimal assumptions [18]. A clear next step would
+be to generalize these results to theories of multiple axions or extended gauge groups, which may
+have more complicated symmetry structures and quantization conditions. We have also neglected
+discussing the 0-form shift symmetry of the axion, for good reason, since it is generically broken by
+the potential generated by QCD or UV instantons. However, it is known that the shift symmetry can
+also lead to a higher-group symmetry [38, 39, 40, 84, 85] or become non-invertible [30, 31, 32],
+which would then lead to additional inequalities. These may be relevant for axions that do not
+couple to QCD or for theories with multiple domain walls.
+Acknowledgements
+We are grateful to I. Garcia Garcia, S. Hong, M. Reece, J. Stout, G. Villadoro, and L.-T. Wang for
+stimulating discussions. We thank A. Hook for comments on a draft. We also thank the authors of
+23
+
+[PDF PAGE 25]
+[86, 87] for coordinating submission. Shortly after our paper appeared on arXiv, another paper [88]
+was also posted, which discusses the quantization of the axion-gauge couplings too. The work of
+HTL was supported in part by a Croucher fellowship from the Croucher Foundation, the Packard
+Foundation and the Center for Theoretical Physics at MIT. The work of SHS was supported in
+part by NSF grant PHY-2210182. This work was performed in part at Aspen Center for Physics
+during the workshop “Traversing the Particle Physics Peaks: Phenomenology to Formal,” which
+is supported by National Science Foundation grant PHY-2210452. The authors of this paper were
+ordered alphabetically.
+A
+More on the higher-group and non-invertible symmetries
+In this Appendix, we provide derivations of the generalized global symmetries of the SM coupled
+to a single axion through the coupling (2.1) (or equivalently, (2.6)), which were used in the main
+text to obtain lower bounds on the tension of axion strings and the mass of hypercharge monopoles.
+The results are summarized in Table 2. We work in the Euclidean signature for convenience.
+A.1
+Higher-group symmetries
+We first derive the higher-group symmetries of the theory, following [36, 37, 38, 39, 40]. We will
+start from the q = 1 case. Let us first consider an SU(3) × SU(2) × U(1)Y gauge theory with an
+axion and no other matter fields, after which we will add the SM fermions. There are two invertible
+symmetries of relevance:
+Z(1)
+3
+× Z(1)
+2
+× Z(1)
+|K1| electric 1-form symmetry ,
+U(1)(2) winding 2-form symmetry .
+The electric 1-form symmetry corresponds to the product of the center symmetries of SU(3) and
+SU(2) with the Z(1)
+|K| electric 1-form symmetry of axion-Maxwell theory. The charged objects are
+Wilson lines whose representation transforms nontrivially under the subgroup Z3 × Z2 × Z|K1| ⊂
+SU(3) × SU(2) × U(1)Y . The U(1)(2) winding 2-form symmetry is generated by the topological
+line operators η(w)
+α (γ) ≡exp(iα
+H
+γ
+dθ
+2π), where α ∼α + 2π is a U(1) group parameter. It measures
+the winding number of the axion field θ(x) around a closed loop γ, and the charged objects are
+two-dimensional worldsheets of probe axion strings. There are also a 0-form shift symmetry and
+a magnetic 1-form symmetry that we will not consider, although they may lead to a higher-group
+symmetry as well [40, 38, 39, 84, 85].
+To find whether the electric 1-form symmetry and the winding 2-form symmetry combine into
+a higher-group symmetry or not, one may couple the theory to the background gauge fields for
+24
+
+[PDF PAGE 26]
+these symmetries [89, 83, 90]. The background gauge fields for the electric 1-form symmetry can
+be represented by pairs (B(2)
+i , Γ(1)
+i ) of U(1) 2-form gauge fields B(2)
+i
+and U(1) 1-form gauge fields
+Γ(1)
+i
+(i = 1, 2, 3), satisfying [62, 91]
+3B(2)
+3
+= dΓ(1)
+3 ,
+2B(2)
+2
+= dΓ(1)
+2 ,
+K1B(2)
+1
+= dΓ(1)
+1 .
+(A.1)
+The superscripts denote the form degrees of the gauge fields. The gauge transformations of these
+background gauge fields are
+B(2)
+3
+∼B(2)
+3
++ dλ(1)
+3 ,
+Γ(1)
+3
+∼Γ(1)
+3
++ dλ(0)
+3
++ 3λ(1)
+3 ,
+B(2)
+2
+∼B(2)
+2
++ dλ(1)
+2 ,
+Γ(1)
+2
+∼Γ(1)
+2
++ dλ(0)
+2
++ 2λ(1)
+2 ,
+B(2)
+1
+∼B(2)
+1
++ dλ(1)
+1 ,
+Γ(1)
+1
+∼Γ(1)
+1
++ dλ(0)
+1
++ K1λ(1)
+1 .
+(A.2)
+The gauge-invariant data of the background gauge fields (B(2)
+i , Γ(1)
+i ) are encoded in the discrete
+cohomology classes which we denote as
+ 3
+2πB(2)
+3
+
+≡eB(2)
+3
+∈H2(X, Z3) ,
+ 2
+2πB(2)
+2
+
+≡eB(2)
+2
+∈H2(X, Z2) ,
+K1
+2π B(2)
+1
+
+≡eB(2)
+1
+∈H2(X, Z|K1|) .
+(A.3)
+Here, X is the spacetime manifold. We denote the U(1) 3-form background gauge field for the
+winding symmetry as C(3).
+Consider coupling the theory only to the electric 1-form symmetry background gauge fields,
+but not the winding symmetry background gauge field. The Lagrangian after naively coupling to
+these background gauge fields is given by
+f 2
+2 dθ ∧⋆dθ + 1
+g2
+3
+Tr F3 ∧⋆F3 + 1
+g2
+2
+Tr F2 ∧⋆F2 + 1
+2g2
+1
+(F1 −B(2)
+1 ) ∧⋆(F1 −B(2)
+1 )
+−iK3
+8π2 θ Tr F3 ∧F3 −iK2
+8π2 θ Tr F2 ∧F2 −iK1
+8π2 θ (F1 −B(2)
+1 ) ∧(F1 −B(2)
+1 ) ,
+(A.4)
+where it is understood that A3 now is a PSU(3) gauge field with w2(A3) = eB(2)
+3 , and similarly A2
+is a PSU(2) = SO(3) gauge field with w2(A2) = eB(2)
+2
+[62, 36]. However, with the naive coupling
+(A.4), the exponentiated action generally does not respect the 2π periodicity of θ. Rather, under
+θ ∼θ + 2π, it picks up [60, 62, 63, 64, 37, 59]
+exp
+ i
+4π6K3
+Z
+B(2)
+3
+∧B(2)
+3
++ i
+4π2K2
+Z
+B(2)
+2
+∧B(2)
+2
++ i
+4πK1
+Z
+B(2)
+1
+∧B(2)
+1
+
+.
+(A.5)
+25
+
+[PDF PAGE 27]
+The coupling (A.4) is inconsistent unless the phase (A.5) is trivial, which is the case if and only if
+K3 ∈3Z, K2 ∈2Z, and |K1| = 0, 1. If these conditions are satisfied, we do not find any nontrivial
+higher-group symmetry (see below).
+When (A.5) is not trivial, to consistently couple to the background gauge fields for the electric
+1-form symmetry, we are forced to also couple to the background gauge field for the winding 2-
+form symmetry at the same time, such that the Lagrangian contains the term
+i
+2πθG(4), where G(4)
+is the invariant field strength given by
+G(4) = dC(3) + 1
+4π
+
+6K3B(2)
+3
+∧B(2)
+3
++ 2K2B(2)
+2
+∧B(2)
+2
++ K1B(2)
+1
+∧B(2)
+1
+
+.
+(A.6)
+For such a coupling to be gauge-invariant under (A.2), C(3) must transform as
+C(3) ∼C(3) −6K3
+2π λ(1)
+3 B(2)
+3
+−6K3
+4π λ(1)
+3 dλ(1)
+3
+−2K2
+2π λ(1)
+2 B(2)
+2
+−2K2
+4π λ(1)
+2 dλ(1)
+2
+−K1
+2π λ(1)
+1 B(2)
+1
+−K1
+4π λ(1)
+1 dλ(1)
+1 .
+(A.7)
+This shows that there is a higher group symmetry formed by the electric 1-form symmetry and
+the winding 2-form symmetry, where the former is the “child” symmetry that cannot exist without
+the latter “parent” symmetry. To be more precise, whether the higher-group characterized by the
+invariant field strength (A.6) is trivial or not (that is, whether the higher-group is split or not),
+depends on the values of Ki’s as mentioned above. For instance, suppose K3 = 3m, where m is
+an integer. We may rewrite the invariant field strength (A.6) as
+G(4) = d
+
+C(3) + 2m
+4π Γ(1)
+3 dΓ(1)
+3
+
++ 1
+4π
+
+2K2B(2)
+2
+∧B(2)
+2
++ K1B(2)
+1
+∧B(2)
+1
+
+.
+(A.8)
+We can then redefine the U(1)(2) winding 2-form symmetry background gauge field by21 C(3) →
+C′(3) ≡C(3) + 2m
+4π Γ(1)
+3 dΓ(1)
+3
+and see that the Z(1)
+3
+subgroup of the electric 1-form symmetry does
+not participate in the higher group. By similar arguments, one can show that the Z(1)
+2
+subgroup of
+the electric 1-form symmetry participates nontrivially in the higher-group if and only if K2 /∈2Z,
+whereas the Z(1)
+|K1| subgroup always participates nontrivially (unless |K1| = 0, 1 and the group Z(1)
+|K1|
+itself is trivial). Note that K3 ∈3Z, K2 ∈2Z, and |K1| = 0, 1 are precisely the conditions that the
+phase (A.5) is trivial, in which case there is no nontrivial higher-group symmetry at all.
+Anticipating adding fermions, let us combine the background gauge fields eB(2)
+3
+and eB(2)
+2
+into a
+single Z(1)
+6
+background gauge field (recall Z6 ∼= Z2 × Z3), described by a pair (B(2)
+6 , Γ(1)
+6 ) of U(1)
+2-form and 1-form gauge fields satisfying
+6B(2)
+6
+= dΓ(1)
+6 .
+(A.9)
+21Mathematically, both the U(1) 2-form gauge field C(3) and the Chern-Simons term 2m
+4π Γ(1)
+3 dΓ(1)
+3
+ought to be
+thought of as elements in the degree-4 differential cohomology group ˇH4(X), and it makes sense to shift C(3) by
+2m
+4π Γ(1)
+3 dΓ(1)
+3
+since ˇH4(X) is an abelian group. See, for instance, [92].
+26
+
+[PDF PAGE 28]
+The gauge-invariant data are encoded into the Z6 cohomology class
+h
+6
+2πB(2)
+6
+i
+≡eB(2)
+6
+∈H2(X, Z6),
+which decomposes into the original background gauge fields as
+eB(2)
+6
+= 2 eB(2)
+3
++ 3 eB(2)
+2
+.
+(A.10)
+Mathematically, the 2 in front of eB(2)
+3
+stands for the map 2 : H2(X, Z3) →H2(X, Z6) coming
+from the homomorphism Z3
+×2
+−→Z6, and similarly the 3 in front of eB(2)
+2
+stands for the map 3 :
+H2(X, Z2) →H2(X, Z6) coming from Z2
+×3
+−→Z6. Physically, (A.10) can be understood by
+checking that the Wilson surface for eB(2)
+6
+correctly factorizes into the Wilson surfaces of eB(2)
+3
+and eB(2)
+2 , exp(2πi
+6
+H eB(2)
+6 ) = exp(2πi
+3
+H eB(2)
+3 ) exp(2πi
+2
+H eB(2)
+2 ). In terms of the continuous fields
+(B(2)
+i , Γ(2)
+i ), the relation (A.10) translates into
+B(2)
+6
+= B(2)
+3
++ B(2)
+2
+,
+Γ(1)
+6
+= 2Γ(1)
+3
++ 3Γ(1)
+2 .
+(A.11)
+The invariant field strength G(4) in terms of the Z(1)
+6
+gauge field is given by
+G(4) = dC(3) + 1
+4π
+
+6k6B(2)
+6
+∧B(2)
+6
++ K1B(2)
+1
+∧B(2)
+1
+
+,
+(A.12)
+where k6 is a combination of K2 and K3 defined modulo 6 that we must now determine. In order
+to find the dependence of k6 on K2 and K3, we insert B(2)
+6
+= B(2)
+3
++ B(2)
+2
+to the invariant field
+strength. This gives, modulo shifts in C(3),
+G(4) = dC(3) + 1
+4π
+
+3(2k6)B(2)
+3
+∧B(2)
+3
++ 2(3k6)B(2)
+2
+∧B(2)
+2
++ K1B(2)
+1
+∧B(2)
+1
+
+.
+(A.13)
+By comparing this expression with (A.6) we see that
+2K3 = 2k6
+mod 3
+and
+K2 = 3k6
+mod 2 ,
+(A.14)
+which is equivalent to22
+k6 = 4K3 + 3K2
+mod 6 .
+(A.15)
+Therefore, the Z(1)
+6
+1-form symmetry participates nontrivially in the higher group if and only if
+4K3 + 3K2̸ = 0 mod 6, and the final invariant field strength may be written as
+G(4) = dC(3) + 1
+4π
+
+6(4K3 + 3K2)B(2)
+6
+∧B(2)
+6
++ K1B(2)
+1
+∧B(2)
+1
+
+.
+(A.16)
+We are finally in a position to consider the addition of the SM matter fields. The preserved
+(invertible) electric 1-form symmetry is given by a subgroup Z(1)
+K ⊂Z(1)
+6
+× Z(1)
+|K1|, where we have
+22We first invert the equations as k6 = 2−1(2K3) = 2(2K3) mod 3 and k6 = 3−1K2 = K2 mod 2. The value of k6
+mod 6 is uniquely determined due to the Chinese remainder theorem, and we can explicitly check that k6 = 4K3+3K2
+mod 6 is a solution.
+27
+
+[PDF PAGE 29]
+defined K ≡gcd(6, K1). On the other hand, the U(1)(2) winding 2-form symmetry is unaffected
+by the SM matter fields. We denote the background gauge field for the Z(1)
+K symmetry by the pair
+(B(2), Γ(1)) of U(1) 2-form and 1-form gauge fields satisfying
+KB(2) = dΓ(1) .
+(A.17)
+Turning on the background gauge field B(2) for the Z(1)
+K subgroup which is preserved after the
+coupling to the SM matter fields amounts to setting
+B(2)
+6
+= B(2)
+1
+= B(2) .
+(A.18)
+The invariant field strength for the higher-group symmetry which mixes the Z(1)
+K electric 1-form
+symmetry and the U(1)(2) winding 2-form symmetry becomes
+G(4) = dC(3) + k
+4πKB(2) ∧B(2) ,
+(A.19)
+where k is a combination of (K3, K2, K1) to be determined shortly. The value of k is meaningful
+only modulo K, since shifting C(3) by the Chern-Simons term
+1
+4πΓ(1)dΓ(1) can change the value of
+k by any integer multiple of K. By comparison with (A.16) we immediately find
+q = 1 :
+k = 24K3 + 18K2 + K1
+K
+mod K .
+(A.20)
+Therefore, for q = 1, a nontrivial higher-group symmetry survives the coupling to the SM matter
+fields if and only if k̸ = 0 mod K. Note that the higher group can still be nontrivial even if K1 = 0
+mod 6, that is, when there is no non-invertible 1-form symmetry (see Appendix A.2). Whenever
+the higher-group symmetry is nontrivial (i.e., is not a split higher-group), the “child” Z(1)
+K electric
+1-form symmetry cannot exist without the “parent” U(1)(2) winding 2-form symmetry.
+The higher-group symmetry for the other values of q can also be obtained analogously. Con-
+sider the q = 2 case. Similar to before, we begin with the [SU(3) × SU(2) × U(1)Y ]/Z2 =
+SU(3) × U(2) gauge theory coupled to a single axion without the SM matter fields. The global
+symmetries of interest are the (invertible) Z(1)
+3
+× Z(1)
+|K1|/2 electric 1-form symmetry, as well as the
+U(1)(2) winding 2-form symmetry as before. Note that the quantization condition of Ki’s for q = 2
+requires K1 ∈2Z, and hence the |K1|/2 in Z(1)
+|K1|/2 is a nonnegative integer. The Z(1)
+3
+part of the
+electric 1-form symmetry is the usual center 1-form symmetry for the SU(3) gauge field. On the
+other hand, the Z(1)
+|K1|/2 1-form symmetry is generated by the topological surface operator (see, for
+instance, [32, Appendix A] and references therein)
+exp
+
+2πi
+(K1/2)
+I
+Σ
+
+−i
+e2 ⋆F1 −(K1/2)
+4π2
+θ(2F1)
+
+.
+(A.21)
+The operator (A.21) is topological due to the equation of motion, and moreover is gauge-invariant
+under the identification θ ∼θ + 2π since
+H
+F1 ∈πZ for q = 2 as was discussed in Section 2.2.
+28
+
+[PDF PAGE 30]
+We may now couple the theory to the background gauge fields for the electric 1-form symmetry
+as well as the winding 2-form symmetry. The background gauge fields for the Z(1)
+3
+× Z(1)
+|K1|/2
+electric 1-form symmetry are pairs (B(2)
+3 , Γ(1)
+3 ), (B(2)
+1 , Γ(1)
+1 ) of U(1) 2-form and 1-form gauge
+fields satisfying 3B(2)
+3
+= dΓ(1)
+3
+and K1
+2 B(2)
+1
+= dΓ(1)
+1 . Consider coupling the theory only to these
+electric 1-form symmetry background fields. In the presence of them, the exponentiated action is
+not gauge-invariant under θ ∼θ + 2π, but picks up [60, 62, 63, 64, 37, 59]
+exp
+ i
+4π6K3
+Z
+B(2)
+3
+∧B(2)
+3
++ i
+4πK1
+Z
+B(2)
+1
+∧B(2)
+1
++ i
+4π(2K2 + K1)
+Z
+F1 ∧F1
+
+= exp
+ i
+4π6K3
+Z
+B(2)
+3
+∧B(2)
+3
++ i
+4πK1
+Z
+B(2)
+1
+∧B(2)
+1
+
+,
+(A.22)
+where we have used the quantization condition 2K2 + K1 ∈4Z and 1
+2
+R
+c1(FU(2)) ∧c1(FU(2)) =
+1
+2π2
+R
+F1 ∧F1 ∈Z on spin manifolds, both of which hold for q = 2. Unless K3 ∈3Z and |K1|/2 =
+0, 1, the phase (A.22) is nontrivial. Similar to before, this implies that to consistently couple the
+theory to the electric 1-form symmetry background gauge fields, we are forced to introduce the
+background gauge field C(3) for the U(1)(2) winding 2-form symmetry by the term
+i
+2πθG(4) in the
+Lagrangian, where the invariant field strength G(4) is given by
+G(4) = dC(3) + 1
+4π
+
+6K3B(2)
+3
+∧B(2)
+3
++ 2
+K1
+2
+
+B(2)
+1
+∧B(2)
+1
+
+.
+(A.23)
+This characterizes a nontrivial higher-group symmetry (for values of K3 and K1 for which (A.22)
+is nontrivial, namely K3 /∈3Z or |K1/2|̸ = 0, 1), since now C(3) must transform under gauge
+transformations of the electric 1-form symmetry background gauge fields, analogous to (A.7).
+Introducing the SM fermions breaks the Z(1)
+3
+× Z(1)
+|K1|/2 1-form symmetry down to its Z(1)
+K/2 =
+Z(1)
+gcd(3,K1/2) subgroup, where K ≡gcd(6, K1) ∈2Z. The invariant field strength for the higher-
+group symmetry is obtained by setting B(2)
+3
+= B(2)
+1
+= B(2) where the pair (B(2), Γ(1)), satisfying
+K
+2 B(2) = dΓ(1), is the Z(1)
+K/2 background gauge field. This gives
+G(4) = dC(3) + k
+4π
+K
+2
+
+B(2) ∧B(2) ,
+(A.24)
+where
+q = 2 :
+k = 6K3 + K1
+K/2
+mod K
+2
+(A.25)
+determines the existence of the nontrivial higher-group symmetry for the q = 2 case. When k
+is nonzero, the “child” Z(1)
+K/2 electric 1-form symmetry cannot exist without the “parent” U(1)(2)
+winding 2-form symmetry.
+The q = 3 case follows the same steps, and we will be brief. The gauge group is [SU(3) ×
+SU(2) × U(1)Y ]/Z3 = SU(2) × U(3). If we consider an SU(2) × U(3) gauge theory coupled
+29
+
+[PDF PAGE 31]
+to an axion, there is an invertible Z(1)
+2
+× Z(1)
+|K1|/3 electric 1-form symmetry as well as the U(1)(2)
+winding 2-form symmetry. The addition of the SM matter fields breaks the former down to its
+Z(1)
+K/3 = Z(1)
+gcd(2,K1/3) subgroup (recall that K/3 ∈Z if q = 3 due to the quantization condition on
+Ki’s). One finds a nontrivial higher-group symmetry mixing the Z(1)
+K/3 electric 1-form symmetry
+with the U(1)(2) winding 2-form symmetry if and only if
+q = 3 :
+k = 2K2 + K1
+K/3
+mod K
+3
+(A.26)
+is nonzero. When k is nonzero, the “child” Z(1)
+K/3 electric 1-form symmetry cannot exist without
+the “parent” U(1)(2) winding 2-form symmetry.
+For q = 6, there is no electric 1-form symmetry in the SM, and there is no interesting higher-
+group symmetry to be discussed.
+Finally, we briefly mention that the quantization conditions on Ki’s discussed in Section 2 can
+also be derived from the higher-group symmetry structure for the q = 1 case. The idea is that the
+gauge groups with q > 1 can be realized by first starting from the SM coupled to an axion, based
+on the q = 1 gauge group SU(3) × SU(2) × U(1)Y , and then gauging a Z(1)
+q
+⊂Z(1)
+|K1| subgroup
+of the center 1-form symmetry. For this to make sense, first of all, we need K1 ∈qZ, which is
+indeed a part of the quantization condition. Second, to be able to actually gauge the Z(1)
+q
+⊂Z(1)
+|K1|
+subgroup of the center 1-form symmetry, the subgroup must participate trivially in the higher-
+group. After straightforward manipulations on the invariant field strength (A.19), one can show
+that this recovers the quantization conditions given in Table 1.
+A.2
+Non-invertible symmetries
+In the presence of an axion, there are two classes of non-invertible global symmetries that have
+been considered in the literature so far. One is the non-invertible 0-form symmetry which shifts
+the axion field [31, 32], and the other is the non-invertible 1-form symmetry which originates from
+the center symmetry in the absence of the axion [32, 33]. Here, we demonstrate the existence
+of the non-invertible 1-form global symmetry in the SM coupled to an axion. The analysis is a
+generalization of the one provided in [32].
+We begin from the q = 1 case. Consider first a pure SU(3) × SU(2) × U(1)Y gauge theory
+which is not coupled to any matter fields nor the axion field. The theory has the center 1-form
+symmetry Z(1)
+3
+× Z(1)
+2
+× U(1)(1). They are generated by topological surface operators [63], and
+we denote them respectively as η3(Σ), η2(Σ), and Uα(Σ) = exp
+
+iα
+H
+Σ
+ −i
+e2 ⋆F1
+
+. The operator
+Uα(Σ) is topological due to the equation of motion d ⋆F1 = 0, and this fact plays an important
+role below. The U(1) group parameter α is normalized to be 2π-periodic.
+30
+
+[PDF PAGE 32]
+In the SM (without an axion), the center 1-form symmetry is broken down to a Z(1)
+6
+subgroup.
+The topological surface operator which generates the Z(1)
+6
+symmetry is23
+U(Σ) ≡η3(Σ)η2(Σ)U2π/6(Σ) .
+(A.27)
+Once we further couple the theory to an axion as in (2.6), U(Σ) ceases to be topological if K1̸ = 0
+due to the modification of the equation of motion, d
+ −i
+e2 ⋆F
+
+=
+K1
+4π2dθF1 + · · · .24 Instead, one
+considers a new operator
+“ ˆU(Σ) ≡U(Σ) exp
+2πi
+6
+I
+Σ
+
+−K1
+4π2θF1
+
+”
+(A.28)
+where the exponential term is there to compensate the effect of the axion coupling to the gauge
+field A1. The new operator ˆU(Σ) is topological, although it is generally not a gauge-invariant
+operator under the identification θ ∼θ + 2π. We put the quotation marks in (A.28) to emphasize
+this fact, and also similarly below for the expressions which are potentially ill-defined and/or not
+gauge-invariant. To be more precise, ˆU(Σ) is gauge-invariant if and only if K1 = 0 mod 6, in
+which case the Z(1)
+6
+symmetry (now generated by ˆU(Σ)) is unbroken and there is no non-invertible
+1-form symmetry.25
+Now suppose K1̸ = 0 mod 6. As before, we write K ≡gcd(6, K1). Let n ≡
+6
+K ∈Z and m ≡
+K1
+K ∈Z, which are coprime to each other, gcd(n, m) = 1. Instead of the ill-defined, non-gauge-
+invariant operator ˆU(Σ), we define the following surface operator which is gauge-invariant:26
+q = 1 :
+D(Σ) ≡U(Σ)
+Z
+[DϕDc]Σ exp
+
+i
+I
+Σ
+ n
+2πϕdc + m
+2πθdc + 1
+2πϕF1
+
+.
+(A.29)
+Here, ϕ ∼ϕ + 2π is a compact scalar field and c is a U(1) gauge field, and they are auxiliary
+fields living on the support Σ of the operator D(Σ). Intuitively, (A.29) can be viewed as the
+naive symmetry operator U(Σ) dressed with a 2d Zn gauge theory (described by the ϕ and c
+fields [93, 62]) coupled to the bulk θ and A1 fields, whose effective response action is given by
+“exp
+2πi
+6
+H
+Σ
+ −K1
+4π2θF1
+
+.” The equation of motion for the c gauge field gives “ϕ = −m
+n θ =
+−K1
+6 θ,” which is not well-defined unless K1 = 0 mod 6 since both ϕ and θ are 2π-periodic scalar
+fields. Naively plugging the equation of motion back to (A.29) recovers (A.28).
+23To be more precise, the presence of the SM matter fields further modifies the expression for the symmetry operator
+U(Σ), but it will not be important for our discussions.
+24On the other hand, the couplings K2 and K3 between the axion and the nonabelian gauge fields do not affect
+the topological nature of the center symmetry operator, although they can lead to a nontrivial higher-group structure
+discussed in the previous subsection.
+25To be more precise, there is no non-invertible 1-form symmetry operator which is not factorized into an invertible
+1-form symmetry operator and a condensation operator.
+26More generally, one may consider non-invertible symmetry operators which replace the non-gauge-invariant op-
+erator ˆU(Σ)ℓwith ℓnot an integer multiple of 6/K. We will focus on ℓ= 1 for simplicity.
+31
+
+[PDF PAGE 33]
+The surface operator D(Σ) is topological, which can be heuristically understood from its re-
+lation to (A.28). For a more rigorous proof, see [32]. Moreover, it obeys a non-invertible fusion
+algebra,
+D(Σ) × D(Σ) =
+1
+|H0(Σ, Zn)|
+" n
+X
+i=1
+
+η(m)
+2π/n(Σ)
+i
+#
+×
+
+
+X
+γ∈H1(Σ,Zn)
+η(w)
+2πm/n(γ)
+
+.
+(A.30)
+Here, D(Σ) stands for the orientation-reversal of D(Σ), η(m)
+α (Σ) = exp(iα
+H
+Σ
+F1
+2π) is the U(1)(1)
+magnetic 1-form global symmetry operator, and η(w)
+α (γ) = exp(iα
+H
+γ
+dθ
+2π) is the U(1)(2) winding
+2-form global symmetry operator. The U(1) group parameter α is always normalized such that it
+is 2π-periodic. The right-hand side of (A.30) is an example of a condensation operator [94, 95].
+The fusion algebra (A.30) demonstrates that the non-invertible 1-form symmetry generated by D
+is subordinate to the magnetic as well as winding symmetries. Namely, the non-invertible 1-form
+symmetry (“child”) for K1̸ = 0 mod 6 cannot exist without the other two invertible higher-form
+symmetries (“parents”).
+We now move on to the q = 2 case. It is again convenient to start from a pure [SU(3) ×
+SU(2) × U(1)Y ]/Z2 = SU(3) × U(2) gauge theory without matter fields. The center 1-form
+symmetry is Z(1)
+3
+× U(1)(1), generated by η3(Σ) and Uα(Σ) = exp
+
+iα
+H
+Σ
+ −i
+e2 ⋆F1
+
+. The latter
+symmetry measures the hypercharge of the U(2) Wilson lines, and we have α ∼α + 2π.
+When we couple to the SM matter fields, the center symmetry is broken down to a Z(1)
+3
+sub-
+group which is generated by
+U(Σ) ≡η3(Σ)U2π/3(Σ) ,
+(A.31)
+where we are using the same symbol U(Σ) as in (A.27) by an abuse of notation. When we further
+couples the theory to an axion with K1̸ = 0, U(Σ) becomes non-topological similar to the q = 1
+case. One may consider
+“ ˆU(Σ) ≡U(Σ) exp
+2πi
+3
+I 
+−(K1/2)
+4π2
+θ(2F1)
+
+. ”
+(A.32)
+We have written (A.32) in a way that emphasizes the fact that K1
+2 ∈Z and
+H 2F1
+2π ∈Z for q = 2.
+Unless K1
+2 = 0 mod 3, the operator ˆU(Σ) is not gauge-invariant under the identification θ ∼θ+2π.
+On the other hand, if K1
+2 = 0 mod 3, ˆU(Σ) is well-defined and generates an invertible Z(1)
+3
+1-form
+symmetry of the theory.
+When K1
+2̸
+= 0 mod 3, we instead have a non-invertible 1-form symmetry, generated by the
+topological surface operator
+q = 2 :
+D(Σ) ≡U(Σ)
+Z
+[DϕDc]Σ exp
+
+i
+I
+Σ
+ n
+2πϕdc + m
+2πθdc + 1
+2πϕ(2F1)
+
+.
+(A.33)
+32
+
+[PDF PAGE 34]
+It satisfies a non-invertible fusion algebra similar to (A.30), which shows that the “child” non-
+invertible 1-form symmetry cannot exist without the “parents” magnetic 1-form symmetry and the
+winding 2-form symmetry.
+The analysis is the same for the q = 3 case and we will only mention the result. For q = 3, we
+have K1 ∈3Z, and the non-invertible 1-form symmetry exists when K1
+3̸ = 0 mod 2. It is generated
+by
+q = 3 :
+D(Σ) ≡U(Σ)
+Z
+[DϕDc]Σ exp
+
+i
+I
+Σ
+ n
+2πϕdc + m
+2πθdc + 1
+2πϕ(3F1)
+
+,
+(A.34)
+where now U(Σ) ≡η2(Σ)Uπ(Σ). The “child” non-invertible 1-form symmetry again cannot exist
+without the two “parent” invertible higher-form symmetries.
+For q = 6, there is no interesting non-invertible 1-form symmetry operator, since we do not
+have a center 1-form symmetry in the SM to begin with even in the absence of an axion.
+B
+Fractional axion-gauge couplings
+Throughout the paper we assume that there are no other degrees of freedom in addition to the SM
+fields and a single axion field. However, certain topological degrees of freedom can result in a
+fractional axion-gauge coupling [53], which we review below. It would be interesting to further
+explore phenomenological consequences of this mechanism.
+We demonstrate this phenomenon for a dynamical axion field θ(x) coupled to an SU(N) gauge
+field A with coupling
+K
+8π2θ TrF ∧F with K ∈Z. We introduce two new dynamical fields, a periodic
+scalar field ˆθ(x) ∼ˆθ(x) + 2π, and a 3-form gauge field c. We consider the following couplings:
+K
+8π2θ TrF ∧F + 1
+2π(ˆθ −Nθ)dc .
+(B.1)
+Locally, we can integrate out c, and obtain
+“θ = ˆθ/N.”
+(B.2)
+Substituting this back into (B.1), we find an fractional axion-gauge coupling K/N for ˆθ. Globally,
+however, we cannot integrate out c and relate two compact scalar fields of the same period 2π as in
+(B.2) (and hence the quotation marks), and (B.1) is the precise, gauge-invariant description of the
+model. This is similar to the construction in [96, 30, 97, 32].
+References
+[1] S. Weinberg, A New Light Boson?, Phys. Rev. Lett. 40 (1978) 223–226.
+33
+
+[PDF PAGE 35]
+[2] R. D. Peccei and H. R. Quinn, CP Conservation in the Presence of Instantons, Phys. Rev.
+Lett. 38 (1977) 1440–1443.
+[3] F. Wilczek, Problem of Strong P and T Invariance in the Presence of Instantons, Phys. Rev.
+Lett. 40 (1978) 279–282.
+[4] R. D. Peccei and H. R. Quinn, Constraints Imposed by CP Conservation in the Presence of
+Instantons, Phys. Rev. D 16 (1977) 1791–1797.
+[5] J. Preskill, M. B. Wise, and F. Wilczek, Cosmology of the Invisible Axion, Phys. Lett. B 120
+(1983) 127–132.
+[6] M. Dine and W. Fischler, The Not So Harmless Axion, Phys. Lett. B 120 (1983) 137–141.
+[7] L. F. Abbott and P. Sikivie, A Cosmological Bound on the Invisible Axion, Phys. Lett. B 120
+(1983) 133–136.
+[8] C. B. Adams et al., Axion Dark Matter, in Snowmass 2021, 3, 2022.
+arXiv:2203.14923.
+[9] K. Freese, J. A. Frieman, and A. V. Olinto, Natural inflation with pseudo -
+Nambu-Goldstone bosons, Phys. Rev. Lett. 65 (1990) 3233–3236.
+[10] D. J. E. Marsh, Axion Cosmology, Phys. Rept. 643 (2016) 1–79, [arXiv:1510.07633].
+[11] M. Dine and N. Seiberg, String Theory and the Strong CP Problem, Nucl. Phys. B 273
+(1986) 109–124.
+[12] K. Choi and J. E. Kim, Harmful Axions in Superstring Models, Phys. Lett. B 154 (1985)
+393. [Erratum: Phys.Lett.B 156, 452 (1985)].
+[13] S. M. Barr, Harmless Axions in Superstring Theories, Phys. Lett. B 158 (1985) 397–400.
+[14] E. Witten, Some Properties of O(32) Superstrings, Phys. Lett. B 149 (1984) 351–356.
+[15] P. Svrcek and E. Witten, Axions In String Theory, JHEP 06 (2006) 051,
+[hep-th/0605206].
+[16] A. Arvanitaki, S. Dimopoulos, S. Dubovsky, N. Kaloper, and J. March-Russell, String
+Axiverse, Phys. Rev. D 81 (2010) 123530, [arXiv:0905.4720].
+[17] J. E. Kim and G. Carosi, Axions and the Strong CP Problem, Rev. Mod. Phys. 82 (2010)
+557–602, [arXiv:0807.3125]. [Erratum: Rev.Mod.Phys. 91, 049902 (2019)].
+[18] L. Di Luzio, M. Giannotti, E. Nardi, and L. Visinelli, The landscape of QCD axion models,
+Phys. Rept. 870 (2020) 1–117, [arXiv:2003.01100].
+[19] P. Agrawal, K. V. Berghaus, J. Fan, A. Hook, G. Marques-Tavares, and T. Rudelius, Some
+open questions in axion theory, in Snowmass 2021, 3, 2022. arXiv:2203.08026.
+34
+
+[PDF PAGE 36]
+[20] N. Blinov, N. Craig, M. J. Dolan, J. de Vries, P. Draper, I. G. Garcia, B. Lillard, and
+J. Shelton, Snowmass White Paper: Strong CP Beyond Axion Direct Detection, in Snowmass
+2021, 3, 2022. arXiv:2203.07218.
+[21] M. Reece, TASI Lectures: (No) Global Symmetries to Axion Physics,
+arXiv:2304.08512.
+[22] J. McGreevy, Generalized Symmetries in Condensed Matter, arXiv:2204.03045.
+[23] C. Cordova, T. T. Dumitrescu, K. Intriligator, and S.-H. Shao, Snowmass White Paper:
+Generalized Symmetries in Quantum Field Theory and Beyond, in 2022 Snowmass Summer
+Study, 5, 2022. arXiv:2205.09545.
+[24] T. D. Brennan and S. Hong, Introduction to Generalized Global Symmetries in QFT and
+Particle Physics, arXiv:2306.00912.
+[25] S. Schafer-Nameki, ICTP Lectures on (Non-)Invertible Generalized Symmetries,
+arXiv:2305.18296.
+[26] L. Bhardwaj, L. E. Bottini, L. Fraser-Taliente, L. Gladden, D. S. W. Gould, A. Platschorre,
+and H. Tillim, Lectures on Generalized Symmetries, arXiv:2307.07547.
+[27] S.-H. Shao, What’s Done Cannot Be Undone: TASI Lectures on Non-Invertible Symmetry,
+arXiv:2308.00747.
+[28] S. L. Adler, Axial-vector vertex in spinor electrodynamics, Phys. Rev. 177 (Jan, 1969)
+2426–2438.
+[29] J. S. Bell and R. Jackiw, A PCAC puzzle: π0 →γγ in the σ model, Nuovo Cim. A 60 (1969)
+47–61.
+[30] Y. Choi, H. T. Lam, and S.-H. Shao, Noninvertible Global Symmetries in the Standard
+Model, Phys. Rev. Lett. 129 (2022), no. 16 161601, [arXiv:2205.05086].
+[31] C. Cordova and K. Ohmori, Noninvertible Chiral Symmetry and Exponential Hierarchies,
+Phys. Rev. X 13 (2023), no. 1 011034, [arXiv:2205.06243].
+[32] Y. Choi, H. T. Lam, and S.-H. Shao, Non-invertible Gauss Law and Axions,
+arXiv:2212.04499.
+[33] R. Yokokura, Non-invertible symmetries in axion electrodynamics, arXiv:2212.05001.
+[34] Y. Choi, C. Cordova, P.-S. Hsin, H. T. Lam, and S.-H. Shao, Noninvertible duality defects in
+3+1 dimensions, Phys. Rev. D 105 (2022), no. 12 125016, [arXiv:2111.01139].
+[35] J. Kaidi, K. Ohmori, and Y. Zheng, Kramers-Wannier-like Duality Defects in (3+1)D Gauge
+Theories, Phys. Rev. Lett. 128 (2022), no. 11 111601, [arXiv:2111.01141].
+[36] N. Seiberg, Y. Tachikawa, and K. Yonekura, Anomalies of Duality Groups and Extended
+Conformal Manifolds, PTEP 2018 (2018), no. 7 073B04, [arXiv:1803.07366].
+35
+
+[PDF PAGE 37]
+[37] C. Córdova, D. S. Freed, H. T. Lam, and N. Seiberg, Anomalies in the Space of Coupling
+Constants and Their Dynamical Applications II, SciPost Phys. 8 (2020), no. 1 002,
+[arXiv:1905.13361].
+[38] Y. Hidaka, M. Nitta, and R. Yokokura, Higher-form symmetries and 3-group in axion
+electrodynamics, Phys. Lett. B 808 (2020) 135672, [arXiv:2006.12532].
+[39] Y. Hidaka, M. Nitta, and R. Yokokura, Global 3-group symmetry and ’t Hooft anomalies in
+axion electrodynamics, JHEP 01 (2021) 173, [arXiv:2009.14368].
+[40] T. D. Brennan and C. Cordova, Axions, higher-groups, and emergent symmetry, JHEP 02
+(2022) 145, [arXiv:2011.09600].
+[41] T. D. Brennan, S. Hong, and L.-T. Wang, Coupling a Cosmic String to a TQFT,
+arXiv:2302.00777.
+[42] J. E. Kim, Weak Interaction Singlet and Strong CP Invariance, Phys. Rev. Lett. 43 (1979)
+103.
+[43] M. A. Shifman, A. I. Vainshtein, and V. I. Zakharov, Can Confinement Ensure Natural CP
+Invariance of Strong Interactions?, Nucl. Phys. B 166 (1980) 493–506.
+[44] M. Cvetic and L. Lin, The Global Gauge Group Structure of F-theory Compactification with
+U(1)s, JHEP 01 (2018) 157, [arXiv:1706.08521].
+[45] D. Harlow and H. Ooguri, Symmetries in quantum field theory and quantum gravity,
+Commun. Math. Phys. 383 (2021), no. 3 1669–1804, [arXiv:1810.05338].
+[46] N. Raghuram, W. Taylor, and A. P. Turner, General F-theory models with tuned
+(SU(3) × SU(2) × U(1))/Z6 symmetry, JHEP 04 (2020) 008, [arXiv:1912.10991].
+[47] D. Tong, Line Operators in the Standard Model, JHEP 07 (2017) 104,
+[arXiv:1705.01853].
+[48] A. R. Zhitnitsky, On Possible Suppression of the Axion Hadron Interactions. (In Russian),
+Sov. J. Nucl. Phys. 31 (1980) 260.
+[49] M. Dine, W. Fischler, and M. Srednicki, A Simple Solution to the Strong CP Problem with a
+Harmless Axion, Phys. Lett. B 104 (1981) 199–202.
+[50] M. Srednicki, Axion Couplings to Matter. 1. CP Conserving Parts, Nucl. Phys. B 260 (1985)
+689–700.
+[51] K. Fraser and M. Reece, Axion Periodicity and Coupling Quantization in the Presence of
+Mixing, JHEP 05 (2020) 066, [arXiv:1910.11349].
+[52] M. M. Anber and E. Poppitz, Nonperturbative effects in the Standard Model with gauged
+1-form symmetry, JHEP 12 (2021) 055, [arXiv:2110.02981].
+36
+
+[PDF PAGE 38]
+[53] N. Seiberg, Modifying the Sum Over Topological Sectors and Constraints on Supergravity,
+JHEP 07 (2010) 070, [arXiv:1005.0002].
+[54] J. C. Baez and J. Huerta, The Algebra of Grand Unified Theories, Bull. Am. Math. Soc. 47
+(2010) 483–552, [arXiv:0904.1556].
+[55] G. ’t Hooft, A Property of Electric and Magnetic Flux in Nonabelian Gauge Theories, Nucl.
+Phys. B 153 (1979) 141–160.
+[56] P. van Baal, Some Results for SU(N) Gauge Fields on the Hypertorus, Commun. Math. Phys.
+85 (1982) 529.
+[57] J. Wang and Y.-Z. You, Gauge Enhanced Quantum Criticality Between Grand Unifications:
+Categorical Higher Symmetry Retraction, arXiv:2111.10369.
+[58] J. Wang, Z. Wan, and Y.-Z. You, Cobordism and deformation class of the standard model,
+Phys. Rev. D 106 (2022), no. 4 L041701, [arXiv:2112.14765].
+[59] P.-S. Hsin and H. T. Lam, Discrete theta angles, symmetries and anomalies, SciPost Phys.
+10 (2021), no. 2 032, [arXiv:2007.05915].
+[60] O. Aharony, N. Seiberg, and Y. Tachikawa, Reading between the lines of four-dimensional
+gauge theories, JHEP 08 (2013) 115, [arXiv:1305.0318].
+[61] M. Nakahara, Geometry, topology and physics. 2003.
+[62] A. Kapustin and N. Seiberg, Coupling a QFT to a TQFT and Duality, JHEP 04 (2014) 001,
+[arXiv:1401.0740].
+[63] D. Gaiotto, A. Kapustin, N. Seiberg, and B. Willett, Generalized Global Symmetries, JHEP
+02 (2015) 172, [arXiv:1412.5148].
+[64] P.-S. Hsin, H. T. Lam, and N. Seiberg, Comments on One-Form Global Symmetries and
+Their Gauging in 3d and 4d, SciPost Phys. 6 (2019), no. 3 039, [arXiv:1812.04716].
+[65] E. Witten, Quantum Field Theory and the Jones Polynomial, Commun. Math. Phys. 121
+(1989) 351–399.
+[66] R. Dijkgraaf and E. Witten, Topological Gauge Theories and Group Cohomology, Commun.
+Math. Phys. 129 (1990) 393.
+[67] E. Witten, Global Aspects of Current Algebra, Nucl. Phys. B 223 (1983) 422–432.
+[68] N. Seiberg and E. Witten, Gapped Boundary Phases of Topological Insulators via Weak
+Coupling, PTEP 2016 (2016), no. 12 12C101, [arXiv:1602.04251].
+[69] G. Grilli di Cortona, E. Hardy, J. Pardo Vega, and G. Villadoro, The QCD axion, precisely,
+JHEP 01 (2016) 034, [arXiv:1511.02867].
+[70] L. Di Luzio, F. Mescia, and E. Nardi, Redefining the Axion Window, Phys. Rev. Lett. 118
+(2017), no. 3 031801, [arXiv:1610.07593].
+37
+
+[PDF PAGE 39]
+[71] L. Di Luzio, F. Mescia, and E. Nardi, Window for preferred axion models, Phys. Rev. D 96
+(2017), no. 7 075003, [arXiv:1705.05370].
+[72] L. Di Luzio, F. Mescia, E. Nardi, P. Panci, and R. Ziegler, Astrophobic Axions, Phys. Rev.
+Lett. 120 (2018), no. 26 261803, [arXiv:1712.04940].
+[73] P. Agrawal, M. Nee, and M. Reig, Axion couplings in grand unified theories, JHEP 10
+(2022) 141, [arXiv:2206.07053].
+[74] C. O’Hare, “cajohare/axionlimits: Axionlimits.”
+https://cajohare.github.io/AxionLimits/, July, 2020.
+[75] M. Gorghetto, E. Hardy, and G. Villadoro, More axions from strings, SciPost Phys. 10
+(2021), no. 2 050, [arXiv:2007.04990].
+[76] M. Dine, N. Fernandez, A. Ghalsasi, and H. H. Patel, Comments on axions, domain walls,
+and cosmic strings, JCAP 11 (2021) 041, [arXiv:2012.13065].
+[77] M. Buschmann, J. W. Foster, A. Hook, A. Peterson, D. E. Willcox, W. Zhang, and B. R.
+Safdi, Dark matter from axion strings with adaptive mesh refinement, Nature Commun. 13
+(2022), no. 1 1049, [arXiv:2108.05368].
+[78] V. B. Petkova and J. B. Zuber, Generalized twisted partition functions, Phys. Lett. B 504
+(2001) 157–164, [hep-th/0011021].
+[79] J. Frohlich, J. Fuchs, I. Runkel, and C. Schweigert, Kramers-Wannier duality from
+conformal defects, Phys. Rev. Lett. 93 (2004) 070601, [cond-mat/0404051].
+[80] D. Aasen, R. S. K. Mong, and P. Fendley, Topological Defects on the Lattice I: The Ising
+model, J. Phys. A 49 (2016), no. 35 354001, [arXiv:1601.07185].
+[81] C.-M. Chang, Y.-H. Lin, S.-H. Shao, Y. Wang, and X. Yin, Topological Defect Lines and
+Renormalization Group Flows in Two Dimensions, JHEP 01 (2019) 026,
+[arXiv:1802.04445].
+[82] N. Seiberg and S.-H. Shao, Majorana chain and Ising model – (non-invertible) translations,
+anomalies, and emanant symmetries, arXiv:2307.02534.
+[83] C. Córdova, T. T. Dumitrescu, and K. Intriligator, Exploring 2-Group Global Symmetries,
+JHEP 02 (2019) 184, [arXiv:1802.04790].
+[84] Y. Hidaka, M. Nitta, and R. Yokokura, Global 4-group symmetry and ’t Hooft anomalies in
+topological axion electrodynamics, arXiv:2108.12564.
+[85] Y. Hidaka, M. Nitta, and R. Yokokura, Topological axion electrodynamics and 4-group
+symmetry, Phys. Lett. B 823 (2021) 136762, [arXiv:2107.08753].
+[86] M. Reece, Axion-Gauge Coupling Quantization with a Twist, arXiv:2309.03939.
+38
+
+[PDF PAGE 40]
+[87] P. Agrawal and A. Platschorre, The Monodromic Axion-Photon Coupling,
+arXiv:2309.03934.
+[88] C. Cordova, S. Hong, and L.-T. Wang, Axion Domain Walls, Small Instantons, and
+Non-Invertible Symmetry Breaking, arXiv:2309.05636.
+[89] A. Kapustin and R. Thorngren, Higher symmetry and gapped phases of gauge theories,
+arXiv:1309.4721.
+[90] F. Benini, C. Córdova, and P.-S. Hsin, On 2-Group Global Symmetries and their Anomalies,
+JHEP 03 (2019) 118, [arXiv:1803.09336].
+[91] D. Gaiotto, A. Kapustin, Z. Komargodski, and N. Seiberg, Theta, Time Reversal, and
+Temperature, JHEP 05 (2017) 091, [arXiv:1703.00501].
+[92] C.-T. Hsieh, Y. Tachikawa, and K. Yonekura, Anomaly Inflow and p-Form Gauge Theories,
+Commun. Math. Phys. 391 (2022), no. 2 495–608, [arXiv:2003.11550].
+[93] T. Banks and N. Seiberg, Symmetries and Strings in Field Theory and Gravity, Phys. Rev. D
+83 (2011) 084019, [arXiv:1011.5120].
+[94] K. Roumpedakis, S. Seifnashri, and S.-H. Shao, Higher Gauging and Non-invertible
+Condensation Defects, Commun. Math. Phys. 401 (2023), no. 3 3043–3107,
+[arXiv:2204.02407].
+[95] Y. Choi, C. Cordova, P.-S. Hsin, H. T. Lam, and S.-H. Shao, Non-invertible Condensation,
+Duality, and Triality Defects in 3+1 Dimensions, Commun. Math. Phys. 402 (2023), no. 1
+489–542, [arXiv:2204.09025].
+[96] D. S. Freed, Z. Komargodski, and N. Seiberg, The Sum Over Topological Sectors and θ in
+the 2+1-Dimensional CP1 σ-Model, Commun. Math. Phys. 362 (2018), no. 1 167–183,
+[arXiv:1707.05448].
+[97] Y. Choi, H. T. Lam, and S.-H. Shao, Noninvertible Time-Reversal Symmetry, Phys. Rev. Lett.
+130 (2023), no. 13 131602, [arXiv:2208.04331].
+39

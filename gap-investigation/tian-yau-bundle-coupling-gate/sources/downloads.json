@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/README.md",
+    "file": "cymyc__README.md"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/examples/tian_yau/TY_KM_poly_spec.py",
+    "file": "cymyc__examples__tian_yau__TY_KM_poly_spec.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/examples/tian_yau/gen_metadata_TY.py",
+    "file": "cymyc__examples__tian_yau__gen_metadata_TY.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/examples/tian_yau/wp_moduli_scan.py",
+    "file": "cymyc__examples__tian_yau__wp_moduli_scan.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/cymyc/approx/harmonic.py",
+    "file": "cymyc__cymyc__approx__harmonic.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/cymyc/approx/harmonic_bundle.py",
+    "file": "cymyc__cymyc__approx__harmonic_bundle.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/cymyc/moduli/__init__.py",
+    "file": "cymyc__cymyc__moduli____init__.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/cymyc/moduli/moduli_scan.py",
+    "file": "cymyc__cymyc__moduli__moduli_scan.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Justin-Tan/cymyc/2039ea4349247317352e59d673444ad3865387fe/cymyc/moduli/wp.py",
+    "file": "cymyc__cymyc__moduli__wp.py"
+  }
+]

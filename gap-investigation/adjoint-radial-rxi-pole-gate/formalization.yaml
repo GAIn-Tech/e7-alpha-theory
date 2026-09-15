@@ -1,0 +1,6 @@
+scope: numerical Rxi radial pole difference and symbolic rational identities
+lean_kernel: not_run
+all_xi_proof: false
+review: self_assessed
+automation: AI-assisted Python NumPy mpmath SymPy
+hosted_ci: not_run

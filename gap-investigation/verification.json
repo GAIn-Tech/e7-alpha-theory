@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "lean_commands": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation",
+      "returncode": 0,
+      "stdout": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--root=C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation",
+        "-o",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\Gap.olean",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\Gap.lean"
+      ],
+      "cwd": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation",
+      "returncode": 0,
+      "stdout": "'E7Gap.every_coefficient_preserves_invariance' does not depend on any axioms\n'E7Gap.matching_preserves_boundary_freedom' does not depend on any axioms\n'E7Gap.fixed_boundary_restores_matching_uniqueness' does not depend on any axioms\n",
+      "stderr": ""
+    }
+  ],
+  "lean_source_sha256": "d5aea7efa98a1bb78cc1ab3d3e69b2f37344c24dfa71eb595da3a31532c1cbf0",
+  "lean_olean_sha256": "cb53c73249d6317e70c891c68f266c3738b6b72498fb32ed07834f5fa1f8b3d1",
+  "smt_receipt_sha256": "86b92d031586db809c7e3b722fcde8ea83e46085cfdfd84313edfe0410c44535",
+  "smt_replayed": [
+    {
+      "name": "weyl_invariance_forces_only_shape",
+      "result": "unsat"
+    },
+    {
+      "name": "every_positive_real_scale_preserves_weyl_invariance",
+      "result": "unsat"
+    },
+    {
+      "name": "same_E7_two_kinetic_coefficients",
+      "result": "sat"
+    },
+    {
+      "name": "positive_ray_has_another_point",
+      "result": "unsat"
+    },
+    {
+      "name": "invariant_functional_scaling",
+      "result": "unsat"
+    },
+    {
+      "name": "running_does_not_erase_boundary_parameter",
+      "result": "unsat"
+    },
+    {
+      "name": "fixed_group_and_matching_allow_distinct_low_energy_couplings",
+      "result": "sat"
+    },
+    {
+      "name": "independent_boundary_restores_matching_uniqueness",
+      "result": "unsat"
+    },
+    {
+      "name": "group_data_do_not_imply_selected_137_formula",
+      "result": "sat"
+    },
+    {
+      "name": "toy_potential_unique_minimum",
+      "result": "unsat"
+    },
+    {
+      "name": "toy_unique_vacuum_two_positive_kinetic_coefficients",
+      "result": "sat"
+    },
+    {
+      "name": "standard_trace_identity",
+      "result": "unsat"
+    },
+    {
+      "name": "legacy_exp44_values_produce_T12_not_T6",
+      "result": "unsat"
+    }
+  ],
+  "scope": "Three polymorphic conditional bridge theorems kernel-checked without axioms. Real/E7 Cartan and affine algebra checked separately by Z3, not imported as Lean theorems. Full Theory2 Mathlib library NOT built."
+}

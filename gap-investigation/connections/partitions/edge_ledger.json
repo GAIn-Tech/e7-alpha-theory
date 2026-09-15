@@ -1,0 +1,23 @@
+{
+  "claim_boundary": "Connections are typed; an established mathematical edge is not a physical vacuum-selection theorem.",
+  "edges": [
+    {"from":"integer partitions p(n)","to":"inverse Dedekind eta","status":"exact generating-function identity","map":"sum p(n)q^n=q^(1/24)/eta(tau)","sources":[5,8]},
+    {"from":"Dedekind eta modular transformations","to":"Dedekind sums and Rademacher coefficients","status":"established mathematical machinery","sources":[5]},
+    {"from":"partition Fourier coefficients","to":"prime-power congruences","status":"established theorem plus bounded local replication","sources":[8],"local":"certificate.json congruences and prime-13/137 simple-progression counterexamples"},
+    {"from":"prime divisibility of state count","to":"prime physical energy/coupling unit","status":"missing map","required":"Hilbert space, Hamiltonian, grading-energy identification, units, mechanism constraining eigenvalues"},
+    {"from":"Dedekind numbers","to":"monotone Boolean functions and prime congruences","status":"established combinatorics","sources":[1],"local":"truth tables n=0..4"},
+    {"from":"Dedekind numbers","to":"Dedekind eta / E7 character","status":"no identifying formula found in inspected sources","required":"explicit generating-series identity or structure-preserving construction; shared name insufficient"},
+    {"from":"mock Jacobi forms","to":"single-centered BPS black-hole indexed degeneracies","status":"established for specified string backgrounds","sources":[9]},
+    {"from":"E7 root lattice and seven oscillator species","to":"theta/eta coefficients 1,133,1673","status":"exact finite computation; general affine-character interpretation external","local":"certificate.json e7","required":"full coset-sector and string completion for physical use"},
+    {"from":"Narain lattice / level matching","to":"unique compactification radius","status":"does not select radius in toroidal family","sources":[2],"local":"three exact radii have same integrality and different momentum masses"},
+    {"from":"E7 gauge algebra dimension 133","to":"four spacetime dimensions","status":"unsupported implication; sourced six-dimensional E7 compactification counterexample","sources":[3]},
+    {"from":"partition transpose","to":"self-conjugacy and distinct odd parts","status":"established bijection; checked n<=12","sources":[4]},
+    {"from":"partition lambda","to":"determinant-sign chirality of Specht representation","status":"published precise definition and 2-core classification","sources":[7],"local":"counts n=1..12; self-conjugate chiral partition (2,1)"},
+    {"from":"non-self-conjugate partition","to":"published chiral partition","status":"not equivalent","local":"(2,1) is self-conjugate and chiral"},
+    {"from":"Boolean dual f^d(x)=1-f(1-x)","to":"parity via fixed points","status":"established involution counting","sources":[1]},
+    {"from":"Young transpose or Boolean duality","to":"knot mirror chirality","status":"analogy unless an intertwining map is defined","required":"embedded-knot construction, mirror intertwining, isotopy/chirality invariant"},
+    {"from":"Specht determinant-sign chirality","to":"internal Dirac/spacetime chirality","status":"missing physical map","required":"geometry, bundle, operator, spin grading, zero-mode construction and equality theorem"},
+    {"from":"twisted Dirac indices / sigma-model supercharge","to":"elliptic genera and modular generating functions","status":"genuine indexed-geometric bridge","sources":[11],"required":"specific compactification and identification of grading before net physical chirality claims"},
+    {"from":"literal Conway nimbers","to":"characteristic-two game arithmetic","status":"defined but different arithmetic","sources":[10],"required":"game rule and physical map; cannot substitute for ordinary odd-prime congruences"}
+  ]
+}

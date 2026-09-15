@@ -1,0 +1,15 @@
+name: tian-yau-charged-E8-bracket-gate
+status: not_computed
+scope: >-
+  Intended charged E8 Maurer-Cartan bracket and obstruction calculation;
+  explicit cocycles, embedding, structure constants and chain controls remain required.
+artifacts_present:
+  - REPORT.md
+  - RELEASE_DISCLOSURE.md
+  - formalization.yaml
+calculation_present: false
+verifier_present: false
+certificate_present: false
+axioms: not_audited_no_formal_proof_delivered
+automation: AI-assisted drafting only for this lane; no checked computation delivered.
+review_status: incomplete_not_independently_reviewed

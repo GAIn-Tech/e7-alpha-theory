@@ -1,0 +1,38 @@
+[
+  {
+    "file": "frenkel.md",
+    "url": "https://bpb-us-w2.wpmucdn.com/campuspress.yale.edu/dist/2/3739/files/2021/06/frenkel_representations_kac_moody.pdf",
+    "quote": "PROPOSITION 1.3. Let & = d + ijobe a level 1 weight of g. T/ien i~/ V of . /i<Y.T)/2 chF(6')=<p(<?)-' 2 yeu+g eY . g<r.T)/2, where q == e~c.\n2. Vertex representations of Kac-Moody algebras.\n2.1. Kac-Moody algebras admit a particular representation, which plays an important role in the theory. We will caU it the vertex represen-tation and we will use it for several applications later on. Now we wUl give a construction of the vertex representation.\nLet Q(A) be a Kac-Moody algebra with the noudegenerate mvariant biliuear symmetdc form (, ). We call the Lie algebra g(^4) = 9(^4) ® C[T, T~{] ® CC, with the Lie bracket given by (1.4), the affinization of Kac-Moody algebra Q(A'). In particular, the subalgebra f) = f) ® C[T, T~l] ® CC is caUed the Heisenberg subalgebra of g(^). We define the action of Q, on I) by the formula a . h ® r'\" = A ® rm- (a, h}S^C, a- C=C (2.1) REPRESENTATIONS OP KAC-MOODY ALGEBRAS 333 where a £ Q, h £ I). The pair (t), g) is called the Heisenberg system of g(^4). In this paper we wUl always use the notation /i(n) for h ® T\".\nLet r be a lattice in I) n such that Q CT CP, and let e: Q X T -^ Cf = (z e C: |z|= 1} be a biliaear cocycle, whose restriction to Q X g satisfies (1.2). We wiU fuc a polarization of ^ = l)+ +(I) + CC) + IT, where I)± = f) ® T± C[r±1]. Let ^( ()-) denote a symmetric algebra of I) -and C[T] be a group algebra of T. We construct an iireducible projective representation with the cocycle e of the Heisenberg system (I), Q~) m the space V = S(^\") ® C[F] in a standard way [9]: h(n)- u®ea=n(9,,(_,,)v)®ea, n > 0, h(-n~) -v<9ea== (/i(-n)u) ®ea,",
+    "sha256": "1ffa7c90421f99c241aba214725a97a139e1d54f90c1dc3a04390281d3aaeb73"
+  },
+  {
+    "file": "frenkel.md",
+    "url": "https://bpb-us-w2.wpmucdn.com/campuspress.yale.edu/dist/2/3739/files/2021/06/frenkel_representations_kac_moody.pdf",
+    "quote": "In this case c = /• Id. One can verify the following commutation rela-tions [9]: (2.11) ^- (2.12) The Virasoro algebra b commutes with g and therefore allows one to significantly \"decrease\" the reducible representation V. We defme for /ceC V,= (ueF:(L(n)-/c5o,,,)u=0,neZ). (2.13) Then for each k G C such that V^ ¥^ ^ we obtain a representation of g.\nThere representations are irreducible only in the sunplest case of g = S 1(2) [16, 28].\nLet & be an affinization of a Kac-Moody algebra g. We can extend it to a semidirect product with the Virasoro algebra b by using the foUow-mg commutation relatio",
+    "sha256": "1ffa7c90421f99c241aba214725a97a139e1d54f90c1dc3a04390281d3aaeb73"
+  },
+  {
+    "file": "lee_sun_wang.md",
+    "url": "https://bimsa.net/doc/publication/5729.pdf",
+    "quote": "central charge formula for WZW model (g)k c = k dim(g) k + h∨ (1.6) still holds if taking h∨= 24, dim g = 190 and level k = 1. For this reason, the last case can be regarded as the afﬁne VOA E7+1/2 at level 1. Such VOA was later rigorously constructed by Kawasetsu [34] as an intermediate vertex subalgebra of the lattice VOA VE8. This suggests that the notion that E7+1/2 ﬁlls a hole between E7 and E8 in the Deligne–Cvitanovi´ c exceptional series ",
+    "sha256": "30db0fb021301c2f1a14d679998f9d21bae2ea78eb593f720d306d32063d6a3d"
+  },
+  {
+    "file": "lee_sun_wang.md",
+    "url": "https://bimsa.net/doc/publication/5729.pdf",
+    "quote": "dual Coxeter number 18 of E7 and 30 of E8, and that in many senses this algebra ﬁlls the hole between E7 and E8 in the Deligne–Cvitanovi´ c exceptional series. The construction is inspired from the ob",
+    "sha256": "30db0fb021301c2f1a14d679998f9d21bae2ea78eb593f720d306d32063d6a3d"
+  },
+  {
+    "file": "mukhi_poddar.md",
+    "url": "https://arxiv.org/pdf/2011.09487",
+    "quote": "The E7,1 WZW model has c = 7 and hA = 3 4. We need the conformal blocks for the correlator ⟨56 56 56 56⟩. For this, we ﬁrst note that in terms of representations of the E7 Lie algebra, the tensor product of the fundamental with itself is: 56 ⊗56 = 1 ⊕133 ⊕1463 ⊕1539 (3.5) – 9 – It is easily veriﬁed that the 133 and the 1463 are contained in the symmetric part of the product, while the 1 and the 1539 are in the antisymmetric part. At level 1 the 133, 1463 and 1539 all decouple, leaving the 56 as the only non-trivial primary. Thus there is one block, just as for A1,1.\nIn [16] it was argued that in this case the identity and its descendants up to level 3 can ﬂow in diﬀerent sub-blocks in the (14) fusion channel. Hence, for consistency there must be precisely four invariant tensors of E7,1 contributing to the block, and these should be in correspondence with the four representations 1, 133, ",
+    "sha256": "b6c9f05e778eb00d35d8e8dc0e9a90198ab163977336afdb84f327e5dc888b29"
+  },
+  {
+    "file": "weil.md",
+    "url": "https://btw-47.github.io/binarytheta_paper3.pdf",
+    "quote": "2. Preliminaries - Vector-valued modular forms for the Weil representation Let L be an even lattice of signature (b+, b−) with quadratic form Q : L →Z and associated bilinear form (x, y) = Q(x + y) −Q(x) −Q(y). For N ∈Z we let L(N) denote the rescaled lattice (L, NQ).\nLet L′ be the dual lattice of L. The discriminant form L′/L is a ﬁnite quadratic module with the quadratic form Q(x + L) = Q(x) (mod Z). Let C[L′/L] be the group algebra of L′/L, which is generated by the formal basis vector eγ for γ ∈L′/L. It is equipped with a natural inner product ⟨·, ·⟩which is antilinear in the second variable.\nLet Mp2(Z) be the integral metaplectic group, consisting of pairs (M, φ) with M = \u0000 a b c d \u0001 ∈ SL2(Z) and φ : H →C holomorphic with φ(τ)2 = cτ + d.\nThe Weil representation ρL associated with L is a unitary representation of Mp2(Z) on C[L′/L] which is deﬁned on the generators T = (( 1 1 0 1 ) , 1) and S = \u0000\u0000 0 −1 1 0 \u0001 , √τ \u0001 by ρL(T) eγ = e(Q(γ)) eγ, ρL(S) eγ = e((b−−b+)/8) p |L′/L| X β∈L′/L e(−(β, γ)) eβ, where we put e(x) = e2πix for x ∈C. Note that ρL only depends on the discriminant form L′/L rather than on the lattice L itself.\nA function F : H →C[L′/L] is called a weakly holomorphic modular form of weight k ∈1 2Z for ρL if it is holomorphic on H, if it is invariant under the slash operator F|k,L(M, φ) = φ−2kρL(M, φ)−1F(Mτ) for all (M, φ) ∈Mp2(Z), and if it is meromorphic at ∞. The latter condition means that F has a Fourier expansion of the form F(τ) = X γ∈L′/L X n∈Z+Q(γ) n≫−∞ cF (γ, n)qn eγ with coeﬃcients cF (γ, n) ∈C. We denote the space of weakly holomorphic modular forms of weight k for ρL by M!\nk,L.\n3. A Borcherds pro",
+    "sha256": "ba7631aa8b9816d1de9e93abddcce9649f22a1fcb209da2e0263cc1cbc0a8eb7"
+  }
+]

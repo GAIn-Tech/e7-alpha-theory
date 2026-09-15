@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/html/2409.04350v2",
+      "title": "The decoupling of moduli about the standard embedding",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "However, in the case of the standard embedding, the extension map ℱ\\mathcal{F} is trivial and the long exact sequence splits. To see this, note that the curvature FF is in this case given by the Riemann curvature RR of the Calabi-Yau. Equation ([3.2](#S3.E2 \"In 3 The standard embedding\")) then takes the form",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/html/2401.15078v2",
+      "title": "Physical Yukawa Couplings in Heterotic String Compactifications",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "These are the unnormalized Yukawa couplings:",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/hep-th/0510213",
+      "title": "Nonrenormalization of Flux Superpotentials in String Theory",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We conclude from this that the PQ symmetry precludes W from developing a dependence on S, and so ensures that W receives no corrections in string perturbation theory.",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

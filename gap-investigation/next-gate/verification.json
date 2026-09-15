@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\next-gate\\representation_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"claim_boundary\": \"Exact root/weight characters and stated normalization only; no physical alpha prediction or Lean formalization.\",\n  \"sources\": {\n    \"C:\\\\Users\\\\mikeb\\\\theory2-full\\\\docs\\\\analysis\\\\weyl_verification.py\": \"b2a08c5458b65b01fac10aeefd70d22e933ce86331843e405952e53714cdaee4\",\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\exp44_lagrangian_derivation.py\": \"cdb0c22aee824d7c03aaf152924b286df9e8f6e28d4cf385773429b541c56bb7\",\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\next-gate\\\\representation_checks.py\": \"315dfd3156cf6bc774b1c06c689ace4c437b82e42e08e94a708ce9f6fdcb4f18\"\n  },\n  \"positive_roots\": 63,\n  \"fundamental_weights\": 56,\n  \"sym_square\": [\n    {\n      \"highest_weight\": [\n        0,\n        0,\n        0,\n        0,\n        0,\n        0,\n        2\n      ],\n      \"dimension\": 1463,\n      \"multiplicity\": 1\n    },\n    {\n      \"highest_weight\": [\n        1,\n        0,\n        0,\n        0,\n        0,\n        0,\n        0\n      ],\n      \"dimension\": 133,\n      \"multiplicity\": 1\n    }\n  ],\n  \"exterior_square\": [\n    {\n      \"highest_weight\": [\n        0,\n        0,\n        0,\n        0,\n        0,\n        1,\n        0\n      ],\n      \"dimension\": 1539,\n      \"multiplicity\": 1\n    },\n    {\n      \"highest_weight\": [\n        0,\n        0,\n        0,\n        0,\n        0,\n        0,\n        0\n      ],\n      \"dimension\": 1,\n      \"multiplicity\": 1\n    }\n  ],\n  \"cubic_tensor_zero_weight_multiplicity\": 0,\n  \"omega7_simple_coordinates\": [\n    \"1\",\n    \"3/2\",\n    \"2\",\n    \"3\",\n    \"5/2\",\n    \"2\",\n    \"3/2\"\n  ],\n  \"trace_on_simple_coroots\": {\n    \"56\": \"12*A\",\n    \"adjoint\": \"36*A\"\n  },\n  \"convention\": \"B0 root-length-squared 2; Bphys=2*B0, physics basis Bphys(t_a,t_b)=delta_ab\",\n  \"physics_C2_56\": \"57/4\",\n  \"physics_C2_adj\": \"18\",\n  \"physics_T56\": \"6\",\n  \"physics_Tadj\": \"18\",\n  \"passed\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\next-gate\\vacuum_audit.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"mode\": \"replayed\",\n  \"passed\": true,\n  \"ordered_total\": 214358881,\n  \"pretarget_ordered_total\": 30622283,\n  \"pretarget_distribution\": [\n    {\n      \"sum\": 7,\n      \"alpha_inv\": \"267/2\",\n      \"ordered_count\": 3256,\n      \"permutation_orbit_count\": 11\n    },\n    {\n      \"sum\": 14,\n      \"alpha_inv\": \"134\",\n      \"ordered_count\": 115124,\n      \"permutation_orbit_count\": 105\n    },\n    {\n      \"sum\": 21,\n      \"alpha_inv\": \"269/2\",\n      \"ordered_count\": 1028456,\n      \"permutation_orbit_count\": 393\n    },\n    {\n      \"sum\": 28,\n      \"alpha_inv\": \"135\",\n      \"ordered_count\": 4003736,\n      \"permutation_orbit_count\": 900\n    },\n    {\n      \"sum\": 35,\n      \"alpha_inv\": \"271/2\",\n      \"ordered_count\": 8110272,\n      \"permutation_orbit_count\": 1379\n    },\n    {\n      \"sum\": 42,\n      \"alpha_inv\": \"136\",\n      \"ordered_count\": 9162736,\n      \"permutation_orbit_count\": 1492\n    },\n    {\n      \"sum\": 49,\n      \"alpha_inv\": \"273/2\",\n      \"ordered_count\": 5836336,\n      \"permutation_orbit_count\": 1127\n    },\n    {\n      \"sum\": 56,\n      \"alpha_inv\": \"137\",\n      \"ordered_count\": 2010423,\n      \"permutation_orbit_count\": 593\n    },\n    {\n      \"sum\": 63,\n      \"alpha_inv\": \"275/2\",\n      \"ordered_count\": 332376,\n      \"permutation_orbit_count\": 200\n    },\n    {\n      \"sum\": 70,\n      \"alpha_inv\": \"138\",\n      \"ordered_count\": 19448,\n      \"permutation_orbit_count\": 40\n    },\n    {\n      \"sum\": 77,\n      \"alpha_inv\": \"277/2\",\n      \"ordered_count\": 120,\n      \"permutation_orbit_count\": 3\n    }\n  ],\n  \"selected_ordered\": 2010423,\n  \"selected_permutation_orbits\": 593,\n  \"cross_route\": {\n    \"G2_flux_4_alpha_inv\": \"137\",\n    \"G2_flux_4_claimed_stabilized_count\": 1,\n    \"G2_n_moduli\": 43,\n    \"G2_eight_sevens_alpha_inv\": \"140\",\n    \"part8_eight_sevens_alpha_inv\": \"137\"\n  },\n  \"physical_gate\": \"BLOCKED_MISSING_ACTION\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\next-gate\\candidate_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"domain\": \"Q1=Q2=0, real S; exact quadratic complete only on this slice\",\n  \"vacua\": [\n    {\n      \"S\": \"-1\",\n      \"singlet_scalar_mass_squared\": \"4\",\n      \"charged_scalar_mass_squared\": \"1\",\n      \"V\": \"0\"\n    },\n    {\n      \"S\": \"1\",\n      \"singlet_scalar_mass_squared\": \"4\",\n      \"charged_scalar_mass_squared\": \"9\",\n      \"V\": \"0\"\n    }\n  ],\n  \"boundary\": \"Tree-level rigid SUSY candidate, not full E7 vacuum classification. Positive gauge coefficient remains free.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "artifact_sha256": {
+    "representation_checks.py": "315dfd3156cf6bc774b1c06c689ace4c437b82e42e08e94a708ce9f6fdcb4f18",
+    "representation-receipt.json": "fbb9c0fe8ef0123f67798637bad30dfcb6737551b8af1433e747853dd78e91a8",
+    "candidate_checks.py": "87b8d6a7db94e5eee8f5d9a2afa2a482e0b6d3b13d90671a0050eac19d3fe252",
+    "vacuum_audit.py": "494bf67ec22e9a5812ce7ea2d007bc314a47261d9344e836f5cb50b0bbfbae35",
+    "vacuum-receipt.json": "deee05c3e4094d236bbd2f70c68da9903ce4470655469562c642254e42008ce5",
+    "vacuum-report.md": "7760e475c485cf6c396be968e98ef896dd3cb95f5265f777f9fbd408c9892d6f",
+    "REPORT.md": "6fab2fe7d0cceb33a0c75ec197bc9f489486f90426b94d639ba8fdc2d725da47",
+    "run_checks.py": "f07fe980cdd4e25376d077e3ac569e8f5294c1cd549377d999c3b16af1d476b3"
+  },
+  "claim_boundary": "Local Python exact checks only; no hosted CI, full vacuum classification or alpha prediction."
+}

@@ -1,0 +1,19980 @@
+1Introduction
+Report GitHub Issue
+×
+Title:
+Content selection saved. Describe the issue below:
+Description:
+Submit without GitHub
+Submit in GitHub
+arXiv is now an independent nonprofit!
+Learn more
+×
+Back to arXiv
+Why HTML?
+Report Issue
+Back to Abstract
+Download PDF
+1
+Introduction
+2
+Preliminaries
+2.1
+𝒩
+=
+1
+{\mathcal{N}}=1
+Supergravity in
+D
+=
+6
+D=6
+2.2
+K
+​
+3
+K3
+Compactification
+3
+Standard embedding on
+K
+​
+3
+K3
+3.1
+Reduction of the Yang-Mills sector
+3.2
+Reduction of the Kalb-Ramond sector
+3.3
+6D Effective action
+3.4
+Deviation from the standard embedding
+4
+Line bundles on
+K
+​
+3
+K3
+4.1
+Reduction of the Yang-Mills sector
+4.2
+Reduction of the Kalb-Ramond sector
+4.3
+6D Effective action
+4.4
+Stückelberg mechanism and massive U(1)s
+5
+Conclusion
+A
+Details of the Kaluza-Klein reduction
+A.1
+Deformations of gauge connections
+A.2
+Zero modes in the standard embedding
+A.3
+Coupling functions in the standard embedding
+A.4
+Zero modes in line bundle backgrounds
+B
+T
+4
+/
+ℤ
+3
+T^{4}/\mathbb{Z}_{3}
+limit: Hypermultiplet moduli space metric
+References
+License: arXiv.org perpetual non-exclusive license
+arXiv:1112.5106v2 [hep-th] 27 Jan 2012
+ZMP-HH/11-23
+6D Effective Action of Heterotic Compactification
+on K3 with nontrivial Gauge Bundles
+Jan Louis
+a,b
+, Martin Schasny
+a
+and Roberto Valandro
+a
+a
+II. Institut für Theoretische Physik der Universität Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany
+b
+Zentrum für Mathematische Physik,
+Universität Hamburg,
+Bundesstrasse 55, D-20146 Hamburg
+jan.louis,martin.schasny,roberto.valandro@desy.de
+ABSTRACT
+We compute the six-dimensional effective action of the heterotic
+string compactified on
+K
+​
+3
+K3
+for the standard embedding and for
+a class of backgrounds with line bundles and appropriate Yang-Mills
+fluxes.
+We compute the couplings of the charged scalars and the bundle moduli
+as functions of the geometrical
+K
+​
+3
+K3
+moduli from a Kaluza-Klein
+analysis.
+We derive the
+D
+D
+-term potential and show that in the flux backgrounds
+U
+⁡
+(
+1
+)
+U(1)
+vector multiplets become massive by a Stückelberg mechanism.
+December 2011
+1
+Introduction
+Heterotic model building is one
+of the possibilities to connect string theory with particle phenomenology.
+The requirement of a light chiral spectrum in four space-time dimensions (4D)
+together with stability arguments suggests to consider string backgrounds with
+𝒩
+=
+1
+\,{\mathcal{N}}=1
+supersymmetry in 4D. This in turn singles out
+Calabi-Yau threefolds
+[
+1
+]
+, appropriate
+ℤ
+n
+\mathbb{Z}_{n}
+orbifolds
+[
+2
+]
+or more generally two-dimensional
+(
+0
+,
+2
+)
+(0,2)
+superconformal
+field theories
+[
+3
+,
+4
+]
+as backgrounds.
+The revival of Grand Unified Theories (GUTs) in recent years resulted
+in renewed attempts to embed these field theories also in the heterotic string.
+In particular field theoretic models where a GUT-group is only unbroken
+in a higher-dimensional space-time background seem attractive due the
+simplicity of the Higgs-sector
+[
+5
+,
+6
+,
+7
+,
+8
+]
+.
+This led to the study of anisotropic orbifold compactification
+with an intermediate 5D or 6D effective theory
+[
+9
+,
+10
+,
+11
+,
+12
+]
+.
+One of the problems of orbifold compactifications
+is the vast number of massless moduli fields.
+However, it is well known that some of them gain mass
+when one considers the theory away from the orbifold point,
+i.e. in blown-up orbifolds or more generally in smooth Calabi-Yau backgrounds.
+The relation between orbifold and smooth
+Calabi-Yau compactifications
+is addressed in
+[
+13
+,
+14
+,
+15
+,
+16
+,
+17
+,
+18
+,
+19
+,
+20
+]
+.
+In this paper we focus instead
+on the 6D intermediate theory and derive the effective
+action for smooth
+K
+​
+3
+K3
+compactifications from a Kaluza-Klein reduction.
+The resulting 6D effective theory has the minimal
+amount of eight supercharges corresponding to
+𝒩
+=
+2
+{\mathcal{N}}=2
+in 4D. The scalar fields appear in tensor- and hypermultiplets
+but not in vector multiplets.
+In perturbative heterotic compactifications there is exactly one
+tensor multiplet containing the dilaton
+while all other scalars are members of hypermultiplets.
+In this case supersymmetry constrains the action to depend on a
+gauge coupling function given by the dilaton, a
+quaternionic-Kähler metric of the hypermultiplet scalars
+and a
+D
+D
+-term potential
+[
+21
+,
+22
+,
+23
+]
+.
+A consistent heterotic string background has to satisfy the Bianchi identity
+which in turn requires a nontrivial gauge bundle on
+K
+​
+3
+K3
+.
+As a consequence the resulting light scalar Kaluza-Klein (KK) spectrum consists of
+the moduli of
+K
+​
+3
+K3
+, the moduli of the gauge bundle
+and a set of matter fields charged under the unbroken gauge group.
+For these fields we systematically compute their couplings in the effective action, extending the analysis in
+[
+24
+,
+25
+,
+26
+,
+27
+,
+28
+,
+29
+,
+30
+]
+.
+1
+1
+1
+For
+compactifications on a Calabi-Yau threefold a similar analysis has
+been performed, for example, in
+[
+31
+,
+32
+,
+33
+]
+.
+However, since the effective action sensitively depends on the choice of
+the gauge bundle
+we cannot give a model-independent answer.
+Instead we focus on two prominent subclasses of gauge bundles embedded in
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+:
+we discuss the well
+known standard embedding of the gauge bundle into the tangent bundle
+in section
+3
+and backgrounds with
+U
+⁡
+(
+1
+)
+U(1)
+line bundles
+in section
+4
+.
+In the derivation of the 6D effective action we
+focus on the bundle moduli and the
+matter fields and compute their couplings as a function of the
+K
+​
+3
+K3
+moduli.
+While low energy supersymmetry restricts the compactification manifold
+to be Calabi-Yau, it also restricts the gauge bundle to be a solution of
+the hermitean Yang-Mills equations (HYM)
+[
+1
+]
+.
+These solutions are generally constructed from a stability condition
+using algebraic geometry
+[
+34
+,
+35
+,
+36
+,
+37
+,
+38
+,
+39
+]
+.
+However, on
+K
+​
+3
+K3
+the HYM equations take a simple form, stating that
+the background field strength is
+anti-selfdual (ASD)
+[
+40
+,
+41
+]
+.
+Its massless deformations determine the light 6D particle spectrum
+and lead to ASD-preserving bundle moduli which deform the
+holomorphic bundle structure and charged matter fields
+which deform the structure group embedding.
+This paper is organized as follows. In section
+2
+we set the stage
+for the later analysis and
+briefly recall the multiplets and effective action
+of 6D minimal supergravity (in section
+2.1
+),
+and some basic facts about
+K
+​
+3
+K3
+(in section
+2.2
+).
+In section
+3
+we then turn to the standard embedding
+and derive the effective action.
+We determine the couplings of the matter fields and the bundle moduli
+as a function of the
+K
+​
+3
+K3
+moduli.
+Unfortunately for the bundle moduli these couplings can only be given in terms of
+moduli-dependent
+integrals on
+K
+​
+3
+K3
+but they are not explicitly evaluated.
+As a consequence we cannot show in general that the final metric is
+quaternionic-Kähler as required by supersymmetry
+[
+21
+]
+.
+However, in an appropriate orbifold limit we show that the couplings of the matter fields in the untwisted sector are quaternionic-Kähler and agree with the results of
+[
+42
+]
+.
+We further compute the scalar potential and show that it consistently descends from a
+D
+D
+-term.
+In section
+4
+we consider backgrounds with line
+bundles
+[
+24
+,
+39
+,
+43
+,
+44
+,
+45
+,
+30
+,
+13
+,
+46
+,
+47
+]
+.
+In this case the Bianchi identity is satisfied by Abelian Yang-Mills
+fluxes on internal
+K
+​
+3
+K3
+two-cycles.
+The fluxes are characterized by their group theoretical embedding
+inside the Cartan subalgebra of
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+and the localization inside the second cohomology lattice of
+K
+​
+3
+K3
+.
+Using a vanishing theorem we show that the resulting effective action
+is consistent with 6D supergravity in that the scalar potential
+descends from a
+D
+D
+-term.
+We determine the couplings of the matter fields in terms of
+K
+​
+3
+K3
+-moduli
+dependent integrals.
+The Abelian factors of the gauge bundle are also part of the unbroken
+gauge group and the fluxes affect the effective action in two ways.
+First of all, the scalars descending from the heterotic
+B
+B
+-field
+get affinely gauged under the Abelian factors.
+Due to the Stückelberg mechanism this is equivalent to the Abelian gauge
+bosons becoming massive.
+Second of all, in the scalar potential the (selfdual components of the) fluxes
+appear as Fayet-Iliopoulos
+D
+D
+-terms, leading to a stabilization of
+s subset of the
+K
+​
+3
+K3
+moduli.
+Together, for every independent gauge flux a vector multiplet and a
+hypermultiplet gain a non-zero mass, consistent with the 6D anomaly
+constraint.
+In appendix
+A
+we describe in detail the local deformation theory of gauge
+connections, which is essential for the Kaluza-Klein reduction in the
+main text.
+In particular we establish the connection of massless internal
+deformations and Dolbeault cohomology which, to our knowledge,
+is not discussed in detail in the literature.
+Finally, appendix
+B
+provides further details about the
+metric in the untwisted sector of the previously considered orbifold limit.
+2
+Preliminaries
+In this paper we consider Kaluza-Klein reductions of the heterotic string in space-time backgrounds of the form
+M
+1
+,
+5
+×
+K
+​
+3
+,
+M^{1,5}\times K3\ ,
+(2.1)
+where
+M
+1
+,
+5
+M^{1,5}
+is the six-dimensional Minkowski space-time with Lorentzian signature and
+K
+​
+3
+K3
+is the unique compact four-dimensional Calabi-Yau manifold.
+The starting point of the analysis is the ten-dimensional heterotic supergravity characterized by the bosonic Lagrangian
+2
+2
+2
+Throughout this paper we use the space-time metric signature
+(
+−
+,
++
+,
++
+,
++
+,
+…
+)
+(-,+,+,+,...)
+and antihermitean generators for the gauge group.
+ℒ
+=
+1
+2
+e
+−
+2
+​
+Φ
+(
+R
+∗
+1
++
+4
+d
+Φ
+∧
+∗
+d
+Φ
+−
+1
+3
+H
+∧
+∗
+H
++
+α
+′
+(
+tr
+F
+∧
+∗
+F
+−
+tr
+R
+~
+∧
+∗
+R
+~
+)
+)
+.
+\mathcal{L}=\tfrac{1}{2}e^{-2\Phi}\left(R*1+4d\Phi\wedge*d\Phi-\tfrac{1}{3}H\wedge*H+\alpha^{\prime}(\mbox{tr}\ F\wedge*F-\mbox{tr}\ \tilde{R}\wedge*\tilde{R})\right)\ .
+(2.2)
+Φ
+\Phi
+is the ten-dimensional dilaton,
+F
+F
+is the Yang-Mills field strength in the adjoint representation of
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+and
+H
+H
+is the field strength of the Kalb-Ramond field
+B
+B
+defined as
+H
+=
+d
+​
+B
++
+α
+′
+​
+(
+ω
+L
+−
+ω
+Y
+​
+M
+)
+,
+H=dB+\alpha^{\prime}(\omega^{L}-\omega^{YM})\ ,
+(2.3)
+where
+ω
+L
+,
+ω
+Y
+​
+M
+\omega^{L},\omega^{YM}
+are the gravitational and Yang-Mills Chern-Simons 3-forms, respectively. As a consequence
+H
+H
+satisfies the Bianchi identity
+d
+​
+H
+=
+α
+′
+​
+(
+tr
+​
+R
+∧
+R
+−
+tr
+​
+F
+∧
+F
+)
+,
+dH=\alpha^{\prime}(\mbox{tr}\ R\wedge R-\mbox{tr}\ F\wedge F)\ ,
+(2.4)
+where
+R
+R
+is the Riemann curvature 2-form.
+3
+3
+3
+The trace
+tr
+​
+R
+∧
+R
+\mbox{tr}R\wedge R
+is evaluated in the vector representation
+𝟏𝟎
+\bf 10
+of
+S
+​
+O
+​
+(
+1
+,
+9
+)
+SO(1,9)
+and
+tr
+​
+F
+∧
+F
+:=
+1
+30
+​
+Tr
+​
+F
+∧
+F
+\mbox{tr}F\wedge F:=\tfrac{1}{30}\mbox{Tr}F\wedge F
+is
+1
+30
+\tfrac{1}{30}
+of the trace in the adjoint
+representation of
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+.
+Finally, the last term in (
+2.2
+) is the Gauss-Bonnet form
+[
+48
+]
+tr
+R
+~
+∧
+∗
+R
+~
+:=
+R
+M
+​
+N
+​
+P
+​
+Q
+R
+M
+​
+N
+​
+P
+​
+Q
+−
+4
+R
+M
+​
+N
+R
+M
+​
+N
++
+R
+2
+.
+\mbox{tr}\tilde{R}\wedge*\tilde{R}:=R_{MNPQ}R^{MNPQ}-4R_{MN}R^{MN}+R^{2}\ .
+(2.5)
+The Bianchi identity (
+2.4
+) requires a nontrivial gauge bundle
+over
+K
+​
+3
+K3
+. As a consequence the original
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+gauge group breaks
+to
+G
+G
+according to
+E
+8
+×
+E
+8
+⟶
+G
+×
+⟨
+H
+⟩
+.
+E_{8}\times E_{8}\longrightarrow G\times\langle H\rangle\ .
+(2.6)
+Here
+⟨
+H
+⟩
+\langle H\rangle
+is the structure group of the nontrivial bundle and
+G
+G
+is the unbroken maximal commutant.
+Before compactification, i.e. in flat ten-dimensional Minkowski
+space-time
+M
+1
+,
+9
+M^{1,9}
+, the theory has 16 supercharges corresponding to an
+𝒩
+=
+1
+{\mathcal{N}}=1
+supergravity in
+D
+=
+10
+D=10
+. In a background of the form
+(
+2.1
+) half of the supersymmetries are broken due to the
+properties of
+K
+​
+3
+K3
+.
+Unbroken supersymmetry also constrains the gauge bundle to satisfy
+the hermitean Yang-Mills equations
+[
+1
+]
+ℱ
+∈
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+𝔥
+)
+,
+ℱ
+∧
+J
+=
+0
+,
+{\mathcal{F}}\in H^{1,1}(K3,\mathfrak{h}),\qquad{\mathcal{F}}\wedge J=0\ ,
+(2.7)
+where
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+𝔥
+)
+H^{1,1}(K3,\mathfrak{h})
+denotes the
+(
+1
+,
+1
+)
+(1,1)
+Dolbeault cohomology
+group
+with values in the adjoint bundle
+𝔥
+\mathfrak{h}
+of
+H
+H
+and
+J
+J
+is the Kähler-form of
+K
+​
+3
+K3
+.
+4
+4
+4
+Note that a solution of (
+2.7
+) also solves
+the full Yang-Mills equations.
+On
+K
+​
+3
+K3
+the hermitean Yang-Mills equations are equivalent to the
+anti-selfduality condition
+[
+40
+,
+41
+]
+ℱ
+∈
+Λ
+−
+2
+​
+(
+K
+​
+3
+,
+𝔥
+)
+,
+{\mathcal{F}}\in\Lambda^{2}_{-}(K3,\mathfrak{h})\ ,
+(2.8)
+where
+Λ
+−
+2
+​
+(
+K
+​
+3
+,
+𝔥
+)
+\Lambda^{2}_{-}(K3,\mathfrak{h})
+denotes
+the
+−
+1
+-1
+eigenspace of the Hodge-
+⋆
+\star
+operator acting on 2-forms.
+The resulting low energy effective theory is an
+𝒩
+=
+1
+{\mathcal{N}}=1
+supergravity in
+D
+=
+6
+D=6
+, which we shall briefly review.
+2.1
+𝒩
+=
+1
+{\mathcal{N}}=1
+Supergravity in
+D
+=
+6
+D=6
+The supercharges of the
+6
+​
+D
+,
+𝒩
+=
+1
+6D,{\mathcal{N}}=1
+supergravity form a doublet of two Weyl spinors with the same chirality, satisfying a symplectic Majorana condition.
+They are rotated into each other under the
+R
+R
+symmetry group
+S
+​
+p
+​
+(
+1
+)
+R
+≅
+S
+​
+U
+​
+(
+2
+)
+R
+Sp(1)_{R}\cong SU(2)_{R}
+. The massless supermultiplets are
+[
+49
+]
+gravity multiplet
+:
+\displaystyle\mbox{gravity multiplet}:
+{
+g
+μ
+​
+ν
+,
+ψ
+μ
+−
+,
+B
+μ
+​
+ν
++
+}
+,
+\displaystyle\{g_{\mu\nu},\psi_{\mu}^{-},B_{\mu\nu}^{+}\}\ ,
+(2.9)
+tensor multiplet
+:
+\displaystyle\mbox{tensor multiplet}:
+{
+B
+μ
+​
+ν
+−
+,
+λ
++
+,
+ϕ
+}
+,
+\displaystyle\{B_{\mu\nu}^{-},\lambda^{+},\phi\}\ ,
+vector multiplet
+:
+\displaystyle\mbox{vector multiplet}:
+{
+V
+μ
+,
+λ
+−
+}
+,
+\displaystyle\{V_{\mu},\lambda^{-}\}\ ,
+hypermultiplet
+:
+\displaystyle\mbox{hypermultiplet}:
+{
+χ
++
+,
+4
+​
+q
+}
+,
+\displaystyle\{\chi^{+},4q\}\ ,
+where
+g
+μ
+​
+ν
+g_{\mu\nu}
+is the graviton of the six-dimensional space-time,
+ψ
+μ
+−
+\psi_{\mu}^{-}
+the negative chirality gravitino and
+B
+μ
+​
+ν
++
+B_{\mu\nu}^{+}
+is an antisymmetric tensor with
+selfdual field strength. The tensor multiplet contains a tensor
+B
+μ
+​
+ν
+−
+B_{\mu\nu}^{-}
+with anti-selfdual field strength, the dilatino
+λ
+−
+\lambda^{-}
+and the 6D dilaton
+ϕ
+\phi
+. The vector
+multiplet contains a gauge boson
+V
+μ
+V_{\mu}
+and the gaugino
+λ
++
+\lambda^{+}
+. Finally the hypermultiplet features the hyperino
+χ
++
+\chi^{+}
+together with four real scalars
+q
+q
+. Note that all
+scalars, except the dilaton, are in hypermultiplets. The massless spectrum is intrinsically chiral, since the fermions of each supermultiplet have definite chirality.
+The doublet structure of the 6D supercharges has further consequences for possible gauge representations. Especially, the four scalars in a hypermultiplet form a complex doublet of
+the
+R
+R
+-symmetry group.
+5
+5
+5
+A half-hypermultiplet, which is the smallest CPT self-conjugate multiplet, can only exist, if it is in a pseudoreal gauge representation. If it is a
+gauge singlet, the two real scalars are both their own CPT-conjugate
+but cannot build a
+S
+​
+U
+​
+(
+2
+)
+R
+SU(2)_{R}
+-doublet
+[
+4
+]
+.
+A hypermultiplet in a complex representation
+𝐑
+\bf R
+cannot be CPT-selfconjugate,
+so hypermultiplets always occur in vector-like representations
+𝐑
+⊕
+𝐑
+¯
+{\bf R}\oplus{\bf\overline{R}}
+in the spectrum. The four scalars correspondingly group into two complex scalars in
+𝐑
+{\bf R}
+and
+𝐑
+¯
+{\bf\overline{R}}
+, respectively.
+The absence of local anomalies does not constrain the gauge group as in 10D, but rather the massless spectrum to obey
+[
+50
+,
+51
+]
+29
+​
+n
+T
++
+n
+H
+−
+n
+V
+=
+273
+,
+29n_{T}+n_{H}-n_{V}=273\ ,
+(2.10)
+where
+n
+T
+n_{T}
+denotes the number of tensor multiplets,
+n
+H
+n_{H}
+the number of hypermultiplets and
+n
+V
+n_{V}
+the number of vector multiplets.
+This condition is automatically satisfied in any
+K
+​
+3
+K3
+compactifications with supersymmetric bundle (
+2.7
+). In this paper we only consider perturbative
+K
+​
+3
+K3
+-compactifications where
+n
+T
+=
+1
+n_{T}=1
+, such that
+n
+H
+−
+n
+V
+=
+244
+n_{H}-n_{V}=244
+holds.
+For gauge groups of the form
+G
+=
+∏
+α
+G
+α
+×
+∏
+m
+U
+​
+(
+1
+)
+m
+,
+G=\prod_{\alpha}G_{\alpha}\times\prod_{m}U(1)_{m}\ ,
+(2.11)
+where
+G
+α
+G_{\alpha}
+denotes any simple factor and
+U
+​
+(
+1
+)
+m
+U(1)_{m}
+any Abelian factor, the bosonic Lagrangian is given by
+[
+22
+,
+23
+]
+ℒ
+6
+=
+\displaystyle{\mathcal{L}}_{6}=
+1
+4
+R
+∗
+1
+−
+1
+2
+e
+−
+2
+​
+ϕ
+H
+∧
+∗
+H
++
+1
+4
+d
+ϕ
+∧
+∗
+d
+ϕ
+\displaystyle\tfrac{1}{4}R*1-\tfrac{1}{2}e^{-2\phi}H\wedge*H+\tfrac{1}{4}d\phi\wedge*d\phi
+(2.12)
++
+1
+2
+(
+c
+α
+e
+−
+ϕ
++
+c
+~
+α
+e
+ϕ
+)
+tr
+F
+𝔤
+α
+∧
+∗
+F
+𝔤
+α
+−
+c
+~
+α
+B
+∧
+tr
+F
+𝔤
+α
+∧
+F
+𝔤
+α
+\displaystyle+\tfrac{1}{2}(c_{\alpha}e^{-\phi}+\tilde{c}_{\alpha}e^{\phi})\mbox{tr}F^{\mathfrak{g}_{\alpha}}\wedge*F^{\mathfrak{g}_{\alpha}}-\tilde{c}_{\alpha}B\wedge\mbox{tr}F^{\mathfrak{g}_{\alpha}}\wedge F^{\mathfrak{g}_{\alpha}}
++
+1
+2
+(
+c
+m
+​
+n
+e
+−
+ϕ
++
+c
+~
+m
+​
+n
+e
+ϕ
+)
+F
+m
+∧
+∗
+F
+n
+−
+c
+~
+m
+​
+n
+B
+∧
+F
+m
+∧
+F
+n
+\displaystyle+\tfrac{1}{2}(c_{mn}\ e^{-\phi}+\tilde{c}_{mn}\ e^{\phi})F^{m}\wedge*F^{n}-\tilde{c}_{mn}\ B\wedge F^{m}\wedge F^{n}
+−
+1
+2
+g
+u
+​
+v
+(
+q
+)
+𝒟
+q
+u
+∧
+∗
+𝒟
+q
+v
+−
+V
+∗
+1
+,
+\displaystyle-\tfrac{1}{2}g_{uv}(q){\mathcal{D}}q^{u}\wedge*{\mathcal{D}}q^{v}-V*1\ ,
+where the non-Abelian Yang-Mills field strengths are labeled as
+F
+𝔤
+α
+F^{\mathfrak{g}_{\alpha}}
+and the Abelian field strengths as
+F
+m
+F^{m}
+. Due to supersymmetry, the gauge kinetic functions only depend
+on the 6D dilaton
+ϕ
+\phi
+, with numerical factors
+c
+α
+,
+c
+~
+α
+,
+c
+m
+​
+n
+,
+c
+~
+m
+​
+n
+c_{\alpha},\tilde{c}_{\alpha},c_{mn},\tilde{c}_{mn}
+.
+6
+6
+6
+It was shown recently that these numerical factors are constrained to take values in a selfdual lattice
+[
+52
+]
+.
+For the Abelian factors kinetic mixing, parametrized by the off-diagonal part of
+c
+m
+​
+n
+,
+c
+~
+m
+​
+n
+c_{mn},\tilde{c}_{mn}
+is possible
+[
+53
+]
+.
+B
+B
+is the sum of
+B
++
+B^{+}
+and
+B
+−
+B^{-}
+, and it is coupled
+to the vector multiplets via Chern-Simons forms appearing in its field strength
+H
+=
+d
+​
+B
++
+ω
+L
+−
+c
+α
+​
+ω
+𝔤
+α
+Y
+​
+M
+−
+c
+m
+​
+n
+​
+ω
+m
+​
+n
+Y
+​
+M
+H=dB+\omega^{L}-c_{\alpha}\omega^{YM}_{\mathfrak{g}_{\alpha}}-c_{mn}\omega^{YM}_{mn}
+, where
+ω
+L
+\omega^{L}
+and
+ω
+𝔤
+α
+Y
+​
+M
+\omega^{YM}_{\mathfrak{g}_{\alpha}}
+are standard Chern-Simons forms while
+the “mixed” Abelian Chern-Simons form is given by
+ω
+m
+​
+n
+Y
+​
+M
+=
+d
+​
+V
+m
+∧
+V
+n
+.
+\omega^{YM}_{mn}=dV^{m}\wedge V^{n}\ .
+(2.13)
+The real hypermultiplet scalars
+q
+u
+,
+u
+=
+1
+,
+…
+,
+4
+​
+n
+H
+q^{u},u=1,\ldots,4n_{H}
+constitute a
+quaternionic Kähler target manifold
+ℳ
+{\mathcal{M}}
+with metric
+g
+u
+​
+v
+​
+(
+q
+)
+g_{uv}(q)
+which only depends on the hyperscalars
+[
+21
+]
+.
+The gauge group can be any isometry group of
+ℳ
+\mathcal{M}
+, with Killing vectors
+K
+u
+​
+a
+K^{ua}
+appearing in the gauge covariant derivatives:
+𝒟
+​
+q
+u
+=
+d
+​
+q
+u
+−
+V
+a
+​
+K
+u
+​
+a
+​
+(
+q
+)
+,
+{\mathcal{D}}q^{u}=dq^{u}-V^{a}K^{ua}(q)\ ,
+(2.14)
+where
+a
+a
+denotes the adjoint index of the gauge group.
+Finally, there only exists a
+D
+D
+-term potential given by
+V
+=
+−
+1
+4
+∑
+a
+(
+D
+a
+)
+B
+A
+​
+(
+D
+a
+)
+A
+B
+c
+α
+​
+e
+−
+ϕ
++
+c
+~
+α
+​
+e
+ϕ
+−
+1
+4
+∑
+m
+,
+n
+(
+D
+m
+)
+B
+A
+​
+(
+D
+n
+)
+A
+B
+c
+m
+​
+n
+​
+e
+−
+ϕ
++
+c
+~
+m
+​
+n
+​
+e
+ϕ
+,
+V=-\tfrac{1}{4}\sum\limits_{a}\frac{(D^{a})_{\ B}^{A}(D^{a})_{\ A}^{B}}{c_{\alpha}e^{-\phi}+\tilde{c}_{\alpha}e^{\phi}}-\tfrac{1}{4}\sum\limits_{m,n}\frac{(D^{m})_{\ B}^{A}(D^{n})_{\ A}^{B}}{c_{mn}e^{-\phi}+\tilde{c}_{mn}e^{\phi}}\ ,
+(2.15)
+where
+(
+D
+a
+,
+m
+)
+B
+A
+=
+Γ
+u
+​
+B
+A
+​
+K
+u
+​
+a
+,
+m
+,
+A
+,
+B
+=
+1
+,
+2
+,
+(D^{a,m})^{A}_{\ B}=\Gamma_{uB}^{A}K^{ua,m}\ ,\qquad A,B=1,2\ ,
+(2.16)
+with
+Γ
+u
+​
+B
+A
+{\Gamma}_{uB}^{A}
+being a composite
+𝔰
+​
+𝔲
+​
+(
+2
+)
+R
+\mathfrak{su}(2)_{R}
+-valued connection on
+ℳ
+{\mathcal{M}}
+[
+22
+,
+23
+]
+.
+Our main interest in the following will be to derive the 6D couplings, i.e. the hyperscalar metric
+g
+u
+​
+v
+​
+(
+q
+)
+g_{uv}(q)
+and the explicit form of the
+D
+D
+-term.
+2.2
+K
+​
+3
+K3
+Compactification
+Before we proceed let us collect a few facts about the (unique) Calabi-Yau two-fold
+K
+​
+3
+K3
+(for a review see
+[
+54
+]
+). It has a reduced holonomy
+group
+S
+​
+U
+​
+(
+2
+)
+h
+​
+o
+​
+l
+SU(2)_{hol}
+, so its frame bundle splits as
+S
+​
+O
+​
+(
+4
+)
+→
+S
+​
+U
+​
+(
+2
+)
+R
+×
+S
+​
+U
+​
+(
+2
+)
+h
+​
+o
+​
+l
+SO(4)\rightarrow SU(2)_{R}\times SU(2)_{hol}
+into an
+S
+​
+U
+​
+(
+2
+)
+R
+SU(2)_{R}
+bundle which is flat over
+K
+​
+3
+K3
+and the nontrivial
+S
+​
+U
+​
+(
+2
+)
+h
+​
+o
+​
+l
+SU(2)_{hol}
+bundle.
+A covariantly constant spinor on
+K
+​
+3
+K3
+transforms as a doublet under
+S
+​
+U
+​
+(
+2
+)
+R
+SU(2)_{R}
+, so this generates the
+R
+R
+-symmetry in 6D.
+Moreover, the
+K
+​
+3
+K3
+surface is hyper-Kähler and its curvature 2-form is anti-selfdual
+[
+40
+]
+. Its Hodge numbers are
+h
+0
+,
+0
+h
+1
+,
+0
+h
+0
+,
+1
+h
+2
+,
+0
+h
+1
+,
+1
+h
+0
+,
+2
+h
+2
+,
+1
+h
+1
+,
+2
+h
+2
+,
+2
+=
+1
+0
+0
+1
+20
+1
+0
+0
+1
+.
+\begin{array}[]{c}h^{0,0}\\
+h^{1,0}\qquad h^{0,1}\\
+h^{2,0}\qquad h^{1,1}\qquad h^{0,2}\\
+h^{2,1}\qquad h^{1,2}\\
+h^{2,2}\end{array}=\begin{array}[]{c}1\\
+0\qquad 0\\
+1\qquad 20\qquad 1\\
+0\qquad 0\\
+1\end{array}\ .
+(2.17)
+The nontrivial part is the second cohomology group
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{2}(K3,\mathbb{R})
+. It is a vector space of signature (3,19) with respect to the scalar product
+⟨
+v
+,
+w
+⟩
+=
+∫
+v
+∧
+w
+,
+v
+,
+w
+∈
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+.
+\langle v,w\rangle=\int v\wedge w\ ,\qquad v,w\in H^{2}(K3,\mathbb{R})\ .
+(2.18)
+In a basis of 2-forms
+η
+I
+∈
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+\eta_{I}\in H^{2}(K3,\mathbb{R})
+the scalar product is given by the matrix
+7
+7
+7
+For integral 2-forms this is the intersection matrix of the Poincaré dual 2-cycles
+[
+54
+]
+.
+ρ
+I
+​
+J
+=
+∫
+η
+I
+∧
+η
+J
+,
+I
+,
+J
+=
+1
+,
+…
+,
+22
+.
+\displaystyle\rho_{IJ}=\int\eta_{I}\wedge\eta_{J}\ ,\qquad I,J=1,\ldots,22\ .
+(2.19)
+A Riemannian metric on
+K
+​
+3
+K3
+is defined by a positive definite three-dimensional subspace
+Σ
+:=
+H
++
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+⊂
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+\Sigma:=H^{2}_{+}(K3,\mathbb{R})\subset H^{2}(K3,\mathbb{R})
+and the overall volume
+𝒱
+\mathcal{V}
+. Then we have the orthogonal splitting
+H
+2
+​
+(
+K
+​
+3
+)
+=
+H
++
+2
+​
+(
+K
+​
+3
+)
+⊕
+H
+−
+2
+​
+(
+K
+​
+3
+)
+H^{2}(K3)=H^{2}_{+}(K3)\oplus H^{2}_{-}(K3)
+and the two subspaces are eigenspaces of the Hodge
+⋆
+\star
+-operator.
+The corresponding elements are called selfdual and anti-selfdual, respectively.
+Locally the moduli space of Ricci-flat metrics takes the form
+[
+55
+]
+ℳ
+K
+​
+3
+=
+O
+⁡
+(
+3
+,
+19
+)
+O
+⁡
+(
+3
+)
+×
+O
+⁡
+(
+19
+)
+×
+ℝ
++
+,
+{\mathcal{M}}_{K3}=\frac{O(3,19)}{O(3)\times O(19)}\times{\mathbb{R}}^{+}\ ,
+(2.20)
+which has dimension 58. A complex structure is defined by the choice of an orthonormal dreibein
+{
+J
+s
+}
+s
+=
+1
+,
+2
+,
+3
+∈
+H
++
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+\{J_{s}\}_{s=1,2,3}\in H^{2}_{+}(K3,\mathbb{R})
+such that
+J
+=
+2
+​
+𝒱
+​
+J
+3
+,
+Ω
+=
+J
+1
++
+i
+​
+J
+2
+J=\sqrt{2\mathcal{V}}J_{3}\ ,\quad\Omega=J_{1}+iJ_{2}
+(2.21)
+are the Kähler form and the holomorphic 2-form, respectively. They are normalized as
+∫
+J
+∧
+J
+=
+2
+​
+𝒱
+,
+∫
+Ω
+∧
+Ω
+¯
+=
+2
+,
+∥
+Ω
+∥
+2
+=
+1
+2
+​
+Ω
+α
+​
+β
+​
+Ω
+¯
+α
+​
+β
+=
+2
+𝒱
+.
+\int J\wedge J=2{\mathcal{V}}\ ,\qquad\int\Omega\wedge\overline{\Omega}=2\ ,\qquad\lVert\Omega\rVert^{2}=\tfrac{1}{2}\Omega_{\alpha\beta}\overline{\Omega}^{\alpha\beta}=\tfrac{2}{\mathcal{V}}\ .
+(2.22)
+The metric moduli combine with the 22 scalars
+b
+I
+b^{I}
+, arising from zero modes of the
+Kalb-Ramond field on
+K
+​
+3
+K3
+to form 20 hypermultiplets in 6D.
+Including the
+b
+I
+b^{I}
+the geometrical moduli space given in
+(
+2.20
+) locally turns into the quaternionic-Kähler manifold
+[
+56
+]
+ℳ
+=
+O
+⁡
+(
+4
+,
+20
+)
+O
+⁡
+(
+4
+)
+×
+O
+⁡
+(
+20
+)
+.
+{\mathcal{M}}=\frac{O(4,20)}{O(4)\times O(20)}\ .
+(2.23)
+3
+Standard embedding on
+K
+​
+3
+K3
+In the previous section we recalled that heterotic theories
+have to satisfy the Bianchi identity (
+2.4
+).
+For compactifications on
+K
+​
+3
+K3
+the integrated version yields
+1
+2
+​
+∫
+K
+​
+3
+tr
+​
+(
+F
+∧
+F
+)
+=
+1
+2
+​
+∫
+K
+​
+3
+tr
+​
+(
+R
+∧
+R
+)
+=
+χ
+⁡
+(
+K
+​
+3
+)
+=
+24
+,
+\tfrac{1}{2}\int\limits_{K3}\mbox{tr}({F}\wedge{F})=\tfrac{1}{2}\int\limits_{K3}\mbox{tr}({R}\wedge{R})=\chi(K3)=24\ ,
+(3.1)
+where
+χ
+⁡
+(
+K
+​
+3
+)
+\chi(K3)
+is the Euler characteristic of
+K
+​
+3
+K3
+.
+In order to preserve 6D Poincaré invariance all background
+fields have to be tangent to
+K
+​
+3
+K3
+.
+Then (
+3.1
+) implies that
+the second Chern characters of the tangent- and Yang-Mills bundle must coincide.
+In the following we denote the Kaluza-Klein expansion around these backgrounds as
+A
+=
+𝒜
++
+a
+,
+F
+=
+ℱ
++
+f
+,
+f
+=
+d
+𝒜
+​
+a
++
+1
+2
+​
+[
+a
+,
+a
+]
+.
+A={\mathcal{A}}+a\ ,\qquad F={\mathcal{F}}+f\ ,\qquad f=d_{\mathcal{A}}a+\tfrac{1}{2}[a,a]\ .
+(3.2)
+(We denote background fields by calligraphic symbols such as
+𝒜
+,
+ℱ
+,
+ℋ
+,
+ℛ
+{\cal A},{\cal F},{\cal H},{\cal R}
+.) Since (
+3.1
+) is a topological equation, continuous fluctuations cannot contribute to (
+3.1
+).
+The standard embedding is defined as the solution of (
+3.1
+)
+with the integrands identified, i.e.
+ℱ
+≡
+ℛ
+{\mathcal{F}}\equiv{\mathcal{R}}
+and
+ℋ
+≡
+0
+{\mathcal{H}}\equiv 0
+in (
+2.4
+)
+[
+1
+]
+.
+In this case the nontrivial gauge bundle is an
+S
+​
+U
+​
+(
+2
+)
+SU(2)
+-bundle embedded
+inside one
+E
+8
+E_{8}
+, which is identified with the
+S
+​
+U
+​
+(
+2
+)
+SU(2)
+structure-bundle associated
+with the holomorphic tangent bundle
+𝒯
+K
+​
+3
+{\mathcal{T}}_{K3}
+.
+The standard embedding breaks one
+E
+8
+E_{8}
+to the maximal commutant
+E
+7
+E_{7}
+, i.e.
+E
+8
+×
+E
+8
+⟶
+E
+8
+×
+E
+7
+×
+⟨
+S
+​
+U
+​
+(
+2
+)
+⟩
+,
+E_{8}\times E_{8}\longrightarrow E_{8}\times E_{7}\times\langle SU(2)\rangle\ ,
+(3.3)
+where
+⟨
+H
+⟩
+\langle H\rangle
+denotes the broken group factor. For the standard embedding the hermitean Yang-Mills equations
+(
+2.7
+) take the form
+ℱ
+∈
+H
+1
+,
+1
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+,
+ℱ
+∧
+J
+=
+0
+,
+{\mathcal{F}}\in H^{1,1}(\mbox{End}\ {\mathcal{T}}_{K3})\ ,\ \ \ \ {\mathcal{F}}\wedge J=0\ ,
+(3.4)
+where
+End
+​
+𝒯
+K
+​
+3
+\mbox{End}\ {\mathcal{T}}_{K3}
+is the bundle of linear
+transition functions on
+𝒯
+K
+​
+3
+{\mathcal{T}}_{K3}
+,
+i.e. locally
+𝔰
+​
+𝔲
+​
+(
+2
+)
+\mathfrak{su}(2)
+valued matrix functions.
+Note that
+ℱ
+{\mathcal{F}}
+is automatically anti-selfdual
+since the
+K
+​
+3
+K3
+-curvature is.
+3.1
+Reduction of the Yang-Mills sector
+All bosonic charged matter multiplets arise from zero modes of the 10D vector
+fields
+A
+A
+of the broken
+E
+8
+E_{8}
+.
+The massless fields are determined by deformations of the background
+gauge connection
+A
+=
+𝒜
++
+a
+A={\mathcal{A}}+a
+.
+Group theoretically
+a
+a
+transforms in the
+𝟏𝟎
+{\bf 10}
+-dimensional
+representation
+of the Lorentz group
+S
+​
+O
+​
+(
+9
+,
+1
+)
+SO(9,1)
+and in the
+𝟐𝟒𝟖
+{\bf 248}
+-dimensional
+adjoint representation of
+E
+8
+E_{8}
+.
+Decomposing
+the
+𝟐𝟒𝟖
+{\bf 248}
+under
+E
+8
+→
+E
+7
+×
+S
+​
+U
+​
+(
+2
+)
+E_{8}\to E_{7}\times SU(2)
+we have
+𝟐𝟒𝟖
+→
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+⊕
+(
+𝟏
+,
+𝟑
+)
+⊕
+(
+𝟓𝟔
+,
+𝟐
+)
+,
+{\bf 248}\rightarrow({\bf 133},{\bf 1})\oplus({\bf 1},{\bf 3})\oplus({\bf 56},{\bf 2})\ ,
+(3.5)
+while decomposing the
+𝟏𝟎
+{\bf 10}
+under
+S
+​
+O
+​
+(
+9
+,
+1
+)
+→
+S
+​
+O
+​
+(
+5
+,
+1
+)
+×
+S
+​
+O
+​
+(
+4
+)
+SO(9,1)\to SO(5,1)\times SO(4)
+yields
+𝟏𝟎
+→
+(
+𝟔
+,
+𝟏
+)
+⊕
+(
+𝟏
+,
+𝟒
+)
+.
+{\bf 10}\rightarrow({\bf 6},{\bf 1})\oplus({\bf 1},{\bf 4})\ .
+(3.6)
+In terms of the gauge potential we denote the latter split by
+a
+=
+a
+1
++
+a
+1
+¯
+a=a_{1}+a_{\bar{1}}
+where
+a
+1
+a_{1}
+denotes a one-form on
+M
+1
+,
+5
+M^{1,5}
+while
+a
+1
+¯
+a_{\bar{1}}
+is an ‘internal’ one-form on
+K
+​
+3
+K3
+.
+The non-linearity of the free 10D Yang-Mills equation complicates
+the determination of the massless modes in the Kaluza-Klein procedure.
+In appendix A we perform the Kaluza-Klein reduction in detail
+and show that generically
+the scalar zero modes
+are in the cohomology
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+)
+H^{0,1}(K3,E)
+, where
+E
+E
+is a
+bundle associated with the right entries in the decomposition
+(
+3.5
+).
+8
+8
+8
+This result is usually derived counting
+zero modes of the Dirac operator and then using supersymmetry.
+In appendix A we rederive this result directly from the deformation
+of the gauge connection.
+The result is
+a
+1
+=
+V
+𝟏𝟑𝟑
+,
+a
+1
+¯
+=
+C
+j
+𝟓𝟔
+​
+ω
+j
+𝟐
++
+C
+¯
+j
+𝟓𝟔
+¯
+​
+ω
+¯
+j
+𝟐
+¯
++
+ξ
+k
+​
+α
+k
+𝟑
++
+ξ
+¯
+k
+​
+α
+¯
+k
+𝟑
+,
+a_{1}=V^{\bf 133}\ ,\qquad a_{\bar{1}}=C^{\bf 56}_{j}\omega_{j}^{\bf 2}+\overline{C}^{\overline{\bf 56}}_{j}\overline{\omega}_{j}^{\overline{\bf 2}}+\xi_{k}\alpha_{k}^{\bf 3}+\overline{\xi}_{k}\overline{\alpha}_{k}^{\bf 3}\ ,
+(3.7)
+where
+V
+𝟏𝟑𝟑
+V^{\bf 133}
+is the 6D gauge potential of the unbroken
+E
+7
+E_{7}
+. The
+C
+j
+𝟓𝟔
+C^{\bf 56}_{j}
+are complex charged scalars and
+ξ
+k
+\xi_{k}
+are complex singlet scalars, called bundle moduli.
+The latter are deformations that preserve the ASD condition of the background.
+Their multiplicities are
+given by the cohomology groups of their corresponding zero modes
+ω
+j
+𝟐
+=
+(
+ω
+j
+)
+α
+¯
+β
+​
+d
+​
+z
+α
+¯
+∈
+H
+0
+,
+1
+​
+(
+𝒯
+K
+​
+3
+)
+,
+\displaystyle\omega_{j}^{\bf 2}=(\omega_{j})_{\bar{\alpha}}^{\beta}dz^{\bar{\alpha}}\in H^{0,1}({\mathcal{T}}_{K3}),
+j
+=
+1
+,
+…
+,
+20
+,
+\displaystyle j=1,...,20\ ,
+(3.8)
+α
+k
+𝟑
+=
+(
+α
+k
+)
+α
+¯
+s
+​
+d
+​
+z
+α
+¯
+∈
+H
+0
+,
+1
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+,
+\displaystyle\alpha_{k}^{\bf 3}=(\alpha_{k})^{s}_{\bar{\alpha}}dz^{\bar{\alpha}}\in H^{0,1}(\mbox{End}\ {\mathcal{T}}_{K3}),
+k
+=
+1
+,
+…
+,
+90
+.
+\displaystyle k=1,...,90\ .
+The
+ω
+j
+𝟐
+\omega_{j}^{\bf 2}
+and
+α
+k
+𝟑
+\alpha_{k}^{\bf 3}
+are one-forms which take values
+in the vector bundles
+E
+𝟐
+≅
+𝒯
+K
+​
+3
+E_{\bf 2}\cong{\mathcal{T}}_{K3}
+and
+E
+𝟑
+≅
+𝔰
+​
+𝔲
+​
+(
+2
+)
+⊂
+End
+​
+𝒯
+K
+​
+3
+E_{\bf 3}\cong~\mathfrak{su}(2)\subset\mbox{End}\ {\mathcal{T}}_{K3}
+, respectively. This is denoted by the indices
+β
+=
+1
+,
+2
+\beta=1,2
+and
+s
+=
+1
+,
+2
+,
+3
+s=1,2,3
+in (
+3.8
+).
+Note that the
+𝟑
+=
+𝔰
+​
+𝔲
+​
+(
+2
+)
+{\bf 3}=\mathfrak{su}(2)
+is a real representation while
+𝟓𝟔
+\bf 56
+and
+𝟐
+\bf 2
+are both pseudoreal.
+Therefore the 20 complex scalars
+C
+j
+𝟓𝟔
+C_{j}^{\bf 56}
+align in 20
+half-hypermultiplets, or equivalently 10 hypermultiplets. The 90
+complex bundle moduli align in 45 hypermultiplets and 20 additional
+hypermultiplets
+arise from the 58 geometrical moduli combined with the 22 Kalb-Ramond axions.
+The second
+E
+8
+E_{8}
+remains unbroken and yields a 6D pure Yang-Mills hidden sector with one vector multiplet in the
+𝟐𝟒𝟖
+\bf 248
+. The constraint for anomaly freedom (
+2.10
+) is fulfilled
+as follows:
+n
+V
+=
+133
++
+248
+=
+381
+,
+n
+H
+=
+10
+⋅
+56
++
+45
++
+20
+=
+625
+.
+n_{V}=133+248=381\ ,\ \ \ n_{H}=10\cdot{56}+45+20=625\ .
+(3.9)
+From (
+3.7
+) we derive the Kaluza-Klein expansion of the Yang-Mills field strength,
+f
+=
+f
+2
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
++
+f
+1
+,
+1
+¯
+(
+𝟏
+,
+𝟑
+)
++
+f
+1
+,
+1
+¯
+(
+𝟓𝟔
+,
+𝟐
+)
++
+f
+2
+¯
+(
+𝟏
+,
+𝟑
+)
++
+f
+2
+¯
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+.
+f=f_{2}^{({\bf 133},{\bf 1})}+f_{1,\bar{1}}^{({\bf 1},{\bf 3})}+f_{1,\bar{1}}^{({\bf 56},{\bf 2})}+f_{\bar{2}}^{({\bf 1},{\bf 3})}+f_{\bar{2}}^{({\bf 133},{\bf 1})}\ .
+(3.10)
+Here and in the following, we write
+f
+R
+,
+S
+¯
+{f}_{R,\bar{S}}
+for an
+(
+R
++
+S
+)
+(R+S)
+-form with
+R
+R
+external (6D space-time) and
+S
+S
+internal (
+K
+​
+3
+K3
+) indices. The different terms are orthogonal with respect to the scalar product
+⟨
+F
+,
+G
+⟩
+=
+tr
+F
+∧
+∗
+G
+\langle F,G\rangle=\mbox{tr}F\wedge*G
+.
+The first term in (
+3.10
+) is the 6D field strength of the unbroken
+E
+7
+E_{7}
+f
+2
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+=
+d
+​
+V
+𝟏𝟑𝟑
++
+1
+2
+​
+[
+V
+𝟏𝟑𝟑
+,
+V
+𝟏𝟑𝟑
+]
+.
+{f}_{2}^{({\bf 133},{\bf 1})}=dV^{\bf 133}+\tfrac{1}{2}[V^{\bf 133},V^{\bf 133}]\ .
+(3.11)
+The next two terms in (
+3.10
+) are given by
+f
+1
+,
+1
+¯
+(
+𝟏
+,
+𝟑
+)
+\displaystyle f_{1,\bar{1}}^{({\bf 1},{\bf 3})}
+=
+d
+​
+ξ
+k
+∧
+α
+k
+s
++
+d
+​
+ξ
+¯
+k
+∧
+α
+¯
+k
+s
+,
+\displaystyle=d\xi_{k}\wedge\alpha^{s}_{k}+d\overline{\xi}_{k}\wedge\overline{\alpha}^{s}_{k}\ ,
+(3.12)
+f
+1
+,
+1
+¯
+(
+𝟓𝟔
+,
+𝟐
+)
+\displaystyle f_{1,\bar{1}}^{({\bf 56},{\bf 2})}
+=
+𝒟
+​
+C
+j
+x
+∧
+ω
+j
+β
++
+𝒟
+​
+C
+¯
+j
+x
+¯
+∧
+ω
+¯
+j
+β
+¯
+,
+\displaystyle={\mathcal{D}}C_{j}^{x}\wedge\omega_{j}^{\beta}+{\mathcal{D}}\overline{C}_{j}^{\bar{x}}\wedge\overline{\omega}_{j}^{\bar{\beta}}\ ,
+where we label the
+𝟓𝟔
+{\bf 56}
+by the index
+x
+=
+1
+,
+…
+,
+56
+x=1,\ldots,56
+.
+In this notation the
+E
+7
+E_{7}
+-covariant derivative reads
+𝒟
+​
+C
+i
+x
+=
+d
+​
+C
+i
+x
++
+V
+a
+​
+(
+τ
+a
+)
+y
+x
+​
+C
+i
+y
+{\mathcal{D}}C_{i}^{x}=dC_{i}^{x}+V^{a}(\tau^{a})_{y}^{\ x}C_{i}^{y}
+with
+τ
+a
+\tau^{a}
+being
+the
+E
+7
+E_{7}
+generator.
+Finally, let us derive the last two terms
+f
+2
+¯
+{f}_{\bar{2}}
+in (
+3.10
+).
+Using the zero-mode property
+d
+𝒜
+​
+a
+1
+¯
+=
+0
+d_{\mathcal{A}}a_{\bar{1}}=0
+(derived in appendix A) we obtain
+f
+2
+¯
+=
+[
+ξ
+¯
+k
+​
+α
+¯
+k
+𝟑
+,
+ξ
+k
+​
+α
+k
+𝟑
+]
++
+1
+2
+​
+[
+C
+j
+𝟓𝟔
+​
+ω
+j
+𝟐
++
+C
+¯
+j
+𝟓𝟔
+¯
+​
+ω
+¯
+j
+𝟐
+¯
+,
+C
+j
+𝟓𝟔
+​
+ω
+j
+𝟐
++
+C
+¯
+j
+𝟓𝟔
+¯
+​
+ω
+¯
+j
+𝟐
+¯
+]
+.
+{f}_{\bar{2}}=\Bigl[\overline{\xi}_{k}\overline{\alpha}_{k}^{\bf 3},\ \xi_{k}\alpha_{k}^{\bf 3}\Bigr]+\tfrac{1}{2}\Bigl[C^{\bf 56}_{j}\omega_{j}^{\bf 2}+\overline{C}^{\overline{\bf 56}}_{j}\overline{\omega}_{j}^{\overline{\bf 2}},\ C^{\bf 56}_{j}\omega_{j}^{\bf 2}+\overline{C}^{\overline{\bf 56}}_{j}\overline{\omega}_{j}^{\overline{\bf 2}}\Bigr]\ .
+(3.13)
+The first commutator transforms in the
+(
+𝟏
+,
+𝟑
+)
+({\bf 1},{\bf 3})
+representation. Furthermore we show in appendix A that it
+preserves the hermitean Yang-Mills equations (
+3.4
+) and therefore
+can be viewed as a flat deformation of the background field strength
+δ
+​
+ℱ
+\delta{\mathcal{F}}
+.
+The second commutator results in two representations
+(
+𝟓𝟔
+,
+𝟐
+)
+⊗
+A
+(
+𝟓𝟔
+,
+𝟐
+)
+\displaystyle({\bf 56},{\bf 2})\otimes_{A}({\bf 56},{\bf 2})
+=
+(
+𝟏
+A
+,
+𝟑
+S
+)
+⊕
+(
+𝟏𝟑𝟑
+S
+,
+𝟏
+A
+)
+,
+\displaystyle=({\bf 1}_{A},{\bf 3}_{S})\oplus({\bf 133}_{S},{\bf 1}_{A})\ ,
+(3.14)
+which in terms of generators amounts to
+[
+T
+x
+​
+α
+,
+T
+y
+​
+β
+]
+\displaystyle{}[T_{x\alpha},T_{y\beta}]
+=
+ε
+x
+​
+y
+​
+σ
+α
+​
+β
+s
+​
+T
+s
++
+τ
+x
+​
+y
+a
+​
+ε
+α
+​
+β
+​
+T
+a
+,
+\displaystyle=\varepsilon_{xy}\sigma_{\alpha\beta}^{s}T_{s}+\tau^{a}_{xy}\varepsilon_{\alpha\beta}T_{a}\ ,
+(3.15)
+[
+T
+x
+​
+α
+,
+T
+¯
+y
+¯
+​
+β
+¯
+]
+\displaystyle[T_{x\alpha},\overline{T}_{\bar{y}\bar{\beta}}]
+=
+ε
+x
+​
+y
+¯
+​
+σ
+α
+​
+β
+¯
+s
+​
+T
+s
++
+τ
+x
+​
+y
+¯
+a
+​
+h
+α
+​
+β
+¯
+​
+T
+a
+.
+\displaystyle=\varepsilon_{x\bar{y}}\sigma_{\alpha\bar{\beta}}^{s}T_{s}+\tau^{a}_{x\bar{y}}h_{\alpha\bar{\beta}}T_{a}\ .
+ε
+x
+​
+y
+\varepsilon_{xy}
+and
+ε
+α
+​
+β
+\varepsilon_{\alpha\beta}
+are the invariant
+antisymmetric tensors of
+E
+7
+E_{7}
+and
+S
+​
+U
+​
+(
+2
+)
+SU(2)
+respectively.
+σ
+α
+​
+β
+s
+\sigma^{s}_{\alpha\beta}
+are the Pauli matrices and
+τ
+x
+​
+y
+a
+\tau^{a}_{xy}
+the
+E
+7
+E_{7}
+-generators in the
+𝟓𝟔
+\bf 56
+-representation.
+Since we have the complex conjugated fields in (
+3.7
+) we also need the second commutator with different invariant tensors: For the
+τ
+x
+​
+y
+¯
+a
+\tau^{a}_{x\bar{y}}
+to be again antihermitean,
+τ
+x
+​
+y
+¯
+a
+¯
+=
+−
+τ
+y
+​
+x
+¯
+a
+\overline{\tau^{a}_{x\bar{y}}}=-\tau^{a}_{y\bar{x}}
+, the tensor
+h
+h
+must satisfy
+h
+α
+​
+β
+¯
+¯
+=
+h
+β
+​
+α
+¯
+.
+\overline{h_{\alpha\bar{\beta}}}=h_{\beta\bar{\alpha}}\ .
+(3.16)
+However, since the commutator in (
+3.13
+) is a product of global 1-forms, the result is a global 2-form on
+K
+​
+3
+K3
+. Therefore the invariant tensors
+σ
+α
+​
+β
+s
+\sigma^{s}_{\alpha\beta}
+,
+ε
+α
+​
+β
+\varepsilon_{\alpha\beta}
+and
+h
+α
+​
+β
+h_{\alpha\beta}
+must be
+extended to global tensors on
+K
+​
+3
+K3
+. In fact,
+(
+3.16
+) is the property of a Kähler metric and
+ε
+α
+​
+β
+\varepsilon_{\alpha\beta}
+is a local expression of the holomorphic 2-form. Hence, we set
+h
+α
+​
+β
+¯
+\displaystyle h_{\alpha\bar{\beta}}
+⟶
+1
+2
+​
+𝒱
+​
+g
+α
+​
+β
+¯
+,
+\displaystyle\longrightarrow\tfrac{1}{\sqrt{2\mathcal{V}}}g_{\alpha\bar{\beta}}\ ,
+(3.17)
+ε
+α
+​
+β
+\displaystyle\varepsilon_{\alpha\beta}
+⟶
+Ω
+α
+​
+β
+,
+\displaystyle\longrightarrow\Omega_{\alpha\beta}\ ,
+σ
+α
+​
+β
+s
+\displaystyle\sigma^{s}_{\alpha\beta}
+⟶
+σ
+α
+​
+β
+s
+∈
+Λ
+2
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+.
+\displaystyle\longrightarrow\sigma^{s}_{\alpha\beta}\in\Lambda^{2}(\mbox{End}\ {\mathcal{T}}_{K3})\ .
+Since the
+𝟓𝟔
+\bf 56
+is pseudoreal we will omit the bar on the indices
+x
+¯
+,
+y
+¯
+\bar{x},\bar{y}
+in the following.
+With this we get
+f
+2
+¯
+=
+δ
+​
+ℱ
++
+f
+2
+¯
+(
+𝟏
+,
+𝟑
+)
++
+f
+2
+¯
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+,
+{f}_{\bar{2}}=\delta{\mathcal{F}}+{f}_{\bar{2}}^{({\bf 1},{\bf 3})}+{f}_{\bar{2}}^{({\bf 133},{\bf 1})}\ ,
+(3.18)
+where
+f
+2
+¯
+(
+𝟏
+,
+𝟑
+)
+=
+(
+C
+¯
+i
+x
+C
+i
+x
+)
+T
+​
+(
+σ
+α
+¯
+​
+β
+s
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+j
+β
+σ
+α
+¯
+​
+β
+¯
+s
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+¯
+j
+β
+¯
+σ
+α
+​
+β
+s
+​
+ω
+i
+α
+∧
+ω
+j
+β
+σ
+α
+​
+β
+¯
+s
+​
+ω
+i
+α
+∧
+ω
+¯
+j
+β
+¯
+)
+​
+ε
+x
+​
+y
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+,
+{f}_{\bar{2}}^{({\bf 1},{\bf 3})}=\begin{pmatrix}\overline{C}^{x}_{i}\\
+C^{x}_{i}\end{pmatrix}^{T}\ \begin{pmatrix}\sigma^{s}_{\bar{\alpha}\beta}\overline{\omega}^{\bar{\alpha}}_{i}\wedge\omega^{\beta}_{j}&\sigma^{s}_{\bar{\alpha}\bar{\beta}}\ \overline{\omega}^{\bar{\alpha}}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\\
+\sigma^{s}_{\alpha\beta}\ \omega^{\alpha}_{i}\wedge\omega^{\beta}_{j}&\sigma^{s}_{\alpha\bar{\beta}}\ \omega^{\alpha}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\end{pmatrix}\varepsilon_{xy}\begin{pmatrix}C^{y}_{j}\\
+\overline{C}^{y}_{j}\end{pmatrix}\ ,
+(3.19)
+f
+2
+¯
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+=
+(
+C
+¯
+i
+x
+C
+i
+x
+)
+T
+​
+(
+1
+2
+​
+𝒱
+​
+g
+α
+¯
+​
+β
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+j
+β
+Ω
+¯
+α
+¯
+​
+β
+¯
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+¯
+j
+β
+¯
+Ω
+α
+​
+β
+​
+ω
+i
+α
+∧
+ω
+j
+β
+1
+2
+​
+𝒱
+​
+g
+α
+​
+β
+¯
+​
+ω
+i
+α
+∧
+ω
+¯
+j
+β
+¯
+)
+​
+(
+τ
+a
+)
+x
+​
+y
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+.
+{f}_{\bar{2}}^{({\bf 133},{\bf 1})}=\begin{pmatrix}\overline{C}^{x}_{i}\\
+C^{x}_{i}\end{pmatrix}^{T}\ \begin{pmatrix}\tfrac{1}{\sqrt{2\mathcal{V}}}g_{\bar{\alpha}\beta}\ \overline{\omega}^{\bar{\alpha}}_{i}\wedge\omega^{\beta}_{j}&\overline{\Omega}_{\bar{\alpha}\bar{\beta}}\ \overline{\omega}^{\bar{\alpha}}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\\
+\Omega_{\alpha\beta}\ \omega^{\alpha}_{i}\wedge\omega^{\beta}_{j}&\tfrac{1}{\sqrt{2\mathcal{V}}}g_{\alpha\bar{\beta}}\ \omega^{\alpha}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\end{pmatrix}(\tau^{a})_{xy}\begin{pmatrix}C^{y}_{j}\\
+\overline{C}^{y}_{j}\end{pmatrix}\ .
+(3.20)
+We included the factor
+1
+2
+​
+𝒱
+\tfrac{1}{\sqrt{2\mathcal{V}}}
+in (
+3.17
+) such that all matrix elements of the final expression are independent of the
+K
+​
+3
+K3
+-volume.
+3.2
+Reduction of the Kalb-Ramond sector
+We now turn to the reduction of the
+H
+∧
+∗
+H
+H\wedge*H
+-term in the 10D
+Lagrangian (
+2.2
+) where
+H
+=
+d
+​
+B
++
+α
+′
+​
+(
+ω
+L
+−
+ω
+Y
+​
+M
+)
+H=dB+\alpha^{\prime}(\omega^{L}-\omega^{YM})
+is a gauge invariant and thus globally defined 3-form. In the
+KK-reduction
+H
+H
+splits into two pieces
+H
+⟶
+H
+3
++
+H
+1
+,
+2
+¯
+,
+{H}\longrightarrow H_{3}\ +\ H_{1,\bar{2}}\ ,
+(3.21)
+where
+H
+3
+H_{3}
+is the standard 6D Kalb-Ramond term with all indices
+in the space-time direction. This term reduces straightforwardly
+yielding the second term in (
+2.12
+). For
+H
+1
+,
+2
+¯
+H_{1,\bar{2}}
+on the
+other hand we need to perform the KK-reduction
+with more care.
+Let us start by considering the Yang-Mills Chern-Simons form
+which in 10D is defined by
+ω
+Y
+​
+M
+=
+tr
+​
+(
+F
+∧
+A
+)
+−
+1
+3
+​
+tr
+​
+(
+A
+∧
+A
+∧
+A
+)
+\omega^{YM}=\mbox{tr}(F\wedge A)-\tfrac{1}{3}\mbox{tr}(A\wedge A\wedge A)
+.
+For the
+ω
+1
+,
+2
+¯
+\omega_{1,\bar{2}}
+component we then have
+ω
+1
+,
+2
+¯
+Y
+​
+M
+=
+tr
+​
+(
+f
+1
+,
+1
+¯
+∧
+A
+1
+¯
+)
++
+tr
+​
+(
+F
+2
+¯
+∧
+a
+1
+)
+−
+tr
+​
+(
+A
+1
+¯
+∧
+A
+1
+¯
+∧
+a
+1
+)
+.
+\omega_{1,\bar{2}}^{YM}=\mbox{tr}({f}_{1,\bar{1}}\wedge A_{\bar{1}})+\mbox{tr}(F_{\bar{2}}\wedge a_{1})-\mbox{tr}(A_{\bar{1}}\wedge A_{\bar{1}}\wedge a_{1})\ .
+(3.22)
+Inserting the Kaluza-Klein expansions (
+3.7
+) and (
+3.10
+), including the background fields
+A
+1
+¯
+=
+𝒜
++
+a
+1
+¯
+A_{\bar{1}}={\mathcal{A}}+a_{\bar{1}}
+,
+F
+2
+¯
+=
+ℱ
++
+δ
+​
+ℱ
++
+f
+2
+¯
+F_{\bar{2}}={\mathcal{F}}+\delta{\mathcal{F}}+{f}_{\bar{2}}
+, the nonvanishing terms are
+ω
+1
+,
+2
+¯
+Y
+​
+M
+=
+tr
+​
+(
+f
+1
+,
+1
+¯
+(
+𝟓𝟔
+,
+𝟐
+)
+∧
+a
+1
+¯
+(
+𝟓𝟔
+,
+𝟐
+)
+)
++
+tr
+​
+(
+f
+1
+,
+1
+¯
+(
+𝟏
+,
+𝟑
+)
+∧
+(
+𝒜
++
+a
+1
+¯
+(
+𝟏
+,
+𝟑
+)
+)
+)
+.
+\omega_{1,\bar{2}}^{YM}=\mbox{tr}\Bigl({f}_{1,\bar{1}}^{({\bf 56},{\bf 2})}\wedge a_{\bar{1}}^{({\bf 56},{\bf 2})}\Bigr)+\mbox{tr}\Bigl({f}_{1,\bar{1}}^{({\bf 1},{\bf 3})}\wedge({\mathcal{A}}+a_{\bar{1}}^{({\bf 1},{\bf 3})})\Bigr)\ .
+(3.23)
+Similar to the commutators (
+3.14
+), the traces of antihermitean generators yield invariant tensors that are extended to global tensors on
+K
+​
+3
+K3
+−
+tr
+​
+(
+T
+s
+​
+T
+t
+)
+\displaystyle-\mbox{tr}(T_{s}T_{t})
+=
+δ
+s
+​
+t
+⟶
+h
+s
+​
+t
+,
+\displaystyle=\delta_{st}\longrightarrow h_{st}\ ,
+(3.24)
+−
+tr
+​
+(
+T
+x
+​
+α
+​
+T
+y
+​
+β
+)
+\displaystyle-\mbox{tr}(T_{x\alpha}T_{y\beta})
+=
+ε
+x
+​
+y
+​
+ε
+α
+​
+β
+⟶
+ε
+x
+​
+y
+​
+Ω
+α
+​
+β
+,
+\displaystyle=\varepsilon_{xy}\varepsilon_{\alpha\beta}\longrightarrow\varepsilon_{xy}\Omega_{\alpha\beta}\ ,
+−
+tr
+​
+(
+T
+x
+​
+α
+​
+T
+¯
+y
+​
+β
+¯
+)
+\displaystyle-\mbox{tr}(T_{x\alpha}\overline{T}_{{y}\bar{\beta}})
+=
+δ
+x
+​
+y
+​
+h
+α
+​
+β
+¯
+⟶
+1
+2
+​
+𝒱
+​
+δ
+x
+​
+y
+​
+g
+α
+​
+β
+¯
+.
+\displaystyle=\delta_{xy}h_{\alpha\bar{\beta}}\longrightarrow\tfrac{1}{\sqrt{2\mathcal{V}}}\delta_{xy}g_{\alpha\bar{\beta}}\ .
+Here
+h
+s
+​
+t
+h_{st}
+is a hermitean metric on the adjoint
+End
+​
+𝒯
+K
+​
+3
+\mbox{End}\ {\mathcal{T}}_{K3}
+-bundle. Inserting (
+3.24
+) and (
+3.12
+) into (
+3.23
+) we arrive at
+ω
+1
+,
+2
+¯
+Y
+​
+M
+=
+\displaystyle\omega_{1,\bar{2}}^{YM}=
+−
+(
+𝒟
+​
+C
+¯
+i
+x
+𝒟
+​
+C
+i
+x
+)
+T
+​
+(
+1
+2
+​
+𝒱
+​
+δ
+x
+​
+y
+​
+g
+α
+¯
+​
+β
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+j
+β
+ε
+x
+​
+y
+​
+Ω
+¯
+α
+¯
+​
+β
+¯
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+¯
+j
+β
+¯
+ε
+x
+​
+y
+​
+Ω
+α
+​
+β
+​
+ω
+i
+α
+∧
+ω
+j
+β
+1
+2
+​
+𝒱
+​
+δ
+x
+​
+y
+​
+g
+α
+​
+β
+¯
+​
+ω
+i
+α
+∧
+ω
+¯
+j
+β
+¯
+)
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+\displaystyle-\begin{pmatrix}{\mathcal{D}}\overline{C}_{i}^{x}\\
+{\mathcal{D}}C_{i}^{x}\end{pmatrix}^{T}\begin{pmatrix}\tfrac{1}{\sqrt{2\mathcal{V}}}\delta_{xy}g_{\bar{\alpha}\beta}\overline{\omega}_{i}^{\bar{\alpha}}\wedge\omega_{j}^{\beta}&\varepsilon_{xy}\overline{\Omega}_{\bar{\alpha}\bar{\beta}}\overline{\omega}_{i}^{\bar{\alpha}}\wedge\overline{\omega}_{j}^{\bar{\beta}}\\
+\varepsilon_{xy}\Omega_{\alpha\beta}\omega_{i}^{\alpha}\wedge\omega_{j}^{\beta}&\tfrac{1}{\sqrt{2\mathcal{V}}}\delta_{xy}g_{\alpha{\bar{\beta}}}\omega_{i}^{\alpha}\wedge\overline{\omega}_{j}^{\bar{\beta}}\end{pmatrix}\begin{pmatrix}C_{j}^{y}\\
+\overline{C}_{j}^{y}\end{pmatrix}
+(3.25)
+−
+\displaystyle-
+(
+d
+​
+ξ
+¯
+k
+d
+​
+ξ
+k
+)
+T
+​
+(
+h
+s
+​
+t
+​
+α
+¯
+k
+s
+∧
+α
+l
+t
+h
+s
+​
+t
+​
+α
+¯
+k
+s
+∧
+α
+¯
+l
+t
+h
+s
+​
+t
+​
+α
+k
+s
+∧
+α
+l
+t
+h
+s
+​
+t
+​
+α
+k
+s
+∧
+α
+¯
+l
+t
+)
+​
+(
+ξ
+l
+ξ
+¯
+l
+)
+−
+d
+​
+ξ
+k
+​
+(
+h
+s
+​
+t
+​
+α
+k
+s
+∧
+𝒜
+t
+)
+−
+d
+​
+ξ
+¯
+k
+​
+(
+h
+s
+​
+t
+​
+α
+¯
+k
+s
+∧
+𝒜
+t
+)
+.
+\displaystyle\begin{pmatrix}d\overline{\xi}_{k}\\
+d\xi_{k}\end{pmatrix}^{T}\begin{pmatrix}h_{st}\overline{\alpha}_{k}^{s}\wedge\alpha_{l}^{t}&h_{st}\overline{\alpha}_{k}^{s}\wedge\overline{\alpha}_{l}^{t}\\
+h_{st}\alpha_{k}^{s}\wedge\alpha_{l}^{t}&h_{st}\alpha_{k}^{s}\wedge\overline{\alpha}_{l}^{t}\end{pmatrix}\begin{pmatrix}\xi_{l}\\
+\overline{\xi}_{l}\end{pmatrix}-d\xi_{k}\left(h_{st}\alpha_{k}^{s}\wedge\mathcal{A}^{t}\right)-d\overline{\xi}_{k}\left(h_{st}\overline{\alpha}_{k}^{s}\wedge\mathcal{A}^{t}\right).
+In (
+A.56
+) and (
+A.57
+) we show that the zero modes of the first
+two terms can be written in terms of harmonic 2-forms and
+thus are globally defined.
+The last two terms on the other hand
+contain the gauge connection
+𝒜
+\mathcal{A}
+explicitly and therefore
+are gauge-variant and globally not well defined.
+However, they are a total derivative in 6D and thus can be absorbed
+into
+d
+​
+B
+1
+,
+2
+¯
+dB_{1,\bar{2}}
+by redefining
+B
+2
+¯
+B_{\bar{2}}
+.
+This has the additional benefit that after the redefinition
+B
+1
+,
+2
+¯
+B_{1,\bar{2}}
+is also gauge invariant which follows from the fact that
+H
+H
+and the first two
+terms of
+ω
+1
+,
+2
+¯
+Y
+​
+M
+\omega_{1,\bar{2}}^{YM}
+in (
+3.25
+) are gauge
+invariant.
+Therefore the internal redefined
+B
+2
+¯
+B_{\bar{2}}
+-field can be expanded globally as
+B
+2
+¯
+=
+b
+I
+​
+η
+I
+.
+B_{\bar{2}}=b^{I}\eta_{I}\ .
+(3.26)
+Finally let us note that the Lorentz Chern-Simons form
+ω
+1
+,
+2
+¯
+L
+\omega^{L}_{1,\bar{2}}
+also is a total space-time derivative in 6D and can
+similarly be
+absorbed into a redefinition of
+B
+2
+¯
+B_{\bar{2}}
+.
+Thus altogether we have
+H
+1
+,
+2
+¯
+=
+\displaystyle H_{1,\bar{2}}=
+d
+​
+B
+2
+¯
++
+α
+′
+​
+ω
+1
+,
+2
+¯
+C
+​
+S
+\displaystyle dB_{\bar{2}}\ +\ \alpha^{\prime}\omega^{CS}_{1,\bar{2}}
+(3.27)
+=
+\displaystyle=
+d
+​
+b
+I
+∧
+η
+I
+−
+α
+′
+​
+(
+𝒟
+​
+C
+¯
+i
+x
+𝒟
+​
+C
+i
+x
+)
+T
+​
+(
+1
+2
+​
+𝒱
+​
+δ
+x
+​
+y
+​
+g
+α
+¯
+​
+β
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+j
+β
+ε
+x
+​
+y
+​
+Ω
+¯
+α
+¯
+​
+β
+¯
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+¯
+j
+β
+¯
+ε
+x
+​
+y
+​
+Ω
+α
+​
+β
+​
+ω
+i
+α
+∧
+ω
+j
+β
+1
+2
+​
+𝒱
+​
+δ
+x
+​
+y
+​
+g
+α
+​
+β
+¯
+​
+ω
+i
+α
+∧
+ω
+¯
+j
+β
+¯
+)
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+\displaystyle db^{I}\wedge\eta_{I}-\alpha^{\prime}\begin{pmatrix}{\mathcal{D}}\overline{C}_{i}^{x}\\
+{\mathcal{D}}C_{i}^{x}\end{pmatrix}^{T}\begin{pmatrix}\tfrac{1}{\sqrt{2\mathcal{V}}}\delta_{xy}g_{\bar{\alpha}\beta}\overline{\omega}_{i}^{\bar{\alpha}}\wedge\omega_{j}^{\beta}&\varepsilon_{xy}\overline{\Omega}_{\bar{\alpha}\bar{\beta}}\overline{\omega}_{i}^{\bar{\alpha}}\wedge\overline{\omega}_{j}^{\bar{\beta}}\\
+\varepsilon_{xy}\Omega_{\alpha\beta}\omega_{i}^{\alpha}\wedge\omega_{j}^{\beta}&\tfrac{1}{\sqrt{2\mathcal{V}}}\delta_{xy}g_{\alpha{\bar{\beta}}}\omega_{i}^{\alpha}\wedge\overline{\omega}_{j}^{\bar{\beta}}\end{pmatrix}\begin{pmatrix}C_{j}^{y}\\
+\overline{C}_{j}^{y}\end{pmatrix}
+−
+α
+′
+​
+(
+d
+​
+ξ
+k
+d
+​
+ξ
+¯
+k
+)
+T
+​
+(
+h
+s
+​
+t
+​
+α
+k
+s
+∧
+α
+¯
+l
+t
+h
+s
+​
+t
+​
+α
+k
+s
+∧
+α
+l
+t
+h
+s
+​
+t
+​
+α
+¯
+k
+s
+∧
+α
+¯
+l
+t
+h
+s
+​
+t
+​
+α
+¯
+k
+s
+∧
+α
+l
+t
+)
+​
+(
+ξ
+¯
+l
+ξ
+l
+)
+.
+\displaystyle-\alpha^{\prime}\begin{pmatrix}d\xi_{k}\\
+d\overline{\xi}_{k}\end{pmatrix}^{T}\begin{pmatrix}h_{st}\alpha_{k}^{s}\wedge\overline{\alpha}_{l}^{t}&h_{st}\alpha_{k}^{s}\wedge\alpha_{l}^{t}\\
+h_{st}\overline{\alpha}_{k}^{s}\wedge\overline{\alpha}_{l}^{t}&h_{st}\overline{\alpha}_{k}^{s}\wedge\alpha_{l}^{t}\end{pmatrix}\begin{pmatrix}\overline{\xi}_{l}\\
+\xi_{l}\end{pmatrix}\ .
+3.3
+6D Effective action
+Using the results from the previous sections we now derive the 6D effective action, first focusing on the kinetic terms. The effective action of the gravity-dilaton sector has been determined in
+ref.
+[
+57
+]
+and we include their result in the following. In the Einstein frame the 6D dilaton
+ϕ
+\phi
+has to be defined as
+ϕ
+=
+Φ
+−
+1
+2
+​
+ln
+​
+𝒱
+,
+\phi=\Phi-\tfrac{1}{2}\mbox{ln}{\mathcal{V}}\ ,
+(3.28)
+where
+Φ
+\Phi
+is the 10D dilaton and
+𝒱
+\mathcal{V}
+is the
+K
+​
+3
+K3
+volume. The Einstein-frame metric is given by
+g
+μ
+​
+ν
+=
+e
+−
+ϕ
+​
+g
+μ
+​
+ν
+(
+10
+)
+g_{\mu\nu}=e^{-\phi}g_{\mu\nu}^{(10)}
+.
+From this redefinition one gets a factor of
+𝒱
+−
+1
+{\mathcal{V}}^{-1}
+in
+front of all terms in the Lagrangian with nontrivial
+K
+​
+3
+K3
+integral.
+Altogether we get
+ℒ
+6
+=
+\displaystyle{\mathcal{L}}_{6}=
+1
+2
+R
+∗
+1
+−
+1
+6
+e
+−
+2
+​
+ϕ
+H
+∧
+∗
+H
++
+α
+′
+2
+e
+−
+ϕ
+tr
+F
+𝟏𝟑𝟑
+∧
+∗
+F
+𝟏𝟑𝟑
++
+9
+2
+d
+ϕ
+∧
+∗
+d
+ϕ
+\displaystyle\tfrac{1}{2}R*1\ -\ \tfrac{1}{6}e^{-2\phi}H\wedge*H\ +\ \tfrac{\alpha^{\prime}}{2}e^{-\phi}\mbox{tr}F^{\bf 133}\wedge*F^{\bf 133}+\tfrac{9}{2}d\phi\wedge*d\phi\
+(3.29)
+−
+α
+′
+𝒱
+𝒢
+k
+​
+l
+d
+ξ
+¯
+k
+∧
+∗
+d
+ξ
+l
++
+1
+4
+h
+I
+​
+J
+d
+t
+s
+I
+∧
+∗
+d
+t
+s
+J
+−
+1
+8
+​
+𝒱
+2
+d
+𝒱
+∧
+∗
+d
+𝒱
+\displaystyle-\ \tfrac{\alpha^{\prime}}{\mathcal{V}}{\mathcal{G}}_{kl}d\overline{\xi}_{k}\wedge*d\xi_{l}\ +\ \tfrac{1}{4}h_{IJ}dt_{s}^{I}\wedge*dt_{s}^{J}\ -\ \tfrac{1}{8{\mathcal{V}}^{2}}d{\mathcal{V}}\wedge*d{\mathcal{V}}
+−
+α
+′
+G
+i
+​
+j
+δ
+x
+​
+y
+𝒟
+C
+¯
+x
+i
+∧
+∗
+𝒟
+C
+y
+j
+−
+1
+6
+​
+𝒱
+g
+I
+​
+J
+𝒟
+c
+b
+I
+∧
+∗
+𝒟
+c
+b
+J
+−
+V
+∗
+1
+,
+\displaystyle-\ \alpha^{\prime}G_{ij}\delta_{xy}{\mathcal{D}}\overline{C}^{x}_{i}\wedge*{\mathcal{D}}C^{y}_{j}\ -\ \tfrac{1}{6\mathcal{V}}g_{IJ}{\mathcal{D}}_{c}b^{I}\wedge*{\mathcal{D}}_{c}b^{J}-V*1\ ,
+where the
+t
+s
+I
+t_{s}^{I}
+are the
+K
+​
+3
+K3
+moduli
+which, together with the volume, span the moduli space (
+2.20
+) with
+the metric denoted by
+h
+I
+​
+J
+h_{IJ}
+.
+9
+9
+9
+For an explicit expression of
+h
+I
+​
+J
+h_{IJ}
+see, for example,
+[
+57
+]
+. Note that from the classical 10D supergravity we cannot deduce the 6D Green-Schwarz term and the full dilaton couplings of (
+2.12
+).
+The charged scalars are gauged under the unbroken
+E
+7
+E_{7}
+via the covariant derivative
+𝒟
+​
+C
+i
+x
+=
+d
+​
+C
+i
+x
++
+V
+a
+​
+(
+τ
+a
+)
+y
+x
+​
+C
+i
+y
+.
+{\mathcal{D}}C_{i}^{x}=dC_{i}^{x}+V^{a}(\tau^{a})_{y}^{\ x}C_{i}^{y}\ .
+(3.30)
+For the
+b
+b
+-scalars we have
+𝒟
+c
+​
+b
+I
+=
+d
+​
+b
+I
+\displaystyle{\mathcal{D}}_{c}b^{I}=db^{I}
+−
+α
+′
+δ
+x
+​
+y
+M
+I
+i
+​
+j
+C
+¯
+x
+i
+𝒟
+↔
+C
+y
+j
+−
+α
+′
+ε
+x
+​
+y
+(
+N
+I
+i
+​
+j
+C
+x
+i
+𝒟
+C
+y
+j
++
+c
+.
+c
+.
+)
+\displaystyle-\alpha^{\prime}\delta_{xy}M^{I}_{ij}\overline{C}^{x}_{i}\overleftrightarrow{\mathcal{D}}C^{y}_{j}-\alpha^{\prime}\varepsilon_{xy}(N^{I}_{ij}C^{x}_{i}{\mathcal{D}}C^{y}_{j}+c.c.)
+(3.31)
+−
+α
+′
+ℳ
+I
+k
+​
+l
+ξ
+¯
+k
+d
+↔
+ξ
+l
+−
+α
+′
+(
+𝒩
+I
+k
+​
+l
+ξ
+k
+d
+ξ
+l
++
+c
+.
+c
+.
+)
+.
+\displaystyle-\alpha^{\prime}{\mathcal{M}}^{I}_{kl}\overline{\xi}_{k}\overleftrightarrow{d}\xi_{l}-\alpha^{\prime}({\mathcal{N}}^{I}_{kl}\xi_{k}d\xi_{l}+c.c.)\ .
+Here
+ξ
+¯
+k
+​
+d
+↔
+​
+ξ
+l
+:=
+ξ
+¯
+k
+​
+d
+​
+ξ
+l
+−
+ξ
+l
+​
+d
+​
+ξ
+¯
+k
+\overline{\xi}_{k}\overleftrightarrow{d}\xi_{l}:=\overline{\xi}_{k}d\xi_{l}-\xi_{l}d\overline{\xi}_{k}
+is the skew-symmetric derivative and we use
+the same definition for the
+E
+7
+E_{7}
+-covariant derivative
+𝒟
+↔
+\overleftrightarrow{\mathcal{D}}
+.
+The scalar couplings in (
+3.29
+)
+depend on the
+K
+​
+3
+K3
+moduli and are given by
+𝒢
+k
+​
+l
+\displaystyle{\mathcal{G}}_{kl}
+=
+∫
+h
+s
+​
+t
+α
+¯
+s
+k
+∧
+⋆
+α
+t
+l
+,
+G
+i
+​
+j
+=
+γ
+i
+​
+γ
+j
+2
+​
+2
+​
+𝒱
+g
+i
+​
+j
+,
+g
+I
+​
+J
+=
+∫
+η
+I
+∧
+⋆
+η
+J
+.
+\displaystyle=\int h_{st}\overline{\alpha}^{s}_{k}\wedge\star\alpha^{t}_{l}\ ,\qquad G_{ij}=\tfrac{\gamma_{i}\gamma_{j}}{2\sqrt{2\mathcal{V}}}g_{ij}\ ,\qquad g_{IJ}=\int\eta_{I}\wedge\star\eta_{J}\ .
+(3.32)
+The coupling
+G
+i
+​
+j
+G_{ij}
+of the charged scalars (no summation over
+i
+,
+j
+i,j
+implied) is proportional to
+b
+b
+-scalar coupling
+g
+I
+​
+J
+g_{IJ}
+,
+restricted to
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})
+. Moreover, it contains the moduli dependent functions
+γ
+i
+=
+𝒱
+1
+4
+(
+∫
+J
+∧
+η
+i
+)
+1
+2
+.
+\gamma_{i}=\frac{{\mathcal{V}}^{\frac{1}{4}}}{(\int J\wedge\eta_{i})^{\frac{1}{2}}}\ .
+(3.33)
+We find that these are necessary in the charged zero mode isomorphy
+(
+A.36
+), in order to match with the orbifold limit known from
+[
+42
+]
+.
+𝒢
+k
+​
+l
+{\mathcal{G}}_{kl}
+is the metric on the space of ASD connections.
+All couplings are derived in more detail in
+the appendices
+A.2
+and
+A.3
+.
+The coupling functions appearing in (
+3.31
+) read
+N
+i
+​
+j
+I
+\displaystyle N^{I}_{ij}
+=
+∫
+Ω
+α
+​
+β
+​
+ω
+i
+α
+∧
+ω
+j
+β
+∧
+η
+I
+=
+1
+2
+​
+γ
+i
+​
+γ
+j
+​
+ρ
+i
+​
+j
+​
+ρ
+I
+​
+J
+​
+(
+⟨
+J
+1
+,
+η
+J
+⟩
+−
+i
+⁡
+⟨
+J
+2
+,
+η
+J
+⟩
+)
+,
+\displaystyle=\int\Omega_{\alpha\beta}\omega^{\alpha}_{i}\wedge\omega^{\beta}_{j}\wedge\eta^{I}=\tfrac{1}{2}\gamma_{i}\gamma_{j}\rho_{ij}\rho^{IJ}(\langle J_{1},\eta_{J}\rangle-i\langle J_{2},\eta_{J}\rangle)\ ,
+(3.34)
+M
+i
+​
+j
+I
+\displaystyle M^{I}_{ij}
+=
+1
+2
+​
+𝒱
+​
+∫
+g
+α
+¯
+​
+β
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+j
+β
+∧
+η
+I
+=
+i
+2
+​
+γ
+i
+​
+γ
+j
+​
+ρ
+I
+​
+J
+​
+(
+ρ
+i
+​
+j
+​
+⟨
+J
+3
+,
+η
+J
+⟩
+−
+⟨
+J
+3
+,
+η
+i
+⟩
+​
+ρ
+j
+​
+J
+−
+⟨
+J
+3
+,
+η
+j
+⟩
+​
+ρ
+i
+​
+J
+)
+,
+\displaystyle=\tfrac{1}{\sqrt{2\mathcal{V}}}\int g_{\bar{\alpha}\beta}\overline{\omega}^{\bar{\alpha}}_{i}\wedge\omega^{\beta}_{j}\wedge\eta^{I}=\tfrac{i}{2}\gamma_{i}\gamma_{j}\rho^{IJ}\Bigl(\rho_{ij}\langle J_{3},\eta_{J}\rangle-\langle J_{3},\eta_{i}\rangle\rho_{jJ}-\langle J_{3},\eta_{j}\rangle\rho_{iJ}\Bigr)\ ,
+(no summation over
+i
+,
+j
+i,j
+implied) and are derived in (
+A.53
+) and (
+A.56
+).
+Here
+⟨
+⋅
+,
+⋅
+⟩
+\langle\cdot,\cdot\rangle
+is the scalar product on
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{2}(K3,\mathbb{R})
+and
+ρ
+i
+​
+j
+\rho_{ij}
+is
+the
+K
+​
+3
+K3
+intersection matrix restricted to
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})
+.
+Since the definition of
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})
+depends on a choice
+of the complex structure
+ρ
+i
+​
+j
+\rho_{ij}
+depends on the
+K
+​
+3
+K3
+moduli.
+For the couplings of the
+ξ
+k
+\xi_{k}
+in (
+3.31
+) we find
+ℳ
+k
+​
+l
+I
+\displaystyle{\mathcal{M}}^{I}_{kl}
+=
+ρ
+I
+​
+J
+​
+∫
+h
+s
+​
+t
+​
+α
+¯
+k
+s
+∧
+α
+l
+t
+∧
+η
+J
+=
+ρ
+I
+​
+J
+​
+ρ
+i
+​
+J
+​
+c
+k
+​
+l
+i
+,
+\displaystyle=\rho^{IJ}\int h_{st}\overline{\alpha}^{s}_{k}\wedge{\alpha}^{t}_{l}\wedge\eta_{J}=\rho^{IJ}\rho_{iJ}c^{i}_{kl}\ ,
+(3.35)
+𝒩
+k
+​
+l
+I
+\displaystyle{\mathcal{N}}^{I}_{kl}
+=
+ρ
+I
+​
+J
+​
+∫
+h
+s
+​
+t
+​
+α
+k
+s
+∧
+α
+l
+t
+∧
+η
+J
+=
+e
+k
+​
+l
+​
+(
+⟨
+η
+J
+,
+J
+1
+⟩
+−
+i
+⁡
+⟨
+η
+J
+,
+J
+2
+⟩
+)
+,
+\displaystyle=\rho^{IJ}\int h_{st}\alpha_{k}^{s}\wedge\alpha_{l}^{t}\wedge\eta_{J}=e_{kl}(\langle\eta_{J},J_{1}\rangle-i\langle\eta_{J},J_{2}\rangle)\ ,
+where we defined
+c
+k
+​
+l
+i
+,
+e
+k
+​
+l
+c^{i}_{kl},e_{kl}
+as the (antisymmetric) “intersection” matrices
+h
+s
+​
+t
+α
+¯
+s
+k
+∧
+α
+t
+l
+=
+c
+i
+k
+​
+l
+η
+i
+,
+h
+s
+​
+t
+α
+k
+s
+∧
+α
+l
+t
+=
+e
+k
+​
+l
+Ω
+¯
+.
+\displaystyle h_{st}\overline{\alpha}^{s}_{k}\wedge\alpha^{t}_{l}=c^{i}_{kl}\eta_{i}\ ,\qquad h_{st}\alpha_{k}^{s}\wedge\alpha_{l}^{t}=e_{kl}\overline{\Omega}\ .
+(3.36)
+The scalar target manifold is a fibration of the
+bundle moduli
+ξ
+\xi
+and the charged scalars
+C
+C
+over the
+K
+​
+3
+K3
+moduli space
+ℳ
+\mathcal{M}
+given in (
+2.23
+).
+Supersymmetry imposes that this scalar manifold is quaternionic-Kähler
+which, however, we did not verify explicitly.
+In appendix
+B
+we show that our results are consistent with the orbifold limit
+T
+4
+/
+ℤ
+3
+T^{4}/\mathbb{Z}_{3}
+(with standard embedding).
+The scalars of the truncated spectrum corresponding to the untwisted sector span the quaternionic-Kähler (and simultaneously Kähler) manifold
+S
+​
+U
+​
+(
+2
+,
+2
++
+56
+)
+U
+⁡
+(
+1
+)
+×
+S
+​
+U
+​
+(
+2
+)
+×
+S
+​
+U
+​
+(
+2
++
+56
+)
+.
+\frac{SU(2,2+56)}{U(1)\times SU(2)\times SU(2+56)}\ .
+(3.37)
+We now turn to the scalar potential
+which consists of all terms descending from (
+2.2
+) with space-time indices tangent to
+K
+​
+3
+K3
+. Since
+K
+​
+3
+K3
+is Ricci-flat the Gauss-Bonnet term (
+2.5
+) reduces
+to the square of the curvature 2-form. Moreover, since the curvature is anti-selfdual
+for all metric deformations, the term gives a constant topological contribution equal to the Euler number of
+K
+​
+3
+K3
+−
+1
+2
+∫
+K
+​
+3
+tr
+(
+ℛ
+~
+∧
+⋆
+ℛ
+~
+)
+=
+1
+2
+∫
+K
+​
+3
+tr
+(
+ℛ
+∧
+ℛ
+)
+=
+24
+.
+-\tfrac{1}{2}\int\limits_{K3}\mbox{tr}({\tilde{\mathcal{R}}}\wedge\star{\tilde{\mathcal{R}}})=\tfrac{1}{2}\int\limits_{K3}\mbox{tr}({\mathcal{R}}\wedge{\mathcal{R}})=24\ .
+(3.38)
+Together with the contribution from the Yang-Mills field strength we obtain
+V
+=
+−
+α
+′
+2
+​
+𝒱
+e
+ϕ
+(
+∫
+tr
+F
+2
+¯
+∧
+⋆
+F
+2
+¯
++
+48
+)
+.
+V=-\tfrac{\alpha^{\prime}}{2\mathcal{V}}e^{\phi}\Bigl(\int\mbox{tr}F_{\bar{2}}\wedge\star F_{\bar{2}}+48\Bigr)\ .
+(3.39)
+Dividing into background and fluctuations
+F
+2
+¯
+=
+ℱ
++
+f
+2
+¯
+F_{\bar{2}}=\mathcal{F}+{f}_{\bar{2}}
+we arrive at
+V
+=
+−
+α
+′
+𝒱
+e
+ϕ
+(
+−
+1
+2
+∫
+tr
+(
+ℱ
+∧
+ℱ
+)
++
+24
++
+1
+2
+∫
+tr
+(
+f
+2
+¯
+∧
+⋆
+f
+2
+¯
+)
+)
+.
+V=-\tfrac{\alpha^{\prime}}{\mathcal{V}}e^{\phi}\Bigl(-\tfrac{1}{2}\int\mbox{tr}({\mathcal{F}}\wedge{\mathcal{F}})+24+\tfrac{1}{2}\int\mbox{tr}({f}_{\bar{2}}\wedge\star{f}_{\bar{2}})\Bigr)\ .
+(3.40)
+The first two terms vanish due to the tadpole condition (
+3.1
+)
+while the third can be decomposed into selfdual and
+anti-selfdual parts.
+The tadpole condition additionally constrains
+0
+=
+∫
+tr
+​
+(
+f
+2
+¯
+∧
+f
+2
+¯
+)
+=
+∫
+tr
+​
+(
+f
+2
+¯
++
+∧
+f
+2
+¯
++
+)
++
+∫
+tr
+​
+(
+f
+2
+¯
+−
+∧
+f
+2
+¯
+−
+)
+,
+0=\int\mbox{tr}({f}_{\bar{2}}\wedge{f}_{\bar{2}})=\int\mbox{tr}({f}_{\bar{2}+}\wedge{f}_{\bar{2}+})+\int\mbox{tr}({f}_{\bar{2}-}\wedge{f}_{\bar{2}-})\ ,
+(3.41)
+since continuous fluctuations cannot change a topological invariant.
+Therefore we can express the potential entirely in terms of the selfdual part
+f
+2
+¯
++
+{f}_{\bar{2}+}
+to obtain
+V
+\displaystyle V
+=
+−
+α
+′
+2
+​
+𝒱
+e
+ϕ
+∫
+tr
+(
+f
+2
+¯
+∧
+⋆
+f
+2
+¯
+)
+\displaystyle=-\tfrac{\alpha^{\prime}}{2\mathcal{V}}e^{\phi}\int\mbox{tr}({f}_{\bar{2}}\wedge\star{f}_{\bar{2}})
+(3.42)
+=
+−
+α
+′
+2
+​
+𝒱
+e
+ϕ
+∫
+tr
+(
+f
+2
+¯
++
+∧
+f
+2
+¯
++
+−
+f
+2
+¯
+−
+∧
+f
+2
+¯
+−
+)
+\displaystyle=-\tfrac{\alpha^{\prime}}{2\mathcal{V}}e^{\phi}\int\mbox{tr}\left({f}_{\bar{2}+}\wedge{f}_{\bar{2}+}-{f}_{\bar{2}-}\wedge{f}_{\bar{2}-}\right)
+=
+−
+α
+′
+𝒱
+e
+ϕ
+∫
+tr
+(
+f
+2
+¯
++
+∧
+f
+2
+¯
++
+)
+.
+\displaystyle=-\tfrac{\alpha^{\prime}}{\mathcal{V}}e^{\phi}\int\mbox{tr}({f}_{\bar{2}+}\wedge{f}_{\bar{2}+})\ .
+This is positive definite since for antihermitean generators the trace
+gives a negative Killing form.
+One thus has to compute the selfdual components
+f
+2
+¯
++
+(
+𝟏
+,
+𝟑
+)
+,
+f
+2
+¯
++
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+{f}_{\bar{2}+}^{({\bf 1},{\bf 3})},{f}_{\bar{2}+}^{({\bf 133},{\bf 1})}
+of
+the terms
+given in (
+3.19
+) and (
+3.20
+). In appendix
+A.3
+we show
+that
+f
+2
+¯
++
+(
+𝟏
+,
+𝟑
+)
+{f}_{\bar{2}+}^{({\bf 1},{\bf 3})}
+vanishes, due to the nontriviality of the adjoint
+End
+​
+𝒯
+K
+​
+3
+\mbox{End}\ {\mathcal{T}}_{K3}
+-bundle.
+This is crucial for consistency with 6D supergravity, since
+D
+D
+-terms
+necessarily are valued in the adjoint of the unbroken gauge group.
+On the other hand, the selfdual part of (
+3.20
+) reads
+f
+2
+¯
++
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+≡
+f
+2
+¯
++
+a
+=
+(
+C
+¯
+i
+x
+C
+i
+x
+)
+T
+​
+(
+−
+i
+​
+2
+​
+𝒱
+​
+G
+i
+​
+j
+​
+J
+3
+1
+2
+​
+ρ
+~
+i
+​
+j
+​
+Ω
+1
+2
+​
+ρ
+~
+i
+​
+j
+​
+Ω
+¯
+i
+​
+2
+​
+𝒱
+​
+G
+i
+​
+j
+​
+J
+3
+)
+​
+(
+τ
+a
+)
+x
+​
+y
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+{f}_{\bar{2}+}^{({\bf 133},{\bf 1})}\equiv{f}_{\bar{2}+}^{a}=\begin{pmatrix}\overline{C}^{x}_{i}\\
+C^{x}_{i}\end{pmatrix}^{T}\begin{pmatrix}-i\sqrt{2\mathcal{V}}G_{ij}J_{3}&\tfrac{1}{2}\tilde{\rho}_{ij}\Omega\\
+\tfrac{1}{2}\tilde{\rho}_{ij}\overline{\Omega}&i\sqrt{2\mathcal{V}}G_{ij}J_{3}\end{pmatrix}(\tau^{a})_{xy}\begin{pmatrix}C^{y}_{j}\\
+\overline{C}^{y}_{j}\end{pmatrix}\
+(3.43)
+(see (
+A.71
+)). Here
+ρ
+~
+i
+​
+j
+=
+γ
+i
+​
+γ
+j
+​
+ρ
+i
+​
+j
+\tilde{\rho}_{ij}=\gamma_{i}\gamma_{j}\rho_{ij}
+is the rescaled
+K
+​
+3
+K3
+-intersection matrix (
+2.19
+), restricted to
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})
+and
+G
+i
+​
+j
+G_{ij}
+is the same coupling as in (
+3.32
+).
+The
+D
+D
+-term is identified by expanding
+f
+2
+¯
++
+a
+=
+(
+∫
+f
+2
+¯
++
+a
+∧
+J
+s
+)
+​
+J
+s
+,
+{f}_{\bar{2}+}^{a}=\left(\int{f}_{\bar{2}+}^{a}\wedge J_{s}\right)J_{s}\ ,
+(3.44)
+Inserting this into (
+3.42
+) we arrive at
+V
+\displaystyle V
+=
+−
+α
+′
+𝒱
+e
+ϕ
+∫
+J
+s
+∧
+J
+t
+(
+∫
+f
+2
+¯
++
+a
+∧
+J
+s
+)
+(
+∫
+f
+2
+¯
++
+a
+∧
+J
+t
+)
+\displaystyle=-\tfrac{\alpha^{\prime}}{\mathcal{V}}e^{\phi}\int J_{s}\wedge J_{t}\left(\int{f}_{\bar{2}+}^{a}\wedge J_{s}\right)\left(\int{f}_{\bar{2}+}^{a}\wedge J_{t}\right)
+(3.45)
+=
+−
+α
+′
+2
+​
+𝒱
+​
+e
+ϕ
+​
+tr
+​
+(
+σ
+(
+s
+)
+​
+σ
+(
+t
+)
+)
+​
+(
+∫
+f
+2
+¯
++
+a
+∧
+J
+s
+)
+​
+(
+∫
+f
+2
+¯
++
+a
+∧
+J
+t
+)
+.
+\displaystyle=-\tfrac{\alpha^{\prime}}{2\mathcal{V}}e^{\phi}\mbox{tr}(\sigma^{(s)}\sigma^{(t)})\left(\int{f}_{\bar{2}+}^{a}\wedge J_{s}\right)\left(\int{f}_{\bar{2}+}^{a}\wedge J_{t}\right)\ .
+Comparing with the generic scalar potential (
+2.15
+) yields
+(
+D
+a
+)
+B
+A
+=
+1
+2
+​
+𝒱
+​
+(
+σ
+(
+s
+)
+)
+B
+A
+​
+∫
+f
+2
+¯
++
+a
+∧
+J
+s
+.
+(D^{a})^{A}_{\ B}=\tfrac{1}{\sqrt{2\mathcal{V}}}(\sigma^{(s)})^{A}_{\ B}\int{f}_{\bar{2}+}^{a}\wedge J_{s}\ .
+(3.46)
+Hence, the standard embedding on
+K
+​
+3
+K3
+leads to a quartic
+D
+D
+-term potential for the charged scalars in consistency with the generic 6D supergravity.
+If there exist
+D
+D
+-flat directions the moduli space of vacua has a Higgs branch, where the gauge group is broken further.
+Finally, we identify the
+𝔰
+​
+𝔲
+​
+(
+2
+)
+R
+\mathfrak{su}(2)_{R}
+-valued connection 1-form
+Γ
+\Gamma
+on the charged scalar field space, defined in (
+2.16
+).
+Separating the Killing vectors
+K
+i
+x
+​
+a
+=
+(
+τ
+a
+)
+y
+x
+​
+C
+i
+y
+K_{i}^{xa}=(\tau^{a})_{y}^{\ x}C_{i}^{y}
+in the
+D
+D
+-term (
+3.46
+) yields
+(
+Γ
+j
+x
+)
+B
+A
+=
+(
+i
+​
+G
+i
+​
+j
+​
+(
+−
+C
+¯
+i
+x
+,
+C
+i
+x
+)
+1
+2
+​
+𝒱
+​
+ρ
+~
+i
+​
+j
+​
+(
+0
+,
+C
+¯
+i
+x
+)
+1
+2
+​
+𝒱
+​
+ρ
+~
+i
+​
+j
+​
+(
+C
+i
+x
+,
+0
+)
+i
+​
+G
+i
+​
+j
+​
+(
+C
+¯
+i
+x
+,
+−
+C
+i
+x
+)
+)
+B
+A
+.
+({\Gamma}^{x}_{j})^{A}_{\ B}=\begin{pmatrix}iG_{ij}(-\overline{C}^{x}_{i},C^{x}_{i})&\tfrac{1}{\sqrt{2\mathcal{V}}}\tilde{\rho}_{ij}(0,\overline{C}^{x}_{i})\\
+\tfrac{1}{\sqrt{2\mathcal{V}}}\tilde{\rho}_{ij}(C^{x}_{i},0)&iG_{ij}(\overline{C}^{x}_{i},-C^{x}_{i})\end{pmatrix}^{A}_{\ B}\ .
+(3.47)
+The corresponding curvature tensor is nonvanishing.
+3.4
+Deviation from the standard embedding
+Before we continue let us briefly discuss the scalar potential
+for deviations from the standard embedding.
+A first generalization is to drop the condition
+ℱ
+=
+ℛ
+{\mathcal{F}}={\mathcal{R}}
+but keep the anti-selfduality of
+ℱ
+{\mathcal{F}}
+.
+This is automatically satisfied for any
+instanton configuration.
+In this class the scalar potential for the
+K
+​
+3
+K3
+moduli is trivially zero.
+The second generalization is to consider an arbitrary Yang-Mills bundle.
+Under metric deformations the curvature 2-form of
+K
+​
+3
+K3
+stays anti-selfdual, but the Yang-Mills curvature generically loses this property. In this case the selfdual part contributes an additional term to the
+scalar potential given by
+V
+6
+\displaystyle V_{6}
+∼
+−
+1
+2
+∫
+tr
+(
+ℱ
+∧
+⋆
+ℱ
+)
++
+1
+2
+∫
+tr
+(
+ℛ
+∧
+ℛ
+)
+\displaystyle\sim-\tfrac{1}{2}\int\mbox{tr}({\mathcal{F}}\wedge\star{\mathcal{F}})+\tfrac{1}{2}\int\mbox{tr}({\mathcal{R}}\wedge{\mathcal{R}})
+(3.48)
+=
+−
+1
+2
+∫
+tr
+(
+ℱ
+∧
+⋆
+ℱ
+)
+−
+1
+2
+∫
+tr
+(
+ℱ
+∧
+ℱ
+)
+\displaystyle=-\tfrac{1}{2}\int\mbox{tr}({\mathcal{F}}\wedge\star{\mathcal{F}})-\tfrac{1}{2}\int\mbox{tr}({\mathcal{F}}\wedge{\mathcal{F}})
+=
+−
+∫
+tr
+(
+ℱ
++
+∧
+⋆
+ℱ
++
+)
+.
+\displaystyle=-\int\mbox{tr}({\mathcal{F}}_{+}\wedge\star{\mathcal{F}}_{+})\ .
+This term is positive definite, because the Killing form is negative on antihermitean generators.
+There are two ways how the system can go back to the minimum of the potential. Either
+ℱ
+\mathcal{F}
+is dynamically driven to a new ASD ground state or the
+K
+​
+3
+K3
+metric deforms
+in such a way that
+ℱ
+\mathcal{F}
+becomes anti-selfdual again. It follows that for a fixed
+ℱ
+\mathcal{F}
+only metric deformations which preserve the ASD condition are true moduli,
+while the others generate a potential like (
+3.48
+).
+In the next section we will consider Yang-Mills fluxes which are rigid backgrounds, fixed by a quantization condition. In particular they cannot deform dynamically to different
+ASD ground states. This will stabilize some of the
+K
+​
+3
+K3
+metric moduli.
+4
+Line bundles on
+K
+​
+3
+K3
+In this section we look for solutions of the tadpole condition
+different from the standard embedding, i.e. backgrounds which only
+satisfy
+the integrated equation (
+2.4
+) in terms of characteristic classes.
+Strictly speaking, this is not possible with
+ℋ
+≡
+0
+{\mathcal{H}}\equiv 0
+in this background. One has to include torsion into the internal geometry and the proper
+back reaction is given by the Strominger equations. For six internal dimensions one loses the Calabi-Yau property or even more structure, but for
+K
+​
+3
+K3
+the torsion can be
+completely absorbed in a conformal factor of the metric
+[
+58
+]
+.
+In the following we consider
+K
+​
+3
+K3
+compactifications with line bundles,
+where the tadpole condition is solved by assigning
+ℱ
+{\mathcal{F}}
+to be
+the curvature of one (or several) principal
+U
+⁡
+(
+1
+)
+U(1)
+bundle(s)
+[
+24
+,
+43
+,
+29
+,
+39
+,
+44
+,
+45
+,
+30
+,
+13
+,
+46
+,
+47
+]
+. For one
+line bundle
+L
+L
+inside one
+E
+8
+E_{8}
+factor we then have
+E
+8
+⟶
+G
+×
+⟨
+U
+⁡
+(
+1
+)
+⟩
+,
+E_{8}\longrightarrow G\times\langle U(1)\rangle\ ,
+(4.1)
+which implies the following
+decomposition of the adjoint representation
+𝟐𝟒𝟖
+⟶
+(
+𝔤
+,
+𝟏
+0
+)
+⊕
+(
+𝟏
+,
+𝟏
+0
+)
+​
+⨁
+i
+(
+(
+𝐑
+i
+,
+𝟏
+q
+i
+)
+⊕
+(
+𝐑
+¯
+i
+,
+𝟏
+−
+q
+i
+)
+)
+,
+{\bf 248}\longrightarrow({\mathfrak{g}},{\bf 1}_{0})\oplus({\bf 1},{\bf 1}_{0})\ \bigoplus\limits_{i}\ \left(({\bf R}_{i},{\bf 1}_{q_{i}})\oplus({\overline{\bf R}}_{i},{\bf 1}_{-q_{i}})\right)\ ,
+(4.2)
+where
+𝔤
+{\mathfrak{g}}
+is the adjoint representation of
+G
+G
+while the second term includes
+𝟏
+0
+{\bf 1}_{0}
+as the adjoint representation
+of
+U
+⁡
+(
+1
+)
+U(1)
+. The
+𝐑
+i
+{\bf R}_{i}
+are model dependent representations of
+G
+G
+and
+𝟏
+q
+i
+{\bf 1}_{q_{i}}
+are representations of
+U
+⁡
+(
+1
+)
+U(1)
+with charge
+q
+i
+q_{i}
+. The right entries define associated vector bundles
+E
+𝟏
+q
+E_{{\bf 1}_{q}}
+which are tensor products of the
+line bundle
+L
+L
+with charge
+q
+q
+:
+E
+𝟏
+q
+=
+L
+q
+=
+L
+⊗
+…
+⊗
+L
+.
+E_{{\bf 1}_{q}}=L^{q}=L\otimes...\otimes L\ .
+(4.3)
+Negative charges correspond to the dual bundle,
+L
+−
+1
+=
+L
+∗
+L^{-1}=L^{*}
+, and
+L
+0
+=
+𝒪
+L^{0}={\mathcal{O}}
+is the trivial bundle.
+Applying the deformation theory of gauge connections to this setup
+(for more details see appendix
+A.4
+)
+yields the multiplicities of the corresponding massless fields.
+Specifically one finds
+h
+0
+,
+1
+​
+(
+L
+q
+)
+=
+−
+2
+−
+q
+2
+​
+c
+​
+h
+2
+​
+(
+L
+)
+,
+h^{0,1}(L^{q})=-2-q^{2}ch_{2}(L)\ ,
+(4.4)
+where
+c
+h
+2
+(
+L
+)
+=
+−
+1
+2
+∫
+tr
+ℱ
+∧
+ℱ
+ch_{2}(L)=-\tfrac{1}{2}\int\mbox{tr}{\mathcal{F}}\wedge{\mathcal{F}}
+is the second Chern-character.
+Moreover, no bundle moduli exist, as
+End
+​
+L
+q
+\mbox{End}\ L^{q}
+is the
+trivial line bundle with
+H
+0
+,
+1
+​
+(
+End
+​
+L
+q
+)
+=
+0
+H^{0,1}(\mbox{End}\ L^{q})=0
+.
+Since the only nonvanishing Chern class is
+c
+1
+​
+(
+L
+)
+=
+i
+​
+tr
+​
+ℱ
+∈
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℤ
+)
+c_{1}(L)=i\,\mbox{tr}{\mathcal{F}}\in H^{1,1}(K3,\mathbb{Z})
+, nontrivial line bundles are equivalent to integral, Abelian Yang-Mills fluxes.
+10
+10
+10
+There exist no
+Abelian local instantons on
+K
+​
+3
+K3
+because in 4D these are characterized by the winding number of the mapping
+S
+3
+↦
+U
+⁡
+(
+1
+)
+S^{3}\mapsto U(1)
+, however
+π
+3
+​
+(
+U
+​
+(
+1
+)
+)
+=
+0
+\pi_{3}(U(1))=0
+.
+Therefore, to specify a
+line bundle, one chooses a vector
+X
+X
+in the Cartan subalgebra
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+and an integral linear combination of the 2-cycles of
+K
+​
+3
+K3
+.
+11
+11
+11
+The specific choice of 2-cycles can be motivated
+by making contact with heterotic orbifold models which arise as singular
+limits of
+K
+​
+3
+K3
+with shrinking 2-cycles
+[
+13
+,
+14
+]
+.
+X
+X
+determines the group theoretical
+embedding and the unbroken gauge group while the 2-cycles determine the location of the flux
+i
+ℱ
+=
+X
+⊗
+m
+I
+η
+I
+,
+I
+=
+1
+,
+…
+,
+22
+,
+i{\mathcal{F}}=X\otimes m^{I}\eta_{I}\ ,\qquad I=1,...,22\ ,
+(4.5)
+with
+η
+I
+\eta_{I}
+being an integral basis of
+H
+2
+​
+(
+K
+​
+3
+,
+ℤ
+)
+H^{2}(K3,\mathbb{Z})
+.
+The flux satisfies the quantization condition
+i
+​
+∫
+Γ
+I
+tr
+​
+ℱ
+=
+−
+∥
+X
+∥
+​
+m
+I
+∈
+ℤ
+,
+i\int\limits_{\Gamma^{I}}\mbox{tr}{\mathcal{F}}=-\lVert X\rVert\ m^{I}\ \ \in\mathbb{Z}\ ,
+(4.6)
+for all integral 2-cycles
+Γ
+I
+∈
+H
+2
+​
+(
+K
+​
+3
+,
+ℤ
+)
+\Gamma_{I}\in H_{2}(K3,\mathbb{Z})
+. Here
+∥
+X
+∥
+\lVert X\rVert
+is the Euclidean norm in the Cartan subalgebra of
+E
+8
+E_{8}
+.
+For a given
+K
+​
+3
+K3
+-metric a supersymmetry
+preserving background must in addition satisfy the ASD condition
+ℱ
+∈
+H
+−
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℤ
+)
+{\mathcal{F}}\in H^{1,1}_{-}(K3,\mathbb{Z})
+, which is a restriction
+on the
+K
+​
+3
+K3
+metric as we already said in section
+3.4
+.
+We can extend the construction to several line bundles, each with field strength
+i
+​
+ℱ
+n
+=
+X
+n
+⊗
+m
+I
+​
+n
+​
+η
+I
+.
+i{\mathcal{F}}^{n}=X^{n}\otimes m^{In}\eta_{I}\ .
+(4.7)
+Since
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+has rank 16, there are at most 16 independent
+line bundles available. For the tadpole condition we must have
+24
+\displaystyle 24
+=
+1
+2
+​
+∫
+tr
+​
+(
+ℱ
+∧
+ℱ
+)
+\displaystyle=\tfrac{1}{2}\int\mbox{tr}({\mathcal{F}}\wedge{\mathcal{F}})
+=
+−
+1
+2
+​
+(
+X
+n
+⋅
+X
+m
+)
+​
+m
+I
+​
+n
+​
+m
+J
+​
+m
+​
+ρ
+I
+​
+J
+.
+\displaystyle=-\tfrac{1}{2}(X^{n}\cdot X^{m})\ m^{In}m^{Jm}\rho_{IJ}\ .
+(4.8)
+Here
+⋅
+\cdot
+is the Euclidean scalar product in the Cartan subalgebra and
+ρ
+I
+​
+J
+\rho_{IJ}
+is the 2-cycle intersection matrix (
+2.19
+) of
+K
+​
+3
+K3
+.
+4.1
+Reduction of the Yang-Mills sector
+Using the results from appendix
+A.4
+, the Kaluza-Klein expansion of the gauge potential reads
+a
+1
+=
+V
+𝔤
++
+V
+𝟏
+,
+a
+1
+¯
+=
+∑
+i
+(
+C
+k
+i
+𝐑
+i
+​
+ω
+k
+i
+q
+i
++
+C
+¯
+k
+i
+𝐑
+¯
+𝐢
+​
+ω
+¯
+k
+i
+−
+q
+i
+)
++
+(
+D
+¯
+k
+i
+𝐑
+¯
+𝐢
+​
+ϖ
+¯
+k
+i
+−
+q
+i
++
+D
+k
+i
+𝐑
+i
+​
+ϖ
+k
+i
+q
+i
+)
+.
+a_{1}=V^{\mathfrak{g}}+V^{\bf 1}\ ,\qquad a_{\bar{1}}\ =\ \sum_{i}\ (C_{k_{i}}^{{\bf R}_{i}}\omega_{k_{i}}^{q_{i}}+\overline{C}_{k_{i}}^{\overline{\bf R}_{i}}\overline{\omega}_{k_{i}}^{-q_{i}})+(\overline{D}_{k_{i}}^{\overline{\bf R}_{i}}\overline{\varpi}_{k_{i}}^{-q_{i}}+D_{k_{i}}^{{\bf R}_{i}}\varpi_{k_{i}}^{q_{i}})\ .
+(4.9)
+Here
+V
+𝔤
+V^{\mathfrak{g}}
+is the 6D gauge potential in the adjoint representation of
+G
+G
+. For one line bundle, we have additionally the Abelian gauge potential
+V
+𝟏
+V^{\bf 1}
+.
+For
+q
+i
+≠
+0
+q_{i}\neq 0
+the representations in (
+4.2
+) are complex and always occur pairwise,
+with corresponding charged scalars
+C
+k
+i
+C_{k_{i}}
+and
+D
+¯
+k
+i
+\overline{D}_{k_{i}}
+, respectively.
+Their four real degrees of freedom align in one
+hypermultiplet in the representation
+𝐑
+i
+⊕
+𝐑
+¯
+𝐢
+{\bf R}_{i}\oplus\overline{\bf R}_{i}
+. The zero modes belong to
+ω
+k
+i
+q
+i
+∈
+H
+0
+,
+1
+​
+(
+L
+q
+i
+)
+\displaystyle\omega_{k_{i}}^{q_{i}}\in H^{0,1}(L^{q_{i}})
+,
+ω
+¯
+k
+i
+−
+q
+i
+∈
+H
+1
+,
+0
+(
+L
+−
+q
+i
+)
+,
+\displaystyle,\ \ \ \ \overline{\omega}_{k_{i}}^{-q_{i}}\in H^{1,0}(L^{-q_{i}})\ ,
+(4.10)
+ϖ
+k
+i
+q
+i
+∈
+H
+1
+,
+0
+​
+(
+L
+q
+i
+)
+\displaystyle{\varpi}_{k_{i}}^{q_{i}}\in H^{1,0}(L^{q_{i}})
+,
+ϖ
+¯
+k
+i
+−
+q
+i
+∈
+H
+0
+,
+1
+(
+L
+−
+q
+i
+)
+,
+\displaystyle,\ \ \ \ \overline{\varpi}_{k_{i}}^{-q_{i}}\in H^{0,1}(L^{-q_{i}})\ ,
+with multiplicities
+k
+i
+=
+1
+,
+…
+,
+h
+0
+,
+1
+​
+(
+L
+q
+i
+)
+k_{i}=1,...,h^{0,1}(L^{q_{i}})
+. For notational
+simplicity we define doublets of the charged scalars as
+Φ
+k
+i
+𝐑
+i
+:=
+(
+C
+k
+i
+𝐑
+i
+,
+D
+k
+i
+𝐑
+i
+)
+.
+\Phi^{{\bf R}_{i}}_{k_{i}}:=(C^{{\bf R}_{i}}_{k_{i}},D^{{\bf R}_{i}}_{k_{i}})\ .
+(4.11)
+From (
+4.9
+) we derive the Kaluza-Klein expansion of the field strength
+f
+=
+f
+2
+𝟏
++
+f
+2
+𝔤
++
+∑
+i
+(
+f
+1
+,
+1
+¯
+𝐑
+i
++
+f
+¯
+1
+,
+1
+¯
+𝐑
+¯
+𝐢
+)
++
+f
+2
+¯
+.
+{f}={f}_{2}^{\bf 1}+{f}_{2}^{\bf\mathfrak{g}}+\sum\limits_{i}({f}_{1,\bar{1}}^{{\bf R}_{i}}+\overline{{f}}_{1,\bar{1}}^{\overline{\bf R}_{i}})+{f}_{\bar{2}}\ .
+(4.12)
+Here
+f
+2
+𝟏
+=
+d
+​
+V
+𝟏
+{f}_{2}^{\bf 1}=dV^{\bf 1}
+and
+f
+2
+𝔤
+=
+d
+​
+V
+𝔤
++
+1
+2
+​
+[
+V
+𝔤
+,
+V
+𝔤
+]
+{f}_{2}^{\bf\mathfrak{g}}=dV^{\mathfrak{g}}+\tfrac{1}{2}[V^{\mathfrak{g}},V^{\mathfrak{g}}]
+are the 6D field strengths.
+The terms with one external and one internal tangent index give rise to gauge covariant derivatives of the charged scalars,
+f
+1
+,
+1
+¯
+𝐑
+i
+\displaystyle f_{1,\overline{1}}^{{\bf R}_{i}}
+=
+𝒟
+Φ
+𝐑
+i
+k
+i
+∧
+ω
+q
+i
+k
+i
+,
+𝒟
+Φ
+𝐑
+i
+=
+d
+Φ
+𝐑
+i
+−
+q
+i
+V
+𝟏
+Φ
+𝐑
+i
+−
+V
+a
+(
+τ
+a
+Φ
+)
+𝐑
+i
+.
+\displaystyle={\mathcal{D}}\Phi^{{\bf R}_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{k_{i}},\qquad{\mathcal{D}}\Phi^{{\bf R}_{i}}=d\Phi^{{\bf R}_{i}}-q_{i}V^{\bf 1}\Phi^{{\bf R}_{i}}-V^{a}(\tau_{a}\Phi)^{{\bf R}_{i}}\ .
+(4.13)
+Using the zero mode property
+d
+𝒜
+​
+ω
+k
+i
+q
+i
+=
+d
+𝒜
+​
+ϖ
+k
+i
+q
+i
+=
+0
+d_{\mathcal{A}}\omega_{k_{i}}^{q_{i}}=d_{\mathcal{A}}\varpi_{k_{i}}^{q_{i}}=0
+, the internal fluctuation is given by the commutator
+f
+2
+¯
+=
+1
+2
+​
+∑
+i
+,
+j
+[
+a
+1
+¯
+(
+𝐑
+i
+,
+𝟏
+q
+i
+)
+,
+a
+1
+¯
+(
+𝐑
+j
+,
+𝟏
+q
+j
+)
+]
+.
+{f}_{\bar{2}}=\tfrac{1}{2}\sum\limits_{i,j}\left[a_{\bar{1}}^{({\bf R}_{i},{\bf 1}_{q_{i}})},a_{\bar{1}}^{({\bf R}_{j},{\bf 1}_{q_{j}})}\right]\ .
+(4.14)
+Depending on the surviving gauge group
+G
+G
+, several representations
+can arise
+in (
+4.14
+).
+For
+i
+=
+j
+i=j
+the commutator generates the adjoint representations of the unbroken gauge group
+G
+×
+U
+⁡
+(
+1
+)
+G\times U(1)
+(
+𝐑
+i
+,
+𝟏
+q
+i
+)
+⊗
+(
+𝐑
+¯
+𝐢
+,
+𝟏
+−
+𝐪
+𝐢
+)
+=
+(
+𝔤
+,
+𝟏
+𝟎
+)
+⊕
+(
+𝟏
+,
+𝟏
+𝟎
+)
+⊕
+…
+.
+({\bf R}_{i},{\bf 1}_{q_{i}})\otimes(\overline{\bf R}_{i},{\bf 1}_{-q_{i}})=({\mathfrak{g}},{\bf 1}_{0})\oplus({\bf 1},{\bf 1}_{0})\oplus...\ .
+(4.15)
+It results in field strength fluctuations of the form
+f
+2
+¯
+𝔤
+=
+∑
+i
+(
+C
+¯
+𝐑
+¯
+𝐢
+D
+¯
+𝐑
+¯
+𝐢
+)
+T
+​
+(
+ω
+¯
+−
+q
+i
+∧
+ω
+q
+i
+ω
+¯
+−
+q
+i
+∧
+ϖ
+q
+i
+ϖ
+¯
+−
+q
+i
+∧
+ω
+q
+i
+ϖ
+¯
+−
+q
+i
+∧
+ϖ
+q
+i
+)
+​
+(
+τ
+a
+)
+​
+(
+C
+𝐑
+i
+D
+𝐑
+i
+)
+,
+{f}_{\bar{2}}^{\mathfrak{g}}=\sum\limits_{i}\begin{pmatrix}\overline{C}^{\overline{\bf R}_{i}}\\
+\overline{D}^{\overline{\bf R}_{i}}\end{pmatrix}^{T}\begin{pmatrix}\overline{\omega}^{-q_{i}}\wedge\omega^{q_{i}}&\overline{\omega}^{-q_{i}}\wedge\varpi^{q_{i}}\\
+\overline{\varpi}^{-q_{i}}\wedge\omega^{q_{i}}&\overline{\varpi}^{-q_{i}}\wedge\varpi^{q_{i}}\end{pmatrix}(\tau^{a})\begin{pmatrix}C^{{\bf R}_{i}}\\
+D^{{\bf R}_{i}}\end{pmatrix}\ ,
+(4.16)
+f
+2
+¯
+𝟏
+=
+∑
+i
+q
+i
+​
+(
+C
+¯
+𝐑
+¯
+𝐢
+D
+¯
+𝐑
+¯
+𝐢
+)
+T
+​
+(
+ω
+¯
+−
+q
+i
+∧
+ω
+q
+i
+ω
+¯
+−
+q
+i
+∧
+ϖ
+q
+i
+ϖ
+¯
+−
+q
+i
+∧
+ω
+q
+i
+ϖ
+¯
+−
+q
+i
+∧
+ϖ
+q
+i
+)
+​
+(
+𝕀
+)
+​
+(
+C
+𝐑
+i
+D
+𝐑
+i
+)
+,
+{f}_{\bar{2}}^{\bf 1}=\sum\limits_{i}q_{i}\begin{pmatrix}\overline{C}^{\overline{\bf R}_{i}}\\
+\overline{D}^{\overline{\bf R}_{i}}\end{pmatrix}^{T}\begin{pmatrix}\overline{\omega}^{-q_{i}}\wedge\omega^{q_{i}}&\overline{\omega}^{-q_{i}}\wedge\varpi^{q_{i}}\\
+\overline{\varpi}^{-q_{i}}\wedge\omega^{q_{i}}&\overline{\varpi}^{-q_{i}}\wedge\varpi^{q_{i}}\end{pmatrix}(\mathbb{I})\begin{pmatrix}C^{{\bf R}_{i}}\\
+D^{{\bf R}_{i}}\end{pmatrix}\ ,
+(4.17)
+where we suppressed the multiplicity indices.
+τ
+a
+\tau^{a}
+are the
+𝔤
+\mathfrak{g}
+-generators in the appropriate representation
+𝐑
+i
+{\bf R}_{i}
+.
+The products of zero modes belong to
+H
+2
+​
+(
+L
+q
+i
+⊗
+L
+−
+q
+i
+)
+=
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{2}(L^{q_{i}}\otimes L^{-q_{i}})=H^{2}(K3,\mathbb{R})
+.
+Other representations can occur if the adjoint decomposition allows for other tensor products.
+Let us illustrate this with an explicit example: There exists a Cartan generator for the line bundle
+[
+24
+,
+13
+]
+that breaks
+E
+8
+\displaystyle E_{8}
+⟶
+S
+​
+O
+​
+(
+14
+)
+×
+U
+⁡
+(
+1
+)
+:
+\displaystyle\longrightarrow SO(14)\times U(1):
+(4.18)
+𝟐𝟒𝟖
+\displaystyle{\bf 248}
+⟶
+𝟗𝟏
+0
+⊕
+𝟏
+0
+⊕
+(
+𝟔𝟒
+1
+⊕
+𝟔𝟒
+¯
+−
+𝟏
+)
+⊕
+(
+𝟏𝟒
+𝟐
+⊕
+𝟏𝟒
+¯
+−
+𝟐
+)
+,
+\displaystyle\longrightarrow{\bf 91}_{0}\oplus{\bf 1}_{0}\oplus({\bf 64}_{1}\oplus\overline{\bf 64}_{-1})\oplus({\bf 14}_{2}\oplus\overline{\bf 14}_{-2}),
+where
+𝟔𝟒
+\bf 64
+is the Weyl-spinor of
+S
+​
+O
+​
+(
+14
+)
+SO(14)
+. Then the commutator (
+4.14
+) realizes the tensor products
+𝟔𝟒
+1
+⊗
+𝟔𝟒
+1
+\displaystyle{\bf 64}_{1}\otimes{\bf 64}_{1}
+=
+𝟏𝟒
+2
+⊕
+…
+,
+\displaystyle={\bf 14}_{2}\oplus...,
+(4.19)
+𝟔𝟒
+¯
+−
+𝟏
+⊗
+𝟔𝟒
+¯
+−
+𝟏
+\displaystyle\overline{\bf 64}_{-1}\otimes\overline{\bf 64}_{-1}
+=
+𝟏𝟒
+¯
+−
+𝟐
+⊕
+…
+,
+\displaystyle=\overline{\bf 14}_{-2}\oplus...,
+𝟔𝟒
+1
+⊗
+𝟏𝟒
+¯
+−
+𝟐
+\displaystyle{\bf 64}_{1}\otimes\overline{\bf 14}_{-2}
+=
+𝟔𝟒
+¯
+−
+𝟏
+⊕
+…
+,
+\displaystyle=\overline{\bf 64}_{-1}\oplus...,
+𝟔𝟒
+¯
+−
+𝟏
+⊗
+𝟏𝟒
+𝟐
+\displaystyle\overline{\bf 64}_{-1}\otimes{\bf 14}_{2}
+=
+𝟔𝟒
+1
+⊕
+…
+.
+\displaystyle={\bf 64}_{1}\oplus...\ .
+The first two tensor products
+generate a field strength fluctuation of the form
+f
+2
+¯
+𝟏𝟒
+2
+⊕
+𝟏𝟒
+−
+2
+=
+\displaystyle{f}_{\bar{2}}^{{\bf 14}_{2}\oplus{\bf 14}_{-2}}=
+(
+C
+u
+D
+u
+)
+T
+​
+(
+ω
+1
+∧
+ω
+1
+ω
+1
+∧
+ϖ
+1
+ϖ
+1
+∧
+ω
+1
+ϖ
+1
+∧
+ϖ
+1
+)
+​
+(
+σ
+x
+)
+u
+​
+v
+​
+(
+C
+v
+D
+v
+)
+\displaystyle\begin{pmatrix}C^{u}\\
+D^{u}\end{pmatrix}^{T}\begin{pmatrix}\omega^{1}\wedge\omega^{1}&\omega^{1}\wedge\varpi^{1}\\
+\varpi^{1}\wedge\omega^{1}&\varpi^{1}\wedge\varpi^{1}\end{pmatrix}(\sigma^{x})_{uv}\begin{pmatrix}C^{v}\\
+D^{v}\end{pmatrix}
+(4.20)
++
+(
+C
+¯
+u
+D
+¯
+u
+)
+T
+​
+(
+ω
+¯
+−
+1
+∧
+ω
+¯
+−
+1
+ω
+¯
+−
+1
+∧
+ϖ
+¯
+−
+1
+ϖ
+¯
+−
+1
+∧
+ω
+¯
+−
+1
+ϖ
+¯
+−
+1
+∧
+ϖ
+¯
+−
+1
+)
+​
+(
+σ
+x
+)
+u
+​
+v
+​
+(
+C
+¯
+v
+D
+¯
+v
+)
+,
+\displaystyle+\begin{pmatrix}\overline{C}_{u}\\
+\overline{D}_{u}\end{pmatrix}^{T}\begin{pmatrix}\overline{\omega}^{-1}\wedge\overline{\omega}^{-1}&\overline{\omega}^{-1}\wedge\overline{\varpi}^{-1}\\
+\overline{\varpi}^{-1}\wedge\overline{\omega}^{-1}&\overline{\varpi}^{-1}\wedge\overline{\varpi}^{-1}\end{pmatrix}(\sigma_{x})^{uv}\begin{pmatrix}\overline{C}_{v}\\
+\overline{D}^{v}\end{pmatrix}\ ,
+where we again suppressed the multiplicity indices. The products of zero
+modes belong to
+H
+1
+,
+1
+​
+(
+L
+2
+⊕
+L
+−
+2
+)
+H^{1,1}(L^{2}\oplus L^{-2})
+. The latter two tensor
+products in (
+4.19
+) yield an analogous term
+f
+2
+¯
+𝟔𝟒
+1
+⊕
+𝟔𝟒
+¯
+−
+1
+{f}_{\bar{2}}^{{\bf 64}_{1}\oplus{\overline{\bf 64}}_{-1}}
+. Together we have for this example
+f
+2
+¯
+=
+f
+2
+¯
+𝟗𝟏
+0
++
+f
+2
+¯
+𝟏
+0
++
+f
+2
+¯
+𝟏𝟒
+2
+⊕
+𝟏𝟒
+−
+2
++
+f
+2
+¯
+𝟔𝟒
+1
+⊕
+𝟔𝟒
+¯
+−
+1
+.
+{f}_{\bar{2}}\ =\ {f}^{{\bf 91}_{0}}_{\bar{2}}\ +\ {f}^{{\bf 1}_{0}}_{\bar{2}}\ +\ {f}^{{\bf 14}_{2}\oplus{\bf 14}_{-2}}_{\bar{2}}\ +\ {f}^{{\bf 64}_{1}\oplus{\overline{\bf 64}}_{-1}}_{\bar{2}}\ .
+(4.21)
+4.2
+Reduction of the Kalb-Ramond sector
+The reduction is essentially the same as in section
+3.2
+, so we only present the new features.
+The coupling between the
+b
+b
+-scalars and the charged scalars again arises from the
+ω
+1
+,
+2
+¯
+Y
+​
+M
+\omega_{1,\bar{2}}^{YM}
+component of the Chern-Simons 3-form.
+But due to the Abelian character of the flux the nonvanishing terms are
+ω
+1
+,
+2
+¯
+Y
+​
+M
+=
+∑
+i
+tr
+​
+(
+f
+1
+,
+1
+¯
+𝐑
+i
+∧
+a
+1
+¯
+(
+𝐑
+i
+,
+𝟏
+q
+i
+)
+)
++
+tr
+​
+(
+ℱ
+𝟏
+∧
+a
+1
+𝟏
+)
+.
+\omega_{1,\bar{2}}^{YM}=\sum\limits_{i}\mbox{tr}\Bigl({f}_{1,\bar{1}}^{{\bf R}_{i}}\wedge a_{\bar{1}}^{({\bf R}_{i},{\bf 1}_{q_{i}})}\Bigr)+\mbox{tr}\Bigl({\mathcal{F}}^{\bf 1}\wedge a_{1}^{\bf 1}\Bigr)\ .
+(4.22)
+Compared to (
+3.23
+) we see that the second term in (
+4.22
+)
+vanishes in the standard embedding (as well as for any non-Abelian
+gauge bundle) since in that case there cannot be a 6D vector in the same
+representation as the background field strength
+ℱ
+{\mathcal{F}}
+.
+The first term in (
+4.22
+) generates the skew-symmetric
+Φ
+¯
+​
+𝒟
+↔
+​
+Φ
+\bar{\Phi}\overleftrightarrow{\mathcal{D}}\Phi
+couplings and the second term affinely gauges the
+b
+b
+-scalars under the unbroken
+U
+⁡
+(
+1
+)
+U(1)
+.
+Using the expansion
+ℱ
+=
+−
+i
+​
+X
+​
+m
+I
+​
+η
+I
+{\mathcal{F}}=-iXm^{I}\eta_{I}
+we get
+d
+​
+B
+1
+,
+2
+¯
++
+α
+′
+​
+ω
+1
+,
+2
+¯
+Y
+​
+M
+=
+(
+d
+​
+b
+I
+−
+α
+′
+​
+V
+𝟏
+​
+∥
+X
+∥
+2
+​
+m
+I
+)
+​
+η
+I
++
+α
+′
+​
+∑
+i
+tr
+​
+(
+Φ
+¯
+𝐑
+¯
+𝐢
+​
+𝒟
+↔
+​
+Φ
+𝐑
+i
+)
+,
+dB_{1,\bar{2}}+\alpha^{\prime}\omega_{1,\bar{2}}^{YM}=\left(db^{I}-\alpha^{\prime}V^{\bf 1}\lVert X\rVert^{2}m^{I}\right)\eta_{I}+\alpha^{\prime}\sum\limits_{i}\mbox{tr}\Bigl(\overline{\Phi}^{\overline{\bf R}_{i}}\overleftrightarrow{\mathcal{D}}\Phi^{{\bf R}_{i}}\Bigr)\ ,
+(4.23)
+where
+Φ
+¯
+𝐑
+¯
+𝐢
+​
+𝒟
+↔
+​
+Φ
+𝐑
+i
+=
+\displaystyle\overline{\Phi}^{\overline{\bf R}_{i}}\overleftrightarrow{\mathcal{D}}\Phi^{{\bf R}_{i}}=
+1
+2
+​
+(
+C
+¯
+k
+i
+𝐑
+¯
+𝐢
+D
+¯
+k
+i
+𝐑
+¯
+𝐢
+)
+​
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
+​
+(
+𝒟
+​
+C
+l
+i
+𝐑
+i
+𝒟
+​
+D
+l
+i
+𝐑
+i
+)
+\displaystyle\frac{1}{2}\begin{pmatrix}\overline{C}^{\overline{\bf R}_{i}}_{k_{i}}\\
+\overline{D}^{\overline{\bf R}_{i}}_{k_{i}}\end{pmatrix}\begin{pmatrix}\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\\
+\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\end{pmatrix}\begin{pmatrix}{\mathcal{D}}C^{{\bf R}_{i}}_{l_{i}}\\
+{\mathcal{D}}D^{{\bf R}_{i}}_{l_{i}}\end{pmatrix}
+(4.24)
+−
+1
+2
+​
+(
+𝒟
+​
+C
+¯
+k
+i
+𝐑
+¯
+𝐢
+𝒟
+​
+D
+¯
+k
+i
+𝐑
+¯
+𝐢
+)
+​
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
+​
+(
+C
+l
+i
+𝐑
+i
+D
+l
+i
+𝐑
+i
+)
+.
+\displaystyle-\frac{1}{2}\begin{pmatrix}{\mathcal{D}}\overline{C}^{\overline{\bf R}_{i}}_{k_{i}}\\
+{\mathcal{D}}\overline{D}^{\overline{\bf R}_{i}}_{k_{i}}\end{pmatrix}\begin{pmatrix}\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\\
+\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\end{pmatrix}\begin{pmatrix}C^{{\bf R}_{i}}_{l_{i}}\\
+D^{{\bf R}_{i}}_{l_{i}}\end{pmatrix}\ .
+4.3
+6D Effective action
+Let us now turn to the effective action combining the previous results
+ℒ
+6
+=
+\displaystyle{\mathcal{L}}_{6}=
+1
+2
+R
+∗
+1
+−
+1
+6
+e
+−
+2
+​
+ϕ
+H
+∧
+∗
+H
++
+α
+′
+2
+e
+−
+ϕ
+tr
+F
+𝔤
+∧
+∗
+F
+𝔤
+−
+α
+′
+2
+e
+−
+ϕ
+∥
+X
+∥
+2
+F
+𝟏
+∧
+∗
+F
+𝟏
+\displaystyle\tfrac{1}{2}R*1\ -\ \tfrac{1}{6}e^{-2\phi}H\wedge*H\ +\ \tfrac{\alpha^{\prime}}{2}e^{-\phi}\mbox{tr}F^{\mathfrak{g}}\wedge*F^{\mathfrak{g}}\ -\ \tfrac{\alpha^{\prime}}{2}e^{-\phi}\lVert X\rVert^{2}F^{\bf 1}\wedge*F^{\bf 1}
+(4.25)
++
+9
+2
+d
+ϕ
+∧
+∗
+d
+ϕ
++
+1
+4
+h
+I
+​
+J
+d
+t
+s
+I
+∧
+∗
+d
+t
+s
+J
+−
+1
+8
+​
+𝒱
+2
+d
+𝒱
+∧
+∗
+d
+𝒱
+\displaystyle+\tfrac{9}{2}d\phi\wedge*d\phi\ +\ \tfrac{1}{4}h_{IJ}dt_{s}^{I}\wedge*dt_{s}^{J}\ -\ \tfrac{1}{8{\mathcal{V}}^{2}}d{\mathcal{V}}\wedge*d{\mathcal{V}}
+−
+α
+′
+∑
+i
+G
+k
+i
+​
+l
+i
+𝐑
+i
+tr
+(
+𝒟
+Φ
+¯
+𝐑
+¯
+𝐢
+k
+i
+∧
+∗
+𝒟
+Φ
+𝐑
+i
+l
+i
+)
+−
+1
+6
+​
+𝒱
+g
+I
+​
+J
+𝒟
+b
+I
+∧
+∗
+𝒟
+b
+J
+−
+V
+∗
+1
+.
+\displaystyle-\ \alpha^{\prime}\sum\limits_{i}G_{k_{i}l_{i}}^{{\bf R}_{i}}{\rm tr}\big({\mathcal{D}}\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}\wedge*{\mathcal{D}}\Phi^{{\bf R}_{i}}_{l_{i}}\big)\ -\ \tfrac{1}{6\mathcal{V}}\,g_{IJ}{\mathcal{D}}b^{I}\wedge*{\mathcal{D}}b^{J}-V*1\ .
+F
+𝔤
+F^{\mathfrak{g}}
+is the Yang-Mills field strength of the semi-simple part of the unbroken gauge group and
+F
+𝟏
+F^{\bf 1}
+is
+the field strength of the unbroken
+U
+⁡
+(
+1
+)
+U(1)
+corresponding to the line bundle. The derivatives of the scalars read
+𝒟
+​
+Φ
+𝐑
+i
+\displaystyle{\mathcal{D}}\Phi^{{\bf R}_{i}}
+=
+d
+​
+Φ
+𝐑
+i
+−
+q
+i
+​
+V
+𝟏
+​
+Φ
+𝐑
+i
+−
+V
+a
+​
+(
+τ
+a
+​
+Φ
+)
+𝐑
+i
+,
+\displaystyle=d\Phi^{{\bf R}_{i}}-q_{i}V^{\bf 1}\Phi^{{\bf R}_{i}}-V^{a}(\tau_{a}\Phi)^{{\bf R}_{i}}\ ,
+(4.26)
+𝒟
+​
+b
+I
+\displaystyle{\mathcal{D}}b^{I}
+=
+d
+​
+b
+I
+−
+α
+′
+​
+V
+𝟏
+​
+∥
+X
+∥
+2
+​
+m
+I
++
+α
+′
+​
+ρ
+I
+​
+J
+​
+tr
+​
+(
+Φ
+¯
+k
+i
+𝐑
+¯
+𝐢
+​
+(
+N
+J
+​
+k
+i
+​
+l
+i
+q
+i
+)
+​
+𝒟
+↔
+​
+Φ
+l
+i
+𝐑
+i
+)
+.
+\displaystyle=db^{I}-\alpha^{\prime}V^{\bf 1}\lVert X\rVert^{2}m^{I}+\alpha^{\prime}\rho^{IJ}\mbox{tr}\Bigl(\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}(N_{Jk_{i}l_{i}}^{q_{i}})\overleftrightarrow{\mathcal{D}}\Phi^{{\bf R}_{i}}_{l_{i}}\Bigr)\ .
+We see that the scalars
+Φ
+𝐑
+i
+\Phi^{{\bf R}_{i}}
+are linearly gauged under the entire unbroken gauge group. The
+b
+b
+-scalars are affinely gauged under the unbroken
+U
+⁡
+(
+1
+)
+U(1)
+due to the flux of the line bundle,
+with charges given by the flux vector
+m
+I
+m^{I}
+. The
+2
+×
+2
+2\times 2
+coupling matrix
+(
+N
+J
+​
+k
+i
+​
+l
+i
+q
+i
+)
+(N_{Jk_{i}l_{i}}^{q_{i}})
+is given by
+(
+N
+J
+​
+k
+i
+​
+l
+i
+q
+i
+)
+=
+∫
+η
+J
+∧
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
+.
+(N_{Jk_{i}l_{i}}^{q_{i}})=\int\eta_{J}\wedge\begin{pmatrix}\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\\
+\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\end{pmatrix}\ .
+(4.27)
+The scalar metrics read
+g
+I
+​
+J
+\displaystyle g_{IJ}
+=
+∫
+η
+I
+∧
+⋆
+η
+J
+,
+\displaystyle=\int\eta_{I}\wedge\star\eta_{J}\ ,
+(4.28)
+(
+G
+k
+i
+​
+l
+i
+𝐑
+i
+)
+\displaystyle(G^{{\bf R}_{i}}_{k_{i}l_{i}})
+=
+𝒱
+−
+1
+​
+∫
+(
+ω
+q
+i
+k
+i
+∧
+⋆
+ω
+¯
+−
+q
+i
+l
+i
+0
+0
+ϖ
+q
+i
+k
+i
+∧
+⋆
+ϖ
+¯
+−
+q
+i
+l
+i
+)
+,
+\displaystyle={\mathcal{V}}^{-1}\int\begin{pmatrix}\omega^{q_{i}}_{k_{i}}\wedge\star\overline{\omega}^{-q_{i}}_{l_{i}}&0\\
+0&\varpi^{q_{i}}_{k_{i}}\wedge\star\overline{\varpi}^{-q_{i}}_{l_{i}}\end{pmatrix}\ ,
+so the latter is diagonal in the
+C
+𝐑
+i
+C^{{\bf R}_{i}}
+and
+D
+𝐑
+i
+D^{{\bf R}_{i}}
+fields.
+We now turn to the scalar potential. By the same argument as given in
+(
+3.42
+) for the standard embedding, only the selfdual parts of the field strength fluctuations (
+4.21
+)
+contribute to the potential. It is shown in appendix
+A.4
+that the selfdual parts vanish for all terms which are not in the adjoint representation of the unbroken gauge group
+f
+2
+¯
++
+𝐑
+i
+⊕
+𝐑
+i
+=
+0
+.
+{f}^{{\bf R}_{i}\oplus{\bf R}_{i}}_{{\bar{2}}+}=0\ .
+(4.29)
+On the other hand the selfdual parts of (
+4.16
+) and
+(
+4.17
+) take the form
+f
+2
+¯
++
+𝔤
+=
+∑
+i
+Φ
+¯
+k
+i
+𝐑
+¯
+𝐢
+​
+(
+U
+k
+i
+​
+l
+i
+)
+​
+(
+τ
+a
+​
+Φ
+)
+l
+i
+𝐑
+i
+,
+f
+2
+¯
++
+𝟏
+=
+∑
+i
+q
+i
+​
+Φ
+¯
+k
+i
+𝐑
+¯
+𝐢
+​
+(
+U
+k
+i
+​
+l
+i
+)
+​
+Φ
+l
+i
+𝐑
+i
+,
+{f}_{\bar{2}+}^{\mathfrak{g}}=\sum\limits_{i}\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}(U_{k_{i}l_{i}})(\tau^{a}\Phi)^{{\bf R}_{i}}_{l_{i}}\ ,\qquad{f}_{\bar{2}+}^{\bf 1}=\sum\limits_{i}q_{i}\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}(U_{k_{i}l_{i}})\Phi^{{\bf R}_{i}}_{l_{i}}\ ,
+(4.30)
+where
+U
+k
+i
+​
+l
+i
+=
+(
+i
+2
+​
+G
+k
+i
+​
+l
+i
+C
+​
+J
+1
+2
+​
+c
+k
+i
+​
+l
+i
+​
+Ω
+1
+2
+​
+c
+¯
+k
+i
+​
+l
+i
+​
+Ω
+¯
+i
+2
+​
+G
+k
+i
+​
+l
+i
+D
+​
+J
+)
+.
+U_{k_{i}l_{i}}=\begin{pmatrix}\tfrac{i}{2}G_{k_{i}l_{i}}^{C}J&\tfrac{1}{2}c_{k_{i}l_{i}}\Omega\\[4.30554pt]
+\tfrac{1}{2}\overline{c}_{k_{i}l_{i}}\overline{\Omega}&\tfrac{i}{2}G_{k_{i}l_{i}}^{D}J\end{pmatrix}\ .
+(4.31)
+Note that
+a
+a
+is used for the adjoint
+𝔤
+\mathfrak{g}
+index and that the
+matrix
+U
+U
+depends on the representation
+𝐑
+i
+{\bf R}_{i}
+. As in the standard embedding we find on the diagonal the scalar metrics
+G
+k
+i
+​
+l
+i
+C
+G_{k_{i}l_{i}}^{C}
+and
+G
+k
+i
+​
+l
+i
+D
+G_{k_{i}l_{i}}^{D}
+,
+which are the two matrix elements of (
+4.28
+).
+In the off-diagonal elements we find a generalized “intersection matrix”
+c
+k
+i
+​
+l
+i
+=
+∫
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+∧
+Ω
+¯
+.
+c_{k_{i}l_{i}}=\int\overline{\omega}_{k_{i}}^{-q_{i}}\wedge\varpi_{l_{i}}^{q_{i}}\wedge\overline{\Omega}\ .
+(4.32)
+Identifying the Killing vectors
+K
+k
+i
+a
+=
+(
+τ
+a
+​
+Φ
+k
+i
+)
+𝐑
+i
+,
+K
+k
+i
+𝟏
+=
+q
+i
+​
+Φ
+k
+i
+𝐑
+i
+,
+K
+I
+​
+𝟏
+=
+∥
+X
+∥
+2
+​
+m
+I
+,
+K_{k_{i}}^{a}=(\tau^{a}\Phi_{k_{i}})^{{\bf R}_{i}}\ ,\qquad K^{\bf 1}_{k_{i}}=q_{i}\Phi_{k_{i}}^{{\bf R}_{i}}\ ,\qquad K^{I\bf 1}=\lVert X\rVert^{2}m^{I}\ ,
+(4.33)
+we see that the terms (
+4.30
+), (
+4.31
+) generate
+D
+D
+-terms in the 6D potential. The third Killing vector corresponds to the gauge flux,
+whose selfdual component appears as a Fayet-Iliopoulos term in the Abelian
+D
+D
+-term
+V
+=
+−
+α
+′
+𝒱
+e
+ϕ
+∫
+tr
+(
+(
+ℱ
++
++
+f
+2
+¯
++
+𝟏
+)
+∧
+⋆
+(
+ℱ
++
++
+f
+2
+¯
++
+𝟏
+)
+)
+−
+α
+′
+𝒱
+e
+ϕ
+∫
+tr
+(
+f
+2
+¯
++
+𝔤
+∧
+⋆
+f
+2
+¯
++
+𝔤
+)
+.
+V=-\tfrac{\alpha^{\prime}}{\mathcal{V}}e^{\phi}\int\mbox{tr}\left(({\mathcal{F}}_{+}+{f}_{\bar{2}+}^{\bf 1})\wedge\star({\mathcal{F}}_{+}+{f}_{\bar{2}+}^{\bf 1})\right)-\tfrac{\alpha^{\prime}}{\mathcal{V}}e^{\phi}\int\mbox{tr}\left({f}_{\bar{2}+}^{\bf\mathfrak{g}}\wedge\star{f}_{\bar{2}+}^{\bf\mathfrak{g}}\right)\ .
+(4.34)
+Similar to the analysis in (
+3.45
+) and (
+3.46
+),
+the individual
+D
+D
+-terms can be extracted from (
+4.34
+)
+by the (
+K
+​
+3
+K3
+metric dependent) expansion
+(
+D
+a
+)
+B
+A
+\displaystyle(D^{a})^{A}_{\ B}
+=
+1
+2
+​
+∫
+f
+2
+¯
++
+a
+∧
+J
+s
+⊗
+(
+σ
+(
+s
+)
+)
+B
+A
+,
+\displaystyle=\tfrac{1}{\sqrt{2}}\int{f}_{\bar{2}+}^{a}\wedge J_{s}\otimes(\sigma^{(s)})^{A}_{\ B}\ ,
+(4.35)
+(
+D
+𝟏
+)
+B
+A
+\displaystyle(D^{\bf 1})^{A}_{\ B}
+=
+1
+2
+​
+∫
+(
+ℱ
++
++
+f
+2
+¯
++
+𝟏
+)
+∧
+J
+s
+⊗
+(
+σ
+(
+s
+)
+)
+B
+A
+.
+\displaystyle=\tfrac{1}{\sqrt{2}}\int({\mathcal{F}}_{+}+{f}_{\bar{2}+}^{\bf 1})\wedge J_{s}\otimes(\sigma^{(s)})^{A}_{\ B}\ .
+The generalization of the above results to several line bundles is straightforward. The
+b
+b
+-scalars are then gauged under all Abelian factors
+U
+​
+(
+1
+)
+m
+U(1)_{m}
+with charges proportional to the
+flux vectors
+m
+I
+​
+n
+m^{In}
+. For line bundles which are not orthogonal,
+X
+n
+⋅
+X
+m
+≠
+0
+X^{n}\cdot X^{m}\neq 0
+, kinetic mixing of the different
+F
+𝟏
+m
+F^{{\bf 1}_{m}}
+field strengths occurs
+ℒ
+6
+k
+​
+i
+​
+n
+∼
+−
+α
+′
+2
+e
+−
+ϕ
+∑
+m
+,
+n
+(
+X
+m
+⋅
+X
+n
+)
+F
+𝟏
+m
+∧
+∗
+F
+𝟏
+n
+.
+{\mathcal{L}}_{6}^{kin}\sim-\tfrac{\alpha^{\prime}}{2}e^{-\phi}\sum\limits_{m,n}(X^{m}\cdot X^{n})F^{{\bf 1}_{m}}\wedge*F^{{\bf 1}_{n}}\ .
+(4.36)
+Also the 6D
+H
+H
+-field may contain mixed Abelian Chern-Simons couplings
+(see (
+2.13
+)).
+The scalar potential takes the form
+V
+=
+α
+′
+𝒱
+e
+ϕ
+(
+X
+n
+⋅
+X
+m
+)
+∫
+(
+ℱ
++
+n
++
+f
+2
+¯
++
+𝟏
+n
+)
+∧
+⋆
+(
+ℱ
++
+m
++
+f
+2
+¯
++
+𝟏
+m
+)
+−
+α
+′
+𝒱
+e
+ϕ
+∫
+tr
+(
+f
+2
+¯
++
+𝔤
+∧
+⋆
+f
+2
+¯
++
+𝔤
+)
+.
+V=\tfrac{\alpha^{\prime}}{\mathcal{V}}e^{\phi}(X^{n}\cdot X^{m})\int({\mathcal{F}}_{+}^{n}+f_{{\bar{2}}+}^{{\bf 1}_{n}})\wedge\star({\mathcal{F}}_{+}^{m}+f_{{\bar{2}}+}^{{\bf 1}_{m}})-\tfrac{\alpha^{\prime}}{\mathcal{V}}e^{\phi}\int\mbox{tr}\left({f}_{\bar{2}+}^{\bf\mathfrak{g}}\wedge\star{f}_{\bar{2}+}^{\bf\mathfrak{g}}\right)\ .
+(4.37)
+Here
+f
+2
+¯
++
+𝟏
+n
+f_{{\bar{2}}+}^{{\bf 1}_{n}}
+is the direct generalization of (
+4.17
+) containing all charged matter fields charged under
+U
+​
+(
+1
+)
+n
+U(1)_{n}
+.
+The explicit form of the scalar potential reads
+V
+=
+\displaystyle V=
+α
+′
+​
+e
+ϕ
+𝒱
+(
+X
+n
+⋅
+X
+m
+)
+∫
+(
+ℱ
++
+n
++
+∑
+i
+q
+n
+i
+Φ
+¯
+𝐑
+¯
+𝐢
+k
+i
+(
+U
+k
+i
+​
+l
+i
+)
+Φ
+𝐑
+i
+l
+i
+)
+∧
+⋆
+(
+ℱ
++
+m
++
+∑
+i
+q
+m
+i
+Φ
+¯
+𝐑
+¯
+𝐢
+k
+i
+(
+U
+k
+i
+​
+l
+i
+)
+Φ
+𝐑
+i
+l
+i
+)
+\displaystyle\tfrac{\alpha^{\prime}e^{\phi}}{{\mathcal{V}}}(X^{n}\cdot X^{m})\int\Bigl({\mathcal{F}}_{+}^{n}+\sum\limits_{i}q^{n}_{i}\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}(U_{k_{i}l_{i}})\Phi^{{\bf R}_{i}}_{l_{i}}\Bigr)\wedge\star\Bigl({\mathcal{F}}_{+}^{m}+\sum\limits_{i}q^{m}_{i}\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}(U_{k_{i}l_{i}})\Phi^{{\bf R}_{i}}_{l_{i}}\Bigr)
+(4.38)
++
+α
+′
+​
+e
+ϕ
+𝒱
+∑
+a
+∫
+(
+∑
+i
+Φ
+¯
+𝐑
+¯
+𝐢
+k
+i
+(
+U
+k
+i
+​
+l
+i
+)
+(
+τ
+a
+Φ
+)
+𝐑
+i
+l
+i
+)
+∧
+⋆
+(
+∑
+i
+Φ
+¯
+𝐑
+¯
+𝐢
+k
+i
+(
+U
+k
+i
+​
+l
+i
+)
+(
+τ
+a
+Φ
+)
+𝐑
+i
+l
+i
+)
+,
+\displaystyle+\tfrac{\alpha^{\prime}e^{\phi}}{{\mathcal{V}}}\sum\limits_{a}\int\Bigl(\sum\limits_{i}\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}(U_{k_{i}l_{i}})(\tau^{a}\Phi)^{{\bf R}_{i}}_{l_{i}}\Bigr)\wedge\star\Bigl(\sum\limits_{i}\overline{\Phi}^{\overline{\bf R}_{i}}_{k_{i}}(U_{k_{i}l_{i}})(\tau^{a}\Phi)^{{\bf R}_{i}}_{l_{i}}\Bigr)\ ,
+where
+q
+i
+n
+q_{i}^{n}
+is the charge of the field
+Φ
+𝐑
+i
+\Phi^{{\bf R}_{i}}
+under the group
+U
+​
+(
+1
+)
+n
+U(1)_{n}
+.
+Recalling the general argument in section
+3.4
+, the rigid fluxes of the line bundle background stabilize some of the
+K
+​
+3
+K3
+moduli.
+The Fayet-Iliopoulos term
+ℱ
++
+{\mathcal{F}}_{+}
+in (
+4.34
+) is generated by those
+K
+​
+3
+K3
+metric deformations that violate the ASD condition of the Yang-Mills background.
+Hence, their mass is lifted to a nonzero value.
+Since we have an Abelian gauge flux in the case of line bundles, i.e.
+ℱ
+∈
+H
+2
+​
+(
+K
+​
+3
+,
+ℤ
+)
+{\mathcal{F}}\in H^{2}(K3,\mathbb{Z})
+,
+we get an intuitive picture of the moduli stabilization in terms
+of the 3-plane
+Σ
+∈
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+\Sigma\in H^{2}(K3,\mathbb{R})
+, introduced in section
+2.2
+.
+The ASD condition (
+3.4
+) can be written as
+ℱ
+⟂
+Σ
+,
+{\mathcal{F}}\perp\Sigma\ ,
+(4.39)
+where orthogonality is defined with respect to the intersection matrix
+ρ
+\rho
+.
+Hence, massless deformations of the
+K
+​
+3
+K3
+metric are given by all motions of
+Σ
+\Sigma
+, preserving (
+4.39
+).
+For
+N
+N
+line bundles the massless metric deformations are constrained to the subspace orthogonal to the flux vectors
+{
+m
+1
+,
+…
+,
+m
+N
+}
+\{{m}^{1},...,{m}^{N}\}
+.
+If all
+N
+N
+flux vector are linearly independent, the remaining moduli space is described by the Grassmannian manifold
+ℳ
+~
+K
+​
+3
+=
+O
+⁡
+(
+3
+,
+19
+−
+N
+)
+O
+⁡
+(
+3
+)
+×
+O
+⁡
+(
+19
+−
+N
+)
+×
+ℝ
++
+,
+\tilde{{\mathcal{M}}}_{K3}=\frac{O(3,19-N)}{O(3)\times O(19-N)}\times\mathbb{R}^{+},
+(4.40)
+so there are
+3
+​
+N
+3N
+moduli stabilized and
+dim
+​
+ℳ
+~
+K
+​
+3
+=
+58
+−
+3
+​
+N
+\mbox{dim}\ \tilde{{\mathcal{M}}}_{K3}=58-3N
+. For
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+we have
+N
+m
+​
+a
+​
+x
+=
+16
+N_{max}=16
+,
+which stabilizes all but 10 moduli and leaves
+U
+​
+(
+1
+)
+16
+U(1)^{16}
+unbroken. For a GUT group to survive in 6D
+a larger number of moduli has to stay unfixed.
+Finally, let us mention that there exists also a moduli space for the
+charged scalars which consists of all
+D
+D
+-flat directions
+C
+k
+i
+𝐑
+,
+D
+k
+i
+𝐑
+≠
+0
+C^{\bf R}_{k_{i}},D^{\bf R}_{k_{i}}\neq 0
+, satisfying
+D
+a
+=
+D
+𝟏
+=
+0
+D^{a}=D^{\bf 1}=0
+.
+The corresponding Higgs branch has a smaller gauge group with less
+massless hypermultiplets
+[
+59
+]
+.
+4.4
+Stückelberg mechanism and massive U(1)s
+We close this paper by analyzing the effect of the affinely gauged
+scalars
+b
+I
+b^{I}
+(cf. (
+4.26
+)).
+Let us first focus on one line bundle for simplicity. In this case
+the
+U
+⁡
+(
+1
+)
+U(1)
+gauge symmetry acts according to
+V
+𝟏
+\displaystyle V^{\bf 1}
+⟶
+V
+𝟏
++
+d
+χ
+,
+b
+I
+⟶
+b
+I
++
+α
+′
+m
+I
+χ
+.
+\displaystyle\longrightarrow V^{\bf 1}+d\chi\ ,\qquad b^{I}\longrightarrow b^{I}+\alpha^{\prime}m^{I}\chi\ .
+(4.41)
+This implies that
+one combination of
+b
+I
+b^{I}
+can be gauged to zero with
+V
+𝟏
+V^{\bf 1}
+becoming massive which is known as the Stückelberg mechanism.
+12
+12
+12
+In 6D this effect is independent of possible Abelian anomalies
+[
+30
+]
+.
+The mass term (in the Einstein frame) is found from (
+4.26
+) to be
+α
+′
+2
+6
+​
+𝒱
+∥
+X
+∥
+2
+V
+𝟏
+∧
+∗
+V
+𝟏
+∫
+tr
+(
+ℱ
+∧
+⋆
+ℱ
+)
+=
+−
+α
+′
+2
+6
+​
+𝒱
+∥
+X
+∥
+4
+V
+𝟏
+∧
+∗
+V
+𝟏
+ρ
+I
+​
+J
+m
+I
+m
+J
+,
+\tfrac{\alpha^{\prime 2}}{6\mathcal{V}}\lVert X\rVert^{2}V^{\bf 1}\wedge*V^{\bf 1}\int\mbox{tr}({\mathcal{F}}\wedge\star{\mathcal{F}})=-\tfrac{\alpha^{\prime 2}}{6\mathcal{V}}\lVert X\rVert^{4}V^{\bf 1}\wedge*V^{\bf 1}\rho_{IJ}m^{I}m^{J}\ ,
+(4.42)
+where we used the ASD condition
+⋆
+ℱ
+=
+−
+ℱ
+\star{\mathcal{F}}=-{\mathcal{F}}
+.
+To identify the physical mass we need to absorb a factor
+α
+′
+​
+∥
+V
+∥
+\sqrt{\alpha^{\prime}}\lVert V\rVert
+into
+V
+𝟏
+V^{\bf 1}
+in order to get a
+canonical kinetic term as can be seen from (
+3.29
+).
+Using the tadpole condition (
+4.8
+) the physical mass reads
+m
+=
+4
+​
+α
+′
+𝒱
+.
+m=4\sqrt{\tfrac{\alpha^{\prime}}{\mathcal{V}}}\ .
+(4.43)
+Note that the physical mass only depends on the
+K
+​
+3
+K3
+volume.
+If there are
+N
+N
+line bundles with flux parameters
+m
+I
+​
+n
+=
+(
+m
+I
+​
+1
+,
+…
+,
+m
+I
+​
+N
+)
+{m}^{In}=(m^{I1},...,m^{IN})
+, the
+b
+I
+b^{I}
+are coupled to all of them and generically all
+“fluxed”
+U
+⁡
+(
+1
+)
+U(1)
+’s become massive. However, if some flux vectors are linearly dependent,
+dim span
+​
+{
+m
+1
+,
+…
+,
+m
+N
+}
+=
+K
+<
+N
+\mbox{dim span}\{m^{1},...,m^{N}\}=K<N
+, the rank of the mass matrix is reduced and there remain
+N
+−
+K
+N-K
+massless
+U
+⁡
+(
+1
+)
+U(1)
+’s in the spectrum.
+Let us show which combination of
+b
+I
+b_{I}
+-scalars is eaten by which combination of
+U
+⁡
+(
+1
+)
+U(1)
+’s. In an integral basis of
+H
+2
+​
+(
+K
+​
+3
+,
+ℤ
+)
+H^{2}(K3,\mathbb{Z})
+we define
+q
+I
+​
+n
+=
+∥
+V
+n
+∥
+​
+m
+I
+​
+n
+∈
+ℤ
+q^{In}=\lVert V^{n}\rVert m^{In}\in\mathbb{Z}
+and look for the orthogonalization
+ℒ
+6
+∼
+g
+I
+​
+J
+​
+(
+d
+​
+b
+I
+−
+q
+I
+​
+n
+​
+V
+n
+𝟏
+)
+2
+=
+g
+~
+I
+​
+J
+​
+(
+d
+​
+b
+~
+I
+−
+λ
+I
+​
+n
+​
+V
+~
+n
+𝟏
+)
+2
+.
+{\mathcal{L}}_{6}\sim g_{IJ}(db^{I}-q^{In}V_{n}^{\bf 1})^{2}=\tilde{g}_{IJ}(d\tilde{b}^{I}-\lambda^{In}\tilde{V}_{n}^{\bf 1})^{2}\ .
+(4.44)
+For
+K
+K
+linear independent flux vectors the
+22
+×
+N
+22\times N
+matrix
+q
+I
+​
+n
+q^{In}
+has rank
+K
+K
+and hence can be be brought to the following form (e.g.
+N
+=
+3
+,
+K
+=
+2
+N=3,K=2
+)
+q
+I
+​
+n
+↦
+O
+J
+I
+​
+q
+J
+​
+m
+​
+U
+m
+n
+=
+λ
+I
+​
+n
+=
+(
+λ
+1
+0
+0
+…
+0
+λ
+2
+0
+…
+0
+0
+0
+…
+)
+,
+q^{In}\mapsto O^{I}_{\ J}q^{Jm}U^{n}_{\ m}=\lambda^{In}=\begin{pmatrix}\lambda^{1}&0&0&\ldots\\
+0&\lambda_{2}&0&\ldots\\
+0&0&0&\ldots\end{pmatrix}\ ,
+(4.45)
+where
+O
+∈
+O
+⁡
+(
+22
+)
+O\in O(22)
+and
+U
+∈
+O
+⁡
+(
+N
+)
+U\in O(N)
+.
+This determines the preferred basis
+V
+~
+n
+𝟏
+=
+U
+n
+p
+​
+V
+p
+𝟏
+,
+b
+~
+I
+=
+O
+J
+I
+​
+b
+J
+,
+\tilde{V}_{n}^{\bf 1}=U_{n}^{\ p}V_{p}^{\bf 1}\ ,\qquad\tilde{b}^{I}=O^{I}_{\ J}b^{J}\ ,
+(4.46)
+in which the first
+K
+K
+b
+~
+\tilde{b}
+scalars are the Goldstone bosons of the first
+K
+K
+gauge potentials.
+More precisely, one goes to a basis of
+H
+2
+​
+(
+K
+​
+3
+,
+ℤ
+)
+H^{2}(K3,\mathbb{Z})
+where the flux hyperplane
+span
+​
+(
+m
+1
+,
+…
+,
+m
+n
+)
+\mbox{span}(m^{1},\ldots,m^{n})
+is spanned by the first
+K
+K
+harmonic 2-forms
+η
+~
+1
+,
+…
+​
+η
+~
+K
+\tilde{\eta}_{1},\ldots\tilde{\eta}_{K}
+.
+The special form of
+λ
+I
+​
+n
+\lambda^{In}
+however does not tell us if this basis is orthogonal with respect
+to the intersection matrix (
+2.19
+).
+Since we have
+⋆
+ℱ
+n
+=
+−
+ℱ
+n
+\star{\mathcal{F}}^{n}=-{\mathcal{F}}^{n}
+for each gauge flux, the mass terms read
+α
+′
+6
+​
+𝒱
+V
+n
+𝟏
+∧
+∗
+V
+m
+𝟏
+∫
+ℱ
+n
+∧
+⋆
+ℱ
+m
+=
+−
+α
+′
+6
+​
+𝒱
+V
+~
+n
+𝟏
+∧
+∗
+V
+~
+m
+𝟏
+ρ
+~
+I
+​
+J
+λ
+I
+​
+n
+λ
+J
+​
+m
+,
+\tfrac{\alpha^{\prime}}{6\mathcal{V}}{V}_{n}^{\bf 1}\wedge*{V}_{m}^{\bf 1}\int{\mathcal{F}}^{n}\wedge\star{\mathcal{F}}^{m}=-\tfrac{\alpha^{\prime}}{6\mathcal{V}}\tilde{V}_{n}^{\bf 1}\wedge*\tilde{V}_{m}^{\bf 1}\tilde{\rho}_{IJ}\lambda^{In}\lambda^{Jm}\ ,
+(4.47)
+where
+ρ
+~
+I
+​
+J
+=
+O
+I
+K
+​
+O
+J
+L
+​
+ρ
+K
+​
+L
+\tilde{\rho}_{IJ}=O_{I}^{\ K}O_{J}^{\ L}\rho_{KL}
+.
+In general
+ρ
+~
+I
+​
+J
+\tilde{\rho}_{IJ}
+will not be diagonal and hence the mass term will not be diagonal in
+n
+,
+m
+n,m
+.
+Therefore, the mass eigenbasis is generically different from the “Goldstone eigenbasis”.
+Note that again the mass matrix only depends on the volume modulus and that the trace of the (squared) mass matrix is fixed by the tadpole condition
+tr
+​
+(
+M
+2
+)
+=
+∑
+n
+(
+−
+1
+3
+​
+α
+′
+𝒱
+​
+ρ
+~
+I
+​
+J
+​
+λ
+I
+​
+n
+​
+λ
+J
+​
+n
+)
+=
+16
+​
+α
+′
+𝒱
+.
+\mbox{tr}(M^{2})=\sum\limits_{n}(-\tfrac{1}{3}\tfrac{\alpha^{\prime}}{\mathcal{V}}\tilde{\rho}_{IJ}\lambda^{In}\lambda^{Jn})=16\,\tfrac{\alpha^{\prime}}{\mathcal{V}}\ .
+(4.48)
+5
+Conclusion
+In this paper we derived the six-dimensional
+low energy effective action of
+the heterotic string compactified on
+K
+​
+3
+K3
+.
+Consistency requires a nontrivial gauge bundle
+on
+K
+​
+3
+K3
+and for concreteness we chose to
+consider first the standard embedding and second a flux background with
+U
+⁡
+(
+1
+)
+U(1)
+line bundles.
+In both cases we performed a Kaluza-Klein reduction starting from
+the ten-dimensional action.
+Specifically we focused on the gauge sector where charged and neutral
+scalars (bundle moduli) arise as massless deformations of the internal gauge
+bundle.
+We carefully performed a KK-reduction and computed the
+sigma-model metric and the scalar potential of the six-dimensional action
+as a functions of the geometrical
+K
+​
+3
+K3
+moduli and the axionic scalars arising from the NS
+B
+B
+-field.
+For the scalar potential we showed the
+consistency with the generic 6D,
+𝒩
+=
+1
+{\mathcal{N}}=1
+supergravity
+in that it arises solely from a
+D
+D
+-term.
+The sigma-model metric is constrained to be a quaternionic-Kähler
+metric which, however, we could only show in an appropriate orbifold
+limit.
+The proof that the full metric computed in this paper is indeed
+quaternionic-Kähler is left for a future project.
+The line bundle backgrounds are realized by Abelian Yang-Mills fluxes
+on
+K
+​
+3
+K3
+.
+They affect the 6D theories in that the scalars arising from the
+B
+B
+-field
+become affinely gauged under the unbroken
+U
+⁡
+(
+1
+)
+U(1)
+’s.
+This in turn gives a mass to the
+U
+⁡
+(
+1
+)
+U(1)
+gauge fields via a
+Stückelberg mechanism.
+For several line bundles which are linearly dependent in
+H
+2
+​
+(
+K
+​
+3
+,
+ℤ
+)
+H^{2}(K3,\mathbb{Z})
+, massless
+U
+⁡
+(
+1
+)
+U(1)
+gauge fields remain in the 6D theory.
+At the same time the fluxes stabilize those
+K
+​
+3
+K3
+moduli
+which violate the anti-selfduality of the Yang-Mills field
+strength.
+In the effective potential this is realized as a Fayet-Iliopoulos term
+proportional to the flux vector.
+Together, one line bundle eliminates four scalars (one
+B
+B
+scalar and
+three
+K
+​
+3
+K3
+moduli) from the effective theory, which are absorbed into a
+massive vector multiplet.
+Recently
+[
+60
+]
+derived the 6D effective action of F-theory
+compactified on a Calabi-Yau three-fold
+X
+X
+. When
+X
+X
+is a
+K
+​
+3
+K3
+fibration,
+this background is dual to the heterotic theory compactified on
+K
+​
+3
+K3
+studied
+in this paper. It would be interesting to compare the two effective actions. On the
+F-theory side one may use our results to get information on the
+couplings of the charged matter
+(in
+[
+60
+]
+the action was derived on a generic point in the Coulomb branch, where these
+fields are massive, but eventually one has to go away from this branch in the F-theory
+limit). On the heterotic side one may use the results of
+[
+60
+]
+to understand the couplings of non-perturbative
+tensors (that in F-theory appear at perturbative level).
+Acknowledgments
+This work was supported by the German Science Foundation (DFG) within
+the Collaborative Research Center (SFB) 676. We have greatly benefited
+from conversations and correspondence with
+A.P. Braun, W. Buchmüller, A. Collinucci, V. Cortés, T. Grimm,
+S. Groot Nibbelink,
+G. Honecker,
+J.  Schmidt and C. Scrucca.
+Appendix A
+Details of the Kaluza-Klein reduction
+A.1
+Deformations of gauge connections
+In this appendix
+we give a detailed derivation of the Kaluza-Klein reduction of the gauge potential, from which all bosonic matter fields descend. The low energy spectrum is determined by the gauge
+background consisting of a nontrivial holomorphic
+H
+H
+-bundle over
+K
+​
+3
+K3
+and a flat
+G
+G
+-bundle over
+M
+1
+,
+5
+M^{1,5}
+E
+8
+×
+E
+8
+⟶
+G
+×
+⟨
+H
+⟩
+,
+E_{8}\times E_{8}\longrightarrow G\times\langle H\rangle\ ,
+(A.1)
+where
+G
+G
+is the maximal commutant of
+H
+H
+. The
+H
+H
+-bundle satisfies the Bianchi identity (
+3.1
+) and its nonzero field strength
+ℱ
+{\mathcal{F}}
+satisfies the hermitean Yang-Mills equations (HYM)
+ℱ
+∈
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+𝔥
+)
+,
+ℱ
+∧
+J
+=
+0
+.
+{\mathcal{F}}\in H^{1,1}(K3,\mathfrak{h}),\ \ \ \ {\mathcal{F}}\wedge J=0\ .
+(A.2)
+Here we write
+𝔥
+\mathfrak{h}
+for the adjoint
+H
+H
+-bundle. (
+A.2
+)
+is equivalent to the anti-selfduality (ASD) of the field strength,
+⋆
+ℱ
+=
+−
+ℱ
+\star{\mathcal{F}}=-{\mathcal{F}}
+[
+40
+,
+41
+]
+.
+We denote the background connection, valued in
+𝔥
+{\mathfrak{h}}
+,
+as
+𝒜
+{\mathcal{A}}
+and its deformations give rise to massless 6D
+fields.
+13
+13
+13
+Since we insist on six-dimensional Lorentz
+invariance we do not include the possibility of
+a background value for the 6D gauge field.
+These deformations are grouped into multiplets according to the decomposition
+𝟒𝟗𝟔
+→
+⨁
+i
+(
+𝐑
+i
+,
+𝐒
+i
+)
+⊕
+(
+𝔤
+,
+𝟏
+)
+⊕
+(
+𝟏
+,
+𝔥
+)
+,
+{\bf 496}\rightarrow\bigoplus_{i}\ ({\bf R}_{i},{\bf S}_{i})\oplus({\mathfrak{g}},{\bf 1})\oplus({\bf 1},{\mathfrak{h}})\ ,
+(A.3)
+where
+𝔤
+{\mathfrak{g}}
+and
+𝔥
+{\mathfrak{h}}
+denote the adjoint representations of
+G
+G
+and
+H
+H
+, respectively. The
+𝟏
+{\bf 1}
+is the trivial representation and
+(
+𝐑
+i
+,
+𝐒
+i
+)
+({\bf R}_{i},{\bf S}_{i})
+are group specific representations.
+It is known from supersymmetry that massless 6D hypermultiplets in
+representations
+𝐑
+i
+{\bf R}_{i}
+occur with multiplicities given by the
+chiral index
+[
+24
+]
+χ
+⁡
+(
+E
+𝐒
+i
+)
+=
+h
+0
+,
+0
+​
+(
+K
+​
+3
+,
+E
+𝐒
+i
+)
+−
+h
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+𝐒
+i
+)
++
+h
+0
+,
+2
+​
+(
+K
+​
+3
+,
+E
+𝐒
+i
+)
+,
+\chi(E_{{\bf S}_{i}})=h^{0,0}(K3,E_{{\bf S}_{i}})-h^{0,1}(K3,E_{{\bf S}_{i}})+h^{0,2}(K3,E_{{\bf S}_{i}})\ ,
+(A.4)
+where
+E
+𝐒
+i
+E_{{\bf S}_{i}}
+denotes the vector bundle associated with
+𝐒
+i
+{\bf S}_{i}
+.
+14
+14
+14
+χ
+\chi
+is called chiral index due to the equivalent definition
+χ
+⁡
+(
+E
+)
+=
+n
+E
++
+−
+n
+E
+−
+\chi(E)=n^{+}_{E}-n^{-}_{E}
+,
+where
+n
+E
+±
+n_{E}^{\pm}
+count the chiral zero modes of the Dirac operator.
+On
+K
+​
+3
+K3
+one has
+χ
+⁡
+(
+E
+)
+=
+χ
+⁡
+(
+E
+∗
+)
+\chi(E)=\chi(E^{*})
+, so complex conjugate representations always
+occur with equal multiplicities. Due to the definite chiralities in
+the vector- and hypermultiplets,
+χ
+⁡
+(
+E
+)
+\chi(E)
+counts the difference of
+them.
+In fact,
+h
+0
+,
+0
+​
+(
+K
+​
+3
+,
+E
+)
+h^{0,0}(K3,E)
+and
+h
+0
+,
+2
+​
+(
+K
+​
+3
+,
+E
+)
+h^{0,2}(K3,E)
+vanish for a HYM background.
+This can be seen as follows:
+H
+0
+,
+0
+​
+(
+K
+​
+3
+,
+E
+)
+H^{0,0}(K3,E)
+is the space of global
+sections of
+E
+E
+, which are closed with respect to the covariant
+Dolbeault
+operator
+∂
+¯
+𝒜
+\bar{\partial}_{\mathcal{A}}
+on
+K
+​
+3
+K3
+.
+But for sections of a HYM-bundle we have the identity
+15
+15
+15
+A proof can
+be found, for example, in appendix E of
+[
+61
+]
+.
+d
+𝒜
+∗
+​
+d
+𝒜
+=
+2
+​
+∂
+¯
+𝒜
+∗
+​
+∂
+¯
+𝒜
+,
+d_{\mathcal{A}}^{*}d_{\mathcal{A}}=2\bar{\partial}_{\mathcal{A}}^{*}\bar{\partial}_{\mathcal{A}}\ ,
+(A.5)
+where
+d
+𝒜
+=
+∂
+𝒜
++
+∂
+¯
+𝒜
+d_{\mathcal{A}}=\partial_{\mathcal{A}}+\bar{\partial}_{\mathcal{A}}
+.
+Therefore any such section is also covariantly
+constant.
+When
+E
+E
+is nontrivial and irreducible, no constant sections
+exist. The vanishing of
+H
+0
+,
+2
+​
+(
+K
+​
+3
+,
+E
+)
+H^{0,2}(K3,E)
+then follows by Serre
+duality
+[
+62
+]
+.
+For the Kaluza-Klein reduction of the bosonic action it is not enough to know this multiplicity.
+One has to know which internal differential equation the zero modes satisfy.
+Therefore we analyze the deformations of the gauge connection without referring to supersymmetry.
+Starting from the 10D Yang-Mills Lagrangian
+ℒ
+Y
+​
+M
+∼
+⟨
+F
+,
+F
+⟩
+=
+tr
+(
+F
+∧
+∗
+F
+)
+,
+{\mathcal{L}}^{YM}\sim\langle F,F\rangle=\mbox{tr}(F\wedge*F)\ ,
+(A.6)
+we parametrize the deformations by
+A
+=
+𝒜
++
+a
+A={\mathcal{A}}+a
+with
+a
+∈
+Λ
+1
+​
+(
+𝔢
+8
+)
+a\in\Lambda^{1}({\mathfrak{e}}_{8})
+.
+For simplicity we assume that the background
+H
+H
+-bundle is inside one
+E
+8
+E_{8}
+and consider only deformations inside this
+E
+8
+E_{8}
+.
+We restrict
+a
+a
+to be compatible with the metric on the adjoint
+E
+8
+E_{8}
+bundle.
+16
+16
+16
+This amounts to the condition that the deformed connection
+A
+=
+𝒜
++
+a
+A={\mathcal{A}}+a
+satisfies
+d
+⁡
+(
+h
+⁡
+(
+ψ
+1
+,
+ψ
+2
+)
+)
+=
+h
+⁡
+(
+d
+A
+​
+ψ
+1
+,
+ψ
+2
+)
++
+h
+⁡
+(
+ψ
+1
+,
+d
+A
+​
+ψ
+2
+)
+d(h(\psi_{1},\psi_{2}))=h(d_{A}\psi_{1},\psi_{2})+h(\psi_{1},d_{A}\psi_{2})
+, where
+h
+h
+is the adjoint metric, i.e. locally the Killing form of the Lie algebra, and
+ψ
+1
+,
+ψ
+2
+\psi_{1},\psi_{2}
+are sections of the adjoint bundle.
+The field strength deforms as
+F
+=
+ℱ
++
+f
+,
+f
+=
+d
+𝒜
+​
+a
++
+1
+2
+​
+[
+a
+,
+a
+]
+.
+F={\mathcal{F}}+f\ ,\qquad f=d_{\mathcal{A}}a+\tfrac{1}{2}[a,a]\ .
+(A.7)
+As in the main text we decompose
+a
+=
+a
+1
++
+a
+1
+¯
+a=a_{1}+a_{\bar{1}}
+into 1-forms on
+M
+1
+,
+5
+M^{1,5}
+and on
+K
+​
+3
+K3
+. They deform the flat
+G
+G
+- and the curved
+H
+H
+-connection, respectively. Their 6D effective mass terms
+are given by
+ℒ
+6
+m
+​
+a
+​
+s
+​
+s
+[
+a
+1
+]
+∼
+∫
+K
+​
+3
+tr
+(
+d
+𝒜
+a
+1
+∧
+⋆
+d
+𝒜
+a
+1
+)
+,
+{\mathcal{L}}_{6}^{mass}[a_{1}]\sim\int\limits_{K3}\mbox{tr}(d_{\mathcal{A}}a_{1}\wedge\star d_{\mathcal{A}}a_{1})\ ,
+(A.8)
+ℒ
+6
+m
+​
+a
+​
+s
+​
+s
+[
+a
+1
+¯
+]
+∼
+∫
+K
+​
+3
+tr
+(
+d
+𝒜
+a
+1
+¯
+∧
+⋆
+d
+𝒜
+a
+1
+¯
+)
++
+∫
+K
+​
+3
+tr
+(
+a
+1
+¯
+∧
+⋆
+[
+ℱ
+,
+a
+1
+¯
+]
+)
+.
+{\mathcal{L}}_{6}^{mass}[a_{\bar{1}}]\sim\int\limits_{K3}\mbox{tr}(d_{\mathcal{A}}a_{\bar{1}}\wedge\star d_{\mathcal{A}}a_{\bar{1}})+\int\limits_{K3}\mbox{tr}(a_{\bar{1}}\wedge\star[{\mathcal{F}},a_{\bar{1}}])\ .
+(A.9)
+From (
+A.8
+) it follows that massless 6D vectors
+V
+i
+V_{i}
+arise from deformations with
+d
+𝒜
+​
+a
+1
+=
+0
+d_{\mathcal{A}}a_{1}=0
+. Therefore the Kaluza-Klein expansion reads
+a
+1
+=
+V
+⋅
+ψ
+,
+d
+𝒜
+​
+ψ
+=
+0
+,
+a_{1}=V\cdot\psi\ ,\qquad d_{\mathcal{A}}\psi=0\ ,
+(A.10)
+with internal covariantly constant functions (sections)
+ψ
+\psi
+. Since there exist no globally constant sections on nontrivial vector bundles,
+massless 6D vectors can only occur from the term
+(
+𝔤
+,
+𝟏
+)
+({\mathfrak{g}},{\bf 1})
+in (
+A.3
+). From the identity (
+A.5
+)
+(on sections) it follows that
+ker
+​
+(
+d
+𝒜
+)
+=
+ker
+​
+(
+∂
+¯
+𝒜
+)
+\mbox{ker}(d_{\mathcal{A}})=\mbox{ker}({\bar{\partial}}_{\mathcal{A}})
+. Hence the multiplicity is given by Dolbeault cohomology
+h
+0
+,
+0
+​
+(
+K
+​
+3
+,
+E
+𝟏
+)
+=
+h
+0
+,
+0
+​
+(
+K
+​
+3
+)
+=
+1
+.
+h^{0,0}(K3,E_{\bf 1})=h^{0,0}(K3)=1\ .
+(A.11)
+The mass operator for 6D scalars is identified from (
+A.9
+) as
+Δ
+Y
+​
+M
+a
+1
+¯
+:=
+d
+𝒜
+∗
+d
+𝒜
+a
+1
+¯
++
+⋆
+[
+ℱ
+𝒜
+,
+a
+1
+¯
+]
+.
+\Delta_{YM}a_{\bar{1}}:=d^{*}_{\mathcal{A}}d_{\mathcal{A}}a_{\bar{1}}+\star[{\mathcal{F}}_{\mathcal{A}},a_{\bar{1}}]\ .
+(A.12)
+Since this is not a proper Laplacian, the connection to Dolbeault cohomology is obscure at first sight.
+We now show that 1-form zero modes of
+Δ
+Y
+​
+M
+\Delta_{YM}
+are in one-to-one correspondence with
+zero modes of
+Δ
+∂
+¯
+𝒜
+:=
+∂
+¯
+𝒜
+∗
+​
+∂
+¯
+𝒜
++
+∂
+¯
+𝒜
+​
+∂
+¯
+𝒜
+∗
+\Delta_{{\bar{\partial}}_{\mathcal{A}}}:={\bar{\partial}}_{\mathcal{A}}^{*}{\bar{\partial}}_{\mathcal{A}}+{\bar{\partial}}_{\mathcal{A}}{\bar{\partial}}_{\mathcal{A}}^{*}
+.
+Using the Kähler identities
+∂
+¯
+A
+∗
+=
+i
+[
+∂
+A
+,
+J
+⋅
+]
+{\bar{\partial}}_{A}^{*}=i[\partial_{A},J\cdot]
+and
+∂
+A
+∗
+=
+−
+i
+[
+∂
+¯
+A
+,
+J
+⋅
+]
+\partial_{A}^{*}=-i[{\bar{\partial}}_{A},J\cdot]
+[
+63
+]
+, we find
+the following operator identity on 1-forms
+d
+𝒜
+∗
+​
+d
+𝒜
+​
+a
+1
+¯
+=
+2
+​
+Δ
+∂
+¯
+𝒜
+​
+a
+1
+¯
+−
+d
+𝒜
+​
+d
+𝒜
+∗
+​
+a
+1
+¯
++
+i
+​
+J
+⋅
+[
+ℱ
+,
+a
+1
+¯
+]
+.
+d_{\mathcal{A}}^{*}d_{\mathcal{A}}a_{\bar{1}}=2\Delta_{{\bar{\partial}}_{\mathcal{A}}}a_{\bar{1}}-d_{\mathcal{A}}d_{\mathcal{A}}^{*}a_{\bar{1}}+iJ\cdot[{\mathcal{F}},a_{\bar{1}}]\ .
+(A.13)
+Here
+J
+⋅
+J\cdot
+is the contraction with the Kähler form. (There is an equivalent identity with
+Δ
+∂
+𝒜
+\Delta_{{\partial}_{\mathcal{A}}}
+instead of
+Δ
+∂
+¯
+𝒜
+\Delta_{{\bar{\partial}}_{\mathcal{A}}}
+.)
+We prove (
+A.13
+) at the end of this section.
+The second term on the r.h.s. vanishes in the Lorenz gauge
+d
+𝒜
+∗
+​
+a
+1
+¯
+=
+0
+d_{\mathcal{A}}^{*}a_{\bar{1}}=0
+.
+Moreover, on a complex Kähler surface with a HYM-bundle (i.e. anti-selfdual field strength) one can show that
+⋆
+[
+ℱ
+,
+a
+1
+¯
+]
+=
+−
+i
+J
+⋅
+[
+ℱ
+,
+a
+1
+¯
+]
+.
+\star[{\mathcal{F}},a_{\bar{1}}]=-iJ\cdot[{\mathcal{F}},a_{\bar{1}}]\ .
+(A.14)
+Inserting (
+A.13
+) and (
+A.14
+) into the mass operator (
+A.12
+), we are left with the (gauge fixed) identity on 1-forms
+Δ
+Y
+​
+M
+=
+2
+​
+Δ
+∂
+¯
+𝒜
+=
+2
+​
+Δ
+∂
+𝒜
+.
+\Delta_{YM}=2\Delta_{{\bar{\partial}}_{\mathcal{A}}}=2\Delta_{{\partial}_{\mathcal{A}}}\ .
+(A.15)
+Since on holomorphic bundles the Dolbeault operator satisfies
+∂
+¯
+𝒜
+2
+=
+0
+{\bar{\partial}}_{\mathcal{A}}^{2}=0
+, the harmonic 1-forms of
+Δ
+∂
+¯
+𝒜
+\Delta_{{\bar{\partial}}_{\mathcal{A}}}
+are unique representatives
+of
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+)
+H^{0,1}(K3,E)
+. From (
+A.15
+) it also follows that the massless modes are zero modes of
+d
+𝒜
+d_{\mathcal{A}}
+. This is obvious from
+(
+A.12
+) as a sufficient condition, but here we have shown that it is also necessary. Another way of seeing this is the following: Whereas the first term in (
+A.12
+) is a positive,
+symmetric operator, the second is in fact antisymmetric with respect to the YM-scalar product on
+K
+​
+3
+K3
+⟨
+a
+1
+¯
+,
+⋆
+[
+ℱ
+,
+a
+1
+¯
+]
+⟩
+=
+−
+⟨
+⋆
+[
+ℱ
+,
+a
+1
+¯
+]
+,
+a
+1
+¯
+⟩
+.
+\langle a_{\bar{1}},\star[{\mathcal{F}},a_{\bar{1}}]\rangle=-\langle\star[{\mathcal{F}},a_{\bar{1}}],a_{\bar{1}}\rangle\ .
+(A.16)
+Hence, the two terms correspond to real and imaginary part of the squared mass eigenvalues and have to vanish separately.
+Hence, we derived the supersymmetric result from pure bosonic Yang-Mills deformation theory.
+Returning to the different terms in (
+A.3
+), no 6D scalars in the adjoint representation
+𝔤
+\mathfrak{g}
+can occur, because
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+𝟏
+)
+=
+H
+0
+,
+1
+​
+(
+K
+​
+3
+)
+=
+0
+H^{0,1}(K3,E_{\bf 1})=H^{0,1}(K3)=0
+.
+Generically one gets scalars from representations
+(
+𝐑
+,
+𝐒
+)
+({\bf R},{\bf S})
+with some multiplicity
+h
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+𝐒
+)
+h^{0,1}(K3,E_{{\bf S}})
+. Here two cases can arise: First, if
+(
+𝐑
+,
+𝐒
+)
+({\bf R},{\bf S})
+is a real
+representation and
+𝐑
+{\bf R}
+is pseudoreal and we are left with
+𝐑
+{\bf R}
+-half-hypermultiplets in 6D.
+To have complex fields in 6D one decomposes the deformation as
+a
+1
+¯
+=
+a
+0
+,
+1
++
+a
+1
+,
+0
+a_{\bar{1}}=a^{0,1}+a^{1,0}
+, using a complex structure on
+K
+​
+3
+K3
+.
+Since
+a
+a
+is restricted to preserve the hermitean structure of the
+𝔢
+8
+{\mathfrak{e}}_{8}
+bundle, the two terms satisfy
+[
+63
+]
+(
+a
+1
+,
+0
+)
+†
+=
+−
+a
+0
+,
+1
+.
+(a^{1,0})^{\dagger}=-a^{0,1}\ .
+(A.17)
+Hence, the Kaluza-Klein expansion reads
+a
+1
+¯
+=
+C
+k
+𝐑
+​
+ω
+k
++
+C
+¯
+k
+𝐑
+¯
+​
+ω
+¯
+k
+.
+a_{\bar{1}}=C_{k}^{\bf R}\omega_{k}+\overline{C}_{k}^{\overline{\bf R}}\overline{\omega}_{k}\ .
+(A.18)
+Second, if there are complex representations occuring in conjugated pairs,
+(
+𝐑
+,
+𝐒
+)
+⊕
+(
+𝐑
+¯
+,
+𝐒
+¯
+)
+({\bf R},{\bf S})\oplus(\overline{\bf R},\overline{\bf S})
+,
+two sets of independent 6D scalars arise
+a
+1
+¯
+=
+C
+k
+𝐑
+​
+ω
+k
++
+C
+¯
+k
+𝐑
+¯
+​
+ω
+¯
+k
++
+D
+k
+𝐑
+​
+ϖ
+k
++
+D
+¯
+k
+𝐑
+¯
+​
+ϖ
+¯
+k
+.
+a_{\bar{1}}=C^{{\bf R}}_{k}\omega_{k}+\overline{C}^{\overline{\bf R}}_{k}\overline{\omega}_{k}+D^{{\bf R}}_{k}\varpi_{k}+\overline{D}^{\overline{\bf R}}_{k}\overline{\varpi}_{k}\ .
+(A.19)
+The zero modes of both cases are given by
+ω
+k
+∈
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+𝐒
+)
+,
+\displaystyle\omega_{k}\in H^{0,1}(K3,E_{{\bf S}})\ ,
+ω
+¯
+k
+∈
+H
+1
+,
+0
+​
+(
+K
+​
+3
+,
+E
+𝐒
+¯
+)
+,
+\displaystyle\overline{\omega}_{k}\in H^{1,0}(K3,E_{\bar{\bf S}})\ ,
+(A.20)
+ϖ
+k
+∈
+H
+1
+,
+0
+​
+(
+K
+​
+3
+,
+E
+𝐒
+)
+,
+\displaystyle\varpi_{k}\in H^{1,0}(K3,E_{{\bf S}})\ ,
+ϖ
+¯
+k
+∈
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+𝐒
+¯
+)
+.
+\displaystyle\overline{\varpi}_{k}\in H^{0,1}(K3,E_{\bar{\bf S}})\ .
+Here
+E
+𝐒
+¯
+=
+(
+E
+𝐒
+)
+∗
+E_{\bar{\bf S}}=(E_{{\bf S}})^{*}
+is the dual vector bundle. On
+K
+​
+3
+K3
+all multiplicities are the same due to Serre duality
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+𝐒
+)
+¯
+≅
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+E
+𝐒
+¯
+)
+\overline{H^{0,1}(K3,E_{\bf S})}\cong H^{0,1}(K3,E_{\bar{\bf S}})
+(A.21)
+and can be computed via the chiral index (
+A.4
+).
+17
+17
+17
+On a Calabi Yau 3-fold the
+C
+𝐑
+C^{\bf R}
+and
+D
+¯
+𝐑
+¯
+\overline{D}^{\overline{\bf R}}
+occur with different multiplicities, yielding the 4D chiral spectrum.
+Thus, in 6D one has hypermultiplets with scalar components
+Φ
+k
+𝐑
+⊕
+𝐑
+¯
+=
+(
+C
+k
+𝐑
+,
+D
+¯
+k
+𝐑
+¯
+)
+\Phi_{k}^{{\bf R}\oplus{\overline{\bf R}}}=(C_{k}^{\bf R},{\overline{D}}_{k}^{\overline{\bf R}})
+.
+Let us now show that
+the 6D singlet scalars coming from the term
+(
+𝟏
+,
+𝔥
+)
+({\bf 1},{\mathfrak{h}})
+in (
+A.3
+) are special in that they are not only massless but
+exact flat directions of the potential. They are termed bundle moduli.
+Applying the previous analysis it follows that there exist massless
+deformations with multiplicity
+h
+0
+,
+1
+​
+(
+K
+​
+3
+,
+𝔥
+)
+h^{0,1}(K3,{\mathfrak{h}})
+. In fact,
+any such deformation preserves (
+A.2
+) and hence the ASD
+condition of the background
+ℱ
+\mathcal{F}
+.
+It is known that the moduli space of ASD connections modulo gauge
+transformations is equivalent to the moduli space of holomorphic structures (see for example
+[
+41
+]
+).
+A holomorphic structure is defined by a Dolbeault operator satisfying
+∂
+¯
+𝒜
+2
+=
+ℱ
+0
+,
+2
+=
+0
+\bar{\partial}_{\mathcal{A}}^{2}={\mathcal{F}}^{0,2}=0
+.
+A deformation
+A
+=
+𝒜
++
+a
+A={\mathcal{A}}+a
+, with
+a
+∈
+Λ
+1
+​
+(
+K
+​
+3
+,
+𝔥
+)
+a\in\Lambda^{1}(K3,{\mathfrak{h}})
+defines another holomorphic structure if
+ℱ
+A
+0
+,
+2
+=
+0
+{\mathcal{F}}_{A}^{0,2}=0
+, i.e.
+∂
+¯
+𝒜
+​
+a
+0
+,
+1
++
+1
+2
+​
+[
+a
+0
+,
+1
+,
+a
+0
+,
+1
+]
+=
+0
+.
+\bar{\partial}_{\mathcal{A}}a^{0,1}+\tfrac{1}{2}[a^{0,1},a^{0,1}]=0\ .
+(A.22)
+Infinitesimally this yields
+a
+0
+,
+1
+∈
+ker
+​
+(
+∂
+¯
+𝒜
+)
+a^{0,1}\in\mbox{ker}(\bar{\partial}_{\mathcal{A}})
+.
+However
+a
+∈
+ker
+​
+(
+∂
+¯
+𝒜
+)
+a\in\mbox{ker}(\bar{\partial}_{\mathcal{A}})
+contains directions which lead to gauge-equivalent holomorphic structures which have to be modded out.
+Their Dolbeault operators are related by conjugation in
+H
+H
+∂
+¯
+𝒜
+h
+=
+h
+−
+1
+​
+∂
+¯
+𝒜
+​
+h
+≈
+∂
+¯
+𝒜
++
+∂
+¯
+𝒜
+​
+δ
+​
+h
+,
+\bar{\partial}_{\mathcal{A}}^{h}=h^{-1}\bar{\partial}_{\mathcal{A}}h\approx\bar{\partial}_{\mathcal{A}}+\bar{\partial}_{\mathcal{A}}\delta h\ ,
+(A.23)
+where
+h
+∈
+Λ
+0
+​
+(
+K
+​
+3
+,
+H
+)
+h\in\Lambda^{0}(K3,H)
+and
+h
+≈
+𝟏
++
+δ
+​
+h
+,
+δ
+​
+h
+∈
+Λ
+0
+​
+(
+K
+​
+3
+,
+𝔥
+)
+h\approx{\bf 1}+\delta h,\ \delta h\in\Lambda^{0}(K3,{\mathfrak{h}})
+.
+Modding out the term
+∂
+¯
+𝒜
+​
+δ
+​
+h
+∈
+Im
+​
+(
+∂
+¯
+𝒜
+)
+\bar{\partial}_{\mathcal{A}}\delta h\in\mbox{Im}(\bar{\partial}_{\mathcal{A}})
+, infinitesimal deformations of the holomorphic structure are given by
+a
+0
+,
+1
+∈
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+𝔥
+)
+a^{0,1}\in H^{0,1}(K3,{\mathfrak{h}})
+, in agreement with the result from the mass operator. But since the effective scalar potential from the background takes the form
+V
+6
+∼
+−
+∫
+tr
+(
+ℱ
++
+∧
+⋆
+ℱ
++
+)
+,
+V_{6}\sim-\int\mbox{tr}({\mathcal{F}}_{+}\wedge\star{\mathcal{F}}_{+})\ ,
+(A.24)
+(see (
+3.48
+)) all deformations preserving the ASD condition are
+moduli, i.e. flat directions of the scalar potential.
+Finally, the Kaluza-Klein expansion of the
+(
+𝟏
+,
+𝔥
+)
+({\bf 1},{\mathfrak{h}})
+-scalars reads
+a
+1
+¯
+=
+ξ
+k
+​
+α
+k
++
+ξ
+¯
+k
+​
+α
+¯
+k
+,
+α
+k
+∈
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+𝔥
+)
+.
+a_{\bar{1}}=\xi_{k}\alpha_{k}+\overline{\xi}_{k}\overline{\alpha}_{k}\ ,\qquad\alpha_{k}\in H^{0,1}(K3,{\mathfrak{h}})\ .
+(A.25)
+The complex 6D scalars
+ξ
+k
+\xi_{k}
+are called bundle moduli.
+In the following sections the above results are applied to the standard embedding and the line bundle background.
+We finally give a proof of the formula (
+A.13
+) for
+a
+∈
+Λ
+1
+​
+(
+K
+​
+3
+,
+E
+)
+a\in\Lambda^{1}(K3,E)
+:
+d
+𝒜
+∗
+​
+d
+𝒜
+​
+a
+\displaystyle d^{*}_{\mathcal{A}}d_{\mathcal{A}}a
+=
+(
+∂
+¯
+∗
+𝒜
+∂
+¯
+𝒜
++
+∂
+∗
+𝒜
+∂
+𝒜
+)
+a
++
+(
+∂
+¯
+∗
+𝒜
+∂
+𝒜
++
+∂
+∗
+𝒜
+∂
+¯
+𝒜
+)
+a
+\displaystyle=(\bar{\partial}^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}+\partial^{*}_{\mathcal{A}}\partial_{\mathcal{A}})a+(\bar{\partial}^{*}_{\mathcal{A}}\partial_{\mathcal{A}}+\partial^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}})a
+(A.26)
+The first term can be written as
+(
+∂
+¯
+∗
+𝒜
+∂
+¯
+𝒜
++
+∂
+∗
+𝒜
+∂
+𝒜
+)
+a
+\displaystyle(\bar{\partial}^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}+\partial^{*}_{\mathcal{A}}\partial_{\mathcal{A}})a
+=
+i
+(
+[
+∂
+𝒜
+,
+J
+⋅
+]
+∂
+¯
+𝒜
+−
+[
+∂
+¯
+𝒜
+,
+J
+⋅
+]
+∂
+𝒜
+)
+a
+\displaystyle=i([\partial_{\mathcal{A}},J\cdot]\bar{\partial}_{\mathcal{A}}-[\bar{\partial}_{\mathcal{A}},J\cdot]\partial_{\mathcal{A}})a
+(A.27)
+=
+i
+(
+∂
+𝒜
+J
+⋅
+∂
+¯
+𝒜
+−
+∂
+¯
+𝒜
+J
+⋅
+∂
+𝒜
+)
+a
+−
+i
+J
+⋅
+(
+∂
+𝒜
+∂
+¯
+𝒜
+a
+−
+∂
+¯
+𝒜
+∂
+𝒜
+a
+)
+\displaystyle=i(\partial_{\mathcal{A}}J\cdot\bar{\partial}_{\mathcal{A}}-\bar{\partial}_{\mathcal{A}}J\cdot\partial_{\mathcal{A}})a-iJ\cdot(\partial_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}a-\bar{\partial}_{\mathcal{A}}\partial_{\mathcal{A}}a)
+=
+(
+∂
+𝒜
+∂
+∗
+𝒜
++
+∂
+¯
+𝒜
+∂
+¯
+∗
+𝒜
+)
+a
++
+i
+J
+⋅
+[
+ℱ
+,
+a
+]
+−
+2
+i
+J
+⋅
+(
+∂
+𝒜
+∂
+¯
+𝒜
+a
+)
+.
+\displaystyle=(\partial_{\mathcal{A}}\partial^{*}_{\mathcal{A}}+\bar{\partial}_{\mathcal{A}}\bar{\partial}^{*}_{\mathcal{A}})a+iJ\cdot[{\mathcal{F}},a]-2iJ\cdot(\partial_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}a)\ .
+Here we used the Kähler identities
+∂
+𝒜
+∗
+=
+−
+i
+[
+∂
+¯
+𝒜
+,
+J
+⋅
+]
+\partial^{*}_{\mathcal{A}}=-i[\bar{\partial}_{\mathcal{A}},J\cdot]
+,
+∂
+¯
+𝒜
+∗
+=
+i
+[
+∂
+𝒜
+,
+J
+⋅
+]
+\bar{\partial}^{*}_{\mathcal{A}}=i[\partial_{\mathcal{A}},J\cdot]
+,
+J
+⋅
+∂
+𝒜
+a
+=
+[
+J
+⋅
+,
+∂
+𝒜
+]
+a
+J\cdot\partial_{\mathcal{A}}a=[J\cdot,\partial_{\mathcal{A}}]a
+since
+J
+⋅
+a
+=
+0
+J\cdot a=0
+, and we identified
+ℱ
+=
+∂
+𝒜
+∂
+¯
+𝒜
++
+∂
+¯
+𝒜
+∂
+𝒜
+{\mathcal{F}}=\partial_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}+\bar{\partial}_{\mathcal{A}}\partial_{\mathcal{A}}
+.
+We now write the last term in (
+A.27
+) as
+2
+​
+i
+​
+J
+⋅
+(
+∂
+𝒜
+∂
+¯
+𝒜
+​
+a
+)
+\displaystyle 2iJ\cdot(\partial_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}a)
+=
+2
+i
+(
+[
+J
+⋅
+,
+∂
+𝒜
+]
++
+∂
+𝒜
+J
+⋅
+)
+∂
+¯
+𝒜
+a
+\displaystyle=2i([J\cdot,\partial_{\mathcal{A}}]+\partial_{\mathcal{A}}J\cdot)\bar{\partial}_{\mathcal{A}}a
+(A.28)
+=
+−
+2
+∂
+¯
+∗
+𝒜
+∂
+¯
+𝒜
+a
++
+2
+i
+∂
+𝒜
+[
+J
+⋅
+,
+∂
+¯
+𝒜
+]
+a
+\displaystyle=-2\bar{\partial}^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}a+2i\partial_{\mathcal{A}}[J\cdot,\bar{\partial}_{\mathcal{A}}]a
+=
+−
+2
+​
+∂
+¯
+𝒜
+∗
+​
+∂
+¯
+𝒜
+​
+a
++
+2
+​
+∂
+𝒜
+∂
+𝒜
+∗
+a
+.
+\displaystyle=-2\bar{\partial}^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}a+2\partial_{\mathcal{A}}\partial^{*}_{\mathcal{A}}a\ .
+With this we get
+(
+∂
+¯
+𝒜
+∗
+∂
+¯
+𝒜
++
+∂
+𝒜
+∗
+∂
+𝒜
+)
+a
+=
+(
+∂
+¯
+𝒜
+∂
+¯
+𝒜
+∗
+−
+∂
+𝒜
+∂
+𝒜
+∗
+)
+a
++
+i
+J
+⋅
+[
+ℱ
+,
+a
+]
++
+2
+∂
+¯
+𝒜
+∗
+∂
+¯
+𝒜
+a
+.
+(\bar{\partial}^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}+\partial^{*}_{\mathcal{A}}\partial_{\mathcal{A}})a=(\bar{\partial}_{\mathcal{A}}\bar{\partial}^{*}_{\mathcal{A}}-\partial_{\mathcal{A}}\partial^{*}_{\mathcal{A}})a+iJ\cdot[{\mathcal{F}},a]+2\bar{\partial}^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}a\ .
+(A.29)
+Now we consider the second term in (
+A.26
+)
+(
+∂
+¯
+𝒜
+∗
+∂
+𝒜
++
+∂
+𝒜
+∗
+∂
+¯
+𝒜
+)
+a
+=
+(
+∂
+𝒜
+∂
+¯
+𝒜
+∗
++
+∂
+¯
+𝒜
+∂
+𝒜
+∗
+)
+a
+=
+d
+𝒜
+d
+𝒜
+∗
+a
+−
+(
+∂
+𝒜
+∂
+𝒜
+∗
++
+∂
+¯
+𝒜
+∂
+¯
+𝒜
+∗
+)
+a
+,
+(\bar{\partial}^{*}_{\mathcal{A}}\partial_{\mathcal{A}}+\partial^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}})a=(\partial_{\mathcal{A}}\bar{\partial}^{*}_{\mathcal{A}}+\bar{\partial}_{\mathcal{A}}\partial^{*}_{\mathcal{A}})a=d_{\mathcal{A}}d^{*}_{\mathcal{A}}a-(\partial_{\mathcal{A}}\partial^{*}_{\mathcal{A}}+\bar{\partial}_{\mathcal{A}}\bar{\partial}^{*}_{\mathcal{A}})a\ ,
+(A.30)
+where we used
+{
+∂
+𝒜
+,
+∂
+¯
+𝒜
+∗
+}
+=
+0
+\{\partial_{\mathcal{A}},\bar{\partial}^{*}_{\mathcal{A}}\}=0
+(which follows from the Kähler identities).
+Together we end up with the claimed result (
+A.13
+)
+d
+𝒜
+∗
+​
+d
+𝒜
+​
+a
+=
+−
+d
+𝒜
+​
+d
+𝒜
+∗
+​
+a
++
+2
+​
+(
+∂
+¯
+𝒜
+∗
+​
+∂
+¯
+𝒜
++
+∂
+¯
+𝒜
+​
+∂
+¯
+𝒜
+∗
+)
+​
+a
++
+i
+​
+J
+⋅
+[
+ℱ
+,
+a
+]
+.
+d_{\mathcal{A}}^{*}d_{\mathcal{A}}a=-d_{\mathcal{A}}d_{\mathcal{A}}^{*}a+2(\bar{\partial}^{*}_{\mathcal{A}}\bar{\partial}_{\mathcal{A}}+\bar{\partial}_{\mathcal{A}}\bar{\partial}^{*}_{\mathcal{A}})a+iJ\cdot[{\mathcal{F}},a]\ .
+(A.31)
+A.2
+Zero modes in the standard embedding
+For the standard embedding the nontrivial
+S
+​
+U
+​
+(
+2
+)
+SU(2)
+bundle is inside one
+E
+8
+E_{8}
+factor, yielding the breaking
+E
+8
+⟶
+E
+7
+×
+⟨
+S
+​
+U
+​
+(
+2
+)
+⟩
+.
+E_{8}\longrightarrow E_{7}\times\langle SU(2)\rangle\ .
+(A.32)
+Focusing on this
+E
+8
+E_{8}
+factor we have the decomposition
+𝟐𝟒𝟖
+→
+(
+𝟓𝟔
+,
+𝟐
+)
+⊕
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+⊕
+(
+𝟏
+,
+𝟑
+)
+.
+{\bf 248}\rightarrow({\bf 56},{\bf 2})\oplus({\bf 133},{\bf 1})\oplus({\bf 1},{\bf 3})\ .
+(A.33)
+The vector bundles
+E
+E
+corresponding to the right entries are identified as
+E
+𝟐
+=
+𝒯
+K
+​
+3
+E_{\bf 2}={\mathcal{T}}_{K3}
+, which is the holomorphic tangent bundle,
+E
+𝟑
+=
+𝔰
+​
+𝔲
+​
+(
+2
+)
+=
+End
+​
+𝒯
+K
+​
+3
+E_{\bf 3}=\mathfrak{su}(2)=\mbox{End}\ {\mathcal{T}}_{K3}
+, which is the adjoint bundle and
+E
+𝟏
+=
+𝒪
+E_{\bf 1}=\mathcal{O}
+, which is the trivial bundle over
+K
+​
+3
+K3
+. Since
+(
+𝟓𝟔
+,
+𝟐
+)
+(\bf 56,\bf 2)
+is a real representation, its massless Kaluza-Klein components are given by
+a
+1
+¯
+(
+𝟓𝟔
+,
+𝟐
+)
+=
+C
+𝟓𝟔
+j
+ω
+j
++
+C
+¯
+𝟓𝟔
+¯
+j
+ω
+¯
+j
+,
+j
+=
+1
+,
+…
+,
+20
+.
+a_{\bar{1}}^{({\bf 56},{\bf 2})}=C^{\bf 56}_{j}\omega_{j}+\overline{C}^{\overline{\bf 56}}_{j}\overline{\omega}_{j}\ ,\qquad j=1,\ldots,20\ .
+(A.34)
+Here the zero modes are
+ω
+j
+∈
+H
+0
+,
+1
+​
+(
+𝒯
+K
+​
+3
+)
+≅
+H
+1
+,
+1
+​
+(
+K
+​
+3
+)
+,
+\displaystyle\omega_{j}\in H^{0,1}({\mathcal{T}}_{K3})\cong H^{1,1}(K3)\ ,
+(A.35)
+ω
+¯
+j
+∈
+H
+1
+,
+0
+​
+(
+𝒯
+K
+​
+3
+¯
+)
+≅
+H
+1
+,
+1
+​
+(
+K
+​
+3
+)
+.
+\displaystyle\overline{\omega}_{j}\in{H^{1,0}(\overline{\mathcal{T}_{K3}})}\cong H^{1,1}(K3)\ .
+From the Hodge diamond (
+2.17
+) we see that the multiplicity is 20.
+We realize the isomorphy to
+H
+1
+,
+1
+​
+(
+K
+​
+3
+)
+H^{1,1}(K3)
+with the holomorphic 2-form
+Ω
+\Omega
+and a particular prefactor,
+i.e. in components (no summation over
+j
+j
+implied)
+18
+18
+18
+There exists an alternative isomorphism,
+ω
+α
+¯
+β
+∝
+g
+β
+​
+γ
+¯
+​
+(
+t
+(
+α
+¯
+​
+γ
+¯
+)
++
+t
+[
+α
+¯
+​
+γ
+¯
+]
+)
+=
+g
+β
+​
+γ
+¯
+​
+(
+Ω
+¯
+(
+α
+¯
+CLOSE
+δ
+​
+ω
+OPEN
+γ
+¯
+)
+​
+δ
++
+Ω
+¯
+α
+¯
+​
+γ
+¯
+)
+\omega_{\bar{\alpha}}^{\beta}\propto g^{\beta\bar{\gamma}}(t_{(\bar{\alpha}\bar{\gamma})}+t_{[\bar{\alpha}\bar{\gamma}]})=g^{\beta\bar{\gamma}}(\overline{\Omega}^{\delta}_{\ (\bar{\alpha}}\omega_{\bar{\gamma})\delta}+\overline{\Omega}_{\bar{\alpha}\bar{\gamma}})
+, which maps
+H
+0
+,
+1
+​
+(
+𝒯
+K
+​
+3
+)
+H^{0,1}({\mathcal{T}}_{K3})
+to the anti-holomorphic 2-form
+Ω
+¯
+\overline{\Omega}
+plus all
+(
+1
+,
+1
+)
+(1,1)
+-forms except the Kähler form.
+We always use the simpler one (
+A.36
+).
+(
+ω
+j
+)
+α
+¯
+β
+\displaystyle(\omega_{j})_{\bar{\alpha}}^{\ \beta}
+=
+γ
+j
+‖
+Ω
+‖
+2
+​
+Ω
+¯
+α
+​
+β
+​
+(
+η
+j
+)
+α
+​
+α
+¯
+,
+\displaystyle=\tfrac{\gamma_{j}}{||\Omega||^{2}}\overline{\Omega}^{\alpha\beta}(\eta_{j})_{\alpha\bar{\alpha}}\ ,
+(A.36)
+(
+ω
+¯
+j
+)
+α
+β
+¯
+\displaystyle(\overline{\omega}_{j})_{\alpha}^{\ \bar{\beta}}
+=
+γ
+j
+‖
+Ω
+‖
+2
+​
+Ω
+α
+¯
+​
+β
+¯
+​
+(
+η
+j
+)
+α
+​
+α
+¯
+,
+\displaystyle=\tfrac{\gamma_{j}}{||\Omega||^{2}}\Omega^{\bar{\alpha}\bar{\beta}}(\eta_{j})_{\alpha\bar{\alpha}}\ ,
+where
+η
+j
+\eta_{j}
+are the harmonic
+(
+1
+,
+1
+)
+(1,1)
+forms on
+K
+​
+3
+K3
+and
+γ
+j
+\gamma_{j}
+is the real function
+γ
+j
+=
+𝒱
+1
+4
+(
+∫
+J
+∧
+η
+j
+)
+1
+2
+.
+\gamma_{j}=\frac{{\mathcal{V}}^{\frac{1}{4}}}{\left(\int J\wedge\eta_{j}\right)^{\frac{1}{2}}}\ .
+(A.37)
+This function is motivated by matching with the orbifold limit of the standard embedding which we discuss in appendix
+B
+.
+In fact, the zero modes of the charged scalars depend on the complex structure of
+K
+​
+3
+K3
+by the very definition of
+𝒯
+K
+​
+3
+{\mathcal{T}}_{K3}
+.
+For a fixed complex structure the prefactor
+γ
+j
+\gamma_{j}
+depends on the remaining Kähler moduli in such a way that the full zero mode is independent of them.
+The term
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+({\bf 133},{\bf 1})
+gives rise to one 6D vector
+V
+𝟏𝟑𝟑
+V^{\bf 133}
+, as
+stated in (
+A.11
+).
+The term
+(
+𝟏
+,
+𝟑
+)
+({\bf 1},{\bf 3})
+corresponds to the bundle moduli as specified in (
+A.25
+)
+a
+1
+¯
+(
+𝟏
+,
+𝟑
+)
+=
+ξ
+k
+​
+α
+k
++
+ξ
+¯
+k
+​
+α
+¯
+k
+,
+α
+k
+∈
+H
+0
+,
+1
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+.
+a_{\bar{1}}^{({\bf 1},{\bf 3})}=\xi_{k}\alpha_{k}+\overline{\xi}_{k}\overline{\alpha}_{k}\ ,\qquad\alpha_{k}\in H^{0,1}(\mbox{End}\ {\mathcal{T}}_{K3})\ .
+(A.38)
+The multiplicity cannot be related to the Hodge numbers but can be computed with the chiral index (
+A.4
+).
+Here
+h
+0
+,
+0
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+=
+0
+h^{0,0}(\mbox{End}\ {\mathcal{T}}_{K3})=0
+, since a covariantly constant section
+g
+∈
+Γ
+⁡
+(
+K
+​
+3
+,
+End
+​
+𝒯
+K
+​
+3
+)
+g\in\Gamma(K3,\mbox{End}\ {\mathcal{T}}_{K3})
+must take values in the centralizer of the
+holonomy group, which is empty for
+𝔥
+​
+𝔬
+​
+𝔩
+​
+(
+K
+​
+3
+)
+=
+𝔰
+​
+𝔲
+​
+(
+2
+)
+\mathfrak{hol}(K3)=\mathfrak{su}(2)
+[
+40
+]
+.
+Thus, one obtains
+χ
+⁡
+(
+End
+​
+𝒯
+K
+​
+3
+)
+=
+−
+h
+0
+,
+1
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+.
+\chi(\mbox{End}\ {\mathcal{T}}_{K3})=-h^{0,1}(\mbox{End}\ {\mathcal{T}}_{K3})\ .
+(A.39)
+χ
+\chi
+can be computed via the Hirzebruch-Riemann-Roch theorem
+19
+19
+19
+See for example chapter 5.1 of
+[
+63
+]
+.
+which states
+χ
+⁡
+(
+E
+𝐒
+)
+=
+∫
+K
+​
+3
+Td
+​
+(
+K
+​
+3
+)
+∧
+c
+​
+h
+​
+(
+E
+𝐒
+)
+=
+2
+​
+rk
+​
+(
+E
+𝐒
+)
++
+c
+​
+h
+2
+​
+(
+E
+𝐒
+)
+,
+\chi(E_{\bf S})=\int\limits_{K3}\mbox{Td}(K3)\wedge ch(E_{\bf S})=2\mbox{rk}(E_{\bf S})+ch_{2}(E_{\bf S})\ ,
+(A.40)
+where
+Td
+​
+(
+K
+​
+3
+)
+\mbox{Td}(K3)
+is the Todd-class of
+K
+​
+3
+K3
+, rk
+(
+E
+)
+(E)
+is the rank of the vector
+bundle and
+c
+h
+2
+(
+E
+𝐒
+)
+=
+−
+1
+2
+∫
+tr
+𝐒
+ℱ
+∧
+ℱ
+ch_{2}(E_{\bf S})=-\tfrac{1}{2}\int\mbox{tr}_{\bf S}{\mathcal{F}}\wedge{\mathcal{F}}
+is the second Chern-character.
+Using
+rk
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+=
+3
+\mbox{rk}(\mbox{End}\ {\mathcal{T}}_{K3})=3
+we get
+h
+0
+,
+1
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+\displaystyle h^{0,1}(\mbox{End}\ {\mathcal{T}}_{K3})
+=
+−
+6
++
+1
+2
+​
+∫
+tr
+𝟑
+​
+(
+ℱ
+∧
+ℱ
+)
+=
+−
+6
++
+4
+2
+​
+∫
+tr
+𝟐
+​
+(
+ℱ
+∧
+ℱ
+)
+=
+−
+6
++
+4
+⋅
+24
+=
+90
+,
+\displaystyle=-6+\tfrac{1}{2}\int\mbox{tr}_{\bf 3}({\mathcal{F}}\wedge{\mathcal{F}})=-6+\tfrac{4}{2}\int\mbox{tr}_{\bf 2}({\mathcal{F}}\wedge{\mathcal{F}})=-6+4\cdot 24=90\ ,
+(A.41)
+where in the last step we used the integrated tadpole condition (
+3.1
+)
+1
+2
+​
+∫
+tr
+𝟐
+​
+(
+ℱ
+∧
+ℱ
+)
+=
+χ
+⁡
+(
+K
+​
+3
+)
+=
+24
+.
+\tfrac{1}{2}\int\mbox{tr}_{\bf 2}({\mathcal{F}}\wedge{\mathcal{F}})=\chi(K3)=24\ .
+(A.42)
+Summarizing, the Kaluza-Klein expansion of the gauge potential reads
+a
+1
+=
+V
+𝟏𝟑𝟑
+,
+a
+1
+¯
+=
+C
+j
+𝟓𝟔
+​
+ω
+j
+⊕
+C
+¯
+j
+𝟓𝟔
+¯
+​
+ω
+¯
+j
++
+ξ
+k
+​
+α
+k
++
+ξ
+¯
+k
+​
+α
+¯
+k
+,
+a_{1}=V^{\bf 133}\ ,\qquad a_{\bar{1}}=C^{\bf 56}_{j}\omega_{j}\oplus\overline{C}^{\overline{\bf 56}}_{j}\overline{\omega}_{j}+\xi_{k}\alpha_{k}+\overline{\xi}_{k}\overline{\alpha}_{k}\ ,
+(A.43)
+with
+j
+=
+1
+,
+…
+,
+20
+j=1,...,20
+and
+k
+=
+1
+,
+…
+,
+90
+k=1,...,90
+.
+A.3
+Coupling functions in the standard embedding
+In this section we derive the coupling functions of the effective action.
+First we consider the kinetic terms in (
+3.29
+) and in particular the couplings of the charged scalars.
+Due to the correspondence of their zero-modes to harmonic
+(
+1
+,
+1
+)
+(1,1)
+-forms (
+A.36
+) these functions exhibit a characteristic
+dependence on the
+K
+​
+3
+K3
+moduli.
+20
+20
+20
+Recall that on
+K
+​
+3
+K3
+the embedding
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+⊂
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})\subset H^{2}(K3,\mathbb{R})
+is a moduli dependent subspace.
+To express this dependence in the following, let us review the parametrization of the
+K
+​
+3
+K3
+moduli space (
+2.20
+) from
+[
+57
+]
+.
+A Riemannian metric is given by a positive definite three-dimensional subspace
+Σ
+:=
+H
++
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+⊂
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+\Sigma:=H^{2}_{+}(K3,\mathbb{R})\subset H^{2}(K3,\mathbb{R})
+, which is spanned by an orthonormal dreibein
+(
+J
+1
+,
+J
+2
+,
+J
+3
+)
+(J_{1},J_{2},J_{3})
+.
+The
+K
+​
+3
+K3
+moduli
+t
+s
+I
+t^{I}_{s}
+are defined by the expansion
+J
+s
+=
+t
+I
+s
+η
+I
+,
+I
+=
+1
+,
+…
+,
+22
+.
+J_{s}=t^{I}_{s}\eta_{I}\ ,\qquad I=1,\ldots,22\ .
+(A.44)
+They are constrained to be (positive) orthonormal
+ρ
+I
+​
+J
+​
+t
+s
+I
+​
+t
+t
+J
+=
+δ
+s
+​
+t
+,
+\qquad\rho_{IJ}t^{I}_{s}t^{J}_{t}=\delta_{st}\ ,
+(A.45)
+and subject to an equivalence relation which identifies equivalent metrics
+t
+s
+I
+∼
+t
+~
+s
+I
+=
+R
+s
+t
+​
+t
+t
+I
+,
+R
+∈
+S
+​
+O
+​
+(
+3
+)
+.
+t^{I}_{s}\sim\tilde{t}^{I}_{s}=R_{s}^{\ t}t^{I}_{t}\ ,\qquad R\in SO(3)\ .
+(A.46)
+R
+R
+rotates the dreibein inside
+Σ
+\Sigma
+and corresponds to an
+S
+2
+S^{2}
+of possible complex structures per metric.
+In the following we want to relate the moduli space of the charged scalars to the moduli space of
+K
+​
+3
+K3
+metrics.
+Due to the very definition of
+𝒯
+K
+​
+3
+{\mathcal{T}}_{K3}
+in the standard embedding, the charged scalar zero modes are defined with respect to a chosen complex structure.
+Hence, the discussion of their couplings implicitly requires the breaking of the Hyperkähler structure of
+K
+​
+3
+K3
+.
+Defining the complex structure via the 2-form
+Ω
+=
+J
+1
++
+i
+​
+J
+2
+\Omega=J_{1}+iJ_{2}
+,
+the harmonic
+(
+1
+,
+1
+)
+(1,1)
+forms in the charged scalars zero modes (
+A.36
+) are given the projection
+η
+I
+1
+,
+1
+=
+(
+P
+1
+,
+1
+)
+I
+J
+​
+η
+J
+,
+(
+P
+1
+,
+1
+)
+I
+J
+=
+δ
+I
+J
+−
+∑
+s
+=
+1
+,
+2
+ρ
+I
+​
+K
+​
+t
+s
+K
+​
+t
+s
+J
+,
+\eta_{I}^{1,1}=(P^{1,1})_{I}^{\ J}\eta_{J}\ ,\qquad(P^{1,1})_{I}^{\ J}=\delta_{I}^{J}-\sum\limits_{s=1,2}\rho_{IK}t_{s}^{K}t_{s}^{J}\ ,
+(A.47)
+where
+ρ
+I
+​
+J
+\rho_{IJ}
+is the intersection form (
+2.19
+).
+They depend on the complex structure moduli
+t
+1
+I
+,
+t
+2
+I
+t_{1}^{I},t_{2}^{I}
+.
+In the following we fix the complex structure and discuss the dependence of the charged scalar couplings on the remaining Kähler moduli.
+As in (
+A.36
+)
+η
+j
+,
+j
+=
+3
+,
+…
+​
+22
+\eta_{j},j=3,\ldots 22
+denotes a basis of
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})
+with respect to the fixed complex structure.
+Let us illustrate this by a first example.
+The KK reduction of (
+3.12
+) yields
+the kinetic term of the charged scalars
+in (
+3.29
+)
+−
+α
+′
+2
+𝒟
+C
+¯
+x
+i
+∧
+∗
+𝒟
+C
+x
+j
+𝒱
+−
+3
+2
+∫
+g
+α
+¯
+​
+β
+ω
+¯
+i
+α
+¯
+∧
+⋆
+ω
+j
+β
+,
+-\tfrac{\alpha^{\prime}}{\sqrt{2}}{\mathcal{D}}\overline{C}^{x}_{i}\wedge*{\mathcal{D}}C^{x}_{j}\ {\mathcal{V}}^{-\frac{3}{2}}\int g_{\bar{\alpha}\beta}\overline{\omega}_{i}^{\bar{\alpha}}\wedge\star\omega_{j}^{\beta}\ ,
+(A.48)
+where
+g
+α
+¯
+​
+β
+g_{\bar{\alpha}\beta}
+is the Kähler metric on
+K
+​
+3
+K3
+.
+We show now that the charged scalar metric
+G
+i
+​
+j
+G_{ij}
+is indeed related to the
+b
+b
+-scalar metric
+g
+I
+​
+J
+g_{IJ}
+given in (
+3.32
+).
+Using the zero mode isomorphism (
+A.36
+) and the identities
+Ω
+α
+¯
+​
+β
+¯
+=
+f
+⁡
+(
+z
+)
+​
+|
+g
+|
+−
+1
+2
+​
+ε
+α
+¯
+​
+β
+¯
+,
+|
+f
+|
+2
+=
+∥
+Ω
+∥
+2
+​
+g
+\Omega^{\bar{\alpha}\bar{\beta}}=f(z)|g|^{-\frac{1}{2}}\varepsilon^{\bar{\alpha}\bar{\beta}}\ ,\qquad|f|^{2}=\lVert\Omega\rVert^{2}\sqrt{g}
+(A.49)
+as well as the normalization
+∥
+Ω
+∥
+2
+=
+2
+𝒱
+\lVert\Omega\rVert^{2}=\tfrac{2}{\mathcal{V}}
+we obtain
+G
+i
+​
+j
+\displaystyle G_{ij}
+=
+1
+2
+​
+𝒱
+3
+2
+∫
+g
+α
+¯
+​
+β
+ω
+¯
+i
+α
+¯
+∧
+⋆
+ω
+j
+β
+\displaystyle=\tfrac{1}{\sqrt{2}{\mathcal{V}}^{\frac{3}{2}}}\int g_{\bar{\alpha}\beta}\overline{\omega}_{i}^{\bar{\alpha}}\wedge\star\omega_{j}^{\beta}
+(A.50)
+=
+γ
+i
+​
+γ
+j
+2
+​
+𝒱
+3
+2
+​
+∥
+Ω
+∥
+4
+​
+∫
+g
+α
+¯
+​
+β
+​
+g
+δ
+​
+δ
+¯
+​
+|
+f
+|
+2
+​
+ε
+α
+¯
+​
+γ
+¯
+​
+ε
+β
+​
+γ
+​
+(
+η
+i
+)
+γ
+¯
+​
+δ
+​
+(
+η
+j
+)
+γ
+​
+δ
+¯
+​
+|
+g
+|
+−
+1
+2
+​
+d
+4
+​
+x
+\displaystyle=\tfrac{\gamma_{i}\gamma_{j}}{\sqrt{2}{\mathcal{V}}^{\frac{3}{2}}\lVert\Omega\rVert^{4}}\int g_{\bar{\alpha}\beta}g^{\delta\bar{\delta}}|f|^{2}\varepsilon^{\bar{\alpha}\bar{\gamma}}\varepsilon^{\beta\gamma}(\eta_{i})_{\bar{\gamma}\delta}(\eta_{j})_{\gamma\bar{\delta}}\lvert g\rvert^{-\tfrac{1}{2}}d^{4}x
+=
+γ
+i
+​
+γ
+j
+2
+​
+𝒱
+3
+2
+​
+∥
+Ω
+∥
+2
+​
+∫
+g
+γ
+¯
+​
+γ
+​
+g
+δ
+​
+δ
+¯
+​
+(
+η
+i
+)
+γ
+¯
+​
+δ
+​
+(
+η
+j
+)
+γ
+​
+δ
+¯
+​
+g
+​
+d
+4
+​
+x
+\displaystyle=\tfrac{\gamma_{i}\gamma_{j}}{\sqrt{2}{\mathcal{V}}^{\frac{3}{2}}\lVert\Omega\rVert^{2}}\int g^{\bar{\gamma}\gamma}g^{\delta\bar{\delta}}(\eta_{i})_{\bar{\gamma}\delta}(\eta_{j})_{\gamma\bar{\delta}}\sqrt{g}\ d^{4}x
+=
+γ
+i
+​
+γ
+j
+2
+​
+2
+​
+𝒱
+∫
+η
+i
+∧
+⋆
+η
+j
+.
+\displaystyle=\tfrac{\gamma_{i}\gamma_{j}}{2\sqrt{2\mathcal{V}}}\int\eta_{i}\wedge\star\eta_{j}\ .
+From the last line in (
+A.50
+) (no summation over
+i
+,
+j
+i,j
+implied) one recognizes that this function is proportional to the projection of the
+b
+b
+-scalar metric
+g
+I
+​
+J
+g_{IJ}
+g
+i
+​
+j
+:=
+∫
+η
+i
+∧
+⋆
+η
+j
+=
+(
+P
+1
+,
+1
+)
+i
+I
+(
+P
+1
+,
+1
+)
+j
+J
+g
+I
+​
+J
+,
+g
+I
+​
+J
+=
+∫
+η
+I
+∧
+⋆
+η
+J
+.
+g_{ij}:=\int\eta_{i}\wedge\star\eta_{j}=(P^{1,1})_{i}^{\ I}(P^{1,1})_{j}^{\ J}g_{IJ}\ ,\qquad g_{IJ}=\int\eta_{I}\wedge\star\eta_{J}\ .
+(A.51)
+While
+P
+1
+,
+1
+P^{1,1}
+depends on the fixed complex structure,
+g
+i
+​
+j
+g_{ij}
+also depends on the remaining Kähler moduli via the action of the Hodge
+⋆
+\star
+operator on
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})
+[
+57
+]
+⋆
+η
+i
+=
+(
+−
+δ
+i
+j
++
+2
+​
+ρ
+i
+​
+k
+​
+t
+3
+k
+​
+t
+3
+j
+)
+​
+η
+j
+.
+\star\eta_{i}=\Bigl(-\delta_{i}^{j}+2\rho_{ik}t^{k}_{3}t^{j}_{3}\Bigr)\eta_{j}\ .
+(A.52)
+For the coupling function
+N
+i
+​
+j
+I
+N^{I}_{ij}
+in (
+3.34
+)
+which is obtained from a KK reduction of (
+3.27
+)
+we first use the same manipulations as above to get
+N
+i
+​
+j
+=
+Ω
+α
+​
+β
+​
+ω
+i
+α
+∧
+ω
+j
+β
+\displaystyle N_{ij}\ =\ \Omega_{\alpha\beta}\ \omega^{\alpha}_{i}\wedge\omega^{\beta}_{j}
+=
+γ
+i
+​
+γ
+j
+∥
+Ω
+∥
+2
+​
+Ω
+¯
+⋅
+(
+η
+i
+∧
+η
+j
+)
+=
+γ
+i
+​
+γ
+j
+∥
+Ω
+∥
+2
+​
+ρ
+i
+​
+j
+​
+Ω
+¯
+⋅
+vol
+=
+𝒱
+​
+γ
+i
+​
+γ
+j
+2
+​
+g
+​
+ρ
+i
+​
+j
+​
+Ω
+¯
+.
+\displaystyle=\ \tfrac{\gamma_{i}\gamma_{j}}{\lVert\Omega\rVert^{2}}\overline{\Omega}\cdot(\eta_{i}\wedge\eta_{j})\ =\ \tfrac{\gamma_{i}\gamma_{j}}{\lVert\Omega\rVert^{2}}\rho_{ij}\overline{\Omega}\cdot\mbox{vol}\ =\ \tfrac{\mathcal{V}\gamma_{i}\gamma_{j}}{2\sqrt{g}}\rho_{ij}\overline{\Omega}\ .
+(A.53)
+Here
+⋅
+\cdot
+denotes the contraction of forms and
+vol
+is the volume form, normalized to 1.
+In the second step we used
+η
+i
+∧
+η
+j
+=
+ρ
+i
+​
+j
+​
+vol
+\eta_{i}\wedge\eta_{j}=\rho_{ij}\mbox{vol}
+and in the third step we used
+Ω
+¯
+⋅
+vol
+=
+g
+−
+1
+2
+​
+Ω
+¯
+\overline{\Omega}\cdot\mbox{vol}=g^{-\frac{1}{2}}\overline{\Omega}
+.
+The coupling
+ρ
+i
+​
+j
+\rho_{ij}
+is defined as the projection
+ρ
+i
+​
+j
+\displaystyle\rho_{ij}
+:
+=
+∫
+η
+i
+∧
+η
+j
+=
+(
+P
+1
+,
+1
+)
+i
+I
+​
+(
+P
+1
+,
+1
+)
+j
+J
+​
+ρ
+I
+​
+J
+,
+\displaystyle:=\int\eta_{i}\wedge\eta_{j}=(P^{1,1})_{i}^{\ I}(P^{1,1})_{j}^{\ J}\rho_{IJ}\ ,
+(A.54)
+where
+ρ
+I
+​
+J
+\rho_{IJ}
+is the moduli independent intersection matrix.
+Hence, the expansion into
+η
+I
+\eta_{I}
+has coefficients
+N
+i
+​
+j
+I
+\displaystyle N^{I}_{ij}
+=
+ρ
+I
+​
+J
+​
+∫
+N
+i
+​
+j
+∧
+η
+J
+=
+1
+2
+​
+γ
+i
+​
+γ
+j
+​
+ρ
+i
+​
+j
+​
+ρ
+I
+​
+J
+​
+∫
+Ω
+¯
+∧
+η
+J
+=
+1
+2
+​
+γ
+i
+​
+γ
+j
+​
+ρ
+i
+​
+j
+​
+ρ
+I
+​
+J
+​
+(
+⟨
+J
+1
+,
+η
+J
+⟩
+−
+i
+⁡
+⟨
+J
+2
+,
+η
+J
+⟩
+)
+,
+\displaystyle=\rho^{IJ}\int N_{ij}\wedge\eta_{J}=\tfrac{1}{2}\gamma_{i}\gamma_{j}\rho_{ij}\rho^{IJ}\int\overline{\Omega}\wedge\eta_{J}=\tfrac{1}{2}\gamma_{i}\gamma_{j}\rho_{ij}\rho^{IJ}(\langle J_{1},\eta_{J}\rangle-i\langle J_{2},\eta_{J}\rangle)\ ,
+(A.55)
+where
+⟨
+⋅
+,
+⋅
+⟩
+\langle\cdot,\cdot\rangle
+is the scalar product
+on
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{2}(K3,\mathbb{R})
+.
+For the coupling function
+M
+i
+​
+j
+I
+M^{I}_{ij}
+in (
+3.34
+) which also arise
+from
+(
+3.27
+) we proceed
+similarly to get
+M
+i
+​
+j
+=
+1
+2
+​
+𝒱
+​
+g
+α
+​
+β
+¯
+​
+ω
+i
+α
+∧
+ω
+¯
+j
+β
+¯
+=
+𝒱
+​
+γ
+i
+​
+γ
+j
+2
+​
+2
+​
+g
+γ
+​
+δ
+¯
+​
+(
+η
+i
+)
+γ
+​
+α
+¯
+​
+(
+η
+j
+)
+β
+​
+δ
+¯
+​
+d
+​
+z
+β
+∧
+d
+​
+z
+¯
+α
+¯
+.
+M_{ij}=\tfrac{1}{\sqrt{2\mathcal{V}}}g_{\alpha\bar{\beta}}\omega_{i}^{\alpha}\wedge\overline{\omega}_{j}^{\bar{\beta}}=\tfrac{\sqrt{\mathcal{V}}\gamma_{i}\gamma_{j}}{2\sqrt{2}}g^{\gamma\bar{\delta}}(\eta_{i})_{\gamma\bar{\alpha}}(\eta_{j})_{\beta\bar{\delta}}dz^{\beta}\wedge d{\overline{z}}^{\bar{\alpha}}\ .
+(A.56)
+Identifying the components of the Kähler form as
+g
+α
+​
+β
+¯
+=
+−
+i
+​
+J
+α
+​
+β
+¯
+g_{\alpha\bar{\beta}}=-iJ_{\alpha\bar{\beta}}
+and
+g
+α
+¯
+​
+β
+=
+i
+​
+J
+α
+¯
+​
+β
+g_{\bar{\alpha}\beta}=iJ_{\bar{\alpha}\beta}
+we can express
+M
+i
+​
+j
+M_{ij}
+as the
+special contraction
+M
+i
+​
+j
+\displaystyle M_{ij}
+=
+−
+i
+​
+𝒱
+​
+γ
+i
+​
+γ
+j
+2
+​
+2
+​
+(
+J
+⋅
+(
+η
+i
+∧
+η
+j
+)
+−
+(
+J
+⋅
+η
+i
+)
+​
+η
+j
+−
+(
+J
+⋅
+η
+j
+)
+​
+η
+i
+)
+\displaystyle=-i\tfrac{\sqrt{\mathcal{V}}\gamma_{i}\gamma_{j}}{2\sqrt{2}}\Bigl(J\cdot(\eta_{i}\wedge\eta_{j})-(J\cdot\eta_{i})\ \eta_{j}-(J\cdot\eta_{j})\ \eta_{i}\Bigr)
+(A.57)
+=
+−
+i
+​
+𝒱
+​
+γ
+i
+​
+γ
+j
+2
+​
+2
+​
+(
+ρ
+i
+​
+j
+​
+(
+J
+⋅
+vol
+)
+−
+2
+​
+𝒱
+g
+​
+⟨
+J
+3
+,
+η
+i
+⟩
+​
+η
+j
+−
+2
+​
+𝒱
+g
+​
+⟨
+J
+3
+,
+η
+j
+⟩
+​
+η
+i
+)
+\displaystyle=-i\tfrac{\sqrt{\mathcal{V}}\gamma_{i}\gamma_{j}}{2\sqrt{2}}\Bigl(\rho_{ij}(J\cdot\mbox{vol})-\tfrac{\sqrt{2\mathcal{V}}}{\sqrt{g}}\langle J_{3},\eta_{i}\rangle\eta_{j}-\tfrac{\sqrt{2\mathcal{V}}}{\sqrt{g}}\langle J_{3},\eta_{j}\rangle\eta_{i}\Bigr)
+=
+−
+i
+​
+𝒱
+​
+γ
+i
+​
+γ
+j
+2
+​
+g
+​
+(
+ρ
+i
+​
+j
+​
+J
+3
+−
+⟨
+J
+3
+,
+η
+i
+⟩
+​
+η
+j
+−
+⟨
+J
+3
+,
+η
+j
+⟩
+​
+η
+i
+)
+.
+\displaystyle=-i\tfrac{\mathcal{V}\gamma_{i}\gamma_{j}}{2\sqrt{g}}\Bigl(\rho_{ij}J_{3}-\langle J_{3},\eta_{i}\rangle\eta_{j}-\langle J_{3},\eta_{j}\rangle\eta_{i}\Bigr)\ .
+Here we used the following identities
+(
+J
+⋅
+η
+i
+)
+​
+vol
+\displaystyle(J\cdot\eta_{i})\mbox{vol}
+=
+1
+g
+J
+∧
+η
+i
+=
+2
+​
+𝒱
+g
+⟨
+J
+3
+,
+η
+i
+⟩
+vol
+,
+J
+⋅
+vol
+=
+1
+g
+J
+.
+\displaystyle=\tfrac{1}{\sqrt{g}}J\wedge\eta_{i}=\sqrt{\tfrac{2\mathcal{V}}{g}}\langle J_{3},\eta_{i}\rangle\mbox{vol}\ ,\qquad J\cdot\mbox{vol}=\tfrac{1}{\sqrt{g}}J\ .
+(A.58)
+Hence, the expansion into
+η
+I
+\eta_{I}
+has coefficients
+M
+i
+​
+j
+I
+=
+ρ
+I
+​
+J
+​
+∫
+M
+i
+​
+j
+∧
+η
+J
+=
+i
+​
+γ
+i
+​
+γ
+j
+2
+​
+ρ
+I
+​
+J
+​
+(
+ρ
+i
+​
+j
+​
+⟨
+J
+3
+,
+η
+J
+⟩
+−
+⟨
+J
+3
+,
+η
+i
+⟩
+​
+ρ
+j
+​
+J
+−
+⟨
+J
+3
+,
+η
+j
+⟩
+​
+ρ
+i
+​
+J
+)
+.
+M^{I}_{ij}=\rho^{IJ}\int M_{ij}\wedge\eta_{J}=i\tfrac{\gamma_{i}\gamma_{j}}{2}\rho^{IJ}\Bigl(\rho_{ij}\langle J_{3},\eta_{J}\rangle-\langle J_{3},\eta_{i}\rangle\rho_{jJ}-\langle J_{3},\eta_{j}\rangle\rho_{iJ}\Bigr)\ .
+(A.59)
+Both couplings
+M
+M
+and
+N
+N
+depend on the
+K
+​
+3
+K3
+moduli but for a fixed complex structure we have the following simplification.
+In a basis
+(
+η
+1
+,
+η
+2
+,
+η
+i
+)
+(\eta_{1},\eta_{2},\eta_{i})
+of
+H
+2
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{2}(K3,\mathbb{R})
+, where
+η
+1
+,
+2
+\eta_{1,2}
+span the complex structure 2-plane,
+we have
+⟨
+J
+1
+,
+2
+,
+η
+I
+⟩
+=
+0
+\langle J_{1,2},\eta_{I}\rangle=0
+for
+I
+=
+i
+I=i
+and
+⟨
+J
+3
+,
+η
+I
+⟩
+=
+0
+\langle J_{3},\eta_{I}\rangle=0
+for
+I
+=
+1
+,
+2
+I=1,2
+.
+This implies
+N
+i
+​
+j
+I
+≠
+0
+\displaystyle N_{ij}^{I}\neq 0
+only for
+​
+I
+=
+1
+,
+2
+,
+\displaystyle\mbox{only for}\ I=1,2\ ,
+(A.60)
+M
+i
+​
+j
+I
+≠
+0
+\displaystyle M_{ij}^{I}\neq 0
+only for
+​
+I
+=
+3
+,
+…
+,
+22
+.
+\displaystyle\mbox{only for}\ I=3,\ldots,22\ .
+In this basis the couplings (
+3.31
+) between the charged scalars and the
+b
+b
+-scalars reduce to
+𝒟
+c
+​
+b
+I
+=
+(
+d
+b
+1
+,
+2
+−
+α
+′
+ε
+x
+​
+y
+(
+N
+1
+,
+2
+k
+​
+l
+C
+x
+k
+𝒟
+C
+y
+l
++
+c
+.
+c
+.
+)
+−
+…
+d
+​
+b
+i
+−
+α
+′
+​
+δ
+x
+​
+y
+​
+M
+k
+​
+l
+i
+​
+C
+¯
+k
+x
+​
+𝒟
+↔
+​
+C
+l
+y
+−
+…
+)
+,
+{\mathcal{D}}_{c}b^{I}=\begin{pmatrix}db^{1,2}-\alpha^{\prime}\varepsilon_{xy}(N^{1,2}_{kl}C^{x}_{k}{\mathcal{D}}C^{y}_{l}+c.c.)-\ldots\\
+db^{i}-\alpha^{\prime}\delta_{xy}M^{i}_{kl}\overline{C}^{x}_{k}\overleftrightarrow{\mathcal{D}}C^{y}_{l}-\ldots\end{pmatrix}\ ,
+(A.61)
+where the dots stand for the
+ξ
+¯
+​
+d
+​
+ξ
+\overline{\xi}d\xi
+terms.
+Moreover, for the
+b
+b
+-scalar combination
+b
+i
+​
+η
+i
+=
+t
+3
+i
+​
+η
+i
+b^{i}\eta_{i}=t_{3}^{i}\eta_{i}
+proportional to the Kähler form of
+K
+​
+3
+K3
+, the coupling function reduces to
+M
+i
+​
+j
+=
+−
+i
+​
+γ
+i
+​
+γ
+j
+2
+​
+g
+i
+​
+j
+,
+M_{ij}=-i\tfrac{\gamma_{i}\gamma_{j}}{2}g_{ij}\ ,
+(A.62)
+with
+g
+i
+​
+j
+g_{ij}
+known from (
+A.51
+).
+In appendix
+B
+we will use the second row in (
+A.61
+) to identify a quaternionic Kähler moduli subspace, containing complexified Kähler moduli and charged scalars.
+Let us now turn to the scalar potential which contains quartic terms
+of the charged scalars. These arise from the squares of the expressions
+(
+3.19
+) and (
+3.20
+). The term in (
+3.20
+), which is in
+the adjoint representation of the surviving gauge group, gives rise to
+D
+D
+-terms in 6D. The term in (
+3.19
+)
+is not allowed by 6D supergravity
+and we shall prove here that it vanishes due to properties of
+K
+​
+3
+K3
+and its bundles. First recall from (
+3.42
+) that only the selfdual components
+δ
+​
+F
+2
+¯
++
+\delta F_{{\bar{2}}+}
+contribute
+to the scalar potential which will be crucial to show the
+consistency with 6D supergravity. Recall (
+3.19
+)
+f
+2
+¯
+(
+𝟏
+,
+𝟑
+)
+=
+(
+C
+¯
+i
+x
+C
+i
+x
+)
+T
+​
+(
+σ
+α
+¯
+​
+β
+s
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+j
+β
+σ
+α
+¯
+​
+β
+¯
+s
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+¯
+j
+β
+¯
+σ
+α
+​
+β
+s
+​
+ω
+i
+α
+∧
+ω
+j
+β
+σ
+α
+​
+β
+¯
+s
+​
+ω
+i
+α
+∧
+ω
+¯
+j
+β
+¯
+)
+​
+δ
+x
+​
+y
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+,
+{f}_{\bar{2}}^{({\bf 1},{\bf 3})}=\begin{pmatrix}\overline{C}^{x}_{i}\\
+C^{x}_{i}\end{pmatrix}^{T}\ \begin{pmatrix}\sigma^{s}_{\bar{\alpha}\beta}\overline{\omega}^{\bar{\alpha}}_{i}\wedge\omega^{\beta}_{j}&\sigma^{s}_{\bar{\alpha}\bar{\beta}}\ \overline{\omega}^{\bar{\alpha}}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\\
+\sigma^{s}_{\alpha\beta}\ \omega^{\alpha}_{i}\wedge\omega^{\beta}_{j}&\sigma^{s}_{\alpha\bar{\beta}}\ \omega^{\alpha}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\end{pmatrix}\delta_{xy}\begin{pmatrix}C^{y}_{j}\\
+\overline{C}^{y}_{j}\end{pmatrix}\ ,
+(A.63)
+where all matrix elements are 2-forms in the group
+H
+2
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+H^{2}(\mbox{End}\ {\mathcal{T}}_{K3})
+as follows from the group
+representation
+(
+𝟏
+,
+𝟑
+)
+{({\bf 1},{\bf 3})}
+.
+We now use a local decomposition of
+H
+2
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+H^{2}(\mbox{End}\ {\mathcal{T}}_{K3})
+and show that its
+global extension does not exist.
+In fact any 2-form in
+H
+2
+​
+(
+End
+​
+𝒯
+K
+​
+3
+)
+H^{2}(\mbox{End}\ {\mathcal{T}}_{K3})
+can be locally trivialized as
+f
+i
+⊗
+ω
+i
+∈
+Γ
+⁡
+(
+End
+​
+𝒯
+K
+​
+3
+)
+⊗
+Λ
+2
+​
+(
+K
+​
+3
+)
+,
+f^{i}\otimes\omega_{i}\ \in\ \Gamma(\mbox{End}\ {\mathcal{T}}_{K3})\otimes\Lambda^{2}(K3)\ ,
+(A.64)
+where
+i
+=
+1
+,
+…
+,
+6
+i=1,...,6
+. Since
+the zero modes in (
+A.63
+) are
+d
+𝒜
+d_{\mathcal{A}}
+-closed
+also their products
+are
+d
+𝒜
+d_{\mathcal{A}}
+-closed.
+This implies
+0
+=
+d
+𝒜
+​
+(
+f
+i
+⊗
+ω
+i
+)
+=
+(
+d
+𝒜
+​
+f
+i
+)
+∧
+ω
+i
++
+f
+i
+​
+(
+d
+​
+ω
+i
+)
+.
+0=d_{\mathcal{A}}(f^{i}\otimes\omega_{i})=(d_{\mathcal{A}}f^{i})\wedge\omega_{i}+f^{i}(d\omega_{i})\ .
+(A.65)
+For the scalar potential we restrict this equation to the selfdual 2-forms. Since there exists on
+K
+​
+3
+K3
+a basis of
+d
+d
+-closed selfdual 2-forms,
+(
+A.65
+) reduces in this basis to
+d
+𝒜
+​
+f
+i
+=
+0
+.
+d_{\mathcal{A}}f^{i}=0\ .
+(A.66)
+Hence, the
+f
+i
+f^{i}
+are covariantly constant sections of
+End
+​
+𝒯
+K
+​
+3
+\mbox{End}\ {\mathcal{T}}_{K3}
+, which have to extend to globally constant
+sections. However,
+since
+End
+​
+𝒯
+K
+​
+3
+\mbox{End}\ {\mathcal{T}}_{K3}
+is an irreducible,
+nontrivial bundle, only the constant zero section exists. In other words, the deformation (
+A.63
+) preserves the ASD property of the background field strength and therefore
+does not contribute to the scalar potential.
+Next we calculate the selfdual part of (
+3.20
+)
+f
+2
+¯
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+=
+(
+C
+¯
+i
+x
+C
+i
+x
+)
+T
+​
+(
+1
+2
+​
+𝒱
+​
+g
+α
+¯
+​
+β
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+j
+β
+Ω
+¯
+α
+¯
+​
+β
+¯
+​
+ω
+¯
+i
+α
+¯
+∧
+ω
+¯
+j
+β
+¯
+Ω
+α
+​
+β
+​
+ω
+i
+α
+∧
+ω
+j
+β
+1
+2
+​
+𝒱
+​
+g
+α
+​
+β
+¯
+​
+ω
+i
+α
+∧
+ω
+¯
+j
+β
+¯
+)
+​
+(
+τ
+a
+)
+x
+​
+y
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+.
+{f}_{\bar{2}}^{({\bf 133},{\bf 1})}=\begin{pmatrix}\overline{C}^{x}_{i}\\
+C^{x}_{i}\end{pmatrix}^{T}\ \begin{pmatrix}\tfrac{1}{\sqrt{2\mathcal{V}}}g_{\bar{\alpha}\beta}\ \overline{\omega}^{\bar{\alpha}}_{i}\wedge\omega^{\beta}_{j}&\overline{\Omega}_{\bar{\alpha}\bar{\beta}}\ \overline{\omega}^{\bar{\alpha}}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\\
+\Omega_{\alpha\beta}\ \omega^{\alpha}_{i}\wedge\omega^{\beta}_{j}&\tfrac{1}{\sqrt{2\mathcal{V}}}g_{\alpha\bar{\beta}}\ \omega^{\alpha}_{i}\wedge\overline{\omega}^{\bar{\beta}}_{j}\end{pmatrix}(\tau^{a})_{xy}\begin{pmatrix}C^{y}_{j}\\
+\overline{C}^{y}_{j}\end{pmatrix}\ .
+(A.67)
+We recognize that the same coupling functions appear as
+in (
+A.53
+) and (
+A.56
+) so that we have
+f
+2
+¯
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+=
+(
+C
+¯
+i
+x
+C
+i
+x
+)
+T
+​
+(
+−
+M
+i
+​
+j
+N
+¯
+i
+​
+j
+N
+i
+​
+j
+M
+i
+​
+j
+)
+​
+(
+τ
+a
+)
+x
+​
+y
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+.
+{f}_{\bar{2}}^{({\bf 133},{\bf 1})}=\begin{pmatrix}\overline{C}^{x}_{i}\\
+C^{x}_{i}\end{pmatrix}^{T}\ \begin{pmatrix}-M_{ij}&\overline{N}_{ij}\\
+N_{ij}&M_{ij}\end{pmatrix}(\tau^{a})_{xy}\begin{pmatrix}C^{y}_{j}\\
+\overline{C}^{y}_{j}\end{pmatrix}\ .
+(A.68)
+The off-diagonal elements are already selfdual 2-forms given by (
+A.53
+), while the diagonal elements are generic
+(
+1
+,
+1
+)
+(1,1)
+-forms.
+We get their selfdual part by projecting onto
+J
+3
+J_{3}
+M
+i
+​
+j
++
+\displaystyle M_{ij+}
+=
+(
+∫
+M
+i
+​
+j
+∧
+J
+3
+)
+​
+J
+3
+=
+−
+i
+​
+γ
+i
+​
+γ
+j
+2
+​
+(
+ρ
+i
+​
+j
+​
+⟨
+J
+3
+,
+J
+3
+⟩
+−
+2
+​
+⟨
+J
+3
+,
+η
+i
+⟩
+​
+⟨
+J
+3
+,
+η
+j
+⟩
+)
+​
+J
+3
+=
+i
+​
+2
+​
+𝒱
+​
+G
+i
+​
+j
+​
+J
+3
+.
+\displaystyle=\left(\int M_{ij}\wedge J_{3}\right)J_{3}=-i\tfrac{\gamma_{i}\gamma_{j}}{2}\Bigl(\rho_{ij}\langle J_{3},J_{3}\rangle-2\langle J_{3},\eta_{i}\rangle\langle J_{3},\eta_{j}\rangle\Bigr)J_{3}=i\sqrt{2\mathcal{V}}G_{ij}J_{3}\ .
+(A.69)
+Here we identified the kinetic coupling
+G
+i
+​
+j
+G_{ij}
+using (
+A.52
+), (
+A.50
+) and
+g
+i
+​
+j
+=
+∫
+η
+i
+∧
+⋆
+η
+j
+=
+(
+−
+δ
+j
+k
++
+2
+ρ
+j
+​
+l
+t
+3
+k
+t
+3
+l
+)
+ρ
+i
+​
+k
+=
+−
+ρ
+i
+​
+j
+⟨
+J
+3
+,
+J
+3
+⟩
++
+2
+⟨
+J
+3
+,
+η
+i
+⟩
+⟨
+J
+3
+,
+η
+j
+⟩
+.
+g_{ij}=\int\eta_{i}\wedge\star\eta_{j}=(-\delta_{j}^{k}+2\rho_{jl}t_{3}^{k}t_{3}^{l})\rho_{ik}=-\rho_{ij}\langle J_{3},J_{3}\rangle+2\langle J_{3},\eta_{i}\rangle\langle J_{3},\eta_{j}\rangle\ .
+(A.70)
+Summarizing, we have
+f
+2
+¯
++
+(
+𝟏𝟑𝟑
+,
+𝟏
+)
+=
+(
+C
+¯
+i
+x
+C
+i
+x
+)
+T
+​
+(
+−
+i
+​
+2
+​
+𝒱
+​
+G
+i
+​
+j
+​
+J
+3
+1
+2
+​
+ρ
+~
+i
+​
+j
+​
+Ω
+1
+2
+​
+ρ
+~
+i
+​
+j
+​
+Ω
+¯
+i
+​
+2
+​
+𝒱
+​
+G
+i
+​
+j
+​
+J
+3
+)
+​
+(
+τ
+a
+)
+x
+​
+y
+​
+(
+C
+j
+y
+C
+¯
+j
+y
+)
+,
+{f}_{\bar{2}+}^{({\bf 133},{\bf 1})}=\begin{pmatrix}\overline{C}^{x}_{i}\\
+C^{x}_{i}\end{pmatrix}^{T}\begin{pmatrix}-i\sqrt{2\mathcal{V}}G_{ij}J_{3}&\tfrac{1}{2}\tilde{\rho}_{ij}\Omega\\
+\tfrac{1}{2}\tilde{\rho}_{ij}\overline{\Omega}&i\sqrt{2\mathcal{V}}G_{ij}J_{3}\end{pmatrix}(\tau^{a})_{xy}\begin{pmatrix}C^{y}_{j}\\
+\overline{C}^{y}_{j}\end{pmatrix}\ ,
+(A.71)
+where we
+ρ
+~
+i
+​
+j
+=
+γ
+i
+​
+γ
+j
+​
+ρ
+i
+​
+j
+\tilde{\rho}_{ij}=\gamma_{i}\gamma_{j}\rho_{ij}
+denotes the rescaled intersection matrix on
+H
+1
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+H^{1,1}(K3,\mathbb{R})
+.
+A.4
+Zero modes in line bundle backgrounds
+We now apply the results from appendix
+A.1
+to deformations of a line bundle background. For one
+U
+⁡
+(
+1
+)
+U(1)
+principal bundle inside one
+E
+8
+E_{8}
+factor we have the breaking
+E
+8
+⟶
+G
+×
+⟨
+U
+⁡
+(
+1
+)
+⟩
+,
+E_{8}\longrightarrow G\times\langle U(1)\rangle\ ,
+(A.72)
+and the adjoint decomposition
+𝟐𝟒𝟖
+⟶
+⨁
+i
+(
+(
+𝐑
+i
+,
+𝟏
+q
+i
+)
+⊕
+(
+𝐑
+¯
+i
+,
+𝟏
+−
+q
+i
+)
+)
+⊕
+(
+𝔤
+,
+𝟏
+0
+)
+⊕
+(
+𝟏
+,
+𝟏
+0
+)
+,
+{\bf 248}\longrightarrow\bigoplus\limits_{i}\ \left(({\bf R}_{i},{\bf 1}_{q_{i}})\oplus({\overline{\bf R}}_{i},{\bf 1}_{-q_{i}})\right)\oplus({\mathfrak{g}},{\bf 1}_{0})\oplus({\bf 1},{\bf 1}_{0})\ ,
+(A.73)
+which defines the associated vector bundles. Due to (
+A.11
+) we get
+again one 6D gauge potential
+V
+𝔤
+V^{\mathfrak{g}}
+in the adjoint of
+G
+G
+. However, now
+the
+⟨
+U
+⁡
+(
+1
+)
+⟩
+\langle U(1)\rangle
+is part
+of the unbroken gauge group since it commutes with itself. Since here
+𝔥
+=
+𝟏
+0
+{\mathfrak{h}}={\bf 1}_{0}
+corresponds to the trivial line bundle, there also
+exists a 6D Abelian gauge potential
+V
+𝟏
+V^{\bf 1}
+in the same representation
+(
+𝟏
+,
+𝟏
+0
+)
+({\bf 1},{\bf 1}_{0})
+as the background connection
+𝒜
+\mathcal{A}
+.
+There exist no bundle moduli, since
+End
+​
+L
+q
+=
+𝒪
+\mbox{End}\ L^{q}={\mathcal{O}}
+is the trivial bundle and
+H
+0
+,
+1
+​
+(
+End
+​
+L
+q
+)
+≅
+H
+0
+,
+1
+​
+(
+K
+​
+3
+,
+ℝ
+)
+=
+0
+.
+H^{0,1}(\mbox{End}\ L^{q})\cong H^{0,1}(K3,\mathbb{R})=0\ .
+(A.74)
+Finally, we get charged scalars in representations
+𝐑
+i
+{\bf R}_{i}
+. Their multiplicity cannot be related to the Hodge numbers of
+K
+​
+3
+K3
+, but we have
+h
+0
+,
+1
+​
+(
+L
+q
+)
+=
+−
+χ
+⁡
+(
+L
+q
+)
+,
+h^{0,1}(L^{q})=-\chi(L^{q})\ ,
+(A.75)
+by the same argument as in (
+A.4
+).
+The chiral index of a line bundle over a four-dimensional manifold
+takes the simplified form (
+4.4
+) as we will show now.
+The total Chern-character
+c
+​
+h
+​
+(
+L
+)
+=
+tr
+​
+exp
+⁡
+(
+i
+2
+​
+π
+​
+ℱ
+)
+ch(L)={\rm tr}\exp(\frac{i}{2\pi}{\mathcal{F}})
+factorizes for product bundles,
+c
+​
+h
+​
+(
+L
+q
+)
+=
+c
+​
+h
+​
+(
+L
+)
+∧
+…
+∧
+c
+​
+h
+​
+(
+L
+)
+,
+ch(L^{q})=ch(L)\wedge...\wedge ch(L)\ ,
+(A.76)
+which implies
+c
+​
+h
+2
+​
+(
+L
+q
+)
+=
+q
+​
+c
+​
+h
+2
+​
+(
+L
+)
++
+1
+2
+​
+q
+​
+(
+q
+−
+1
+)
+​
+c
+​
+h
+1
+​
+(
+L
+)
+2
+.
+ch_{2}(L^{q})=q\ ch_{2}(L)+\tfrac{1}{2}q(q-1)ch_{1}(L)^{2}\ .
+(A.77)
+For line bundles we have
+c
+​
+h
+2
+​
+(
+L
+)
+=
+1
+2
+​
+c
+​
+h
+1
+​
+(
+L
+)
+2
+ch_{2}(L)=\tfrac{1}{2}ch_{1}(L)^{2}
+such that
+c
+​
+h
+2
+​
+(
+L
+q
+)
+=
+q
+2
+​
+c
+​
+h
+2
+​
+(
+L
+)
+.
+ch_{2}(L^{q})=q^{2}ch_{2}(L)\ .
+(A.78)
+Using
+rk
+​
+(
+L
+q
+)
+=
+rk
+​
+(
+L
+)
+=
+1
+\mbox{rk}(L^{q})=\mbox{rk}(L)=1
+, the chiral index reduces to
+χ
+⁡
+(
+L
+q
+)
+=
+2
+​
+rk
+​
+(
+L
+q
+)
++
+c
+​
+h
+2
+​
+(
+L
+q
+)
+=
+2
++
+q
+2
+​
+c
+​
+h
+2
+​
+(
+L
+)
+.
+\chi(L^{q})=2\mbox{rk}(L^{q})+ch_{2}(L^{q})=2+q^{2}ch_{2}(L)\ .
+(A.79)
+Therefore (
+4.4
+) is verified.
+The Kaluza-Klein expansion of the gauge potential is analogous to
+(
+A.19
+) and reads
+a
+1
+=
+V
+𝔤
++
+V
+𝟏
+,
+a
+1
+¯
+=
+∑
+i
+(
+C
+k
+i
+𝐑
+i
+​
+ω
+k
+i
+q
+i
++
+C
+¯
+k
+i
+𝐑
+¯
+𝐢
+​
+ω
+¯
+k
+i
+−
+q
+i
+)
++
+(
+D
+¯
+k
+i
+𝐑
+¯
+𝐢
+​
+ϖ
+¯
+k
+i
+−
+q
+i
++
+D
+k
+i
+𝐑
+i
+​
+ϖ
+k
+i
+q
+i
+)
+.
+a_{1}=V^{\mathfrak{g}}+V^{\bf 1}\ ,\qquad a_{\bar{1}}=\sum_{i}\ (C_{k_{i}}^{{\bf R}_{i}}\omega_{k_{i}}^{q_{i}}+\overline{C}_{k_{i}}^{\overline{\bf R}_{i}}\overline{\omega}_{k_{i}}^{-q_{i}})+(\overline{D}_{k_{i}}^{\overline{\bf R}_{i}}\overline{\varpi}_{k_{i}}^{-q_{i}}+D_{k_{i}}^{{\bf R}_{i}}\varpi_{k_{i}}^{q_{i}})\ .
+(A.80)
+The zero modes belong to the Dolbeault cohomology groups
+ω
+k
+i
+q
+i
+∈
+H
+0
+,
+1
+​
+(
+L
+q
+i
+)
+\displaystyle\omega_{k_{i}}^{q_{i}}\in H^{0,1}(L^{q_{i}})
+,
+ω
+¯
+k
+i
+−
+q
+i
+∈
+H
+1
+,
+0
+(
+L
+−
+q
+i
+)
+,
+\displaystyle,\ \ \ \ \overline{\omega}_{k_{i}}^{-q_{i}}\in H^{1,0}(L^{-q_{i}})\ ,
+(A.81)
+ϖ
+k
+i
+q
+i
+∈
+H
+1
+,
+0
+​
+(
+L
+q
+i
+)
+\displaystyle{\varpi}_{k_{i}}^{q_{i}}\in H^{1,0}(L^{q_{i}})
+,
+ϖ
+¯
+k
+i
+−
+q
+i
+∈
+H
+0
+,
+1
+(
+L
+−
+q
+i
+)
+,
+\displaystyle,\ \ \ \ \overline{\varpi}_{k_{i}}^{-q_{i}}\in H^{0,1}(L^{-q_{i}})\ ,
+with multiplicities
+k
+i
+=
+1
+,
+…
+,
+−
+χ
+⁡
+(
+L
+q
+i
+)
+k_{i}=1,...,-\chi(L^{q_{i}})
+.
+The scalar potential of the charged scalars contains the selfdual
+parts of (
+4.16
+), (
+4.17
+) and (
+4.20
+), i.e.
+f
+2
+¯
++
+𝔤
+,
+f
+2
+¯
++
+𝟏
+,
+f
+2
+¯
++
+𝐑
+i
+⊕
+𝐑
+¯
+𝐢
+.
+{f}_{\bar{2}+}^{\mathfrak{g}}\ ,\quad{f}_{\bar{2}+}^{\bf 1}\ ,\quad{f}_{\bar{2}+}^{{\bf R}_{i}\oplus\overline{\bf R}_{i}}\ .
+(A.82)
+We show first that any term of the form
+f
+2
+¯
++
+𝐑
+i
+⊕
+𝐑
+¯
+𝐢
+{f}_{\bar{2}+}^{{\bf R}_{i}\oplus\overline{\bf R}_{i}}
+vanishes.
+The product of internal zero modes in (
+4.20
+) belong to
+H
+2
+​
+(
+L
+q
+i
+⊕
+L
+−
+q
+i
+)
+H^{2}(L^{q_{i}}\oplus L^{-q_{i}})
+and they are also closed under the gauge covariant derivative
+d
+𝒜
+d_{\mathcal{A}}
+. Locally we can write these 2-forms as
+s
+i
+⊗
+α
+i
+,
+s
+i
+∈
+Γ
+⁡
+(
+L
+q
+i
+⊕
+L
+−
+q
+i
+)
+,
+α
+i
+∈
+Λ
+2
+​
+(
+K
+​
+3
+)
+,
+s^{i}\otimes\alpha_{i}\ ,\ \ s^{i}\in\Gamma(L^{q_{i}}\oplus L^{-q_{i}})\ ,\ \ \alpha_{i}\in\Lambda^{2}(K3)\ ,
+(A.83)
+where
+i
+=
+1
+,
+…
+,
+6
+i=1,...,6
+is the number of locally independent 2-forms. Then we have
+0
+=
+d
+𝒜
+​
+(
+s
+i
+⊗
+α
+i
+)
+=
+(
+d
+𝒜
+​
+s
+i
+)
+∧
+α
+i
++
+s
+i
+⊗
+(
+d
+​
+α
+i
+)
+.
+0=d_{\mathcal{A}}(s^{i}\otimes\alpha_{i})=(d_{\mathcal{A}}s^{i})\wedge\alpha_{i}+s^{i}\otimes(d\alpha_{i})\ .
+(A.84)
+If we restrict to the
+d
+d
+-closed selfdual 2-forms, (
+A.84
+) reduces to
+0
+=
+(
+d
+𝒜
+​
+s
+j
+)
+∧
+α
+j
++
+.
+0=(d_{\mathcal{A}}s^{j})\wedge\alpha_{j}^{+}\ .
+(A.85)
+It follows that
+f
+2
+¯
++
+𝐑
+i
+⊕
+𝐑
+¯
+𝐢
+{f}_{\bar{2}+}^{{\bf R}_{i}\oplus\overline{\bf R}_{i}}
+is proportional to covariantly constant sections
+s
+j
+∈
+Γ
+⁡
+(
+L
+q
+i
+⊕
+L
+−
+q
+i
+)
+s^{j}\in\Gamma(L^{q_{i}}\oplus L^{-q_{i}})
+. However, since
+L
+q
+i
+⊕
+L
+−
+q
+i
+L^{q_{i}}\oplus L^{-q_{i}}
+is nontrivial and irreducible, only the constant zero section exists.
+We conclude that all
+f
+2
+¯
++
+𝐑
+i
+⊕
+𝐑
+¯
+𝐢
+{f}_{\bar{2}+}^{{\bf R}_{i}\oplus\overline{\bf R}_{i}}
+vanish.
+Next we derive the selfdual part of
+f
+2
+¯
++
+𝔤
+{f}_{\bar{2}+}^{\mathfrak{g}}
+and
+f
+2
+¯
++
+𝟏
+{f}_{\bar{2}+}^{\bf 1}
+.
+Considering the matrix of internal 2-forms in (
+4.16
+) and (
+4.17
+),
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
+,
+\begin{pmatrix}\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\\
+\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}}&\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}}\end{pmatrix}\ ,
+(A.86)
+they take values in the trivial bundle,
+H
+2
+​
+(
+K
+​
+3
+,
+L
+q
+i
+⊗
+L
+−
+q
+i
+)
+=
+H
+2
+​
+(
+K
+​
+3
+)
+H^{2}(K3,L^{q_{i}}\otimes L^{-q_{i}})=H^{2}(K3)
+. Hence, covariantly constant sections exist.
+Projecting to the selfdual components we get
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+)
++
+\displaystyle(\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}})_{+}
+=
+i
+2
+​
+𝒱
+(
+∫
+ω
+¯
+−
+q
+i
+k
+i
+∧
+⋆
+ω
+q
+i
+l
+i
+)
+J
+,
+\displaystyle=\tfrac{i}{2\mathcal{V}}\left(\int\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\star\omega^{q_{i}}_{l_{i}}\right)J\ ,
+(A.87)
+(
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
++
+\displaystyle(\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}})_{+}
+=
+i
+2
+​
+𝒱
+(
+∫
+ϖ
+¯
+−
+q
+i
+k
+i
+∧
+⋆
+ϖ
+q
+i
+l
+i
+)
+J
+,
+\displaystyle=\tfrac{i}{2\mathcal{V}}\left(\int\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\star\varpi^{q_{i}}_{l_{i}}\right)J\ ,
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
++
+\displaystyle(\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}})_{+}
+=
+1
+2
+​
+(
+∫
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
+∧
+Ω
+¯
+)
+​
+Ω
+,
+\displaystyle=\tfrac{1}{2}\left(\int(\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}})\wedge\overline{\Omega}\right)\Omega\ ,
+(
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+)
++
+\displaystyle(\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}})_{+}
+=
+1
+2
+​
+(
+∫
+(
+ϖ
+¯
+k
+i
+−
+q
+i
+∧
+ω
+l
+i
+q
+i
+)
+∧
+Ω
+)
+​
+Ω
+¯
+.
+\displaystyle=\tfrac{1}{2}\left(\int(\overline{\varpi}^{-q_{i}}_{k_{i}}\wedge\omega^{q_{i}}_{l_{i}})\wedge{\Omega}\right)\overline{\Omega}\ .
+The diagonal elements are proportional to the scalar kinetic metric
+g
+k
+i
+​
+l
+i
+C
+g_{k_{i}l_{i}}^{C}
+and
+g
+k
+i
+​
+l
+i
+D
+g_{k_{i}l_{i}}^{D}
+, that appeared in (
+4.28
+).
+The off-diagonal elements contain a generalized intersection matrix
+c
+k
+i
+​
+l
+i
+=
+∫
+(
+ω
+¯
+k
+i
+−
+q
+i
+∧
+ϖ
+l
+i
+q
+i
+)
+∧
+Ω
+¯
+,
+c_{k_{i}l_{i}}=\int(\overline{\omega}^{-q_{i}}_{k_{i}}\wedge\varpi^{q_{i}}_{l_{i}})\wedge\overline{\Omega}\ ,
+(A.88)
+where the indices run over the multiplicity of the corresponding charged scalars.
+Appendix B
+T
+4
+/
+ℤ
+3
+T^{4}/\mathbb{Z}_{3}
+limit: Hypermultiplet moduli space metric
+In this appendix we focus on a specific orbifold corresponding to a
+heterotic compactification on a smooth
+K
+​
+3
+K3
+with standard embedding
+for the gauge bundle. In this case we are able to give an explicit form of the
+hypermultiplet field space for the untwisted moduli.
+Specifically we consider the
+E
+8
+×
+E
+8
+E_{8}\times E_{8}
+heterotic
+string compactified on the orbifold
+T
+4
+/
+ℤ
+3
+T^{4}/\mathbb{Z}_{3}
+with gauge
+twist given by
+1
+3
+​
+(
+1
+2
+,
+0
+6
+)
+​
+(
+0
+8
+)
+\frac{1}{3}(1^{2},0^{6})(0^{8})
+[
+51
+]
+.
+In this case the unbroken gauge group is
+E
+7
+×
+U
+⁡
+(
+1
+)
+×
+E
+8
+E_{7}\times U(1)\times E_{8}
+. In the hypermultiplet sectors we have both untwisted and twisted states in the following representations:
+21
+21
+21
+The untwisted spectrum is obtained by taking the spectrum coming from compactification on
+T
+4
+T^{4}
+and performing the
+ℤ
+3
+\mathbb{Z}_{3}
+projection. The twisted spectrum comes from strings localized around the orbifold singularities.
+(
+𝟓𝟔
+,
+𝟏
+)
+1
+untw
+⊕
+(
+𝟏
+,
+𝟏
+)
+2
+untw
+⊕
+2
+​
+(
+𝟏
+,
+𝟏
+)
+0
+untw
+⊕
+9
+​
+(
+𝟓𝟔
+,
+𝟏
+)
+1
+3
+tw
+⊕
+45
+​
+(
+𝟏
+,
+𝟏
+)
+2
+3
+tw
+⊕
+18
+​
+(
+𝟏
+,
+𝟏
+)
+4
+3
+tw
+.
+({\bf 56,1})_{1}^{\rm untw}\oplus({\bf 1,1})_{2}^{\rm untw}\oplus 2({\bf 1,1})_{0}^{\rm untw}\oplus 9({\bf 56,1})_{\frac{1}{3}}^{\rm tw}\oplus 45({\bf 1,1})_{\frac{2}{3}}^{\rm tw}\oplus 18({\bf 1,1})_{\frac{4}{3}}^{\rm tw}\>.
+(B.1)
+When we blow up the orbifold
+T
+4
+/
+ℤ
+3
+T^{4}/\mathbb{Z}_{3}
+we get a smooth
+K
+​
+3
+K3
+. After a field redefinition, the orbifold spectrum matches with
+the spectrum obtained by a smooth compactification with nontrivial
+gauge bundle
+[
+13
+]
+. In particular, the two
+(
+𝟏
+,
+𝟏
+)
+0
+untw
+({\bf 1,1})_{0}^{\rm untw}
+are the two hypermultiplets containing the four
+geometric moduli and the four
+B
+B
+-field moduli surviving the
+ℤ
+3
+\mathbb{Z}_{3}
+projection, the
+(
+𝟓𝟔
+,
+𝟏
+)
+1
+untw
+({\bf 56,1})_{1}^{\rm untw}
+is a
+charged field, and the
+(
+𝟏
+,
+𝟏
+)
+2
+untw
+({\bf 1,1})_{2}^{\rm untw}
+is eaten to give
+mass to the
+U
+⁡
+(
+1
+)
+U(1)
+gauge boson.
+Therefore the total orbifold spectrum matches the spectrum of the
+smooth compactification considered in section
+3
+, i.e. 20 geometric, 45 bundle moduli and 10 charged hypermultiplets.
+The metric on the hypermultiplet scalar field space in the untwisted sector, can be obtained by considering the 6D heterotic compactification on
+T
+4
+T^{4}
+and performing a
+suitable truncation
+[
+64
+,
+42
+]
+. For the case at hand the truncation is
+S
+​
+O
+​
+(
+4
+,
+4
++
+N
+)
+S
+​
+O
+​
+(
+4
+)
+×
+S
+​
+O
+​
+(
+4
++
+N
+)
+→
+S
+​
+U
+​
+(
+2
+,
+2
++
+n
+)
+U
+⁡
+(
+1
+)
+×
+S
+​
+U
+​
+(
+2
+)
+×
+S
+​
+U
+​
+(
+2
++
+n
+)
+.
+\frac{SO(4,4+N)}{SO(4)\times SO(4+N)}\qquad\rightarrow\qquad\frac{SU(2,2+n)}{U(1)\times SU(2)\times SU(2+n)}\ .
+(B.2)
+The latter space is simultaneously quaternionic-Kähler and Kähler,
+with a metric determined by the Kähler potential
+K
+=
+−
+log
+det
+(
+T
++
+T
+†
+−
+2
+Ψ
+Ψ
+†
+)
+.
+K=-\log\det(T+T^{\dagger}-2\Psi\Psi^{\dagger})\>.
+(B.3)
+Ψ
+\Psi
+is a
+2
+×
+n
+2\times n
+complex matrix, which encodes the two complex
+scalars belonging to the
+n
+n
+hypermultiplets in the untwisted charged
+spectrum
+(in our case
+n
+=
+56
+n=56
+.)
+T
+T
+is a
+2
+×
+2
+2\times 2
+complex matrix given by
+(
+T
+i
+​
+j
+)
+=
+(
+g
+1
+​
+1
+¯
++
+i
+​
+B
+1
+​
+1
+¯
++
+Ψ
+1
+​
+Ψ
+¯
+1
+g
+12
++
+i
+​
+B
+12
++
+Ψ
+1
+​
+Ψ
+¯
+2
+g
+12
+¯
++
+i
+​
+B
+12
+¯
++
+Ψ
+2
+​
+Ψ
+¯
+1
+g
+2
+​
+2
+¯
++
+i
+​
+B
+2
+​
+2
+¯
++
+Ψ
+2
+​
+Ψ
+¯
+2
+)
+.
+(T_{ij})=\left(\begin{array}[]{ccc}g_{1\bar{1}}+iB_{1\bar{1}}+\Psi_{1}\overline{\Psi}_{1}&&g_{12}+iB_{12}+\Psi_{1}\overline{\Psi}_{2}\\
+\overline{g_{12}}+i\overline{B_{12}}+\Psi_{2}\overline{\Psi}_{1}&&g_{2\bar{2}}+iB_{2\bar{2}}+\Psi_{2}\overline{\Psi}_{2}\\
+\end{array}\right)\>.
+(B.4)
+It contains the real
+g
+1
+​
+1
+¯
+g_{1\bar{1}}
+,
+g
+2
+​
+2
+¯
+g_{2\bar{2}}
+and the complex
+g
+12
+g_{12}
+metric elements and the the corresponding components of the
+B
+B
+-field.
+Ψ
+i
+​
+Ψ
+¯
+j
+\Psi_{i}\overline{\Psi}_{j}
+includes a summation over the
+n
+n
+components.
+For simplicity let us fix the complex structure such that
+g
+12
+=
+0
+g_{12}=0
+. In this limit, the Kähler potential (
+B.3
+) yields the kinetic terms
+K
+T
+i
+​
+j
+​
+T
+¯
+k
+​
+l
+​
+d
+​
+T
+i
+​
+j
+​
+d
+​
+T
+¯
+k
+​
+l
+=
+1
+4
+​
+g
+1
+​
+1
+¯
+2
+​
+d
+​
+T
+11
+​
+d
+​
+T
+¯
+11
++
+1
+4
+​
+g
+2
+​
+2
+¯
+2
+​
+d
+​
+T
+22
+​
+d
+​
+T
+¯
+22
++
+1
+4
+​
+g
+1
+​
+1
+¯
+​
+g
+2
+​
+2
+¯
+​
+(
+d
+​
+T
+12
+​
+d
+​
+T
+¯
+12
++
+d
+​
+T
+21
+​
+d
+​
+T
+¯
+21
+)
+,
+K_{T_{ij}\overline{T}_{kl}}dT_{ij}d{\overline{T}}_{kl}=\tfrac{1}{4g_{1\bar{1}}^{2}}dT_{11}d{\overline{T}}_{11}+\tfrac{1}{4g_{2\bar{2}}^{2}}dT_{22}d{\overline{T}}_{22}+\tfrac{1}{4g_{1\bar{1}}g_{2\bar{2}}}(dT_{12}d{\overline{T}}_{12}+dT_{21}d{\overline{T}}_{21})\ ,
+(B.5)
+K
+Ψ
+i
+​
+Ψ
+¯
+j
+​
+d
+​
+Ψ
+i
+​
+d
+​
+Ψ
+¯
+j
+=
+(
+1
+g
+1
+​
+1
+¯
++
+Ψ
+2
+​
+Ψ
+¯
+2
+g
+1
+​
+1
+¯
+​
+g
+2
+​
+2
+¯
++
+Ψ
+1
+​
+Ψ
+¯
+1
+g
+1
+​
+1
+¯
+2
+)
+​
+d
+​
+Ψ
+1
+​
+d
+​
+Ψ
+¯
+1
++
+(
+1
+g
+2
+​
+2
+¯
++
+Ψ
+1
+​
+Ψ
+¯
+1
+g
+1
+​
+1
+¯
+​
+g
+2
+​
+2
+¯
++
+Ψ
+2
+​
+Ψ
+¯
+2
+g
+2
+​
+2
+¯
+2
+)
+​
+d
+​
+Ψ
+2
+​
+d
+​
+Ψ
+¯
+2
+,
+K_{\Psi_{i}{\overline{\Psi}}_{j}}d\Psi_{i}d{\overline{\Psi}}_{j}=(\tfrac{1}{g_{1\bar{1}}}+\tfrac{\Psi_{2}\overline{\Psi}_{2}}{g_{1\bar{1}}g_{2\bar{2}}}+\tfrac{\Psi_{1}\overline{\Psi}_{1}}{g_{1\bar{1}}^{2}})d\Psi_{1}d{\overline{\Psi}}_{1}+(\tfrac{1}{g_{2\bar{2}}}+\tfrac{\Psi_{1}\overline{\Psi}_{1}}{g_{1\bar{1}}g_{2\bar{2}}}+\tfrac{\Psi_{2}\overline{\Psi}_{2}}{g_{2\bar{2}}^{2}})d\Psi_{2}d{\overline{\Psi}}_{2}\ ,
+(B.6)
+K
+T
+i
+​
+j
+​
+Ψ
+¯
+k
+​
+d
+​
+T
+i
+​
+j
+​
+d
+​
+Ψ
+¯
+k
+=
+−
+Ψ
+1
+2
+​
+g
+1
+​
+1
+¯
+2
+​
+d
+​
+T
+11
+​
+d
+​
+Ψ
+¯
+1
+−
+Ψ
+2
+2
+​
+g
+2
+​
+2
+¯
+2
+​
+d
+​
+T
+22
+​
+d
+​
+Ψ
+¯
+2
+−
+Ψ
+2
+2
+​
+g
+1
+​
+1
+¯
+​
+g
+2
+​
+2
+¯
+​
+d
+​
+T
+12
+​
+d
+​
+Ψ
+¯
+1
+−
+Ψ
+1
+2
+​
+g
+1
+​
+1
+¯
+​
+g
+2
+​
+2
+¯
+​
+d
+​
+T
+21
+​
+d
+​
+Ψ
+¯
+2
+.
+K_{T_{ij}\overline{\Psi}_{k}}dT_{ij}d{\overline{\Psi}}_{k}=-\tfrac{\Psi_{1}}{2g_{1\bar{1}}^{2}}dT_{11}d{\overline{\Psi}}_{1}-\tfrac{\Psi_{2}}{2g_{2\bar{2}}^{2}}dT_{22}d{\overline{\Psi}}_{2}-\tfrac{\Psi_{2}}{2g_{1\bar{1}}g_{2\bar{2}}}dT_{12}d{\overline{\Psi}}_{1}-\tfrac{\Psi_{1}}{2g_{1\bar{1}}g_{2\bar{2}}}dT_{21}d{\overline{\Psi}}_{2}\ .
+(B.7)
+Inserting (
+B.4
+) we get the kinetic terms in terms of the Kaluza-Klein modes
+[
+64
+,
+42
+]
+. The leading term for the charged scalars reads
+∑
+i
+=
+1
+,
+2
+1
+g
+i
+​
+i
+¯
+​
+d
+​
+Ψ
+i
+​
+d
+​
+Ψ
+¯
+i
+.
+\sum\limits_{i=1,2}\tfrac{1}{g_{i\bar{i}}}d\Psi_{i}d{\overline{\Psi}}_{i}\ .
+(B.8)
+The terms for the two complexified Kähler moduli read
+∑
+i
+=
+1
+,
+2
+1
+4
+​
+g
+i
+​
+i
+¯
+2
+​
+|
+d
+​
+g
+i
+​
+i
+¯
++
+i
+​
+d
+​
+B
+i
+​
+i
+¯
++
+Ψ
+¯
+i
+​
+d
+​
+Ψ
+i
+−
+Ψ
+i
+​
+d
+​
+Ψ
+¯
+i
+|
+2
+.
+\sum\limits_{i=1,2}\tfrac{1}{4g_{i\bar{i}}^{2}}\lvert dg_{i\bar{i}}+idB_{i\bar{i}}+{\overline{\Psi}}_{i}d\Psi_{i}-\Psi_{i}d{\overline{\Psi}}_{i}\rvert^{2}\ .
+(B.9)
+The terms for the off-diagonal fields in
+T
+T
+read
+1
+4
+​
+g
+1
+​
+1
+¯
+​
+g
+2
+​
+2
+¯
+​
+(
+|
+i
+​
+d
+​
+B
+12
++
+Ψ
+1
+​
+d
+​
+Ψ
+¯
+2
+−
+Ψ
+¯
+2
+​
+d
+​
+Ψ
+1
+|
+2
++
+|
+i
+​
+d
+​
+B
+12
+¯
++
+Ψ
+2
+​
+d
+​
+Ψ
+¯
+1
+−
+Ψ
+¯
+1
+​
+d
+​
+Ψ
+2
+|
+2
+)
+.
+\tfrac{1}{4g_{1\bar{1}}g_{2\bar{2}}}\bigl(\lvert idB_{12}+\Psi_{1}d{\overline{\Psi}}_{2}-{\overline{\Psi}}_{2}d\Psi_{1}\rvert^{2}+\lvert id\overline{B_{12}}+\Psi_{2}d{\overline{\Psi}}_{1}-{\overline{\Psi}}_{1}d\Psi_{2}\rvert^{2}\bigr)\ .
+(B.10)
+We now compare the above kinetic couplings with our results (
+3.29
+) coming from the smooth
+K
+​
+3
+K3
+.
+To make contact with the ones just derived, we have to take the orbifold limit and identify the
+K
+​
+3
+K3
+moduli related to
+g
+i
+​
+i
+¯
+g_{i\bar{i}}
+.
+The
+T
+4
+/
+ℤ
+3
+T^{4}/\mathbb{Z}_{3}
+limit of
+K
+​
+3
+K3
+corresponds to taking the 3-plane
+Σ
+\Sigma
+orthogonal to 18 two-cycles with intersection matrix
+A
+2
+⊕
+9
+A_{2}^{\oplus 9}
+.
+22
+22
+22
+T
+4
+/
+ℤ
+3
+T^{4}/\mathbb{Z}_{3}
+has nine
+A
+2
+A_{2}
+-singularities (i.e. locally
+ℂ
+2
+/
+ℤ
+3
+\mathbb{C}^{2}/\mathbb{Z}_{3}
+). One ADE singularity of
+K
+​
+3
+K3
+is generated by shrinking a set of two-cycles with the intersection matrix given by (minus) the Cartan matrix of the corresponding ADE group.
+The orthogonal complement (where
+Σ
+\Sigma
+lives) must contain the two complex 2-tori (that we call
+η
+1
+,
+η
+2
+\eta_{1},\eta_{2}
+) spanned by the coordinates
+z
+i
+z^{i}
+, plus two 2-cycles (called
+η
+3
+,
+η
+4
+\eta_{3},\eta_{4}
+) with positive self-intersection and that are not of type
+(
+1
+,
+1
+)
+(1,1)
+. They have the following intersection matrix:
+(
+0
+3
+3
+0
+2
+−
+1
+−
+1
+2
+)
+.
+\left(\begin{array}[]{cccc}0&3&&\\
+3&0&&\\
+&&2&-1\\
+&&-1&2\end{array}\right)\ .
+(B.11)
+The chosen complex structure (i.e.
+g
+12
+=
+0
+g_{12}=0
+) makes the metric hermitean, allowing us to identify the
+g
+i
+​
+i
+¯
+g_{i\bar{i}}
+elements with the coefficient of the Kähler form
+J
+J
+along the Poincaré dual of the two 2-tori.
+On the K3 side we need to take the two 2-tori of type
+(
+1
+,
+1
+)
+(1,1)
+. This is done by making
+J
+J
+be a linear combination of (the Poincaré dual of)
+η
+1
+\eta_{1}
+and
+η
+2
+\eta_{2}
+and
+Ω
+\Omega
+live in the positive definite subspace
+{
+η
+3
+,
+η
+4
+}
+\{\eta_{3},\eta_{4}\}
+. Also
+B
+B
+will have components along
+η
+1
+\eta_{1}
+and
+η
+2
+\eta_{2}
+:
+J
+=
+t
+1
+​
+η
+1
++
+t
+2
+​
+η
+2
+,
+B
+=
+b
+1
+​
+η
+1
++
+b
+2
+​
+η
+2
++
+…
+,
+J=t^{1}\,\eta_{1}+t^{2}\,\eta_{2}\ ,\qquad\qquad B=b^{1}\,\eta_{1}+b^{2}\,\eta_{2}+...\ ,
+(B.12)
+and we have the identifications
+g
+i
+​
+i
+¯
+↔
+t
+i
+g_{i\bar{i}}\leftrightarrow t^{i}
+and
+B
+i
+​
+i
+¯
+↔
+b
+i
+B_{i\bar{i}}\leftrightarrow b^{i}
+.
+First, consider the coupling in front of (
+B.9
+).
+The smooth result reduces in the orbifold limit to
+1
+𝒱
+g
+I
+​
+J
+=
+1
+𝒱
+∫
+η
+I
+∧
+⋆
+η
+J
+⟶
+(
+1
+(
+t
+1
+)
+2
+1
+(
+t
+2
+)
+2
+)
+,
+\tfrac{1}{\mathcal{V}}g_{IJ}=\tfrac{1}{\mathcal{V}}\int\eta_{I}\wedge\star\eta_{J}\ \longrightarrow\begin{pmatrix}\frac{1}{(t^{1})^{2}}&\\
+&\frac{1}{(t^{2})^{2}}\end{pmatrix}\ ,
+(B.13)
+which matches with (
+B.9
+) up to a numerical constant. For the leading charged scalar coupling we have
+G
+i
+​
+j
+=
+γ
+i
+​
+γ
+j
+2
+​
+2
+​
+𝒱
+∫
+η
+i
+∧
+⋆
+η
+j
+⟶
+3
+2
+​
+2
+(
+1
+⟨
+J
+,
+η
+1
+⟩
+​
+t
+2
+t
+1
+1
+⟨
+J
+,
+η
+2
+⟩
+​
+t
+1
+t
+2
+)
+=
+1
+2
+​
+2
+(
+1
+t
+1
+1
+t
+2
+)
+,
+G_{ij}=\tfrac{\gamma_{i}\gamma_{j}}{2\sqrt{2\mathcal{V}}}\int\eta_{i}\wedge\star\eta_{j}\ \longrightarrow\ \tfrac{3}{2\sqrt{2}}\begin{pmatrix}\tfrac{1}{\langle J,\eta_{1}\rangle}\frac{t^{2}}{t^{1}}&\\
+&\tfrac{1}{\langle J,\eta_{2}\rangle}\frac{t^{1}}{t^{2}}\end{pmatrix}=\tfrac{1}{2\sqrt{2}}\begin{pmatrix}\frac{1}{t^{1}}&\\
+&\frac{1}{t^{2}}\end{pmatrix}\ ,
+(B.14)
+which matches with (
+B.8
+).
+Here we see that for the orbifold match it is necessary to include the moduli dependent functions
+γ
+j
+=
+𝒱
+1
+4
+/
+⟨
+J
+,
+η
+i
+⟩
+1
+2
+\gamma_{j}={\mathcal{V}}^{\frac{1}{4}}/\langle J,\eta_{i}\rangle^{\frac{1}{2}}
+in the isomorphy of zero modes (
+A.36
+).
+In fact, the moduli dependence of the skew-symmetric couplings
+M
+i
+​
+j
+I
+M_{ij}^{I}
+drops out in the orbifold limit, as expected.
+The only nonvanishing components are
+M
+11
+1
+=
+M
+22
+2
+=
+−
+i
+2
+.
+M_{11}^{1}=M_{22}^{2}=-\tfrac{i}{\sqrt{2}}\ .
+(B.15)
+This matches with (
+B.10
+).
+References
+[1]
+P. Candelas, G. T. Horowitz, A. Strominger and E. Witten,
+“Vacuum Configurations for Superstrings,”
+Nucl. Phys.
+B258
+(1985) 46-74.
+[2]
+L. J. Dixon, J. A. Harvey, C. Vafa and E. Witten,
+“Strings On Orbifolds,”
+Nucl. Phys.  B
+261
+(1985) 678.
+[3]
+M. B. Green, J. H. Schwarz, E. Witten,
+“Superstring Theory. Vol. 2: Loop Amplitudes, Anomalies And
+Phenomenology,”
+Cambridge, Uk: Univ. Pr. ( 1987) 596 P. ( Cambridge Monographs On
+Mathematical Physics).
+[4]
+J. Polchinski,
+“String theory. Vol. 2: Superstring theory and beyond,”
+Cambridge, UK: Univ. Pr. (1998) 531 p.
+[5]
+Y. Kawamura,
+“Triplet doublet splitting, proton stability and extra dimension,”
+Prog. Theor. Phys.
+105
+(2001) 999
+[hep-ph/0012125].
+[6]
+L. J. Hall and Y. Nomura,
+“Gauge unification in higher dimensions,”
+Phys. Rev. D
+64
+(2001) 055003
+[hep-ph/0103125].
+[7]
+A. Hebecker and J. March-Russell,
+“A Minimal
+S
+1
+/
+(
+Z
+2
+×
+Z
+2
+′
+)
+S^{1}/(Z_{2}\times Z^{\prime}_{2})
+orbifold GUT,”
+Nucl. Phys. B
+613
+(2001) 3
+[hep-ph/0106166].
+[8]
+T. Asaka, W. Büchmuller and L. Covi,
+“Gauge unification in six-dimensions,”
+Phys. Lett. B
+523
+(2001) 199
+[hep-ph/0108021].
+[9]
+T. Kobayashi, S. Raby and R. -J. Zhang,
+Phys. Lett. B
+593
+(2004) 262
+[hep-ph/0403065].
+[10]
+S. Förste, H. P. Nilles, P. K. S. Vaudrevange and A. Wingerter,
+Phys. Rev. D
+70
+(2004) 106008
+[hep-th/0406208].
+[11]
+W. Buchmüller, K. Hamaguchi, O. Lebedev and M. Ratz,
+Phys. Rev. Lett.
+96
+(2006) 121602
+[hep-ph/0511035].
+[12]
+W. Buchmüller, C. Lüdeling and J. Schmidt,
+“Local SU(5) Unification from the Heterotic String,”
+JHEP
+0709
+(2007) 113.
+[arXiv:0707.1651 [hep-ph]].
+[13]
+G. Honecker and M. Trapletti,
+“Merging Heterotic Orbifolds and K3 Compactifications with Line
+Bundles,”
+JHEP
+0701
+(2007) 051.
+[hep-th/0612030].
+[14]
+S. Groot Nibbelink, M. Trapletti and M. Walter,
+“Resolutions of C**n/Z(n) Orbifolds, their U(1) Bundles, and Applications to String Model Building,”
+JHEP
+0703
+(2007) 035
+[hep-th/0701227].
+[15]
+S. Nibbelink Groot, T. -W. Ha and M. Trapletti,
+“Toric Resolutions of Heterotic Orbifolds,”
+Phys. Rev. D
+77
+(2008) 026002
+[arXiv:0707.1597 [hep-th]].
+[16]
+S. G. Nibbelink, D. Klevers, F. Ploger, M. Trapletti and
+P. K. S. Vaudrevange,
+“Compact heterotic orbifolds in blow-up,”
+JHEP
+0804
+(2008) 060.
+[arXiv:0802.2809 [hep-th]].
+[17]
+S. Nibbelink Groot, J. Held, F. Ruehle, M. Trapletti and P. K. S. Vaudrevange,
+“Heterotic Z(6-II) MSSM Orbifolds in Blowup,”
+JHEP
+0903
+(2009) 005
+[arXiv:0901.3059 [hep-th]].
+[18]
+M. Blaszczyk, S. Nibbelink Groot, F. Ruehle, M. Trapletti and P. K. S. Vaudrevange,
+“Heterotic MSSM on a Resolved Orbifold,”
+JHEP
+1009
+, 065 (2010)
+[arXiv:1007.0203 [hep-th]].
+[19]
+M. Blaszczyk, N. G. C. Bizet, H. P. Nilles and F. Ruehle,
+“A perfect match of MSSM-like orbifold and resolution models via anomalies,”
+JHEP
+1110
+(2011) 117
+[arXiv:1108.0667 [hep-th]].
+[20]
+W. Buchmüller, J. Louis, J. Schmidt and R. Valandro,
+“Voisin-Borcea Manifolds and Heterotic Orbifold Models”,
+in preparation.
+[21]
+J. Bagger, E. Witten,
+“Matter Couplings in N=2 Supergravity,”
+Nucl. Phys.
+B222
+(1983) 1.
+[22]
+H. Nishino and E. Sezgin,
+“The Complete N=2, D = 6 Supergravity With Matter And Yang-mills
+Couplings,”
+Nucl. Phys.
+B278
+(1986) 353-379.
+[23]
+F. Riccioni,
+“All couplings of minimal six-dimensional supergravity,”
+Nucl. Phys.
+B605
+(2001) 245-265.
+[hep-th/0101074].
+[24]
+M. B. Green, J. H. Schwarz and P. C. West,
+“Anomaly Free Chiral Theories in Six-Dimensions,”
+Nucl. Phys.
+B254
+(1985) 327-348.
+[25]
+M. A. Walton,
+“The Heterotic String On The Simplest Calabi-yau Manifold And Its
+Orbifold Limits,”
+Phys. Rev.
+D37
+(1988) 377.
+[26]
+E. Witten,
+“Small instantons in string theory,”
+Nucl. Phys.
+B460
+(1996) 541-559.
+[hep-th/9511030].
+[27]
+J. H. Schwarz,
+“Anomaly - free supersymmetric models in six-dimensions,”
+Phys. Lett.
+B371
+(1996) 223-230.
+[hep-th/9512053].
+[28]
+N. Seiberg and E. Witten,
+“Comments on string dynamics in six-dimensions,”
+Nucl. Phys.
+B471
+(1996) 121-134.
+[hep-th/9603003].
+[29]
+J. Louis and A. Micu,
+“Heterotic string theory with background fluxes,”
+Nucl. Phys.
+B626
+(2002) 26-52.
+[hep-th/0110187].
+[30]
+G. Honecker,
+“Massive U(1)s and heterotic five-branes on K3,”
+Nucl. Phys.
+B748
+(2006) 126-148.
+[hep-th/0602101].
+[31]
+L. J. Dixon, V. Kaplunovsky and J. Louis,
+“On Effective Field Theories Describing (2,2) Vacua of the Heterotic String,”
+Nucl. Phys. B
+329
+(1990) 27.
+[32]
+S. Gurrieri, A. Lukas and A. Micu,
+“Heterotic String Compactifications on Half-flat Manifolds. II.,”
+JHEP
+0712
+(2007) 081
+[arXiv:0709.1932 [hep-th]].
+[33]
+C. Andrey and C. A. Scrucca,
+“Sequestering by global symmetries in Calabi-Yau string models,”
+Nucl. Phys. B
+851
+(2011) 245
+[arXiv:1104.4061 [hep-th]].
+[34]
+E. Witten,
+“New Issues in Manifolds of SU(3) Holonomy,”
+Nucl. Phys. B
+268
+, 79 (1986).
+[35]
+R. Friedman, J. Morgan and E. Witten,
+“Vector bundles and F theory,”
+Commun. Math. Phys.
+187
+(1997) 679
+[hep-th/9701162].
+[36]
+R. Y. Donagi,
+“Principal bundles on elliptic fibrations,”
+Asian J. Math
+1
+, 214 (1997)
+[alg-geom/9702002].
+[37]
+R. Donagi, A. Lukas, B. A. Ovrut and D. Waldram,
+“Holomorphic vector bundles and nonperturbative vacua in M theory,”
+JHEP
+9906
+(1999) 034
+[hep-th/9901009].
+[38]
+B. Andreas, G. Curio and A. Klemm,
+“Towards the Standard Model spectrum from elliptic Calabi-Yau,”
+Int. J. Mod. Phys. A
+19
+(2004) 1987
+[hep-th/9903052].
+[39]
+B. Andreas and D. Hernandez Ruiperez,
+“U(n) vector bundles on Calabi-Yau threefolds for string theory compactifications,”
+Adv. Theor. Math. Phys.
+9
+, 253 (2005)
+[hep-th/0410170].
+[40]
+M. F. Atiyah, N. J. Hitchin and I. M. Singer,
+“Selfduality in Four-Dimensional Riemannian Geometry,”
+Proc. Roy. Soc. Lond.
+A362
+(1978) 425-461.
+[41]
+J. Li,
+“Anti-Self-Dual Connections and Stable Vector Bundles”
+in “Gauge theory and the topology of four-manifolds. Proceedings,
+Graduate Summer School, Park City, USA, July 10-30, 1994,”
+[42]
+S. Ferrara, C. Kounnas and M. Porrati,
+“General Dimensional Reduction of Ten-Dimensional Supergravity and
+Superstring,”
+Phys. Lett.
+B181
+(1986) 263.
+[43]
+G. Aldazabal, A. Font, L. E. Ibanez and A. M. Uranga,
+“New branches of string compactifications and their F theory duals,”
+Nucl. Phys. B
+492
+(1997) 119
+[hep-th/9607121].
+[44]
+R. Blumenhagen, G. Honecker and T. Weigand,
+“Loop-corrected compactifications of the heterotic string with line bundles,”
+JHEP
+0506
+(2005) 020
+[hep-th/0504232].
+[45]
+R. Blumenhagen, S. Moster and T. Weigand,
+“Heterotic GUT and standard model vacua from simply connected Calabi-Yau manifolds,”
+Nucl. Phys. B
+751
+(2006) 186
+[hep-th/0603015].
+[46]
+V. Kumar and W. Taylor,
+“A Bound on 6D N=1 supergravities,”
+JHEP
+0912
+(2009) 050.
+[arXiv:0910.1586 [hep-th]].
+[47]
+V. Kumar and W. Taylor,
+“Freedom and Constraints in the K3 Landscape,”
+JHEP
+0905
+(2009) 066.
+[arXiv:0903.0386 [hep-th]].
+[48]
+B. Zwiebach,
+“Curvature Squared Terms and String Theories,”
+Phys. Lett.
+B156
+(1985) 315.
+[49]
+P. K. Townsend,
+“A New Anomaly Free Chiral Supergravity Theory From Compactification On K3,”
+Phys. Lett. B
+139
+(1984) 283.
+[50]
+S. Randjbar-Daemi, A. Salam, E. Sezgin and J. A. Strathdee,
+“An Anomaly Free Model in Six-Dimensions,”
+Phys. Lett.
+B151
+(1985) 351-356.
+[51]
+J. Erler,
+“Anomaly cancellation in six-dimensions,”
+J. Math. Phys.
+35
+(1994) 1819-1833.
+[hep-th/9304104].
+[52]
+N. Seiberg, W. Taylor,
+“Charge Lattices and Consistency of 6D Supergravity,”
+JHEP
+1106
+(2011) 001.
+[arXiv:1103.0019 [hep-th]].
+[53]
+F. Riccioni,
+“Abelian vector multiplets in six-dimensional supergravity,”
+Phys. Lett.
+B474
+(2000) 79-84.
+[hep-th/9910246].
+[54]
+P. S. Aspinwall,
+“K3 surfaces and string duality,”
+[hep-th/9611137].
+[55]
+A. Todorov,
+“Applications of Kähler-Einstein-Calabi-Yau Metric to Moduli of K3 Surfaces, ”
+Inv. Math. 61 (1980), 251???265.
+[56]
+N. Seiberg,
+“Observations on the Moduli Space of Superconformal Field Theories,”
+Nucl. Phys.
+B303
+(1988) 286.
+[57]
+J. Louis, D. Martinez-Pedrera and A. Micu,
+“Heterotic compactifications on SU(2)-structure backgrounds,”
+JHEP
+0909
+(2009) 012.
+[arXiv:0907.3799 [hep-th]].
+[58]
+A. Strominger,
+“Superstrings with Torsion,”
+Nucl. Phys.
+B274
+(1986) 253.
+[59]
+S. Kachru and C. Vafa,
+“Exact results for N = 2 compactifications of heterotic strings,”
+Nucl. Phys. Proc. Suppl.
+46
+(1996) 210-224.
+[60]
+F. Bonetti and T. W. Grimm,
+“Six-dimensional (1,0) effective action of F-theory via M-theory on Calabi-Yau threefolds,”
+arXiv:1112.1082 [hep-th].
+[61]
+C. Beasley, J. J. Heckman and C. Vafa,
+“GUTs and Exceptional Branes in F-theory - I,”
+JHEP
+0901
+(2009) 058.
+[arXiv:0802.3391 [hep-th]].
+[62]
+T. Hubsch,
+“Calabi-Yau manifolds: A Bestiary for physicists,”
+Singapore, Singapore: World Scientific (1992) 362 p..
+[63]
+D. Huybrechts, Complex Geometry - An Introduction, Springer 2004.
+[64]
+E. Witten,
+“Dimensional Reduction of Superstring Models,”
+Phys. Lett.
+B155
+(1985) 151.
+Experimental support, please
+view the build logs
+for errors. Generated by
+L
+A
+T
+E
+xml
+.
+Instructions for reporting errors
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+      support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+      methods listed below:
+Click the "Report Issue"
+(
+)
+button, located in the page header.
+Tip:
+You can select the relevant text first, to include it in your report.
+Our team has already identified
+the following issues
+. We appreciate your time reviewing and reporting rendering errors we
+      may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+      should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+      all.
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a
+list of packages that need conversion
+, and welcome
+developer contributions
+.
+We gratefully acknowledge support from
+        our
+major funders
+,
+member institutions
+,
+,
+        and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

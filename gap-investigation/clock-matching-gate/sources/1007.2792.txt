@@ -1,0 +1,2102 @@
+=== PDF PAGE 1 ===
+               Equivalence Principle Violations and
+                  Couplings of a Light Dilaton
+
+                                Thibault Damoura and John F. Donoghuea,b,2010
+                                                                ScientiﬁquesJul                                  aInstitut des Hautes ´Etudes                                   Bures sur Yvette, F-91440, France
+19                                         and                                       bDepartment of Physics
+                                           University of Massachusetts
+                                       Amherst, MA 01003, USA
+
+                                          October 31, 2018[gr-qc]
+
+
+                                                  Abstract
+
+                       We consider possible violations of the equivalence principle through
+                               the exchange of a light ‘dilaton-like’ scalar ﬁeld.  Using recent work
+                           on the quark-mass dependence of nuclear binding, we ﬁnd that the
+                               dilaton-quark-mass coupling induces signiﬁcant equivalence-principle-
+                                  violating eﬀects varying like the inverse cubic root of the atomic num-
+                              ber  - A−1/3. We provide a general parameterization of the scalar
+                                 couplings, but argue that two parameters are likely to dominate the
+                                 equivalence-principle phenomenology. We indicate the implications of
+                                   this framework for comparing the sensitivities of current and planned
+                              experimental tests of the equivalence principle.arXiv:1007.2792v2
+
+
+
+
+
+                                                     1
+=== PDF PAGE 2 ===
+1  Introduction
+
+At the heart of the theory of General Relativity is Einstein’s Equivalence
+Principle (EP). The weak Equivalence Principle predicts the composition
+independence of the accelerations of test masses in a gravitational ﬁeld.
+This has been probed at a present sensitivity of
+
+                    ∆a
+                                                                           (1)                           a ∼10−13
+
+in innovative and diﬃcult experiments [1, 2]. Further tests of this principle
+remain important and relevant for new physics [3, 4]. We are fortunate that
+there are several initiatives to push the sensitivity several orders of mag-
+nitude further using new space-based experiments such as MICROSCOPE
+[5], the Galileo Galilei project [6] and STEP [7] as well as new types of
+experiments using cold atoms [8, 9] and sub-orbital rockets [10].
+   One possible source of EP violation is a very light1 scalar ﬁeld with
+a coupling to matter that is weaker than gravitational strength. We will
+refer to these generically as ‘dilatons’, although they may have origins other
+than string theory or models involving dilation symmetry. As will become
+clear below, we will phenomenologically deﬁne a ‘dilaton’ as a scalar ﬁeld φ
+whose couplings to matter eﬀectively introduce a φ dependence in the basic
+dimensionless constants of Nature (such as the ﬁne-structure constant etc.).
+String theory may have such scalars in the low energy limit ( string dilaton,
+moduli), and these can naturally lead to EP violation at a sizeable level
+[11, 12, 13, 14, 15]. Likewise, theories of quintessence predict a light scalar,
+as do theories with continuously varying coupling constants as well as some
+theories of dark matter. While scalars lead to an attractive interaction, like
+usual gravity, they do not couple universally to all forms of energy in the
+same way as in general relativity. Thus we expect diﬀerences in the forces
+for diﬀerent elements.
+    Additionally, independently of any speciﬁc theoretical model one might
+argue (along the ‘anthropic’ approach to the issue of a possibly extremely
+vast ‘multiverse’ of cosmological and/or string backgrounds) that:  (i) the
+‘Equivalence Principle’ is not a fundamental symmetry principle of Nature
+(e.g. it is ‘violated’ in any theory containing very light scalars); (ii) the level
+η ∼∆a/a of EP violation can be expected to vary, quasi randomly, within
+some range of order unity, over the full multiverse of possible (cosmological
+and/or theoretical) backgrounds; (iii) as there is probably a maximal level
+
+  1We will generally assume in the following that the scalar ﬁeld we consider is essentially
+massless on the scales that we discuss.
+
+
+                                1
+=== PDF PAGE 3 ===
+of EP violation, say 0 < η∗≪1, which is compatible with the develop-
+ment of life (and of physicists worrying about the EP), one should a priori
+expect to observe, in our local environment, an EP violation η of order of
+η∗.  It is a challenge to give a precise estimate (or at least upper bound)
+of η∗. We note, however, that this is a scientiﬁcally rather well-posed chal-
+lenge. For instance, one of the necessary conditions for the existence of life
+is the existence of solar-like planetary systems stable over billions of years.
+A suﬃciently large  η̸ = 0 will jeopardize this stability, notably under the
+inﬂuence of external, passing stars. The current very small level of EP vio-
+lation ensures that stars passing at a distance D disturb the inner dynamics
+of the solar system only through tidal eﬀects that decrease like D−3. An
+EP violation η would increase this disturbing eﬀect to a level            It is                                            ∝ηR−2.
+also a well-posed question to determine the level η which would destabilize
+the solar system through internal EP-violating gravitational eﬀects.
+   Independently of these various motivations, our work here will discuss
+the general type of composition-dependence of EP violation that is entailed
+by the existence of a light dilaton-like ﬁeld. The theoretical challenge is to
+connect the basic couplings of the dilaton Lagrangian to the properties of
+real atomic systems.
+   Our work starts in Section 2 with a review of EP violations, and a general
+parameterization of possible dilaton couplings, Eq. (12). Section 3 connects
+dilaton coupling parameters with the other couplings of the Standard Model,
+which is preparation for understanding the eﬀects of the dilaton couplings.
+Section 4 is our analysis of the eﬀects in nuclear binding, while Section 5 is
+a summary of the eﬀects within individual nucleons, and Section 6 describes
+electromagnetic eﬀects. In Section 7, we collect the results of the previous
+sections and give a complete treatment of the phenomenology of equiva-
+lence principle violations, including comparisons with existing experiments.
+Section 8 provides a guide to experimental sensitivities for existing and fu-
+ture experiments. Experimenters who are willing to forgo the theoretical
+development of Section 3-6 can go directly to Section 7-8 or can consult our
+shorter paper [16] in which we have collected our most phenomenologically
+useful results. In particular, Section 7.3 contains what is probably the most
+useful parameterization of our results and Section 7.4 discusses the present
+experimental constraints. Section 9 is a brief summary.
+
+
+
+
+
+                                2
+=== PDF PAGE 4 ===
+2  Formalism
+
+2.1  EP violation
+
+Let us start by recalling that a massless dilaton φ modiﬁes the Newtonian
+interaction between a mass A and a mass B, into the form (see, e.g. [14])
+
+                  V =            (1 + αAαB).                     (2)                −GmAmBrAB
+
+If the dilaton mass is important the second term includes an extra exponen-
+tial factor exp(−mφrAB). In this interaction potential, the scalar coupling
+to matter is measured by the dimensionless factor
+
+                              1  ∂[κmA(φ)]
+                  αA =                            .                        (3)
+                       κ2mA   ∂φ
+Here, κ  √4πG is the inverse of the Planck mass2 so that the product κmA    ≡
+is dimensionless. This ensures that this deﬁnition of αA is valid in any choice
+of units, even if these units are such that κ depends on φ (as in the so-called
+‘string frame’). In the following, we shall generally assume that we work in
+the ‘Einstein frame’ where the (bare) Newton constant G is independent of
+φ. The above expression for the dimensionless scalar coupling αA has been
+written in terms of a canonically normalized scalar ﬁeld, with kinetic term
+[using the signature (+, −, −, −)]
+                              1
+                      Lφ = 2(∂φ)2 + · · ·                          (4)
+
+Evidently, a small mass term for the dilaton can readily be added if desired.
+It can also be convenient to work with the dimensionless scalar ﬁeld
+
+                       ϕ ≡κφ,                                (5)
+
+whose kinetic term is related to the Einstein-Hilbert action via
+
+                            1
+               − 16πG(R −2(∂ϕ)2)                         (6)
+
+When using ϕ the deﬁnition of the dimensionless scalar coupling reads
+
+                             ∂ln[κmA(ϕ)]
+                    αA =                      .                          (7)
+                           ∂ϕ
+
+  2We use units such that c = 1 = ℏ.
+
+
+                                3
+=== PDF PAGE 5 ===
+   In terms of the αA’s, the violation of the (weak) EP , i.e. the fractional
+diﬀerence between the accelerations of two bodies A and B falling in the
+gravitational ﬁeld generated by an external body E, reads
+
+
+                                                                           (8)      ∆a        −aB =   (αA1 −αB)αE                        + αB)αE ≃(αA −αB)αE.        a  AB ≡2aAaA + aB   1 + 2(αA
+
+In the last (approximate) equation we have assumed that the α’s are small,
+so that one can neglect the term 2(αA1   + αB)αE in the denominator.
+   Our aim here is to provide a general analysis of the possible EP viola-
+tions in experiments comparing the free fall accelerations of atoms (and/or
+nuclei). Most of the eﬀort needed for such an analysis is now understood
+[12, 13, 15, 17], and we will use it below. However, one aspect of this analysis
+has been far less well-studied and understood, namely the contribution to
+EP violation coming from the possible φ-dependence of the nuclear binding
+energy. The aim of this paper will mainly be to assess the form of this
+contribution, coming from the quark mass contribution to nuclear binding3.
+Actually, our conclusion will be that this contribution is, possibly in competi-
+tion with Coulomb-binding eﬀects, likely to dominate the atom-dependence
+of the EP violation signal (8).
+   To motivate our general analysis, let us start by noting that the mass of
+an atom can be decomposed as
+
+             m(AtomA) = mA = mrestA  mass + Ebinding               (9)
+
+where
+                      mrestA  mass = Zmp + Nmn + Zme                 (10)
+
+is the rest-mass contribution to the mass of an atom (Z denoting the atomic
+number and N the number of neutrons), and where Ebinding is the binding
+energy of the atom, which is dominated by the binding energy of the nu-
+cleus. Ebinding ≡E3 + E1 is the sum of a strong interaction contribution,
+say E3, and of an electromagnetic one, say E1 (which is dominated by the
+electromagnetic eﬀect within the nucleus). The indices 3 and 1 are used
+here as reminders of the gauge groups underlying the considered interac-
+tions: namely, SU(3) and U(1). Note that the index A in mA is used here
+(like in the deﬁnition of the scalar coupling αA) as a label for distinguishing
+several diﬀerent atoms. It should not be confused with the mass number (or
+nucleon number) A ≡Z + N which we shall use below.
+  3Damour [3] and Dent [17] have highlighted this need for the study of the nuclear
+binding energies.
+
+
+                                4
+=== PDF PAGE 6 ===
+2.2  The general dilaton Lagrangian
+
+The basic organizing principle that we shall use in our discussion is to keep
+track of the eﬀect of all the possible φ modiﬁcations of the terms entering
+the eﬀective action describing physics at the scale of nuclei in their ground
+states. We have in mind here an energy scale µ ∼1 GeV. At such a scale,
+one has integrated out not only the eﬀect of weak interactions, but also the
+heavy quarks c, b and t. The issue of the possible φ sensitivity of eﬀects
+linked to the strange quark s is more delicate. In the Appendix we argue
+that the possible EP violations linked to the φ couplings to s are expected to
+be quite small. In the bulk of the text we shall therefore ignore s (assuming
+that its eﬀect is taken into account by changing some of the quantities we
+discuss, notably the QCD energy scale Λ3).
+   In this approximation, we are therefore talking about an eﬀective action
+containing, as real particles, the electron e, the u quark, and the d quark,
+with interactions mediated by the electromagnetic (Aµ) and gluonic (AAµ )
+ﬁelds. [Here we shall use a rescaled U(1) gauge potential, which incorpo-
+rates the electron charge e, but an unrescaled gluonic ﬁeld, which does not
+incorporate the SU(3) gauge coupling g3.] Then each of the ﬁve terms in
+this eﬀective action, say
+ Leﬀ= −14e2 FµνF µν −14FµνFA  Aµν +          i¯ψi /D(A, g3AA)ψi −mi ¯ψiψi   ,
+                                             i=e,u,d            X
+                                                                       (11)
+(where D(A) denotes the Dirac operator coupled to the gauge ﬁeld(s) A)
+can couple to ϕ = κφ with a (dimensionless) coeﬃcient. [We assume that
+we work in the Einstein frame, with the gravity and φ kinetic terms dis-
+played above.]  This introduces ﬁve dimensionless dilaton coupling coeﬃ-
+cients, say de, dg for the couplings to the electromagnetic and gluonic ﬁeld
+terms, and dme, dmu, dmd for the couplings to the fermionic mass terms4.
+We shall normalize these ﬁve dimensionless dilaton coupling coeﬃcients
+de, dg, dme, dmu, dmd so that they correspond (when considering the linear
+couplings to φ) to the following interaction terms
+
+                de       µν       A  Aµν Lintφ = κφ   4e2 FµνF  −dgβ32g3 FµνF  −      (dmi + γmidg)mi ¯ψiψi 
+                                                        i=e,u,d       +          X                    (12)
+
+  4We are using here the fact that a φ−dependent coupling to the kinetic term of a
+fermion, f(φ) ¯ψi/Dψ, can be absorbed in a suitable φ−dependent rescaling of ψ.
+
+
+                                5
+=== PDF PAGE 7 ===
+We shall explain below the notation and our choice of normalization for
+these interaction terms.
+   There are two equivalent ways of thinking about the computation of the
+scalar-matter coupling αA, Eq. (3). One way is to think that it is given by
+the matrix element (in the quantum state of an atom) of the operator in
+the quantum Hamiltonian (associated to the interaction Lagrangian above)
+which is linear in φ. A second way is to think that it is obtained by the
+chain rule as
+
+                  ∂ln[κmA(ϕ)]      ∂ln[κmA(ka)] ∂ka
+           αA =        =                                    .           (13)
+                   ∂ϕ               ∂ka    ∂ϕ                                         a           X
+where κmA(ka) is the expression of the dimensionless mass ratio κmA =
+mA/mPlanck as a function of the dimensionless coupling constants of Na-
+ture, say ka = k1, k2, . . . , k20, entering the Standard Model. Actually, be-
+cause of the limited number of terms entering the relevant low-energy action
+(11), there are only ﬁve relevant dimensionless constants of Nature ka cor-
+responding to the ﬁve terms in (11). As we shall see in detail below, the ﬁve
+terms in the interaction terms (12) precisely correspond to introducing a φ
+dependence in the ﬁve following dimensionless constants of Nature,
+
+                         α, κΛ3, κme, κmu, κmd,                      (14)
+
+where α = e2/(4π)  is the ﬁne-structure constant, Λ3 the QCD energy
+scale, me the electron (pole) mass, and where mu and md denote some
+renormalization-group-invariant measures of the light quark masses (say,
+the µ-running masses taken at the multiple of Λ3 which is equal to 1 GeV).
+   In the next Section we shall relate our normalisation of the ﬁve dimen-
+sionless dilaton coupling parameters da entering (12) to the constants (14),
+and explain in more detail the dependence of the mass of an atom on the
+ﬁve constants (14), and thereby on the ﬁve dilaton parameters da.
+
+3  Relation between the dilaton coupling parame-
+    ters da and the ‘constants of Nature’.
+
+By comparing the φ-interaction Lagrangian (12) to the other terms in the
+eﬀective action (11), we see that the meaning of the dilaton coupling coeﬃ-
+cients da = de, dg, dme, dmu, dmd seems clear for four of them. [Actually, we
+shall see below that the meaning of the quark-mass couplings dmi is more
+subtle, because of the renormalization group running of the quark masses,
+
+
+                                6
+=== PDF PAGE 8 ===
+which is associated with the γmidg term in (12).] First, the coupling de to
+the electromagnetic ﬁeld modiﬁes the Maxwell action according to
+
+                                     µν          1            µν         =   −deκφ FµνF                 FµνF         (15)       LEM  −1  4e2     ≃− 4(1 + deκφ)e2
+
+where the last equality is valid at the linear level in κφ (which is the level
+at which we deﬁne the dilaton couplings here). As we work with a rescaled
+electromagnetic ﬁeld (Ahere = eAusual), the only location where the electric
+charge occurs in the Lagrangian is the one explicitly shown above.  This
+allows the dilaton ﬁeld to be absorbed into the following φ dependence of
+the ﬁne-structure constant
+
+                  α(φ) = (1 + deκφ)α = (1 + deϕ)α.                (16)
+
+Second, comparing (12) to the mass terms of the electron and the light
+quarks, we see that our normalization is such that dme, dmu, dmd introduce
+the following φ dependence of the e, u and d masses:
+
+         mi(φ) = (1 + dmiκφ)mi = (1 + dmiϕ)mi, (i = e, u, d).       (17)
+
+  On the other hand, the terms in (12) that depend on our ‘dilaton-gluon’
+coupling dg call for a more subtle explanation. The choice of these coupling
+terms is such that the coeﬃcient of dg is invariant under the renormalization-
+group (RG). As the coeﬃcient of dmi (i.e. the mass term mi ¯ψiψi) is also,
+separately, RG-invariant, our choice of normalization of the coeﬃcients in
+(12) gives a RG-invariant meaning to both dg and the dmi’s.5
+
+3.1  Connection with the QCD trace anomaly
+
+The phenomenological consequences (for the scalar coupling to hadrons) of
+the RG-invariant nature of the couplings in (12) can be seen in two (equiva-
+lent) ways. One way (which was used by [18] and [15]) consists in remarking
+that the deﬁnition of the dg-dependent terms in (12) is such that they cou-
+ple φ to the anomalous part of the trace of the gluon stress-energy tensor,
+namely
+                                         anom                        (18)                                                  g                        Lgφ = −dgκφT
+  5We are here talking about invariance under the QCD-driven running of the QCD gauge
+coupling g3, and of the masses of fermions coupled to QCD. In view of the smallness of
+the electromagnetic coupling α ≃1/137 ≪α3, we are neglecting the RG-running driven
+by electromagnetic eﬀects.  If one wanted to take it into account, one should add to (12)
+additional terms linked to the QED trace anomaly.
+
+
+                                7
+=== PDF PAGE 9 ===
+where [19]
+                 anom     β3  A  Aµν            Tg   =    FµνF  + γm   mi ¯ψiψi               (19)                   " 2g3                            i       # µ              X
+Here, β3(g3) = µ∂g3/∂µ denotes the β function for the running of the
+QCD coupling g3 with the (Wilsonian) sliding energy scale µ, γm(g3) =
+−µ∂ln m/∂µ (with a minus sign on the r.h.s.)  is the (universal) anoma-
+lous dimension giving the energy-running of the masses of the QCD-coupled
+fermions, and the subscript µ at the end indicates that the operator on the
+r.h.s. must be renormalized at the running scale µ. We recall that, classi-
+cally, the trace of the gluonic stress-energy tensor vanishes (because of the
+conformal invariance of the Yang-Mills action), but that quantum eﬀects
+linked to the necessity of regularizing the UV inﬁnities in the product of
+gluon ﬁeld strengths at the same spacetime point x introduce the (ﬁnite)
+‘conformal anomaly’ (19) [19]. Then, by using the quantum version of the
+virial theorem6, one can see [18, 15] that the coupling (18) means that dg
+measures the coupling of φ to the part of the total mass-energy of the consid-
+ered hadron which is due to the (renormalized) gluonic ﬁeld energy, say Mg
+(where Mg can be deﬁned by subtracting from the total mass both the non-
+anomalous mass-term contributions       i mi ¯ψiψi⟩, and the electromagnetic
+one).                      ⟨P
+
+3.2  Renormalization group analysis
+
+A second way of discussing the consequences (for the scalar coupling to
+hadrons) of our normalization of couplings in (12) is phenomenologically
+illuminating.  It consists in noting that our RG-invariant deﬁnitions are
+equivalent to very simple consequences for the φ dependences of both the
+QCD mass scale Λ3, and the values of the quark masses at the scale µ =
+Λ3. [Note that both Λ3 and mi(Λ3) are RG-invariantly deﬁned quantities.]
+Let us start by deﬁning the QCD mass scale Λ3 as being the mass scale
+at which the running QCD coupling g3(µ) reaches some ﬁxed, reference
+dimensionless number of order unity, say g∗= 2.5. [This numerical value,
+which corresponds to α∗= g2∗/(4π) = 0.5, is approximately reached when
+the running scale µ ≃1 GeV (see, e.g., the ﬁgure giving αs(µ) in the QCD
+review in [20]).] This deﬁnition of Λ3 can be re-expressed in terms of the
+value gc ≡g3(Λc) of g3 at some high-energy ‘cut-oﬀ’ scale Λc (which could
+  6We recall that this theorem says that the space integral of the spatial components
+of the total stress-energy tensor T totµν = T gµν + T EMµν + T matterµν    vanishes in an equilibrium
+bound state.
+
+
+                                8
+=== PDF PAGE 10 ===
+be the Planck scale, or the string scale) by integrating the β equation giving
+the running of g3, d ln µ = dg3/β3(g3), so that:
+                                                           gc  dg3
+                      ln Λ3(Λc, gc) = ln Λc −  g∗  β3(g3)                 (20)                                  Z
+The expression (20) deﬁnes Λ3 as a function of Λc and gc.  If we assume
+for simplicity that the chosen cut-oﬀΛc does not depend (in the Einstein
+frame) on φ, the result (20) shows that Λ3 will inherit a φ dependence from
+any eventual φ dependence of gc according to (denoting βc ≡β3(gc))
+                       ∂ln Λ3       ∂ln gc
+                    =                                  (21)                     ∂ϕ    −gcβc  ∂ϕ
+
+Similarly, the integration of the RG equation for a running fermionic mass
+mi, namely d ln mi = −dg3γm(g3)/β3(g3) yields the following expression for
+the value of mi at the QCD scale, ln mi(Λ3):
+
+                                                          gc γm(g3)
+                   ln mi(Λ3) = ln mi(Λc) +            dg3              (22)
+                                                     g∗  β3(g3)                                  Z
+Diﬀerentiating this result w.r.t. ϕ then shows that the logarithmic deriva-
+tive of mi(Λ3) w.r.t. ϕ is the sum of two separate contributions, namely
+(denoting γc ≡γm(gc))
+               ∂ln mi(Λ3)   ∂ln mi(Λc)   gcγc ∂ln gc
+                 =       +                         (23)
+                ∂ϕ        ∂ϕ        βc  ∂ϕ
+
+On the other hand, by comparing7 the φ-dependent terms in (12) to the
+basic action (11) (both being considered at the cut-oﬀscale Λc), we see that
+the coeﬃcients dg and dmi have the eﬀect of adding some φ-dependence in
+the values of gc and mi(Λc) of the form
+
+           ∂ln gc       βc      ∂ln mi(Λc)
+            =             ,          = dmi + γcdg.         (24)           ∂ϕ    −dg gc        ∂ϕ
+
+Inserting these results in the ϕ-derivatives of Λ3 and mi(Λ3) derived above,
+ﬁnally leads (thanks to the cancellation of the γc-dependent contribution in
+the derivative of the masses) to the simple results
+
+                ∂ln Λ3          ∂ln mi(Λ3)
+               = dg ,          = dmi.               (25)
+               ∂ϕ             ∂ϕ
+
+   7In doing this comparison it is useful, as explained above for the Maxwell action, to
+provisionally use a ‘geometric’ normalization of the gluon ﬁeld, i.e. to absorb g3 in AA.
+
+
+                                9
+=== PDF PAGE 11 ===
+   Summarizing: the physical meaning of the ﬁve dilaton-coupling coeﬃ-
+cients da = de, dg, dme, dmu, dmd is (at the linear level in φ) to introduce a
+φ-dependence in the parameters entering the low-energy physics of the form
+
+                  Λ3(ϕ) =  (1 + dgϕ)Λ3,
+                   α(ϕ) =  (1 + deϕ)α,
+                 me(ϕ) =  (1 + dmeϕ)me,
+              [mi(Λ3)] (ϕ) =  (1 + dmiϕ)mi(Λ3), i = u, d.           (26)
+
+3.3  Ratios of dimensional parameters
+
+Note that a consequence  of these equations  is that the dimensionless
+ratios me/Λ3, mu(Λ3)/Λ3, md(Λ3)/Λ3 depend on ϕ through the ratios
+(1 + dmiϕ)/(1 + dgϕ) ≃(1 + (dmi −dg)ϕ).  In other words, the ϕ sensi-
+tivity of these dimensionless ratios is
+
+                   ∂ln [mi(Λ3)/Λ3]
+                       = dmi         .                   (27)                     ∂ϕ          −dg
+Note that this involves only the diﬀerences dmi −dg. In particular, when
+the mass couplings dmi are taken to be all equal to dg, the eﬀect of the
+φ couplings is equivalent to introducing a φ dependence only in Λ3 and
+α.  This fact can also be seen by means of the formulation (18) of the
+dg coupling.  Indeed, when dmi = dg the sum of (18) and of the mass-
+term couplings is equivalent to having a coupling between φ and the sum
+of the anomalous, Tganom , and of the non-anomalous, Tgnon anom , parts of the
+trace of the total stress-energy tensor. Therefore, modulo electromagnetic
+eﬀects, this would imply that φ couples to the trace of the total stress-energy
+tensor, i.e. (using the virial theorem) that φ couples to the total mass of the
+hadron. In this particular case, the only violations of the EP would come
+from electromagnetic eﬀects.
+   However, in view of the fact that the physics which determines (in the
+Standard Model) the masses of the leptons and quarks involves the sym-
+metry breaking of the electroweak sector, and, in particular, the VEV of
+the Higgs ﬁeld, it does not seem a priori likely that a fundamental theory
+describing the high-energy couplings of the dilaton can ensure such a uni-
+versal feature. From this point of view, one can consider our ﬁnal results
+(26) as useful general parametrizations of the low-energy dilaton couplings,
+independently of the complicated physics that might connect these param-
+eters to an eventual high-energy description of the φ couplings to the ﬁelds
+entering the basic Lagrangian. For example, heavy quarks do not enter the
+
+
+                                10
+=== PDF PAGE 12 ===
+ﬁeld couplings (12), but they enter in the relation between the QCD scale Λ3
+(describing the physics at scales ≲1 GeV) and the high-energy boundary
+conditions, Λc, gc.  Therefore, the parametrization of dg in (26) implicitly
+takes into account the eﬀect of heavy quarks. [Ref. [15] showed how to ex-
+plicitly take into account the eﬀect of heavy quarks, and it is easily checked
+that their results are in agreement with the ﬁrst equation in (26).]
+  We can use the above results to rewrite the expression of the scalar
+couplings to matter (3), (7) in a useful form. As the Planck scale 1/κ does
+not directly enter physics at the QCD scale (besides its possible impact on
+determining Λ3 via Eq.(20)), we can always write the mass of an atom as
+
+                            md me             mA = Λ3MA(mu ,      ,      , α),                  (28)
+                              Λ3  Λ3  Λ3
+
+where MA is a dimensionless quantity, which is a function of the four indi-
+cated dimensionless quantities, say (for later convenience)
+
+                             md me
+                     (ku, kd, ke, kα)            ,      ,      , α).                (29)                     ≡(muΛ3  Λ3  Λ3
+
+   Using this notation, the scalar coupling to matter Eq.(7) can be rewritten
+(when working in the Einstein frame) as
+
+                      αA = dg + ¯αA,                          (30)
+
+where dg = ∂ln∂ϕΛ3 is a universal (non EP-violating) contribution to αA, and
+where the EP-violating part ¯αA is given by
+
+           MA    1 ∂MA    1       ∂MA ∂ln ka
+          ¯αA       =      =                                          .     (31)        ≡∂ln∂ϕ   MA ∂ϕ   MA        ∂ln ka  ∂ϕ
+                                                   a=u,d,e,α              X
+The logarithmic derivatives of the ka are given by Eq. (26), so that we can
+write more explicitly ¯αA as the following sum of four contributions:
+
+           1 ∂MA    1             ∂MA    ∂MA
+     ¯αA =      =           (dma        + de             (32)      MA ∂ϕ   MA         −dg) ∂ln ka     ∂ln α 
+                                  a=u,d,e         X                       .
+3.4  Redeﬁning the quark mass parameters
+
+In the following, we will ﬁnd it convenient to work with the symmetric and
+antisymmetric combinations of the light quark masses, namely
+
+                    1
+                 ˆm = 2(md + mu) ,   δm = (md −mu)             (33)
+
+                                11
+=== PDF PAGE 13 ===
+Working in terms of ˆm and δm, means working in terms of mass terms of
+the form
+                                         1
+          md ¯dd + mu¯uu = ˆm(¯dd + ¯uu) + 2δm(¯dd −¯uu)           (34)
+which couple to the dilaton as
+
+                                      dδm
+         Lφ = .... −κφ dˆm ˆm(¯dd + ¯uu) +  2 δm(¯dd −¯uu)         (35)
+
+These deﬁnitions are such that, for instance, the coupling of ϕ to ˆm is
+equivalent to a Hamiltonian coupling of the form,
+           H = .... + (1 + dˆmϕ)ˆm(¯uu + ¯dd),                 (36)
+i.e. to introducing a ϕ dependence in the average light quark mass of the
+type ˆm(ϕ) = (1 + dˆmϕ)ˆm.
+   The link between these new dilaton-coupling coeﬃcients and the previous
+ones reads
+           ˆm   dmdmd + dmumu        δm   dmdmd
+ dˆm ≡∂ln∂ϕ =   md + mu       , dδm ≡∂ln∂ϕ  =   md −dmumu . (37)                                  −mu
+In term of this notation (32) reads
+
+                  1            ¯αA =       (dˆm    ˆm∂MA + (dδm    δm∂MA           MA    −dg)   ∂ˆm       −dg)   ∂δm
+                      ∂MA                +(dme     me   + de α∂MA  .                (38)                    −dg)    ∂me       ∂α
+
+   As displayed in Eq. (38), ¯αA is naturally decomposed into a sum of four
+contributions, which are linear in the four dilaton couplings: dma −dg, or de.
+Another linear decomposition can also be applied to the various terms in ¯αA:
+namely the one corresponding to the various terms in Eq. (9). Regrouping
+some terms in these two possible linear decompositions, we shall ﬁnd con-
+venient in our calculations (before coming back to the more theoretically
+rooted decomposition (38)) to decompose ¯αA into three contributions:
+                       ¯αA =   ¯αrAm wo. EM + ¯αbindA  + ¯αdeA                 (39)
+where ¯αrAm wo. EM denotes the contribution coming from the terms linear in
+the quark and electron masses in the rest-mass contribution (10) to mA
+(without the electromagnetic contributions), where ¯αbindA   denotes the contri-
+bution coming from the nuclear binding energy Ebind in Eq. (9), i.e.
+
+                       1  ∂(Ebind(ϕ)/Λ3)
+                    ¯αbindA  =                    (with ﬁxed α),            (40)
+              MA     ∂ϕ
+
+                                12
+=== PDF PAGE 14 ===
+and where ¯αdeA denotes the total electromagnetic contribution, coming both
+from the EM contributions to the masses of the nucleons, and from the
+nuclear Coulomb energy term E1, which is a part of Ebind in Eq. (9). Note
+that ¯αdeA collects the terms in ¯αA which are proportional to the EM dilaton
+coupling de,  i.e.  which come from the ϕ sensitivity of the ﬁne-structure
+constant α. This is why we have added in the deﬁnition of ¯αbindA   above the
+fact that one must keep α constant when computing it. As we shall see,
+the Coulomb energy term plays a special role in that it depends both on
+nuclear-binding eﬀects, and on EM ones. As a consequence it will give two
+separate contributions: one to ¯αbindA  and one to ¯αdeA .
+
+4  Analysis of scalar couplings to the binding en-
+   ergy of nuclei
+
+We will ﬁrst focus on the scalar coupling to the nuclear binding energy, Eq.
+(40), because this term has not yet received a satisfactory treatment in the
+literature.
+  When dealing with nuclear binding it is convenient to work with the
+(half) sum and diﬀerence of the light quark8 masses, ˆm and δm, as in-
+troduced above. Indeed, the quark-mass dependence of nuclear binding is
+dominated by its dependence on the average light quark mass ˆm because
+pion exchanges yield the dominant contribution to nuclear binding  , and
+pion masses are proportional to ˆm, while they are insensitive to the diﬀer-
+ence in quark masses.  [ The quark mass diﬀerence δm is important for the
+neutron and proton masses, and will enter the computation below of the
+rest-mass contribution to EP violation.]
+   As explained above, the ϕ dependence of dˆm implies the following result
+for the ‘nuclear binding energy’ contribution, Eq. (40), to EP violation:
+
+                               (dˆm −dg) ˆm∂Ebind                    (41)                             ¯αbindA  =
+                     mA       ∂ˆm
+
+In QCD, because the pion is almost a Goldstone boson of the dynamically
+broken chiral symmetry, the pion mass-squared is linear in the quark mass,
+m2π ≃b0Λ3 ˆm, where b0 is a pure number. This relation is accurate in the
+   8As explained above, heavy quarks are assumed to have been integrated out from the
+theory, thereby producing a shift in the QCD scale Λ3, and its associated dilaton coupling
+dg. The eﬀect of the strange quark, which is intermediate between heavy and light, is
+discussed in the appendix.
+
+
+
+                                13
+=== PDF PAGE 15 ===
+physical region, so that we can translate our formula into one involving the
+pion mass,
+                               (dˆm         ∂Ebind                            ¯αbindA  =    −dg) m2π                          (42)
+                     mA       ∂m2π
+Our major task then translates into knowing the dependence of nuclear
+binding on the mass of the pion.
+   The        semi-empirical mass formula describes the binding energy mA −      massmrestA      through the following terms:
+
+                                       mass = Ebind,                     (43)                         A               mA −mrest
+
+where the nuclear binding energy is approximately described as
+
+                         (A         Z(Z          ap    Ebind =    + asA2/3 + aa  −2Z)2 + ac    −1)               .    (44)        −avA           A           A1/3  −δ A1/2
+
+   The various contributions to the nuclear binding energy9 are called, re-
+spectively the volume energy, the surface energy the asymmetry energy, the
+Coulomb energy and the pairing energy. [In the latter, δ = 1                                                                   2                                                      [(−)N +(−)Z],
+i.e. δ = +1 for even-even nuclei, δ = −1 for odd-odd nuclei and δ = 0 oth-
+erwise.] Typical ﬁt values for these parameters are [23] av = 16 MeV, as =
+17 MeV, aa = 23 MeV, ap = 12 MeV, ac = 0.717 MeV.  Note that, here
+and in the following, the unit of 1 MeV is supposed to represent a ﬁxed
+fraction of the QCD mass scale, say                 if we use, as indicated above,                          ≃10−3Λ3
+a reference value g∗for g3 such that Λ3 ≃1 GeV.]   The ˆm sensitivity of Ebind comes from the ˆm sensitivity of the various
+coeﬃcients av, as, aa, ac, ap (taken in units of Λ3). We shall discuss succes-
+sively the ˆm sensitivities of: (i) av and as, (ii) aa, and (iii) ac. Concerning
+the pairing interaction term ap we found that it was subdominant in our
+ﬁnal results because it is down by a factor of A7/6 compared to our primary
+A dependence. Even when allowing for variations with quark mass compa-
+rable to that of the asymmetry energy we found that it is negligible in the
+end, so we drop it at this stage.
+
+4.1  The central nuclear force terms: av and as
+
+Let us ﬁrst consider the terms proportional to av and as. They come from the
+isospin symmetric central nuclear force, which is the dominant contribution
+
+   9Please be aware of a dual notation in that the letter A is used both as a label for a
+certain type of atom, and, in the semi-empirical mass formula, as a notation for the mass
+number A = Z + N.
+
+
+                                14
+=== PDF PAGE 16 ===
+in the binding of heavy nuclei. Our previous work [21, 22] shows that this
+component has an enhanced dependence on the quark masses and hence
+it has an enhanced coupling to a dilaton.  This large dependence comes
+because the central potential involves competing eﬀects of an intermediate
+range attractive force and a shorter range repulsive force. The cancelation
+between these two eﬀects (which are individually of order ±100 MeV per
+nucleon) lead to a binding energy which is quite small on the QCD scale
+(namely of order −10 MeV per nucleon). However, the attractive force is
+far more sensitive to pion masses because it involves two pion exchange.
+Changing the pion mass a modest amount upsets the cancelation of the two
+components and leads to a larger eﬀect than might naively be expected.
+   The central force is parameterized by two terms denoting the volume
+energy and the surface energy,
+                Ebind = −avA + asA2/3 + residual terms             (45)
+The central potential is isospin symmetric, and can involve exchanges which
+carry angular momentum quantum numbers 0 or 1. The work of Ref. [24]
+uses a general basis of contact interactions [25] to quantify these contri-
+butions to nuclear binding. This parameterization only assumes that the
+interactions have a range which is smaller than the momentum in nuclei
+k ∼200 MeV. The dominant contact interactions are found to be those of
+an attractive scalar and a repulsive vector, describing the integrated eﬀects
+of the potentials. They are parameterized by strengths GS  (GV ) for the
+scalar (vector) channel. We can then use the results of Ref.   [24] to give the
+binding energy as a function of these strengths, normalized to their physical
+values, by deﬁning
+
+                   GS             GV
+                 ηS ≡                  ,     ηV ≡ GV                      (46)                           GS|physical                    |physical
+This results in
+  Ebind = −(120A −97A2/3)ηS + (67A −57A2/3)ηV + residual terms  (47)
+where the numbers are in units of MeV. One can see here the cancelation
+between the primary terms as each is larger than their sum. Of these two
+contributions, our calculations indicate that it is the scalar channel (ηS)
+that has the most important eﬀect. This is because the scalar channel is
+dominated by the exchange of two pions, which is highly sensitive to the
+pion mass. While the two pion contribution is often parameterized by an
+eﬀective sigma meson, the low energy exchange of two pions is required in
+
+
+                                15
+=== PDF PAGE 17 ===
+chiral perturbation theory and is calculable10. This accounts for much of
+the strength typically ascribed to the sigma [26]. The vector interaction has
+a very small low energy contribution from three pions, and estimates of the
+quark mass dependence of the mass and couplings of a massive vector boson
+indicate a tiny residual contribution [21].
+   With these results we have argued that the main contribution is the
+variation of the scalar strength with quark mass,
+
+                                   ˆm                      ∂ηS
+                   ¯αbindA  = −(d mA−dg) (120A −97A2/3)m2π ∂m2π           (48)
+
+We use the result of Ref. [21], displayed in Fig 1 showing the scalar strength
+as a function of the pion mass. This variation arose almost entirely from the
+threshold modiﬁcation in the two pion eﬀects at low energy, where the chiral
+techniques are most reliable and where we expect the greatest sensitivity to
+a change in the mass [28, 29]. We can use this directly to obtain
+
+
+                  1.2
+            ηS
+                    1
+                  0.8
+                  0.6
+                  0.4
+                  0.2
+
+                      0      0.5      1      1.5      2
+                                                  m2
+                                                                 π
+                                                 m2
+                                                                       phys
+
+
+  Figure 1: The value of the scalar strength ηS as a function of the pion mass.
+
+                  ˆm∂ηS = m2π ∂ηS =         0.10                 (49)                     ∂ˆm      ∂m2π   −0.35 ±
+
+The error bar comes from uncertainties in the chiral expansion. We will
+not display the error bar in subsequent formulas, but all results in the bind-
+ing energy carry this level of uncertainty. Our ﬁnal result for the central
+
+  10Other estimates of mass dependence [27] have not explicitly taken into account this
+low energy eﬀect.
+
+
+                                16
+=== PDF PAGE 18 ===
+dependence in the dilaton coupling is
+
+                             (dˆm               ¯αbindA      =     −dg) (42A         (MeV)                        |central      mA       −34A2/3)
+              ≈  (dˆm −dg) FA   0.045 −0.036A1/3      .        (50)
+
+In the ﬁnal line we have introduced the notation
+
+                             mamu
+                      FA                                     (51)                ≡A mA
+
+where mamu = 931 MeV is the atomic mass unit (i.e. the nucleon mass mN =
+939 MeV minus the average binding energy per nucleon, ≃8 MeV). The
+factor F = Amamu/mA remains quite close to one all over the periodic table
+(modulo O(10−3)). Note that our result Eq. (50) for the light-quark-mass
+(ˆm) dependence is signiﬁcantly larger (by a factor 2.2) than the estimate
+used by Dent [17]. Indeed, Eq. (50) corresponds, say for the crucial surface
+energy, to a logarithmic sensitivity ∂ln as/∂ln ˆm = −34 MeV/as = −2,
+while Ref. [17] estimated ∂ln as/∂ln ˆm ≃−0.9.
+4.2  The asymmetry energy term: aa
+Let us now discuss the ϕ sensitivity of the asymmetry energy ∝aa which is,
+after the volume, surface and Coulomb terms, the fourth dominant contribu-
+tion to Ebind. The asymmetry energy has two components. The ﬁrst comes
+from the Pauli principle which requires that, when there is an excess of neu-
+trons over protons, the extra neutrons must be placed into higher energy
+states than the protons. The other component is due to the nuclear force in
+which the isospin dependent interactions create a stronger attraction for an
+neutron and proton compared to two neutrons or two protons.
+   The asymmetry energy has been calculated by Serot and Walecka [30] in
+the same framework that we use in our work on nuclear matter [22]. This
+takes the form
+                               k2F       Gρ                      aa =        +     k3F                   (52)                                       12π2                         6  M2∗+ k2F             qwhere
+                               γGSk3F
+             M∗= mN  1 +                              (53)
+                                      6π2
+
+is the nucleon mass modiﬁed by interactions in nuclear matter (with GS < 0
+so that M∗< mN). For isoscalar nuclear matter we have γ = 4. In meson
+
+
+                                17
+=== PDF PAGE 19 ===
+                                                   σ are the vector mesonexchange models Gρ = g2ρ/m2ρ and GS = −g2σ/m2
+and scalar coupling strengths. The k3F dependence in the second term in
+aa comes from a calculation of the nuclear density in terms of the Fermi
+momentum kF .
+   As mentioned above, our estimates indicate that the mass dependence of
+the vector meson coupling strength is weak. However, the Fermi momentum
+depends on the scalar strength, which has a sizeable mass variation. The
+Fermi momentum increases as the scalar strength increases. We calculate
+this through our work on nuclear matter in which we solve for the Fermi
+momentum as a function of the scalar strength (e.g. see Fig. 4 of [22]). More
+precisely, using our approximate analytical model, Eq. (17) of [22], with the
+values GS =        GeV−2, and GS = +262.89 GeV−2 (which entail the           −355.388phenomenologically good values av = 15.75 MeV and kF = 1.30 fm−1) we
+ﬁnd that
+                         ∂ln kF
+                                                                       (54)                         ∂ln GS ≃0.525
+Using that dependence we ﬁnd that both components of the asymmetry
+energy in Eq. (52) vary in the same direction with the scalar strength. The
+kinetic contribution (ﬁrst term) varies with a logarithmic rate ≃2.54, while
+the other one varies like k3F , i.e. with a logarithmic rate 3 × 0.525 = 1.575.
+The combination of the two contributions then varies with a rate
+                          ∂ln aa
+                                                                       (55)                         ∂ln GS ≃2.35
+
+Combining this variation with the logarithmic mass variation Eq. (49) of
+the scalar strength GS then yields
+
+               ∂aa    ∂aa   ∂GS
+            =         m2π                    m2π                      = −0.82 aa = −19 MeV         (56)                  ∂GS               ∂m2π                              ∂m2π
+Note that our framework shows that ∂ln aa/∂ln ˆm ≃−0.82 is rather diﬀer-
+ent from ∂ln as/∂ln ˆm = −2. This shows again the subtlety of quark-mass
+eﬀects in nuclear physics.
+
+4.3  The Coulomb energy term: ac
+
+The Coulomb energy also has a dependence on the strong interaction cou-
+pling terms. Dimensionally this is because the electromagnetic coupling α
+is dimensionless, so that the overall energy scale associated with ac comes
+from the nuclear interactions. Physically, this dependence is also logical be-
+cause the Coulomb energy depends on how tightly the nucleons are packed
+together. We estimate this eﬀect in this subsection.
+
+
+                                18
+=== PDF PAGE 20 ===
+  An approximate analytic expression for the coeﬃcient of the Coulomb
+contribution to the nuclear binding energy is ac ≃(3/5)α/r0 where r0 ≃1.2 fm is the scaled nuclear radius: rA = r0A1/3.  Writing that the total
+baryonic number within the volume of the nucleus, i.e. ρB4πr3A/3 (with ρB =
+γk3F /(6π2)) is equal to A, one gets the link kF r0 = (9π/8)1/3. Therefore,
+r0 varies inversely proportionally to kF , so that the above result shows that
+ac ∝αkF . This yields a logarithmic sensitivity of ac to variations of GS
+with the same rate as kF itself, i.e. 0.525, as quoted above. Multiplying this
+rate by the rate −0.35 of Eq. (49), then yields
+         ˆm∂E1 =       Z(Z −1) =        −1) MeV        (57)             ∂ˆm   −0.184ac   A1/3    −0.13Z(ZA1/3
+
+4.4  The complete scalar coupling to the binding energy
+
+Combining our partial results, we ﬁnally obtain for ¯αbindA   the following sum
+  ¯αbindA  =  (dˆm −dg)FA                                             (58)
+                                            Z(Z              0.045              −2Z)2         10−4    −1)   .     ×       −0.036A1/3 −0.020(A A2    −1.42 ×       A4/3
+
+In writing this result, we have, as above, factorized FA = Amamu/mA.
+
+5  Scalar couplings to the rest mass of atoms
+
+In this section we study the ﬁrst term on the r.h.s.  of Eq. (39), i.e.  the
+contribution to ¯αA coming from the ϕ sensitivity of the rest masses of the
+low-energy constituents of atoms, namely protons, neutrons and electrons
+(`a la [12]).
+   In view of the expression Eq. (34) for the mass terms of the light quarks,
+we can write the masses of the nucleons as [31]
+
+               mp = mN3 + σ     δ + Cp α ,                      −12
+                                     1
+              mn = mN3 + σ +  δ + Cn α ,                 (59)
+                                     2
+where mN3  is the nucleon mass in the “chiral limit” of massless light11
+quarks, and where the electromagnetic contributions Cp α, Cn α will be ig-
+nored here and treated in the next section.  The quantities σ and δ in
+
+  11In the present treatment, we absorb in mN3 ∝Λ3 the EP non violating eﬀect of the
+strange quark; see the appendix.
+
+
+                                19
+=== PDF PAGE 21 ===
+Eq. (59) denote the matrix elements of the isoscalar (∝¯dd+ ¯uu) and isovec-
+tor (∝¯dd −¯uu) terms in a neutron state:
+                σ =  ⟨n|ˆm(¯dd + ¯uu)|n⟩
+                     δ =  ⟨n|(md −mu)(¯dd −¯uu)|n⟩                 (60)
+
+These combinations of the quark mass contributions to the individual nucle-
+ons are reasonably well known. The isoscalar contribution is related to the
+πN sigma term and has the value σ = 45 MeV [33]. The isovector diﬀerence
+can be obtained by SU(3) sum rules
+
+                md                   δ =   −mu [mΞ    = 3.1 MeV                (61)                 ms       −mσ]                    −ˆm
+The ϕ sensitivity of the rest mass contribution (without the EM contribu-
+tion) of an atom,
+
+           m wo. EM                 1         mrA    = A mN3 + A σ +  (N      δ + Z me ,        (62)                                     2   −Z)
+comes from the fact that σ ∝ˆm(ϕ), δ ∝δm(ϕ), and from the ϕ dependence
+of me. Using our general results above, we therefore have
+
+        m wo. EM           Aσ   1        (N              ¯αrA     =  (dˆm      +           −Z)δ                       −dg) mA   2(dδm −dg)  mA
+                        Zme
+             +  (dme −dg) mA  .                            (63)
+
+Inserting the numerical values of σ, δ and me yields
+
+      m wo. EM                          A         ¯αrA          FA 0.048(dˆm    + 0.0017(dδm     −2Z          ≃            −dg)           −dg)  A                       h           Z
+          +  5.5  10−4(dme                .                       (64)              ×        −dg) A                                          i
+
+
+6  Electromagnetic eﬀects
+
+In this section, we review the electromagnetic coupling, which is contained
+in the Lagrangian, i.e. the contribution
+
+                                     de                               α(de)A =   α∂mA                        (65)                      mA  ∂α
+
+                                20
+=== PDF PAGE 22 ===
+   The main electromagnetic eﬀects in the atomic masses come from the
+electromagnetic shifts in the nucleon masses and from the electromagnetic
+contribution to nuclear binding, E1.
+
+                      de              α(de)A =    Zα∂mp + (A       + α∂E1           (66)             mA    ∂α    −Z)α∂mn∂α    ∂α
+
+We follow Gasser and Leutwyler [31] in the estimate of the electromagnetic
+portions of the proton and neutron masses
+
+    α∂mp = Cp = 0.63 MeV    α∂mn = Cn ==     MeV      (67)      ∂α                    ∂α          −0.13
+
+The electromagnetic binding is known from the semi-empirical mass formula
+
+                   α∂E1 = ac Z(Z −1)                       (68)
+                     ∂α        A1/3
+
+with ac = 0.717 MeV. These combine to yield
+
+                ¯α(de)A = deFA    + 8.2Z + 7.7Z(Z −1)    10−4        (69)                       −1.4   A        A4/3   ×
+
+As above, the factor FA = Amamu/mA can be replaced by one in lowest
+approximation.
+
+7  Implications for the Equivalence Principle
+
+7.1  General parameterization
+
+Summarizing our results, the dilaton coupling to an atom can be written as
+
+              αA = dg + ¯αrAm wo. EM + ¯αbindA  + ¯α(de)A                 (70)
+
+where ¯αrAm wo. EM is given by Eq. (64), ¯αbindA   by Eq. (58), and ¯α(de)A  by Eq.
+(69). It will be convenient for the following to rewrite this result as
+
+                      αA = dg + ¯αA                          (71)
+
+with the decomposition
+
+   ¯αA = [(dˆm −dg)Q                           ˆm + (dδm −dg)Qδm + (dme −dg)Qme + deQe]A   (72)
+
+
+
+                                21
+=== PDF PAGE 23 ===
+where Qka can be thought of as the ‘ dilaton charge’ coupled to the parameter
+ka. These are given by
+
+                                           Z(Z
+  Q ˆm = FA  0.093 −0.036A1/3 −0.020(A −2Z)2A2    −1.4 × 10−4   A4/3−1)   ,
+                                                                       (73)
+                         A                 Qδm = FA  0.0017  −2Z   ,                   (74)
+                          A
+
+                              Z
+                  Qme = FA  5.5  10−4       ,                    (75)                      ×   A
+
+and
+          Qe = FA    + 8.2Z + 7.7Z(Z −1)    10−4.          (76)                     −1.4   A        A4/3   ×
+Here, as above, the factor FA denotes FA ≡Amamu/mA (it can be replaced
+by one in lowest approximation).
+
+7.2  Relation to theoretical expectations
+
+Note that all the various contributions to the non-universal part ¯αA of αA =
+dg + ¯αA contain small numerical coeﬃcients in front of the various basic
+dilaton couplings dg, de, dˆm, dδm, dme. It is therefore a priori probable that
+the composition-dependent part ¯αA is small compared to the composition-
+independent12 part αc.i.A = dg.
+  We recall that the latter composition-independent part is, in principle,
+accessible in various experimental tests of relativistic gravity. For instance,
+in the notation of tests of post-Newtonian gravity, αc.i.A = dg, is related to
+the Eddington parameter γ via (see, e.g., [14])
+
+                                     d2g
+                     γ −1 = −2 1 + d2g ≃−2d2g                     (77)
+
+The most precise current test of relativistic gravity [32] constrain (γ −1)/2,
+i.e. d2g at the level
+                           d2g ≃1 −γ2  < 10−5                        (78)
+  12 Actually, if we deﬁne the composition-independent part of αA by some average over
+the composition of the bodies relevant for the considered gravity tests, αc.i.A   will have,
+besides dg, a contribution coming from ¯αA, and notably from terms ∼0.1(d mˆ −dg)
+coming fron the QCD binding of nucleons, and the nuclear binding of nuclei. To simplify
+our discussion we shall assume that these terms are small.  It is enough to replace some
+of our factors dg below by αc.i.A = d∗g ≃dg + 0.1(d mˆ −dg) + · · · to reﬁne our estimates.
+
+
+                                22
+=== PDF PAGE 24 ===
+Planned improved solar-system tests might improve this limit to the 10−7
+level. As we are going to see, and as was pointed out by many authors
+before (see, e.g. [36]), such levels are much less constraining than the ones
+accessible by experimental tests of the EP.
+   By contrast to the composition-independent tests whose signals are pro-
+portional to d2g, the EP-violation signals will all be (see Eq. (8)) proportional
+to
+                 αE(αA −αB) ≃αc.i.(¯αA −¯αB)                  (79)
+Therefore EP signals will involve the product of dg (or rather d∗g = αc.i.) by
+one of the other dilaton couplings entering the ¯αA’s, i.e. they will be pro-
+portional to a combination of terms involving the following four coeﬃcients
+
+           d∗g (dˆm       d∗g (dδm       d∗g (dme        or  d∗g de        (80)               −dg),       −dg),      −dg)
+
+   This raises several issues of direct phenomenological interest: (i) can, in
+principle, EP experiments measure all four (a priori independent) parame-
+ters (80) ?; (ii) are there theoretical arguments suggesting that, among all
+the EP signals associated to these parameters, some of them might dominate
+over the others?
+   Concerning the ﬁrst question (which has also been addressed in [17]),
+let us note that if we approximate the factor FA = Amamu/mA by one (
+and Z(Z −1) by Z2) , the composition dependence of our general dilaton
+coupling above will vary, along the periodic table, according to
+
+                      a1    A         (A           Z2           ¯αA = a0 +   + a2  −2Z + a3   −2Z)2 + a4           (81)
+                    A1/3     A         A2         A4/3
+
+where the ﬁve coeﬃcients a0, . . . , a4 are linear combinations (which are easily
+read oﬀthe results above) of the four dimensionless dilaton couplings dˆm −
+dg, dδm −dg, dme −dg, de. Here the constant oﬀset a0 is not measurable13 in
+EP experiments. By contrast, EP experiments can, in principle, measure the
+coeﬃcients of the four diﬀerent composition-dependences associated with
+a1, a2, a3, a4.  Barring some degeneracies, this means that, in principle, a
+well-devised set of ideal EP experiments could measure the four theoretical
+parameters (80) [see,  e.g.,  [3] for discussions of the related optimization
+of the choice of materials in EP experiments, and [17] for an example of
+the determination of four theoretical parameters from four independent EP
+data].
+
+  13At least in our approximation Amamu/mA ≃1. If one were to keep the small fractional
+(∼10−3) variations of the ratio Amamu/mA, one might measure part of the a0 coeﬃcient.
+
+
+                                23
+=== PDF PAGE 25 ===
+   However, EP experiments will be more likely to detect signals associated
+with functions of A and Z that vary signiﬁcantly over the periodic table.
+From this point of view, two signals, among the four ones in Eq. (81), are
+likely to be more prominent: namely the ones associated to the parameters
+a1 and a4.  Indeed, both A−1/3 and Z2A−4/3 vary signiﬁcantly along the
+periodic table. By contrast, the quantities (A −2Z)/A and ((A −2Z)/A)2
+vary only mildly.  Indeed, the ‘valley’ of stable nuclei is located along a
+speciﬁc line in the A, Z plane which is rather close to the A = 2Z  (i.e.
+N = Z) straight line. Actually, in absence of the Coulomb repulsion between
+protons, the Pauli principle would favour an equal number of protons and
+neutrons (cf. the discussion of the asymmetry energy above). The Coulomb
+eﬀects modify this in favouring a relatively small excess of neutrons over
+protons. More precisely, the bottom of the valley of stable nuclei is around
+[23]
+                         A
+                             Zstable                                        (82)                 ≃12 1 + 0.015A2/3
+Using this result we see that (2Z        + 0.015A2/3)−1     which is                      −A)/A ≃(1            −1,
+small and whose variation with A is reduced by the small coeﬃcient 0.015.
+   In conclusion, the two EP signals that are probably most easily mea-
+surable in Eq.  (81) are the ones associated to A−1/3 and Z2A−4/3.  In
+previous work on the phenomenological consequences of dilaton couplings
+[3, 12] it was suggested that the EP signal would be essentially proportional
+to Z2A−4/3, i.e.  related to the Coulomb energy term       in the results                                   ∝de
+above. Our analysis of the quark-mass sensitivity of nuclear binding is now
+modifying this conclusion in suggesting that the ϕ dependence of atomic
+masses will contain, in addition to this Coulomb-related term, another term
+(related to the quark-mass dependence of nuclear binding), with a A−1/3
+variation over the periodic table.
+  An important issue is to know whether theoretical considerations can tell
+us a priori something about the relative order of magnitude of these Coulomb
+and nuclear terms. In order to discuss this we need to know something about
+the expected relative magnitude of d∗gde versus d∗g(dg     ˆm), i.e. the relative                               −d
+magnitude of de versus dg −dˆm. We shall next argue that it is theoretically
+plausible either that de ∼dg −dˆm, or that de ∼(dg −dˆm)/40.
+   Indeed, we have seen above that our dilaton coeﬃcients dg, dˆm, de where
+respectively deﬁned as being the logarithmic derivatives of Λ3, ˆm, α. On the
+other hand, it is natural to consider (at least in string theory) that a dilaton
+couples with roughly equal strengths to the various terms in the Wilsonian
+action considered at some high-energy ‘cut-oﬀ’ scale Λc, near the string
+
+
+
+                                24
+=== PDF PAGE 26 ===
+scale, i.e. probably near the Planck scale mP = 1/κ ∼3.44 × 1018 GeV. If
+this is the case, the relative magnitudes of the low-energy dilaton couplings
+dg, dˆm, de is determined by the functional dependences that relate the low-
+energy quantities Λ3, ˆm, α to basic couplings at the string, or Planck, scale.
+In the case, of the ﬁne-structure constant, though it does run, according to
+the RG, between the IR (i.e. me) and the GUT or Planck scale, this run-
+ning is relatively small because of the smallness of the factor (2α/3π) which
+multiplies ln(mP /me). As a consequence, one expects that the low-energy
+EM dilaton coupling de is similar to its more fundamental high-energy coun-
+terpart. [This is also related to the fact that we could neglect, in our action
+(12) the EM analog of the ratio β3(g3)/g3 (i.e. β3(g3)/g33 with geometrically
+normalized gauge ﬁelds), because βEM(e)/e3 is essentially constant.] The
+situation is, however, quite diﬀerent for the low-energy coupling dg to the
+gluon ﬁeld energy. There are two equivalent ways of seeing it. One way
+(used in [15]) precisely consists in drawing the consequences of having a
+factor β3(g3)/g3 in front of (F A)2 (to ensure RG invariance). When com-
+paring the matching of this factor at the Planck scale, versus its meaning
+at the low-scale Λ3 ∼1 GeV, one sees that dg diﬀers from its high-energy
+counterpart by a largish factor of order
+
+                                     g3(Λc)
+               K = fh.q.                                (83)
+                                    β3(Λc)
+
+where the additional factor fh.q. takes into account the eﬀect of the heavy
+quarks [15]. The second way (used in [12]) consists in diﬀerentiating the
+expression giving Λ3 in terms of high-energy boundary conditions. We have
+seen above that the deﬁnition of Λ3 coming from the integration of the RG-
+running equation for g3 yields equivalent results, with the same appearance
+of the largish factor g3(Λc)/β3(Λc).  It is easily checked that this second
+way also automatically includes the eﬀect of heavy quarks, i.e. the factor
+fh.q. in K. Actually, this second way provides a quick way to estimate the
+order of magnitude of the factor K above.  Indeed, the reason why Λ3 is
+herarchically smaller than Λc is that solving the RG-running equation leads
+to a result of the type Λ3 ∼Λc exp(−C/g2c). Diﬀerentiating this expression
+w.r.t. ϕ immediately shows that the ampliﬁcation factor between dg and
+the high-energy dilaton coupling ∂ln g2c/∂ϕ can be written as
+
+               K = ln(Λc/Λ3)                          (84)
+
+Using, for instance, Λc ∼mP = 1/κ ∼3.44 × 1018 GeV then yields K ∼
+ln(mP /1GeV) ∼42.7, as in Ref.  [12], and consistently with the results of
+
+                                25
+=== PDF PAGE 27 ===
+[15], for the MSSM case. [We note also that the presence of this logarithmic
+enhancement factor in the dilaton coupling was pointed out in Ref. [11].]
+  When considering the low-energy dilaton coupling to the average light
+quark mass ˆm, the second way of computing it similarly suggests that it
+will contain a large enhancement factor ∼ln(Λc/ˆm) with respect to some
+high-energy counterpart that should a priori be comparable to ∂ln g2c/∂ϕ.
+Indeed, let us recall that the quark masses are of order mq ∼fH, where H
+is the Higgs’s VEV, and f a dimensionless Yukawa coupling. As we do not
+know what is the mechanism which determines (from the UV) the scale of
+the electroweak breaking (i.e. which allows for a negative squared mass for
+the Higgs at low energies), we cannot compute the sensitivity of mq to ϕ.
+However, it is plausible, as indicated by the ‘no-scale’ models [37], that H
+is related to Λc, via the RG-running of (scalar) masses, by an exponential
+factor similar to the one linking Λ3 to Λc: more precisely, in these models
+one has H                                      t ), where C′ is a constant of order unity, and where        ∼exp(−C′/h2
+ht is the Yukawa coupling of the top quark. Then, the ϕ-derivative of ln mq
+will also contain an enhancement factor of order ln(Λc/Λ3), i.e. of the same
+order as the enhancement K above, but probably diﬀering by a factor of
+order unity.
+   Summarizing: it seems theoretically plausible that, starting from dilaton
+couplings which are of the same order, say dc = ∂ln g2c/∂ϕ, when considered
+at the high-energy scale Λc, the low-energy coupling EM de will remain
+de ∼dc, while dg and the various dma will be enhanced by factors of order
+                                                                                   ˆmKa ∼ln(Λc/ma) ∼40. Notably, we can expect dg ∼Kdc, and d                                                   ∼K′dc.
+                                                                                     ˆm whichThis leaves us with the problem of estimating the diﬀerence dg −d
+enters in composition-dependent eﬀects. It is formally of order                                             ∼(K−K′)dc.
+We do not know to what extent there could be a compensation between K
+                                                                instead ofand K′.   If such a compensation exists,  i.e.   if K −K′ ∼1,
+                                    ˆm∼40, one will have dg −d                   ∼dc ∼de. On the other hand,  if K andK′ diﬀer by a factor of order unity (or have a diﬀerent sign), we will have
+
+        ˆmdg −d       ∼40dc ≫de. Therefore, we can only write an approximate link
+of the type de ≲dg −dˆm.  For our discussion of the relative importance
+of various EP signals,  it would be too restrictive to assume that Nature
+has chosen the case where de is signiﬁcantly smaller than dg −dˆm. We shall
+therefore continue our discussion under the general assumption de ∼dg−dˆm.
+
+7.3  Simpliﬁed parameterization
+
+Our theoretical treatment of nuclear binding eﬀects has given us some spe-
+ciﬁc predictions for the numerical coeﬃcients of the various contributions to
+
+
+                                26
+=== PDF PAGE 28 ===
+the ‘dilaton charges’ Qka. To better delineate what they imply for the phe-
+nomenology of EP experiments we shall henceforth make some further ap-
+proximations. First, we replace the overall factor FA = Amamu/mA by one.
+This is allowed because we shall see that the leading terms in the Qka’s vary
+by factor of a few over the periodic table, while FA diﬀers from one only at
+the 10−3 level. The second approximation consists in using the approximate
+equation (82) to estimate various Z-dependent terms in the dilaton charges.
+Namely, using this link, and taking into account the predicted numerical co-
+eﬃcients in the dilaton charges, one ﬁnds that the terms 0.020(A−2Z)2/A2
+(in Q ˆm), and 0.0017(A−2Z)/A (in Qδm), are numerically subdominant.[We
+                                               ˆmassume here that, e.g., dδm −dg ∼d                           −dg etc.] In addition, we ﬁnd that
+we can replace Z/A by 1/2 in Qme and Qe. After these simpliﬁcations, we
+can move some left-over composition-independent numerical coeﬃcients out
+of the Q’s, and into the general composition-independent contribution dg in
+αA.
+   After these approximations, we end up with
+
+                                                                       (85)              αA                                g + (dˆm                                                       ˆm + deQ′e A                ≃d∗                            −dg)Q′
+where
+                  d∗g = dg + 0.093(dˆm    + 0.00027de               (86)                             −dg)
+and where
+                                  Z(Z
+                 Q′ˆm = −0.036A1/3 −1.4 × 10−4   A4/3−1)               (87)
+and
+                              Z(Z                    Q′e = +7.7  10−4    −1) .                   (88)                   ×       A4/3
+We think that these approximate expressions capture all the potentially
+dominant EP violation eﬀects. We illustrate the variation of these approx-
+imate dilaton charges over the periodic table by giving in Table 1 their
+values for a sample of elements.  [Our table considers many of the same
+elements as Table 1 of [17], but the crucial new information we provide are
+the numerical factors in the charges, as predicted from our results. We use
+the (non-integer) atomic weights as an approximate way of averaging14 the
+result over the natural isotopic composition.  ]
+   The two main lessons we can draw from Eq. (85) and the numbers in
+Table 1 are: (i) Contrary to what general phenomenological considerations
+(of the type of Eq.  (81)) could suggest, there are only two dominant EP
+
+  14Essentially we are using the approximation ⟨f(A)⟩≃f(⟨A⟩), which is valid to ﬁrst
+order for a smooth function f(A).
+
+
+                                27
+=== PDF PAGE 29 ===
+Table 1: Approximate EP-violating ‘dilaton charges’ for a sample of mate-
+rials. These charges are averaged over the (isotopic or chemical, for SiO2)
+composition.
+
+            Material   A   Z                                                       ˆm          Q′e                             −Q′
+
+               Li       7    3   18.88         0.345                                 ×10−3       ×10−3
+            Be       9    4   17.40         0.494                                 ×10−3       ×10−3
+             Al      27    13  12.27          1.48                                 ×10−3      ×10−3
+                Si      28.1   14   12.1           1.64                                ×10−3       ×10−3
+            SiO2          ...       ...   13.39          1.34                                 ×10−3      ×10−3
+             Ti      47.9   22  10.28          2.04                                 ×10−3      ×10−3
+             Fe      56    26   9.83           2.34                                ×10−3       ×10−3
+          Cu      63.6   29   9.47           2.46                                ×10−3       ×10−3
+            Cs      133   55   7.67           3.37                                ×10−3       ×10−3
+            Pt     195.1  78   6.95           4.09                                ×10−3       ×10−3
+
+violation eﬀects: one, Q′e, coming from the ϕ sensitivity of the ﬁne-structure
+constant, and the other one, Q′ˆm, coming from the ϕ sensitivity of the average
+light quark mass in nuclear binding;  (ii) in spite of the seemingly small
+numerical coeﬃcient entering the Q′e term, this term can be comparable to
+the Q′ˆm one for heavy elements, such as Platinum or beyond. Actually, one
+should remember that it is only the variations of the Q’s over the periodic
+table which matters. From this point of view, note that the total variation
+                                   while the corresponding total variationof Q′ˆm between Li and Pt is ∼10−2,                   Moreover, while the variation of Q′ˆm is localized aroundof Q′e is ∼4×10−3.the light elements, that of Q′e keeps increasing for heavy elements. [Formally,
+Q′e ∝Z2/A4/3 ∼A2/3,                      while Q′ˆm ∝A−1/3.]
+   Summarizing:  our theoretical framework suggests that there are two
+dominant ‘directions’ for the EP-violation signals associated to a long-range
+dilaton-like ﬁeld, namely
+
+          ∆a
+                                                                       (89)             = (αB      = DˆmQ′ˆm + DeQ′e BC             a  BC     −αC)αE
+
+where [Q]BC ≡QB −QC, and where the  ‘ dilaton charges’ are (approx-
+imately) given by Eq.  (73) and Eq.  (76). The coeﬃcients D are given
+by
+           Dˆm = d∗g (dˆm          ,    De = d∗g de                (90)                         −dg)
+
+
+                                28
+=== PDF PAGE 30 ===
+where
+                     d∗g ≃αc.i. ≃dg                     + 0.093(dˆm −dg)                 (91)
+If we were assuming that the dilaton coupling de  is much smaller than
+dˆm −dg, we could go further and conclude (in view of the numerical re-sults indicated in Table I) that the signal Q′e is sub-dominant w.r.t. Q′ˆm. In
+that case we would end up with a uni-dimensional EP signal proportional
+to [Q′ˆm]BC.
+
+7.4  Experimental bounds
+
+The fact that two types of EP signals are expected to dominate allow one to
+derive simultaneous constraints on the two dominant theoretical parameters
+Dˆm, De by using only two independent sets of EP experiments. We can use
+to that eﬀect the two current EP experiments which have reached the 10−13
+level, namely the terrestrial E¨otWash experiment, and the celestial Lunar
+Laser Ranging one
+   The E¨otWash collaboration has compared the relative acceleration of Be
+and Ti in the gravitational ﬁeld of the Earth [1]. The Lunar Laser Ranging
+(LLR) experiments [2] measured the diﬀerential acceleration of the Earth
+and the Moon towards the Sun. We can use our framework to translate
+the results from these two experiments on constraints on the two theoretical
+parameters Dˆm, De.
+   The E¨otWash result concerns Be (A=9, Z=4) and Ti (A=47.9, Z=22),
+and reads
+
+        ∆a
+             = (αBe        = (0.3   1.8)   10−13      (92)           a   Be Ti       −αTi)αEarth    ±   ×
+Working at the two-sigma level, i.e. (0.3   3.6)   10−13, and neglecting the                       ±   ×
+central value 0.3, the rewriting of this equation in terms of the theoretical
+parameters Dˆm, De yields
+               10−3            ˆm      =        10−13             (93)                   [−7.11D  −1.55De]   ±3.6 ×
+The Lunar Laser Ranging measurement constrains the relative acceleration
+of the Earth and the Moon towards the Sun:
+
+    ∆a
+            = (αEarth        =          1.4)   10−13   (94)     a   Earth Moon         −αMoon)αSun   (−1.0 ±   ×
+
+   In addition to the composition dependence of the matter in these objects,
+it has the remarkable ability to test the equivalence of the gravitational self
+
+
+                                29
+=== PDF PAGE 31 ===
+energy [34]. For dilaton models where the scalar also couples to matter, it
+is the matter couplings which will be most important15, and we will not
+consider here the gravitational couplings.  The Moon has a very similar
+composition as the Earth’s mantle, which is mostly silicate (primarily silicon
+and oxygen). The composition diﬀerences between the Earth and the Moon
+come primarily from the Earth’s core which is dominantly iron.
+  We approximate the mantle composition as being SiO2, and the Earth’
+core as being iron. In addition, we follow Ref. [36] in assigning to the core a
+relative mass of 32%. Working as above at the 2-sigma level, and rewriting
+this constraint in terms of our theoretical parameters16 yields
+
+               0.32  10−3 [3.55Dˆm + 1.0De] =        10−13           (95)           ×                       ±2.8 ×
+It is interesting to notice the origin of the various numerical coeﬃcients
+in this equation, as well as in the corresponding E¨otWash one above. The
+r.h. sides feature the 10−13 sensitivity level. The l.h.sides have coeﬃcients of
+order a few times 10−3, which is typical for the diﬀerences of ‘dilaton charges’
+listed in Table I. In addition, the LLR l.h.s. has an extra factor 0.32 due to
+the fact that only 32% of the Earth diﬀers in composition from the Moon.
+Finally, we need to solve two linear equations for the two unknowns Dˆm, De
+and this introduces an inverse determinant which will further increase the
+result for the D’s. At the end of the day, if one denotes ǫEot =       10−10                                              ±3.6×and ǫLLR =       10−10 (i.e. the two, random two-sigma errors multiplied          ±2.8 ×
+by 103) the solution for Dˆm, De reads
+
+           Dˆm =  −0.625 ǫEot −3.0 ǫLLR ,
+                De =  2.2 ǫEot + 14.0 ǫLLR .                    (96)
+
+If ǫEot and ǫLLR were non-zero EP violation signals, this would give us
+the values of the dilaton parameters in terms of EP data.  In the present
+situation, however, ǫEot and ǫLLR are only (independent) random errors.
+This expression then shows that the LLR error is dominating the error level
+in the ﬁnal result. A LLR EP measurement should be about six times
+  15Indeed, gravitational self-energy couples to the combination ηg = 4(β −1) −(γ −1)
+of post-Newtonian parameters [34]. However, this combination is theoretically predicted
+[14] to be proportional to (1 −γ)/2 ≃αc.i. ∼d2g (see above). The fact that the gravita-
+tional self energy is a very small fraction of the total mass then allows one to neglect the
+corresponding eﬀect.
+  16Strictly speaking one should take into account the fact that the EP signal involves
+slightly diﬀerent values for the ‘external’ αE, namely the Earth versus the Sun. For sim-
+plicity, we use here the (justiﬁed) approximation where both are close to the composition-
+independent part d∗g of dg.
+
+
+                                30
+=== PDF PAGE 32 ===
+below the 10−13 level to contribute the same error level as a terrestrial EP
+measurement at the 10−13 level. Adding the right-hand-sides of the previous
+expressions in quadrature, ﬁnally leads to the following (two-sigma) error
+levels on our theoretical parameters
+
+         Dˆm =         10−9,  De =       10−9             (97)                    ±0.87 ×             ±4.0 ×
+
+7.5  Speciﬁc models
+
+As we discussed above, one expects that a string-theory dilaton (or mod-
+uli) will have low-energy couplings to matter of the general form dg ∼Kdc,
+dma −dg ∼(Ka −K)dc, and de ∼dc, where dc is some common string-scale
+dimensionless dilaton coupling, where the enhancement factors K, Ka are
+expected to be comparable and of order 40, and where de does not contain
+any signiﬁcant enhancement factor. Using the E¨otWash-LLR-derived con-
+straints given in the preceding section, we then conclude that the string-scale
+dilaton coupling dc is constrained to be d2c ≲10−9/(K|K −Kˆm|) ∼10−12.
+   There are two possible attitudes towards this very stringent constraint.
+One is to conclude that all the dilaton-like scalar ﬁelds of string theory
+that are massless at tree level must acquire, via loop eﬀects, a large enough
+mass to make them invisible in current EP experiments (i.e. m−1φ < 0.2
+mm). A second possibility (suggested in [12] ) consists in assuming that
+loop eﬀects (which depend on the VEV of the dilaton) modify the usual
+tree-level dilaton dependence (∝exp(−2ϕ)) of the various terms entering
+the string-scale Lagrangian into more complicated functions of ϕ, say Bi(ϕ),
+such that these coupling functions reach an extremum at a special value,
+say ϕ∗of ϕ.  Indeed, under this assumption, Damour and Polyakov [12]
+have shown that the cosmological evolution of the universe drives the VEV
+of ϕ towards ϕ∗, thereby ensuring that the string-scale dilaton coupling dc,
+which is proportional to ∂ln g2c/∂ϕ, is naturally very small: “Least Coupling
+Principle” (see also Refs. [38] and [39]). More precisely, [12] showed that,
+if the extremum is located at a ﬁnite ﬁeld value ϕ∗, cosmological edvolution
+would reduce an initial dilaton coupling dinitc  by a factor typically17 of order
+Ft         Taking this attracting factor into account then suggests that  ∼10−9.
+the present, late-cosmological-evolution dilaton coupling coeﬃcients are of
+order
+                   dg                  de        10−8dinitc                 (98)               ∼dg −dma ∼40  ∼4 ×
+  17We assume here that the curvature parameter κ of the dilaton-coupling function B(ϕ)
+is of order one. See [12] for the κ dependence of the total cosmological “attracting factor”
+Ft(κ).
+
+
+                                31
+=== PDF PAGE 33 ===
+     If we insert this result into the EP violation deduced from our results
+above, say
+               (αBe                   10−3dg(dg     ˆm)             (99)                   −αTi)αEarth ≃7 ×      −d
+we get a rough “prediction” for the level of EP violation of the order
+
+                                                                c  )2 ,               (100)                  (αBe −αTi)αEarth ∼10−17 (dinit
+where dinitc    is expected to be of order unity. We note that this result is
+compatible with the current experimental tests of the EP, but that several
+planned improved EP experiments [5, 6, 7, 8] will be able to probe this level
+of EP violation.
+   In another version of this dilaton-cosmological-attractor mechanism, the
+attractor point ϕ∗is located at inﬁnity in ﬁeld space (“runaway dilaton”
+model [13]). This corresponds to dilaton-dependent couplings of the form
+
+                      Bi(ϕ) = Ci + bie−ϕ + ...                    (101)
+
+During the cosmological evolution, the dilaton runs towards (the strong-
+coupling limit) ϕ = +∞, exponentially suppressing its coupling to matter.
+Studying the eﬀect of this runaway mechanism during slow-roll inﬂation
+allowed Ref. [13] to relate the present value of the composition-independent
+dilaton coupling  αc.i.        to the amplitude δH        10−5 of density             ≃dg           ∼5 ×
+ﬂuctuations generated during inﬂation. This leads to
+
+                                      bF
+                        dg                  δ4/(n+2)H                        (102)                           ≃αc.i. ∼3.2 cbλ
+
+where n denotes the power of the inﬂaton χ in the inﬂationary potential,
+V (χ) ∝χn.1   For instance, in the case of the simplest inﬂationary potential
+V (χ) = 2m2χχ2, i.e. n = 2, the above result leads to
+
+                                                       2
+                                          bF                         d2g        10−8                            (103)                     ∼2.5 ×       cbλ
+
+In view of our present new results, Eq.  (99), on the level of EP violation
+associated to such a composition-independent coupling, this corresponds to
+
+                                                               2
+                                                 bF                (αBe                   10−10                     (104)                     −αTi)αEarth ∼2 ×        cbλ
+
+This is in conﬂict with the current EP tests, except if one assumes that the
+combination of dimensionless parameters bF /(cbλ) (which was assumed in
+
+
+                                32
+=== PDF PAGE 34 ===
+[13] to be of order unity) happens to be smaller than about 1/30. In such a
+model, one would expect to see EP violations just below the currently tested
+level. Alternatively, one might interpret the constraint from current EP tests
+as suggesting that the (eﬀective) power of the inﬂaton in the inﬂationary
+potential V (χ) is less than n = 2. For instance, if n ≈0, Eq. (102) impliesd2g       10−17, corresponding to ∆a/a       10−19.  ≃6 ×                 ∼4 ×
+    Finally, a recent work [40] suggests the existence of couplings of a light
+scalar which are quite diﬀerent from the usual string-motivated ones.  In
+the model of Ref.  [40] the light scalar couples only to quark mass terms,
+through mixing with the Higgs. At tree level, the couplings are
+
+                       A
+                            dmi =                               (105)
+                           κm2H
+
+where A is a very small mixing parameter and mH is the mass of the Higgs
+boson.  However, integrating out the heavy (t,b,c) quarks  (`a la [18, 15])
+induces gluonic couplings
+                           2A
+                               dg =                                 (106)
+                            9κm2H
+The constraint of this model can be then calculated to be
+
+                                     2
+                A                   < 4.0   10−10   .                   (107)                   κm2H     ×
+
+8  Experimental sensitivities
+
+It can be useful to use a well-motivated parameterized theoretical model
+as a guideline for comparing the signiﬁcance, and relative sensitivities,
+of diﬀerent experiments.  For instance, the parametrized post-Newtonian
+framework [41] played a useful role in comparing the theoretical signiﬁ-
+cance of various composition-independent tests of relativistic gravity. Here,
+we wish to capitalize on the better understanding, explained above, of the
+coupling of a generic dilaton-like ﬁeld to nuclear binding energy to pro-
+pose such parametrized frameworks for comparing diﬀerent composition-
+dependent tests of gravity.  Our proposal is intended as an update, or a
+speciﬁcation, of previous similar proposals (see, e.g. [12, 17]). Actually, our
+proposal is two-headed.
+  On the one hand,  if we make minimal assumptions, and essentially
+no approximations, we propose to parameterize EP violations by means
+of the matter coupling (71), which involves ﬁve parameters.  One  of
+
+
+                                33
+=== PDF PAGE 35 ===
+them,  dg  (or more accurately d∗g =        measures the composition-                                    ⟨αA⟩)
+independent part of the matter coupling, and can, in principle, be mea-
+sured by composition-independent gravity tests. The other four parame-
+ters, dˆm −dg, dδm −dg, dme −dg, de are associated with four diﬀerent types
+of EP-violation signals, associated to the four diﬀerent ‘dilaton charges’
+Q ˆm, Qδm, Qme, Qe, deﬁned in Eqs. (73), (74), (75), and (76).
+  On the other hand, we have pointed out that two ‘directions’ of EP
+violations are likely to dominate the measured signals. They correspond to
+the two charges Q ˆm and Qe, i.e. to the two dilaton parameters dˆm −dg and
+de. For brevity we shall denote the ﬁrst one as
+
+
+                                                ˆm                               dq ≡d                            −dg                         (108)
+
+It measures the dilaton coupling to the ratio ˆm/Λ3 of the average light-quark
+mass to the QCD scale. We recall that the second one, de is associated to
+the ϕ sensitivity of the ﬁne-structure constant α = e2/(4π). In the same ap-
+proximation that these charges dominate, we can simplify the expression of
+the the matter coupling αA and the corresponding charges, see Eq. (85), and
+the equations following it. The latter, simpliﬁed two-EP-parameter frame-
+work18 is quite predictive, and could be useful as a guideline for comparing
+and/or planning EP experiments. Let us brieﬂy indicate some consequences
+of our proposals.
+
+8.1  Composition independent constraints
+
+The ﬁrst useful result in the simpliﬁed “reference dilaton model” is the
+expected ratio between composition-independent eﬀects and composition-
+dependent ones. As explained above the former are essentially measured by
+the Eddington parameter19
+
+                                                  g                          (109)                            1 −γ ≃2d2
+  18In all, this model contains three independent parameters:  dg, dq and de.   If one
+could argue that the ϕ sensitivity of κˆm is much smaller than that of κΛ3 one could
+even consider a much more special one-parameter guideline model keeping only dg and
+setting to zero the various mass couplings dma as well as de. In such a model dq = −dg
+would be ﬁxed in terms of dg. However, the no-scale supergravity models (and their string
+realizations) rather suggest that the dma’s contain logarithmic ampliﬁcation factors which
+are comparable to the one expected to be present in dg.
+  19Here dg should more accurately be replaced by some average ⟨αA⟩≡d∗g = dg + cdq,
+with a coeﬃcient c ∼0.1 depending of the average composition of the considered source
+bodies.
+
+
+
+                                34
+=== PDF PAGE 36 ===
+while the latter are given, say, by Eq. (99). Note that the numerical value
+         in the latter equation comes from the Q′ˆm charge diﬀerence between7×10−3Be and Ti. We can use instead the maximal diﬀerence of 10−2 corresponding
+to Be and Pt. This yields the approximate link
+
+                  ∆a        dq 1 −γ                      (110)                        a ∼10−2 dg  2
+
+Note that, assuming dq ∼dg, this diﬀers by two orders of magnitude from the
+link ∆a/a                 estimated in [12] from considering as dominant        ∼10−4(1 −γ)/2
+the EM coupling de instead of dq.  This suggests that current EP tests
+                                                                                              i.e. sixcorrespond to post-Newtonian tests at the level (1 −γ)/2 ∼10−11,
+orders of magnitude below the current best post-Newtonian test, namely
+the Cassini limit Eq. (78). [Using the results derived above from combining
+Eotwash and LLR data, one actually gets a constraint at the level (1−γ)/2 ∼10−9, where the loss of a factor 100 comes from the combination of eﬀects
+explained above.]
+
+8.2  Test materials
+
+Concerning the comparison among the sensitivities of diﬀerent EP exper-
+iments, we already gave above an example of the use of our framework
+(comparison between Eotwash and LLR). Let us also mention another il-
+lustrative example. Note that each EP comparison of a pair of materials,
+say (B, C), corresponds, within our simpliﬁed framework, to looking for a
+signal of the form D · QBC, where D is the two-dimensional vector of dila-
+ton couplings (Dˆm, De) , and Q a two-dimensional vector of dilaton-charge
+                                                        ˆm, Q′e)C. For instance, the cur-diﬀerences (Q′ˆm, Q′e)BC = (Q′ˆm, Q′e)B −(Q′
+rent best Eotwash comparison concerned Be and Ti, i.e.  (using Table 1)
+the ‘charge’ vector QTi Be = (7.11, 1.55)   10−3. By contrast, the MICRO-                       ×
+SCOPE experiment plans to use a pair Ti, Pt, which corresponds to the
+charge vector QP t Ti = (3.33, 2.04)   10−3. We see that the two choices are                    ×
+nicely complementary in that the former (using lighter elements) gives more
+weight to the ˆm component of the EP violation, while the latter (with heav-
+ier elements) gives approximately equal weights to the ˆm and e directions.
+
+8.3  Atomic interferometry
+
+Special mention should be given to the sensitivity of EP experiments based
+on atomic-interferometer techniques.  For instance, Ref.  [8] mentions the
+possibility of comparing two isotopes of Rubidium: (85Rb,87Rb).  In such
+
+
+                                35
+=== PDF PAGE 37 ===
+a case, we wish to warn the reader that one should not blindly use the
+formulas that we have derived above, especially the approximate ones for
+(Q′ˆm, Q′e). Indeed, the approximations used to simplify the charges employed
+the average link (82) between Z and A. This approximation is acceptable
+if one compares elements that are distant along the periodic table, but is
+deﬁnitely invalid for isotopes of the same Z.  Therefore, one should start
+from our original, non-approximated expressions for the charges.
+   The use of our (‘exact’) dilaton charges, suggests that an EP test
+comparing (85Rb,87Rb) would correspond,  in the  full four-dimensional
+space  of  (ˆm, δm, me, e)   ,  to a  charge  vector  equal  to Q87Rb 85Rb =
+       3.4,               10−5.  Note that the components of this vector(−3.3,    −0.55, −9.2) ×
+are signiﬁcantly smaller than those of the charge vectors probed by the
+other experiments. The dominant direction is along e. Note also that the
+δm direction now plays a role as signiﬁcant as the ˆm one, because, besides
+the binding energies, a crucial eﬀect in comparing two isotopes is evidently
+a change in the number of neutrons. This also shows that such experiments
+are complementary to the usual ones, in that they probe new directions in
+theory space, though it comes at the cost of the overall sensitivity.
+   The atomic interferometer proposal of [9] suggests the comparison of 7Li
+and 133Cs atoms. In contrast to the Rubidium experiment, these elements
+are well separated in A, Z, and our simpliﬁed charges can be used. We
+ﬁnd that this comparison is quite sensitive to the dilaton couplings with
+dilaton charge vector QCs Li = (11.2, 3.02)   10−3. While the experimental                        ×
+comparison of dissimilar atoms may be more diﬃcult than the use of related
+isotopes, the sensitivity to the dilaton couplings is much increased.
+   Let us also make some further comments relevant for comparing two
+isotopes which are very close in mass. Our derivation assumed that the
+semi-empirical mass formula was an accurate representation of the binding
+energies.  However, this mass formula is an average, which does not al-
+ways accurately capture local ﬂuctuations, and notably ﬂuctuations linked
+to varying A for a ﬁxed Z. In addition, our derivation has neglected the
+pairing term −δap/A1/2, as being subdominant. However, this term might
+become very important if one were to compare isotopes with mass numbers A
+diﬀering by an odd integer. Indeed, in that case δ = 12 [(−)N +(−)Z] changes
+by one unit between the two isotopes, and therefore yields a full contribution
+ap to their mass diﬀerence, and thereby also to the dilaton sensitivity. Ac-
+tually, we would suggest to try to take advantage of this fact by using such
+odd-related isotopes which are likely to have an enhanced sensitivity to EP
+violations. [We are aware, however, that this proposal poses both theoreti-
+cal challenges (determining the ϕ sensitivity of ap), and experimental ones
+
+
+                                36
+=== PDF PAGE 38 ===
+(as the two isotopes will have a diﬀerent Fermi/Bose statistics, which might
+undermine the possibility of using accurate, Bose-Einstein-Condensation-
+based, techniques).]
+
+8.4  Other applications
+
+Let us also mention that our framework can be straightforwardly applied
+to comparing (weak) equivalence principle tests to atomic-clock tests of
+the dependence of coupling constants on the gravitational potential. The
+link between these two types of tests has been discussed by several au-
+thors [41, 42, 43, 17]. Let us indicate how it is formulated in our notation.
+The spacetime dependence of the dilaton ﬁeld is approximately of the form:
+ϕ(x, t) = ϕ0(t) + ϕloc(x, t), where ϕ0(t) is the cosmological value of ϕ, and
+where
+                      GmE
+                  ϕloc(x, t) = −   αE  rE  ≃−αc.i.U(x, t)           (111)
+                        E         X
+gives the inﬂuence of the local matter distribution, in terms of the local grav-
+itational potential U (U > 0). In the second expression, we have used the
+                                    g. Combining this result with our parametriza-approximation αE ≃αc.i. = d∗
+tion ka(ϕ) = (1 + daϕ)ka(0) of the ϕ dependence of the various constants
+ka = ˆm/Λ3, δm/Λ3, me/Λ3, α = e2/(4π), we see that the local gravitational
+potential inﬂuences the values of the constants ka measured, say, on the
+Earth, according to
+                            kloca = (1 −DaU)ka(ϕ0(t))                   (112)
+where the coeﬃcients Da ≡daαc.i. = dad∗g, i.e. Dˆm = d∗g (dˆm−dg) , . . . , De =d∗g de are the same dilaton coeﬃcients that entered our discussion above of
+the EP tests.  Then, to compute the eﬀect of the seasonally varying U
+on, say, the frequencies of atomic clocks, one needs to know the sensitivity
+of these frequencies to variations in the ka’s (see [44]).  In particular, the
+De =      10−9 two-sigma bound derived above on De, combined with the    ±4 ×yearly variation ∆U       10−10 linked with the Earth’s eccentricity, shows            ≃3 ×
+that EP tests constrain the yearly variation of the ﬁne-structure constant
+on the Earth to be smaller than 1.2   10−18 (two sigma). This is about 40                     ×
+times smaller than the current best atomic-clock experimental sensitivity to
+the variation of α [45]. Note, however, that clock-comparison experiments
+are sensitive to diﬀerent combinations of the parameters Da than EP tests
+[42]. We shall not discuss here the cosmological aspects of the variation of
+constants, which are more model-dependent. For instance, in the context of
+the dilaton-runaway model, one can relate the present rate of variation of
+
+
+                                37
+=== PDF PAGE 39 ===
+the ‘constants’ to the (square root of the) EP violation level, see Eq. (3.25)
+of [13].
+   Let us ﬁnally remark that  it would be interesting to use the recent
+progress (reported in [21, 22] and here) about the quark-mass dependence
+of nuclear binding to try to derive a well-justiﬁed estimate of the quark-
+mass dependence of the crucial very low-energy neutron capture resonance
+Er     eV = 10−7 MeV of 149Sm. Indeed, the analysis of the Oklo data   ≃0.1
+[46, 47, 48] shows that this resonance has not changed by more than about
+0.1 eV since the Oklo natural ﬁssion reactor was in activity 2 billion years
+ago. A naive use of our results, based on our ﬁnding that the bulk binding
+energy per nucleon, av, varies with ˆm as ∆av ≃−42∆ln ˆm/Λ3 MeV, sug-
+gests that Oklo data constrain the fractional variation of ˆm/Λ3 over 2 billion
+years to the level ∆ln ˆm/Λ3 ≲10−7/42         10−9. Such a limit would                              ∼2.4 ×
+be a very signiﬁcant constraint on the possible cosmological evolution of the
+dilaton.  However, it is not clear whether a detailed study of the speciﬁc
+(unstable) energy level corresponding to Er will conﬁrm this sensitivity to
+ˆm/Λ3.
+
+9  Conclusions
+
+We have provided a parametrized framework for the study of the equivalence
+principle20 in models with light, dilaton-like scalar particles. Our general
+framework contains ﬁve independent parameters, and should be applicable
+to the low-energy limit of many models. The most novel aspect of our work
+was to provide an estimate of the eﬀects of the dilaton coupling to nuclear
+binding energy. We have found that these couplings induce, as leading eﬀect,
+equivalence principle violations varying with the mass number as A−1/3. The
+level of these EP violations is expected to be at least comparable to (and,
+for lighter elements, somewhat larger than) that associated to the Coulomb
+energy.
+  We have also provided a simpliﬁed scalar model, containing three pa-
+rameters: one composition-independent parameter, and two composition-
+dependent ones. This model is expected to describe the dominant eﬀects of
+the most general 5-parameter framework. We suggest to use it as a guide-
+line for comparing and planning EP experiments. We used it to combine
+
+  20Here we have limited our considerations to the weak equivalence principle (tests of
+the universality of free fall). However, our parametrized Lagrangian can also be used to
+study the eﬀect of dilaton couplings on other aspects of the EP: such has clock-comparison
+experiments.
+
+
+
+                                38
+=== PDF PAGE 40 ===
+E¨otvos and Lunar Laser Ranging data so as to constrain its two theoreti-
+cal composition-dependent parameters. We found that they are constrained
+at the 10−9 level.  This plausibly implies (in our model, and using some
+naturality assumption) a corresponding limit on composition-independent
+eﬀects at about the same level, i.e. (1      ≲10−9, which is four orders                             −γ)/2
+of magnitude below the best present composition-independent gravitational
+tests (Cassini experiment).
+   In the happy future situation of several non-zero measurements of EP
+violations, one could check the consistency of our simpliﬁed model, which
+is quite predictive.  If needed the other scalar couplings could readily be
+included to make sense of subleading eﬀects modifying the simple predictions
+of this simpliﬁed model.
+
+Acknowledgements
+
+JFD thanks the IHES for hospitality both at the start of this project and at
+its conclusion. He also acknowledges support partially by the NSF grants
+PHY- 055304 and PHY - 0855119, and in part by the Foundational Questions
+Institute. We thank Ulf Meißner for a useful correspondence.
+
+10  Appendix: The strange quark mass
+
+We are not able to provide a deﬁnitive calculation of how equivalence prin-
+ciple violations depend on the strange quark couplings.  This is an area
+where there is no consensus and the motifs of the day change quickly. While
+we cannot solve this issue, we will here argue that the the strange quark
+dependence could be about or within the uncertainty that we are quoting.
+  When quarks are heavy, they can be integrated out with the result sim-
+ply going into a modiﬁcation of the gluonic coupling, dg. The u, d quarks
+are light, are directly involved in nucleon couplings and are clearly active
+dynamically in nucleon binding. The strange quark is intermediate in mass.
+Nucleons do not explicitly contain strange quarks, so their eﬀects are sec-
+ondary. Certainly they couple to nucleons at some level through loop eﬀects.
+Initial theoretical calculations suggested that these couplings could be quite
+large. However, increasingly theoretical and experimental developments are
+bounding these eﬀects to be relatively small.
+   Fortunately for equivalence principle violations, the leading manifesta-
+tions of the strange quark mass would not have an eﬀect in any case. For
+example, the much debated contribution of the strange quark to the mass of
+
+
+                                39
+=== PDF PAGE 41 ===
+neutrons and protons [49] would not lead to the violation of the equivalence
+principle.  This is because the eﬀect is an isospin singlet and contributes
+equally to the neutron and proton, so that the total eﬀect in an atomic
+state is proportional to A. This leads to a constant contribution to αA in-
+dependent of A, and no violation of the equivalence principle. Note that the
+large eﬀects suggested for strange contributions to nucleon masses recently
+have been bounded by lattice computations to be consistent with zero [50].
+In nuclear binding, the leading A dependent term does not violate the equiv-
+alence principle, and it is only the surface term that is relevant. Therefore
+the key feature to be estimated is the strange quark contribution to the
+surface binding energy.
+   In discussing the binding energy it is easy to be led astray. For example
+early estimates used kaon loops in chiral perturbation theory to conclude
+that there was a very large eﬀect [51]. However, it has become clear from
+dispersive work, such as our own, that the ¯KK intermediate state enters
+above the region of validity of chiral calculations [52]. There are analytic
+studies that show that the reliable low energy portions from such loops are
+very small [53], and lattice studies have deﬁnitively shown that the chiral
+loop eﬀects are not strongly present at such large masses [54].
+   The lightest intermediate states involving strangeness that can couple to
+nucleons are that of a K ¯K intermediate state and also the vector ϕ meson
+(an ¯ss bound state, not to be confused with our notation for the dilaton). In
+dispersive treatments, both of these start at 1 GeV. The coupling of the ϕ to
+nucleons is highly uncertain, and depends more on the assumptions made in
+a given calculation than in a unique piece of evidence in its favor. Moreover
+it is highly constrained by recent experiments [55] that show smaller than
+expected hidden strange couplings in nucleons.  If we use a estimate which
+we ﬁnd to be reasonable and which is within the constraints of present
+experiments [56], the ϕ eﬀects are too small to be signiﬁcant.
+   However, K ¯K intermediate states can contribute to the leading scalar
+interaction and may have a non-trivial eﬀect. We expect from most models
+of the nuclear potential that most of the scalar strength comes from below 1
+GeV. The eﬀect of M M¯ intermediate states must decouple as the mass of the
+meson M gets large. If we estimate generously that K ¯K intermediate states
+contributes 10−15% to the scalar strength, and we take a typical form factorto account for the high mass threshold of the form (Λ2 + 4m2K)−1 (where Λ
+is is some typical form factor scale) , we would estimate the strange quark
+
+
+
+
+
+                                40
+=== PDF PAGE 42 ===
+mass dependence
+
+       ∂ηS       ∂ηS               4m2K   ms   = m2K    = (0.10                                    (113)      ∂ms     ∂m2K       −0.15) Λ2 + 4m2K ∼0.07 −0.10
+
+using Λ2 = m2ρ. Comparison with Eq. (49) indicates that this is comparable
+to the error bar that we assigned to that calculation. If the K ¯K is positive
+as expected, a contribution of this size could lead to a 20-30 % increase in
+the coeﬃcient of the leading A−1/3 term in our ﬁnal results. This is clearly
+a crude estimate, but we don’t expect that it is grossly misleading.
+
+References
+
+ [1] S. Schlamminger,  K. Y.  Choi,  T. A. Wagner,  J. H. Gundlach
+    and E. G. Adelberger, “Test of the Equivalence Principle Using a
+    Rotating Torsion Balance,”  Phys. Rev.  Lett. 100, 041101 (2008)
+     [arXiv:0712.0607 [gr-qc]].
+
+ [2] J. G. Williams, S. G. Turyshev and D. H. Boggs, “Progress in Lu-
+    nar Laser Ranging Tests of Relativistic Gravity,” Phys. Rev. Lett. 93,
+    261101 (2004) [arXiv:gr-qc/0411113]. J. G. Williams, S. G. Turyshev
+    and D. H. Boggs, “Lunar Laser Ranging Tests of the Equivalence Prin-
+     ciple with the Earth and Moon,” Int. J. Mod. Phys. D 18, 1129 (2009)
+     [arXiv:gr-qc/0507083].
+
+ [3] T.   Damour,     “Questioning    the    equivalence    principle,”
+    arXiv:gr-qc/0109063.
+    T. Damour, “Testing the equivalence principle: Why and how?,” Class.
+    Quant. Grav. 13, A33 (1996) [arXiv:gr-qc/9606080]. T. Damour, J.P.
+     Blaser; “Optimizing the choice of materials in equivalence principle ex-
+    periments” in Particle Astrophysics, Atomic Physics and Gravitation,
+    Proceedings of the XIVth Moriond Workshop, edited by J. Tran Than
+    Van, G. Fontaine and E. Hinds, Editions Frontires, Gif-sur-Yvette, pp
+     433-440, 1994.
+
+ [4] E. G. Adelberger et al., “Opportunities for Probing Fundamental Grav-
+     ity with Solar System Experiments,” arXiv:0902.3004 [gr-qc].
+
+ [5] http://smsc.cnes.fr/MICROSCOPE/index.htm
+
+ [6] http://eotvos.dm.unipi.it/
+
+
+
+                                41
+=== PDF PAGE 43 ===
+ [7] http://www.sstd.rl.ac.uk/fundphys/step/
+    http://einstein.stanford.edu/STEP/index.html
+
+ [8] S. Dimopoulos, P. W. Graham, J. M. Hogan and M. A. Kasevich, “Test-
+     ing General Relativity with Atom Interferometry,” Phys. Rev. Lett. 98,
+    111102 (2007) [arXiv:gr-qc/0610047].
+     S. Dimopoulos, P. W. Graham, J. M. Hogan and M. A. Kasevich, “Gen-
+     eral Relativistic Eﬀects in Atom Interferometry,” Phys. Rev. D 78,
+    042003 (2008) [arXiv:0802.4098 [hep-ph]].
+
+ [9] G. Kim and H.  Mueller, “Test of the equivalence principle using Li
+    atom interferometry”, Bull. of the American Physical Society Vol. 55,
+   No 5, E1.00009 (2010)
+
+[10] R. D. Reasenberg and J. D. Phillips, “A weak equivalence principle
+     test on a suborbital rocket,” Class. Quant. Grav. 27 (2010) 095005
+     [arXiv:1001.4752 [gr-qc]].
+
+[11] T. R. Taylor and G. Veneziano, “Dilaton Couplings at Large Distances,”
+    Phys. Lett. B 213, 450 (1988).
+
+[12] T. Damour and A. M. Polyakov, “String theory and gravity,” Gen. Rel.
+    Grav. 26, 1171 (1994) [arXiv:gr-qc/9411069].
+    T. Damour and A. M. Polyakov, “The String Dilaton And A Least Cou-
+     pling Principle,” Nucl. Phys. B 423, 532 (1994) [arXiv:hep-th/9401069].
+
+[13] T. Damour, F. Piazza and G. Veneziano, “Runaway dilaton and
+     equivalence principle violations,” Phys. Rev. Lett. 89, 081601 (2002)
+     [arXiv:gr-qc/0204094].
+    T. Damour, F. Piazza and G. Veneziano, “Violations of the equiva-
+     lence principle in a dilaton-runaway scenario,” Phys. Rev. D 66, 046007
+    (2002) [arXiv:hep-th/0205111].
+
+[14] T. Damour and G. Esposito-Farese, “Tensor multiscalar theories of
+     gravitation,” Class. Quant. Grav. 9, 2093 (1992).
+
+[15] D. B. Kaplan and M. B. Wise, “Couplings of a light dilaton and
+     violations  of the equivalence  principle,” JHEP 0008,  037 (2000)
+    [arXiv:hep-ph/0008116].
+
+[16] T. Damour and J. F. Donoghue, “Phenomenology of the equivalence
+     principle with light scalars”, arXiv:1007.2790 [gr-qc].
+
+
+
+                                42
+=== PDF PAGE 44 ===
+[17] T. Dent, “Eotvos bounds on couplings of fundamental parameters to
+     gravity,” Phys. Rev. Lett. 101, 041102 (2008) [arXiv:0805.0318 [hep-
+     ph]].
+
+[18] M. A. Shifman, A. I. Vainshtein and V. I. Zakharov, “Remarks On Higgs
+    Boson Interactions With Nucleons,” Phys. Lett. B 78, 443 (1978).
+
+[19] J. C. Collins, A. Duncan and S. D. Joglekar, “Trace And Dilatation
+    Anomalies In Gauge Theories,” Phys. Rev. D 16, 438 (1977).
+
+[20] C. Amsler et al. (Particle Data Group), Physics Letters B667, 1 (2008)
+    and 2009 partial update for the 2010 edition
+
+[21] J. F. Donoghue, “The Nuclear Central Force in the Chiral Limit,” Phys.
+    Rev. C 74, 024002 (2006) [arXiv:nucl-th/0603016].
+
+[22] T. Damour and J. F. Donoghue, “Constraints on the variability of
+    quark masses from nuclear binding,” Phys. Rev. D 78, 014014 (2008)
+     [arXiv:0712.2968 [hep-ph]].
+
+[23] P. E. Hodgson, E. Gadioli and E. Gadioli Erba, “Introductory nuclear
+     physics,” Oxford, UK: Clarendon (1997) 723 p
+
+[24] R.  J. Furnstahl and B. D.  Serot,  “Parameter Counting  in  Rel-
+     ativistic  Mean-Field  Models,”  Nucl.  Phys. A  671,  447  (2000)
+     [arXiv:nucl-th/9911019].
+
+[25] B. A Nilolaus, T. Hoch and D. G. Madland, “Nuclear ground state
+     properties in a relativistic point coupling model”, Phys. Rev. C46,
+    1757 (1992)
+    B. D. Serot and J. D. Walecka, “Eﬀective ﬁeld theory in nuclear many-
+    body physics,” arXiv:nucl-th/0010031.
+     J. J. Rusnak and R. J. Furnstahl, “Relativistic point-coupling mod-
+      els as eﬀective theories of nuclei,” Nucl. Phys. A 627, 495 (1997)
+     [arXiv:nucl-th/9708040].
+    B.  Machleidt  and  D.  R.  Entem,  “Towards  a  consistent  ap-
+    proach to nuclear structure: EFT of two- and many-body forces”
+    arXive:nucl-th/0503025
+
+[26] J. F. Donoghue, “Sigma exchange in the nuclear force and eﬀective ﬁeld
+     theory,” Phys. Lett. B 643, 165 (2006) [arXiv:nucl-th/0602074].
+
+
+
+
+                                43
+=== PDF PAGE 45 ===
+[27] S. R. Beane and M. J. Savage, “Variation of fundamental couplings and
+     nuclear forces,” Nucl. Phys. A 713, 148 (2003) [arXiv:hep-ph/0206113].
+     S.  R.  Beane  and  M.  J.  Savage,  “The  quark  mass  depen-
+    dence  of  two-nucleon  systems,”  Nucl.  Phys. A 717,  91  (2003)
+     [arXiv:nucl-th/0208021].
+    E. Epelbaum, U. G. Meissner and W. Gloeckle, “Further comments on
+     nuclear forces in the chiral limit,” arXiv:nucl-th/0208040. V. V. Flam-
+   baum and R. B. Wiringa, “Dependence of nuclear binding on hadronic
+    mass variation,” Phys. Rev. C 76, 054002 (2007) [arXiv:0709.0077
+     [nucl-th]].
+
+[28] E. Epelbaum, W. Glockle, A. Kruger and U. G. Meissner, “Eﬀective
+    theory for the two-nucleon system,” Nucl. Phys. A 645, 413 (1999)
+     [arXiv:nucl-th/9809084].
+   M.   J.  Savage,   “Eﬀective  ﬁeld  theory   for  nuclear  physics,”
+    arXiv:nucl-th/0301058.
+     P. F. Bedaque and U. van Kolck, “Eﬀective ﬁeld theory for few-
+    nucleon  systems,”  Ann.  Rev.  Nucl.  Part.  Sci.  52,  339  (2002)
+     [arXiv:nucl-th/0203055].
+
+[29] E. Epelbaum, W. Gl¨ockle and U. G. Meißner, “Improving the conver-
+    gence of the chiral expansion for nuclear forces. I: Peripheral phases,”
+    arXiv:nucl-th/0304037.
+    E. Epelbaum, W. Gloeckle and U. G. Meißner, “Improving the conver-
+    gence of the chiral expansion for nuclear forces. II: Low phases and the
+    deuteron,” Eur. Phys. J. A 19, 401 (2004) [arXiv:nucl-th/0308010].
+    N. Kaiser, “Chiral 2π exchange N N potentials: Two-loop contribu-
+     tions,” Phys. Rev. C 64, 057001 (2001) [arXiv:nucl-th/0107064].
+    D. R. Entem and R. Machleidt, “Chiral 2π exchange at order four
+    and peripheral N N scattering,” Phys. Rev. C 66, 014002 (2002)
+     [arXiv:nucl-th/0202039]. N. Kaiser, “Chiral 2π-exchange N N poten-
+      tials: Relativistic 1/M2-corrections,” Phys. Rev. C 65, 017001 (2002)
+     [arXiv:nucl-th/0109071].
+    N.  Kaiser,  “Chiral  3π  exchange N N  potentials:   Results  for
+     representation-invariant  classes  of  diagrams,”  Phys.  Rev. C  61,
+    014003 (2000) [arXiv:nucl-th/9910044].
+    N. Kaiser, “Chiral 3π exchange N N potentials:  Results for dia-
+    grams proportional to g4A and g6A,” Phys. Rev. C 62, 024001 (2000)
+     [arXiv:nucl-th/9912054].
+    N. Kaiser, “Chiral 3π-exchange N N potentials: Results for dominant
+
+
+
+                                44
+=== PDF PAGE 46 ===
+     next-to-leading order contributions,” Phys. Rev. C 63, 044010 (2001)
+     [arXiv:nucl-th/0101052].
+
+
+[30] B. D. Serot and J. D. Walecka, “Recent progress in quantum hadrody-
+    namics,” Int. J. Mod. Phys. E 6, 515 (1997) [arXiv:nucl-th/9701058].
+
+[31] J. Gasser and H. Leutwyler, “Quark Masses,” Phys. Rept. 87, 77
+     (1982).
+
+[32] B. Bertotti, L. Iess and P. Tortora, “A test of general relativity using
+     radio links with the Cassini spacecraft,” Nature 425 (2003) 374.
+
+[33] J. Gasser, H. Leutwyler and M. E. Sainio, “Sigma term update,” Phys.
+     Lett. B 253, 252 (1991).
+
+[34] K. Nordtvedt, “Testing relativity with laser ranging to the moon,”
+    Phys. Rev. 170, 1186 (1968).
+
+[35] D.L. Anderson, Theory of the Earth (Blackwell Scientiﬁc Publications,
+    Oxford, 1989), p.18, cited in S. Baessler, B. R. Heckel, E. G. Adelberger,
+     J. H. Gundlach, U. Schmidt and H. E. Swanson, “Improved Test of the
+    Equivalence Principle for Gravitational Self-Energy,” Phys. Rev. Lett.
+    83, 3585 (1999).
+
+[36] T. Damour and D. Vokrouhlicky, “The Equivalence Principle And The
+    Moon,” Phys. Rev. D 53, 4177 (1996) [arXiv:gr-qc/9507016].
+
+[37] J. R. Ellis, C. Kounnas and D. V. Nanopoulos, “No Scale Supersym-
+    metric Guts,” Nucl. Phys. B 247, 373 (1984).
+
+[38] T. Damour and K. Nordtvedt, “General relativity as a cosmological
+     attractor of tensor scalar theories,” Phys. Rev. Lett. 70, 2217 (1993);
+    T. Damour and K. Nordtvedt, and “Tensor - scalar cosmological models
+    and their relaxation toward general relativity,” Phys. Rev. D 48, 3436
+     (1993).
+
+[39] P. Brax, C. van de Bruck, A. C. Davis and D. J. Shaw, “The Dilaton
+    and Modiﬁed Gravity,” arXiv:1005.3735 [astro-ph.CO].
+
+[40] F. Piazza and M. Pospelov, “Sub-eV scalar dark matter through the
+     super-renormalizable Higgs portal,” arXiv:1003.2313 [hep-ph].
+
+[41] C. M. Will, “The confrontation between general relativity and experi-
+    ment,” Living Rev. Rel. 9, 3 (2005) [arXiv:gr-qc/0510072].
+
+
+                                45
+=== PDF PAGE 47 ===
+[42] T.  Damour,   “Gravity,    equivalence   principle  and   clocks,”
+    arXiv:gr-qc/9711060;     “Equivalence    principle   and    clocks,”
+    arXiv:gr-qc/9904032.
+
+[43] K. Nordtvedt, “Space-time variation of physical constants and the
+     equivalence principle,” Int. J. Mod. Phys. A 17, 2711 (2002).
+
+[44] V. V. Flambaum and A. F. Tedesco, “Dependence of nuclear magnetic
+    moments on quark masses and limits on temporal variation of funda-
+    mental constants from atomic clock experiments,” Phys. Rev. C 73,
+    055501 (2006) [arXiv:nucl-th/0601050].
+
+[45] T. Rosenband et al. Frequency Ratio of Al+ and Hg+ Single-Ion Optical
+     Clocks; Metrology at the 17th Decimal Place Science 319, 1808 (2008).
+    [DOI: 10.1126/science.1154622]
+
+[46] T. Damour and F. Dyson, “The Oklo bound on the time variation of
+    the ﬁne-structure constant revisited,” Nucl. Phys. B 480, 37 (1996)
+    [arXiv:hep-ph/9606486].
+
+[47] C. R. Gould, E. I. Sharapov and S. K. Lamoreaux, “Time-variability of
+    alpha from realistic models of Oklo reactors,” Phys. Rev. C 74, 024607
+    (2006) [arXiv:nucl-ex/0701019].
+
+[48] Yu. V. Petrov, A.  I. Nazarov, M. S. Onegin, V. Y. Petrov and
+    E. G. Sakhnovsky, “Natural nuclear reactor Oklo and variation of fun-
+    damental constants. I: Computation of neutronic of fresh core,” Phys.
+    Rev. C 74, 064610 (2006) [arXiv:hep-ph/0506186].
+
+[49] C. A. Dominguez and P. Langacker, “Present Status Of The Pion -
+    Nucleon Sigma Term,” Phys. Rev. D 24, 1905 (1981).
+     J. F. Donoghue and C. R. Nappi, “The Quark Content Of The Proton,”
+    Phys. Lett. B 168, 105 (1986).
+    R. L. Jaﬀe and C. L. Korpa, “The Pattern of Chiral Symmetry Breaking
+    and the Strange Quark Content of the Proton,” Comments Nucl. Part.
+    Phys. 17, 163 (1987).
+
+[50] K. Takeda, S. Aoki, S. Hashimoto, T. Kaneko, T. Onogi and N. Yamada
+   [JLQCD collaboration], “Calculation of nucleon strange quark content
+    with dynamical overlap quarks,” arXiv:0910.5036 [hep-lat].
+    H. Ohki et al., “Nucleon sigma term and strange quark content from
+     lattice QCD with exact chiral symmetry,” Phys. Rev. D 78, 054502
+    (2008) [arXiv:0806.4744 [hep-lat]].
+
+
+                                46
+=== PDF PAGE 48 ===
+[51] K. A.  Olive, M. Pospelov, Y. Z. Qian, A. Coc, M. Casse and
+    E. Vangioni-Flam, “Constraints on the variations of the fundamental
+     couplings,” Phys. Rev. D 66, 045022 (2002) [arXiv:hep-ph/0205269].
+
+[52] J. F. Donoghue, “When Eﬀective Field Theories Fail,” arXiv:0909.0021
+     [hep-ph].
+
+[53] J. F. Donoghue, B. R. Holstein and B. Borasoy, “SU(3) baryon chiral
+    perturbation theory and long distance regularization,” Phys. Rev. D
+    59, 036002 (1999) [arXiv:hep-ph/9804281].
+     J. F. Donoghue and B. R. Holstein, “Improving the convergence of
+    SU(3) baryon chiral perturbation theory,” arXiv:hep-ph/9803312.
+
+[54] M. Golterman, “Applications of chiral perturbation theory to lattice
+   QCD,” arXiv:0912.4042 [hep-lat].
+
+[55] D. Androic et al. [G0 Collaboration], “Strange Quark Contributions
+     to Parity-Violating Asymmetries in the Backward Angle G0 Elec-
+    tron Scattering Experiment,” Phys. Rev. Lett. 104, 012001 (2010)
+     [arXiv:0909.5107 [nucl-ex]].
+     S. Baunack et al., “Measurement of Strange Quark Contributions to the
+    Vector Form Factors of the Proton at Q**2=0.22 (GeV/c)**2,” Phys.
+    Rev. Lett. 102, 151803 (2009) [arXiv:0903.2733 [nucl-ex]].
+    A. Acha et al. [HAPPEX collaboration], “Precision Measurements of
+    the Nucleon Strange Form Factors at Q**2  0.1-GeV**2,” Phys. Rev.
+     Lett. 98, 032301 (2007) [arXiv:nucl-ex/0609002].
+    D. T. Spayde et al. [SAMPLE Collaboration], “The strange quark con-
+     tribution to the proton’s magnetic moment,” Phys. Lett. B 583, 79
+    (2004) [arXiv:nucl-ex/0312016].
+    K. S. Kumar and P. A. Souder, “Strange quarks and parity violation,”
+    Prog. Part. Nucl. Phys. 45, S333 (2000).
+
+[56] U. G. Meißner, V. Mull, J. Speth and J. W. van Orden, “Strange
+     vector currents and the OZI-rule,” Phys. Lett. B 408, 381 (1997)
+    [arXiv:hep-ph/9701296].
+
+
+
+
+
+                                47

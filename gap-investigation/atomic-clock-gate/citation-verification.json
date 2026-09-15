@@ -1,0 +1,113 @@
+{
+  "logs": [
+    {
+      "args": [
+        "quote",
+        "1",
+        "--text",
+        "Very accurate clocks can be constructed by locking an electronic oscillator to the frequency of an atomic transition. The frequencies associated with such transitions are so reproducible that the definition of the second is now tied to the frequency associated with a transition in cesium-133:\n1 second = 9,192, 631,770 cycles of the standard Cs-133 transition\nThe two most widely used atomic clocks in recent years have been the\ncesium beam atomic clock\nand the\nrubidium clock\n. Such clocks have provided the accuracy necessary to test\ngeneral relativity\nand to track variations in the frequencies o",
+        "--from",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\hyperphysics.txt"
+      ],
+      "returncode": 0,
+      "stdout": "[1] evidence attached (1 quote(s))\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "quote",
+        "2",
+        "--text",
+        "It is defined by taking the fixed numerical value of the caesium frequency \u0394\u03bd\nCs\n, the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom, to be\n9 192 631 770\nwhen expressed in the unit Hz, which is equal to s\n\u20131\n.\nThis definition implies the exact relation \u0394\u03bd\nCs\n= 9 192 631 770 Hz. Inverting this relation gives an expression for the unit second in terms of the defining constant\n\u0394\u03bd\nCs\n:\nor\nThe effect of this definition is that the second is equal to the duration of\n9 192 631 770\nperiods of the radiation corresponding to the transition between the two hyperfine leve",
+        "--from",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\bipm.txt"
+      ],
+      "returncode": 0,
+      "stdout": "[2] evidence attached (1 quote(s))\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "quote",
+        "3",
+        "--text",
+        "137.035\u00a0999\u00a0177\nStandard uncertainty\n0.000\u00a0000\u00a0021\nRelative standard uncertainty\n1.6\u00a0x\u00a010\n-10\nConcise form\n137.035\u00a0999\u00a0177(21)\nClick\nhere\nfor\ncorrelation coefficient\nof this constant with other constants\nSource: 2022 CODATA\nrecommended values\nDefinition of\nuncertainty\nCorrelation coefficient with\nany other constant",
+        "--from",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\codata.txt"
+      ],
+      "returncode": 0,
+      "stdout": "[3] evidence attached (1 quote(s))\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "quote",
+        "4",
+        "--text",
+        "Temporal variation of Ry is common to all transition frequencies and its contribution is\nremoved from frequency ratio measurements. The term Nj contains the dependence of the\nspeci\ufb01c transition involved; it can be either positive or negative, and tends to be larger for\ntransitions involving heavier atoms, where relativistic corrections play a more important role\nfor the atomic energies. Values of Nj have been calculated for several electronic transitions of\natomic and molecules of cosmological and laboratory interest, including Hg+ [4] and Al+ [54],\nas well as for HFS transitions in the microw",
+        "--from",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\nist-comparison.txt"
+      ],
+      "returncode": 0,
+      "stdout": "[4] evidence attached (1 quote(s))\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "quote",
+        "5",
+        "--text",
+        "frequency ratios, the quantitative relationships between the frequencies of the atoms as measured in three pairs (ytterbium-strontium, ytterbium-aluminum, aluminum-strontium). The results are the three most accurate measurements ever made of natural constants. Frequency ratios are considered constants and are used in some international standards and tests of fundamental physics theories.\nFrequency ratios offer an important advantage as a metric for evaluating optical atomic clocks. A direct measurement of an optical clock frequency in the usual units of hertz (one cycle per second) is limited ",
+        "--from",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\nist-network.txt"
+      ],
+      "returncode": 0,
+      "stdout": "[5] evidence attached (1 quote(s))\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "quote",
+        "6",
+        "--text",
+        "Here we operate a network of optical clocks based on\n27\nAl\n+\n(ref.\n6\n),\n87\nSr (ref.\n7\n) and\n171\nYb (ref.\n8\n), and measure their frequency ratios with fractional uncertainties at or below 8\u00a0\u00d7\u00a010\n\u221218\n. Exploiting this precision, we derive improved constraints on the potential coupling of ultralight bosonic dark matter to standard model fields\n9\n,\n10\n. Our optical clock network utilizes not just optical fibre\n11\n, but also a 1.5-kilometre free-space link\n12\n,\n13\n. This advance in frequency ratio measurements lays the groundwork for future networks of mobile, airborne and remote optical clocks tha",
+        "--from",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\network-paper.txt"
+      ],
+      "returncode": 0,
+      "stdout": "[6] evidence attached (1 quote(s))\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "render",
+        "--style",
+        "evidence",
+        "--replace-in",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\REPORT.md"
+      ],
+      "returncode": 0,
+      "stdout": "Sources block rewritten in C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\REPORT.md\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "verify",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\atomic-clock-gate\\REPORT.md",
+        "--evidence",
+        "--strict"
+      ],
+      "returncode": 0,
+      "stdout": "info: stats: 94 prose sentence(s), 13 with declared provenance (14%) \u2014 13 cited, 0 marked [unverified] (a sentence may be both); 6 distinct source(s) cited, 6 in ledger (6 with evidence quotes)\ncitations OK\n",
+      "stderr": ""
+    }
+  ],
+  "hyperphysics_sections": [
+    "Atomic Clocks",
+    "Cesium Atomic Clock",
+    "Description of the Cesium Atom",
+    "Rubidium Atomic Clock"
+  ],
+  "nist_pdf_pages": 17,
+  "passed": true
+}

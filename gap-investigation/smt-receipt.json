@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "solver_version": "5.1.0",
+  "python_version": "3.11.11",
+  "script_sha256": "8f6517efdbdea27c071db10c11424bd058e2202215bf0792016709dff74f148d",
+  "source_sha256": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\exp44_lagrangian_derivation.py": "cdb0c22aee824d7c03aaf152924b286df9e8f6e28d4cf385773429b541c56bb7",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\exp46_coupling_running.py": "b1b93b1f140734ea750ae8663d5b3a00362b9f264f0be9add5fad55756288a4e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\exp47_unique_vacuum.py": "2796da571b197dfed015021ad423ac913d64756c6ae4e498c86291a693df119b",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\exp58_alpha_running.py": "59f484c3524458e8cb10772142870963d43ae9113cd2dae27472aa28e73c3b9d",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\exp63_delta_derivation.py": "c39c3e55a522ff4db63b38dc9fa0f6e2cbfc07d800754b8b34534d1f28fd9d16",
+    "C:\\Users\\mikeb\\theory2-full\\formal\\lean-toolchain": "97402b00d0468725baf4a753bf630ad69d0c588df2a7f5a849429b7926dfe000",
+    "C:\\Users\\mikeb\\theory2-full\\formal\\lakefile.toml": "e8ec9a08955775ada23b14496bace5c87de0c4605ef4589466716e6fcdcb1ce9",
+    "C:\\Users\\mikeb\\theory2-full\\formal\\Formal\\E7.lean": "76f0a1205c1e73090ec024c5315936289930c769a5efe12552413dd22305bad2",
+    "C:\\Users\\mikeb\\theory2-full\\formal\\Formal\\Running.lean": "88c295994bfb69c2aacbddf508ad1ea86d388ea1ee304d247d9163506416e29c",
+    "C:\\Users\\mikeb\\theory2-full\\formal\\Formal\\AlphaContentAudit.lean": "effb1aa977a08d6b4d860215f3ab24cc28a50f2a8fafc2895c7da23ff09d6c5e"
+  },
+  "cartan_matrix": [
+    [
+      2,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      2,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      -1,
+      2,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1,
+      2,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      2,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      2
+    ]
+  ],
+  "cartan_determinant": "2",
+  "ldlt_positive_pivots": [
+    "2",
+    "2",
+    "3/2",
+    "5/6",
+    "4/5",
+    "3/4",
+    "2/3"
+  ],
+  "checks": [
+    {
+      "name": "weyl_invariance_forces_only_shape",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "every_positive_real_scale_preserves_weyl_invariance",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "same_E7_two_kinetic_coefficients",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "k": "1/4",
+        "K_0_0": "1/2"
+      }
+    },
+    {
+      "name": "positive_ray_has_another_point",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "invariant_functional_scaling",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "running_does_not_erase_boundary_parameter",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "fixed_group_and_matching_allow_distinct_low_energy_couplings",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "x1": "1",
+        "x2": "1/2",
+        "y1": "1",
+        "y2": "1/2"
+      }
+    },
+    {
+      "name": "independent_boundary_restores_matching_uniqueness",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "group_data_do_not_imply_selected_137_formula",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "x1": "1",
+        "y1": "1"
+      }
+    },
+    {
+      "name": "toy_potential_unique_minimum",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "toy_unique_vacuum_two_positive_kinetic_coefficients",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "vacuum_coordinate": "0",
+        "vacuum_location": "0",
+        "c": "1",
+        "k": "2"
+      }
+    },
+    {
+      "name": "standard_trace_identity",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "legacy_exp44_values_produce_T12_not_T6",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    }
+  ],
+  "comparisons": {
+    "integer": {
+      "value": "137",
+      "signed_residual": "-35999177/1000000000",
+      "absolute_residual": "35999177/1000000000",
+      "residual_over_experimental_uncertainty": "-35999177/21",
+      "relative_error_denominator": "CODATA2022 central alpha inverse",
+      "relative_error": "-35999177/137035999177",
+      "inside_one_quoted_uncertainty": false
+    },
+    "chosen_correction": {
+      "value": "34259/250",
+      "signed_residual": "823/1000000000",
+      "absolute_residual": "823/1000000000",
+      "residual_over_experimental_uncertainty": "823/21",
+      "relative_error_denominator": "CODATA2022 central alpha inverse",
+      "relative_error": "823/137035999177",
+      "inside_one_quoted_uncertainty": false
+    }
+  },
+  "claim_boundary": "Conditional symmetry-normalization and affine one-loop EFT identifiability only. Weyl Cartan action constructed, full E7 adjoint kinetic invariance assumed. No Lagrangian/UV vacuum or physical alpha prediction derived. SMT results are Z3 solver results, not Lean kernel certificates. Measurement/uncertainty supplied by user; no model uncertainty asserted."
+}

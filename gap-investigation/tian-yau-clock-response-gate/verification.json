@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "commands": [
+    {
+      "command": [
+        "C:/Python313/python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-clock-response-gate\\calculate.py",
+        "--verify"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"exact_and_source_checks\": 41, \"smt_cases\": 16, \"lean_exit\": 0, \"certificate_sha256\": \"f6a9deedd12a30a1dd08ec77f9f56fdfb9673e2c14df8170fde63ed5f82e99e0\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Python313/python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-clock-response-gate\\calculate.py",
+        "--verify",
+        "--negative-controls"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"rejected\": [\"passed\", \"claim_boundary\", \"canonical_metric\", \"hashes\", \"SMT\", \"missing_receipt\"]}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Python313/python.exe",
+        "C:/Users/mikeb/AppData/Local/hermes/skills/research/grounded-citations/scripts/sources.py",
+        "--ledger",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-clock-response-gate\\sources\\ledger.json",
+        "verify",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-clock-response-gate\\REPORT.md",
+        "--evidence"
+      ],
+      "exit_code": 0,
+      "stdout": "info: stats: 108 prose sentence(s), 8 with declared provenance (7%) \u2014 8 cited, 0 marked [unverified] (a sentence may be both); 5 distinct source(s) cited, 5 in ledger (5 with evidence quotes)\ncitations OK\n",
+      "stderr": ""
+    }
+  ],
+  "artifact_hashes": {
+    "calculate.py": "57238cb8d229451f10b51a9d8a62d5b3a2da6aa2a0b7360e85f3318b93f1492a",
+    "certificate.json": "f6a9deedd12a30a1dd08ec77f9f56fdfb9673e2c14df8170fde63ed5f82e99e0",
+    "finalize_sources.py": "1a803f7a1e04398294c1c4804d87e60284d53109ae25f49eb4e5e3d519fa2253",
+    "Formalization.lean": "3a562f387b8a992d94de8ce8357b267853c363706acdf78e3bdef7cd9d32d119",
+    "formalization.yaml": "9f5ca841a6c184b894fa33c5bf922b4a480cf1cb9710f072264c4657c6874aaa",
+    "prepare.py": "db56a109af03383c47b4ecd5dce63e3e45d84521d0549d520a54a99cddea02d5",
+    "README.md": "6d218eb5cfef420706075eb8d6220c68793b84e362cb67d091a941aa3871702c",
+    "RELEASE_DISCLOSURE.md": "9753d1dcdfe9eeef56b0da394b61809e1eb08a90d836b77759716f5c60cf42c0",
+    "REPORT.md": "73cbec381c4a6f904f73d36fc87b0a6ad8f680fa46c5eb45b8e5dcca94d6ef9c",
+    "smt\\canonical_matching_sign.smt2": "f329a2558edee3602371fc9857513e5e32af5c1d7c2ecb610006e66c229d9a4a",
+    "smt\\fixed_boundary_leaves_volume_family.smt2": "9681c9e558f049916cb984d620fddc3ee3dea550e1916e684fddd12f0643d209",
+    "smt\\fixed_Phi_volume_changes_coupling.smt2": "37b3e58da2ad9f14015301a124e0f6b7ec4e9e5f1899c4dbbf02b249f4ba21fa",
+    "smt\\free_optical_systematic_hides_change.smt2": "8a2fe0342898bd3e1df52704913b3f8ee56eb96edfa487fb327ae4f32923799d",
+    "smt\\gauge_blind_direction.smt2": "206c44ac524fb2df21b21a7a4cf5bb3171d601d03f83cfe8c8a6a8028018cf31",
+    "smt\\independent_nuclear_prior_restores_mass.smt2": "22395a30a8d3746e4026bec68cb15035f8d543da843f983cc5ebdc85a97e6d69",
+    "smt\\known_noncollinear_map_identifies_moduli.smt2": "d958cd3efb7a9aa89a517575ae4dae70f907857e02fea795e4c80cae1b66c46d",
+    "smt\\nuclear_mass_fiber.smt2": "26ae2fb6168bf8cac28cd78bfa004d4a45f9e84e0385a5b1a3eada340da22ffb",
+    "smt\\optical_identifies_matched_change.smt2": "3b7d915b35f5c42afc4b4aefd35f098899eb3317bc7c82ad1273b8107b750b43",
+    "smt\\pure_tree_dilaton_response.smt2": "55380d40e162b50606477555076040ad7bc52cfd620158ca51b35879ea990176",
+    "smt\\response_total_chain.smt2": "2321eb9296433fed209471a34d02f7d65c90512b7cb33007d5c0272b7af5b789",
+    "smt\\same_coupling_distinct_volume_dilaton.smt2": "78310cb0b412924c0e2396673b2a4816ed3d1b998aeac2eec0fa835d18a1afd6",
+    "smt\\scaling_family_distinct_intercepts.smt2": "621b7d6275dc64c99338f2850fd82362e173ae73783b9c12e710ae870248cffd",
+    "smt\\singular_map_negative_control.smt2": "5674528fa5551730244016ab0a61f1ae74ad8cfeaa91e1db2b47241b401ddd82",
+    "smt\\threshold_slope_can_cancel.smt2": "e5b4b99f4603f2bb64ba36451d0c9e70d1cfc3986738b95413ab6e1ed9be6b03",
+    "smt\\tree_response_not_intercept.smt2": "33056b4adcd8ec71eb7fe74bb6415ef6098b2ddc74eeff9c8778afcdaf82b786",
+    "smt_cases.py": "6f3604626981d5f7d14a3c01f6b99b1677b185afc290782661a1e31c2a5c8dbc",
+    "sources\\dilaton.pdf": "3996b7e3154ab5d16d2a61fc9140842e58a979c3a2d3d7b11146f00121a24b4f",
+    "sources\\dilaton.txt": "fa6481cf6ba652600ab785b8632d4eb4ca4c2eefc2b1bfe9474cb59b0c5a714e",
+    "sources\\equation-evidence.json": "c4995c9bcc202316f1aeba60eeab271bba539d18977ea057399c624d94a735f1",
+    "sources\\hyperphysics.html": "ab9ca746b09476aad88fa773f8b3b19f0822f065d64efac6e282f8929f7483d6",
+    "sources\\hyperphysics.txt": "5a139b9a31458a9c195ad706b1fdb0546bd93f304559d7f338f3e66c6c535902",
+    "sources\\ledger.json": "42fd55b89346a06e11fbd4419f7d25bf65cdf21b93ca357b3b8425746801ac48",
+    "sources\\manifest.json": "096a42dcb56f20f919199cc31480733d2f2df2300cf9678918823a96b0e89f79",
+    "sources\\nist-comparison.pdf": "66990148f942f18ff8a88c2bac91ce1db398fd531a0e7126eccd0c848d7cfb9a",
+    "sources\\nist-comparison.txt": "23f5dc4aa0f815b7a78ec2e269e5eb4b1c5c6b8da1b84fd912c2b09317c86c0d",
+    "sources\\retrieval.json": "c3df321748ddbd7459e5812088f7e189c3eab71b6da8b953fb1a8094b5f84260",
+    "sources\\walls.pdf": "f00a9450f4e969120255d020f51ab1abc7760b45c2a9ee19685f99bf480b4a9b",
+    "sources\\walls.txt": "1f2a90c58805d6c662eb1cadead6192ff0c0a8c23ade2e11a013a08a03d86ea9",
+    "sources\\yukawas.pdf": "8d37e6c7c3d79c7fe279be4ce3a0698a52bccf7e8e581640a5ac70b9df47e7f9",
+    "sources\\yukawas.txt": "cde76ac93fc60abc1f23d6dd83de41ee031c13d56a7d213361010bd86d20d458",
+    "verify.py": "53bc984095dc0b254a7d536dc20ba4144d2906b650b4447f97b94af3245a60dc"
+  },
+  "hosted_CI": "not run",
+  "scope": "Only this lane; no public publication or numerical alpha prediction."
+}

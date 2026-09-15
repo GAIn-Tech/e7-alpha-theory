@@ -1,0 +1,96 @@
+PDF page 3
+Triplet-Doublet Splitting, Proton Stability and an Extra Dimension
+3
+for example, φ+−(xµ, −πR
+2 ) = φ−−(xµ, −πR
+2 ) = 0 on the wall placed at y = −πR
+2 ,
+and φ−+(xµ, 0) = φ−−(xµ, 0) = 0 on the other wall placed at y = 0.
+Let us study the case in which a ﬁeld Φ(xµ, y) is an N-plet under some symmetry
+group G. The components of Φ are denoted by φk as Φ = (φ1, φ2, ..., φN)T . The Z2
+transformation of Φ takes the same form as (2.1), but in this case P is an N × N
+matrix ∗) that satisﬁes P 2 = I, where I is the unit matrix. The Z2 invariance of the
+Lagrangian does not necessarily require that P be I or −I. Unless all components
+of Φ have a common Z2 parity (i.e., if P̸ = ±I), a symmetry reduction occurs
+upon compactiﬁcation, because of the lack of zero modes in components with odd
+parity. 14) The same property holds in the case with Z′
+2 parity.
+§3.
+A model with SU(5) gauge symmetry
+We now study 5D SUSY SU(5) GUT with minimal particle content and non-
+universal parity assignment. We assume that the vector supermultiplet V and two
+kinds of hypermultiplets Hs (s = 1, 2) exist in the bulk M4 × S1/(Z2 × Z′
+2). The
+vector multiplet V consists of a vector boson AM, two bispinors λi
+L (i = 1, 2), and
+a real scalar Σ, which together form an adjoint representation 24 of SU(5), and
+the hypermultiplets Hs consist of two complex scalar ﬁelds and two Dirac fermions
+ψs = (ψs
+L, ψs
+R)T , which are equivalent to four sets of chiral supermultiplets: H1 =
+{H5 ≡(H1
+1, ψ1
+L), ˆH¯5 ≡(H1
+2, ¯ψ1
+R)} and H2 = { ˆH5 ≡(H2
+1, ψ2
+L), H¯5 ≡(H2
+2, ¯ψ2
+R)}. The
+hypermultiplets H5 and ˆH5 ( ˆH¯5 and H¯5) form a fundamental representation 5 (¯5).
+We assume that our visible world is a 4D wall ﬁxed at y = 0 (We refer to as “wall I”)
+and that three families of quark and lepton chiral supermultiplets, 3{Φ¯5 + Φ10}, are
+located on this wall. (Here and hereafter the family index does not appear.) That
+is, matter ﬁelds contain no excited states along the S1/(Z2 × Z′
+2) direction.
+The gauge invariant action is given by
+S =
+Z
+L(5)d5x + 1
+2
+Z
+δ(y)L(4)d5x
++(terms from a brane ﬁxed at y = −πR),
+(3.1)
+L(5) = L(5)
+Y M + L(5)
+H ,
+(3.2)
+L(5)
+YM = −1
+2TrF 2
+MN + Tr|DMΣ|2 + Tr(i¯λiγMDMλi) −Tr(¯λi[Σ, λi]), (3.3)
+L(5)
+H = |DMHs
+i |2 + i ¯ψsγMDMψs −(i
+√
+2g(5) ¯ψsλiHs
+i + h.c.)
+−¯ψsΣψs −H†i
+s Σ2Hs
+i −
+g2
+(5)
+2
+X
+m,A
+
+H†i
+s (σm)j
+iT AHs
+j
+2 ,
+(3.4)
+L(4) ≡
+X
+3families
+Z
+d2¯θd2θ(Φ†
+¯5e2g(5)V AT AΦ¯5 + Φ†
+10e2g(5)V AT AΦ10)
++
+X
+3families
+Z
+d2θ(fU(5)H5Φ10Φ10 + ˆfU(5) ˆH5Φ10Φ10
+∗) P is a unitary and hermitian matrix.

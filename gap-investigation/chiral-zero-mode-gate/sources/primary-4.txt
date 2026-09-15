@@ -1,0 +1,2554 @@
+
+ 
+ 
+ An Exceptional SSM from 𝐸_6 Orbifold GUTs with intermediate LR symmetry 
+ 
+ 
+ 
+   
+ 
+ 
+  // Restore the saved color scheme preference, or
+  // enact the browser preference if "automatic", 
+  // without expecting DOM load to have completed.
+  //
+  // Also restore any saved readingmode and ToC display preferences.
+  function initializeReadingPreferences() {
+    let saved_theme = localStorage.getItem("ar5iv_theme") || "automatic";
+    if (saved_theme === "automatic") {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        saved_theme = "dark";
+      }
+    }
+    if (saved_theme == "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.setAttribute("data-theme", "light");
+    }
+
+    const tocDisplay = localStorage.getItem('arxiv_html_paper_toc_display');
+    if (tocDisplay) {
+      document.documentElement.setAttribute("data-toc-display", tocDisplay);
+    }
+    const readingMode = localStorage.getItem('arxiv_html_paper_reading_mode');
+    if (readingMode) {
+      document.documentElement.setAttribute("data-reading-mode", readingMode);
+    }
+    // Pre-apply spinout-banner dismissal here, before the banner paints, so it
+    // never flashes in only to be hidden later by the deferred arxiv-header.js.
+    // Key matches arxiv-header.js: "arxiv-banner-dismissed:" + data-banner-name.
+    if (localStorage.getItem('arxiv-banner-dismissed:spinout-nonprofit')) {
+      document.documentElement.setAttribute("data-banner-dismissed", "");
+    }
+  }
+  // Run as soon as JS starts, to minimize repainting
+  initializeReadingPreferences();
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* Banner pre-dismissal (set above before paint -> no flash-then-hide) and
+     reading-mode chrome hiding. */
+  html[data-banner-dismissed] .ds-announcement { display: none; }
+  html[data-reading-mode="enabled"] .ds-announcement,
+  html[data-reading-mode="enabled"] .ds-site-footer { display: none; }
+  /* Keep the announcement text dark on the Open-Blue band in both colour themes
+     (otherwise it inherits the paper's warm-wash text in dark mode and washes out). */
+  .ds-announcement-text { color: var(--arxiv-ink, #1c1a17); }
+ 
+ 
+ 
+ 
+ 
+   
+     
+       Report GitHub Issue 
+       × 
+     
+
+     
+       Title: 
+       
+
+       Content selection saved. Describe the issue below: 
+
+       Description: 
+       
+     
+
+     
+       Submit without GitHub 
+       Submit in GitHub 
+     
+   
+ 
+     
+     arXiv is now an independent nonprofit! 
+     Learn more 
+     × 
+   
+
+ 
+   
+     
+       Back to arXiv 
+     
+   
+   
+   
+     Why HTML? 
+     
+       
+         
+       
+       Report Issue 
+     
+     
+       
+         
+         
+       
+       Back to Abstract 
+     
+     
+     
+       
+         
+       
+       Download PDF 
+     
+     
+       
+         
+         
+       
+     
+     
+     
+       
+         
+       
+     
+     
+     
+       
+         
+           
+           
+         
+       
+       
+         
+           
+           
+         
+       
+       
+         
+           
+           
+         
+       
+     
+   
+ 
+ 
+ 
+ Abstract:  
+ 1  Introduction 
+ 2  An Exceptional SSM with intermediate PS Symmetry 
+ 
+ 2.1  E 6 → P ​ S × U ⁡ ( 1 ) E_{6}\rightarrow PS\times U(1)  Breaking on  S 1 / ( ℤ 2 × ℤ 2 ′ ) S^{1}/(\mathbb{Z}_{2}\times\mathbb{Z}_{2}^{\prime}) 
+ 2.2  Brane and Bulk Matter 
+ 2.3  Superpotential 
+ 
+ 3  An Exceptional SSM with intermediate LR Symmetry 
+ 
+ 3.1  E 6 → G L ​ R × U ⁡ ( 1 ) E_{6}\rightarrow G_{LR}\times U(1)  breaking on  T 2 / ℤ 6 T^{2}/\mathbb{Z}_{6} 
+ 3.2  Bulk Matter and Anomalies on the  ℝ 2 / 𝟔𝟑𝟐 \mathbb{R}^{2}/{\bf 632}  orbifold 
+ 3.3  Local Matter content and gauge unification 
+ 3.4  Low-energy scenario and phenomenological aspects 
+ 
+ 4  Conclusions and Outlook 
+ A  LR symmetric  E 6 E_{6}  breaking on a Circle and a Torus 
+ 
+ A.1  Shift embeddings for  ℤ 2 \mathbb{Z}_{2} ,  ℤ 3 \mathbb{Z}_{3} ,  ℤ 4 \mathbb{Z}_{4}  and  ℤ 6 \mathbb{Z}_{6} 
+ A.2  Orbifold Geometries in  D = 5 D=5 
+ A.3  Orbifold Geometries in  D = 6 D=6 
+ 
+ A.3.1  Maximal Subgroups from a  ℤ 2 \mathbb{Z}_{2}  Orbifold 
+ A.3.2  Trinification on a  ℤ 3 \mathbb{Z}_{3}  Orbifold 
+ A.3.3  Pati-Salam Symmetry on a  ℤ 4 \mathbb{Z}_{4}  Orbifold 
+ A.3.4  Minimal LR Symmetry on a  ℤ 6 \mathbb{Z}_{6}  Orbifold 
+ 
+ 
+ B  Conventions 
+ 
+ B.1  Dirac Algebra 
+ B.2  Lie Algebras 
+ B.3  E 6 E_{6}  Representations 
+ 
+ C  Matter and Gauge Multiplets on the  T 2 / ℤ n T^{2}/\mathbb{Z}_{n}  orbifold 
+ 
+ C.1  Gauge Theory 
+ C.2  Supersymmetric theory 
+ 
+ References 
+ 
+ 
+ 
+ 
+   
+    License: arXiv.org perpetual non-exclusive license
+   
+   
+arXiv:1001.4074v3 [hep-ph] 16 Jun 2010 
+ 
+ 
+ An Exceptional SSM from  E 6 E_{6}  Orbifold GUTs with intermediate LR symmetry 
+ Preprint:  FR-PHENO-2010-08, 1001.4074 [hep-ph] 
+ 
+ 
+ Felix Braam
+ 
+ Note:  email:
+felix.braam@physik.uni-freiburg.de
+ 
+    
+ Alexander Knochel
+ 
+ Note:  email:
+alexander.knochel@physik.uni-freiburg.de
+ 
+    
+ Jürgen Reuter
+ 
+ Note:  email: reuter@physik.uni-freiburg.de
+ 
+ Affiliation:  Albert-Ludwigs-Universität Freiburg
+ 
+ Affiliation:  Physikalisches Institut
+ 
+ Affiliation:  Hermann-Herder-Str. 3
+ 
+ Affiliation:  79104 Freiburg, GERMANY
+ 
+
+ Abstract:  
+    
+ We propose a class of  E 6 E_{6} -based local orbifold Grand
+Unified Theories (GUTs) which
+yield an exceptional supersymmetric standard model as their low
+energy theory including leptoquark and un-Higgs exotics and a  Z ′ Z^{\prime}  at
+the TeV scale. Unification is achieved in two steps through an
+intermediate scale symmetry breaking at a unified coupling which
+is enhanced due to the contributions of leptoquarks to the QCD beta function. 
+  
+ 
+ 
+ Keywords:  Higher Dimensions, E6, GUT, Orbifold, Leptoquark, Multi-Component Dark Matter
+ 
+ 
+ 1  Introduction 
+
+ 
+ The attractiveness of supersymmetry in contemporary particle physics
+model building is based to some extent on the observation that in the
+minimal (MSSM) and next-to-minimal supersymmetric standard model
+(NMSSM) the coupling constants of the electroweak and strong
+interactions unify around  10 16 10^{16}  GeV. Beyond that scale, all
+interactions apart from gravity might be unified into one fundamental
+force, mathematically modeled by a simple gauge group. Unfortunately
+there is no simple gauge group providing a set of irreducible
+representations which exclusively contain the (N)MSSM particle
+content. Therefore one has to either argue why the additional
+(“exotic”) particles completing the GUT representations become
+heavy (“doublet-triplet splitting”)  [ 1 ] , or take
+into account their effect on the running of the gauge couplings if
+they remain in the spectrum below the unification scale. 
+ 
+ 
+ In the latter approach, the gauge couplings do not unify as in the (N)MSSM.
+Unification can be restored by introducing light incomplete GUT
+representations  [ 2 ]  or postulating an intermediate
+gauge symmetry 1 1 
+             1 
+            
+            
+            
+          The breaking scale of this symmetry could
+ideally be linked to a Majorana mass-term for the right-handed
+neutrino, triggering a see-saw mechanism and hence naturally
+generating small neutrino masses. . In  [ 3 ]  it has
+been pointed out that unification of the gauge couplings can be
+achieved even in the presence of complete  𝟐𝟕 ​ E 6 \mathbf{27}\;E_{6}  matter if
+the interactions above  Λ int ∼ 10 15 \Lambda_{\mbox{\tiny{int}}}\sim 10^{15}  can be
+described by an  G P ​ S × U ​ ( 1 ) χ ≡ S ​ U ​ ( 4 ) × S ​ U ​ ( 2 ) 2 × U ​ ( 1 ) χ G_{PS}\times U(1)_{\chi}\equiv SU(4)\times SU(2)^{2}\times U(1)_{\chi}  gauge symmetry. As successful this approach is
+in the gauge coupling sector, it fails to yield a viable low energy
+theory: 
+ 
+ 
+ Since in each generation, the  E 6 E_{6}  scenario unifies matter, Higgs fields and
+exotics in the fundamental  𝟐𝟕 \bf{27}  representation, there is only one
+singlet in the renormalizable superpotential, 
+ 
+
+ 
+ 
+ 𝒲 ∼ 27 27 27 \mathcal{W}\sim\bf 27\,27\,27 
+ 
+ (1) 
+ 
+ which does not discriminate between NMSSM type terms 
+ 
+
+ 
+ 
+ 𝒲 N ​ M ​ S ​ S ​ M ∼ S ​ H ​ H + S ​ D c ​ D + H ​ L ​ l c + H ​ Q ​ q c \mathcal{W}_{NMSSM}\sim SHH+SD^{c}D+HLl^{c}+HQq^{c} 
+ 
+ (2) 
+ 
+ and leptoquark- and diquark-like couplings 
+ 
+
+ 
+ 
+ 𝒲 L ​ D ​ Q ∼ D ​ q c ​ l c + D c ​ Q ​ L + D ​ Q ​ Q + D c ​ q c ​ q c \mathcal{W}_{LDQ}\sim Dq^{c}l^{c}+D^{c}QL+DQQ+D^{c}q^{c}q^{c} 
+ 
+ (3) 
+ 
+ which lead to fast proton decay if the triplet Higgs
+like exotics  D i D_{i} ,  D i c D^{c}_{i}  have masses significantly below the GUT scale.
+Furthermore, as there are three copies of an NMSSM-like Higgs sector, the
+postulate of an H-Parity  [ 4 ]  allowing only one Higgs
+generation to couple to matter is very effective in explaining the absence
+of large flavor changing neutral currents (FCNCs), but inconsistent with the
+ E 6 E_{6} -symmetric superpotential ( 1 ). 
+ 
+ 
+ If  E 6 E_{6}  is broken to  S ​ U ​ ( 4 ) × S ​ U ​ ( 2 ) 2 × U ​ ( 1 ) χ SU(4)\times SU(2)^{2}\times U(1)_{\chi}  close to the
+Planck scale, the lepto/diquark couplings become a separate singlet
+and can in principle be strongly suppressed in the low energy
+theory. This could be achieved if the renormalizable superpotential
+vanished in the high energy theory and is only generated from higher
+dimensional operators in the course of the  E 6 E_{6}  breaking
+ [ 5 ] , or if matter resides on a symmetry-reduced fixed
+point of an orbifold. In the case of intermediate Pati-Salam symmetry
+which unifies quarks and leptons in  𝟒 \bf{4}  and  𝟒 ¯ \bf{\overline{4}} 
+representations, the intermediate breaking scale is generically several
+orders of magnitude below the Planck scale  [ 6 ] , 
+ 
+
+ 
+ 
+ Λ P ​ S ≪ Λ E ​ 6 ∼ Λ P ​ l \Lambda_{PS}\ll\Lambda_{E6}\sim\Lambda_{Pl} 
+ 
+ (4) 
+ 
+ predicting that the exotics  D D ,  D c D^{c}  will neither have large leptoquark- nor
+diquark-like couplings. Thus, they behave like heavy, relatively long lived
+ R R -odd right-handed quarks in the low energy theory. This can only be relaxed
+if the intermediate theory does not leave  S ​ U ​ ( 4 ) SU(4)  intact too far below the
+Planck scale, which makes it more unnatural to associate  Λ int {\Lambda}_{\mbox{\tiny{int}}} 
+with the see-saw scale. 
+ 
+ 
+ The latter objections could be resolved by reducing the degree of symmetry
+in the intermediate regime to a minimal left-right symmetric (N)MSSM
+with 
+ 
+
+ 
+ 
+ G L ​ R × U ​ ( 1 ) χ = S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) B − L × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}=SU(3)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{B-L}\times U(1)_{\chi} 
+ 
+ (5) 
+ 
+ gauge symmetry. However, as illustrated in Fig.  1 , in
+that case the coupling constants unify only far above
+the Planck scale. 
+ 
+ 
+ Figure 1:  The unification scenario featuring three full  𝟐𝟕 \bf 27 
+multiplets of  E 6 E_{6}  and an intermediate  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi} 
+symmetry which is broken at the scale  Λ int {\Lambda}_{\mbox{\tiny{int}}} . The
+gauge couplings do not unify to  E 6 E_{6}  below the Planck scale. 
+ 
+ 
+ The problems mentioned above seem to rule out simple  E 6 E_{6} -invariant GUT
+set-ups in the absence of doublet-triplet splitting in the spectrum, and therefore lead us to consider higher
+dimensional orbifold constructions. Orbifold breaking has been
+proposed in  [ 7 ,  8 ,  9 ]  for string
+models. The breaking of exceptional groups in extra dimensions has
+been of considerable interest in recent years in the context of
+stringy constructions  [ 10 ,  11 ,  12 ,  13 ,  14 ,  15 ,  16 ]  as well as field
+theoretic models  [ 17 ,  18 ,  19 ,  22 ] , most of which aim to reproduce an MSSM-like low
+energy theory to achieve standard unification. 
+ 
+ 
+ From the point of view of quantum field theory, the low (or
+intermediate) scale gauge symmetry which we want to realize is reached in the
+local GUT ansatz by projecting out parts of the  E 6 E_{6}  roots by point
+transformations in the extra dimensions. The corresponding
+gauge bosons become massive by a geometric Higgs mechanism.
+The fixed points of the orbifold support reduced 4D gauge theories,
+corresponding smaller representations and more general
+superpotentials, while the bulk of the extra dimensional volume
+retains the full gauge invariance. This construction ameliorates the
+severe constraints on the low-energy theory and allows us to obtain an
+Exceptional SSM scenario in which the effective  μ \mu  term is
+generated by an MSSM singlet vev  ⟨ S ⟩ \langle S\rangle  as in the NMSSM. Furthermore, our
+modified unification scheme allows the full  E 6 E_{6}  matter spectrum in
+the 4D theory and thus naturally yields an anomaly-free extra  U ⁡ ( 1 ) U(1) 
+factor. This generates the abovementioned singlet vev via its  D D 
+term, thus circumventing the cosmological problems of domain walls
+which can plague NMSSM models with an  S 3 S^{3}  superpotential term. 
+ 
+ 
+ 
+ 2  An Exceptional SSM with intermediate PS Symmetry 
+
+ 
+ Before we turn to exceptional unification based on a  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  intermediate symmetry
+which requires orbifold geometries in  D = 6 D=6  to achieve the necessary degree of symmetry breaking,
+we discuss possibilies and limitations of models with a  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi}  intermediate symmetry from 5D orbifolds. 
+ 
+ 
+ 2.1  E 6 → P ​ S × U ⁡ ( 1 ) E_{6}\rightarrow PS\times U(1)  Breaking on  S 1 / ( ℤ 2 × ℤ 2 ′ ) S^{1}/(\mathbb{Z}_{2}\times\mathbb{Z}_{2}^{\prime}) 
+
+ 
+ Technical details about the  S 1 / ℤ 2 S^{1}/\mathbb{Z}_{2}  orbifold construction can be found in Appendix  A.2 .
+The orbifold reflections  r r  and  r ′ r^{\prime}  can be endowed with order two gauge shifts to break  E 6 E_{6}  to local  S ​ O ​ ( 10 ) × U ⁡ ( 1 ) SO(10)\times U(1)  or  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) SU(6)\times SU(2)  invariance on the fixed points. We can thus break  E 6 E_{6}  down to  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi} 
+by breaking to  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) L SU(6)\times SU(2)_{L}  and  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) R SU(6)\times SU(2)_{R} , or, more interesting for our purpose,
+to  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) L / R SU(6)\times SU(2)_{L/R}  and  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  with  ℤ 2 \mathbb{Z}_{2}  and  ℤ 2 ′ \mathbb{Z}_{2}^{\prime}  respectively.
+If matter is localized on a  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  fixed point, we have naturally
+light Higgs triplets in the  𝟏𝟎 \mathbf{10} , and we obtain leptoquark-
+and diquark-like couplings of matter to the Higgs sector from
+the  10 16 16 \mathbf{10\;16\;16}  superpotential term. Similarly in the  S ​ U ​ ( 6 ) SU(6)  case, the exotics
+are in the  𝟏𝟓 ¯ \mathbf{\overline{15}}  together with left- or right-handed matter and the
+singlet, and lepto- and diquark couplings are contained in both superpotential
+terms  6 6 ​ 𝟏𝟓 ¯ \mathbf{6\;6\;\overline{15}}  and  𝟏𝟓 ¯ ​ 𝟏𝟓 ¯ ​ 𝟏𝟓 ¯ \mathbf{\overline{15}\,\overline{15}\,\overline{15}} . This means that in this scenario it is not possible to realize exceptional unification
+with light exotics using brane localized matter, because lepto-diquark interactions are not suppressed. However,
+one can attempt to put the third generation which contains the MSSM Higgs doublet, the NMSSM-like singlet and color charged exotics, in the 5D Bulk to avoid
+lepto-diquark couplings while allowing quark masses at the same time. This would be a kind of orbifold-based doublet-triplet splitting, yet with what looks like complete  E 6 E_{6}  multiplets below the compactification scale enforced by anomaly constraints. The  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) L / R SU(6)\times SU(2)_{L/R}  fixed point should
+only contain vectorlike matter such as the Higgs sector connected to the intermediate breaking.
+We now consider the  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) L SU(6)\times SU(2)_{L}  case, the case  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) R SU(6)\times SU(2)_{R}  is completely analogous
+except for the form of the allowed brane superpotentials. 
+ 
+ 
+ Figure 2:  An  S 1 / ( ℤ 2 × ℤ 2 ′ ) S^{1}/(\mathbb{Z}_{2}\times\mathbb{Z}_{2}^{\prime})  orbifold breaking of  E 6 → P ​ S × U ​ ( 1 ) χ E_{6}\rightarrow PS\times U(1)_{\chi} . The two order 2 reflections are shown as blue diamonds,
+the translation which compactifies  ℝ → S 1 \mathbb{R}\rightarrow S^{1}  is shown as a red arrow. 
+ 
+ 
+ 
+ 2.2  Brane and Bulk Matter 
+
+ 
+ Chiral components of the 5D gauge
+hypermultiplets and matter hypermultiplets can induce brane localized anomalies
+even though they are not in the massless spectrum.
+The 5D gauge multiplet can be written as a vector-
+and a chiral superfield and thus contains the component fields  V ^ ∋ A μ , λ 1 \hat{V}\ni A_{\mu},\lambda_{1}  and  χ ^ ∋ Σ , λ 2 \hat{\chi}\ni\Sigma,\lambda_{2}  where  λ i \lambda_{i}  are 4D
+Weyl spinors and  Σ \Sigma  is a complex scalar containing  A 5 A_{5}  and an
+additional real scalar. In a  ℤ 2 \mathbb{Z}_{2}  orbifold, each 4D gauge superfield
+ V ^ α \hat{V}^{\alpha}  corresponding to a root  α \alpha  which is projected out entails
+a chiral superfield  χ ^ α \hat{\chi}^{\alpha}  which survives on this fixed point.
+Since the adjoint of  E 6 E_{6}  and of the unbroken subgroup are vectorlike
+representations, the surviving chiral modes also come in real representations,
+namely  𝟏𝟔 − 𝟑 / 𝟐 + 𝟏𝟔 ¯ 𝟑 / 𝟐 \bf 16_{-3/2}+\overline{16}_{3/2}  on the  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi} 
+fixed point, and  ( 𝟐𝟎 , 𝟐 ) \bf(20,2)  on the  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) SU(6)\times SU(2)  fixed point. The 16
+chiral zero modes which survive on both fixed points therefore correspond to a
+vectorlike representation as well. 
+ 
+ 
+ Now, let us consider whether one can obtain full anomaly free generations from
+ 𝟐𝟕 \bf 27  representations in the bulk. 5D matter hypermultiplets consist of two
+oppositely charged chiral superfields  Φ ^ ∋ ψ , ϕ \hat{\Phi}\ni\psi,\phi  and  Φ ^ c ∋ ψ c , ϕ c \hat{\Phi}_{c}\ni\psi_{c},\phi_{c} , which together contain a 5D dirac fermion and corresponding
+scalar partners. In a  ℤ 2 \mathbb{Z}_{2}  orbifold, the two receive opposite boundary
+conditions, meaning that if  Φ ^ \hat{\Phi}  is projected out on a fixed point,  Φ ^ c \hat{\Phi}_{c} 
+survives and vice versa. The chiral part of the hypermultiplet transforms under
+ ℤ 2 \mathbb{Z}_{2}  and  ℤ 2 ′ \mathbb{Z}_{2}^{\prime}  projections as 
+ 
+
+ 
+ 
+ Φ ^ μ \displaystyle\hat{\Phi}^{\mu} 
+ ⟶ ℤ 2 \displaystyle\stackrel{{\scriptstyle\mathbb{Z}_{2}\phantom{{}^{\prime}}}}{{\longrightarrow}} 
+ σ ​ exp ⁡ [ 2 ​ π ​ i ​ V ⋅ μ ] ​ Φ ^ μ \displaystyle\sigma\exp[2\pi iV\phantom{{}^{\prime}}\cdot\mu]\hat{\Phi}^{\mu} 
+ 
+ 
+ 
+ Φ ^ μ \displaystyle\hat{\Phi}^{\mu} 
+ ⟶ ℤ 2 ′ \displaystyle\stackrel{{\scriptstyle\mathbb{Z}_{2}^{\prime}}}{{\longrightarrow}} 
+ σ ′ ​ exp ⁡ [ 2 ​ π ​ i ​ V ′ ⋅ μ ] ​ Φ ^ μ \displaystyle\sigma^{\prime}\exp[2\pi iV^{\prime}\cdot\mu]\hat{\Phi}^{\mu} 
+ 
+ (6) 
+ 
+ if  μ \mu  is the  E 6 E_{6}  weight of the hypermultiplet,  V V  and  V ′ V^{\prime}  are the
+gauge shifts associated with  ℤ 2 \mathbb{Z}_{2}  and  ℤ 2 ′ \mathbb{Z}_{2}^{\prime}  and the parities
+are  σ , σ ′ ∈ { + , − } \sigma,\sigma^{\prime}\in\{+,-\} . The antichiral part  Φ ¯ ^ c \hat{\overline{\Phi}}_{c}  has opposite parities.
+To obtain a complete light  𝟐𝟕 \bf 27 
+from bulk hypermultiplets, one needs four  𝟐𝟕 \bf 27 s with parities
+ ( σ , σ ′ ) = ( + , + ) , ( − , − ) , ( − , + ) , ( + , − ) (\sigma,\sigma^{\prime})=(+,+),(-,-),(-,+),(+,-) , yielding chiral zero modes  ( 𝟔 , 𝟏 , 𝟏 ) − 𝟏 + ( 𝟏 , 𝟏 , 𝟏 ) 𝟐 \bf(6,1,1)_{-1}+(1,1,1)_{2} ,  ( 𝟒 , 𝟐 , 𝟏 ) 𝟏 𝟐 \bf(4,2,1)_{\frac{1}{2}} ,
+ ( 𝟒 ¯ , 𝟏 , 𝟐 ) 𝟏 𝟐 \bf(\overline{4},1,2)_{\frac{1}{2}}  and  ( 𝟏 , 𝟐 , 𝟐 ) − 𝟏 \bf(1,2,2)_{-1}  respectively with our choice of gauge shifts, 
+ 
+
+ 
+ 
+ V ¯ = ( 1 2 , 1 2 , 0 , 1 2 , 1 2 , 0 ) , V ¯ ′ = ( 1 2 , 1 2 , 1 2 , 1 2 , 1 2 , 0 ) . \displaystyle\overline{V}=(\frac{1}{2},\frac{1}{2},0,\frac{1}{2},\frac{1}{2},0),\quad\overline{V}^{\prime}=(\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},0). 
+ 
+ (7) 
+ 
+ However, the corresponding zero modes from the antichiral multiplets also form
+a complete  𝟐𝟕 \bf 27 , such that the complete matter content is vectorlike. 
+ 
+ 
+ The possibility remains to obtain part of a  𝟐𝟕 \bf 27  generation, such as the Higgs sector, from the
+bulk, while the remaining chiral components are localized on the  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  fixed point.
+We are now going to implement what corresponds to a  𝟏𝟎 − 𝟏 + 𝟏 𝟐 ∈ 𝟐𝟕 \bf 10_{-1}+1_{2}\in 27  as the zero modes of two bulk hypermultiplets in the  𝟐𝟕 \bf 27 .
+We call the two hypermultiplets  𝟐𝟕 𝐀 \bf 27^{A}  and  𝟐𝟕 𝐁 \bf 27^{B}  and give them  ℤ 2 \mathbb{Z}_{2}  parities  ( + , + ) ( A ) , ( + , − ) ( B ) (+,+)^{(A)},(+,-)^{(B)} . This produces
+massless chiral multiplets corresponding to 
+ 
+
+ 
+ 
+ ( 𝟔 , 𝟏 , 𝟏 ) − 𝟏 𝐀 + ( 𝟏 , 𝟏 , 𝟏 ) 𝟐 𝐀 + ( 𝟏 , 𝟐 , 𝟐 ) − 𝟏 𝐁 ∼ 𝟏𝟎 − 𝟏 + 𝟏 𝟐 . \bf(6,1,1)^{A}_{-1}+(1,1,1)^{A}_{2}+(1,2,2)^{B}_{-1}\sim 10_{-1}+1_{2}. 
+ 
+ 
+ The superscript denotes the  𝟐𝟕 \bf 27  from which the representations originate.
+In particular, these fields contribute the MSSM Higgs doublet and the NMSSM singlet accompanied by a generation of color charged exotics.
+The antichiral parts of the bulk hypermultiplets which we now call  𝟐𝟕 𝐀𝐜 \bf 27^{Ac}  and  𝟐𝟕 𝐁𝐜 \bf 27^{Bc} , also contain zero modes.
+ 𝟐𝟕 𝐀𝐜 \bf 27^{Ac}  contributes extra  S ​ U ​ ( 2 ) L SU(2)_{L}  charged matter, while  𝟐𝟕 𝐁𝐜 \bf 27^{Bc}  contributes extra  S ​ U ​ ( 2 ) R SU(2)_{R}  charged matter, corresponding to representations 
+ 
+
+ 
+ 
+ ( 𝟒 , 𝟐 , 𝟏 ) 𝟏 𝟐 𝐀𝐜 + ( 𝟒 ¯ , 𝟏 , 𝟐 ) 𝟏 𝟐 𝐁𝐜 ∼ 𝟏𝟔 𝟏 𝟐 𝐜 , \bf(4,2,1)^{Ac}_{\frac{1}{2}}+(\overline{4},1,2)^{Bc}_{\frac{1}{2}}\sim 16_{\frac{1}{2}}^{c}, 
+ 
+ 
+ however with opposite 4D chirality compared to standard matter.
+The modes surviving on the  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) SU(6)\times SU(2)  fixed point come with opposite chirality from the two hypermultiplets, and are thus anomaly free. The modes surviving on the  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  fixed point are  𝟏𝟎 − 𝟏 𝐀 , 𝟏 𝟐 𝐀 \bf 10_{-1}^{A},1_{2}^{A}  and  𝟏𝟎 − 𝟏 𝐁 , 𝟏 𝟐 𝐁 \bf 10_{-1}^{B},1_{2}^{B}  in the chiral part and  𝟏𝟔 𝟏 𝟐 𝐀𝐜 + 𝟏𝟔 𝟏 𝟐 𝐁𝐜 \bf 16_{\frac{1}{2}}^{Ac}+16_{\frac{1}{2}}^{Bc}  in the antichiral part. To cancel the 4D
+anomaly and to complete the matter content of the generation, we need
+brane localized chiral  𝟏𝟔 𝟏 𝟐 ′ + 𝟏𝟔 𝟏 𝟐 𝟑 \bf 16_{\frac{1}{2}}^{\prime}+16_{\frac{1}{2}}^{3} , where one linear
+combination gets a mass with the antichiral bulk zero mode  𝟏𝟔 𝟏 𝟐 𝐜 \bf 16_{\frac{1}{2}}^{c} , and the other remains in the light spectrum,
+e.g. as the third generation matter. The brane anomaly on the
+ S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  fixed point, written in terms of chiral
+fields, now receives contributions from the two localized chiral modes
+ 𝟏𝟔 𝟏 𝟐 ′ + 𝟏𝟔 𝟏 𝟐 𝟑 \bf 16^{\prime}_{\frac{1}{2}}+16^{3}_{\frac{1}{2}}  and bulk contributions
+from
+ 2 × 𝟏𝟎 − 𝟏 + 2 × 𝟏 𝟐 {2\times}{\bf 10_{-1}}+{2\times}\bf 1_{2}  and  2 × 𝟏𝟔 ¯ − 𝟏 𝟐 2\times\bf\overline{16}_{-\frac{1}{2}} . These contributions cancel since the bulk modes only contribute half of the anomaly on each of the two branes. 
+ 
+ 
+ Such a general setup could be used to implement the ESSM models with Pati-Salam intermediate symmetries  [ 2 ,  3 ] . Note that the couplings of the light exotics to matter, which unify lepto- and diquark terms due to the intermediate Pati-Salam symmetry, must be suppressed to avoid rapid proton decay, but should not be exactly zero as this would render the color charged exotics stable. 
+ 
+ 
+ 
+ 2.3  Superpotential 
+
+ 
+ The abovementioned setup allows in principle to introduce all superpotential
+terms necessary for the ESSM on the branes while avoiding lepto-diquark
+couplings and unhiggs-matter couplings. Let  𝟏𝟔 𝐢 , 𝟏𝟎 𝐢 , 𝟏 𝐢 \bf 16^{i},10^{i},1^{i}  with  i = 1 , 2 i=1,2 
+be the first two generations of matter, unhiggs and unsinglet fields localized as chiral multiplets on the  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  fixed point. The third generation is implemented as explained in the last section, and uppercase superscripts  𝐀 , 𝐁 \bf A,B  denote the two bulk hypermultiplets. Then, the following brane localized terms can be introduced.
+Matter receives masses from  ⟨ 𝟏𝟎 𝐁 ⟩ ​ 𝟏𝟔 𝐚 ​ 𝟏𝟔 𝐛 \bf\langle 10^{B}\rangle 16^{a}16^{b}  where
+ a , b = 1..3 a,b=1..3 . Color charged and unhiggs exotics receive masses from  ⟨ 𝟏 𝐀 ⟩ ​ 𝟏𝟎 𝐚 ​ 𝟏𝟎 𝐛 \bf\langle 1^{A}\rangle 10^{a}10^{b}  where  a , b = 1 , 2 , A a,b=1,2,A . Unsinglet-unhiggs mixing is generated
+by  𝟏 𝐣 ​ 𝟏𝟎 𝐢 ​ ⟨ 𝟏𝟎 𝐁 ⟩ \bf 1^{j}10^{i}\langle 10^{B}\rangle  where  i , j = 1 , 2 i,j=1,2 . The  μ \mu  term
+contribution can arise on both branes, namely through  ⟨ 𝟏 𝐀 ⟩ ​ 𝟏𝟎 𝐁 ​ 𝟏𝟎 𝐁 \bf\langle 1^{A}\rangle 10^{B}10^{B}  on
+the  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  fixed point, and through  ⟨ ( 𝟏𝟓 ¯ , 𝟏 ) 𝐀 ⟩ ​ ( 𝟔 , 𝟐 ) 𝐁 ​ ( 𝟔 , 𝟐 ) 𝐁 \bf\langle(\overline{15},1)^{A}\rangle(6,2)^{B}(6,2)^{B}  on the  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) SU(6)\times SU(2)  fixed point.
+Lepto-diquark interactions are contained in a separate singlet,  𝟏𝟎 𝐀 ​ 𝟏𝟔 𝐚 ​ 𝟏𝟔 𝐛 \bf 10^{A}16^{a}16^{b}  where  a , b , = 1..3 a,b,=1..3 . While the corresponding coupling can assumed to be small, it would be interesting to investigate how its suppression can be enforced, and which bounds result for proton and
+exotic decay lifetimes. 
+ 
+ 
+ This type of construction
+seems to exhaust the possibilities in  D = 5 D=5  apart from introducing additional breaking from brane or bulk vevs,
+and higher dimensional operators. In particular, in order to obtain
+smaller intermediate rank 6 gauge symmetry such as  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi} ,
+or fixed points with smaller gauge groups
+which for example allow for light leptoquark exotics and more freedom in the
+matter yukawa couplings, we need to study  E 6 E_{6} 
+breaking in higher dimensions. 
+ 
+ 
+ 
+ 
+ 
+ 
+                               
+                                 
+                                   ⁢ 
+                                   
+                                     × 
+                                     
+                                       ⁢ 
+                                       S 
+                                       U 
+                                       
+                                         
+                                         
+                                           ( 
+                                           6 
+                                           ) 
+                                         
+                                       
+                                     
+                                     S 
+                                   
+                                   U 
+                                   
+                                     
+                                     
+                                       
+                                       
+                                         ( 
+                                         2 
+                                         ) 
+                                       
+                                     
+                                     L 
+                                   
+                                 
+                               
+                             
+                               
+                                 
+                                   ⁢ 
+                                   S 
+                                   O 
+                                   
+                                     
+                                     
+                                       
+                                       
+                                         ( 
+                                         10 
+                                         ) 
+                                       
+                                     
+                                     
+                                       ⁢ 
+                                       Q 
+                                       χ 
+                                     
+                                   
+                                 
+                               
+                             
+ 𝟏𝟔 𝟏 𝟐 \bf 16_{\frac{1}{2}} 
+ 𝟏𝟎 − 𝟏 \bf 10_{-1} 
+ 𝟏 𝟐 \bf 1_{2} 
+ 
+ 
+ 
+ ( 𝟏𝟓 ¯ , 𝟏 ) \bf(\overline{15},1) 
+ ( 𝟒 ¯ , 𝟏 , 𝟐 ) 𝟏 𝟐 \bf(\overline{4},1,2)_{\frac{1}{2}} 
+ ( 𝟔 , 𝟏 , 𝟏 ) − 𝟏 \bf(6,1,1)_{-1} 
+ ( 𝟏 , 𝟏 , 𝟏 ) 𝟐 \bf(1,1,1)_{2} 
+ 
+ ( 𝟔 , 𝟐 ) \bf(6,2) 
+ ( 𝟒 , 𝟐 , 𝟏 ) 𝟏 𝟐 \bf(4,2,1)_{\frac{1}{2}} 
+ ( 𝟏 , 𝟐 , 𝟐 ) − 𝟏 \bf(1,2,2)_{-1} 
+ × \times 
+ 
+ 
+ Table 1:  The decomposition of a  𝟐𝟕 \mathbf{27}  of  E 6 E_{6}  for the
+rank 6 subgroups  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi} ,  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) L SU(6)\times SU(2)_{L}  and their intersection  P ​ S × U ​ ( 1 ) χ = S ​ U ​ ( 4 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) χ PS\times U(1)_{\chi}=SU(4)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{\chi}  which is shown inside the table. The subscript denotes
+ 6 ​ Q χ \sqrt{6}Q_{\chi} , where the
+ U ⁡ ( 1 ) U(1)  generator is  S ​ U ​ ( N ) SU(N)  normalized. The case with  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) R SU(6)\times SU(2)_{R}  is completely analogous. 
+ 
+ 
+ 
+ 
+ 3  An Exceptional SSM with intermediate LR Symmetry 
+
+ 
+ 3.1  E 6 → G L ​ R × U ⁡ ( 1 ) E_{6}\rightarrow G_{LR}\times U(1)  breaking on  T 2 / ℤ 6 T^{2}/\mathbb{Z}_{6}   
+
+ 
+ We now want to turn to
+intermediate  G L ​ R G_{LR}  symmetry including the possibility to assign  H H  parities
+and still have leptoquarks at low energies. To reach this goal purely by
+orbifold breaking, we require a 6D setup. The technicalities of the
+various relevant constructions based
+on torus compactifications are summarized in the Appendix
+ A.3 . The following model is based on a
+ T 2 / ℤ 6 T^{2}/\mathbb{Z}_{6}  orbifold in 6D with  E 6 E_{6}  gauge invariance in the bulk.
+ ℤ 6 \mathbb{Z}_{6}  geometries have been considered in the context of
+ E 8 × E 8 E_{8}\nolinebreak\times\nolinebreak E_{8}  heterotic string compactifications. In this sense, 6D  E 6 E_{6}  orbifold models can be thought of as an intermediate stage
+from the full string theory construction to a realistic 4D model.
+The orbifold geometry and possible phases are
+specified in Section  A.3.4 .
+The gauge embeddings  G ⁡ ( r 3 ) G(r_{3}) ,  G ⁡ ( r 2 ) G(r_{2})  can be chosen independently, and the induced  ℤ 6 \mathbb{Z}_{6}  gauge shift is
+ G ⁡ ( r 6 ) = G ​ ( r 3 ) − 1 ​ G ​ ( r 2 ) G(r_{6})=G(r_{3})^{-1}G(r_{2}) .
+This means that we can assign shift embeddings  G ⁡ ( r 2 ) : E 6 → S ​ O ​ ( 10 ) × U ​ ( 1 ) χ G(r_{2}):E_{6}\rightarrow SO(10)\times U(1)_{\chi} , and  G ⁡ ( r 3 ) : E 6 → S ​ U ​ ( 3 ) 3 G(r_{3}):E_{6}\rightarrow SU(3)^{3} , which will result in  G ⁡ ( r 6 ) : E 6 → G L ​ R × U ​ ( 1 ) χ G(r_{6}):E_{6}\rightarrow G_{LR}\times U(1)_{\chi} . This is for example achieved with the shift vector 
+ 
+
+ 
+ 
+ V ¯ ​ ( r 6 ) \displaystyle\overline{V}(r_{6}) 
+ = \displaystyle= 
+ ( 1 6 , − 1 6 , − 1 3 , − 1 2 , − 1 6 , 0 ) \displaystyle(\frac{1}{6},-\frac{1}{6},-\frac{1}{3},-\frac{1}{2},-\frac{1}{6},0) 
+ 
+ (8) 
+ 
+ This is equivalent to a shift in the  Q ¯ B − L \overline{Q}_{B-L}  direction, appropriately normalized
+to be compatible with the  ℤ 6 \mathbb{Z}_{6}  algebra.
+No discrete Wilson line is allowed. This gives us three inequivalent
+fixed points with localized gauge invariances  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi} ,
+ S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  and trinification  S ​ U ​ ( 3 ) 3 SU(3)^{3} .
+This can be understood from Table  7  since those groups correspond to roots with integer, one-third integer and half integer charge under  Q B − L Q_{B-L} , respectively. The construction is shown in Figure  3 . 
+ 
+ 
+ Figure 3:  An  E 6 → G L ​ R × U ​ ( 1 ) χ E_{6}\rightarrow G_{LR}\times U(1)_{\chi}  breaking scenario on the  ℝ 2 / 𝟔𝟑𝟐 \mathbb{R}^{2}/\bf 632  orbifold and the local gauge groups at the  ℤ 6 \mathbb{Z}_{6} ,  ℤ 3 \mathbb{Z}_{3}  and  ℤ 2 \mathbb{Z}_{2}  fixed points which are shown as blue circle, triangle and diamond. The shaded area shown is the fundamental domain only, and long (red) and short sides are identified. The construction is outlined in Section  A.3.4 . 
+ 
+ 
+ 
+ 3.2  Bulk Matter and Anomalies on the  ℝ 2 / 𝟔𝟑𝟐 \mathbb{R}^{2}/{\bf 632}  orbifold 
+
+ 
+ In the SUSY version of the model, vectors are simply extended by massless Weyl gaugino modes in the adjoint, and thus give
+us standard 4D  𝒩 = 1 \mathcal{N}=1  multiplets corresponding to the unbroken gauge
+group. However, the scalar zero modes usually do not appear in vectorlike
+pairs and therefore result in massless
+chiral multiplets in complex representations satisfying  V ⋅ α ∈ ℤ + 1 / 6 V\cdot\alpha\in\mathbb{Z}+1/6  where V is the  ℤ 6 \mathbb{Z}_{6}  gauge shift.
+In the case of  E 6 → G L ​ R × U ​ ( 1 ) χ E_{6}\rightarrow G_{LR}\times U(1)_{\chi}  breaking on the  ℝ 2 / 𝟔𝟑𝟐 \mathbb{R}^{2}/{\bf 632}  orbifold, they contain
+quark-like exotics with  Q χ = ± 3 / 2 Q_{\chi}=\pm 3/2 , using the notation from Table
+ 7  they are  Q 16 Q_{16}  from  𝟏𝟔 ¯ 3 / 2 {\bf\overline{16}}_{3/2}  and  U 16 , D 16 U_{16},D_{16}  from  𝟏𝟔 − 3 / 2 {\bf 16}_{-3/2}  or vice versa, depending on the choice of the
+gauge shift. Note that they do not form complete  S ​ U ​ ( 3 ) 3 SU(3)^{3}  or  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi} 
+representations but appear in  G L ​ R G_{LR}  representations, nor are they by themselves anomaly free with respect to the unbroken gauge group  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi} . Since we preserve our extra  U ​ ( 1 ) χ U(1)_{\chi}  or  U ​ ( 1 ) ′ U(1)^{\prime}  at low energies,
+these exotics do not mix with standard matter from the  𝟐𝟕 \bf 27 . However, they
+induce 4D anomalies and localized anomalies on the  ℤ 6 \mathbb{Z}_{6}  and  ℤ 3 \mathbb{Z}_{3}  fixed points, where the chiral bulk fermions
+from the gauge superfield  χ ^ \hat{\chi}  which would survive the individual orbifold projections on one fixed point are in  ( 𝟑 , 𝟐 , 𝟏 ) + ( 𝟑 , 𝟏 , 𝟐 ) \bf(3,2,1)+(3,1,2)  and  ( 𝟑 , 𝟑 , 𝟑 ¯ ) \bf(3,3,\overline{3})  representations of  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  and  S ​ U ​ ( 3 ) 3 SU(3)^{3}  respectively, while on the  ℤ 2 \mathbb{Z}_{2}  fixed point,
+vectorlike contributions corresponding to  𝟏𝟔 − 3 / 2 + 𝟏𝟔 ¯ 3 / 2 {\bf 16}_{-3/2}+{\bf\overline{16}}_{3/2}  of  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  survive the projection and cancel. To cancel the 4D anomalies, one can put the
+completion consisting of a  ( 𝟑 ¯ , 𝟐 , 𝟏 ) + ( 𝟑 ¯ , 𝟏 , 𝟐 ) \bf(\overline{3},2,1)+(\overline{3},1,2)  on the
+ ℤ 6 \mathbb{Z}_{6}  fixed point, which leaves open the
+problem how the 6D brane localized anomalies are cancelled. A simpler way to cancel the 4D and
+brane anomalies while removing the chiral bulk modes is the doubling of the
+bulk fermion content with an additional hypermultiplet in the adjoint  𝟕𝟖 \bf 78 .
+The hypermultiplet has opposite 6D chirality compared to the 6D gauginos, so the fermions of both form an unconstrained 6D spinor.
+The  ℤ 6 \mathbb{Z}_{6}  parity of the hypermultiplet must be chosen such that the surviving 4D chiral modes from  Φ ^ \hat{\Phi}  on
+each fixed point are in the same representation as the 4D antichiral zero modes from  χ ¯ ^ \hat{\overline{\chi}} .
+Under a  ℤ 6 \mathbb{Z}_{6}  rotation, the vector hypermultiplet belonging to a root  α \alpha  transforms as 
+ 
+
+ 
+ 
+ V ^ α \displaystyle\hat{V}^{\alpha} 
+ ⟶ \displaystyle\longrightarrow 
+ e 2 ​ π ​ i ​ V ⋅ α ​ V ^ α \displaystyle e^{2\pi iV\cdot\alpha}\hat{V}^{\alpha} 
+ 
+ 
+ 
+ χ ^ − α \displaystyle\hat{\chi}^{-\alpha} 
+ ⟶ \displaystyle\longrightarrow 
+ e − 2 π i V ⋅ α e − 2 ​ π ​ i 6 χ ^ − α . \displaystyle e^{-2\pi iV\cdot\alpha}e^{-\frac{2\pi i}{6}}\hat{\chi}^{-\alpha}. 
+ 
+ (9) 
+ 
+ The chiral superfields in an adjoint hypermultiplet belonging to a root  α \alpha  transform as 
+ 
+
+ 
+ 
+ Φ ^ α \displaystyle\hat{\Phi}^{\alpha} 
+ ⟶ \displaystyle\longrightarrow 
+ e 2 ​ π ​ i ​ V ⋅ α ​ e − 2 ​ π ​ i 6 ​ a + ​ Φ ^ α \displaystyle e^{2\pi iV\cdot\alpha}e^{-\frac{2\pi i}{6}a_{+}}\hat{\Phi}^{\alpha} 
+ 
+ 
+ 
+ Φ ^ c − α \displaystyle\hat{\Phi}_{c}^{-\alpha} 
+ ⟶ \displaystyle\longrightarrow 
+ e − 2 π i V ⋅ α e − 2 ​ π ​ i 6 ​ a − Φ ^ c − α \displaystyle e^{-2\pi iV\cdot\alpha}e^{-\frac{2\pi i}{6}a_{-}}\hat{\Phi}_{c}^{-\alpha} 
+ 
+ (10) 
+ 
+ From invariance of the 6D hypermultiplet kinetic term  [ 26 ] ,  ∫ d 2 ​ θ ​ Φ ^ c − α ​ ∂ Φ ^ α \int\!d^{2}\theta\,\hat{\Phi}_{c}^{-\alpha}\partial\hat{\Phi}^{\alpha}  (where  ∂ = ( ∂ 5 − i ∂ 6 ) / 2 \partial=(\partial_{5}-i\partial_{6})/\sqrt{2}  transforms like  ∂ → e − 2 π i / 6 ∂ \partial\rightarrow e^{-2\pi i/6}\partial  under orbifold rotations in analogy to the 6D gauge field  χ ^ \hat{\chi} ),
+ a + + a − ∈ 6 ​ ℤ − 1 a_{+}+a_{-}\in 6\mathbb{Z}-1 .
+For the choice  a + = 5 a_{+}=5 ,  a − = 0 a_{-}=0 , every invariant mode  χ ^ − α \hat{\chi}^{-\alpha}  is accompanied by an invariant mode  Φ ^ α \hat{\Phi}^{\alpha} , and the chiral
+zero modes from  χ ^ \hat{\chi}  and  Φ ^ \hat{\Phi}  appear in mutually complex conjugate representations. The invariant modes of  Φ ^ c \hat{\Phi}_{c}  are in the adjoint of the unbroken gauge group, and localized
+and 4D gauge anomalies are cancelled and we assume all extra bulk matter to have
+masses at the compactification scale. This has the interesting consequence
+that the Kaluza-Klein excitations in the adjoint appear in 4D  𝒩 = 4 \mathcal{N}=4  multiplets and
+therefore the contributions to powerlike threshold corrections to gauge unification can vanish
+ [ 24 ] .
+In a full embedding in  E 8 × E 8 E_{8}\times E_{8} 
+heterotic models, after breaking of  E 8 v ​ i ​ s → G L ​ R × U ​ ( 1 ) 3 E_{8}^{vis}\rightarrow G_{LR}\times U(1)^{3} , all but one of the  U ⁡ ( 1 ) U(1)  factors are automatically anomaly free.
+It remains a subject of further study how this could be realized in the context of the exceptional SSM proposed in this paper. 
+ 
+ 
+ Analogous to the 5D model with intermediate  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi}  symmetry, one
+can consider implementing parts of a generation, for example the Higgs fields,
+as 6D bulk fields rather than as being purely localized on a fixed point. The
+orbifold transformation properties for a bulk hypermultiplet of weight  μ \mu 
+are analogous to ( 10 ), 
+ 
+
+ 
+ 
+ Φ ^ μ \displaystyle\hat{\Phi}^{\mu\phantom{-}} 
+ ⟶ \displaystyle\longrightarrow 
+ e 2 ​ π ​ i ​ V ⋅ μ ​ e − 2 ​ π ​ i 6 ​ a + ​ Φ ^ μ \displaystyle e^{2\pi iV\cdot\mu}e^{-\frac{2\pi i}{6}a_{+}}\hat{\Phi}^{\mu} 
+ 
+ 
+ 
+ Φ ^ c − μ \displaystyle\hat{\Phi}_{c}^{-\mu} 
+ ⟶ \displaystyle\longrightarrow 
+ e − 2 π i V ⋅ μ e − 2 ​ π ​ i 6 ​ a − Φ ^ c − μ \displaystyle e^{-2\pi iV\cdot\mu}e^{-\frac{2\pi i}{6}a_{-}}\hat{\Phi}_{c}^{-\mu} 
+ 
+ (11) 
+ 
+ where again, the integers  a + = 0 ​ … ​ 5 a_{+}=0\dots 5  and  a − = 5 − a + a_{-}=5-a_{+}  can be chosen for each hypermultiplet.
+A complete  𝟏𝟎 − 𝟏 + 𝟏 𝟐 \bf 10_{-1}+1_{2}  from the bulk could be realized by three  𝟐𝟕 \bf 27  with parities  a + = 0 , 2 , 4 a_{+}=0,2,4 . With it comes a complete massless  𝟏𝟔 ¯ − 𝟏 𝟐 \bf\overline{16}_{-\frac{1}{2}} 
+from the antichiral part. However, the resulting brane anomaly structure is
+nontrivial  [ 20 ,  21 ] . This construction results in a vanishing
+anomaly on the  ℤ 3 \mathbb{Z}_{3}  fixed point, and the modes contributing to the
+ ℤ 2 \mathbb{Z}_{2}  and  ℤ 6 \mathbb{Z}_{6}  brane anomalies come in complete  S ​ O ​ ( 10 ) SO(10) 
+multiplets. In the conventions given in  [ 20 ,  21 ] , the representations producing the localized anomalies, both equivalent to  ( 𝟏𝟎 − 𝟏 + 𝟏 𝟐 + 𝟏𝟔 ¯ − 𝟏 𝟐 ) ({\bf 10_{-1}+1_{2}+\overline{16}_{-\frac{1}{2}}})  on the  ℤ 6 \mathbb{Z}_{6}  fixed point and
+on the  ℤ 2 \mathbb{Z}_{2}  fixed point, contribute with prefactors  1 4 \frac{1}{4}  and  3 4 \frac{3}{4}  respectively to the remaining 4D anomaly. Since the factors are not (half) integers, even
+after brane localized matter  2 × 𝟏𝟔 𝟏 𝟐 2\times\bf 16_{\frac{1}{2}}  is added to obtain the correct spectrum and cancel the 4D anomaly, localized  U ⁡ ( 1 ) U(1)  anomalies remain which would have to be cancelled by some mechanism. For the remainder of our discussion we therefore assume brane localized representations corresponding to complete  𝟐𝟕 \bf 27  to provide the matter content. 
+ 
+ 
+ 
+ 3.3  Local Matter content and gauge unification 
+
+ 
+ In accordance with the local GUT framework, the massless spectrum on orbifold
+fixed points is not determined by the unbroken 4D gauge invariance, but –
+as it is necessary to obtain a consistent gauge theory – by the local
+gauge invariance on the fixed point itself, which is in general larger.
+This is in contrast to bulk matter the massless modes of which generally
+only respect the low energy gauge symmetry.
+The branching rules of the anomaly-free field content of a complete
+ 𝟐𝟕 \mathbf{27}  of  E 6 E_{6}  for the rank 6 subgroups  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi} ,
+ S ​ U ​ ( 3 ) 3 SU(3)^{3}  and their intersection  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  are given
+in Table  2 . 
+ 
+ 
+ 
+ 
+ 
+ 
+                               
+                                 
+                                   ⁢ 
+                                   S 
+                                   U 
+                                   
+                                     
+                                     
+                                       
+                                       
+                                         ( 
+                                         3 
+                                         ) 
+                                       
+                                     
+                                     3 
+                                   
+                                 
+                               
+                             
+                               
+                                 
+                                   ⁢ 
+                                   S 
+                                   O 
+                                   
+                                     
+                                     
+                                       
+                                       
+                                         ( 
+                                         10 
+                                         ) 
+                                       
+                                     
+                                     
+                                       ⁢ 
+                                       Q 
+                                       χ 
+                                     
+                                   
+                                 
+                               
+                             
+ 𝟏𝟔 𝟏 𝟐 \bf 16_{\frac{1}{2}} 
+ 𝟏𝟎 − 𝟏 \bf 10_{-1} 
+ 𝟏 𝟐 \bf 1_{2} 
+ 
+ 
+ 
+ 𝐀 = ( 𝟑 ¯ , 𝟏 , 𝟑 ) \bf A\,=\,(\overline{3},1,3) 
+ ( 𝟑 ¯ , 𝟏 , 𝟐 ) ( − 𝟏 𝟑 , 𝟏 𝟐 ) \bf(\overline{3},1,2)_{(-\frac{1}{3},\phantom{-}\frac{1}{2})} 
+ ( 𝟑 ¯ , 𝟏 , 𝟏 ) ( 𝟐 𝟑 , − 𝟏 ) \bf(\overline{3},1,1)_{(\phantom{-}\frac{2}{3},-1)} 
+ × \times 
+ 
+ 𝐁 = ( 𝟑 , 𝟑 , 𝟏 ) \bf B\,=\,(3,3,1) 
+ ( 𝟑 , 𝟐 , 𝟏 ) ( 𝟏 𝟑 , 𝟏 𝟐 ) \bf(3,2,1)_{(\phantom{-}\frac{1}{3},\phantom{-}\frac{1}{2})} 
+ ( 𝟑 , 𝟏 , 𝟏 ) ( − 𝟐 𝟑 , − 𝟏 ) \bf(3,1,1)_{(-\frac{2}{3},-1)} 
+ × \times 
+ 
+ 𝐂 = ( 𝟏 , 𝟑 ¯ , 𝟑 ¯ ) \bf C\,=\,(1,\overline{3},\overline{3}) 
+ 
+
+ 
+ ( 𝟏 , 𝟐 , 𝟏 ) ( − 𝟏 , 𝟏 𝟐 ) \bf(1,2,1)_{(-1,\phantom{-}\frac{1}{2})} 
+ ( 𝟏 , 𝟏 , 𝟐 ) ( 𝟏 , 𝟏 𝟐 ) \bf(1,1,2)_{(\phantom{-}1,\phantom{-}\frac{1}{2})} 
+ 
+ ( 𝟏 , 𝟐 , 𝟐 ) ( 𝟎 , − 𝟏 ) \bf(1,2,2)_{(\phantom{-}0,-1)} 
+ ( 𝟏 , 𝟏 , 𝟏 ) ( 𝟎 , 𝟐 ) \bf(1,1,1)_{(\phantom{-}0,2)} 
+ 
+ 
+ Table 2:  The decomposition of a  𝟐𝟕 \mathbf{27}  of  E 6 E_{6}  for the
+rank 6 subgroups  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi} ,  S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) L × S ​ U ​ ( 3 ) R SU(3)_{C}\times SU(3)_{L}\times SU(3)_{R}  and their intersection  G L ​ R × U ​ ( 1 ) χ = S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) B − L × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}=SU(3)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{B-L}\times U(1)_{\chi}  which is shown inside the table. The subscript denotes
+ ( 2 ​ 6 / 3 ​ Q B-L , 6 ​ Q χ ) (2\sqrt{6}/3\,{Q}_{\mbox{\tiny{B-L}}},\,\sqrt{6}Q_{\chi}) , where the
+ U ⁡ ( 1 ) U(1)  generators are  S ​ U ​ ( N ) SU(N)  normalized. 
+ 
+ 
+ Since  𝒩 > 1 \mathcal{N}>1  SUSY
+does not allow chiral matter, we have reduced the overall SUSY content
+to  𝒩 = 1 \mathcal{N}=1 . This is achieved automatically by the orbifold
+projection together with the choice of the embedding of  ℤ 6 \mathbb{Z}_{6} 
+into the R symmetry generated by  I R 3 I_{R}^{3} , analogous to orbifold twists
+in 10D  ℤ 6 \mathbb{Z}_{6}  orbifolds (cf. appendix
+ C.2 ). Similarly to gauge theory, the local amount of
+supersymmetry can generally be larger. In the  ℤ 6 \mathbb{Z}_{6}  orbifold
+with 6D  𝒩 = 1 \mathcal{N}=1  SUSY in the bulk, the amount of supersymmetry
+is reduced to 4D  𝒩 = 1 \mathcal{N}=1  on all fixed points. This is not
+always the case in  T 6 / ℤ 6 T^{6}/\mathbb{Z}_{6}  compactifications, for example in
+the  ℤ 6 \mathbb{Z}_{6} -II orbifold. We assume here that possible underlying
+10D shifts reduce the amount of supersymmetry to 4D  𝒩 = 1 \mathcal{N}=1  on
+all 6D fixed points.
+Unless further constraints are taken into account, there is no  a
+priori  rule how the three matter generations should be implemented
+using the abovementioned field content. If they are spread over the various fixed
+points, the superpotential must arise from effective nonlocal
+interactions respecting the parities of the local GUT
+representations. This can include scenarios where a vectorlike pair of
+chiral/antichiral multiplets and another chiral multiplet combine to a
+massive multiplet and a chiral multiplet in the light spectrum.
+There are some plausible choices: it is for example
+most appealing to implement the third generation on the fixed point with
+trinification symmetry where all fields have to be  H H -even. The localized field
+content there is thus  { 𝐀 3 , 𝐁 3 , 𝐂 3 } \{{\bf A}_{3},{\bf B}_{3},{\bf C}_{3}\} . This setup
+accommodates the large top mass and has the additional advantage that
+the exotics  D 3 c , D 3 D^{c}_{3},D_{3}  can be true leptoquarks without diquark
+interactions since we can forbid the  𝐀 3 3 {\bf A}^{3}_{3}  and  𝐁 3 3 {\bf B}^{3}_{3} 
+terms in the superpotential by some parity. Furthermore, there is for now
+only one singlet Higgs  S S  and one generation of MSSM Higgs doublets
+ H u , H d H_{u},H_{d} . The light generations must be localized on the other two
+types of fixed points since here we want to implement an  H H  parity to
+prevent mixing of the un-Higgs doublets (and singlets) and exotics
+with standard Higgs fields and matter which would potentially produce
+fatal contributions to FCNCs. If a light generation is localized on
+the chiral  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  fixed point, its color charged exotics
+can be leptoquarks as well, if it resides on the vectorlike  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  fixed point, they are  H H -odd and lepto/diquark interactions
+are forbidden. 
+ 
+ 
+ We now want to use our freedom to place representations of the local gauge
+groups on the fixed points as boundary localized matter, such that the
+minimally required particle content of the (E)NMSSM is included, with
+the simultaneous aim of obtaining unification below the Planck
+scale. We have seen that the group  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  does not
+unify in 4D with complete  E 6 E_{6}  multiplets. One therefore might try to
+work with incomplete  E 6 E_{6}  multiplets. The minimal field content on
+the  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  invariant fixed points,  𝟏𝟔 1 + 𝟏𝟔 2 {\bf 16}_{1}+{\bf 16}_{2} , could provide the matter content of the two light
+generations without further exotics. Unfortunately, the standard
+ U ​ ( 1 ) χ U(1)_{\chi}  charge assignment to matter as inherited from the  𝟐𝟕 \bf 27 ,  Q χ 𝟏𝟔 = 1 / 2 Q_{\chi}^{\bf 16}=1/2 , gives us 4D triangle anomalies which are only
+cancelled by the exotics with  Q χ 𝟏𝟎 = − 1 Q_{\chi}^{\bf 10}=-1  and  Q χ 𝟏 = 2 Q_{\chi}^{\bf 1}=2  in the full multiplet. One might consider assigning a special
+charge  Q χ = − 1 / 2 Q_{\chi}=-1/2  to the first generation matter to make the
+incomplete matter vector-like under  U ​ ( 1 ) χ U(1)_{\chi} . This cancels the
+ S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  anomalies, but does not allow a
+superpotential at tree-level, and requires breaking  U ​ ( 1 ) χ U(1)_{\chi}  at a
+high scale to generate it. We therefore use the full three generation
+particle content and achieve unification below the Planck scale by
+different means. 
+ 
+ 
+ To calculate the unification scenario, we need as one further
+ingredient the breaking mechanism of the intermediate symmetry, 
+ 
+
+ 
+ 
+ G L ​ R × U ​ ( 1 ) χ ⟶ S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × U ​ ( 1 ) Y × U ​ ( 1 ) ′ . G_{LR}\times U(1)_{\chi}\longrightarrow SU(3)_{C}\times SU(2)_{L}\times U(1)_{Y}\times U(1)^{\prime}. 
+ 
+ (12) 
+ 
+ Giving some Higgs fields  H int , H ¯ int {H}_{\mbox{\tiny{int}}},\,{\bar{H}}_{\mbox{\tiny{int}}}  vevs in
+ ν ~ c \tilde{\nu}^{c}  and  ν ¯ ~ c \tilde{\overline{\nu}}^{c}  directions
+respectively at  Λ int {\Lambda}_{\mbox{\tiny{int}}}  leaves arbitrary linear
+combinations of 
+ 
+
+ 
+ 
+ g Y ​ Y \displaystyle g_{Y}Y 
+ = g R ​ g B − L ​ ( 3 ​ T R 3 + 2 ​ Q B − L ) 3 ​ g B − L 2 + 2 ​ g R 2 and \displaystyle=\frac{g_{R}g_{B-L}\left(\sqrt{3}T^{3}_{R}+\sqrt{2}Q_{B-L}\right)}{\sqrt{3g_{B-L}^{2}+2g_{R}^{2}}}\hskip 113.81102pt\mbox{and} 
+ 
+ (13) 
+ 
+ 
+ g ′ ​ Q ′ \displaystyle g^{\prime}Q^{\prime} 
+ = g χ ​ ( g R 2 ​ ( 2 ​ 3 ​ Q χ − 2 ​ T R 3 ) + 3 ​ g B − L 2 ​ ( Q B − L + 3 ​ Q χ ) ) ( 3 ​ g B − L 2 + 2 ​ g R 2 ) ​ ( 9 ​ g B − L 2 + 6 ​ g R 2 + g χ 2 ) \displaystyle=\frac{g_{\chi}\left(g_{R}^{2}\left(2\sqrt{3}Q_{\chi}-\sqrt{2}T^{3}_{R}\right)+\sqrt{3}g_{B-L}^{2}\left(Q_{B-L}+3Q_{\chi}\right)\right)}{\sqrt{\left(3g_{B-L}^{2}+2g_{R}^{2}\right)\left(9g_{B-L}^{2}+6g_{R}^{2}+g_{\chi}^{2}\right)}} 
+ 
+ (14) 
+ 
+ invariant, yielding the matching conditions for the corresponding
+coupling constants via the GUT normalization of the charges 
+ 
+
+ 
+ 
+ g Q = 2 ​ tr a ​ [ ( g Q ​ Q a ) 2 ] . g^{Q}=\sqrt{2\mbox{tr}_{a}[(g^{Q}Q_{a})^{2}]}. 
+ 
+ (15) 
+ 
+ Like in models with intermediate Pati-Salam symmetry, this can be accomplished
+by using a  𝟐𝟕 + 𝟐𝟕 ¯ \bf 27+\overline{27}  which does not lead to unification as
+demonstrated in Fig.  1 . In our case, we can consider to
+use parts of  𝟐𝟕 + 𝟐𝟕 ¯ \bf 27+\overline{27} , namely  𝟏𝟔 + 𝟏𝟔 ¯ \bf 16+\overline{16} 
+on the  S ​ O ​ ( 10 ) × U ⁡ ( 1 ) SO(10)\times U(1)  fixed points, an  ( 𝟏 , 𝟑 ¯ , 𝟑 ¯ ) + ( 𝟏 , 𝟑 , 𝟑 ) \bf(1,\overline{3},\overline{3})+(1,3,3)  on trinification fixed points,
+or a representation of  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  as given in Table  2  (alternatively, one can consider
+putting an  ( 𝟏 , 𝟏 , 𝟑 ) + ( 𝟏 , 𝟏 , 𝟑 ¯ ) \mathbf{(1,1,3)+(1,1,\overline{3})}  on a trinification fixed point which is not
+contained in a small  E 6 E_{6}  multiplet and has different quantum
+numbers). For these breaking scenarios to be viable, potentials need to be
+found which produce these vevs in a  D D -flat
+direction. For further analysis, from here on we assume for our
+unification scenario that there is no additional matter content below
+ Λ int {\Lambda}_{\mbox{\tiny{int}}} . Two choices for the additional matter doing the
+job of the intermediate symmetry breaking are 
+ 
+
+ 
+ 
+ OPEN i ) \displaystyle i) 
+ 
+ L , l c , ⟨ ν c ⟩ + c . c . ∼ ( 𝟏 , 𝟑 ¯ , 𝟑 ¯ ) ∩ 𝟏𝟔 + c . c . \displaystyle L,l^{c},\langle\nu^{c}\rangle+c.c.\sim{\bf(1,\overline{3},\overline{3})}\cap{\bf 16}+c.c. 
+ 
+ (16) 
+ 
+ 
+ OPEN i ​ i ) \displaystyle ii) 
+ 
+ L , l c , ⟨ ν c ⟩ , H u , H d , S + c . c . ∼ ( 𝟏 , 𝟑 ¯ , 𝟑 ¯ ) + c . c . \displaystyle L,l^{c},\langle\nu^{c}\rangle,H_{u},H_{d},S+c.c.\sim{\bf(1,\overline{3},\overline{3})}+c.c. 
+ 
+ (17) 
+ 
+ These representations affect the running between  Λ i ​ n ​ t \Lambda_{int}  and
+ Λ E ​ 6 \Lambda_{E6} , and would correspond to putting the intermediate Higgs
+on a  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  invariant fixed point or the more
+symmetric trinification localized case, respectively. Since we are
+free to split heavy vector-like  𝟐𝟕 + 𝟐𝟕 ¯ \bf 27+\overline{27}  at
+ Λ E ​ 6 \Lambda_{E6} , these choices do not necessarily correspond to really
+incomplete multiplets. Some examples for the running with such a
+breaking matter content are shown in
+Fig.  4 . These scenarios unify
+below (though in one case close to) the Planck scale, and since in  δ \delta  extra dimensions we can roughly
+identify the extra dimensional volume with  V δ ∼ Λ E ​ 6 − δ V_{\delta}\sim\Lambda_{E6}^{-\delta} , they also unify
+below the fundamental gravity scale  M ∗ M_{*}  because of
+ M ∗ / Λ E ​ 6 ∼ ( Λ P ​ l / Λ E ​ 6 ) 2 / ( 2 + δ ) M_{*}/\Lambda_{E6}\sim(\Lambda_{Pl}/\Lambda_{E6})^{{2}/{(2+\delta)}} .
+The unified coupling at the  E 6 E_{6}  scale is
+ α ⁡ ( Λ E ​ 6 ) ≈ α s ​ ( m Z ) ≈ 0.1 \alpha(\Lambda_{E6})\approx\alpha_{s}(m_{Z})\approx 0.1 . Those scenarios with
+larger intermediate particle content tend to unify at a higher  E 6 E_{6}  scale and
+to have a lower intermediate breaking scale  Λ int \Lambda_{\mbox{\tiny{int}}} .
+The exact  E 6 E_{6}  unification which we assume here for simplicity is in general modified by threshold
+corrections from the local GUT compactification, which results in a modified
+intermediate breaking scale. The analysis of the impact of these corrections to unification and
+low energy observables is beyond the scope of this work, but must be taken into
+account in order to precisely determine the breaking scenario from measurements of couplings
+at the TeV scale.
+Below  Λ int \Lambda_{\mbox{\tiny{int}}} , the right-handed neutrino is integrated
+out, leaving a matter content in incomplete  𝟐𝟕 \mathbf{27} , which results in a
+mixing of the two Abelian gauge groups  U ​ ( 1 ) Y U(1)_{Y}  and  U ​ ( 1 ) ′ U(1)^{\prime}  at the 1-loop
+level. However, there is a basis  { U ​ ( 1 ) 1 , U ​ ( 1 ) 2 } \{U(1)_{1},U(1)_{2}\}  in which the two
+couplings run independently. At the scale, where the NMSSM-like singlet  S S 
+acquires a vev,  U ​ ( 1 ) Y U(1)_{Y}  is projected out as the unbroken linear combination of
+ U ​ ( 1 ) 1 U(1)_{1}  and  U ​ ( 1 ) 2 U(1)_{2} .
+The broken generator corresponds to  U ​ ( 1 ) ′ U(1)^{\prime} , resulting in a
+heavy  Z ′ Z^{\prime}  boson with mass of around a TeV.
+Its coupling to matter is roughly of the strength of the SM
+hypercharge at the  Z Z  pole. A list containing the numerical values of the
+ U ​ ( 1 ) ′ U(1)^{\prime}  couplings and charges, corresponding to the four
+scenarios presented in Fig.  4 , can be found
+in 
+ 
+ 
+ 
+ 
+ Figure 4:  Four unification scenarios at 1-loop with matter in complete  E 6 E_{6} 
+multiplets and intermediate breaking with combinations of incomplete vector-like
+Higgs representations  OPEN i ) i)  and  OPEN i ​ i ) ii)  as allowed by the orbifold
+compactification. The cases are  i ) , i i ) , 3 × i i ) i),ii),3\times ii)  and  OPEN OPEN 2 × i ​ i ) + 1 × i ) 2\times ii)+1\times i) . Below the intermediate scale, the mixing of the Abelian gauge
+groups is taken into account.  
+ 
+ 
+ Table  3 . It lists the charges and coupling strengths of the
+matter coupling to the  Z ′ Z^{\prime}  boson. At this stage, threshold corrections from orbifold effects are not yet taken into account.
+As  Q ′ Q^{\prime}  depends on the
+ratio of the gauge couplings at  Λ int {\Lambda}_{\mbox{\tiny{int}}} , the charges are
+generally non-rational. 
+ 
+ 
+ 
+ 
+ 
+ H int , H ¯ int {H}_{\mbox{\tiny{int}}},{\bar{H}}_{\mbox{\tiny{int}}} 
+ OPEN i ) i) 
+ OPEN i ​ i ) ii) 
+ OPEN 3 ​ i ​ i ) 3ii) 
+ OPEN OPEN i ) + 2 ​ i ​ i ) i)+2ii) 
+ 
+ Λ int / {\Lambda}_{\mbox{\tiny{int}}}/ GeV 
+ 1.6 × 10 10 1.6\times 10^{10} 
+ 3.0 × 10 13 3.0\times 10^{13} 
+ 1.3 × 10 14 1.3\times 10^{14} 
+ 4.9 × 10 13 4.9\times 10^{13} 
+ 
+ Λ GUT / {\Lambda}_{\mbox{\tiny{GUT}}}/ GeV 
+ 1.3 × 10 18 1.3\times 10^{18} 
+ 1.5 × 10 17 1.5\times 10^{17} 
+ 7.2 × 10 15 7.2\times 10^{15} 
+ 7.2 × 10 15 7.2\times 10^{15} 
+ 
+ g ′ | M Z ′ g^{\prime}|_{M_{Z^{\prime}}} 
+ 0.471 
+ 0.467 
+ 0.476 
+ 0.482 
+ 
+ Q X ′ Q^{\prime}_{X} 
+ 
+ 
+ 
+ 
+ 
+ Q Q 
+ 0.224 
+ 0.231 
+ 0.234 
+ 0.232 
+ 
+ u c u^{c} 
+ 0.283 
+ 0.261 
+ 0.250 
+ 0.257 
+ 
+ d c d^{c} 
+ 0.055 
+ 0.067 
+ 0.073 
+ 0.069 
+ 
+ D D 
+ -0.449 
+ -0.462 
+ -0.468 
+ -0.464 
+ 
+ D c D^{c} 
+ -0.339 
+ -0.328 
+ -0.322 
+ -0.326 
+ 
+ L L 
+ 0.114 
+ 0.097 
+ 0.089 
+ 0.094 
+ 
+ e c e^{c} 
+ 0.165 
+ 0.201 
+ 0.218 
+ 0.208 
+ 
+ H u H^{u} 
+ -0.508 
+ -0.492 
+ -0.484 
+ -0.489 
+ 
+ H d H^{d} 
+ -0.279 
+ -0.298 
+ -0.307 
+ -0.301 
+ 
+ S S 
+ 0.787 
+ 0.790 
+ 0.790 
+ 0.790 
+ 
+ 
+ Table 3:  U ​ ( 1 ) ′ U(1)^{\prime}  charges and couplings corresponding to the four
+scenarios from Fig.  5 .  OPEN i ) i)  and  OPEN i ​ i ) ii)  label the
+matter content as in eq. ( 16 ) which breaks the
+intermediate gauge group.  
+ 
+ 
+ 
+ 3.4  Low-energy scenario and phenomenological aspects 
+
+ 
+ Decomposing the superpotential from ( 33 ) under SM  × U ​ ( 1 ) ′ \times U(1)^{\prime} , one obtains: 
+ 
+
+ 
+ 
+ W \displaystyle W\, 
+ = Y u ​ u c ​ Q ​ H u + Y d ​ d c ​ Q ​ H d + Y e ​ e c ​ L ​ H d \displaystyle=\,Y^{u}\,u^{c}\,Q\,H^{u}\,+\,Y^{d}\,d^{c}\,Q\,H^{d}\,+\,Y^{e}\,e^{c}\,L\,H^{d}\, 
+ 
+ 
+ 
+ 
+ + Y D ​ D ​ u c ​ e c + Y D c ​ D c ​ L ​ Q + Y S ​ D ​ S ​ D c ​ D + Y S ​ H ​ S ​ H u ​ H d . \displaystyle+\,Y^{D}\,D\,u^{c}\,e^{c}\,+\,Y^{D^{c}}\,D^{c}\,L\,Q\,+\,Y^{SD}\,S\,D^{c}\,D\,+\,Y^{SH}\,S\,H^{u}\,H^{d}\;. 
+ 
+ (18) 
+ 
+ Note, that this already incorporates  R R -parity since  U ​ ( 1 ) B-L U(1)_{\mbox{\tiny{B-L}}} 
+is contained in  E 6 E_{6} . In general, for example if the corresponding matter originates from fixed points where
+ E 6 E_{6}  is broken to  H ⊂ S ​ O ​ ( 10 ) × U ​ ( 1 ) χ H\subset SO(10)\times U(1)_{\chi} , the trinification relations between
+ Y S ​ D Y^{SD} ,  Y S ​ H Y^{SH}  and  Y e Y^{e} , and between  Y u Y^{u} ,  Y d Y^{d} , Y D Y^{D} ,  Y D ​ c Y^{Dc}  are relaxed, which allows the superpotential to respect  H H  parity.
+If at least one generation of color charged exotics  D , D c D,D^{c}  have leptoquark couplings (and are thus  H H -even) as it is allowed by scenarios with trinification
+or  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  intermediate breaking, it is conceivable that the  H H -odd exotics can decay into  H H -odd singlets and  H H -even leptoquarks. This might
+circumvent the need of models with intermediate  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi}  and no leptoquarks for a small  H H  parity breaking if such a scenario can be brought to be consistent with cosmological bounds on neutral dark matter. 
+ 
+ 
+ Electroweak symmetry breaking is triggered by the
+ S S  field obtaining a vev which appears to be naturally induced via radiative
+effects, as its coupling to the exotics drives the soft-breaking mass parameter
+ m S 2 m^{2}_{S}  to negative values. The quartic term in  S S  originates from the  U ​ ( 1 ) ′ U(1)^{\prime}   D D  term, linking the vev of the singlet to the mass of the  Z ′ Z^{\prime} 
+boson.
+In order to be consistent with experimental data, the singlet vev has to be
+above one TeV, generically decoupling the MSSM-like Higgs sector from the
+singlet field. 
+ 
+ 
+ 
+ 
+ 4  Conclusions and Outlook 
+
+ 
+ We have demonstrated how  ℤ n \mathbb{Z}_{n}  orbifold constructions can be
+used to generate an  E 6 E_{6}  inspired Exceptional SSM with a  D D  term
+induced singlet vev, circumventing many problems of comparable
+standard  E 6 E_{6}  GUT constructions. While models with intermediate  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi} 
+symmetry can be constructed in 5D orbifolds, the aim to have intermediate  L ​ R LR  symmetry
+led us to consider 6D geometries. The resulting models potentially
+provide a rich phenomenology at collider experiments: In addition to
+the generic  R R -parity conserving supersymmetric signatures, a
+ Z ′ Z^{\prime}  boson with a mass around the TeV scale as well as strongly
+produced leptoquark-like exotics should guarantee a high discovery
+potential at the LHC. This is in contrast to  S ​ U ​ ( 5 ) SU(5)  derived standard
+GUT unification scenarios which offer no directly observable collider
+phenomenology beyond the MSSM. 
+ 
+ 
+ Apart from  R R -parity, there is  H H -parity rendering the lightest un-Higgs
+or un-Higgsino stable (LHP). If the lightest particle which is odd
+under both parities is not heavy enough to decay into
+lighter singly-odd particles, there may even be a third type of
+dark matter. As there are multiple ways from the resulting
+multicomponent relic densities to be in agreement with current bounds
+from WMAP and astrophysical observations, they can add interesting
+aspects to the interpretation of recent direct and indirect WIMP searches. 
+ 
+ 
+ On the theoretical side, it would be interesting to explore whether such or
+similar scenarios can be embedded in complete heterotic string models. Those
+impose strict additional constraints and thus can reduce the level of
+arbitrariness in the choice of Wilson lines, representations and the
+massless spectrum which is inherent to the effective field theory
+approach. In this context it should also be possible to address the
+generation of the effective superpotential needed if matter is
+localized on different fixed points. This is postulated in the field
+theory construction, and we have only sketched this in this paper. It is also
+noteworthy that the 1-loop QCD beta function vanishes due
+to the color charged light exotics, and the unified gauge coupling in  S ​ U ​ ( N ) SU(N) 
+normalization,  α ⁡ ( Λ E ​ 6 ) ≈ 0.1 \alpha(\Lambda_{E6})\approx 0.1 , is therefore considerably
+larger than in standard MSSM unification. 
+ 
+ 
+ 
+ Acknowledgements 
+
+ 
+ We would like to thank Patrick Vaudrevange and Pavel Fileviez Perez
+for enlightening discussions. This work has been partially funded by
+the DFG under grant No. RE 2850/1-1 and the Graduate School GRK 1102
+“Physics at Hadron Colliders” as well as by the Juniorprofessor
+program of the Ministry of Science and Culture (MWK) of the German
+state Baden-Württemberg. 
+ 
+ 
+ 
+ Appendix A  LR symmetric  E 6 E_{6}  breaking on a Circle and a Torus 
+
+ 
+ A.1  Shift embeddings for  ℤ 2 \mathbb{Z}_{2} ,  ℤ 3 \mathbb{Z}_{3} ,  ℤ 4 \mathbb{Z}_{4}  and  ℤ 6 \mathbb{Z}_{6} 
+
+ 
+ Since we are interested in LR symmetric intermediate groups of rank 6, we
+restrict the orbifold action in group space to those generated by the Cartan
+generators. Let  θ \theta  be a generator of an orbifold symmetry, e.g.
+rotations, translations or parities. We can now associate with it an action in
+group space which we parameterize
+with a shift vector  V V  acting on the roots of  E 6 E_{6} . The roots thus transform
+as 
+ 
+
+ 
+ 
+ G ⁡ ( θ ) ​ E α = exp ⁡ [ 2 ​ π ​ i ​ V ⋅ H ] ​ E α = exp ⁡ [ 2 ​ π ​ i ​ V ⋅ α ] ​ E α G(\theta)E_{\alpha}=\exp\left[2\pi iV\cdot H\right]E_{\alpha}=\exp\left[2\pi iV\cdot\alpha\right]E_{\alpha} 
+ 
+ (19) 
+ 
+ where we demand that  V V  is chosen to be compatible with the multiplication law
+of the orbifold space group, i.e. 
+ 
+
+ 
+ 
+ G ​ ( θ ) n = exp ⁡ [ 2 ​ n ​ π ​ i ​ V ⋅ H ] = 1 G(\theta)^{n}=\exp\left[2n\pi iV\cdot H\right]=1 
+ 
+ (20) 
+ 
+ for  ℤ n \mathbb{Z}_{n} . This is
+equivalent to 
+ 
+
+ 
+ 
+ ∀ α : V ⋅ α ∈ ℤ / n \forall\alpha:V\cdot\alpha\in\mathbb{Z}/n 
+ 
+ (21) 
+ 
+ and  n ​ V nV  should thus be element of the co-root lattice. The unbroken
+subgroup which survives under such an orbifold action is given by the
+set of generators (the Cartan subalgebra and roots) which are left
+invariant under the action of  θ \theta . 
+ 
+ 
+ To narrow down the number of candidates, we demand that the minimal viable LR
+symmetric subgroup of rank 6,  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi} ,
+in the embedding given in Table  7  is contained in the
+invariant part  H ⊂ E 6 H\subset E_{6} . The resulting groups and representative shift
+vectors are shown in Table  4 . For  θ 2 = 1 \theta^{2}=1 , we find the two
+largest subgroups.
+If we extend our reach to transformations which obey  θ 3 = 1 \theta^{3}=1 , we find the
+trinification group. The case  θ 4 = 1 \theta^{4}=1  includes the  ℤ 2 \mathbb{Z}_{2} 
+candidates, and two new groups containing  S ​ U ​ ( 3 ) L / R SU(3)_{L/R} . Combining two
+orbifold parities, we find the common subgroups given in Table
+ 5 . Since the generators which survive on any fixed point or line
+are even under  θ \theta , we have to define boundary localized matter to be even
+under the orbifold twist as well. Likewise, of any matter
+representation with weights  μ i \mu_{i} , which transforms as (e.g. bulk matter) 
+ 
+ 
+ 
+
+ 
+ 
+ G ( θ ) | μ i ⟩ = e 2 ​ k ​ π ​ i / n exp [ 2 π i V ⋅ μ i ] | μ i ⟩ , k = 1 , … , n , G(\theta)|\mu_{i}\rangle=e^{2k\pi i/n}\exp\left[2\pi iV\cdot\mu_{i}\right]|\mu_{i}\rangle,\quad k=1,\dots,n\;\;, 
+ 
+ (22) 
+ 
+ only the even parts remain on the fixed
+point. 
+ 
+ 
+ 
+ 
+ 
+ ℤ 2 \mathbb{Z}_{2} 
+ Subgroup  H H 
+ Shift  2 ​ V ¯ 2\overline{V} 
+ 
+ 
+ S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi} 
+ ( 1 , 1 , 0 , 1 , 1 , 0 ) (1,1,0,1,1,0) 
+ 
+ 
+ S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) R SU(6)\times SU(2)_{R} 
+ ( 0 , 0 , 1 , 0 , 0 , 0 ) (0,0,1,0,0,0) 
+ 
+ 
+ S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) L SU(6)\times SU(2)_{L} 
+ ( 1 , 1 , 1 , 1 , 1 , 0 ) (1,1,1,1,1,0) 
+ 
+ ℤ 3 \mathbb{Z}_{3} 
+ Subgroup  H H 
+ Shift  3 ​ V ¯ 3\overline{V} 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) L × S ​ U ​ ( 3 ) R SU(3)_{C}\times SU(3)_{L}\times SU(3)_{R} 
+ ( 0 , 0 , 1 , 2 , 0 , 0 ) (0,0,1,2,0,0) 
+ 
+ ℤ 4 \mathbb{Z}_{4} 
+ Subgroup  H H 
+ Shift  4 ​ V ¯ 4\overline{V} 
+ 
+ 
+ S ​ U ​ ( 5 ) × U ⁡ ( 1 ) × S ​ U ​ ( 2 ) L SU(5)\times U(1)\times SU(2)_{L} 
+ ( 3 , 1 , 3 , 1 , 1 , 0 ) (3,1,3,1,1,0) 
+ 
+ 
+ S ​ U ​ ( 5 ) × U ⁡ ( 1 ) × S ​ U ​ ( 2 ) R SU(5)\times U(1)\times SU(2)_{R} 
+ ( 2 , 2 , 1 , 0 , 2 , 0 ) (2,2,1,0,2,0) 
+ 
+ 
+ S ​ U ​ ( 4 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) χ SU(4)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{\chi} 
+ ( 3 , 1 , 2 , 3 , 1 , 0 ) (3,1,2,3,1,0) 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) L × S ​ U ​ ( 2 ) R × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{L}\times SU(2)_{R}\times U(1) 
+ ( 0 , 0 , 1 , 2 , 0 , 0 ) (0,0,1,2,0,0) 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) R × S ​ U ​ ( 2 ) L × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{R}\times SU(2)_{L}\times U(1) 
+ ( 3 , 1 , 1 , 1 , 1 , 0 ) (3,1,1,1,1,0) 
+ 
+ ℤ 6 \mathbb{Z}_{6} 
+ Subgroup  H H 
+ Shift  6 ​ V ¯ 6\overline{V} 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) L × S ​ U ​ ( 2 ) R × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{L}\times SU(2)_{R}\times U(1) 
+ ( 4 , 2 , 1 , 0 , 2 , 0 ) (4,2,1,0,2,0) 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) R × S ​ U ​ ( 2 ) L × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{R}\times SU(2)_{L}\times U(1) 
+ ( 5 , 1 , 5 , 3 , 1 , 0 ) (5,1,5,3,1,0) 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) B − L × U ​ ( 1 ) χ SU(3)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{B-L}\times U(1)_{\chi} 
+ ( 1 , 5 , 4 , 3 , 5 , 0 ) (1,5,4,3,5,0) 
+ 
+ 
+ Table 4:  The subgroups  E 6 ⊃ H ⊃ G L ​ R × U ​ ( 1 ) χ E_{6}\supset H\supset G_{LR}\times U(1)_{\chi} 
+invariant under shifts which are compatible with  ℤ 2 \mathbb{Z}_{2} ,
+ ℤ 3 \mathbb{Z}_{3} ,  ℤ 4 \mathbb{Z}_{4}  amd  ℤ 6 \mathbb{Z}_{6} . Representative shift vectors for
+each case are given in the dual basis such that  V ⋅ α = V ¯ ⋅ Δ ⁡ ( α ) V\cdot\alpha=\overline{V}\cdot\Delta(\alpha) .  
+ 
+ 
+ 
+ 
+ 
+ ℤ 2 × ℤ 2 \mathbb{Z}_{2}\times\mathbb{Z}_{2} 
+ S ​ U ​ ( 4 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) χ SU(4)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{\chi} 
+ 
+ 
+ 
+ ℤ 2 × ℤ 3 \mathbb{Z}_{2}\times\mathbb{Z}_{3} 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) B − L × U ​ ( 1 ) χ SU(3)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{B-L}\times U(1)_{\chi} 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) L × S ​ U ​ ( 2 ) R × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{L}\times SU(2)_{R}\times U(1) 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) R × S ​ U ​ ( 2 ) L × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{R}\times SU(2)_{L}\times U(1) 
+ 
+ ℤ 2 × ℤ 4 \mathbb{Z}_{2}\times\mathbb{Z}_{4} 
+ S ​ U ​ ( 4 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) χ SU(4)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{\chi} 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) B − L × U ​ ( 1 ) χ SU(3)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{B-L}\times U(1)_{\chi} 
+ 
+ ℤ 3 × ℤ 4 \mathbb{Z}_{3}\times\mathbb{Z}_{4} 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) L × S ​ U ​ ( 2 ) R × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{L}\times SU(2)_{R}\times U(1) 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) R × S ​ U ​ ( 2 ) L × U ⁡ ( 1 ) SU(3)_{C}\times SU(3)_{R}\times SU(2)_{L}\times U(1) 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) B − L × U ​ ( 1 ) χ SU(3)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{B-L}\times U(1)_{\chi} 
+ 
+ ℤ 4 × ℤ 4 \mathbb{Z}_{4}\times\mathbb{Z}_{4} 
+ S ​ U ​ ( 4 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) χ SU(4)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{\chi} 
+ 
+ 
+ S ​ U ​ ( 3 ) C × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) B − L × U ​ ( 1 ) χ SU(3)_{C}\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{B-L}\times U(1)_{\chi} 
+ 
+ 
+ Table 5:  The nontrivial ( H i ⊈ H j H_{i}\nsubseteq H_{j} ) common invariant
+subgroups  H i ∩ H j H_{i}\cap H_{j}  under combinations of two
+shifts. 
+ 
+ 
+ 
+ A.2  Orbifold Geometries in  D = 5 D=5 
+
+ 
+ In  D = 5 D=5  there are essentially two orbifolds,  S 1 / ℤ 2 S^{1}/\mathbb{Z}_{2}  and
+ S 1 / ( ℤ 2 × ℤ 2 ′ ) S^{1}/\mathbb{(}\mathbb{Z}_{2}\times\mathbb{Z}^{\prime}_{2}) , which have as
+fundamental domains an interval  [ 0 , π ​ R ] [0,\pi R]  with boundary conditions
+imposed on both ends (corresponding to the fixed points). The former can be seen as a special case of the latter
+without discrete Wilson line. An exemplary construction is shown in Figure  2 . One can start with the compactification of the real line  ℝ \mathbb{R} 
+to  S 1 S^{1}  by modding out a translation  t t . An order 2 reflection about the origin  r r  induces a second reflection  r ′ = t ​ r r^{\prime}=tr . The fundamental domain is an interval with
+the fixed points of  r r  and  r ′ r^{\prime}  as boundaries. One can now assign different  ℤ 2 \mathbb{Z}_{2}  gauge shifts to the two reflections  r r  and  r ′ r^{\prime}  to break  E 6 E_{6}  down to subgroups
+on the two fixed points, resulting in a discrete Wilson line. 
+ 
+ 
+ 
+ A.3  Orbifold Geometries in  D = 6 D=6 
+
+ 
+ We now want to consider the possibilites how  E 6 E_{6}  can be broken to
+suitable rank 6 subgroups containing  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  using two extra dimensions.
+In general, we can consider  ℝ 2 / Γ \mathbb{R}^{2}/\Gamma  where
+ Γ \Gamma  is one of the 17 plane crystallographic groups. To obtain a
+gauge symmetry close to  G P ​ S × U ​ ( 1 ) χ G_{PS}\times U(1)_{\chi}  or  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi}  and hence less constrained
+superpotentials, we search for 6D geometries with fixed points in
+which two generators, either rotations or
+translations, can carry nontrivial gauge embeddings. In this paper, we consider only
+rotational embeddings, and leave the possibilities of geometries involving mirror
+planes such as the orbifolds  ∗ 𝟑 \bf 3\!*\!3  and  ∗ 𝟑𝟑𝟑 \bf*333  for future investigation 2 2 
+               2 
+              
+              
+              
+            For the crystallographic groups we use the
+orbifold notation, cf.  [ 23 ] . .
+We discuss some examples which can be useful in LR symmetric  E 6 E_{6}  breaking. 
+ 
+ 
+ A.3.1  Maximal Subgroups from a  ℤ 2 \mathbb{Z}_{2}  Orbifold 
+
+ 
+ 
+ Figure 5:  The  ℝ 2 / 𝟐𝟐𝟐𝟐 \mathbb{R}^{2}/{\bf 2222}  orbifold which is one of the
+ T 2 / ℤ 2 T^{2}/\mathbb{Z}_{2}  orbifolds. The blue diamonds indicate
+the fixed points under the four  180 ∘ 180^{\circ}  rotations, while the red
+arrows are the translations which span the torus. The
+light shaded area indicates the torus, the dark shaded area
+corresponds to the fundamental domain of the
+orbifold. 
+ 
+ 
+ The  T 2 / ℤ 2 T^{2}/\mathbb{Z}_{2}  geometry  ℝ 2 / 𝟐𝟐𝟐𝟐 \mathbb{R}^{2}/{\bf 2222}  as
+shown in Fig.  5  is generated by modding out a torus
+(not necessarily a  90 ∘ 90^{\circ}  one as shown here) with a  180 ∘ 180^{\circ} 
+(order 2) rotation  r r  about the origin, to which we can assign a shift
+embedding 
+ 
+
+ 
+ 
+ G ⁡ ( r ) ​ E α ∈ { 1 , − 1 } ​ E α . G(r)E_{\alpha}\in\{1,-1\}E_{\alpha}\;. 
+ 
+ (23) 
+ 
+ Together with the two translations  t 1 t_{1}  and  t 2 t_{2}  denoted by the red
+arrows, this induces four rotations of order 2 shown as blue
+diamonds. They are generated by 
+ 
+
+ 
+ 
+ r ′ = t 1 ​ r , r ′′ = t 2 ​ t 1 ​ r , r ′′′ = t 2 ​ r \displaystyle r^{\prime}=t_{1}r,\quad r^{\prime\prime}=t_{2}t_{1}r,\quad r^{\prime\prime\prime}=t_{2}r 
+ 
+ (24) 
+ 
+ The orbifold offers the possibility to assign two  ℤ 2 \mathbb{Z}_{2} -discrete Wilson lines to  t 1 t_{1}  and  t 2 t_{2} . The resulting gauge
+shifts
+are 
+ 
+
+ 
+ 
+ G ⁡ ( r ′ ) ​ E α \displaystyle G(r^{\prime})E_{\alpha} 
+ = \displaystyle= 
+ G ⁡ ( t 1 ) ​ G ​ ( r ) ​ E α ∈ { 1 , − 1 } ​ E α \displaystyle G(t_{1})G(r)E_{\alpha}\in\{1,-1\}E_{\alpha} 
+ 
+ (25) 
+ 
+ 
+ G ⁡ ( r ′′ ) ​ E α \displaystyle G(r^{\prime\prime})E_{\alpha} 
+ = \displaystyle= 
+ G ⁡ ( t 2 ) ​ G ​ ( t 1 ) ​ G ​ ( r ) ​ E α ∈ { 1 , − 1 } ​ E α \displaystyle G(t_{2})G(t_{1})G(r)E_{\alpha}\in\{1,-1\}E_{\alpha} 
+ 
+ (26) 
+ 
+ 
+ G ⁡ ( r ′′′ ) ​ E α \displaystyle G(r^{\prime\prime\prime})E_{\alpha} 
+ = \displaystyle= 
+ G ⁡ ( t 2 ) ​ G ​ ( r ) ​ E α ∈ { 1 , − 1 } ​ E α \displaystyle G(t_{2})G(r)E_{\alpha}\in\{1,-1\}E_{\alpha} 
+ 
+ (27) 
+ 
+ As was summarized in Tables  4  and  5 , we
+can use these assignments to break  E 6 E_{6}  to either  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi} ,
+ S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) L SU(6)\times SU(2)_{L} ,  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) R SU(6)\times SU(2)_{R}  or the intersection of
+either pair,  S ​ U ​ ( 4 ) × S ​ U ​ ( 2 ) L × S ​ U ​ ( 2 ) R × U ​ ( 1 ) χ SU(4)\times SU(2)_{L}\times SU(2)_{R}\times U(1)_{\chi} . The fixed points themselves always exhibit the local gauge
+invariance  E 6 E_{6} ,  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  or  S ​ U ​ ( 6 ) × S ​ U ​ ( 2 ) SU(6)\times SU(2) . 
+ 
+ 
+ 
+ A.3.2  Trinification on a  ℤ 3 \mathbb{Z}_{3}  Orbifold 
+
+ 
+ Figure 6:  The  ℝ 2 / 𝟑𝟑𝟑 \mathbb{R}^{2}/{\bf 333}  orbifold which is one of the
+ T 2 / ℤ 3 T^{2}/\mathbb{Z}_{3}  orbifolds. The blue triangles indicate
+the fixed points under the three  120 ∘ 120^{\circ}  rotations, while the
+red arrows are the translations which span the torus. The
+light shaded area indicates the torus, the dark shaded area
+corresponds to the fundamental domain of the
+orbifold. 
+ 
+ 
+ We can obtain the trinification group  S ​ U ​ ( 3 ) C × S ​ U ​ ( 3 ) L × S ​ U ​ ( 3 ) R SU(3)_{C}\times SU(3)_{L}\times SU(3)_{R}  by modding out the torus,  T 2 / ℤ 3 T^{2}/\mathbb{Z}_{3} ,
+corresponding to the geometry  ℝ 2 / 𝟑𝟑𝟑 \mathbb{R}^{2}/\mathbf{333}  as shown in
+Fig.  6 . The fundamental space is a 3-pillow. It is
+generated by a  120 ∘ 120^{\circ}  rotation  r r  about the origin, which we can
+give a  ℤ 3 \mathbb{Z}_{3}  shift embedding, 
+ 
+
+ 
+ 
+ G ⁡ ( r ) ​ E α ∈ { 1 , e 2 ​ π ​ i / 3 , e 4 ​ π ​ i / 3 } ​ E α . G(r)E_{\alpha}\in\{1,e^{2\pi i/3},e^{4\pi i/3}\}E_{\alpha}\;. 
+ 
+ (28) 
+ 
+ In addition, we can assign discrete Wilson lines to the translations
+which span the torus, which induce different gauge shifts for the two
+rotations  r ′ = t 1 ​ t 2 ​ r r^{\prime}=t_{1}t_{2}r  and  r ′′ = t 1 ​ r r^{\prime\prime}=t_{1}r , 
+ 
+
+ 
+ 
+ G ⁡ ( t 1 ) ​ E α = G ⁡ ( t 2 ) ​ E α ≡ G ⁡ ( t ) ​ E α ∈ { 1 , e 2 ​ π ​ i / 3 , e 4 ​ π ​ i / 3 } ​ E α \displaystyle G(t_{1})E_{\alpha}=G(t_{2})E_{\alpha}\equiv G(t)E_{\alpha}\in\{1,e^{2\pi i/3},e^{4\pi i/3}\}E_{\alpha} 
+ 
+ (29) 
+ 
+ 
+ G ⁡ ( r ′ ) = G ​ ( t ) 2 ​ G ​ ( r ) , G ⁡ ( r ′′ ) = G ⁡ ( t ) ​ G ​ ( r ) = G ​ ( t ) − 1 ​ G ​ ( r ′ ) \displaystyle G(r^{\prime})=G(t)^{2}G(r),\quad G(r^{\prime\prime})=G(t)G(r)=G(t)^{-1}G(r^{\prime}) 
+ 
+ (30) 
+ 
+ This gives us the possibility to have reduced gauge symmetry  S ​ U ​ ( 3 ) 3 SU(3)^{3} 
+on none, two or all three corners of the pillow. We can choose for
+example 
+ 
+
+ 
+ 
+ G ⁡ ( r ) ​ E α \displaystyle G(r)E_{\alpha} 
+ = \displaystyle= 
+ exp ⁡ [ 2 ​ π ​ i ​ ( 0 , 0 , 1 3 , − 1 3 , 0 , 0 ) ⋅ Δ ⁡ ( α ) ] ​ E α , G ⁡ ( t ) = 1 \displaystyle\exp\Big[2\pi i\,(0,0,\frac{1}{3},-\frac{1}{3},0,0)\cdot\Delta(\alpha)\Big]E_{\alpha},\quad G(t)=1 
+ 
+ (31) 
+ 
+ as given in Table  4 .
+The resulting invariance  S ​ U ​ ( 3 ) 3 SU(3)^{3}  contains the  G L ​ R × U ​ ( 1 ) χ G_{LR}\times U(1)_{\chi} 
+subgroup which can for example be obtained if an additional vev in the
+direction  t B − L t_{B-L}  is present. Since all fixed points are invariant
+under  S ​ U ​ ( 3 ) 3 SU(3)^{3}  only, it is interesting to consider what is the most
+general invariant superpotential for each. Inspired by the
+anomaly-free  E 6 E_{6}  particle content, we start with the decomposition
+of the  𝟐𝟕 \mathbf{27}  under the trinification group, which is 
+ 
+
+ 
+ 
+ 𝟐𝟕 \displaystyle\bf 27 
+ → \displaystyle\rightarrow 
+ ( 𝟑 ¯ , 𝟏 , 𝟑 ) ⏟ 𝐀 + ( 𝟑 , 𝟑 , 𝟏 ) ⏟ 𝐁 + ( 𝟏 , 𝟑 ¯ , 𝟑 ¯ ) ⏟ 𝐂 \displaystyle\bf\underbrace{\bf(\overline{3},1,3)}_{A}+\underbrace{\bf(3,3,1)}_{B}+\underbrace{\bf(1,\overline{3},\overline{3})}_{C} 
+ 
+ (32) 
+ 
+ where  𝐀 \mathbf{A}  contains right-handed quarks  q R c q_{R}^{c}  and an exotic
+ D c D^{c} ,  𝐁 \mathbf{B}  contains left-handed quarks  q L q_{L}  and an exotic
+ D D , while  𝐂 \mathbf{C}  contains all Higgs  H u H_{u} ,  H d H_{d}  fields including
+the SM singlet  S S , and all leptons. The  E 6 E_{6} -invariant
+renormalizable trilinear superpotential decomposes into four
+independent  S ​ U ​ ( 3 ) 3 SU(3)^{3}  invariants, 
+ 
+
+ 
+ 
+ 𝟐𝟕 𝟑 \displaystyle\bf 27^{3} 
+ → \displaystyle\rightarrow 
+ c 1 ​ 𝐀 3 + c 2 ​ 𝐁 3 + c 3 ​ 𝐂 3 + c 4 ​ 𝐀𝐁𝐂 , \displaystyle c_{1}{\bf A}^{3}+c_{2}{\bf B}^{3}+c_{3}{\bf C}^{3}+c_{4}{\bf ABC}\;, 
+ 
+ (33) 
+ 
+ which is already the most general renormalizable superpotential one can write
+down for this field content. The first term  𝐀 3 {\bf A}^{3}  contains only
+diquark-like couplings to  D c D^{c} , while  𝐁 3 {\bf B}^{3}  only contains diquark-like
+couplings to  D D . The remaining two invariants give us a complete MSSM-like
+superpotential including an effective  μ \mu  Term  S ​ H u ​ H d SH_{u}H_{d} , leptoquark
+couplings and effective leptoquark masses  S ​ D c ​ D SD^{c}D . If we demand  c 1 = c 2 = 0 c_{1}=c_{2}=0 
+by some symmetry,  D D  and  D c D^{c}  thus become true leptoquarks. Here, any
+symmetry will do under which  𝐀 \mathbf{A}  and  𝐁 \mathbf{B}  are odd
+while  𝐂 \mathbf{C}  is uncharged such as baryon number or parity. Even
+with intermediate breaking to  G S ​ M × U ⁡ ( 1 ) G_{SM}\times U(1)  for example from an adjoint vev  ⟨ 𝟕𝟖 ⟩ ∼ Q B − L {\bf\langle 78\rangle}\sim Q_{B-L} , none of the
+ S ​ U ​ ( 3 ) 3 SU(3)^{3}  subgroups unify below the Planck scale assuming the full
+ E 6 E_{6}  particle content (with right-handed neutrinos massive at the
+intermediate scale). Therefore, one has to invoke additional physics
+to achieve unification, either incomplete  E 6 E_{6}  multiplets or
+extra-dimensional effects  [ 24 ,  25 ] . 
+ 
+ 
+ 
+ A.3.3  Pati-Salam Symmetry on a  ℤ 4 \mathbb{Z}_{4}  Orbifold 
+
+ 
+ Figure 7:  The  ℝ 2 / 𝟒𝟒𝟐 \mathbb{R}^{2}/{\bf 442}  orbifold which is a
+ T 2 / ℤ 4 T^{2}/\mathbb{Z}_{4}  orbifold. The blue rectangles and and diamond
+indicate the fixed points under the  90 ∘ 90^{\circ}  and  180 ∘ 180^{\circ} 
+rotations respectively, while the red arrows are the
+translations which span the torus. The light shaded area indicates
+the torus, the dark shaded area corresponds to the fundamental
+domain of the orbifold. 
+ 
+ 
+ The simplest 6D orbifold symmetry without reflections which can accomodate  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi}  fixed points is the  T 2 / ℤ 4 T^{2}/\mathbb{Z}_{4}  orbifold  ℝ 2 / 𝟒𝟒𝟐 \mathbb{R}^{2}/{\bf 442} . It is shown in Fig.  7 . The order 4 rotation  r r  together with the translations  t 1 t_{1}  and  t 2 t_{2}  induce an order 4 and an order 2 rotation 
+ 
+
+ 
+ 
+ r ′′ = t 1 ​ r , r ′ = t 1 ​ r 2 \displaystyle r^{\prime\prime}=t_{1}r,\quad r^{\prime}=t_{1}r^{2} 
+ 
+ (34) 
+ 
+ where  r ​ t 1 = t 2 ​ r rt_{1}=t_{2}r . There is one discrete Wilson line  G ⁡ ( t ) = G ⁡ ( t 1 ) = G ⁡ ( t 2 ) G(t)=G(t_{1})=G(t_{2})  of order two. To obtain a model with 4D gauge invariance  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi} 
+with fixed points that allow H parity and the suppression of lepto-diquark couplings, we can for example choose 
+ 
+
+ 
+ 
+ G ⁡ ( r ) ​ E α \displaystyle G(r)E_{\alpha} 
+ = \displaystyle= 
+ exp ⁡ [ 2 ​ π ​ i ​ ( 3 4 , 1 4 , 1 2 , 3 4 , 1 4 , 0 ) ⋅ Δ ⁡ ( α ) ] ​ E α \displaystyle\exp\Big[2\pi i\,(\frac{3}{4},\frac{1}{4},\frac{1}{2},\frac{3}{4},\frac{1}{4},0)\cdot\Delta(\alpha)\Big]E_{\alpha} 
+ 
+ 
+ 
+ G ⁡ ( t ) ​ E α \displaystyle G(t)E_{\alpha} 
+ = \displaystyle= 
+ exp ⁡ [ 2 ​ π ​ i ​ ( 1 2 , 1 2 , 0 , 1 2 , 1 2 , 0 ) ⋅ Δ ⁡ ( α ) ] ​ E α \displaystyle\exp\Big[2\pi i\,(\frac{1}{2},\frac{1}{2},0,\frac{1}{2},\frac{1}{2},0)\cdot\Delta(\alpha)\Big]E_{\alpha} 
+ 
+ (35) 
+ 
+ as given in Table  4 . Now,  E 6 E_{6}  is broken down to  P ​ S × U ​ ( 1 ) χ PS\times U(1)_{\chi}  at the order 4 fixed points and remains unbroken at the order 2 fixed point. If one chooses instead  G ⁡ ( t ) = 1 G(t)=1 , it is broken to  S ​ O ​ ( 10 ) × U ​ ( 1 ) χ SO(10)\times U(1)_{\chi}  at the order 2 fixed point, allowing H parity. 
+ 
+ 
+ 
+ A.3.4  Minimal LR Symmetry on a  ℤ 6 \mathbb{Z}_{6}  Orbifold 
+
+ 
+ Figure 8:  The  ℝ 2 / 𝟔𝟑𝟐 \mathbb{R}^{2}/{\bf 632}  orbifold which is one of the
+ T 2 / ℤ 6 T^{2}/\mathbb{Z}_{6}  orbifolds. The blue circle, triangle and diamond
+indicate the fixed points under the  60 ∘ 60^{\circ} ,  120 ∘ 120^{\circ}  and
+ 180 ∘ 180^{\circ}  rotations respectively, while the red arrows are the
+translations which span the torus. The light shaded area indicates
+the torus, the dark shaded area corresponds to the fundamental
+domain of the orbifold. 
+ 
+ 
+ The simplest 6D orbifold geometry which can contain both nontrivial
+ ℤ 2 \mathbb{Z}_{2}  and  ℤ 3 \mathbb{Z}_{3}  shifts is the  T 2 / ℤ 6 T^{2}/\mathbb{Z}_{6} 
+orbifold  ℝ 2 / 𝟔𝟑𝟐 \mathbb{R}^{2}/{\bf 632}  or p6. It is shown in
+Fig.  8 . The order 6 rotation  r 6 r_{6}  together with the
+translations  t 1 t_{1}  and  t 2 t_{2}  induces an order 2 and an order 3
+rotation 
+ 
+
+ 
+ 
+ r 2 = t 1 ​ r 6 3 , r 3 = t 1 ​ r 6 2 . \displaystyle r_{2}=t_{1}r_{6}^{3},\quad r_{3}=t_{1}r_{6}^{2}\;. 
+ 
+ (36) 
+ 
+ Although we are not allowed to assign discrete Wilson lines since from
+equation ( 36 ) follows that  G ​ ( t 1 ) 2 = G ​ ( t 1 ) 3 = 11 G(t_{1})^{2}=G(t_{1})^{3}=1\hskip-3.44444pt1\hskip 0.0pt , we can choose gauge shifts for the  ℤ 2 \mathbb{Z}_{2} 
+and  ℤ 3 \mathbb{Z}_{3}  rotation separately.
+The possible shifts satisfy 
+ 
+
+ 
+ 
+ G ⁡ ( r 2 ) ​ E α \displaystyle G(r_{2})E_{\alpha} 
+ = \displaystyle= 
+ G ​ ( r 6 ) 3 ​ E α ∈ { 1 , − 1 } ​ E α \displaystyle G(r_{6})^{3}E_{\alpha}\in\{1,-1\}E_{\alpha} 
+ 
+ (37) 
+ 
+ 
+ G ⁡ ( r 3 ) ​ E α \displaystyle G(r_{3})E_{\alpha} 
+ = \displaystyle= 
+ G ​ ( r 6 ) 2 ​ E α ∈ { 1 , e 2 ​ π ​ i / 3 , e 4 ​ π ​ i / 3 } ​ E α , \displaystyle G(r_{6})^{2}E_{\alpha}\in\{1,e^{2\pi i/3},e^{4\pi i/3}\}E_{\alpha}\;, 
+ 
+ (38) 
+ 
+ and vice versa 
+ 
+
+ 
+ 
+ G ⁡ ( r 6 ) ​ E α \displaystyle G(r_{6})E_{\alpha} 
+ = \displaystyle= 
+ G ⁡ ( r 2 ) ​ G ​ ( r 3 ) − 1 ​ E α ∈ { 1 , e π ​ i / 3 , e 2 ​ π ​ i / 3 , − 1 , e 4 ​ π ​ i / 3 , e 5 ​ π ​ i / 3 } ​ E α . \displaystyle G(r_{2})G(r_{3})^{-1}E_{\alpha}\in\{1,e^{\pi i/3},e^{2\pi i/3},-1,e^{4\pi i/3},e^{5\pi i/3}\}E_{\alpha}\;. 
+ 
+ (39) 
+ 
+ 
+ 
+ 
+ 
+ 
+ Appendix B  Conventions 
+
+ 
+ B.1  Dirac Algebra 
+
+ 
+ Using  σ 0 = σ ¯ 0 = 1 \sigma^{0}=\overline{\sigma}^{0}=1 ,  σ i = − σ ¯ i \sigma^{i}=-\overline{\sigma}^{i}  and the 5D Dirac algebra 
+ 
+
+ 
+ 
+ γ μ = ( 0 σ μ σ ¯ μ 0 ) , γ 5 = ( − i 0 0 i ) \gamma^{\mu}=\left(\begin{array}[]{cc}0&\sigma^{\mu}\\
+\overline{\sigma}^{\mu}&0\end{array}\right),\quad\gamma^{5}=\left(\begin{array}[]{cc}-i&0\\
+0&i\end{array}\right) 
+ 
+ (40) 
+ 
+ we define the 6D Dirac algebra as 
+ 
+
+ 
+ 
+ Γ μ = ( 0 γ μ γ μ 0 ) , Γ 5 = ( 0 γ 5 γ 5 0 ) , Γ 6 = ( 0 − 1 1 0 ) \Gamma^{\mu}=\left(\begin{array}[]{cc}0&\gamma^{\mu}\\
+\gamma^{\mu}&0\end{array}\right),\quad\Gamma^{5}=\left(\begin{array}[]{cc}0&\gamma^{5}\\
+\gamma^{5}&0\end{array}\right),\quad\Gamma^{6}=\left(\begin{array}[]{cc}0&-1\\
+1&0\end{array}\right) 
+ 
+ (41) 
+ 
+ and the 6D chirality operator as 
+ 
+
+ 
+ 
+ i ​ Γ 7 = ( − 1 0 0 1 ) i\Gamma^{7}=\left(\begin{array}[]{cc}-1&0\\
+0&1\end{array}\right) 
+ 
+ (42) 
+ 
+ In this basis, 
+ 
+
+ 
+ 
+ exp [ ϕ 4 [ Γ 5 , Γ 6 ] ] = diag ( e − i ϕ / 2 , e i ​ ϕ / 2 , e i ​ ϕ / 2 , e − i ϕ / 2 ) ∼ U ( 1 ) ⊂ S O ( 1 , 5 ) \exp\left[\frac{\phi}{4}\left[\Gamma^{5},\Gamma^{6}\right]\right]=\mbox{diag}\left(e^{-i\phi/2},e^{i\phi/2},e^{i\phi/2},e^{-i\phi/2}\right)\sim U(1)\subset SO(1,5) 
+ 
+ (43) 
+ 
+ corresponds to a counter-clockwise rotation with angle  ϕ \phi  about the origin in the extra dimensional space, 
+ 
+
+ 
+ 
+ Ψ ¯ ​ ( Γ 5 + i ​ Γ 6 ) ​ Ψ ⟶ e i ​ ϕ ​ Ψ ¯ ​ ( Γ 5 + i ​ Γ 6 ) ​ Ψ . \overline{\Psi}(\Gamma^{5}+i\Gamma^{6})\Psi\longrightarrow e^{i\phi}\,\overline{\Psi}(\Gamma^{5}+i\Gamma^{6})\Psi. 
+ 
+ 
+ 
+ 
+ 
+ B.2  Lie Algebras 
+
+ 
+ There are several ways to specify a weight vector  [ 27 ] . Let 
+ 
+
+ 
+ 
+ ( α a ) k (\alpha^{a})_{k} 
+ 
+ (44) 
+ 
+ ( a = 1 , … , 6 a=1,\ldots,6 ) be the component vectors of the simple roots of  E 6 E_{6}  and 
+ 
+
+ 
+ 
+ A i ​ j = 2 ​ α i ⋅ α j | α j | 2 A^{ij}=\frac{2\alpha^{i}\cdot\alpha^{j}}{|\alpha^{j}|^{2}} 
+ 
+ (45) 
+ 
+ the (symmetric) Cartan Matrix of  E 6 E_{6} . Then, there are 
+ 
+ 1.  
+ 
+ The weight vector in the canonical basis,  μ k = c i ​ ( α i ) k \mu_{k}=c^{i}(\alpha^{i})_{k} 
+ 
+ 2.  
+ 
+ The Dynkin coefficients  Δ \Delta  where  Δ a ​ ( A − 1 ) a ​ b ​ ( α b ) i = μ i \Delta^{a}(A^{-1})^{ab}(\alpha^{b})_{i}=\mu_{i} 
+ 
+ 3.  
+ 
+ The dual weights  μ ¯ \overline{\mu}  where  Δ i = A j ​ i ​ 2 | α j | 2 ​ μ ¯ j \Delta^{i}=A^{ji}\frac{2}{|\alpha^{j}|^{2}}\overline{\mu}^{j} 
+ 
+ 
+ These are defined such that the scalar product of two weights in the canonical basis can be recast as 
+ 
+
+ 
+ 
+ μ ⋅ λ = Δ μ ⋅ λ ¯ = Δ λ ⋅ μ ¯ \mu\cdot\lambda=\Delta_{\mu}\cdot\overline{\lambda}=\Delta_{\lambda}\cdot\overline{\mu} 
+ 
+ (46) 
+ 
+ In this paper we give shifts and charges as Dynkin coefficients and in the dual basis. 
+ 
+ 
+ 
+ B.3  E 6 E_{6}  Representations 
+
+ 
+ The Tables  6  and  7  list the weights(roots) of the
+ 𝟐𝟕 \mathbf{27}  and  𝟕𝟖 \mathbf{78}  representation of  E 6 E_{6}  and the particle
+assignments as used in this paper. The basis choice is not unique. We
+define the Cartan generators in the dual basis as follows: 
+ 
+
+ 
+ 
+ I ¯ L 3 \displaystyle\overline{I}^{3}_{L} 
+ = \displaystyle= 
+ ( − 1 2 , − 1 2 , − 1 2 , − 1 2 , − 1 2 , 0 ) \displaystyle(-\frac{1}{2},-\frac{1}{2},-\frac{1}{2},-\frac{1}{2},-\frac{1}{2},\phantom{-}0) 
+ 
+ (47) 
+ 
+ 
+ I ¯ R 3 ​ c \displaystyle\overline{I}^{3c}_{R} 
+ = \displaystyle= 
+ ( 0 , 0 , − 1 2 , 0 , 0 , 0 ) \displaystyle(\phantom{-}0,\phantom{-}0,-\frac{1}{2},\phantom{-}0,\phantom{-}0,\phantom{-}0) 
+ 
+ (48) 
+ 
+ 
+ Q ¯ e \displaystyle\overline{Q}_{e} 
+ = \displaystyle= 
+ ( − 1 3 , − 2 3 , − 4 3 , − 1 , − 2 3 , 0 ) \displaystyle(-\frac{1}{3},-\frac{2}{3},-\frac{4}{3},-1,-\frac{2}{3},\phantom{-}0) 
+ 
+ (49) 
+ 
+ 
+ Q ¯ Y \displaystyle\overline{Q}_{Y} 
+ = \displaystyle= 
+ ( 1 6 , − 1 6 , − 5 6 , − 1 2 , − 1 6 , 0 ) \displaystyle(\phantom{-}\frac{1}{6},-\frac{1}{6},-\frac{5}{6},-\frac{1}{2},-\frac{1}{6},\phantom{-}0) 
+ 
+ (50) 
+ 
+ 
+ Q ¯ B − L \displaystyle\overline{Q}_{B-L} 
+ = \displaystyle= 
+ ( 1 6 , − 1 6 , − 1 3 , − 1 2 , − 1 6 , 0 ) \displaystyle(\phantom{-}\frac{1}{6},-\frac{1}{6},-\frac{1}{3},-\frac{1}{2},-\frac{1}{6},\phantom{-}0) 
+ 
+ (51) 
+ 
+ 
+ Q ¯ χ \displaystyle\overline{Q}_{\chi} 
+ = \displaystyle= 
+ ( 1 2 , − 1 2 , 0 , 1 2 , − 1 2 , 0 ) \displaystyle(\phantom{-}\frac{1}{2},-\frac{1}{2},\phantom{-}0,\phantom{-}\frac{1}{2},-\frac{1}{2},\phantom{-}0) 
+ 
+ (52) 
+ 
+ These vectors must be multiplied with the Dynkin coefficients of a state  | μ ⟩ |\mu\rangle  to obtain the corresponding physical charges, 
+ 
+
+ 
+ 
+ Q ¯ i ⋅ Δ ⁡ ( μ ) = Q i ​ ( μ ) \overline{Q}_{i}\cdot\Delta(\mu)=Q_{i}(\mu) 
+ 
+ 
+ In this normalization, 
+ 
+
+ 
+ 
+ Q ¯ Y = Q ¯ B − L + I ¯ R 3 ​ c , Q ¯ e = Q ¯ Y + I ¯ L 3 \displaystyle\overline{Q}_{Y}=\overline{Q}_{B-L}+\overline{I}^{3c}_{R},\quad\overline{Q}_{e}=\overline{Q}_{Y}+\overline{I}^{3}_{L} 
+ 
+ (53) 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ # Δ  weight I L I R c Q e Q Y Q B − L Q χ assignment 1 1 0 0 0 0 0 − 1 2 0 − 1 3 1 6 1 6 1 2 d L 2 − 1 1 0 0 0 0 0 0 − 1 3 − 1 3 − 1 3 − 1 D 3 0 − 1 1 0 0 0 0 − 1 2 − 2 3 − 2 3 − 1 6 1 2 u R c 4 0 0 − 1 1 0 1 0 1 2 1 3 1 3 − 1 6 1 2 d R c 5 0 0 0 1 0 − 1 − 1 2 0 − 1 − 1 2 − 1 2 1 2 e L 6 0 0 0 − 1 1 1 0 0 1 3 1 3 1 3 − 1 D c 7 0 0 1 − 1 1 − 1 − 1 2 − 1 2 − 1 − 1 2 0 − 1 H d 8 0 0 0 0 − 1 1 1 2 0 2 3 1 6 1 6 1 2 u L 9 0 0 1 0 − 1 − 1 0 − 1 2 − 2 3 − 2 3 − 1 6 1 2 u R c 10 0 1 − 1 0 1 0 − 1 2 1 2 0 1 2 0 − 1 H u 11 0 1 − 1 1 − 1 0 0 1 2 1 3 1 3 − 1 6 1 2 d R c 12 1 − 1 0 0 1 0 − 1 2 0 − 1 3 1 6 1 6 1 2 d L 13 0 1 0 − 1 0 0 0 0 1 3 1 3 1 3 − 1 D c 14 1 − 1 0 1 − 1 0 0 0 0 0 0 2 S 15 − 1 0 0 0 1 0 0 0 − 1 3 − 1 3 − 1 3 − 1 D 16 1 − 1 1 − 1 0 0 0 − 1 2 0 0 1 2 1 2 ν R c 17 − 1 0 0 1 − 1 0 1 2 0 0 − 1 2 − 1 2 1 2 ν L 18 1 0 − 1 0 0 1 0 1 2 1 1 1 2 1 2 e R c 19 − 1 0 1 − 1 0 0 1 2 − 1 2 0 − 1 2 0 − 1 H d 20 1 0 0 0 0 − 1 − 1 2 0 − 1 3 1 6 1 6 1 2 d L 21 − 1 1 − 1 0 0 1 1 2 1 2 1 1 2 0 − 1 H u 22 − 1 1 0 0 0 − 1 0 0 − 1 3 − 1 3 − 1 3 − 1 D 23 0 − 1 0 0 0 1 1 2 0 2 3 1 6 1 6 1 2 u L 24 0 − 1 1 0 0 − 1 0 − 1 2 − 2 3 − 2 3 − 1 6 1 2 u R c 25 0 0 − 1 1 0 0 0 1 2 1 3 1 3 − 1 6 1 2 d R c 26 0 0 0 − 1 1 0 0 0 1 3 1 3 1 3 − 1 D c 27 0 0 0 0 − 1 0 1 2 0 2 3 1 6 1 6 1 2 u L \small\begin{array}[]{l||rrrrrr||r|r|r|r|r|r||l}\#&\lx@intercol\lx@add@cssclass{ltx_eqn_lefteqn}$\displaystyle\mbox{\bf$\Delta$ weight}$\mbox{}\hfil\lx@intercol&&&&&&I_{L}&I_{R}^{c}&Q_{e}&Q_{Y}&Q_{B-L}&Q_{\chi}&\mbox{\bf assignment}\\
+\hline\cr 1&1&0&0&0&0&0&-\frac{1}{2}&0&-\frac{1}{3}&\frac{1}{6}&\frac{1}{6}&\frac{1}{2}&d_{L}\\
+\hline\cr 2&-1&1&0&0&0&0&0&0&-\frac{1}{3}&-\frac{1}{3}&-\frac{1}{3}&-1&D\\
+\hline\cr 3&0&-1&1&0&0&0&0&-\frac{1}{2}&-\frac{2}{3}&-\frac{2}{3}&-\frac{1}{6}&\frac{1}{2}&u_{R}^{c}\\
+\hline\cr 4&0&0&-1&1&0&1&0&\frac{1}{2}&\frac{1}{3}&\frac{1}{3}&-\frac{1}{6}&\frac{1}{2}&d_{R}^{c}\\
+\hline\cr 5&0&0&0&1&0&-1&-\frac{1}{2}&0&-1&-\frac{1}{2}&-\frac{1}{2}&\frac{1}{2}&e_{L}\\
+\hline\cr 6&0&0&0&-1&1&1&0&0&\frac{1}{3}&\frac{1}{3}&\frac{1}{3}&-1&D^{c}\\
+\hline\cr 7&0&0&1&-1&1&-1&-\frac{1}{2}&-\frac{1}{2}&-1&-\frac{1}{2}&0&-1&H_{d}\\
+\hline\cr 8&0&0&0&0&-1&1&\frac{1}{2}&0&\frac{2}{3}&\frac{1}{6}&\frac{1}{6}&\frac{1}{2}&u_{L}\\
+\hline\cr 9&0&0&1&0&-1&-1&0&-\frac{1}{2}&-\frac{2}{3}&-\frac{2}{3}&-\frac{1}{6}&\frac{1}{2}&u_{R}^{c}\\
+\hline\cr 10&0&1&-1&0&1&0&-\frac{1}{2}&\frac{1}{2}&0&\frac{1}{2}&0&-1&H_{u}\\
+\hline\cr 11&0&1&-1&1&-1&0&0&\frac{1}{2}&\frac{1}{3}&\frac{1}{3}&-\frac{1}{6}&\frac{1}{2}&d_{R}^{c}\\
+\hline\cr 12&1&-1&0&0&1&0&-\frac{1}{2}&0&-\frac{1}{3}&\frac{1}{6}&\frac{1}{6}&\frac{1}{2}&d_{L}\\
+\hline\cr 13&0&1&0&-1&0&0&0&0&\frac{1}{3}&\frac{1}{3}&\frac{1}{3}&-1&D^{c}\\
+\hline\cr 14&1&-1&0&1&-1&0&0&0&0&0&0&2&S\\
+\hline\cr 15&-1&0&0&0&1&0&0&0&-\frac{1}{3}&-\frac{1}{3}&-\frac{1}{3}&-1&D\\
+\hline\cr 16&1&-1&1&-1&0&0&0&-\frac{1}{2}&0&0&\frac{1}{2}&\frac{1}{2}&\nu_{R}^{c}\\
+\hline\cr 17&-1&0&0&1&-1&0&\frac{1}{2}&0&0&-\frac{1}{2}&-\frac{1}{2}&\frac{1}{2}&\nu_{L}\\
+\hline\cr 18&1&0&-1&0&0&1&0&\frac{1}{2}&1&1&\frac{1}{2}&\frac{1}{2}&e_{R}^{c}\\
+\hline\cr 19&-1&0&1&-1&0&0&\frac{1}{2}&-\frac{1}{2}&0&-\frac{1}{2}&0&-1&H_{d}\\
+\hline\cr 20&1&0&0&0&0&-1&-\frac{1}{2}&0&-\frac{1}{3}&\frac{1}{6}&\frac{1}{6}&\frac{1}{2}&d_{L}\\
+\hline\cr 21&-1&1&-1&0&0&1&\frac{1}{2}&\frac{1}{2}&1&\frac{1}{2}&0&-1&H_{u}\\
+\hline\cr 22&-1&1&0&0&0&-1&0&0&-\frac{1}{3}&-\frac{1}{3}&-\frac{1}{3}&-1&D\\
+\hline\cr 23&0&-1&0&0&0&1&\frac{1}{2}&0&\frac{2}{3}&\frac{1}{6}&\frac{1}{6}&\frac{1}{2}&u_{L}\\
+\hline\cr 24&0&-1&1&0&0&-1&0&-\frac{1}{2}&-\frac{2}{3}&-\frac{2}{3}&-\frac{1}{6}&\frac{1}{2}&u_{R}^{c}\\
+\hline\cr 25&0&0&-1&1&0&0&0&\frac{1}{2}&\frac{1}{3}&\frac{1}{3}&-\frac{1}{6}&\frac{1}{2}&d_{R}^{c}\\
+\hline\cr 26&0&0&0&-1&1&0&0&0&\frac{1}{3}&\frac{1}{3}&\frac{1}{3}&-1&D^{c}\\
+\hline\cr 27&0&0&0&0&-1&0&\frac{1}{2}&0&\frac{2}{3}&\frac{1}{6}&\frac{1}{6}&\frac{1}{2}&u_{L}\end{array} 
+ 
+ 
+ Table 6:  The Dynkin coefficients and particle assignments of the weights in the fundamental representation  𝟐𝟕 \bf 27  of  E 6 E_{6}  and their quantum numbers.  
+ 
+ 
+ 
+
+ 
+ 
+ # Δ  root I L I R c Q e Q Y Q B − L Q χ assignment 1 0 0 0 0 0 1 0 0 0 0 0 0 𝐆 2 0 0 1 0 0 − 1 − 1 2 − 1 2 − 4 3 − 5 6 − 1 3 0 X 3 0 1 − 1 1 0 0 − 1 2 1 2 − 1 3 1 6 − 1 3 0 Q 45 4 0 1 0 − 1 1 0 − 1 2 0 − 1 3 1 6 1 6 − 3 2 Q 16 5 1 − 1 0 1 0 0 − 1 2 0 − 2 3 − 1 6 − 1 6 3 2 Q 16 6 0 1 0 0 − 1 0 0 0 0 0 0 0 𝐆 7 1 − 1 1 − 1 1 0 − 1 2 − 1 2 − 2 3 − 1 6 1 3 0 Q 45 8 − 1 0 0 1 0 0 0 0 − 2 3 − 2 3 − 2 3 0 U 45 9 1 − 1 1 0 − 1 0 0 − 1 2 − 1 3 − 1 3 1 6 3 2 D 16 10 1 0 − 1 0 1 1 − 1 2 1 2 1 3 5 6 1 3 0 X 11 − 1 0 1 − 1 1 0 0 − 1 2 − 2 3 − 2 3 − 1 6 − 3 2 U 16 12 1 0 0 0 1 − 1 − 1 0 − 1 0 0 0 𝐖 𝐋 − 13 1 0 − 1 1 − 1 1 0 1 2 2 3 2 3 1 6 3 2 U 16 14 − 1 0 1 0 − 1 0 1 2 − 1 2 − 1 3 − 5 6 − 1 3 0 X 15 − 1 1 − 1 0 1 1 0 1 2 1 3 1 3 − 1 6 − 3 2 D 16 16 1 0 0 1 − 1 − 1 − 1 2 0 − 2 3 − 1 6 − 1 6 3 2 Q 16 17 1 0 0 − 1 0 1 0 0 2 3 2 3 2 3 0 U 45 18 − 1 1 0 0 1 − 1 − 1 2 0 − 1 − 1 2 − 1 2 − 3 2 L 16 19 − 1 1 − 1 1 − 1 1 1 2 1 2 2 3 1 6 − 1 3 0 Q 45 20 0 − 1 0 0 1 1 0 0 0 0 0 0 𝐆 21 1 0 1 − 1 0 − 1 − 1 2 − 1 2 − 2 3 − 1 6 1 3 0 Q 45 22 − 1 1 0 1 − 1 − 1 0 0 − 2 3 − 2 3 − 2 3 0 U 45 23 − 1 1 0 − 1 0 1 1 2 0 2 3 1 6 1 6 − 3 2 Q 16 24 0 − 1 1 0 1 − 1 − 1 2 − 1 2 − 4 3 − 5 6 − 1 3 0 X 25 0 − 1 0 1 − 1 1 1 2 0 1 3 − 1 6 − 1 6 3 2 Q 16 26 1 1 − 1 0 0 0 − 1 2 1 2 1 3 5 6 1 3 0 X 27 − 1 1 1 − 1 0 − 1 0 − 1 2 − 2 3 − 2 3 − 1 6 − 3 2 U 16 28 0 − 1 1 1 − 1 − 1 0 − 1 2 − 1 − 1 − 1 2 3 2 E 16 29 0 − 1 1 − 1 0 1 1 2 − 1 2 1 3 − 1 6 1 3 0 Q 45 30 0 0 − 1 1 1 0 − 1 2 1 2 − 1 3 1 6 − 1 3 0 Q 45 31 2 − 1 0 0 0 0 − 1 2 0 0 1 2 1 2 3 2 L 16 32 − 1 2 − 1 0 0 0 0 1 2 1 3 1 3 − 1 6 − 3 2 D 16 33 0 − 1 2 − 1 0 − 1 0 − 1 − 1 − 1 0 0 E 45 ≡ 𝐖 𝐑 − 34 0 0 − 1 2 − 1 0 0 1 2 0 0 − 1 2 3 2 ν 16 35 0 0 0 − 1 2 0 − 1 2 0 − 1 3 1 6 1 6 − 3 2 Q 16 36 0 0 − 1 0 0 2 1 2 1 2 4 3 5 6 1 3 0 X \displaystyle\begin{array}[]{lr||rrrrrr||r|r|r|r|r|r||l}\#&&\hbox to0.0pt{$\displaystyle\mbox{\bf$\Delta$ root}$\hss}&&&&&&I_{L}&I_{R}^{c}&Q_{e}&Q_{Y}&Q_{B-L}&Q_{\chi}&\mbox{\bf assignment}\\
+\hline\cr 1&&0&0&0&0&0&1&0&0&0&0&0&0&\bf G\\
+\hline\cr 2&&0&0&1&0&0&-1&-\frac{1}{2}&-\frac{1}{2}&-\frac{4}{3}&-\frac{5}{6}&-\frac{1}{3}&0&X\\
+\hline\cr 3&&0&1&-1&1&0&0&-\frac{1}{2}&\frac{1}{2}&-\frac{1}{3}&\frac{1}{6}&-\frac{1}{3}&0&Q_{45}\\
+\hline\cr 4&&0&1&0&-1&1&0&-\frac{1}{2}&0&-\frac{1}{3}&\frac{1}{6}&\frac{1}{6}&-\frac{3}{2}&Q_{16}\\
+\hline\cr 5&&1&-1&0&1&0&0&-\frac{1}{2}&0&-\frac{2}{3}&-\frac{1}{6}&-\frac{1}{6}&\frac{3}{2}&Q_{16}\\
+\hline\cr 6&&0&1&0&0&-1&0&0&0&0&0&0&0&\bf G\\
+\hline\cr 7&&1&-1&1&-1&1&0&-\frac{1}{2}&-\frac{1}{2}&-\frac{2}{3}&-\frac{1}{6}&\frac{1}{3}&0&Q_{45}\\
+\hline\cr 8&&-1&0&0&1&0&0&0&0&-\frac{2}{3}&-\frac{2}{3}&-\frac{2}{3}&0&U_{45}\\
+\hline\cr 9&&1&-1&1&0&-1&0&0&-\frac{1}{2}&-\frac{1}{3}&-\frac{1}{3}&\frac{1}{6}&\frac{3}{2}&D_{16}\\
+\hline\cr 10&&1&0&-1&0&1&1&-\frac{1}{2}&\frac{1}{2}&\frac{1}{3}&\frac{5}{6}&\frac{1}{3}&0&X\\
+\hline\cr 11&&-1&0&1&-1&1&0&0&-\frac{1}{2}&-\frac{2}{3}&-\frac{2}{3}&-\frac{1}{6}&-\frac{3}{2}&U_{16}\\
+\hline\cr 12&&1&0&0&0&1&-1&-1&0&-1&0&0&0&\bf W_{L}^{-}\\
+\hline\cr 13&&1&0&-1&1&-1&1&0&\frac{1}{2}&\frac{2}{3}&\frac{2}{3}&\frac{1}{6}&\frac{3}{2}&U_{16}\\
+\hline\cr 14&&-1&0&1&0&-1&0&\frac{1}{2}&-\frac{1}{2}&-\frac{1}{3}&-\frac{5}{6}&-\frac{1}{3}&0&X\\
+\hline\cr 15&&-1&1&-1&0&1&1&0&\frac{1}{2}&\frac{1}{3}&\frac{1}{3}&-\frac{1}{6}&-\frac{3}{2}&D_{16}\\
+\hline\cr 16&&1&0&0&1&-1&-1&-\frac{1}{2}&0&-\frac{2}{3}&-\frac{1}{6}&-\frac{1}{6}&\frac{3}{2}&Q_{16}\\
+\hline\cr 17&&1&0&0&-1&0&1&0&0&\frac{2}{3}&\frac{2}{3}&\frac{2}{3}&0&U_{45}\\
+\hline\cr 18&&-1&1&0&0&1&-1&-\frac{1}{2}&0&-1&-\frac{1}{2}&-\frac{1}{2}&-\frac{3}{2}&L_{16}\\
+\hline\cr 19&&-1&1&-1&1&-1&1&\frac{1}{2}&\frac{1}{2}&\frac{2}{3}&\frac{1}{6}&-\frac{1}{3}&0&Q_{45}\\
+\hline\cr 20&&0&-1&0&0&1&1&0&0&0&0&0&0&\bf G\\
+\hline\cr 21&&1&0&1&-1&0&-1&-\frac{1}{2}&-\frac{1}{2}&-\frac{2}{3}&-\frac{1}{6}&\frac{1}{3}&0&Q_{45}\\
+\hline\cr 22&&-1&1&0&1&-1&-1&0&0&-\frac{2}{3}&-\frac{2}{3}&-\frac{2}{3}&0&U_{45}\\
+\hline\cr 23&&-1&1&0&-1&0&1&\frac{1}{2}&0&\frac{2}{3}&\frac{1}{6}&\frac{1}{6}&-\frac{3}{2}&Q_{16}\\
+\hline\cr 24&&0&-1&1&0&1&-1&-\frac{1}{2}&-\frac{1}{2}&-\frac{4}{3}&-\frac{5}{6}&-\frac{1}{3}&0&X\\
+\hline\cr 25&&0&-1&0&1&-1&1&\frac{1}{2}&0&\frac{1}{3}&-\frac{1}{6}&-\frac{1}{6}&\frac{3}{2}&Q_{16}\\
+\hline\cr 26&&1&1&-1&0&0&0&-\frac{1}{2}&\frac{1}{2}&\frac{1}{3}&\frac{5}{6}&\frac{1}{3}&0&X\\
+\hline\cr 27&&-1&1&1&-1&0&-1&0&-\frac{1}{2}&-\frac{2}{3}&-\frac{2}{3}&-\frac{1}{6}&-\frac{3}{2}&U_{16}\\
+\hline\cr 28&&0&-1&1&1&-1&-1&0&-\frac{1}{2}&-1&-1&-\frac{1}{2}&\frac{3}{2}&E_{16}\\
+\hline\cr 29&&0&-1&1&-1&0&1&\frac{1}{2}&-\frac{1}{2}&\frac{1}{3}&-\frac{1}{6}&\frac{1}{3}&0&Q_{45}\\
+\hline\cr 30&&0&0&-1&1&1&0&-\frac{1}{2}&\frac{1}{2}&-\frac{1}{3}&\frac{1}{6}&-\frac{1}{3}&0&Q_{45}\\
+\hline\cr 31&&2&-1&0&0&0&0&-\frac{1}{2}&0&0&\frac{1}{2}&\frac{1}{2}&\frac{3}{2}&L_{16}\\
+\hline\cr 32&&-1&2&-1&0&0&0&0&\frac{1}{2}&\frac{1}{3}&\frac{1}{3}&-\frac{1}{6}&-\frac{3}{2}&D_{16}\\
+\hline\cr 33&&0&-1&2&-1&0&-1&0&-1&-1&-1&0&0&E_{45}\equiv\bf W_{R}^{-}\\
+\hline\cr 34&&0&0&-1&2&-1&0&0&\frac{1}{2}&0&0&-\frac{1}{2}&\frac{3}{2}&\nu_{16}\\
+\hline\cr 35&&0&0&0&-1&2&0&-\frac{1}{2}&0&-\frac{1}{3}&\frac{1}{6}&\frac{1}{6}&-\frac{3}{2}&Q_{16}\\
+\hline\cr 36&&0&0&-1&0&0&2&\frac{1}{2}&\frac{1}{2}&\frac{4}{3}&\frac{5}{6}&\frac{1}{3}&0&X\end{array} 
+ 
+ 
+ Table 7:  The positive roots of  E 6 E_{6} , their Dynkin
+coefficients and quantum numbers. The naming scheme is with respect
+to the  E 6 → S ​ O ​ ( 10 ) × U ​ ( 1 ) χ E_{6}\penalty\rightarrow\penalty SO(10)\times U(1)_{\chi} 
+branching  𝟕𝟖 → 𝟒𝟓 𝟎 + 𝟏𝟔 − 𝟑 / 𝟐 + 𝟏𝟔 ¯ 𝟑 / 𝟐 + 𝟏 𝟎 \bf 78\rightarrow 45_{0}+16_{-3/2}+\overline{16}_{3/2}+1_{0}  as it is relevant to this paper. The six zero roots are not
+shown, the elements of the  G L ​ R G_{LR}  algebra are highlighted. 
+ 
+ 
+ 
+ 
+ 
+ Appendix C  Matter and Gauge Multiplets on the  T 2 / ℤ n T^{2}/\mathbb{Z}_{n}  orbifold 
+
+ 
+ C.1  Gauge Theory 
+
+ 
+ Upon compactification, the 6D Lorentz group is broken to 
+ 
+
+ 
+ 
+ S ​ O ​ ( 1 , 5 ) → S ​ O ​ ( 1 , 3 ) × U ⁡ ( 1 ) SO(1,5)\rightarrow SO(1,3)\times U(1) 
+ 
+ (55) 
+ 
+ so the 6D vector is split into a 4D vector  A μ A_{\mu}  and a scalar in the adjoint of the gauge group, 
+ 
+
+ 
+ 
+ Σ = 1 2 ​ ( A 6 + i ​ A 5 ) . \Sigma=\frac{1}{\sqrt{2}}(A_{6}+iA_{5}). 
+ 
+ (56) 
+ 
+ The latter transform nontrivially under the  ℤ n ⊂ U ⁡ ( 1 ) \mathbb{Z}_{n}\subset U(1)  of the orbifold space group. In particular, under  ℤ n \mathbb{Z}_{n}  rotations  x 5 − i x 6 → e − 2 π i / n ( x 5 − i x 6 ) x_{5}-ix_{6}\rightarrow e^{-2\pi i/n}(x_{5}-ix_{6}) , 
+ 
+
+ 
+ 
+ Σ → e − 2 π i / n Σ \Sigma\rightarrow e^{-2\pi i/n}\Sigma 
+ 
+ (57) 
+ 
+ If there is an additional gauge shift associated with the orbifold action, the vector components belonging to a root  E α E_{\alpha}  transform as 
+ 
+
+ 
+ 
+ A α μ → e 2 ​ π ​ i ​ V ⋅ α A α μ , Σ α → e 2 ​ π ​ i ​ V ⋅ α e − 2 π i / n Σ α A^{\alpha}_{\mu}\rightarrow e^{2\pi iV\cdot\alpha}A^{\alpha}_{\mu},\quad\Sigma^{\alpha}\rightarrow e^{2\pi iV\cdot\alpha}e^{-2\pi i/n}\Sigma^{\alpha} 
+ 
+ (58) 
+ 
+ Massless modes have constant Kaluza-Klein wavefunctions in the extra dimension,
+and therefore only appear for components which are invariant under  r 6 r_{6} . This means that the
+unbroken gauge group is determined by the set of roots  α \alpha  which satisfy  V ⋅ α ∈ ℤ V\cdot\alpha\in\mathbb{Z} ,
+which naturally includes the zero weights and thus rank is preserved. The zero modes of scalars correspond to roots which are broken on all fixed points.
+In that sense the situation is similar to a  S 1 / ℤ 2 S^{1}/\mathbb{Z}_{2}  orbifold
+where massless scalars appear if a generator is broken on both ends of the fundamental domain. 
+ 
+ 
+ 
+ C.2  Supersymmetric theory 
+
+ 
+ Hypermultiplets coupled to supersymmetric Yang-Mills theory in 5 and 6 dimensions can be formulated using  𝒩 = 1 \mathcal{N}=1  superfields  [ 26 ] . The field content is
+identical in both cases, namely that of 4D  𝒩 = 2 \mathcal{N}=2  supersymmetry.
+In this language, the gauge hypermultiplet consists of a vector superfield  V ^ \hat{V}  and a chiral superfield  χ ^ \hat{\chi}  in the adjoint. The physical scalar component of the latter
+contains the extra dimensional gauge field components,  χ ^ | = Σ + 𝒪 ⁡ ( θ ) \hat{\chi}|=\Sigma+\mathcal{O}(\theta) . There are now three real auxiliary
+fields forming a triplet under the R symmetry,  S ​ U ​ ( 2 ) R SU(2)^{R} . The hypermultiplet can be written as two chiral superfields with opposite charge,  Φ ^ \hat{\Phi}  and  Φ ^ c \hat{\Phi}_{c} .
+The chiral fermionic SUSY parameters can be defined as a 6D spinor  ξ = ( ξ 1 , ξ ¯ 2 , 0 , 0 ) T \xi=(\xi_{1},\overline{\xi}_{2},0,0)^{T} . In general, these parameters transform nontrivially
+under orbifold rotations.
+Given the 6D Dirac matrices,  Γ M \Gamma^{M} , the  ℤ n \mathbb{Z}_{n}  rotations in the 5-6
+plane of orbifolds on  T 2 T^{2}  are generated by 
+ 
+
+ 
+ 
+ θ = exp ⁡ [ 2 ​ π n ​ 1 4 ​ [ Γ 5 , Γ 6 ] ] . \theta=\exp\left[\frac{2\pi}{n}\frac{1}{4}[\Gamma^{5},\Gamma^{6}]\right]. 
+ 
+ 
+ With trivial embedding in the R symmetry, the SUSY parameter transforms as 
+ 
+
+ 
+ 
+ ( ξ 1 ξ ¯ 2 ) ⟶ θ ( e − i π / n ξ 1 e i ​ π / n ​ ξ ¯ 2 ) \left(\begin{array}[]{l}\xi_{1}\\
+\overline{\xi}_{2}\end{array}\right)\stackrel{{\scriptstyle\theta}}{{\longrightarrow}}\left(\begin{array}[]{l}e^{-i\pi/n}\xi_{1}\\
+e^{i\pi/n}\overline{\xi}_{2}\end{array}\right) 
+ 
+ (59) 
+ 
+ which would result in a non-supersymmetric massless spectrum, and  θ n ≠ 1 \theta^{n}\neq 1 . 
+ 
+ 
+ It is known from 10D orbifold constructions (such
+as heterotic models), that certain conditions have to be fulfilled in order to
+preserve at least  𝒩 = 1 \mathcal{N}=1  SUSY in 4D 3 3 
+               3 
+              
+              
+              
+            We
+thank P. Vaudrevange for clarifications concerning this problem. .
+The smallest
+nontrivial spinor in 10D is both chiral and real, and thus
+corresponds to 4D  𝒩 = 4 \mathcal{N}=4  SUSY. General  ℤ n \mathbb{Z}_{n} 
+transformations on the complex torus coordinates are generated by 
+ 
+
+ 
+ 
+ ( z A , z B , z C ) → ( e i ​ A ​ z A , e i ​ B ​ z B , e i ​ C ​ z C ) . (z_{A},z_{B},z_{C})\rightarrow(e^{iA}z_{A},e^{iB}z_{B},e^{iC}z_{C})\,. 
+ 
+ (60) 
+ 
+ Using a 10D dirac algebra, the spinors then transform as 
+ 
+
+ 
+ 
+ θ = exp ⁡ [ A 4 ​ [ Γ 5 , Γ 6 ] + B 4 ​ [ Γ 7 , Γ 8 ] + C 4 ​ [ Γ 9 , Γ 10 ] ] \theta=\exp\left[\frac{A}{4}[\Gamma^{5},\Gamma^{6}]+\frac{B}{4}[\Gamma^{7},\Gamma^{8}]+\frac{C}{4}[\Gamma^{9},\Gamma^{10}]\right] 
+ 
+ (61) 
+ 
+ The condition that we want to preserve at least one 4D supersymmetry
+can now be formulated as a constraint on the coefficients, 
+ 
+
+ 
+ 
+ A + B + C = 0 , A+B+C=0\quad, 
+ 
+ (62) 
+ 
+ which is not possible in 6D, where  B = C ≡ 0 B=C\equiv 0 . However, after trivial dimensional reduction
+to 6 dimensions, the  S ​ O ​ ( 4 ) ≃ S ​ U ​ ( 2 ) × S ​ U ​ ( 2 ) ′ SO(4)\simeq SU(2)\times SU(2)^{\prime}  Lorentz algebra of the higher dimensions generated by  Γ 7 ​ … ​ Γ 10 \Gamma^{7}\dots\Gamma^{10} 
+becomes an internal symmetry. It contains the  S ​ U ​ ( 2 ) R SU(2)^{R} 
+under which the chiral 6D  𝒩 = 1 \mathcal{N}=1  SUSY generator is
+a doublet. Thus, we have the choice to either introduce additional (possibly small) spacetime
+dimensions with nontrivial rotational phases that cancel the chiral phases to preserve 4D  𝒩 = 1 \mathcal{N}=1  supersymmetry (this however might be viable only in the context of a heterotic string theory). Or we can start with a 6D  𝒩 = 1 \mathcal{N}=1  setup and assign
+an embedding of  ℤ n \mathbb{Z}_{n}  in  I 3 ​ R I^{3R}  of  S ​ U ​ ( 2 ) R SU(2)^{R}  to the chiral 6D spinors, 
+ 
+
+ 
+ 
+ θ = exp ⁡ [ 2 ​ π n ​ 1 4 ​ ( [ Γ 5 , Γ 6 ] + c R ​ i ​ I 3 ​ R ) ] \theta=\exp\left[\frac{2\pi}{n}\frac{1}{4}([\Gamma^{5},\Gamma^{6}]+c_{R}iI^{3R})\right] 
+ 
+ 
+ where the constant  c R c_{R}  can be chosen
+appropriately to conserve at least one 4D supersymmetry, and  θ n = 1 \theta^{n}=1 .
+From now on we assume that the conserved 4D  𝒩 = 1 \mathcal{N}=1  supersymmetry is chosen such that it acts as usual within the  𝒩 = 1 \mathcal{N}=1  superfields  V ^ , χ ^ , Φ ^ , Φ ^ c \hat{V},\hat{\chi},\hat{\Phi},\hat{\Phi}^{c} .
+For the orbifold construction this means that orbifold phases are assigned to entire superfields, and the resulting massless multiplets are given
+directly as zero modes of complete  𝒩 = 1 \mathcal{N}=1  superfields. The transformations in ( 58 ) are generalized to 
+ 
+
+ 
+ 
+ V ^ α → e 2 ​ π ​ i ​ V ⋅ α V ^ α , χ ^ α → e 2 ​ π ​ i ​ V ⋅ α e − 2 π i / n χ ^ α \hat{V}^{\alpha}\rightarrow e^{2\pi iV\cdot\alpha}\hat{V}^{\alpha},\quad\hat{\chi}^{\alpha}\rightarrow e^{2\pi iV\cdot\alpha}e^{-2\pi i/n}\hat{\chi}^{\alpha} 
+ 
+ (63) 
+ 
+ Then, zero modes of  A μ A_{\mu}  automatically come with complete 4D vector multiplets, while zero modes of  A 5 A_{5}  and  A 6 A_{6}  come with complete 4D chiral multiplets. The discussion of ordinary YM theory can therefore be generalized to the SYM case in a straightforward manner. 
+ 
+ 
+ 
+ 
+ 
+ References 
+
+ 
+      
+ [1] 
+ 
+N. Sakai,
+Z. Phys.  C  11 , 153 (1981).
+
+ 
+      
+ [2] 
+ 
+P. Athron, S. F. King, R. Luo, D. J. Miller, S. Moretti and R. Nevzorov,
+arXiv:0909.4530 [hep-ph].
+
+ 
+      
+ [3] 
+ 
+W. Kilian and J. Reuter,
+“Unification without doublet-triplet splitting,”
+Phys. Lett.  B  642 , 81 (2006)
+[arXiv:hep-ph/0606277].
+
+ 
+      
+ [4] 
+ 
+K. Griest and M. Sher,
+Phys. Rev.  D  42  (1990) 3834.
+
+ 
+      
+ [5] 
+ 
+F. Braam, C. Horst, W. Kilian, A. Knochel,
+J. Reuter, in preparation
+
+ 
+      
+ [6] 
+ 
+F. Braam, J. Reuter and D. Wiesler,
+arXiv:0909.3081 [hep-ph].
+
+ 
+      
+ [7] 
+ 
+L. J. Dixon, J. A. Harvey, C. Vafa and E. Witten,
+Nucl. Phys.  B  261 , 678 (1985).
+
+ 
+      
+ [8] 
+ 
+L. J. Dixon, J. A. Harvey, C. Vafa and E. Witten,
+Nucl. Phys.  B  274 , 285 (1986).
+
+ 
+      
+ [9] 
+ 
+D. Bailin, A. Love and S. Thomas,
+“Gauge Symmetry Breaking In Orbifold Compactified Superstring Theories,”
+Nucl. Phys.  B  288 , 431 (1987).
+
+ 
+      
+ [10] 
+ 
+T. Kobayashi, S. Raby and R. J. Zhang,
+“Constructing 5d orbifold grand unified theories from heterotic strings,”
+Phys. Lett.  B  593 , 262 (2004)
+[arXiv:hep-ph/0403065].
+
+ 
+      
+ [11] 
+ 
+T. Kobayashi, S. Raby and R. J. Zhang,
+“Searching for realistic 4d string models with a Pati-Salam symmetry:
+Orbifold grand unified theories from heterotic string compactification on a
+Z(6) orbifold,”
+Nucl. Phys.  B  704 , 3 (2005)
+[arXiv:hep-ph/0409098].
+
+ 
+      
+ [12] 
+ 
+W. Buchmüller, K. Hamaguchi, O. Lebedev and M. Ratz,
+“Supersymmetric standard model from the heterotic string. II,”
+Nucl. Phys.  B  785 , 149 (2007)
+[arXiv:hep-th/0606187].
+
+ 
+      
+ [13] 
+ 
+O. Lebedev, H. P. Nilles, S. Raby, S. Ramos-Sanchez, M. Ratz, P. K. S. Vaudrevange and A. Wingerter,
+“A mini-landscape of exact MSSM spectra in heterotic orbifolds,”
+Phys. Lett.  B  645 , 88 (2007)
+[arXiv:hep-th/0611095].
+
+ 
+      
+ [14] 
+ 
+O. Lebedev, H. P. Nilles, S. Raby, S. Ramos-Sanchez, M. Ratz, P. K. S. Vaudrevange and A. Wingerter,
+“Low Energy Supersymmetry from the Heterotic Landscape,”
+Phys. Rev. Lett.   98 , 181602 (2007)
+[arXiv:hep-th/0611203].
+
+ 
+      
+ [15] 
+ 
+O. Lebedev, H. P. Nilles, S. Raby, S. Ramos-Sanchez, M. Ratz, P. K. S. Vaudrevange and A. Wingerter,
+“The Heterotic Road to the MSSM with R parity,”
+Phys. Rev.  D  77 , 046013 (2008)
+[arXiv:0708.2691 [hep-th]].
+
+ 
+      
+ [16] 
+ 
+S. G. Nibbelink, J. Held, F. Ruehle, M. Trapletti and P. K. S. Vaudrevange,
+“Heterotic Z6-II MSSM Orbifolds in Blowup,”
+JHEP  0903 , 005 (2009)
+[arXiv:0901.3059 [hep-th]].
+
+ 
+      
+ [17] 
+ 
+T. Asaka, W. Buchmüller and L. Covi,
+Phys. Lett.  B  523 , 199 (2001)
+[arXiv:hep-ph/0108021].
+
+ 
+      
+ [18] 
+ 
+T. Asaka, W. Buchmüller and L. Covi,
+Phys. Lett.  B  540 , 295 (2002)
+[arXiv:hep-ph/0204358].
+
+ 
+      
+ [19] 
+ 
+A. Hebecker and M. Ratz,
+“Group-theoretical aspects of orbifold and conifold GUTs,”
+Nucl. Phys.  B  670 , 3 (2003)
+[arXiv:hep-ph/0306049].
+
+ 
+      
+ [20] 
+ 
+G. von Gersdorff and M. Quiros,
+Phys. Rev.  D  68 , 105002 (2003)
+[arXiv:hep-th/0305024].
+
+ 
+      
+ [21] 
+ 
+C. A. Scrucca and M. Serone,
+Int. J. Mod. Phys.  A  19 , 2579 (2004)
+[arXiv:hep-th/0403163].
+
+ 
+      
+ [22] 
+ 
+S. Förste, H. P. Nilles and A. Wingerter,
+“Geometry of rank reduction,”
+Phys. Rev.  D  72 , 026001 (2005)
+[arXiv:hep-th/0504117].
+
+ 
+      
+ [23] 
+ 
+J. H. Conway, Cambridge Univ. Press,
+1992
+
+ 
+      
+ [24] 
+ 
+A. Hebecker and A. Westphal,
+“Power-like threshold corrections to gauge unification in extra
+dimensions,”
+Annals Phys.   305 , 119 (2003)
+[arXiv:hep-ph/0212175].
+
+ 
+      
+ [25] 
+ 
+A. Hebecker and A. Westphal,
+“Gauge unification in extra dimensions: Power corrections vs.
+higher-dimension operators,”
+Nucl. Phys.  B  701 , 273 (2004)
+[arXiv:hep-th/0407014].
+
+ 
+      
+ [26] 
+ 
+N. Marcus, A. Sagnotti and W. Siegel,
+Nucl. Phys.  B  224 , 159 (1983);
+N. Arkani-Hamed, T. Gregoire, and J. G. Wacker,
+
+ 
+ JHEP  03 , 055 (2002), [arXiv:hep-th/0101233];
+A. Hebecker,
+Nucl. Phys.  B  632 , 101 (2002)
+[arXiv:hep-ph/0112230];
+
+ 
+      
+ [27] 
+ 
+R. Slansky,
+“Group Theory For Unified Model Building,”
+Phys. Rept.   79 , 1 (1981).
+
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+   
+    Experimental support, please
+     view the build logs 
+    for errors. Generated by
+     
+       
+        L
+         A 
+        T
+         E 
+       
+       xml 
+       
+     .
+   
+   
+     Instructions for reporting errors 
+     We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+      support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+      methods listed below: 
+     
+       Click the "Report Issue"  ( 
+             
+           )  button, located in the page header. 
+     
+     Tip:  You can select the relevant text first, to include it in your report. 
+     Our team has already identified  the following issues . We appreciate your time reviewing and reporting rendering errors we
+      may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+      should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+      all. 
+     Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a  list of packages that need conversion , and welcome  developer contributions . 
+   
+ 
+   
+     
+       
+        We gratefully acknowledge support from
+        our  major funders ,
+         member institutions ,  ,
+        and all contributors.
+       
+       
+         About 
+         · 
+         Help 
+         · 
+         Contact 
+         · 
+         Subscribe 
+         · 
+         Copyright 
+         · 
+         Privacy 
+         · 
+         Accessibility 
+         · 
+         Operational Status  (opens in new tab) 
+       
+     
+
+     
+       Major funding support from 
+       
+         
+           
+         
+         
+           
+         
+         
+           
+         
+       
+     
+   
+ 
+   
+     
+       
+     
+   
+ 
+ 

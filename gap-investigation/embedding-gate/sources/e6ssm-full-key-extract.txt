@@ -1,0 +1,40 @@
+PDF page 7
+Higgs doublets Hu and Hd and singlet S develop VEVs. In addition, in order to achieve
+gauge coupling uniﬁcation, there is a further pair of Higgs–like doublet supermultiplets H′
+and ¯H′ which do not develop VEVs, arising from an incomplete 27′ + 27
+′ representation.
+All the extra matter described above is expected to have mass of order the TeV scale
+and may be observable at the LHC or at an ILC. The ESSM has the following desirable
+features:
+• Anomalies are cancelled generation by generation within each complete 27i repre-
+sentation.
+• Gauge coupling uniﬁcation is accomplished due to the complete 27i representations
+together with the additional pair of Higgs–like doublets H′ and ¯H′ from the incom-
+plete 27′ + 27
+′ representation.
+• The seesaw mechanism is facilitated due to the right–handed neutrinos Nc
+i arising
+from the 27i representations having zero gauge charges.
+• The µ-problem of the MSSM is solved since the µ-term is forbidden by the U(1)N
+gauge symmetry. It is replaced by a singlet coupling ˆS( ˆHd ˆHu) as in the NMSSM,
+but without the ˆS3 term of the NMSSM which resulted in domain wall problems.
+Besides, in the ESSM the would-be Goldstone boson is eaten by the Z′ associated
+with the U(1)N gauge group.
+The purpose of the remainder of this section is to develop the theoretical aspects of the
+ESSM deﬁned above, and deﬁne the matter content, charges, couplings and symmetries
+of the ESSM more precisely.
+2.2
+The choice of the surviving U(1)N gauge group
+Since all matter and Higgs superﬁelds must originate from 27 and 27–plets of E6, one
+cannot break E6 in a conventional manner as the required Higgs ﬁelds are in larger
+representations than the 27.
+However, at the string scale, E6 can be broken via the
+Hosotani mechanism [41]. Because the rank of the E6 group is six the breakdown of the
+E6 symmetry results in several models based on rank–5 or rank–6 gauge groups. As a
+consequence E6 inspired SUSY models in general may lead to low–energy gauge groups
+with one or two additional U(1)′ factors in comparison to the SM. Indeed E6 contains
+the maximal subgroup SO(10) × U(1)ψ while SO(10) can be decomposed in terms of the
+SU(5)×U(1)χ subgroup. By means of the Hosotani mechanism E6 can be broken directly
+to SU(3)C ×SU(2)W ×U(1)Y ×U(1)ψ ×U(1)χ which has rank 6. For suitable large VEVs
+of the symmetry breaking Higgs ﬁelds this rank–6 model can be reduced further to an
+6

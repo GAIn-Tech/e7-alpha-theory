@@ -1,0 +1,84 @@
+derive source 0
+derive source 1
+derive source 2
+derive source 3
+{
+  "passed": true,
+  "geometric_d4_computed": true,
+  "field": "QQ",
+  "character": 0,
+  "source_bidegree": [
+    -2,
+    3
+  ],
+  "target_bidegree": [
+    2,
+    0
+  ],
+  "total_degree_change": [
+    1,
+    2
+  ],
+  "matrix": {
+    "shape": [
+      4,
+      4
+    ],
+    "entries": []
+  },
+  "dense_matrix": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "rank": 0,
+  "determinant": "0",
+  "kernel_dimension": 4,
+  "target_boundary_rank": 34,
+  "invariant_d2_rank": 60,
+  "E4_source_dimension": 4,
+  "E4_target_dimension": 4,
+  "Ext1_associated_graded": {
+    "-2,3": 4,
+    "-1,2": 0,
+    "0,1": 0,
+    "1,0": 12
+  },
+  "invariant_Ext1_dimension": 16,
+  "controls": {
+    "source_boundary": 4,
+    "target_vertical_boundary": 6,
+    "target_d1_boundary": 64,
+    "wrong_curvature": 4,
+    "wrong_primitive_sign": 10,
+    "nilpotence_keys": 6470,
+    "cech_contraction_keys": 6470,
+    "wrong_End_sign": 4
+  },
+  "claim_boundary": "Exact invariant hypercohomology of the declared curved-End Koszul model and explicit total degree-one survivors. No Yoneda tensor, full F-flatness, vacuum, or other-character conclusion.",
+  "chain_payload_sha256": "ff97c93f893d2164011e0381613a29a83013ea74d022b84bba9b15ca6599ad34",
+  "canonical_predecessor_replay_exit_code": 0,
+  "interpreter": "C:/Python313/python.exe",
+  "sympy_version": "1.13.3"
+}

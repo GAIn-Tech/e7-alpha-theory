@@ -1,0 +1,1421 @@
+PAGE 1
+DIAS-STP-20-01
+Ground state wave functions for the quantum Hall effect on a
+sphere and the Atiyah-Singer index theorem
+Brian P. Dolan1, 2, ∗and Aonghus Hunter-McCabe1
+1Department of Theoretical Physics, Maynooth University
+Maynooth, Co. Kildare, Ireland
+2School of Theoretical Physics
+Dublin Institute for Advanced Studies
+10 Burlington Rd., Dublin, Ireland
+Abstract
+The quantum Hall effect is studied in a spherical geometry using the Dirac operator for non-
+interacting fermions in a background magnetic field, which is supplied by a Wu-Yang magnetic
+monopole at the centre of the sphere. Wave functions are cross-section of a non-trivial U(1) bundle,
+the zero point energy then vanishes and no perturbations can lower the energy. The Atiyah-Singer
+index theorem constrains the degeneracy of the ground state.
+The fractional quantum Hall effect is also studied in the composite Fermion model. Vortices
+of the statistical gauge field are supplied by Dirac strings associated with the monopole field. A
+unique ground state is attained only if the vortices have an even number of flux units and act to
+counteract the background field, reducing the effective field seen by the composite fermions. There
+is a unique gapped ground state and, for large particle numbers, fractions ν =
+1
+2k+1 are recovered.
+∗bdolan@thphys.nuim.ie
+1
+arXiv:2001.02208v3  [hep-th]  17 Feb 2024
+
+PAGE 2
+I.
+INTRODUCTION
+The quantum Hall effects, both integer and fractional, have been a fascinating area of
+study ever since their first discovery. Laughlin constructed trial ground state wave functions
+on the plane in [1] and Haldane [2] considered a model of particles moving on the surface
+of a magnetic sphere — a sphere with a magnetic monopole at the centre. It is common in
+such analyses to ignore the electron spin, since in strong magnetic fields it is assumed that
+electron spins are split and only the lower energy state is relevant to the problem so the spin
+can be ignored. In constructing the wave functions the particles are essentially considered
+to be spinless, but obey Fermionic statistics so that the many particle wave-function is anti-
+symmetric. In particular the spin connection for spin-1
+2 particles moving in a curved space
+plays no role in Haldane’s construction. Neither does the topology of the sphere play any
+real role, the sphere is merely a mathematical device that simplifies the analysis.
+However the mathematics of Fermions on compact manifolds is very rich in both geometry
+and topology. In particular the Atiyah-Singer index theorem tells us that the Dirac operator
+on a sphere with a magnetic monopole at the centre has zero modes and an energy gap
+and constrains the number of positive and negative chirality zero modes. This is true both
+relativistically and non-relativistically, the mathematics is essentially the same in both cases
+(the latter is basically the square of the former).
+There is a number of advantages in focusing on these zero modes: they are topological, for
+any fixed monopole charge they must always be there even if the magnetic field is distorted
+(provided the total magnetic charge does not change), and are therefore topologically stable,
+and they ensure that the zero point energy vanishes, there is an absolute minimum for the
+energy which no perturbation can reduce. The number of zero modes is constrained by the
+index theorem, for a magnetic monopole of charge m the difference between the number of
+positive chirality zero modes n+ and the number of negative chirality zero modes n−is1
+n+ −n−= −1
+2π
+Z
+S2 F = −m
+where m is an integer (the first Chern class of a U(1) bundle). In particular if m is positive
+n+ can vanish in which case
+n−= m,
+1 There is a choice of sign on the right hand side which depends on the definition of chirality, in our
+conventions it will be −m.
+2
+
+PAGE 3
+while if m is negative n−can vanish and then
+n+ = m.
+When the zero modes have only one chirality the number of linearly independent zero modes
+is exactly |m| this reflects the degeneracy of the ground state.
+In this paper we investigate the quantum Hall effect (QHE) on a sphere from the point of
+view of the Atiyah-singer index theorem and show how the zero modes relate to Haldane’s
+version of the Laughlin ground state wave function. While the role of topology has long been
+appreciated in the quantum Hall effect to our knowledge the Atiyah-Singer index theorem
+has not been exploited to any great extent, except for the case of relativistic 4-component
+fermions in graphene, [3, 4], and in non-commutative geometry in the higher dimensional
+QHE [5]. The index theorem in our present context of ordinary 2-component non-relativistic
+electrons was used in [6], though there it was in the context of non-Abelian gauge fields on
+a torus and the zero modes were not constructed explicitly. The fact that the filling factor
+is related to the Chern class of a U(1) bundle over a torus, which is a Brillouin zone in
+k-space, was pointed out in [7], but while Chern classes are part of the index theorem for
+the Dirac operator, the theorem itself is much more than just Chern classes, in the context
+studied here it is about zero modes of the Dirac equation. Another topological aspect of
+the quantum Hall effect is its relation to Chern-Simons theory but this is not relevant to
+the index theorem, Chern-Simons theories are only defined in odd dimensions and the index
+always vanishes in odd dimensions.
+The integer QHE is studied first, with a uniform magnetic flux through the surface of the
+sphere. The exact ground state for N non-interacting Fermions is calculated and reproduces
+Haldane’s result, equation (19), for filling factor ν = 1.
+The fractional quantum Hall effect is then studied in the context of Jain’s composite
+Fermion picture [8]. Magnetic vortices, represented by Dirac monopoles for which the Dirac
+string is viewed as a physical vortex of strength v and is not a gauge artifact, are attached to
+the electrons. The resulting composite particles move in the total magnetic field generated
+by the monopole plus the vortices. For the wave function (a cross-section of a U(1) bundle)
+to be free from singularities the vortices necessarily have strength |v| = 2k, where k is
+an integer, and act so as to reduce the strength of the uniform background field. Again
+zero modes can be constructed, equation (38), and there is a unique ground state with an
+3
+
+PAGE 4
+energy gap and for large N the filling factor is ν =
+1
+2k+1. This ground state can be related
+to Laughlin’s ground state wave-function for the fractional QHE through a singular gauge
+transformation that removes the vortices.
+The layout of the paper is as follows. In §II we review the Dirac operator on the surface
+of a sphere with a magnetic monopole at the centre. In §III zero modes are constructed and
+shown to give a stable ground state with an energy gap for filling factor ν = 1. For com-
+pleteness wave-functions for energy eigenstates in the higher Landau levels are exhibited in
+terms of Jacobi polynomials in §IV. Vortices are introduced and ground state wave functions
+for the fractional quantum Hall effect are presented in §V. The results are summarized and
+conclusions presented in §VI.
+II.
+THE DIRAC OPERATOR ON A SPHERE
+A.
+The Hamiltonian
+The full spectrum and eigenfunctions of the Dirac operator on a sphere in the absence
+of a magnetic monopole were studied in [9]. On a magnetic sphere the spectrum can be
+derived from group theory [10]. The eigenstates can be expressed simply in terms of Jacobi
+polynomials which were found to describe spinless particles on a magnetic sphere by Wu
+and Yang [11].
+First consider a single non-relativistic spin-1
+2 charged particle of mass M confined to
+move on the surface of a sphere with a magnetic monopole at the centre of the sphere. The
+Hamiltonian is
+H = −¯h2
+2M D/ 2
+where iD/ is the (Hermitian) Dirac operator in the presence of the monopole and the sphere
+has unit radius. This is bounded below and if there are zero modes of the Dirac operator
+they must be ground states with vanishing zero point energy.
+The gauge potential for a monopole at the centre of the sphere is taken to be
+A(±) = m
+2 (±1 −cos θ)dϕ
+⇒
+F = dA = m
+2 sin θdθ ∧dϕ
+(the upper (lower) sign is for the upper (lower) hemisphere). The monopole charge is
+1
+2π
+Z
+S2 F = m
+4
+
+PAGE 5
+with m an integer.
+We shall use a complex co-ordinate on S2
+z = tan
+θ
+2
+
+eiϕ,
+in terms of which
+A(+)(z) = im
+2
+(zd¯z −¯zdz)
+(1 + z¯z)
+,
+A(−)(z) = im
+2
+1
+(1 + z¯z)
+dz
+z −d¯z
+¯z
+
+(1)
+and
+F = im dz ∧d¯z
+(1 + z¯z)2.
+(2)
+B.
+The Dirac operator
+Choosing γ1 = σ1, γ2 = σ2 the Dirac operator on the unit sphere is
+−iD/ = −i(1 + z¯z)
+ σ+Dz + σ−D¯z
+
+,
+(3)
+with
+Dz = ∂z + (m + σ3)
+2
+¯z
+(1 + z¯z),
+(4)
+D¯z = ∂¯z −(m + σ3)
+2
+z
+(1 + z¯z)
+(5)
+on the northern hemisphere (for electric charge e = −1). More explicitly
+D/ =
+
+
+0
+(1 + z¯z)∂z + (m−1)
+2
+¯z
+(1 + z¯z)∂¯z −(m+1)
+2
+z
+0
+
+,
+(6)
+which is anti-hermitian.
+The curvature associated with the co-variant derivatives is
+[Dz, D¯z] = −(m + σ3)
+(1 + z¯z)2.
+The spin connection can be viewed as effectively increasing the magnetic charge by one for
+positive chirality spinors and decreasing it by one for negative chirality spinors.
+5
+
+PAGE 6
+C.
+Angular Momentum
+The energy eigenstates can be classified by additional quantum numbers, in particular
+angular momentum will be a good quantum number but the definition involves some sub-
+tleties. There are two aspects to the discussion of angular momentum: the presence of the
+magnetic field and the orthonormal frame necessary to define spinors. The former can be
+accommodated by defining
+La = ϵab
+cxb(pc + Ac) = −iϵab
+cxb(∂c + iAc),
+but in the presence of a magnetic field the algebra does not close, rather
+[La, Lb] = iϵabc
+ Lc + exc(r.B)
+
+.
+(7)
+In particular for a monopole field
+[La, Lb] = iϵab
+c 
+Lc −mxc
+2r
+
+,
+but this can be countered by defining [12]
+Ja = La −mxa
+2r ,
+giving a closed algebra
+[Ja, Jb] = iϵab
+cJc.
+(8)
+In terms of z,
+J+ = z2∂z + ∂¯z +
+mz
+1 + z¯z,
+J−= −¯z2∂¯z −∂z +
+m¯z
+1 + z¯z,
+(9)
+J3 = z∂z −¯z∂¯z + m
+2 .
+But this is not sufficient, Lie derivatives will also drag the orthonormal frame. In the absence
+of any magnetic field the Lie derivative of a spinor ψ with respect to a vector field⃗L can be
+defined as [13]
+LiDiψ + 1
+4(dL)ijγijψ
+(10)
+6
+
+PAGE 7
+where γij = 1
+2(γiγj −γjγi) and dL is the exterior derivative of the 1-form metric dual to the
+vector⃗L with Ac set to 0. In terms of z,
+dL+ =
+4z
+(1 + z¯z)3dz ∧d¯z
+dL−= −
+4¯z
+(1 + z¯z)3dz ∧d¯z
+dL3 = 2 (1 −z¯z)
+(1 + z¯z)3dz ∧d¯z
+The prescriptions (9) and (10) can be combined to give the Lie derivative of a spinor in the
+presence of a magnetic monopole at the centre of the unit sphere in the following way
+J+ = z2Dz + D¯z + (m + σ3)z
+1 + z¯z
+= z2∂z + ∂¯z + (m + σ3)z
+2
+,
+J−= −¯z2D¯z −Dz + (m + σ3)¯z
+1 + z¯z
+= −¯z2∂¯z −∂z + (m + σ3)¯z
+2
+,
+(11)
+J3 = zDz −¯zD¯z + (m + σ3)
+2
+1 −z¯z
+1 + z¯z
+
+= z∂z −¯z∂¯z + (m + σ3)
+2
+on the northern hemisphere. These satisfy
+[J+, J−] = 2J3,
+[J3, J±] = ±J±
+(12)
+[J3, Dz] = −Dz,
+[J3, D¯z] = D¯z,
+[J3, D/ ] = 0,
+[J 2, D/ ] = 0.
+The square of the Dirac operator is related to the quadratic Casimir J 2,
+−D/ 2 = J 2 + 1
+4(m2 −1).
+The eigenvalues of the Dirac operator on a coset space can be calculated from group theory,
+[10]. For the sphere S2 ≈SU(2)/U(1), with a monopole at the centre,
+λ2 = n(n + |m|)
+with degeneracy 2n + |m|, where n is a non-negative integer. Thus, with J 2 = J(J + 1)1,
+J + 1
+2 = n + |m|
+2 .
+There are zero-modes when m̸ = 0 but when there is no background field n cannot vanish,
+in accordance with the Lichnerowicz theorem [14].
+7
+
+PAGE 8
+III.
+ZERO MODES
+Spinors can be decomposed in terms of chiral eigenstates
+Ψ =
+
+χ+
+χ−
+
+.
+Positive and negative chirality zero modes satisfy
+D¯zχ+ = 0
+(13)
+Dzχ−= 0
+(14)
+respectively. From (4) and (5) it is immediate that, on the northern hemisphere,
+χ+ = zp(1 + ¯zz)
+m+1
+2
+(15)
+χ−= ¯z ¯p(1 + ¯zz)−m−1
+2
+(16)
+satisfy these equations for any powers p and ¯p. However p and ¯p must be non-negative
+integers for χ± to be well behaved at the north pole. We also want χ± to be finite at the
+south pole, where |z| →∞, so we must also require that ¯p −m + 1 ≤0 and p + m + 1 ≤0.2
+Thus, since p and ¯p are non-negative, negative chirality zero modes require 0 ≤¯p ≤m −1
+and positive chirality zero modes require 0 ≤p ≤−m −1. We see that for a negative
+chirality zero mode to exist it must be the case that m ≥1 while a positive chirality zero
+mode requires m ≤−1. There is no value of m for which there are both positive and negative
+zero modes. The index theorem then tells us that
+n+ −n−= −m
+⇒
+n± = ±m.
+Thus for m ≥1, ¯p = 0, . . . m−1 exhausts the possibilities and for m ≤−1, p = 0, . . . |m|−1
+exhausts the possibilities.
+The index theorem tells us that the number of zero modes here is |m|. This differs from
+Haldane’s result that the degeneracy is |m| + 1 and the difference is called the shift [15].
+In the multi-particle wave-function (discussed below) the shift is the difference between the
+number of flux quanta and the number of particles and it is non-zero in Haldane’s analysis
+2 At the upper limit of these bounds the magnitude of χ± is finite but the phase is undefined, this is a
+gauge artifact. A well defined phase is obtained at the south pole by performing the gauge transformation
+χ± →ei(m±1)ϕχ± (the ±1 arises from the spin connection).
+8
+
+PAGE 9
+precisely because the electron spin and its coupling to the curvature of the sphere is ignored.
+When electron spin and the spin connection on the sphere are treated properly the shift is
+zero and this is clearly shown here, it can be traced to the (m + 1) and (m −1) terms in
+(6), electrons with opposite spin couple to the spin connection with the opposite sign.
+The most general (un-normalised) zero modes are linear combinations of (15) and (16)
+with constant co-efficients,
+χ+ =
+|m|−1
+X
+p=0
+apzp
+(1 + ¯zz)
+|m|−1
+2
+,
+for m ≤−1,
+(17)
+χ−=
+m−1
+X
+¯p=0
+a¯p¯z ¯p
+(1 + ¯zz)
+m−1
+2 ,
+for m ≥1.
+(18)
+We shall analyze the m < 0 case (for positive m simply complex conjugate the ground
+state wave functions). The single particle ground state (17) has degeneracy |m|, which is a
+consequence of the index theorem.
+The quantum Hall effect is a many particle phenomenon.
+Suppose we have N iden-
+tical particles on the sphere and denote their co-ordinates by zi, i = 1, . . . , N. Ignoring
+interactions between the particles the Hamiltonian is
+H = −¯h2
+2M
+N
+X
+i=1
+D/ 2(zi)
+where
+D/ (zi) = (1 + zi¯zi)
+ σ+Dzi + σ−D¯zi
+
+.
+The total ground state has zero energy and again consists of zero modes, but now for the
+zero mode associated with particle i the co-efficients ap or a¯p can be polynomials of the other
+N −1 co-ordinates. The most general multi-particle ground state is
+χ+(z1, · · · , zN) =
+ N
+Y
+i=1
+1
+(1 + ¯zizi)
+|m|−1
+2
+!
+|m|−1
+X
+p1,...,pN=0
+ap1...pNz1
+p1 · · · zN
+pN.
+Since the particles are fermions the wave-function should be anti-symmetric, so ap1...pN should
+be anti-symmetric in its indices. This requires N ≤|m| and leads to a degeneracy
+|m|!
+N!(|m|−N!).
+If N > |m| then all the particles cannot fit into the ground state and some must go into the
+second landau level. If N < |m| the ground state is degenerate and cannot be expected to be
+9
+
+PAGE 10
+stable under perturbations. There is a unique ground state, stable under small perturbations,
+if and only if N = |m| in which case
+χ+(z1, · · · , zN) =
+ Y
+i=1
+1
+(1 + ¯zizi)
+|m|−1
+2
+! Y
+i<j
+(zi −zj).
+(19)
+Thus there is a unique stable ground state if and only if the filling factor
+ν = N
+|m| = 1.
+These are ground-state wave functions, the spherical versions of the Laughlin wave-functions
+on the plane for the integer quantum Hall effect. For a sphere of radius R the energy gap is
+∆E = (|m| + 1)¯h2
+2MR2
+= (N + 1)¯h2
+2MR2
+.
+In the planar limit, R →∞, N →∞, keeping the particle density ρ =
+N
+4πR2 finite, the
+energy gap is
+∆E = 2πρ¯h2
+M
+= eB¯h
+M ,
+(20)
+where eB
+h =
+|m|
+4πR2.
+IV.
+HIGHER LANDAU LEVELS
+When N > |m| some particles must go into higher Landau levels. The energy eigenfunc-
+tions in the higher Landau levels can be described by Jacobi polynomials, P (α,β)
+n
+(cos θ). For
+spinless particles Jacobi polynomials were found in [11], for fermions Jacobi polynomials
+again appear but the details differ due to the spin-connection [16].
+The eigenspinors of −iD/ with λn = ±
+p
+n(n + |m|), n ≥1, are perhaps best exhibited
+using polar co-ordinates (θ, ϕ) (on the northern hemisphere)
+ψλn,α = Nn,α,β
+
+
+√n zα  cos θ
+2
+|m|−1 P (α,β)
+n
+(cos θ)
+∓i
+ p
+n + |m|
+
+zα+1  cos θ
+2
+|m|+1 P (α+1,β+1)
+n−1
+(cos θ)
+
+
+(21)
+where α = −n, . . . n + |m| labels the 2n + |m| independent degenerate states and β is fixed
+by α + β = |m| −1 and
+N 2
+n,α,β = (2n + |m|)
+8π
+Γ(n + 1)Γ(n + |m| + 1)
+Γ(n + α + 1)Γ(n + β + 1)
+10
+
+PAGE 11
+a normalisation constant.3
+The higher Landau levels now have both chiralities at the same energy level, but these
+can be separated by adding a Zeeman splitting term µ|m|(1 −σ3) to the Hamiltonian.
+The second Landau level corresponds to n = 1 and has degeneracy |m| + 2. By the
+same argument as before the anti-symmetrized ground state multi-particle wave function is
+degenerate unless
+N = |m| + (|m| + 2) = 2(|m| + 1),
+in which case the filling factor is
+ν = N
+|m| =
+2N
+N −2 →2
+as
+N →∞.
+The resulting wave-function is non-degenerate, it is stable under perturbations and the
+energy gap between the second and third Landau levels is
+∆E =
+¯h2
+2MR2
+ 2(|m| + 2) −(|m| + 1)
+
+= (|m| + 3)¯h2
+2MR2
+= (N + 4)¯h2
+4MR2
+.
+Repeating the argument for larger, but finite, n we recover the integer quantum Hall
+effect in the limit of large N. There is a unique stable ground state when the n-th Landau
+level is fully filled
+N =
+n
+X
+k=0
+(2k + |m|) = (n + 1)(n + |m|)
+so
+ν =
+N(n + 1)
+N −n(n + 1) →n + 1
+as
+N →∞.
+The energy gap between level n and level n + 1 is
+∆E =
+¯h2
+2MR2
+ (n + 1)(|m| + n + 1) −n(|m| + n)
+
+= (|m| + 2n + 1)¯h2
+2MR2
+=
+ N −n(n + 1)
+
+¯h2
+2(n + 1)MR2
+.
+In the planar limit
+∆E →
+|m|¯h2
+2MR2 = eB¯h
+M ,
+as expected.
+3 The eigenspinors are associated with irreducible representations of SU(2) and are also expressible as
+Wigner d-functions. The full degenerate set for a given n constitute a single column of the matrix in the
+2n + |m| dimensional irreducible representation of SU(2).
+11
+
+PAGE 12
+V.
+FRACTIONAL FILLING FRACTIONS
+Fractional filling fractions in the quantum Hall effect can be understood in terms of flux
+attachment [8]. A statistical gauge field is introduced and the effective degrees of freedom
+are composite objects consisting of electrons bound to statistical gauge field vortices. These
+vortices then reduce the effective field seen by the composite fermions.
+The gauge potential describing a uniform flux through the sphere arising from a monopole
+with charge m at the centre of the sphere together with N −1 vortices each of strength v
+piercing the sphere at points zj is described in the appendix, (A6) and (A7). The gauge
+potential is
+A(+) = v
+2i
+N−1
+X
+j=1
+
+dz
+z −zj
+−
+d¯z
+¯z −¯zj
+
++ im
+2
+zd¯z −¯zdz
+1 + z¯z
+
+,
+(22)
+A(−) = v
+2i
+N−1
+X
+j=1
+
+dz
+z −zj
+−
+d¯z
+¯z −¯zj
+
++ i
+2
+
+m
+(1 + z¯z) + (N −1)v
+ dz
+z −d¯z
+¯z
+
+.
+(23)
+The field strength is
+F = i
+ 
+2πv
+N−1
+X
+j−1
+δ(z −zj) +
+m
+2(1 + z¯z)2
+!
+dz ∧d¯z.
+The spectrum of the Dirac operator can be determined when there are magnetic vortices
+threading through the surface of the sphere in addition to a monopole at the centre. Omitting
+the self-energy of a composite fermion with its own vortex, and assuming all the vortices
+have the same strength vi = v, the Dirac operator (3) on the northern hemisphere then
+involves covariant derivatives
+Dz = ∂z + v
+2
+N−1
+X
+j=1
+1
+z −zj
++ (m + σ3)
+2
+¯z
+1 + z¯z,
+(24)
+D¯z = ∂¯z −v
+2
+N−1
+X
+j=1
+1
+¯z −¯zj
+−(m + σ3)
+2
+z
+1 + z¯z.
+(25)
+Using the identities
+∂z
+
+1
+¯z −¯zi
+
+= ∂¯z
+
+1
+z −zi
+
+= 2πδ(z −zi)
+the commutator is
+[Dz, D¯z] = −2πv
+N−1
+X
+j=1
+δ(z −zj) −(m + σ3)
+(1 + z¯z)2.
+12
+
+PAGE 13
+The index over the whole sphere, including the points associated with the vortices, is
+n+ −n−= −1
+2π
+Z
+S2 F = −
+
+m + (N −1)v
+
+.
+(26)
+If the points representing the vortices are excluded the index over the sphere minus N −1
+points is4
+n+ −n−= −1
+2π
+Z
+S2−(N−1) points
+F = −m,
+(27)
+Zero modes of (24) are
+χ−=
+¯z ¯p
+(1 + z¯z)
+m−1
+2
+N−1
+Y
+j=1
+(z −zj)−v
+2
+(¯z −¯zj)¯l ,
+(28)
+with −v
+2 ≥¯l for regularity at zj.5 Similarly zero modes of (25) are
+χ+ = zp(1 + z¯z)
+m+1
+2
+N−1
+Y
+j=1
+(¯z −¯zj)
+v
+2
+(z −zj)l .
+(29)
+However (28) are not all linearly independent, one could take linear combinations with ¯zi
+dependent co-efficients to construct a numerator that has powers of ¯z −¯zi which change ¯l, ¯l
+and ¯p are not independent in (29). Similarly l and p are not independent in (28). We seek a
+criterion for constraining l and ¯l and we shall explore this by looking at the transformation
+properties under rotations. Of course SU(2) is no longer a symmetry when there are vortices
+present, but we can still ask how the wave functions (28) and (29) change under rotations.
+In the presence of vortices the spinor Lie derivatives introduced before (11) are modified
+to
+J+ = z2∂z + ∂¯z + v
+2
+N−1
+X
+j=1
+
+z2
+z −zj
++
+1
+¯z −¯zj
+
++ (m + σ3)z
+2
+J−= −¯z2∂¯z −∂z + v
+2
+N−1
+X
+j=1
+
+¯z2
+¯z −¯zj
++
+1
+z −zj
+
++ (m + σ3)¯z
+2
+(30)
+J3 = z∂z −¯z∂¯z + v
+2
+N−1
+X
+j=1
+
+z
+z −zj
++
+¯z
+¯z −¯zj
+
++ (m + σ3)
+2
+4 This requires using index theorem for a manifold with boundary (the Atiyah-Patodi-Singer index theorem)
+where the points are excised. But a careful analysis, using the techniques described in [17], shows that,
+if v is an integer, the boundary terms arising from small circles surrounding the excised points give no
+contribution to the index.
+5 When ¯l ≤0 this is immediate, when ¯l > 0 we invoke
+Dzχ−= −2π¯l
+
+
+N−1
+X
+j=1
+(¯z −¯zj)δ(¯z −¯zj)
+
+χ−= 0.
+13
+
+PAGE 14
+on the northern hemisphere. These generate SU(2) at any point on the sphere away from
+the vortices, but not at the vortices themselves — at the vortices there will be delta function
+singularities that prevent the algebra from closing. The algebra is well defined and closes
+on the sphere with N −1 points removed.
+For J3
+[J3, Dz] = −Dz −2πv¯z
+N−1
+X
+j=1
+δ(z −zj),
+[J3, D¯z] = D¯z −2πvz
+N−1
+X
+j=1
+δ(z −zj).
+(31)
+This implies that J3 commutes with the Dirac operator on the sphere with N −1 points
+removed. A short calculation gives
+J3χ+ =
+ 
+p +
+v
+2 −l
+ N−1
+X
+j=1
+z
+z −zj
++ 2πl¯z
+N−1
+X
+j=1
+(z −zj)δ(z −zj) + m + 1
+2
+!
+χ+,
+(32)
+if v and l are both positive. Choosing l = v
+2 results in
+χ+ = zp(1 + z¯z)
+m+1
+2
+N−1
+Y
+j=1
+ ¯z −¯zj
+z −zj
+ v
+2
+with
+J3χ+ =
+ 
+p + πv¯z
+N−1
+X
+j=1
+δ(z −zj) + m + 1
+2
+!
+χ+
+and χ+ is an eigenfunction of J3 on the punctured sphere with the N −1 points removed.
+We restrict p to be a non-negative integer, so as to render χ+ well behaved6 at z = 0,
+and take m < 0 with p ≤|m| −1 so that χ+ is well behaved as |z| →∞. Then
+χ+ =
+zp
+(1 + z¯z)
+|m|−1
+2
+N−1
+Y
+j=1
+ ¯z −¯zj
+z −zj
+ v
+2
+.
+(33)
+Singularities at the points zj are evident here as the phase of (33) is undefined there when
+v̸ = 0. So the points with the vortices have to be excised from the sphere and the index
+on the punctured sphere is given by (27). There are no normalisable negative chirality zero
+modes when m is negative, as can be checked explicitly, so n+ = |m|. For χ−the analysis is
+similar, except m > 0 and (33) is complex conjugated.
+Excising points and using (33) for the zero modes may seem natural from a mathematical
+point of view but physically it is not satisfactory. In the flux attachment picture each of the
+6 By well behaved we mean that it is finite and, apart from the overall factor of 1/(1 + z¯z)
+(|m|−1)
+2
+, it is a
+product of a function analytic in z and a function analytic in ¯z.
+14
+
+PAGE 15
+vortices is attached to a particle and we wish to include all the particles in the dynamics,
+we do not want to remove these points. We can avoid excising points yet still satisfy the
+index theorem by choosing l = −v
+2. Now
+χ+ = zp(1 + z¯z)
+m+1
+2
+N−1
+Y
+j=1
+(¯z −¯zj)
+v
+2 (z −zj)
+v
+2
+(34)
+is well behaved for p ≥0, v = 2k ≥0, where k is an integer, and
+p + m + 1 + 2(N −1)k ≤0
+⇒
+0 ≤p ≤−(m + 1 + 2(N −1)k) = −m′ −1,
+(35)
+where m′ = m + 2k(N −2). Thus m′ ≤−1 for positive chirality zero modes (there are
+no normalisable negative chirality zero modes for negative m′). The index is now (26) and
+n+ = |m′|. With 0 ≤p ≤|m′| −1 equation (34) then is a complete set for the zero modes,
+though they are not eigenstates of J3. m′ is the effective magnetic charge the composite
+fermions see, since m′ and m are both negative |m′| < |m| and the composite fermions move
+in a weaker field than that generated by the monopole m, a consequence of the vortices is
+that the composite Fermions effectively move in a weakened background field.
+The net result is that, if we do not wish to excise the vortices from the sphere, then the
+number of zero modes for negative m′ is |m′| and
+χ+ =
+zp
+(1 + z¯z)
+|m|−1
+2
+N−1
+Y
+j=1
+|z −zj|2k,
+(36)
+with v = 2k > 0 and m = m′ −2(N −1)k < 0. The vortices necessarily have even charge
+and act to oppose the background monopole field, thus reducing the effective magnetic field
+that the composite fermions see.7
+A general zero mode is a linear combination,
+χ+ =
+1
+(1 + z¯z)
+|m|−1
+2
+N−1
+Y
+j=1
+|z −zj|2k
+|m′|−1
+X
+p=0
+apzp,
+(37)
+In the flux attachment picture each of the vortices is attached to a particle. With N particles
+the antisymmetrised many-particle wave function is
+χ+(z1, . . . , zN) =
+ N
+Y
+i=1
+1
+(1 + zi¯zi)
+|m|−1
+2
+! N
+Y
+i<j
+|zi −zj|2k
+!
+|m′|−1
+X
+p1,...,pN=0
+ap1...pNzp1
+1 · · · zpN
+N ,
+7 Again a similar analysis for χ−changes the sign of m, and m′ with v = 2k and complex conjugates (36).
+15
+
+PAGE 16
+where ap1...pN is anti-symmetric. The ground state is unique if and only if ap1...aN is unique
+(up to an overall constant) and this requires |m′| = N with ap1...aN ∝ϵp1...aN. The unique
+(un-normalised) ground state is
+χ+(z1, . . . , zN) =
+ N
+Y
+i=1
+1
+(1 + zi¯zi)
+|m|−1
+2
+! N
+Y
+i<j
+|zi −zj|2k(zi −zj).
+(38)
+This is the ground state for a system of non-interacting composite fermions each consisting
+of an electron bound to a vortex of strength 2k and subject to a background field consisting
+of a magnetic monopole of charge m. Wave functions of this form on a plane, and hence
+with a different geometrical factor, were considered by [18] and studied numerically in [19].
+There is an energy gap as before and the filling factor is
+ν = N
+|m| =
+N
+N + 2k(N −1)
+→
+1
+2k + 1
+as
+N →∞.
+The system therefore describes the Laughlin series of the fractional quantum Hall effect.
+The vortices can be removed by a singular gauge transformation,
+χ+ →e−iΦχ+,
+A →A + ieiΦde−iΦ
+where the phase Φ is
+Φ = v
+2i
+N
+X
+i<j
+ln
+ ¯zi −¯zj
+zi −zj
+
+.
+With v = 2k, the ground state χ+ (38) gauge transforms to
+χ+ →eχ+ =
+ N
+Y
+i=1
+1
+(1 + zi¯zi)
+|m|−1
+2
+! N
+Y
+i<j
+(zi −zj)2k+1.
+(39)
+This is Haldane’s ground state for the quantum effect on a sphere, [2], apart from the
+geometrical factor QN
+i=1(1 + zi¯zi)−(
+|m|−1
+2
+) it is the Laughlin ground state [1]. This is a zero
+mode for N electrons in a background gauge field for a monopole of charge m < 0 with
+potential
+eA(+) = im
+2
+zd¯z −¯zdz
+1 + z¯z
+
+,
+eA(−) = im
+2
+1
+(1 + z¯z)
+dz
+z −d¯z
+¯z
+
+,
+but it is not unique. The most general zero mode for this configuration is
+eχ+(z1, . . . , zN) =
+ N
+Y
+i=1
+1
+(1 + zi¯zi)
+|m|−1
+2
+!
+|m|−1
+X
+p1,...,pN=0
+a[p1...pN]zp1
+1 · · · zpN
+N ,
+16
+
+PAGE 17
+The degeneracy is determined by the number of components of the anti-symmetric co-
+efficients a[p1...pN], but now regularity at the S pole only requires 0 ≤p ≤|m| −1, so the
+degeneracy is
+|m|!
+N!(|m| −N)! =
+ (2k + 1
+
+N −2k)!
+N!
+ 2k(N −1)
+
+! ,
+which diverges exponentially as N →∞, for any positive k. The energy gap is lost and
+one cannot expect the ground state (39) to be stable under perturbations. The introduction
+of the vortices changes (39) to (38) and stabilizes the ground state, it is a singular gauge
+transformation and so can change the physics.
+VI.
+CONCLUSIONS
+Haldane’s description of the quantum Hall effect on a sphere has been developed in the
+context of Fermions on a compact space, allowing the Atiyah-Singer index theorem to be
+utilised in analysing the ground state of the Hamiltonian which necessarily requires zero
+modes. Electron wave-functions are cross sections of the U(1) bundle associated with the
+monopole. For a single electron in the field of a magnetic monopole of charge m (in magnetic
+units with e2
+h = 1) the number of zero-modes, and hence the degeneracy of the ground state,
+is limited by the index theorem to |m|. For a system of N particles Fermi statistics then
+gives the unique ground state (19) if and only of N = |m| and the filling factor is ν = 1.
+The uniqueness, and hence stability, of the Haldane ground state wave function for the
+integer quantum Hall effect (which is the same as the Laughlin ground state function except
+for a geometric factor) is seen to be a consequence of the index theorem which limits the
+dimension of the space of zero modes.
+The fractional quantum Hall effect can be studied in the composite Fermion scenario
+by viewing a monopole of charge m to be |m| individual monopoles of charge ±1 and
+promoting some of the Dirac strings associated with these monopoles to be statistical gauge
+field vortices which bind to electrons, forming composite Fermions. The vortices necessarily
+reduce the magnitude of the background magnetic field seen by the composite fermions and
+the index theorem again dictates that the degeneracy of the ground state is finite. Apart
+from the usual geometrical factor on the sphere the ground state wave-function is a product
+of a holomorphic and an anti-holomorphic field if and only if the vortices are of strength 2k
+with k an integer. The ground state wave-function for a system consisting of N composite
+17
+
+PAGE 18
+fermions (38) is then unique if and only if the filling factor is
+1
+2k+1, for large N. Removing
+the vortices by use of a singular gauge transformation then gives the Laughlin ground state
+for the fractional quantum Hall in the Laughlin series, again apart from a geometrical factor.
+It would be interesting to apply similar techniques to the higher dimensional quantum
+Hall effect [20], [21] in which S2 is replaced by S4 and the spinors are cross-sections of an
+SU(2) bundle, but we leave that to future work.
+Appendix A: Vortices on a sphere
+A vortex of strength v at the N-pole of the sphere, z = 0, with flux 2πv out of the sphere,
+is described by a magnetic potential
+a = v
+2i
+dz
+z −d¯z
+¯z
+
+.
+(A1)
+Then da = 0 provided z̸ = 0 but, if we isolate the N-pole by surrounding it by a small circle
+S1
+ϵ of radius ϵ centred on z = 0,
+Z
+S1ϵ
+a = v
+2i
+Z
+S1ϵ
+dz
+z −v
+2i
+Z
+S1ϵ
+d¯z
+¯z = πv −π(−v) = 2πv.
+(A2)
+Thus (A1) describes a point vortex of strength v at the N-pole, f = da is a δ-function at
+z = 0, which can be represented by
+∂¯z
+1
+z
+
+= ∂z
+1
+¯z
+
+= 2πδ(z).
+However this potential also gives an anti-vortex, of strength −v, at the S pole: the anti-
+podal point is given by z →1
+¯z, which sends a →−a. This is perhaps clearer using polar
+co-ordinates, (θ, ϕ), in which
+a = vdϕ
+which represents an infinite straight flux tube in 3-dimensions, threading through both the
+N-pole and the S-pole of the sphere. The total flux through the sphere arising from f = da
+is zero.
+The position of the vortex through the N-pole can be moved around by using
+a = v
+2i
+
+dz
+(z −z1) −
+d¯z
+(¯z −¯z1)
+
+,
+(A3)
+18
+
+PAGE 19
+representing a vortex of strength v through the point z1, but there is still an anti-vortex
+through the S-pole for any finite z1. However the vortex at the S-pole can be removed
+by adding a uniform magnetic field with a semi-infinite solenoid threading the S pole and
+terminating at the centre of the sphere,
+a = v
+2i
+
+dz
+(z −z1) −
+d¯z
+(¯z −¯z1)
+
++ v
+2i
+zd¯z −¯zdz
+1 + z¯z
+
+,
+(A4)
+giving the field strength
+f = da = i
+
+2πvδ(z1) + v
+2
+1
+(1 + z¯z)2
+
+dz ∧d¯z
+This is perfectly regular at the S pole and represents a magnetic monopole of charge −v at
+the centre of the sphere together with a point vortex of strength v at z1, the total flux is
+zero (figure 1). It is actually like a Dirac monopole with it’s accompanying string threading
+the sphere at z1, but a Dirac string is a gauge artifact, a vortex is not.
+If there are N −1 vortices all of the same strength v positioned at zj then the fields are
+simply added:
+a = v
+2i
+N−1
+X
+j=1
+
+dz
+z −zj
+−
+d¯z
+¯z −¯zj
+
+−i(N −1)v
+2
+zd¯z −¯zdz
+1 + z¯z
+
+.
+(A5)
+The corresponding field strength is
+f = da = i
+ 
+2πv
+N−1
+X
+j=1
+δ(z −zj) −(N −1)v
+(1 + z¯z)2
+!
+dz ∧¯dz
+and
+Z
+S2 f = 0.
+If in addition a background monopole field with charge m′ is present then the total gauge
+potential on the northern hemisphere is
+A(+) = v
+2i
+N−1
+X
+j=1
+
+dz
+z −zj
+−
+d¯z
+¯z −¯zj
+
++ im
+2
+zd¯z −¯zdz
+1 + z¯z
+
+,
+(A6)
+where m = m′ −(N −1)v, and the field strength is
+F = dA(+) = i
+ 
+2πv
+N−1
+X
+j=1
+δ(z −zj) +
+m
+2(1 + z¯z)2
+!
+dz ∧d¯z.
+19
+
+PAGE 20
+(a)
+(b)
+(d)
+(c)
+FIG. 1. A vortex threading the sphere. (a) shows the simple vortex in (A1) piercing the sphere at
+the north and south poles; (b) shows the vortex in (A3), piercing the sphere at z1 and the south
+pole; (c) shows the combination of the vortex in (b) combined with a Dirac monopole of charge −1
+uniformly distributed on the sphere together with its accompanying string through the south pole;
+(d) the Dirac string and the vortex through the south pole cancel leaving a uniform monopole field
+with a vortex at z1. The total flux through the sphere in (d) is zero — the Dirac string has been
+moved from the south pole to the point z1.
+On the southern hemisphere we take the potential to be
+A(−) = v
+2i
+N−1
+X
+j=1
+
+dz
+z −zj
+−
+d¯z
+¯z −¯zj
+
+−i(N −1)v(zd¯z −¯zdz)
+2(1 + z¯z)
++ im′
+2
+1
+(1 + z¯z)
+dz
+z −d¯z
+¯z
+
+= v
+2i
+N−1
+X
+j=1
+
+dz
+z −zj
+−
+d¯z
+¯z −¯zj
+
++ i
+2
+
+m
+(1 + z¯z) + (N −1)v
+ dz
+z −d¯z
+¯z
+
+,
+(A7)
+20
+
+PAGE 21
+which is perfectly well defined as |z| →∞. Again
+F = dA(−) = i
+ 
+2πv
+N−1
+X
+j=1
+δ(z −zj) +
+m
+2(1 + z¯z)2
+!
+dz ∧d¯z.
+The total flux is
+Z
+S2 F = 2π
+
+m + (N −1)v
+
+,
+see figure 2.
+What we have done here is taken |m| monopoles each of charge ±1 (depending on the
+sign of m) and promoted the Dirac strings on N −1 of them to be real vortices at zi, but
+leaving |m′| of them as Wu-Yang monopoles, for which the Dirac string is a gauge artifact.
+The configuration is indistinguishable from that of a monopole of charge m together with
+N −1 vortices.
+21
+
+PAGE 22
+(a)
+(d)
+(c)
+(b)
+FIG. 2. Composite fermions. (a) represents three electrons in a uniform background flux with
+total magnetic charge m = −9, giving filling factor 1
+3; (b) six Dirac strings are promoted to be real
+vortices and attached to the electrons in pairs; (c) the total magnetic flux is now m′ = −3; (d)
+the resulting configuration consists of three composite fermions in a field of strength −3 giving an
+effective filling factor 1.
+[1] R.B. Laughlin, Phys. Rev. Lett. 50 (1983) 1395.
+[2] F.D. Haldane, Phys. Rev. Lett. 51 (1983) 605.
+[3] K.-S. Park and K.S. Yi, Int. J of Mod. Phys. B 32 4801 (2009).
+[4] Z.F. Ezawa, Quantum Hall Effects: Recent Theoretical and Experimental Developments,
+22
+
+PAGE 23
+World Scientific (2013).
+[5] K. Hasebe, J. Phys. Conf. Ser. 883 (2017) 012010.
+[6] T. Koma, Rev. Math. Phys. 16 (2004) 115.
+[7] Q. Niu, D.J. Thouless and Y.-S. Wu Phys. Rev. B 31 3372 (1985).
+[8] J.K. Jain, Phys. Rev. Lett. 63 (1989) 199.
+[9] A.A. Abrikosov Jr, Dirac operator on the Riemann sphere, hep-th/0212134.
+[10] B.P. Dolan, JHEP 05 (2003) 018, hep-th/0304037.
+[11] T.T. Wu and C.N. Yang, C.N., Nucl. Phys. B 107 (1976) 365.
+[12] M. Fierz, Helv. Phys. Acta 17 (1944) 27.
+[13] K. Kosmann, Annali di Mat. Pura Appl. 91 (1972) 317.
+[14] A. Lichnerowicz, C. R. Acad. Sci. 257 (1963) 7.
+[15] X,G Wen and A. Zee Phys. Rev. Lett. 69 (1992) 953.
+[16] V.M. Villalba, V.M., Journal of Mathematical Physics 36 (1995) 3332.
+[17] T. Eguchi, P.B. Gilkey and A.J. Hanson, Phys. Rep. 66 (1980) 213.
+[18] S.M. Girvin and T. Jach, T, Phys. Rev. B29 (1984) 5617.
+[19] M. Fremling, F. Fulsebakke, N. Moran and J. Slingerland, Phys. Rev. B93 (2016) 235149,
+cond-mat/1601.06736.
+[20] S.C. Zhang, and J.P. Hu, Science 249 (2001) 823, cond-mat/0110572.
+[21] D. Karabali and V.P. Nair, Nuc. Phys. B 641 (2002) 533, hep-th/0203264.
+23

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/pdf/1206.2652",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "G2 F4 E6 E7 E8 C2(G) 4b 9b 12b 18b 30b T(F) b 3b 3b 6b − C2(F) 2b 6b 26 3 b 57 4 b − NF 7 26 27 56 − NG 14 52 78 133 248 TABLE I: Relevant group factors for the exceptional groups. b is the normalization factor of the Killing form (or equivalently the quadratic Casimir of the adjoint representation) as discussed in [18, 35]. The canonical choice for the normalization is b = 1.",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/pdf/hep-ph/9701390",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "We obtained in this way the following result for the 4-loop beta function in the MS-scheme β0 = 11 3 CA −4 3TF nf β1 = 34 3 C2 A −4CF TF nf −20 3 CATFnf β2 = 2857 54 C3 A + 2C2 F TF nf −205 9 CF CATFnf −1415 27 C2 ATF nf + 44 9 CF T 2 Fn2 f + 158 27 CAT 2 Fn2 f",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

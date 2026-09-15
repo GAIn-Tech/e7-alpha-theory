@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/pdf/0804.1362",
+      "title": "pacheco",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/pdf/0904.2333",
+      "title": "grana",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/hep-th/9609122",
+      "title": "witten_flux",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://arxiv.org/pdf/hep-th/0105097",
+      "title": "gkp",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://arxiv.org/pdf/0706.1893",
+      "title": "e7_stability",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://arxiv.org/pdf/hep-th/0611133",
+      "title": "sixd_review",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "url": "https://arxiv.org/pdf/2001.02208",
+      "title": "sphere_index",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 8,
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/witten.pdf",
+      "title": "witten_jones",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 9,
+      "url": "https://arxiv.org/pdf/2107.03557",
+      "title": "freed_index",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 10,
+      "url": "https://www.nature.com/articles/139323a0",
+      "title": "dirac1937",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 11,
+      "url": "https://encyclopediaofmath.org/wiki/Dirac_monopole",
+      "title": "wu_yang",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

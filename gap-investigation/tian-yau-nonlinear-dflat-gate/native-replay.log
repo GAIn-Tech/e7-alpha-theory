@@ -1,0 +1,2 @@
+{"certificate_sha256": "e60c2dc22d499e610dbde5ad896e592328d324fe8e300d5b0a7938a61c4cd3df", "mode": "immutable replay", "passed": true}
+{"manifest_sha256": "de0313f6888fa56c2555c2624ab2f6f4f6e415e53187fe2dc0107da24fcaf0ec", "manifest_unchanged": true, "passed": true, "verification": "Native exact SymPy replay. Analytic theorem written, not Lean formalized."}

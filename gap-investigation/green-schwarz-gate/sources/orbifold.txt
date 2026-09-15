@@ -1,0 +1,666 @@
+[PDF PAGE 1]
+arXiv:hep-th/0110073v2  6 Dec 2001
+CERN-TH/2001-267
+ROMA-1325/01
+SISSA-77/2001/EP
+Anomalies in orbifold ﬁeld theories
+C.A. Scruccaa, M. Seroneb, L. Silvestrinic and F. Zwirnerc
+a CERN, CH-1211 Geneva 23, Switzerland
+b ISAS-SISSA, Via Beirut 2-4, I-34013 Trieste, Italy
+INFN, sez. di Trieste, Italy
+c Dip. di Fisica, Univ. di Roma “La Sapienza” and INFN, sez. di Roma
+P.le Aldo Moro 2, I-00185, Rome, Italy
+Abstract
+We study the constraints on models with extra dimensions arising from local
+anomaly cancellation. We consider a ﬁve-dimensional ﬁeld theory with a U(1)
+gauge ﬁeld and a charged fermion, compactiﬁed on the orbifold S1/(Z2 × Z′
+2).
+We show that, even if the orbifold projections remove both fermionic zero
+modes, there are gauge anomalies localized at the ﬁxed points.
+Anomalies
+naively cancel after integration over the ﬁfth dimension, but gauge invariance
+is broken, spoiling the consistency of the theory. We discuss their implications
+for realistic supersymmetric models with a single Higgs hypermultiplet in the
+bulk, and possible cancellation mechanisms in non-minimal models.
+
+[PDF PAGE 2]
+1
+Introduction
+Theories formulated in D > 4 space-time dimensions may lead to a geometrical un-
+derstanding of the problems of mass generation and symmetry breaking. Orbifold
+compactiﬁcations [1] of higher-dimensional theories are simple and eﬃcient mecha-
+nisms to reduce their symmetries and to generate four-dimensional (4-D) chirality.
+Phenomenologically interesting orbifold models can be formulated, either as explicit
+string constructions or as eﬀective higher-dimensional ﬁeld theories.
+The ﬁeld-theoretical approach to orbifolds is currently fashionable because of its
+apparent simplicity and ﬂexibility. However, it is well known that the rules for the
+construction of consistent string-theory orbifolds are quite stringent, and automati-
+cally implement a number of consistency conditions in the corresponding eﬀective ﬁeld
+theories: in particular, the cancellation of gauge, gravitational and mixed anomalies.
+Since anomalies are infrared phenomena, if we start from a consistent string model
+(‘top–down’ approach), anomaly cancellation must ﬁnd an appropriate description
+in the eﬀective ﬁeld theory. Such a description, however, may be non-trivial, as for
+the Green–Schwarz [2] or the inﬂow [3] mechanisms. If, instead, we decide to work
+directly at the ﬁeld-theory level (‘bottom–up’ approach), great care is needed, since
+orbifold projections do not necessarily preserve the quantum consistency of a ﬁeld
+theory (as discussed, for example, in [4]). In particular, the question of anomaly
+cancellation must be explicitly addressed.
+A ﬁrst step in this direction was taken in ref. [5], which discussed the chiral
+anomaly in a ﬁve-dimensional (5-D) theory compactiﬁed on the orbifold S1/Z2. It
+was found that, in such a simple context, naive 4-D anomaly cancellation is suﬃcient
+to ensure 5-D anomaly cancellation. For a 5-D fermion of unit charge, and a chiral
+action of the Z2 projection, the 5-D anomaly is localized at the orbifold ﬁxed points,
+and is proportional to the 4-D anomaly:
+∂MJM(x, y) = 1
+4
+h
+δ(y) + δ(y −πR)
+i
+Q(x, y) ,
+(1)
+where1 JM is the 5-D current and
+Q(x, y) =
+g2
+5
+16π2 Fµν(x, y) ˜F µν(x, y)
+(2)
+is proportional to the 4-D chiral anomaly from a charged Dirac spinor in the external
+gauge potential Aµ(x, y). In our notation: M = [(µ = 0, 1, 2, 3), 4]; x ≡(x0,1,2,3)
+are the ﬁrst four coordinates, y ≡x4 is the ﬁfth coordinate, compactiﬁed on a circle
+of radius R; y = 0, πR are the two ﬁxed points with respect to the Z2 symmetry
+y →−y; g5 is the 5-D gauge coupling constant.
+1We work on the orbifold covering space S1, and we normalize the δ-functions so that, for
+y0 ∈[0, 2πR) and 0 < ǫ < 2πR −y0,
+R 2πR−ǫ
+−ǫ
+dyδ(y −y0)f(y) = f(y0).
+2
+
+[PDF PAGE 3]
+In this letter we show that the phenomenon discussed in [5] does not persist
+in more general cases. To be deﬁnite, we consider a 5-D ﬁeld theory with a U(1)
+gauge ﬁeld AM and a massless fermion ψ of unit charge, compactiﬁed on the orbifold
+S1/(Z2 × Z′
+2). The action of the two parities are y →−y and y′ →−y′, respectively,
+where y′ = y −πR/2. Both the gauge and the fermion ﬁelds are taken to be periodic
+on the circle.
+We decompose the Dirac spinor ψ into left and right spinors with
+parities (+, −) and (−, +), respectively: ψ ≡ψ+−+ ψ−+. Notice that a standard
+fermion mass term is forbidden by the Z2 × Z′
+2 symmetry. As for the gauge ﬁeld, we
+assign (+, +) parities to Aµ, (−, −) to A4. Although the theory has no massless 4-D
+chiral fermion, a non-vanishing anomaly is induced, given by eq. (10) below.
+The theory can be trivially supersymmetrized, by embedding its ﬁeld content in
+a U(1) vector multiplet and a charged hypermultiplet. From the point of view of
+anomalies, our simple example reproduces the essential features of a recently pro-
+posed phenomenological model [6], whose light spectrum contains just the states of
+the Standard Model (SM), with an anomaly-free fermion content. The underlying 5-
+D theory is supersymmetric, with vector multiplets containing the SM gauge bosons,
+and hypermultiplets containing the SM quarks and leptons. In addition, the model
+of ref. [6] has just one charged hypermultiplet, which contains the SM Higgs boson.
+Such a model has received some attention because it may give a prediction for the
+Higgs mass, even though it was recently shown [7] that the Higgs self-energy receives
+a quadratically divergent one-loop contribution. The latter corresponds to the ap-
+pearance of a Fayet–Iliopoulos (FI) term, with divergences localized at the orbifold
+ﬁxed points, which immediately hints at a possible connection with anomalies.
+The content of the present letter is organized as follows. We begin by showing
+that, even if there are no 4-D massless fermions in the spectrum, our simple 5-D
+theory is actually anomalous. Localized anomalies, with opposite signs, appear at
+the ﬁxed points of the two orbifold projections. The integrated anomaly vanishes,
+reﬂecting the absence of any one-loop anomaly among 4-D massless states, but there
+are anomalous triangle diagrams when at least one of the external states is a massive
+Kaluza–Klein (KK) mode. We focus our attention on the U(1)3 gauge anomaly, which
+we explicitly compute along the lines of [5]. In realistic extensions, such as [6], similar
+results would hold for the U(1)3
+Y , U(1)Y –SU(2)2
+L and U(1)Y –gravitational anomalies.
+We then argue that this anomaly leads to a breakdown of 4-D gauge invariance.
+Hence, in its minimal form, the model is inconsistent, even as an eﬀective low-energy
+theory. Next, we consider the supersymmetric extension of our simple theory, and
+compute the precise expression for the one-loop FI term.
+Finally, we discuss the
+possible modiﬁcations that could restore the consistency of the theory.
+3
+
+[PDF PAGE 4]
+2
+U(1) anomalies
+In this section, we take the theory deﬁned in the Introduction and we compute the
+U(1)3 anomaly, following closely the method and the notation of ref. [5] (for an early
+computation of this type, see also ref. [8]).
+The KK wavefunctions ξab for ﬁelds ϕab of deﬁnite Z2 × Z′
+2 parities (a, b = ±) are
+deﬁned as:
+ξ++
+n≥0(y) ≡
+ηn
+√
+πR cos 2ny
+R ,
+ξ+−
+n>0(y) ≡
+1
+√
+πR cos (2n −1)y
+R
+,
+ξ−−
+n>0(y) ≡
+1
+√
+πR sin 2ny
+R ,
+ξ−+
+n>0(y) ≡
+1
+√
+πR sin (2n −1)y
+R
+,
+(3)
+where ηn is 1/
+√
+2 for n = 0 and 1 for n > 0. They form a complete orthonormal basis
+of periodic functions on S1, with given Z2 × Z′
+2 parities. The Fourier modes of a ﬁeld
+ϕab are deﬁned as:
+ϕab
+n (x) ≡
+Z 2πR
+0
+dy ξab
+n (y) ϕab(x, y) ,
+(4)
+and have a mass given by m2n+(ab−1)/2, where mn = n/R.
+In the gauge A4 = 0, the 4-D Lagrangian for the Fourier modes ψn ≡ψ+−
+n
++ ψ−+
+n
+can be written as
+L =
+X
+m,n
+¯ψm
+h
+(i /∂−m2n−1)δmn −g5 /Amn
+i
+ψn ,
+(5)
+where /Amn ≡/A+−
+mnP+ + /A−+
+mnP−, with P± = (1 ± γ5)/2, and 2
+A±∓
+µ mn(x) ≡
+Z 2πR
+0
+dy ξ±∓
+m (y) ξ±∓
+n (y) Aµ(x, y)
+(6)
+in terms of the U(1) connection Aµ.
+Interpreting ψn as a single fermion with a ﬂavour index and chiral couplings to
+the gauge ﬁeld Aµ
+mn through the currents Jµ
+±mn = ¯ψmγµP±ψn, it is straightforward to
+adapt the standard computation of anomalies to obtain:
+∂µJµ
+±mn = ±
+
+m2m−1J4
+±mn + m2n−1J4
+∓mn
+
+±
+g2
+5
+32π2
+X
+k>0
+F ±∓
+µνmk ˜F µν±∓
+kn
+,
+(7)
+where J4
+±mn = ¯ψmiγ5P±ψn.
+Equation (7) can be easily Fourier-transformed back
+to conﬁguration space by convolution with ξ±∓
+m (y) ξ±∓
+n (y). Using completeness, this
+yields
+∂MJM
+± (x, y) = ±1
+2
+X
+k>0
+[ξ±∓
+k
+(y)]2 Q(x, y) ,
+(8)
+2Notice that the A±∓
+µ mn are not Fourier modes of the type (4), but can be easily related to them.
+One ﬁnds: Aµ±∓
+mn
+= (η−1
+|m−n|Aµ
+|m−n| ± η−1
+|m+n−1|Aµ
+|m+n−1|)/
+√
+πR.
+4
+
+[PDF PAGE 5]
+where the quantity Q was deﬁned in eq. (2). The anomaly in the vector current
+JM(x, y) = JM
++ (x, y) + JM
+−(x, y) is then proportional to
+X
+k>0
+h
+(ξ+−
+k
+(y))2 −(ξ−+
+k
+(y))2i
+= 1
+4 e−2 i y/R
+∞
+X
+l=−∞
+δ(y −lπR/2) ,
+(9)
+hence
+∂MJM(x, y) = 1
+8
+h
+δ(y) −δ(y −πR/2) + δ(y −πR) −δ(y −3πR/2)
+i
+Q(x, y) .
+(10)
+Therefore, although the integrated anomaly vanishes, there are anomalies, localized at
+the ﬁxed points, that are equal in magnitude to 1/4 (or 1/2 if we sum the contribution
+from identiﬁed ﬁxed points) of the anomaly from a 4-D Weyl fermion. The full 5-D
+theory is thus inconsistent (at least in its minimal form).
+Let us now rewrite eq. (10) in terms of standard Fourier modes of the current and
+gauge ﬁelds. Recalling that both have (+, +) parities, the Fourier transform of (10)
+takes the form:
+qMJM
+n (q) = 1
+g5
+∞
+X
+i,j=0
+Z
+d4p
+(2π)4 qM T Mαβ
+nij
+(p, q) Aαi(p) Aβj(q −p) ,
+(11)
+where
+qMT Mαβ
+nij
+(p, q) =
+g3
+4
+2
+√
+2 π2 ηn ηi ηj δn+i+j,odd ǫαβµνpµ qν ,
+(12)
+with g4 = g5/
+√
+2πR. This quantity encodes the triangular anomaly between three
+external KK modes of the photon with indices (n, i, j), as illustrated in ﬁg. 1.
+T M,N,P
+nij
+(p, q) =
+AM
+i (p)
+AN
+j (q)
+AP
+n (−p −q)
+Figure 1: The 1-loop anomalous diagram.
+This anomaly vanishes for n + i + j = even, and in particular for n = i = j = 0,
+reﬂecting the fact that there is no 4-D anomaly for the massless modes: all non-
+vanishing anomalous diagrams involve at least one massive mode. These diagrams
+make the full theory inconsistent. However, it may be asked whether the low-energy
+eﬀective theory obtained by integrating out all massive modes could be consistent.
+5
+
+[PDF PAGE 6]
+This is not the case, because gluing such diagrams through heavy lines produces 4-
+D gauge symmetry breaking eﬀective interactions among zero-modes. Consider for
+instance a 3-loop diagram obtained by gluing two anomalous triangles through two
+massive photons, as depicted in ﬁg. 2. This represents a contribution to the two-
+point function Πµν of the zero-mode photon that violates gauge invariance.
+The
+non-vanishing longitudinal component of Πµν is encoded in qµqνΠµν(q), which feels
+only the anomalous part of the triangular subdiagram [9]. Another example is the
+four-point function involving two longitudinal and two transverse zero-mode photons,
+which receives a non-vanishing ﬁnite two-loop contribution controlled by the anomaly.
+Πµν(q) =
+Aµ
+0(q)
+Aν
+0(−q)
+Figure 2: The 3-loop anomalous contribution to the photon two-point function.
+These gauge anomalies could be computed in an independent way by using their
+well-known relation with chiral anomalies and index theorems, which is particularly
+clear in Fujikawa’s approach. In this formalism, the integrated chiral anomaly of
+a 4-D Dirac fermion is encoded in the quantity TrD=4 [γ5] = index( /D), where /D is
+the Dirac operator. In the case of a 5-D theory compactiﬁed on S1, the anomaly
+vanishes, since the Hilbert space splits into two identical components of opposite
+chirality and TrD=5 [γ5] = 0. This can be easily extended to an S1/(Z2 × Z′
+2) orbifold
+compactiﬁcation. The trace must now be restricted to invariant states only; this can
+be achieved by inserting into the unconstrained trace a Z2×Z′
+2 projector P. Denoting
+by g and g′ the generators of Z2 and Z′
+2 respectively, the explicit expression of this
+projector is P = 1
+4(1 + g + g′ + gg′). Each element in P, when inserted in the trace,
+leads to a so-called equivariant index of the Dirac operator. This has a non-vanishing
+support only at the ﬁxed points of the element. The identity in P gives a vanishing
+result as in the S1 compactiﬁcation. Similarly, the gg′ element also gives a vanishing
+contribution, because it generates a translation along the compact direction that does
+not aﬀect chirality. On the other hand, the elements g and g′ act chirally on the Dirac
+fermion ψ (gψg−1 = γ5ψ, g′ψg′−1 = −γ5ψ) and give a non-vanishing contribution.
+Both have two ﬁxed points, and the integrated anomaly is thus :
+TrD=5 [P γ5] = 1
+4
+4
+X
+i=1
+index ( /D)|yi
+(13)
+= 1
+4
+Z
+d4x
+h
+Q(x, 0) + Q(x, πR) −Q(x, πR/2) −Q(x, 3πR/2)
+i
+,
+6
+
+[PDF PAGE 7]
+where the relative sign between the contributions associated with g and g′ is due to
+their opposite action on fermions. This leads to (10).
+3
+Supersymmetric models
+The result found for the anomalies in section 2 can be trivially extended to super-
+symmetric conﬁgurations, where the U(1) gauge ﬁeld belongs to a 5-D N = 1 vector
+multiplet and the Dirac fermion ψ to a charged hypermultiplet. As such, all the above
+considerations apply also to the model of ref. [6]. In particular, focusing on the Higgs
+hypermultiplet, doublet under SU(2)L with hypercharge Y = +1, we get a localized
+U(1)3
+Y anomaly that is twice the one in (10).
+The reader may wonder whether such localized anomaly has any relation with the
+one-loop FI term recently found in [7]. The method of the previous section can be
+easily extended to the computation of the full one-loop FI term. The relevant part
+of the Lagrangian is
+L = −
+X
+m,n
+(φ++
+m )†h
+(✷+ m2
+2n)δmn −g5 D++
+mn
+i
+φ++
+n
+−
+X
+m,n
+(φ−−
+m )†h
+(✷+ m2
+2n)δmn + g5 D−−
+mn
+i
+φ−−
+n
+,
+(14)
+where φ±±
+m
+are the modes, deﬁned according to eqs. (3) and (4), of the two scalars in
+the Higgs hypermultiplet, and
+D±±
+mn(x) ≡
+Z 2πR
+0
+dy ξ±±
+m (y) ξ±±
+n (y) D(x, y) ,
+(15)
+where D(x, y) is the third component of the triplet of N = 2 auxiliary ﬁelds. Con-
+sidering again the mode indices as ﬂavour indices, we ﬁnd for the FI term:
+F(x) =
+X
+n≥0
+Tn
+
+D++
+nn −D−−
+nn
+
+(x) ,
+(16)
+where
+Tn = i g5
+Z
+d4p
+(2π)4
+1
+p2 −m2
+2n
+=
+g5
+16π2
+ 
+Λ2 −m2
+2n ln Λ2 + m2
+2n
+m2
+2n
+!
+,
+(17)
+where Λ is an ultraviolet cutoﬀ. By Fourier-transforming back to conﬁguration space,
+we can write
+F(x) =
+Z 2πR
+0
+dy ξ(y)D(x, y) ,
+(18)
+where the exact proﬁle of ξ(y) can be explicitly evaluated. By ﬁrst summing over the
+KK states, the 4-D momentum integral is convergent for generic y, yielding:
+ξ(y) =
+X
+n≥0
+Tn
+h
+(ξ++
+n (y))2 −(ξ−−
+n (y))2i
+=
+g5
+8π5R3
+"
+ζ
+
+3, 2˜y
+πR
+
++ ζ
+
+3, 1 −2˜y
+πR
+#
+,
+(19)
+7
+
+[PDF PAGE 8]
+where ˜y = y −πR/2 P
+l>0 θ(y −lπR/2) is the restriction of y to the interval [0, πR/2[.
+Equation (19) diverges as ˜y−3 when ˜y tends to 0, which corresponds to y approaching
+one of the four ﬁxed points yi = (i −1)πR/2 (i = 1, 2, 3, 4). Away from the ﬁxed
+points, there is only a ﬁnite bulk contribution. The divergent part of ξ(y) is easily
+evaluated by going back to (17) and using:
+X
+k≥0
+h
+(ξ++
+k
+(y))2 −(ξ−−
+k
+(y))2i
+= 1
+4
+4
+X
+i=1
+δ(y −yi) ,
+X
+k≥0
+m2
+2k
+h
+(ξ++
+k
+(y))2 −(ξ−−
+k
+(y))2i
+= −1
+16
+4
+X
+i=1
+δ′′(y −yi) .
+(20)
+Hence, the structure of the FI term is:
+F(x) =
+g5
+64π2
+4
+X
+i=1
+h
+Λ2D(x, yi) + 1
+2 ln(ΛR) D′′(x, yi)
+i
++
+Z 2πR
+0
+dy K(y) D(x, y) ,
+(21)
+with K(y) being a ﬁnite function. Therefore, the divergent part of the induced FI
+term is localized at the orbifold ﬁxed points, as the anomaly. This is a remnant of the
+relation between FI terms and mixed U(1)–gravitational anomalies in supersymmetric
+theories.
+4
+Outlook
+We have seen that orbifold ﬁeld theories can be anomalous even in the absence of
+an anomalous spectrum of zero modes. It is then important to understand whether
+there exist anomaly cancellation mechanisms, and whether they can be consistently
+implemented: for deﬁniteness, we discuss this issue by making reference once more
+to the case of S1/(Z2 × Z′
+2).
+One possibility would be to add localized fermions at the ﬁxed points, analogous
+to the twisted sectors of string compactiﬁcations. However, as we have seen in section
+2, a bulk fermion produces only half of the anomaly of a Weyl fermion at each ﬁxed
+point. Therefore, this possibility may be generically cumbersome to realize without
+the guidance of an underlying string theory.
+Another possibility would be to implement an anomaly cancellation mechanism
+of the Green–Schwarz [2] or inﬂow [3] type. The former would lead to a spontaneous
+breaking of the U(1) gauge symmetry [10]. For the latter, we must cope with the
+fact that a 5-D Chern–Simons term ǫMNOP QAMFNOFP Q (see [11]) cannot be added
+to the bulk Lagrangian, because it is not invariant under the two orbifold projections.
+However, we can imagine more general possibilities. For example 3, we could introduce
+3We thank R. Rattazzi for having suggested this possibility to us.
+8
+
+[PDF PAGE 9]
+a bosonic ﬁeld χ with (−, −) periodicities and try to introduce the Chern–Simons term
+in combination with χ. The ﬁeld χ should then dynamically get a vacuum expectation
+value with a non-trivial y-proﬁle
+⟨χ(y)⟩∝
+
+
+
++1 ,
+0 < y < πR
+2
+(mod. πR)
+−1 ,
+πR
+2 < y < πR
+(mod. πR)
+(22)
+(breaking spontaneously the Z2 × Z′
+2 discrete symmetry), thereby generating a sort
+of magnetic charge for the ﬁxed points and leaving only very massive ﬂuctuations.
+The resulting Chern–Simons term could then cancel, for an appropriate value of the
+coeﬃcient, the one-loop anomaly. Notice that this mechanism can work only when
+the integrated anomaly vanishes.
+It is interesting to observe that the presence and the structure of the anomalies
+that we have found in the S1/(Z2 × Z′
+2) orbifold could have been anticipated 4 by
+analysing the intermediate models on S1/Z2 or S1/Z′
+2. Indeed, the S1/Z2 and S1/Z′
+2
+models have anomalies given by eq. (1) and localized at the two Z2 and Z′
+2 ﬁxed
+points respectively, but with opposite sign, reﬂecting the diﬀerence between the Z2
+and Z′
+2 actions on the fermions.
+For supersymmetric models, all the above considerations apply, but supersymme-
+try poses further constraints. It seems then quite diﬃcult to get a consistent SUSY
+ﬁeld theory on the S1/(Z2 ×Z′
+2) orbifold with a single bulk Higgs hypermultiplet. On
+the contrary, the addition of a second Higgs hypermultiplet in the bulk, as in [12],
+would cancel at the same time the anomaly and the one-loop-induced FI term. It
+therefore seems that the necessity of having two Higgs doublets in 4-D supersymmetric
+extensions of the SM persists also in these higher-dimensional constructions.
+Acknowledgements
+We would like to thank J.-P. Derendinger, F. Feruglio, P. Gambino, G. Isidori, A. Po-
+marol, A. Uranga and especially R. Rattazzi for interesting discussions. This work was
+partially supported by the RTN European Programs “Across the Energy Frontier”,
+contract HPRN-CT-2000-00148, and “The Quantum Structure of Space-Time”, con-
+tract HPRN-CT-2000-00131. M.S. and L.S. acknowledge partial support by CERN.
+C.A.S. and M.S. thank INFN and the Phys. Dept. of Rome Univ. “La Sapienza”,
+where part of this work was done.
+References
+4We are grateful to A. Uranga for discussions on this argument.
+9
+
+[PDF PAGE 10]
+[1] L. J. Dixon, J. A. Harvey, C. Vafa and E. Witten, Nucl. Phys. B 261 (1985) 678.
+[2] M. B. Green and J. H. Schwarz, Phys. Lett. B 149 (1984) 117.
+[3] C. G. Callan and J. A. Harvey, Nucl. Phys. B 250 (1985) 427.
+[4] P. Horava and E. Witten, Nucl. Phys. B 460 (1996) 506, hep-th/9510209;
+Nucl. Phys. B 475 (1996) 94, hep-th/9603142.
+[5] N. Arkani-Hamed, A. G. Cohen and H. Georgi, Phys. Lett. B 516 (2001) 395,
+hep-th/0103135.
+[6] R. Barbieri, L. J. Hall and Y. Nomura, Phys. Rev. D 63 (2001) 105007, hep-
+ph/0011311.
+[7] D.M. Ghilencea, S. Groot Nibbelink and H.P. Nilles, hep-th/0108184.
+[8] P. Binetruy, C. Deﬀayet, E. Dudas and P. Ramond, Phys. Lett. B 441 (1998)
+163, hep-th/9807079.
+[9] D. J. Gross and R. Jackiw, Phys. Rev. D 6 (1972) 477;
+L. Alvarez-Gaum´e and E. Witten, Nucl. Phys. B 234 (1984) 269.
+[10] M. Dine, N. Seiberg and E. Witten, Nucl. Phys. B 289 (1987) 589.
+[11] M. Gunaydin, G. Sierra and P. K. Townsend, Nucl. Phys. B 242 (1984) 244.
+N. Arkani-Hamed, T. Gregoire and J. Wacker, hep-th/0101233.
+[12] A. Pomarol and M. Quiros, Phys. Lett. B 438 (1998) 255, hep-ph/9806263;
+A. Delgado, A. Pomarol and M. Quiros, Phys. Rev. D 60 (1999) 095008, hep-
+ph/9812489;
+R. Barbieri, L. J. Hall and Y. Nomura, hep-ph/0106190;
+N. Arkani-Hamed, L. J. Hall, Y. Nomura, D. R. Smith and N. Weiner, Nucl.
+Phys. B 605 (2001) 81, hep-ph/0102090;
+V. Di Clemente, S. F. King and D. A. Rayner, hep-ph/0107290.
+10

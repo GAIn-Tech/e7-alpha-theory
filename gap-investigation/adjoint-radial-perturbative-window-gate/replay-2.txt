@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "claim_boundary": "Numerical convergence audit and compatible strict-Landau sector bookkeeping only; not a full pole, gauge independence, or width. Floating action input; no interval proof.",
+  "verifier_sha256": "60510b3b00dbd70bc2aa3217cf90b6f2c9f10b7c5fe8527c1f9078a6ed9cc006",
+  "versions": {
+    "numpy": "2.4.6",
+    "mpmath": "1.3.0"
+  },
+  "replays": [
+    {
+      "entry": "adjoint-radial-pole-gate/calculation.py",
+      "exit": 0,
+      "stdout_sha256": "5e5bd0af95e2ced4559ce8c565ba3eb09189eb55dd601be82b4fe73a4ed4a0e5"
+    },
+    {
+      "entry": "adjoint-radial-gauge-pole-gate/calculation.py",
+      "exit": 0,
+      "stdout_sha256": "d5e61b79ea43b2da6c2d8b776cc1d0c19cc4638df5c14ebcc04c8772e34a9323"
+    },
+    {
+      "entry": "adjoint-radial-vector-bubble-gate/calculation.py",
+      "exit": 0,
+      "stdout_sha256": "bc4c1bfdde0181c2bf2ec564227151081052cd99aee73a3542191d8905652c24"
+    },
+    {
+      "entry": "adjoint-radial-mixed-pole-gate/run_checks.py",
+      "exit": 0,
+      "stdout_sha256": "06b7488e76b5f469848b0a3da565336fadb20c524c6ab66e88a6798570bef3d5"
+    }
+  ],
+  "gauss_bubble_totals": {
+    "128": {
+      "real": 555572.4685282237,
+      "imag": -238193.18642455645
+    },
+    "256": {
+      "real": 555568.1249960288,
+      "imag": -238193.18642455645
+    },
+    "512": {
+      "real": 555567.0341770494,
+      "imag": -238193.18642455645
+    },
+    "1024": {
+      "real": 555566.7608517067,
+      "imag": -238193.18642455645
+    }
+  },
+  "precision_comparison": [
+    {
+      "dps": 40,
+      "bubble_analytic": {
+        "real": 555566.669624688,
+        "imag": -238193.1864245565
+      },
+      "bubble_adaptive": {
+        "real": 555566.669624688,
+        "imag": -238193.1864245565
+      },
+      "weighted_absolute_integration_disagreement": 8.592338959448729e-36,
+      "analytic_full_digits": "(555566.6696246880333091324851795089687151 - 238193.186424556497016738725461660442396j)"
+    },
+    {
+      "dps": 70,
+      "bubble_analytic": {
+        "real": 555566.669624688,
+        "imag": -238193.1864245565
+      },
+      "bubble_adaptive": {
+        "real": 555566.669624688,
+        "imag": -238193.1864245565
+      },
+      "weighted_absolute_integration_disagreement": 5.997087489277795e-66,
+      "analytic_full_digits": "(555566.6696246880333091324851795089687150621943311603765354246978310079 - 238193.1864245564970167387254616604423959767091882309329543254235357679j)"
+    }
+  ],
+  "analytic_regulator_scan": [
+    {
+      "eta": "1e-4",
+      "bubble": {
+        "real": 555566.6162695128,
+        "imag": -238193.1774031129
+      },
+      "difference_from_zero_abs": 0.054112486224853644
+    },
+    {
+      "eta": "1e-8",
+      "bubble": {
+        "real": 555566.669616708,
+        "imag": -238193.18642365435
+      },
+      "difference_from_zero_abs": 8.030968854600803e-06
+    },
+    {
+      "eta": "1e-16",
+      "bubble": {
+        "real": 555566.669624688,
+        "imag": -238193.1864245565
+      },
+      "difference_from_zero_abs": 1.3300009659631818e-13
+    },
+    {
+      "eta": "1e-32",
+      "bubble": {
+        "real": 555566.669624688,
+        "imag": -238193.1864245565
+      },
+      "difference_from_zero_abs": 2.3864916354532818e-29
+    },
+    {
+      "eta": "0",
+      "bubble": {
+        "real": 555566.669624688,
+        "imag": -238193.1864245565
+      },
+      "difference_from_zero_abs": 9.495567745759799e-66
+    }
+  ],
+  "scalar_quartic": 21783.295989971135,
+  "scalar_fermion_corrected": {
+    "real": 511999.9463976432,
+    "imag": -238193.1864245565
+  },
+  "scalar_correction_to_512": -0.36455236141515796,
+  "reproduced_signed_256_minus_512": 1.0908189794639545,
+  "vector_high_precision_bubble": {
+    "real": 76.73560821014124,
+    "imag": -31.929018580578234
+  },
+  "vector_adaptive_error": 8.762999530999033e-67,
+  "vector_double_receipt_abs_error": 1.1164784213449797e-10,
+  "vector_stationary_shift": -45.10700126487947,
+  "mixed_replayed": {
+    "real": -6901.5107104635135,
+    "imag": 3077.6501949169956
+  },
+  "mixed_independent_512_error": 2.2738577173281048e-06,
+  "compatible_sector_sum_NOT_a_pole": {
+    "real": 505145.09996121324,
+    "imag": -235147.46524822008
+  },
+  "reporting_policy": "Report scalar and combined to 0.001 coefficient units; integration evidence is not an interval enclosure or physical error. Mixed independent check remains about 2.3e-6, action tensors are double precision."
+}
+{
+  "passed": true,
+  "manifest_files": 100,
+  "receipt_sha256": "b13043f7e49a973d2d4821688226b976c00e3fdb82ec7cc12a847a76a79bac7e",
+  "claim_boundary": "Convergence and compatible sector bookkeeping only, not a full pole."
+}
+
+STDERR

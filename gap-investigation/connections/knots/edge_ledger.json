@@ -1,0 +1,162 @@
+[
+  {
+    "source": "Kauffman bracket",
+    "target": "Jones polynomial",
+    "status": "supported",
+    "map": "writhe-normalized state sum; exact trefoil checked",
+    "citations": "15",
+    "scope": "not the two-variable Kauffman polynomial"
+  },
+  {
+    "source": "HOMFLY-PT",
+    "target": "Kauffman two-variable polynomial",
+    "status": "conditional",
+    "map": "specializations/coincidences require exact categories and parameters",
+    "citations": "13,15",
+    "scope": "not identical universal polynomials"
+  },
+  {
+    "source": "U_q(e7) ribbon category",
+    "target": "E7 colored link invariant",
+    "status": "supported",
+    "map": "Reshetikhin-Turaev ribbon functor with framing/representation",
+    "citations": "13",
+    "scope": "generic algebraic construction; not implemented here"
+  },
+  {
+    "source": "E7 level k",
+    "target": "q root of unity",
+    "status": "supported",
+    "map": "basic-form CS large-gauge level quantization and dual Coxeter shift",
+    "citations": "1,11",
+    "scope": "global form and q convention required"
+  },
+  {
+    "source": "E7 level 1",
+    "target": "two sectors, Z2 fusion",
+    "status": "supported",
+    "map": "56 affine primary; ordinary other tensor channels decouple",
+    "citations": "3",
+    "scope": "modular arithmetic checked using supplied S"
+  },
+  {
+    "source": "Verlinde Hilbert dimension 4",
+    "target": "four spacetime dimensions",
+    "status": "unsupported",
+    "map": "genus two gives 4 states in an already 3d TQFT",
+    "citations": "",
+    "scope": "wrong type of dimension"
+  },
+  {
+    "source": "133 E7 currents",
+    "target": "133 spacetime dimensions",
+    "status": "unsupported",
+    "map": "exact root plus oscillator count does not specify manifold",
+    "citations": "",
+    "scope": "not a spacetime starting point"
+  },
+  {
+    "source": "ADE six-dimensional theory",
+    "target": "4D theory",
+    "status": "conditional",
+    "map": "compactify on specified two-manifold with twist; E7 is allowed type",
+    "citations": "11",
+    "scope": "moduli, defects, supersymmetry and global choices remain"
+  },
+  {
+    "source": "knot homology",
+    "target": "BPS spectrum",
+    "status": "conditional",
+    "map": "Gukov-Schwarz-Vafa explicit conjecture and Witten gauge construction",
+    "citations": "5,11",
+    "scope": "not full unprotected vacuum count"
+  },
+  {
+    "source": "3D supersymmetric CS half-index",
+    "target": "Ramanujan eta/core partitions",
+    "status": "supported",
+    "map": "Okazaki-Smith specified levels matter boundary data",
+    "citations": "10",
+    "scope": "exceptional worked section G2, no E7 formula located"
+  },
+  {
+    "source": "Ramanujan prime residue classes",
+    "target": "physical prime energy scales",
+    "status": "unsupported",
+    "map": "formal/product congruences do not define masses or lengths",
+    "citations": "7,10",
+    "scope": "requires dimensional parameters and a dynamical mechanism"
+  },
+  {
+    "source": "partition transpose",
+    "target": "determinant chiral partition",
+    "status": "supported",
+    "map": "not equivalence: self-conjugate chiral partitions exist",
+    "citations": "9",
+    "scope": "exact S3 (2,1) counterexample"
+  },
+  {
+    "source": "braid group",
+    "target": "symmetric-group determinant chirality",
+    "status": "supported",
+    "map": "B_n to S_n; determinant character",
+    "citations": "9,15",
+    "scope": "mirror inversion forgotten; exact determinant equality"
+  },
+  {
+    "source": "symmetric-group determinant chirality",
+    "target": "knot mirror chirality",
+    "status": "unsupported",
+    "map": "simplest proposed map loses mirror data",
+    "citations": "9,15",
+    "scope": "trefoil Jones distinguishes mirrors while determinant cannot"
+  },
+  {
+    "source": "ambient knot orientation reversal",
+    "target": "dual representation label",
+    "status": "supported",
+    "map": "reverse component orientation sends R to conjugate R",
+    "citations": "11",
+    "scope": "component reversal is not ambient mirroring"
+  },
+  {
+    "source": "knotted Faddeev soliton",
+    "target": "Dirac spectral flow/fermion number",
+    "status": "conditional",
+    "map": "specified coupling and anomaly give Hopf/self-linking charge",
+    "citations": "12",
+    "scope": "not HOMFLY invariant or E7 net27 index"
+  },
+  {
+    "source": "Dirac spectral eta",
+    "target": "Dedekind eta",
+    "status": "unsupported",
+    "map": "different definitions; determinant formulas would need specification",
+    "citations": "10,12",
+    "scope": "soliton spectral eta vanishes despite spectral flow"
+  },
+  {
+    "source": "partition chirality",
+    "target": "4D Weyl chirality or net27",
+    "status": "unsupported",
+    "map": "no compatible operator/functor identified in bounded search",
+    "citations": "9",
+    "scope": "not disproved for every future construction"
+  },
+  {
+    "source": "CS/WZW chiral sector",
+    "target": "4D chiral fermion spectrum",
+    "status": "unsupported",
+    "map": "holomorphic/braiding chirality is not a Lorentz Weyl imbalance",
+    "citations": "3,11",
+    "scope": "needs charged Dirac spectrum and anomaly gate"
+  },
+  {
+    "source": "integer CS k",
+    "target": "electromagnetic alpha prediction",
+    "status": "unsupported",
+    "map": "no matching of topological level to Maxwell kinetic term",
+    "citations": "1,11",
+    "scope": "4D geometrical couplings remain moduli-dependent"
+  }
+]

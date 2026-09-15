@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "claim_boundary": "Kernel-only additive order-two cubic obstruction; E7 representation bridge remains external, not a physics solution.",
+  "axiom_free_declarations": [
+    "CubicGate.additive_zero",
+    "CubicGate.additive_neg",
+    "CubicGate.fixed_neg_zero",
+    "CubicGate.three_neg_sign",
+    "CubicGate.invariant_odd_trilinear_vanishes",
+    "CubicGate.noTwo3",
+    "CubicGate.linearA3",
+    "CubicGate.linearB3",
+    "CubicGate.linearC3",
+    "CubicGate.cubic3_nonzero",
+    "CubicGate.cubic3_not_invariant",
+    "CubicGate.zero3_gate",
+    "CubicGate.linearA2",
+    "CubicGate.linearB2",
+    "CubicGate.linearC2",
+    "CubicGate.cubic2_nonzero",
+    "CubicGate.cubic2_invariant",
+    "CubicGate.characteristic_two_fails"
+  ],
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-cubic-gate\\Checked.lean"
+      ],
+      "returncode": 0,
+      "stdout": "'CubicGate.additive_zero' does not depend on any axioms\n'CubicGate.additive_neg' does not depend on any axioms\n'CubicGate.fixed_neg_zero' does not depend on any axioms\n'CubicGate.three_neg_sign' does not depend on any axioms\n'CubicGate.invariant_odd_trilinear_vanishes' does not depend on any axioms\n'CubicGate.noTwo3' does not depend on any axioms\n'CubicGate.linearA3' does not depend on any axioms\n'CubicGate.linearB3' does not depend on any axioms\n'CubicGate.linearC3' does not depend on any axioms\n'CubicGate.cubic3_nonzero' does not depend on any axioms\n'CubicGate.cubic3_not_invariant' does not depend on any axioms\n'CubicGate.zero3_gate' does not depend on any axioms\n'CubicGate.linearA2' does not depend on any axioms\n'CubicGate.linearB2' does not depend on any axioms\n'CubicGate.linearC2' does not depend on any axioms\n'CubicGate.cubic2_nonzero' does not depend on any axioms\n'CubicGate.cubic2_invariant' does not depend on any axioms\n'CubicGate.characteristic_two_fails' does not depend on any axioms\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\next-gate\\representation_checks.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"claim_boundary\": \"Exact root/weight characters and stated normalization only; no physical alpha prediction or Lean formalization.\",\n  \"sources\": {\n    \"C:\\\\Users\\\\mikeb\\\\theory2-full\\\\docs\\\\analysis\\\\weyl_verification.py\": \"b2a08c5458b65b01fac10aeefd70d22e933ce86331843e405952e53714cdaee4\",\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\exp44_lagrangian_derivation.py\": \"cdb0c22aee824d7c03aaf152924b286df9e8f6e28d4cf385773429b541c56bb7\",\n    \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\next-gate\\\\representation_checks.py\": \"315dfd3156cf6bc774b1c06c689ace4c437b82e42e08e94a708ce9f6fdcb4f18\"\n  },\n  \"positive_roots\": 63,\n  \"fundamental_weights\": 56,\n  \"sym_square\": [\n    {\n      \"highest_weight\": [\n        0,\n        0,\n        0,\n        0,\n        0,\n        0,\n        2\n      ],\n      \"dimension\": 1463,\n      \"multiplicity\": 1\n    },\n    {\n      \"highest_weight\": [\n        1,\n        0,\n        0,\n        0,\n        0,\n        0,\n        0\n      ],\n      \"dimension\": 133,\n      \"multiplicity\": 1\n    }\n  ],\n  \"exterior_square\": [\n    {\n      \"highest_weight\": [\n        0,\n        0,\n        0,\n        0,\n        0,\n        1,\n        0\n      ],\n      \"dimension\": 1539,\n      \"multiplicity\": 1\n    },\n    {\n      \"highest_weight\": [\n        0,\n        0,\n        0,\n        0,\n        0,\n        0,\n        0\n      ],\n      \"dimension\": 1,\n      \"multiplicity\": 1\n    }\n  ],\n  \"cubic_tensor_zero_weight_multiplicity\": 0,\n  \"omega7_simple_coordinates\": [\n    \"1\",\n    \"3/2\",\n    \"2\",\n    \"3\",\n    \"5/2\",\n    \"2\",\n    \"3/2\"\n  ],\n  \"trace_on_simple_coroots\": {\n    \"56\": \"12*A\",\n    \"adjoint\": \"36*A\"\n  },\n  \"convention\": \"B0 root-length-squared 2; Bphys=2*B0, physics basis Bphys(t_a,t_b)=delta_ab\",\n  \"physics_C2_56\": \"57/4\",\n  \"physics_C2_adj\": \"18\",\n  \"physics_T56\": \"6\",\n  \"physics_Tadj\": \"18\",\n  \"passed\": true\n}\n",
+      "stderr": ""
+    }
+  ],
+  "sha256": {
+    "Checked.lean": "5e1e222e036c5070f4dfb8ba1393616f52426cdaa407545fb2647faf1d9b37fb",
+    "Cubic.lean": "c04a8e8efd29cabda0bd30802622feecb5fd86538083ebd12c2f0c7d18b50368",
+    "Examples.lean.part": "d453c5b1f2e9f9044c689d9695d357df68c10ba1caeb0413adcabf9259642ebf",
+    "formalization.yaml": "e13e37a0e22b34a41381e61582bb9f8d4695d538123de9a3d44084ea635ca150",
+    "generate_examples.py": "40cc0fc6b7a0754aa87808f52ccec783d6d666986358f5cebab8c23bd269940d",
+    "REPORT.md": "a149a60f0060649f01aa379704daff73cebf211db6f4196cde2b342c38d04d02",
+    "verify.py": "6923d2947574f33bca953acbebac530d14f2782d8e959a4fb184c4136f47edf2"
+  }
+}

@@ -1,0 +1,1766 @@
+PAGE 1
+arXiv:0706.1893v1  [hep-th]  13 Jun 2007
+Stability and Negative Tensions
+in 6D Brane Worlds
+S. L. Parameswarana1, S. Randjbar-Daemib2 and A. Salvioc3
+a Scuola Internazionale Superiore di Studi Avanzati,
+Via Beirut 2-4, 34014 Trieste, Italy
+b International Center for Theoretical Physics,
+Strada Costiera 11, 34014 Trieste, Italy
+c Institut de Th´eorie des Ph´enom`enes Physiques,
+EPFL, CH-1015 Lausanne, Switzerland
+Abstract
+We investigate the dynamical stability of warped, axially symmetric compactiﬁca-
+tions in anomaly free 6D gauged supergravity. The solutions have conical defects, which
+we source by 3-branes placed on orbifold ﬁxed points, and a smooth limit to the classic
+sphere-monopole compactiﬁcation. Like for the sphere, the extra ﬁelds that are gener-
+ically required by anomaly freedom are especially relevant for stability. With positive
+tension branes only, there is a strict stability criterion (identical to the sphere case)
+on the charges present under the monopole background.
+Thus brane world models
+with positive tensions can be embedded into anomaly free theories in only a few ways.
+Meanwhile, surprisingly, in the presence of a negative tension brane the stability criteria
+can be relaxed. We also describe in detail the geometries induced by negative tension
+codimension two branes.
+1Email: param@sissa.it
+2Email: seif@ictp.trieste.it
+3Email: alberto.salvio@epﬂ.ch
+1
+
+PAGE 2
+Contents
+1
+Introduction
+3
+2
+6D Supergravity and its Axially Symmetric Solutions
+4
+2.1
+The theory and solution . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2.2
+Geometry and topology
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+3
+The Scalar Fluctuations
+9
+3.1
+Brane bending sector . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3.2
+Hyperscalars
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3.3
+Scalars from the gauge ﬁelds
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3.4
+Salam-Sezgin sector
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+4
+Linear Analysis for Scalar Fluctuations of the Gauge Fields
+11
+4.1
+Bilinear action
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+4.2
+The equations of motion and boundary conditions
+. . . . . . . . . . . . . .
+13
+4.3
+The Schroedinger problem . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+4.4
+The spectrum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+5
+Stability Analysis
+18
+5.1
+The sphere case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+5.2
+The conical-GGP case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+6
+Conclusions
+20
+A Bilinear Action in the Light-Cone Gauge
+23
+B Details of Stability Analysis
+24
+2
+
+PAGE 3
+1
+Introduction
+Much has been written about brane world solutions to chiral gauged 6D supergravity. Gib-
+bons, G¨uven and Pope (GGP) [1] found a wide class of such solutions, with 4D Poincar´e
+symmetry and axial symmetry in the transverse dimensions. Surrounding work focusing on
+the brane world interpretation of these backgrounds was made in [2, 3]. Other classes of so-
+lutions have also been found, including those which break the axial symmetry [4], activate
+the hyperscalar ﬁelds [5], have 4D de Sitter/anti de Sitter slicings [6] or time-dependent
+behaviour [7, 8, 9]. The model additionally admits string solutions with dyonic charges
+[10]. All these backgrounds are interesting because, among other things, they provide a
+framework in which to build cosmological models (for a review see [11]).
+In order for these backgrounds to be phenomenologically relevant, however, we would
+like them to be stable against small perturbations4. So far, the GGP solutions have proven
+to be classically marginally stable, despite the fact that they all but one (i.e. the sphere-
+monopole limit) break supersymmetry (see [12], and also [13, 14, 15]). Meanwhile, we might
+also want to consider the 6D theory to be a low energy approximation to some consistent
+theory of quantum gravity, such as string theory.
+If this is the case we must insist on
+certain consistency constraints, and in particular, since the theory is chiral, we must insist
+on anomaly freedom.
+In general, chiral 6D supergravity suﬀers from a breakdown of local symmetries due
+to gravitational, gauge and mixed anomalies. For certain gauge groups and hypermultiplet
+representations these anomalies can be cancelled via a Green-Schwarz mechanism [16]. This
+is entirely analogous to what happens in 10D, where the anomalies cancel only for a few
+models, namely those with gauge groups: SO(32), E8 × E8, E8 × U(1)248 and U(1)496. In
+6D the consistency constraints are weaker, and by now a number of anomaly free models
+have been discovered [16, 17, 18, 19]. In Table 1 we present three of the known examples
+which have a large enough gauge group to include the Standard Model of Particle Physics.
+The structure of these anomaly free models seems suggestive that some of them may
+indeed be somehow related to critical string theory or M-theory [20].
+Meanwhile, with
+regards to the stability of the brane world compactiﬁcations, the extra degrees of freedom
+required for anomaly cancellation cannot be ignored. Marginal stability was aﬃrmed in
+[12], for the GGP solution in the Salam-Sezgin model, which has just an Abelian U(1)R
+gauge group and no hypermatter. We now ask if there is a similar dynamics in anomaly
+free models, which have larger ﬁeld contents.
+To this end, we may draw some lessons from the old literature on sphere compact-
+iﬁcations, which are supported by monopole backgrounds [21].
+The stability of sphere
+compactiﬁcations for nonsupersymmetric theories was studied in [22, 23], and for anomaly
+free supergravity theories in [16, 17, 18]. Whilst the models are stable in the presence of
+just a Maxwell gauge group, for Yang-Mills theories a tachyonic instability is generically
+found in the scalars descending from the gauge ﬁelds and charged under the U(1) monopole
+background [23]. For example, it turns out that only one of the anomaly free models pre-
+sented in Table 1 has a stable sphere compactiﬁcation if the U(1) monopole is embedded
+4Or at least not to exhibit runaways that are too fast.
+3
+
+PAGE 4
+Gauge Group
+Hyperino Representation
+E7 × E6 × U(1)R
+(912, 1)0
+E7 × G2 × U(1)R
+(56, 14)0
+F4 × Sp(9) × U(1)R
+(52, 18)0
+Table 1: Some examples of anomaly free models with gauge groups containing SU(3) × SU(2) × U(1)
+[16, 17, 18]. There are also many other models, including e.g. one with just an Abelian U(1)R gauge group,
+and the anomalies cancelled by 245 neutral hypermultiplets [19].
+in a non-Abelian factor of the gauge group: the E7 × E6 × U(1)R model with the monopole
+embedded in E6 [16, 18, 24].
+Our main focus in the present work is then on the scalar perturbations of the gauge
+ﬁelds charged under the U(1) monopole background, as possible sources of instability. We
+analytically solve the linearized dynamics of these ﬁelds, and in particular derive their full
+Kaluza-Klein mass spectra. In this way we are able to identify some conditions for stability,
+and we observe the previous behaviour as well as some surprises.
+Our results can be summarised as follows. Conical-GGP solutions which incorporate
+only positive tension brane sources are stable only for very special matter contents and
+monopole embeddings. Speciﬁcally, the stability criteria observed in the sphere limit persists
+for these more general solutions. The sphere’s stability criteria is also suﬃcient to ensure
+stability for conical-GGP solutions in the presence of negative tensions (placed on orbifold
+ﬁxed points). However, remarkably, we ﬁnd that negative tension branes can relax these
+conditions, and render unstable sphere compactiﬁcations stable.
+Let us end with an overview of the paper. In Section 2 we brieﬂy review the theory and its
+warped, axially symmetric brane world solutions. We also discuss some physical aspects of
+the background, in particular emphasising that the geometry induced by the backreaction
+of negative tension branes is well-deﬁned.
+Then, in Section 3 we classify all the scalar
+perturbations present in the model and identify how the various sectors decouple. We argue
+that possible tachyonic instabilities should lie in the scalar ﬂuctuations of the gauge ﬁelds
+orthogonal to the background monopole in the Lie algebra of the gauge group. Therefore,
+we turn in Section 4 to the Kaluza-Klein mass spectra of these ﬁelds, and dedicate Section
+5 to the consequences of these spectra for the stability. We end with some conclusions, and
+leave for the appendices some details on the algebra.
+2
+6D Supergravity and its Axially Symmetric Solutions
+In order to ﬁx our conventions, we begin by reviewing the 6D chiral gauged supergravity and
+brane world solutions that interest us. Then, in the following subsection, we will collect
+some details about the background geometry and topology which will later prove to be
+important.
+4
+
+PAGE 5
+2.1
+The theory and solution
+We consider 6D supergravity with a general matter content, whose gauge group G is a
+product of simple groups that include a U(1)R gauged R-symmetry. For example we could
+take the anomaly free group G = E7 × E6 × U(1)R, under which the hyperinos are charged
+as Ψ ∼(912, 1)0 [16]. The bosonic action takes the form5 [25]
+SB
+=
+Z
+d6X
+√
+−G
+ 1
+κ2 R −1
+4∂Mσ∂Mσ −1
+4eκσ/2Tr
+
+FMNF MN
+−1
+12eκσHMNPHMNP −gαβ(Φ)DMΦαDMΦβ −8
+κ4 e−κσ/2v(Φ)
+
+,
+(2.1)
+where κ represents the 6D Planck scale and g is the gauge coupling constant, which in fact
+represents a collection of independent gauge couplings including that of the U(1)R subgroup,
+g1. The ﬁeld σ is the dilaton, FMN is the ﬁeld strength of the gauge ﬁeld, AM, and HMNP
+is the Kalb-Ramond ﬁeld strength, which contains a Chern-Simons coupling as follows6:
+HMNP = ∂MBNP + Tr
+
+FMNAP −g
+3AM (AN × AP)
+
++ perms.
+(2.2)
+The metric gαβ(Φ) is on the target manifold of the hyperscalars, and here the index α
+runs over all the hyperscalars. The dependence of the scalar potential on Φα is such that
+its minimum is at Φα = 0, where it takes a positive-deﬁnite value, v(0) = g2
+1, due to the
+R-symmetry gauging [26, 10].
+We refer to [14] for the equations of motion that follow from (2.1). A general class of con-
+ﬁgurations with 4D Poincar´e symmetry and axial symmetry in the transverse dimensions,
+is:
+ds2 = GMNdXMdXN = eA(ρ)ηµνdxµdxν + dρ2 + eB(ρ)dϕ2,
+A = Aϕ(ρ)Qdϕ,
+σ = σ(ρ),
+HMNP = 0 ,
+Φα = 0 ,
+(2.3)
+with 0 ≤ρ ≤ρ and 0 ≤ϕ < 2π. Here µ, ν = 0, 1, 2, 3 and Q is a generator of a U(1)
+subgroup of a simple factor of G, satisfying Tr
+ Q2 = 1.
+In the following we shall also use the radial coordinate deﬁned by
+ξ(ρ) ≡
+Z ρ
+0
+dρ′e−A(ρ′)/2,
+(2.4)
+whose range is 0 ≤ξ ≤ξ. In this frame the metric reads
+ds2 = eA(ξ) 
+ηµνdxµdxν + dξ2
++ eB(ξ)dϕ2 .
+(2.5)
+5We choose signature (−, +, .., +), and deﬁne R = GMN(∂P ΓP
+MN −∂MΓP
+P M + . . .). The index M runs
+over 0, 1, .., 5. For fermionic terms see [25].
+6We deﬁne the cross-product as (AM × AN)
+ˆI = f
+ˆI ˆ
+J ˆ
+KA
+ˆ
+J
+MA
+ˆ
+K
+N, with f
+ˆI ˆ
+J ˆ
+K the structure constants of G.
+The index ˆI runs over the full Lie algebra of G, and later we will use I to label those directions orthogonal
+to that of the U(1) monopole.
+5
+
+PAGE 6
+Given the above ansatz, the general solution has been found by GGP [1]. We will focus
+on a subset of this general solution, namely that which contains singularities no worse than
+conical. The explicit conical-GGP solution7 is then [1]:
+eA
+=
+eκσ/2 =
+s
+f1
+f0
+,
+eB = α2eA r2
+0 cot2(ξ/r0)
+f 2
+1
+,
+A
+=
+−4α
+qκf1
+Q dϕ,
+(2.6)
+where q and α are generic real numbers. Also,
+f0 ≡1 + cot2
+ ξ
+r0
+
+,
+f1 ≡1 + r2
+0
+r2
+1
+cot2
+ ξ
+r0
+
+,
+(2.7)
+with r2
+0 ≡κ2/(2g2
+1), r2
+1 ≡8/q2.
+The conical-GGP conﬁguration is, however, a solution to the equations of motion only
+outside the points ξ = 0 or ξ = ξ ≡πr0/2. This is because as ξ →0 or ξ →ξ, the metric
+tends to that of a cone, with respective deﬁcit angles
+δ = 2π
+ 
+1 −|α| r2
+1
+r2
+0
+!
+and
+δ = 2π (1 −|α|) ,
+(2.8)
+and corresponding delta-function behaviours in the Ricci scalar. Note that α appears in the
+deﬁcit angles only through its modulus, since the metric (2.6) depends only on the square
+of α, and so is insensitive to its sign. In order to promote the solution to a global one, we
+introduce two 3-brane sources into the system, each with action:
+Sb = −T
+Z
+d4y
+q
+−det (GMN∂αY M∂βY N) ,
+(2.9)
+where Y M(yα) are the brane embedding ﬁelds, yα are the worldvolume coordinates, α =
+0, . . . , 3 and the tensions are respectively [27]
+T = 2δ/κ2
+and
+T = 2δ/κ2.
+(2.10)
+In this way we arrive at a warped codimension-two brane world construction, in which the
+3-branes can localize bulk ﬁelds [14] and/or support 4D ﬁelds in such a way as to realize
+the Standard Model of Particle Physics.
+Finally, we note that one can obtain the “rugby ball” compactiﬁcation [28] simply by
+setting r0 = r1. In this case the background value of the dilaton is zero, and therefore
+the stability analysis that we are going to present will also be applicable to the rugby ball
+solution of non-supersymmetric 6D Einstein-Yang-Mills models. Moreover, we can smoothly
+retrieve the sphere compactiﬁcation by taking r1 →r0 and α →1.
+6
+
+PAGE 7
+Figure 1: Construction of a cone and saddle-cone, respectively, by splicing out and in, respectively,
+a wedge starting from the ﬂat disk. For the cone, lines that were parallel on the disk remain parallel
+until they pass on either side of the apex, when they begin to converge. For the saddle-cone they
+diverge once passing the apex. Notice that although the saddle-cone appears to break the axial-
+symmetry, this is only an eﬀect of the embedding into 3D. A 2D being would indeed observe the
+axial symmetry.
+2.2
+Geometry and topology
+We continue our discussion on the background conﬁguration by considering in more detail
+its geometry. In particular, it is interesting to note that the parameters appearing in the
+deﬁcit angles, α and r1, are not ﬁxed by the EOM but rather represent moduli. However,
+from (2.8), we can see that the deﬁcit angles are both bounded from above by 2π. This
+becomes an upper bound on the brane tensions that can be described by the conical-GGP
+solution, because of the matching conditions in (2.10).
+Meanwhile it is also clear that the deﬁcit angles can take arbitrary large negative values.
+We emphasise here that manifolds with negative deﬁcit angles are perfectly well deﬁned,
+and can even be made at home with a piece of paper and a pair of scissors. Take for example
+the simplest case of a cone. A cone with positive deﬁcit angle is obtained by splicing a wedge
+out of a ﬂat disk and glueing together the edges. Similarly, a cone with negative deﬁcit
+angle is obtained by splicing a wedge into a ﬂat disk8. The result will be a manifold which
+is ﬂat everywhere apart from at the apex of the cone. Lines that were parallel on the disk
+remain parallel until they pass on either side of the apex, after which they will begin to
+diverge, just as for the standard cone they would converge (see Figure 1). Moreover, there
+is no lower bound on the deﬁcit angle. For example, one could imagine adding π/3 wedges
+successively to the ﬂat disk ad inﬁnitum.
+Discretized versions of manifolds with negative deﬁcit angles can be found in the solid-
+state literature on Carbon Nanostructures, in which nanocones with negative disclination
+7The coordinate ξ is related to the coordinate r in [1] by r = r0 cot(ξ/r0).
+8As this manuscript was being prepared Ref. [29] appeared, baptizing manifolds with spherical topology
+and negative deﬁcit angles as “Apple-like”.
+7
+
+PAGE 8
+Figure 2: A nanocone with a disclination angle −π/3. Reproduced from Ref. [30] by kind permission
+of the authors.
+angles are appropriately named “saddle-cones” [30]. These provide another nice way to
+visualize the geometries, including those with, say, deﬁcit angle less than −2π. Referring
+to Figure 2, we observe that beginning with a ﬂat planar lattice of regular hexagons, and
+splicing in a wedge of π/3, one ends with another lattice of hexagons, now taking the form
+of a (ﬂat) saddle, and with the central hexagon replaced by a heptagon. A deﬁcit angle of
+−π would correspond to a central enneagon, one of −2π to a dodecagon, and so on.
+On the other hand, we should note from Eq. (2.10) that in our scenario the negative
+deﬁcit angles are sourced by negative tension branes. It is well known that negative tension
+branes generically suﬀer from classical and quantum instabilities [31]. We will return to
+this issue in the following section.
+Having understood the geometry of the model, we must also take care of its topology.
+The Euler number of the internal manifold is two, indicating the topology of a sphere. This
+can be seen from direct calculation, as well as by showing that the manifold can be covered
+by two holomorphic coordinate patches, which are related at the intersection by z = 1/ζ
+(see below).
+We must therefore take care to ensure that the gauge ﬁeld background is
+well-deﬁned as ξ →0 and ξ →ξ. Indeed the expression for the gauge ﬁeld background
+in eq. (2.6) is well-deﬁned in the limit ξ →0, but not as ξ →ξ. We must therefore use
+a diﬀerent patch to describe the ξ = ξ limit, and in the overlap this must be related to
+the patch including ξ = 0 by a single-valued gauge transformation. This leads to a Dirac
+quantization condition, which for a ﬁeld interacting with A through a charge e gives
+−e 4αg
+κq = −e αr1
+r0
+g
+g1
+= N ,
+(2.11)
+where N is an integer that is called monopole number and g is the gauge coupling constant
+corresponding to the background gauge ﬁeld. For example, if A lies in U(1)R, then g = g1.
+Generally diﬀerent ﬁelds have diﬀerent charges ei, which correspond to several monopole
+numbers N i; as we shall see this aspect is important in the stability analysis of the conical-
+GGP solutions. The charges ei can be computed once we have selected the gauge group,
+since they are eigenvalues of the generator Q.
+8
+
+PAGE 9
+As has long and often been noted, the Dirac quantization leads to a constraint, relating
+the tensions of the two 3-branes which can be described by the conical-GGP solution and
+the bulk gauge couplings [1]. For example, embedding the monopole in the U(1)R gauge
+sector requires the presence of at least one negative tension brane [1, 3].
+3
+The Scalar Fluctuations
+We now consider scalar ﬂuctuations about the brane world solution, with the aim of studying
+its stability. The bulk perturbations which are scalars from the brane point of view can be
+written as:
+n
+δGµ
+µ, δGρρ, δGϕϕ, δGρϕ, δσ, δζ, δBρϕ, δAρ, δAϕ, δΦ
+o
+.
+(3.12)
+Here, δζ is the four-dimensional dual of the ﬂuctuation in the Kalb-Ramond ﬁeld δBµν.
+Moreover, the presence of branes introduces additional dynamical degrees of freedom,
+which are the brane-bending modes corresponding to ﬂuctuations in their position in six-
+dimensional spacetime:
+n
+δY Mo
+.
+(3.13)
+Let us now discuss these various ﬂuctuations in turn.
+3.1
+Brane bending sector
+We begin by making some general comments. By choosing the so-called static gauge for
+the worldvolume coordinates, ∂αY µ = δµ
+α, we see that each brane carries two physical ﬁelds
+which correspond to their bending in the transverse dimensions:
+{δY ρ(x), δY ϕ(x)} .
+(3.14)
+Notice that the ﬁelds are four dimensional, and so do not lead to a Kaluza-Klein tower. The
+case of the unwarped rugby ball is, at least in part, simple. Two of the ﬁelds parametrise
+the motion that keeps the branes at antipodal points of the sphere, and preserves the axial
+symmetry of the background. They must be massless modes. Indeed, since the branes
+break the SU(2) isometry group of the sphere down to the U(1) axial symmetry, these
+ﬁelds provide the massless Goldstone bosons to be eaten by two of the SU(2) massless
+graviphotons. Less can be said about the remaining two brane bending ﬁelds, which describe
+the relative motion of the branes and which break the axial symmetry9. The warped model
+may also be more complicated, since there the SU(2) isometry of the sphere is broken not
+only by the brane defects but also by the geometry away from the branes.
+In general we can expect the brane bending modes to mix with the bulk metric ﬂuc-
+tuations at the bilinear level.
+Moreover, it is well known that negative tension branes
+generically have ghost kinetic terms for their bending modes, and thus lead to energies
+unbounded from below and instability. For these reasons we choose to place the branes at
+orbifold ﬁxed points in such a way that they are not free to ﬂuctuate.
+9We thank CliﬀBurgess for an email communication on these issues.
+9
+
+PAGE 10
+To ﬁnd an orbifold projection that serves this purpose, we need a global description of
+the internal manifold, and in particular one in which both the brane positions can be well
+described. To this end, we cover the manifold with two coordinate patches. First we deﬁne
+the complex coordinates z, ¯z, with:
+z = η eiϕ
+where
+η = e
+R ρ
+ρ0 e−B/2
+(3.15)
+for some arbitrary ρ0. The metric on the internal manifold becomes:
+ds2 = dρ2 + eBdϕ2 = eB(ρ(z¯z))
+z¯z
+(dz d¯z) .
+(3.16)
+Using the behaviour of eB as ρ →0 (eB →(α r2
+1/r2
+0)2ρ2), one can show that the brane at
+ρ = 0 is now well described by the single point z = 0. Meanwhile, in analogy with standard
+stereographic coordinates, the point ρ = ¯ρ cannot be covered by z, ¯z. We therefore use a
+diﬀerent coordinate patch to describe the brane there, deﬁned by ζ, ¯ζ with:
+ζ = 1
+η e−iϕ .
+(3.17)
+In this patch the brane at ρ = ¯ρ is well-deﬁned at ζ = 0, and it is the brane at ρ = 0 which
+is not covered. In the overlap, the two coordinate systems are related by ζ = 1/z, ¯ζ = 1/¯z.
+Notice that this conﬁrms that the internal space is conformally CP 1.
+Now one can immediately see that the brane positions are the ﬁxed points under the
+orbifold identiﬁcation
+z ↔−z ,
+ζ ↔−ζ
+(3.18)
+The brane ﬂuctuations, δY z(x), δY ¯z(x) and δY ζ(x), δY ¯ζ(x), being odd under the orbifold
+action, are thus projected out.
+3.2
+Hyperscalars
+It is straightforward to see that the hyperscalars do not mix with the other sectors at the
+level of the bilinear action. Moreover, we can quite directly conclude they cannot give rise
+to tachyonic instabilities: this is a consequence of the fact that the potential v(Φ) has a
+global minimum at Φ = 0, and also that the metric gαβ(Φ) is positive deﬁnite. Therefore,
+the contributions from the 6D potential and the 2D Laplacian to the mass-squareds in the
+Kaluza-Klein mass spectrum are both positive.
+3.3
+Scalars from the gauge ﬁelds
+The scalar ﬂuctuations descending from the gauge ﬁelds can be divided into two separate
+classes. First there are the ﬂuctuations:
+{δAρ Q, δAϕ Q} ,
+(3.19)
+10
+
+PAGE 11
+with the gauge group generator Q corresponding to that of the background monopole.
+These will be included in the discussion of the following subsection. Second, there are the
+ﬂuctuations
+n
+δAI
+ρ T I, δAI
+ϕ T Io
+,
+(3.20)
+with T I being the generators orthogonal to Q, that is Tr(T IQ) = 0. At the bilinear level
+the second group does not mix with the ﬁrst, and nor with any of the other sectors in (3.12).
+This is a consequence of the form of the action (2.1) and that of the Kalb-Ramond ﬁeld
+strength (2.2). We will therefore return to the ﬁelds (3.20), which are the main focus in the
+present paper, in Section 4. The possible instabilities are generally lurking in this sector.
+3.4
+Salam-Sezgin sector
+The remaining ﬁelds are those which also correspond to the minimal Salam-Sezgin model,
+that is with just one U(1)R gauge multiplet:
+n
+δGµ
+µ, δGρρ, δGϕϕ, δGρϕ, δσ, δζ, δBρϕ, δAρ Q, δAϕ Q
+o
+.
+(3.21)
+Let us here recall the long-known result that the Salam-Sezgin sphere model is marginally
+stable, with two and only two massless scalar modes, and a Kaluza-Klein tower of heavy
+positive mass-squared modes [33, 16, 34, 24]. One of the massless modes corresponds to the
+spontaneous breaking of the global classical scaling symmetry10. The other is guaranteed
+by the unbroken Kalb-Ramond gauge symmetry11. Since the massless modes are protected
+by symmetry arguments, we can argue that small deformations of the sphere solution to
+the conical-GGP solution must remain marginally stable.
+Moreover, Ref. [12] analysed explicitly a subsector of (3.21), namely the axially-symmetric
+perturbations corresponding to those members that are even under a certain parity sym-
+metry. By imposing that the perturbations preserve the conical singularities,12 a single
+massless mode was found, corresponding to the classical scaling symmetry enjoyed by the
+ﬁeld equations13. All other modes were shown to have positive squared-masses.
+4
+Linear Analysis for Scalar Fluctuations of the Gauge Fields
+We will now complete the stability analysis for brane world compactiﬁcations in anomaly
+free models, by considering the ﬁnal sector
+n
+δAI
+ρ T I, δAI
+ϕ T Io
+.
+In fact, these ﬁelds are
+of particular interest.
+Indeed, it has long been known that this sector – and only this
+10The EOMs are invariant under the constant rescaling GMN →λ GMN and eκσ/2 →λ eκσ/2. Note that
+this is only a classical symmetry because the action rescales as SB →λ2 SB.
+11This symmetry acts as B →B + dΛ, where B is the two-form with components BMN, and Λ a one-form
+gauge parameter. Then the components Bµν are dual to a massless 4D scalar. Meanwhile, the directions
+Bρϕ provide the Goldstone boson that is to be eaten by the massive U(1) gauge ﬁeld in the direction of the
+monopole.
+12Actually, the general GGP solutions with worse than conical singularities were also considered in [12].
+13The second massless mode can be expected amongst the perturbations that are odd under the parity
+symmetry.
+11
+
+PAGE 12
+sector – can in general contain tachyonic modes in its Kaluza-Klein spectra for the sphere
+compactiﬁcation with a monopole background [23]. It is therefore interesting to ask what
+happens to these tachyons if one considers the conical-GGP conﬁguration, which as we have
+seen is a warped deformation of the sphere compactiﬁcation.
+As an example, we could consider the anomaly free model of E7 × E6 × U(1)R, with the
+monopole embedded in E6. In this case, the low-energy gauge group is14: E7 × SO(10) ×
+U(1)R × U(1)KK, and the ﬂuctuations covered by our analysis are two sets of scalars trans-
+forming under E7×SO(10)×U(1)R as (133, 1)0+(1, 45)0+(1, 16)0+(1, 16)0+(1, 1)0, and
+in various representations of U(1)KK depending on the monopole number. In order to keep
+the analysis of the present sector as general as possible, we choose here not to impose the
+orbifold boundary conditions discussed above. These would of course only project out some
+of the modes in the full spectra derived below, and so would not introduce new instabilities.
+4.1
+Bilinear action
+Let us then consider the bilinear action for the ﬂuctuations
+Vρ
+=
+V I
+ρ T I ≡δAI
+ρT I ,
+Vϕ
+=
+V I
+ϕ T I ≡δAI
+ϕT I
+(4.22)
+around the background (2.3). Since T I is orthogonal to Q, the perturbed action simpliﬁes
+considerably, having contributions only from the gauge kinetic term in (2.1). After ﬁxing
+to the light-cone gauge (see reference [35] and Appendix A for details), the result can be
+written as15:
+S2(V, V )
+=
+−1
+2
+Z
+d6X
+q
+−ˆG Tr
+h
+∂µVi∂µV i + DiVjDiV j −2(∂r ˆA)2V 2
+r
+−2(∂r ˆA)VrDiV i + ˆRijV iV j + 2g FijV i × V ji
+(4.23)
+where we have introduced dr ≡eκσ/4dρ, and the indices i, j run over r, ϕ. Also for com-
+pactness, we have deﬁned:
+ˆA ≡A + φ ,
+ˆB ≡B + φ ,
+φ ≡κσ/2
+ˆGMNdXMdXM ≡e
+ˆ
+Aηµνdxµdxν + dr2 + e
+ˆBdϕ2 ,
+(4.24)
+and all indices are raised and lowered with the background metric ˆGMN.
+ˆRij are the
+internal components of the Ricci-tensor deﬁned from the metric ˆGMN, and Fij refers to the
+background ﬁeld strength.
+Moreover, recall that the covariant derivative in general includes the gauge ﬁeld back-
+ground. In particular, we have
+DϕVj = ∇ϕVj −ig Aϕ[Q, Vj]
+(4.25)
+14In the sphere limit the U(1)KK is promoted to SU(2)KK.
+15In (4.23) the ﬂuctuation ﬁelds Vi have been normalized in a way that the canonical factor −1/2 appears
+in front of the kinetic terms.
+12
+
+PAGE 13
+with ∇ϕ the Lorentz covariant derivative. Below we will choose a basis of generators such
+that:
+[Q, T I] = eIT I ,
+(4.26)
+which means that in general they will not be Hermitian. However, we choose the normaliza-
+tion Tr(T I†T J) = δIJ, and also deﬁne [T I, T J] = if IJKT K. Also, eI is the corresponding
+charge under the U(1) monopole. For example, for the E7×E6×U(1) model, we have eI̸ = 0
+for the 16 and 16. The Dirac quantization condition (2.11) then gives −eI4αg/(κq) = N I.
+In the following, we suppress the index I.
+Finally, since our internal space is topologically S2, we shall impose that the ﬂuctuations
+are periodic functions of ϕ. Therefore, we can apply the following Fourier decomposition:
+Vj(X) =
+X
+m
+Vjm(x, r)eimϕ
+(4.27)
+with m an integer, −∞< m < ∞.
+4.2
+The equations of motion and boundary conditions
+Next we vary the above action with respect to Vr and Vϕ, perform the Fourier decomposi-
+tions (4.27), and project onto the Fourier number m. After a long but standard calculation
+we eventually obtain the following coupled equations of motion:
+e−ˆ
+AM2
+mVrm
+=
+−∂2
+rVrm −
+
+2∂r ˆA + 1
+2∂r ˆB
+
+∂rVrm
++
+
+e−ˆB (m −eg Aϕ)2 −(∂r ˆA)2 −1
+2∂r ˆA∂r ˆB −∂2
+r ˆA −1
+2∂2
+r ˆB
+
+Vrm
++ie−ˆB h
+∂r ˆB −∂r ˆA
+
+(m −eg Aϕ) + 2eg ∂rAϕ
+i
+Vϕm
+(4.28)
+and
+e−ˆ
+AM2
+mVϕm
+=
+−∂2
+rVϕm −
+ 
+2∂r ˆA −∂r ˆB
+2
+!
+∂rVϕm + e−ˆB (m −eg Aϕ)2 Vϕm
+−i
+h
+∂r ˆB −∂r ˆA
+
+(m −eg Aϕ) + 2eg ∂rAϕ
+i
+Vrm,
+(4.29)
+where M2
+m are the eigenvalues of ηµν∂µ∂ν.
+At the same time, the variation leads to the following boundary conditions [36, 14]:
+Z
+d4xdr∂r
+h
+e2 ˆ
+A+ ˆB/2δV †
+rm
+
+∂r −(∂r ˆA)
+
+Vrm
+i
+= 0
+(4.30)
+and
+Z
+d4xdr∂r
+
+e2 ˆ
+A−ˆB/2δV †
+ϕm
+
+∂r −1
+2(∂r ˆB)
+
+Vϕm
+
+= 0
+(4.31)
+where we used Tr(T I†T J) = δIJ. Notice that these are the weakest boundary conditions
+possible, which we must apply in order for the ﬁeld equations to make sense mathematically.
+13
+
+PAGE 14
+In principle, with some physical motivation, we could apply stronger boundary conditions.
+However, for the purposes of the stability analysis, since stronger boundary conditions would
+only eliminate modes from the physical spectrum, we prefer to remain as general as possible.
+Our objective is then to solve these coupled linearized equations, together with their
+boundary conditions, in order to deduce the behaviour of the perturbations.
+4.3
+The Schroedinger problem
+We proceed by transforming the system into a pair of coupled Schroedinger equations plus
+boundary conditions. This is achieved by introducing the coordinate ξ, deﬁned in (2.4),
+and the new variables:
+V1m(x, ξ)
+≡
+e
+ˆ
+A/4+ ˆB/4Vξm(x, ξ),
+(4.32)
+V2m(x, ξ)
+≡
+e3 ˆ
+A/4−ˆB/4Vϕm(x, ξ) .
+(4.33)
+The equations of motion (4.28) and (4.29) then become:
+M2V1
+=
+−V ′′
+1 + 1
+16
+
+−4 ˆA′′ −4 ˆB′′ +
+ ˆA′ + ˆB′2 + 16e
+ˆ
+A−ˆB (m −eg Aϕ)2
+
+V1
++ie
+ˆ
+A/2−ˆB/2 h ˆB′ −ˆA′
+(m −eg Aϕ) + 2eg A′
+ϕ
+i
+V2
+(4.34)
+and
+M2V2
+=
+−V ′′
+2 + 1
+16
+
+12 ˆA′′ −4 ˆB′′ +
+
+3 ˆA′ −ˆB′2 + 16e
+ˆ
+A−ˆB (m −eg Aϕ)2
+
+V2
+−ie
+ˆ
+A/2−ˆB/2 h ˆB′ −ˆA′
+(m −eg Aϕ) + 2eg A′
+ϕ
+i
+V1 ,
+(4.35)
+where ′ ≡∂ξ and we have suppressed the index m. In other words, the system can then be
+described in the following way:
+ 
+−∂2
+ξ + U1(ξ)
+iC(ξ)
+−iC(ξ)
+−∂2
+ξ + U2(ξ)
+! 
+V1(x, ξ)
+V2(x, ξ)
+!
+= M2
+ 
+V1(x, ξ)
+V2(x, ξ)
+!
+,
+(4.36)
+where the Schroedinger potentials are given by
+U1
+≡
+1
+16
+
+−4 ˆA′′ −4 ˆB′′ +
+ ˆA′ + ˆB′2 + 16e
+ˆ
+A−ˆB (m −eg Aϕ)2
+
+,
+(4.37)
+U2
+≡
+1
+16
+
+12 ˆA′′ −4 ˆB′′ +
+
+3 ˆA′ −ˆB′2 + 16e
+ˆ
+A−ˆB (m −eg Aϕ)2
+
+,
+(4.38)
+and the coupling function is
+C ≡e
+ˆ
+A/2−ˆB/2 h ˆB′ −ˆA′
+(m −eg Aϕ) + 2eg A′
+ϕ
+i
+.
+(4.39)
+At this stage we can observe that for the conical solution (2.6) the two Schroedinger
+potentials are degenerate:
+U1 = U2 ≡U .
+(4.40)
+14
+
+PAGE 15
+It is therefore straightforward to diagonalize the system.
+Indeed, transforming into the
+basis:
+V±(x, ξ) ≡1
+√
+2 (V1(x, ξ) ± iV2(x, ξ))
+(4.41)
+the matrix equation (4.36) becomes:
+ 
+−∂2
+ξ + U(ξ) + C(ξ)
+0
+0
+−∂2
+ξ + U(ξ) −C(ξ)
+! 
+V+(x, ξ)
+V−(x, ξ)
+!
+= M2
+ 
+V+(x, ξ)
+V−(x, ξ)
+!
+. (4.42)
+Having decoupled the equations, we should now consider the boundary conditions in
+terms of the new basis (4.41). The sum and diﬀerence of (4.30,4.31) lead to the following
+constraints:
+Z
+d4xdξ∂ξ
+
+δV †
++
+
+∂ξ −1
+4
+ˆB′
+
+V+ + δV †
+−
+
+∂ξ −1
+4
+ˆB′
+
+V−
+
+= 0
+(4.43)
+and
+Z
+d4xdξ∂ξ
+
+δV †
++
+
+∂ξ −1
+4
+ˆB′
+
+V−+ δV †
+−
+
+∂ξ −1
+4
+ˆB′
+
+V+
+
+= 0 .
+(4.44)
+Here we have used that ˆA′ →0 at the boundaries, as can be seen from (2.6) and (2.7). Notice
+that since the dynamics of V+ and V−are decoupled, we can consider both them and their
+variations to be independent. Therefore, choosing ﬁrst V−(x, ξ) = 0 and δV−(x, ξ) = 0,
+and then V+(x, ξ) = 0 and δV+(x, ξ) = 0, we see that the boundary conditions can be
+equivalently expressed as16
+Z
+d4xdξ∂ξ
+
+δV †
++
+
+∂ξ −1
+4
+ˆB′
+
+V+
+
+= 0
+(4.45)
+and
+Z
+d4xdξ∂ξ
+
+δV †
+−
+
+∂ξ −1
+4
+ˆB′
+
+V−
+
+= 0 .
+(4.46)
+In fact, these conditions ensure that the Hamiltonians in the Schroedinger equations (4.42)
+are Hermitian, and thus have real eigenvalues and orthonormal sets of eigenfunctions. We
+shall therefore refer to them as Hermiticity Conditions (HCs).
+Finally, we recall that in order to derive the physical spectrum of the perturbations we
+must also impose the additional constraint of a ﬁnite kinetic term in (4.23). Expressed in
+term of the decoupled ﬂuctuations (4.41), this implies that:
+−1
+2
+Z
+d4xdξ
+h
+∂µV †
++∂µV+
+i
+< ∞
+(4.47)
+and
+−1
+2
+Z
+d4xdξ
+h
+∂µV †
+−∂µV−
+i
+< ∞.
+(4.48)
+16Indeed, (V+(x, ξ), 0) and (0, V−(x, ξ)) are both well-deﬁned solutions to the two-by-two Schroedinger
+system (4.42).
+Then (4.45) and (4.46) are both necessary and suﬃcient boundary conditions.
+We also
+checked explicitly that (4.43,4.44) and (4.45,4.46) are equivalent for our ﬁnal solutions.
+15
+
+PAGE 16
+4.4
+The spectrum
+Having decoupled the equations in terms of the dynamical ﬁelds V+m(x, ξ) and V−m(x, ξ)
+(restoring momentarily the index m), let us decompose these ﬁelds in the standard Kaluza-
+Klein way:
+V+m(x, ξ)
+=
+V+m(x)ψ+m(ξ) ,
+V−m(x, ξ)
+=
+V−m(x)ψ−m(ξ) .
+(4.49)
+Now, for ψ+ the Schroedinger potential can be written explicitly as17:
+U(ξ) + C(ξ) = U0 + u cot2
+ ξ
+r0
+
++ u tan2
+ ξ
+r0
+
+,
+(4.50)
+where
+r2
+0U0 ≡1
+2 + 2mω −2(m −N)¯ω + 2m(m −N)ω¯ω,
+r2
+0u ≡3
+4 + m2ω2 + 2mω,
+r2
+0u ≡3
+4 + (m −N)2¯ω2 −2(m −N)¯ω ,
+(4.51)
+and
+ω ≡(1 −δ/2π)−1,
+¯ω ≡(1 −δ/2π)−1.
+(4.52)
+Moreover, the HC reduces to:
+lim
+ξ→ξ
+ψ∗
++
+
+−∂ξ + 1
+2
+1
+ξ −ξ
+
+ψ+ −lim
+ξ→0 ψ∗
++
+
+−∂ξ + 1
+2ξ
+
+ψ+ = 0
+(4.53)
+and the ﬁniteness of the kinetic energy (4.47) becomes simply the normalizability condition
+(NC) on the wavefunction:
+Z
+dξ|ψ+|2 < ∞.
+(4.54)
+The potential, HC and NC for ψ−are identical to those for ψ+, but replacing m →−m
+and N →−N.
+The problem is now of exactly the same form as that treated in [14], where the spectrum
+for gauge ﬁeld and fermion ﬂuctuations was derived. We can therefore follow the same
+steps made there. The Schroedinger equation can be transformed into the hypergeometric
+equation:
+z(1 −z)∂2
+zy + [c −(a + b + 1)z] ∂zy −aby = 0,
+(4.55)
+by deﬁning
+z = cos2
+ ξ
+r0
+
+,
+ψ = zγ (1 −z)β y(z),
+(4.56)
+17Note that here we have discarded the delta-function contributions to the potential, since they are
+dominated by stronger singularities [14].
+16
+
+PAGE 17
+and, for ψ = ψ+ ,
+β
+≡
+1
+4 (3 + 2mω) , γ ≡1
+4 [3 −2(m −N)¯ω] , c ≡2 −(m −N)¯ω,
+a
+≡
+1
+2
+
+3 + mω −(m −N)¯ω +
+q
+r2
+0M2 + 1 + [mω −(m −N)¯ω]2
+
+,
+b
+≡
+1
+2
+
+3 + mω −(m −N)¯ω −
+q
+r2
+0M2 + 1 + [mω −(m −N)¯ω]2
+
+.
+(4.57)
+The solution can then be expressed in terms of Gauss’s hypergeometric function, F. For
+c̸ = 1 the two linearly independent solutions are:
+y1(z) ≡F(a, b, c, z),
+y2(z) ≡z1−cF(a + 1 −c, b + 1 −c, 2 −c, z),
+(4.58)
+and so the general solution to the Schroedinger equation is
+ψ = K1ψ1 + K2ψ2,
+(4.59)
+with
+ψi ≡zγ(1 −z)βyi
+(4.60)
+and K1,2 the integration constants. For c = 1 we have ψ1 = ψ2 but we can construct a
+linearly independent solution using the Wronskian method and the general solution reads
+ψ = K1ψ1 + K2ψ1
+Z ξ
+dξ′
+ψ2
+1(ξ′).
+(4.61)
+We must now impose the NC (4.54) and HC (4.53) to select the physical modes. The
+explicit calculations are given in Appendix C of [14], and so we do not repeat them here.
+The ﬁnal result is the following.
+The wavefunctions for ψ+ are:
+ψ+
+∝
+zγ(1 −z)βF(a, b, c, z),
+for
+m ≤N + 1/¯ω,
+(4.62)
+ψ+
+∝
+zγ+1−c(1 −z)βF(a + 1 −c, b + 1 −c, 2 −c, z),
+for
+m > N + 1/¯ω. (4.63)
+The corresponding squared masses are:
+• For m ≤−1/ω and m ≤N + 1/¯ω
+M2 = 4
+r2
+0
+
+n(n + 1) −
+
+n + 1
+2
+
+[mω + (m −N)¯ω] + m(m −N)ω¯ω
+
+.
+(4.64)
+• For −1/ω < m ≤N + 1/¯ω
+M2 = 4
+r2
+0
+(
+n + 3
+2
+2
+−1
+4 +
+
+n + 3
+2
+
+[mω −(m −N)¯ω]
+)
+.
+(4.65)
+17
+
+PAGE 18
+• For N + 1/¯ω < m ≤−1/ω
+M2 = 4
+r2
+0
+
+n(n −1) −
+
+n −1
+2
+
+[mω −(m −N)¯ω]
+
+.
+(4.66)
+• For m > −1/ω and m > N + 1/¯ω
+M2 = 4
+r2
+0
+
+n(n + 1) +
+
+n + 1
+2
+
+[mω + (m −N)¯ω] + m(m −N)ω¯ω
+
+.
+(4.67)
+Here n = 0, 1, 2, . . .. The masses given in (4.64) and (4.65) correspond to the wave function
+(4.62) whereas the masses given in (4.66) and (4.67) correspond to the wave function (4.63).
+The spectrum for ψ−can be obtained from that above simply by transforming m →−m
+and N →−N.
+5
+Stability Analysis
+In the preceding section we have analytically derived the complete Kaluza-Klein spectrum
+for the scalar ﬂuctuations of the 6D gauge ﬁeld, for directions in the Lie Algebra of G
+orthogonal to the background monopole. We are now ready to analyze the stability of these
+ﬂuctuations. Thanks to the canonical kinetic terms, the question amounts to whether or
+not there are any tachyonic modes.
+5.1
+The sphere case
+Let us ﬁrst describe what happens in the well-known sphere case. To this end, it is illumi-
+nating to write the spectrum (4.64)-(4.67) in the following way:
+M2 = 4
+r2
+0
+"
+l(l + 1) −
+P
+2
+2#
+(5.68)
+where, for ψ = ψ+, P = mω −(m −N)¯ω, l = k + |1 + P/2| and we have the following
+deﬁnition of k in the two cases P > −2 and P ≤−2:
+P > −2 :
+• For m ≤−1/ω
+k = n −mω −1 ≥0
+(5.69)
+• For −1/ω < m ≤N + 1/¯ω
+k = n ≥0
+(5.70)
+• For m > N + 1/¯ω
+k = n + (m −N)¯ω −1 > 0
+(5.71)
+P ≤−2 :
+18
+
+PAGE 19
+• For m ≤N + 1/¯ω
+k = n + 1 −(m −N)¯ω ≥0
+(5.72)
+• For N + 1/¯ω < m ≤−1/ω
+k = n ≥0
+(5.73)
+• For m > −1/ω
+k = n + mω + 1 > 0
+(5.74)
+From here it is easy to conﬁrm that in the sphere limit (ω, ¯ω →1), the spectrum for ψ+
+reduces to the expected form:
+R2M2 = l(l + 1) −
+N
+2
+2
+multiplicity = 2l + 1 ,
+(5.75)
+where R = r0/2 represents the radius of the sphere, l = k + |1 + N/2| and k is an integer
+which assumes all possible non-negative values (k = 0, 1, 2, ...). Recall that the results for
+ψ−are obtained by taking m →−m and N →−N. By using this information it is easy to
+see that a necessary and suﬃcient condition for the absence of tachyons in the sphere case
+is simply [17]
+N I ≤1
+for every I,
+(5.76)
+where we have restored the Lie algebra index I. To derive Inequality (5.76) one can use the
+fact that, in the sphere case, k = 0 is an allowed18 value of k for every m, as can be checked
+by means of the deﬁnitions (5.69)-(5.74).
+In order to satisfy (5.76) we must have that all the charges eI corresponding to our sector
+(3.20) assume just one value, up to their sign. Moreover, we must have that the absolute
+value of all the charges in the hypermatter sector, |ei|, is not smaller than |eI|.
+These
+are consequences of the Dirac quantization condition (2.11). If we embed the background
+monopole in an Abelian factor of G, these conditions are obviously satisﬁed as eI = 0, for
+all I, in this case. However, for an embedding in a non-Abelian factor of G, these conditions
+select only one possibility amongst the anomaly free models presented in Table 1: the
+E7×E6×U(1)R model, with the monopole embedded in E6 under which all hypermultiplets
+are singlets [16, 17, 18]19.
+5.2
+The conical-GGP case
+Our purpose is now to see whether or not Condition (5.76) is valid also for the conical-GGP
+solutions. To this end one can analyze directly the explicit expressions for the spectrum
+given in (4.64)-(4.67) and simply study the inequality M2 ≥0 for those four expressions,
+which are valid in four diﬀerent ranges of m. After a long but straightforward computation,
+18This property does not hold always for the conical-GGP solutions.
+19There are other non-trivial examples. For instance, amongst the numerous models given in [19], if we
+again take the monopole to lie in a non-Abelian factor, stability selects the SU(2) × U(1)R model with
+hyperino representation as follows: seven hyperinos transforming as a 3 of SU(2), two as a 5 and thirty-one
+as a 7 [24].
+19
+
+PAGE 20
+the following results emerge20. A suﬃcient condition for the absence of tachyons in the
+conical-GGP solution is Constraint (5.76).
+Thus the warping and brane defects do not
+introduce new instabilities. Meanwhile, when both the tensions are non-negative (T ≥0
+and T ≥0), Constraint (5.76) is also a necessary condition for the absence of tachyons. In
+this case we have exactly the same situation as in the sphere case, so positive tension branes
+have no eﬀect on stability at all. However, when at least one tension is negative (T < 0
+and/or T < 0), we can relax that constraint if the absolute value of a negative tension is
+large enough. The latter statement can be proved by analyzing the following special cases.
+(i)
+T < 0 and T = 0, that is ω < 1 and ω = 1. This case corresponds to a solution
+with just one conical defect and a non-trivial warping. Here a necessary and suﬃcient
+condition for the absence of tachyons is
+N I ≤1 + 1
+3ω
+for every I.
+(5.77)
+(ii)
+T = T < 0, that is ω = ω < 1. This set up corresponds to the unwarped rugby
+ball compactiﬁcation with negative deﬁcit angles. In this case a suﬃcient condition
+for the absence of tachyons is
+N I ≤4
+3ω
+for every I.
+(5.78)
+Some details of the derivation of (5.77) and (5.78) are provided in Appendix B. Since ω
+appears in the denominator of (5.77) and (5.78), it is clear that we can render stable an
+arbitrary large value of |N I| by choosing a small enough value of ω, that is by introducing a
+large negative tension brane. For example, if we want to stabilize the value |N I| = 2, which
+is unstable in the sphere case, we have to choose a deﬁcit angle δ ≤−4π in case (5.77), and
+δ ≤−π in case (5.78).
+The main conclusion is that the conical-GGP solution is a stable solution for all 6D
+gauged supergravities, if we allow arbitrarily negative brane tensions. However, if we require
+that there are only non-negative tensions, the stability of the system exactly selects the same
+models as in the sphere case (with the additional topological constraint that the monopole
+cannot be embedded in U(1)R – see the end of subsection 2.2).
+6
+Conclusions
+We have studied the stability of axi-symmetric brane world compactiﬁcations (conical-GGP
+solutions) in anomaly free, chiral, gauged 6D supergravity. Anomaly freedom is a central
+principle of quantum physics, and in six dimensional supergravity it places restrictions on
+the possible matter supermultiplets that can be present. Indeed, this lack of arbitrariness
+can be considered as one of the theory’s most attractive features. Meanwhile, we remark
+20Recall that we have not imposed the orbifold boundary conditions on the present spectrum. By elim-
+inating some of the modes the orbifolding could relax some of the stability conditions. The conditions we
+state are, however, certainly suﬃcient also in this case.
+20
+
+PAGE 21
+that the central results of our work also apply to more general situations. For example,
+they are relevant for any 6D gauged supergravity (anomalous or otherwise) which has non-
+Abelian gauge groups, and also for the Yang-Mills extensions to the non-supersymmetric
+models of [28].
+We began by considering the various types of bulk and brane scalar ﬂuctuations that are
+present in the model, and in particular how they decouple at the bilinear level. We chose to
+project out the brane bending modes by placing the branes at orbifold ﬁxed points. Then,
+the Salam-Sezgin sector (i.e. those scalars ﬂuctuations descending from the supergravity-
+tensor multiplet and the U(1) gauge multiplet in the direction of the background monopole)
+was considered for the axially-symmetric perturbations in [12], and no instabilities were
+found.
+The remaining sectors are then the hyperscalar ﬂuctuations, and those scalar ﬂuctua-
+tions of the gauge ﬁelds which are orthogonal to the monopole background in the Lie algebra
+of G. The hyperscalars ﬂuctuations can immediately be seen to have positive squared-masses
+in the 4D eﬀective theory. Therefore, the main eﬀorts in the present article were directed
+towards the scalar ﬂuctuations of the said gauge ﬁelds, the sector which normally harbours
+instabilities.
+We used the light-cone gauge to derive the bilinear action for these ﬂuctuations [35]. In
+this way we obtained the linearized equations of motion, and found them to be a pair of
+coupled, second-order ODEs. We transformed them into a pair of Schroedinger equations,
+and found that it is possible to decouple them. The problem then reduces to the same form
+as that treated in [14], and we analytically derived the full spectra. The exact results that
+we obtained enabled us to draw both expected and surprising results, with regards to the
+stability of the compactiﬁcations.
+As was observed long ago for the sphere-monopole compactiﬁcation of these theories
+[23], in general we ﬁnd a tachyonic instability in the scalar ﬂuctuations of the gauge ﬁelds
+that are charged under the monopole background. In the case of the sphere, the necessary
+and suﬃcient condition for the absence of tachyons can be written as |N I| ≤1, where
+N I are the integer monopole numbers carried by each gauge ﬁeld [17]. If we embed the
+monopole background in an Abelian factor of the gauge group, then the compactiﬁcation is
+stable. However, if the monopole happens to lie in a non-Abelian factor of the gauge group,
+then generically the compactiﬁcation is unstable. For example, amongst the anomaly free
+models described in Table 1, only one fulﬁlls the necessary condition: the E7 × E6 × U(1)R
+model with the monopole embedded in the hidden E6 [16, 17, 18].
+We ﬁnd that the same condition holds for the conical-GGP solutions that contain pos-
+itive tension branes only.
+It is also a suﬃcient condition for models which incorporate
+negative tension branes. In other words, a GGP compactiﬁcation is stable if its sphere limit
+is stable. Furthermore, with positive tension branes only, a GGP compactiﬁcation is unsta-
+ble if its sphere limit is unstable. However, it becomes possible to relax the constraint by
+incorporating large, negative tensions. This seems remarkable, given that negative tension
+branes are usually associated with instabilities rather than stability.
+Meanwhile, the simplest way to obtain a stable conical-GGP solution appears to be to
+embed the monopole in an Abelian factor of the gauge group. Notice that, at least for
+the most elegant anomaly free models such as those in Table 1, there is typically only one
+21
+
+PAGE 22
+Abelian gauge factor available, which corresponds to the U(1)R gauged R-symmetry. It is
+known, however, from the Dirac quantization condition, that embedding the monopole in
+the U(1)R again leads to the requirement of at least one negative tension brane [1, 3]!
+We should note, though, that there is actually a host of anomaly free models with extra
+drone U(1)’s [18, 19]. For a stable model with only positive tension branes, therefore, we
+must turn to one of these or to one of the more “miracolous” models discussed at the end
+of Subsection 5.1.
+For these reasons, we have also discussed in detail the geometry induced by negative
+tension branes. The associated negative deﬁcit angles give rise to so-called saddle-cones. As
+noted, the orbifolding projects out the brane-embedding ﬁelds, which are usually a source of
+instability for negative tension branes. We mention here that, furthermore, the orbifolding
+gives rise to a chiral spectrum for the bulk fermion zero modes. Whilst models with positive
+tension branes give rise to a chiral spectrum even without the orbifold projection, those
+which include negative tension branes in general include zero modes of both chirality. This
+can be observed by considering the spectrum found in [14]. In addition we note that the
+main conclusion of Ref. [14] – that the Kaluza-Klein mass scale and that of the internal
+volume can decouple in the presence of conical defects – also holds for the present mass
+spectrum in the case of negative tension branes.
+In summary, we ﬁnd that the conical-GGP solutions with positive tension branes are
+stable only for very limited classes of anomaly free theories and monopole embeddings. Such
+models, therefore, as used for example in the Supersymmetric Large Extra Dimension Sce-
+nario, are almost unique in character. Meanwhile, somewhat surprisingly, negative tension
+branes seem to allow for stability in a much wider class of models. It would certainly be
+interesting to obtain some physical intuition as to how the negative tension branes render
+unstable sphere compactiﬁcations stable.
+Finally, given that the generic model is unstable, the big question is: where is the
+instability taking it to? Here we comment that since the tachyonic mass has its origin in
+the internal part of the 6D gauge kinetic term, which is semi-positive deﬁnite, we expect
+it to be stabilized at the quartic level. Moreover, the tachyonic masses are found in non-
+axially symmetric modes, so we might ask: is there a stable non-axially symmetric brane
+world solution to 6D gauged supergravity?
+Acknowledgments. We would especially like to thank Sergio Azevedo, Mario Mazz-
+ioni, H. Chacham and R.W Nunez for kindly providing us with Figure 2. It is also our
+pleasure to thank CliﬀBurgess, Andrew Frey, Sean Hartnoll, Kazuya Koyama, Antonios
+Papazoglou, Riccardo Rattazzi and Andrew Tolley for interesting and useful communica-
+tions. The work of A.S is supported in part by the Swiss National Science Foundation. S.L.P
+thanks the High Energy Theory Group at McGill University and the Perimeter Institute
+for their hospitality at the last stages of this work.
+22
+
+PAGE 23
+Appendix
+A
+Bilinear Action in the Light-Cone Gauge
+In order to derive the bilinear action for the scalar ﬂuctuations of the gauge ﬁeld orthogonal
+to the monopole background, we use the results of [35].
+In that reference, a formalism
+was developed to analyze the spectrum of small perturbations about arbitrary solutions
+of Einstein, Yang-Mills and scalar systems, using the light-cone gauge.21
+For a warped
+background solution, with their scalars inactive, the model turns out to be identical to
+ours, up to the latter’s presence of the dilaton.22 In this appendix, we show how our model
+can in fact be transformed into exactly the system treated in [35].
+The bilinear action for the sector of interest about the background (2.3) will have con-
+tributions only from the gauge kinetic term:
+S = −1
+4
+Z
+d6X
+√
+−G
+h
+eκσ/2GMNGP QTr (FMP FNQ)
+i
+(A.79)
+We can make a conformal transformation to absorb the dilaton by deﬁning ˆGMN = eφGMN,
+where we recall that φ ≡κσ/2. In the new frame, the action is identical to that considered
+in [35]:
+S = −1
+4
+Z
+d6X
+q
+−ˆG
+h ˆGMN ˆGP QTr (FMP FNQ)
+i
+(A.80)
+The conformal transformation, however, implies that our background metric becomes:
+ds2 = eA+φηµνdxµdxν + eφdρ2 + eB+φdϕ2 ,
+(A.81)
+which diﬀers from that considered in [35], where ds2 = eAηµνdxµdxν + dρ2 + eBdϕ2. We
+therefore make a coordinate tranformation eφ/2dρ ≡dr, so that our metric can be written
+as:
+ds2 = e
+ˆ
+Aηµνdxµdxν + dr2 + e
+ˆBdϕ2 ,
+(A.82)
+with ˆA ≡A + φ and ˆB ≡B + φ. The action (A.80) of course remains invariant under the
+change of coordinates.
+After these tricks, we can follow exactly the same steps performed in [35] to remove the
+gauge degrees of freedom and obtain the dynamics of the physical ﬁelds. We expand to
+bilinear order, transform to light-cone coordinates, ﬁx to the light-cone gauge and eliminate
+the redundant degrees of freedom using their equations of motion. The ﬁnal result, for
+the spin-0 ﬁelds Vr and Vϕ orthogonal to the background monopole, is then the following
+bilinear action:
+S2(V, V )
+=
+−1
+2
+Z
+d6X
+q
+−ˆG Tr
+h
+∂µVi∂µV i + DiVjDiV j −2(∂r ˆA)2V 2
+r
+−2(∂r ˆA)VrDiV i + ˆRijV iV j + 2g FijV i × V ji
+,
+(A.83)
+21Some discussions of the light cone gauge in ﬁeld theory are given in [37, 38, 35].
+22Our model also contains the Kalb-Ramond ﬁeld and hyperscalars, but again, for the background and
+ﬂuctuations of interest, these sectors does not contribute.
+23
+
+PAGE 24
+where now ˆGMN, σ and Fij refer to the background ﬁelds and Vi to the ﬂuctuations. The
+index i runs over r, ϕ and all indices are raised and lowered with ˆGMN.
+B
+Details of Stability Analysis
+In this appendix we give some intermediate steps to obtain the results of Subsection 5.2,
+concerning the stability analysis for the conical-GGP solutions in the presence of negative
+tension branes. Indeed, only in the presence of at least one negative tension brane our
+results diﬀer from the stability constraint given in (5.76) that is valid in the sphere case.
+Therefore, as in Subsection 5.2, here we focus on the following special cases
+(i)
+T < 0 and T = 0, that is ω < 1 and ω = 1,
+(ii)
+T = T < 0, that is ω = ω < 1,
+whose analysis is enough to obtain the main results of the present paper. More precisely,
+in the following we show how to obtain Constraints (5.77) and (5.78).
+Let us ﬁrst consider Case (i). The mass squared spectrum for the scalar sector (3.20),
+which we are interested in, is given in Equations (4.64)-(4.67), for the ψ+ wave function23,
+and one has to take into account all of them to perform a complete analysis. However,
+here we only consider Equation (4.65) because the analysis of (4.64), (4.66) and (4.67) is
+analogous. By using Ansatz (i), Equation (4.65) becomes
+λ =
+
+n + 3
+2
+2
+−1
+4 +
+
+n + 3
+2
+
+[mω −(m −N)] ,
+(B.84)
+where λ ≡r2
+0M2/4. We recall that (4.65) is valid for −1/ω < m ≤N + 1/¯ω, which, for
+ω = 1, becomes
+mω > −1
+and
+m −N ≤1.
+(B.85)
+Now we observe that
+λ
+=
+n2 + [3 + mω −(m −N)] n + 2 + 3
+2 [mω −(m −N)]
+≥2 + 3
+2 [mω −(m −N)] = λ0,
+(B.86)
+where λ0 is λ evaluated at n = 0 and we used 3+mω−(m−N) > 1, which is a consequence
+of (B.85). Therefore, we have λ ≥0 if λ0 ≥0, namely if
+mω ≥m −N −4
+3.
+(B.87)
+Now we observe that, for m−N ≤0, Constraint (B.87) is always satisﬁed because of (B.85).
+Therefore, tachyons can only be present in the case24 m = N +1 and by plugging this value
+of m into (B.87) we obtain
+N ≥−1 −1
+3ω .
+(B.88)
+23We recall that the spectrum for ψ−can be obtained by transforming m →−m and N →−N.
+24We observe that Constraints (B.85) forbid m > N + 1.
+24
+
+PAGE 25
+The corresponding constraint for ψ−can be obtained by transforming N →−N in (B.88);
+this leads to N ≤1 + 1/(3ω), which, together with (B.88), gives exactly (5.77). By using
+a similar method, we further checked that (5.77) is a necessary and suﬃcient condition for
+λ ≥0 for the full spectrum including also (4.64), (4.66) and (4.67).
+Let us now consider Case (ii). Again we present only the analysis of Equation (4.65),
+which, for ω = ω, is
+λ =
+
+n + 3
+2
+2
+−1
+4 +
+
+n + 3
+2
+
+Nω.
+(B.89)
+The mass squared given in (4.65) is valid for −1/ω < m ≤N + 1/¯ω, which reduces to
+mω > −1
+and
+(m −N)ω ≤1
+(B.90)
+in the case ω = ω. As we did in Case (i), we observe that
+λ = n2 + (3 + Nω) n + 2 + 3
+2Nω ≥2 + 3
+2Nω = λ0,
+(B.91)
+where we used 3 + Nω > 1, which is a consequence of (B.90). So a suﬃcient condition for
+λ ≥0 is
+N ≥−4
+3ω
+(B.92)
+and, by also taking into account the corresponding constraint for ψ−(N ≤4/(3ω)), we
+obtain (5.78). Analogously we checked that (5.78) is a suﬃcient condition for λ ≥0 for
+(4.64), (4.66) and (4.67) as well.
+References
+[1] G. W. Gibbons, R. Guven and C. N. Pope, “3-branes and uniqueness of the Salam-
+Sezgin vacuum,” Phys. Lett. B 595, 498 (2004) [arXiv:hep-th/0307238].
+[2] Y. Aghababaie et al., “Warped brane worlds in six dimensional supergravity,” JHEP
+0309, 037 (2003) [arXiv:hep-th/0308064].
+[3] C. P. Burgess, F. Quevedo, G. Tasinato and I. Zavala, “General axisymmetric solutions
+and self-tuning in 6D chiral gauged supergravity,” JHEP 0411 (2004) 069 [arXiv:hep-
+th/0408109].
+[4] H. M. Lee and C. Ludeling, “The general warped solution with conical branes in six-
+dimensional supergravity,” JHEP 0601 (2006) 062 [arXiv:hep-th/0510026].
+[5] S. L. Parameswaran, G. Tasinato and I. Zavala, “The 6D SuperSwirl,” Nucl. Phys. B
+737 (2006) 49 [arXiv:hep-th/0509061].
+[6] A. J. Tolley, C. P. Burgess, D. Hoover and Y. Aghababaie, “Bulk singularities and the
+eﬀective cosmological constant for higher co-dimension branes,” JHEP 0603 (2006)
+091 [arXiv:hep-th/0512218].
+25
+
+PAGE 26
+[7] A. J. Tolley, C. P. Burgess, C. de Rham and D. Hoover, “Scaling solutions to 6D gauged
+chiral supergravity,” New J. Phys. 8 (2006) 324 [arXiv:hep-th/0608083].
+[8] T. Kobayashi and M. Minamitsuji, “Brane cosmological solutions in six-dimensional
+warped ﬂux compactiﬁcations,” arXiv:0705.3500 [hep-th].
+[9] E. J. Copeland and O. Seto, “Dynamical solutions of warped six dimensional super-
+gravity,” arXiv:0705.4169 [hep-th].
+[10] S. Randjbar-Daemi and E. Sezgin, “Scalar potential and dyonic strings in 6d gauged
+supergravity,” Nucl. Phys. B 692 (2004) 346 [arXiv:hep-th/0402217].
+[11] C. P. Burgess, “Towards a natural theory of dark energy: Supersymmetric large extra
+dimensions,” AIP Conf. Proc. 743 (2005) 417 [arXiv:hep-th/0411140].
+[12] C. P. Burgess, C. de Rham, D. Hoover, D. Mason and A. J. Tolley, “Kicking the
+rugby ball: Perturbations of 6D gauged chiral supergravity,” JCAP 0702 (2007) 009
+[arXiv:hep-th/0610078].
+[13] H. M. Lee and A. Papazoglou, “Scalar mode analysis of the warped Salam-Sezgin
+model,” Nucl. Phys. B 747 (2006) 294 [Erratum-ibid. B 765 (2007) 200] [arXiv:hep-
+th/0602208].
+[14] S. L. Parameswaran, S. Randjbar-Daemi and A. Salvio, “Gauge ﬁelds, fermions and
+mass gaps in 6D brane worlds,” Nucl. Phys. B 767, 54 (2007) [arXiv:hep-th/0608074].
+[15] H. M. Lee and A. Papazoglou, “Gravitino in six-dimensional warped supergravity,”
+arXiv:0705.1157 [hep-th].
+[16] S. Randjbar-Daemi, A. Salam, E. Sezgin and J. A. Strathdee, “An Anomaly Free Model
+In Six-Dimensions,” Phys. Lett. B 151 (1985) 351.
+[17] S. D. Avramis, A. Kehagias and S. Randjbar-Daemi, “A new anomaly-free gauged
+supergravity in six dimensions,” JHEP 0505 (2005) 057 [arXiv:hep-th/0504033].
+[18] S. D. Avramis and A. Kehagias, “A systematic search for anomaly-free supergravities
+in six dimensions,” JHEP 0510 (2005) 052 [arXiv:hep-th/0508172].
+[19] R. Suzuki and Y. Tachikawa, “More anomaly-free models of six-dimensional gauged
+supergravity,” J. Math. Phys. 47, 062302 (2006) [arXiv:hep-th/0512019].
+[20] M. Cvetic, G. W. Gibbons and C. N. Pope, “A string and M-theory origin for the
+Salam-Sezgin model,” Nucl. Phys. B 677 (2004) 164 [arXiv:hep-th/0308026].
+E. Bergshoeﬀ, D. C. Jong and E. Sezgin, “Noncompact gaugings, chiral reduction and
+dual sigma models in supergravity,” Class. Quant. Grav. 23 (2006) 2803 [arXiv:hep-
+th/0509203].
+[21] A. Salam and E. Sezgin, “Chiral Compactiﬁcation On Minkowski X S**2 Of N=2
+Einstein-Maxwell Supergravity In Six-Dimensions,” Phys. Lett. B 147 (1984) 47.
+26
+
+PAGE 27
+[22] S. Randjbar-Daemi, A. Salam and J. A. Strathdee, “Spontaneous Compactiﬁcation In
+Six-Dimensional Einstein-Maxwell Theory,” Nucl. Phys. B 214 (1983) 491.
+[23] S. Randjbar-Daemi, A. Salam and J. A. Strathdee, “Instability Of Higher Dimensional
+Yang-Mills Systems,” Phys. Lett. B 124 (1983) 345 [Erratum-ibid. B 144 (1984) 455].
+G. R. Dvali, S. Randjbar-Daemi and R. Tabbash, “The origin of spontaneous symmetry
+breaking in theories with large extra dimensions,” Phys. Rev. D 65 (2002) 064021
+[arXiv:hep-ph/0102307].
+[24] A. Salvio, “Aspects of physics with two extra dimensions,” arXiv:hep-th/0701020.
+[25] H. Nishino and E. Sezgin, “Matter And Gauge Couplings Of N=2 Supergravity In
+Six-Dimensions,” Phys. Lett. B 144 (1984) 187.
+[26] H. Nishino and E. Sezgin, “The Complete N=2, D = 6 Supergravity With Matter And
+Yang-Mills Couplings,” Nucl. Phys. B 278 (1986) 353.
+[27] R. Sundrum, “Compactiﬁcation for a three-brane universe,” Phys. Rev. D 59 (1999)
+085010 [arXiv:hep-ph/9807348].
+J. W. Chen, M. A. Luty and E. Ponton, “A critical cosmological constant from mil-
+limeter extra dimensions,” JHEP 0009 (2000) 012 [arXiv:hep-th/0003067].
+[28] S. M. Carroll and M. M. Guica, “Sidestepping the cosmological constant with football-
+shaped extra dimensions,” arXiv:hep-th/0302067.
+I. Navarro, “Codimension two compactiﬁcations and the cosmological constant prob-
+lem,” JCAP 0309, 004 (2003) [arXiv:hep-th/0302129].
+[29] M. Gogberashvili, P. Midodashvili and D. Singleton, “Fermion Generations from
+’Apple-Shaped’ Extra Dimensions,” arXiv:0706.0676 [hep-th].
+[30] Sergio Azevedo, Mario S. C. Mazzoni, H. Chacham, R. W. Nunes, “Electronic structure
+of nanocones of boron nitrite,” Applied Physics Letters, vol 82 (14), p. 2323-2325, 7
+April 2003 [arXiv:cond-mat/0409558].
+[31] As a very partial list of works on negative tension branes and their stability:
+L. Pilo, R. Rattazzi and A. Zaﬀaroni, “The fate of the radion in models with metastable
+graviton,” JHEP 0007 (2000) 056 [arXiv:hep-th/0004028].
+D. Marolf and M. Trodden, “Black holes and instabilities of negative tension branes,”
+Phys. Rev. D 64, 065019 (2001) [arXiv:hep-th/0102135].
+B. Carter, “Energy dominance and the Hawking-Ellis vacuum conservation theorem,”
+arXiv:gr-qc/0205010.
+C. P. Burgess, F. Quevedo, S. J. Rey, G. Tasinato and I. Zavala, “Cosmological space-
+times from negative tension brane backgrounds,” JHEP 0210, 028 (2002) [arXiv:hep-
+th/0207104].
+C. Charmousis and J. F. Dufaux, “Gauss-Bonnet gravity renders negative tension
+branewolds unstable,” Phys. Rev. D 70 (2004) 106002 [arXiv:hep-th/0311267].
+27
+
+PAGE 28
+[32] S. Randjbar-Daemi and V. A. Rubakov, “4d-ﬂat compactiﬁcations with brane vortici-
+ties,” JHEP 0410 (2004) 054 [arXiv:hep-th/0407176].
+[33] S. Randjbar-Daemi, unpublished note, 1984.
+[34] Y. Aghababaie, C. P. Burgess, S. L. Parameswaran and F. Quevedo, “SUSY breaking
+and moduli stabilization from ﬂuxes in gauged 6D supergravity,” JHEP 0303 (2003)
+032 [arXiv:hep-th/0212091].
+[35] S. Randjbar-Daemi and M. Shaposhnikov, “A formalism to analyze the spectrum of
+brane world scenarios,” Nucl. Phys. B 645 (2002) 188 [arXiv:hep-th/0206016].
+[36] H. Nicolai and C. Wetterich, “On The Spectrum Of Kaluza-Klein Theories With Non-
+compact Internal Spaces,” Phys. Lett. B 150 (1985) 347.
+G. W. Gibbons and D. L. Wiltshire, “Space-Time As A Membrane In Higher Dimen-
+sions,” Nucl. Phys. B 287, 717 (1987) [arXiv:hep-th/0109093].
+A. Kehagias, “On non-compact compactiﬁcations with brane worlds,” arXiv:hep-
+th/9911134.
+[37] S. Randjbar-Daemi, A. Salam and J. A. Strathdee, “Towards A Selfconsistent Com-
+putation Of Vacuum Energy In Eleven-Dimensional Supergravity,” Nuovo Cim. B 84
+(1984) 167.
+[38] S. Randjbar-Daemi and M. H. Sarmadi, “Graviton Induced Compactiﬁcation In The
+Light Cone Gauge,” Phys. Lett. B 151 (1985) 343.
+28

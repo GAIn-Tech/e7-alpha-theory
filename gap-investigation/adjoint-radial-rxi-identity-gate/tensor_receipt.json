@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "claim_boundary": "Double-precision verification of all hypotheses used by exact abstract identity; neither interval enclosure nor exact invariant tensor reconstruction.",
+  "dimensions": {
+    "scalar": 188,
+    "vector": 79,
+    "Goldstone": 67,
+    "physical": 121
+  },
+  "raw_mass_shell_rounding_for_Ward": false,
+  "checks": {
+    "stationary_gradient": 7.925532548092454e-12,
+    "radial_eigenvector": 2.6999128828965727e-12,
+    "unbroken_h_invariant": 3.894539576622925e-16,
+    "Goldstone_orthonormal": 2.147696199700073e-15,
+    "H_K": 2.745384836252805e-11,
+    "differentiated_Ward": 8.057214628835444e-12,
+    "Z_symmetry": 0.0,
+    "twice_differentiated_Ward": 9.753086717765368e-13,
+    "Goldstone_tadpole_Ward": 3.4155849893705324e-11,
+    "stationary_solve_individual": 3.0695884448832605e-10,
+    "shift_kernel_compatibility": 1.2926322656794496e-10,
+    "quartic_plus_shift_Ward": 1.188747327333565e-10,
+    "t_hh_kernel_projection": 1.190569774510714e-09,
+    "all_shell_stationarity": 2.774682849434828e-09,
+    "all_shell_A_coefficients": 1.0745679901447147e-09
+  },
+  "off_stationary_action_Ward_norms": [
+    3.959775501684299e-14,
+    9.54888133421549e-13
+  ],
+  "shells": [
+    {
+      "mass2_display": 0.8619522,
+      "multiplicity": 1,
+      "sigma_sum": 6.310636404849063e-14,
+      "quartic_sum": 1.2737457899317127e-31,
+      "ell_over_a_sum": 0.0,
+      "stationary_residual": 1.6877011928872986e-13,
+      "combined_A_coefficient_residual": 6.310636404849063e-14
+    },
+    {
+      "mass2_display": 1.0,
+      "multiplicity": 3,
+      "sigma_sum": 3.749559466893848e-13,
+      "quartic_sum": 4.800186562569735e-27,
+      "ell_over_a_sum": -8.318091429808467e-27,
+      "stationary_residual": 1.0028577627834957e-12,
+      "combined_A_coefficient_residual": 3.7495594668939795e-13
+    },
+    {
+      "mass2_display": 1.5,
+      "multiplicity": 24,
+      "sigma_sum": -3455.999999998925,
+      "quartic_sum": 1152.2666666666669,
+      "ell_over_a_sum": -2303.7333333333327,
+      "stationary_residual": 2.774682849434828e-09,
+      "combined_A_coefficient_residual": 1.0745679901447147e-09
+    },
+    {
+      "mass2_display": 5.0,
+      "multiplicity": 6,
+      "sigma_sum": -1036.7999999998572,
+      "quartic_sum": 345.76,
+      "ell_over_a_sum": -691.0399999999997,
+      "stationary_residual": 3.6892409650853755e-10,
+      "combined_A_coefficient_residual": 1.425632945029065e-10
+    },
+    {
+      "mass2_display": 10.0,
+      "multiplicity": 4,
+      "sigma_sum": -777.5999999997789,
+      "quartic_sum": 259.3199999999999,
+      "ell_over_a_sum": -518.2799999999996,
+      "stationary_residual": 5.697624853358911e-10,
+      "combined_A_coefficient_residual": 2.2066615201765671e-10
+    },
+    {
+      "mass2_display": 16.5,
+      "multiplicity": 12,
+      "sigma_sum": -2513.454545453772,
+      "quartic_sum": 838.0121212121207,
+      "ell_over_a_sum": -1675.4424242424234,
+      "stationary_residual": 1.99491764266161e-09,
+      "combined_A_coefficient_residual": 7.721610018052161e-10
+    },
+    {
+      "mass2_display": 25.0,
+      "multiplicity": 12,
+      "sigma_sum": -2591.9999999993356,
+      "quartic_sum": 863.9999999999998,
+      "ell_over_a_sum": -1727.9999999999984,
+      "stationary_residual": 1.7113722276405104e-09,
+      "combined_A_coefficient_residual": 6.625668902415782e-10
+    },
+    {
+      "mass2_display": 34.8047145,
+      "multiplicity": 1,
+      "sigma_sum": 6.187895151464357e-14,
+      "quartic_sum": 1.248971560405546e-31,
+      "ell_over_a_sum": 0.0,
+      "stationary_residual": 1.6549917291857276e-13,
+      "combined_A_coefficient_residual": 6.187895151464357e-14
+    },
+    {
+      "mass2_display": 36.5,
+      "multiplicity": 4,
+      "sigma_sum": -852.1643835613571,
+      "quartic_sum": 284.1205479452054,
+      "ell_over_a_sum": -568.043835616438,
+      "stationary_residual": 7.38894725744851e-10,
+      "combined_A_coefficient_residual": 2.8626345738302916e-10
+    }
+  ],
+  "Z_frobenius_squared": 270.0000000000002,
+  "source_hashes": {
+    "shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "adjoint-radial-pole-gate\\calculation.py": "5d4a82d90a505595c2c6cefe0771e36faa49135d08d2b9623538fcf9e4a00307",
+    "radiative-vacuum-gate\\diagnostic.py": "e2db575600561a7e31834b2b85d9abf7f8aa97285fbe8c4749c1bf637609d618",
+    "adjoint-radial-rxi-pole-gate\\calculation.py": "2ac589f2004f0a5a872f26b864b671d637faded3f76b76c498a302dc16bd443a",
+    "adjoint-radial-rxi-pole-gate\\symbolic_checks.py": "1a610c12477135a2e58182212273c6b1d141bd39bab0ec656c78e7c3cf4408fa",
+    "adjoint-radial-rxi-pole-gate\\REPORT.md": "2115b80c986cec4d79003ce3f5aee8886862ca1af1f2c37d20c977b5d61d5cb2",
+    "adjoint-radial-rxi-identity-gate\\tensor_hypotheses.py": "a1203881d5b21b9e2be9cbcf635058e33f673d4712ce31dfa851e7171bf1540d"
+  }
+}

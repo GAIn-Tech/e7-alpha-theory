@@ -1,0 +1,714 @@
+{
+  "schema": "e7-omitted-installer-cache-v1",
+  "policy": "Only disposable acquisition caches omitted. Exact retained toolchain bytes supplied by LFS snapshot. Original caches remain in source checkout and backup Git ref.",
+  "files": [
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/distribution-catalog.zip",
+      "size": 832108412,
+      "sha256": "eb49e461e119f56e18621e036b1e71a981d434c95827e7f824e4bb8d37418c48",
+      "reason": "Sparse selective-download ZIP; missing unrequested members, not a complete distribution"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/0",
+      "size": 2097152,
+      "sha256": "804ddee9138510226c8401732cfe7f0b18e4a7d828843492bf643d74b673a62f",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/1",
+      "size": 2097152,
+      "sha256": "26c9546715452ca23f4eea29b368ab57efee53e620bdc45604bb7b0d63eb64a4",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/10",
+      "size": 2097152,
+      "sha256": "1226e7e82fc6d9ad20b6eb95a5a2f6f51ba6422af27902daeac4f5ab27c80bf9",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/100",
+      "size": 2097152,
+      "sha256": "db451647fdc9973674aee66a2cc6de212c25385c12f4ac5b596d0ac9fa0f26eb",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/101",
+      "size": 2097152,
+      "sha256": "68562e9e5d73df20f44a37c213279555023d2ef4d25b3c5398bd8d14e7695352",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/102",
+      "size": 2097152,
+      "sha256": "42c1c18e2d0e9a1cbc7434f01fc4a5ac019334cb9c1826cafed5e778e3c0fdb2",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/103",
+      "size": 2097152,
+      "sha256": "c48c5eb177a79393e2b481ce6bb4fd57566ee35d0baea3d28e38452f6f2dae7e",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/104",
+      "size": 2097152,
+      "sha256": "16ed5d3bbe961d74ae6a91a355cd5ac7d95fce99972adfdeb5f39c6e52377ade",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/105",
+      "size": 2097152,
+      "sha256": "ef3917483f92387d6375153676b788fa586ef5ad693332dea4f3b32d38b6fde0",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/106",
+      "size": 2097152,
+      "sha256": "0eb44ac65ffd4ecfb85c92400385aa4a8d23891472ef49dcee5f9e28c63febd4",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/107",
+      "size": 2097152,
+      "sha256": "ac8d674e580621ac6916f1cca44bf30982b3dc4f5c02b3b6e4a350eab6cf4d56",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/108",
+      "size": 2097152,
+      "sha256": "78e3569847991f6f4b2e7d56253525e5221871940369c415ce94bce302c85513",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/109",
+      "size": 2097152,
+      "sha256": "1690b3b53560bdb6ca9d1f72c47e9eead29129bc171526833cc70dfbe22d3423",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/11",
+      "size": 2097152,
+      "sha256": "4519e056c4227320ab9d6ee2d7f9e978ab44858fce56524bd6aaaec4055e8ef4",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/110",
+      "size": 2097152,
+      "sha256": "285663aadd6132cae4d996fb75dc02f3e6a289827ac6e6ea2a3ddd987279f60f",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/111",
+      "size": 2097152,
+      "sha256": "5c205f3a4fcc9369f09217f216394e790bab01538b7677ed795447e665cd124d",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/112",
+      "size": 2097152,
+      "sha256": "c41c35edf5910aaeacbf15f7cc6bc3b9ea119c7a67c6c1334b34efb4614e1575",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/113",
+      "size": 2097152,
+      "sha256": "477cd6b17d2cd8a7ad510889180b954efb66453899f9f9a551a8d01048dc48e3",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/114",
+      "size": 2097152,
+      "sha256": "9e8b3d7c36744f17af0a70bab7057ff5e3ebc953ede75d593846334e416d2cc8",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/115",
+      "size": 2097152,
+      "sha256": "105e792b01989166d72cac273f0c1f11ee124bfe1253f094ddedae02d3a9fe9d",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/12",
+      "size": 2097152,
+      "sha256": "892776771428377ac5899fe61e4918a870ec5a205e2f28fe85f9e479db9ecb52",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/13",
+      "size": 2097152,
+      "sha256": "258f6b669afd7272e90dc13be7ad5dae0210ac15a8fe8200219528a8ebd0aa71",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/14",
+      "size": 2097152,
+      "sha256": "72192e14098d9f428ab280f0493bb0c63c8f9fd1287c179e0cf1baeef0717351",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/15",
+      "size": 2097152,
+      "sha256": "c6353a1a87fe747f0ab514793853eb4b5a8d1d9a425cd6f90913d08a4ee8c452",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/16",
+      "size": 2097152,
+      "sha256": "5ff50798460f7bb99909f888c03bb0c2578a308801b609afeede0e6ff37f595c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/17",
+      "size": 2097152,
+      "sha256": "b3ba22da37951e5ca4aac6af1b0af4db7d3ceae82ceb1177d34547988455483b",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/18",
+      "size": 2097152,
+      "sha256": "fb0d3c9130e0f9b87e3f207dcdc1421d3d410d934957533a7571b425305d6f40",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/19",
+      "size": 2097152,
+      "sha256": "6e2d4ba2384b57396463de330e2de60f25b21746f6a951a6876549d1fa53b6e2",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/2",
+      "size": 2097152,
+      "sha256": "da0e9e1fa3077fb3745ef2069b5f9816c6f675816f47777244e3b9cb928be79d",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/20",
+      "size": 2097152,
+      "sha256": "bb3ceaf8ebca17bf7c7e0a9bde70dad4fa18374d06f043b975a99da35cb2de6d",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/21",
+      "size": 2097152,
+      "sha256": "d5dd5f7143f7a536c05fb150ec4f0e0841d1f2be48b2c5b7103bf64867271eaa",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/22",
+      "size": 2097152,
+      "sha256": "ded4d63e39886fb697309664fba05620514d36be041a7554662b76b695f49478",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/23",
+      "size": 2097152,
+      "sha256": "e29618f72986cef964dd79485a0640be24d2323226c0f6e4928ac379c344bdf7",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/24",
+      "size": 2097152,
+      "sha256": "eeff75316d55f60b17fbef5528fd07fbc852c4ceeed5f2268c5977539331a382",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/25",
+      "size": 2097152,
+      "sha256": "644f0bf13ff38c2ba84a9bdebbec62ea04064bc6a785c1a4d85f6d6caf48c9ed",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/26",
+      "size": 2097152,
+      "sha256": "b2aed847371a194e84e45f69505fbedb2245cc01c89a106b0c55e83106d122fa",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/27",
+      "size": 2097152,
+      "sha256": "18056279900b11bab3bc039c9cbcf1236cfc1361a5b244362424ded89ccd4c36",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/28",
+      "size": 2097152,
+      "sha256": "663ed71894f42ae68000784ef608fcf0740ed0241c98413cc2b692093c0f3fce",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/29",
+      "size": 2097152,
+      "sha256": "9d5efcf2ba828150594626591aea7e2d97aad334f040d10aa90418d732158e72",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/3",
+      "size": 2097152,
+      "sha256": "d81082cdb0c4c7266c33b6f1199005550ddd02e0a96d627f250565f419f7c851",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/30",
+      "size": 2097152,
+      "sha256": "00e0103748ec898f43e583c3cf6c7b577be1adb96d0ae17ea77eb214032968e1",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/31",
+      "size": 2097152,
+      "sha256": "7569e8566b98cd1dbe52412d4ff2446b5ab2ae6e568fd48e45417e0d527e51fe",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/32",
+      "size": 2097152,
+      "sha256": "3d4b1f652496f0bd1b2302c4b68eb174c5df0fb5fabddbf322d33a9e730e4888",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/33",
+      "size": 2097152,
+      "sha256": "4a6fad90a24096c105db96cba83fb1c30cbf7b1e19adb86ec28153f79fc3159f",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/34",
+      "size": 2097152,
+      "sha256": "82ca477f79ee281deddf3e51527f94c5e2602e4c83c5698fddad2fbfe66f331b",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/35",
+      "size": 2097152,
+      "sha256": "eb5cbacff2f7a67d0d9b28e5670d031104f7f2cb0a06d084e8cf238b008feacd",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/36",
+      "size": 2097152,
+      "sha256": "bef3680d637163282154042e9b065471c14c5b4e68aca1f1c9f611fb3b17af12",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/37",
+      "size": 2097152,
+      "sha256": "5804f434726e77a930beeb3b4e4050eed2ddd1ab97920a02deaf6644547af6b1",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/38",
+      "size": 2097152,
+      "sha256": "e51a481a32b730e1cff77cb5c5aef43b96990fd9ce84d29c6de7a1ff47478dbf",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/39",
+      "size": 2097152,
+      "sha256": "056e5bf19391dc2fed33bdd3f52ec3f5c9f9524d08aac0b72e39aca12d08550c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/4",
+      "size": 2097152,
+      "sha256": "c2886f861dbd3c09339b94bf9557aeba325502f87e5a863151a27a676c821bad",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/40",
+      "size": 2097152,
+      "sha256": "3fbc1e68dba676f0cbe74171df48607d885eaeb57cbb08797892cc8d1a18dc7f",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/41",
+      "size": 2097152,
+      "sha256": "1f486f43a12c7eed66d80e3a157e7e2d6c6c19950882bcd7dbc62feef745e714",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/42",
+      "size": 2097152,
+      "sha256": "e52b8d8181752e277f26321a27abcc850e9bf3b1a451f7cbe4608a708e6c55b4",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/43",
+      "size": 2097152,
+      "sha256": "8dadda51240609fc912867ee7d9e3993b7eef38538239b0a372c5022f8fa69f9",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/44",
+      "size": 2097152,
+      "sha256": "d62495f30f920f7e4d49b98b041625f633d4b31e41a068a801b4a1604a673667",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/45",
+      "size": 2097152,
+      "sha256": "66ca2c757c47e536a9e4f480f8dd33230170dba4ca3d0e7a2327b9dcc411613c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/46",
+      "size": 2097152,
+      "sha256": "af30f8e32ec7b46217fcd534fd1439032bf482baa88338dbe0ee67ba4d9ce0e9",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/47",
+      "size": 2097152,
+      "sha256": "77a982837c0c1105821993b8d6197f2a73c0f5060238d72102b27479b76c15b7",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/48",
+      "size": 2097152,
+      "sha256": "a7929470934fd44f8d695cf9cf8e88e65e8a256afb39bea6999a1d470fad79b9",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/49",
+      "size": 2097152,
+      "sha256": "1d78a390ce803f26ac0639e60fbbf1828eeb8447f542d3d7289079708006f633",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/5",
+      "size": 2097152,
+      "sha256": "5958d36b24bf1fdd3a56888f32e9f5b3b51c22c35fca1a811f07a40c80428bbf",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/50",
+      "size": 2097152,
+      "sha256": "ae10eb6edf4f3930b886b8633b0febd15e004fcbc13c6294b18274acb1244e5b",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/51",
+      "size": 2097152,
+      "sha256": "833018a2dc0ac9c64d9daeaf63af33f2f9fd83b6fa75c022270158b029df33cf",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/52",
+      "size": 2097152,
+      "sha256": "24cbebfde38899d072d6a7bac944f52e1be82fc19b999b05a2b95806efb0e400",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/53",
+      "size": 2097152,
+      "sha256": "37fccccc0809b00c347a81134ad4c83c2729842196401a13e76975676958f073",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/54",
+      "size": 2097152,
+      "sha256": "b80a2af5d1d9bcc531d87a1032810f5ceedf7e93e8d4d2dddbed7bbd0fdf29b0",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/55",
+      "size": 2097152,
+      "sha256": "c914180e16467c51bb609f11c175fbfb09a0fc24fc388493c687facff41598ad",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/56",
+      "size": 2097152,
+      "sha256": "9affa7ab2430055a64033739759b4a3cb0c01cda1f8bf5fc4024f2c6fe13c16e",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/57",
+      "size": 2097152,
+      "sha256": "c4848432d34044462964cf02b80235ba0687aa9589e6b2f7ab2893e440ad744b",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/58",
+      "size": 2097152,
+      "sha256": "99fa6e0c580bd0ff7c181d3ac2c58c75b1ae5d9536f13d609c358aa88301d90c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/59",
+      "size": 2097152,
+      "sha256": "780c55e6d0ead768a81407b1e10bb038813e9bc36f15d5bbe75e2715e9b3faef",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/6",
+      "size": 2097152,
+      "sha256": "165e59653466bd2ee4f57480815f5d0959bfd078122f920e088af24355e0a096",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/60",
+      "size": 2097152,
+      "sha256": "0071d92f19a285ffe089598eb559bd84e0faa35d7b46a82eae9820311d1311e6",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/61",
+      "size": 2097152,
+      "sha256": "00ca62ff1429e0bca528d65c2ec74fee59a1ae054d29795c3cb91075280ec01c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/62",
+      "size": 2097152,
+      "sha256": "91d09e6fbf3c714b52b4965fc389fe3165aab8b8702c13b18a515ef0afc601c2",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/63",
+      "size": 2097152,
+      "sha256": "284478e43f40c681fc4dc23c5c2d06a8347a6ae9196ce5f4744c1d0d85c4fb90",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/64",
+      "size": 2097152,
+      "sha256": "4912f0852764f86b7701c07c091474c4de2a9d1216f6546b7a130585fbb0fb9d",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/65",
+      "size": 2097152,
+      "sha256": "8e1ebbc1aa67394a729563a3d94937a297f8bb8ce8ec895cf902eb2273b666fa",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/66",
+      "size": 2097152,
+      "sha256": "8a6a968f63055c5c79fa10d7226a39562f7cc69fe828af6cf3ed589ffbcbbfb4",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/67",
+      "size": 2097152,
+      "sha256": "bd6b20a60f1cd7209a2e41edf8d2740ef72c2b8923aee7dbff55433744786b64",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/68",
+      "size": 2097152,
+      "sha256": "18d419a95aa3b6d47a029fd8ef60c3eb25d21c7e47a14465b5c599aedc79790a",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/69",
+      "size": 2097152,
+      "sha256": "d081c9ae460eb340716610475d091dfa89630f26904438f2c4d0f76e4c8d473c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/7",
+      "size": 2097152,
+      "sha256": "c518fec1d1c86a1e3732dc9d85e3cbcce66f3637e5c642fb6307d13d4e2e13d0",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/70",
+      "size": 2097152,
+      "sha256": "902135f7cff85df1a6c2688e0d9b3c95f081ecfe6d1bd241c8b70927f67536d5",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/71",
+      "size": 2097152,
+      "sha256": "75eaeb7cb4cc8322e465e586775db65cc2660069145712a4f02695bd577ac8ae",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/72",
+      "size": 2097152,
+      "sha256": "9c64e5e9c190f8b201fa8f209053611549f89c35bb69a91dfe8cb652fd40cec2",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/73",
+      "size": 2097152,
+      "sha256": "3bd9a67ef1f72a51f99128cf2e4d12863f8a688e892b53f5d5337ac1452b5284",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/74",
+      "size": 2097152,
+      "sha256": "f34efe5ec0c39537133c3cb9b373f49b30b82a7470a676e0730e7add78ebcf5d",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/75",
+      "size": 2097152,
+      "sha256": "542980f19ee37cd772609299054c048e89199e2f0612234997fe3ccc2be57c03",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/76",
+      "size": 2097152,
+      "sha256": "462341d481e2765a998d67dcdf5b47d75d32948c7fa1102da7240ca9746fc235",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/77",
+      "size": 2097152,
+      "sha256": "3e89fe612e4245f513857ebe1f8d5c0c03a29adb27401009ae36652a5ed01b05",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/78",
+      "size": 2097152,
+      "sha256": "486ad3240d8b7eb0b09a0a0fac172c8efeba1bdb4f37a3a57ea212ba23c68708",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/79",
+      "size": 2097152,
+      "sha256": "d926da43647acce731b217edb29b55564eca885731e03e6665ae4ff129b8f328",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/8",
+      "size": 2097152,
+      "sha256": "8feec136698bd8c67203bab8e1a1ed896777065ae3e55903c9670ec36a6d2c58",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/80",
+      "size": 2097152,
+      "sha256": "6de37a9b73d7c9e3afb22a885093855d0df2ec8cf3746a2391d0eff52133bccb",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/81",
+      "size": 2097152,
+      "sha256": "266e003d555838f536b0ed81a9656b206153718decf3d4d8490f778e7553389f",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/82",
+      "size": 2097152,
+      "sha256": "159ef70db482ca1959b67c17e737933655549df00545091f7696737a88449f14",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/83",
+      "size": 2097152,
+      "sha256": "dd6ca54d510800b7d75533b1470a687557f456f97e7eb07b61347fc72d37474c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/84",
+      "size": 2097152,
+      "sha256": "dde8595f3b4eac6cf5670d85e2b95855fbc6bc275e62893554f5969abfca5344",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/85",
+      "size": 2097152,
+      "sha256": "e07ab2f95dc1cabd81c26e90923b162c26299e8651a93e14cb853ed9849afac0",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/86",
+      "size": 2097152,
+      "sha256": "6bbe8592416dcf1db0fd948c278dfb2b55b51ef10e2e7afb613b7479066826af",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/87",
+      "size": 2097152,
+      "sha256": "c0ec6b836616c4edd94f43c93938eb24b5962e123228d66c96d4bf0efc058e86",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/88",
+      "size": 2097152,
+      "sha256": "8eebbddcb6d61c47199784df1ed34e3afacbac8410a8682de5bdcba86fe8265f",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/89",
+      "size": 2097152,
+      "sha256": "f7222dded580ae1bc340b6ed24bfbe7b008bda18b47ae491ba3d267615d120da",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/9",
+      "size": 2097152,
+      "sha256": "4b86479ce3a5c406377cbbff9a5b89c0604807b370c0402eb9414b28ec9cfb7b",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/90",
+      "size": 2097152,
+      "sha256": "7224927e439d6fffbc116e1a05c118e25b35ab19fa05bafa99c1b18d0b14e601",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/91",
+      "size": 2097152,
+      "sha256": "ab453bd4189ba6cf264509da6287bcb722627363af81ed5ca30dd0358bfcc297",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/92",
+      "size": 2097152,
+      "sha256": "4436b9749bc0002aafb2dcd3b6ef2a58ae3ab3c72f04d4b36dfe439ba27d817c",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/93",
+      "size": 2097152,
+      "sha256": "c1508fcece4b8dd4796ce4e5f298ee0fe2423bfc4b641e6f872e079d6f5f60ce",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/94",
+      "size": 2097152,
+      "sha256": "3391a60caa2598a9c59ec85efb2f95c098286a54d079601adfd5753cae8f1fc6",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/95",
+      "size": 2097152,
+      "sha256": "bd0491e0812c1a030510cedf8b65dd198fc9aec14b40824c7c6910bbfd928557",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/96",
+      "size": 2097152,
+      "sha256": "bcfd414eca326352711a5943c5650568e0a508d0effe0f751e76645bf34a1a06",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/97",
+      "size": 2097152,
+      "sha256": "7584dd5c76ec991c7b4d8414e5de95a4ec71e0e3be3c4782eefc1f271a1bc98d",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/98",
+      "size": 2097152,
+      "sha256": "504e83d53f8ad16df36afe5a8370c4fa8284cb8edde55181e35a0b4d5b28a175",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/download-parts/99",
+      "size": 2097152,
+      "sha256": "978f2e34dabf0f090ae4943a19d325e29ed2b019596606c970abc1b5145067df",
+      "reason": "Redundant installer range-download chunk"
+    },
+    {
+      "path": "gap-investigation/adjoint-radial-rxi-lean-gate/lean-4.32.1-windows.zip",
+      "size": 10518528,
+      "sha256": "51faff040a85cbdae3582801e00d948ff5bb17a0bf019dfcdb1f408c1ac9b840",
+      "reason": "Incomplete download; not a readable ZIP"
+    }
+  ]
+}

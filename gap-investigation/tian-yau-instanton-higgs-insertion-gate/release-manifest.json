@@ -1,0 +1,11 @@
+{
+  "RELEASE_DISCLOSURE.md": "7fc6238be6d40e9e1ce023d027c180cc92ba861a7ea4f3ed666babac3b49067b",
+  "REPORT.md": "aaa62856eb6a1b0f53f9a34fa7386f9c74c93e729359d937356cde421b71c19b",
+  "calculate.py": "f5094feacb57925b22851c192bfd3495c7e7019c662f8855f49bdf9732235b87",
+  "certificate.json": "17411b5c05c03b3bda1d52eaa2422fe55ddd11a65b57169dc81fa59d23d39868",
+  "formalization.yaml": "0d5e43b4da5fd1a676a37ba97a8177b8b453c3f8530ace2ec72c172f892a9024",
+  "input-manifest.json": "20eb169207bff527e5ac5fb7b05ee8f73fade3131ecdc77964275c291fc63ec3",
+  "prepare.py": "c7b23ba926633f11cf37074d0f1383863e514c98dd241f1eb6d6575164ee5dd0",
+  "sources/ledger.json": "f1bc436529cf6da94dbcea694164a194ff625fcb6e5049a1502e51b78a9ffcac",
+  "verify.py": "bce2bbaf7e6faa01de1f3f90faf0f19fbc1b10927784534c01452d81f62e64f9"
+}

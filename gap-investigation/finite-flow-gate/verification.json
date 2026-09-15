@@ -1,0 +1,39 @@
+{
+  "canonical": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\finite-flow-gate",
+  "passed": true,
+  "runs": [
+    {
+      "command": [
+        "C:/Users/mikeb/e7-alpha-theory/gap-investigation/.venv/Scripts/python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\finite-flow-gate\\flow.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passed\": true, \"mode\": \"replay_without_regeneration\", \"rows\": 35, \"SMT_checks\": 7, \"canonical\": \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\finite-flow-gate\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Users/mikeb/e7-alpha-theory/gap-investigation/.venv/Scripts/python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\finite-flow-gate\\flow.py",
+        "--test"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_far_boundary_amplification (__main__.Tests.test_far_boundary_amplification) ... ok\ntest_invalid_domain (__main__.Tests.test_invalid_domain) ... ok\ntest_log_against_decimal (__main__.Tests.test_log_against_decimal) ... ok\ntest_log_one (__main__.Tests.test_log_one) ... ok\ntest_log_reciprocal (__main__.Tests.test_log_reciprocal) ... ok\ntest_near_fixed_point_linear_lower_bound (__main__.Tests.test_near_fixed_point_linear_lower_bound) ... ok\ntest_nonzero_finite_sensitivity (__main__.Tests.test_nonzero_finite_sensitivity) ... ok\ntest_semigroup (__main__.Tests.test_semigroup) ... ok\ntest_sensitivity_finite_difference (__main__.Tests.test_sensitivity_finite_difference) ... ok\ntest_zero_interval (__main__.Tests.test_zero_interval) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 1.986s\n\nOK\n"
+    }
+  ],
+  "hashes": {
+    "AF_positive.smt2": "0edd920e84ad4a609abdbd373919d77f557f12c770a7041b2d91be6698fc2d88",
+    "deficit_rate_bounds.smt2": "f1678ae69e3d858d8191d093e6bba6046ef012e3eab1d0d42b17535968a3ac4a",
+    "flow.py": "28247e80846a66cbdee0a8ebec84c2b1d5c303d75077b9c0550908945438afb3",
+    "implicit_derivative_denominator.smt2": "e7ecbf3c2261f7fdc6f0ab2fb98aaacd2f95d98a90a421eb0590cfc69985f0f9",
+    "jacobian_rate_bounds.smt2": "a1051a74a1e270c1a96e63d580cf79a1267c69962a9be2be150e01e93acc397a",
+    "normalized_IR_vector_field.smt2": "b5bc0860551b0e197382cca36281df6701095ae791652e3d0151ac6ef668a89a",
+    "receipt.json": "c6f1ccfcd1e7a515f15354cae390e71d20b35348f3fc836b0d406cce4ad87ec6",
+    "REPORT.md": "3b2b716ba724984301d8383299d279e7679d462acedd1005eed7295bbaf95e11",
+    "sensitivity_above_one_region.smt2": "983cd88b6e92019caec4f53e830f13d9bebcbc1c3eda5f4ddfa186e6aee1c0e7",
+    "separation_factorization.smt2": "5bcb868ba2e6bf81725633697cecd1432f19efb861d89f1e68821b4a9c8c209f"
+  }
+}

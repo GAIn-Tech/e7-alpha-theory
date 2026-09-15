@@ -1,0 +1,84 @@
+{
+  "canonical_directory": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-neutral-d4-gate",
+  "files": {
+    "FAILED-RUN.md": {
+      "bytes": 3875,
+      "sha256": "c57f51968bd68afff90c355218d539d7629b9e06c537269f89511873405570be"
+    },
+    "MATHEMATICS.md": {
+      "bytes": 4737,
+      "sha256": "5fe1d35f3d3920e4a2526cdb1a371afd8ecf241d07a2dd9037edd8f86d846f0e"
+    },
+    "REPORT.md": {
+      "bytes": 4496,
+      "sha256": "3ae034051a62a791c5edf5cf0617a37d0477e0b780a2d380e344e94047df907c"
+    },
+    "compute.py": {
+      "bytes": 4872,
+      "sha256": "ee878a85611a93929f7eccffd0c36d5998279f83866af1030162d7aa021686ef"
+    },
+    "computed-chains.json": {
+      "bytes": 3027602,
+      "sha256": "f8a43f4d8543d720997e94c5fd53089ae162309ad0661098246c85e3ed9ee417"
+    },
+    "d4-chains.json": {
+      "bytes": 5351168,
+      "sha256": "ff97c93f893d2164011e0381613a29a83013ea74d022b84bba9b15ca6599ad34"
+    },
+    "endpoint-cancellation.json": {
+      "bytes": 2035,
+      "sha256": "7b7222d8a26d75f41fd14423870d7aa57e06268ada2d899f9dd10378c6f7b4c8"
+    },
+    "endpoint-derivation.json": {
+      "bytes": 65466,
+      "sha256": "0ca67ffb3f8e1b6840f62d3fc87be0151674e86ecf00bcf04b3c81c5b5b40b8f"
+    },
+    "failed-run-evidence.json": {
+      "bytes": 2211,
+      "sha256": "8ab1f8969b3a24b4b89a31ed9f7061f73cfa58b06d3fb3cd50a35f79c8cf54cb"
+    },
+    "failed-run-source-reconstructed.py": {
+      "bytes": 8170,
+      "sha256": "f2fa446e6107603bae85b4b1aec2bdaf4ad85431ad1147d188767363d6322f80"
+    },
+    "native-replay-status.json": {
+      "bytes": 180,
+      "sha256": "8986939f13c10d82de1e07be91a2e2b60c064e9fc1c7809a512dde949e53654a"
+    },
+    "native-replay.log": {
+      "bytes": 1587,
+      "sha256": "5bcdddc58a65913c0e7346878fb74135c202665038423e458ba4e5592ac3fe9d"
+    },
+    "preserve_failure.py": {
+      "bytes": 3421,
+      "sha256": "4dcd86e33dfbf4cbc31be4c0c8cdda27953abb5a105029cc946df41d83fd0761"
+    },
+    "readback_survivors.py": {
+      "bytes": 2877,
+      "sha256": "a77ee84a575ed686d5217021986db226f751f9acacb1c8f2ba0fbb1be5182fd0"
+    },
+    "receipt.json": {
+      "bytes": 4941,
+      "sha256": "fd17ac76776d89312a21c6c4ba7870185c11ed877212e41d5dcfddb7a299d71e"
+    },
+    "survivor-representatives.json": {
+      "bytes": 2491606,
+      "sha256": "46e87ea19332f5389a3d6b14d2204a740f51b324330cd0b36e24dfd20eff1053"
+    },
+    "verify-pre-release-snapshot.py": {
+      "bytes": 9493,
+      "sha256": "4e5d5a5aa270c75c75ddbe952cd736676e90d6d623813dacb7d2def69bf103d3"
+    },
+    "verify.py": {
+      "bytes": 9493,
+      "sha256": "4e5d5a5aa270c75c75ddbe952cd736676e90d6d623813dacb7d2def69bf103d3"
+    },
+    "verify_endpoint_cancellation.py": {
+      "bytes": 1806,
+      "sha256": "e0e601d79a57536444441c99f0b7f56d83e20e5961bbf43f294d1005c04e83c2"
+    }
+  },
+  "frozen_verifier_matches": true,
+  "native_immutable_replay_exit_code": 0,
+  "predecessor_hashes_unchanged": true
+}

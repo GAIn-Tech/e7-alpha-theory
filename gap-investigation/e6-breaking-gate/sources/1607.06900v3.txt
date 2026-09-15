@@ -1,0 +1,2933 @@
+ILeft-handed fermions in the 27-plet of E6, their SO(10) and SU(5) representations, and their U(1) charges. Subscripts = i 1 , 2 , 3 on the fermions denote family: = d 1 , 2 , 3 ( d , s , b ) ; = u 1 , 2 , 3 ( u , c , t ) ; = e 1 , 2 , 3 ( e , μ , τ ) .
+// Restore the saved color scheme preference, or
+// enact the browser preference if "automatic",
+// without expecting DOM load to have completed.
+//
+// Also restore any saved readingmode and ToC display preferences.
+function initializeReadingPreferences() {
+let saved_theme = localStorage.getItem("ar5iv_theme") || "automatic";
+if (saved_theme === "automatic") {
+if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+saved_theme = "dark";
+}
+}
+if (saved_theme == "dark") {
+document.documentElement.setAttribute("data-theme", "dark");
+} else {
+document.documentElement.setAttribute("data-theme", "light");
+}
+const tocDisplay = localStorage.getItem('arxiv_html_paper_toc_display');
+if (tocDisplay) {
+document.documentElement.setAttribute("data-toc-display", tocDisplay);
+}
+const readingMode = localStorage.getItem('arxiv_html_paper_reading_mode');
+if (readingMode) {
+document.documentElement.setAttribute("data-reading-mode", readingMode);
+}
+// Pre-apply spinout-banner dismissal here, before the banner paints, so it
+// never flashes in only to be hidden later by the deferred arxiv-header.js.
+// Key matches arxiv-header.js: "arxiv-banner-dismissed:" + data-banner-name.
+if (localStorage.getItem('arxiv-banner-dismissed:spinout-nonprofit')) {
+document.documentElement.setAttribute("data-banner-dismissed", "");
+}
+}
+// Run as soon as JS starts, to minimize repainting
+initializeReadingPreferences();
+/* Banner pre-dismissal (set above before paint -> no flash-then-hide) and
+reading-mode chrome hiding. */
+html[data-banner-dismissed] .ds-announcement { display: none; }
+html[data-reading-mode="enabled"] .ds-announcement,
+html[data-reading-mode="enabled"] .ds-site-footer { display: none; }
+/* Keep the announcement text dark on the Open-Blue band in both colour themes
+(otherwise it inherits the paper's warm-wash text in dark mode and washes out). */
+.ds-announcement-text { color: var(--arxiv-ink, #1c1a17); }
+Report GitHub Issue
+×
+Title:
+Content selection saved. Describe the issue below:
+Description:
+Submit without GitHub
+Submit in GitHub
+arXiv is now an independent nonprofit!
+Learn more
+×
+Back to arXiv
+Why HTML?
+Report Issue
+Back to Abstract
+Download PDF
+References
+License: arXiv.org perpetual non-exclusive license
+arXiv:1607.06900v3 [hep-ph] 05 Jul 2017
+EFI 16-10
+SEARCHING FOR SIGNATURES OF E 6
+Aniket Joglekar and Jonathan L. Rosner
+Enrico Fermi Institute and Department of Physics
+University of Chicago, Chicago, IL 60637
+The grand unified group E 6 is a predictive scheme for physics beyond
+the standard model (SM). It offers the possibility of extra Z bosons,
+new vector-like fermions, sterile neutrinos, and neutral scalars in addition
+to the SM Higgs boson. Some previous discussions of these features are
+updated and extended. Their relevance to present searches at the CERN Large
+Hadron Collider and in patterns of neutrino masses is noted. Addition of a
+small set of scalar bosons at the TeV scale permits gauge unification near a
+scale of 10^{16} GeV, and leads to bounds on masses of particles beyond
+those in the standard model.
+PACS categories: 12.10.Dm, 12.60.Cn, 14.70.Pw, 14.80.Ec
+I. INTRODUCTION
+Candidates for unification of the standard model (SM) electroweak and strong
+interactions include the groups SU(5) [ 1 ] , SO(10) [ 2 , 3 ] , and E 6 [ 4 ] . The
+known left-handed quarks and leptons may be accommodated in three \overline{5}+10+1 reducible representations of SU(5). The singlets correspond to left-handed
+weak isosinglet antineutrinos, needed to accommodate neutrino oscillations.
+SO(10) unifies the representations in each family into three 16-dimensional
+spinors, with the “seesaw” mechanism a popular way to understand the
+smallness of neutrino masses [ 5 ] . Each 27-dimensional fundamental
+representation of E 6 contains not only a 16-plet spinor of SO(10), but an
+SO(10) 10-plet vector and an SO(10) singlet:
+27=16+10+1~.
+(1)
+The 10-plet of SO(10) contains a 5+\overline{5} of SU(5), where the
+\overline{5} contains an electroweak singlet color-antitriplet antiquark
+D^{c} with charge 1/3 and an electroweak lepton doublet (L^{-},L^{0}). The
+pairing of \overline{5} with 5 implies that the couplings of electroweak
+gauge bosons to members of the SO(10) 10-plet
+are purely vector-like, with no axial-vector component. The singlet n of
+SO(10) has no tree-level coupling to gluons or electroweak gauge bosons,
+aside from that induced by mixing with other neutral leptons.
+Signatures of E 6 include extension of the Higgs sector [ 6 ] ; existence
+of neutral Z^{\prime} gauge bosons at masses above the electroweak scale whose
+decays in hadronic collisions display characteristic forward-backward
+asymmetries [ 7 , 8 , 9 , 10 ] ; the production of new vectorlike quarks and leptons
+[ 11 , 12 , 13 ] ; and
+manifestations of the neutral fermion n through its mixing with other
+neutral leptons, giving rise to signatures of “sterile” neutrinos
+[ 14 , 15 , 10 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 ] . Up to now, with the possible exception
+of weak evidence for sterile neutrinos [ 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 ] there has been no indication
+of the extra degrees of freedom entailed by the 27-plet of E 6 .
+A potential change in this situation occured with claims by the ATLAS
+[ 35 , 36 ] and CMS [ 37 , 38 ]
+Collaborations at the CERN Large Hadron Collider (LHC) of a diphoton
+enhancement around 750 GeV. The accumulation of further data by both
+collaborations did not confirm this effect, which now appears to have been a
+statistical fluctuation [ 39 , 40 , 41 ] .
+Nonetheless, great
+interest was stirred in the theoretical community, leading to re-examination
+of predictions of many existing schemes and invention of new ones. In the
+present paper, we pursue one such avenue, updating and extending some previous
+investigations of E 6 .
+Other recent discussions of E 6 stimulated by the initial CERN digamma
+reports but with more general validity include those in [ 42 , 43 , 44 , 45 , 46 , 47 , 48 , 49 , 50 , 51 , 52 , 53 , 54 , 55 , 56 ] .
+See also extensive earlier work on
+E 6 in Refs. [ 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 ] . Early
+phenomenological analyses include ones by [ 80 , 81 , 82 , 83 ] . For a critical review
+of more than 200 papers on the initial hints of a signal see
+[ 84 ] , with Ref. [ 85 ] proposing a
+number of future experiments to pin
+down related physics. Some treatments incorporated key elements (such as
+vector-like fermions) of E 6 without citing it: e.g., [ 86 , 87 , 88 , 89 , 90 ] . (The introduction of heavy
+vector-like fermions avoids large contributions to the S parameter of Peskin
+and Takeuchi [ 91 , 92 , 93 ] .) Subgroups of
+E 6 other than SU(5) \otimes U(1){}_{\psi}\otimes U(1) χ , including
+SU(3)_{c}\otimes SU(3){}_{L}\otimes SU(3) R and various forms of
+SU(6)\otimes SU(2) [ 8 , 9 , 94 , 95 , 96 ] , have been used by many authors
+in variants of the present scheme.
+As in Refs. [ 14 , 15 , 97 , 98 , 99 , 100 ] , we shall assume fermion masses arise from a coupling
+of two 27-plet fermions with a 27-plet scalar multiplet. We shall label all
+members of this multiplet with a tilde, without assuming that they are
+supersymmetric partners of the corresponding fermions. In particular, a scalar
+state \tilde{n} should exist as a counterpart to the neutral fermion n described
+above. While it was tempting to associate it with the effect at 750 GeV, its
+properties remain of interest even if it has not yet been observed. Our main
+focus will be to develop guidance for experimental searches
+that could confirm or disprove the E 6 picture at the TeV scale.
+The E 6 symmetry is considered to be spontaneously broken
+at the GUT scale, first to SO(10)\otimesU(1) ψ , which is then broken to
+SU(5)\otimesU(1){}_{\psi}\otimesU(1){}_{\chi}\rightarrow SU(5)\otimesU(1) N
+at the same scale. (U(1) N is that linear combination of U(1) ψ and
+U(1) χ for which the left-handed antineutrino has zero charge. For a
+recent model incorporating it, see Ref. [ 56 ] .) To achieve
+this breaking, in addition to the 27-plet
+scalar generation, we also must have a 78-plet of E 6 . Three SM singlets in
+the 78-plet — one is a singlet under SO(10), another is a singlet under the
+SU(5) contained in 45 of SO(10) and the third one is a singlet under the SM
+gauge group contained in 24 of SU(5) in 45 of SO(10) — acquire vacuum
+expectation values (VEVs) of the order of the GUT scale, facilitating the
+spontaneous symmetry breaking of E 6 down to the SM gauge group. Details are
+described in the next section.
+Our model also has a 351^{\prime}-plet scalar [ 101 ] that contains
+scalar diquarks, an SU(2) triplet, and an SU(3) octet with appropriate U(1) N
+charges (see Table XI in Appendix A) preventing them
+from contributing to proton decay. Such particles then can exist at the TeV
+scale, helping to achieve unification of the SM gauge couplings and raising the
+unification scale to avoid violating current bounds on proton decay processes.
+In Section II we decompose a 27-plet of E 6 into its SO(10) and SU(5)
+components, with U(1) subgroups arising from E 6 \to SO(10) \otimes
+U(1) ψ and SO(10) \to SU(5) \otimes U(1) χ [ 8 , 9 ] . The corresponding neutral gauge bosons are denoted Z_{\psi}
+and Z_{\chi}, respectively. We adopt a linear combination of U(1) ψ and
+U(1) χ [ 102 , 103 ] under which the right-hand
+neutrino has zero charge, allowing it to have a large Majorana mass through a
+higher-dimension operator [ 20 , 70 , 104 ] . The gauge
+boson coupling to this U(1) N charge will be denoted Z_{N}.
+We also explain the details of symmetry breaking due to the
+78-plet and unification due to low energy components of the 351^{\prime}-plet.
+(Ref. [ 105 ] contains useful group-theoretic results.)
+We then enumerate E 6 -invariant couplings in Sec. III.
+Under general circumstances a \tilde{n} can mix with the Higgs boson. A general
+discussion of potentials and mass matrices for (pseudo)scalars, in Sec. IV,
+indicates conditions under which this mixing can be suppressed to acceptable
+levels. The renormalization-group evolution of gauge and Yukawa couplings,
+important because of the need to avoid Landau singularities, is discussed in
+Sec. V. Production and decays of \tilde{n} are mediated by loops of
+exotic fermions in the SO(10) 10-plets belonging to the E 6 27-plet.
+We discuss the decays of \tilde{n} to \gamma\gamma, \gamma Z, ZZ, and
+W^{+}W^{-} in this picture in Sec. VI. Sec. VII treats cross sections for
+\tilde{n} production and observation in the \gamma\gamma mode.
+The properties of the heavy vector-like leptons L and weak isosinglet quarks
+D belonging to the SO(10) 10-plet depend on their decay schemes. We shall
+adopt a \mathbb{Z}_{2} symmetry [ 15 ] under which SO(10) 16-plets are odd
+while 10-plets and singlets are even. This opens the possibility of stable
+neutral scalars or fermions which could be dark matter candidates. The neutral
+lepton states n and neutrino mixing schemes involving them, discussed in
+Ref. [ 15 ] , are updated under the assumption of an exact
+\mathbb{Z}_{2} symmetry in Sec. VIII, where we also remark briefly on the consequences of
+this symmetry for dark matter.
+We estimate cross sections and signatures for the heavy fermions in the SO(10)
+10-plet in Sec. IX, and suggest diagnostics for extra neutral gauge bosons
+such as Z_{N} in Sec. X. In Sec. XI, we bring together the constraints on the
+various types of exotic particles to show how tightly constrained the
+mass spectrum is. We use these constraints to make future projections for the
+confirmation/exclusion of the model. We conclude in Sec. XII.
+Appendix A describes the details of \psi, \chi and N charges of the
+SU(5) components of the scalar sector. Appendix B treats details of
+potentials for scalar and pseudoscalar mesons, while Appendix C is devoted to
+particulars of the renormalization group evolution (RGE).
+II. U(1) CHARGES AND MULTIPLET MEMBERS
+A. Fermions
+Under the decomposition E 6 \to SO(10) \otimes U(1) ψ \to
+SU(5) \otimes U(1){}_{\psi}\otimes U(1) χ , a fermion 27-plet decomposes
+as shown in Table I . The charge
+Q_{N}=-\frac{\sqrt{15}}{4}Q_{\psi}-\frac{1}{4}Q_{\chi}
+(2)
+is that linear combination of Q_{\psi} and Q_{\chi} for which the left-handed
+antineutrinos N_{i}^{c} are neutral, allowing them to obtain large Majorana
+masses via higher-dimension operators. We use the notation of Ref. [ 9 ] except that in accord with common use today, exotic
+isovector leptons are labeled here as L_{i}, with i=1,2,3 denoting family,
+and isosinglet heavy quarks with charge
+–1/3, called h_{i} in the 1980s, are labeled here as D_{i} in order to avoid
+confusion with the Higgs boson. (We will not be discussing charmed mesons,
+elsewhere called D, in this paper.)
+B. Scalars
+Whereas we assumed three families of 27-plet fermions, we consider only a
+single 27-plet of scalar bosons, whose neutral members are allowed to
+obtain nonzero vacuum expectation values (VEVs). These are listed in Table
+II . We have adopted a tilde to denote the spin-zero partner of
+the corresponding fermion first family. This is in contrast to exceptional
+supersymmetric models [ 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 ] in which three 27-plets of fermions are
+accompanied by three 27-plets of (pseudo)scalars.
+We shall discuss trilinear fermion-fermion-scalar couplings systematically
+in the next Section. Meanwhile we describe the roles of VEVs of each of the
+five scalars in a 27-plet. We list the left-handed fermion pairs which form
+an E 6 singlet when coupled to each scalar. We ignore for now inter-family
+mixing in quarks and leptons. The numbers after each scalar denote values of
+(2\sqrt{6}Q_{\psi},2\sqrt{10}Q_{\chi},2\sqrt{10}Q_{N}). More details about the
+effects of each VEV on neutral lepton spectra are given in Ref. [ 15 ] . There, a \mathbb{Z}_{2} symmetry was imposed whereby 16-plet
+VEVs (with \mathbb{Z}_{2} quantum number –1) were suppressed in comparison with 10-plet
+and singlet VEVs (with \mathbb{Z}_{2} quantum number 1). Thus,
+\langle\tilde{\nu}\rangle,~\langle\tilde{N}\rangle\ll\langle\tilde{L}^{0}_{1}\rangle,~\langle\tilde{L^{0}_{2}}^{c}\rangle,~\langle\tilde{n}\rangle~.
+(3)
+Presently we shall compare decay schemes of 10-plet fermions in cases where
+this \mathbb{Z}_{2} is exact with ones where it is approximate. A very recent work
+[ 106 ] also makes use of this \mathbb{Z}_{2}.
+Table I: Left-handed fermions in the 27-plet of E 6 , their SO(10) and SU(5)
+representations, and their U(1) charges. Subscripts i=1,2,3 on the fermions
+denote family: d_{1,2,3}=(d,s,b); u_{1,2,3}=(u,c,t); e_{1,2,3}=(e,\mu,\tau).
+SO(10),SU(5)
+2\sqrt{6}~Q_{\psi}
+2\sqrt{10}~Q_{\chi}
+2\sqrt{10}~Q_{N}
+Fermion
+SU(3) c
+Q
+16,\overline{5}
+1
+3
+–2
+d^{c}_{i}
+\overline{3}
+1/3
+\nu_{i}
+1
+0
+e^{-}_{i}
+1
+–1
+16,10
+–1
+–1
+u_{i}
+3
+2/3
+d_{i}
+3
+–1/3
+u^{c}_{i}
+\overline{3}
+–2/3
+e^{+}_{i}
+1
+1
+16,1
+–5
+0
+N_{i}^{c}
+1
+0
+10,\overline{5}
+–2
+–2
+3
+D_{i}^{c}
+\overline{3}
+1/3
+L^{0}_{1i}
+1
+0
+L^{-}_{1i}
+1
+–1
+10,5
+2
+2
+D_{i}
+3
+–1/3
+L^{+}_{2i}
+1
+1
+L^{0c}_{2i}
+1
+0
+1,1
+4
+0
+–5
+n_{i}
+1
+0
+Table II: Scalar mesons in a 27-plet of E 6 , their
+SO(10) and SU(5) representations, and their U(1) charges.
+SO(10),SU(5)
+2\sqrt{6}~Q_{\psi}
+2\sqrt{10}~Q_{\chi}
+2\sqrt{10}~Q_{N}
+Meson
+SU(3) c
+Q
+16,\overline{5}
+1
+3
+–2
+\tilde{d}^{c}
+\overline{3}
+1/3
+\tilde{\nu}_{e}
+1
+0
+\tilde{e}^{-}
+1
+–1
+16,10
+–1
+–1
+\tilde{u}
+3
+2/3
+\tilde{d}
+3
+–1/3
+\tilde{u}^{c}
+\overline{3}
+–2/3
+\tilde{e}^{+}
+1
+1
+16,1
+–5
+0
+\tilde{N}^{c}
+1
+0
+10,\overline{5}
+–2
+–2
+3
+\tilde{D}^{c}
+\overline{3}
+1/3
+\tilde{L}^{0}_{1}
+1
+0
+\tilde{L}^{-}_{1}
+1
+–1
+10,5
+2
+2
+\tilde{D}
+3
+–1/3
+\tilde{L}^{+}_{2}
+1
+1
+\tilde{L^{0}_{2}}^{c}
+1
+0
+1,1
+4
+0
+–5
+\tilde{n}
+1
+0
+Neutral scalar bosons in E 6 , their SM \otimes U(1) N -invariant couplings
+to left-handed fermion pairs, and the effects of their VEVs (family indices
+omitted for simplicity) are as follows:
+•
+\tilde{\nu}(1,3,-2): (e^{+}L^{-}_{1}),~(dD^{c}),~(N^{c}L^{0c}_{2}): Mixes e and
+L, d and D; VEV small. Exchange can contribute to exotic fermion pair
+production, e.g., in the reaction e^{+}e^{-}\to L^{+}L^{-} or dd^{c}\to DD^{c}.
+•
+\tilde{N}^{c}(1,-5,0): (d^{c}D),~(e^{-}L^{+}),~(\nu L^{0c}_{2}),~(N^{c}N^{c}): Mixes
+e and L, d and D; VEV small. Provides a small Majorana mass
+contribution to N^{c}, which obtains most of its Majorana mass from a
+higher-dimension operator. Exchange can contribute to exotic fermion pair
+production, e.g., in the reaction e^{+}e^{-}\to L^{+}L^{-} or dd^{c}\to DD^{c}.
+•
+\tilde{L}^{0}_{1}(-2,-2,-3): (L^{0c}_{2}n),~(dd^{c}),~(e^{+}e^{-}): Dirac
+masses for down-type quarks, charged SM leptons. Its VEV
+is v_{d} in the standard two-Higgs-doublet model.
+•
+\tilde{L^{0}_{2}}^{c}(-2,2,2): (L^{0}_{1}n),~(\nu N^{c}),(uu^{c}): Dirac
+masses for neutrinos (overwhelmed by seesaw), up-type quarks.
+Its VEV is v_{u} in the standard two-Higgs-doublet model.
+•
+\tilde{n}(4,0,-5): (L^{0}_{1}L^{0c}_{2}),~(L^{+}_{2}L^{-}_{1}),~(DD^{c}): Dirac masses
+for SO(10) fermionic 10-plet members.
+As explained in Appendix A, the scalar 78-plet contains five
+singlets under the SM gauge symmetry. The 78 (adjoint representation) of
+E 6 decomposes under SO(10) as follows:
+\displaystyle 78=1+45+16+\overline{16}
+(4)
+The first component, which is a singlet under SO(10), can acquire a GUT scale
+VEV to break E 6 \rightarrowSO(10)\otimesU(1) ψ . The 45 of SO(10)
+then can be decomposed into SU(5) representations as
+\displaystyle 45=1+24+10+\overline{10}
+(5)
+The first component, which is a singlet under SU(5), can acquire a GUT scale
+VEV to break SO(10)\rightarrow SU(5)\otimes U(1) χ . Now the 24 of SU(5)
+contains a singlet under the SM gauge group which can also acquire a GUT scale
+VEV that breaks SU(5) to the SM. There is also the breaking U(1){}_{\psi}\otimes
+U(1){}_{\chi}\rightarrowU(1) N which is driven by a 351^{\prime}-plet VEV as
+described below. Thus the symmetry surviving from the GUT scale down to the TeV
+scale is SM \otimes U(1) N . At the TeV scale U(1) N is broken due to
+the VEV of another singlet contained in the 351^{\prime}-plet that gives a Z_{N}
+boson its mass. There are two other singlets under SU(5) contained in the
+78-plet which have nonzero U(1) N charge (see Table VIII in Appendix
+A). Thus in the interest of preserving U(1) N
+charges down to the TeV scale in order to preserve the other desired properties
+of the model including the low energy diquarks that unify the gauge couplings,
+we do not give VEVs to these. They have terms arising from the VEVs of the
+other 78-plet singlets which give rise to masses at the GUT scale. Thus, all of
+the scalar 78-plet resides at the GUT scale.
+The scalar 351^{\prime}-plet decomposes under SO(10) [ 105 ] as
+\displaystyle 351^{\prime}=1+10+\overline{16}+54+\overline{126}+144
+(6)
+The first component (a non-singlet of U(1) N ) eventually acquires a VEV at
+the TeV scale that gives mass to the Z_{N} boson. A lower bound on this VEV is
+set by the maximum value of g_{N} allowed by the unification and the
+experimental search lower bounds on Z_{N}^{\prime} boson masses
+[ 107 , 108 , 109 , 110 , 111 , 112 ] .
+More details of this are discussed in Sec. X. The \overline{126} above, when
+decomposed under SU(5), also contains a singlet which has non-zero Q_{\psi}
+and Q_{\chi} charges but no Q_{N} charge. Thus it is the one which acquires a
+GUT-scale VEV to break U(1){}_{\psi}\otimesU(1) χ to U(1) N .
+Finally, the unification of the SM gauge couplings at a satisfactorily high
+scale requires new particles at TeV scales carrying more SU(2) and SU(3)
+charges than their U(1) Y charges. This will modify their beta functions
+so as to prevent their coupling constants from unifying with U(1) Y at
+energies forbidden by proton decay bounds. Diquarks, an SU(2) triplet, and an
+SU(3) color octet are suitable candidates for this. The difference in magnitude
+of abelian and non-abelian charges carried by diquarks is larger than that of
+any other type of fermions. The presence of the triplet and octet helps to
+adjust the beta functions without touching the U(1) Y beta function, thereby
+letting the GUT scale be set above the bound
+from p\rightarrow e^{+}\pi^{0} [ 113 ] .
+The new particles need to be at the multi-TeV (MTeV) scale in order to achieve
+unification. Their potential role as mediators of proton decay can be avoided
+if they have U(1) N charges of magnitude \pm 5/\sqrt{40} or
+larger. They then cannot couple to pairs of SM fermions, whose total Q_{N}
+charges are never greater in magnitude than \pm 4/\sqrt{40}.
+The 351^{\prime}-plet contains particles which exactly possess all these properties
+with Q_{N} charges of \pm 6/\sqrt{40} for diquarks and -5/\sqrt{40} for the
+triplet and the octet. Details are given in Appendix A, Table XI .
+Such high charges forbid tree-level couplings with two
+quarks or with a quark and a lepton which could have facilitated proton decay.
+This is because all the SM particles carry Q_{N} charges no larger than
+\pm 2/\sqrt{40}. The SO(10) singlet with Q_{N} charge of 10/\sqrt{40} is
+chosen to be at MTeV scale in order to be able to break U(1) N symmetry at
+that scale to give mass to the Z_{N} boson.
+Loop-induced couplings of these TeV-scale states to two quarks or a quark and a
+lepton are possible. But the coupling to two quarks is heavily suppressed by
+the presence of the colored scalar quarks belonging to the 27-plet, as shown in
+Fig. 1 , which have GUT-scale masses as discussed in the next
+section. Couplings to a quark and a lepton can involve exotic fermions and
+scalar neutrinos belonging to 27-plets so they are not as heavily suppressed as
+couplings to two quarks, but nonetheless proton decay is forbidden as it
+requires both types of couplings. Other potentially dangerous operators listed
+in [ 114 ] are also forbidden mainly owing to the high values of
+Q_{N} charges that these new particles carry.
+Figure 1: \tilde{X}_{15} is a diquark belonging to the 15 of SU(5) in the 54 of
+SO(10) contained in the scalar 351^{\prime} of E 6 , which couples to two SM quarks
+at one loop level. The loop involves particles with GUT scale masses and
+therefore is suppressed. Another multi-TeV-scale diquark, \tilde{X}_{10} (not
+shown) belongs to the \overline{10} of SU(5) in the \overline{16}
+of SO(10) contained in the scalar 351^{\prime} of E 6 . It does not couple to two SM
+quarks at the one-loop level. For quantum numbers of \tilde{X}_{15} and
+\tilde{X}_{10} see Table XI .
+The diquark states that belong to 15 of SU(5) contained in 54 of SO(10) and
+\overline{10} of SU(5) contained in \overline{16} of SO(10) (see Table
+XI in Appendix A) have mass bounds due to leptoquark and dijet
+searches [ 115 , 116 , 117 , 118 , 119 ] . We do not perform any explicit analysis of these, but
+we avoid these bounds by assuming these diquark states to be above a few TeV.
+The rich phenomenology of this sector is beyond the scope of the present work.
+Details of the unification can be found in Appendix C. Thus, the 351^{\prime}-plet
+plays an important role in the symmetry breaking, Z_{N} mass, and
+non-supersymmetric unification of SM gauge couplings in the present model.
+It is important to note that the 351^{\prime}-plet has the same splitting problem as
+the doublet-triplet splitting in the 27-plet, as some of its components reside
+at the GUT scale while others reside at the TeV scale (see the mass scale
+column of Table XI in Appendix A). We assume that the model
+can be fine-tuned to achieve such a large splitting owing to the large number
+of parameters in the potential. The scalar 78-plet does not suffer from this
+problem as it all resides at the GUT scale.
+In summary, E 6 is broken to SM \otimes U(1) N at the GUT scale. Then
+U(1) N is broken at the TeV scale and SU(2) at the electroweak scale. At the
+TeV scale or below, our model has SM gauge bosons, SM and exotic fermions; and
+scalars consisting of colorless weak doublets and \tilde{n} in the 27-plet,
+and diquarks, SU(2) triplet, SU(3) color octet, and a U(1) N -breaking SO(10)
+singlet in a 351^{\prime}-plet. This gives rise to the interesting phenomenology
+discussed below and achieves one-loop unification (Appendix C).
+III. INVARIANT COUPLINGS
+We now list the charged scalars permitted to couple to left-handed
+fermion pairs by invariance under the SM \otimes U(1) N . Some of these
+couplings will lead to proton instability unless the corresponding scalars are
+very massive. This is the famous doublet-triplet splitting problem
+( [ 120 ] ; see also [ 121 , 122 ] and
+references therein). For convenience we omit family indices on fermions.
+•
+\tilde{d}^{c}(1,3,-2): (dL^{0}_{1}),~(uL_{1}^{-}),~(N^{c}D),~(D^{c}u^{c}): Leptoquark
+and diquark. Box diagram can contribute to flavor-changing processes and
+nucleon decay.
+•
+\tilde{e}^{-}(1,3,-2): (e^{+}L^{0}_{1}),~(uD^{c}),~(N^{c}L_{2}^{+}): Mixes SM and
+exotic leptons and quarks. Exchange can contribute to e^{+}e^{-}\to L^{0c}_{1}L^{0}_{2}
+•
+\tilde{u}(1,-1,-1): (d^{c}L^{-}_{1}),~(e^{-}D^{c}),~(dD),~(u^{c}L^{0c}_{2}):
+Leptoquark and diquark. Box diagram contributing to nucleon decay with dd\to L^{-}_{1}D^{c} (\tilde{u} exchange) followed by L^{-}_{1}h_{c}\to u^{c}\nu_{c} (\tilde{d}
+exchange)
+•
+\tilde{d}(1,-1,-1): (d^{c}L^{0}_{1}),~(\nu D^{c}),~(uD),~(u^{c}L^{+}_{2}): Leptoquark
+and diquark. Box diagram contributing to nucleon decay with uu\to L^{+}_{2}D^{c} (\tilde{d} exchange) followed by L^{+}_{2}D^{c}\to d^{c}e^{+} (\tilde{u}
+exchange)
+•
+\tilde{u}^{c}(1,-1,-1): (d^{c}D^{c}),~(e^{+}D),~(dL^{+}_{2}),~(uL^{0c}_{2}):
+Leptoquark and diquark. Box diagram contributing to nucleon decay.
+•
+\tilde{e}^{+}(1,-1,-1): (e^{-}L^{0}_{1}),~(\nu L^{-}),~(Du^{c}): Mixes SM and exotic
+leptons and quarks. Exchange can contribute to e^{+}e^{-}\to L^{0}_{1}L^{0c}_{2}.
+•
+\tilde{D}^{c}(-2,-2,3): (d^{c}u^{c}),~(e^{-}u),~(\nu d),~(nD): Leptoquark and
+diquark; induces proton decay.
+•
+\tilde{L}_{1}^{-}(-2,-2,3): (d^{c}u),~(\nu e^{+}),~(L^{+}_{2}n): Charged Higgs boson.
+•
+\tilde{D}(-2,2,2): (d^{c}N^{c})~,(e^{+}u^{c}),~(du),~(D^{c}n): Leptoquark and
+diquark; induces proton decay.
+•
+\tilde{L}_{2}^{+}(-2,2,2): (e^{-}N^{c}),~(du^{c}),~(L^{-}_{1}n): Charged Higgs boson.
+Many of the scalars, when exchanged, can contribute to the pair production of
+exotic fermions [those in the 10 or 1 of SO(10)]. However, if these exotic
+fermions have masses of order TeV or greater, they can have escaped detection
+up to now. In subsequent sections we discuss the theoretical and experimental
+constraints on the Yukawa couplings and masses of these fermions. Theoretical
+constraints of perturbativity at unification scale set the upper bound on these
+masses, while the experimental searches for vector-like quarks, long-lived
+charged particles, and squarks lead to lower bounds on the masses.
+More dangerous are the scalars \tilde{D} and \tilde{D}^{c}, whose exchange
+can lead, for example, to the subprocess du\to\bar{u}e^{+} and thus to
+p\to e^{+}\pi^{0}. The simplest way to deal with this problem is to assume
+those scalars have masses at the GUT scale. This prevents them from being
+supersymmetric partners of the vector-like quarks D and D^{c}; in other words
+our model does not possess TeV-scale supersymmetry. One then has to prevent the
+Higgs bosons (belonging to the same SU(5) 5- or \overline{5}-plet as \tilde{D} or
+\tilde{D}^{c}) from acquiring large masses as well. We shall not confront this
+hierarchy problem here but an eventual solution is necessary.
+IV. SCALAR POTENTIAL AND BOSON MASSES
+As described above, the low-energy mass spectrum of the E 6 model consists
+of neutral scalars and charged and neutral fermions, so signatures
+for the neutral scalar SO(10) singlet \tilde{n} are an important feature of the
+model. Such a scalar is constrained by its mixing with the SM Higgs particle in the gluon fusion channel.
+In this section we investigate such a constraint as well as the nature of such
+a scalar: whether it is a real scalar or pseudoscalar in the light of a
+possible future discovery at or below the TeV scale. A Z_{N} gauge boson is
+another important TeV-scale prediction of the model, so its mass and its
+relation with the \tilde{n} scalars is discussed as well.
+A. Scalar potential
+The field \tilde{n} is complex and may be resolved into scalar and pseudoscalar
+components. A scalar can mix with the SM Higgs boson, in which
+case its \gamma\gamma branching fraction becomes diluted by other decay
+modes such as t\bar{t} and tree-level decays to the SM vector bosons. This is
+accompanied by the reduction of the tree-level SM Higgs couplings to these
+particles. This results in constraints on the couplings of this new resonance
+due to measurements of Higgs boson couplings at the LHC as well as LHC searches
+for a new heavy Higgs boson decaying to a pair of SM bosons. One estimate
+[ 123 ] finds the allowed mixing angle to be less than 0.1.
+This problem is avoided if the \tilde{n} state is taken to be a pseudoscalar,
+which requires addition of another singlet or finding an alignment limit to
+turn off the mixing in the scalar sector itself. We shall explore both
+possibilities.
+The five complex scalar fields \phi=\left(\tilde{\nu}\quad\tilde{N^{c}}\quad\tilde{L_{1}^{0}}\quad\tilde{L_{2}^{c}}\quad\tilde{n}\right) neutral
+under the SM symmetry of SU(3)_{c}\otimes U(1)_{em} are summarized for
+convenience in Table III .
+Table III: Neutral complex scalar fields belonging to the 27-plet
+or \overline{27}-plet of E 6 .
+27 member
+\overline{27} member
+\mathbb{Z}_{2}
+State
+2\sqrt{10}Q_{N}
+I_{3L}
+State
+2\sqrt{10}Q_{N}
+I_{3L}
+\tilde{\nu}
+–2
+1/2
+\tilde{\nu}^{c}
+2
+–1/2
+–1
+\tilde{N}^{c}
+0
+0
+\tilde{N}
+0
+0
+–1
+\tilde{L}_{1}^{0}
+3
+1/2
+\tilde{L}_{1}^{0c}
+–3
+–1/2
+1
+\tilde{L}_{2}^{0c}
+2
+–1/2
+\tilde{L}_{2}^{0}
+–2
+1/2
+1
+\tilde{n}
+–5
+0
+\tilde{n}^{c}
+5
+0
+1
+A scalar potential can be written in terms of these fields and their conjugates
+\phi^{c}. The most general renormalizable scalar potential that obeys E 6 symmetry at the unification scale breaking down to SU(3)_{c}\otimes SU(2)_{L}\otimes U(1)_{\rm em}\otimes U(1)_{N} at the TeV scale can be written as
+\displaystyle V
+\displaystyle=\frac{m_{1}^{2}}{2}\tilde{\nu}\tilde{\nu}^{c}+\frac{m_{2}^{2}}{2}\tilde{N^{c}}\tilde{N}+\frac{m_{3}^{2}}{2}\tilde{L^{0}_{1}}\tilde{L^{0}_{1}}^{c}+\frac{m_{4}^{2}}{2}\tilde{L^{0}_{2}}\tilde{L^{0}_{2}}^{c}+\frac{m_{5}^{2}}{2}\tilde{n}\tilde{n}^{c}+a_{1}\tilde{N^{c}}\tilde{\nu}\tilde{L^{0}_{2}}+a_{2}\tilde{N}\tilde{\nu}^{c}\tilde{L^{0}_{2}}^{c}
+\displaystyle+a_{3}\tilde{L^{0}_{1}}\tilde{L^{0}_{2}}\tilde{n}+a_{4}\tilde{L^{0}_{1}}^{c}\tilde{L^{0}_{2}}^{c}\tilde{n}^{c}+\frac{b_{1}}{2}\tilde{N^{c}}\tilde{\nu}\tilde{L^{0}_{1}}^{c}\tilde{n}^{c}+\frac{b_{2}}{2}\tilde{N}\tilde{\nu}^{c}\tilde{L^{0}_{1}}\tilde{n}+\frac{b_{3}}{2}\tilde{L^{0}_{1}}\tilde{L^{0}_{1}}^{c}\tilde{n}\tilde{n}^{c}+\frac{b_{4}}{2}\tilde{L^{0}_{2}}\tilde{L^{0}_{2}}^{c}\tilde{n}\tilde{n}^{c}
+\displaystyle+\frac{b_{5}}{2}\tilde{\nu}\tilde{\nu}^{c}\tilde{n}\tilde{n}^{c}+\frac{b_{6}}{2}\tilde{N^{c}}\tilde{N}\tilde{n}\tilde{n}^{c}+\frac{b_{7}}{4}\tilde{\nu}\tilde{\nu}\tilde{\nu}^{c}\tilde{\nu}^{c}+\frac{b_{8}}{2}\tilde{\nu}\tilde{N^{c}}\tilde{\nu}^{c}\tilde{N}+\frac{b_{9}}{4}\tilde{N^{c}}\tilde{N^{c}}\tilde{N}\tilde{N}+\frac{b_{10}}{2}\tilde{\nu}\tilde{\nu}^{c}\tilde{L^{0}_{1}}\tilde{L^{0}_{1}}^{c}
+\displaystyle+\frac{b_{11}}{2}\tilde{\nu}\tilde{\nu}^{c}\tilde{L^{0}_{2}}\tilde{L^{0}_{2}}^{c}+\frac{b_{12}}{2}\tilde{N^{c}}\tilde{N}\tilde{L^{0}_{1}}\tilde{L^{0}_{1}}^{c}+\frac{b_{13}}{2}\tilde{N^{c}}\tilde{N}\tilde{L^{0}_{2}}\tilde{L^{0}_{2}}^{c}+\frac{b_{14}}{2}\tilde{L^{0}_{1}}\tilde{L^{0}_{1}}^{c}\tilde{L^{0}_{2}}\tilde{L^{0}_{2}}^{c}+\frac{b_{15}}{4}\tilde{L^{0}_{1}}\tilde{L^{0}_{1}}^{c}\tilde{L^{0}_{1}}\tilde{L^{0}_{1}}^{c}
+\displaystyle+\frac{b_{16}}{4}\tilde{L^{0}_{2}}\tilde{L^{0}_{2}}^{c}\tilde{L^{0}_{2}}\tilde{L^{0}_{2}}^{c}+\frac{b_{17}}{4}\tilde{n}\tilde{n}\tilde{n}^{c}\tilde{n}^{c}.
+(7)
+Quadratic terms come from the product 27\otimes\overline{27}; trilinear
+terms come from the product 27\otimes 27\otimes 27 or its charge-congugate;
+quartic terms come from 27\otimes 27\otimes\overline{27}\otimes\overline{27}. Fifteen of the seventeen quartic terms are of the form
+(\phi_{a}^{c}\phi_{a})(\phi_{b}^{c}\phi_{b}). The remaining two terms, with
+coefficients b_{1} and b_{2}, are the only additional ones found invariant when
+E 6 breaks down to SO(10) and SU(5).
+At the weak scale SU(2)_{L} and U(1)_{N} are broken spontaneously. The
+spontaneous symmetry breaking of all the fields will generate the corresponding
+mass matrix \mathcal{M}:
+\displaystyle V
+\displaystyle=\frac{1}{2}s_{i}\mathcal{M}s_{j},\quad\text{where}\quad\mathcal{M}=2\frac{\partial^{2}V}{\partial s_{i}\partial s_{j}}\quad\text{and}\quad s_{i}=\left(\phi_{k},~\phi_{k}^{c}\right).
+(8)
+We convert this basis to that of 10 real fields corresponding to real (scalar)
+and imaginary (pseudoscalar) parts of the 5 complex fields \phi_{i}, as follows:
+\displaystyle\mathcal{M}_{rf}
+\displaystyle=R^{T}\mathcal{M}R\quad\text{where}\quad R=\frac{1}{\sqrt{2}}\begin{pmatrix}\mathbb{I}_{5\times 5}&i\mathbb{I}_{5\times 5}\\
+\mathbb{I}_{5\times 5}&-i\mathbb{I}_{5\times 5}\end{pmatrix}
+(9)
+As described in Sec. II.B, \mathbb{Z}_{2} symmetry leads to \langle\tilde{\nu}\rangle,\,\langle\tilde{N}\rangle=0. In addition,
+we assume the potential is CP even. This translates into a_{1}=a_{2}\equiv a^{\prime},
+a_{3}=a_{4}\equiv a, and b_{1}=b_{2}\equiv b. These conditions result in the
+separation of the scalars in the 16 representation of SO(10) from the other
+three. The elements of the corresponding 2\times 2 and 3\times 3 mass
+matrices for the real parts are
+\mathcal{M}^{s}_{\tilde{\nu}\tilde{\nu}}=m_{1}^{2}+b_{5}\langle\tilde{n}\rangle^{2}+b_{10}v_{d}^{2}+b_{11}v_{u}^{2}~,
+\mathcal{M}^{s}_{\tilde{\nu}\tilde{N}}=\mathcal{M}^{s}_{\tilde{N}\tilde{\nu}}=2a^{\prime}v_{u}+bv_{d}\langle\tilde{n}\rangle~,
+\mathcal{M}_{\tilde{N}\tilde{N}}=m_{2}^{2}+b_{6}\langle\tilde{n}\rangle^{2}+b_{12}v_{d}^{2}+b_{13}v_{u}^{2}~;
+(10)
+\mathcal{M}^{s}_{\tilde{L}_{1}\tilde{L}_{1}}=m_{3}^{2}+b_{3}\langle\tilde{n}\rangle^{2}+b_{14}v_{u}^{2}+3b_{15}v_{d}^{2}~,
+\mathcal{M}^{s}_{\tilde{L}_{1}\tilde{L}_{2}}=\mathcal{M}^{s}_{\tilde{L}_{2}\tilde{L}_{1}}=2(a\langle\tilde{n}\rangle+b_{14}v_{d}v_{u})~,
+\mathcal{M}^{s}_{\tilde{L}_{2}\tilde{L}_{2}}=m_{4}^{2}+b_{4}\langle\tilde{n}\rangle^{2}+b_{14}v_{d}^{2}+3b_{16}v_{u}^{2}~,
+\mathcal{M}^{s}_{\tilde{L}_{1}\tilde{n}}=\mathcal{M}^{s}_{\tilde{n}\tilde{L}_{1}}=2(av_{u}+b_{3}v_{d}\langle\tilde{n}\rangle)~,
+\mathcal{M}^{s}_{\tilde{L}_{2}\tilde{n}}=\mathcal{M}^{s}_{\tilde{n}\tilde{L}_{2}}=2(av_{d}+b_{4}v_{u}\langle\tilde{n}\rangle)~,
+\mathcal{M}^{s}_{\tilde{n}\tilde{n}}=m_{5}^{2}+b_{3}v_{d}^{2}+b_{4}v_{u}^{2}+3b_{17}\langle\tilde{n}\rangle^{2}~.
+(11)
+The mass matrices for the pseudoscalar parts are
+\mathcal{M}^{p}_{\tilde{\nu}\tilde{\nu}}=m_{1}^{2}+b_{5}\langle\tilde{n}\rangle^{2}+b_{10}v_{d}^{2}+b_{11}v_{u}^{2}~,
+\mathcal{M}^{p}_{\tilde{\nu}\tilde{N}}=\mathcal{M}^{p}_{\tilde{N}\tilde{\nu}}=-2a^{\prime}v_{u}-bv_{d}\langle\tilde{n}\rangle~,
+\mathcal{M}^{p}_{\tilde{N}\tilde{N}}=m_{2}^{2}+b_{6}\langle\tilde{n}\rangle^{2}+b_{12}v_{d}^{2}+b_{13}v_{u}^{2}~;
+(12)
+\mathcal{M}^{p}_{\tilde{L}_{1}\tilde{L}_{1}}=m_{3}^{2}+b_{3}\langle\tilde{n}\rangle^{2}+b_{14}v_{u}^{2}+b_{15}v_{d}^{2}~,
+\mathcal{M}^{p}_{\tilde{L}_{1}\tilde{L}_{2}}=\mathcal{M}^{p}_{\tilde{L}_{2}\tilde{L}_{1}}=-2a\langle\tilde{n}\rangle~,
+\mathcal{M}^{p}_{\tilde{L}_{2}\tilde{L}_{2}}=m_{4}^{2}+b_{4}\langle\tilde{n}\rangle^{2}+b_{14}v_{d}^{2}+b_{16}v_{u}^{2}~,
+\mathcal{M}^{p}_{\tilde{L}_{1}\tilde{n}}=\mathcal{M}^{p}_{\tilde{n}\tilde{L}_{1}}=-2av_{u}~,
+\mathcal{M}^{p}_{\tilde{L}_{2}\tilde{n}}=\mathcal{M}^{p}_{\tilde{n}\tilde{L}_{2}}=-2av_{d}~,
+\mathcal{M}^{p}_{\tilde{n}\tilde{n}}=m_{5}^{2}+b_{3}v_{d}^{2}+b_{4}v_{u}^{2}+b_{17}\langle\tilde{n}\rangle^{2}~.
+(13)
+where v^{2}=v_{u}^{2}+v_{d}^{2} and v=246\,\text{GeV}.
+The SM Higgs boson is a part of the doublet of the real scalars. Thus, in order to avoid the constraints due to SM Higgs production and decays, we would
+like to turn off the mixing between the two Higgs doublets and the SO(10)
+singlet. From Eq. ( 11 ) we see that this requires
+\displaystyle\tan^{2}\beta=\frac{b_{3}}{b_{4}},\quad\text{where}\quad\tan\beta=\frac{v_{u}}{v_{d}}.
+(14)
+This also needs b_{3} and b_{4} to have a sign opposite to that of a. On the
+other hand, the pseudoscalar sector mixings disappear when a=0. Thus the only
+way to avoid doublet-singlet mixing in both real scalar and pseudoscalar
+sectors is the ad hoc imposition of a=b_{3}=b_{4}=0.
+We will not discuss this case further as it completely decouples \tilde{n} from the
+SM Higgs boson, thus is not very interesting from the point of view of LHC
+discovery. In the following we explore constraints on the Lagrangian parameters
+in the other scenarios with small mixing. Such an analysis will also be
+important in the context of supersymmetric E 6 models [ 46 ] ,
+where the parameter definitions are constrained by the gauge coupling constants.
+We note that for a=0 the pseudoscalar mixings are turned off. This implies
+that the Goldstone boson associated with the breaking of the U(1) N symmetry
+will have to be the singlet pseudoscalar. It forces us to identify \tilde{n} with
+the real singlet scalar that mixes with the SM Higgs. The fits
+to the LHC Higgs coupling measurements and the heavy Higgs searches in the WW
+and ZZ channel [ 123 , 124 ] impose an upper
+bound on the parameters b_{3} and b_{4} for a given mass spectrum. These are
+relaxed in the decoupling limit, where the mass of the CP odd Higgs (M_{A}) is
+taken to several TeV.
+Another possibility is to add an additional singlet complex scalar field with
+the same quantum numbers as that of \tilde{n}. This extra singlet can be part
+of an additional scalar 27-plet that can be added to the model. Assigning a
+TeV-scale vacuum value to such a singlet will decouple it from the SM Higgs.
+The imaginary component of this singlet can serve as the required Goldstone
+boson corresponding to the spontaneous breaking of the U(1) N symmetry, thus
+making the pseudoscalar corresponding to the original singlet available at
+sub-TeV masses which can be discovered at the LHC. The real scalar corresponding
+to this pseudoscalar singlet can now be made much heavier than 1 TeV, even if a
+sub-TeV scalar resonance is found, thus leading to its decoupling from the SM
+Higgs boson and relaxation of the constraints on b_{3} and b_{4}.
+A third possibility is to turn the mixing in the scalar sector off by imposing
+\displaystyle\tan^{2}\beta
+\displaystyle=\frac{b_{3}}{b_{4}}\quad\text{and}\quad a=-\frac{b_{3}\langle\tilde{n}\rangle}{\tan\beta}.
+(15)
+In the event of a sub-TeV scalar discovery, this case still allows for the
+required pseudoscalar Goldstone boson associated with the U(1) N breaking
+without the addition of an extra singlet. Additional constraints on b_{3}
+and b_{4} will originate from the constraints on \tan\beta and that on a
+due to the fact that the global minimum (or local up to metastability) of the
+complete scalar potential needs to be that corresponding to the SM electroweak
+symmetry-breaking minimum.
+B. Gauge boson masses
+The covariant derivative for this model is given by
+\displaystyle D_{\mu}
+\displaystyle=\partial_{\mu}-ig\tau^{a}W_{\mu}^{a}-ig^{\prime}YB_{\mu}-ig_{N}Y_{N}B^{\prime}_{\mu}
+(16)
+The scalar kinetic term in the Lagrangian that leads to the gauge boson mass
+matrix is
+\displaystyle\mathcal{L}\supset\left(D^{\mu}\tilde{L_{1}}\right)^{\dagger}\left(D_{\mu}\tilde{L_{1}}\right)+\left(D^{\mu}\tilde{L_{2}}\right)^{\dagger}\left(D_{\mu}\tilde{L_{2}}\right)+\left(D^{\mu}\tilde{n}\right)^{\dagger}\left(D_{\mu}\tilde{n}\right)
+(17)
+The charged gauge boson sector in this model remains identical to the standard
+model. The neutral boson sector has an additional massive Z_{N} boson due to
+spontaneous breaking of the U(1) N symmetry. The mass matrix is as follows:
+\displaystyle\mathcal{M}
+\displaystyle=\begin{pmatrix}(g^{2}v^{2})/4&(gg^{\prime}v^{2})/4&[gg_{N}(y_{N_{1}}v_{d}^{2}+y_{N_{2}}v_{u}^{2})]/2\\
+(gg^{\prime}v^{2})/4&({g^{\prime}}^{2}v^{2})/4&[g^{\prime}g_{N}(y_{N_{1}}v_{d}^{2}+y_{N_{2}}v_{u}^{2})]/2\\
+\frac{gg_{N}(y_{N_{1}}v_{d}^{2}+y_{N_{2}}v_{u}^{2})}{2}&\frac{g^{\prime}g_{N}(y_{N_{1}}v_{d}^{2}+y_{N_{2}}v_{u}^{2})}{2}&(g_{N})^{2}\left(y_{N_{1}}^{2}v_{d}^{2}+y_{N_{2}}^{2}v_{u}^{2}+y_{N_{s}}^{2}\langle\tilde{n}\rangle^{2}\right)\\
+\end{pmatrix}
+(18)
+where y_{N_{1}}, y_{N_{2}} and y_{N_{s}} are Q_{N} charges for the exotic
+lepton doublets and SO(10) singlet, respectively.
+Current lower bounds on M(Z_{N}) are \sim 2.5 TeV based on 7 and 8 TeV data
+[ 107 , 108 ] , and about 1 TeV higher based on 13 TeV
+data up to mid-July 2016 [ 109 , 110 ] . (A lower bound on M(Z_{N})
+quoted at the March 2017 Moriond Electroweak meeting, based on about 1/3 of the
+13 TeV sample, was 3.41 TeV [ 111 ] ; a recent ATLAS lower bound based on
+36.1 fb -1 is 3.8 TeV [ 112 ] .)
+As noted in [ 46 ] the natural value of g_{N} is less than one.
+Another issue is the mixing of the new Z_{N} boson with the SM neutral gauge
+bosons. We need the photon to be massless; the mass of the Z boson is measured
+with \sim 0.001\% precision. Thus the mixing needs to be small enough in
+order to obey these bounds. This implies that g_{N} needs to be much smaller
+than one.
+To satisfy the experimental lower bound on M(Z_{N}), we can either
+have \left of order several TeV, which in turn will impose lower
+bounds upon the mass of the singlet scalar due to requirement of the vacuum
+stability as explained in Sec. V, or we can add another singlet charged
+under U(1) N . This can be the SO(10) singlet of the 351^{\prime}-plet of scalars.
+Let’s denote it by S. As described in the previous section, such an addition
+also helps with identifying the LHC-detectable \tilde{n} candidate as a
+pseudoscalar without going to the alignment limit in the scalar sector or ad hoc imposing a=b_{3}=b_{4}=0.
+Such a singlet will add a term (g_{N})^{2}y_{N_{s}}^{2}\langle\tilde{S}\rangle^{2} to the diagonal element corresponding to the Z_{N} mass.
+The gauge coupling evolution shown in Fig. 10 [Appendix C] gives
+the value of \alpha_{N}^{-1} at the experimental lower bound of the Z_{N} boson
+mass to be \sim 86. This means
+\displaystyle g_{N}^{2}=\frac{4\pi}{86}\approx 0.146
+(19)
+at that lower bound. This singlet has a Q_{N} charge of 10/\sqrt{40}. Thus,
+a lower bound on the Z_{N} mass of \sim 4 TeV [ 107 , 108 , 109 , 110 , 111 , 112 ] (details in Sec. X) puts a lower
+bound on the VEV of such a singlet:
+\displaystyle\langle S\rangle>\sqrt{\frac{16}{(0.146)(100/40)}}\sim 6.6\,\,\text{TeV}
+(20)
+This new vacuum value will decouple the Z_{N} from the SM neutral gauge bosons,
+solving both the problem of mixing with the Z boson and the lower mass bound
+on Z_{N}.
+V. RENORMALIZATION GROUP EVOLUTION
+It is necessary to calculate the renormalization group evolution (RGE) of both
+the gauge couplings and the Yukawa couplings to ensure that they remain
+perturbative at electroweak energy scales and all the way up to the unification
+scale (10^{16} GeV) or the Planck scale (10^{19} GeV). Thus, the lowest
+energy scales at which the Landau poles are permitted to occur can be taken as
+these scales to obtain corresponding electroweak-scale upper bounds on the
+values of the Yukawa couplings for the exotic fermions.
+The beta functions of the quartic couplings of the type b_{i} in the scalar
+potential enumerated in Sec. IV receive negative contributions from the exotic
+Yukawa couplings. This can lead to the quartic couplings running to negative
+values at energy scales much lower than the unification scale, making the
+vacuum unstable at these lower scales. Some new physics beyond the E 6
+framework would be necessary to restore the vacuum stability. In order to avoid
+this and preserve the E 6 features up to the unification scale, the quartic
+couplings will have lower bounds at the EW scale such that they do not turn
+negative at energies below the unification scale. The RGE of the quartics is
+necessary to compute these lower bounds. These quartics also have an upper
+bound due to the presence of the b_{i}^{2} terms with positive coefficients in
+the beta function which can lead to poles below the unification scales.
+The details of these calculations for exotic Yukawa and quartic couplings are
+given in Appendix C. We present the main results here.
+We find that it is hard to push the upper bound of the vector-like quark mass
+above 750 GeV, if we demand perturbative Yukawa coupling constants at least
+up to 10^{16} GeV. The lower bounds on the vector-like quark masses set by
+CMS and ATLAS at the LHC are close to, but higher than, 750 GeV and depend on
+the branching ratio to W+SM and H+SM [ 125 , 126 ] .
+Thus, in order for this model to be a viable theory up to the GUT scale, it is
+necessary to avoid these bounds.
+This is achieved if the vector-like particles are protected by a \mathbb{Z}_{2}
+symmetry, which forbids vertices such as DqW, DqZ and DqH. This can lead
+to another problem. In the absence of these decays, the exotic quarks are
+subject to the cross section bounds on long-lived charged particles. As
+discussed in Sec. IX.A, these bounds are even higher than those placed by the
+vector-like quark searches. This problem is circumvented by \mathbb{Z}_{2}-preserving decays as follows.
+As explained in Sec. IX.A, \mathbb{Z}_{2}-preserving decays of the exotic
+quarks to the SM quarks and \tilde{\nu} or \tilde{N}^{c} allow one to escape
+the long-lived charged particle bounds. They open up a window of viable exotic
+quark masses with a lower bound of \sim 400 GeV as discussed in Sec. IX.A.
+Demanding the unification-scale perturbativity of the Yukawa couplings implies
+an upper bound of 1.3 on the exotic Yukawa couplings at the electroweak
+scale. As the exotic fermion masses are given by y_{i}\langle\tilde{n}\rangle, this
+sets the upper bound of this window proportional to \langle\tilde{n}\rangle.
+This upper bound on mass is constrained by the vacuum stability
+considerations for a given mass of \tilde{n} as follows.
+From Eq. ( 58 ), for small b_{3}, b_{4} and a single scalar
+generation, we have
+\displaystyle b_{17}
+\displaystyle=\frac{m^{2}_{\tilde{n}}}{2\langle\tilde{n}\rangle^{2}}~.
+(21)
+For a lower bound of b_{17} for b_{17} at the EW scale, we have an upper
+bound on the allowed \langle\tilde{n}\rangle for a given mass of \tilde{n}. Its value is
+\displaystyle\langle\tilde{n}\rangle
+\displaystyle=\frac{m_{\tilde{n}}}{\sqrt{2b_{17}}}~.
+(22)
+Thus, the exclusion due to the vacuum stability constraint is characterized by
+a straight line of slope 1/\sqrt{2b_{17}} passing through the origin on the
+\langle\tilde{n}\rangle-m_{\tilde{n}} plot with the area above the line excluded. The
+slope of the line decreases with increasing EW-scale values of the exotic
+Yukawa couplings as a larger and larger region is excluded. From the example in
+Appendix C we see that for the exotic Yukawa coupling of 0.95 for quarks and
+0.95 for the leptons we get the lower bound of 1.4 on b_{17}, which
+leads to an upper bound of \sim 0.63\,m_{\tilde{n}} on the SO(10) scalar singlet
+(\tilde{n}) VEV. More
+details of bounds related to b_{17} and its connection to bounds on Yukawa
+couplings and therefore the mass spectrum are discussed in Sec. XI.
+In this window of 400 GeV to 1.3\langle\tilde{n}\rangle, the mass of the SO(10)
+16-plet neutral scalar \tilde{\nu} or \tilde{N}^{c} is constrained to be
+almost degenerate with the vector-like quark mass for masses lower than 500
+GeV. This result is obtained by recasting the LHC searches as discussed in
+Sec. IX. Thus, the mass of the SO(10)-singlet scalar constrains the rest of the
+spectrum via vacuum stability considerations.
+Finally, the standard-model Higgs coupling is unaffected by the addition of the
+new particles, as the additional fermions do not have tree-level Yukawa
+couplings to the doublet Higgs boson. Thus the danger of the doublet Higgs
+quartic coupling going to negative values at the TeV scale is avoided. The
+mixing of the Higgs doublet with the singlet may lead to positive contributions
+to the doublet quartic beta functions. As discussed in Sec. IV, this mixing is
+constrained to be a small value by the experimental bounds and will not pose a
+problem for the stability of the doublet Higgs quartic coupling.
+VI. DECAYS OF \tilde{n} TO \gamma\gamma,~\gamma Z,~ZZ,~W^{+}W^{-},~ZH
+The coupling of \tilde{n} to a loop of the exotic lepton L generates decays to
+other pairs of electroweak gauge bosons besides \gamma\gamma, namely Z\gamma, ZZ, and WW. For general discussions of the ratio of the
+correpsonding partial widths see [ 80 , 82 , 127 , 128 , 129 ] .
+The gauge-invariant terms in the Lagrangian describing the most general
+couplings of \tilde{n} to electroweak bosons W and B may be written
+\delta{\cal L}_{\rm ew}=\frac{\alpha_{\rm em}}{4\pi x}\frac{\kappa_{W}}{4m_{\tilde{n}}}\tilde{n}W^{a}_{\mu\nu}W^{a~\mu\nu}+\frac{\alpha_{\rm em}}{4\pi(1-x)}\frac{\kappa_{B}}{4m_{\tilde{n}}}\tilde{n}B_{\mu\nu}B^{\mu\nu}~,x\equiv\sin^{2}\theta_{W}.
+(23)
+With Z=W^{3}\cos\theta_{W}-B\sin\theta_{W}, A=W^{3}\sin\theta_{W}+B\cos\theta_{W}, the couplings are
+g_{\tilde{n}\gamma\gamma}=C_{0}(\kappa_{W}+\kappa_{B})~,
+(24)
+g_{\tilde{n}Z\gamma}=C_{0}\sqrt{x(1-x)}\left(\frac{\kappa_{W}}{x}-\frac{\kappa_{B}}{1-x}\right)~,
+(25)
+g_{\tilde{n}ZZ}=C_{0}\left(\kappa_{W}\frac{1-x}{x}+\kappa_{B}\frac{x}{1-x}\right)~,
+(26)
+g_{\tilde{n}WW}=C_{0}\left(\frac{\kappa_{W}}{x}\right)~,
+(27)
+where C_{0} is a common factor. Taking account of the contribution of three
+charged vector-like L states in the loop, the ratio of Z\gamma and \gamma\gamma couplings is found (cf. Table IV ) to be
+\frac{g_{\tilde{n}Z\gamma}}{g_{\tilde{n}\gamma\gamma}}=[x(1-x)]^{-1/2}\left(\frac{1}{2}-x\right)~,
+(28)
+consistent with \kappa_{B}=\kappa_{W}. Adding the contribution of three Q=-1/3 weak isoscalar quarks (“D_{1,2,3}”), one finds instead \kappa_{B}=(5/3)\kappa_{W}. In this case, substituting x=0.2315, squaring
+amplitudes, and multiplying by 2 for non-identical particles in the final
+state, one finds partial decay rates to be in the ratio
+\Gamma_{\gamma\gamma}:~\Gamma_{Z\gamma}:~\Gamma_{ZZ}:~\Gamma_{WW}=1:~0.24:~2.08:~5.32~.
+(29)
+Figure 2: Dark [red] and lighter [dark orange] shaded regions show the exclusion
+regions for exotics by ATLAS [ 39 , 40 ] and CMS
+[ 41 ] , respectively, in the
+diphoton channel. Black (dashed): Expected 95\% exclusion limit for
+ATLAS (upper curve, 15.6 fb -1 at 13 TeV) and CMS (lower curve, 16.2
+fb -1 at 13 TeV + 19.7 fb -1 at
+8 TeV). Red (dotted) : Contours showing ATLAS reach for non-discovery
+for luminosities of 30, 300 and 3000 fb -1 at 13 TeV. Blue
+(dashed): Contours of constant cross section \sigma_{0}\equiv\sigma(pp\to\tilde{n}X\to\gamma\gamma X) in the plane of \langle\tilde{n}\rangle versus
+m_{\tilde{n}} for values of \sigma_{0}, top to bottom, ranging from 0.01 to 10 fb.
+Similar results (aside from a factor of 2 lower for Z\gamma) were obtained
+in Ref. [ 130 ] . These ratios should be targets for discovery or
+bounds when the LHC accumulates more data at 13 TeV. As shown in Fig. 2 and explained in Sec. VII, \sigma(pp\rightarrow\tilde{n}\rightarrow\gamma\gamma) is excluded for values greater than 1 fb due to ATLAS (15.6
+fb -1 at 13 TeV) [ 39 ] and CMS (16.2 fb -1 at 13 TeV
++ 19.7 fb -1 at 8 TeV) [ 41 ] searches and vacuum
+stability
+constraints. In the present context of probing for the EW and TeV-scale
+signatures of the E 6 model at the LHC, we see that the present upper bound
+on \sigma(pp\to\tilde{n}X){\cal B}(\tilde{n}\to W^{+}W^{-}) [ 131 ] is greater
+than 10 fb, corresponding to a WW/\gamma\gamma ratio of at least 10. For
+\sigma(pp\to\tilde{n}X\to Z\gamma X), an upper limit for a narrow \tilde{n} is at
+least about 20 fb [ 132 ] , a factor of \sim 100 above expectation
+based on Eq. ( 29 ) and the fact that the \gamma\gamma
+cross section is less than 1 fb. Therefore, these channels are much less
+sensitive to the discovery of \tilde{n} if it exists at TeV or sub-TeV scales,
+thus making \gamma\gamma the most significant channel for discovery.
+An interesting point has been raised in Ref. [ 133 ] . It was
+found there that a spinless particle S which is a SM singlet can decay to
+Z + (Higgs boson) only if it has CP-odd interactions. If so, the S\to ZH
+rate could even surpass that for S\to\gamma\gamma.
+VII. PRODUCTION OF \tilde{n} AND \gamma\gamma DECAY
+We discuss the production of the scalar member \tilde{n} of an E 6 27-plet,
+transforming as an SU(5) and SO(10) singlet. Among its decay channels, we focus
+on the \gamma\gamma mode as it is the most sensitive to the discovery
+of such a singlet among all the decay modes as described in the previous
+section. If Q_{N} is
+respected in its couplings, it does not couple to pairs of ordinary fermions in
+the 16-plet of SO(10), but only to the exotic fermions D and L. (In
+supersymmetric E 6 versions, the L states may be identified as Higgsinos,
+while the \tilde{L} are the two Higgs doublets [ 46 ] .) Then \tilde{n} can
+be produced via gluon-gluon fusion via loops containing D quarks, one for each
+of the three families. It can decay to two photons via D quarks and exotic
+leptons L^{\pm} in loops, as shown in Fig. 3 . We then need
+expressions for \Gamma(\tilde{n}\to gg), \Gamma(\tilde{n}\to\gamma\gamma), and
+the effective two-gluon luminosity in proton-proton collisions. We shall rely
+on the treatment in Ref. [ 134 ] . (For a discussion of an
+alternative mechanism for \tilde{n} production via the \gamma\gamma initial
+state see, e.g., Refs. [ 135 , 136 , 137 , 138 , 139 , 140 ] .)
+Figure 3: Mechanism for hadronic production and decay of scalar boson \tilde{n}.
+Two of the neutral companions of the scalar \tilde{n}
+in the 27-plet are the Higgs bosons in a conventional two-Higgs-doublet model.
+We assume each D_{i}, where i=1,2,3 is the family label, is coupled to
+\tilde{n} via a term \Delta{\cal L}=y_{D_{i}}\tilde{n}\bar{D}_{i}D_{i}. One then finds
+\Gamma(\tilde{n}\to gg)=\left(\frac{\alpha_{s}}{6\pi}\right)^{2}\frac{m_{\tilde{n}}^{3}}{2\pi}\left(\sum_{i=1}^{3}\frac{y_{D_{i}}}{m_{D_{i}}}F_{+}(\beta_{i})\right)^{2}~,
+(30)
+where \beta_{i}\equiv(2m_{D_{i}}/m_{\tilde{n}})^{2}, and for a scalar \tilde{n}
+[ 141 , 142 ] ,
+F_{+}(\beta)\equiv\frac{3}{2}\beta\left[1+(1-\beta)\arcsin^{2}\frac{1}{\sqrt{\beta}}\right]~.
+(31)
+For a pseudoscalar \tilde{n} (see, e.g., [ 143 , 144 ] ):
+F_{-}(\beta)=\beta\arcsin^{2}(1/\sqrt{\beta})~.
+(32)
+These functions are plotted in the left panel of Fig. 4 . Both F_{+}(\beta) and F_{-}(\beta) approach 1 for large \beta. We do not consider the
+case \beta
+We now assume that each D_{i} obtains its mass through the vacuum expectation
+value (VEV) \langle\tilde{n}\rangle of \tilde{n} itself. This is the only neutral
+27-plet member whose VEV can give mass to the exotic fermions D and L, as
+noted at the end of Sec. II. In this case one has y_{D_{i}}/m_{D_{i}}=1/\langle\tilde{n}\rangle, and the expression for \Gamma(\tilde{n}\to gg) reduces to
+\Gamma(\tilde{n}\to gg)=\left(\frac{\alpha_{s}}{6\pi}\right)^{2}\frac{m_{\tilde{n}}^{3}}{2\pi\langle\tilde{n}\rangle^{2}}\left(\sum_{i=1}^{3}F_{\pm}(\beta_{i})\right)^{2}~.
+(33)
+While QCD corrections to this partial width are appreciable — about a factor
+of two [ 134 ] — they will largely cancel out when we express
+the cross section for pp\to\tilde{n}X\to\gamma\gamma X in terms of the
+partial width \Gamma(\tilde{n}\to\gamma\gamma).
+Figure 4: Left: Functions F_{\pm}(\beta) governing decays of scalar
+(F_{+}) or pseudoscalar (F_{-}) to two photons. Solid: scalar \tilde{n}; dashed:
+pseudoscalar \tilde{n}. Middle: Effective gluon-gluon luminosity function
+for proton-proton production of a state with mass M at center-of-mass energy
+\sqrt{s}=13 TeV. Right: Cross section for pp\to DD^{c}+X via
+two-gluon intermediate state at \sqrt{s}=13 TeV.
+We next evaluate the cross section for \tilde{n} production in pp collisions at
+the LHC. Ref. [ 134 ] defines a gluon-gluon luminosity as
+an integral over the rapidity y at which \tilde{n} is produced:
+\frac{dL_{gg}}{d\hat{s}}|_{\hat{s}=m_{\tilde{n}}^{2}}\equiv\frac{1}{s}\int_{\ln\sqrt{\tau}}^{\ln 1/\sqrt{\tau}}dy~g(x_{1},Q^{2})~g(x_{2},Q^{2})~,
+(34)
+where x_{1}\equiv\sqrt{\tau}e^{y}, x_{2}=\tau/x_{1}, \tau\equiv m_{\tilde{n}}^{2}/s,
+and s is the square of the total CM energy. Here g(x,Q^{2}) is the gluon
+structure function, which we take from the CTEQ14 NNLO set [ 145 ] .
+The middle panel of Fig. 4 shows dL_{gg}/dM^{2}=dL_{gg}/d\hat{s} for production of
+a state with with mass M=\sqrt{\hat{s}} in proton-proton collisions at
+\sqrt{s}=13 TeV. This function behaves roughly as M^{-6} in the region
+of interest.
+The relation between the gluon-gluon luminosity and the cross section
+for \tilde{n} production in proton-proton collisions may be written as
+\sigma(pp\to\tilde{n}X)=\frac{\pi^{2}}{8m_{\tilde{n}}}\Gamma(\tilde{n}\to gg)\frac{dL_{gg}}{d\hat{s}}|_{\hat{s}=m_{\tilde{n}}^{2}}~.
+(35)
+Assuming that the total width of \tilde{n} is dominated by its two-gluon decay,
+this may then be used to calculate the cross section for \tilde{n} production and
+decay to two photons:
+\sigma(pp\to\tilde{n}X\to\gamma\gamma X)=\frac{\pi^{2}}{8m_{\tilde{n}}}\Gamma(\tilde{n}\to\gamma\gamma)\frac{dL_{gg}}{d\hat{s}}|_{\hat{s}=m_{\tilde{n}}^{2}}~.
+(36)
+We shall assume that the charged leptons L_{i} in the right-hand loop of Fig. 3 have the same masses as the D_{i}, and that there are
+three families of them. We shall also assume that these masses are high
+enough above m_{\tilde{n}}/2 that the functions F_{\pm}(\beta) may be approximated
+by 1. Then, adapting Eq. (9) of Ref. [ 134 ] to our
+assumptions, we find
+\Gamma(\tilde{n}\to\gamma\gamma)=\left(\frac{\alpha}{3\pi}\right)^{2}\frac{m_{\tilde{n}}^{3}}{16\pi\langle\tilde{n}\rangle^{2}}\left[3\cdot 3\cdot\left(-\frac{1}{3}\right)^{2}+3\cdot\left(-1\right)^{2}\right]^{2}~.
+(37)
+The first term in the square brackets is the contribution of the three D
+quarks, while the second term is the contribution of the three charged leptons
+L. There is an additional factor of three in the first term as the quarks are
+colored. The branching fraction {\cal B}(\tilde{n}\to\gamma\gamma) is
+then approximately
+\frac{\Gamma(\tilde{n}\to\gamma\gamma)}{\Gamma(\tilde{n}\to gg)}=\left(\frac{\alpha}{\alpha_{s}}\right)^{2}\frac{8}{9}=5.9\times 10^{-3}~.
+(38)
+(This value will be further reduced, possibly by as much as a factor of two,
+by QCD corrections to the denominator.) Csaki and Randall obtain a similar
+value as they have similar contributions to the loop diagrams governing
+\tilde{n}\to\gamma\gamma [ 130 ] .
+Combining Eqs. ( 36 ) and ( 37 ), we find
+\sigma(pp\to\tilde{n}X\to\gamma\gamma X)=\frac{\alpha^{2}}{72\pi}\frac{m_{\tilde{n}}^{2}}{\langle\tilde{n}\rangle^{2}}\frac{dL_{gg}}{d\hat{s}}|_{\hat{s}=m_{\tilde{n}}^{2}}~.
+(39)
+Contours of equal \sigma_{0}\equiv\sigma(pp\to\tilde{n}X\to\gamma\gamma X)
+in the plane of \langle\tilde{n}\rangle versus m_{\tilde{n}} are easily plotted by
+solving Eq. ( 39 ) for \langle\tilde{n}\rangle:
+\langle\tilde{n}\rangle=\alpha m_{\tilde{n}}\left(\frac{dL_{gg}/d\hat{s}}{72\pi\sigma_{0}}\right)^{1/2}
+(40)
+and varying m_{\tilde{n}}. The results for values of \sigma_{0} between 0.01 and
+10 fb are shown in Fig. 2 , along with experimental limits from
+ATLAS [ 39 ] and CMS [ 41 ] . The vacuum
+expectation value \langle\tilde{n}\rangle needed to produce a given cross section
+\sigma_{0} varies roughly as m_{\tilde{n}}^{-2} for the range shown.
+VIII. THE ROLE OF A \mathbb{Z}_{2} SYMMETRY IN NEUTRINO MIXING
+The fundamental 27-plet of E 6 contains five neutral members, whose
+left-handed states we have denoted as [\nu,N^{c},L_{1}^{0},L_{2}^{0c},n]
+(cf. Table I , but omitting the family index i). In
+Ref. [ 15 ] we discussed a general 5\times 5 mass matrix
+in this basis space:
+{\cal M}_{5}=\left[\begin{array}[]{c c c c c}0&m_{12}&0&M_{14}&0\cr m_{12}&M_{22}&0&m_{24}&0\cr 0&0&0&M_{34}&m_{35}\cr M_{14}&m_{24}&M_{34}&0&m_{45}\cr 0&0&m_{35}&m_{45}&0\end{array}\right]~,
+(41)
+where masses with small letters correspond to \Delta I_{L}=1/2 while
+those with capital letters correspond to \Delta I_{L}=0. After
+diagonalization with respect to the third and fourth rows and columns, this
+becomes
+{\cal M}^{\prime}_{5}=\left[\begin{array}[]{c c c c c}0&m_{12}&M_{14}/\sqrt{2}&M_{14}/\sqrt{2}&0\cr m_{12}&M_{22}&m_{24}/\sqrt{2}&m_{24}/\sqrt{2}&0\cr M_{14}/\sqrt{2}&m_{24}/\sqrt{2}&M_{34}&0&(m_{35}+m_{45})/\sqrt{2}\cr M_{14}/\sqrt{2}&m_{24}/\sqrt{2}&0&-M_{34}&(m_{45}-m_{35})/\sqrt{2}\cr 0&0&(m_{35}+m_{45})/\sqrt{2}&(m_{45}-m_{35})/\sqrt{2}&0\end{array}\right]~.
+(42)
+The first two rows and columns correspond to states with \mathbb{Z}_{2} =-1, while the
+last three correspond to states with \mathbb{Z}_{2} =+1. In the limit of exact
+\mathbb{Z}_{2} symmetry, the parameters M_{14} and m_{24} vanish, so {\cal M}^{\prime}_{5}
+reduces to the direct sum of 2\times 2 and 3\times 3 matrices. The
+2\times 2 matrix corresponds to the standard seesaw picture, with M_{22}
+taking on a large value to force SM neutrinos to have small masses
+-m_{12}^{2}/M_{22}. The 3\times 3 matrix has two large eigenvalues
+\pm M_{34} (pseudo-Dirac L^{0}_{1,2} states) and one small eigenvalue which
+we may identify as the n mass:
+m_{n}=-2m_{35}m_{45}/M_{34}~.
+(43)
+Here M_{34} may be as light as several hundred GeV, while m_{34} and
+m_{45} should be of the same order as SM quark and lepton masses. Thus
+the n states of each family should be lighter than the SM fermions in
+that family, but could be considrably heavier than the corresponding neutrinos.
+In Ref. [ 15 ] the states n were proposed as sterile neutrino
+candidates coupling to SM neutrinos through a violation of the \mathbb{Z}_{2} symmetry, in
+order to explain various apparent anomalies in the three-active-neutrino
+picture. In the scenario in which \mathbb{Z}_{2} is exact, however, a n state cannot
+account for the above-mentioned anomalies.
+An exact \mathbb{Z}_{2} symmetry could account for the existence of dark matter, in
+the form of the lightest state with \mathbb{Z}_{2} = –1. The scalar \tilde{\nu} or \tilde{N}^{c}
+could be one such candidate.
+Other heavier states with \mathbb{Z}_{2} = –1 could decay to it and one or several states
+with \mathbb{Z}_{2} = 1. A full discussion of these possibilities is beyond the scope
+of the present paper, but some examples will be given in the next Section.
+IX. SIGNATURES FOR SO(10) 10-PLET FERMIONS
+The decays of exotic quarks and leptons in the 10-dimensional representation of
+SO(10) depend crucially on whether the \mathbb{Z}_{2} symmetry defined earlier is
+approximate or exact. We recall that singlets and 10-plets of SO(10) are
+assigned \mathbb{Z}_{2} = +1 while 16-plets of SO(10) are assigned \mathbb{Z}_{2} = –1. If \langle\tilde{\nu}\rangle=\langle\tilde{N}\rangle=0, the \mathbb{Z}_{2} is exact, while if one or both
+of these VEVs is non-vanishing, exotic 10-plets can mix with SM 16-plets.
+A. Exotic quark production
+Estimates of D pair production were made in Refs. [ 12 ] and
+[ 13 ] , among many other places. We update those predictions
+for proton-proton collisions at the LHC center-of-mass (CM) energy of 13
+TeV in the right panel of Fig. 4 . If the scalar meson \tilde{\nu} or
+\tilde{N}^{c} is light enough, its exchange in the reaction dd^{c}\to DD^{c}
+can provide an additional significant contribution to D pair production.
+Figure 5: Main diagrams contributing to \mathbb{Z}_{2}-preserving decays of exotic quark
+D.
+The only couplings that allow for the decay of an exotic D quark in the
+\mathbb{Z}_{2}-symmetry conserving way are the \tilde{\nu}Dq_{d,s,b} and \tilde{N}^{c}Dq_{d,s,b} couplings. The inclusive searches for 2b jets plus missing
+transverse energy (MET) provide experimental lower bounds on the masses of
+these exotic quarks. Fig. 5 shows the dominant diagrams for the
+production and decay of these exotic quarks that contribute to their
+experimental searches.
+For these decays to be kinematically viable, we need m_{\tilde{\nu}} and/or
+m_{\tilde{N}^{c}} to be less than m_{D}. The ATLAS searches at 8
+TeV [ 146 ] and 13 TeV [ 147 , 148 , 149 ] ; CMS
+searches [ 150 ] in Run-1 data for third generation squarks;
+and more recent CMS searches [ 151 , 152 , 153 , 154 ]
+put stringent lower bounds on the masses. Near the
+limit in which the difference between m_{\tilde{\nu},\tilde{N}^{c}} and m_{D}
+is close to zero, the 2b jets plus MET searches are not sensitive. However,
+for exotic quark masses below 400 GeV, the monojet searches are sensitive in
+this limit, excluding exotic quarks in this region of parameter space.
+For m_{D}>400 GeV, a considerable region of the parameter space is allowed and
+grows with the mass of the exotic quark. In order to estimate this difference,
+the 95\% CL exclusion bound in [ 147 ] , which is the most
+stringent bound on the sbottom searches, is recasted. As the gg\rightarrow D\overline{D} and q\overline{q}\rightarrow D\overline{D} cross section is
+higher than the gg\rightarrow\tilde{b}\tilde{\overline{b}} and
+q\overline{q}\rightarrow b\tilde{\overline{b}} cross sections and as there
+are three copies of the exotic
+quarks, the production cross section of these quarks is greater than that of
+the sbottoms by about a factor of 20 near the electroweak and TeV scales. This
+results in more parameter space being excluded at 95\% CL compared to the
+sbottom searches. We obtain results very close to such a recast performed
+in [ 155 ] , which leads to an allowed mass difference of about
+200 GeV between m_{D} and m_{\tilde{\nu},\tilde{N}^{c}} at m_{D}=1 TeV. For
+m_{D}
+As pointed out in [ 156 ] , for small decay widths of the
+vector-like quarks, quarkonium will form before the decay of the quark for an
+energy scale equal to twice the mass of the vector-like quark. This quarkonium
+can then decay to produce a peak in the \gamma\gamma spectrum at the mass
+twice that of the vector-like quark. The cross section for this decay,
+\sigma(pp\rightarrow DD^{c}\rightarrow\gamma\gamma), is proportional to
+N^{2}Q^{4}, where N is the number of generations and Q is the electric
+charge. As quoted in [ 156 ] , this cross section is 10 fb for
+the bound state mass of 800 GeV with N=1 and Q=5/3 at \sqrt{s}=13 TeV.
+In our model N=3 and Q=1/3, which results in the reduction of the cross
+section by a factor of \sim 70. Therefore, in our case, this cross section at
+the bound state mass of 800 GeV is \sim 0.14 fb and decreases exponentially
+with increasing bound state mass. As the lower bound on the exotic quarks in
+our model is \sim 400 GeV as allowed by the LHC searches described above, the
+lower bound on the quarkonium mass is \sim 800 GeV. Thus, in our model such
+a \gamma\gamma peak due to a quarkonium bound state can only appear at
+higher energies for higher luminosities than those corresponding to the data
+analyzed up to August 2016.
+In the limit of preserved \mathbb{Z}_{2} symmetry, the region of parameter space for which
+m_{\tilde{\nu},\tilde{N}^{c}}>m_{D} implies that the new exotic quarks are
+long-lived stable particles. These will be subject to R-hadron searches,
+stopped long-lived particle searches, and searches for disappearing tracks at
+both ATLAS [ 157 , 158 , 159 ] and CMS
+[ 160 , 161 , 162 , 163 ] . In
+particular, the ATLAS search [ 158 ] for full Run-1 data excludes
+long-lived sbottoms for masses lower than 845 GeV.
+Given that the production cross section for the exotic quarks in our model is
+about 20 times higher than the sbottom pair production in this region, the
+experimental lower bound on the exotic quark mass is well above 1 TeV. As shown
+in Fig. 2 , the ATLAS [ 39 ] and
+CMS [ 41 ] searches in the di-photon channel put bounds on
+the vacuum expectation values of the \tilde{n} field. The ATLAS bound
+[ 39 ] with 15.6 fb -1 (see [ 40 ] for an update) is
+the strongest for a low di-photon decay width of 4 MeV, and corresponds to
+\langle\tilde{n}\rangle=700 GeV for m_{\tilde{n}}=1 TeV. Naive future projections
+assuming constant acceptance for higher luminosities can potentially raise this
+bound on the VEV to 1.4 TeV for an integrated LHC luminosity of 300
+fb -1 and to about 2.5 TeV for 3000 fb -1 , if no di-photon
+resonance is discovered below 1 TeV. Thus, the inequality m_{\tilde{\nu},\tilde{N}^{c}}>m_{D} can be viable for exotic quarks heavier than long-lived
+search bounds from the LHC.
+Finally, the \mathbb{Z}_{2} symmetry can be broken to allow mixing of the exotic quarks
+with the SM quarks. Let us assume that one such quark, called D_{3}, decays
+mainly via mixing with the b quark. Final-state branching ratios are then
+predicted to be 2:1:1 for Wt:Zb:Hb, where H denotes the SM Higgs boson
+with mass 125 GeV [ 12 ] , when the branching ratio
+for D_{3}\rightarrow b+m_{\tilde{\nu},\tilde{N}^{c}} is suppressed, which would
+be the case for m_{\tilde{\nu},\tilde{N}^{c}}>m_{D}. The most promising of
+these final states is probably Zb, where Z\to e^{+}e^{-},\mu^{+}\mu^{-}, or b\bar{b} (the last identified through b-tagging).
+Published LHC lower limits on m_{D} are of order 750 GeV at \sqrt{s}=8 TeV.
+Specifically, ATLAS sets lower limits of 755 GeV in the mode D_{3}\to Zb
+[ 164 ] and 735 GeV in the mode D_{3}\to Hb [ 165 ] .
+The lower limits set by CMS [ 125 ] range between 740 and
+900 GeV depending on the values of the branching fractions of D_{3} to
+Wt,~Zb, and Hb. For this case of branching ratios 2:1:1, the lower bound
+on the D_{3} mass is 790 GeV. (CMS also searches for vector-like heavy quarks
+with charge 2/3 [ 166 ] .) A mass of 750 GeV corresponds to a
+cross section at 13 TeV of about 100 fb.
+B. Exotic lepton production
+The weak isodoublet vector-like leptons L can be produced in pairs by the
+Drell-Yan process, illustrated in Fig. 6 . Both a virtual photon
+(\gamma^{*}) and a virtual SM Z boson (Z^{*}) contribute to L^{+}L^{-}
+production; only Z^{*} contributes to L^{0}\bar{L}^{0} production; and
+W^{*\pm} contributes to L^{+}L^{0} or L^{-}\bar{L}^{0} production.
+Figure 6: Drell-Yan processes contributing to exotic lepton pair production
+via (a) virtual \gamma,~Z^{0}; (b) virtual W^{+}; (c) virtual W^{-}.
+For Drell-Yan production of L^{+}L^{-} and L^{0}\bar{L}^{0} [ 167 ] ,
+let M be the effective mass of the L\bar{L}
+pair, y its pseudorapidity, and \theta^{*} the angle between the outgoing
+lepton L and the incident quark q in the q\bar{q} CM. Let the proton
+with laboratory momentum +p (-p) emit a parton with momentum fraction
+x_{A} (x_{B}). Then for vector-like L\bar{L} production,
+\frac{d\sigma(pp\to L\bar{L}+\ldots)}{dM~dy~d(\cos\theta^{*})}=\frac{Mx_{A}x_{B}}{48\pi}\left[\sum_{q}[f_{q}^{A}(x_{A})f_{\bar{q}}^{B}(x_{B})+f_{\bar{q}}^{A}(x_{A})f_{q}^{B}(x_{B})]S_{q}(1+\cos^{2}\theta^{*})\right]~,
+(44)
+where S_{q}, to be defined presently, incorporates the couplings of initial
+and final fermions to the virtual photon and Z. In general there would also
+be a term proportional to \cos\theta^{*}, but it is absent here because
+neither the charged nor the neutral L has an axial-vector coupling to the
+Z^{0}. Specifically, defining
+\Delta_{\alpha}\equiv M^{2}-M_{\alpha}^{2}~,~~\gamma_{\alpha}\equiv M_{\alpha}\Gamma_{\alpha}~,~~D_{\alpha}\equiv(\Delta_{\alpha}^{2}+\gamma_{\alpha}^{2})^{-1}~,
+X_{\alpha\beta}\equiv D_{\alpha}D_{\beta}(\Delta_{\alpha}\Delta_{\beta}+\gamma_{\alpha}\gamma_{\beta})~,
+(45)
+we have (with Greek letters standing for \gamma,Z^{0})
+S_{q}=\sum_{\alpha,\beta}X_{\alpha\beta}(C_{V}^{q,\alpha}C_{V}^{q,\beta}+C_{A}^{q,\alpha}C_{A}^{q,\beta})(C_{V}^{L,\alpha}C_{V}^{L,\beta}+C_{A}^{L,\alpha}C_{A}^{L,\beta})~.
+(46)
+The vector and axial-vector couplings of the initial and final fermions are
+listed in Table IV , where g_{Z}\equiv e/\sqrt{x(1-x)},~x\equiv\sin^{2}\theta_{W}, and -e is the electron charge. We consider only
+contributions of u, d, and s partons and antipartons in the proton.
+Integrating Eq. ( 44 ) over y, \cos\theta^{*}, and M,
+for the example of M(L)=400 GeV, one finds
+\sigma(pp\to L^{+}L^{-}X)=12.4~(13.6,~16.3)~{\rm fb}~,~~\sigma(pp\to L^{0}L^{0}X)=11.3~(12.7,~15.7)~{\rm fb}~,
+(47)
+Table IV: Vector and axial-vector couplings of fermions for L^{+}L^{-} and
+L^{0}\bar{L}^{0} production.
+Fermion
+u quark
+d quark
+L^{-} lepton
+L^{0} lepton
+Boson
+C_{V}
+C_{A}
+C_{V}
+C_{A}
+C_{V}
+C_{V}
+\gamma
+2e/3
+0
+-e/3
+0
+-e
+0
+Z^{0}
+g_{Z}(\frac{1}{4}-2x/3)
+-g_{Z}/4
+g_{Z}(-\frac{1}{4}+x/3)
+g_{Z}/4
+g_{Z}(-\frac{1}{2}+x)
+g_{Z}/2
+where the first values are based on the above expressions. The second set are
+obtained using Madgraph [ 168 ] , which has subroutines for production
+of charginos and neutralinos in the Minimal Supersymmetric Standard Model
+(MSSM). The L^{\pm} may be identified with Higgs-like charginos, while the
+neutral Ls may be identified with Higgs-like neutralinos. The third set,
+CERN Higgsino cross sections at 13 TeV [ 169 ] , includes higher-order
+corrections (“K-factors”) which are seen to be relatively modest.
+The formalism for production of charged exotic lepton pairs via
+virtual W^{\pm} is similar. We list the relevant coupling constants in
+Table V . Here g_{W}=e/\sqrt{x}. The predicted cross sections
+for L\bar{L} production at 13 TeV are shown in Fig. 7 .
+(We believe the cross sections for charged exotic pairs given in Ref. [ 169 ] are high by a factor of 2.)
+Decays of charged and neutral Ls are problematic. The heavier is likely to
+decay via beta-decay to the lighter unless their masses are very close to one
+another. The lighter is likely to decay via mixing with a light lepton
+if \mathbb{Z}_{2} symmetry is broken by a small VEV of \tilde{\nu}_{e} or \tilde{n}^{c} (see Table
+II ). Thus, if the neutral L is lighter, we will have such
+processes as L^{0}\to\ell_{i}^{-}W^{+} and L^{0}\to\nu_{i}Z^{0}, while if
+the charged L is lighter, we will have, e.g., L^{-}\to\ell_{i}^{-}Z^{0}
+and L^{-}\to W^{-}\nu_{i}. Here \ell_{i}^{-}=(e^{-},\mu^{-},\tau^{-}) and \nu_{i}=(\nu_{e},\nu_{\mu},\nu_{\tau}). If the \mathbb{Z}_{2} symmetry is exact, the charged and
+neutral Ls will decay to a \tilde{\nu} or a \tilde{n} and a SM lepton if kinematically
+allowed.
+Table V: Vector and axial-vector couplings of fermions for L^{+}L^{0} and
+L^{-}\bar{L}^{0} Drell-Yan production via W^{*\pm}.
+u\bar{d}
+d\bar{u}
+L^{+}L^{0}
+L^{-}\bar{L}^{0}
+C_{V}
+C_{A}
+C_{V}
+C_{A}
+C_{V}
+C_{V}
+\sqrt{2}g_{W}/4
+-\sqrt{2}g_{W}/4
+\sqrt{2}g_{W}/4
+-\sqrt{2}g_{W}/4
+\sqrt{2}g_{W}/2
+\sqrt{2}g_{W}/2
+Figure 7: Predicted cross sections in fb for production of L\bar{L} pairs by
+proton-proton collisions at \sqrt{s}=13 TeV. Left: Leading-order;
+right: calculation for Higgsinos using Madgraph [ 168 ] .
+The sensitivities of searches for charged and neutral leptons L are highly
+dependent on their decay modes, in which mixing with the light charged and
+neutral leptons plays a key role. (See, e.g., [ 12 ] .) Limits are
+given by ATLAS [ 170 , 171 , 172 , 173 , 174 ] and CMS [ 175 , 176 , 177 , 178 ] at \sqrt{s}=8 TeV, and by CMS [ 179 ] at 13
+TeV. The value M(L^{\pm})=400 GeV which we have quoted above is
+near the allowed lower limit [ 83 ] ; lower limits on heavy
+exotic quark masses are typically twice as large. The associated production
+reactions pp\to(L^{-}\bar{L}^{0},L^{+}L^{0})+X via virtual W exchange are a
+promising way of producing the exotic heavy leptons [ 83 ] .
+Searches should bear in mind the possibility that the exotic leptons of all
+three fermion 27-plets may have masses in the several-hundred-GeV range,
+giving rise to peaks in Z\ell and W\ell mass distributions.
+C. Sterile neutrinos n_{1,2,3}
+A recent treatment of sterile neutrinos within the context of E 6 was
+given in Ref. [ 15 ] . At most two such neutrinos are
+assigned masses in the eV range to improve fits to oscillations and possible
+depletions of reactor fluxes. This leaves one or two of the n_{i} to acquire
+higher masses, possibly in the keV range as a dark matter candidate to account
+for depletion of small-scale structure of the Universe
+[ 180 , 181 , 182 , 183 ]
+or for a weak gamma-ray line at 3.5 keV stemming from decay of a 7 keV neutrino
+[ 184 , 185 ] . We shall not discuss the pros and
+cons of such an assignment here (see [ 186 ] for a thorough
+treatment), as we are concerned mainly with hadron collider signatures.
+In this context one may note that through imposition of
+a discrete \mathbb{Z}_{2} symmetry suppressing the VEVs of the neutral SO(10) 16-plets
+\tilde{\nu} and \tilde{N}^{c}, a n mass may be generated entirely through mixing with
+the exotic leptons L^{0} and \bar{L}^{0} [ 15 ] , and so in
+principle can be large, even reaching the TeV scale. Such mixing would affect
+the decay schemes of charged and neutral leptons L.
+X. DIAGNOSTICS FOR EXTRA Z BOSONS
+Many grand unified theories can have neutral gauge bosons heavier than the
+Z^{0} but still accessible at present hadron collider energies [ 10 , 187 , 188 ] . We update a discussion regarding their
+identification. It was shown in Refs. [ 8 , 9 , 167 , 189 , 190 ] that a good diagnostic tool
+for determining the nature of any Z is the forward-backward asymmetry of
+the lepton pairs to which it decays. In a proton-antiproton collider a
+nonzero asymmetry can occur for lepton pairs integrated over the rapidity y
+of their CM. For a proton-antiproton collider, this asymmetry is an odd
+function of rapidity, so it must be displayed as a function of y.
+The Z_{N} is that linear combination Z_{N}=-(\sqrt{15}/4)Z_{\psi}-(1/4)Z_{\chi}
+[cf. Eq. ( 2 )] to which left-handed antineutrinos do not couple.
+Consequently, they do not contribute to a triangle anomaly involving the Z_{N},
+and hence are free to acquire large Majorana masses. The forward-backward
+asymmetries for a number of different Z^{\prime}s with masses 3 and 4 TeV at
+\sqrt{s}=13 TeV are displayed in Fig. 8 . The Z_{\psi} has
+purely axial-vector couplings to SM particles, explaining the absence of its
+asymmetry. While the Z_{N} contains much more Z_{\psi} than Z_{\chi},
+it does exhibit some asymmetry, about equal in magnitude and opposite in sign
+to that of a Z with SM couplings. The asymmetries for M(Z^{\prime})=4 TeV have
+nearly the same shape as those for M(Z^{\prime})=3 TeV but in a compressed range of
+y.
+To calculate forward-backward asymmetries A_{FB} in leptonic decays of a Z
+one needs quark distribution functions q(x)\equiv xf_{q}(x) and left- and
+right-handed couplings to the Z for quarks and leptons. We consider only u
+and d quarks (s quarks contribute at most a few percent to cross sections
+and asymmetries). Let the right-moving proton contribute a parton with momentum
+fraction x_{1}, while the left-moving proton contributes a parton with momentum
+fraction x_{2}. These are related to the rapidity y of the parton-parton
+CM (which is also the final dilepton CM rapidity) by
+x_{1}=\sqrt{\hat{s}/s}~e^{y}~,~~x_{2}=\sqrt{\hat{s}/s}~e^{-y}~,
+(48)
+where \hat{s} is the square of the effective mass of the parton-parton
+or dilepton system. (We neglect transverse momenta.) Then
+A_{FB}=\sigma_{F-B}/\sigma_{F+B}, where
+\sigma_{F-B}=C\{[(u(x_{1})\bar{u}(x_{2})-u(x_{2})\bar{u}(x_{1})][L_{u}^{2}-R_{u}^{2}][L_{\ell}^{2}-R_{\ell}^{2}]+(u\to d)\}~,
+(49)
+\sigma_{F+B}=C\{[(u(x_{1})\bar{u}(x_{2})+u(x_{2})\bar{u}(x_{1})][L_{u}^{2}+R_{u}^{2}][L_{\ell}^{2}+R_{\ell}^{2}]+(u\to d)\}~,
+(50)
+with C a common constant and L,R denoting left- and right-handed couplings.
+Only the ratios of these couplings are important, so we quote them without
+normalization. The couplings are shown in Table VI ; we take x=0.2315. For the Z_{\psi}, Z_{\chi}, and Z_{N} we use the charges in Table
+I , with suitable sign changes Q(f_{R})=-Q(f^{c}_{L}).
+Figure 8: Forward-backward asymmetries for several different Zs of mass 3
+(left) and 4 (right) TeV.
+Table VI: Left- and right-handed couplings of u quarks, d quarks, and SM
+charged leptons \ell to various Zs.
+Z type
+L_{u}
+R_{u}
+L_{d}
+R_{d}
+L_{\ell}
+R_{\ell}
+SM
+\frac{1}{2}-\frac{2}{3}x
+-\frac{2}{3}x
+-\frac{1}{2}+\frac{1}{3}x
+\frac{1}{3}x
+-\frac{1}{2}+x
+x
+Z_{\chi}
+–1
+1
+–1
+–3
+3
+1
+Z_{\psi}
+1
+–1
+1
+–1
+1
+–1
+Z_{N}
+–1
+1
+–1
+2
+–2
+1
+A sufficiently heavy Z_{N} can decay to all the pairs listed in Table
+I , diluting its branching fraction to SM particles and eroding
+the lower bounds on its mass. For example, whereas ATLAS places a 95%
+confidence-level lower limit of 4.05 TeV on the mass of a SM Z^{\prime} based
+on 13.3 fb -1 at 13 TeV [ 109 ] , and correspondingly weaker bounds
+for Z_{\chi} and Z_{\psi}, these bounds assume only decays to SM particles.
+The same assumption is made by CMS in placing a lower bound of 4.0 TeV on the
+mass of Z^{\prime} [ 110 ] . Suppose all channels in Table I are
+open (including right-handed neutrinos). Then the fraction r of decays to
+pairs of the SO(10) 16-plet for a Z(\theta)\equiv Z_{\psi}\cos\theta+Z_{\chi}\sin\theta takes the form r=(2/9)+(2/9)\sin^{2}\theta, i.e., (2/9)\leq r\leq(4/9). The exotic SO(10) 10-plet and singlet members thus can
+affect the reach of Z^{\prime} searches. The mass of Z^{\prime} and a way to escape the
+search bounds for the current model are discussed in Sec. IV.
+XI. FUTURE PROJECTIONS
+In the previous sections, we discussed the detection signatures and properties
+of the electroweak and TeV scale fermions, scalars, and vectors bosons, as well
+as the individual constraints on their masses. The next pertinent question is
+how the discovery or non-discovery of any one type of the above will affect the
+constraints on the mass spectra of the other types. Another question is whether
+such a discovery will exclude the model in some parameter region. In the
+following, we quantify these questions for the minimal scenario of three
+fermion and one scalar generation of 27-plets of E 6 in the matter sector.
+Discovery of a \gamma\gamma resonance will fix the mass and the cross section,
+which will fix the value of \langle\tilde{n}\rangle in this model according
+to Eq. ( 40 ). Therefore, Eq. ( 21 ) would determine
+the value of b_{17}. Fig. 2 can be used to put bounds on the
+allowed Yukawa couplings for the exotic quarks and leptons.
+In the left panel of Fig. 9 , the [red] dashed contours show the
+minimum value of b_{17} required to avoid an unstable potential. As expected,
+it increases with increasing Yukawa coupling because Yukawa contributions y
+to the RGE of b_{17} are proportional to -y^{4}. After choosing a point in
+this plane, the [red] dashed contour value at that point tells the minimum
+b_{17} necessary for the stability at that point. In order to calculate the
+upper bound of allowed b_{17} at that point, we need the difference between
+the upper and lower bound. That difference is given by the [color or] position
+of the shaded region. For example, the inner [orange] region corresponds to the
+difference between the allowed upper and lower bound of at least 0.8.
+Similarly the middle [yellow] region implies that the allowed values of
+b_{17} are 0.5 to 0.8 more than the minimum values required by the
+stability condition as indicated by the [red] dashed contour. Finally in the
+outer [green] region the difference between the allowed upper and lower bound
+on b_{17} can vary between 0.1 to 0.5.
+Thus discovery of a \gamma\gamma resonance will lead to fixing of b_{17}
+which can be readily
+used to fix the upper and lower bounds on fermion masses using the left panel of Fig. 9 . Calculations leading to this figure forbid Yukawa
+values above 1.3, putting a tight upper bound on the fermion discovery.
+If a Z_{N} is discovered before the rest of the spectrum, the constraint is
+reversed implying a very high value of \langle\tilde{n}\rangle, thus fixing
+the rest of the mass spectrum at a similar scale. In the right panel of
+Fig. 9 , the boundary of the shaded [light blue] region corresponds
+to the minimum value of b_{17} allowed by stability conditions thus excluding
+the shaded [light blue] region left of this line. Therefore, a Z_{N} discovery
+will put a lower bound on the mass of the scalar \tilde{n}. As m_{Z_{N}}
+essentially fixes \langle\tilde{n}\rangle, each point in the
+m_{Z_{N}}-m_{\gamma\gamma} space has a fixed value of allowed b_{17}, which
+can be used to bound the fermion masses using the left panel of
+Fig. 9 . These upper bounds on the fermion masses are shown in the
+right panel of Fig. 9 with [red] solid contours for exotic quarks
+and [green] dashed contours for exotic leptons. Contour labels indicate the
+masses of fermions in TeV. Thus the masses of Z_{N} and \gamma\gamma
+resonances can fix an upper bound on the fermion masses, leading to exclusion
+of the minimal scenario if a heavier fermion is discovered.
+Figure 9: Left: Dashed [red] contours correspond to minimum required
+value of b_{17} for stability. Shaded [colored] backgrounds with boundaries
+labeled by boxed numbers indicate the total range
+of b_{17} values, i.e., the difference between maximum and minimum values of
+b_{17} allowed at that point. The inner [orange] region corresponds to the
+range of at least 0.8 above the minimum value given by the [red] dashed
+contour. The middle [yellow] region implies that the allowed b_{17} values
+are 0.5 to 0.8 more than the minimum values required by the stability
+condition as indicated by the [red] dashed contour. The outer [green] region
+denotes the corresponding range of 0.1 to 0.5. Right: Shaded
+[light blue] region excluded by stability constraints. Solid [red] contours
+indicate maximum exotic quark mass allowed in TeV. Dashed [green] contours
+indicate maximum exotic lepton mass allowed in TeV.
+If an exotic fermion with mass M is discovered first, that will introduce a
+lower bound on the value of \langle\tilde{n}\rangle of about M
+due to the upper bound on the Yukawa couplings of ~1.3. This will set a lower
+bound on the mass of Z_{N} and a corresponding lower bound on the mass of an
+observble \gamma\gamma resonance. Discovery of either of these below these
+bounds will exclude this minimal scenario. The model can be rescued by adding
+another generation of scalars, which has a required SO(10) singlet to give a
+mass to the Z_{N} boson, thus decoupling it from the rest of the constraints.
+Forunately, searches at the LHC continue to progress, as exemplified by the
+recent ATLAS [ 40 , 112 , 148 , 149 ] and CMS [ 151 , 152 , 153 , 154 ] results quoted here. In the absence of a new discovery,
+Fig. 2 also shows the dashed [red] contours with labels
+indicating the integrated luminosities at the LHC. The regions to the left of
+these type of contours are excluded, if the LHC run up to the indicated
+luminosity does not find any \gamma\gamma resonance. The remaining viable
+parameter space can be further reduced using the lower bounds on
+\langle\tilde{n}\rangle coming from the non-discovery of a Z_{N} boson and
+exotic fermions.
+XII. CONCLUSIONS
+We have discussed some signatures for TeV-scale physics and for dark matter
+candidates of an E 6 scheme. One prediction of this framework is the
+existence of a weak isosinglet scalar particle \tilde{n} belonging to the same
+27-plet as the SM Higgs boson. This picture necessarily requires there to be
+a second Higgs boson (not discussed further here) as in all other
+two-Higgs-doublet models. The E 6 scheme entails a number of predictions
+testable in continued LHC operation at \sqrt{s}=13 TeV. These include
+exotic weak isosinglet vector-like quarks “D” with charges \mp 1/3, and
+exotic weak isodoublet leptons L_{1}^{-},~L_{1}^{0},~{L_{2}^{0}}^{c}, and L_{2}^{+}. The
+quarks and leptons should have masses at the TeV scale if those masses are
+generated by the VEV of \tilde{n}. Suggestions for observing them at the LHC
+have been made. There should be a several-TeV-scale Z_{N} (not coupling to
+right-handed neutrinos) whose leptonic decays should exhibit a characteristic
+forward-backward asymmetry, odd in rapidity of the dilepton system.
+The branching ratios of \tilde{n} to \gamma\gamma,~Z\gamma,~ZZ, and WW should be
+in definite ratios 1:0.24:2.08:5.32, affording the possibility of early
+confirmation or refutation of the model. We also demonstrated how the discovery
+of any of the exotic fermions, bosons or scalar in the minimal scenario of
+three fermion generations and a scalar generation can tightly constrain the
+rest of the mass spectrum and exclude or strengthen the evidence for an
+E 6 scenario based on a subseqent discovery.
+ACKNOWLEDGMENTS
+We thank Carl Albright, Jun Gao, Sam Harper, Boaz Klima, Joe Lykken, Petra
+Merkel, Pavel Nadolsky, Jim Pilcher, Chris Quigg, Michael
+Ratz, Tom Rizzo, Lian-Tao Wang, and Carlos Wagner for helpful comments. This
+work was supported in part by the United States Department of Energy through
+Grant No. DE FG02 13ER41958. J.L.R. thanks the Mainz Institute
+for Theoretical Physics (MITP), the Università di Napoli Federico II, and
+INFN for its hospitality and its partial support during a portion of this work.
+MITP is part of the Excellence Cluster PRISMA (EXC 1098) funded by the German
+Research Foundation (Deutsche Forschungsgemeinschaft).
+APPENDIX A: Decomposition of 27-plet, 78-plet and 351^{\prime}-plet
+The decomposition of the 27-plet, 78-plet and 351^{\prime}-plet into the components
+invariant under lower-ranked symmetry groups is shown below
+[ 105 ] . U(1)_{\psi} charges are noted in square brackets,
+U(1)_{\chi} charges in the brackets, and U(1)_{N} charges in parentheses.
+First, E_{6}\rightarrow SO(10)\times U(1)_{\psi} breaking leads to the following
+decomposition of the E_{6}-invariant multiplets:
+\displaystyle 27
+\displaystyle=1[4]+10[-2]+16[1]
+\displaystyle 78
+\displaystyle=1[0]+16[-3]+\overline{16}[3]+45[0]
+\displaystyle 351^{\prime}
+\displaystyle=1[-8]+10[-2]+\overline{16}[-5]+54[4]+\overline{126}[-2]+144[1]
+(51)
+Next, SO(10)\times U(1)_{\psi}\rightarrow SU(5)\times U(1)_{\chi}\times U(1)_{\psi}
+breaking leads to the decomposition of the SO(10) invariant multiplets. The
+original E_{6}-invariant multiplets can now be written as the following
+U(1)_{\psi}\times SU(5)\times U(1)_{\chi} components:
+\displaystyle 27
+\displaystyle=[4]1\left\{0\right\}+[-2]5\left\{2\right\}+[-2]\overline{5}\left\{-2\right\}+[1]1\left\{-5\right\}+[1]\overline{5}\left\{3\right\}+[1]10\left\{-1\right\}
+\displaystyle 78
+\displaystyle=[0]1\left\{0\right\}+[-3]1\left\{-5\right\}+[-3]\overline{5}\left\{3\right\}+[-3]10\left\{-1\right\}+[3]\overline{1}\left\{5\right\}+[3]5\left\{-3\right\}+[3]\overline{10}\left\{1\right\}
+\displaystyle+[0]1\left\{0\right\}+[0]10\left\{4\right\}+[0]\overline{10}\left\{-4\right\}+[0]24\left\{0\right\}
+\displaystyle 351^{\prime}
+\displaystyle=[-8]1\left\{0\right\}+[-2]5\left\{2\right\}+[-2]\overline{5}\left\{-2\right\}+[-5]\overline{1}\left\{5\right\}+[-5]5\left\{-3\right\}+[-5]\overline{10}\left\{1\right\}
+\displaystyle+[4]15\left\{4\right\}+[4]\overline{15}\left\{-4\right\}+[4]24\left\{0\right\}
+\displaystyle+[-2]\overline{1}\left\{10\right\}+[-2]5\left\{2\right\}+[-2]\overline{10}\left\{6\right\}+[-2]15\left\{-6\right\}+[-2]\overline{45}\left\{-2\right\}+[-2]45\left\{2\right\}
+\displaystyle+[1]\overline{5}\left\{3\right\}+[1]5\left\{7\right\}+[1]10\left\{-1\right\}+[1]15\left\{-1\right\}+[1]24\left\{-5\right\}+[1]40\left\{-1\right\}+[1]\overline{45}\left\{3\right\}
+(52)
+Finally, SU(5)\times U(1)_{\chi}\times U(1)_{\psi}\rightarrow SU(5)\times U(1)_{N}
+results in the following charge allocations:
+\displaystyle 27
+\displaystyle=1(-5)+5(2)+\overline{5}(3)+1(0)+\overline{5}(-2)+10(-1)
+\displaystyle 78
+\displaystyle=1(0)+1(5)+\overline{5}(3)+10(4)+\overline{1}(-5)+5(-3)+\overline{10}(-4)
+\displaystyle+1(0)+10(-1)+\overline{10}(1)+24(0)
+\displaystyle 351^{\prime}
+\displaystyle=1(10)+5(2)+\overline{5}(3)+\overline{1}(5)+5(7)+\overline{10}(6)
+\displaystyle+15(-6)+\overline{15}(-4)+24(-5)
+\displaystyle+\overline{1}(0)+5(2)+\overline{10}(1)+15(4)+\overline{45}(3)+50(2)
+\displaystyle+\overline{5}(-2)+5(-3)+10(-1)+15(-1)+24(0)+40(-1)+\overline{45}(-2)
+(53)
+These results are summarized in Tables VII – XI .
+Table VII: Members of 27-plet of E 6 , their SO(10) and SU(5)
+representations, and their U(1) charges. The weak hypercharge Y_{W} is
+equal to 2(Q-I_{3L}). Mass scale refers to scalar members. MTeV =
+multi-TeV.
+SO(10),
+2\sqrt{6}~Q_{\psi}
+2\sqrt{10}~Q_{\chi}
+2\sqrt{10}~Q_{N}
+SU(3) c
+SU(2) L
+Y_{W}
+Mass
+SU(5)
+scale
+16,\overline{5}
+1
+3
+–2
+\overline{3}
+1
+2/3
+GUT
+1
+2
+–1
+TeV
+16,10
+–1
+–1
+\overline{3}
+1
+–4/3
+GUT
+3
+2
+1/3
+GUT
+1
+1
+2
+GUT
+16,1
+–5
+0
+1
+1
+0
+TeV
+10,\overline{5}
+–2
+–2
+3
+\overline{3}
+1
+2/3
+GUT
+1
+2
+–1
+EW/TeV
+10,5
+2
+2
+3
+1
+–2/3
+GUT
+1
+2
+1
+EW/TeV
+1,1
+4
+0
+–5
+1
+1
+0
+TeV/MTeV
+Table VIII: Members of 78-plet of E 6 , their SO(10) and SU(5)
+representations, and their U(1) charges. The weak hypercharge Y_{W} is
+equal to 2(Q-I_{3L}). Masses are at GUT scale for all scalar members.
+SU(5) singlets in 16 and \overline{16} of SO(10) do not get VEVs in order to
+preserve the U(1) N down to multi-TeV scale.
+SO(10),
+2\sqrt{6}~Q_{\psi}
+2\sqrt{10}~Q_{\chi}
+2\sqrt{10}~Q_{N}
+SU(3) c
+SU(2)_{L}
+Y_{W}
+SU(5)
+45,24
+0
+0
+0
+8
+1
+0
+1
+3
+0
+3
+2
+–5/3
+\overline{3}
+2
+5/3
+1
+1
+0
+45,10
+4
+–1
+3
+2
+1/3
+\overline{3}
+1
+–4/3
+1
+1
+2
+45,\overline{10}
+–4
+1
+\overline{3}
+2
+–1/3
+3
+1
+4/3
+1
+1
+–2
+45,1
+0
+0
+1
+1
+0
+16,\overline{5}
+–3
+3
+3
+\overline{3}
+1
+2/3
+1
+2
+–1
+16,10
+–1
+4
+\overline{3}
+1
+–4/3
+3
+2
+1/3
+1
+1
+2
+16,1
+–5
+5
+1
+1
+0
+\overline{16},5
+3
+–3
+–3
+3
+1
+–2/3
+1
+2
+1
+\overline{16},\overline{10}
+1
+–4
+3
+1
+4/3
+\overline{3}
+2
+–1/3
+1
+1
+–2
+\overline{16},1
+5
+–5
+1
+1
+0
+1,1
+0
+0
+0
+1
+1
+0
+Table IX: Members of 351^{\prime}-plet of E 6 , their SO(10) and SU(5)
+representations, and their U(1) charges. The weak hypercharge Y_{W} is
+equal to 2(Q-I_{3L}). Masses are at GUT scale for all the members.
+SO(10),
+2\sqrt{6}~Q_{\psi}
+2\sqrt{10}~Q_{\chi}
+2\sqrt{10}~Q_{N}
+SU(3) c
+SU(2) L
+Y_{W}
+SU(5)
+144,\overline{45}
+1
+3
+–2
+8
+2
+–1
+6
+1
+2/3
+3
+2
+7/3
+3
+1
+–8/3
+\overline{3}
+3
+2/3
+\overline{3}
+1
+2/3
+1
+2
+–1
+144,40
+–1
+–1
+\overline{6}
+2
+1/3
+8
+1
+2
+\overline{3}
+3
+–4/3
+\overline{3}
+1
+–4/3
+3
+2
+1/3
+1
+2
+–3
+144,24
+–5
+0
+8
+1
+0
+3
+2
+–5/3
+\overline{3}
+2
+5/3
+1
+3
+0
+1
+1
+0
+144,15
+–1
+–1
+6
+1
+–4/3
+3
+2
+1/3
+1
+3
+2
+144,10
+–1
+–1
+3
+2
+1/3
+\overline{3}
+1
+–4/3
+1
+1
+2
+144,5
+7
+–3
+3
+1
+–2/3
+1
+2
+1
+144,\overline{5}
+3
+–2
+\overline{3}
+1
+2/3
+1
+2
+–1
+Table X: Members (contd.) of 351^{\prime}-plet of E 6 , their SO(10) and
+SU(5) representations, and their U(1) charges. Masses are at GUT scale for all the members.
+SO(10),
+2\sqrt{6}~Q_{\psi}
+2\sqrt{10}~Q_{\chi}
+2\sqrt{10}~Q_{N}
+SU(3) c
+SU(2) L
+Y_{W}
+SU(5)
+\overline{126},50
+–2
+2
+2
+8
+2
+1
+6
+1
+8/3
+\overline{6}
+3
+–2/3
+\overline{3}
+2
+–7/3
+3
+1
+–2/3
+1
+1
+–4
+\overline{126},\overline{45}
+–2
+3
+8
+2
+–1
+6
+1
+2/3
+3
+2
+7/3
+3
+1
+–8/3
+\overline{3}
+3
+2/3
+\overline{3}
+1
+2/3
+1
+2
+–1
+\overline{126},15
+–6
+4
+6
+1
+–4/3
+3
+2
+1/3
+1
+3
+2
+\overline{126},\overline{10}
+6
+1
+\overline{3}
+2
+–1/3
+3
+1
+4/3
+1
+1
+–2
+\overline{126},5
+2
+2
+3
+1
+–2/3
+1
+2
+1
+\overline{126},1
+10
+0
+1
+1
+0
+Table XI: Members (contd.) of the 351^{\prime}-plet of E 6 , their SO(10) and SU(5)
+representations, and their U(1) charges. SU(2) triplet and SU(3) octet are
+contained in 54 of SO(10), while diquarks are contained in 54 of SO(10) and
+\overline{16} of SO(10) as indicated below with mass scale marked as MTeV.
+SM singlets in (54,24) and (\overline{16},1) cannot get VEVs in order to
+preserve U(1)_{N} symmetry down to the MTeV scale.
+SO(10),
+2\sqrt{6}~Q_{\psi}
+2\sqrt{10}~Q_{\chi}
+2\sqrt{10}~Q_{N}
+SU(3) c
+SU(2) L
+Y_{W}
+Mass
+SU(5)
+scale
+54,15
+4
+4
+–6
+6
+1
+–4/3
+GUT
+3
+2
+1/3
+MTeV a
+1
+3
+2
+GUT
+54,\overline{15}
+–4
+–4
+\overline{6}
+1
+4/3
+GUT
+\overline{3}
+2
+–1/3
+GUT
+1
+3
+–2
+GUT
+54,24
+0
+–5
+8
+1
+0
+MTeV b
+3
+2
+–5/3
+GUT
+\overline{3}
+2
+5/3
+GUT
+1
+3
+0
+MTeV c
+1
+1
+0
+GUT
+\overline{16},\overline{10}
+–5
+1
+6
+\overline{3}
+2
+–1/3
+MTeV a
+3
+1
+4/3
+GUT
+1
+1
+–2
+GUT
+\overline{16},5
+–3
+7
+3
+1
+–2/3
+GUT
+1
+2
+1
+GUT
+\overline{16},1
+5
+5
+1
+1
+0
+GUT
+10,\overline{5}
+–2
+–2
+3
+\overline{3}
+1
+2/3
+GUT
+1
+2
+–1
+GUT
+10,5
+2
+2
+3
+1
+–2/3
+GUT
+1
+2
+1
+GUT
+1,1
+–8
+0
+10
+1
+1
+0
+MTeV d
+a Diquark b Color SU(3) octet c Weak SU(2) triplet
+d SO(10) singlet
+APPENDIX B: Details of (pseudo)scalar potentials
+For the case of a=0 and a new pseudoscalar as the Goldstone boson of
+U(1)_{N}, from Eq. ( 13 ) we get
+\displaystyle b_{15}v_{d}^{2}+b_{14}v_{u}^{2}+b_{3}\langle\tilde{n}\rangle^{2}+m_{3}^{2}
+\displaystyle=0
+(54)
+\displaystyle b_{14}v_{d}^{2}+b_{16}v_{u}^{2}+b_{4}\langle\tilde{n}\rangle^{2}+m_{4}^{2}
+\displaystyle=m_{A}^{2}
+(55)
+\displaystyle b_{3}{v_{d}}^{2}+b_{4}{v_{u}}^{2}+b_{17}\langle\tilde{n}\rangle^{2}+m_{5}^{2}
+\displaystyle=0
+(56)
+Substituting these back in Eq. ( 11 ), we get
+\displaystyle\mathcal{M}_{Ln}^{s}
+\displaystyle=\begin{pmatrix}2b_{15}v_{d}^{2}&2b_{14}v_{u}v_{d}&2b_{3}v_{d}\langle\tilde{n}\rangle\\
+2b_{14}v_{u}v_{d}&2b_{16}v_{u}^{2}+m_{A}^{2}&2b_{4}v_{u}\langle\tilde{n}\rangle\\
+2b_{3}v_{d}\langle\tilde{n}\rangle&2b_{4}v_{u}\langle\tilde{n}\rangle&2b_{17}\langle\tilde{n}\rangle^{2}\\
+\end{pmatrix}
+(57)
+This structure implies that the strength of mixing between singlet and doublet
+is proportional to b_{3}, b_{4} and \langle\tilde{n}\rangle. For a scalar
+(not pseudoscalar) \tilde{n}, the small mixing then would imply
+\displaystyle b_{17}\sim\frac{m_{\tilde{n}}^{2}}{2\langle\tilde{n}\rangle^{2}}.
+(58)
+For m_{\tilde{n}}\sim{\cal O}(TeV) this would make b_{17}\sim 1, requiring b_{3}
+and b_{4} to be constrained to limit the mixing. Making the spinless candidate
+a pseudoscalar by adding another scalar, this term in the mass matrix becomes
+m_{\tilde{n}}^{2}+2b_{17}\langle\tilde{n}\rangle^{2}. In addition, b_{17} is now free to take on
+higher values leading to decoupling of the singlet and relaxation of the
+constraints on b_{3} and b_{4}.
+APPENDIX C: Details of renormalization group evolution and unification
+C.1. Gauge couplings
+The model has U(1)_{Y}\times SU(2)_{L}\times SU(3)_{c}\times U(1)_{N} symmetry at the
+TeV scale before spontaneous breaking. The 1-loop RG equations corresponding to
+the gauge coupling constants (g_{i}) are [ 191 ]
+\displaystyle\frac{d\alpha_{i}^{-1}}{dt}
+\displaystyle=-\frac{b_{i}}{2\pi}
+(59)
+where \alpha_{i}=\frac{g_{i}^{2}}{4\pi}, t=\log(\Lambda/GeV).
+Figure 10: RGE for the gauge couplings. Dashed : SM, Solid :
+E 6 model with three 27-plet fermions + one 27-plet scalar + one 78-plet
+scalar + one 351^{\prime}-plet scalar, Black (Upper-most solid):
+\alpha_{N}^{-1} of U(1)_{N}, Red (second from the top for solid,
+top-most for dashed at low energies): \alpha_{1}^{-1} of U(1)_{Y},
+Green (third from the top for solid, second from the top for dashed
+at low energies): \alpha_{2}^{-1} of U(2) L , Blue (third from the
+top for solid, third from the top for dashed at low energies): \alpha_{3}^{-1}
+of U(3) c . The vertical line corresponds to the experimental lower bound on
+the Z_{N} mass.
+For the SM, we have
+\displaystyle b_{1}
+\displaystyle=\frac{41}{10},\quad b_{2}=-\frac{19}{6},\quad b_{3}=-7.
+(60)
+In the E 6 model with N_{f} generations of fermions and N_{s} generations of
+scalars of 27-plets, we obtain
+\displaystyle b_{1}
+\displaystyle=2\left(N_{f}+\frac{N_{s}}{2}\right),\quad b_{2}=2\left(N_{f}+\frac{N_{s}}{2}\right)-\frac{22}{3},
+\displaystyle b_{3}
+\displaystyle=2\left(N_{f}+\frac{N_{s}}{2}\right)-11,\quad b_{N}=2\left(N_{f}+\frac{N_{s}}{2}\right)
+(61)
+The scalar 27-plet generation contributes half of that of a fermion generation,
+as it has half the number of degrees of
+freedom compared to a Weyl fermion. The above values take into account the full
+scalar generation. In order to avoid violation of proton decay bounds, we set
+the colored scalar masses >10^{16} GeV for the 27-plet scalar generation. All
+of the 78-plet scalar resides at the GUT scale so it does not contribute to the
+low-energy evolution of the gauge couplings. For the 351^{\prime}-plet scalar, as
+described in Sec. II and Appendix A, two copies of diquark, an SU(2) triplet,
+an SU(3) octet, and an SO(10) singlet reside at the MTeV scale as indicated in
+Table XI of Appendix A.
+In making Fig. 10 , for simplicity, we assume that all of the
+27-plet exotic fermions and low-energy components of the 27-plet scalar marked
+with mass scale other than GUT in Table VII are
+below or close to 1 TeV so we include those in the running of the couplings
+from 1 TeV to 10 TeV. That gives
+\displaystyle b_{1}
+\displaystyle=\left(2\,N_{f}+\frac{3}{10}\right)=\frac{63}{10},\quad b_{2}=\left(2\,N_{f}-\frac{22}{3}+\frac{1}{2}\right)=-\frac{5}{6},
+\displaystyle b_{3}
+\displaystyle=\left(2\,N_{f}-11\right)=-5,\quad b_{N}=\left(2\,N_{f}+\frac{59}{120}\right)=\frac{779}{120}.
+(62)
+The rest of the low energy states are assumed to reside above 1 TeV but
+below or around 10 TeV marked as the MTeV mass scale in Table XI
+in making Fig. 10 . Under the above conditions, the one-loop beta
+functions for the evolution from 10 TeV to the GUT scale are given as
+\displaystyle b_{1}
+\displaystyle=\left(2\,N_{f}+\frac{3}{10}+2\left(\frac{1}{30}\right)\right)=\frac{191}{30},\quad b_{2}=\left(2\,N_{f}-\frac{22}{3}+\frac{1}{2}+2\left(\frac{1}{2}\right)+\frac{2}{3}\right)=\frac{5}{6},
+\displaystyle b_{3}
+\displaystyle=\left(2\,N_{f}-11+2\left(\frac{1}{3}\right)+1\right)=-\frac{10}{3},\quad b_{N}=\left(2\,N_{f}+\frac{59}{120}+2\left(\frac{9}{5}\right)+\frac{55}{24}+\frac{5}{6}\right)=\frac{793}{60}.
+(63)
+Figure 10 shows the SM gauge RG evolution along with that for the
+current model where red (second from the top solid), green (third from the top
+solid) and blue (lower-most solid) lines correspond to U(1) Y , SU(2) L , and
+SU(3) c , respectively. The black (upper-most solid) line corresponds to
+U(1) N evolution. It is evolved to lower energies starting from the
+unification point. Its intersection with the lower bound on the Z_{N} mass is
+used in Sec. IV to derive a lower bound of 6.6 TeV on the VEV of the
+SO(10) singlet that breaks the U(1) N symmetry at the TeV scale.
+The unification in Fig. 10 occurs at 8\times 10^{15} GeV, above
+the lower bound on the unification scale
+imposed by SuperKamiokande [ 113 ] . Thus as mentioned before
+all the additional particles that could facilitate proton decay can reside at
+this energy scale and the symmetry breaking from E 6 down to SM \otimes
+U(1) N can occur at this scale via VEVs as described in Sec. II and Appendix
+A in a manner compatible with experiment. This demonstration of the unification
+is only at the one-loop level and with simplifications assumed in the evolution
+as mentioned above. Higher-order loops and threshold corrections will alter the
+scale at which unification occurs.
+At the electroweak scale, the only constraint on the running coupling constant
+g_{N} is that of an upper bound coming from the precise measurement of the Higgs
+boson mass which prevents large mixing in the gauge boson mass matrix. If we
+change the high energy constraint on g_{N} in Fig. 10 to demand
+unification, that will shift the top-most solid (black) line in the direction
+of higher
+\alpha_{N}^{-1} values, thus further reducing the value of g_{N} at the
+electroweak scale which would be allowed by the Z mass constraints. Also,
+such an upward shift will always push the Landau pole to higher energies than
+the Planck scale Landau pole case. Thus, g_{N} can always be unified with the
+other three coupling constants provided the other three have enough corrections
+due to the extra mass above the proton decay scale to enable their unification.
+C.2. Yukawa and quartic couplings
+The 1-loop renormalization group equations for the Yukawa couplings in this
+model can be computed to give the following for the new Yukawa
+couplings [ 192 , 193 ] associated with the vector-like quarks
+(y_{D}) and (y_{L}):
+\displaystyle 16\pi^{2}\frac{dy_{D}}{dt}
+\displaystyle=y_{D}\left[\frac{9}{2}y_{D}^{2}+2y_{L}^{2}-8g_{3}^{2}-\frac{2}{5}g_{1}^{2}-\frac{39}{40}g_{N}^{2}\right],
+(64)
+\displaystyle 16\pi^{2}\frac{dy_{L}}{dt}
+\displaystyle=y_{L}\left[3y_{D}^{2}+\frac{7}{2}y_{L}^{2}-\frac{9}{2}g_{2}^{2}-\frac{9}{10}g_{1}^{2}-\frac{39}{40}g_{N}^{2}\right],
+(65)
+where t=\ln(\Lambda/GeV). The computation can be simplified in the Landau
+gauge as noted in [ 192 ] .
+Figures 11 and 12 show the running of the Yukawa
+couplings when the
+g_{N} value at 3 TeV is set to be the one required by the one-loop unification as
+shown in Fig. 10 . Thus this ensures unification as well as the
+Landau pole being higher than the Planck scale. The initial condition imposed
+for the running of the Yukawa coupling is
+y_{i}(m_{i})=\frac{m_{i}}{\langle\tilde{n}\rangle}. For \langle\tilde{n}\rangle=1
+TeV, we show the evolution of couplings for m_{D}=950 GeV and m_{L}=950 GeV
+with electroweak value of 1.4 for b_{17} in Fig. 11 and for
+m_{D}=1300 GeV and m_{L}=200 GeV with electroweak value of 2.1 for b_{17}
+in Fig. 12 .
+The values of the Yukawa couplings are chosen to demonstrate the maximum
+possible values under the condition y_{L}=y_{D} (Fig. 11 ) and maximize the
+allowed y_{D} for the lowest m_{L} allowed by the experiments (Fig. 12 ).
+The LEP bounds on charged particle searches are \sim 100 GeV, while the stau
+searches at the LHC do not produce bounds stronger than 200
+GeV [ 194 , 195 ] . Therefore, we are allowed to go as
+low as y_{L}=0.2 for \langle\tilde{n}\rangle=1 TeV to maximize the allowed
+y_{D}. As can be seen, any increase in the masses, i.e., Yukawa coupling values
+near the electroweak scale will lead to Landau poles in Yukawa couplings below
+10^{16} GeV.
+Similarly reduction in values of the quartic coupling b_{17}
+will make the potential unstable below the GUT scale, and an increase in the
+electroweak scale value of b_{17} will lead to a Landau pole below the GUT
+scale. The difference between this maximum value of b_{17} allowed by one loop
+perturbativity constraints and minimum value allowed by the stability
+constraint increases for smaller values of the Yukawa couplings as shown by the
+colored regions in the left panel of Fig. 9 .
+Figure 11: RGE for the Yukawa couplings when g_{N} at MTeV scale is set to be the value required by unification. Dashed curves (upper to lower) correspond to g_{3} (blue), g_{2} (green), g_{1} (red) and g_{N} (black). Solid curves (upper to lower) correspond to b_{17}
+(yellow), y_{L} (orange) and y_{D} (teal). Electroweak scale Yukawa couplings
+are y_{D}=0.95, y_{L}=0.95 and quartic b_{17}=1.4.
+Finally, we note that owing to the large Q_{N} charges of -5/\sqrt{40}, \pm 6/\sqrt{40} and 10/\sqrt{40}, the low-energy degrees of freedom belonging to
+the 351^{\prime}-plet do not contribute to the Yukawa vertex at one-loop level, and
+hence do not affect the Yukawa evolution at that level.
+Figure 12: RGE for the Yukawa couplings when g_{N} at MTeV scale is set to be the value required by unification. Dashed curves (upper to lower) correspond to g_{3} (blue), g_{2}
+(green), g_{1} (red) and g_{N} (black). Solid curves (upper to lower) correspond to
+b_{17} (yellow), y_{D} (teal) and y_{L} (orange). Electroweak scale Yukawa
+couplings are y_{D}=1.3, y_{L}=0.2, b_{17}=2.1.
+References
+[1]
+H. Georgi and S. L. Glashow,
+Phys. Rev. Lett. 32 , 438 (1974).
+[2]
+H. Georgi,
+AIP Conf. Proc. 23 , 575 (1975).
+[3]
+H. Fritzsch and P. Minkowski,
+Annals Phys. 93 , 193 (1975).
+[4]
+F. Gursey, P. Ramond and P. Sikivie,
+Phys. Lett. B 60 , 177 (1976).
+[5]
+P. Minkowski, Phys. Lett. 67B , 421 (1977);
+M. Gell-Mann, P. Ramond, and R. Slansky, in Supergravity , edited by
+D. Freedman and P. Van Nieuwenhuizen, North-Holland, Amsterdam, 1979, pp. 315–321; T. Yanagida, Prog. Theor. Phys. 64 , 1103 (1980);
+R. N. Mohapatra and G. Senjanovic, Phys. Rev. Lett. 44 , 912 (1980).
+[6]
+J. F. Gunion, H. E. Haber, G. L. Kane, and S. Dawson, The Higgs Hunter’s Guide , Perseus Books, New York, 1990, paperback edition
+reprinted in Front. Phys. 80 , 1 (2000).
+[7]
+R. W. Robinett and J. L. Rosner,
+AIP Conf. Proc. 99 , 193 (2008).
+[8]
+P. Langacker, R. W. Robinett and J. L. Rosner,
+Phys. Rev. D 30 , 1470 (1984).
+[9]
+D. London and J. L. Rosner,
+Phys. Rev. D 34 , 1530 (1986).
+[10]
+J. L. Hewett and T. G. Rizzo,
+Phys. Rept. 183 , 193 (1989).
+[11]
+J. L. Rosner,
+Phys. Rev. D 61 , 097303 (2000).
+[12]
+T. C. Andre and J. L. Rosner,
+Phys. Rev. D 69 , 035009 (2004).
+[13]
+J. D. Bjorken, S. Pakvasa and S. F. Tuan,
+Phys. Rev. D 66 , 053008 (2002).
+[14]
+J. L. Rosner,
+Comments Nucl. Part. Phys. 15 , no. 5, 195 (1986).
+[15]
+J. L. Rosner,
+Phys. Rev. D 90 , 035005 (2014).
+[16]
+S. Nandi and U. Sarkar,
+Phys. Rev. Lett. 56 , 564 (1986).
+[17]
+R. N. Mohapatra and J. W. F. Valle,
+Phys. Rev. D 34 , 1642 (1986).
+[18]
+D. London, G. Belanger and J. N. Ng,
+Phys. Rev. D 34 , 2867 (1986).
+[19]
+M. Cvetic and P. Langacker,
+Phys. Rev. D 46 , R2759 (1992).
+[20]
+E. Ma, Phys. Lett. B 380 , 286 (1996).
+[21]
+Z. Chacko and R. N. Mohapatra,
+Phys. Rev. D 61 , 053002 (2000).
+[22]
+M. Frank, I. Turan and M. Sher,
+Phys. Rev. D 71 , 113001 (2005).
+[23]
+M. Frank, I. Turan and M. Sher,
+Phys. Rev. D 71 , 113002 (2005).
+[24]
+P. S. Bhupal Dev and A. Pilaftsis,
+Phys. Rev. D 87 , 053007 (2013).
+[25]
+S. J. Brice, S. Geer, D. Harris, B. Kayser,
+S. Parke, C. Polly, R. Tschirhart, G. Zeller et al. , “Short-Baseline
+Neutrino Focus Group Report,” Fermilab report No. FERMILAB-FN-0947.
+[26]
+J. M. Conrad, C. M. Ignarra, G. Karagiorgi, M. H. Shaevitz and J. Spitz,
+Adv. High Energy Phys. 2013 (2013) 163897.
+[27]
+M. Archidiacono, N. Fornengo, C. Giunti, S. Hannestad and A. Melchiorri,
+Phys. Rev. D 87 , 125034 (2013).
+[28]
+J. Kopp, P. A. N. Machado, M. Maltoni and T. Schwetz, J. High Energy Phys. 05 (2013) 050.
+[29]
+A. de Gouvea et al. (Intensity Frontier Neutrino Working Group
+Collaboration), “Neutrinos,” arXiv:1310.4340.
+[30]
+A. Aguilar-Arevalo et al. (LSND Collaboration),
+Phys. Rev. D 64 , 112007 (2001).
+[31]
+A. A. Aguilar-Arevalo et al. (MiniBooNE Collaboration),
+Phys. Rev. Lett. 98 , 231801 (2007);Phys. Rev. Lett. 102 , 101802 (2009);Phys. Rev. Lett. 105 , 181801 (2010).
+[32]
+G. Mention, M. Fechner, T. Lasserre, T. A. Mueller, D. Lhuillier,
+M. Cribier, and A. Letourneau,
+Phys. Rev. D 83 , 073006 (2011).
+[33]
+T. A. Mueller, D. Lhuillier, M. Fallot, A. Letourneau, S. Cormon,
+M. Fechner, L. Giot and T. Lasserre et al. ,
+Phys. Rev. C 83 , 054615 (2011).
+[34]
+P. Huber,
+Phys. Rev. C 84 , 024617 (2011)
+[Erratum-ibid. C 85 , 029901 (2012)].
+[35]
+See https://indico.cern.ch/event/442432/contribution/1/
+attachments/1205572/1759985/CERN-Seminar.pdf, LPCC seminar presented by
+Marumi Kado on behalf of the ATLAS Collaboration, CERN, December 15, 2015;
+ATLAS Collaboration, ATLAS-CONF-2015-081.
+[36]
+M. Aaboud et al. (ATLAS Collaboration),
+JHEP 1609 , 001 (2016).
+[37]
+See https://indico.cern.ch/event/442432/contribution/0/
+attachments/1205563/1756687/CMS_13_TeV_results_public.pdf, LPCC seminar
+presented by Jim Olsen on behalf of the CMS Collaboration, CERN, December 15,
+2015; CMS Collaboration, CMS PAS EXO-15-004.
+[38]
+V. Khachatryan et al. (CMS Collaboration),
+Phys. Rev. Lett. 117 , 051802 (2016).
+[39]
+The ATLAS collaboration (ATLAS Collaboration),
+ATLAS-CONF-2016-059.
+[40]
+ATLAS Collaboration, ATLAS-CONF-2017-059 (unpublished)
+[41]
+V. Khachatryan et al. (CMS Collaboration),
+Phys. Lett. B 767 , 147 (2017).
+[42]
+P. Ko, Y. Omura and C. Yu,
+JHEP 1604 , 098 (2016).
+[43]
+W. Chao,
+arXiv:1601.00633 [hep-ph].
+[44]
+A. Karozas, S. F. King, G. K. Leontaris and A. K. Meadowcroft,
+Phys. Lett. B 757 , 73 (2016).
+[45]
+C. Hati,
+Phys. Rev. D 93 , 075002 (2016).
+[46]
+S. F. King and R. Nevzorov,
+JHEP 1603 , 139 (2016).
+[47]
+G. C. Cho, N. Maru and K. Yotsutani,
+Mod. Phys. Lett. A 31 , no. 22, 1650130 (2016).
+[48]
+P. Athron, M. Muhlleitner, R. Nevzorov and A. G. Williams,
+JHEP 1501 , 153 (2015);arXiv:1602.04453 [hep-ph].
+[49]
+G. K. Leontaris and Q. Shafi,
+Eur. Phys. J. C 76 , no. 10, 574 (2016).
+[50]
+Y. Cai, J. D. Clarke, R. R. Volkas and T. T. Yanagida,
+Phys. Rev. D 94 , 033003 (2016).
+[51]
+K. Das, T. Li, N. Nandi, and S. K. Rai,
+arXiv:1607.00810 [hep-ph].
+[52]
+D. Das, C. Hati, G. Kumar and N. Mahajan,
+Phys. Rev. D 94 , 055034 (2016).
+[53]
+A. E. Faraggi and J. Rizos,
+Eur. Phys. J. C 76 , no. 3, 170 (2016).
+[54]
+J. Ashfaque, L. Delle Rose, A. E. Faraggi and C. Marzo,
+Eur. Phys. J. C 76 , no. 10, 570 (2016).
+[55]
+J. M. Ashfaque,
+arXiv:1607.03076 [hep-ph].
+[56]
+L. Delle Rose, A. E. Faraggi, C. Marzo and J. Rizos,
+arXiv:1704.02579 [hep-ph].
+[57]
+S. F. King, S. Moretti and R. Nevzorov,
+Phys. Rev. D 73 , 035009 (2006).
+[58]
+S. F. King, S. Moretti and R. Nevzorov,
+Phys. Lett. B 634 , 278 (2006).
+[59]
+S. F. King, S. Moretti and R. Nevzorov,
+Phys. Lett. B 650 , 57 (2007).
+[60]
+R. Howl and S. F. King,
+JHEP 0805 , 008 (2008).
+[61]
+S. F. King, R. Luo, D. J. Miller and R. Nevzorov,
+JHEP 0812 , 042 (2008).
+[62]
+P. Athron, S. F. King, D. J. Miller, S. Moretti and R. Nevzorov,
+Phys. Lett. B 681 , 448 (2009).
+[63]
+P. Athron, S. F. King, D. J. Miller, S. Moretti and R. Nevzorov,
+Phys. Rev. D 80 , 035009 (2009).
+[64]
+P. Athron, S. F. King, D. J. Miller, S. Moretti and R. Nevzorov,
+AIP Conf. Proc. 1200 , 454 (2010).
+[65]
+P. Athron, J. P. Hall, R. Howl, S. F. King,
+D. J. Miller, S. Moretti and R. Nevzorov,
+Nucl. Phys. Proc. Suppl. 200-202 , 120 (2010).
+[66]
+J. P. Hall, S. F. King, R. Nevzorov, S. Pakvasa, and
+M. Sher,
+Phys. Rev. D 83 , 075013 (2011).
+[67]
+P. Athron, S. F. King, D. J. Miller, S. Moretti and R. Nevzorov,
+Phys. Rev. D 84 , 055006 (2011).
+[68]
+A. Belyaev, J. P. Hall, S. F. King and P. Svantesson,
+Phys. Rev. D 86 , 031702 (2012).
+[69]
+P. Athron, S. F. King, D. J. Miller, S. Moretti and R. Nevzorov,
+Phys. Rev. D 86 , 095003 (2012).
+[70]
+J. C. Callaghan and S. F. King,
+JHEP 1304 , 034 (2013).
+[71]
+J. P. Hall, S. F. King, R. Nevzorov, S. Pakvasa and M. Sher,
+AIP Conf. Proc. 1560 , 303 (2013).
+[72]
+P. Athron, M. Binjonaid and S. F. King,
+Phys. Rev. D 87 , 115023 (2013).
+[73]
+P. Athron, D. Stockinger and A. Voigt,
+Phys. Rev. D 86 , 095012 (2012).
+[74]
+R. Nevzorov,
+Phys. Rev. D 87 , 015029 (2013).
+[75]
+R. Nevzorov and S. Pakvasa,
+Phys. Lett. B 728 , 210 (2014).
+[76]
+R. Nevzorov,
+Phys. Rev. D 89 , 055010 (2014).
+[77]
+P. Athron, D. Harries and A. G. Williams,
+Phys. Rev. D 91 , 115024 (2015).
+[78]
+P. Athron, D. Harries, R. Nevzorov and A. G. Williams,
+Phys. Lett. B 760 , 19 (2016).
+[79]
+A. E. Faraggi and J. Rizos,
+Nucl. Phys. B 895 , 233 (2015).
+[80]
+R. Franceschini, G. F. Giudice, J. F. Kamenik,
+M. McCullough, A. Pomarol, R. Rattazzi, M. Redi, R. Riva, A. Strumia, and
+R. Torre,
+JHEP 1603 , 144 (2016).
+[81]
+R. S. Gupta, S. Jager, Y. Kats, G. Perez and E. Stamou,
+JHEP 1607 , 145 (2016).
+[82]
+W. Altmannshofer, J. Galloway, S. Gori, A. L. Kagan, A. Martin and J. Zupan,
+Phys. Rev. D 93 , 095015 (2016).
+[83]
+A. Djouadi, J. Ellis, R. Godbole and J. Quevillon,
+JHEP 1603 , 205 (2016).
+[84]
+F. Staub et al. ,
+Eur. Phys. J. C 76 , no. 9, 516 (2016).
+[85]
+R. Franceschini, G. F. Giudice, J. F. Kamenik,
+M. McCullough, F. Riva, A. Strumia, and R. Torre,
+JHEP 1607 , 150 (2016).
+[86]
+M. Bauer and M. Neubert,
+Phys. Rev. D 93 , 115030 (2016)i.
+[87]
+P. S. B. Dev, R. N. Mohapatra and Y. Zhang,
+JHEP 1602 , 186 (2016).
+[88]
+E. Palti,
+Nucl. Phys. B 907 , 597 (2016).
+[89]
+T. Li, J. A. Maxin, V. E. Mayes and D. V. Nanopoulos,
+JHEP 1606 , 167 (2016) .
+[90]
+J. Jiang, T. Li and D. V. Nanopoulos,
+Nucl. Phys. B 772 , 49 (2007).
+[91]
+M. E. Peskin and T. Takeuchi,
+Phys. Rev. Lett. 65 , 964 (1990).
+[92]
+M. E. Peskin and T. Takeuchi,
+Phys. Rev. D 46 , 381 (1992).
+[93]
+A. Joglekar, P. Schwaller and C. E. M. Wagner,
+JHEP 1212 , 064 (2012).
+[94]
+R. W. Robinett and J. L. Rosner,
+Phys. Rev. D 26 , 2396 (1982).
+[95]
+S. F. Mantilla, R. Martinez, F. Ochoa and C. F. Sierra,
+Nucl. Phys. B911 , 338 (2016).
+[96]
+B. Dutta, Y. Gao, T. Ghosh, I. Gogoladze, T. Li and J. W. Walker,
+Phys. Rev. D 94 , 036006 (2016).
+[97]
+E. Witten, Nucl. Phys. B258 , 75 (1985).
+[98]
+P. Candelas, G. T. Horowitz, A. Strominger and E. Witten,
+Nucl. Phys. B258 , 46 (1985).
+[99]
+J. D. Breit, B. A. Ovrut and G. C. Segre,
+Phys. Lett. B 158 , 33 (1985).
+[100]
+M. Dine, V. Kaplunovsky, M. L. Mangano, C. Nappi and N. Seiberg,
+Nucl. Phys. B259 , 549 (1985).
+[101]
+R. Slansky, Los Alamos National Laboratory preprint
+LA-UR-80-591, C80-01-14-5, in Recent developments in high energy physics:
+proceedings, edited by A. Perlmutter and L. F. Scott (New York, Plenum Press,
+1980), p. 141.
+[102]
+T. Matsuoka, H. Mino, D. Suematsu and S. Watanabe,
+Prog. Theor. Phys. 76 , 915 (1986).
+[103]
+L. E. Ibanez and J. Mas,
+Nucl. Phys. B 286 , 107 (1987).
+[104]
+S. F. King, S. Moretti, and R. Nevzorov, Phys. Rev. D
+73 , 035009 (2006); Phys. Lett. B 634 , 278 (2006).
+[105]
+R. Slansky,
+Phys. Rept. 79 , 1 (1981).
+[106]
+J. Schwichtenberg,
+arXiv:1704.04219 [hep-ph].
+[107]
+S. Chatrchyan et al. (CMS Collaboration),
+Phys. Lett. B 720 , 63 (2013).
+[108]
+G. Aad et al. (ATLAS Collaboration),
+Phys. Rev. D 90 , 052005 (2014).
+[109]
+ATLAS Collaboration, ATLAS note ATLAS-CONF-2016-045,
+August 6, 2016.
+[110]
+CMS Collaboration, CMS note CMS PAS EXO-16-031, August 5,
+2016.
+[111]
+R. Radogna, presented on behalf of ATLAS and CMS
+Collaborations at 52nd Rencontres de Moriond EW 2017 (18-25 March 2017),
+La Thuile, Italy.
+[112]
+ATLAS Collaboration, ATLAS-CONF-2017-027, April 8, 2017.
+[113]
+K. Abe et al. (Super-Kamiokande Collaboration),
+Phys. Rev. D 95 , 012004 (2017).
+[114]
+J. M. Arnold, B. Fornal and M. B. Wise,
+Phys. Rev. D 87 , 075004 (2013).
+[115]
+V. Khachatryan et al. (CMS Collaboration),
+Phys. Rev. D 93 , 032005 (2016),
+Erratum: [Phys. Rev. D 95 , 039906 (2017)].
+[116]
+A. M. Sirunyan et al. (CMS Collaboration),
+arXiv:1703.03995 [hep-ex].
+[117]
+M. Aaboud et al. (ATLAS Collaboration),
+New J. Phys. 18 , 093016 (2016).
+[118]
+P. Cox, A. Kusenko, O. Sumensari, and T. T. Yanagida,
+JHEP 1703 , 035 (2017).
+[119]
+V. Khachatryan et al. (CMS Collaboration),
+Phys. Lett. B 747 , 98 (2015).
+[120]
+S. Dimopoulos and H. Georgi,
+in Proceedings of the Second Workshop on Grand Unification, University of
+Michigan, Ann Arbor April 24-26, 1981, edited by J. P. Leveille, L. R. Sulak,
+and D. G. Unger (Birkhauser, Boston, 1981), pp. 285-296.
+[121]
+L. Randall and C. Csaki,
+in Proceedings of International Workshop on Supersymmetry and Unification of
+Fundamental Interactions (SUSY 95), Palaiseau, France, May 15-19, 1995,
+edited by I. Antoniadis and H. Videau. Gif-sur-Yvette, Ed. Frontières, 1996, pp. 99-109 [hep-ph/9508208].
+[122]
+G. R. Dvali,
+Phys. Lett. B 372 , 113 (1996).
+[123]
+A. Falkowski, O. Slone and T. Volansky,
+JHEP 1602 , 152 (2016).
+[124]
+A. Falkowski, Pramana 87 , 39 (2016).
+[125]
+V. Khachatryan et al. (CMS Collaboration),
+Phys. Rev. D 93 , 112009 (2016) [arXiv:1507.07129 [hep-ex]].
+[126]
+G. Aad et al. (ATLAS Collaboration),
+Phys. Rev. D 91 , 112011 (2015).
+[127]
+N. Craig, P. Draper, C. Kilic and S. Thomas,
+Phys. Rev. D 93 , 115023 (2016).
+[128]
+I. Low and J. Lykken,
+arXiv:1512.09089 [hep-ph].
+[129]
+J. F. Kamenik, B. R. Safdi, Y. Soreq and J. Zupan,
+JHEP 1607 , 042 (2016).
+[130]
+C. Csaki and L. Randall,
+JHEP 1607 , 061 (2016).
+[131]
+ATLAS Collaboration, ATLAS note ATLAS-CONF-2015-075,
+December 14, 2015.
+[132]
+CMS Collaboration, CMS PAS EXO-16-019.
+[133]
+M. Bauer, M. Neubert and A. Thamm,
+arXiv:1607.01016 [hep-ph].
+[134]
+S. I. Godunov, A. N. Rozanov, M. I. Vysotsky and E. V. Zhemchugov,
+JETP Lett. 103 , no. 9, 557 (2016).
+[135]
+C. Csaki, J. Hubisz and J. Terning,
+Phys. Rev. D 93 , 035002 (2016).
+[136]
+S. Fichet, G. von Gersdorff and C. Royon,
+Phys. Rev. D 93 , 075031 (2016).
+[137]
+S. Fichet, G. von Gersdorff and C. Royon,
+Phys. Rev. Lett. 116 , 231801 (2016).
+[138]
+C. Csaki, J. Hubisz, S. Lombardo and J. Terning,
+Phys. Rev. D 93 , 095020 (2016).
+[139]
+K. Ghosh, S. Jana and S. Nandi,
+arXiv:1607.01910 [hep-ph].
+[140]
+S. K. Agarwalla, K. Ghosh and A. Patra,
+arXiv:1607.03878 [hep-ph].
+[141]
+M. K. Sundaresan and P. J. S. Watson,
+Phys. Rev. Lett. 29 , 15 (1972);
+L. Resnick, M. K. Sundaresan and P. J. S. Watson,
+Phys. Rev. D 8 , 172 (1973).
+[142]
+J. R. Ellis, M. K. Gaillard and D. V. Nanopoulos,
+Nucl. Phys. B 106 , 292 (1976).
+[143]
+A. Djouadi,
+Phys. Rept. 457 , 1 (2008);
+Phys. Rept. 459 , 1 (2008).
+[144]
+M. Low, A. Tesi and L. T. Wang,
+JHEP 1603 , 108 (2016).
+[145]
+S. Dulat, T.-J.Hou, J. Gao, M. Guzzi, J. Huston, P. Nadolsky, J. Pumplin,
+C. Schmidt, D. Stump, and C. P. Yuan,
+Phys. Rev. D 93 , 033006 (2016).
+[146]
+G. Aad et al. (ATLAS Collaboration),
+Eur. Phys. J. C 75 , no. 10, 510 (2015), Erratum: [Eur. Phys. J. C 76 , no. 3, 153 (2016)].
+[147]
+M. Aaboud et al. (ATLAS Collaboration),
+Phys. Lett. B 760 , 647 (2016).
+[148]
+ATLAS Collaboration, ATLAS-CONF-2017-015 (unpublished).
+[149]
+ATLAS Collaboration, ATLAS-CONF-2017-022 (unpublished).
+[150]
+V. Khachatryan et al. (CMS Collaboration),
+JHEP 1506 , 116 (2015).
+[151]
+CMS Collaboration, CMS-PAS-SUS-17-001 (unpublished)
+[152]
+CMS Collaboration, CMS-PAS-SUS-16-008 (unpublished)
+[153]
+CMS Collaboration, CMS-PAS-SUS-16-032 (unpublished)
+[154]
+CMS Collaboration, CMS-PAS-SUS-16-051 (unpublished)
+[155]
+J. Kawamura and Y. Omura,
+Phys. Rev. D 93 , 115011 (2016).
+[156]
+M. Carena, P. Huang, A. Ismail, I. Low, N. R. Shah and C. E. M. Wagner,
+Phys. Rev. D 94 , 115001 (2016).
+[157]
+G. Aad et al. (ATLAS Collaboration),
+Phys. Rev. D 88 , 112003 (2013).
+[158]
+G. Aad et al. (ATLAS Collaboration),
+JHEP 1501 , 068 (2015).
+[159]
+M. Aaboud et al. (ATLAS Collaboration),
+Phys. Lett. B 760 , 647 (2016).
+[160]
+S. Chatrchyan et al. (CMS Collaboration),
+JHEP 1307 , 122 (2013).
+[161]
+CMS Collaboration,
+CMS-PAS-EXO-15-010.
+[162]
+V. Khachatryan et al. (CMS Collaboration),
+JHEP 1501 , 096 (2015).
+[163]
+V. Khachatryan et al. (CMS Collaboration),
+Eur. Phys. J. C 75 , 151 (2015).
+[164]
+G. Aad et al. (ATLAS Collaboration),
+JHEP 1411 , 104 (2014).
+[165]
+G. Aad et al. (ATLAS Collaboration),
+JHEP 1508 (2015) 105.
+[166]
+V. Khachatryan et al. (CMS Collaboration),
+Phys. Rev. D 93 , 012003 (2016).
+[167]
+J. L. Rosner,
+Phys. Rev. D 35 , 2244 (1987).
+[168]
+See https://launchpad.net/mg5amcnlo .
+[169]
+Benjamin Fuks, private communication to ATLAS and CMS
+Collaborations, tabulated at
+https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections
+[170]
+G. Aad et al. (ATLAS Collaboration),
+New J. Phys. 15 , 093011 (2013).
+[171]
+G. Aad et al. (ATLAS Collaboration),
+JHEP 1509 , 108 (2015).
+[172]
+G. Aad et al. (ATLAS Collaboration),
+Phys. Rev. D 92 , 032001 (2015).
+[173]
+S. Grancagnolo, on behalf of the ATLAS
+Collaboration, EPS Conference on High Energy Physics, Vienna, 2015,
+PoS (EPS-HEP2015) 096.
+[174]
+G. Aad et al. (ATLAS Collaboration),
+New J. Phys. 18 , no. 7, 073021 (2016).
+[175]
+S. Chatrchyan et al. (CMS Collaboration),
+Phys. Lett. B 718 , 348 (2012).
+[176]
+S. Chatrchyan et al. (CMS Collaboration),
+Phys. Rev. D 90 , 032006 (2014).
+[177]
+CMS Collaboration,
+CMS-PAS-EXO-14-001.
+[178]
+V. Khachatryan et al. (CMS Collaboration),
+JHEP 1603 , 125 (2016).
+[179]
+CMS Collaboration,
+CMS PAS EXO-16-002.
+[180]
+S. Dodelson and L. M. Widrow,
+Phys. Rev. Lett. 72 , 17 (1994).
+[181]
+X. -D. Shi and G. M. Fuller,
+Phys. Rev. Lett. 82 , 2832 (1999).
+[182]
+A. Kusenko,
+Phys. Rept. 481 , 1 (2009).
+[183]
+K. N. Abazajian, M. A. Acero, S. K. Agarwalla, A. A. Aguilar-Arevalo,
+C. H. Albright, S. Antusch, C. A. Arguelles and A. B. Balantekin et al. ,
+“Light Sterile Neutrinos: A White Paper,” arXiv:1204.5379.
+[184]
+E. Bulbul, M. Markevitch, A. Foster, R. K. Smith, M. Loewenstein and
+S. W. Randall,Astrophys. J. 789 , 13 (2014).
+[185]
+A. Boyarsky, O. Ruchayskiy, D. Iakubovskyi and J. Franse,
+Phys. Rev. Lett. 113 , 251301 (2014).
+[186]
+M. Drewes et al. ,
+JCAP 1701 , no. 01, 025 (2017).
+[187]
+M. Carena, A. Daleo, B. A. Dobrescu and T. M. P. Tait,
+Phys. Rev. D 70 , 093009 (2004).
+[188]
+E. Accomando, A. Belyaev, L. Fedeli, S. F. King, and
+C. Shepherd-Themistocleous,
+Phys. Rev. D 83 , 075012 (2011).
+[189]
+J. L. Rosner,
+Phys. Lett. B 221 , 85 (1989).
+[190]
+J. L. Rosner,
+Phys. Rev. D 54 , 1078 (1996).
+[191]
+D. J. Gross and F. Wilczek,
+Phys. Rev. Lett. 30 , 1343 (1973).
+[192]
+T. P. Cheng, E. Eichten and L. F. Li,
+Phys. Rev. D 9 , 2259 (1974).
+[193]
+E. Ma and S. Pakvasa,
+Phys. Rev. D 20 , 2899 (1979).
+[194]
+G. Aad et al. (ATLAS Collaboration),
+JHEP 1405 , 071 (2014).
+[195]
+V. Khachatryan et al. (CMS Collaboration),
+Eur. Phys. J. C 74 , no. 9, 3036 (2014).
+Experimental support, please
+view the build logs
+for errors. Generated by
+L
+A
+T
+E
+xml
+.
+Instructions for reporting errors
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+methods listed below:
+Click the "Report Issue" (
+) button, located in the page header.
+Tip: You can select the relevant text first, to include it in your report.
+Our team has already identified the following issues . We appreciate your time reviewing and reporting rendering errors we
+may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+all.
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a list of packages that need conversion , and welcome developer contributions .
+We gratefully acknowledge support from
+our major funders ,
+member institutions , ,
+and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status (opens in new tab)
+Major funding support from

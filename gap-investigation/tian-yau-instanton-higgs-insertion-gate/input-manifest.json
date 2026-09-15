@@ -1,0 +1,41 @@
+{
+  "frozen/tian-yau-actual-survivor-coupling-gate/REPORT.md": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-actual-survivor-coupling-gate\\REPORT.md",
+    "sha256": "c29038ff31dac427c8bead3fdc776e13b9736644a45f33ac3c3fc6d8d8edfc0f"
+  },
+  "frozen/tian-yau-actual-survivor-coupling-gate/module-action.json": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-actual-survivor-coupling-gate\\module-action.json",
+    "sha256": "f1f51a94dd5e54e438d2de3b9dc11c62a88f782cd26e11ac81e3cbddce5e6a7e"
+  },
+  "frozen/tian-yau-actual-survivor-coupling-gate/serre-tensor.json": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-actual-survivor-coupling-gate\\serre-tensor.json",
+    "sha256": "1c306fc44846b44650dad96e0eb8fa027a59eb56def4af3d4c576c9bb540a1cd"
+  },
+  "frozen/tian-yau-flavor-higgs-consistency-gate/REPORT.md": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-flavor-higgs-consistency-gate\\REPORT.md",
+    "sha256": "59d4f2e4d6fa1ed478867e9adddde6a24bffb0e540a0e8f7447b7b927bc2e610"
+  },
+  "frozen/tian-yau-flavor-higgs-consistency-gate/certificate.json": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-flavor-higgs-consistency-gate\\certificate.json",
+    "sha256": "ee714241c3c2483378afe2cb2a9112ce0075bcea3b015c640d12fcebbf0a6468"
+  },
+  "frozen/tian-yau-worldsheet-instanton-gate/REPORT.md": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-worldsheet-instanton-gate\\REPORT.md",
+    "sha256": "9c709b2c22c9c57bed5908a0331f4bd18202ec4d5bcd308dc90318a6e9167fa2"
+  },
+  "frozen/tian-yau-worldsheet-instanton-gate/certificate.json": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-worldsheet-instanton-gate\\certificate.json",
+    "sha256": "bb546def07082e151616dace2fcc14c437e82d8c0ba150ac2d410cdba64efbd5"
+  },
+  "frozen/tian-yau-worldsheet-instanton-gate/exact_certificate.py": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-worldsheet-instanton-gate\\exact_certificate.py",
+    "sha256": "a671367ab2f22d7af53c07b29de03800f8fc539ddc7674c81917c2ac33518d5e"
+  },
+  "frozen/tian-yau-worldsheet-instanton-gate/verify.py": {
+    "canonical_source": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-worldsheet-instanton-gate\\verify.py",
+    "sha256": "7bebc818530af893a8566757314b0efe37fb7384738a4e92d95a3ce28eae7a4d"
+  },
+  "sources/yukawa.md": {
+    "sha256": "7af6f5bd6b68dcd602d217b9d2ed03b2ca321cb9b48290eb60e9f21be121fbc4"
+  }
+}

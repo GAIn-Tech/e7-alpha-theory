@@ -1,0 +1,39 @@
+PDF page 3
+cancelled by complete 27 representatations of E6 which survive to low energies, even
+though E6 is broken at the GUT scale.
+We refer to the model described above as the exceptional supersymmetric standard
+model (ESSM). The ESSM thus represents a low energy alternative to the MSSM or
+NMSSM, and provides a solution to the µ problem without domain wall problems. The
+ESSM contains a rich phenomenology accessible to the LHC in the form of a Z′ plus three
+families of exotic quarks and non-Higgs doublets. In a companion paper we have made a
+comprehensive study of the theory and phenomenology of the ESSM [7]. The purpose of
+this accompanying letter is to summarize the phenomenological highlights of our study,
+including the two loop upper bound on the lightest CP-even Higgs mass, and the LHC
+phenomenology of the Z′ and exotic quarks (including some new phenomenological results)
+in a form that will be more easily accessible to our phenomenological and experimental
+colleagues. For more details we refer the interested reader to the accompanying full length
+paper [7]. Previously, the implications of SUSY models with an additional U(1)N gauge
+symmetry had been studied in the context of leptogenesis [8], EW baryogenesis [9] and
+neutrino physics [10]. Supersymmetric models with a U(1)N gauge symmetry under which
+right-handed neutrinos are neutral have been speciﬁcally considered in [11] from the point
+of view of Z −Z′ mixing and the neutralino sector, in [12] where a renormalization group
+(RG) analysis was performed, and in [13] where a one-loop Higgs mass upper bound was
+presented.
+In the next section we brieﬂy review the ESSM. In sect.3 we analyse the upper bound
+on the lightest CP-even Higgs boson mass including leading two-loop corrections. Then
+in sect. 4 we discuss the phenomenology of some of the extra particles predicted by the
+ESSM and analyze their production cross-sections and signatures at the LHC. Our results
+are summarized in sect. 5.
+2.
+The ESSM
+One of the most important issues in models with additional Abelian gauge symmetries is
+the cancellation of anomalies. In E6 theories the anomalies are cancelled automatically.
+Therefore any model based on E6 subgroups which contains complete representations
+should be anomaly-free. Thus in order to ensure anomaly cancellation the particle con-
+tent of the ESSM should include complete fundamental 27 representations of E6. These
+multiplets decompose under the SU(5) × U(1)N subgroup of E6 [12] as follows:
+27i →(10, 1)i + (5∗, 2)i + (5∗, −3)i + (5, −2)i + (1, 5)i + (1, 0)i .
+(2)
+The ﬁrst and second quantities in the brackets are the SU(5) representation and extra
+U(1)N charge while i is a family index that runs from 1 to 3. An ordinary SM family
+2

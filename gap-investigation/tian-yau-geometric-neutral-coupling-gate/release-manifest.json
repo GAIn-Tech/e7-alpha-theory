@@ -1,0 +1,13 @@
+{
+  "RELEASE_DISCLOSURE.md": "7ad7e5becf878fc495c34ca674fc6393912138ae59164635dd08925b1a356f4c",
+  "REPORT.md": "bb3f42fe242be27b35d9fd82ac541259cb747a5420d6b834b18341a32be290dc",
+  "calculate.py": "b36d1bf90297555bc84d014635d9b20471b0d47ffd57ec9cc6e85e9e0bc501c5",
+  "certificate.json": "6cddcb228340327fea0f43b729e924b96e27c1f4d8369dd578f64c7668b8bd6c",
+  "formalization.yaml": "be84bc86c4ea08bd4b385b963406779d5fa4cd0bfee83ac637ef81a144ee1c08",
+  "setup_sources.py": "d7f7a8fa20640103ffda5f619a2b28ee63b33ca1630b81bdba3359de6f3be309",
+  "sources/decoupling.md": "fff368fca56b12db0e28b8ca2de27bfb87933b05ac129d9a6f34e263fc8499cb",
+  "sources/ledger.json": "1e62070fc9d2c998fb41f82a340c5d1521d708f992b97a29213d0440173e73eb",
+  "sources/nonrenormalization.md": "1463e627c5a403cb111d72d98b6542df87c3f80c23e865eea9561496d49e5b77",
+  "sources/yukawa.md": "4bf3349fee70d36390fcfa4236af1a35ef4c1f7291c48101a40cbd32c5335a14",
+  "verify.py": "0db9153d479bd2e5052cd0919c75b9d4ffc3a3423123e4b3da8136cb1ead520c"
+}

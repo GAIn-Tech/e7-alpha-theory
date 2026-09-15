@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/html/2402.13563v1",
+      "title": "",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/html/2401.15078v2",
+      "title": "",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

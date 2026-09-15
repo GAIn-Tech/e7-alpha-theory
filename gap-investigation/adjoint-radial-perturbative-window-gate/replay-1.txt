@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "claim_boundary": "Rxi derivative transfer conditional on exact master identity and floating action Ward/kernel hypotheses; dimension-six example is a counterfamily, not declared matching data.",
+  "base_receipt_sha256": "1b41501febe695a3c291bffe9ffc4eeb7b247ab081900777acd657e87ca3ec6e",
+  "verifier_sha256": "5ef012b795f2d27802e03d48a1010d88261ca62ac249bbaffd3823f6b0b66b65",
+  "dimension6_counterfamily": {
+    "potential": "epsilon(3 r^2-180 M^2)^2+c6 r^6/Lambda^2",
+    "delta_r_over_r": "-5(c6/epsilon)(M/Lambda)^2",
+    "relative_mass_shift_at_shifted_vacuum": "10(c6/epsilon)(M/Lambda)^2",
+    "epsilon_lower_bound_tolerance_0p1": "100 abs(c6) (M/Lambda)^2",
+    "unit_c6_minimum_Lambda_over_M_for_nonempty_0p1_window": 365.36526345284557,
+    "scope": "first order in c6 M2/(epsilon Lambda2), sign-indefinite unknown c6; no c6 value asserted for actual model"
+  },
+  "negative_controls": {
+    "wrong_epsilon_order_ratio_at_1e_minus_7": 10000000.0,
+    "omit_stationary_shift_dimension6_relative_coefficient": 25.0,
+    "correct_stationary_dimension6_relative_coefficient": 10.0,
+    "xi_independent_wavefunction_rejected": true,
+    "epsilon1_fails_shift_tolerance": true,
+    "Lambda_equals_M_unit_c6_has_no_0p1_joint_window": true
+  }
+}
+[
+  {
+    "xi": 0,
+    "Pi_prime_over_epsilon_conditional": {
+      "real": 15.322138628321317,
+      "imag": 0.7045652596143875
+    },
+    "change_from_Landau": {
+      "real": 0.0,
+      "imag": 0.0
+    },
+    "wavefunction_abs": 15.33832925551384,
+    "epsilon_wavefunction_upper_tolerance_0p1": 0.006519614902910751,
+    "minimum_threshold_distance": 4283.5,
+    "minimum_pole_distance": 4320.0
+  },
+  {
+    "xi": 1,
+    "Pi_prime_over_epsilon_conditional": {
+      "real": 16.446883714923786,
+      "imag": 0.22454528723511866
+    },
+    "change_from_Landau": {
+      "real": 1.124745086602468,
+      "imag": -0.4800199723792689
+    },
+    "wavefunction_abs": 16.448416474489107,
+    "epsilon_wavefunction_upper_tolerance_0p1": 0.006079612597060412,
+    "minimum_threshold_distance": 4174.0,
+    "minimum_pole_distance": 4283.5
+  },
+  {
+    "xi": 10,
+    "Pi_prime_over_epsilon_conditional": {
+      "real": 24.98934608995546,
+      "imag": -4.356261456052065
+    },
+    "change_from_Landau": {
+      "real": 9.667207461634142,
+      "imag": -5.060826715666454
+    },
+    "wavefunction_abs": 25.36620649362173,
+    "epsilon_wavefunction_upper_tolerance_0p1": 0.003942252856182684,
+    "minimum_threshold_distance": 2859.999999999999,
+    "minimum_pole_distance": 3954.9999999999995
+  },
+  {
+    "xi": 100,
+    "Pi_prime_over_epsilon_conditional": {
+      "real": 60.774478765037635,
+      "imag": -45.79918614658655
+    },
+    "change_from_Landau": {
+      "real": 45.452340136716316,
+      "imag": -46.50375140620094
+    },
+    "wavefunction_abs": 76.09929514030794,
+    "epsilon_wavefunction_upper_tolerance_0p1": 0.0013140726180922593,
+    "minimum_threshold_distance": 96.50000000000273,
+    "minimum_pole_distance": 669.9999999999973
+  }
+]
+
+STDERR

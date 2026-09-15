@@ -1,0 +1,7 @@
+# Claim boundary
+
+This lane computes the leading one-loop two-Goldstone scalar-bubble contribution for the specified 188-real-scalar EFT in MSbar Landau gauge. It uses the predecessor's gauge generators, quadratic residual tensors, canonical kinetic metric and tuned matching action, without adding interactions. It identifies the Phi-containing physical radial mode by degenerate perturbation theory, not by declaring the bare Phi coordinate an eigenstate of the corrected Hessian.
+
+The logarithmic zero-momentum curvature need not become finite after hard two-loop resummation. The intended advance is cancellation of its leading log G against the momentum subtraction in a two-point function at nonzero invariant momentum. This is a subset of a pole calculation, not a full gauge-independent pole, not a completed two-loop stationary branch, not a C2 effective-potential theorem, not a compactification derivation and not a prediction of alpha.
+
+Numerical tensor identities are double-precision checks against exact polynomial residual definitions, not interval-enclosed matrix proofs. Integral formulas are analytically derived and independently quadrature-checked. No Lean theorem is claimed: an abstract additive cancellation theorem would not add substantive verification of the physical tensors or loop integrals. Original receipts remain read-only. Review is AI-assisted/self-assessed; no hosted CI or external expert review is claimed.

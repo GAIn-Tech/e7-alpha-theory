@@ -1,0 +1,24 @@
+{
+  "beta_ray": "24/(4*pi)=6/pi in the cited convention; transcendental simplification is declared, not Fraction arithmetic",
+  "claim_boundary": "Exact topology/intersection arithmetic and exact stationary-equation obstruction for the declared two-real-field leading EFT; not a full compactification vacuum proof.",
+  "hidden_threshold": "f_hid=S-(beta_ray/2)T=S-(3/pi)T",
+  "integral_cover_c2_J0": 72,
+  "integral_quotient_c2_J0": 24,
+  "negative_controls": {
+    "beta_zero": "single condensate independent of T; no isolated two-field vacuum",
+    "constant_W": "V=|W0|^2/(16*s*t^3) up to fixed Kcs normalization: monotone runaway",
+    "tree_no_scale_T": "K^{T Tbar} K_T K_Tbar=3 but dilaton contributes +1, leaving positive runaway for constant W"
+  },
+  "passed": true,
+  "pure_E8": {
+    "b0": "3*30=90",
+    "condensate_exponent": "a=24*pi^2/b0=4*pi^2/15",
+    "dual_coxeter": 30
+  },
+  "ray": "J0=h+k on Q=X/Z3",
+  "stationary_elimination": [
+    "d_x U=0 => F=4*x",
+    "d_y U=0 => F=-4*y/3",
+    "=> 3*x+y=0, incompatible with x>0,y>0"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "../tian-yau-actual-survivor-coupling-gate/artifact-manifest.json": "bcf0c1550ff27c0611fedbc122d1e64a9ab93d9372735be30423f8d260038b91",
+  "../tian-yau-actual-survivor-coupling-gate/native-replay-status.json": "18c3ab0d389855af0c1b7a3b1b4f98a159f71a5cd248e32af4760c02d692ea35",
+  "../tian-yau-actual-survivor-coupling-gate/native-replay.log": "79c522b9981e2c3a6f7c8588ef9ef6241eb61492d61c2ad6842bf236743aa866",
+  "../tian-yau-bundle-coupling-gate/certificate.json": "a5c0d10fe37b8766242bda8dff614dbe8e33c532866bf0c6ea5d70406c95da79",
+  "../tian-yau-bundle-coupling-gate/exact_certificate.py": "0994c7c83bc51ab1bee11c8637c455244ced07e9f23c83c14545fcb96f94e104",
+  "../tian-yau-wilson-line-gate/REPORT.md": "e34d3bc351847684c70087e589790127f0069a83c616d7d56a20c13a3aff2e9a",
+  "calculate.py": "fc2f831f49d72773eb6189eeb39d0270af0fd7fe12502583d869349b9a85ad8b"
+}

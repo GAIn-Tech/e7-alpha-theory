@@ -1,0 +1,307 @@
+An official website of the United States government
+
+Here's how you know
+
+**Official websites use .gov**   
+ A **.gov** website belongs to an official government organization in the United States.
+
+**Secure .gov websites use HTTPS**   
+ A **lock** (  ) or **https://** means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+* [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+* [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+* [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+
+* [Journal List](/journals/)
+* [User Guide](/about/userguide/)
+
+* ## PERMALINK
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health.  
+ Learn more: [PMC Disclaimer](/about/disclaimer/) |  [PMC Copyright Notice](/about/copyright/)
+
+. 2001 Oct 23;98(23):12882–12884. doi: [10.1073/pnas.191488598](https://doi.org/10.1073/pnas.191488598)
+
+# Congruence properties for the partition function
+
+[Scott Ahlgren](https://pubmed.ncbi.nlm.nih.gov/?term=)
+
+### Scott Ahlgren
+
+\*Department of Mathematics, University of Illinois, Urbana, IL 61801; and †Department of Mathematics, University of Wisconsin, Madison, WI 53706
+
+Find articles by [Scott Ahlgren](https://pubmed.ncbi.nlm.nih.gov/?term=)
+
+\*, [Ken Ono](https://pubmed.ncbi.nlm.nih.gov/?term=)
+
+### Ken Ono
+
+\*Department of Mathematics, University of Illinois, Urbana, IL 61801; and †Department of Mathematics, University of Wisconsin, Madison, WI 53706
+
+Find articles by [Ken Ono](https://pubmed.ncbi.nlm.nih.gov/?term=)
+
+†,‡
+
+
+
+\*Department of Mathematics, University of Illinois, Urbana, IL 61801; and †Department of Mathematics, University of Wisconsin, Madison, WI 53706
+
+‡
+
+To whom reprint requests should be addressed. E-mail: ono@math.wisc.edu.
+
+Communicated by Richard A. Askey, University of Wisconsin, Madison, WI
+
+### Series information
+
+From the Cover
+
+Received 2000 Aug 15; Accepted 2001 Sep 17; Issue date 2001 Nov 6.
+
+Copyright © 2001, The National Academy of Sciences
+
+[PMC Copyright notice](/about/copyright/)
+
+PMCID: PMC60793  PMID: [11606715](https://pubmed.ncbi.nlm.nih.gov/11606715/)
+
+## Abstract
+
+Eighty years ago, Ramanujan conjectured and proved some striking congruences for the partition function modulo powers of 5, 7, and 11. Until recently, only a handful of further such congruences were known. Here we report that such congruences are much more widespread than was previously known, and we describe the theoretical framework that appears to explain every known Ramanujan-type congruence.
+
+## 1. Introduction and Statement of Results.
+
+Let *p*(*n*) denote the usual partition function; *p*(*n*) is the number of ways to write a positive integer *n* as the sum of a nonincreasing sequence of positive integers. As usual, we agree that *p*(0) = 1 and that *p*(*t*) = 0 if *t* ∉ ℤ≥0. Many of the most interesting arithmetic properties of this function were suggested (and often proved) by Ramanujan. Notice that if δℓ is defined by
+
+|  |
+| --- |
+| 1.1 |
+
+then the celebrated Ramanujan congruences may be written succinctly in the form
+
+Countless papers have been written on these three congruences and their extensions (already conjectured, and in some cases proved, by Ramanujan) to arbitrary powers of 5, 7, and 11 [see the fundamental works of Andrews, Atkin, Dyson, Garvan, Kim, Ramanujan, Stanton, and Swinnerton-Dyer ([1](#B1)–[10](#B10))]. Each of these extensions lies within the class −δℓ (mod ℓ). The important role that this class plays in the theory is illustrated by the work of Kiming and Olsson (ref. [11](#B11), theorem 1), who proved that if ℓ ≥ 5 is prime and *p*(ℓ*n* + β) ≡ 0 (mod ℓ) for all *n*, then β ≡ −δℓ (mod ℓ).
+
+Work of Atkin, Newman, O'Brien, and Swinnerton-Dyer ([12](#B12), [14](#B14), [15](#B15), [16](#B16)) produced further congruences modulo ℓ*m* for primes ℓ ≤ 31 and small *m*. The examples discovered by Atkin and Newman in refs. [12](#B12) and [16](#B16) show that not every congruence lies within the progression −δℓ (mod ℓ). For example, we have
+
+|  |
+| --- |
+| 1.2 |
+
+We have shown ([13](#B13), [17](#B17)) that if ℓ ≥ 5 is prime and *m* is any positive integer, then there are infinitely many congruences of the form
+
+As in the case of Ramanujan's congruences, all of these arithmetic progressions lie within the class −δℓ (mod ℓ). To summarize, the current state of knowledge consists of a systematic theory of congruences within the progressions −δℓ (mod ℓ), as well as some sporadic examples of congruences that fall outside of this class. In view of this, it is natural to wonder what role the class −δℓ (mod ℓ) truly plays.
+
+In this paper, we show that in general this class is not as distinguished as might have been expected. In fact, we prove that it is only one of (ℓ + 1)/2 classes modulo ℓ in which the partition function enjoys similar congruence properties. The results in this paper include the main results in refs. [13](#B13) and [17](#B17) as special cases and provide a theoretical framework that (to our knowledge) explains every known congruence for the partition function.
+
+For each prime ℓ ≥ 5, define the integer ɛℓ ∈ {±1} by
+
+|  |
+| --- |
+| 1.3 |
+
+and let *S*ℓ denote the set of (ℓ + 1)/2 integers
+
+|  |
+| --- |
+| 1.4 |
+
+Theorem 1. *If* ℓ ≥ 5 *is prime,* *m* *is a positive integer, and* β ∈ *S*ℓ, *then a positive proportion of the primes* *Q* ≡ −1 (*mod* 24ℓ) *have the property that*
+
+*for all* *n* ≡ 1 − 24β (*mod* 24ℓ) *with* gcd(*Q*, *n*) = 1.
+
+Note that the case when β ≡ −δℓ (mod ℓ) already contains the main results in refs. [13](#B13) and [17](#B17).
+
+In general, there is no simple description of the set of primes *Q* occurring in *Theorem 1.* However, as Atkin ([12](#B12)) showed, when ℓ = 5, 7, or 13, the situation can be made quite explicit. For example, Atkin proved the following (see ref. [12](#B12) for analogous results when ℓ = 7 or 13).
+
+Theorem 2 [Atkin ([12](#B12))].
+
+* (1)  *Suppose* ℓ ≡ 4 (*mod* 5) *is prime and* *n* *is a positive integer with* ℓ∤*n*. *If* *n* ≡ 23ℓ (*mod* 120) *or* *n* ≡ 47ℓ (*mod* 120), *then*
+
+* (2)  *Suppose* ℓ ≡ 3 (*mod* 5) *is a prime exceeding 3, and* *n* is a positive integer with (−*n*/ℓ) = −1. *If* *n* ≡ 23 (*mod* 120) *or* *n* ≡ 47 (*mod* 120), *then*  We should remark that Newman ([16](#B16)) discovered the simplest example of the congruences described in the first part of *Theorem 2* (i.e., the case where ℓ = 19). Notice that in either part of *Theorem 2*, fixing *n* in an appropriate residue class modulo 120ℓ yields a Ramanujan-type congruence. For example, if ℓ = 13, then the second part of *Theorem 2* implies, for every integer *n*, that
+
+  |  |
+  | --- |
+  | 1.5 |
+
+  Arguing in this manner from *Theorem 1*, we obtain
+
+Theorem 3. *If* ℓ ≥ 5 *is prime,* *m* *is a positive integer, and* β ∈ 𝒮ℓ, *then there are infinitely many non-nested arithmetic progressions* {*An* + *B*} ⊆ {ℓ*n* + β}, *such that for every integer* *n* *we have*
+
+If *M* is an integer coprime to 6, then *Theorem 3* and the Chinese Remainder Theorem guarantee the existence of congruences modulo ℳ.
+
+In Section 2, we construct half integral weight cusp forms whose coefficients capture the relevant values of the partition function, and in Section 3 we prove *Theorem 1.* The proof requires certain facts arising from the theory of Galois representations associated to modular forms and Shimura's theory of half integral weight modular forms. In Section 4, we consider those progressions ℓ*n* + β for β ∉ 𝒮ℓ. We give heuristics that cast doubt on the existence of congruences within these progressions.
+
+## 2. Half integral weight cusp forms and the partition function.
+
+We assume familiarity with standard notation and facts from the theory of integral and half integral weight modular forms. Throughout, we agree that *q* := *e*2π*iz*, and we identify a modular form *f*(*z*) with its Fourier expansion *f*(*z*) = ∑*a*(*n*)*q**n*. Recall Dedekind's eta-function
+
+|  |
+| --- |
+| 2.1 |
+
+Theorem 2.1. *Suppose* ℓ ≥ 5 *is prime and* *m* *is a positive integer. If* β ∈ *S*ℓ, *then there is an integer* λℓ,*m**and a modular form* *F*ℓ,*m*,β(*z*) ∈ *S*(2λℓ,*m*+1)/2(Γ1(576ℓ5)) ∩ ℤ[[*q*]] *such that*
+
+*Proof:* If ℓ ≥ 5 is prime and *t* is a positive integer, then
+
+|  |
+| --- |
+| 2.2 |
+
+where χℓ,*t* := ((−1)(ℓ*t*−1)/2ℓ*t*/•). By using standard facts, it can be shown that if ℓ ∤ *a* and 0 ≤ *b* < *t*, then ord*a*/ℓ*b*(*E*ℓ,*t*(*z*)) > 0. Hence, *E*ℓ,*t*(*z*) vanishes at those cusps of Γ0(ℓ*t*), which are not equivalent to ∞. Also, because (1 − *X*)ℓ ≡ (1 − *X*ℓ) (mod ℓ), for every *m* > 0 we have
+
+|  |
+| --- |
+| 2.3 |
+
+If ℓ ≥ 5 is prime, then define *f*ℓ(*z*) = ∑*a*ℓ(*n*)*q**n* by
+
+|  |
+| --- |
+| 2.4 |
+
+Because ∑*p*(*n*)*q**n*=∏(1−*q**n*)−1, **2.1** and **2.4** imply that
+
+|  |
+| --- |
+| 2.5 |
+
+Define f̃ℓ(*z*) by
+
+|  |
+| --- |
+| 2.6 |
+
+By standard facts, we have f̃ℓ(*z*) ∈ *M*(ℓ−1)/2(Γ0(ℓ3), ()). By **2.3** and **2.6**, if *m*′ is sufficiently large, then *f*ℓ,*m*′(*z*) := *E*(*z*)f̃ℓ(*z*) is a cusp form on Γ0(ℓ3) with character χℓ,*t*⋅() for which
+
+|  |
+| --- |
+| 2.7 |
+
+and
+
+|  |
+| --- |
+| 2.8 |
+
+By **2.5** and **2.7**, we have
+
+|  |
+| --- |
+| 2.9 |
+
+Now **2.8** shows that (*f*ℓ,*m*′(*z*)/ηℓ(ℓ*z*))24 vanishes at ∞. Therefore, if *m*′ is sufficiently large, then this form vanishes at every cusp. It follows that *f*ℓ,*m*′(24*z*)/ηℓ(24ℓ*z*) is a cusp form on Γ0(576ℓ3). We have the general fact that if *f*(*z*) = ∑*a*(*n*)*q**n* ∈ *S*λ+½(Γ1(*N*)), and *r* and *t* are positive integers, then ∑*n*≡*r* (mod *t*)*a*(*n*)*q**n* ∈ *S*λ+½(Γ1(*Nt*2)). *Theorem 2.1* follows by applying this fact to *f*ℓ,*m*′(24*z*)/ηℓ(24ℓ*z*). □
+
+## 3. Proof of *Theorems 1* and *2.*
+
+We begin with some general facts. Suppose that λ ∈ ℤ, and that *f*(*z*) = ∑*a*(*n*)*q**n* ∈ *S*λ+½(Γ1(*N*)) has algebraic coefficients. We have a decomposition
+
+|  |
+| --- |
+| 3.1 |
+
+further, we may write *f*(*z*) = ∑χ evenα*f*χ*f*χ(*z*), where each α*f*χ is algebraic, and each form *f*χ(*z*) ∈ *S*λ+½(Γ0(*N*), χ) has algebraic integer coefficients. Suppose that the Fourier expansion of such a form is given by *f*χ(*z*) = ∑*a*χ(*n*)*q**n*. If *p* is prime, then the action of the usual Hecke operator *T*χ(*p*2) on *f*χ is described by
+
+|  |
+| --- |
+| 3.2 |
+
+Using **3.1** and **3.2**, we define the operator *T*(*p*2) on *S*λ+½(Γ1(*N*)) via linearity. In particular, if *f*(*z*) = ∑*a*(*n*)*q**n* ∈ *S*λ+½(Γ1(*N*)) and *p* ≡ −1 (mod *N*) is prime, then
+
+|  |
+| --- |
+| 3.3 |
+
+Lemma 3.1. *Suppose that* *f*(*z*) = ∑*a*(*n*)*q**n* ∈ *S*λ+½(Γ1(*N*)) *has algebraic integer coefficients. If* *M* *is a positive integer, then a positive proportion of the primes* *p* ≡ −1 (*mod* *MN*) *have the property that* *f*(*z*) | *T*(*p*2) ≡ 0 (mod *M*).
+
+*Proof:* Write *f*(*z*) = ∑χ evenα*f*χ*f*χ(*z*) as above and choose a positive integer 𝒟 such that each *D*α*f*χ is an algebraic integer. After replacing *M* by *DM*, we see that it will suffice to prove that a positive proportion of the primes *p* ≡ −1 (mod *MN*) have the property that *f*χ(*z*) | *T*(*p*2) ≡ 0 (mod *M*) for every character χ.
+
+Fix a number field *K* such that the coefficients of each form *f*χ and the values of each character χ belong to the ring of integers 𝒪*K*. If *t* is an integer, then let χ*t* denote the usual Kronecker character for ℚ(). For each form *f*χ and for every positive squarefree integer *t*, we have the Shimura lift ([18](#B18))
+
+|  |
+| --- |
+| 3.4 |
+
+defined by *S**t*(*f*χ)(*z*) := ∑ *A*χ, *t*(*n*)*q**n*, where the *A*χ,*t*(*n*) are given by
+
+|  |
+| --- |
+| 3.5 |
+
+If *M*, *k*, and *N* are positive integers, then let *S**k*(Γ1(*N*))𝒪*K*/*M* [respectively (resp) *S**k*(Γ0(*N*), χ)𝒪*K*/*M*] denote the reductions modulo *M* of those forms in *S**k*(Γ1(*N*)) [*resp* *S**k*(Γ0(*N*), χ)] with coefficients in 𝒪*K*, and let *T*(*p*) [resp *T*χ(*p*)] denote the usual integral-weight Hecke operator. Serre (ref. [19](#B19), [6](#B6).4) proved that a positive proportion of the primes *p* ≡ −1 (mod *MN*) have
+
+By using a straightforward modification of the same argument, one can show that a positive proportion of the primes *p* ≡ −1 (mod *MN*) have
+
+After **3.4**, we conclude that a positive proportion of the primes *p* ≡ −1 (mod *MN*) have
+
+Because the Shimura correspondence commutes with the action of the Hecke algebra, it follows that if *p* is such a prime, then
+
+|  |
+| --- |
+| 3.6 |
+
+*Lemma 3.1* follows from **3.5** and **3.6**. □
+
+*Proof of Theorem 1:* We apply *Lemma 3.1* to the forms *F*ℓ,*m*,β(*z*) given in *Theorem 2.1.* Fix a prime ℓ and an integer β ∈ *S*ℓ and write
+
+By *Lemma 3.1*, a positive proportion of the primes *Q* ≡ −1 (mod 24ℓ) have the property that *F*ℓ,*m*,β(*z*) | *T*(*Q*2) ≡ 0 (mod ℓ*m*). After replacing *n* by *Qn* in definition **3.3**, we see that if *n* ≡ 1 − 24β (mod 24ℓ) and gcd(*Q*, *n*) = 1, then
+
+because *Q*3*n* ≡ 24β − 1 (mod 24ℓ). *Theorem 1* follows. □
+
+## 4. Final Remarks.
+
+One naturally questions whether *Theorem 1* can be extended to the remaining residue classes modulo ℓ. Suppose that β ∈ {0, … , ℓ − 1}. If we could produce a cusp form *F*ℓ,*m*,β(*z*) as in *Theorem 2.1*, then we would obtain the statment of *Theorem 1* for β. Because *F*ℓ,*m*,0(*z*) would necessarily have a pole at infinity, this approach seems hopeless when β = 0. The situation, however, is less clear when β ≠ 0. For every prime ℓ ≥ 5 and every *m*, it is straightforward to show that there exists an integral weight modular form *H*ℓ,*m*(*z*) such that
+
+However, to construct *H*ℓ,*m*(*z*) requires the twists of *f*ℓ(*z*) by all of the Dirichlet characters modulo ℓ; it results that *H*ℓ,*m*(*z*) is a form on Γ1(ℓ3). By contrast, the form that we constructed in **2.6** required only a single quadratic twist and so remained on Γ0(ℓ3).
+
+It is clear that if we had the analog for Γ1(ℓt) of the form *E*ℓ,*t*(*z*) used in the proof of *Theorem 2.1*, then we could prove *Theorem 1* for all nonzero β. By using the work of Hecke, it is possible to construct an Eisenstein series on Γ1(ℓt) that has the proper cusp conditions (in fact, up to scalar multiplication, exactly one such series exists). It remains to determine whether this series can be defined over the algebraic numbers, and, if so, to determine the ℓ-adic nature of its coefficients. Unfortunately, the answers to both of these problems seem to depend on the arithmetic of certain unknown values of Dirichlet *L*-functions at positive integral arguments. Although many of these values can be described in terms of generalized Bernoulli numbers, the remaining values are (up to unknown algebraic factors) values of certain regulators defined via canonical maps from higher *K*-groups into Minkowski-type spaces ([20](#B20)).
+
+We conclude by remarking that computer calculations seem to cast some doubt on whether such forms exist in general. If they did, this evidence suggests a contradiction to Serre's famous result (ref. [19](#B19), theorem 4.7) that if *M* is any given integer, then almost all of the coefficients of an integral weight modular form with integer coefficients are multiples of *M*.
+
+## Acknowledgments
+
+S.A. is supported by a National Science Foundation grant. K.O. is supported by a National Science Foundation Presidential Early Career Award, an Alfred P. Sloan Foundation Research Fellowship, and a David and Lucile Packard Research Fellowship.
+
+## References
+
+* 1.Andrews G E, Garvan F. Bull Am Math Soc (NS) 1988;18:167–171. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Bull%20Am%20Math%20Soc%20(NS)&author=G%20E%20Andrews&author=F%20Garvan&volume=18&publication_year=1988&pages=167-171&)]
+* 2.Atkin A O L. Glasgow Math J. 1967;8:14–32. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Glasgow%20Math%20J&author=A%20O%20L%20Atkin&volume=8&publication_year=1967&pages=14-32&)]
+* 3.Atkin A O L, Swinnerton-Dyer H P F. Proc London Math Soc. 1954;4:84–106. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Proc%20London%20Math%20Soc&author=A%20O%20L%20Atkin&author=H%20P%20F%20Swinnerton-Dyer&volume=4&publication_year=1954&pages=84-106&)]
+* 4.Berndt B C, Ono K. Sem Lothar Comb. 1999;42:B42. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Sem%20Lothar%20Comb&author=B%20C%20Berndt&author=K%20Ono&volume=42&publication_year=1999&pages=B42&)]
+* 5.Dyson F J. Eureka (Cambridge) 1944;8:10–15. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Eureka%20(Cambridge)&author=F%20J%20Dyson&volume=8&publication_year=1944&pages=10-15&)]
+* 6.Garvan F, Kim D, Stanton D. Invent Math. 1990;101:1–17. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Invent%20Math&author=F%20Garvan&author=D%20Kim&author=D%20Stanton&volume=101&publication_year=1990&pages=1-17&)]
+* 7.Ramanujan S. Trans Cambridge Philos Soc. 1916;22:159–184. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Trans%20Cambridge%20Philos%20Soc&author=S%20Ramanujan&volume=22&publication_year=1916&pages=159-184&)]
+* 8.Ramanujan S. Proc Cambridge Philos Soc. 1919;19:207–210. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Proc%20Cambridge%20Philos%20Soc&author=S%20Ramanujan&volume=19&publication_year=1919&pages=207-210&)]
+* 9.Ramanujan S. Proc London Math Soc. 1920;18:xix. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Proc%20London%20Math%20Soc&author=S%20Ramanujan&volume=18&publication_year=1920&pages=xix&)]
+* 10.Ramanujan S. Math Z. 1921;9:147–153. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Math%20Z&author=S%20Ramanujan&volume=9&publication_year=1921&pages=147-153&)]
+* 11.Kiming I, Olsson J. Arch Math (Basel) 1992;59:348–360. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Arch%20Math%20(Basel)&author=I%20Kiming&author=J%20Olsson&volume=59&publication_year=1992&pages=348-360&)]
+* 12.Atkin A O L. Proc London Math Soc. 1968;18:563–576. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Proc%20London%20Math%20Soc&author=A%20O%20L%20Atkin&volume=18&publication_year=1968&pages=563-576&)]
+* 13.Ahlgren S. Math Ann. 2000;318:795–803. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Math%20Ann&author=S%20Ahlgren&volume=318&publication_year=2000&pages=795-803&)]
+* 14.Atkin A O L, O'Brien J N. Trans Am Math Soc. 1967;126:442–459. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Trans%20Am%20Math%20Soc&author=A%20O%20L%20Atkin&author=J%20N%20O'Brien&volume=126&publication_year=1967&pages=442-459&)]
+* 15.Atkin A O L, Swinnerton-Dyer H P F. Proc Sympos Pure Math. 1971;19:1–25. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Proc%20Sympos%20Pure%20Math&author=A%20O%20L%20Atkin&author=H%20P%20F%20Swinnerton-Dyer&volume=19&publication_year=1971&pages=1-25&)]
+* 16.Newman M. Math Comp. 1967;21:481–482. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Math%20Comp&author=M%20Newman&volume=21&publication_year=1967&pages=481-482&)]
+* 17.Ono K. Ann Math. 2000;151:293–307. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Ann%20Math&author=K%20Ono&volume=151&publication_year=2000&pages=293-307&)]
+* 18.Shimura G. Ann Math. 1973;97:440–481. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Ann%20Math&author=G%20Shimura&volume=97&publication_year=1973&pages=440-481&)]
+* 19.Serre J-P. L'Enseign Math. 1976;22:227–260. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=L'Enseign%20Math&author=J-P%20Serre&volume=22&publication_year=1976&pages=227-260&)]
+* 20.Beilinson A A. Current Problems in Mathematics, Itogi Nauki i Tekhniki Akad Nauk SSSR, Vsesoyuz Inst Nauchn i Tekhn Inform, Moscow. 1984;24:181–238. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Current%20Problems%20in%20Mathematics,%20Itogi%20Nauki%20i%20Tekhniki%20Akad%20Nauk%20SSSR,%20Vsesoyuz%20Inst%20Nauchn%20i%20Tekhn%20Inform,%20Moscow&author=A%20A%20Beilinson&volume=24&publication_year=1984&pages=181-238&)]
+
+## ACTIONS
+
+* [View on publisher site](https://doi.org/10.1073/pnas.191488598)
+* [PDF (91.5 KB)](pdf/pq012882.pdf)
+
+* ## PERMALINK
+
+## RESOURCES
+
+### 
+
+### 
+
+###
+
+## Cite
+
+* [Download .nbib .nbib](# "Download a file for external citation management software")
+
+## Add to Collections
+
+ 

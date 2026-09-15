@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "url": "https://arxiv.org/pdf/hep-th/0110073",
+    "sha256": "f497a513c24832265a465369403cd499adabaec487dcc07aa4e33ae86120bc4a",
+    "exit_code": 0,
+    "output": "[1] evidence attached (1 quote(s))\n"
+  },
+  {
+    "id": 2,
+    "url": "https://arxiv.org/pdf/hep-th/0202144",
+    "sha256": "5fa7f8fe23c6472357c61decf022dc6c5832abace831dbf017555166b58705a9",
+    "exit_code": 0,
+    "output": "[2] evidence attached (1 quote(s))\n"
+  },
+  {
+    "id": 3,
+    "url": "https://arxiv.org/pdf/hep-th/0103135",
+    "sha256": "64a5440a7c94953fe8b7a9b33efc8556eb12b0687b6c8bb904c443783fef2c70",
+    "exit_code": 0,
+    "output": "[3] evidence attached (1 quote(s))\n"
+  },
+  {
+    "id": 4,
+    "url": "https://arxiv.org/html/1001.4074v3",
+    "sha256": "23fd86b299424aa60663376fdfa3dce3d082f4ec7b9ccca114b4e3c95ce3f626",
+    "exit_code": 0,
+    "output": "[4] evidence attached (1 quote(s))\n"
+  },
+  {
+    "id": 5,
+    "url": "https://par.nsf.gov/servlets/purl/10635146",
+    "sha256": "f7d0ec5e857705bd44e05abb16d4525a0653659ab65c3de24ca2a15ffa88a8fe",
+    "exit_code": 0,
+    "output": "[5] evidence attached (1 quote(s))\n"
+  }
+]

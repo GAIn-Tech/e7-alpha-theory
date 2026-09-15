@@ -1,0 +1,227 @@
+NIST Team Compares 3 Top Atomic Clocks With Record Accuracy Over Both Fiber and Air | NIST
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+A locked padlock
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+https://www.nist.gov/news-events/news/2021/03/nist-team-compares-3-top-atomic-clocks-record-accuracy-over-both-fiber-and
+Search NIST
+Menu
+Close
+Publications
+What We Do
+All Topics
+Advanced communications
+Artificial intelligence
+Bioscience
+Buildings and construction
+Chemistry
+Cybersecurity and Privacy
+Electronics
+Energy
+Environment
+Fire
+Forensic science
+Health
+Information technology
+Infrastructure
+Manufacturing
+Materials
+Mathematics and statistics
+Metrology
+Nanotechnology
+Neutron research
+Performance excellence
+Physics
+Public safety
+Quantum information science
+Resilience
+Standards
+Transportation
+Labs & Major Programs
+Laboratories
+Communications Technology Laboratory
+Engineering Laboratory
+Information Technology Laboratory
+Material Measurement Laboratory
+Physical Measurement Laboratory
+User Facilities
+NIST Center for Neutron Research
+CNST NanoFab
+Research Test Beds
+Research Projects
+Tools & Instruments
+Major Programs
+CHIPS for America Initiative
+Congressionally Identified Project Program (CIPP)
+Manufacturing Extension Partnership (MEP)
+Manufacturing USA
+Office of Advanced Manufacturing
+Technology Partnerships Office
+Services & Resources
+Measurements and Standards
+Calibration Services
+Laboratory Accreditation (NVLAP)
+Quality System
+Standard Reference Materials (SRMs)
+Standard Reference Instruments (SRIs)
+Standards.gov
+Time Services
+Office of Weights and Measures
+Software
+Data
+Chemistry WebBook
+National Vulnerability Database
+Physical Reference Data
+Standard Reference Data (SRD)
+Storefront
+License & Patents
+Computer Security Resource Center (CSRC)
+NIST Research Library
+News & Events
+News
+Events
+Blogs
+NIST In Focus
+Feature Stories
+Awards
+Video Gallery
+Image Gallery
+Media Contacts
+About NIST
+About Us
+Leadership
+Organization Structure
+Budget & Planning
+Contact Us
+Visit
+Careers
+Student programs
+Work with NIST
+History
+NIST Digital Archives
+NIST Museum
+NIST and the Nobel
+Educational Resources
+NEWS
+NIST Team Compares 3 Top Atomic Clocks With Record Accuracy Over Both Fiber and Air
+March 24, 2021
+Share
+Facebook
+Linkedin
+X.com
+Email
+NIST researchers precisely compared the signals from three optical atomic clocks over air and optical fiber, with two of the clocks (indicated by Yb and Al+/Mg+) located in different NIST-Boulder laboratories, and a third (Sr) located 1.5 kilometers away at JILA.
+Credit:
+N. Hanacek/NIST
+In a significant advance toward the future redefinition of the international unit of time, the second, a research team led by the National Institute of Standards and Technology (NIST) has compared three of the world’s leading atomic clocks with record accuracy over both air and optical fiber links.
+Described in the March 25 issue of
+Nature
+,
+the NIST-led work is the first to compare three clocks based on different atoms, and the first to link the most advanced atomic clocks in different locations over the air. These atomic clock comparisons place the scientific community one step closer to meeting the guidelines for redefinition of the second.
+“These comparisons are really defining the state of the art for both fiber-based and free-space measurements — they are all close to 10 times more accurate than any clock comparisons using different atoms performed so far,” NIST physicist David Hume said.
+The new measurements were challenging because the three types of atoms involved “tick” at vastly different frequencies, because all the many network components had to operate with extreme accuracy, and because the wireless link required cutting-edge laser technology and design.
+The study compared the
+aluminum-ion clock
+and
+ytterbium lattice clock
+, located in different laboratories at NIST Boulder, with the
+strontium lattice clock
+located 1.5 kilometers away at JILA, a joint institute of NIST and the University of Colorado Boulder. The team’s measurements were so accurate that uncertainties were only 6 to 8 parts in 10
+18
+— that is, errors never exceeded 0.000000000000000008 — for both fiber and wireless links.
+NIST researchers
+previously described
+in detail how they transferred time signals over the air link between two of the clocks, the NIST ytterbium and JILA strontium clocks, and found the process worked as well as the fiber-based method and 1,000 times more precisely than conventional wireless transfer schemes. This work shows how the best atomic clocks might be synchronized across remote sites on Earth and, as time signals are transferred over longer distances, even between spacecraft.
+The key to the air link was the use of
+optical frequency combs
+, which enable accurate comparisons of widely different frequencies. NIST researchers developed two-way transfer methods to precisely compare optical clocks over the air, even in conditions of atmospheric turbulence and laboratory vibrations. The comb-based signal transfer technique had been
+demonstrated previously
+, but the latest work was the first to compare state-of-the-art atomic clocks.
+Since 1967, the second has been defined based on the cesium atom, which ticks at a microwave frequency. The atomic clocks used in the new comparisons tick at much higher optical frequencies, which divide time into smaller units and thus offer greater precision. Comparisons are crucial to the international community’s selection of one or more atoms as the next time standard.
+The new NIST results reported in
+Nature
+also set other important records. Frequency is the most accurately measured single quantity in science. The NIST team measured frequency ratios, the quantitative relationships between the frequencies of the atoms as measured in three pairs (ytterbium-strontium, ytterbium-aluminum, aluminum-strontium). The results are the three most accurate measurements ever made of natural constants. Frequency ratios are considered constants and are used in some international standards and tests of fundamental physics theories.
+Frequency ratios offer an important advantage as a metric for evaluating optical atomic clocks. A direct measurement of an optical clock frequency in the usual units of hertz (one cycle per second) is limited by the accuracy of the current international standard, the cesium microwave clock. Frequency ratios overcome this limitation because they are not expressed in any units.
+Frequency ratios are usually measured over long distances by use of fiber networks, which are few and far between, or in some cases with microwave data transferred over satellite links, which tend to be unstable.
+Guidelines for redefinition of the second recommend the demonstration and verification of multiple frequency ratio measurements with uncertainties approaching the best optical clock performance. All three types of clocks in the new study offer superlative performance now and promise further improvements. NIST’s ytterbium clocks, for example, represent the natural frequency of the atoms (a value known as systematic uncertainty) to within a possible error of just
+1.4 parts in 10
+18
+— about one billionth of a billionth.
+NIST’s new frequency ratio measurements, while record-setting, are not quite that good yet. But the research team is working on improving measurement stability and clock performance, Hume said.
+Beyond their role in the next generation of international standards, optical atomic clocks can be used as sensitive probes for new physics, such as the “dark matter” believed to constitute most of the stuff in the universe. Technological applications for optical clocks include improved timing and navigation systems and measuring Earth’s gravitational shape (geodesy).
+This work was supported in part by the Defense Advanced Research Projects Agency, the Air Force Office for
+Scientific Research, the National Science Foundation, the Office of Naval Research, NASA Fundamental Physics, and the
+Department of Energy.
+Paper: Boulder Area Clock Optical Network (BACON) Collaboration: K. Beloy, M.I. Bodine, T. Bothwell, S.M. Brewer, S.L. Bromley, J.-S. Chen, J.-D. Deschenes, S.A. Diddams, R.J. Fasano, T.M. Fortier, Y.S. Hassan, D.B. Hume, D. Kedar, C.J. Kennedy, I. Khader, A. Koepke, D.R. Leibrandt, H. Leopardi, A.D. Ludlow, W.F. McGrew, W.R. Milner, N.R. Newbury, D. Nicolodi, E. Oelker, T.E. Parker, J.M. Robinson, S. Romisch, S.A. Schaeffer, J.A. Sherman, L.C. Sinclair, L. Sonderhouse, W.C. Swann, J. Yao, J. Ye and X. Zhang. Frequency Ratio Measurements with 18-Digit Accuracy Using an Optical Clock Network.
+Nature.
+Published March 25, 2021. DOI:
+10.1038/s41586-021-03253-4
+Physics
+,
+Atomic / molecular / quantum
+and
+Time and frequency
+Media Contact
+301-975-2762
+NIST in your inbox
+Stay up to date with the latest news from NIST.
+Enter Email Address
+Organizations
+NIST Headquarters
+Laboratory Programs
+Physical Measurement Laboratory
+Time and Frequency Division
+Ion Storage Group
+Neutral Atom Optical Clocks Group
+Quantum Physics Division
+Communications Technology Laboratory
+Spectrum Technology and Research Division
+Fiber Sources and Applications Group
+Released March 24, 2021, Updated February 3, 2025
+Was this page helpful?
+HEADQUARTERS
+100 Bureau Drive
+Gaithersburg, MD 20899
+301-975-2000
+Webmaster
+|
+Contact Us
+|
+Our Other Offices
+X.com
+Facebook
+LinkedIn
+Instagram
+YouTube
+Giphy
+RSS Feed
+Mailing List
+How are we doing?
+Feedback
+Site Privacy
+Accessibility
+Privacy Program
+Copyright & Disclaimers
+Vulnerability Disclosure
+No Fear Act Policy
+FOIA
+Environmental Policy
+Scientific Integrity
+Information Quality Standards
+Commerce.gov
+Science.gov
+USA.gov
+Vote.gov

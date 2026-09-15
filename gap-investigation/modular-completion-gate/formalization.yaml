@@ -1,0 +1,17 @@
+schema_version: 1
+scope: E7 level-one modular worldsheet building block, not a string vacuum
+proof_assistant: Lean 4.32.1
+library: minimal prelude; no Init or Mathlib
+kernel_declarations:
+  - ModularGate.polarization_E7
+  - ModularGate.polarization_A1
+  - ModularGate.diagonal_glue_isotropic
+  - ModularGate.isotropic_implies_diagonal
+  - ModularGate.E7_nonzero_not_isotropic
+axioms: []
+automation: AI-assisted explicit finite recursor proofs; exact Python cyclotomic arithmetic and lattice enumeration
+external_mathematics: Poisson theta transformation; eta multiplier; lattice affine correspondence; Sugawara construction
+complex_modular_relations_formalized_in_lean: false
+review: self-assessed
+hosted_ci: not run
+local_gate: python verify.py --verify

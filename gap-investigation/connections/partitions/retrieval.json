@@ -1,0 +1,80 @@
+[
+  {
+    "name": "ramanujan",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC60793/",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://pmc.ncbi.nlm.nih.gov/articles/PMC60793/"
+  },
+  {
+    "name": "chiral",
+    "url": "https://arxiv.org/html/1604.08837v1",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out."
+  },
+  {
+    "name": "dedekind",
+    "url": "https://arxiv.org/html/2302.04615v1",
+    "chars": 47221,
+    "status": "retrieved",
+    "ledger_result": "[1] https://arxiv.org/html/2302.04615v1"
+  },
+  {
+    "name": "narain",
+    "url": "https://fisica.usac.edu.gt/public/curccaf_proc/quevedo1/node4.html",
+    "chars": 6197,
+    "status": "retrieved",
+    "ledger_result": "[2] https://fisica.usac.edu.gt/public/curccaf_proc/quevedo1/node4.html"
+  },
+  {
+    "name": "blackholes",
+    "url": "https://arxiv.org/html/1208.4074v2",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out."
+  },
+  {
+    "name": "k3",
+    "url": "https://arxiv.org/html/1112.5106v2",
+    "chars": 167683,
+    "status": "retrieved",
+    "ledger_result": "[3] https://arxiv.org/html/1112.5106v2"
+  },
+  {
+    "name": "selfconjugate",
+    "url": "https://www.whitman.edu/mathematics/cgt_online/book/section03.03.html",
+    "chars": 9514,
+    "status": "retrieved",
+    "ledger_result": "[4] https://www.whitman.edu/mathematics/cgt_online/book/section03.03.html"
+  },
+  {
+    "name": "nimbers",
+    "url": "https://en.wikipedia.org/wiki/Nimber",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://en.wikipedia.org/wiki/Nimber"
+  },
+  {
+    "name": "rademacher",
+    "url": "https://btw-47.github.io/rademacher2.pdf",
+    "chars": 16723,
+    "status": "retrieved",
+    "ledger_result": "[5] https://btw-47.github.io/rademacher2.pdf"
+  },
+  {
+    "name": "scarcity",
+    "url": "https://preprint.press.jhu.edu/ajm/sites/default/files/AJM-ahlg-beck-raum.pdf",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://preprint.press.jhu.edu/ajm/sites/default/files/AJM-ahlg-beck-raum.pdf"
+  },
+  {
+    "name": "mocknotes",
+    "url": "https://swc-math.github.io/aws/2013/2013OnoNotes.pdf",
+    "chars": 268125,
+    "status": "retrieved",
+    "ledger_result": "[6] https://swc-math.github.io/aws/2013/2013OnoNotes.pdf"
+  },
+  {
+    "name": "e7",
+    "url": "https://en.wikipedia.org/wiki/E7_(mathematics)",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://en.wikipedia.org/wiki/E7_(mathematics)"
+  }
+]

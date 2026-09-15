@@ -1,0 +1,237 @@
+[
+  {
+    "name": "orbifold",
+    "url": "https://arxiv.org/pdf/hep-th/0110073",
+    "sha256": "08b0f00a8415e69b5c5001f2eb85d5e7845a3a9dfe6f1e76d881f328ab97ce23",
+    "pages": 10,
+    "excerpts": [
+      {
+        "pdf_page": 1,
+        "term": "integration",
+        "excerpt": "ermion, compacti\ufb01ed on the orbifold S1/(Z2 \u00d7 Z\u2032\n2).\nWe show that, even if the orbifold projections remove both fermionic zero\nmodes, there are gauge anomalies localized at the \ufb01xed points.\nAnomalies\nnaively cancel after integration over the \ufb01fth dimension, but gauge invariance\nis broken, spoiling the consistency of the theory. We discuss their implications\nfor realistic supersymmetric models with a single Higgs hypermultiplet in the\nbulk, and possible cancellation mechanisms in non-minimal models.\n"
+      },
+      {
+        "pdf_page": 1,
+        "term": "localized",
+        "excerpt": "imensional \ufb01eld theory with a U(1)\ngauge \ufb01eld and a charged fermion, compacti\ufb01ed on the orbifold S1/(Z2 \u00d7 Z\u2032\n2).\nWe show that, even if the orbifold projections remove both fermionic zero\nmodes, there are gauge anomalies localized at the \ufb01xed points.\nAnomalies\nnaively cancel after integration over the \ufb01fth dimension, but gauge invariance\nis broken, spoiling the consistency of the theory. We discuss their implications\nfor realistic supersymmetric models with a single Higgs hypermultiplet in the\nbulk, and possible cancellation mechanisms in non-minimal models.\n"
+      },
+      {
+        "pdf_page": 2,
+        "term": "localized",
+        "excerpt": " It\nwas found that, in such a simple context, naive 4-D anomaly cancellation is su\ufb03cient\nto ensure 5-D anomaly cancellation. For a 5-D fermion of unit charge, and a chiral\naction of the Z2 projection, the 5-D anomaly is localized at the orbifold \ufb01xed points,\nand is proportional to the 4-D anomaly:\n\u2202MJM(x, y) = 1\n4\nh\n\u03b4(y) + \u03b4(y \u2212\u03c0R)\ni\nQ(x, y) ,\n(1)\nwhere1 JM is the 5-D current and\nQ(x, y) =\ng2\n5\n16\u03c02 F\u00b5\u03bd(x, y) \u02dcF \u00b5\u03bd(x, y)\n(2)\nis proportional to the 4-D chiral anomaly from a charged Dirac spinor in the external\ngauge potential A\u00b5(x, y). In our notation: M = [(\u00b5 = 0, 1, 2, 3), 4]; x \u2261(x0,1,2,3)\nare the \ufb01rst four coordinates, y \u2261x4 is the \ufb01fth coordinate, compacti\ufb01ed on a circle\nof radius R; y = 0, \u03c0R are the two \ufb01xed points with respect to the Z2 symmetry\ny \u2192\u2212y; g5 is the 5-D gauge coupling constant.\n1We work on the orbifold covering space S1, and we normalize "
+      },
+      {
+        "pdf_page": 3,
+        "term": "localized",
+        "excerpt": "ss, even though it was recently shown [7] that the Higgs self-energy receives\na quadratically divergent one-loop contribution. The latter corresponds to the ap-\npearance of a Fayet\u2013Iliopoulos (FI) term, with divergences localized at the orbifold\n\ufb01xed points, which immediately hints at a possible connection with anomalies.\nThe content of the present letter is organized as follows. We begin by showing\nthat, even if there are no 4-D massless fermions in the spectrum, our simple 5-D\ntheory is actually anomalous. Localized anomalies, with opposite signs, appear at\nthe \ufb01xed points of the two orbifold projections. The integrated anomaly vanishes,\nre\ufb02ecting the absence of any one-loop anomaly among 4-D massless states, but there\nare anomalous triangle diagrams when at least one of the external states is a massive\nKaluza\u2013Klein (KK) mode. We focus our attention on the"
+      },
+      {
+        "pdf_page": 5,
+        "term": "localized",
+        "excerpt": "y))2 \u2212(\u03be\u2212+\nk\n(y))2i\n= 1\n4 e\u22122 i y/R\n\u221e\nX\nl=\u2212\u221e\n\u03b4(y \u2212l\u03c0R/2) ,\n(9)\nhence\n\u2202MJM(x, y) = 1\n8\nh\n\u03b4(y) \u2212\u03b4(y \u2212\u03c0R/2) + \u03b4(y \u2212\u03c0R) \u2212\u03b4(y \u22123\u03c0R/2)\ni\nQ(x, y) .\n(10)\nTherefore, although the integrated anomaly vanishes, there are anomalies, localized at\nthe \ufb01xed points, that are equal in magnitude to 1/4 (or 1/2 if we sum the contribution\nfrom identi\ufb01ed \ufb01xed points) of the anomaly from a 4-D Weyl fermion. The full 5-D\ntheory is thus inconsistent (at least in its minimal form).\nLet us now rewrite eq. (10) in terms of standard Fourier modes of the current and\ngauge \ufb01elds. Recalling that both have (+, +) parities, the Fourier transform of (10)\ntakes the form:\nqMJM\nn (q) = 1\ng5\n\u221e\nX\ni,j=0\nZ\nd4p\n(2\u03c0)4 qM T M\u03b1\u03b2\nnij\n(p, q) A\u03b1i(p) A\u03b2j(q \u2212p) ,\n(11)\nwhere\nqMT M\u03b1\u03b2\nnij\n(p, q) =\ng3\n4\n2\n\u221a\n2 \u03c02 \u03b7n \u03b7i \u03b7j \u03b4n+i+j,odd \u01eb\u03b1\u03b2\u00b5\u03bdp\u00b5 q\u03bd ,\n(12)\nwith g4 = g5/\n\u221a\n2\u03c0R. This quantity encodes the triangular anoma"
+      },
+      {
+        "pdf_page": 7,
+        "term": "localized",
+        "excerpt": "rmion \u03c8 to a charged hypermultiplet. As such, all the above\nconsiderations apply also to the model of ref. [6]. In particular, focusing on the Higgs\nhypermultiplet, doublet under SU(2)L with hypercharge Y = +1, we get a localized\nU(1)3\nY anomaly that is twice the one in (10).\nThe reader may wonder whether such localized anomaly has any relation with the\none-loop FI term recently found in [7]. The method of the previous section can be\neasily extended to the computation of the full one-loop FI term. The relevant part\nof the Lagrangian is\nL = \u2212\nX\nm,n\n(\u03c6++\nm )\u2020h\n(\u2737+ m2\n2n)\u03b4mn \u2212g5 D++\nmn\ni\n\u03c6++\nn\n\u2212\nX\nm,n\n(\u03c6\u2212\u2212\nm )\u2020h\n(\u2737+ m2\n2n)\u03b4mn + g5 D\u2212\u2212\nmn\ni\n\u03c6\u2212\u2212\nn\n,\n(14)\nwhere \u03c6\u00b1\u00b1\nm\nare the modes, de\ufb01ned according to eqs. (3) and (4), of the two scalars in\nthe Higgs hypermultiplet, and\nD\u00b1\u00b1\nmn(x) \u2261\nZ 2\u03c0R\n0\ndy \u03be\u00b1\u00b1\nm (y) \u03be\u00b1\u00b1\nn (y) D(x, y) ,\n(15)\nwhere D(x, y) is the third component "
+      },
+      {
+        "pdf_page": 8,
+        "term": "localized",
+        "excerpt": ", the structure of the FI term is:\nF(x) =\ng5\n64\u03c02\n4\nX\ni=1\nh\n\u039b2D(x, yi) + 1\n2 ln(\u039bR) D\u2032\u2032(x, yi)\ni\n+\nZ 2\u03c0R\n0\ndy K(y) D(x, y) ,\n(21)\nwith K(y) being a \ufb01nite function. Therefore, the divergent part of the induced FI\nterm is localized at the orbifold \ufb01xed points, as the anomaly. This is a remnant of the\nrelation between FI terms and mixed U(1)\u2013gravitational anomalies in supersymmetric\ntheories.\n4\nOutlook\nWe have seen that orbifold \ufb01eld theories can be anomalous even in the absence of\nan anomalous spectrum of zero modes. It is then important to understand whether\nthere exist anomaly cancellation mechanisms, and whether they can be consistently\nimplemented: for de\ufb01niteness, we discuss this issue by making reference once more\nto the case of S1/(Z2 \u00d7 Z\u2032\n2).\nOne possibility would be to add localized fermions at the \ufb01xed points, analogous\nto the twisted sectors of stri"
+      },
+      {
+        "pdf_page": 9,
+        "term": "localized",
+        "excerpt": "nomalies\nthat we have found in the S1/(Z2 \u00d7 Z\u2032\n2) orbifold could have been anticipated 4 by\nanalysing the intermediate models on S1/Z2 or S1/Z\u2032\n2. Indeed, the S1/Z2 and S1/Z\u2032\n2\nmodels have anomalies given by eq. (1) and localized at the two Z2 and Z\u2032\n2 \ufb01xed\npoints respectively, but with opposite sign, re\ufb02ecting the di\ufb00erence between the Z2\nand Z\u2032\n2 actions on the fermions.\nFor supersymmetric models, all the above considerations apply, but supersymme-\ntry poses further constraints. It seems then quite di\ufb03cult to get a consistent SUSY\n\ufb01eld theory on the S1/(Z2 \u00d7Z\u2032\n2) orbifold with a single bulk Higgs hypermultiplet. On\nthe contrary, the addition of a second Higgs hypermultiplet in the bulk, as in [12],\nwould cancel at the same time the anomaly and the one-loop-induced FI term. It\ntherefore seems that the necessity of having two Higgs doublets in 4-D supersymme"
+      }
+    ],
+    "status": "downloaded-primary"
+  },
+  {
+    "name": "E7-global",
+    "url": "https://arxiv.org/pdf/1007.4758",
+    "sha256": "3d0f2e267e06685b43970ea01e8d1ebb0b4fd46f6ee9a56caaae82de90567a69",
+    "pages": 23,
+    "excerpts": [
+      {
+        "pdf_page": 1,
+        "term": "Z3",
+        "excerpt": "tional octonionic algebra J and the quaternionic algebra H, both\nin the adjoint and the 56 dimensional representations.\nThen, we provide the Euler parametrization of E7 starting from its\nmaximal subgroup U = (E6 \u00d7 U(1))/Z3. Next, we give the constructions for all the other maximal compact subgroups.\n1. Introduction\nSimple Lie groups are well understood, and \ufb01nd application in a huge number of mathematical and physical \ufb01elds. In particular,\nthe role of compact exceptional Lie groups in grand uni\ufb01cation gauge theories and in string theories, and that of the noncompact\nforms in supergravity theories is well known. Many properties of these groups can be already inferred from abstract theoretical\nconsiderations, however it can be useful to have available explicit concrete realizations of such groups in term of matrices, for testing\nconjectures related to con\ufb01neme"
+      },
+      {
+        "pdf_page": 2,
+        "term": "simply connected",
+        "excerpt": "f the 266 dimensional real space\nunderlying the complex algebra E7, in such a way that the selected subspace inherited with the Lie product is itself a (real) Lie\nalgebra. For each simple Lie algebra A there is a unique simply connected Lie group G (up to isomorphisms) such that A is the\ncorresponding Lie algebra. The complex Lie group E7 contains a maximal compact subgroup which is a 133 dimensional real Lie\ngroup whose Lie algebra is then called the compact form and usually indicated1 E7(\u2212133), where in parenthesis the signature of\nthe Killing form (number of positive eigenvalues minus number of the negative ones) is indicated. We will use the same notation\nto indicate both the group and the algebra. When referring to the group we will mean the unique simply connected group.\nThe compact forms are in correspondence with the maximal compact subgroups of E7(\u2212"
+      },
+      {
+        "pdf_page": 4,
+        "term": "Z3",
+        "excerpt": "variant. Its Lie algebra is generated\nby the derivation Di over the quaternions, which indeed commutes with the whole E6 = D(J) \u2295J\u2032. In this way we have recognized\nthe maximal compact subalgebra E6 \u00d7 R = Lie((E6 \u00d7 U(1))/Z3).\nIt is interesting to note that, J being Abelian, we have Rja(jb) = Rjb(ja) which implies\n( \u02dcCa)\u00b5\nb = ( \u02dcCb)\u00b5\na.\n(3.10)\nWe will see in the next subsection that this symmetry relation is a particular case of a more general symmetry relation that has a\ndeep geometrical meaning.\nOther interesting relations are obtained from the Leibnitz property DI(ja \u25e6jb) = DI(ja) \u25e6jb + ja \u25e6DI(jb): it becomes\n( \u02dcCa)c\nb(CI)d\ncjd = [(CI)c\na( \u02dcCc)\u00b5\nb + (CI)c\nb( \u02dcCa)\u00b5\nc]j\u00b5.\n(3.11)\nApplying the dual basis \u02c6j\u03bd we get\n[CI, \u02dcCa]d\nb = (CI)c\na( \u02dcCc)d\nb,\n(3.12)\n(CI)c\na( \u02dcCb)27\nc + (CI)c\nb( \u02dcCa)27\nc = 0.\n(3.13)\nThe \ufb01rst identity gives the very interesting relations\n\u03b1\nc"
+      },
+      {
+        "pdf_page": 5,
+        "term": "Z3",
+        "excerpt": "he F4 algebra to the E6 algebra.\n3.3. Construction of the group. From the Tits construction we can easily get the main features required to perform the Euler\nconstruction with respect to the maximal subgroup (E6 \u00d7 U(1))/Z3.\nIf\u20d7n is any normalized three vector, we see that setting\u20d7\nh = (h1, h2, h3) and\u20d7H = (H1, H2, H3),\nu :=\u20d7n \u00b7\u20d7H \u2295J \u02d9+((\u20d7n \u00b7\u20d7h) \u2297J\u2032)\n(3.31)\nis a subalgebra of g which generates a maximal compact subgroup U(1) \u00d7 E6. Indeed, note that\u20d7n \u00b7\u20d7H has vanishing Lie product\nwith the whole u. The linear complement of\u20d7n \u00b7\u20d7H in u reproduces the same rules we used in [8] to extend F4 to E6. In particular,\nrestricted to (\u20d7n \u00b7\u20d7h) \u2297J\u2032, the product (3.6) is [(\u20d7n \u00b7\u20d7h) \u2297j,\u20d7n \u00b7\u20d7h \u2297j\u2032] := \u2212[Lj, Lj\u2032]. The minus sign is exactly what we needed in [8] to\ngo from the split form E6(\u221226) to the compact form. This is not surprising since we are starting from a compact grou"
+      },
+      {
+        "pdf_page": 7,
+        "term": "Z3",
+        "excerpt": ", which have period 4\u03c0\n\u221a\n3, whereas for\nA = 1, 2, 3, hA has period Th =\n\u221a\n6\u03c0 and gA has period Tg =\n\u221a\n6 2\u03c0 = 2Th as a consequence of the double covering.\nFinally, we remark that the maximal subgroup of E7 is (E6 \u00d7 U(1))/Z3. Indeed, the generator\n\u03c9 := exp(4 \u03c0\n\u221a\n3\nY73) = exp(2\nr\n2\n3\u03c0Y1) \u2208E6 \u2229U(1)\n(3.42)\nsatisfy \u03c93 = I56 so that it is a generator of Z3 common to both E6 and U(1).\n4. The E7(7) construction\nWe want to construct the E7 compact form related to the split form by means of the Weyl unitary trick. In this case the\nmaximal compact subgroup that is privileged is SU(8)/Z2. To this aim we will follow the paper [15], chapter 12, see also [16].\nLet V be an eight dimensional real vector space and V \u2217be its dual. Let \u2227iV be the i-th external power of V . We can \ufb01x an\nisomorphism \u22278V \u2243R. SL(V ) is the group of automorphisms preserving such isomorphism. Let L :="
+      },
+      {
+        "pdf_page": 11,
+        "term": "Z3",
+        "excerpt": "Lie group and in\nparticular of its compact form. We have solved the problem in three di\ufb00erent ways. In the \ufb01rst one we have realized the generalized\nEuler construction w.r.t. the maximal compact subgroup U = (E6 \u00d7 U(1))/Z3 of highest dimension. To this end we have \ufb01rst\nobtained the adjoint representation of the E7 Lie algebra by using the Tits realization of the Magic Squares. This has allowed us\nto easily understand the structure of the commutators and then the main properties of the algebra in relation to the subalgebra\nLie(U). However, since the Adjoint representation of the group has a nontrivial kernel given by the center Z2 of E7, we have built\nalso the fundamental representation 56 which provides a faithful representation of the group. For this case we have reported a very\ncareful analysis. Note that we can obtain a realization of E7/Z2, simply by rep"
+      },
+      {
+        "pdf_page": 16,
+        "term": "Z3",
+        "excerpt": "the range of the parameters, we can proceed as shown in [9]. In particular, we will be able to make use of the\nresults already obtained in [7] and [8], thus simplifying most of the computations.\nSetting U := (E6 \u00d7 U(1))/Z3, from our previous construction we can write the generic element of E7 as\nE7[x1, . . . , x133] = B[x1, . . . , x51] exp V [x52, x53, x54]U[x55, . . . , x133],\n(D.1)\nwhich is (3.36) realized with the matrices YA. Then, the range of the parameters x55, . . . , x133 can be chosen in such the way that\nx55 covers the whole U(1) and x56, . . . , x133 cover the whole E6. The last ones have been determined in [8] and will be reported in\nthe conclusions for convenience. The U(1) is covered if x55 runs over a period Tg. However, because of the action of Z3, we must\nreduce its range to Tg/3 = 2\nq\n2\n3\u03c0.\nFor the remaining parameters, we have to constru"
+      },
+      {
+        "pdf_page": 17,
+        "term": "Z3",
+        "excerpt": "at \u03c4 commutes with E6 and with V . This means that we can write\nBeV U = B\u03c4 \u22121\u03c4eV U = B\u03c4 \u22121eV \u03c4U.\n(D.19)\nSince the right \u03c4 can be reabsorbed in the parametrization of U, and, on the left, it acts as Z2 on the factor U(1)/Z3 in B, we see\nthat it identi\ufb01es the points in the range by means of the relation\nx1 \u223cx1 + Tg/6.\nThen, to have an injective parametrization, apart from a subset of vanishing measure, we must further restrict the range of x1 to\nthe interval x1 \u2208[0,\nq\n2\n3\u03c0].\n"
+      }
+    ],
+    "status": "downloaded-primary"
+  },
+  {
+    "name": "trace-normalization",
+    "url": "https://arxiv.org/pdf/1008.1062",
+    "sha256": "4574ec13afe1ad6e1f5f28c350ac3331022bcc1dc2468564bcecf5d52c7f51e2",
+    "pages": 41,
+    "excerpts": [
+      {
+        "pdf_page": 4,
+        "term": "normalization factors",
+        "excerpt": "Table 1 for all the simple\ngroups. I8(R, F) is completely speci\ufb01ed by the multiplets in the low-energy theory and can\nbe computed using the formulae in [12, 13].\nAn\nBn\nCn\nDn\nE6\nE7\nE8\nF4\nG2\n\u03bb\n1\n2\n1\n2\n6\n12\n60\n6\n2\nTable 1: Normalization factors for the simple groups\n\u2013 3 \u2013\n"
+      },
+      {
+        "pdf_page": 4,
+        "term": "Table 1",
+        "excerpt": "e group Gi, and \u03bbi is a normalization factor.\nThese normalization\nfactors are \ufb01xed by demanding that the smallest topological charge of an embedded SU(2)\ninstanton is 1, as explained in [11]. These factors are listed in Table 1 for all the simple\ngroups. I8(R, F) is completely speci\ufb01ed by the multiplets in the low-energy theory and can\nbe computed using the formulae in [12, 13].\nAn\nBn\nCn\nDn\nE6\nE7\nE8\nF4\nG2\n\u03bb\n1\n2\n1\n2\n6\n12\n60\n6\n2\nTable 1: Normalization factors for the simple groups\n\u2013 3 \u2013\n"
+      },
+      {
+        "pdf_page": 7,
+        "term": "normalization factors",
+        "excerpt": "these inner products are quantized in Z when the normalization factors \u03bbi are chosen as in\nTable 1. (2.11-2.13) imply that the inner products a \u00b7 bi, bi \u00b7 bi, bi \u00b7 bj are all quantized in\nintegers if\n\u03bbi\nP\nR xi\nRAi\nR \u2212Ai\nadj\n6\n\u2208Z\n\u03bb2\ni\nP\nR xi\nRCi\nR \u2212Ci\nadj\n3\n\u2208Z\n(2.18)\n\u03bbiAi\nR \u2208Z\nWe will prove the above statements for each of the simple groups, case by case.\nFor\nthe SU(N) (and Sp(N)) series, this is easily proved using properties of Young diagrams,\nwhich are in one-to-one correspondence with the irreducible representations of SU(N) (and\nSp(N)). For an arbitrary group G not of the form SU(N) or Sp(N), we \ufb01nd a sequence\nof maximal subgroups that terminates in SU(N) or Sp(N), e.g. E8 \u2283SU(9), SO(8)"
+      },
+      {
+        "pdf_page": 7,
+        "term": "Table 1",
+        "excerpt": "these inner products are quantized in Z when the normalization factors \u03bbi are chosen as in\nTable 1. (2.11-2.13) imply that the inner products a \u00b7 bi, bi \u00b7 bi, bi \u00b7 bj are all quantized in\nintegers if\n\u03bbi\nP\nR xi\nRAi\nR \u2212Ai\nadj\n6\n\u2208Z\n\u03bb2\ni\nP\nR xi\nRCi\nR \u2212Ci\nadj\n3\n\u2208Z\n(2.18)\n\u03bbiAi\nR \u2208Z\nWe will prove the above statements for each of the simple groups, case by case.\nFor\nthe SU(N) (and Sp(N)) series, this is easily proved using properties of Young diagrams,\nwhich are in one-to-one correspondence with the irreducible representations of SU(N) (and\nSp(N)). For an arbitrary group G not of the form SU(N) or Sp(N), we \ufb01nd a sequence\nof maximal subgroups that terminates in SU(N) or Sp(N), e.g. E8 \u2283SU(9), SO(8) \u2283\nSO(7) \u2283SO(6) \u223c= SU(4). Then, by computi"
+      },
+      {
+        "pdf_page": 8,
+        "term": "Table 1",
+        "excerpt": "uld together contribute n(s)2\nto AR and n(s)4 to ER, with n(s) := \u27e8s|T12|s\u27e9\u2208Z. Since n(s)2 \u2261n(s)4 (mod 6), we have\nER \u2261AR (mod 6). Therefore,\n1\n6\n X\nR\nxRAR \u2212Aadj\n!\n\u2208Z .\n(2.25)\nSince the normalization factor for SU(N) in Table 1 is 1, this shows that for an SU(N \u22654)\nfactor in the gauge group all the conditions in (2.18) are satis\ufb01ed.\nFor the other subgroups of GL(N), we can again use the Young diagram approach\n(see [17] for details on Young diagrams for the other classical groups). The irreducible\nrepresentations of Sp(N) are in one-to-one correspondence with Young diagrams with all\npossible contractions with the \u03f5 symbol subtracted. If we choose appropriate generators\nfrom the Cartan subalgebra of Sp(N) as in [4], whose squares are exactly equal to the\nsquares of the SU(N) generators we chose above, the above proof for SU(N) carries through\nunchanged. In the"
+      },
+      {
+        "pdf_page": 9,
+        "term": "normalization factors",
+        "excerpt": ")) = 18, we have integrality for E8, because \u03bbE8 = 60\nand \u03bbSU(9) = 1, and therefore relation (2.33) is satis\ufb01ed\n\u03bbE8 = \u03bbSU(9)(2A84 + Aadj) = 60 .\n(2.35)\nIn fact, the branching rule in (2.34) makes clear the origin of the normalization factors.\nSince\ntradjF 2\nE8 = 2 tr84F 2\nSU(9) + tradjF 2\nSU(9) = 60 tr9F 2\nSU(9),\n(2.36)\nincluding a normalization factor of 1/60 for the E8 group trace, relative to the SU(9) trace,\nensures that the minimum instanton number of any con\ufb01guration of E8 gauge \ufb01elds is 1.\n\u2013 8 \u2013\n"
+      },
+      {
+        "pdf_page": 10,
+        "term": "normalization factors",
+        "excerpt": "p are drawn from the list\n{SU(N \u22654), SO(N \u22657), Sp(N \u22652), E6,7,8, F4}\n(2.39)\nand suitable scaling factors are applied to the anomaly coe\ufb03cients. The groups SU(2), SU(3)\nand G2 are conspicuously absent from this list. The normalization factors for these groups\nare 1, 1 and 2 respectively, but in these cases, the condition that local anomalies are absent\ndoes not constrain the inner products to be integral. There is a more subtle anomaly,\nhowever, \ufb01rst discussed in [18], where the partition function is invariant under local gauge\ntransformations (gauge current is conserved quantum mechanically), but not invariant\nunder \u201clarge\u201d gauge transformations. The analysis of such \u201cglobal anomalies\u201d in six di-\nmensions was carried out in [19], and more thoroughly in [20]. Using their results, we \ufb01nd\nthat the inner products in question are non-integral for SU(2), SU(3) and"
+      }
+    ],
+    "status": "downloaded-primary"
+  },
+  {
+    "name": "axion-quantization",
+    "url": "https://arxiv.org/pdf/2309.03937",
+    "sha256": "fee8fde49194b45855156cd20d101972537a7a4700bef277869da86ae5288c06",
+    "pages": 40,
+    "excerpts": [
+      {
+        "pdf_page": 2,
+        "term": "fractional",
+        "excerpt": "Contents\n1\nIntroduction\n1\n2\nQuantization of the axion couplings to gauge fields\n4\n2.1\nQuantum numbers of Peccei-Quinn fermions\n. . . . . . . . . . . . . . . . . . . .\n6\n2.2\nFractional instantons\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n9\n2.3\nChern-Simons gauge theory\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n13\n3\nConstraints on the effective axion-photon coupling ga\u03b3\u03b3\n15\n4\nHigher symmetries of the Standard Model coupled to an axion\n18\n4.1\nHigher-group and non-invertible global symmetries . . . . . . . . . . . . . . . . .\n18\n4.2\nBounds on string tension and monopole mass . . . . . . . . . . . . . . . . . . . .\n19\n5\nConclusions\n22\nA More on the higher-group and non-invertible symmetries\n24\nA.1\nHigher-group symmetries . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+      },
+      {
+        "pdf_page": 4,
+        "term": "fractional",
+        "excerpt": " can be used to bound the axion string tension and the monopole mass.\nIn Appendix A, we provide more details on the higher-group and non-invertible symmetries in the\nSM coupled to an axion. Finally, appendix B discusses fractional axion-gauge couplings in the\npresence of additional topological degrees of freedom.\n4The couplings Ki (and also E, N) are sometimes referred to as the \u201canomaly coefficients\u201d in the literature. This is\naccurate if the axion model arises from the Peccei-Quinn (PQ) mechanism where there is a classical global symmetry\nsuffering from an ABJ anomaly. However, there are more general UV realizations of the axion models (such as\nfrom string theory or extra dimensions), where the Ki\u2019s might not admit an interpretation in terms of any anomaly\ncoefficient. Since our discussion is universal and does not refer to a particular UV completion of th"
+      },
+      {
+        "pdf_page": 5,
+        "term": "periodicity",
+        "excerpt": "2\nQuantization of the axion couplings to gauge fields\nThe axion field, denoted as a, is a periodic scalar field whose periodicity is given by a \u223ca + 2\u03c0f,\nwhere f is the axion decay constant. We consider a generic coupling of the axion field to the SM\ngauge fields,\nK3g2\n3\n32\u03c02\na\nf Ga\n\u00b5\u03bd eGa,\u00b5\u03bd + K2g2\n2\n32\u03c02\na\nf F a\n\u00b5\u03bd eF a,\u00b5\u03bd + K1g2\n1\n16\u03c02\n1\n36\na\nf B\u00b5\u03bd eB\u00b5\u03bd .\n(2.1)\nHere, gi\u2019s are the gauge coupling constants, and Ga\n\u00b5\u03bd, F a\n\u00b5\u03bd, and B\u00b5\u03bd are the SU(3), SU(2) and\nU(1)Y field strengths, respectively. The coupling constants Ki\u2019s can take only a quantized set of\nvalues, and the precise quantization conditions will be determined below. The dual field strengths\nare defined as eGa\n\u00b5\u03bd =\n1\n2\u03f5\u00b5\u03bd\u03c1\u03c3Ga,\u03c1\u03c3 and similarly for the SU(2) and U(1)Y field strengths. The\nU(1)Y hype"
+      },
+      {
+        "pdf_page": 7,
+        "term": "fractional",
+        "excerpt": "d. We provide several independent (but related)\nderivations of the quantization conditions:\n1. Assuming the PQ mechanism, we derive the quantization conditions from analyzing the quan-\ntum numbers of the PQ fermions.\n2. Fractional instanton numbers. This extends the analysis in [52] for T 4 to general spacetime\nmanifolds.\n3. Anomaly vanishing condition of certain 1-form global symmetries in 3d Chern-Simons gauge\ntheories.\n4. Higher-group symmetries.\nThe first three derivations will be presented in the rest of this section, while the last one is discussed\nin Appendix A.1.\nIn some axion models, such as the DFSZ model [48, 49], the axion coupling (2.2) below the\nEWSB scale is a valid description, but at higher energy scales the UV theory is different from the\none we consider in (2.1). In such cases, only the couplings E and N are meaningful whereas Ki\u2019s\nare not"
+      },
+      {
+        "pdf_page": 10,
+        "term": "fractional",
+        "excerpt": "\nmod 9 .\n(2.23)\nThe first condition follows from 2J = 6QY mod 2, and the second from \u21131 + \u21132 = 6QY mod\n3. Note that (2.21) is also equivalent to imposing the q = 2 and q = 3 conditions (2.13), (2.16)\nsimultaneously.\n2.2\nFractional instantons\nWe now provide a rigorous, model-independent derivation of the quantization conditions from the\nfractional instanton numbers. This derivation is universal and does not require any assumption\nabout the UV origin of the axion. The fractional instantons on T 4 of the SM gauge group have\nbeen previously studied in [52] by imposing the \u2019t Hooft\u2019s twisted boundary conditions [55, 56].\nThe periodic identification of the dynamical axion field \u03b8 \u223c\u03b8 + 2\u03c0 is a gauge symmetry, and\nthe exponentiated action eiS should be gauge-invariant. In other words, eiS should be single-valued\n9\n"
+      },
+      {
+        "pdf_page": 11,
+        "term": "fractional",
+        "excerpt": "gauge group is GSM = [SU(3)\u00d7SU(2)\u00d7U(1)Y ]/Z2 = SU(3)\u00d7U(2),\nthe two gauge fields A2 and A1 combine into a single U(2) gauge field given by AU(2) \u2261A2 +\nA112\u00d72. It follows that the instanton numbers n2 and n1 are generally fractional, with the fractional\nparts correlated as follows:\nn2 \u22081\n2Z ,\nn1 \u22081\n4Z ,\nn2 \u22122n1 \u2208Z .\n(2.25)\nTo derive (2.25), recall that the first and second Chern classes for the U(2) gauge field AU(2) are\nc1(FU(2)) = 1\n2\u03c0Tr FU(2) = 1\n2\u03c0(2F1) ,\nc2(FU(2)) =\n1\n8\u03c02\nh\nTr F 2\nU(2) \u2212\n\u0000Tr FU(2)\n\u00012i\n=\n1\n8\u03c02Tr F 2\n2 \u2212\n2\n8\u03c02F 2\n1 ,\n(2.26)\nwhere FU(2) is the U(2) field strength. The Chern classes satisfy11\nZ\nc2(FU(2)) \u2208Z ,\n1\n2\nZ\nc1(FU(2)) \u2227c1(FU(2)) \u2208Z ,\n(2.27)\nfrom which (2.25) follows straightforwardly. By rewriting K2n2 + K1n1 as K2(n2 \u22122n1) +\nK1+2K2\n4\n(4n1), we find that eiS is single-valued if and only if the quantization condition (2.13) is\nsatisfied"
+      },
+      {
+        "pdf_page": 12,
+        "term": "fractional",
+        "excerpt": "There is an alternative way to find the allowed values of fractional instanton numbers (2.25).\nFirst, we may view A2 and A1 separately as SO(3) = SU(2)/Z2 and U(1)/Z2 gauge fields, re-\nspectively. By saying that A1 is a U(1)/Z2 gauge field, we mean that 2A1 is a properly normalized\nU(1) gauge field satisfying the usual quantization of magnetic fluxes\nH 2F1\n2\u03c0 \u2208Z. The fact that\nthe two gauge fields combine into the U(2) gauge field AU(2) = A2 + A112\u00d72 further means that\n[37, 59]\nc1(F1) = w2(A2)\nmod 2 .\n(2.28)\nHere the first Chern class c1(F1) = 2F1\n2\u03c0 is viewed as an element of the cohomology group H2(X, Z)\nwhere X is the spacetime manifold. w2(A2) \u2208H2(X, Z2) is the second Stiefel-Whitney class for\nA"
+      },
+      {
+        "pdf_page": 13,
+        "term": "fractional",
+        "excerpt": "ctively. The condition that they combine into a U(3) gauge field im-\nplies that\nc1(F1) = w2(A3)\nmod 3 ,\n(2.32)\nwhere the first Chern class c1(F1) =\n3F1\n2\u03c0 for A1 is again viewed as an element of H2(X, Z).\nSimilarly, the fractional part of the PSU(3) instanton number is determined by w2(A3) as [60, 62,\n63, 64, 37, 59]\nn3 = 1\n3\nZ\nw2(A3) \u222aw2(A3)\nmod 1 .\n(2.33)\nFrom these, the quantization of the individual fractional instanton numbers, n3 \u22081\n3Z and n1 \u22081\n9Z,\nfollows immediately. The correlated quantization condition n3 \u22126n1 \u2208Z is also easily obtained\nby taking the square on both sides of (2.32) and then integrating them over the spacetime manifold.\nFinally, for q = 6, the allowed fractional values of the instanton numbers and their correlations\nare:\nn3 \u22081\n3Z ,\nn2 \u22081\n2Z ,\nn1 \u22081\n36Z ,\nn3 \u221224n1 \u2208Z ,\nn2 \u221218n1 \u2208Z ,\n2n3 + n2 + 6n1 \u2208Z .\n(2.34)\n(The last condition 2n3+"
+      },
+      {
+        "pdf_page": 14,
+        "term": "periodicity",
+        "excerpt": "nding on the\nglobal form of the SM gauge group, \u03b8-angles can have extended as well as correlated periodicities.\nUpon EWSB, \u03b8-angle for the electromagnetic gauge field is given by \u03b8EM = (\u03b81 + 18\u03b82)/36,\nwhose (correlated) periodicity can be inferred from (2.36). The normalization for \u03b8EM is such that\nthe Lagrangian contains \u03b8EMe2\n16\u03c02 FEM,\u00b5\u03bd eF \u00b5\u03bd\nEM where FEM,\u00b5\u03bd is the canonically normalized EM gauge\nfield strength (2.5).\n2.3\nChern-Simons gauge theory\nNext, we provide an alternative (but related) derivation of the quantization conditions, which is\nbased on the relationship between the 4d axion couplings and 3d Chern-Simons gauge theories\n[65]. More specifically, we rephrase the quantization condition on Ki\u2019s as the vanishing condition\nof an \u2019t Hooft anomaly of a certain 1-form global symmetry [63] in a 3d Chern-Simons theory.\nRelated discussions can be found,"
+      },
+      {
+        "pdf_page": 26,
+        "term": "periodicity",
+        "excerpt": "(3) gauge field with w2(A3) = eB(2)\n3 , and similarly A2\nis a PSU(2) = SO(3) gauge field with w2(A2) = eB(2)\n2\n[62, 36]. However, with the naive coupling\n(A.4), the exponentiated action generally does not respect the 2\u03c0 periodicity of \u03b8. Rather, under\n\u03b8 \u223c\u03b8 + 2\u03c0, it picks up [60, 62, 63, 64, 37, 59]\nexp\n\u0012 i\n4\u03c06K3\nZ\nB(2)\n3\n\u2227B(2)\n3\n+ i\n4\u03c02K2\nZ\nB(2)\n2\n\u2227B(2)\n2\n+ i\n4\u03c0K1\nZ\nB(2)\n1\n\u2227B(2)\n1\n\u0013\n.\n(A.5)\n25\n"
+      },
+      {
+        "pdf_page": 34,
+        "term": "fractional",
+        "excerpt": "nt\u201d invertible higher-form symmetries.\nFor q = 6, there is no interesting non-invertible 1-form symmetry operator, since we do not\nhave a center 1-form symmetry in the SM to begin with even in the absence of an axion.\nB\nFractional axion-gauge couplings\nThroughout the paper we assume that there are no other degrees of freedom in addition to the SM\nfields and a single axion field. However, certain topological degrees of freedom can result in a\nfractional axion-gauge coupling [53], which we review below. It would be interesting to further\nexplore phenomenological consequences of this mechanism.\nWe demonstrate this phenomenon for a dynamical axion field \u03b8(x) coupled to an SU(N) gauge\nfield A with coupling\nK\n8\u03c02\u03b8 TrF \u2227F with K \u2208Z. We introduce two new dynamical fields, a periodic\nscalar field \u02c6\u03b8(x) \u223c\u02c6\u03b8(x) + 2\u03c0, and a 3-form gauge field c. We consider the followin"
+      },
+      {
+        "pdf_page": 37,
+        "term": "periodicity",
+        "excerpt": "o the Strong CP Problem with a\nHarmless Axion, Phys. Lett. B 104 (1981) 199\u2013202.\n[50] M. Srednicki, Axion Couplings to Matter. 1. CP Conserving Parts, Nucl. Phys. B 260 (1985)\n689\u2013700.\n[51] K. Fraser and M. Reece, Axion Periodicity and Coupling Quantization in the Presence of\nMixing, JHEP 05 (2020) 066, [arXiv:1910.11349].\n[52] M. M. Anber and E. Poppitz, Nonperturbative effects in the Standard Model with gauged\n1-form symmetry, JHEP 12 (2021) 055, [arXiv:2110.02981].\n36\n"
+      }
+    ],
+    "status": "downloaded-primary"
+  },
+  {
+    "name": "bardeen-gravity",
+    "url": "https://arxiv.org/pdf/1107.0368",
+    "sha256": "a8c56931a76acc93168a9c3292d0421debc3fcec3730aaa317a2aa45950354ef",
+    "pages": 27,
+    "excerpts": [
+      {
+        "pdf_page": 2,
+        "term": "Bardeen",
+        "excerpt": ". Introduction\nAnomalies belong to the most interesting and most subtle properties of relativistic quan-\ntum \ufb01eld theories. They are responsible for the breakdown of a classical symmetry due\nto quantum e\ufb00ects. The Adler-Bardeen non-renormalization theorem guarantees that this\nbreakdown is saturated at the one-loop level.\nTherefore the presence of anomalies can\nbe determined through simple algebraic criteria on the representations under which the\nchiral fermions of a particular theory transform. In vacuum the anomaly appears as the\nnon-conservation of a classically conserved current in a triangle diagram with two addi-\ntional currents. In four dimension two types of anomalies can be distinguished according to\nwhether only spin one currents appear in the triangle [1,2] or if also the energy-momentum\ntensor participates [3, 4]. We will call the \ufb01rst type of ano"
+      },
+      {
+        "pdf_page": 8,
+        "term": "Bardeen",
+        "excerpt": "ij \u02c6Rn mkl ,\n(2.13)\nand \ufb01nd\n\u2212\n\u03bb\n16\u03c0G =\n1\n768\u03c02 .\n(2.14)\nAs a side remark we note that the gravitational anomaly could in principle also be shifted\ninto the di\ufb00eomorphism sector. This can be done by adding an additional (Bardeen like)\nboundary counterterm to the action\nSct =\nZ\nd4x\n\u221a\n\u2212hAmIm ,\n(2.15)\nwith Im = \u01ebmnkl(\u02c6\u0393p\nnq\u2202k\u02c6\u0393q\nlp + 2\n3 \u02c6\u0393o\nmp\u02c6\u0393p\nkq\u02c6\u0393q\nlo) ful\ufb01lling DmIm = 1\n4\u01ebijkl \u02c6Rm nij \u02c6Rn mkl. Since this\nterm depends explicitly on the four dimensional Christo\ufb00el connection it breaks di\ufb00eomor-\nphism invariance.\nThe bulk equations of motion are\nGMN \u2212\u039bgMN = 1\n2FMLFN L \u22121\n8F 2gMN + 2\u03bb\u01ebLP QR(M\u2207B\n\u0000F P LRB\nN)\nQR\u0001\n, (2.16)\n\u2207NF NM = \u2212\u01ebMNP QR \u0000\u03baFNP FQR + \u03bbRA BNP RB AQR\n\u0001\n,\n(2.17)\nand they are gauge and di\ufb00eomorphism covariant.\nWe note that keeping all boundary\nterms in the variations that lead to the bulk equations of motion we end up with boundary\nterms that contai"
+      },
+      {
+        "pdf_page": 15,
+        "term": "Bardeen",
+        "excerpt": "ver present no problem to generalize our calculation to the case with additional\nnon-abelian symmetries and various types of mixed anomalies, e.g. mimicking the usual\ninterplay of axial and vector symmetries where gauge Bardeen counterterms are necessary\nto implement the correct anomaly structures in the currents [21,23].\nSo far the contributions of the gravitational anomaly have shown up in the calculations\nof Kubo formulas. It is however also possible to calculate directly the constitutive relations\nof the hydrodynamics of anomalous currents via the \ufb02uid/gravity approach of [76]. This\nvery interesting question can be addressed within the model presented in this paper [77].\n5For a four dimensional holographic model with gravitational Chern-Simons term and a scalar \ufb01eld this\nhas also been shown in [63].\n\u2013 14 \u2013\n"
+      }
+    ],
+    "status": "downloaded-primary"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "claim_boundary": "Derived all 79 vector masses and vA-vector-vector/seagull couplings from the canonical covariant kinetic term and completed the Landau-gauge zero-momentum transverse-vector determinant, vector tadpole shift, and vanishing xi=0 ghost vertex. Finite-p transverse VV, mixed scalar-vector bubbles, external mixing, and xi cancellation remain; this is not a pole contribution or gauge-independent mass.",
+  "tree_shell_over_epsilonM2": 4320.0,
+  "dimensions": {
+    "vectors": 79,
+    "massive": 67,
+    "massless_unbroken": 12
+  },
+  "couplings": {
+    "mass_matrix_definition": "M_V^2=(R x)(R x)^T",
+    "D_v_definition": "(R v)(R x)^T+(R x)(R v)^T",
+    "Q_vv_definition": "2(R v)(R v)^T",
+    "D_frobenius_squared": 1080.000000000001,
+    "Q_mass_contraction": 548.0000000000005,
+    "nonzero_D_entries_abs_gt_1e-10": 62,
+    "unbroken_D_block_norm": 1.1889356554979436e-30,
+    "unbroken_Q_block_norm": 1.4920792550113082e-31
+  },
+  "zero_momentum": {
+    "vector_CW_Hessian": 55.00195571994485,
+    "vector_stationary_shift": -45.10700126487987,
+    "sum": 9.894954455064983,
+    "finite_difference": [
+      {
+        "h": 0.0002,
+        "second": 55.001954990530066
+      },
+      {
+        "h": 0.0001,
+        "second": 55.00195072727365
+      },
+      {
+        "h": 5e-05,
+        "second": 55.001953569444595
+      }
+    ],
+    "MSbar_vector_UV_local_coefficient_removed": 7.732072826705908
+  },
+  "ghost": {
+    "xi": 0,
+    "direct_vA_ghost_antighost_vertex": 0.0,
+    "reason": "background-Rxi FP scalar vertex is proportional to xi; strict Landau limit"
+  },
+  "checks": {
+    "degenerate_basis_rotation_abs_difference": 0.0,
+    "negative_omit_stationary_shift_change": 45.10700126487987,
+    "negative_drop_seagull_change": 15.035667088293076
+  },
+  "remaining": [
+    "finite-p transverse vector-vector bubble at p2=4320 epsilon M2",
+    "scalar-vector mixed derivative bubbles from canonical kinetic term",
+    "external scalar-vector pole determinant mixing",
+    "general-xi Goldstone/ghost/longitudinal cancellation"
+  ],
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-gauge-pole-gate\\calculation.py": "2cb39ec03da3d09b125ce8a3f418d71a53c45d799cba31e95f2a5b79cd5ed7c2",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\calculation.py": "3f4d86ec9b184b6b9ce33001df01eb533e6e45af1046dd3dea795d0a57b02b92",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\calculation.py": "9d10b6062bb478df15f587d710332b0ebddc289aefa443fcf7c767315ef8237e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-pole-gate\\calculation.py": "5d4a82d90a505595c2c6cefe0771e36faa49135d08d2b9623538fcf9e4a00307"
+  }
+}

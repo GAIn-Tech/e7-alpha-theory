@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-colored-yukawa-gate\\verify.py"
+  ],
+  "cwd": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-colored-yukawa-gate",
+  "exit_code": 0,
+  "log_sha256": "9b3005715dfe0d4a8d3bcf45e72bf1ba42a329779dbbeace2fc1bc33c98a17dd",
+  "release_manifest_sha256": "8e467e94bff5adc3442b47a303b02219a0d7cce5c631328453478a7a2cb188e6",
+  "certificate_sha256": "9be92148ec164a783dce9213596f61b4494b9370f452efa7ca1e97b5534bedd3",
+  "boundary": "Completed exact relative charged Yukawa replay; absolute adjunction normalization and conjugate slices remain open."
+}

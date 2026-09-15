@@ -1,0 +1,4304 @@
+=== PDF PAGE 1 ===
+~ 
+r . 
+~ .. 
+_.., .. 
+. 
+I -----" 
+-, 
+/"... 
+ABSTRACT 
+* 
+FERMION QUANTUM NUMBERS IN KALUZA-KLElN THEORY 
+Edward Witten 
+Joseph Henry Laboratories 
+Princeton University 
+Princeton, New Jersey 08544 
+October 1983 
+The problem of obtaining left-right aaymmetry of fermion quantum 
+numbers in Kaluza-Klein theory is discuased. 
+In the absence of elementary 
+gauge fields, a theorem by Atiyah and Hirzebruch states that the Dirac equa-
+tion in 4+n dimensions always leads to vector-like fermion quantum numbers in 
+four dimensions. 
+The proof of this theorem is sketched. 
+It is shown that 
+the same holds for the Rarita-Schwinger operator on homogeneous spaces but a 
+general impossibility theorem for the Rarita-Schwinger field is not proved. 
+(However, in view of the apparent restriction of aupergravity to d < 11 this 
+line of approach is severely constrained,) 
+Also discussed are eome Kaluza-
+Klein theories with elementary gauge fields, some difficulties in obtaining 
+maealeas charged scalars, and some speculations about the cosmological con-
+at ant. 
+* Research supported i.n part by the National Science Foundation under grant 
+No. PHYS0-19754. 
+-2-
+I. INTRODUCTION 
+Kaluza-Klein theory 1 has recently attracted increasing interest as a 
+program for unifying gauge interactions with gravity. 
+This theory can be 
+viewed 2 in terms of spontaneous SymQetry breaking, the compact and non-
+compact dimensions being on an equal footing as far as the laws of nature are 
+concerned, just as the photon and the massive vector $eSona are treated sym-
+metrically in the standard weak interaction models. 
+This simple observation 
+is one of the chief reasons for the revived interest 3 in. Kaluza-Klein theory. 
+One may start with a general relativistic theory in 4+n dimensions, and 
+assume the grand state to be K~KB, where M~ ia four dimensional Minkowaki 
+space and B is a compact apace. 
+Continuous symmetries of a* will always be 
+observed~ as gauge symmetries in the effective four dimensional world. 
+The 
+gauge fielda (which in general can be more numerous than the extra dimen-
+sions) originate in the normd mode expansion of the flu'ctuationa in the 4+n 
+dimensional metric tensor. 
+For instance, starting in eleven or more dimen-
+aione, one can ~.s obtain gauge fields of SU(3)l<SU(2)KU(l). 
+Huch of thie 
+paper will be devoted to the consequences of assuming that all observed gauge 
+forces originate in this way, as part of the metric tensor, from a theory 
+which originally had no elementary gauge fields. 
+However, thia is not necea-
+aarily the only attractive possibility. It might be equally attractive to 
+start with a unified theory (perhapa a aupergravity 6 or auperatring 7 theory) 
+that determines the original gauge group. 
+(For instance, one of the n•2 
+supergravity theories in ten dimensions requires the existence of a U(l) 
+gauge field.) 
+Our remarks in section VI will be relevant to such theories. 
+* I.e., transformations that leave fixed both the geometry of Band the 
+expectation values of any matter fields that may be present. 
+
+=== PDF PAGE 2 ===
+.. 
+~ 
+·~ . ,. 
+'l: --.,.,._ __ ~ . 
+•
+-3-
+As soon as one begins to think about Kaluza-Klein theory, one faces a 
+bewildering variety of choices. 
+There are many assumptions one might make, 
+and many facts about elementary particle physics one might try to explain, 
+It appears unlikely that at the present time we can guess correctly the whole 
+detailed form of the 4+n dimensional lava and all the key points of the 
+dynamics. 
+For these reasons, it seems important to isolate problems that can 
+be addressed without claiming to understand all the details of a theory. 
+As 
+will become apparent, the problem of trying to predict the quark and lepton 
+quantum numbers is such a problem, and it will be our main interest in this 
+paper. 
+However, ve shall also make some remarks on certain other qualitative 
+problems: the gauge hierarchy problem and the problem of the cosmological 
+constant, 
+Since we will deal mainly with the problem of the fermion quantum num-
+bers, it is worth while to briefly recall some aspects of that problem as it 
+presently appears. 
+One of the most striking aspects ~f particle physics is that left 
+handed fermiona transform under S(3)XSU(2)xU(l) differently from the way the 
+right handed fermions transform. 
+(The quantum numbers are not "vector-
+like".) 
+For instance, left handed quarks are SU{2) doublets but right handed 
+quarks are SU(2) singlets. 
+Equivalently, one may say that the fermions of 
+given helicity form a complex representation of SU(3)xSU(2)xU(l). 
+The fer-
+miens of one generation transform under SU{3)xSU(2)xU(l) as {3,2)113 ~ 
+(),1)-413 (I (),1)213 &- 0,1)2 8 (1,2)-1 which is a eo-called complex repre-
+sentation (in other words, i.t is not equivalent to ita complex conjugate, 
+which is (3,2)- 113 @ (3,1)" 13 It (3,1)- 213 II (l,l)-2 e (1,2)1; by CPT, this is 
+-4-
+the representation furnished by the right-handed fermions). 
+This fact is of 
+utmost importance, because it means that bare masses of the quarks and lep-
+tons are forbidden by gauge invariance. 
+The quarks and leptons can acquire 
+111ass only when SU(2) l'tl(l) is spontaneously broken. 
+This, in turn, meanS that 
+the quarks and leptons cannot be much heavier than the mass scale at which 
+SU(2)~(1) is broken; they cannot have masses of order, say, the Planck mass. 
+The relative "lightness" of the fermions would therefore be explained if the 
+"smallness" of the SU(2) 1(1(1) breaking scale were undeutood; it is not an 
+independent problem. 
+In this paper we will assume, in accord with the 
+"survival hypothesis" a that the only light fermion& are fermions that are 
+required to be light by gauge invariance; this assumption will not always be 
+explicitly stated, 
+The fact that the quantum numbers are not vector-like means that the 
+• 
+spectrum of light fermions 
+depends only on the "universality class" of an 
+SU(3) l6U(2) ~(1) itivariant theory. 
+The lightness of the light fermions and 
+their quantum numbers cannot be modified by any SU())xSU(2)xU(l) invariant 
+perturbations. 
+We do not know at what length scale the spectrum of light 
+fermions is determined, but it may be that this reflects physics at the 
+smallest length scales. 
+Of course, there is no experimental proof that mirror fermions with V+A 
+couplings to the usual W mesons will not be found, restoring the vector-like 
+nature of the fermion spectrum. 
+But there are many reasons to doubt that 
+this will occur. 
+If mirror fermions are discovered, we will lose our 
+*By the "spectrum of 1 ight fermions" we means the quantum numbers of the 
+light fermions. 
+We will usually speak of the quarks and leptons as if they 
+were massless, ignoring the SU(2)xU(l) breaking. 
+
+=== PDF PAGE 3 ===
+... 
+. 
+... 
+;,. 
+-s-
+theoretical understanding of why the quarks and leptons are ,S Mw in mass. 
+(Of course, in any case we don't understand why some of the fermions are so 
+much lighter than ·HW.) 
+If mirror fermions do exist they fail to a remarkable 
+extent to ~~tix with the usual fermions; the first generation fer111ions are very 
+light and have almost pure V-A weak interactions. 
+If ~irrors do exist it is 
+odd that none of the fourteen SU(3)xSU(2)xU{l) multiplet& observed so far 
+appear to be mirrors. 
+This is all the more remarkable in that the mirrors 
+cannot weigh more than at most a few hundred GeV (since they do not mix with 
+usual fermions, their bare masses are forbidden by SU(2)XU(l)). 
+Finally, and 
+perhaps most convincingly, the triangle anomalies cancel among the observed 
+quarks and leptons. 
+This cancellation appears to be a rather striking con-
+firmation of current ideas, but if mirrors exiat it is juat an elaborate and 
+unnecesaary charade, since the mirrors would automatically cancel the anoma-
+liea of the known fermion&, whatever those anomalies might be. 
+What is more, the fermion representation is complicated (each family 
+consiets of five irreducible representations of SU(J)xSU(2)xU(l)) and redun-
+dant (there are three families). 
+On the firet point, no doubt the SU(S) and 
+0(10) grand unified theories are the .Cit 1ucceasful efforts to date (a 
+family is SL+lOL in SU{5), or 16L in 0(10)). 
+On the 1econd point-- which is 
+an updated version of Rabi' s question 11who ordered the muon?" -- there is no 
+equally convincing answer. 
+It is natural to try to embed the three families 
+as one irreducible representation of a bigger group. 
+Perhaps the moat 
+attractive such idea is to use the spinor repreaentation 9 of O(N) for N~l8. 
+The spinor representation of O(N) is the representation space of N gamma 
+matrices, which automatically furnishes 'a representation of any subset of the 
+gamms matrices; so the O(N) spinor transforms as a sum of spinor represents-
+tiona of any minimally embedded O(k) subgroup. 
+For instance, the irreducible 
+-·-
+spinor of 0(18) transforms under 0(10) as four families plus (unfortunately) 
+four anti families. 
+This beautifully achieves the desired multiplicity, but 
+it is not easy to eliminate the antifamilies. 
+One may invoke a "hypercolor" 
+force which becomes strong at -1 Tev, breaking SU(2)XU(l) and confining"the 
+antifamilies. 
+This elegant idea to has innumerable d-ifficulties in detail. 
+In this paper, difficulties will be much more conspicuous than phenomenolog-
+ical successes, but we will note, in section VI, that Kaluza-Klein theory 
+gives an alternative way to avoid antifamilies in the O(N) approach to the 
+family problem. 
+A discussion of zero modes of non-trivial Dirac operators in Kaluza-
+Klein theory was apparently first given in a special situation by Palla.11 
+In (4), in connection with a discussion of some pseudo-realistic models, the 
+detailed proposal was made that the quark and lepton quantum n~bers are 
+determined by the topology of a manifold with SU(3)xSU(2)xU(l) symmetry. 
+The 
+importance and difficulty of obtaining a complex representation were pointed 
+out. 
+Chapline and Slaneky and Hantoni 2 diecue~ed the problem of obtaining a 
+complex spectrum in Kaluza-Klein theory; they anticipated the kinematical 
+analyeis of section 11 and some of the ideas of section VI. 
+The kinematical 
+analysis has been recently developed in much more detail by Wetterich,1 3 who 
+worked out all of the kinematical consequences of the mod 8 periodicity of 
+the 1pinor represenation of O(N). 
+He al•o introduced in a different language 
+the mathematical concept of the character valued index, which as we will see 
+plays a very important role. 
+Models exhibiting many of the ideas of section 
+VI have been analy~ed by Randjbar-Daemi, Salam, and Strathdee.1~* As regards 
+* I understand, in addition, that these authors have considered {unpublished) 
+some of the detailed models in section VI. 
+
+=== PDF PAGE 4 ===
+-7-
+fermion quantum numbers, the novelty in the present paper is primarily the 
+restrictions disussed in sections IV and V and the more realistic models in 
+section VI. 
+Our conclusions will be as follows. 
+If all gauge fields are part of 
+the metric tensor, then a theorem of Atiyah and Hirzebruch 15 states that the 
+Dirac operator in 4+n dimensions always leads to vector-like quantum numbers 
+in four dimensions. 
+(The relevance of this theorem to Kaluza-Klein theory 
+was first noted in reference (16).) 
+For the Rarita-Schwinger operator the 
+situation is more complicated, 
+We will show that if the hidden dimensions 
+form a homogeneous space the Rarita-Schwinger operator likewise always leads 
+to vector-like quantum numbers. 
+What happens in general for the Rarita-
+Schwinger operator on spaces that are not homogeneous I do not know. 
+How-
+ever, the fact that supergravity is apparently restrictd to d < 11,' 7 and 
+certain other facts discussed in section V, indicate that this avenue is not 
+promising, 
+If one is less ambitious and introduces elementary gauge fields 
+in 41-n dimensions, it is possible but still subtle to get complex representa-
+tiona. 
+Indeed, as we will see in section VI, one can naturally get very big, 
+complicated, duplicated representations. 
+In section VII, we discuss some 
+other ways that the assumptions might be modified. 
+We will encounter considerable difficulties in our attempts to inter-
+pret the fermion quantum oumbers as the solution of an index problem. 
+Never-
+theless, this seems to be a quite attractive idea. 
+.. 
+!., 
+" 
+-·-
+II. PRELIMINARIES 
+Let us first recall how -- in a Kaluza-Klein theory with ground state 
+H~~s -- massless particles originate as zero modes of appropriate wave 
+operators on B. 
+A massless Dirac particle in 4•n dimensions obeys 
+4>o 
+o • /Jv • 1 r" o • 
+i•I 
+IJ 
+(I) 
+where rll, i•l ••• 4+n, are the ga111111a matrices. 
+Notice that we may as well use 
+the minimal Dirac equation. 
+Even if non-minimal terms (couplings to matter 
+fields or non-minimal couplings to gravity) are present, they cannot change 
+the quantum numbers of maasleas fermions in a complex representation of the 
+symmetry group. 
+Thia is an illustration of the fact that the problem of fer-
+mion quantum numbers depends only on the "universality class" of a theory. 
+We do not have to believe we know which Dirac operator is physically rele-
+vant. 
+If we define the four dimensional Dirac operator j(4) • 
+the internal Dirac 
+( -) 
+4+n 
+. 
+operator jJ n • L rJD .• then 
+j•5 
+J 
+0 -,s<•> • + ,..,-<•> • 
+(l) becomes 
+4 1 
+,., r" o " 
+aod 
+(2) 
+We see that/") is the !llass operator, in effect. Its eigenvalues are 
+observed in four dimensions as the particle masses. 
+Its zero eigenvalues are 
+the massless fermions. 
+A similar discussion can be made for the Rarita-Schwinger operator. 
+There are many, equivalent ways 6 to write the 4+n dimensional Rarita-
+Schwinger equation. 
+One way is 
+o • r" (o • - o v ) 
+lJ 
+v 
+\1 
+lJ 
+(3) 
+where VlJo. is the Rarita-Schwinger field ( lJ • l. .. 4+n is a vector index; a is 
+
+=== PDF PAGE 5 ===
+'r 
+.... i-' ',] 
+-9-
+a spinor index), 
+In the gauge rll 1/' 
+"' 0, (3) reduces to 
+' 
+o - rll o 
+1/' 
+' 
+v 
+= .P'4' '4'" + ;l"> t\1 
+(4) 
+Again zero roodes of Jl(n) are observed as massless particles in four diraen-
+aions. 
+The general zero mode is a sum of modes of two special kinds. 
+For 
+v • 1. .. 4,)1(n) is the ordinary spin 1i2 Dirac operator, and the zero modes 
+are spin 3/2 fermions in four diMensions. 
+For v • 5 ••• 4+n, the zero modes 
+have spin 1/2 as seen in four dimensions, while their dependence on the 
+compact dimensions is determined by the gauge condition and the Dirac-like 
+equation: 
+4•n 
+0 -
+! 
+~s r" '"' 
+••• 
+o•!r"nv 
+IJ'"5 
+II 
+\1 
+(5) 
+These conditions, taken together, are equiyalent to the gauge invariant 
+internal Rarita-Schwinger equation 
+••• l r' (D 
+V 
+-
+D 
+V ) • 0 
+I.FS 
+II 
+V 
+u 
+II 
+v- 5 
+••• 
+(6) 
+in a particular gauge. 
+(We temporarily introduced a gauge fixing condition 
+only to decouple the Minkowski dimensions from the co111pact ones.) 
+We see 
+that zero 111odes of the internal Rarita-Schwinger operator become massless 
+spin 1/2 fermions in four dimensions. 
+Now, can either of these operators have zero eigenvalues? 
+And can the 
+zero eigenvalues form complex representations of a s~metry group? 
+-10-
+The crudest problem, _.hich was pointed out in (4), arises in an odd 
+number of dimensions. 
+For odd n, the group O(n) only has one· spinor repre-
+sentation, 
+Likewise, the group O(l, 3+n) has only one spinor representation, 
+which transforms under 0(1,3) "O(n) as the product of the four compone'nt 
+spinor of 0(1,3) with the unique spinor of O(n). 
+This being so, fermions 
+that are left or right handed in four dimensions transform the sa~e way under 
+transformations of the internal space. 
+They obey the sa~e Dirac equation in 
+the internal space (modulo non~inimal terms which cannot affect the quantum 
+numbers) so they have the same quantum numbers and furnish a real repesenta-
+tion of any relevant ermmetry group. 
+In an even number of di111ensions the situation is more subtle. 
+For even n 
+the operator ~ • r 1 ••• I" antico111111utes with all ri, so it is a c-number in 
+any representation of the Clifford algebra. 
+Since ~2 • %1 (depending on n) 
+the representation apace of the Clifford algebra deco111poses into two 
+> 
+> 
+eigenapaces of r, the eigenvalues being :!:1 or :!:i. 
+Since f COIIIIIIUtes with the 
+O(n) group generators 1/4 {rl, ri), the group has two inequivalent spinor 
+representations, labeled by the eigenvalue of r.· 
+In a world of 4+n dimensions we define 
+r - r1r2 ••• f"+n 
+r<4> • rtr2 
+r' 
+riot • rsr6 
+r4+n 
+(7) 
+*For odd n, r commutes with the ri and is a c-number in an irreducible repre-
+sentation of the Clifford algebra. 
+the Cliffor1 algebra thus has two inequi-
+valent representations, labeled by the sign of r. 
+they are related to each 
+other by ri + -ri (which for odd n yields r + -~), and they are equivalent as 
+representations of O(n) since under ri + -ri the group generators l/4[ri,rjJ 
+are unchanged. 
+
+=== PDF PAGE 6 ===
+• 
+-=l 
+t-' B 
+., 
+-II-
+These operators have simple interpretations, r labels the spinor representa-
+tions of O(l, J+n). 
+r( 4) measures the helicity of four dimensional fermions. 
+And rlnt tables the spinor representations of O(n);. it measures what might 
+be called the internal helicity. 
+These operators obey the simple relation 
+r • r(4) .rlnt 
+(8) 
+This equation has an important consequence. 
+For fixed f, the four dimension-
+al and internal chiral ities are correlated. 
+If we start with a fermion field 
+restricted to (say) r.-1 in 4+n dimensions, it breaks down 
+under o(l,J)xO(n) 
+to components with* 
+nr(4) • n-l rlnt • +l 
+or 
+nr(4) • .,-1 rint • -1 
+(9) 
+Fermions of left or right handed physical helicity are left or right handed 
+in the internal space. 
+They obey different Dirac equations, whose zero modes 
+might have different quantum numbers. 
+This idea quickly runs into trouble if the number of dimensions is 
+divisible by four. 
+In 4k dimensions, f is odd under CPT. 
+This may be seen 
+readily in a Hajorana basis, with real ga~a matrices. In such a basis CPT 
+acts on spinors just by complex conjugation, r (as defined in (7)) is real 
+in a Hajorana basis, but in 4k dimensions it may be readily seen to obey 
+(f'> 2 • 
+-1. 
+The eigenvalues of 1' are ±i. 
+Being complex conjugates, the 
+eigenvalues of 1' are related to each other by CPT, and CPT requires that 
+there be equal numbers of fields with r- +i and f- -i. 
+Hence there is no 
+* Here n is a phase factor that will be determined momentarily. 
+It can be 
+ignored for the time being . 
+r~ , 
+' 
+-12-
+net correlation between four dimensional chirality and internal chirality. 
+Fields of 1 • +i give one correlation and fields of f • -i give the oppOsite 
+correlation. 
+Thus, i.n 4k dimensions, CPT requires that the gravitational 
+interactions be vector-like. 
+Naturally, therefore, if the weak interactions 
+are part of the gravitational force in 4+n dimensions, the weak interactions 
+are also vector-like. 
+Alternatively, one may saytl•18 that in 4k dimensions, 
+bare masses are possible for any fermions coupled to gravity only. 
+Such a 
+theory will, of course, always reduce to an appropriate four di~enaional 
+theory in which bare masses are still possible. 
+In 4k+2 di~enaiona, the situation is very different. 
+In this case f2 
++I so 1' has eigenvalues ±I. 
+CPT leaves f unchanged, and we can consider a 
+theory with fermions of (say) 1' • +I only, 
+(This option is forced on us in 
+certain situations, for instance in certain ten dimensional supersymmetric 
+field theories and string theories.) 
+This corresponds roughly to a theory 
+with V-A gravitational interactions that forbid fer~ion bare masses; the 
+question is whether V-A gravity can reduce to V-A weak interactions in four 
+dimensions. 
+The special role of 4k+2 dimensions in multi-dimensional field theory 
+was first raised in constructing aupersymmetric Yang-Hills theories. 19 
+In 
+the context of analyzing fermion quantum numbers this point was made and 
+developed in references (13} and (14). 
+Similar observations are iJIIpOrtant in 
+grand unified !llodel-building. g In the mathematical literature the periodici-
+ty of the spinor representation is an old observation. 20 
+Let us now work out the phase factor n of equation (9). 
+We note that 
+as defined r(4) is (in a Hajorana basis) a real matrix whose square is -1, so 
+the eigenvalues of r(4) are ±i, 
+In 4k+2 dimensions rlnt likewise has square 
+
+=== PDF PAGE 7 ===
+·, 
+• 
+"" 
+-13-
+-1 and eigenvalues :!:.i. 
+(ln 4k dimensions (r1"t)2 • +1.) 
+A fermi. fi.eld that 
+obeys r = r( 4 ). 
+rlnt = +l therefore has 
+(A) 
+r(4) • -rlnt • +i 
+o< 
+00) 
+(B) 
+r(4) • -rint • -i 
+A CPT transformation will complex conjugate the eigenvalues, so eigenvalues 
+of type (A) and (B) are exchanged by CPT. 
+This is as it should be • 
+A zero 
+mode of the internal Dirac or R.a~ita-Schwinger operator with rlnt • -i cor-
+responds to a left handed massless fermion in four dimensions. 
+Its complex 
+conjugate will hav£ rlnt • +i and corresponds to a right handed massless 
+fermion in four dimensions. 
+Massless fermions in four dimensions will trans-
+form in a complex representation of some s,._etry group G if the zero modes 
+of the internal Dirac operator with riot • -i form a complex representation 
+of G, or equivalently, if the zero modes of rlnt • +i transform differently 
+from those of riot- -i. 
+Since the remainder of this section and the next one will deal with 
+"chiral theories of gravity" with elementary fermi fields of a definite value 
+of r, it should be mentioned at the outset that these theories suffer from a 
+major problem. 
+The fermion one loop diagrams in an external gravitational 
+field are anomalous. 18 
+(The anomaly first appears in a diagram with 4k+2 
+external gravitons.) 
+In a few special theories in six or ten dimensions the 
+anomalies cancel between fields of different spin; b·eyond ten dimensions this 
+is impossible. 
+We will not limit ourselves to the anomaly free theories but 
+will investigate the fermion quantum numbers that e111erge (at the tree level) 
+in the whole class of chiral gravity theories. 
+There are several justifica-
+-14-
+tions for ignoring the anomalies. 
+First, gene·ul methods for treating the 
+whole class of chiral gravity theories are as simple as any special methods 
+for analyzing the particular anomaly free theories. 
+And the general methods 
+are likely to be important for other attempts to calculate fermion quahtum 
+numbers in Kaluza-Klein theory; for instance, we sh8ll apply them from a 
+different standpoint in section VI. 
+Second, it may happen that in the future 
+a massless field of some exotic spin might be successfully coupled to 
+gravity. 
+This could expand the room for cancellation of anomalies without 
+affecting our tree level considerations for spin 1/2 and spin 3/2 fields. 
+Third, though it seems unlikely, perhaps there is some way to make sense of 
+anomalous field theories or of other theories whose low energy limit is an 
+anomalous field theory. 
+A rather simple argument due essentially to Lichnerowicz21 severely 
+limits the possibility of obtaining zero modes of the Dirac operator in com-
+plex represenations of a symmetry group. 
+If one squares the internal Dirac 
+operator (which will simply be denoted iP; we henceforth suppress the four 
+Hinkowskian dimensio~s) we find 
+(i,ll)' • -m/- {- h' ,,J ][o,,D;J 
+i 
+1 
+i 
+. 
+k 
+t 
+- -m,o -n [y .r'][r ,Y I •,;., 
+, 
+I 
+-m 1D1 + 4 R 
+(11) 
+Since -ID.Di is a non-negative operator, this shows that if R > 0 everywhere 
+' 
+the Dirac operator has no zero eigenvalues. 
+Of course, in (11) we have con-
+sidered a minimally coupled Dirac operator. 
+If non-minimal couplings are 
+present, the Dirac operator may have zero eigenvalues. 
+But the fact that the 
+
+=== PDF PAGE 8 ===
+~ . . 
+,\ 
+-15-
+minimally coupled operator has no %ero eigenvalues at all, and leads to no 
+massless fermions in four dimensions, means that even in the presence· of 
+minimal couplings, the zero eigenvalueS form real representations of whatever 
+• 
+symmetry group may be present. 
+A particularly important case of this is the 
+following. 
+Suppose the compact space B has a symmetry group G. 
+In general 
+there will be many G-invariant metrics on B. 
+If even one of them has R) 0, 
+then for..!!!!!_ G-invariant metric on B, the zero modu of the Dirac operator, 
+if any, form a real representation of G. 
+(Of course, under these circum-
+stances the Dirac operator will generically have no zero eigenvalues.) 
+Much of the literature on Kaluza-Klein theory has concerned homogeneous 
+spaces B • G/H, G and H being compact non-abelian groups. these spaces all 
+admit a canonical G-invariant metric of positive scalar curvature, ao (even 
+if non-minimal terms are added or a different G-invariant •etric is used) 
+they give real representations for zero eigenvalues. 
+Hore generally, a 
+theorem by Lawson and Yau 22 shows that on any compact space B (not necessari-
+ly a homogeneous space) with a non-abelian symmetry G, there is a G-invariant 
+metric of positive scalar curvature R. 
+For non-abelian &roupa such as SU(3) 
+XSU(2)XU(l), this rules out the possibility of getting &ero modes of the 
+Dirac operator in complex representations. 
+This simple line of argument does not address the question (of concep-
+tual but probably not of practical interest) of whether zero modes of the 
+Dirac operator can form a complex representation of an abelian symmetry 
+group. 
+(Manifolds with a continuous abelian symmetry group in general do not 
+admit an invariant metric of positive scalar curvature.) 
+Much more important, 
+• This should be obvious "physically" from the connection with fermion quantum 
+numbers in four dimensions. 
+The precise mathematical argument will be given 
+shortly. 
+-16-
+this line of reasoning does not extend to the Rarita-Schwinger operator 
+whose square is more complicated than (11) and is not manifestly positive 
+even if R > 0. 
+For this reason, the Rarita-Schwinger operator can have zero 
+eigenvalues more readily than the Dirac operator. 
+For instance, in·fo~r 
+dimensions there is one compact manifold that is not. flat but obeys Rpv • 0. 
+It is the K3 surface, and for topological reasons it has two zero eigenvalues 
+of the Dirac operator and 42 zero eigenvalues of the Rarita-Schwinger 
+operator. 
+In multi-dimensional supergravity and superstring theories -- which are 
+the only known theories in which fermions are really unified with gravity 
+we inevitably are dealing with Rarita-Schwinger fields. 
+It therefore ia 
+important to learn to analyze the tero modes of these fields. 
+There is another no-go theorem, due to Atiyah and Hirtebruch,15 which 
+for our particular problem is much more restrictive than the reasoning 
+sketched above. 
+They proved precisely that for~ continuous symmetry 
+group, abelian or non-abelian, the Dirac zero modes form a real represent a-
+tion. 
+As we will see, their argument has important implications for the 
+Rarita-Schwinger case; 
+for instance, we will use it to prove that if the 
+compact spac.e is a homogeneous .manifold, the Rarita-Schvinger operator always 
+leads to a real representation. 
+We will present in section IV an elementary 
+proof of the Atiyah-Hirtebruch theorem that is closely related to the origin-
+al argument. 
+Why would a wave operator have zero eigenvalues? 
+And why would these 
+zero eigenvalues form complex representations? 
+We will illustrate the rele-
+vant concepts in terms of the Dirac operator. 
+ln the rest of this paper, we 
+suppress the four Minkowskian dimensions and concentrate on properties of the 
+
+=== PDF PAGE 9 ===
+,-
+' 
+-17-
+n dimensional Kaluza-Klein space B. 
+To streamline notation, gamma 111atrices 
+are henceforth gamma matrices r1, r2, 
+r" of B, and we define an operator 
+f: • ifint • ift ... r" with eigenvalues ±1. 
+Indices i, j. k refer to the 
+internal space; indices p, v, a. refer to all 4+n dimensions. 
+Let us define a "Hamiltonian" H • (ij)2. 
+Since [~. H}• 0, H eigen-
+state& can be chosen to be at the same time ~ eigenstates. If HV • Eojl, then 
+H•i'jt • E•i.Ji'V. 
+So io and i'V are degenerate in energy, unless i.tft • 0. 
+But 
+A 
+A 
+A 
+since ~f • -r"p, V and q5; have opposite eigenvalues. of r. 
+Consequently 
+(figure (1)), the H eigenvalues of non-zero energy are paired. 
+For every 
+A 
+A 
+state of r • 1 there is a state of r • ·1. 
+The zero eigenvalues 
+need not be paired in this way. 
+The OUIIIber of zero eigenvalues of I ;,ith "? • 
+A 
+. 
+with r • -1 is called the ~ 
+of j. 
+minus the number 
+The index is invariant under arbitrary deformation& of I that preaerve 
+w_ 
+A 
+the property •r • -'/Jr, since no smooth dhtortion of figure (1) which pre-
+serves the pairing at non-zero energy can disturb whatever chirality imbal-
+ance may exist at E • 0. 
+In particular the index of~ ia a topological 
+invariant, depending on the topology of B but not on its metric tensor. 
+Generically, in the absence of some aymmetry principle& (which can, however, 
+change the situation, as we will see), uro eigenvalues of '/all have positive 
+chirality or all have negative chirality. 
+This ia so because zero eigen-
+values of equal and opposite chirality would gain non-zero energy under a 
+generical perturbation. 
+Although the index is the simplest deformation invariant of the Dirac 
+operator that is relevant to the occurrence of zero modes, for our purposes 
+we need a slightly different concept. 
+In 4k+2 dlmensiona the index of the 
+Dirac operator always vanishes, for the simple reason that the poaitive and 
+-18-
+negative chirality zero modes of the Dirac operator are complex conjugates of 
+each other (as we have seen earlier) and therefore equal in number. 
+The 
+concept of interest to us is what mathematicians call the G-index or the 
+character-valued index of the Dirac operator. 
+Let the manifold B have a symqetry group G. 
+the eigenvalues of H or ~ 
+will then form representations of G. 
+Pick a representation Q, and draw the 
+same picture as before (figure (2)), but only counting multiplet& in the Q 
+representation. 
+We define indexQ(j) to be the nUIIIber of zero mode multiplets 
+in the Q representation of positive chirality minus the number of zero mode 
+multiplets in the Q representation of negative chirality. 
+For reasons simi· 
+lar to those given earlier, indexQ(~) is invariant under arbitrary perturba-
+A 
+~ 
+tiona that respect G symmetry and preserve the fact that j;r • ··r· 
+Of course, we can &till complex cOnjugate our eigenstate& of H. 
+This 
+still reverses the eigenvalue of ~. but now it exchanges Q with its complex 
+conjugate representation Q. 
+By complex conjugation (part (b) of figure (2)), 
+this implies that indexQ(i~) • -indexq(ij). 
+Upon reduction to four dimen-
+sions, this implies the perfectly valid statement that the number of left 
+handed masaless fermion• in the Q representation equals the number of right 
+handed masslesa fermions in the Q representation. 
+An equivalent way to define the character-valued index is aa followa. 
+The positive and negative chirality zero modes of iP form representations A+ 
+and A- of G. 
+For g&G we define 
+index( g) • tr 
+11.<s> - tr 11_(g) 
+Or equally well we define 
+index(g) • L indexQ(i,r{) ~(g) 
+Q 
+(12) 
+(13) 
+
+=== PDF PAGE 10 ===
+• • 
+~ • 
+,I 
+-19-
+* 
+where 
+~(g) is the trace of g in the Q representation. 
+If the character-valued index is nonzero, i.Jl must h8ve zero 1110des. 
+Generically, the number of zero modes will be the minimu. required to yield 
+the right value of indexQ(ij) for each Q, 
+The spectrum of zero modes 
+required by the character-valued index we will call the "stable spectrum" of 
+zero modes. 
+We will usually assume that the actual a~ectrum of zero modea 
+coincides with the stable spectrum and can be computed by evaluating the 
+character-valued index. 
+From the fact that SU(3)XSU(2)~(1) forbids bare 
+masses for all the known quarks and leptons, it appears that this assumption 
+is valid in nature. 
+A successful model would be one in which the character-
+valued index consists of three families minus three anti-families. 
+Unfortunately, as we will see in section IV, the Atiyah-Hirzebruch 
+theorem ensures that the character-valued index always vanishea for the Dirac 
+operator 
+in theories without elementary gauge fields. 
+At least on homo-
+geneous spaces, this is also true for the Rarita-Schwinger field. 
+It is not 
+true (even on homogeneous spaces) for fielda of spin 5/2 or larger; we will 
+discuss a counter example in section V (but there does not seem to be any way 
+to use massless fields of spin )'j/2 in physics 23), The character-valued 
+index also need not vanish in the presence of elementary gauge fields, and we 
+vill construct some pseudo-realistic models in section VI on the basis of 
+this fact. 
+As we will see, there are very powerful methods for calculating the 
+charac-ter-valued index of arbitrary operators. 
+It ia never necessary to 
+write dovn and solve an explicit differential equation. 
+* This definition of index(g) makes sense in 4k as well as 4k+2 dimensions, 
+though it is then not related to our physical problem, and we lose the 
+identity index(g) • (index(g-J))*that follows from complex conjugation in 
+4k~2 dimensions . 
+-20-
+III. OPERATORS ON HOMOGENEOUS SPACES 
+For our first experience in calculating the character-valued index of 
+various operators, we will consider the simple case in which the manifold S 
+is a homogeneous space G/H. 
+In that cue, there is a particularly ele111entary 
+way 2 .. to corapute the stable apectrWII of zero modes ·of the Dirac operator {or 
+any other G-invariant operator), 
+One simply expands the spinor fields on B 
+in harmonica (irreducible representations) of the group G. 
+For any represen-
+tation Q of G, let n+(Q) be the number of times the Q representation appears 
+in the harmonic expansion of positive chirality spinors, and let n_(Q) be the 
+number of times the Q representation appears in the expansion of negative 
+chirality apinora. 
+By standard theorems about homogeneous spaces and ellip-
+tic operators, n+(Q) and n_(Q) are always finite, and n+(Q) • n_(Q) for all 
+but finitely many Q. 
+Horeover, indexQ(i1) • n+(Q) -
+n_(Q). 
+After all, the 
+index ia the difference between the number of positive and negative chirality 
+multipleta. 
+This difference normally must be regularized since there are 
+infinitely many statea in Hilbert apace, and the regularization usually 
+involves pairing off the atates of equal, non-zero energy. 
+In a homogeneous 
+apace, working in a subspace of Hilbert apace defined by a definite represen-
+tation Q reduces the problem to a finite dimensional problem. 
+No regulariza-
+tion is needed; 
+indeXq(ifl) ia just the difference n+(Q) - n_(Q) between the 
+number of poaitive chirality and negative chirality Q multiplets. 
+Let us illuatrate these ideas with some simple examples. Consider first 
+a particle of spin 1/2 moving on the ordinary two dimensional sphere s2. 
+Let 
+j be the angular momentum operator, and define the "helicity" of a particle 
+at ; to be the component of angular momentum about the ; axis. 
+It equals 
+fl/2; it is +1/2 for states of positive chirality, -1/2 for states of 
+negative chirality. 
+
+=== PDF PAGE 11 ===
+• 
+-21-
+It is well known that a particle of helicity h can be in a state of 
+total angular momentum J"'lhJ, jhj+l, jhj+2, ••• with each allowed value of J 
+appearing exactly once in the harmonic expansion. 
+This is why J•l is the 
+lowest possible value for photons, and J•2 is the lowest possible value for 
+gravitons, 
+Whether the chirality is positive or negative, the absolute value of 
+the helicity of a spin 1/2 particle is 1/2. 
+So the allowed values of angular 
+momentum are the same for each chiralty: 
+' r .. +1 
+? - -I 
+I 
+3 
+5 
+J- 2' 2• 2• 
+J - 1 3 
+5 
+2· 2· 2· 
+(14) 
+Now we can see that the Dirac operator on the sphere baa no stable spectrum 
+of ~ero modes. 
+Since the Dirac operator commutes with J but reverses chiral-
+ity, acting on (say) the multiplet of given J and chirality ±1, the Dirac 
+operator gives either zero or else the multiplet of the aame J and chiralit.y 
++1 (see figure (3)). 
+Since the Dirac operator ill hen~itian, it either ex-
+changes these two multiplets or annihilates both of them. 
+Therefore the 
+positive chirality zero modes have the sa~ eigenvalues of J as the negative 
+chirality zero modes, and the character valued index vani~hea, 
+This result could be obtained in various other ways. 
+It follows from 
+the fact that the rotation group SU(2) has no complex representations, or 
+from the fact that a reflection of the two sphere reverses parity and ex-
+changes the two chiralities, or from the fact that the two sphere with its 
+usual metric has positive scalar curvature so that (by Lichnerowic&'s 
+theorem) the Dirac operator has no zero modes at all. 
+Now,however, we will 
+consider a slightly modified problem in which the character-valued index is 
+non-~ero. 
+-22-
+Place at the center of the sphere a magnetic monopole of strength ega 
+n/2, for some integer n. 
+The angular momentum operator now acquires an extra 
+piece 25 eg~ related to the quantization of magnetic charge. 
+this adds eg to 
+the fermion helidty, so that a fennion of chirality +1 has effective trelid-
+ty eg+l/2 and a fermion of chirality -1 has effective helic::ity eg-1/2. 
+If, 
+say, eg)O, the allowed values of angular momentum are now 
+1\ 
+1 
+3 
+5 
+r • +1 
+J • eg + 2, eg + 2• eg + 2• ... 
+1 
+1 
+3 
+5 
+J • eg - 2• eg + 2' eg + 2• eg + z· 
+' r • -1 
+(15) 
+The crucial point is now that states of J • eg - t exist for chirality -1 but 
+not for chirality +1. 
+The Dirac operator must annihilate these states, 
+because acting on states of ~ • -1, J • eg -f. the Dirac operator would give 
+states of ~ • +1 and J • eg - t. and such states do not exist. Other multip-
+let& cancel out as before (figure (4)), so the stable spectrum of ~ero modes 
+is a single multiplet of 'f,. -1 and J • eg - -}. 
+We will obtain this answer in a different way in section IV as an 
+illustration of a much more general and powerful method of calculating the 
+character-valued index of an operator. 
+The technique for harmonic expansions 
+for G-invariant operators on a homogeneous apace G/H does not seem to be well 
+known among physicists. 
+It is explained, for instance, in Appendix IV of 
+Salam and Strathdee, reference (3). 
+In later sections we will occasionally 
+state without detailed derivation results obtainable form harmonic expan-
+sions. 
+
+=== PDF PAGE 12 ===
+• 
+-23-
+IV. THE ATIYAH-HIRZEBRUCH THEOREM 
+We now turn to the proof of the Atiyah-Rir~ebruch theorem, which states 
+that the character-valued of the Dirac operator vanishes on any manifold with 
+a continuous symmetry group (in any even numb~er of dimensions, though our 
+main interest is d"' 4k+2). 
+The presentation will parallel a recent treat-
+ment of Morse theory, 16 and is essentially a more concrete version of the 
+odgi.nal proof. 
+Let B be a compact Riemannian manifold of even dimension n, 
+Suppose B 
+admits the action of a symmetry group C. 
+We wish to prove that index(g) • 0 
+for every gtG. 
+Since every element of G can be approximated arbitrarily well 
+by elements of suitably chosen U(l) eubgroups of G, it eufficee to prove that 
+index(h) • 0 whenever h is an element of any U(l) subgroup R of G, 
+We there-
+fore specialize to the case of a U(l) symmetry group R. 
+Since the representa-
+* 
+tiona of R !!: U(l) are labeled by an integer or half-integer n, 
+it suffices 
+to show that indexn ( ij) • 0 for all n. 
+Let ~i be a local coordinate system of B. 
+Let J:.i(~j) be the Killing 
+. vector field that generates R. 
+(This ~~~eans that, infinitessimally, the R 
+transformation is ,.i + +i + dC1(.-i).) 
+Acting on spinora, the generator of R 
+is the "Lie derivative" operator: 
+J 
+. 
+1 .. 
+0\. K • i (K 1Di + 7; r 1J (DiKj )) 
+(16) 
+where rij • -2
+1 (r1 , rj]. 
+Using the Killing vector equation D.K. + DJK. • 0 
+' J 
+' 
+and standard identities, it is not difficult to verify that fK and y! 
+commute -- as should be the case since -/.K generates a symmetry. 
+Therefore 
+we ma)' study simultaneous solutions of the equations 
+• The eigenvalues on spinor states are half integers in certain cases • 
+-24-
+oi' •• • "" 
+ipt ... 
+(17) 
+Our problem is to show that the Dirac 
+index indexn( iP) vanishes for each 
+sector of Hilbert space labeled by the integer (or half-integer) n. 
+The basic property of this index is that it is invariant under arbit-
+rary deformations of the operator if that are U(l) invariant and preserve the 
+A 
+'J 
+property ifr • -rif• 
+Let us therefore perturb the Dirac operator in a way 
+that preserves these properties and simplifies the analysis of its spectrum. 
+Instead of ij we will study 
+ij,·ij•t r1K. ' 
+(18) 
+where t is a conveniently chosen real number. 
+The character valued index of 
+i~t IDUit be ind"ependent oft. 
+We will prove that indexn(i/) vanishes for n)O 
+by studying the behavior as t 
++ +•; and we will prove that indexn ( yf> 
+vanishu for n<o by studying the behavior as t + -•. 
+We define a "Hamiltonian" 
+H • (ill )2 • (i-.1:)2 + t2tc.2 + 2it KjD. + itrij D.K. 
+t 
+rt 
+r 
+J 
+1 J 
+(19) 
+If we could show that for sufficiently large t, Ht has no zero eigenvalues, 
+this would establish the vanishing of the character valued index. 
+The 
+general reason this might be true is that the t 2K2 terro is positive definte 
+and becomes very large for large t. 
+However, the analysis is made subtle by 
+the term 2it KjD., which is not positive definite and can have large matrix 
+J 
+elements. 
+A crucial observation is that in the sector ~ljo • n"4o, Ht reduces to 
+H (n) • {ioi)2 + tlt<2 + 2tn + -2
+1 it rij O.K. 
+t 
+r 
+1 J 
+(20) 
+
+=== PDF PAGE 13 ===
+• 
+• 
+-2')-
+Since t is freely at our disposal, we choose t>O if n3£1 and t<O if n<O. '" 
+this way the term .2tn, as well as the t2K2 term, is positive, 
+Now, if the .Killing vector field Ki has no :c.eros, then all eigenvalues 
+are of order t 2 as t 
++ ""· 
+In this case, the character valued index certainly 
+vanishes. 
+In general, however, Ki vanishes at certain points, and our 
+analysis is more difficult. 
+For large It I, the spectrum of Ht(n) can be calculated in an asymptotic 
+expansion in powers of 1/ltl by expanding near the minima of the potential. 
+The relevant minima (which might give states that do not diverge in energy as 
+It I + •) are zeros of K. 
+For simplicity, we will treat the case of an 
+isolated zero of K, but the general case is not much different. 
+We may take our isolated zero of K to be at ti•O. 
+Near ti•O we can 
+choose the locally Euclidean coordinates ti to be such that K. • ~ .. fj + 
+' 
+,, 
+0( t 2), with ~ij a constant matrix 
+0 
+' . 
+-q 0 
+... ,, 
+0 ,, 
+-r2 0 
+0 
+-rd/2 
+rd/2 
+0 
+(21) 
+(Here d is the dimension of our manifold; the ri are integers since K gener-
+ates a U(l) group.) 
+For large It I, keeping only term• that contribute an 
+amount of order t to the energy, Ht (n) simplifies to 
+H (n) 
+' 
+d 
+I 
+i•l 
+d/2 
+- ' I 
+.... , 
+,, 
+a~i 2 • 
+-26-
+d/2 L t 2 r 
+2 
+.t=l 
+t 
+i r 1 
+-,- [rH-1' r"] 
+2 
+(•21-I 
+2 
++ <fla) + 2tn 
+(22) 
+The ground state energy of (22) is easily calcualted. 
+The first two terms 
+are a sum of commuting harmonic oscillator Hamiltonians. 
+The matrices 
+t {r21_1• r21 ] commute with each other and with the rest of the Hamiltonian, 
+d/2 
+and have eigenvalues ±t. 
+The ground state energy of (22) is It I L lr.l + 
+i•l 
+1 
+2tn.* This is a good approximation for large It I. 
+Considering t + +• if 
+n )(), and t 
++ -• if n<O, we see that Ht (n) has no zero eigenvalues and 
+consequently that the character-valued index of ij vanishes. 
+If the zeros of K are not isolated points, the discussion must be 
+changed only slightly. 
+Let F be any connected component of the submanifold 
+on which K vanishes. The potential t2K2 vanishes on F, so our spin 1/2 par-
+ticle moves freely along F, but the motion orthogonal to F is restricted to a 
+distance of order 1/lt. The orthogonal motion is governed by an operator 
+similar to (20), and the zero point energy of the orthogonal motion is 
+strictly positive if It I+ • with tn>O, again showing that the character 
+valued index vanishes. 
+(The discussion of degenerate Morse theory in refer-
+ence (16) is eimitar.) 
+This co111pletes the proof of the Atiyah-Hirzebruch 
+theorem. 
+* If we restrict ourselves to 
+state energy of (22) is even 
+conclusion. 
+states of ;/ k"' • n"' (as we should) the ground 
+larger. 
+This of course does not change the 
+
+=== PDF PAGE 14 ===
+, . 
+' 
+• 
+. 
+-27-
+Let us, however, now look at the preceding formulas from a different 
+viewpoint, the goal being to obtain the fixed point formula associated with 
+the Atiyah-Singer index theorem. 26 
+As we will see, this formula is a p?wer-
+ful tool for computing the character valued index when it is not zero. 
+Let us now study Ht for t 
++ +•, 
+Low-lying eigenvalues of Ht are con-
+centrated near zeros of K, which for simplicity we will take to be isolated 
+points. 
+Moat of these states have energy of order t, but &Ollie have energy 
+that vanishes as 
+• 
+~. 
+(This has been obscured in the presentation until 
+now.) 
+Let a(i~ be the nuDJber of state t concentrated near the ith zero vhoae 
+··-
+energy does not diverge as t + •• and vhich obey ~t'" .tt and /..,_t'" nt. 
+(We 
+have proved 
+operator at 
+(i) 
+an,.t • 0 for to--o.) 
+the i th zero as 
+f. (e) 
+' 
+Define the "local index" of the Dirac 
+L eine (a(i) _ a(i)) 
+n 
+n,+ 
+n,-
+(23) 
+The character-valued index I(8) is obtained as the SUD of the local indexes 
+I( e) 
+L f.< e> 
+i 
+• 
+(24) 
+since thia sum includes the contribution of all states vhoae energy is not of 
+order It I, and only such states can .contribute to I( e). 
+Of course, we have 
+proved that the Dirac case has 1(6) • 0, so (24) is a set of restrictions on 
+the a(i~. However, we will obtain a formula like (24) for other problems in 
+··-
+which I( e) 
+'~ 0. 
+To compute the a(i~, we could simply diagonalize the harmonic oscillat-
+n,-
+or Hamiltonian (22). 
+A more efficient method is as follows. 
+Zero energy 
+states must obey i/Jt ~ • 0. 
+Here t.i • irj (D.- itK.) has a very simple 
+l't 
+J 
+J 
+interpretation; it corresponds to a particle interacting with the abelian 
+-28-
+vector potential Aj .. tKj as well as the metric of the curved manifold under 
+study, 
+For large t, we know the low-lying states are concentrated near zeros 
+of K. 
+If near a zero at (say) ¢"'0, Ki • wijf. 
+with wij a constant matrix, 
+J 
+then the "magnetic field" Fij • 3iAj- a/i is just the constant matrix 
+twij' 
+So as t • •, our proble111 reduces to the study of the Dirac equation in 
+a constant IDagnetic field. 
+As in the usual three dimensional case, the 
+ground state energy is zero (but states of zero energy have n<O if t • +• or 
+n>O if t 
+• _.,). 
+With wij in the canonical form (21), the analysis is very simple. 
+Define 
+i" (I) 
+Pt 
+• 
+iD(2)•i 
+t 
+iD (n/2) 
+t 
+-
+r 
+i•l ,2 
+r 1 (Di + itKi) 
+L r' (D. • i<K.) 
+i•J ,4 
+1 
+1 
+L 
+tl (D .• itK.) 
+i•n-l,n 
+1 
+1 
+(25) 
+Then (ijSt )2 • n!
+2 lyf (j) )2 so a solution of if t • 0 obeys simultaneously 
+j•l 
+t 
+t 
+·• (l) ,, _ 
+_ ,,/ (n/2) ,, _ 0 
+lf't 
+T 
+•'' 
+lf't 
+T 
+• 
+Thus, we need only the well known solution of 
+the problem of a con~nt magnetic field in~ dimensions. 
+Choose a bash of gamma matrices rt • (~ 
+~).r'-(o ' 
+-i) 
+0 • If the 
+"rotation angle" is r, so K 1 • r+2, K2 • -r+1, then the two dimensional Dirac 
+operator is 
+0 
+;, -((a,. tr+d • i (a2 • trh) 
+With • • (" ), i 
+p 
+0 if 
+v r, 
+(a,- «+t): t(az- t<+z)) 
+(26) 
+
+=== PDF PAGE 15 ===
+• 
+' 
+-29-
+u(>., ;,) 
+k 
+2 
+2 
+(h + ih) exp- tr (+t 
++ •h ) 
+k 
+2 
+2 
+v(+t• +2) • (+t- ih) exp + tr (+t 
++ f2 ) 
+k 
+0, 1, 2, ... 
+(21) 
+The chirality operator is 'r • (~ 
+-~). 
+For t 
++ +•, if tr>O only positive 
+chirality zero modes are normalizable. 
+If tr(O only negative chirality zero 
+modes are no~alizable. 
+The symmetry generator is 
+hK • i(foi + ~ fj DiKj) 
+• -idh a2- h atl +I (~ 
+We see that on the states (27), ,eK • rr (k + 1/2). 
+"l 
+-1 
+The local index in the two dimensional problem would be h(e) • 
+(28) 
+t einB (a 
++ -
+a 
+_) where a 
+.. are the number of zero energy states t with 
+n 
+n, 
+n, 
+n, ... 
+~K; • ntjl, ?v • :t~. 
+Using (27) and (28), ve see that if r>O 
+If r<O we get 
+h( e) • 
+.r8 
+'r 
+• 
++ 
+. 3re 
+'T 
+• 
++ 
+eir8/2 
+1- eu8 
+·i 
+1 
+~ 
+si"Ir8 
+i}e 
+• 
++ 
+h( 8) • -e-ire/2 _ e·-i~8 _ e -i{re 
+_ e-ir8/2 
+l-e-ir6 .1. 
+2 
+1 
+si{re 
+(29) 
+(30) 
+-30-
+It is one of the wonders of analytic functions that these expressions are 
+equal, so we need not worry about the sign of r. 
+In view of the separation of variables (zero eigenvalues of -,ft are zero 
+eigenvalues of each of the ,Pt (n) ), we can now easily compute the local 'index 
+fi(e) at the ith zero. 
+It is just 
+f-m-::J 
+sinzr 4 
+e 
+f i ( 6) -
+a•1 
+n/2 
+. 
+• (1 
+(31) 
+where r4 (i) is the ath rotation angle at the ith zero of k. 
+The character 
+valued index of the Dirac operator is therefore 
+I( 8) • (t )n/2 r • 
+i • sin~ 
+2 
+• 
+8 
+(32) 
+which is the fixed point formula. 
+Although we obtained it by taking t 
++ +•, 
+an analysis for t 
++ -• leads to the same formula. 
+Since we know that t(e) 
+0, (32) is a set of very restrictive condi-
+tiona on the r (i). Actually the Atiyah-Hirzebruch theorem is an easy con-
+• 
+sequence of (32). 
+the ri.ght hand side of 02) defines a rational function of 
+w • e i9/t which vanishes at W'*O and .,.... 
+This function has no poles. 
+(Individual terms in (32) have poles at lwl•l. 
+these poles must cancel after 
+s~ing over fixed points, for the following reason. 
+An elliptic operator 
+always has only finitely many zero modes, so t(e) has an expansion t(e) • 
+t a 
+e 1n 8with only finitely many non-zero a ; therefore t(e) is always non-
+n 
+n 
+n 
+singular for real e.) 
+A rational function without poles that vanishes at 
+infinity is zero, so I( 8) • 0. 
+For our purposes the virtue of (32) is that it generalizes easily to 
+other problems. 
+Suppose we wish to study a field VaA with a spinor index a 
+and some other index A. 
+For instance, A may be a vector index if we wish to 
+
+=== PDF PAGE 16 ===
+• 
+• 
+". 
+•
+-31-
+study the spin 3/2 field; Ot" A may be a Yang-Hills index. 
+We wish to cal-
+culate the character valued index of an operator acting on WaA· 
+The physic-
+ally relevant operator may not actually be the Dirac operator ifjO., but we 
+J 
+will assume it differs from the Dirac operator only by irrelevant non-minimal 
+ter111s. 
+As before, the character valued index may be computed from the large 
+jtj lilllit of i'j;t • ifj (Dj + itKj). 
+The index A only enters in the connec-
+tion used to define D., but the connection is irrelevant ss jtj + •, as shown 
+J 
+by the reduction to a flat space harlllonic oscillator proble111. 
+So our pre-
+vious determination of the spectrum is still valid. 
+What is different is the determination of the quantum numbers of the 
+low-lying states. 
+The symmetry generator is nov 
+,.., 
+-I.,. 1.,. Q(+k) 
+(3)) 
+with an extra term Q (without derivatives) that acta on the A index, 
+(It is 
+a generalization of the extra angular momentua term for a charge interacting 
+with a magnetic monopole.) 
+Let q(i) be the value of Qat the ith zero of K. 
+The 1tates near the ith zero that have approximatley zero energy are still 
+"' 
+1\ 
+the ith zero, /.kt. rf (k + -}) + Q(i), 
+The effect is 
+given by (27), but near 
+very simple. 
+.GQ(i) 
+In the sums (29) and (30) 1 one has an extra factor Tr e
+1 
+(the trace being over the A index) so nov 
+f. ( 6) 
+' 
+• (i_ )n/2 
+i EIQ ( i) n/2 
+2 
+Tr e 
+H 
+and the fixed point formula is 
+I( 6) .. (t t/2 
+a• I 
+L Tr eit'Q(i) n/2 
+i 
+• ••• 
+sin! r (i)e 
+2 
+a 
+sin t r
+8 (i)e 
+(34) 
+(35) 
+-32-
+We will not write down here the more general formula which holds if the zeros 
+of K are not isolated. 
+This formula involves weighting the factors of 
+1/(si.n ~e) by the number of zero modes of a certain Dirac operator on the 
+fixed point set. 
+One may wonder "why" a fixed point formula exiSts. 
+The character 
+~ i~k 
+valued index is formally Trf e 
+(since states of non-zero energy are 
+paired and cancel out of the trace). 
+The trace of a matrix is the sum of the 
+diagonal matrix elements. 
+In the coordinate basis, the diagonal matrix 
+elements 
+i~K 
+of e 
+vanish except near the zeros of K. 
+The fixed point formula 
+is similar to the method of Landau and Lifshchitz 27 for computing the charac-
+ter of a molecular symmetry group furnished by the molecular vibrations in 
+terms of fixed points of the symmetry group action. 
+To gain some practice with (15), let us use these methods to retrieve 
+the results of section III. 
+We consider a spin 1/2 particle 111oving on the 
+two sphere, 
+We take K to be (figure (5)) the generator of a rotation about 
+the z axis. 
+There are two fixed points, the north pole N and the south pole 
+S. 
+A rotation which is counter-clockwise •• seen by an observer looking down 
+at N is clockwise to an observer looking down at s. 
+So the rotation angles 
+are r•l at N and r•-1 at S, 
+The fixed point formula gives 
+I( 8) 
+i 
+1 
+i 
+1 
+·---+-
+-0 
+2 sin!e 
+2 sin(- j-e) 
+(36) 
+as expected. 
+Now, as in 1ection III, we assume our spin 1/2 particle to be 
+charged, and we place at the center of the sphere a magnetic monopole with eg 
+• "¥-> n£1. 
+It is well known 25 that the angular momentum operator is shifted: 
+j .,. j + egi. 
+In our case £k is J ; the operator Q is the extra piece in J 
+' 
+' 
+or egz. 
+At N, z•l; at S, t•-1. 
+Note that the Q(i) are numbers, ±eg, not 
+
+=== PDF PAGE 17 ===
+• 
+• -
+' 
+-33-
+matrices, since in the U(l) case the charge index A has only one value. 
+The 
+fixed point formula is now 
+I( B) .. i.. eieg6 
+2 
+_1_ + ~ e -ieg8 
+s i-18 
+2 
+e -i 6/2 
+sin(- -}e) 
+(eiege _ e -iege) 
+1 - e -i e 
+l 
+eg- 2 
+1 
+l 
+n•-(eg- -,J 
+in8 
+• 
+(37) 
+This agrees with our result from section III, since the sum in (37) is the 
+(~ 
+trace of e 
+z in the represent ion of J • eg - }. 
+The proof of the Atiyah-Hirzebruch theorem that we have given is close-
+ly related to the original argument. 
+It has the virtue of yielding the fixed 
+point formula, which has many other applications, as we will see, If one is 
+only interested in the vanishing of the character-valued index of the Dirac 
+operator, the following alternative argument •ay be sketched, 
+For a space 
+B 
+that admits action of a non-abelian group G, the Lawson-Yau theorem22 states 
+that B admits a G-invariant metric of positive scalar curvature. 
+(The basic 
+idea of the proof is as follows. ~ 
+G-invariant metric g can be decomposed 
+as g • g 1+g 2, where g 1 is the metric transveue to the directions of the 
+group action and g2 is the metric along the group action. 
+Lawson and Yau 
+show that the metric g£ • g 1+£g 2 has positive scalar curvature if E is suit-
+ably small and positive and g 1 obeys some mild conditions at the fixed points 
+of G.) 
+Combined with the Lichnerowicz theorem (no zero modes of the Dirac 
+operator if the scalar curvature is positive), this implies the vanishing of 
+the character valued Dirac index for manifolds with non-abelian symmetry 
+-)4-
+groups. 
+For manifolds with only an abelian symmetry group, one may reason as 
+follow·s. 
+Let B be a manifold with U(l) symmetry that violates the Atiyah-
+Hir~ebruch theorem in n dimensions, 
+Let i be a manifold of dimension n+2 
+defined to be a non-trivial fiber bundle over s 2 with fiber B. 
+(To construct 
+this bundle, consider the space s3 of pairs of complex n~bers (zt) with 
+,, 
+lz: 112 + lz 212 "' 1. 
+In the product s3xs, make the identification ((Zt). ; 1) 
+,, 
+z: 
+eiet 
+in~ i 
+_ 
+(( 1 
+iCI}, e 
+t) for suitable n.) The space B has SU(2)xU(l) symmetry, 
+'' e 
+and has a non-trivial character-valued index of the Dirac operator if B does. 
+(To see this, choose on i a Kaluza-Klein Metric with large radius in the s2 
+directions and tiny radius in the B directions; and solve the Dirac equation 
+on B i" a Bor ... -oppenheimer-Kaluza-Klein approximation.) 
+Since the Lawson-Yau 
+and Lichnerowicz theorems imply that the character-valued index must vanish 
+on B, it must also vanish on B. 
+
+=== PDF PAGE 18 ===
+o, • 
+'= 
+' 
+, 
+-35-
+V. RARITA-SCHWINGER FIELDS 
+In this section we will study the character valued index of the Rarita-
+Schwinger field. 
+We will not be able to reach a comprehensive result similar 
+to the Atiyah-Hirzebruch theorem for the Dirac case. 
+We will prove that the 
+zero modes of the Rarita-Schwinger operator on any homogeneous apace G/H form 
+a real representation of G. 
+In other words, we wil show that on any homo-
+geneous space of dimension 4k+2, the character valued index vanishes. 
+For 
+homogeneous spaces of dimension 4k, the same argument shows that the charac-
+ter valued index vanishes except for the trivial character (the topological 
+index). 
+Unfortunately, I do not know a general result for the Rarita-
+Schwinger field on spaces that are not homogeneous spaces. 
+(I also have been 
+unable, despite many attempts, to find a case in Which the character valued 
+index is non-trivial, and I believe that if such manifolds exist, they are 
+rather complicated manifolds with rather small symmetry groups in relation to 
+the number of dimensions.) 
+Because our results will not be entirely conclu-
+sive, we will return after discus1ing the theorem on homogeneous spaces to a 
+discussion of various proble•s in the uae of the Rarita-Schwinger ope~ator. 
+Our balic tool will be the fixed point formula dilcussed in the .pre-
+vious section. 
+In particular, ve will ~ot use the local supersymmetry of the 
+Rarits-Schwinger field; it may be possible to find a stronger result by using 
+this property. 
+In an appropriate gauge, the Rarita-Schwinger field is simply a vector 
+spinor field ~pa (pis a vector index, a a spinor index) which obeys, up to 
+irrelevant non-minimal terms, a Dirac equation J!;P • 0. 
+Of course, we wish 
+to discard zero modes of "flu tht can be gauged away or which violate gauge 
+conditions. 
+Physically, in quantizing a theory, zero modes which are gauge 
+j 
+-36-
+artifacts are canceled by ~;ero modes of the spin 1/2 ghost fields. 
+There-
+fore, we must subtract from the character valued index of the Rarita-Schwin-
+ger field the corresponding index of the spin 1/2 ghosts. 
+(This is the gene-
+ral logic, but actually the ghost index vanishes, by the Atiyah-Hir~;ebr'uch 
+theroem.) 
+Let us work out the fixed point formula for the spin 3/2 field. 
+Con-
+aider an isolated zero of the Killing vector field K. 
+Suppose that near 
+the 
+zero (which we assume to be at ti•Ol K. • w •• +j where w is a constant anti-
+J 
+1 
+lJ 
+symmetric matrix 
+0 
+'I 
+-r 1 
+0 
+•• 
+,.J 
+0 
+,, 
+-r z 0 
+0 
+-rn/2 
+The symmetry generator d(K for a spin 3/2 field is 
+rn/2 
+0 
+rJ 
+o('Ktj • i(KiDitj + t ffal (D1Km) tj)- i(Dj Ki) ;i 
+•fKvj- i(Dj K1) t' 
+(38) 
+(39) 
+where o(K is the generator for a spin 1/2 field and the extra piece acting on 
+"' 
+the vector index is -i(DjKi). 
+; 
+At t •0, Dli • wij, so i._K acts on the vector 
+index of "fli by multiplication by the matrix i111. 
+.9Q(i) 
+The factor of Tr e
+1 
+in 
+formula (34) for the local index is here to be replaced by 
+i 8(illl) 
+Tr e 
+• 2 "'' 
+! 
+a• I 
+cos 8r a 
+The fixed point formula for the character valued index of the Rarita-
+(40) 
+
+=== PDF PAGE 19 ===
+< 
+,. 
+Schwinger fteld is then 
+I( e) .. {~ )n/2 
+[ 
+n/2 
+I 
+{a~l 
+-37-
+1 
+n/2 
+' 
+1 
+(,) ) ( ! 
+unzr. 
+6 
+b"l 
+(') 
+2cos rb l e 1)] 
+(41) 
+Here i runs over the fixed points or zeros of K; r (i), a • 1 • , , n/2 at"e the 
+a 
+rotation angles at the ith zero; and the minus one in the last factor in (41) 
+is chosen to subtract the index of the ghost fields, as diecuaaed earlier. 
+(Minus one equals minus two plus one; for the quantization of t 1, there areG 
+two ghosts with the same chirality as ti and one of opposite chirality.) 
+(41) baa a generalization when the fixed points are not isolated, 
+(41) places very. severe restrictions on the possibility of obtaining a 
+complex representation of Rarita-Schwinger zero modes. 
+(41) shows that t(e) 
+is a rational function of w • eie/2 with-poles only for lwl• 
+or at w-0 or 
+lh•, The poles at lwl • 1 muat ca':lcel upon summing over fixed pointa, as in 
+the spin 1/2 case. 
+(Note the discussion following (32).) 
+The rational 
+function I(~) must be a constant unless there really 
+If the largest rotation angle at the ith fixed point 
+are poles at w-0 or w-•. 
+i• rb (i) then the 
+contribution of thia fixed point to l(w) behaves for w + • or w + 0 as 
+fi (w) 
+(,(i) - ! ,(i)) 
+- w b 
+a 
+... 
+There are poles at w-0 and w-• if and only if the largest rotation angle 
+rb (i) is bigger than the sum of the others 
+( i) > ! 
+rb 
+a#b 
+r a (i) 
+(42) 
+(43) 
+If (43) is not obeyed for any i, I(w) has no singularities. 
+Even if (43) is 
+obeyed, the poles may vanish in summing over i. It is difficult to satisfy 
+(43) in a multidimensional space with many rotation angles at each fixed 
+point. 
+If for each i and each b 
+(i) 
+'• 
+-38-
+! 
+a1b '• 
+(i) 
+then I(w) is a rational function without poles and bounded for w + 
+~. s~ is a 
+constant. 
+The constant is an integer-- the ordinary. or topological index of 
+the Rarita-Schwinger field. 
+If (44) is always a strict inequality, 
+'b(i) < L r (i) for all i and b, then l(w) vanhhes as w + •, so I(w) • 0 
+a1b 
+a 
+and the topological index vanishes, 
+We will u1e these con1ideration• to prove that the character-valued 
+index of the Rarita-Schwinger field on a homogeneous space alway• vanishes 
+except possibly for the trivial character (which may appear in the case of 4k 
+dimensions). 
+The homogeneous space G/H is defined u 
+follows. 
+It is the space of 
+all gE:G with g and gh con1idered equivalent for any h£8. 
+Becauae of the 
+equivalence relation, the dimension of G/H equals the dimension of G minus 
+the dimension of H. 
+The space G/H is invariant under g-+ug for any ut:G. 
+A 
+fixed point of this transformation is an element g of G such that ug • gh for 
+some h£8; in other words ,-1ug£H. 
+If u is not equivalent up to similarity to 
+an element of H, then the symmetry transformation g + ug has no fixed points • 
+If the rank of H is leas than the rank of G, then the generical gener-
+ator A of the Cartan subalgebra of G i1 not equivalent (up to similarity) to 
+any generator of H. 
+then eiM act• on G/H without fixed points, so the 
+character valued index vanishes. 
+Hence we need only consider the case rank H 
+rank G. 
+Let us now make a brief detour. 
+In general, given two spaces M,N the 
+character--valued Dirac and Rarita-Schwinger indexes of H,N and the product 
+
+=== PDF PAGE 20 ===
+~ 
+• 
+• 
+.. 
+-39-
+Hl<N are related by 
+indexDirac (H><N) • indexDirsc (H) • indexDirac (N) 
+indexR.S, (H><N) "' indexR.S. (H) • indexDirac (N) 
++ indexDirac (H) 
+i.ndexR.S, (N) 
++ index . 
+(H) 
+Dtrac 
+indexDirac (N) 
+(45) 
+These equations hold because the Dirac and Rarita-Schwinger equations on H>~N 
+can be solved by separation of variables. 
+The second equation in (45) (which 
+is our real interest) arises because the vector index of ~i must be tangent 
+to either H or N, so a Rarita-Schwinger solution on HxN obeys the Dirac equs-
+tion on Hand the Rarita-Schwinger equation on N or vice-versa (the last term 
+in the second equation in (45), which is not intuitively obvious, arises in 
+subtracting the ghost contributions from the Rarita-Schwinger indexes), 
+In 
+particular, (45) implies that if H and N have vanishing Dirac index, then HxN 
+has vanishing Rarita-Schwinger index. 
+Since a hoi.ogeneous space has vanish-
+ing Dirac index (by the Lic:hnerowicz or Atiyah-Hirzebruch theorems), a pro-
+duct of two homogeneous spaces has vanishing Rarits-Schvinger index. 
+From these facts it follows that the Rarita-Schwinger index of G/H 
+vanishes unless G is simple. 
+For suppose G • c1xc2 with non-trivial G1xc2• 
+A subgroup of G of maximal rank is then necessarily H • H11fl2 where H1 and H2 
+are maximal rank subgroups of G1 and Gz respectively. 
+Then G/H • (G1/H1) 
+>e 
+(G 2/H 2) is a product of homogenous spaces, and baa vanishing character valued 
+Rarita-Schwinger index, 
+We still must study G/H with G simple and H a subgroup of maximal rank. 
+Let us first calculate the rotation angles at the fixed points for a typical 
+infinitessimal transformation g + (1 + i£A)g, A being a generator of G. 
+. 
+' 
+-40-
+Since H is maximal, A is equivalent (by conjugation) to a generator of H, so 
+we may sssume A is actulllly such a generator, 
+A typical fixed point is then 
+g • I; 
+because of the equivalence under right multiplication by an element 
+of h, the transformation g 
++(I + i£A)g is equivalent to 
+g + (l + i£A.) g (I -
+iEA) 
+(46) 
+This again makes it clear that g • 
+is a fixed point. 
+The fixed point is 
+isolated if A is chosen generically. 
+The rotation angles at g • 1 may be 
+computed aa follows. 
+The Lie algebra 1J. of G can be decomposed as the Lie 
+algebra?:-~- of H plus an orthogonal complement?< :iJ-• 'Jt a'?<. 
+Near g • 1, 
+the generic element of G/H is l +ik, with k£1(. 
+The transformation (46) acts 
+on k by k + k + i£ [A,k), 
+The rotation angles at g • 1 are therefore just 
+the eigenvalues of A acting on 1\ by conjugation, 
+The other fixed points are at points g. such that g. -tA g. E'lL. 
+The 
+1 
+1 
+1 
+Pf 
+rotation angles are the eigenvalues of gi-tA gi acting by conjugation on?< 
+Now we are ready to prove that the Rarita-Schwinger index vanishes on 
+homogeneous spaces, except for the trivial character. 
+Before stating the 
+argument in a general way let us firslconsider the case that G is SU(N). 
+Let 
+Y0 be the SU(N) generator 
+0 J 
+(47) 
+y 
+-
+0 
+0 
+l/2 
+-1/2 
+It generates an SU(2) subgroup of SU(N), so its eigenvalues in any represen-
+tation are integers or half integers. 
+Let Y • Y0 + EQ where Q is a generic 
+SU(N) generator that commutes with Yo and £ is a suitably small real number. 
+
+=== PDF PAGE 21 ===
+' • 
+-· 
+• 
+-41-
+Consider the Rarita-Schwinger equation on some space homogeneous under 
+an SU(N) action. 
+Let A+ and ,.,-be the SU(N) representations of positive and 
+negative chirality ~era modes. 
+Define r(e} • Trll.+ eiBY- trA_ eieY 
+In any 
+non-trivial SU(N) representation the biggest eigenvalue 
+of Y0 is at least 
+1/2. 
+Hence, if A+ differs from A_ by a non-trivial SU(N) representation, the 
+most positive power of e 18 appearing will be at least eiea where a • 1/2 + 
+0( &). 
+(For suitable Q and sufficiently small &, there is no accidental can-
+cellation of the highest power. 
+This is the only role of Q and E in the 
+discussion.) 
+This means that with w • ei&/l, I(w) ~- if not a constant--
+diverges for w + ... at least as wl+O(£) 
+Reference to equation (42) shows the 
+necessary condition to achieve this; we need at one of the fixed points of 
+the fixed points P of the transformation generated by Y 
+rb -
+l 
+r 
+) 1 
+a#b 
+a 
+(48) 
+where rb is the largest rotation angle at P and r 8 are the other rotation 
+angles at P. 
+What are the rotation angles of the transformation Y that are not of 
+order d 
+They are one, corresponding to the SU(N) generator 
+(f 
+1 
+0 
+0 
+0 
+f) 
+0 
+0 
+A • 
+(49) 
+and its adjoint, and 1/2 corresponding to the generators 
+(~ 
+0 ., ... :•) 
+0 . 
+, ... 
+X . 
+•• 
+a 
+0 
+0 
+... 
+0 
+0 
+... 0 
+(50) 
+and their adjoints, 
+Of course, in general we do not count A and all the X0 ; 
+-42-
+we only count those that are in'}< (the complement in G of the H Li.e algeb-
+ra). 
+The only way to obey (48) is to include A but none of the X0 . 
+This 
+means H must be a subgroup of SU(N) that includes all the X0 and their ad-
+joints and all the diagonal generators (since H has ma~imal rank) but not A. 
+There is no such subgroup of SU(N), 
+So lr..+ and h_ differ at most only by the 
+trivial character, 
+The same argument goes through with SU(N) replaced by any simple Lie 
+group G, 
+One simply replaces Y 0 by the generator of the Cartan sub-algebra 
+parallel to a root E of maximum length, 
+E plays the role of A; the roots not 
+orthogonal to E play the role of the X0• 
+The rest of the argument is 
+unchanged. 
+Thus, we have shown that on any homogeneous space G/H (of dimension 4k 
+or 4k+2) the character valued index of the Rarita-Sehwinger field is a con-
+stant, a multiple of the trivial character. 
+It is equal simply to the ordin-
+ary index, the difference between the total number of right-handed and left-
+handed zero modes. 
+The ordinary Rarita-Schwinger index certainly vanishes in 
+4k+2 dimensions but (unlike the ordinary Dirac index) it need ~vanish on 
+homogeneous spaces of dimension 4k. 
+It equals one on SU(4)/(SU(2)xSU(2)~ 
+u(l)), HP 2, and G2/0(4). 
+This may be seen by the methods of 8ections ]II and 
+Ir, or from facts in reference (28), where properties of these spaces are 
+described. 
+Interestingly, for spin greater than 3/2, it is possible to obtain 
+complex representations of zero modes on homogeneous spaces. 
+Consider a spin 
+5/2 field, which we may represent as a tensor spinor Wija' 
+and j being 
+vector indices and a a spinor index (we suppose Vij • i'ji' fii • 0}, 
+The 
+wave equation .to/ .. • 0 can have zero modes in complex representations on 
+I' ,, 
+--
+
+=== PDF PAGE 22 ===
+-43-
+homogeneous spaces, 
+For instance, on the six dimensional manifold cpl this 
+operator has the following stable spectrum of zero modes: one multiplet of 
+left handed zero modes in the symmetric tensor representation Sij, and one 
+multiplet of right handed zero modes in the complex conjugate representation 
+* 
+s ij 
+This may be seen with the methods of sections III and IV. 
+Of course, physically sensible couplings of a massless spin 5/2 field 
+to gravity do not seem to exist. 23 
+However. this arises only because the 
+timelike components 
+~oi of the tensor-spinor field have the wrong metric; 
+because of the apparent non-existence of spin 5/2 gauge invariance there is 
+no way to cancel or remove them, 
+Purely as a Euclidean equation, with i and 
+j tangent to the positive signature Kaluza-Klein space, the equation W;., • 0 
+r., 
+makes perfect sense and has the properties just stated, 
+Our result about the Rarita Schwinger operator is much less sweeping 
+than the Atiysh-Hirzebruch theorem of the spin 1/2 case. 
+I do not know 
+whether on some spaces that are not homogeneou1 the Rarita Schwinger operator 
+may have zero modes in complex representations. 
+(I am convinced, from many 
+unsuccessful attempts to find them, that if such spaces exist they are rather 
+complicated. 
+It is difficult to satisfy equation (42)). 
+There is actually a strategy which might very plausibly lead eventually 
+to a general proof that the character valued index of the Rarita-Schwinger 
+field always vanishes .except for the trivial character. 
+The topological 
+index of an operator is a cobordism invariant; this means that it vanishes 
+for 
+any manifold H of dimension n that is the boundary of a manifold of 
+dimension n+l, 
+The character valued index is likewiae invariant under equi-
+varisnt cobordism; this means that if M admits the action of a group G and is 
+the boundary of a manifold of dimension n+l to which the G sction on H can be 
+-44-
+extended, then the character valued index vanishes for any operator on H. 
+If 
+a set of generators of the U(l) spin bordism ring (the ring of spin manifolds 
+with U(l) symmetry modulo those which are boundaries) were found, our conjec-
+ture about the Rarita-Schwinger field could be proved by showing it to 'hold 
+for all the generators. 
+The mathematical problem of determining a set of 
+generators for the (oriented) U(l) spin bordism ring has not been solved. 
+However, the analogous problem has been solved for the unoriented~~ and unit-
+ary~5 U(l) bordism rings, 
+These rings are generated by very simple spaces 
+(essentially, homogeneous spaces and fiber bundles in which the fiber is a 
+homogeneous space). 
+If the U(l) spin bordism ring is found to be generated 
+by equally simple spaces, it will be possible to use the methods described 
+above to prove (or disprove) the conjecture that the character-valued Rarita-
+Schwinger index is always a constant. 
+Because the situation for spin 3/2 fields is not completely clear, some 
+general remarks on the •ubject may be u1eful. 
+It is believed that massless 
+spin 3/2 fields can be consistently coupled to gravity only in locally super-
+symmetric theories. 
+This apparently meansi7 that we are limited to eleven 
+dimensions or less, 
+In addition, beyond ten dimensions the chiral Rarita-
+Schwinger field has one loop anomalies 18 that spoil general covariance and 
+cannot be canceled by the anomalies of any known fields that can be consis-
+tently coupled to gravity. 
+For both of these reasons, it appears that six 
+and ten dimensions are the relevant cases for chiral Rarita-Schwinger fields. 
+This corresponds to two or six compact dimensions respectively. 
+With two compact dimensions, the only manifolds with continuous symmet-
+ry are the sphere, torus, and Klein bottle; the first two are homogeneous 
+spaces, and on the last two the continuous symmetries have no fixed points, 
+
+=== PDF PAGE 23 ===
+'< 
+.. 
+-45-
+so on all of them the character-valued Rarita-Schwinger index vanishes. We 
+turn then to the case of six compact dimensions. 
+Six compact dimensions are unfortunately too few to admit SU(3)MSU(2)x 
+U(l) symmetry. If 
+One may be willing to postulate an elementary U(l) gauge 
+field and to try to obtain only SU(3}xSU(2) as the symmetry group of a six 
+manifold.* The unique six manifold with SU(J)xSU(2) symmetry is cp2xs2. 
+This is a homogeneous space to which our theorem applies; the character-
+valued index could not be non-zero. 
+EVen worse, this space does not admit 
+spinors, so the Rarita-Schwinger equation on cP11<52 cannot be defined.29 
+However, if the U(l) gauge field has a magnetic monopole expectation 
+value on CP 2, spinors can be introduced (this is the so-called spine struc-
+ture); all fermi fields1 including the Rarita-Schwinger field, must have non-
+zero (half-integral) U(l) charges. 
+The non-zero U(l) charge of the spin 3/2 
+field introduces new anomalies (the mixed gauge-gravity anomalies of refer-
+ence (18)) which cannot cancel among themselves unless there are many more 
+than two Weyl gravitinos (two is the maximum of any known or conjectured ten 
+dimensional supergravity theory) and which cannot be canceled by anomalies of 
+spin 1/2 fields (because of a different tensor structure), 
+If we ignore this 
+and proceed, we can calculate the spectrum of the Rarita-Schwinger operator 
+on CP 2>0S 2• 
+The su(3)xSU(2) invariant expectation value of the U(l) field 
+strength on cp2xS2 depends on two "monopole numbers" -
+a half integer p on 
+cp2 (half integer so as to get a spine structure), and an &rbitrary integer q 
+on g2, 
+The resulting zero mode spectrum can be computed by the methods of 
+sections III and IV. 
+One obtains non-trivial complex representations, depen-
+ding on p and q, but these representations have little resemblance to physics 
+• This suggestion was made independently by H. Gell-Hann, 
+-46-
+and are anomaly-ridden (because the ten dimensional theory with U(l) coupling 
+to the Rarita-Schwinger field is anomalous). 
+These accumulated difficulties may encourage us to give up on accommo-
+dating SU(3)xSU(2) symmetry in six compact diJDensions. 
+We may si111ply try for 
+SU(3) SJIIIIII•Hry. 
+The six·manifolds with SU(J) symmetry are quite restricted 
+and can be seen from the fixed point formula to have vanishing Rarita-
+Schwinger character valued index. 
+It may be possible to accommodate 
+SU(2)MU(l) in ten dimensions and to obtain leptons but not quarks as Rarita-
+Schwinger zero modes. 
+Evidently, whatever is the behavior of the Rarita-Schwinger operator on 
+spaces that are not homogeneous, to obtain physics in this way would not be 
+easy. 
+
+=== PDF PAGE 24 ===
+" . 
+, 
+' 
+" , 
+u 
+. 
+c 
+-~ 
+" , 
+~ 
+"0 . 
+• 
+.': • 
+> 
+• 
+'" 
+~ 
+c • • 
+'" 
+" 
+~ 
+• 
+u • 
+-!' 
+0 • • 
+> • 
+~ 
+~ 
+. 
+c 
+0 
+~ 
+c e 
+;:;-• 5 
+c • 
+l! 
+~ 
+0 . 
+c • 
+c 
+0 
+~ 
+5 
+u 
+• • 
+" 
+0 c 
+~ • • 
+~ 
+-~ 
+~ 
+" • 
+'" 
+c 
+-~ 
+" 
+u 
+~ 
+" • • 
+. 
+c 
+0 
+-~ 
+> • " 
+~ 
+• , 
+" 
+• ' ] 
+~ • 
+" • 
+u 
+~ 
+0 ' 
+:! 
+• • 
+~ 
+c 
+-~ " 
+~ 
+~ • • 
+. 
+c 
+-~ . 
+c 
+-~ 
+~ 
+c 
++ 
+~ 
+.5 
+" . 
+~ 
+~ 
+c • 
+~ 
+• 
+> • 
+~ 
+::-
+~ 
+c • ' • • 
+• 
+~ 
+" 
+" • 
+;: • 
+c 
+0 u • " . 
+0 
+" 
+! . 
+-~ " 
+~ • e 
+~ • • 
+• 
+u c • 
+u 
+• • 
+! 
+~ 
+i 
+• 
+~ 
+.5 
+" • 
+_;: • 
+c 
+0 u 
+~ • 
+• 
+0 " 
+-~ e 
+u 
+• 
+~ 
+• 
+~ 
+0 
+~ 
+c 
+~ 
+• 
+c • ! • 
+~ 
+• 
+u c • 
+u 
+~ 
+~ . . 
+8. 
+~ ., 
+0 u 
+. 
+c e 
+• " 
+! 
+0 
+! • 
+u 
+" 
+0 . 
+• 
+u " 
+.2 
+g 
+c • 
+u 
+~ 
+. 
+'" • 
+~ 
+c • 
+~ • 
+! 
+~ . 
+• & 
+-~ 
+. 
+" • 1 
+c 
+~ 
+c • .. 
+c 
+0 ·e 
+.l: 
+• 
+'" 
+" . 
+. 
+-~ 
+~ 
+0 
+0 u 
+! • 
+~ 
+~ 
+" • 
+;: . 
+c 
+0 u 
+" g 
+:: ·; 
+~ . 
+• 
+" 
+0 • 
+'" 
+• 
+.2 . 
+c 
+.! 
+~ 
+f .. 
+.: 
+c 
+-~ " • " 
+c • • • 
+t. • " 
+-~ e 
+• 
+~ 
+! 
+~ 
+-~ . 
+• 
+" " 
+~ • 
+E 
+~ 
+t 
+c • 
+u 
+; 
+I. 
+-~ 
+::: 
+" 
+u • r 
+" • " 
+~ • . 
+c 
+-~ • 
+.~ 
+~ .. 
+.: 
+• g 
+• 
+-~ 
+" 
+• " • 
+'" 
+0 " 
+c 
+-~ " 
+" • 
+'" 
+~ 
+" 
+0 • 
+'" • . 
+" • 
+~ 
+;:;-
+~ • 
+-~ 
+" • 
+~ • 
+• g 
+.; • 
+:!!' 
+0 
+~ 
+" 
+0 
+~ 
+1'. 
+0 ::. 
+'" ·; 
+• 
+c 
+-~ • 
+c 
+~ 
+:;; 
+c s 
+" 
+u • 
+" . 
+" . 
+il 
+,;: 
+• 
+-~ " 
+0 • 
+'" • • 
+.:: 
+• 
+c 
+-~ . 
+c • 
+-~ 
+~ 
+~ 
+" 
+0 • 
+'" • • " 
+~ 
+!-• 5 
+c • 
+c • 
+~ 
+0 . 
+" i 
+c 
+• 
+c 
+-~ e 
+.l: 
+~ • 
+1l • " 
+E 
+;:;-
+" c • 
+• 
+-~ 
+~ g 
+c • 
+~ 
+0 
+-~ " ! 
+~ 
+• 
+u c ;j 
+c 
+-~ " • 
+-~ 
+~ 
+" 
+~ 
+5 
+u 
+~ 
+c • 
+" • " 
+~ • • • " 
+~ 
+;:;-• 5 
+c • .: • f " 
+~ 
+L E 
+u • 
+> 
+• " • . 
+c 
+-~ e 
+.l: 
+• 
+'" 
+g 
+·• • 
+c • 
+-~ 
+~ 
+J 
+" • 
+~ 
+5 
+c 
+-~ " 
+~ 
+c 
+0 u 
+• 
+'" 
+.2 
+" • 
+-~ 
+~ 
+'" 
+" 
+. 
+• " 
+" 
+c • 
+" • 
+~ 
+u 
+;:;-
+~ • " 
+~ • 
+~ 
+1l • 
+" c • 
+" • 
+> 
+. 5 
+~ 
+·= • " 
+• 
+c 
+-~ • 
+. 
+0 
+-~ " = 
+1l • 
+c 
+-~ " 
+u • 
+.! 
+" 
+u 
+::': • 
+• 
+c 
+-~ . 
+c 
+-~ 
+~ 
+" 
+0 
+.2 
+• 
+0 " 
+c 
+-~ " 
+~ 
+~ • " 
+• 
+c " • " 
+~ 
+• 
+c 
+0 
+-~ 
+~ 
+:0 
+~ 
+~ 
+c .. 
+• 
+c z 
+~ 
+. 
+c g 
+~ 
+• 
+c " 
+~ • • 
+~ 
+0 
+c 
+-~ " .': 
+0 • 
+! 
+-~ • 
+< 
+~ . 
+0 
+0 1 
+• 
+~ 
+• . 
+c E 
+> • " 
+~ 
+" 
+0 
+.2 
+1l • • 
+c z 
+~ 
+• 
+c 
+-~ . 
+c 
+.! 
+~ 
+• 
+·; 
+• 
+c 
+0 
+j 
+N ;:, 
+• • 
+. 
+" 
+0 .: :; 
+• 
+-~ " 
+u 
+• 
+-~ 
+" . 
+0 
+~ 
+. 
+'" 
+c 
+-~ " ! 
+~ • 
+~ • 
+u 
+;:;-g 
+~ 
+" 
+.2 
+-~ " '" 
+1l 
+0 u 
+• 
+'" 
+;:;-• 
+-~ 
+" 
+u • 
+~ . 
+• " 
+~ . 
+0 
+~ 
+0 
+z 
+u 
+1l • 
+• 
+-~ " • 
+~ • 
+c 
+~ 
+" 
+! 
+~ 
+c • 
+• " 
+0 .: 
+~ 
+• 
+~ 
+u 
+• " " 
+u 
+-~ 
+" 
+~ 
+0 
+• " 
+-~ 
+~ 
+• 
+;:;-
+~ • 
+-~ 
+-:; 
+• 
+-~ " • 
+~ 
+• 
+c 
+: e 
+.2 . 
+c • t 
+• 
+-~ 
+~ 
+• 
+• " " 
+u 
+. 
+-~ . 
+c • 
+-~ 
+~ 
+" 
+0 
+.2 
+0 
+0 
+• " 
+0 
+• 
+'" 
+• 
+~ 
+' " e 
+u 
+~ 
+• . 
+'" 
+~ • 
+~ 
+• 
+~ 
+0 
+• 
+-~ t . 
+-~ " • , 
+.:1 
+1l • 
+c 
+-~ 
+" • 
+-~ 
+~ 
+" 
+u • g 
+u 
+~ 
+' " e 
+u • 
+> 
+" • 
+'" ::-
+0 • 
+'" 
+• 
+' ~ ,, 
+
+=== PDF PAGE 25 ===
+~ 
+·-, 
+• 
+,.-";-
+-49-
+equal.* 
+The fermion representation of the 0(2p+6) model in 2p dimensions is 
+irreducible in the sense that a combined parity and internal parity operation 
+exchanges the left and right handed fermions, 
+This is the simplest theory 
+with non-trivial anomaly cancellation that 1 can find in d > 4. 
+Despite starting with a non-vectorlike theory, we are not assured of 
+keeping this property after dimensional reduction. 
+The familiar relation 
+rl ... r4+n -
+rl •.• r4 • rs 
+r4+n 
+(52) 
+shows that the 4+n dimensional chirality operator rl ••• r4+n differs from the 
+four dimensional operator rl ... r4 by a factor r5 •• r4+n that may be plus 
+or minus one. 
+The non-vector like nature is wa&hed out after naive dimension-
+al reduction, 
+Indeed, if the gauge fields have zero expectation value, they are of no 
+help whatsoever in avoiding the problegcdiaeussed in previous sections. 
+They 
+simply do not play any role. 
+But vacuum expectation values of gauge fields 
+that can be smoothly turned on or off are likewise irrelevant, for the usual 
+reasons, 
+We therefore must consider gauge field expectation values that can-
+not be smoothly turned on or off. 
+The prototype of such a thing is the Dirac 
+magnetic monopole, which because it carrie• topological information and obeys 
+a Dirac quantization condition cannot be smoothly turned on or off. 
+We must 
+place a generalized monopole "inside" the Kaluza-Klein space. 
+Models of this· 
+general type have been considered before by Randjbar-Daemi, Salam, and 
+Strathdel!:. Lit 
+. 
+-
+-
+This is so because '[r a . . a ' •.• a . .• r-o fork ( p+2, if ria the pro-
+1'1J1 12Jz 
+lkJk 
+duct of all 2p+6 gamma matrice' of 0(2p+6) and alj • {yi.Yjl are the group 
+generators. 
+-50-
+For illustrative purposes we set p•5 and consider an 0(16) theory in 10 
+dimensions, 
+As explained earlier, the left (o.r right) handed o(l,9) spinors 
+will be chosen as left (or right} handed spinors of o(l6). 
+We will consider 
+three models. 
+In the first two models we take the six compact dimensions to be cpl 
+the unique six dimensional &pace with SU(4) symmetry. 
+We will assume that 
+only a single (abelian) component of the 0(16) gauge field has an 
+expects-
+tion value. 
+On cp3 there i& a topologically non-trivial U(l) gauge field. 
+Ut is a 
+U(l) connection on the basic non-trivial line bundle over CP 3.) 
+This U(l} 
+gauge field can be chosen to be SU(4) invariant in a unique way. 
+Its 
+strength, like the Dirac monopole charge, must be an integer n in certain 
+units. 
+Our first two models correspond to two ways of embedding U(l) in 0(16). 
+(i) the embedding 
+-· -I 
+(53) 
+_, 
+breaks 006) to SU(8) 1(1(1), 
+The four dimensional gauge group is therefore 
+SU(4)xSU(8)~(1), where SU(4) originates from gravity and SU(S)xU(l) from 
+o(l6). 
+The quantum numbers of fermion zero modes can be computed using the 
+methods of section III or lV. 
+One finds rather complicated anomaly free 
+representations. 
+We will here consider only the minimal case of monopole 
+
+=== PDF PAGE 26 ===
+• 
+• 
+.,....._ ... 
+-51-
+number n•l. 
+The representation of SU(4)XSU(8)xU(l) that emerges is u 
+fol-
+lows, 
+Let Vi and Wj be the funda111ental four and eight dimensional represent-
+ations of SU(4) and SU(S), respectively. 
+Let Sij be the symmetric product of 
+two Vi, and S .. its complex conjugate; and let Ajk be the antisymmetric pro-
+'l 
+duct of two Wj and Ajk its complex conjugate. 
+Then the left handed zero 
+modes transform as ( i 
+;), .. ( 
+)-2 
+(-
+)-·· 
+.. 
+V , W 
+l, Aij 
+~ Sij' 1 
+; the auperscnpt 11 
+the U(l) charge, 
+The right handed masaleu ferwiou transfol"'ll of course in 
+the conjugate representation {Vi' WjJ-3• (1, Aij)Ze {sij, 1)'+, 
+Despite its 
+complexity, this representation is anomaly free. 
+For reasons that are not at 
+all clear, this representation is closely related to the supergroup 50(418).3° 
+(ii) We can instead embed·U(l) in 0(16) at 
+·-) 
+4 
+0 
+0 
+(54) 
+breaking 0(16) to O(lO)XSU(3)~(1). In this case the monopole number must be 
+even 1 for topological reasons (to ensure proper Dirac quantization for par-
+ticles in the spinor as well .n ~ 
+represe$tions of 0(10)). 
+So we take 
+the minimal case n•2, 
+The zero modes can be shown in this case to consist of eight 0(10) 
+families (left handed 16 and right handed~) and no antifamilies. 
+Under 
+SU(4) 
+(fro~ gravity) 
+1t SU(3) 
+1t U(l) (fr0111 0(16)) they trandor111 as follows: 
+they are neut;al under SU(3) and transfon. as 43 a 4-3 under SU(4)KU(l). 
+(iii) For our last model, we consider a case in which a non-abelian 
+subgroup of 0(16) has a vacuum expectation value. 
+On any six di~ensional 
+Riemannian manifold there is a natural 0(6) gauge field. 
+One simply takes 
+... 
+-52-
+the spin connection wvij and regards it as a gauge field A,_/j. 
+We embed 0(6) 
+in 0(16) in the obvious way 
+U-1~) 
+J55) 
+This breaks 0(16) down to 0(10}. 
+We will~ assume the six co111pact dimension; to be cpl, 
+The Dirac 
+equation for this system can be analyzed in general. 
+The zero modes are 
+always ordinary fa~ilies, never antifamilies and never other representations 
+of 0(10). The families are neutral under any continuous symmetries of the six 
+dimensional space B, 
+The number of families always equals the Euler characteristic of B. 
+Here are some examples: 
+s• 
+2 
+families 
+s2xs 4 
+4 
+families 
+5 z~CSzxsz 
+8 
+families 
+(56) 
+c•' 
+4 
+famil iea 
+s 31C$ 3 
+0 
+families 
+In ten dimensions, the number of families is always even. 
+A similar model in 
+eight or twelve di~ensions can give an odd number of families. 
+Why is the number of families equal to the Euler characteristic of B? 
+With A,/j - w/j, the 0(16) spinor index behaves sa an extra Lorentz spinor 
+index of B. 
+The fermi field is therefore a spinor-spinor, a field with two 
+independent six di~ensional spinor indices. 
+Such a field is equivalent to 
+the de Rham complex of antisymmetric tensor fields. 
+The Dirac operator 
+becomes the d and d* operators on differential forms, and the number of zero 
+modes (weighted by chirality) is the Euler characteristic • 
+
+=== PDF PAGE 27 ===
+--
+-53-
+VI L 
+OTHER CONTEXTS 
+The preceding discussion has made clear that in RieJDannian geometry it 
+will be very difficult to obtain realistic fermion quantum numbers as ~era 
+modes of physically acceptable wave operatora. 
+One vay out, considered in 
+the last section, is to introduce elementary gauge fields. 
+In the context of 
+Kaluza-Klein theory, this is a rather diaappointing possibility. 
+!.'hat other 
+alternatives might there be! 
+We must modify Riemannian geometry in some way. 
+One possibility is 
+that the tangent space group in 4+n dimension• iB not 0(1, 3+n) but a smaller 
+group G, 
+(This possibility has been considered by Davidson 30 and in much 
+detail by Weinberg. 3t) 
+The smaller group will have ~ore representations, in 
+general; some of the new representations may correspond to new options for 
+the spins of massless particles. 
+For instance, G may be 0(1,3) x O(n). 
+This group has a representation 
+with spin 1/2 under 0(1,3) and (say) spin 5/2 under O(n), 
+Since the "true11 
+epin is 1/2, there are no timelike modes with wrong ~etric and no difficulty 
+in writing a sensible wave operator, 
+In fact, in the ground state the spin 
+(1/2,5/2) field may be regarded as a teneor spinor 'tija with i and j con-
+strained to be tangent to the Kaluza-Klein dimenBions; a satisfactory wave 
+equation is Jf~ij • 0. 
+(Once one considers fluctuations away from the ground 
+state these formulas do not have a simple generalization, but ~ 
+generaliz-
+ation would emerge in any theory with restricted tangent apace group.) 
+Since 
+the spin 5/2 and higher spin operators in the internal spae can readily have 
+complex zero modes (note the discussion of cp3 in section (5)), this would 
+enable us to obtain non-vector-like theories after compactification. 
+If n is even, n•2k, one could consider a theory with tangent space 
+group 0(1,3) x U(k). 
+The U(k) group of the internal apace is the tangent 
+-54-
+space group in Ka~ler geometry. 
+In Kahler geometry, one may write many vari-
+ants of the Dirac equation (corresponding to the many representations of U(k) 
+"'SU(k) 
+>~ U(l) which do not extend to representations of 0(2k)) which lack 
+analogues in Riemannian geometry. 
+This is the subject of a cohomology, a 
+major subject in Kahler geometry. 
+The modified Dirac equations of Kahler 
+geometry can readily have complex zero modes. 
+For instance, the equations 
+for a charged spin 1/2 field interacting with a magnetic monopole on s2 or 
+CP 3 can be regarded aB equations in Kahler geometry; therefore, the model of 
+section three and the first two models of section six can be viewed in this 
+light. 
+Of course, it is disappointing to consider tangent space groups like 
+0(1,3) x O(n) or o(l,J) x U(k) that are product groups. 
+One would much 
+prefer a unified group, even if smaller than O(l, 3+n). 
+However, Weinberg31 
+has shown that if one desires Lorentz invadance in four dimensions producct 
+groups are the only possibilities. 
+If one is willing to envisage a product group G, one must still find a 
+aensible equation -- replacing the Einatein equation -- for the time depend~ 
+ence of the G connection. 
+And presumably one must face at some point the 
+unrenormalizability of quantum field theory in 4+n dimensins, which is likely 
+to persist in this context. 
+A more drastic modification of Riemannian geometry would be to assume 
+that the underlying theory ia not a field theory of the usual kind but a 
+theory of some other type. 
+For instance, at present the supersymmetric 
+string theories in ten di~ensions 7 would appear to be very attractive candi-
+dates -- especially the n•2 theory which is chirally asymmetric and anomaly 
+free. 
+This theory naively reduces at low energies to ten dimensional super-
+
+=== PDF PAGE 28 ===
+-ss-
+gravity, but unlike that theory, 7• 32 it is likely to be a finite theory to 
+all orders, 
+Naive compactification of the string theory proceeds via ten dimension-
+al field theory and suffers from the problema of ten dimensional field theory 
+in describing fermion quantum numbere. 
+However, there may be "inherently 
+stringy" ways to compactify the string theory directly to four dimensions, 
+without ten dimensional field theory as an intermediate stage. The rules and 
+problema of Riemannian geometry might not apply in such a case -- though I 
+hope some of the concepts of this paper would be relevant. 
+I would coneider 
+this the most attractive possibility, but unfortunately with the present 
+incomplete understanding of the string theory, it is difficult to pursue this 
+possibility. 
+1 will, however, discuss one a1pect of the problem, 
+The string theory 
+baa a single dimenaionle1s coupling constant A. 
+(It ia essentially Newton'• 
+constant written in units of the Regge slope.) 
+It is generally believed that 
+A is an arbitrarily adjustable constant. 
+If so, the fermion quantum numbers 
+cannot depend on A. 
+I believe that instead, when the string theory is more 
+fully under1tood, it will be seen that (with proper normalization of A) the 
+mathematical consistency of the theory will require that 1/A be an integer, 
+The action of the string field theory which baa been partly constructed 33 is 
+rather analogous to the effective Action of the large N expansion in QCD. 
+We 
+nov know 
+3~ that the large N effective action is multi-valued, defined only 
+modulo 2wN. 
+This means that, internally to the 1/N expansion, N must be an 
+integer; this is analogous to the quantization of coupling constants in some 
+2+1 dimensional field theoriea. 35 The cloee analogy between A and 1/N 
+strongly suggests that the string field theory action is likewise multi-
+·~ 
+-56-
+valued, defined only PIOdulo 2w/A. 
+This would mean that 1/J. would have to be 
+an integer n; the proper quark and lepton quantum numbers might emerge only 
+for a definite value of n. 
+
+=== PDF PAGE 29 ===
+-. 
+._,. 
+,. . 
+-57-
+VIII. MASSLESS SCALARS 
+The ~ain focus of this paper is the question of obtaining massless 
+fermions as zero modes in Kaluza-Klein theory. 
+However, massless bosons are 
+also important. 
+Massless spin one and spin two bosons have a well-known 
+origin in Kaluza-Klein theory, and arise for a simple reason, as reflections 
+of unbroken local symmetries. 
+Massless ,calara do not have such a simple 
+rationale. 
+Yet a good explanation of the existence of maasleaa charged 
+scalars would be of utmost importance: 
+it would offer a aolution3G to the 
+problem of the existence of widely disparate mass scales in physics. 
+Any bose field of a Kaluza-Klein theory might have .odes that would be 
+aeen as charged scalars in four dimensions. 
+We muat consider, then the 
+gravitational field; the antiaymmetric tensor fielda of certain supergravity 
+and other theories; and gauge fields. 
+(More generally, in auitable back-
+grounds, different fields may mix; mixed medea may be conaidered under (i) or 
+(iii) below.) 
+In general terms, we do not want scalara that are maaeleee for reaeone 
+of symmetry. 
+The only scalars kept massless by any a~etry argument of the 
+usual sort are Goldstone bosons, which are always neutral under any unbroken 
+gauge symmetries and hence are no help in aolving the hierarchy problem. 
+Moreover, for a Goldstone boson any potential at all is forbidden; there ia 
+no reason for a Goldstone boson field to acquire tiny but non-zero vacuum 
+expectation values. 
+We wish a 111ore subtle argument for bosonic zero 1110des, 
+perhaps a topological argument, which will forbid mass ter111s but allow quar-
+tic self-couplings. 
+Let us consider in turn the case of gravitational, antisymmetric 
+tensor, and Yang-Hills zero modes. 
+I 
+-sa-
+(i) It seems that very li.ttle is knovn about the conditions under which 
+some oscillations in the geometry of a compact space B will correspond to 
+massless scalars. 
+If B is Ricci flat, RJ.IV • 0, a "breathing mode" in which 
+the geometry of B is uniformly dilated corresponds to a massless scalar, 
+because the equation RJ.IV • 0 has a scaling symmetry and does not determine 
+the radius of B. 
+This mode is always neutral under continuous symmetries, so 
+is not helpful in solving the hirarchy problem. 
+The scaling symmetry of the 
+classical equation RJ.IV • 0 is not a a~etry of quantum Kaluza-Klein 
+theories, and therefore3 7 (unless there ia an unbroken aupersywmetry) theae 
+1110des get non-zero mass at the one loop level. 
+In models with an unbroken superaymmetry at the tree level, there are 
+some known cases in which aome oscillations in the metric of B correspond to 
+* 
+charged massless scalara at the tree level, 
+Little is known about the 
+possibility of eventual supersymmetry breaking in theae modela. 
+(ii) Many supergravity theoriea contain antisymmetric tensor fields, 
+for instance the third rank antisymmetric tensor field Aijk of eleven dimen-
+sional supergravity. 
+The Lagrangian is constructed from the curl of A, Fijk! 
+• 3i Ajkt :t: cyclic permutations. 
+This curl is invariant under the gauge 
+transformation A. "k +A ••• + (a. A.k +cyclic permutations). 
+The Lagrangian 
+lJ 
+lJ 
+1 
+J 
+for a kth rank antisywmetric tensor gauge field is 
+<f. 
+1 
+Tik+TTT 
+Jdnx 
+(F. 
+. 
+)2 
+11""" 1k+l 
+(57) 
+The field equations derived from this Lagrangian may readily have zero modes 
+for topological reasons. 
+•I thank H. Duff for a discussion of thia point. 
+
+=== PDF PAGE 30 ===
+..... 
+... ·-~ 
+-~9-
+The physical interpretation of these modes depends on how many indices 
+of A. 
+• 
+are tangent to B and how many are tangent to the space-time 
+11 ••• lk 
+directions. 
+If all indices are tangent to B, we get a massless scalar in 
+four dimensions. 
+If all indices but one are tangent to B, we get a massless 
+spin one particle in four dimensions. 
+If all indices but two are tangent to 
+B, we get a massless antia~etric tenaor in four dimensions which again 
+describes a massless scalar. 
+Other cases do not give rise to propagating 
+modes in four dimensions. 
+In general, the number of zero modes (modulo gauge tranafo~ationa) of 
+A. 
+• with q indices tangent to B is equal to a topological invariant 
+11 ... lk 
+known as the qth Betti number of B. 
+As an example, one may consider in 
+eleven dimensions the spaces Hpqr with SU(3))($U(2)xU(l) ayaoetry.lt For moat 
+of these spaces, the first and third Betti numbers vanish, so one does not 
+get massless scalars. 
+(the exceptions are cp2xS3 and CP2)($3/zk, for which 
+the third Betti nurober is one and one gets one massless scalar in four dimen-
+siona; and CP21C52xS 1, for which the first and third Betti nUIIIben are one and 
+one geU two massless scalars,) 
+However, for the Hpqr the second Betti. 
+number is one (except for GP 2 ~CS 2 l<Sl, where it ia two), so one would get one 
+(or two) massless spin one particles in four dimensions (in addition to the 
+gauge fields of SU(3)l<SU(2)xU(l) coming from the metric tensor). 
+These 
+massless spin one particles do not have minimal coupling• to any matter 
+field•. They interact through'derivative·couplinge, such as magnetic moment 
+couplings to fermi fields. 
+They would give riee to long range spin-spin 
+forces of roughly gravitational strength; presumably thie is far too weak to 
+be detectable. 
+... 
+-60-
+There is, however, an old theorem that zero modes of antis~etric 
+tensor fields are always neutral under any continuous symmetries. 
+Essential-
+ly, this is true because, by the deRham-Hodge theory, zero modes of the qth 
+antisymmetric tensor field on B correspond to topological classes of cloSed q 
+dimensional submanifolds of B. 
+A continuous symmetry cannot change the topo-
+logical class of a submanifold, so it leaves invariant all of the zero modes 
+of anti1ymmetric ten1or fields. 
+• 
+Here is an analytical proof. 
+Let d be the curl operator, so the curl 
+of the antisymmetric ten1or field A will be denoted as F • dA. 
+(Thus, 
+(dA). 
+. 
+• {a. 
+A. 
+. 
+~cyclic per!llutations).) The change in A 
+11'""1k+} 
+1 1 
+12"'. 1k+l 
+under a gauge transformation is A +A + dA, where A ia an antis}'lllllletric 
+tensor field with one less index than A. 
+What is a 111assless mode of the A 
+field? 
+Setting the .omentum in the Minkowski directions to zero, we calcu-
+late the energy (per unit volume) of an antisymmetric tensor field A by 
+integrating over the co111pact dimensions. 
+From (57), the integral is 
+/8d + (dA) 2, so a mauless mode is an antieymmetric tensor field defined on B 
+such that dA • 0. 
+Actually, ve want zero modes thta cannot be gauged away, 
+so we want solutions of dA • 0 modulo gauge transformations A + A+dA. 
+(Since 
+d_2 • 0, any pure gauge A • dA obeys dA • 0.) 
+How let Ki(~) be an arbitrary Killing vector field, generating the 
+infinitessimal 1ymmetry transfomation +i + +i + d<i <+j). 
+To show that the 
+zero model of A are neutral under arbitrary continuous symmetries, vemust 
+• 
+i 
+show that the transformaqon generated by K leaves A unchanged, or more 
+exactly that it leaves A unchanged up to a gauge transforiDation. 
+• See, for instance, reference (38) for further material on antisymmetric 
+tensor fields • 
+
+=== PDF PAGE 31 ===
+'r' 
+''• 
+.'. 
+~ ' 
+~ 
+" 
+0 • 
+,; 
+·' • 
+;;; 
+' • " , 
+~ 
+• 
+c 
+. ~ 
+" 
+0 
+• 
+,; 
+. ! 
+• 
+~ ' • • • 
+• 
+~ 
+c 
+• 
+.~ 
+" • 
+.~ 
+" • 
+~ 
+• 
+·~ 
+~ 
+• • 
+• 
+~ , • 
+~ 
+c • 
+• 
+~ • ' 
+c 
+0 c 
+~ 
+" • 
+" c 
+~ 
+• 
+~ 
+! 
+0 " 
+0 
+• 
+~ 
+c 
+• 
+~ 
+c 
+.~ . 
+-~ 
+~ 
+c • 
+0 
+~ 
+c • e 
+.3 
+. 
+• 
+~ • 
+" 
+" 
+• 
+::: 
+.~ 
+" 
+~ 
+c • 
+. 
+~ 
+" 
+" [ • 
+" 
+c • 
+c 
+0 
+~ 
+0 
+" 
+c • 
+~ 
+c • 
+~ 
+• 
+] 
+" c 
+~ • 
+c 
+0 
+0 
+• 
+. ! 
+·~ 
+< 
+~ 
+-~ 
+~ 
+c 
+c 
+-~ " 
+0 
+~ 
+" c 
+0 
+0 
+~ 
+0 
+c 
+-~ " 
+~ • 
+~ 
+0 
+• 
+,; 
+• 
+~ 
+.}' 
+~ 
+" c 
+-~ 
+c • , 
+c e 
+• 
+~ 
+. 
+c 
+-~ . 
+c • 
+-~ 
+~ 
+" .e 
+·' • 
+.! 
+" . 
+• 
+-~ 
+~ 
+! 
+u 
+. ~ 
+u 
+• 
+,; 
+c 
+0 
+c 
+.~ 
+" . 
+g_ 
+c • . 
+·-
+-~ 
+·-"' 
+-~ " I . 
+c • 
+~ 
+c • 
+c 
+-~ " ! c • • • " 
+~ 
+~ 
+" 
+-~ 
+0 
+·~ 
+1l 
+• 
+,; 
+-~ . 
+" • • 
+~ . 
+• • . 
+• ; 
+• 
+c 
+-~ " 
+0 • " 
+~ 
+·' 
+0 
+" " • , 
+~ 
+g 
+!-
+• 
+-~ : :: 
+0 
+• " • 
+~ • 
+,; 
+~ • 
+u 
+.... lt. 
+• • 
+! 
+• • 
+~ 
+·' • 
+c 
+0 
+-~ 
+~ 
+[ 
+.! 
+" c • 
+• " • • 
+c 
+-~ . 
+c • 
+-~ 
+~ 
+• 
+-~ • 
+c 
+.! 
+~ 
+c 
++ 
+~ 
+.: 
+" 
+0 c . 
+·-
+• • 
+a: 
+-~ 
+~ • 
+~ 
+.li 
+c • 
+0 
+c • 
+~ 
+.} 
+~ . 
+; 
+• 
+u • 
+c 
++ 
+~ 
+• • ] 
+" c 
+! • g 
+u 
+~ 
+c • 
+,; 
+• 
+! 
+-~ 
+0 
+• ! • 
+u • • • 
+! 
++ 
+.}' 
+~ 
+• 
+~ 
+• 
+~ 
+> 
+~ 
+0 
+::, 
+c • 
+~ 
+u 
+c • • • • 
+~ 
+c • 
+u 
+c 
+-~ 
+.! 
+~ • 
+-~ : 
+! 
+u 
+~ 
+" • 
+1l 
+! 
+" • 
+,; 
+• 
+-~ 
+u • 
+c • 
+~ 
+u • 
+,; 
+0 
+• 
+u • • 
+u 
+~ 
+• 
+::: • 
+;;; . 
+~ ·-"' 
+!., 
+c 
+~ 
+~ 
+0 
+• 1 
+2 • • • • • 
+u ! • 
+~ 
+• • 
+! • • • • 
+~ 
+::, 
+u • 
+~ 
+u 
+E 
+~ • 
+> • 
+~ 
+• 
+~ 
+c • 
+> 
+~ • 
+-~ • 
+c 
+.! 
+~ 
+~ 
+• 
+c • 
+u • 
+::: 
+~ 
+-~ 
+u • 
+c • 
+u • 
+.c 
+~ • 
+~ 
+0 . 
+·-
+0 • 
+" ... 
+-~ ~ 
+.:: 
+"1:1 
+" 
+g 
+! • 
+u 
+• 
+u • 
+c • 
+~ 
+g . 
+~ 
+0 
+0 
+~ 
+·' 
+0 
+u 
+2 • • 
+~ 
+c • 
+c 
+0 
+~ 
+-~ 
+" 
+u • 
+.! 
+• 3 
+2 • • 
+... 
+N 
+;: 
+c • 
+0 " 
+. 
+.2 . 
+c 
+.! 
+~ 
+• 
+~ 
+~ 
+• 
+:l' 
+::, 
+• 
+" • 
+1! , 
+< 
+c • . 
+• 
+.c . 
+c • 
+c 
+&. g 
+u 
+• • 
+~ 
+~ 
+0 
+~ 
+0 
+-~ " e 
+.2 • 
+c • 
+u " 
+-~ 
+• . 
+• 
+c • • • • 
+~ 
+i;' • 
+.! . 
+c 
+-~ . 
+.! 
+~ 
+" , 
+.2 
+: • 
+u 
+~ • 
+-~ . . 
+• 
+u . 
+,; 
+~ 
+0 
+c 
+-~ " • 
+.! 
+~ • " • 
+c ::, 
+c 
+0 
+• 
+0 : 
+c 
+-~ " • " 
+u 
+11. • • 
+. 
+• ] 
+0 " • 
+N 
+" • 
+::: . 
+c 
+0 u 
+~ 
+~ 
+~ 
+u • • 
+g 
+~ 
+" • 
+~ 
+a: " • 
+::: • 
+c 
+0 u 
+~ 
+0 
+• • • 
+0 
+.! 
+u • 
+~ 
+• • • 
+u • 
+1 
+• • 
+~ 
+c • 
+u 
+c 
++ 
+~ 
+• 
+~ 
+" 
+-~ 
+" c • • • 
+:;. 
+.li 
+• 
+> • 
+• • 
+~ 
+• 
+,; 
+" • • • 
+~ 
+0 ·• 2 • 
+N . 
+• • . . 
+• • 
+~ 
+~ 
+• 
+c 
+-~ " • 
+0 
+~ 
+• 
+:: 
+~ ·-"' I. 
+c • ,. 
+. 
+• 
+• 
+0 
+< .. ·= 
+::, 
+0 • 
+~ 
+c 
+.~ 
+• 
+.g 
+' 
+c 
+0 c 
+~ 
+" • 
+" c • 
+~ • 
+" c • " 
+::: 
+~ • 
+-~ • 
+c 
+-~ 
+~ 
+~ 
+c • 
+" 
+u • g 
+u 
+• 
+:; 
+E 
+c • 
+~ 
+c 
+! 
+.! 
+• • 
+~ 
+-~ 
+~ 
+0 
+• 1 
+0 u • 
+N 
+~ 
+.! 
+-~ t ' 
+c 
+0 c 
+• 
+" • • 
+> • 
+.c 
+~ 
+• 
+,; 
+• • 
+! . . 
+• • • 
+u • • • 
+~ 
+g 
+• • • 
+,; 
+~ 
+~ 
+::;; 
+• 
+" c 
+~ 
+&. 
+-~ 
+" . 
+~ 
+u • • 
+• 
+u 
+c 
+• 
+.~ 
+.. 
+... 
+c 
+! 
+.! : 
+~ . 
+.s 
+~ :: • 
+~ 
+: 
+! • • • 
+e . 
+• 
+• 
+~ 
+·; . 
+c 
+-~ • 
+c 
+.! 
+~ 
+' 
+• 
+-~ : • 
+0 
+~ 
+-~ ! 
+u • 
+u 
+
+=== PDF PAGE 32 ===
+' 
+' 
+,~ 
+'"' 
+... 
+-63-
+What these examples have in common is that in all examples I am aware 
+of, there is no ~eason for the massless 111odes to remain massless when loop 
+corrections are considered. 
+Indeed, in the first example considered (the 
+massless mode being a constant on the circle), a one loop calculation has 
+been carried out in the abelian case, 37 showing that a nonzero mass does 
+arise unless there is a bose-fermi cancellation. 
+-64-
+IX. THE COSMOLOGICAL CONSTANT 
+Until now we have considered exclusively the zero modes of wave operat-
+ors. 
+However, the spirit of this paper is to study qualitative problems that 
+might be solved without full understanding of the details of a Kaluza-Klein 
+theory. 
+In that spirit, we will here consider another qualitative problem of 
+outstanding significance: the apparent vanishing in four dimensions of the 
+cosmological constant. 
+There has been much interest in recent years 39 in the possibility of a 
+dynamical e•planation of the vanishing of the cosmological constant -- the 
+possibility of a theory in which regardless of the value of the bare para-
+meters, the cosmological constant spontaneously relaxes to zero. 
+We want, in 
+other words, a mechanism analogous to the axion mechanism for avoiding strong 
+CP violation. 
+Some ideas in this section have been introduced independently 
+in work cited in reference (39). 
+We would like to find a theory in which the classical equations do not 
+determine the effective cosmological constant -- the actual, macroscopic 
+curvature of four dimensional space. 
+The classical equations should admit 
+for any values of the bare parameters a one parameter family of •olutions, 
+depending on an integration constant. 
+The effective cosmological constant 
+should depend on this integration constant. 
+We will look for a mechanism by 
+which the integration constant spontaneously relaxes ~o the value at which 
+space-time is macroscopically flat. 
+Of course, it is easy to find a theory in which there is an undeter-
+mined integration constant at the classical level. 
+Consider a theory of 
+scalar fields +i. If the potential energy V( +i) is independent of one of 
+these fields +. the vacuum expectation value of that field will be undeter-
+
+=== PDF PAGE 33 ===
+-65-
+mined at the classical level. 
+However, precisely because V(~i) is indepen-
+dent of 4>, the effective cosmological constant will be independent of 4>. 
+To find a theory with an undetermined integration constant upon which 
+the cosmological constant depends requires a different approach. 
+The only 
+way I know to do this in 3+1 dimensions ia to introduce a third rank antiaytQ-
+metric tensor gauge field A~va· As in section (8), the Lagrangian is 
+R· -
+1 
+48 I•'• (• 
+)' 
+pvaB 
+(60) 
+where Fpvatl is the gauge invariant curl, Fpvatl • (3\1 Avaa :t: cyclic permuta-
+tions). If we define the scalar F • h tpvaa Fpvo:t\ (tll\latl being the four 
+dimensional Levi-Civita symbol), then the equation of motion from (60) is 3
+11F 
+• 0. 
+Thus, F is a constant -- but the constant ia a constant of integration, 
+not determined by the classical equations. 
+And the cosmological constant 
+definitely depends on F. 
+It equals its value at F-0, plus F2/8, 
+However, this example is too trivial, 
+The equation of motion 3~F • 0 
+which is an exact statewent, even quantum mechanically -- appears to tell 
+us that the integration constant F cannot possibly relax to the value at 
+which the effective coswological constant would vanish. 
+A less trivial exawple of the same kind arises if the third rank anti-
+symmetric tensor field is considered in 4+n dimensions. 
+We consider the 
+Lagrangian 
+--/__ "' fd 4+nx lg (llwc R - h (F pva8)2 - Ao) 
+(61) 
+For n•7, this differs from the bosonic· part of 11 dimensional supergravity by 
+the omission of an FFA term (its inclusion would not affect our discussion) 
+and the inclusion of a non-zero bare coa~logical constant 110 (forbidden by 
+-66-
+supersymmetry in eleven dimensions but needed in our discussion to get a 
+solution in which four dimensions are flat). 
+The solution we will discuss is 
+the Freund-Rubio solution, 40 generalized to A0"#0. 
+We look for a solution of the classical equstions derived from (&1) in 
+which space-time takes the form D4{).))($ 7(R), where o"(A) is a four diwensinal 
+de Sitter apace of positive, negative, or zero curvature A, and s 7(R) is a 
+seven sph~re of radius R. 
+In looking for such a solution, we encounter-- as Freund and Rubin did 
+the possibility of a non-zero value of F • r 0123• 
+As in the four dimen-
+sional case, the equations determine only the derivatives ofF, not F itself. 
+One may assume an arbitrary value ofF, and use the classical equa~ions to 
+solve for A and R in terms of F. 
+For a whole continuous range of the bare 
+parameters in (61), there is a value ofF at which A-- the curvature of 
+ordinary space 
+vanishes. 
+The gain in going from four to 4+n dimensions is that in 4+n dimensions 
+Fpvatl has a non-trivial dynamics with propagating modes as well as an integ-
+ration constant, 
+One can at leaat imagine that there way be a quantum 
+wechanical mechaniaw by which the integration constant F spontaneously 
+relaxes to aowe special value -- hopefully the value at which A•O. 
+But 
+what might this mechanism be? 
+In condensed matter physics there are some fascinating systems with the 
+following properties. 
+(For recent theoretical discussions and references to 
+previous work see reference(4q.) 
+The macroscopic equations have a one para-
+meter family of solutions depending on an integration constant x. 
+There ia a 
+critical value of x, say x•x 0, such that the classical solution is stable 
+against small oscillations for x > x0 and unstable for x < x0. 
+
+=== PDF PAGE 34 ===
+~ 
+' 
+' .. 
+-67-
+What value of x would be observed physically1 
+One would hardly expect 
+to observe the unstable solutlona of x < x0, but one might expect that, 
+depending on initial conditions, any stable solution with x > x0 would be 
+accessible. 
+The surprise is that it is claimedltl that a whole claaa of systems 
+spontaneously relaxes -- by means that are not well understood -- to the 
+threshold of stability, x • x0, 
+The fact that the mechanism is so little 
+understood in the condensed matter context invites the speculation that a 
+similar phenomenon could occur in the case of the coamological constant. 
+Although }.ooO (flat apace) ia not exactly a threshold of stability in any 
+obvious sense, it ia certainly the dividing point between two qualitatively 
+different regimes, de Sitter apace and anti de Sitter apace. 
+Anti -de Sitter 
+space has a positive energy theorem, which de Sitter apace doea not;lt2 but de 
+Sitter space has a global initial value hyperaurface, which anti de Sitter 
+apace does not.ltl They are certainly very different. Perhaps the little-
+understood mechanism by which the condenaed •atter ayatems relax baa a 
+"cosmological" analogue -- though it ·ia not yet clear whether it ia de Sitter 
+or anti de Siter apace that should correapond in the analogy to x > x0, 
+1 would like to thank R. Stong for useful dicusaions and for drawing my 
+attention to references (44) and (45), and to thank W. Browder and especially 
+W. Hsiang for explaining various aspects of cobordiam theory. 
+-68-
+References 
+l. Th. Kaluza, Sitzungsber. Preus&. Akad. Wiss. Berlin, Hath. Phys • .!9_ 
+(1921) 966; 
+O.Klein, z. Phys. E.. 0926) 895, Arkiv. Hat. Aatron. Fys. B. 
+34A (1946), Helv. Phya. Acta Suppl. IV (1956)_ 58; A. Einstein and P. 
+Bergmann, Ann. 
+Hath. 39 0938) 683; B. De Witt,' in Relativity, Groups, 
+and Topology, ed. B. De Witt and C. De Witt (New York, Gordon and Breach, 
+1964), and Dynamical Theory of Groups and Fields (New York, Gordon and 
+Breach, 1965); J, Rayski, Acta Phya. Pol. E._ (1965) 89; R. 
+Kerner, Ann, 
+Inat. H. 
+Poincarl, !. (1968) 143; A. Trautman, Rep. Hath. 
+Phya. !. 0970) 
+29; 
+Y.H. 
+Cho, J. Hath. Phya. J! 0975) 2029; Y.H. Cho and P.G.O. 
+Freund, Phya. 
+Rev. Dl2 (1975) 1711; 
+L.N. 
+Chang, K,I, Macrae, and F. 
+HansouQ., Phya. 
+Rev. Dl3 (1976) 235. 
+2. J, Scherk and J.H. Schvan, Phya. Lett. 57B 0975) 463; E. Cremmer and J. 
+Scherk, Noel. Phya. Bl03 (1976) 393, !!.Q.! (1976) 409. 
+3. A complete list ia impossible, but here are some of the recent papers: 
+z. Horvath, L. Palla, E. Cremmer, and J. Scherk, Noel, Phys. ~ 
+(1977) 
+57; J.-F. Luciani, Noel. Phys. Bl35 0978) 111; K.J. Duff and D. Toms, in 
+Unification of Fundamental Interactions II, ed. S. Ferrara and J. Taylor 
+(Cambridge University Preas, 1982); H. Duff, in Supergravity 81, ed. s. 
+Ferrara and J. Taylor (Cambridge University Preas, 1982); H.J. Duff and 
+C,N, Pope, Imperial College preprint ICTP/82-83/7 (1983); M,J, Duff, B. 
+Nilsson and C. Pope, Texas preprint UTTG-5 (1983); F. Englert, H. Rooman, 
+and P. Spindel, Phya. Lett. 127B (1983) 47; C. Orzalesi, Parma preprint 
+IFPR/TH63 (1980); W. Mecklenburg, Phys. Rev. ~ 
+(1980) 2149; A. Salam 
+and J. Strathdee, Annals of Physics ..!2!._ (1982) 316; C. Destri, C. 
+Orzalesi, and P. Rossi, KY University prepri.nt KYU/TR8/82 0982); S, 
+Weinberg, Phys. Lett. 1258 (1983) 65; P. Candelas and S. Weinberg, Texas 
+
+=== PDF PAGE 35 ===
+' 
+" 
+-69-
+preprint UTTG-6-83 0983); H.F. Awada, Phys. Lett. 1278 (1983) 413; F. 
+Mansouri and L, Witten, Phys. Lett. 127B (1983) 341. 
+4. 
+E. Witten, Nucl. Phys. Bl86 (1981) 412. 
+S. 
+L. Castellani, R. O'Auria, and P. Fre, Torino preprint (1983). 
+6, 
+For reviews, seeP. Von Nieuwenhiuzen, Phys. Rep, 68 (1981) 191; J. Wess 
+and J. Bagger, Supersymmetry and Supersravity (Princeton University 
+Press, 1983; J. Gates, H. Griaaru, H, Rocek, and W, Siegel, Superspace 
+(Addison-Wesley, 1983). 
+7. 
+H.B. Green and J.H. Schwarz, Nucl. Phya. Bl81 (1981) 502, ~ 
+(1982) 
+252, 441; H.B. Green, J.H; Schwarz, and L. Bdnk, Mucl. Phys. 8198 (1982) 
+474; J.H. Schwarz, Phys. Rep. 89 (1982) 223, 
+8, 
+This concept and some others diacuaaed in this aection are largely due to 
+H. 
+Georgi; see, for instance, Nuc1. Phys. 8156 (1979) 126. 
+9. 
+H. Gell-Hann, P. Ramond, and R. Slanaky, in Supersravity ed, P, Van 
+Nieuwenhuizen and D.Z. Freedman (North-Holland Publishing Company, 1979); 
+F. Wilczek and A, Zee, Princeton Report, 1979 (unpublished), Phya. Rev. 
+025 (1982) 553; F. Wilczek, in Proceedings of the 1979 International 
+Symposium on Lepton and Photon lnteractiona at Bi&h Energies, ed, T. Kirk 
+and H. Abarbanel (Fermilab, Batavia, Illinoia, 1980); H. Georgi and E. 
+Witten (unpublished); H. Sato, Phya. Rev. Lett. 45 (1980) 1997; 
+A. Davidson, K.C. Wali, P.D. Hannheim, Phya, Rev. Lett, 45 (1980) 35; 
+J. Haalampi and K. Enqviat, Phy1. Lett. 978 (1980) 217; R. Cahn and H. 
+Harari, Nucl. Phys. 8176 (1980) 135; R. Mohapatra and B. Sakita, Phys. 
+Rev. Q!!_ (1980) 1062; R. Gatto and J. Casabuoni, Phya. Lett, 938 (1980) 
+46; J.F. Kim, Phys. Rev. Lett. 45 0980} 1916. 
+10. H. Gell-Hann, P. Ramond, R. Slansky, reference (9). 
+11. L. Palla, Proc. 1978 Tokyo Conference on High Energy Physics, p. 629. 
+-70-
+12. N.S. Manton, Nucl. Phys. 8193 (1981) 391; G. Chapline and N. Manton, 
+Nucl. Phys. 8184 (1981) 391; G. Ch.apline and R. Slansky, Nucl. Phys, 8209 
+0982) 461. 
+13. c. Wetterich, Nucl. Phys. 8187 0981) 343, Ph.ys. Lett. 1108 (1982) .,379, 
+1138 (1982) 371, CERN preprints TH. 3310 0982), .3488 (1982), 3517 
+(1983). 
+14. S. Ran!jbar-Daemi, A. Salam, and A, Strathdee, Nucl. Phys. 8214 (1983) 
+491, Phys. Lett. 1248 (1983) 349, Trieste preprint (1983). 
+15. H. Atiyah and F. Hinebruch~ in Eassays on Topology and Related Topics, 
+ed, A. Raefliger and R, Narasimhan (Springer Verlag, 1970), p. 18. 
+16. E. Witten, J, Diff. Geom,.!!. (1982) 661. 
+17. W. Nahal, Nucl. Phys. 8135 (1978) 149. 
+18, L, A1varez-Gaum& and E, Witten, Harvard preprint (1983). 
+19. L. Brink, J.H. Schwarz. and J. Schwarz, Nucl. Phya. Bl21 (1977) 77. 
+20. H.F. Atiyah, R. Bott 1 and A, Shapiro, Topology_! (1964) Suppl. !• 3. 
+21. A. Lichnerowicz, C.R. Acad. Sci. Paris, Serie A-B 257 (1963) 7. 
+22. H.B. Lawson, Jr. and S.-T. Yau, Comm. Hath. Helv. 49 (1974) 232, 
+23. H.T. Griaaru, H.N. Pendleton, and P. Van Nieuwenhuysen, Phya. Rev, ~ 
+(1977) 996; F,A. Berends, J.W. van Holten, B. de Wit 1 and P, van 
+Nieuwenhuyeen, Nucl. Phye. ~ 
+(1979) 261, Phya. Lett. 838 (1979) 188, 
+J. Phya. ~ 
+(1980) 1643; C. Aragone and S. De•er, Phya. Lett.~ (1979) 
+161, Phya. Rev.~ (1980} 352; K, Johnson and E.C.G. Sudar•han, Ann. 
+Phys, ~ (1961) 126; G. Velo and D, Zwanziger, Phya. Rev. 186 (1967) 1337. 
+24. R. Bott, in Differential and Combinatorial Topology (Princeton Univer•ity 
+Press, 1965). 
+25. See, for example, S. Coleman, in The Unity of the Fundamental 
+Interactions, ed. A. Zichichi (Plenum Press, 1983). 
+
+=== PDF PAGE 36 ===
+~ . 
+:. 
+~· 
+' 
+• 
+' 
+-7l-
+26. H. F. Atiyah and I.M. Singer, Ann. Hath.~ (1968) 484, 546; H. F. Atiyah 
+and G.B. Segal, Ann. Hath. !I (1968) 531; H.F. Atiyah and R. Bott, Ann. 
+Hath. !?_ 0968) 456. 
+27. L.D. Landau and E.H. Lifachitz, quantum Hechanica, trans. J,B. Sykes, 
+. 
+J.S. Bell (Oxford, Pergamon Press, 1965) p. 371. 
+28. A. Borel and F. Hirzebruch, Amer. J, Hath., 80 (1958) 458, ~ (1959) 315. 
+29. For an exposition of the-topological obatruction to defining spinora, 
+see, for example, S.W. Hawking and C.N. Pope, Phya. Lett. ~ 
+(1978) 42. 
+30. A. Davidson, Ph.D. thesia (Technion, larael),and private communication. 
+31. S, Weinberg, to be publiahed, 
+32. J.H. Schwarz, Phys. Rept. 89 (1982) 223, and reference& therein; C,H, 
+Ragadiakoa and J. Taylor, Phyl. Lett. ~ 
+(1983) 201. 
+33, H. Green and J.H. Schwarz, Cal Tech preprinta, 1982.-3. 
+34. E. Witten, Nucl. Phya. B223 (1983) 422. 
+35. S. Oeser, R. Jackiw, and S. Templeton, Phy1. Rev, Lett. 48 (1982) 975, 
+Ann. Phya. (NY) 140 (1982) 372. 
+36. S. Weinberg, Phys Lett. 628 (1976) Ill; S. Weinberg and E. Gildener, 
+Phys. 
+Rev. 
+Dll (1976) 333. 
+37. T. Appelquiat and A. Chodoa, Phya. Rev. Lett. 1Q. (1983) 141; D. Pollard, 
+ICTP preprint 82-83/11; M.A. Rubin 1nd B.D. Roth, Phys. Lett, 1278 (1983) 
+55; T. Appelquist, A. Chodoa and E. Heyera, Phya. Lett. 127B (1983) Sl; 
+T, Appelquiat and A. Chodos, Yale preprint YTP 83-05 (1983); Y. Hoaotani, 
+U. Pennsylvania preprint (1983); M.A. Awada and D.J. Toms, Imperial 
+College preprints (1983). 
+38. R. Bott, L.W. Tu, Differential Forms in Algebraic Topology, Springer-
+Verlag (1982). 
+' 
+-72-
+39. S.W. llawking, Nucl. Phys. 8144 0978) 349; in Unified Theories of 
+Eleroentary Particles (Springer-Verlag, 1982); talk at Shelter Island 
+Conference (June, 1983); L.F. Abbott, Brandeis University preprint 
+(1981); V.A. Rubakov and H. E. Schaposnikov, Phys. Lett. 125B (1983) 139 • 
+40. P.G.O, Freund and H.A. Rubin, Phys. Lett. B97 (1980) 223; A. Aurelia, H. 
+Nikolai, and P.K. Townsand, Nucl. Phys. 8176 (1980) 509. 
+41. G. Dee and J.S. Langer, Phys, Rev. Lett. 1Q (1983) 383; R.C. Brower, D.A. 
+Kenler, J. Koplik, and H, Levine, Phys. Rev. Lett. l!_ 0983) 1111. 
+42. L. Abbott and S. Oeser, Nucl. Phys. Bl95 0982) 76; P. Breitenlohner and 
+D.Z. 
+Freed~an. Ann. Phys. (NY) 144 (1982); G.W. Gibbons. C.M. Hull, and 
+N,P. Warner. Nucl. Phys. B218 (1983) 173. 
+43. S.W. Hawking and G.F.R. Ellis, The Large Seale Structure of Spaee-Ti~e 
+(Cambridge University Press. 1973), 
+44. C. Kosniowski, Actions of Finite Abelian Groups (Pitman. 1978). 
+45. O.R. Husin, Hath. USSR Sbornik 44 (1983) 325. 
+
+=== PDF PAGE 37 ===
+_, 
+c 
+' 
+-73-
+Figure Captions 
+(l) Zero modes of the Dirac operator of positive or negative chirality are 
+denoted by x oro respectively. 
+The number of x's ~inus o's at zero 
+energy is invariant under perturbations. 
+(2) An x or o now indicates a positive or negative chirality multiplet in the 
+Q or Q representation ((a) and (b) respectively). 
+In passing from (a) to 
+(b) the x's and o's are exchanged. 
+(3) The angular momentum and chirality spectrum of the Dirac operator on a 
+sphere. 
+The Dirac operator permutes the atatel in the way indicated by 
+the arrows, 
+(4) The quantum numbers of a charged Dirac particle on a sphere in the 
+presence of a magnetic monopole field. 
+(5) K is taken to generate the rotation of a sphere. 
+(6) The anomalous diagrams in (say) ten dimen1ion1. 
+E 
+(4) (a) 
+(b) 
+E 
+(2)(a) 
+Q 
+E 
+X 
+(b) 
+0 
+E 
+Q 
+
+=== PDF PAGE 38 ===
+"' ' "' + 
+"' 
+"' 
+"' ' 
+~ 
+...., + 
+::t 
+"' 
+"' 
+"' ' 
+~ 
+I 
+"' 
+"' 
+~ 
+~ 
++ 
+" 
+" 
+<'-< <I'-. 
+"' ' 
+~ 
+"' 
+' "' 
+...., 
+c 
+"' ' "' 
+"' ' 
+~ 
+~ 
+~ 
++ 
++ 
+" 
+" 
+<I'-. <1'-. 
+
+=== PDF PAGE 39 ===
+-
+0 
+<D 
+10 

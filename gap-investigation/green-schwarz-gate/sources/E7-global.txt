@@ -1,0 +1,3176 @@
+[PDF PAGE 1]
+arXiv:1007.4758v2  [math-ph]  8 Nov 2011
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+Abstract.
+In this paper we continue our program, started in [2], of building up explicit generalized Euler angle parameterizations
+for all exceptional compact Lie groups. Here we solve the problem for E7, by ﬁrst providing explicit matrix realizations of the
+Tits construction of a Magic Square product between the exceptional octonionic algebra J and the quaternionic algebra H, both
+in the adjoint and the 56 dimensional representations.
+Then, we provide the Euler parametrization of E7 starting from its
+maximal subgroup U = (E6 × U(1))/Z3. Next, we give the constructions for all the other maximal compact subgroups.
+1. Introduction
+Simple Lie groups are well understood, and ﬁnd application in a huge number of mathematical and physical ﬁelds. In particular,
+the role of compact exceptional Lie groups in grand uniﬁcation gauge theories and in string theories, and that of the noncompact
+forms in supergravity theories is well known. Many properties of these groups can be already inferred from abstract theoretical
+considerations, however it can be useful to have available explicit concrete realizations of such groups in term of matrices, for testing
+conjectures related to conﬁnement in non abelian gauge theories, doing explicit nonperturbative computations in exceptional lattice
+GUT theories and in random matrix theories. Beyond these, there are other useful applications in physics or mathematical physics
+of an explicit matrix realization of the E6, E7 and E8 exceptional Lie groups. For example: sigma models based on exceptional
+Lie group quotients are of interest for string theory and conformal ﬁeld theory applications; the study of the properties of the
+magnetic material Cobalt Niobate is also based on exceptional Lie groups of type E [1]. The connection to explicit realizations and
+special function theory would permit to perform calculations of matrix elements. These applications are also directly interesting in
+integrable models. In particular there is a speciﬁc motivations from physics to be interested to E7 among all exceptional groups:
+recently a strict relation between cryptography and black hole physics based on E7 exceptional supergravity has been discovered.
+However, actual computation of entangled expectation values require again explicit determination of the Haar measure and range of
+parameters. Moreover, the most general structure of the attractor mechanism of black holes in N = 2, four dimensional supergravity
+arises in E7 exceptional supergravity. The orbit of the U-duality group are only partially known just because a suitable explicit
+realization of the group E7 is lacking.
+In this paper we will focus on the compact form of E7. In this case the main diﬃculty consists in ﬁnding a realization admitting a
+simple characterization of the range of parameters. A way, mainly inspired by [4] and [5], to solve this problem has been introduced
+in [2] for the exceptional Lie group G2 (see also [3]), then applied to the SU(N) groups in [6] and to the exceptional Lie groups
+F4 and E6 in [7] and [8] respectively. In this paper we continue our program of building up the generalized Euler parametrization
+for all the exceptional Lie groups. There are many possible realizations of the Euler parametrization on a given group (see [9] for a
+review), depending on the choice of the maximal subgroup one starts with. In any case, the simplest one is that based on the higher
+dimensional compact subgroup. For E7, this is the group U = (E6 × U(1))/Z3, where Z3 is the center of E6, which is indeed the
+ﬁrst case we consider here. The other possible maximal compact subgroups of E7 are SU(8)/Z2 and (Spin(12) × SU(2))/(Z2 × Z2)
+associated to the real forms E7(7) and E7(−5) respectively. We will provide a construction of the compact real form for each choice
+of the maximal compact subgroup. Indeed, in practical applications it can be necessary to select a speciﬁc subgroup among the
+others. Moreover, in other applications, as for example in extended supergravities, it becomes important to determine the various
+real forms and the corresponding symmetric spaces. In our constructions these can be easily realized by applying the unitary Weyl
+trick.
+The plan of the paper is as follows. In Sec. 2 we present the main features of the Lie group E7. In Sec. 3 we review the Tits
+construction for the Lie algebra of E7. In particular we derive from it the main properties we will need to apply the generalized
+Euler angles method. We will present both the adjoint representation 133 and the smallest fundamental representation 56. We
+build up the group, presenting a very careful exposition of details in the appendices.
+In Sec. 4 we give a second construction associated to the split form E7(7), and in Sec. 5 a third construction based on the subgroup
+(Spin(12)× SU(2))/(Z2 × Z2). In these two cases we will not present all necessary checks, as, for example, the explicit computation
+of the volumes and the related integrals, but we limit ourselves to indicate the main steps. Indeed, the lacking details can be
+included in a more general framework which deserves to be presented apart [20].
+Remark. In www.dfm.uninsubria.it/E7/ one can ﬁnd the Mathematica programs providing the constructions of the matrix real-
+izations of the 133 and 56 algebra representations for the ﬁrst construction, and the 56 for the other ones.
+1
+
+[PDF PAGE 2]
+2
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+2. The exceptional Lie group E7
+As a complex Lie algebra, E7 is the unique exceptional Lie algebra of rank 7. It is characterized by the Dynkin diagram drawn
+in Fig. 1. Recall that to each dot corresponds a simple root αi. These are free generators of the root lattice ΛR = P
+i Zαi. The
+Figure 1. Dynkin diagram for E7
+α1(133)
+α3(8645)
+α4(365750) α5(27664)
+α6(1539)
+α7(56)
+α2(912)
+✉
+✉
+✉
+✉
+✉
+✉
+✉
+space H∗= ΛR ⊗R is endowed with a positive deﬁnite inner product (|). The weight lattice ΛW is the dual of ΛR w.r.t. the hooked
+product, which means that it is freely generated over Z by the fundamental weights λi ∈H∗, i = 1, . . . , 7 deﬁned by ⟨αi, λj⟩= δj
+i ,
+with
+⟨α, λ⟩:= 2 (α|λ)
+(α|α) .
+(2.1)
+To each fundamental weight corresponds univocally a fundamental representation, and all irreducible ﬁnite dimensional represen-
+tations can be generated from the fundamental ones. In Fig. 1 the fundamental representations are indicated in parenthesis. Here,
+we will deal with the two lower dimensional ones.
+We are interested in constructing the compact form of the group E7. For this reason it is worth to mention some further facts
+about both the E7 algebras and groups. As we said, the complex algebra E7 is completely characterized by the Dynkin diagram,
+from which one can reconstruct the adjoint representation that, being faithful, is isomorphic to the algebra itself. This is a 133
+dimensional algebra that, indeed, correspond to the fundamental representation 133.
+This algebra contains four distinct real
+forms. This means that there are four inequivalent ways to select a 133 dimensional real subspace of the 266 dimensional real space
+underlying the complex algebra E7, in such a way that the selected subspace inherited with the Lie product is itself a (real) Lie
+algebra. For each simple Lie algebra A there is a unique simply connected Lie group G (up to isomorphisms) such that A is the
+corresponding Lie algebra. The complex Lie group E7 contains a maximal compact subgroup which is a 133 dimensional real Lie
+group whose Lie algebra is then called the compact form and usually indicated1 E7(−133), where in parenthesis the signature of
+the Killing form (number of positive eigenvalues minus number of the negative ones) is indicated. We will use the same notation
+to indicate both the group and the algebra. When referring to the group we will mean the unique simply connected group.
+The compact forms are in correspondence with the maximal compact subgroups of E7(−133), the compact subgroups that are not
+properly contained in a proper subgroup. There are four of such subgroups and then four real forms, which we collect in table 1.
+For a given real form we can write the corresponding Lie algebra as A = T + P , where T is the maximal compact subalgebra and
+Symbol
+Real Form
+Maximal compact subgroup
+E7(−133)
+Compact
+E7(−133)
+E7(7)
+Split
+SU(8)/Z2
+E7(−5)
+EVI
+(Spin(12) × Sp(1))/Z2
+E7(−25)
+EVII
+(E6(−78) × U(1))/Z2
+Table 1. The real forms of E7.
+P its complement. From this, one obtains the compact form by using the Weyl unitary trick P 7→iP . Here we are interested in
+the compact form only. Nevertheless we will construct it in three diﬀerent ways, each one evidencing a diﬀerent proper maximal
+subalgebra. In this way the interested reader can reobtain the corresponding noncompact real form directly by applying the Weyl
+unitary trick.
+Finally, we stress that for the group E7(−133) we mean the simply connected group, which is the universal covering group. In
+general, all Lie groups having the same (ﬁnite dimensional real) Lie algebra are obtained from the universal covering by quotienting
+with a discrete subgroup of the center. For E7 the center is Z2. Note that the adjoint representation of the Lie algebra is faithful,
+however, the same is not true for the Adjoint representation of the universal cover group G, since the center C is just the kernel of
+the Adjoint map. Then, in general, the Adjoint representation of the group realizes the group G/C in place of G. Instead, a faithful
+1The Killing form K on a complex Lie algebra is deﬁned by K(X, Y ) := tr(ad(X)ad(Y )) and is non degenerate for a simple algebra and on the
+corresponding real forms. In particular, for a compact form it is negative deﬁnite on the maximal compact subalgebra, the maximal Lie subalgebra
+that exponentiated generates a compact group.
+
+[PDF PAGE 3]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+3
+representation is obtained by exponentiating the lowest dimensional fundamental representation.2 In our case this means that we
+need to exponentiate the 56. Nevertheless, to get more information in some case we will work out the adjoint representation also.
+3. E7(−25) construction
+3.1. The Tits construction and 133. We start with the construction of the adjoint representation of the algebra. In order to
+catch the idea, recall ﬁrst that the exceptional Lie group F4(−52) can be realized as the group of automorphisms of the exceptional
+Jordan algebra J3O. Its Lie algebra is the Lie algebra of derivations over J := J3(O). Thanks to a result due to Chevalley and
+Schafer, this algebra can be extended to an E6 type algebra (more precisely the E6(6) split form) by adding the action of the
+traceless part J′ over J itself, naturally given by Jordan multiplication:
+E6(6) = D(J) ⊕J′,
+(3.1)
+where the symbol D() means “the linear derivations of”. To obtain the compact form from the split form one has to apply the
+Weyl trick to J′ that is to say that we have to “complexify” the Jordan algebra by adding the imaginary part i ⊗J′.
+This way to construct the algebra can be summarized by saying that E6 is the Magic Square product between J and C. This can
+be extended to the realization of the E7 compact form as the Magic Square product between the exceptional octonionic algebra
+J and the quaternionic algebra H, [10] [11] [12]. We will refer to it as the Tits construction. In our language, this means that we
+need to “quaternionize” the Jordan algebra so that the vector space underlying the resulting algebra will be
+g = D(H) ⊕D(J) ˙+(H′ ⊗J′),
+(3.2)
+where J′ is the set of traceless octonionic Jordan matrices and H′ are the imaginary quaternions. Here we use the symbol ⊕to
+mean direct sum of algebras whereas ˙+ is a direct sum of vector spaces but not of algebras. This is in order to stress that we have
+not yet extended the Lie product to the last summand. Thus, D(H)⊕D(J) is a subalgebra of g. Moreover, there is a natural action
+of D(H) ⊕D(J) over H′ ⊗J′ which deﬁnes the mixed product
+[(H, J), h ⊗j] = H(h) ⊗j + h ⊗J(j)
+∀(H, J) ∈D(H) ⊕D(J),
+h ⊗j ∈H′ ⊗J′.
+(3.3)
+To extend (3.2) to a Lie algebra one must deﬁne a product between elements of H′ ⊗J′. This requires the introduction of some
+notations and properties.
+Geometry of quaternions. On H an inner product is deﬁned ⟨h1, h2⟩= Re(¯h1h2), where complex conjugation changes the sign
+of the imaginary units: if h = A0 + iA1 + jA2 + kA3, Ai ∈R, then ¯h = A0 −iA1 −jA2 −kA3. From h1 and h2 one deﬁnes the
+derivation Dh1,h2 ∈D(H) by
+Dh1,h2 = [Lh1, Lh2] + [Rh1, Rh2],
+(3.4)
+where L and R are the usual left and right translations. It is convenient to ﬁx the orthonormal basis h0 = 1, hi, i = 1, 2, 3, where
+h1 = i, h2 = j, h3 = k are the imaginary units of H. A basis for D(H) is thus given by Hi = adhi, i = 1, 2, 3.
+Geometry of the Jordan algebra. On J we can deﬁne the inner product ⟨j1, j2⟩= Tr(j1 ◦j2), where ◦is the Jordan product
+j1 ◦j2 = (j1j2 + j2j1)/2. The subspace of matrices orthogonal to the 3 × 3 identity I3 is thus J′. On it we can deﬁne the product
+⋆: J′ × J′ →J′ deﬁned by
+⋆: (j1, j2) 7→j1 ⋆j2 = j1 ◦j2 −1
+3⟨j1, j2⟩I3.
+(3.5)
+With these simple tools in mind one can complete the Lie product on (3.2) by deﬁning
+[h1 ⊗j1, h2 ⊗j2] := σ2
+12 ⟨j1, j2⟩Dh1,h2 −σ2⟨h1, h2⟩[Lj1, Lj2] + σ
+2 [h1, h2] ⊗(j1 ⋆j2)
+(3.6)
+in order to obtain a Lie algebra. For simplicity, we will use the notation
+E7(−133) = D(H) ⊕D(J) ⊕(H′ ⊗J′),
+(3.7)
+to indicate the resulting Lie algebra, and choose σ = 1.
+A sketch of the proof of the validity of (3.6) can be found in appendix A. From these rules one easily reconstruct explicitly a matrix
+realization of the adjoint representation. This is done in appendix B.
+Before going to the construction of the smallest representation 56 it is worth to include some comments on the subalgebras.
+2The unique simple Lie group whose lowest dimensional representation coincides with the adjoint one is the exceptional group E8. Since in this
+case the center is trivial, our statement remains true.
+
+[PDF PAGE 4]
+4
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+The F4 and E6 subalgebras and some useful relations. The F4 Lie subalgebra is manifestly included as the algebra of
+derivation over the exceptional real octonionic Jordan algebra J. If we choose a basis {ja}26
+a=1 of J′ normalized by ⟨ja, jb⟩= τδab,
+with a suitable real τ, then it can be completed to a basis for J by adding j27 =
+q
+τ
+3 I3. After ﬁxing this, we can determine a basis
+{DI}52
+I=1 for D(J) as in [7]. A 27-dimensional matrix representation is then obtained as
+(CI)µ
+ν = ˆjµ(DI(jν)),
+(3.8)
+where {ˆjµ}27
+µ=1 is the dual basis ˆjµ(jν) = δµ
+ν . Since DI(j27) = 0, the last row and column of all matrices vanish, so that, this is a
+26 ⊕1 representation. Its extension to the 27 fundamental representation of the E6 algebra is obtained by adding the operators
+corresponding to the right multiplication by J′. This adds 26 27 × 27 matrices ( ˜Ca)µ
+ν deﬁned by
+( ˜Ca)µ
+ν = −i ˆjµ(Rja(jν)),
+a = 1, · · · , 26, µ, ν = 1, · · · , 27.
+(3.9)
+The factor −i has been introduced in order to implement the Weyl trick. Note that this factor consists in making a choice among
+all possible imaginary quaternions. Passing from one to another choice is done by the acting with the SU(2) group symmetry. With
+our choice we break this symmetry down to the U(1) subgroup that lives the imaginary unit invariant. Its Lie algebra is generated
+by the derivation Di over the quaternions, which indeed commutes with the whole E6 = D(J) ⊕J′. In this way we have recognized
+the maximal compact subalgebra E6 × R = Lie((E6 × U(1))/Z3).
+It is interesting to note that, J being Abelian, we have Rja(jb) = Rjb(ja) which implies
+( ˜Ca)µ
+b = ( ˜Cb)µ
+a.
+(3.10)
+We will see in the next subsection that this symmetry relation is a particular case of a more general symmetry relation that has a
+deep geometrical meaning.
+Other interesting relations are obtained from the Leibnitz property DI(ja ◦jb) = DI(ja) ◦jb + ja ◦DI(jb): it becomes
+( ˜Ca)c
+b(CI)d
+cjd = [(CI)c
+a( ˜Cc)µ
+b + (CI)c
+b( ˜Ca)µ
+c]jµ.
+(3.11)
+Applying the dual basis ˆjν we get
+[CI, ˜Ca]d
+b = (CI)c
+a( ˜Cc)d
+b,
+(3.12)
+(CI)c
+a( ˜Cb)27
+c + (CI)c
+b( ˜Ca)27
+c = 0.
+(3.13)
+The ﬁrst identity gives the very interesting relations
+α
+c
+Ia = (CI)c
+a,
+(3.14)
+where α
+c
+Ia are some of the structure constants of E6, the ones deﬁned by [CI, ˜Ca]d
+b = α
+c
+Ia ( ˜Cc)d
+b.
+Note that (3.14) relates
+the structure constants of E6 (directly computable from the adjoint representation) to the matrices of the smallest fundamental
+representation of F4.
+Another interesting information comes from identity (3.13). With our normalization, Tr(ja ⋆jb) = 0 implies
+( ˜Ca)27
+b = −i
+r τ
+3 δab.
+(3.15)
+Inserted in (3.13) it gives
+(CI)c
+aδcb + (CI)c
+bδca = 0.
+(3.16)
+Then, the matrices (CI)c
+a are antisymmetric!
+3.2. The Yokota construction and 56. We can obtain the representation 56 by applying the method explained by Yokota in
+[13]. We will ﬁrst consider the general complex realization and then we will specialize to the compact form. From our previous
+analysis we know that the Lie algebra can be written as
+E7 = E6 ⊕i ⊗R ⊕j ⊗J ⊕k ⊗J,
+(3.17)
+where we have included the remaining derivative generators Dj and Dk in the last two addends. As supporting space we take the
+56-dimensional space
+V56 = (J ⊕C)2.
+(3.18)
+One has to deﬁne an action of E7 on this space. To this end it is convenient to introduce some further geometry.
+The determinant form. The Jordan algebra is endowed with a trilinear form, the determinant form
+Det : J × J × J −→C,
+(3.19)
+deﬁned by
+Det(j1, j2, j3) = 1
+3tr(j1 ◦j2 ◦j3) −1
+6 (tr(j1)tr(j2 ◦j3) + tr(j2)tr(j1 ◦j3) + tr(j3)tr(j1 ◦j2)) + 1
+6 tr(j1)tr(j2)tr(j3).
+(3.20)
+This is a fundamental ingredient in realizing exceptional Lie algebras. For example, it is left invariant by the action of E6 on J.
+Indeed, the group E6 can be deﬁned as the group of endomorphisms of J that leave the determinant form invariant. The form Det
+
+[PDF PAGE 5]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+5
+is a completely symmetric tensor D, also called the cubic invariant of E6, with component Dαβγ = Det(jα, jβ, jγ). Det is non
+degenerate. This means that it induces an action ✄of J on itself
+✄: J × J
+−→
+J,
+(3.21)
+(j1, j2)
+7−→
+j1 ✄j2,
+(3.22)
+deﬁned by the relation Det(j1, j2, j3) =: 1
+3tr
+ (j1 ✄j2) ◦j3
+
+. This is called the Freudenthal product. More explicitly:
+j1 ✄j2 = j1 ◦j2 −1
+2 tr(j1)j2 −1
+2tr(j2)j1 + 1
+2 tr(j1)tr(j2)I3 −1
+2tr(j1 ◦j2)I3.
+(3.23)
+With this richer structure at hand we can deﬁne the action of E7 on V56. Given X ∈E6, let φX its image under the fundamental
+representation 27 (for example constructed in [8]). Then, the image of X under 27′ (the second 27-dimensional representation of
+E6) is −φt
+X. For g = (X, ν, j1, j2) ≡X + i ⊗ν + j ⊗j1 + k ⊗j2 ∈E7 and v := (˜j1, µ1, ˜j2, µ2)t ∈V56, we deﬁne [13]
+gv :=
+
+
+
+
+
+
+φX˜j1 + i
+2
+q
+τ
+3 ν˜j1 + (j2 + i ⊗j1) ✄˜j2 + 1
+2µ2(−j2 + i ⊗j1)
+1
+2 ⟨(−j2 + i ⊗j1), ˜j2⟩−i
+2
+√
+3τνµ1
+−φt
+X˜j2 −i
+2
+q
+τ
+3 ν˜j2 + (−j2 + i ⊗j1) ✄˜j1 + 1
+2 µ1(−j1 + i ⊗j1)
+1
+2⟨(j2 + i ⊗j1), ˜j1⟩+ i
+2
+√
+3τνµ2
+
+
+
+
+
+
+.
+(3.24)
+Note that w.r.t. [13] we have ﬁxed a prescription 2B = j2 + i ⊗j1, 2A = −j2 + i ⊗j1 and ν 7→−i
+2
+q
+3
+2 ν in order to get a compact
+real form. τ is the normalization in the trace product of the Jordan basis: tr(jα ◦jβ) = τδαβ. The remaining coeﬃcient are chosen
+so that the corresponding matrices have all the same normalization w.r.t. the trace product. An explicit realization with τ = 2 is
+given in appendix C.
+It is wort to look at the general form of the resulting matrices in the 56. Let us choose the normalization τ = 2:
+Y =
+
+
+
+
+
+
+
+φ + i ν
+√
+6⃗
+027
+−P27
+α=1 ¯zαAα
+1
+√
+2
+P27
+α=1 zα⃗eα⃗
+0t
+27
+−iν
+q
+3
+2
+1
+√
+2
+P27
+α=1 zα⃗et
+α
+0
+P27
+α=1 zαAα
+−1
+√
+2
+P27
+α=1 ¯zα⃗eα
+−φt −i ν
+√
+6⃗
+027
+−1
+√
+2
+P27
+α=1 ¯zα⃗et
+α
+0⃗
+0t
+27
+iν
+q
+3
+2
+
+
+
+
+
+
+
+,
+(3.25)
+where φ is in the 27 of E6, ν ∈R and zα ∈C. The matrices Aα have components
+(Aα)βγ = 1
+2 tr((jα ✄jγ) ◦jβ) = 3
+2 Dαγβ.
+(3.26)
+Thus, the matrices Aα, α = 1, . . . , 27 are determined by the invariant cubic tensor D and are then symmetric and totally symmetric
+by including the index α. Actually we can say more. Assume a, b, c = 1, . . . , 26. Then trja = trjb = trjc = 0 and
+Dabc = (Ac)ab = 1
+2tr(jc ◦jb ◦ja) ≡i( ˜Cc)a
+b.
+(3.27)
+Then, also the matrices ˜Ca, when we drop the 27-th row and column, are totally symmetric. This implies (3.10) as a particular
+case.
+By applying (3.23) to compute the remaining components, we get
+0 = 3
+2Da,27,27 = (Aa)27,27 = (A27)a,27 = ( ˜Ca)27
+27 = ( ˜C27)a
+27;
+(3.28)
+−1
+2
+r
+2
+3δab = 3
+2Da,b,27 = (Aa)b,27 = (A27)ab = −i
+2 ( ˜Ca)b
+27 = −i
+2( ˜C27)b
+a;
+(3.29)
+r
+2
+3 = 3
+2 D27,27,27 = (A27)27,27 = i( ˜C27)27
+27.
+(3.30)
+These interesting relations provide a simple way to construct the matrices ˜Ca which extend the F4 algebra to the E6 algebra.
+3.3. Construction of the group. From the Tits construction we can easily get the main features required to perform the Euler
+construction with respect to the maximal subgroup (E6 × U(1))/Z3.
+If⃗n is any normalized three vector, we see that setting⃗
+h = (h1, h2, h3) and⃗H = (H1, H2, H3),
+u :=⃗n ·⃗H ⊕J ˙+((⃗n ·⃗h) ⊗J′)
+(3.31)
+is a subalgebra of g which generates a maximal compact subgroup U(1) × E6. Indeed, note that⃗n ·⃗H has vanishing Lie product
+with the whole u. The linear complement of⃗n ·⃗H in u reproduces the same rules we used in [8] to extend F4 to E6. In particular,
+restricted to (⃗n ·⃗h) ⊗J′, the product (3.6) is [(⃗n ·⃗h) ⊗j,⃗n ·⃗h ⊗j′] := −[Lj, Lj′]. The minus sign is exactly what we needed in [8] to
+go from the split form E6(−26) to the compact form. This is not surprising since we are starting from a compact group, but it can
+be considered as a consistency check. Note that we thus have a family of E6 × U(1) subgroups parameterized by the choice of the
+vector⃗n. On this family there is the action of an SU(2) subgroup changing⃗n, underlying the presence of a quaternionic structure.
+However, note also that in order to realize the quotient space E7/((E6 × U(1))/Z3) one has to ﬁx the⃗n thus breaking the SU(2)
+
+[PDF PAGE 6]
+6
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+structure and consequently the quaternionic structure.
+For deﬁniteness, we will choose⃗n = e1, where ei, i = 1, 2, 3 is the canonical basis for R3. Thus
+u = Lie(U(1) × E6) = H1 ⊕D(J) ˙+(h1 ⊗J′).
+(3.32)
+Having selected the maximal subgroup U = exp u, we look at the construction of the Euler parametrization [7]
+E7 = BeV U.
+(3.33)
+Here V is a maximal subspace of the linear complement p of u in g such that AdU(V ) = p, whereas B = U/Uo, where Uo is the
+kernel of the map:
+Ado : U →Aut(Lie(U)),
+u 7→Ado(U) := Adu|V ,
+the apex o means restriction to V . Let us begin with the selection of V . We take H2 as a ﬁrst generator of V . Acting on it with
+adu we generate H3 and h3 ⊗J′. To generate h2 ⊗J′ we need to add at least an element of the form h2 ⊗ja. Now, J′ contains a
+particular two dimensional subspace W which corresponds to the vector space of diagonal traceless Jordan matrices. Let {j1, j18}
+be a basis for this subspace. Up to now, the indices we have chosen are arbitrary labels. However, we are now referring to [8]
+where we have chosen a well deﬁned basis for J′. In that basis the diagonal generators are just j1 and j18 which correspond to
+the matrices c53 and c70 of E6. Note that the elements of h2 ⊗W commute w.r.t. the product (3.6). If we ﬁx, for example, the
+element h2 ⊗j1, acting on it with adD(J) we will generate all the basis elements h2 ⊗ja but h2 ⊗j18. We conclude that
+V = RH2 ⊕W = RH2 ⊕R(h2 ⊗j1) ⊕R(h2 ⊗j18).
+(3.34)
+At this point we have that dimUo = 2dimu + dimV −dimg = 28. On the other hand, we already know what Uo is, it has, in fact,
+been studied in [8]. Indeed, if uo = Lie(Uo), then uo is the subset of u of elements which commute with H2, h2 ⊗j1 and h2 ⊗j18.
+But this is the subset of D(J), commuting with h2 ⊗j1 and h2 ⊗j18, which determine exactly the subgroup SO(8) of F4 commuting
+with W , studied in [8] (in that case W was generated by c53 and c70).
+This allows us to provide the ﬁnal expression for the general element of the group. Indeed, if ΨA, A = 1, . . . , 133 is the basis of g
+deﬁned above, and cs, s = 1, . . . , 78 is the matrix representation of Lie(E6) given in [8], then the map
+ψ : Lie(E6)֒ →g,
+cs 7→Ψs+3
+(3.35)
+gives an embedding of E6 in E7. This provides the generic element
+U(x1, . . . , x79) = exp(x1Ψ1)ψ∗(E6[x2, . . . , x79]),
+where E6 is the parametrization given in [8] and ψ∗is the push forward of ψ under the exponential map. Next, B is easily obtained
+from E6 by dropping the last 28 factors on the right, obtaining
+B[x1, . . . , x51] = U(x1, . . . , x51, 0, . . . , 0).
+The basis of V being given by {Ψ2, Ψ82, Ψ99}, we ﬁnally get
+E7[x1, . . . , x133] = ex1Ψ1ψ∗(E6[x2, . . . , x51, 0, . . . , 0])ex52Ψ2+x53Ψ82+x54Ψ99ex55Ψ1ψ∗(E6[x56, . . . , x133]).
+(3.36)
+Thus we are left with the problem of determining the range of the parameters. This can be done by means of the topological
+method developed in [7]. Concretely, this consist in choosing the range of parameters in order to deﬁne a 133 dimensional closed
+cycle. This will eventually cover the group an integer number N of times, so that one must ﬁnally reduce the range to have N = 1.
+The explicit deduction of the range of parameters is done in Appendix D. We conclude this section with some further comments.
+3.3.1. Remarks. To realize concretely the group we could use either the adjoint representation or the 56. However, the kernel of
+the Adjoint representation of the group is its center, which is Z2 for E7, so that using it in (3.36) will provide the group E7/Z2 in
+place of E7. Indeed, ker Ad is, by construction, the subset of G which commute with all G. On the contrary, the representation
+56G of the group (we add a suﬃx G to distinguish the group from the algebra) is faithful so that we can use 56 to construct E7.
+This is a well known fact, but we can check it directly from our construction. Let MA be the basis of the algebra E7 in the adjoint
+representation, and YA the corresponding basis in the 56. They have exactly the same structure constants, so that they can be
+thought of as representing the same elements of the algebra. However, 56 contains the nontrivial generator of the center
+−I56 = exp(
+√
+6πY1).
+(3.37)
+Obviously the Adjoint representation cannot contain −I133 and, indeed, exp
+√
+6πM1 = +I133. Thus, the correspondence
+ξ : 56 −→133,
+YA 7−→MA,
+A = 1, . . . , 133,
+(3.38)
+deﬁnes a surjective homomorphism
+Ξ : 56G −→133G,
+exp
+133
+X
+A=1
+λAYA 7−→exp
+133
+X
+A=1
+λAMA,
+(3.39)
+which has kernel ker Ξ = Z2 = {I56, −I56}. Then, 56G is a double covering of 133G.
+In particular, let us consider the corresponding one parameter subgroups:
+hA(t) = exp(tMA),
+A = 1, . . . 133,
+t ∈R,
+(3.40)
+gA(t) = exp(tYA),
+A = 1, . . . 133,
+t ∈R.
+(3.41)
+
+[PDF PAGE 7]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+7
+We then note that for A > 3 all of them have period 4π, apart from A = 73, 99 and 125, which have period 4π
+√
+3, whereas for
+A = 1, 2, 3, hA has period Th =
+√
+6π and gA has period Tg =
+√
+6 2π = 2Th as a consequence of the double covering.
+Finally, we remark that the maximal subgroup of E7 is (E6 × U(1))/Z3. Indeed, the generator
+ω := exp(4 π
+√
+3
+Y73) = exp(2
+r
+2
+3πY1) ∈E6 ∩U(1)
+(3.42)
+satisfy ω3 = I56 so that it is a generator of Z3 common to both E6 and U(1).
+4. The E7(7) construction
+We want to construct the E7 compact form related to the split form by means of the Weyl unitary trick. In this case the
+maximal compact subgroup that is privileged is SU(8)/Z2. To this aim we will follow the paper [15], chapter 12, see also [16].
+Let V be an eight dimensional real vector space and V ∗be its dual. Let ∧iV be the i-th external power of V . We can ﬁx an
+isomorphism ∧8V ≃R. SL(V ) is the group of automorphisms preserving such isomorphism. Let L := sl(V ) be its Lie algebra. We
+will construct the representation 56 of E7 by extending the representation of L on W := ∧2V ⊕∧2V ∗to a representation of E7.
+Set A := L ⊗∧4V . We wish to see A acting as a Lie algebra of linear maps W →W . The action of L on W is as usual:
+L(W ) = L(V ) ∧V ⊕L(V ∗) ∧V ∗+ V ∧L(V ) ⊕V ∗∧L(V ∗),
+(4.1)
+where L(V ∗) is the adjoint action. If i + j = 8 the pairing ∧iV ⊗∧jV →∧8V ≃R, given by the wedge product, deﬁnes an
+isomorphism ∧iV ≃∧jV ∗. This isomorphism can be used to deﬁne the second component of the action of A. Actually, an action
+of λ4 ≡∧4V on W can be obtained as follows:
+λ4 ⊗∧2V
+∧
+−→∧6V ≃∧2V ∗
+λ4 ⊗∧2V ∗≃∧4V ∗⊗∧2V ∗
+∧
+−→∧6V ∗≃∧2V,
+(4.2)
+where ∧is the usual multiplication in the exterior algebra ∧V . Thus, A is a 133-dimensional real vector space of operators acting
+on W , that indeed realizes an E7 Lie algebra representation, more precisely the E7(7) split form. In order to see this and realize
+the compact form, let us look more carefully at the explicit matrix realization.
+4.1. Matrix realization. We identify V with R8.
+The action of L on V is generated by the action of all traceless matrices
+in M(8, R).
+Fix a basis {ei}8
+i=1 of V and deﬁne a basis {Akl, Skl, Dα} for M(8, R), where 1 ≤k < l ≤8, α = 1, · · · , 7 and
+Aklei = δliek −δkiel, Sklei = δliek + δkiel, and Dα form a basis of diagonal traceless matrices Dα = diag(D1
+α, · · · , D8
+α). We can
+normalize them as Tr(DαDβ) = 2δαβ, so that all matrices are orthogonal, the symmetric matrices are normalized to 2 and the
+antisymmetric ones to −2 w.r.t. the trace product.
+In order to write the action of this basis on W let us introduce the following notations:
+• we select a basis eij := ei ∧ej, i < j of V ∧V and the canonical dual basis εij. As usual we will extend the range of the
+indices i, j as running independently from 1 to 8, by assuming antisymmetry (so eij = −eji and so on).
+• A vector v ∈V ∧V can be then written as
+v = 1
+2
+X
+i,j
+vijeij =
+X
+i<j
+vijeij,
+and a vector w ∈V ∗∧V ∗as
+w = 1
+2
+X
+i,j
+wijεij =
+X
+i<j
+wijεij.
+• A linear operator M : V ∧V →V ∧V acts on the components as
+(Mv)ij =
+X
+i<j
+Mij
+klvkl,
+and similar notations for the other possibilities [V ∗∧V ∗→V ∗∧V ∗], [V ∗∧V ∗→V ∧V ] and [V ∧V →V ∗∧V ∗].
+We can then easily write down the explicit matrix action of L over R56 ≃V ∧V ⊕V ∗∧V ∗:
+Akl =
+ 
+(Au
+kl)ij
+i′j′
+0
+0
+(Ad
+kl)
+i′j′
+ij
+!
+=
+(δki′δli −δkiδli′)δjj′ + (δkj′δlj −δkjδlj′)δii′
+0
+0
+(δki′δli −δkiδli′)δjj′ + (δkj′δlj −δkjδlj′)δii′
+
+(4.3)
+Skl =
+ 
+(Su
+kl)ij
+i′j′
+0
+0
+(Sd
+kl)
+i′j′
+ij
+!
+=
+i(δki′δli + δkiδli′)δjj′ + i(δkj′δlj + δkjδlj′)δii′
+0
+0
+−i(δki′δli + δkiδli′)δjj′ −i(δkj′δlj + δkjδlj′)δii′
+
+(4.4)
+Dα =
+ 
+(Du
+α)ij
+i′j′
+0
+0
+(Dd
+α)
+i′j′
+ij
+!
+=
+ 
+i(Di
+α + Dj
+α)δij
+i′j′
+0
+0
+−i(Di
+α + Dj
+α)δi′j′
+ij
+!
+,
+(4.5)
+
+[PDF PAGE 8]
+8
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+where δij
+i′j′ is the identity over V ∧V . Note that, in order to obtain the compact form, we have multiplied by i the symmetric
+matrices.
+For the remaining 70 generators we have to consider the action of {λi1i2i3i4 = ei1 ∧ei2 ∧ei3 ∧ei4}i1<i2<i3<i4 on W . This is
+easily realized by implementing the identiﬁcations (4.2):
+(λi1i2i3i4) ⊗(ej1j2) 7→1
+2ǫi1i2i3i4j1j2k1k2εk1k2
+(λi1i2i3i4) ⊗(εj1j2) 7→1
+2δj1j2k1k2
+i1i2i3i4 ek1k2,
+(4.6)
+where ǫ is the standard eight dimensional Levi-Civita tensor and
+δj1j2j3j4
+i1i2i3i4 =
+X
+σ∈P
+ǫσδj1
+iσ(1) δj2
+iσ(2)δj3
+iσ(3)δj4
+iσ(4)
+(4.7)
+with P the set of permutations and ǫσ is the parity of σ. The action of λi1i2i3i4 in the block matrix form, with respect to the
+decomposition W = ∧2V ⊕∧2V ∗, is then
+λi1i2i3i4 =
+ 
+0
+(λu
+i1i2i3i4)ij,kl
+(λd
+i1i2i3i4)ij,kl
+0
+!
+=
+ 
+0
+ǫi1i2i3i4ijkl
+δijkl
+i1i2i3i4
+0
+!
+.
+(4.8)
+Note that the matrices λu and λd are both symmetric. Let us introduce the ordered tetra-indices I ≡{i1i2i3i4} with the rule
+i1 < i2 < i3 < i4. Its complementary is the unique ordered tetra-index ˜I such that ǫI ˜I̸ = 0. Then
+tλI = ǫI ˜Iλ˜I.
+(4.9)
+Thus, we can change basis for λ4 introducing symmetric matrices
+SI :=
+i
+√
+2
+(λI + ǫI ˜Iλ˜I)
+(4.10)
+and antisymmetric matrices
+AI :=
+1
+√
+2
+(λI −ǫI ˜Iλ˜I).
+(4.11)
+Again, we have included the imaginary unit for the symmetric matrices. The cardinality of the set of tetra-indices is 70 so that
+only half of the SI (and of the AI) can be linearly independent. Indeed, we have SI = S˜I (AI = −A˜I). To avoid this double
+over-counting we can restrict ourselves to the subset I0 of tetra-indices deﬁned in appendix H. Thus, a basis for ∧4V (as linear
+operators over W ) is:
+{SI, AI}I∈I0.
+(4.12)
+A basis for A ≡E7 is then
+{Akl, AI, Dα, Skl, SI}1≤k<l≤8; 1≤α≤8; I∈I0.
+(4.13)
+All matrices are orthogonal.
+The antisymmetric matrices Aµ ≡{Akl, AI} are normalized by Tr(AµAν) = −2δµν and have
+cardinality 28 + 35 = 63 so that generate the maximal compact subgroup SU(8)/Z2.
+The remaining 70 symmetric generators
+SΛ ≡{Dα, Skl, SI} are normalized by Tr SλSM = 2δΛM , so that are the noncompact part of the algebra. In particular, the 7
+diagonal matrices Dα generate a Cartan subalgebra.
+Summarizing. The above construction furnishes the Lie algebra of E7(−133), but the split form can be recovered simply by
+dropping the imaginary unit i from the symmetric matrices.
+Let us summarize the structure of the matrices. 63 of them are block diagonal
+Mi =
+sl(8)
+0
+0
+sl(8)
+
+,
+i = 1, · · · , 63,
+(4.14)
+where the two diagonal block are the 28-dimensional representation of sl(8) on ∧2V and ∧2V ∗respectively.
+A basis for sl(8)
+is composed by 35 symmetric matrices and 28 antisymmetric matrices. SL(8) contains the maximal compact subgroup SO(8).
+The 28 antisymmetric matrices generate its Lie algebra in the compact form. Of the other 35 symmetric matrices 7 are diagonal
+with vanishing trace and 28 are symmetric with all diagonal elements equal to zero. The 7 diagonal elements generate a Cartan
+subalgebra of sl(8) and, obviously, also of E7. The remaining 70 matrices have the structure
+Mi =
+ 0
+∧4V
+∧4V
+0
+
+,
+i = 70, · · · , 133.
+(4.15)
+Among these matrices 35 are symmetric and 35 antisymmetric. The group SU(8)/Z2 is a maximal compact subgroup of E7 and its
+Lie algebra is generated by the 63 antisymmetric matrices. Thus we can write e7 = su(8) ⊕p, where p is the complement of su(8)
+in e7.
+
+[PDF PAGE 9]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+9
+4.2. Construction of the group. The strategy for constructing the generalized Euler parametrization of the group is the same
+as for the previous construction so that we will only sketch the main steps. In this case the reference subgroup is the smallest
+maximal compact subgroup SU(8)/Z2. Let u = Lie(SU(8)) and, as before, g = Lie(E7) ≡e7 and p the complement of u in g.
+Having selected the maximal subgroup U = exp u we look at the construction of the Euler parametrization [7]:
+E7 = BeV U.
+(4.16)
+Here V is a maximal subspace of the linear complement p of u in g such that AdU (V ) = p, whereas B = U/U0, where U0 is the
+kernel of the map
+Ad0 : U →Aut(Lie(U)),
+u 7→Ad0(U) := Adu |V ,
+(4.17)
+the apex 0 means restriction to V . As V we can choose the 7 diagonal matrices of a Cartan subalgebra of e7: they form an Abelian
+subalgebra that can be used to generate p by means of the adjoint action of U (a general proof of these statements will appear in
+[20]). For dimension reasons it follows that U0, the kernel of Ad0, is at most a discrete subgroup. Indeed, it can be shown that
+U0 = Z7
+2, [20].
+Thus, we can introduce coordinates x = (x1, . . . , x63), z = (z1, . . . , z63) and⃗y = (y1, . . . , y7) so that3 E7 = U[x]eV [⃗y]U[z], where
+U[z] is a parametrization of SU(8)/Z2, the range of the parameters x is reduced by the action of U0, and
+V [⃗y] =
+7
+X
+α=1
+yαDα.
+We will now focus on the determination of the range for⃗y. The ranges for the coordinates x and z, can be easily determined, for
+example, as in [6].
+Let t be the complement of V in p. The general strategy developed in [7] shows that the invariant measure over E7 is
+dµE7 = dµU [x] dµU [z] |f(⃗y)| d⃗y7,
+(4.18)
+f(⃗y) := det[Π ◦Ade−V : u →t],
+(4.19)
+where Π is the orthogonal projection on t. We assume that one always works with orthonormal bases, so that the determinant
+function is well deﬁned up to an irrelevant sign (we need only the modulus). The function f is determined in appendix H, the ﬁnal
+expression is
+|f(⃗y)| =
+Y
+β∈Rad+
+sin(|
+7
+X
+a=1
+yaβ(Da)|),
+(4.20)
+where Rad+ is the set of positive roots w.r.t. V . Thus, the equations for the range of⃗y are
+0 < |
+7
+X
+a=1
+yaβ(Da)| < π,
+β ∈Rad+.
+(4.21)
+This is a set of 63 double inequalities, which, however, can be quickly reduced to a set of eight equations as follows. Indeed, all
+positive roots can be obtained as non negative integer linear combinations of the simple roots. In particular, there exists a unique
+longest root
+βmax = 2α1 + 2α2 + 3α3 + 4α4 + 3α5 + 2α6 + α7
+whose coeﬃcients are the highest ones. From this it follows that all inequalities are a consequence of the ones corresponding to the
+simple roots plus the one associated to the longest one. These are
+0 < 1
+2(y1 −y2 −y3 −y4 −y5 −y6 +
+√
+2y7) < π,
+(4.22)
+0 < y1 + y2 < π,
+(4.23)
+0 < −y1 + y2 < π,
+(4.24)
+0 < −y2 + y3 < π,
+(4.25)
+0 < −y3 + y4 < π,
+(4.26)
+0 < −y4 + y5 < π,
+(4.27)
+0 < −y5 + y6 < π,
+(4.28)
+0 <
+√
+2y7 < π,
+(4.29)
+and characterize completely the range for⃗y.
+3Concretely, B[x] = U[x] and the diﬀerence is only in the range.
+
+[PDF PAGE 10]
+10
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+5. The E7(−5) construction
+The E7(−5) construction can be easily obtained from the E7(−25) one by following the analysis of Yokota in [13]. The maximal
+compact subgroup of E7(−5) is U5 = (Spin(12) × SU(2))/(Z2 × Z2). Let us consider the map
+σ : J −→J,
+
+
+a
+o1
+o2
+¯o1
+b
+o3
+¯o2
+¯o3
+c
+
+7−→
+
+
+a
+−o1
+−o2
+−¯o1
+b
+o3
+−¯o2
+¯o3
+c
+
+.
+(5.1)
+Thus σ lies in the group F4 ⊂E6 ⊂E7. In [13] it is shown that U5 is the subgroup of elements g ∈E7 such that σg = gσ.
+Let us go back to the Lie algebra. In section 3.1 we have realized the Lie algebra E7 as E6 + iR + JC, where R is generated by the
+derivation Di associated to the imaginary unit i, and JC ≃J ⊕iJ ≃(RDj ⊕j ⊗J′) ⊕(RDk ⊕k ⊗J′) is the complexiﬁcation of the
+exceptional Jordan algebra J. Then, it follows that the Lie algebra of U5 is generated by the subgroup Eσ
+6 = {h ∈E6|σh = hσ} ≃
+spin(10) × iR plus the elements Jσ
+C which are invariant under σ. Eσ
+6 is the subset of elements of the Lie algebra E6 that leave the
+element
+J1 :=
+
+
+1
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+invariant. It is composed by the A ∈E6 such that AJ1 = 0, which generate a spin(10) subalgebra, plus the B ∈E6 with BJ1 = ibJ1
+for some real b, generating the U(1) factor iR. With respect to the basis we have chosen for J, the element J1 is
+J1 = 1
+6 (3j1 +
+√
+3j18 +
+√
+6j27).
+(5.2)
+Thus, the matrices of E6 generating spin(10) are the ones having⃗
+v = 1
+6(3⃗e1 +
+√
+3⃗e18 +
+√
+6⃗e27)
+(5.3)
+in the kernel (ei are the canonical vectors of R27). These are4
+Lb = Ya, L45 = 1
+2(
+√
+3Y73 −Y56),
+a = 4, . . . , 24, 33, . . . , 39, 48, . . . , 55, 74, . . . , 81,
+b = 1, . . . , 44.
+(5.4)
+For the U(1) factor in Eσ
+6 from the above condition one ﬁnds the generator (
+√
+3Y56 + Y73)/2. However, we can obtain a U(1)
+factor also by adding any multiple of Y1. In order to get an orthogonal basis (in particular orthogonal to the next generators) it is
+convenient to take the generator
+L46 = 1
+6(3Y56 +
+√
+3Y73 + 2
+√
+6Y1).
+(5.5)
+In order to construct the SU(2) factor, note that J1 is embedded in JC and generates the real spaces Rj ⊗J1 and Rk ⊗J1,
+which algebraically generate the SU(2) factor in U5 [13]. As J1 correspond to the vector⃗v above in our basis it follows that the
+corresponding generators of su(2) are
+L67 =
+1
+3
+√
+2
+(3Y82 +
+√
+3Y99 +
+√
+6Y2),
+L68 =
+1
+3
+√
+2
+(3Y108 +
+√
+3Y125 +
+√
+6Y3),
+L69 =
+1
+3
+√
+2
+(3Y56 +
+√
+3Y73 −
+√
+6Y1).
+(5.6)
+Finally, we are left with the 20 generators in Jσ
+C which are complementary to J1. These are
+L47 =
+1
+3
+√
+2
+(−3Y82 +
+√
+3Y99 +
+√
+6Y2),
+L48 =
+1
+3
+√
+2
+(−3Y108 +
+√
+3Y125 +
+√
+6Y3),
+L49 =
+√
+2
+3 (−
+√
+3Y99 +
+r
+3
+2Y2),
+L50 =
+√
+2
+3 (−
+√
+3Y125 +
+r
+3
+2 Y3),
+Ld = Yb,
+b = 100, . . . , 107, 126, . . . , 133,
+d = 51, . . . , 66.
+(5.7)
+In this way we have selected the Spin(12)× SU(2) subalgebra and we can obtain the E7(−5) real form by applying the unitary Weyl
+trick to the complementary generators
+Le = Yc,
+c = 25, . . . , 32, 40, . . . , 47, 57, . . . , 72, 83, . . . , 98, 109, . . . , 124,
+e = 70, . . . , 133.
+(5.8)
+5.1. Construction of the group. The symmetric manifold E7(−5)/U5 has rank 4, which means that we can ﬁnd a Cartan
+subalgebra of E7 with four generators in the complement of Lie(U5). A possible choice for such a complement is
+H4 := ⟨L70, L86, L103, L120⟩.
+(5.9)
+Let us indicate with k the maximal Lie subalgebra of u5 := Lie(U5) that commute with H4. It results that the corresponding Lie
+group is K ≃Spin(4) × SU(2) ⊂Spin(12) × Z4
+2 ⊂U5, se appendix I. This means that we can write the group elements in the form
+E7[x1, . . . , x60; y1, . . . , y4; z1, . . . , z69] = (U5/K)[x1, . . . , x60]eH4[y1,...,y4]U5[z1, . . . , z69],
+(5.10)
+where
+H4[y1, . . . , y4] := y1L70 + y2L86 + y3L103 + y4L104,
+(5.11)
+4We reorder the numbering of the matrices by calling them Lb following the natural order. So, for example, L1 = Y4, L2 = Y5, L22 = Y33 and so
+on. Moreover, when needed we will add multiplicative factors chosen so that the La have the same normalization as the Yi.
+
+[PDF PAGE 11]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+11
+and U5[z1, . . . , z69] and (U5/K)[x1, . . . , x60] are parameterizations of U5 and U5/K respectively. Again we will now determine the
+range for the parameters yi, the ranges for xa and zb being determinable as usual.
+Let p the orthogonal complement of u5 in LieE7, t the orthogonal complement of H4 in p, and s the orthogonal complement of k in
+u5. The invariant measure over E7 in this construction is
+dµE7 = dµU5/K[x] dµU5[z] |h(⃗y)| d⃗y4,
+(5.12)
+h(⃗y) := det[Π ◦Ade−H4 : s →t],
+(5.13)
+where Π is the orthogonal projection on t. Again, we assume to work with orthonormal bases, so that the determinant function is
+well deﬁned. Using a method similar to the one used in appendix H, one gets
+|h(⃗y)| =
+Y
+β∈Rad′+
+sinmβ (|β(H4(y1, . . . , y4))|),
+(5.14)
+where Rad′+ is the set of positive restricted roots of E7/U5 w.r.t. H4, and mβ is the multiplicity of β. The restricted root lattice
+of E7/U5 is an F4 lattice whose short roots have multiplicity 4. Thus, the equations for the range of⃗y are
+0 < |β(H4(y1, . . . , y4))| < π,
+β ∈Rad+.
+(5.15)
+This is a set of 24 double inequalities, which, however, can be quickly reduced to a set of ﬁve equations as follows. Indeed, all
+positive roots can be obtained as non negative integer linear combinations of the simple roots. The simple roots are
+α1 = 1
+2(1, −1, −1, 1),
+α2 = (0, 0, 1, −1),
+α3 = (−1, 0, 0, 0),
+α4 = (0, 1, −1, 0).
+(5.16)
+In particular, there exists a unique longest root
+βmax = 4α1 + 3α2 + 2α3 + 2α4
+whose coeﬃcients are the highest ones. From this it follows that all inequalities are a consequence of the ones corresponding to the
+simple roots plus the one associated to the longest one. These are
+0 < 1
+2(y1 −y2 −y3 + y4) < π,
+(5.17)
+0 < y3 −y4 < π,
+(5.18)
+0 < y1 < π,
+(5.19)
+0 < y2 −y3 < π,
+(5.20)
+0 < y3 + y4 < π,
+(5.21)
+and characterize completely the range for⃗y.
+6. Conclusions
+In this paper we have solved the problem of giving an explicit construction of the exceptional E7 simple Lie group and in
+particular of its compact form. We have solved the problem in three diﬀerent ways. In the ﬁrst one we have realized the generalized
+Euler construction w.r.t. the maximal compact subgroup U = (E6 × U(1))/Z3 of highest dimension. To this end we have ﬁrst
+obtained the adjoint representation of the E7 Lie algebra by using the Tits realization of the Magic Squares. This has allowed us
+to easily understand the structure of the commutators and then the main properties of the algebra in relation to the subalgebra
+Lie(U). However, since the Adjoint representation of the group has a nontrivial kernel given by the center Z2 of E7, we have built
+also the fundamental representation 56 which provides a faithful representation of the group. For this case we have reported a very
+careful analysis. Note that we can obtain a realization of E7/Z2, simply by replacing the matrices in the representation 56 with
+those in the 133. In this case, the center is mapped into I133, so that we need to restrict the range of the U(1) parameter x55 to
+the interval [0,
+q
+2
+3 π].
+Since there exists a generalized Euler parametrization for each maximal compact subgroup, we have worked out all such parametriza-
+tion. Indeed, the other two correspond to the maximal compact subgroups ˜U := SU(8)/Z2 and U5 = (Spin(12)× SU(2))/(Z2 × Z2).
+This is not merely an exercise.
+Indeed, it can be relevant to be able to recognize a speciﬁc subgroup for a given application.
+Moreover from each Euler construction one can obtain the corresponding real form simply by means of the unitary Weyl trick. For
+these constructions we have omitted several details, in part to avoid annoying repetitions and in part because certain speciﬁc steps
+revealed to have a deeper meaning which can be understood in a more general context, which will be presented in a devoted paper
+[20].
+
+[PDF PAGE 12]
+12
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+Acknowledgments. We are grateful to B.L. Cerchiai and A. Marrani for very useful comments.
+
+[PDF PAGE 13]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+13
+Appendix A. The Tits product
+We will follow ([10]), and, for generality, we will allow for H to be the non associative octonionic algebra.
+Let k ⊗j, k′ ⊗j′, k′′ ⊗j′′ ∈H′ ⊗J′ and deﬁne
+[h ⊗j, h′ ⊗j′] := α
+3 ⟨j, j′⟩Dh,h′ −β⟨h, h′⟩[Lj, Lj′] + γ[h, h′] ⊗(j ⋆j′)
+(A.1)
+for some constants α, β, γ. Then, the only nontrivial Jacobi identities to be checked are
+0 = [[h ⊗j, h′ ⊗j′], h′′ ⊗j′′] + [[h′′ ⊗j′′, h ⊗j], h′ ⊗j′] + [[h′ ⊗j′, h′′ ⊗j′′], h ⊗j]
+=: cyc{[[h ⊗j, h′ ⊗j′], h′′ ⊗j′′]}.
+(A.2)
+Now
+[[h ⊗j, h′ ⊗j′], h′′ ⊗j′′]
+= α
+3 ⟨j, j′⟩Dk,k′(k′′) ⊗j′′ −β⟨k, k′⟩k′′ ⊗[Lj, Lj′]j′′ + αγ
+3 ⟨j ⋆j′, j′′⟩D[k,k′],k′′
+−γβ⟨[k, k′], k′′⟩⊗[Lj⋆j′, Lj′′] + γ2[[k, k′], k′′] ⊗(j ⋆j′) ⋆j′′.
+(A.3)
+After cyclic summation the terms with coeﬃcients αγ and βγ disappear. Deﬁning the associator [k, k′, k′′] = (kk′)k′′ −k(k′k′′)
+(which is totally antisymmetric) we have the identities, which can be easily obtained adapting the relations in [10] to our notation,
+Dk,k′(k′′) = [[k, k′], k′′] −3[k, k′, k′′],
+(A.4)
+⟨c, a⟩b −⟨c, b⟩a = −1
+4[[b, a], c] + 1
+2[c, b, a],
+(A.5)
+X ⋆(X ◦X) = 1
+2⟨X, X⟩X,
+X ∈J′.
+(A.6)
+From the last one we also get
+j ⋆(j′ ◦j′′) −1
+2 ⟨j, j′⟩j′′ + cyclic = 0.
+(A.7)
+Using all this identities we ﬁnally get
+cyc{[[h ⊗j, h′ ⊗j′], h′′ ⊗j′′]} =
+
+[[k, k′], k′′] ⊗
+α −γ2
+3
+⟨j, j′⟩j′′ + 4γ2 −β
+4
+(j ◦j′) ⋆j′′
+
++ β −4α
+4
+[k, k′, k′′] ⊗cyc[⟨j, j′⟩j′′],
+(A.8)
+which vanishes for all choices of k, k′, k′′ and j, j′, j′′ if and only if α = γ2 = β
+4 , which gives equation (3.6).
+Appendix B. The adjoint representation of E7 in the E7(−25) construction
+We can now realize the adjoint representation of E7. To this end, let us consider the basis {ΨA}133
+A=1 of g, with
+ΨA =
+
+
+
+
+
+
+
+
+
+
+
+HL
+if
+A = 1, 2, 3,
+L = 1, 2, 3
+JI
+if
+A = I + 3,
+I = 1, . . . , 52,
+h1 ⊗ja
+if
+A = a + 55,
+a = 1, . . . , 26,
+h2 ⊗ja
+if
+A = a + 81,
+a = 1, . . . , 26,
+h3 ⊗ja
+if
+A = a + 107,
+a = 1, . . . , 26.
+(B.1)
+The dual basis is ˆΨB, with ˆΨB(ΨA) = δB
+A . Thus, the generic matrix of Lie(E7) is (MA)C
+B = ˆΨC(adΨAΨB) where adΨAΨB =
+[ΨA, ΨB] is the adjoint action of ΨA on ΨB. As usual, in (MA)C
+B, the upper index denote the row, the lower the column and the
+index A labels the matrix we are considering. We will use the ﬁrst capital Latin letters A, B, C, running from 1 to 133, to label
+the basis elements of Lie(E7), small Latin letters i, j, k, running from 1 to 3, to label the imaginary units of H, capital Latin letters
+L, M, N, running from 1 to 3, for the derivations D(H), capital Latin letters I, J, K, running from 1 to 52, for the derivation D(J),
+ﬁrst small Latin letters a, b, c, running from 1 to 26, for the elements of J′ and ﬁnally the Greek letters µ, ν, λ, running from 1 to
+27, for the elements of J.
+Let us proceed with the construction step by step.
+B.1. The matrices MA with A = 1, 2, 3. These matrices are determined by the adjoint action of the elements ΨA = HL, with
+L = 1, 2, 3 on ΨB, B = 1, . . . , 133. We have to consider ﬁve cases for the index B.
+• B = 1, 2, 3, i.e. M = 1, 2, 3: [HL, HM] = 2ǫ
+N
+LM
+HN.
+• B = 4, · · · , 55, i.e. J = 1, · · · , 52: [HL, JJ] = 0.
+• B = 56, · · · , 81, i.e. b = 1, · · · , 26: [HL, h1 ⊗jb] = adhih1 ⊗jb = 2ǫ
+k
+i1 hk ⊗jb, with the value of L equal to that of i.
+• B = 82, · · · , 107, i.e. b = 1, · · · , 26: [HL, h2 ⊗jb] = adhih2 ⊗jb = 2ǫ
+k
+i2 hk ⊗jb, with the value of L equal to that of i.
+• B = 108, · · · , 133, i.e. b = 1, · · · , 26: [HL, h3 ⊗jb] = adhih3 ⊗jb = 2ǫ
+k
+i3 hk ⊗jb, with the value of L equal to that of i.
+
+[PDF PAGE 14]
+14
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+Applying the dual basis ˆΨC, and organizing the result in block matrices (with block structure C = {N, K, a, b, c}) we obtain the
+ﬁrst three matrices:
+(M1)C
+B =
+
+
+
+
+
+
+
+
+
+
+0
+0
+0
+0
+0
+−2
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+−2I26
+0
+0
+0
+2I26
+0
+
+
+
+
+
+
+
+
+
+
+,
+(M2)C
+B =
+
+
+
+
+
+
+
+
+
+
+0
+0
+2
+0
+0
+0
+−2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2I26
+0
+0
+0
+0
+0
+0
+0
+−2I26
+0
+0
+
+
+
+
+
+
+
+
+
+
+(M3)C
+B =
+
+
+
+
+
+
+
+
+
+
+0
+−2
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+−2I26
+0
+0
+0
+2I26
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+
+
+
+
+
+
+,
+(B.2)
+where the ﬁve diagonal blocks have dimensions 3 × 3, 52 × 52, 26 × 26, 26 × 26 and 26 × 26 respectively.
+B.2. The matrices MA with A = 4, · · · , 55. These matrices are given by the adjoint action of the elements ΨI+3 = JI, with
+I = 1, · · · , 52 on ΨB, B = 1, . . . , 133.
+• B = 1, 2, 3, i.e. M = 1, 2, 3: [JI, HM] = 0.
+• B = 4, · · · , 55, i.e. J = 1, · · · , 52: [JI, JJ] = f
+K
+IJ
+JK, where f
+K
+IJ
+are the structure constants of Lie(F4).
+• B = 56, · · · , 81, i.e. b = 1, · · · , 26: [JI, h1 ⊗jb] = h1 ⊗JIjb = h1 ⊗(CI)c
+bjc. The (CI)c
+b are the matrices of Lie(F4), the
+algebra of the derivation of the octonionic Jordan matrices. Note that jb are traceless, actually we choose as basis for J 26
+traceless matrices and the identity. As derivations vanish on the identity, Lie(F4) can be obtained as the derivations on J′.
+• B = 82, · · · , 107, i.e. b = 1, · · · , 26: [JI, h2 ⊗jb] = h2 ⊗JIjb = h2 ⊗(CI)c
+bjc.
+• B = 108, · · · , 133, i.e. b = 1, · · · , 26: [JI, h3 ⊗jb] = h3 ⊗JIjb = h3 ⊗(CI)c
+bjc.
+We obtain:
+(MI+3)C
+B =
+
+
+
+
+
+
+0
+0
+0
+0
+0
+0
+f
+K
+IJ
+0
+0
+0
+0
+0
+(CI)c
+b
+0
+0
+0
+0
+0
+(CI)c
+b
+0
+0
+0
+0
+0
+(CI)c
+b
+
+
+
+
+
+
+,
+(B.3)
+I = 1, . . . , 52.
+B.3. The matrices MA with A = 56, · · · , 81. These matrices are given by the adjoint action of the elements ΨA = h1 ⊗ja, with
+a = 1, · · · , 26 on ΨB, B = 1, . . . , 133.
+• B = 1, 2, 3, i.e. M = 1, 2, 3: [h1 ⊗ja, HM] = −[HM, h1 ⊗ja] = −adhj h1 ⊗ja = −2ǫ
+k
+j1 hk ⊗ja, with the value of M equal
+to that of j.
+• B = 4, · · · , 55, i.e. J = 1, · · · , 52: [h1 ⊗ja, JJ] = −[JJ, h1 ⊗ja] = −h1 ⊗JJja = −h1 ⊗(CJ)c
+ajc.
+• B = 56, · · · , 81, i.e. b = 1, · · · , 26: [h1⊗ja, h1 ⊗jb] =
+1
+12 H[h1,h1] < ja, jb > −< h1, h1 > [Lja, Ljb]+ 1
+2[h1, h1]⊗(ja⋆jb) =
+−< h1, h1 > [Lja, Ljb] = −[Lja, Ljb] = −α
+K
+ab
+JK.
+The last equality follows from [Lja, Ljb]jµ = Lja(Ljb(jµ)) −
+Ljb(Lja(jµ)). The Jordan algebra is commutative so that the left action and the right action on jµ coincide. On the
+other hand, the right action of J′ on J gives the 26 new elements of the extension the Lie algebra of F4 to Lie(E6),
+so that [Lja, Ljb] can be expressed in terms of the 26 Lie(E6) matrices that do not belong to Lie(F4): [Lja, Ljb]jµ =
+jλ[ ˜C λ
+a
+ν ˜C ν
+b
+µ −˜C λ
+b
+ν ˜C ν
+a
+µ] = jλ[ ˜
+Ca, ˜
+Cb]λ
+µ = jλα
+K
+ab
+CK λ
+µ = α
+K
+ab
+JKjµ = α
+K
+ab
+JKjc + α
+K
+ab
+JKj27 = α
+K
+ab
+JKjc,
+because a derivation on the identity vanishes. The third equality follows from the fact that the commutator between two
+of the 26 matrices of Lie(E6)/Lie(F4), lies in Lie(F4).
+• B = 82, · · · , 107, i.e.
+b = 1, · · · , 26: [h1 ⊗ja, h2 ⊗jb] = [h1 ⊗ja, h1 ⊗jb] =
+1
+12 H[h1,h2] < ja, jb > −< h1, h2 >
+[Lja, Ljb]+ 1
+2[h1, h2]⊗(ja⋆jb) =
+1
+12 H[h1,h2]τδab+ 1
+2[h1, h2]⊗(ja⋆jb) = 1
+6τδabH3+h3⊗jc( ˜Ca)c
+b. The last equality follows
+from (ja⋆jb) = ja◦jb−1
+3 < ja, jb > I3 = Rja(jb)−1
+3 < ja, jb > I=( ˜Ca)µ
+bjµ−1
+3τδabI3 = ( ˜Ca)c
+bjc+( ˜Ca)27
+bj27−1
+3 τδabI3 =
+( ˜Ca)c
+bjc. The last two terms cancel because the ⋆product gives traceless elements by deﬁnition. This fact can also be
+veriﬁed using the explicit expression of the matrices ˜Ca.
+• B = 108, · · · , 133, i.e. b = 1, · · · , 26: [h1 ⊗ja, h3 ⊗jb] = −1
+6τδabH2 −h2 ⊗jc( ˜Ca)c
+b.
+Collecting all these results, we get
+(Ma+55)C
+B =
+
+
+
+
+
+
+0
+0
+0
+1
+6τδN
+3 δab
+−1
+6τδN
+2 δab
+0
+0
+−α
+K
+ab
+0
+0
+0
+−(CJ)c
+a
+0
+0
+0
+−2δc
+aδ3M
+0
+0
+0
+−( ˜Ca)c
+b
+2δc
+aδ2M
+0
+0
+( ˜Ca)c
+b
+0
+
+
+
+
+
+
+,
+(B.4)
+
+[PDF PAGE 15]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+15
+a = 1, . . . , 26.
+B.4. The matrices MA with A = 82, · · · , 133. With analogous computations as the previous case we get the last 52 matrices:
+(Ma+81)C
+B =
+
+
+
+
+
+
+0
+0
+−1
+6τδN
+3 δab
+0
+1
+6τδN
+1 δab
+0
+0
+0
+−α
+K
+ab
+0
+2δc
+aδ3M
+0
+0
+0
+( ˜Ca)c
+b
+0
+−(CJ)c
+a
+0
+0
+0
+−2δc
+aδ1M
+0
+−( ˜Ca)c
+b
+0
+0
+
+
+
+
+
+
+,
+(B.5)
+(Ma+107)C
+B =
+
+
+
+
+
+
+0
+0
+1
+6 τδN
+2 δab
+−1
+6 τδN
+1 δab
+0
+0
+0
+0
+0
+−α
+K
+ab
+−2δc
+aδ2M
+0
+0
+−( ˜Ca)c
+b
+0
+2δc
+aδ1M
+0
+( ˜Ca)c
+b
+0
+0
+0
+−(CJ)c
+a
+0
+0
+0
+
+
+
+
+
+
+,
+(B.6)
+a = 1, . . . , 26. This completes the construction of the representation 133.
+Appendix C. The representation 56 of E7
+By applying the Yokota method we obtain the following 133 56 × 56 matrices:
+Y1 =
+
+
+
+
+
+
+
+i
+√
+6 I27⃗
+027
+027⃗
+027
+t⃗027
+−i
+q
+3
+2⃗
+0t
+27
+0
+027⃗
+027
+−i
+√
+6I27⃗
+027
+t⃗027
+0⃗
+0t
+27
+i
+q
+3
+2
+
+
+
+
+
+
+
+,
+(C.1)
+Y2 = 1
+2
+
+
+
+
+
+
+027⃗
+027
+−i
+q
+2
+3 ˜I
+i
+√
+2⃗e27⃗
+0t
+27
+0
+i
+√
+2⃗et
+27
+0
+−i
+q
+2
+3 ˜I
+i
+√
+2⃗e27
+027⃗
+027
+i
+√
+2⃗et
+27
+0⃗
+0t
+27
+0
+
+
+
+
+
+
+,
+(C.2)
+Y3 = 1
+2
+
+
+
+
+
+
+027⃗
+027
+q
+2
+3 ˜I
+√
+2⃗e27⃗
+0t
+27
+0
+√
+2⃗et
+27
+0
+−
+q
+2
+3 ˜I
+−
+√
+2⃗e27
+027⃗
+027
+−
+√
+2⃗et
+27
+0⃗
+0t
+27
+0
+
+
+
+
+
+
+,
+(C.3)
+YI+3 =
+
+
+
+
+
+φI⃗
+027
+027⃗
+027⃗
+0t
+27
+0⃗
+0t
+27
+0
+027⃗
+027
+−φt
+I⃗
+027⃗
+0t
+27
+0⃗
+0t
+27
+0
+
+
+
+
+,
+I = 1, . . . , 78,
+(C.4)
+Ya+81 = 1
+2
+
+
+
+
+
+027⃗
+027
+2iAa
+i
+√
+2⃗ea⃗
+0t
+27
+0
+i
+√
+2⃗et
+a
+0
+2iAa
+i
+√
+2⃗ea
+027⃗
+027
+i
+√
+2⃗et
+a
+0⃗
+0t
+27
+0
+
+
+
+
+,
+a = 1, . . . , 26,
+(C.5)
+Ya+107 = 1
+2
+
+
+
+
+
+027⃗
+027
+−2Aa
+√
+2⃗ea⃗
+0t
+27
+0
+√
+2⃗et
+a
+0
+2Aa
+−
+√
+2⃗ea
+027⃗
+027
+−
+√
+2⃗et
+a
+0⃗
+0t
+27
+0
+
+
+
+
+,
+a = 1, . . . , 26,
+(C.6)
+where In is the n × n identity matrix, 027 is the 27 × 27 null matrix,⃗0n is the zero vector in Rn,⃗eµ, µ = 1, . . . , 27, is the canonical
+basis of R27,
+˜I =
+
+I26⃗
+026
+t⃗026
+−2
+
+,
+(C.7)
+φI =
+
+CI
+I = 1, . . . , 52
+˜CI−52
+I = 53, . . . , 78,
+(C.8)
+
+[PDF PAGE 16]
+16
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+where CI and ˜Ca are deﬁned in (3.8) and (3.9) respectively.
+Finally, Aa, a = 1, . . . , 26 are the 27 × 27 symmetric matrices
+representing, by means of the linear isomorphism J ≃R27,
+jµ 7→⃗eµ , the action of J′ on J deﬁned by
+j′(j) := j′ ◦j −1
+2Tr(j)j′ −1
+2⟨j, j′⟩I3.
+In particular jµ is the basis of J deﬁned in the previous section, and Aa is the matrix associated to ja, a = 1, . . . , 26.
+The matrices YA, A = 1, . . . , 133 are orthonormalized w.r.t. to the product
+⟨Y, Y ′⟩56 = −1
+12 Tr(Y Y ′).
+It is easy to check, for example by means of a computer, that the YA satisfy exactly the same commutation relations of the MA.
+Appendix D. The range of the parameters for the E7(−25)
+To determine the range of the parameters, we can proceed as shown in [9]. In particular, we will be able to make use of the
+results already obtained in [7] and [8], thus simplifying most of the computations.
+Setting U := (E6 × U(1))/Z3, from our previous construction we can write the generic element of E7 as
+E7[x1, . . . , x133] = B[x1, . . . , x51] exp V [x52, x53, x54]U[x55, . . . , x133],
+(D.1)
+which is (3.36) realized with the matrices YA. Then, the range of the parameters x55, . . . , x133 can be chosen in such the way that
+x55 covers the whole U(1) and x56, . . . , x133 cover the whole E6. The last ones have been determined in [8] and will be reported in
+the conclusions for convenience. The U(1) is covered if x55 runs over a period Tg. However, because of the action of Z3, we must
+reduce its range to Tg/3 = 2
+q
+2
+3π.
+For the remaining parameters, we have to construct the invariant measure over the quotient E7/U. This is given by
+dµBE7 = | det J⊥
+p |,
+(D.2)
+where
+Jp = e−V B−1d(BeV ) = dV + e−V B−1dBeV
+and ⊥means the part orthogonal to Lie(U). Concretely, this means that we have to project Jp on Y2, Y3, Y82, . . . , Y133. Since
+dV = dx52Y2 + dx53Y82 + dx54Y99,
+(D.3)
+we only need to concentrate on the term e−V B−1dBeV , which must be projected on Y3, Y83, . . . , Y98, Y100, . . . , Y133. The details
+of the computations are given in Appendix E. However, to express the result of the computation we need to look better at the
+structure of B = U/Uo.
+We can write it as B = U(1)/Z3 × E6/SO(8), where SO(8) is the subgroup SO(8) ⊂F4 ⊂E6 which commutes with Y56 := ψ(c53)
+and Y73 := ψ(c70), used in [8] to construct E6. By using the results in [8], [7], we then see that
+B[x1, . . . , x51] = ex1Y1ψ∗(BE6)[x2, . . . , x27]ψ∗(BF4)[x28, . . . , x43]ψ∗(BSO(9))[x44, . . . , x51],
+(D.4)
+and BE6, BF4 and BSO(9) are the basis in the construction of the groups
+E6 = BE6F4,
+F4 = BF4SO(9),
+SO(9) = BSO(9)SO(8),
+(D.5)
+deﬁned in [8] and [7] respectively. Also, ψ indicates the map ψ(cI) = YI+3, I = 1, . . . , 78, cI being the generators of E6. From now
+on we will omit the map ψ, for simplicity. Starting from this structure, as shown in Appendix E, we get
+dµBE7 (x1, . . . , x55) = dx1dµBE6 (x2, . . . , x27)dµBF4 (x28, . . . , x43)dµBSO(9) (x44, . . . , x51)
+W (x52, x53, x54)dx52dx53dx54,
+(D.6)
+W (x1, x2, x3) := sin
+ √
+3x2 +
+√
+2x1 + x3
+√
+3
+!
+sin
+ √
+3x2 −
+√
+2x1 −x3
+√
+3
+!
+sin
+ √
+6x1 −2
+√
+3x3
+3
+!
+sin
+ √
+3x2 + 2
+√
+2x1 −x3
+2
+√
+3
+!8
+sin
+ √
+3x2 −2
+√
+2x1 + x3
+2
+√
+3
+!8
+sin
+ 
+x2 −
+√
+3x3
+2
+!8
+sin
+ 
+x2 +
+√
+3x3
+2
+!8
+sin
+ √
+2x1 + x3
+√
+3
+!8
+sin(x2)8.
+(D.7)
+At this point we have to ﬁx the ranges so that dµ is positive deﬁnite. This ﬁxes only the ranges of the parameters which explicitly
+appear in the measure. The other ones can be chosen over a period. In this way one covers the whole space an integer number N
+of times. This can be checked by comparing the volume obtained by integrating dµ over the obtained ranges, with the volume of
+E7/U obtained by means of the Macdonald’s formula (see [14]). Finally one has to identify the ﬁnite symmetry group responsible
+of the N-covering to reduce the ranges over the periods to get the N = 1 case. Fortunately, in our case most of the work has been
+done in [8] and [7]. Indeed, the terms dµBE6, dµBF4 dµBSO(9) are the same appearing there and determine the same corresponding
+ranges of parameters given in that papers. Moreover, x1 does not appears in dµ, so that its range is the period of U(1)/Z3 which
+
+[PDF PAGE 17]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+17
+is Tg/3 = 2
+q
+2
+3π. Thus, we are left with the problem to determine the ranges for the parameters x52, x53, x54. To this end, it is
+convenient to introduce the change of variables
+x =
+√
+6x52 −2
+√
+3x54
+3
+,
+y =
+√
+3x53 +
+√
+2x52 + x54
+√
+3
+,
+z =
+√
+3x53 −
+√
+2x52 −x54
+√
+3
+,
+(D.8)
+with inverse:
+x52 =
+1
+√
+6
+x −
+1
+√
+3
+z,
+x53 = 1
+2(y + z),
+x54 = −1
+3x +
+1
+2
+√
+3
+(y −z).
+(D.9)
+Then,
+W (x52, x53, x54)
+=
+sin(x) sin(y) sin(z) sin8(x −y
+2
+) sin8(x + y
+2
+)
+sin8(x −z
+2
+) sin8(x + z
+2
+) sin8(y −z
+2
+) sin8(y + z
+2
+),
+(D.10)
+which is positive for
+x ∈[0, π],
+y ∈[0, x],
+z ∈[0, y].
+(D.11)
+To check if the range of parameters is the right one, let us compute the integral
+I =
+Z
+R
+dµBE7 ,
+with the determined ranges, to be compared with the volume Vol(E7/U) computed in Appendix F by means of the formula of
+Macdonald. As
+dx52dx53dx54 =
+1
+2
+√
+2
+dxdydz,
+we get
+I = Tg
+3
+Vol(E6)
+Vol(SO(8))
+1
+2
+√
+2
+I,
+(D.12)
+I =
+Z π
+0
+dx
+Z x
+0
+dy
+Z y
+0
+dz sin(x) sin(y) sin(z) sin8(x −y
+2
+) sin8(x + y
+2
+)
+sin8(x −z
+2
+) sin8(x + z
+2
+) sin8(y −z
+2
+) sin8(y + z
+2
+).
+(D.13)
+Using the change of variables
+χ = 1
+2(1 −cos x),
+ξ = 1
+2 (1 −cos y),
+ζ = 1
+2(1 −cos z),
+(D.14)
+the last integral becomes, see Appendix G:
+I = 23
+Z 1
+0
+dχ
+Z χ
+0
+dξ
+Z ξ
+0
+dζ(χ −ξ)8(ξ −ζ)8(ζ −χ)8 =
+2
+35 · 5 · 11 · 132 · 17 .
+(D.15)
+Since the volumes of E6 and SO(8) can be computed by means of the Macdonald formula giving
+Vol(E6) =
+√
+3 217π42
+310 · 55 · 73 · 11 ,
+Vol(SO(8)) = 212π16
+33 · 5 ,
+(D.16)
+we get
+I =
+26π27
+312 · 55 · 73 · 112 · 132 · 17 ,
+(D.17)
+which is just twice the volume of E7/U computed in Appendix F. However, we can easily see the origin of this double covering:
+consider the element
+τ := −I56ω2 = g1[Tg/2]g1[2Tg/3] = U(1)[Tg/6],
+τ 6 = I56.
+(D.18)
+One can check that τ commutes with E6 and with V . This means that we can write
+BeV U = Bτ −1τeV U = Bτ −1eV τU.
+(D.19)
+Since the right τ can be reabsorbed in the parametrization of U, and, on the left, it acts as Z2 on the factor U(1)/Z3 in B, we see
+that it identiﬁes the points in the range by means of the relation
+x1 ∼x1 + Tg/6.
+Then, to have an injective parametrization, apart from a subset of vanishing measure, we must further restrict the range of x1 to
+the interval x1 ∈[0,
+q
+2
+3π].
+
+[PDF PAGE 18]
+18
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+As a result, we ﬁnd the following ranges for the E7 Euler parameters:
+x1 ∈[0,
+r
+2
+3π]
+x2 ∈[0, 2π]
+x3 ∈[0, 2π]
+x4 ∈[0, 2π]
+x5 ∈[0, π]
+x6 ∈[−π
+2 , π
+2 ]
+x7 ∈[0, π
+2 ]
+x8 ∈[0, π
+2 ]
+x9 ∈[0, π]
+x10 ∈[0, 2π]
+x11 ∈[0, 2π]
+x12 ∈[0, 2π]
+x13 ∈[0, π]
+x14 ∈[−π
+2 , π
+2 ]
+x15 ∈[0, π
+2 ]
+x16 ∈[0, π
+2 ]
+x17 ∈[0, π]
+x18 ∈[0, 2π]
+x19 ∈[0, 2π]
+x20 ∈[0, 2π]
+x21 ∈[0, π]
+x22 ∈[−π
+2 , π
+2 ]
+x23 ∈[0, π
+2 ]
+x24 ∈[0, π
+2 ]
+x25 ∈[0, π]
+x26 ∈[0, π]
+−x26
+√
+3
+≤x27 ≤x26
+√
+3
+x28 ∈[0, 2π]
+x29 ∈[0, 2π]
+x30 ∈[0, 2π]
+x31 ∈[0, π]
+x32 ∈[−π
+2 , π
+2 ]
+x33 ∈[0, π
+2 ]
+x34 ∈[0, π
+2 ]
+x35 ∈[0, π]
+x36 ∈[0, 2π]
+x37 ∈[0, 2π]
+x38 ∈[0, 2π]
+x39 ∈[0, π]
+x40 ∈[−π
+2 , π
+2 ]
+x41 ∈[0, π
+2 ]
+x42 ∈[0, π
+2 ]
+x43 ∈[0, π]
+x44 ∈[0, 2π]
+x45 ∈[0, 2π]
+x46 ∈[0, 2π]
+x47 ∈[0, π]
+x48 ∈[−π
+2 , π
+2 ]
+x49 ∈[0, π
+2 ]
+x50 ∈[0, π
+2 ]
+x51 ∈[0, π]
+x55 ∈[0, 2
+r
+2
+3π]
+x56 ∈[0, 2π]
+x57 ∈[0, 2π]
+x58 ∈[0, 2π]
+x59 ∈[0, π]
+x60 ∈[−π
+2 , π
+2 ]
+x61 ∈[0, π
+2 ]
+x62 ∈[0, π
+2 ]
+x63 ∈[0, π]
+x64 ∈[0, 2π]
+x65 ∈[0, 2π]
+x66 ∈[0, 2π]
+x67 ∈[0, π]
+x68 ∈[−π
+2 , π
+2 ]
+x69 ∈[0, π
+2 ]
+x70 ∈[0, π
+2 ]
+x71 ∈[0, π]
+x72 ∈[0, 2π]
+x73 ∈[0, 2π]
+x74 ∈[0, 2π]
+x75 ∈[0, π]
+x76 ∈[−π
+2 , π
+2 ]
+x77 ∈[0, π
+2 ]
+x78 ∈[0, π
+2 ]
+x79 ∈[0, π]
+x80 ∈[0, π]
+−x80
+√
+3
+≤x81 ≤x80
+√
+3
+x82 ∈[0, 2π]
+x83 ∈[0, 2π]
+x84 ∈[0, 2π]
+x85 ∈[0, π]
+x86 ∈[−π
+2 , π
+2 ]
+x87 ∈[0, π
+2 ]
+x88 ∈[0, π
+2 ]
+x89 ∈[0, π]
+x90 ∈[0, 2π]
+x91 ∈[0, 2π]
+x92 ∈[0, 2π]
+x93 ∈[0, π]
+x94 ∈[−π
+2 , π
+2 ]
+x95 ∈[0, π
+2 ]
+x96 ∈[0, π
+2 ]
+x97 ∈[0, π]
+x98 ∈[0, 2π]
+x99 ∈[0, 2π]
+x100 ∈[0, 2π]
+x101 ∈[0, π]
+x102 ∈[−π
+2 , π
+2 ]
+x103 ∈[0, π
+2 ]
+x104 ∈[0, π
+2 ]
+x105 ∈[0, π]
+x106 ∈[0, 2π]
+x107 ∈[0, 2π]
+x108 ∈[0, 2π]
+x109 ∈[0, π]
+x110 ∈[−π
+2 , π
+2 ]
+x111 ∈[0, π
+2 ]
+x112 ∈[0, π
+2 ]
+x113 ∈[0, 2π]
+x114 ∈[0, π]
+x115 ∈[−π
+2 , π
+2 ]
+x116 ∈[−π
+2 , π
+2 ]
+x117 ∈[−π
+2 , π
+2 ]
+x118 ∈[0, π]
+x119 ∈[0, 2π]
+x120 ∈[0, π]
+x121 ∈[−π
+2 , π
+2 ]
+x122 ∈[−π
+2 , π
+2 ]
+x123 ∈[0, π]
+x124 ∈[0, 2π]
+x125 ∈[0, π]
+x126 ∈[−π
+2 , π
+2 ]
+x127 ∈[0, π]
+x128 ∈[0, 2π]
+x129 ∈[0, π]
+x130 ∈[0, π]
+x131 ∈[0, 2π]
+x132 ∈[0, π]
+x133 ∈[0, 4π]
+and
+x52 =
+1
+√
+6
+x −
+1
+√
+3
+z,
+x53 = 1
+2(y + z),
+x54 = −1
+3x +
+1
+2
+√
+3
+(y −z),
+with x ∈[0, π], y ∈[0, x] and z ∈[0, y].
+Appendix E. Deduction of the measure
+The invariant measure on E7/U is
+dµBE7 = | det J⊥
+p |,
+(E.1)
+where J⊥
+p is the projection of
+Jp = e−V B−1d(BeV ) = dV + e−V B−1dBeV
+on the real linear subspace of Lie(E7) spanned by Y2, Y3, Y82, . . . , Y133. More speciﬁcally we have
+Jp =dV + e−V U−1
+1
+dU1eV + e−V B−1
+SO(9)dBSO(9)eV + e−V B−1
+SO(9)B−1
+F4 dBF4BSO(9)eV
++ e−V B−1
+SO(9)B−1
+F4 B−1
+E6 dBE6BF4BSO(9)eV ,
+where we used the fact that the U(1) factor commutes with E6. To compute det J⊥
+p we can then proceed by analyzing the summands
+term by term (here we will set H := Lie(U)):
+
+[PDF PAGE 19]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+19
+• dV = Y2dx2 + Y82dx82 + Y99dx99, which has obviously non zero projection just on the matrices Y2, Y82 and Y99. Thus,
+the remaining terms have to be projected on Y3, Y83, . . . , Y98, Y100, . . . , Y133.
+• The SO(9) current JBSO(9) := B−1
+SO(9)dBSO(9) can be split in two orthogonal pieces JBSO(9) = JSO(8) ⊕JSO(9)\SO(8),
+where JSO(8) is the projection of JBSO(9) into Lie(SO(8)). The space V commute with this SO(8), thus e−V JSO(8)eV =
+JSO(8) and as SO(8) ⊂E6 it has vanishing projection over H⊥. Then e−V B−1
+SO(9)dBSO(9)eV |H⊥= e−V JSO(9)\SO(8)eV |H⊥.
+Thus, this term will contribute to the determinant with the term
+A = det e−V JSO(9)\SO(8)eV |H⊥.
+To compute it we ﬁrst note that JSO(9)\SO(8) = P8
+a=1 Ja
+BSO(9)Ya+47 and that Ade−V Ya+47|H⊥, a = 1, . . . , 8 have non
+vanishing components only on the subspace generated by Ya+99, a = 1, . . . , 8. This means that if we deﬁne the eight
+dimensional spaces
+W47 :=
+8
+X
+a=1
+RYa+47,
+W99 :=
+8
+X
+a=1
+RYa+99,
+(E.2)
+deﬁne the linear map
+ρ : W47 −→W99, Y 7−→e−V Y eV |H⊥
+(E.3)
+and deﬁne the matrix R associated to ρ by the bases {Ya+n}8
+a=1, n = 47, 99 of Wn respectively, then we can write A =
+det R det JSO(9)\SO(8). Now, det R can be easily computed by means of a computer, whereas det JSO(9)\SO(8) = dµBSO(9)
+by construction and has yet been computed in [7]. The result is then
+A = sin8
+ 
+x2 −
+√
+3x3
+2
+!
+dµBSO(9) .
+(E.4)
+Moreover, the remaining terms have to be projected on H⊥
+1 := Span{Y3, Y83, . . . , Y98, Y108, . . . , Y133}R.
+• Let us now consider the term e−V B−1
+SO(9)B−1
+F4 dBF4BSO(9)eV . The F4 current JBF4 := B−1
+F4 dBF4 can be split in two
+orthogonal parts JBF4 = JSO(9) ⊕JF4\SO(9), where JSO(9) is the projection of JBF4 over Lie(SO(9)). The adjoint action
+of SO(9) on JSO(9) has value in Lie(SO(9)) which under Ade−V has vanishing projection over H⊥
+1 , as seen before. On
+the other hand,
+Φ := AdSO(9) : Lie(F4/SO(9)) −→Lie(F4/SO(9))
+acts as an orthogonal map so that we have
+B := det(e−V B−1
+SO(9)B−1
+F4 dBF4BSO(9)eV )|H⊥
+1 = det(e−V Φ(JF4\SO(9))eV )|H⊥
+1
+= det Φ det(e−V JF4\SO(9)eV )|H⊥
+1 = det(e−V JF4\SO(9)eV )|H⊥
+1 .
+Now we can proceed as in the previous case: ﬁrst, one can check that
+JF4\SO(9) ∈W24,39 = Span{Y24+a, Y39+a, a = 1, . . . , 8}R.
+(E.5)
+Then, one sees that
+Ade−V (W24,39)|H⊥
+1 ⊆W82 := Span{Y82+a, a = 1, . . . , 16}R,
+so that if we deﬁne the linear map
+ρ′W24,39 −→W82, Y 7−→e−V Y eV |H⊥
+1 ,
+(E.6)
+and M′ is the associated matrix, then we get
+B = det M′ det JF4\SO(9) = sin8 x2 sin8
+ 
+x2 +
+√
+3x3
+2
+!
+dµBF4 ,
+(E.7)
+where dµBF4 has been computed in [7]. The remaining terms in Jp must be projected on H⊥
+2 := Span{Y3, Y108, . . . , Y133}R.
+• The computation we have to consider is the contribution of the terms
+e−V U−1
+1
+dU1eV + e−V B−1
+SO(9)B−1
+F4 B−1
+E6 dBE6BF4BSO(9)eV ,
+which we rewrite conveniently in the form
+e−V B−1
+SO(9)B−1
+F4 (JU(1) ⊕JBE6 )BF4BSO(9)eV := e−V B−1
+SO(9)B−1
+F4 (U−1
+1
+dU1 + B−1
+E6 dBE6)BF4BSO(9)eV .
+As before, JBE6 can be split in two orthogonal parts as JBE6 = JF4 ⊕JE6\F4, where JF4 is the projection of JBE6 over
+Lie(F4), and by construction
+e−V B−1
+SO(9)B−1
+F4 JF4BF4BSO(9)eV |H⊥
+2 = 0.
+Moreover, AdF4 (and then AdSO(9)) acts as an orthogonal map on the space
+W1,55 := Span{Y1, Y55+a, a = 1, . . . , 26}R
+
+[PDF PAGE 20]
+20
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+so that, with the same arguments as before, we can restrict to compute the term
+C := det(e−V (U−1
+1
+dU1 ⊕JE6\F4)eV |H⊥
+2 ).
+(E.8)
+If we construct the map
+ρ′′ : W1,55 −→H⊥
+2 , Y 7−→e−V Y eV |H⊥
+2
+(E.9)
+and the natural associated matrix M′′, then we get
+C = det M′′dx1 det JE6\F4 = 1
+29
+ 
+cos(2x2) −cos 2
+√
+2x1 + 2x3
+√
+3
+!
+sin
+√
+6x1 −2
+√
+3x3
+3
+·
+·
+ 
+cos x2 −cos 2
+√
+6x1 −
+√
+3x3
+3
+!
+dx1dµBE6 ,
+(E.10)
+where dµBE6 is the measure computed in [8].
+Collecting all the terms, we ﬁnally get dµBE7 = ABC, which after application of the formulas of prosthapheresis give the result
+(D.6).
+Appendix F. Macdonald formulas
+We can compute the volume of the group by means of the Macdonald formula, see [14]. We are using the invariant measure in-
+duced by an invariant scalar product on the algebra. The Cartan subalgebra C is generated by the matrices Y1, Y4, Y9, Y18, Y39, Y56, Y73.
+These matrices are orthonormal, so that the same holds true for the dual basis. In this normalization the roots have length
+√
+2. In
+particular, by diagonalizing adYi, i = 1, 4, 9, 18, 39, 56, 73 simultaneously, one sees that any choice of simple roots can be written in
+the form
+α1 = 1
+2(λ1 −λ2 −λ3 −λ4 −λ5 −λ6 +
+√
+2λ7),
+α2 = λ1 + λ2,
+α3 = λ2 −λ1,
+α4 = λ3 −λ2,
+α5 = λ4 −λ3,
+α6 = λ5 −λ4,
+α7 = λ6 −λ5,
+where λj is an orthonormal basis (w.r.t. the product induced by the one on C). The coroots α∨
+i then coincide with the roots, and
+the fundamental region, that is the fundamental torus generated on C by the root lattice, has then volume
+VT = |α1 ∧. . . ∧α7| =
+√
+2.
+Moreover, the rational cohomology of E7 is same of the product of seven spheres [17], [18]:
+H(E7; Q) = H(S3 × S11 × S15 × S19 × S23 × S27 × S35; Q).
+Applying the formula of Macdonald, we get
+Vol(E7) = VT
+7
+Y
+i=1
+Vol(Sdi)
+Y
+α̸=0
+|α∨| =
+√
+2 · 223π70
+322 · 510 · 76 · 113 · 132 · 17,
+(F.1)
+where Sdi are the spheres appearing in the cohomology, and the second product is over all non vanishing roots.
+In a similar way, we can compute the volume of the subgroups needed in the computations. In particular:
+Vol(E6) =
+√
+3 217π42
+310 · 55 · 73 · 11,
+(F.2)
+Vol(U) = Vol(E6)Vol(U(1))/3 =
+√
+2 218π43
+310 · 55 · 73 · 11,
+(F.3)
+and then
+Vol(E7/U) =
+25π27
+312 · 55 · 73 · 112 · 132 · 17.
+(F.4)
+
+[PDF PAGE 21]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+21
+Appendix G. Computation of the integral
+To compute the integral I in (D.15), we here compute the more general integral
+I(a, b, c) =
+Z 1
+0
+dx
+Z x
+0
+dy
+Z y
+0
+dz(x −y)a−1(y −z)b−1(x −z)c−1,
+(G.1)
+and we will get I from the the relation I = 23I(9, 9, 9).
+To this hand we will use the following useful representation of the
+hypergeometric function:
+2F1(α, β; γ; z) ≡F (α, β; γ; z) =
+Γ(γ)
+Γ(d)Γ(γ −d)
+Z 1
+0
+dt td−1(1 −t)γ−d−1F (α, β; d; zt),
+(G.2)
+which for d = α takes the form
+F (α, β; γ; z) =
+Γ(γ)
+Γ(α)Γ(γ −α)
+Z 1
+0
+dt tα−1(1 −t)γ−α−1(1 −zt)−β.
+(G.3)
+First, let us change the variables by introducing the new coordinates (x, s, t) such that (x, y, z) = (x, xs, xst). This gives
+I(a, b, c) =
+1
+a + b + c
+Z 1
+0
+ds
+Z 1
+0
+dtsb(1 −s)a−1(1 −t)b−1(1 −st)c−1.
+(G.4)
+Next we can ﬁrst integrate over t. By using (G.3), we get
+I(a, b, c) = 1
+b
+1
+a + b + c
+Z 1
+0
+ds sb(1 −s)a−1F (1, 1 −c; b + 1; s)
+= 1
+b
+1
+a + b + c
+Γ(a)Γ(b + 1)
+Γ(a + b + 1)
+ Γ(a + b + 1)
+Γ(a)Γ(b + 1)
+Z 1
+0
+ds sb(1 −s)a−1F (1, 1 −c; b + 1; s)
+
+.
+(G.5)
+The therm in the square brackets has exactly the form (G.2), with α = 1, β = 1 −c, d = b + 1, γ = a + b + 1, z = 1. Then we
+can write
+I(a, b, c) = 1
+b
+1
+a + b + c
+Γ(a)Γ(b + 1)
+Γ(a + b + 1) F (1, 1 −c; a + b + 1; 1).
+(G.6)
+Finally, by using
+F (α, β; γ; 1) = Γ(γ)Γ(γ −α −β)
+Γ(γ −α)Γ(γ −β),
+(G.7)
+and the property zΓ(z) = Γ(z + 1), we ﬁnd
+I(a, b, c) =
+1
+a + b + c
+1
+a + b + c −1
+Γ(a)Γ(b)
+Γ(a + b) .
+(G.8)
+In particular:
+I = 23I(9, 9, 9) =
+22
+33 · 13
+(8!)2
+17!
+=
+2
+35 · 5 · 11 · 132 · 17 .
+(G.9)
+Appendix H. Roots and range of parameters for the E7(7) construction
+To our aim we need to perform a choice of positive roots w.r.t. the Cartan subalgebra H =< Dα >R. First, we can write
+L = H⊕< J+ >R ⊕< J−>R:= H⊕< {J+
+kl =
+1
+√
+2
+(−iSkl + Akl) | k < l} >R ⊕< {J−
+kl =
+1
+√
+2
+(−iSkl −Akl) | k < l} >R,
+λ4 :=< J >R:=< {JI = λI|I ∈I} >R .
+where I is the set of 4/indices.
+Proposition 1. The set J+ ∪J−∪J diagonalizes simultaneously the adjoint action of H.
+Proof. By direct computation of the action of [Dα, J±
+kl] on eij and on εij we get:
+[Dα, J±
+kl] = ±i(Dk
+α −Dl
+α)J±
+kl,
+(H.1)
+where for JI = λi1i2i3i4, using trDα = 0 we get
+[Dα, JI] = i(Di1
+α + Di2
+α + Di3
+α + Di4
+α )JI.
+(H.2)
+□
+We now ﬁx an explicit choice for a basis of H, suitable for our purposes:
+D1 =
+1
+√
+2
+diag{1, −1, −1, 1, 0, 0, 0, 0},
+D2 =
+1
+√
+2
+diag{1, −1, 1, −1, 0, 0, 0, 0},
+D3 =
+1
+√
+2
+diag{1, 1, −1, −1, 0, 0, 0, 0},
+D4 =
+1
+√
+2
+diag{0, 0, 0, 0, 1, −1, −1, 1},
+D5 =
+1
+√
+2
+diag{0, 0, 0, 0, 1, −1, 1, −1},
+D6 =
+1
+√
+2
+diag{0, 0, 0, 0, 1, 1, −1, −1},
+D7 = 1
+2 diag{1, 1, 1, 1, −1, −1, −1, −1}.
+
+[PDF PAGE 22]
+22
+SERGIO L. CACCIATORI, FRANCESCO DALLA PIAZZA, AND ANTONIO SCOTTI
+Before continuing, let us recall the structure of the roots for the E7 type algebras. Let R+ the set of positive roots and Li an
+orthonormal basis for H∗
+R the real space spanned by all roots. Then, the positive roots system for an E7 Lie algebra is (see [19],
+chapter 21, p.333)
+R+ = {Lj + Li}i<j≤6 ∪{Lj + Li}i<j≤6 ∪{
+√
+2L7} ∪{±L1 ± . . . ± L6 +
+√
+2L7
+2
+}odd number of sign -
+(H.3)
+and in particular a choice of simple roots is
+α1 = L1 −L2 −L3 −L4 −L5 −L6 +
+√
+2L7
+2
+,
+α2 = L1 + L2,
+α3 = L2 −L1,
+α4 = L3 −L2,
+α5 = L4 −L3,
+α6 = L5 −L4,
+α7 = L6 −L5.
+(H.4)
+We normalized the basis for H so that Dα · Dβ = 2δαβ. An orthonormal basis for H∗
+R is thus provided by Lα(Hβ) =
+√
+2δαβ. Let
+us then introduce the subset I0 ⊂I such that I = I0 ∪˜I0 deﬁned as follows:
+I0 = {I ∈I : i1, i2, i3 ∈{1, 2, 3, 4, 5}}.
+(H.5)
+In other words it is the set of ordered tetra-indices such that or all indices run from 1 to 5, or i7 ∈6, 7, 8. Its cardinality is then
+ 5
+4
+ + 3 5
+3
+ = 35. Set
+J = J + ∪J −:= {λI ∈J : I ∈I0} ∪{λI ∈J : ˜I ∈I0, ǫI,˜I = 1}.
+(H.6)
+Proposition 2. The set J+ ∪J + consists of all eigenvectors associated to all positive roots of LieE7. The corresponding roots
+are
+{βkl :=
+7
+X
+α=1
+Dk
+α −Dl
+α
+√
+2
+Lα}k<l ∪{βi1i2i3i4 :=
+7
+X
+α=1
+Di1
+α + Di2
+α + Di3
+α + Di4
+α
+√
+2
+Lα}i1i2i3i4∈I0.
+(H.7)
+In particular the simple roots are
+α1 = β45,
+α2 = β12,
+α3 = β34,
+α4 = β23,
+α5 = β3458,
+α6 = β78,
+α7 = β67.
+(H.8)
+The proof is by direct inspection. Note that the order for the simple roots in the theorem is the same as in Fig. 1. This result
+is very helpful for computing the function f = det[Π ◦Ade−V : u →t]. Indeed, from both Propositions we see that a basis for u is
+given by the matrices of the form
+S = i J+ + J−
+√
+2
+,
+whereas a basis for t is given by the elements of the form
+S = J+ −J−
+√
+2
+.
+Using this and
+Ade
+P
+a yaDa J±
+β = e± P
+a yaβ(Da)J±
+β
+for a given root β, one ﬁnally obtains
+|f(⃗y)| =
+Y
+β∈Rad+
+sin(|
+7
+X
+a=1
+yaβ(Da)|),
+(H.9)
+where Rad+ is the set of positive roots w.r.t. V .
+Appendix I. Some details for the E7(−5) construction
+Here we will specify the subgroup K of U5 commuting with the torus eH4.
+To this end start we start by looking for the
+subalgebra k of u5 commuting with H4. This can be done by means of Mathematica and gives
+k = ⟨M1, . . . , M9⟩R,
+(I.1)
+
+[PDF PAGE 23]
+E7 GROUPS FROM OCTONIONIC MAGIC SQUARE
+23
+with
+M1 = 1
+2(L1 −L9 + L21 −L25),
+(I.2)
+M2 = 1
+2(L2 + L8 + L14 −L28),
+(I.3)
+M3 = 1
+2(L3 −L7 + L19 + L27),
+(I.4)
+M4 = 1
+2(L4 −L13 + L20 + L23),
+(I.5)
+M5 = 1
+2(L5 −L15 + L18 −L22),
+(I.6)
+M6 = 1
+2(L10 −L12 + L16 + L24),
+(I.7)
+M7 =
+1
+√
+2
+(L45 + L46),
+(I.8)
+M8 = L49,
+(I.9)
+M9 = L50.
+(I.10)
+These generate an algebra so(4) ⊕su(2) whose exponentiation gives the group K0 = SO(4) × SU(2). A general analysis, which will
+be presented in [20], shows that K contains an extra Z4
+2 factor so that
+K = SO(4) × SU(2) × Z4
+2.
+(I.11)
+References
+[1] D. Borthwick and S. Garibaldi “Did a 1-Dimensional Magnet Detect a 248-Dimensional Lie Algebra?”, Notices Amer. Math. Soc. 58 (2011), no.
+8, 10551066.
+[2] S. L. Cacciatori, B. L. Cerchiai, A. Della Vedova, G. Ortenzi and A. Scotti, “Euler angles for G(2),” J. Math. Phys. 46 (2005) 083512
+[3] S. L. Cacciatori, “A simple parametrization for G2,” J. Math. Phys. 46 (2005) 083520
+[4] T. E. Tilma, G. Sudarshan, Generalized Euler angle parametrization for SU(N), J. Phys. A35 (2002) 10467–10501.
+[5] T. E. Tilma, G. Sudarshan, Generalized Euler angle parametrization for U(N) with applications to SU(N) coset volume measures, J. Geom. Phys. 52
+(2004) 263–283.
+[6] S. Bertini, S. L. Cacciatori and B. L. Cerchiai, “On the Euler angles for SU(N),” J. Math. Phys. 47 (2006) 043510
+[7] F. Bernardoni, S. L. Cacciatori, B. L. Cerchiai and A. Scotti, “Mapping the geometry of the F4 group,” Adv. Theor. Math. Phys. Volume 12,
+Number 4 (2008), 889-994
+[8] F. Bernardoni, S. L. Cacciatori, B. L. Cerchiai and A. Scotti, “Mapping the geometry of the E6 group,” J. Math. Phys. 49 (2008) 012107
+[9] S.L. Cacciatori, B.L. Cerchiai, “Exceptional groups, symmetric spaces and applications to supergravity,” in “ Group Theory: Classes, Represen-
+tations and Connections, and Applications”, edited by. Frank Columbus (Nova Science Publisher, 2009). ISBN: 978-1-60876-175-3.
+[10] C. H. Barton and A. Sudbery, “Magic squares and matrix models of Lie algebras,” Adv. in Math., 180 (2003) 596-647
+[11] Tits, J. Alg´ebres alternatives, alg´ebres de Jordan et alg´ebres de Lie exceptionnelles. I. Construction. (French) Nederl. Akad. Wetensch. Proc ˙Ser. A 69
+(1966) 223–237.
+[12] R. D. Schafer, An introduction to nonassociative algebras. Pure and Applied Mathematics, Vol. 22 Academic Press, New York-London 1966.
+[13] I. Yokota, “Exceptional Lie Groups,” e-Print aeXuv:0902.0431[math.DG]
+[14] I. G. Macdonald, The volume of a compact Lie group, Invent. Math. 56 (1980), no. 2, 93–95.
+[15] J. F. Adams, “Lectures on exceptional Lie groups,” The University of Chicago Press, Chicago and London (1996).
+[16] S. L. Cacciatori, B. L. Cerchiai and A. Marrani, “Iwasawa N=8 Attractors,” arXiv:1005.2231 [hep-th].
+[17] C. Chevalley, The Betti numbers of the exceptional simple Lie groups, Proceedings of the International Congress of Mathematicians, Cambridge,
+Mass., 1950, vol. 2, pp. 21–24. Amer. Math. Soc., Providence, R. I., 1952.
+[18] A. Borel, C. Chevalley, The Betti numbers of the exceptional groups, Mem. Amer. Math. Soc. 1955, (1955). no. 14, 1–9.
+[19] W.Fulton, J. Harris, Representation Theory, Springer Graduate Texts in Mathematics, 1991
+[20] S. L. Cacciatori, F. Dalla Piazza and A. Scotti, Compact Lie groups: explicit constructions and generalized Dyson conjecture, to appear.
+Dipartimento di Fisica e Matematica, Universit`a degli Studi dell’Insubria, Via Valleggio 11, 22100 Como, Italy, and INFN, via Celoria 16, 20133 Milano,
+Italy
+E-mail address: sergio.cacciatori@uninsubria.it
+E-mail address: f.dallapiazza@uninsubria.it
+Dipartimento di Matematica, Universit`a degli Studi di Milano, Via Saldini 50, 20133 Milano, Italy
+E-mail address: ascotti@mindspring.com

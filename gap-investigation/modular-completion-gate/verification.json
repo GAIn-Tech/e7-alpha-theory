@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "claim_boundary": "Local exact modular building block and finite Lean discriminant algebra only; not a string vacuum.",
+  "axiom_free_declarations": [
+    "ModularGate.polarization_E7",
+    "ModularGate.polarization_A1",
+    "ModularGate.diagonal_glue_isotropic",
+    "ModularGate.isotropic_implies_diagonal",
+    "ModularGate.E7_nonzero_not_isotropic"
+  ],
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "-o",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\modular-completion-gate\\Formalization.olean",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\modular-completion-gate\\Formalization.lean"
+      ],
+      "returncode": 0,
+      "stdout": "'ModularGate.polarization_E7' does not depend on any axioms\n'ModularGate.polarization_A1' does not depend on any axioms\n'ModularGate.diagonal_glue_isotropic' does not depend on any axioms\n'ModularGate.isotropic_implies_diagonal' does not depend on any axioms\n'ModularGate.E7_nonzero_not_isotropic' does not depend on any axioms\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\modular-completion-gate\\Challenge.lean"
+      ],
+      "returncode": 0,
+      "stdout": "ModularGate.polarization_E7 (x y : ModularGate.Bit) :\n  ModularGate.Eqv (ModularGate.q7 (ModularGate.xor x y))\n    (ModularGate.plus4 (ModularGate.plus4 (ModularGate.q7 x) (ModularGate.q7 y)) (ModularGate.pairing x y))\nModularGate.polarization_A1 (x y : ModularGate.Bit) :\n  ModularGate.Eqv (ModularGate.qA (ModularGate.xor x y))\n    (ModularGate.plus4 (ModularGate.plus4 (ModularGate.qA x) (ModularGate.qA y)) (ModularGate.pairing x y))\nModularGate.diagonal_glue_isotropic (x : ModularGate.Bit) : ModularGate.Eqv (ModularGate.gluedQ x x) ModularGate.Z4.z0\nModularGate.isotropic_implies_diagonal (x y : ModularGate.Bit) :\n  ModularGate.Eqv ModularGate.Z4.z0 (ModularGate.gluedQ x y) \u2192 ModularGate.Eqv x y\nModularGate.E7_nonzero_not_isotropic (h : ModularGate.Eqv ModularGate.Z4.z0 (ModularGate.q7 ModularGate.Bit.b1)) :\n  ModularGate.Void\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\modular-completion-gate\\exact_certificate.py",
+        "--verify"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: saved receipt replay; exact cyclotomic, lattice, gluing, negative controls\n",
+      "stderr": ""
+    }
+  ],
+  "sha256": {
+    "certificate.json": "e35d0d09667fd28a3c449b8393e2eaadd984be098dc3caa76b5ed7b6a0d6ad57",
+    "Challenge.lean": "7a6f807ecb79a9d933ba8a0922c5ba2e90dc282e5c6e07969c3928fe873ee201",
+    "exact_certificate.py": "00552d14022417b60fbd80ce85e11ed17875822f4bf61198e774696fc900335c",
+    "Formalization.lean": "de8fad59ff039de6e7c044ffa26b6b21c03eeca71a71db3a9a58541ee030a5e2",
+    "formalization.yaml": "4aa0b0dedbfebeae39342827f2d4eed628e47ac6ef3a36225fe8f0a294f08fd2",
+    "RELEASE_DISCLOSURE.md": "8f1ff755d4e7092d7f2187a1731682295f893e2ff6cc3a09910678cd5b26b3f3",
+    "REPORT.md": "cec3f42509a53ac30451898f0a554a793ef4b9faa8b07ac51a6aae724d1ebdff",
+    "source_evidence.json": "eba0318e1d7727fcfb2ca138d4ec2598804303bbc254d698505debb0d83e5ff3",
+    "sources\\frenkel.md": "1ffa7c90421f99c241aba214725a97a139e1d54f90c1dc3a04390281d3aaeb73",
+    "sources\\lee_sun_wang.md": "30db0fb021301c2f1a14d679998f9d21bae2ea78eb593f720d306d32063d6a3d",
+    "sources\\mukhi_poddar.md": "b6c9f05e778eb00d35d8e8dc0e9a90198ab163977336afdb84f327e5dc888b29",
+    "sources\\weil.md": "ba7631aa8b9816d1de9e93abddcce9649f22a1fcb209da2e0263cc1cbc0a8eb7",
+    "verify.py": "f04ea85c908e721eec62ecad2bcd11ec663c7b747a3ac9fc6c05fa87a1a3d1ca"
+  }
+}

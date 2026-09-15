@@ -1,0 +1,71 @@
+{
+  "saved_receipt_sha256": "78d87a44069f39a954bde56dcc2c05de0c627d9d39042da8fa566c2c3c799a24",
+  "source_hashes_verified": 14,
+  "smt_replay": [
+    {
+      "name": "single_microwave_alpha_nonidentifiable",
+      "result": "sat"
+    },
+    {
+      "name": "same_microwave_two_alphas",
+      "result": "sat"
+    },
+    {
+      "name": "optical_alpha_identifiable",
+      "result": "unsat"
+    },
+    {
+      "name": "zero_sensitivity_not_identifiable",
+      "result": "sat"
+    },
+    {
+      "name": "two_ratios_alpha_identifiable",
+      "result": "unsat"
+    },
+    {
+      "name": "two_ratios_mass_nuclear_degenerate",
+      "result": "sat"
+    },
+    {
+      "name": "nuclear_prior_restores_mass_identifiability",
+      "result": "unsat"
+    },
+    {
+      "name": "common_scale_cancels",
+      "result": "unsat"
+    },
+    {
+      "name": "unknown_absolute_intercept_hides_alpha",
+      "result": "sat"
+    },
+    {
+      "name": "fixed_absolute_intercept_restores_alpha",
+      "result": "unsat"
+    },
+    {
+      "name": "zero_drift_does_not_fix_boundary",
+      "result": "sat"
+    },
+    {
+      "name": "scalar_coupling_amplitude_degenerate",
+      "result": "sat"
+    },
+    {
+      "name": "optical_ratio_orientation",
+      "result": "unsat"
+    }
+  ],
+  "numeric_recomputed": {
+    "codata_inverse": "137035999177/1000000000",
+    "quoted_u": "21/1000000000",
+    "candidate_inverse": "34259/250",
+    "inverse_residual": "823/1000000000",
+    "residual_in_quoted_u": "823/21",
+    "exact_fractional_alpha_difference": "-823/137036000000",
+    "fractional_alpha_decimal": -6.005721124376076e-09,
+    "illustrative_Al_over_Hg_linear_shift": "-823/42823750000",
+    "linear_shift_decimal": -1.9218307598003443e-08,
+    "note": "Linear shift is conditional on rounded K difference 3.2 and frozen nuisances, not a predicted absolute ratio or exclusion significance."
+  },
+  "passed": true
+}

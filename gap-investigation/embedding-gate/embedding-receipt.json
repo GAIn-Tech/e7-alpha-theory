@@ -1,0 +1,759 @@
+{
+  "passed": true,
+  "boundary": "Exact Python finite weights; SM branching is sourced input; not kernel representation theory or physical vacuum.",
+  "sources": {
+    "C:\\Users\\mikeb\\theory2-full\\docs\\analysis\\weyl_verification.py": "b2a08c5458b65b01fac10aeefd70d22e933ce86331843e405952e53714cdaee4",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\next-gate\\representation_checks.py": "315dfd3156cf6bc774b1c06c689ace4c437b82e42e08e94a708ce9f6fdcb4f18",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\embedding-gate\\embedding_checks.py": "76cbe6a83baa753332da9a4316a7253d6b555f225f325bf16f64606d998762dd"
+  },
+  "cartan": [
+    [
+      2,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      2,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      -1,
+      2,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1,
+      2,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      2,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      2
+    ]
+  ],
+  "X_coroot_coefficients": [
+    "2",
+    "3",
+    "4",
+    "6",
+    "5",
+    "4",
+    "3"
+  ],
+  "branch56": [
+    {
+      "charge": -3,
+      "dimension": 1,
+      "zero_weight_multiplicity": 0,
+      "nonzero_orbits": [
+        {
+          "highest_E6": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "orbit_size": 1,
+          "weyl_dimension": 1
+        }
+      ]
+    },
+    {
+      "charge": -1,
+      "dimension": 27,
+      "zero_weight_multiplicity": 0,
+      "nonzero_orbits": [
+        {
+          "highest_E6": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "orbit_size": 27,
+          "weyl_dimension": 27
+        }
+      ]
+    },
+    {
+      "charge": 1,
+      "dimension": 27,
+      "zero_weight_multiplicity": 0,
+      "nonzero_orbits": [
+        {
+          "highest_E6": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "orbit_size": 27,
+          "weyl_dimension": 27
+        }
+      ]
+    },
+    {
+      "charge": 3,
+      "dimension": 1,
+      "zero_weight_multiplicity": 0,
+      "nonzero_orbits": [
+        {
+          "highest_E6": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "orbit_size": 1,
+          "weyl_dimension": 1
+        }
+      ]
+    }
+  ],
+  "branch133": [
+    {
+      "charge": -2,
+      "dimension": 27,
+      "zero_weight_multiplicity": 0,
+      "nonzero_orbits": [
+        {
+          "highest_E6": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "orbit_size": 27,
+          "weyl_dimension": 27
+        }
+      ]
+    },
+    {
+      "charge": 0,
+      "dimension": 79,
+      "zero_weight_multiplicity": 7,
+      "nonzero_orbits": [
+        {
+          "highest_E6": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "orbit_size": 72,
+          "weyl_dimension": 78
+        }
+      ]
+    },
+    {
+      "charge": 2,
+      "dimension": 27,
+      "zero_weight_multiplicity": 0,
+      "nonzero_orbits": [
+        {
+          "highest_E6": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "orbit_size": 27,
+          "weyl_dimension": 27
+        }
+      ]
+    }
+  ],
+  "trace_X_squared": {
+    "56": 72,
+    "133": 216
+  },
+  "B0_X_X": "6",
+  "Bphys_X_X": "12",
+  "weights56": [
+    [
+      -1,
+      -1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      1,
+      -1,
+      1,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      1,
+      0,
+      -1,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      1,
+      0,
+      0,
+      -1,
+      1
+    ],
+    [
+      -1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      1,
+      1,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      -1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      1,
+      -1,
+      1
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      -1,
+      0,
+      1,
+      -1,
+      0,
+      1
+    ],
+    [
+      0,
+      -1,
+      0,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      0,
+      -1,
+      0,
+      1,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      1,
+      -1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      1,
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      0,
+      -1,
+      1,
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      -1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      1,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      -1,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      -1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      -1,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      0,
+      -1,
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      0,
+      -1,
+      1,
+      -1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      -1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "subgroup_level_E6": 1,
+  "integer_X_coupling_squared_over_g7_squared": "1/12",
+  "standard_SU5_kY": "5/3",
+  "standard_SU5_sin2_theta_tree": "3/8",
+  "standard_SU5_e_squared_over_g7_squared": "3/8",
+  "SM_left_Weyl_multiplicities_per_56": {
+    "L": 3,
+    "L_bar": 3,
+    "Q": 1,
+    "Q_bar": 1,
+    "dc": 3,
+    "dc_bar": 3,
+    "ec": 1,
+    "ec_bar": 1,
+    "singlet": 6,
+    "uc": 1,
+    "uc_bar": 1
+  },
+  "SM_net_chirality_per_56": {
+    "Q": 0,
+    "uc": 0,
+    "dc": 0,
+    "L": 0,
+    "ec": 0
+  },
+  "SUSY_two56_multiplier": 2,
+  "Dirac_N8_Weyl56_multiplier": 16
+}

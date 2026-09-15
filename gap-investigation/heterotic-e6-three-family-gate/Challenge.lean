@@ -1,0 +1,6 @@
+prelude
+import Formalization
+#check CoverIndex.triple_injective
+#check CoverIndex.degree_three_cover_net_three
+#check CoverIndex.degree_three_zero_index
+#check CoverIndex.three_family_witness

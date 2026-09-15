@@ -1,0 +1,110 @@
+{
+  "bianchi": {
+    "bundle": "V1=TQ, hidden principal E8 bundle trivial, W=0",
+    "residual": "c2(TQ)-c2(TQ)-0=0 as integral class, not just pullback"
+  },
+  "branching": {
+    "A2_roots": 6,
+    "E6_27_reflection_orbit": 27,
+    "E6_roots": 72,
+    "dimension": 248,
+    "formula": "248=(78,1)+(1,8)+(27,3)+(27bar,3bar)",
+    "mixed_A2_weight_multiplicities": {
+      "(Fraction(-1, 1), Fraction(0, 1))": 27,
+      "(Fraction(-1, 1), Fraction(1, 1))": 27,
+      "(Fraction(0, 1), Fraction(-1, 1))": 27,
+      "(Fraction(0, 1), Fraction(1, 1))": 27,
+      "(Fraction(1, 1), Fraction(-1, 1))": 27,
+      "(Fraction(1, 1), Fraction(0, 1))": 27
+    }
+  },
+  "chern": {
+    "Euler_cover": -18,
+    "Euler_quotient": "-6",
+    "c1": {},
+    "c2": {
+      "(0, 2)": 3,
+      "(1, 1)": 1,
+      "(2, 0)": 3
+    },
+    "c3": {
+      "(0, 3)": -8,
+      "(1, 2)": -1,
+      "(2, 1)": -1,
+      "(3, 0)": -8
+    }
+  },
+  "claim_boundary": "Exact Chern/root/index and finite obstruction arithmetic; source-dependent geometry/Hodge/HYM/index theorem; not moduli stabilization or MSSM.",
+  "cohomology_and_anomaly_checks": {
+    "all_E6_27_cubic_Cartan_traces_zero": true,
+    "h11_quotient_from_Lefschetz_invariants": "6"
+  },
+  "geometry_checks": {
+    "eigenspaces_x": [
+      [
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1
+      ]
+    ],
+    "fixed_stratum_cube_contradiction": true,
+    "polynomial_invariance": true,
+    "residue_omega_phase_mod3": 0,
+    "smoothness_support_cardinalities_nonzero": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true
+    }
+  },
+  "negative_controls": {
+    "composite_order12_three_net_sourced": true,
+    "composite_order25_quintic_four_net_sourced": true,
+    "divide_individual_cover_hodge_numbers_rejected": true,
+    "dropping_conjugate_root_sector_rejected": true,
+    "nonfree_division_not_assumed": true,
+    "order2_descent_of_index_minus9_rejected": true,
+    "prime_order_not_sufficient_bicubic_Z3_net27": true,
+    "rank2_c3_6_rejected": true,
+    "wrong_cover_family_3_rejected": true
+  },
+  "passed": true,
+  "schema_version": 1,
+  "script_sha256": "6278004a873b578c1627be5fbe5ff40a2003199eb321689170e9ede6ce130b67",
+  "source_hashes": {
+    "sources\\composite12.pdf": "cb999f7a4b6dbd955c4263ea4d67303c091a4e9b34d4077e84503cb4ba4dd82a",
+    "sources\\composite12.txt": "f28351233e561bac228361b87f534943d9a7200d6596a6463a5063c46a949294",
+    "sources\\triadophilia.pdf": "096bc05a6c57d7b45101181664a15b497f4b606a27daed918fff59ef08acc398",
+    "sources\\triadophilia.txt": "790f02208f59e7824875d9b7c3a60df6edd6e3798fa510fe293cde9f08c77d6f",
+    "sources\\yukawas.pdf": "8d37e6c7c3d79c7fe279be4ce3a0698a52bccf7e8e581640a5ac70b9df47e7f9",
+    "sources\\yukawas.txt": "cde76ac93fc60abc1f23d6dd83de41ee031c13d56a7d213361010bd86d20d458"
+  },
+  "spectrum": {
+    "H1_isotypic_dims_conditional_on_sourced_Hodge_and_real_action": [
+      9,
+      7,
+      7
+    ],
+    "H2_isotypic_dims_conditional": [
+      6,
+      4,
+      4
+    ],
+    "Wilson_line": "identity; no claimed SM branching",
+    "holomorphic_index_cover": "-9",
+    "holomorphic_index_quotient": "-3",
+    "n27": 9,
+    "n27bar": 6,
+    "net27": 3,
+    "net_character_multiplicities": [
+      3,
+      3,
+      3
+    ]
+  }
+}

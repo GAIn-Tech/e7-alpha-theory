@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-instanton-higgs-insertion-gate\\verify.py"
+  ],
+  "exit_code": 0,
+  "release_manifest_sha256": "a69fa87845ab6e69d586425494442d87fa7021db344ea9bd225d547e28e3180c",
+  "result": {
+    "certificate_sha256": "17411b5c05c03b3bda1d52eaa2422fe55ddd11a65b57169dc81fa59d23d39868",
+    "controls": {
+      "missing_certificate_rejected": true,
+      "mutated_frozen_cocycle_rejected": true,
+      "tampered_restriction_receipt_rejected": true
+    },
+    "immutable_files": 9,
+    "passed": true
+  },
+  "stderr": ""
+}

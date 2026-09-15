@@ -1,0 +1,1092 @@
+Frequency ratio measurements at 18-digit accuracy using an optical clock network | Nature
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+            the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+            Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+            and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Account
+Log in
+Content
+Explore content
+About
+the journal
+Publish
+with us
+Subscribe
+Sign up for alerts
+RSS feed
+nature
+articles
+article
+Article
+Published:
+24 March 2021
+Frequency ratio measurements at 18-digit accuracy using an optical clock network
+Boulder Atomic Clock Optical Network (BACON) Collaboration*
+Nature
+volume
+591
+,
+pages
+564–569 (
+2021
+)
+Cite this article
+Save article
+View saved research
+20k
+Accesses
+406
+Citations
+704
+Altmetric
+Metrics
+details
+Abstract
+Atomic clocks are vital in a wide array of technologies and experiments, including tests of fundamental physics
+1
+. Clocks operating at optical frequencies have now demonstrated fractional stability and reproducibility at the 10
+−18
+level, two orders of magnitude beyond their microwave predecessors
+2
+. Frequency ratio measurements between optical clocks are the basis for many of the applications that take advantage of this remarkable precision. However, the highest reported accuracy for frequency ratio measurements has remained largely unchanged for more than a decade
+3
+,
+4
+,
+5
+. Here we operate a network of optical clocks based on
+27
+Al
++
+(ref.
+6
+),
+87
+Sr (ref.
+7
+) and
+171
+Yb (ref.
+8
+), and measure their frequency ratios with fractional uncertainties at or below 8 × 10
+−18
+. Exploiting this precision, we derive improved constraints on the potential coupling of ultralight bosonic dark matter to standard model fields
+9
+,
+10
+. Our optical clock network utilizes not just optical fibre
+11
+, but also a 1.5-kilometre free-space link
+12
+,
+13
+. This advance in frequency ratio measurements lays the groundwork for future networks of mobile, airborne and remote optical clocks that will be used to test physical laws
+1
+, perform relativistic geodesy
+14
+and substantially improve international timekeeping
+15
+.
+This is a preview of subscription content,
+access via your institution
+Access options
+Access through your institution
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+$32.99
+/ 30 days
+cancel any time
+Learn more
+Subscribe to this journal
+Receive 52 print issues and online access
+$199.00 per year
+only $3.83 per issue
+Learn more
+Buy this article
+Purchase on SpringerLink
+Instant access to the full article PDF.
+USD 39.95
+Prices may be subject to local taxes which are calculated during checkout
+Additional access options:
+Log in
+Learn about institutional subscriptions
+Read our FAQs
+Contact customer support
+Fig. 1: System overview of the Boulder Atomic Clock Optical Network (BACON).
+Fig. 2: Ratio measurement results.
+Fig. 3: Comparison of measured frequency ratios with previous results.
+Fig. 4: Constraints on ultralight dark matter.
+Similar content being viewed by others
+Free-space dissemination of time and frequency with 10
+−19
+instability over 113 km
+Article
+05 October 2022
+Improved interspecies optical clock comparisons through differential spectroscopy
+Article
+28 November 2022
+An elementary quantum network of entangled optical atomic clocks
+Article
+07 September 2022
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Ultracold gases
+Data availability
+The data presented here are available from the corresponding authors on reasonable request.
+References
+Safronova, M. S. et al. Search for new physics with atoms and molecules.
+Rev. Mod. Phys
+.
+90
+, 025008 (2018).
+Article
+ADS
+MathSciNet
+CAS
+Google Scholar
+Ludlow, A. D., Boyd, M. M., Ye, J., Peik, E. & Schmidt, P. O. Optical atomic clocks.
+Rev. Mod. Phys
+.
+87
+, 637–701 (2015).
+Article
+ADS
+CAS
+Google Scholar
+Rosenband, T. et al. Frequency ratio of Al
++
+and Hg
++
+single-ion optical clocks; metrology at the 17th decimal place.
+Science
+319
+, 1808–1812 (2008).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Nemitz, N. et al. Frequency ratio of Yb and Sr clocks with 5 × 10
+−17
+uncertainty at 150 seconds averaging time.
+Nat. Photon
+.
+10
+, 258–261 (2016).
+Article
+ADS
+CAS
+Google Scholar
+Dörscher, S. et al. Optical frequency ratio of a
+171
+Yb
++
+single-ion clock and a
+87
+Sr lattice clock. Preprint at
+https://arXiv.org/abs/2009.05470
+(2020).
+Brewer, S. M. et al. An
+27
+Al
++
+quantum-logic clock with systematic uncertainty below 10
+−18
+.
+Phys. Rev. Lett
+.
+123
+, 033201 (2019).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Bothwell, T. et al. JILA SrI optical lattice clock with uncertainty of 2.0 × 10
+−18
+.
+Metrologia
+56
+, 065004 (2019).
+Article
+ADS
+CAS
+Google Scholar
+McGrew, W. F. et al. Atomic clock performance enabling geodesy below the centimetre level.
+Nature
+564
+, 87–90 (2018).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Van Tilburg, K., Leefer, N., Bougas, L. & Budker, D. Search for ultralight scalar dark matter with atomic spectroscopy.
+Phys. Rev. Lett
+.
+115
+, 011802 (2015).
+Article
+ADS
+PubMed
+Google Scholar
+Hees, A., Guéna, J., Abgrall, M., Bize, S. & Wolf, P. Searching for an oscillating massive scalar field as a dark matter candidate using atomic hyperfine frequency comparisons.
+Phys. Rev. Lett
+.
+117
+, 061301 (2016).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Foreman, S. M. et al. Coherent optical phase transfer over a 32-km fiber with 1s instability at 10
+−17
+.
+Phys. Rev. Lett
+.
+99
+, 153601 (2007).
+Article
+ADS
+PubMed
+Google Scholar
+Sinclair, L. C. et al. Comparing optical oscillators across the air to milliradians in phase and 10
+−17
+in frequency.
+Phys. Rev. Lett
+.
+120
+, 050801 (2018).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Bodine, M. I. et al. Optical atomic clock comparison through turbulent air. Preprint at
+https://arXiv.org/abs/2006.01306
+(2020).
+Mehlstäubler, T. E., Grosche, G., Lisdat, C., Schmidt, P. O. & Denker, H. Atomic clocks for geodesy.
+Rep. Prog. Phys
+.
+81
+, 064401 (2018).
+Article
+ADS
+PubMed
+Google Scholar
+Riehle, F., Gill, P., Arias, F. & Robertsson, L. The CIPM list of recommended frequency standard values: guidelines and procedures.
+Metrologia
+55
+, 188–200 (2018).
+Article
+ADS
+CAS
+Google Scholar
+Nicholson, T. L. et al. Systematic evaluation of an atomic clock at 2 × 10
+−18
+total uncertainty.
+Nat. Commun
+.
+6
+, 6896 (2015).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Huntemann, N., Sanner, C., Lipphardt, B., Tamm, Chr. & Peik, E. Single-ion atomic clock with 3 × 10
+−18
+systematic uncertainty.
+Phys. Rev. Lett
+.
+116
+, 063001 (2016).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Sanner, C. et al. Optical clock comparison for Lorentz symmetry testing.
+Nature
+567
+, 204–208 (2019).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Takamoto, M. et al. Test of general relativity by a pair of transportable optical lattice clocks.
+Nat. Photon
+.
+14
+, 411–415 (2020).
+Article
+ADS
+CAS
+Google Scholar
+Godun, R. M. et al. Frequency ratio of two optical clock transitions in
+171
+Yb
++
+and constraints on the time variation of fundamental constants.
+Phys. Rev. Lett
+.
+113
+, 210801 (2014).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Takamoto, M. et al. Frequency ratios of Sr, Yb, and Hg based optical lattice clocks and their applications.
+C.R. Phys
+.
+16
+, 489–498 (2015).
+Article
+CAS
+Google Scholar
+Tyumenev, R. et al. Comparing a mercury optical lattice clock with microwave and optical frequency standards.
+New J. Phys
+.
+18
+, 113002 (2016).
+Article
+ADS
+Google Scholar
+Ohmae, N., Bregolin, F., Nemitz, N. & Katori, H. Direct measurement of the frequency ratio for Hg and Yb optical lattice clocks and closure of the Hg/Yb/Sr loop.
+Opt. Express
+28
+, 15112–15121 (2020).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Lange, R. et al. Improved limits for violations of local position invariance from atomic clock comparisons. Preprint at
+https://arXiv.org/abs/2010.06620
+(2020).
+Riehle, F. Optical clock networks.
+Nat. Photon
+.
+11
+, 25–31 (2017).
+Article
+ADS
+CAS
+Google Scholar
+Lisdat, C. et al. A clock network for geodesy and fundamental science.
+Nat. Commun
+.
+7
+, 12443 (2016).
+Article
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Delehaye, M. & Lacroûte, C. Single-ion, transportable optical atomic clocks.
+J. Mod. Opt
+.
+65
+, 622–639 (2018).
+Article
+ADS
+MathSciNet
+CAS
+Google Scholar
+Grotti, J. et al. Geodesy and metrology with a transportable optical clock.
+Nat. Phys
+.
+14
+, 437–441 (2018).
+Article
+CAS
+Google Scholar
+Dehmelt, H. G. Monoion oscillator as potential ultimate laser frequency standard.
+IEEE Trans. Instrum. Meas
+.
+IM-31
+, 83–87 (1982).
+Article
+ADS
+CAS
+Google Scholar
+Hall, J. L., Zhu, M. & Buch, P. Prospects for using laser-prepared atomic fountains for optical frequency standards applications.
+J. Opt. Soc. Am. B
+6
+, 2194–2205 (1989).
+Article
+ADS
+CAS
+Google Scholar
+Itano, W. M. et al. Quantum projection noise: population fluctuations in two-level systems.
+Phys. Rev. A
+47
+, 3554–3570 (1993).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Oelker, E. et al. Demonstration of 4.8 × 10
+−17
+stability at 1s for two independent optical clocks.
+Nat. Photon
+.
+13
+, 714–719 (2019).
+Article
+ADS
+CAS
+Google Scholar
+Fortier, T. & Baumann, E. 20 years of developments in optical frequency comb technology and applications.
+Commun. Phys
+.
+2
+, 153 (2019); correction
+3
+, 85 (2020).
+Article
+Google Scholar
+Leopardi, H. et al. Single-branch Er:fiber frequency comb for precision optical metrology with 10
+−18
+fractional instability.
+Optica
+4
+, 879–885 (2017).
+Article
+ADS
+MathSciNet
+CAS
+Google Scholar
+Fortier, T. M., Bartels, A. & Diddams, S. A. Octave-spanning Ti:sapphire laser with a repetition rate >1 GHz for optical frequency measurements and comparisons.
+Opt. Lett
+.
+31
+, 1011–1013 (2006).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Deschênes, J.-D. et al. Synchronization of distant optical clocks at the femtosecond level.
+Phys. Rev. X
+6
+, 021016 (2016).
+Google Scholar
+van Westrum, D.
+Geodetic Survey of NIST and JILA Clock Laboratories
+. NOAA Technical Report NOS NGS 77 (NOAA, 2019).
+Gelman, A. et al.
+Bayesian Data Analysis
+3rd edn (Chapman & Hall/CRC Texts in Statistical Science) (CRC Press, 2014).
+Koepke, A., Lafarge, T., Possolo, A. & Toman, B. Consensus building for interlaboratory studies, key comparisons, and meta-analysis.
+Metrologia
+54
+, S34–S62 (2017).
+Article
+ADS
+CAS
+Google Scholar
+Stalnaker, J. E. et al. Optical-to-microwave frequency comparison with fractional uncertainty of 10
+−15
+.
+Appl. Phys. B
+89
+, 167–176 (2007).
+Article
+ADS
+CAS
+Google Scholar
+Rosenband, T. et al. Alpha-dot or not: comparison of two single atom optical clocks. In
+Proceedings of the 7th Symposium on Frequency Standards and Metrology
+(ed. Maleki, L.) 20–33 (World Scientific, 2009).
+Riehle, F. Towards a redefinition of the second based on optical atomic clocks.
+C.R. Phys
+.
+16
+, 506–515 (2015).
+Article
+CAS
+Google Scholar
+Gill, P. When should we change the definition of the second?
+Phil. Trans. R. Soc. A
+369
+, 4109–4130 (2011).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Campbell, G. K. et al. The absolute frequency of the
+87
+Sr optical clock transition.
+Metrologia
+45
+, 539–548 (2008).
+Article
+ADS
+CAS
+Google Scholar
+Lemke, N. D. et al. Spin-1/2 optical lattice clock.
+Phys. Rev. Lett
+.
+103
+, 063001 (2009).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Pizzocaro, M. et al. Absolute frequency measurement of the
+1
+S
+0
+–
+3
+P
+0
+transition of
+171
+Yb.
+Metrologia
+54
+, 102–112 (2017).
+Article
+ADS
+CAS
+Google Scholar
+Lodewyck, J. et al. Optical to microwave clock frequency ratios with a nearly continuous strontium optical lattice clock.
+Metrologia
+53
+, 1123–1130 (2016).
+Article
+ADS
+CAS
+Google Scholar
+Grebing, C. et al. Realization of a timescale with an accurate optical lattice clock.
+Optica
+3
+, 563–569 (2016).
+Article
+ADS
+CAS
+Google Scholar
+McGrew, W. F. et al. Towards the optical second: verifying optical clocks at the SI limit.
+Optica
+6
+, 448–454 (2019).
+Article
+ADS
+CAS
+Google Scholar
+Akamatsu, D. et al. Frequency ratio measurement of
+171
+Yb and
+87
+Sr optical lattice clocks.
+Opt. Express
+22
+, 7898–7905 (2014).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Hachisu, H., Petit, G., Nakagawa, F., Hanado, Y. & Ido, T. SI-traceable measurement of an optical frequency at the low 10
+−16
+level without a local primary standard.
+Opt. Express
+25
+, 8511–8523 (2017).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Kim, H. et al. Improved absolute frequency measurement of the
+171
+Yb optical lattice clock at KRISS relative to the SI second.
+Jpn. J. Appl. Phys
+.
+56
+, 050302 (2017).
+Article
+ADS
+Google Scholar
+Centers, G. P. et al. Stochastic fluctuations of bosonic dark matter. Preprint at
+https://arXiv.org/abs/1905.13650
+(2019).
+Hui, L., Ostriker, J. P., Tremaine, S. & Witten, E. Ultralight scalars as cosmological dark matter.
+Phys. Rev. D
+95
+, 043541 (2017).
+Article
+ADS
+Google Scholar
+Ma, L.-S., Jungner, P., Ye, J. & Hall, J. L. Delivering the same optical frequency at two places: accurate cancellation of phase noise introduced by an optical fiber or other time-varying path.
+Opt. Lett
+.
+19
+, 1777–1779 (1994).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Newbury, N. R., Williams, P. A. & Swann, W. C. Coherent transfer of an optical carrier over 251 km.
+Opt. Lett
+.
+32
+, 3056–3058 (2007).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Nemitz, N., Jørgensen, A. A., Yanagimoto, R., Bregolin, F. & Katori, H. Modeling light shifts in optical lattice clocks.
+Phys. Rev. A
+99
+, 033424 (2019).
+Article
+ADS
+CAS
+Google Scholar
+Brown, R. C. et al. Hyperpolarizability and operational magic wavelength in an optical lattice clock.
+Phys. Rev. Lett
+.
+119
+, 253001 (2017).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Katori, H., Ovsiannikov, V. D., Marmo, S. I. & Palchikov, V. G. Strategies for reducing the light shift in atomic clocks.
+Phys. Rev. A
+91
+, 052503 (2015).
+Article
+ADS
+Google Scholar
+Mohr, P. J., Newell, D. B. & Taylor, B. N. Codata recommended values of the fundamental physical constants: 2014.
+Rev. Mod. Phys
+.
+88
+, 035009 (2016).
+Article
+ADS
+Google Scholar
+Su, Y.-S. & Yajima, M. R2jags: using R to run ‘JAGS’.
+https://cran.r-project.org/web/packages/R2jags/index.html
+(2015).
+Geweke, J. Evaluating the accuracy of sampling-based approaches to calculating posterior moments. In
+Bayesian Statistics 4: Proceedings of the Fourth Valencia International Meeting
+(eds Bernado, J. M. et al) 641–649 (Clarendon, 1992).
+Fuller, W. A.
+Measurement Error Models
+(Wiley & Sons, 1987).
+Carroll, R. J., Ruppert, D., Stefanski, L. A. & Crainiceanu, C. M.
+Measurement Error in Nonlinear Models — A Modern Perspective
+2nd edn (Chapman & Hall/CRC Texts in Statistical Science) (CRC Press, 2006).
+Wcisło, P. et al. New bounds on dark matter coupling from a global network of optical atomic clocks.
+Sci. Adv
+.
+4
+, eaau4869 (2018).
+Article
+ADS
+PubMed
+PubMed Central
+Google Scholar
+Kennedy, C. J. et al. Precision metrology meets cosmology: improved constraints on ultralight dark matter from atom-cavity frequency comparisons.
+Phys. Rev. Lett
+.
+125
+, 201302 (2020).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Download references
+Acknowledgements
+We thank J. Bergquist, E. Clements, A. Hankin, S. Kolkowitz, J. Scott and B. Toman for technical contributions, and A. Possolo, C. Sanner and A. Wilson for careful reading of the manuscript. This work was supported by the National Institute of Standards and Technology, the Defense Advanced Research Projects Agency, the Air Force Office for Scientific Research, the National Science Foundation (NSF grant no. PHY- 1734006), the Office of Naval Research (ONR grant no. N00014-18-1-2634), NASA Fundamental Physics, and a Department of Energy, Office of Science HEP QuantISED award.
+Author information
+Author notes
+Samuel M. Brewer
+Present address: Department of Physics, Colorado State University, Fort Collins, CO, USA
+Sarah L. Bromley
+Present address: Department of Physics, Durham University, Durham, UK
+Jwo-Sy Chen
+Present address: IonQ Inc., College Park, MD, USA
+Holly Leopardi
+Present address: Space Dynamics Laboratory, North Logan, UT, USA
+Stefania Romisch
+Present address: Northrup Grumman Mission Systems, Woodland Hills, CA, USA
+Stefan A. Schäffer
+Present address: Van der Waals-Zeeman Institute, Institute of Physics, University of Amsterdam, Amsterdam, The Netherlands
+Authors and Affiliations
+National Institute of Standards and Technology, Boulder, CO, USA
+Kyle Beloy, Martha I. Bodine, Samuel M. Brewer, Jwo-Sy Chen, Scott A. Diddams, Robert J. Fasano, Tara M. Fortier, Youssef S. Hassan, David B. Hume, Colin J. Kennedy, Isaac Khader, Amanda Koepke, David R. Leibrandt, Holly Leopardi, Andrew D. Ludlow, William F. McGrew, Nathan R. Newbury, Daniele Nicolodi, Eric Oelker, Thomas E. Parker, Stefania Romisch, Stefan A. Schäffer, Jeffrey A. Sherman, Laura C. Sinclair, William C. Swann, Jian Yao, Jun Ye & Xiaogang Zhang
+JILA, University of Colorado, Boulder, CO, USA
+Tobias Bothwell, Sarah L. Bromley, Dhruv Kedar, Colin J. Kennedy, William R. Milner, Eric Oelker, John M. Robinson, Lindsay Sonderhouse & Jun Ye
+Department of Physics, University of Colorado, Boulder, CO, USA
+Jwo-Sy Chen, Scott A. Diddams, Robert J. Fasano, Youssef S. Hassan, David R. Leibrandt, Holly Leopardi, William F. McGrew, Daniele Nicolodi, Jun Ye & Xiaogang Zhang
+Consultation OctoSig Inc., Quebec City, Quebec, Canada
+Jean-Daniel Deschênes
+Consortia
+Boulder Atomic Clock Optical Network (BACON) Collaboration*
+Kyle Beloy
+, Martha I. Bodine
+, Tobias Bothwell
+, Samuel M. Brewer
+, Sarah L. Bromley
+, Jwo-Sy Chen
+, Jean-Daniel Deschênes
+, Scott A. Diddams
+, Robert J. Fasano
+, Tara M. Fortier
+, Youssef S. Hassan
+, David B. Hume
+, Dhruv Kedar
+, Colin J. Kennedy
+, Isaac Khader
+, Amanda Koepke
+, David R. Leibrandt
+, Holly Leopardi
+, Andrew D. Ludlow
+, William F. McGrew
+, William R. Milner
+, Nathan R. Newbury
+, Daniele Nicolodi
+, Eric Oelker
+, Thomas E. Parker
+, John M. Robinson
+, Stefania Romisch
+, Stefan A. Schäffer
+, Jeffrey A. Sherman
+, Laura C. Sinclair
+, Lindsay Sonderhouse
+, William C. Swann
+, Jian Yao
+, Jun Ye
+& Xiaogang Zhang
+Contributions
+All authors contributed to the design of the experiment, collection of data and revision of the manuscript. During the measurement campaign, Al
++
+clock operation was conducted by S.M.B., J.-S.C., D.B.H. and D.R.L.; Sr clock operation was conducted by T.B., S.L.B., D.K., C.J.K., W.R.M., E.O., J.M.R., L.S. and J. Ye; Yb clock operation was conducted by K.B., R.J.F., Y.S.H., A.D.L., W.F.M., D.N., S.A.S. and X.Z.; comb metrology laboratory operation was conducted by T.M.F. and H.L.; maser operation and comparison with UTC-NIST was conducted by T.E.P., S.R., J.A.S. and J. Yao; O-TWTFT system operation including the free-space link was conducted by M.I.B., J.-D.D., S.A.D., I.K., N.R.N., L.C.S. and W.C.S.; network interconnections excluding the free-space link were maintained by H.L., W.R.M., E.O. and J.M.R. Ratio data analysis and preparation of the manuscript were performed by T.M.F., D.B.H., D.K., C.J.K., A.K., H.L., L.C.S. and X.Z.
+Corresponding authors
+Correspondence to
+Tara M. Fortier
+,
+David B. Hume
+,
+Colin J. Kennedy
+,
+Amanda Koepke
+,
+Holly Leopardi
+,
+Laura C. Sinclair
+or
+Xiaogang Zhang
+.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Peer review information
+Nature
+thanks Andrei Derevianko, Nils Nemitzand the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Extended data figures and tables
+Extended Data Fig. 1 Diagram of the Boulder Atomic Clock Optical Network (BACON).
+The Al
++
+ion optical clock (blue shaded area), the Yb optical lattice clock (orange shaded area), the Er:fibre comb (light grey shaded area) and the Ti:S comb (light grey shaded area) are located in Building 81 of NIST. The Sr optical lattice clock (pink shaded area) is located in the basement of JILA. The free space link (grey shaded area) includes two parts (split by the dashed line): one part is located in the NIST Building 1 penthouse and another part is located at the 11th floor of the Gamow tower at the University of Colorado. The Er:fibre comb and the Ti:S comb at NIST are locked to the Yb optical clock. The Er:fibre comb in the Sr optical clock lab is locked to the Si cavity and is used to transfer the Si cavity stability to the Sr clock laser. Free space Er:fibre combs are locked to the Yb optical clock through the Er:fibre comb at NIST and the Sr optical clock through the Si cavity, respectively. All AOM frequencies in the network are referenced to a hydrogen maser at NIST, which is transferred to JILA through an optical fibre link. The frequency shifts of optical clocks due to calibrated systematic effects are added to the optical frequency ratio calculations in post-processing. FNC, fibre-noise cancellation. In key at bottom right:
+f
+0
+, carrier-envelope offset frequency;
+f
+b
+, beatnote frequency; Tis, Ti:sapphire; fsp, free space.
+Extended Data Fig. 2 Long-term stability of concatenated ratio data as characterized by the overlapping Allan deviation.
+The data plotted include all measurements that were taken at the nominal operating conditions over the course of the measurement campaign with total measurement durations as follows: 165,240 s, 94,760 s and 167,140 s for Al
++
+/Yb, Al
++
+/Sr and Yb/Sr, respectively. For the Al
++
+/Yb ratio, in addition to the data that contributed to the final ratio, we include two extra days of data (27 February 2018 and 2 March 2018) that were used in the evaluation of the Al
++
+second-order Zeeman shift as described in ref.
+6
+. Although acquired in very similar experimental conditions, these datasets are excluded from frequency ratio estimate to avoid statistical correlation between the systematic shift evaluation and the frequency ratio measurement. Because the data were taken in short segments over many months, the time series is dominated by periods of dead-time such that the noise spectrum cannot be identified unambiguously. Fits (solid lines) use a white frequency noise model:
+\({\sigma }_{y}(\tau )={\sigma }_{1s}/{(\tau /s)}^{1/2}\)
+, where
+σ
+1s
+is the extrapolated 1-s instability. These include all data beyond the
+τ
+= 100 s bin size with weights equal to the number of bins contributing to each point. Although it is not directly related to the stability, for reference, the total systematic uncertainty evaluated for each ratio is indicated by a corresponding dashed line. Error bars indicate 68% confidence intervals based on a white frequency noise model.
+Extended Data Fig. 3 Results of the Bayesian analysis.
+a
+, Posterior distributions for the ratio values
+μ
+(top row) expressed here as a fractional offset from the current recommended CIPM values
+15
+, and for the between-day variability
+ξ
+(bottom row). Left column, ratio Al
++
+/Yb; middle column, ratio Al
++
+/Sr; right column, ratio Yb/Sr. The blue dashed lines denote our estimate for these parameters, the posterior mean. The shaded areas and blue lines on the bottom of each plot denote the 95% credible intervals and the red dotted lines denote the static uncertainties due to systematic effects. The posterior distributions for
+ξ
+have mass concentrated on values closer to zero and widths comparable to their means. More comparison days would be needed to further constrain these parameters.
+b
+, Prior distribution for
+ξ
+.
+c
+, Trace plots for the between-day variability
+ξ
+for the Al
++
+/Yb measurements. The
+x
+axis is the MCMC iteration number (plotting every 1,000th sample) and the
+y
+axis is the value of the parameter. Trace plots are used as a convergence diagnostic for MCMC; these plots show that the chains are mixing well.
+Extended Data Fig. 4 Correlation analysis for daily measurements of all ratio pairs.
+a
+, Al
++
+/Sr versus Al
++
+/Yb;
+b
+, Al
++
+/Sr versus Yb/Sr; and
+c
+, Al
++
+/Yb versus Yb/Sr. Data are offset by their mean and error bars account for known correlations between the
+x
+and
+y
+uncertainties as described in the Methods. All days with simultaneous ratio measurements from each pair are plotted. There is no statistically significant linear relationship between these ratios, indicating that the present clock data, with only seven overlapping days of data, are not precise enough to identify a source of daily fluctuations. The slopes (dashed black lines) and 95% confidence intervals (shaded areas) for the three plots are:
+a
+, 0.17 (−0.08, 0.53),
+b
+, −0.34 (−1.90, 1.19), and
+c
+, −1.07 (−3.09, 0.72).
+Extended Data Table 1 Clock operating parameters
+Full size table
+Extended Data Table 2 Numerical results for
+μ
+and
+ξ
+Full size table
+Extended Data Table 3 Fractional ratio uncertainties
+Full size table
+Supplementary information
+Supplementary Information (download PDF
+)
+This file contains (1) Measurement overview, and (2) Ratio calculations, including Supplementary Tables 1-3 and additional references.
+Peer Review File (download PDF
+)
+Rights and permissions
+Reprints and permissions
+About this article
+Cite this article
+Boulder Atomic Clock Optical Network (BACON) Collaboration*. Frequency ratio measurements at 18-digit accuracy using an optical clock network.
+Nature
+591
+, 564–569 (2021). https://doi.org/10.1038/s41586-021-03253-4
+Download citation
+Received
+:
+28 August 2020
+Accepted
+:
+18 January 2021
+Published
+:
+24 March 2021
+Version of record
+:
+24 March 2021
+Issue date
+:
+25 March 2021
+DOI
+:
+https://doi.org/10.1038/s41586-021-03253-4
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Comments
+Commenting on this article is now closed.
+Xinhang Shen
+27 March 2021, 02:24
+There is really no need to test Einstein's relativity any longer because the principle of a physical clock has already disproved the relativity theory. Without proving, relativists believe that a clock measures relativistic time, but the reality is that clock time is defined by a physical process and relativistic time is defined by Lorentz Transformation, which are two completely different definitions and can't be equated. Relativists believe that a moving clock ticks more slowly than a stationary clock due to the equation of Lorentz Transformation: t' = t/γ, which is wrong because in special relativity, clock time is not directly relativistic time but defined as T = tf/k where t is relativistic time of the inertial reference frame, f is frequency of the clock relative to the same reference frame and k is a calibration constant, and the relationship between the clock time of a moving clock and the clock time of a stationary clock is: T' = t'f'/k = (t/γ)(γf)/k = tf/k = T i.e. clock time is still absolute in special relativity as demonstrated by the atomic clocks on the GPS satellites which are synchronized relative to all reference frames to show the same absolute time while relativistic times of different reference frames can never be synchronized relative to more than one inertial reference frame no matter how you correct them.
+As clock time is absolute and independent of the 3D space, there is no such thing called spacetime in nature and thus all spacetime based theories including general relativity are wrong.
+See more details in
+https://www.researchgate.ne...
+Access through your institution
+Buy or subscribe
+Associated content
+Atomic clocks compared with astounding accuracy
+Rachel M. Godun
+Nature
+News & Views
+24 Mar 2021
+Advertisement
+Explore content
+Research articles
+News
+Opinion
+Research Analysis
+Careers
+Books & Culture
+Podcasts
+Videos
+Current issue
+Browse issues
+Collections
+Subjects
+Follow us on Facebook
+Follow us on Bluesky
+Follow us on X
+Subscribe
+Sign up for alerts
+RSS feed
+About the journal
+Journal Staff
+About the Editors
+Research Cross-Journal Editorial Team
+Journal Information
+Journal Metrics
+Our publishing models
+Editorial Values Statement
+Editorial policies
+Journalistic Principles
+History of Nature
+Awards
+Contact
+Send a news tip
+Publish with us
+For Authors
+For Referees
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature
+(
+Nature
+)
+ISSN
+1476-4687
+(online)
+ISSN
+0028-0836
+(print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+                        content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+                Policy
+Use
+                of cookies
+Your privacy choices/Manage cookies
+Legal
+                notice
+Accessibility
+                statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the
+Nature Briefing
+newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the
+Nature
+and Springer Nature Limited
+Privacy Policy
+.
+Close banner
+Close
+Get the most important science stories of the day, free in your inbox.
+Sign up for Nature Briefing

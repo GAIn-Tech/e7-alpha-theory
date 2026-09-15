@@ -1,0 +1,11 @@
+{
+  "smoke": 0,
+  "formal_exit": 1,
+  "formal_output": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-lean-gate\\Formalization.lean:1:0: error: unknown module prefix 'Mathlib'\n\nNo directory 'Mathlib' or file 'Mathlib.olean' in the search path entries:\nc:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-lean-gate\\toolchain\\lib\\lean\n",
+  "python_syntax": {
+    "fetch_mathlib.py": true,
+    "generate_formalization.py": true,
+    "remote_zip_install.py": true,
+    "run_checks.py": true
+  }
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "file": "deppisch.pdf",
+    "url": "https://arxiv.org/pdf/1605.05920",
+    "retrieval": "saved during interrupted initial requests run; HTTP status not retained",
+    "bytes": 151182,
+    "sha256": "a8a062fd2ba833fc9a0eb14e5ae9f55dddee7f132d1a506eca3262b21e36673b",
+    "pdf_header": true,
+    "pages": 15,
+    "text_characters": 21347,
+    "receipt_utc": "2026-09-09T18:03:00.222920+00:00"
+  },
+  {
+    "file": "kephart-vaughn-kek.pdf",
+    "url": "https://lib-extopc.kek.jp/preprints/PDF/1981/8111/8111149.pdf",
+    "exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 188,
+    "sha256": "cc10d68930e2d13089cbdfb34c6bb240642cb33447c8afc0f8cf3599f085ae3a",
+    "pdf_header": false,
+    "receipt_utc": "2026-09-09T18:03:07.206214+00:00"
+  },
+  {
+    "file": "kalashnikov-inspire.json",
+    "url": "https://inspirehep.net/api/literature/141557",
+    "retrieval": "saved during interrupted initial requests run; HTTP status not retained",
+    "bytes": 9009,
+    "sha256": "698972d617496f7e35dd8598196d40c8d84c45af5a313bfa6b943f0325dfc720",
+    "pdf_header": false,
+    "receipt_utc": "2026-09-09T18:03:07.209313+00:00"
+  },
+  {
+    "file": "kephart-inspire.json",
+    "url": "https://inspirehep.net/api/literature/167756",
+    "retrieval": "saved during interrupted initial requests run; HTTP status not retained",
+    "bytes": 8364,
+    "sha256": "ede9238eeda97bb8bc2ad2454128b91418b4e8f249b2d88ea3f02acbbd167895",
+    "pdf_header": false,
+    "receipt_utc": "2026-09-09T18:03:07.213310+00:00"
+  },
+  {
+    "file": "kalashnikov-publisher.html",
+    "url": "https://www.sciencedirect.com/science/article/pii/0550321380902102",
+    "retrieval": "saved during interrupted initial requests run; HTTP status not retained",
+    "bytes": 832804,
+    "sha256": "99f3a44c06fed64b1688cdd83ce3372b888f7d9a575faff19a3c39145784bcc6",
+    "pdf_header": false,
+    "receipt_utc": "2026-09-09T18:03:07.217324+00:00"
+  },
+  {
+    "file": "kalashnikov-wayback.json",
+    "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2F0550321380902102",
+    "retrieval": "saved during interrupted initial requests run; HTTP status not retained",
+    "bytes": 117,
+    "sha256": "ae138caf8767f7be2fe6f47f1663b0e2e28d903264707aa9b6f73bb7b223902c",
+    "pdf_header": false,
+    "receipt_utc": "2026-09-09T18:03:07.219313+00:00"
+  },
+  {
+    "file": "kalashnikov-archive.html",
+    "url": "https://archive.ph/newest/https://www.sciencedirect.com/science/article/pii/0550321380902102",
+    "retrieval": "saved during interrupted initial requests run; HTTP status not retained",
+    "bytes": 59062,
+    "sha256": "5978988c064cdaf2641c10b807cf1817b44b27e283cb9a4ee9707f810039528b",
+    "pdf_header": false,
+    "receipt_utc": "2026-09-09T18:03:07.222728+00:00"
+  }
+]

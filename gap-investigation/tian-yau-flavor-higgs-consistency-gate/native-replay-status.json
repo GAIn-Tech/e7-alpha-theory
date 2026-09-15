@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:/Python313/python.exe",
+    "-B",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\tian-yau-flavor-higgs-consistency-gate\\verify.py"
+  ],
+  "ended_utc": "2026-09-10T03:47:28.629566+00:00",
+  "exit_code": 0,
+  "log_sha256": "79b1fa649f3854c012dac07d1b7c6e327c6a46343591d625cbd8b4f6a4b31e53",
+  "manifest_unchanged": true,
+  "release_manifest_sha256": "e50cc2b4b8e2d885e1a2f5490dff315c7f0cd2373047e3d4014a48e75833d2d3",
+  "started_utc": "2026-09-10T03:46:55.773644+00:00"
+}

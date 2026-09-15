@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\chiral-zero-mode-gate\\orbifold_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"roots\": 126,\n  \"weights\": 56,\n  \"brackets\": 4158,\n  \"transitions\": 1512,\n  \"cases\": 16,\n  \"SMT\": [\n    {\n      \"file\": \"no_other_diagonal_lift_0.smt2\",\n      \"result\": \"unsat\",\n      \"sha256\": \"71242bc4868c3f26ce8c854dc0d6530f6f3a5f513e35f531075d95fd46b2b6ae\"\n    },\n    {\n      \"file\": \"no_other_diagonal_lift_1.smt2\",\n      \"result\": \"unsat\",\n      \"sha256\": \"04839b25a0985a765c47a23d470de49985d8666aeb38ca1b3591b1f259c23188\"\n    },\n    {\n      \"file\": \"three_net_27_and_gravity_anomaly_free.smt2\",\n      \"result\": \"unsat\",\n      \"sha256\": \"045de915a09b08e7dabd16073cf7cebe20156be6a7b366f1fca63168cdfb538e\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\chiral-zero-mode-gate\\test_orbifold.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_all_saved_smt_replayed (__main__.Gate.test_all_saved_smt_replayed) ... ok\ntest_complete_domain (__main__.Gate.test_complete_domain) ... ok\ntest_gauge_and_sigma (__main__.Gate.test_gauge_and_sigma) ... ok\ntest_local_anomaly (__main__.Gate.test_local_anomaly) ... ok\ntest_missing_receipt (__main__.Gate.test_missing_receipt) ... ok\ntest_mixed_boundary_single_27 (__main__.Gate.test_mixed_boundary_single_27) ... ok\ntest_negative_parity_not_cherry_pick (__main__.Gate.test_negative_parity_not_cherry_pick) ... ok\ntest_no_chiral_anomaly_free_case (__main__.Gate.test_no_chiral_anomaly_free_case) ... ok\ntest_opposite_breaking_parities_remove_modes (__main__.Gate.test_opposite_breaking_parities_remove_modes) ... ok\ntest_second_sign_reverses_chirality (__main__.Gate.test_second_sign_reverses_chirality) ... ok\ntest_single_orbifold_full_hyper (__main__.Gate.test_single_orbifold_full_hyper) ... ok\ntest_tampered_receipt (__main__.Gate.test_tampered_receipt) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.854s\n\nOK\n"
+    }
+  ],
+  "hashes": {
+    "no_other_diagonal_lift_0.smt2": "34ebe605bc56886550f92f02932ef6940c2e0be7d93437db1083baddaac3f9d8",
+    "no_other_diagonal_lift_1.smt2": "aed38360be4034a3cf6f41fbac11818b44bf54b3c36efc828acdc6e6a8d34bd2",
+    "orbifold_checks.py": "aa8509e5a86c7c30137fc9dd319e7a10c3fa5b2d2f271ede5eccc57e437a6c69",
+    "RELEASE_DISCLOSURE.md": "5407b8a0f66aa1a3f506aeb2f7f5fc5f5fe54e740047ae35d5c9b3b9461f1f7f",
+    "REPORT.md": "ac85222e4f40bf2b096992bb447accced256f0a0df7bdddfa65018e9278e21fb",
+    "run_checks.py": "0540f232f1fb50ff5eb9a788b5abb5d5896d91883bd1250b766050ab758038e1",
+    "test_orbifold.py": "e8e7d871974070ca38d49f86904b62cb36a2a32905cb31ff692a16ce9883d9b8",
+    "three_net_27_and_gravity_anomaly_free.smt2": "c8ce994f88a80e236a93248fe2312a021a4db6bbc1d1287ec120e6f9d0f4c461",
+    "orbifold-receipt.json": "1a860c046449193a73fa23864e04a0167126ba3bd202309e8907ad8ea2b3729c"
+  },
+  "scope": "Local exact Python and Z3; no Lean or hosted CI claimed."
+}

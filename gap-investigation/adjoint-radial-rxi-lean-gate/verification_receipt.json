@@ -1,0 +1,19 @@
+{
+  "passed": false,
+  "lean_environment_repaired": true,
+  "lean_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
+  "init_smoke_exit_code": 0,
+  "formal_compile_exit_code": 1,
+  "formal_compile_error": "unknown module prefix 'Mathlib'",
+  "mathlib_required_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
+  "transport_attempts": [
+    "git clone tag v4.32.1: curl 56 reset/early EOF",
+    "HTTP/1.1 git clone: curl 18 early EOF",
+    "commit-pinned codeload archives: repeated connection resets; largest incomplete 11,730,944 bytes"
+  ],
+  "claim_boundary": "Formalization source generated from individual saved coefficients, but no Lean theorem is claimed until Mathlib transport completes and canonical compile exits zero.",
+  "upstream_saved_receipt_sha256": "197bdcebf7c08334ff65b81a5893e55b07906ad1a4de00358a4d75dca12f8c36",
+  "upstream_source_sha256": "6104dbbfbad4037c0dadc262068e633e349990ba69cfc817e77da890015246a5",
+  "formalization_source_sha256": "542224c97b2d5ec6a3220ffa7d83145f7b721ee0d4bbed7fc0fc642c6509d0ac",
+  "no_sorry_source_scan": true
+}

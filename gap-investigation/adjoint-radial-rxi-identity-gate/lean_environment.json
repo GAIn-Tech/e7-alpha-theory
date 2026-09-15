@@ -1,0 +1,8 @@
+{
+  "version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)\n",
+  "executable": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\bin\\lean.exe",
+  "import_Init_exit_code": 1,
+  "stdout": "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-rxi-identity-gate\\LeanAvailability.lean:1:0: error: unknown module prefix 'Init'\n\nNo directory 'Init' or file 'Init.olean' in the search path entries:\nc:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\lean-4.32.1-windows\\lib\\lean\n",
+  "stderr": "",
+  "scope": "No Lean theorem asserted; standard Init and Mathlib stack unavailable in pinned minimal executable distribution."
+}

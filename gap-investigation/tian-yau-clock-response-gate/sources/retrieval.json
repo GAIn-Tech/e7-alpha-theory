@@ -1,0 +1,16 @@
+[
+  {
+    "file": "hyperphysics.html",
+    "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/acloc.html",
+    "final_url": "http://hyperphysics.phy-astr.gsu.edu/hbase/acloc.html",
+    "status": 200,
+    "sha256": "ab9ca746b09476aad88fa773f8b3b19f0822f065d64efac6e282f8929f7483d6"
+  },
+  {
+    "file": "dilaton.pdf",
+    "url": "https://arxiv.org/pdf/2305.08263",
+    "final_url": "https://arxiv.org/pdf/2305.08263",
+    "status": 200,
+    "sha256": "3996b7e3154ab5d16d2a61fc9140842e58a979c3a2d3d7b11146f00121a24b4f"
+  }
+]

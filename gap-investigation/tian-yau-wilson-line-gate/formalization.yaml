@@ -1,0 +1,28 @@
+schema_version: 1
+project: tian-yau-wilson-line-gate
+status: locally-checked-self-assessed
+physical_result: complete order-three E6 toral classification and conditional trinification Higgs alignment
+formal_scope: universal paired-natural-count mass cancellation, not compactification or lattice formalization
+lean_version: 4.32.1
+lean_environment: kernel-only prelude without Init or Mathlib
+project_axioms: []
+headline_theorems:
+  - WilsonMass.right_swap
+  - WilsonMass.right_cancel
+  - WilsonMass.paired_mass_preserves_net
+  - WilsonMass.four_pairs_witness
+external_premises:
+  - sourced Tian-Yau topology, free action and equivariant cohomology
+  - compact maximal torus and Weyl conjugacy theorems
+  - simply-connected E6 coroot cocharacter lattice
+  - standard embedding and characteristic-class normalization
+  - physical interpretation of ordinary vectorlike bilinear removal
+automation: AI-assisted standard-library exact lattice, character, matrix and polynomial checks; Lean kernel proof terms
+not_proved:
+  - actual neutral and charged compactification Yukawa tensors
+  - full F-flat stationary stabilized vacuum
+  - post-Higgs exotic and mirror mass ranks
+  - complete global string anomaly and differential B-field data
+  - moduli stabilization, threshold matching or alpha prediction
+hosted_ci: not-run
+publishing: none

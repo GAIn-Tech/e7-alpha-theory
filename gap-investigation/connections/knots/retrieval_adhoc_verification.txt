@@ -1,0 +1,1 @@
+PASS ad-hoc: retrieval helper syntax, scope, source uniqueness, PDF persistence and full-text extraction using saved primary PDF; live network not retested

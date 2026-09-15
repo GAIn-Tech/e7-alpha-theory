@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "args": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\rg-fixed-point-gate\\check_rg.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"mode\": \"replay_saved_without_regeneration\",\n  \"checks\": 10,\n  \"canonical\": \"C:\\\\Users\\\\mikeb\\\\e7-alpha-theory\\\\gap-investigation\\\\rg-fixed-point-gate\",\n  \"N8\": {\n    \"Dirac_flavors\": 8,\n    \"b0\": \"2\",\n    \"b1\": \"-4824\",\n    \"b2_MSbar\": \"-364230\",\n    \"a2\": \"1/2412\",\n    \"omega\": \"1/603\",\n    \"CA_a2\": \"1/134\",\n    \"CF_a2\": \"19/3216\",\n    \"N_T_a2\": \"4/201\",\n    \"gamma_mass_1loop\": \"19/536\",\n    \"third_to_second_term_abs\": \"6745/215472\"\n  },\n  \"N8_a3_approx\": 0.0004023695493699846,\n  \"N8_relative_shift_approx\": 0.029484646919597138\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\rg-fixed-point-gate\\check_rg.py",
+        "--test"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_N1_no_root (__main__.Tests.test_N1_no_root) ... ok\ntest_N8_root (__main__.Tests.test_N8_root) ... ok\ntest_N8_slope (__main__.Tests.test_N8_slope) ... ok\ntest_N8_third_root_bracket (__main__.Tests.test_N8_third_root_bracket) ... ok\ntest_coefficients (__main__.Tests.test_coefficients) ... ok\ntest_convention_negative_control (__main__.Tests.test_convention_negative_control) ... ok\ntest_reject_false_IR (__main__.Tests.test_reject_false_IR) ... ok\ntest_trace_identity (__main__.Tests.test_trace_identity) ... ok\ntest_weyl_conversion (__main__.Tests.test_weyl_conversion) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.007s\n\nOK\n"
+    },
+    {
+      "args": [
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\mikeb\\AppData\\Local\\hermes\\skills\\research\\grounded-citations\\scripts\\sources.py",
+        "--ledger",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\rg-fixed-point-gate\\sources.json",
+        "verify",
+        "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\rg-fixed-point-gate\\REPORT.md",
+        "--evidence"
+      ],
+      "returncode": 0,
+      "stdout": "info: stats: 112 prose sentence(s), 8 with declared provenance (7%) \u2014 8 cited, 0 marked [unverified] (a sentence may be both); 2 distinct source(s) cited, 2 in ledger (2 with evidence quotes)\ncitations OK\n",
+      "stderr": ""
+    }
+  ],
+  "artifact_sha256": {
+    "beta-source.txt": "6614cd5be8c5ddae47f7969c0ff34fbf688e5b9bad364bc12f0d8be9838b0139",
+    "check_rg.py": "948a17931b1bf746283b84efc43b4d2d124afce936184b98414dc750af7ef01d",
+    "difference_factorization.smt2": "fd4ff8cc3018caffb3af89051b8c080ca44a09ed92c25b2740b1f0d17788b801",
+    "exceptional-source.txt": "b7d0afd0437ed222625d828c35af0923d69b8ffef7b2f4508fc4e3326397902c",
+    "finite_linear_map_injective.smt2": "934dee418592a9e22562556fbd48b0d880f38041b1b755c7afa2ff8bc169ddbc",
+    "flow_above_root.smt2": "912cd30f64a4a581b3d32c1048fe41abdcc0db450da5de536744748fab67881b",
+    "flow_below_root.smt2": "98e5ae2765a1bc0d18fa3e02c60f3c7b6d4a045a647d005a9122f908bb22d368",
+    "integer_IR_window.smt2": "579b7eb26bdcc16637dd29d9e52451b886bd87b7457add0b229a832902fe1494",
+    "IR_slope_positive.smt2": "1bcc04d0e7497857a125b82b35264bd9f3c8621cad8a5e0ffffe0cf9f05108d0",
+    "no_interacting_UV.smt2": "67edfad0f213f154f2b23bc70a82e565bde6156e772103c2c68a90fdce147cd3",
+    "normalization_products.smt2": "fec5b199c9fe2065f0e6527bbd52502a8d44f9ba42a3edea7115a43d972e7e4d",
+    "one_loop_no_positive_zero.smt2": "47201717dd835a8501ac6586be2da0fac35759c80c58c0ce83529443fe67c8e7",
+    "receipt.json": "5779655298a400ab9fd3be359d6f2c9fb0426baab0de97e3b8079cf5ebc0f9ee",
+    "REPORT.md": "5059cc3aab4461c008ba629bc1d46839f337aa8a2e82d2db7e55c656cefedcee",
+    "sources.json": "28a4b310c793b37c28452fab2985a43ca621870963b8ac2d75adc751b2d4609f",
+    "two_loop_root_unique.smt2": "1af4db400da4c8cde80c4f74d38e94da91c870db040bc797b234a17dcc906fef",
+    "verify_existing.py": "426318b98b64b065ec14ca90e5caf06d8bb42abd8667554cf84f67e9b3bc1547"
+  },
+  "scope": "local exact arithmetic, saved SMT replay and citation evidence; no Lean/QFT proof or hosted CI"
+}

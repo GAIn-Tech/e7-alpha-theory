@@ -1,0 +1,2466 @@
+=== PDF PAGE 1 ===
+arXiv:1012.5797v2  [hep-th]  11 Mar 2011
+CERN-PH-TH/2010-301
+SU-ITP-10/09
+KCL-MTH-10-12
+Exceptional Reductions
+Alessio Marrani 1, Emanuele Orazi 1 and Fabio Riccioni 2
+1 Physics Department, Theory Unit, CERN,
+CH -1211, Geneva 23, Switzerland
+Alessio.Marrani@cern.ch
+orazi@lnf.infn.it
+2 Department of Mathematics, King’s College London
+Strand London WC2R 2LS UK
+Fabio.Riccioni@kcl.ac.uk
+ABSTRACT
+Starting from basic identities of the group E8, we perform progressive reductions, namely de-
+compositions with respect to the maximal and symmetric embeddings of E7 × SU (2) and
+then of E6 × U (1).
+This procedure provides a systematic approach to the basic identities
+involving invariant primitive tensor structures of various irreprs. of ﬁnite-dimensional excep-
+tional Lie groups. We derive novel identities for E7 and E6, highlighting the E8 origin of some
+well known ones. In order to elucidate the connections of this formalism to four-dimensional
+Maxwell-Einstein supergravity theories based on symmetric scalar manifolds (and related to ir-
+reducible Euclidean Jordan algebras, the unique exception being the triality-symmetric N = 2
+stu model), we then derive a fundamental identity involving the unique rank-4 symmetric in-
+variant tensor of the 0-brane charge symplectic irrepr.
+of U-duality groups, with potential
+applications in the quantization of the charge orbits of supergravity theories, as well as in the
+study of multi-center black hole solutions therein.
+
+=== PDF PAGE 2 ===
+Contents
+1
+Introduction
+1
+2
+Preliminaries
+5
+3
+E8 ⊃E7 × SU(2)
+8
+4
+E7 ⊃E6 × U(1)
+12
+5
+The K-Tensor and Its “Master” Identity
+16
+A Conventions for SU(2)
+20
+B E6 ⊃SO(10) × U(1)
+21
+C A Useful Decomposition
+23
+1
+Introduction
+Supergravity theories have a rich algebraic structure, which also reﬂects into their scalar man-
+ifolds. A particularly remarkable class of scalar manifolds is given by the homogeneous spaces
+G/H, with G a non-compact Lie group, and H denoting its maximal compact subgroup. In
+particular, in maximal supergravities the U-duality1 groups G belong to the so-called excep-
+tional En(n)-sequence [3, 4] of symmetries of theories in 11 −n dimensions. This sequence is
+encoded in the very-extended Kac-Moody algebra E11 [5], and each theory corresponds to a
+decomposition with respect to each subalgebra GL(11 −n, R) × En(n). When n = 9, that is in
+two dimensions, the ﬁeld equations of the theory possess an E9(9) symmetry, which is the inﬁnite
+dimensional aﬃne extension of E8(8) [4, 6]. This is completely general: the (on-shell) symmetry
+of a two-dimensional theory obtained from the reduction of a three-dimensional theory whose
+scalars parametrise the manifold G/H is the inﬁnite dimensional aﬃne extension of G.
+Since the process of dimensional reduction leads to inﬁnite dimensional symmetries in D ⩽2,
+when one conﬁnes his attention to ﬁnite-dimensional symmetry groups the endpoint of a chain
+of symmetries of theories related by dimensional reduction is D = 3. As shown in [7, 8], and
+further systematized in [9, 10] (elaborating on ideas and results on “group disintegrations” of
+[3, 11]; see also [12]), one has a group-theoretic framework to determine which D = 3 theories
+can be conceived as dimensional reductions of higher-dimensional theories. In particular, in [10]
+the systematics of oxidations involving non-split U-dualities, including the bosonic sectors of the
+theories with 8 supersymmetries based on symmetric scalar manifolds, related by the r- and c-
+maps [13, 14, 15], has been developed using the diagrammatic language of Tits-Satake diagrams
+(see e.g. [16], and Refs. therein). This result was systematised in [17], where it was shown
+that starting from the Tits-Satake diagram of the three-dimensional theory one can construct
+a very-extended Kac-Moody algebra such that its Dynkin diagram encodes all the properties
+of the theory in various dimensions. The reconstruction procedure, which allows to determine
+the higher-dimensional ancestor(s) of a lower-dimensional theory, is usually named “oxidation”.
+1Here U-duality is referred to as the “continuous” symmetries of [1]. Their discrete versions are the U-duality
+non-perturbative string theory symmetries introduced by Hull and Townsend [2].
+1
+
+=== PDF PAGE 3 ===
+A remarkable aspect of oxidation is that, diﬀerently from the dimensional reduction, it is not
+unique, in the sense that it can admit diﬀerent “branches”, namely distinct higher-dimensional
+theories (eventually related by string dualities) originating the same lower-dimensional theory
+upon dimensional reduction.
+The investigation presented in this paper approaches the oxidations from the point of view
+of the fundamental identities involving invariant primitive tensor structures of the relevant
+(namely, fundamental and adjoint) irreprs. of the U-duality groups. Conﬁning ourselves to
+ﬁnite-dimensional groups, we start from basic identities in the adjoint irrepr. 248 of E8, and
+we perform progressive reductions, given by decompositions with respect to the maximal and
+symmetric E8-embedding of E7×SU (2) and then to the maximal and symmetric E7-embedding
+of E6 × U (1). Within such a framework, this approach provides a systematic way to derive all
+basic identities describing the structure of E8, E7 and E6 exceptional Lie groups. Indeed, we
+derive many novel identities involving the relevant invariant primitive tensors of such groups,
+and we also highlight the common origin (through iterated reduction) of some well known
+identities. Furthermore, we also present some results on the further maximal and symmetric
+E6-embedding of SO (10) × U (1), retrieving various well known Fierz identities of SO (10).
+Our procedure applies to the D = 3 →4 →5 →6 entries of the En(n) exceptional sequence
+of Cremmer-Julia, pertaining to split forms and thus to maximal supergravity in D = 3, 4, 5, 6,
+related to the irreducible Euclidean Jordan algebra over the split form of the octonions Os:
+E8(8) −→E7(7) −→E6(6) −→SO (5, 5) ;
+(1.1)
+in particular, SO (5, 5) ≡E5(5) is the U-duality group of the (2, 2) non-chiral maximal D = 6
+supergravity based on2 JOs
+2
+∼Γ5,5. However, since we do not specify the non-compact real
+form of the groups under consideration, our procedure also applies to the following non-split
+version of the Cremmer-Julia sequence (1.1)3:
+E8(−24)
+c
+−→E7(−25)
+r
+−→E6(−26) −→SO (1, 9) ;
+(1.2)
+in particular, SO (1, 9) is the U-duality group of the (1, 0) chiral minimal D = 6 magic super-
+gravity based on4 JO
+2 ∼Γ1,9. This sequence has an interpretation in terms of iterated oxidations
+pertaining to the “magic” supergravity theory with 8 supersymmetry in D = 3 →4 →5 →6,
+related to the irreducible Euclidean Jordan algebra over the division algebra of the octonions
+O.
+Remarkably, the results on the fundamental identities of E8, E7 and E6 also hold for the
+ﬁrst three elements of the sequence
+E8(−24)
+JO
+3
+−→E7(−5)
+JH
+3
+−→E6(2)
+JC
+3
+−→F4(4)
+JR
+3
+−→SO (4, 4)
+R⊕R⊕R
+−→G2(2)
+R
+.
+(1.3)
+2Γm,n stands for the Jordan algebra of degree two with a quadratic form of Lorentzian signature (5, 5), which
+is nothing but the Cliﬀord algebra of O (5, 5) [21].
+Also note the maximal (symmetric) algebraic embedding
+JOs
+3
+⊃max R ⊕JOs
+2 .
+3In the theories with 8 supersymmetries, the so-called c-map [13] and r-map (see e.g. [15, 22] for more Tables
+and a list of Refs.) relate D = 4/D = 3 and D = 5/D = 4, respectively.
+4Note the maximal (symmetric) algebraic embedding (see e.g. [23])
+JA
+3 ⊃max R ⊕JA
+2 ,
+where JA
+2 ∼Γ1,q+1, with q ≡dimR (A) = 8, 4, 2, 1 for the division algebras A = O, H, C, R, respectively.
+2
+
+=== PDF PAGE 4 ===
+J3
+G5
+G4
+G3
+JOs
+3
+E6(6)
+E7(7)
+d = 133, f = 56
+E8(8)
+JO
+3
+E6(−26)
+E7(−25)
+d = 133, f = 56
+E8(−24)
+JH
+3
+SU∗(6)
+SO∗(12)
+d = 66, f = 32
+E7(−5)
+JC
+3
+SL (3, C)
+SU (3, 3)
+d = 35, f = 20
+E6(2)
+JR
+3
+SL (3, R)
+Sp (6, R)
+d = 21, f = 14
+F4(4)
+M1,2 (O)
+−
+SU (1, 5)
+d = 35, f = 20
+E6(−14)
+R
+−
+SL (2, R)
+d = 3, f = 4
+G2(2)
+R ⊕R ⊕R
+[SO (1, 1)]2
+[SL (2, R)]3
+d = 9, f = 8
+SO (4, 4)
+Table 1: U-duality groups G3, G4 and G5 related to irreducible rank-3 Euclidean Jordan algebras
+in (Minkowskian) D = 3, 4 and 5, respectively. Also d ≡dimRAdj (G4) and f ≡dimRR (G4)
+are given. The corresponding scalar manifolds are the symmetric cosets
+G
+H , where H is the
+maximal compact subgroup (with symmetric embedding) of G. O, H, C and R respectively
+denote the four division algebras of octonions, quaternions, complex and real numbers, and Os
+is the split form of octonions. M1,2 (O) is the Jordan triple system (not upliftable to D = 5)
+generated by 2 × 1 matrices over O [18]. Note that the stu model, based on R ⊕R ⊕R, is
+reducible, but triality symmetric. All cases pertain to models with 8 supersymmetries, with
+exception of M1,2 (O) and JOs
+3 , related to 20 and 32 supersymmetries, respectively. The d = 5
+uplift of the t3 model based on R is the pure N = 2, D = 5 supergravity. JH
+3 is related to
+both 8 and 24 supersymmetries, because the corresponding supergravity theories share the very
+same bosonic sector [18, 19, 20]. Note that the dimensions f and d of all reported G4’s satisfy
+the relation d = 3f(f+1)
+f+16 . In particular, by considering N = 2, D = 4 “magic” supergravities
+(based on JA
+3 ) as well as N = 8, D = 4 maximal supergravity (based on JOs
+3 ), and deﬁning
+q ≡dimRA = 8, 4, 2, 1 for A = O, H, C, R, the relation f = 6q + 8 yields to d = 3(3q+4)(2q+3)
+q+4
+.
+Note that these relations also admit a limit q = 0, reproducing d and f of the reducible yet
+triality-symmetric stu model.
+3
+
+=== PDF PAGE 5 ===
+This sequence has not an interpretation in terms of iterated oxidation, but, as reported in Table
+1, it rather describes a chain of embeddings of the D = 3 U-duality groups of supergravity theo-
+ries with symmetric scalar manifolds associated to irreducible Euclidean Jordan algebras, given
+in the second line of (1.3). The cases JA
+3 (A = O, H, C and R being the four division algebras of
+octonions, quaternions, complex and real numbers) correspond to “magic” supergravities [18],
+whereas the cases R ⊕R ⊕R and R respectively pertain to the c-map of the so-called N = 2,
+D = 4 stu [24] and t3 models. The corresponding cosets can all be obtained by a c-map [13] of
+suitable symmetric special K¨ahler manifolds. Clearly, the rank-3 Jordan algebra R ⊕R ⊕R is
+not irreducible; however, it is sui generis, because it enjoys the remarkable triality symmetry
+[24].
+Also note that the sequence (1.1) is related to the sequence (1.3) by the maximal symmetric
+embedding E8(8) ⊃E7(−5), which has the trivial supergravity interpretation that N = 4, d = 3
+JH
+3 -magic theory is a consistent truncation of maximal N = 16, d = 3 supergravity.
+It is worth remarking that in our treatment we will not restrict to dimensional reductions on
+purely spacelike internal manifolds (usually tori). As resulting from the analyses of [7, 25], the
+only group theoretical diﬀerence between timelike and spacelike reductions is the non-compact
+nature of the coset stabilizer H. Recently, timelike reductions to D = 3 have been used as an
+eﬃcient tool to describe and classify spherically symmetric, asymptotically ﬂat and stationary
+black hole solutions (and the corresponding scalar ﬂows) of D = 4 supergravity theories with
+symmetric scalar manifolds (see e.g. [26], and Refs. therein). Interestingly, this also turned
+out to be relevant within the so-called “black hole/qubit correspondence” [27].
+In general, our group-theoretical approach to oxidation can be considered as complementary
+to the one exploited in [3, 11, 7, 8, 9, 10], because we deal with the reductions of the identities
+involving the invariant primitive tensors of the relevant irreprs. of the U-duality groups. This
+procedure provides a systematic derivation of a number of fundamental identities characterizing
+the U-duality groups of supergravity theories in various dimensions.
+As application of the results on the oxidations of group structure identities discussed above,
+we will then derive an identity involving the so-called K-tensor, namely the unique rank-4
+symmetric invariant tensor of the irrepr. of G4 in which the black hole charges sit. When
+contracted with four charge vectors, the K-tensor gives rise to the G4-invariant homogeneous
+quartic polynomial I4, which plays a prominent role in the algebraic classiﬁcation of the charge
+orbits and “moduli spaces” of extremal black hole attractors [28] in d = 4 Maxwell-Einstein
+supergravities (see e.g. [29]-[31], and Refs. therein). Moreover, the identity we will derive
+has potential applications in at least two other frameworks, namely: i) the quantization of the
+charge orbits of supergravity theories, which might be relevant in relation to recent develop-
+ments on the possible UV -ﬁniteness of N = 8, D = 4 supergravity (see e.g. [32], and Refs.
+therein); ii) the group-theoretical study of U-invariants relevant for multi-center black holes
+[33, 34].
+The plan of the paper is as follows.
+In Sect.
+2 we introduce the notation, and we re-
+port some general results on the relation between various data characterizing some Lie groups,
+appearing, through suitable non-compact real forms, as U-duality groups of supergravity the-
+ories. We also consider identities involving up to four structure constants, holding true for
+all ﬁnite-dimensional exceptional Lie groups. Sects. 3 and 4 exploit the approach based on
+the progressive oxidation of the starting E8-identities involving up to four structure constants.
+As discussed above, this amounts to decomposing such identities with respect to the following
+4
+
+=== PDF PAGE 6 ===
+chain of maximal and symmetric group embeddings:
+E8 ⊃E7 × SU(2) ⊃E6 × SU(2) × U (1) ,
+(1.4)
+and it provides a systematic way to derive all E7-identities and E6-identities originating from
+the basic starting relations for E8. We name this method “exceptional reductions”. In Sect. 5
+we derive a fundamental identity involving the K-tensor. Besides the aforementioned impor-
+tance of the K-tensor for the theory of extremal black hole attractors [28] in Maxwell-Einstein
+supergravities (see Sec.
+5), this (hitherto unknown) result has potential application in the
+issue of the classiﬁcation of the orbits of the irrepr. R (G4) in presence of Dirac-Zwanziger-
+Schwinger charge quantization conditions, especially for N = 8, D = 4 supergravity (see e.g.
+[35, 36, 37, 32], and Refs. therein), as well as in the study of multi-center black holes [33, 34].
+Various details and further results are given in the three Appendices which conclude the
+paper. In App. A we summarise our conventions for SU(2), crucial in order to perform the
+reduction of E8-identities in Sect. 3. In App. B we further reduce some E6-identities obtained
+in Sect. 4 with respect to the maximal and symmetric embedding
+E6 ⊃SO (10) × U (1) ,
+(1.5)
+retrieving some well known SO (10) Fierz identities, whose common origin (through iterated
+reduction) is thus clariﬁed. In App. C we derive an useful group theoretical decomposition
+used in Sect. 5, holding at least for all G4’s reported in Table 1.
+2
+Preliminaries
+The present Section is aimed at introducing the notation used throughout the paper, and at
+discussing the general approach which we will follow. Furthermore, some basic identities for the
+exceptional Lie group E8 will be derived, which will then be used in the analysis of Sects. 3 and
+4, in turn leading to other basic identities for the exceptional groups E7 and E6, respectively.
+For a generic simple Lie group G the Cartan-Killing metric καβ is deﬁned as
+CAdjκαβ = f αγ
+ǫf βǫ
+γ,
+(2.1)
+where CAdj is the quadratic Casimir in the adjoint irrepr. Adj (with lowercase Greek indices),
+and f αβγ are the structure constants of the corresponding Lie algebra g.
+We then consider the charge irrepr. R of the U-duality group G. In D = 4, R = Sympl,
+namely it is the smallest non-trivial symplectic irrepr. of G (e.g. R = Fund = 56 for E7) ,
+with a unique singlet CMN (the symplectic metric) in its antisymmetric tensor product5:
+∃!CMN ≡1 ∈Sympl2
+a.
+(2.2)
+In D = 5, R is not symplectic, but rather it splits into two (electric and magnetic) charge
+irreprs. (e.g. for E6: R = Fund = 27 gradient, and R = Fund = 27 contragradient). The
+D = 3 case of E8 stands on its own, because R = Fund = Adj = 248; see treatment of Sects.
+3, 4 and 5 for further elucidation.
+5The subscripts “s” and “a” respectively denote the symmetric and antisymmetric tensor products through-
+out.
+5
+
+=== PDF PAGE 7 ===
+The quadratic Casimir CR of R (with uppercase Latin indices) is deﬁned via
+CRδN
+M = καβtα
+M
+Ptβ
+P
+N,
+(2.3)
+where tα
+M
+N are the generators of g in R (G):
+
+tα, tβ N
+M = f αβ
+γtγ
+M
+N.
+(2.4)
+In this paper we will adopt instead a diﬀerent metric (see for instance the appendix of [38]),
+namely
+gαβ = Tr(tαtβ) = tα
+M
+Ntβ
+N
+M.
+(2.5)
+This in turn implies
+gαβtα
+M
+Ptβ
+P
+N = d
+f δN
+M,
+(2.6)
+where d ≡dimRAdj (G) and f ≡dimRR (G) throughout.
+Within this notation, Eq. (2.1) is replaced by (see e.g. [38, 39] and Refs. therein)
+fαγδf γδ
+β
+= −d
+f
+CAdj
+CR
+gαβ = −g∨
+eI
+gαβ,
+(2.7)
+where g∨is the dual Coxeter number of G, and eI is the Dynkin index of R (G).
+The results obtained in the present paper, and in particular in Sec. 5, hold at least for all
+D = 4 U-duality groups G4’s related to irreducible rank-3 Euclidean Jordan algebras, with the
+only exception of stu model (related to the triality-symmetric, reducible rank-3 Jordan algebra
+R ⊕R ⊕R). Such groups are reported in Table 1, along with their corresponding D = 3 and
+D = 5 counterparts6.
+It is worth observing that the fourth column of Table 1, pertaining to D = 3, is composed
+only by suitable non-compact, real forms of all exceptional (ﬁnite-dimensional, as understood
+throughout) Lie groups (once again, with the exception of stu model). Interestingly, all ex-
+ceptional Lie groups share the property that there exists a unique singlet in the completely
+symmetric rank-4 tensor product of their adjoint irrepr., namely:
+∃! 1 ∈(Adj)4
+s .
+(2.8)
+On the other hand, for all inﬁnite sequences of classical Lie algebras (but the groups SO (8)
+and SU (3)), there instead exist two such singlets, i.e.:
+∃11, 12 ∈(Adj)4
+s .
+(2.9)
+By looking at the G4 and G3 given in Table 1, one can observe that the Lie groups for
+which the result (2.8) is valid are nothing but, in suitable non-compact real forms, the G3’s
+of supergravity theories based on irreducible rank-3 Euclidean Jordan algebras (with the only
+exception of the reducible, but triality symmetric, rank-3 Jordan algebra R ⊕R ⊕R).
+As mentioned, in the cases with 8 supersymmetries, G3’s and G4’s are related through c-
+map [13]. It is also worth remarking that, as yielded by Table 1, the unique, exceptional group
+which is a U-duality group both in D = 4 and in D = 3 is E7, actually through all its possible
+6The trivial Jordan algebra related to the so-called t3 model, namely R, has rank 1 (see eighth row of Table
+1).
+6
+
+=== PDF PAGE 8 ===
+non-compact, real forms, namely: E7(7) (split, i.e. maximally non-compact, form) for maximal
+(N = 8) theory in D = 4, E7(−25) for N = 2 “magic” octonionic model in D = 4, and E7(−5)
+for N = 4 “magic” (dual to N = 12) quaternionic supergravity in D = 3.
+As anticipated, exceptions to (2.9) are provided by the following classical groups:
+SO (8)
+:
+∃11, 12, 13 ∈(28)4
+s ;
+(2.10)
+SU (3)
+:
+∃! 1 ∈(8)4
+s .
+(2.11)
+The three singlets characterizing the case of SO (8), which appears as D = 3 U-duality group
+of the stu model through its non-compact form SO (4, 4), can actually be traced back to the
+triality of SO (8) itself (related to the three-fold symmetry of its Dynkin diagram).
+On the other hand, SU (3), in its non-compact form SU (2, 1), is the D = 3 U-duality group
+of the so-called “universal hypermultiplet” scalar sector, parameterized by
+SU (2, 1)
+SU (2) × U (1),
+(2.12)
+which is both a rank-1 special K¨ahler and quaternionic manifold of real dimension 4, obtained
+as the c-map of the “pure” N = 2, D = 4 supergravity. It is an example of Einstein space with
+self-dual Weyl curvature [40].
+Observation (2.8) allows us to prove a crucial identity involving four structure constants,
+holding for all exceptional groups:
+fαǫτfβ
+ǫρfγ
+τσfδρσ = a[gαδgβγ + 2gα(βgγ)δ] + b[2f ǫ
+αγfǫβδ −f ǫ
+αδfǫβγ],
+(2.13)
+where a and b are real (G-dependent) constants to be determined.
+In order to prove (2.13), we start by noticing that the expression on its right-hand side is
+symmetric upon the exchanges α ↔δ and β ↔γ, as well as upon the simultaneous exchanges
+α ↔β, γ ↔δ. Therefore, the indices can either be completely symmetric or with mixed sym-
+metry (such that the complete symmetrisation of any three indices vanishes). The completely
+symmetric part is the term of the right-hand side of (2.13) proportional to a, and this is ﬁxed by
+the property (2.8). On the other hand, the mixed symmetry part is the term of the right-hand
+side of (2.13) proportional to b, which is then determined using the Jacobi identity
+fα[βγf α
+δ]σ = 0 .
+(2.14)
+For later convenience, let us deﬁne the (G-dependent) constant
+k ≡g∨
+eI
+,
+(2.15)
+such that e.g. the identity (2.7) can be rewritten as
+fαγδf γδ
+β
+= −kgαβ.
+(2.16)
+By suitably contracting indices, it is then straightforward to obtain:
+a =
+5k2
+6 (d + 2),
+b = −1
+6k,
+(2.17)
+7
+
+=== PDF PAGE 9 ===
+G
+g∨
+˜I
+d
+f
+k
+a
+b
+G2
+4
+1
+14
+7
+4
+5
+6
+−2
+3
+F4
+9
+3
+52
+26
+3
+5
+36
+−1
+2
+E6
+12
+3
+78
+27
+4
+1
+6
+−2
+3
+E7
+18
+6
+133
+56
+3
+1
+18
+−1
+2
+E8
+30
+30
+248
+248
+1
+1
+300
+−1
+6
+Table 2: Table giving the dual Coxeter number g∨, the Dynkin index ˜I (and their ratio k), the
+dimensions d and f, as well as the parameters a and b, for all exceptional Lie groups
+which plugged into (2.13) leads to
+fαǫτfβ
+ǫρfγ
+τσfδρσ =
+5k2
+6 (d + 2)[gαδgβγ + 2gα(βgγ)δ] −1
+6k[2f ǫ
+αγfǫβδ −f ǫ
+αδfǫβγ]. ■
+(2.18)
+The identity (2.18) was originally determined for E8 in [41] by using computer manipulations.
+The present analysis shows that the same identity applies to all exceptional Lie groups. The
+values of the constants k, a and b appearing in the above identities, as well as the values of g∨,
+˜I, d and f, are summarised for all exceptional groups in Table 2. As well known, E8 is peculiar,
+because Adj = Fund (= 248) for this group.
+Another identity with three structure constants, exploited in Sects. 3 and 4, is
+fαδǫf δ
+β ρfγ
+ǫρ = −k
+2fαβγ,
+(2.19)
+which can be proved using the Jacobi identities (2.14).
+Starting from E8, in Sects. 3 and 4, identities (2.14), (2.16), (2.18) and (2.19) will be used
+to derive many relevant identities of E7 and E6 which involve the invariant tensors made out of
+the Fund and Adj irreprs. occurring in the reduction. Our procedure amounts to splitting the
+indices of Fund and Adj with respect to the relevant maximal symmetric group embeddings,
+and then to analyzing the invariant tensor structures occurring in the branching of products of
+irreprs..
+As discussed above, such a a progressive reduction of the U-duality groups corresponds to
+a progressive oxidation, namely to a progressive uplift of the space-time dimension D in which
+the corresponding supergravity theory is deﬁned.
+3
+E8 ⊃E7 × SU(2)
+The aim of this section and the next one is to determine all possible E7 and E6 identities
+that result from the E8 identities listed in the previous section. Most of these identities are
+already known in the form we write them, in particular in the supergravity literature they have
+been used to derive the constraints satisﬁed by the so called “embedding tensor”, and thus
+determine all possible gaugings of maximal supergravity theories in any dimensions (see e.g.
+[38, 42, 43]). Most identities have also been derived in [39]7, where all the possible gauging
+7See in particular Appendix A of [39].
+8
+
+=== PDF PAGE 10 ===
+have been determined from E11, following the results of [44] (see also [45], where the so called
+“trombone” gaugings of [43] were shown to result from E11). Still, we are now aware of the
+appearance in the literature of some of the identities we list, like the E7-identities (3.24) and
+(3.27), and the E6-identity (4.23). Anyway, what we want to emphasise the most here is the
+straightforward E8 origin of all identities derived in this Section and in the next one.
+In this Section, we consider the maximal and symmetric group embedding8
+E8 ⊃E7 × SU(2),
+(3.1)
+and we derive all the E7-identities arising from the corresponding branching of the E8-identities
+(2.14), (2.16), (2.18) and (2.19).
+As mentioned above, E8 is a peculiar exceptional Lie group, because Adj = Fund (= 248).
+From the theory of symmetric invariant tensors of the Adj of Lie groups (see e.g. [46]), it is
+known that the 248 of E8 admit eight invariant tensors of order 2, 8, 12, 14, 18, 20, 24 and
+30. The order-2 and order-8 invariants correspond to primitive invariant tensors, in terms of
+which the higher ones should be expressible [47]. The quadratic one is nothing but the Cartan-
+Killing metric, whereas the octic one has been recently constructed (for E8(−248) and its split
+form E8(8), in a manifestly Spin (16) /Z2-covariant form) in [47]. To the best of our knowledge,
+explicit expressions of all other higher-order invariants (also in terms of the rank-2 and rank-8
+invariants) are currently unavailable. However, this will not aﬀect the subsequent analysis, in
+which only the E8-invariant tensors given by the rank-2 (symmetric) Cartan-Killing metric and
+by the rank-3 (completely antisymmetric) structure constants are involved.
+Under (3.1), the 248 of E8 branches as
+248 →(133, 1) + (56, 2) + (1, 3) ,
+(3.2)
+where 133 = Adj (E7) and 56 = R (E7) = Fund (E7).
+We will denote the indices in 248 of E8 with tilded Greek indices eα, eβ, ..., whereas the indices
+in 133 and 56 of E7 will be denoted by Greek indices α, β, ... and capital Latin indices M, N, ...,
+respectively. The index i = 1, 2, 3 and the index a = 1, 2 respectively denote the 3 = Adj (spin
+s = 1) and 2 = Fund (spin s = 1/2 ) of9 SU(2). Within these notations, the index splitting
+induced by (3.2) reads as
+eα →(α,
+Ma ,
+i) .
+(3.3)
+The Cartan-Killing metric geαeβ of E8 branches according to
+geαeβ →(gαβ ,
+CMNǫab ,
+gij) ,
+(3.4)
+where CMN is the symplectic invariant metric of E7 (indeed, the 56 is symplectic; recall (2.2)),
+satisfying
+CMNCNP = −δM
+P .
+(3.5)
+Concerning the decomposition of the E8 structure constants feαeβeγ according to (3.2), one
+should notice that in this case the normalisation in the reduction is not free, because Eq.
+(2.16) relates it with the normalisation of the Cartan-Killing metric. Thus, the normalisation
+used in (3.4) constrains the normalisation in the reduction of feαeβeγ :
+feαeβeγ →
+ a fαβγ ,
+b Di,abCMN ,
+c tα|MNǫab ,
+d ǫijk
+
+,
+(3.6)
+8Unless otherwise noted, all group embeddings considered in the present paper are maximal and symmetric.
+9A summary of our SU(2) conventions is given in App. A.
+9
+
+=== PDF PAGE 11 ===
+where a, b, c and d are real parameters to be determined, and where
+tα|MN ≡tα|M
+PCP N
+(3.7)
+is symmetric in MN.
+For clarity’s sake, let us recall here the various identities, discussed on general ground in
+Sect. 2, and decomposed, in the case of E8 under (3.1), in the treatment below:
+1. Jacobi identity:
+feα[eβeγf eα
+eδ]eσ = 0;
+(3.8)
+2. deﬁnition of the Cartan-Killing metric:
+geαeβ = −feαeγeδfeβ
+eγeδ;
+(3.9)
+3. the identity with three structure constants:
+feαeδeǫfeβ
+eδ
+eρfeγ
+eǫeρ = −1
+2feαeβeγ;
+(3.10)
+4. the identity with four structure constants:
+feαeǫeτfeβ
+eǫeρfeγ
+eτeσfeδeρeσ =
+1
+300[geαeδgeβeγ + 2geα(eβgeγ)eδ] −1
+6[2feǫ
+eαeγfeǫeβeδ −feǫ
+eαeδfeǫeβeγ].
+(3.11)
+We now proceed with the reduction of such E8-identities under the embedding (3.1)-(3.2).
+1. Let us start with the reduction of the E8-Jacobi identity (3.8). If all free indices are either
+in the 133 of E7 or in the 3 of (SU(2)), one simply gets the corresponding Jacobi identity.
+If three indices are in the 133, this implies the previous case. The ﬁrst non-trivial case
+corresponds to having two and only two indices in the 133, implying that the other two
+indices are in the 56 of E7; thus, one obtains (2.4) for the generators of E7, provided that
+c = −a.
+(3.12)
+Similarly, if two indices are in the 3 of SU(2), one gets
+d = −b.
+(3.13)
+All the terms with only one index in the Adj of either E7 or SU(2) identically vanish.
+Finally, the case in which all indices are in the 56 of E7 should be considered. Using the
+Fierz identity
+ǫ[abǫc]d = 0,
+(3.14)
+one gets
+ǫabǫcd
+ c2tα|MNtα
+P Q −c2tα|P Mtα
+NQ
+−b2
+4 CMNCP Q + b2
+2 CNPCMQ −b2
+4 CP MCNQ
+
++ǫbcǫad
+ c2tα|NPtα
+MQ −c2tα|P Mtα
+NQ
++ b2
+4 CNPCMQ −b2
+2 CMNCP Q + b2
+4 CP MCNQ
+
+= 0.
+(3.15)
+Given that the two terms in (3.15) are independent, this implies the E7-identity
+c2tα|M[Ntα
+P ]Q −b2
+4 CM[NCP ]Q + b2
+4 CNPCMQ = 0.
+(3.16)
+10
+
+=== PDF PAGE 12 ===
+2. We now perform the exceptional reduction of (3.9), by recalling the branching (3.4). The
+gαβ term yields the identities (2.5) and (2.16) for E7, provided that
+a2 = 1
+5.
+(3.17)
+On the other hand, by using the SU(2) conventions reported in App. A, one can show
+that the gij term yields
+b2 = 1
+30.
+(3.18)
+Finally, the CMNǫab term gives
+3
+2b2 + 19
+4 c2 = 1,
+(3.19)
+which is identically satisﬁed. By plugging (3.17) and (3.18) into (3.16), one obtains the
+following E7-identity:
+tα|M[Ntα
+P ]Q −1
+24CM[NCP ]Q + 1
+24CNPCMQ = 0.
+(3.20)
+It should be pointed out that all the identities which can be obtained through the “excep-
+tional reduction” approach under consideration are invariant under simultaneous change
+of sign of the generators and of the structure constants, for both E7 and SU(2). Therefore,
+the coeﬃcients in Eq. (3.6) can only be determined up to an independent sign in front
+of a and c, and in front of b and d. By assuming a and d to be positive, the performed
+analysis ﬁxes a, b, c, d completely, and the consistent normalization of the branching (3.6)
+reads
+feαeβeγ →
+
+1
+√
+5 fαβγ ,
+−
+1
+√
+30 Di,abCMN ,
+−1
+√
+5 tα|MNǫab ,
+1
+√
+30 ǫijk
+
+.
+(3.21)
+3. Next, let us consider the exceptional reduction of (3.10). If the free indices are αβγ, by
+using the identity (2.19) for E7, one gets
+tα|M
+Ntβ|P
+Mtγ|N
+P = −1
+2fαβγ,
+(3.22)
+which can be proved by using the symmetry in MN of the generators of E7. The identity
+(3.10) is also trivially true if the free indices are ijk. The unique other non-trivial identity
+comes from setting one index in the 133 and the other two indices in the 56; in such a
+case, (3.10) implies
+tα|N
+Mtβ|MPtβ|NQ = 7
+8tα|P
+Q.
+(3.23)
+All other values of the free indices yield trivial relations.
+4. Finally, we consider the reduction of (3.11). If all four indices are in the 133, using the
+identity (2.19) for E7, one obtains the E7-identity:
+tα|M
+Ntβ|N
+Ptγ|Q
+Mtδ|P
+Q =
+1
+72[gαδgβγ + 2gα(βgγ)δ] −1
+6[2f ǫ
+αγfǫβδ −f ǫ
+αδfǫβγ] .
+(3.24)
+On the other hand, if all indices are in the 3 of SU(2), (3.10) is identically satisﬁed using
+the properties of the Pauli matrices. Moreover, if one sets the indices eα and eβ in the 133
+and the indices eγ and eδ in the 56, then the following E7-identity is achieved:
+fαǫ
+τfβ
+ǫρtτ|M
+Ptρ|P N + tα|P
+Rtβ|RQtγ|M
+Ptγ
+N
+Q = −1
+12gαβCMN −37
+24tα|M
+Ptβ|P N + 5
+6tβ|M
+Ptα|P N,
+(3.25)
+11
+
+=== PDF PAGE 13 ===
+which can equivalently be rewritten as10
+(tγtα)Q
+Rtβ
+P
+Qtβ|R
+M =
+1
+24δM
+P δγ
+α + 11
+24(tγtα)P
+M −5
+12(tαtγ)P
+M.
+(3.26)
+Finally, if all indices are in the 56, by using the Fierz identity (3.14) the reduction of
+(3.11) leads to two expressions turning out to be identical after using (3.20), and resulting
+into the following E7-identity :
+tα|M
+Rtβ|RNtα
+P
+Stβ
+SQ −1
+6tα|MPtα
+NQ + 1
+12tα|MNtα
+P Q + 5
+6tα|MQtα
+NP
+−19
+144CMPCNQ −47
+576CMNCP Q +
+7
+144CMQCNP = 0.
+(3.27)
+These are all the non-trivial relations among E7-invariant tensors that can be obtained
+by performing the reduction of the E8-identities (3.8)-(3.11) under the embedding (3.1)-(3.2).
+Apart from the identities (2.5), (2.6), (2.14), (2.16), (2.18) and (2.19), we also derived the
+E7-identities (3.20), (3.22), (3.23), (3.24), (3.25) and (3.27).
+4
+E7 ⊃E6 × U(1)
+In this Section, we consider the group embedding
+E7 ⊃E6 × U(1),
+(4.1)
+and we derive all the E6-identities arising from the corresponding branching of the E7-identities
+obtained in Sect. 3, given by (3.20), (3.22), (3.23), (3.24), (3.25) and (3.27).
+In order to perform the reduction of the E7-identities down to E6, we start and decompose
+the Adj = 133 and Fund = 56 irreprs. of E7 in terms of E6 × U(1):
+133
+→
+780 + 27−2 + 27+2 + 10;
+(4.2)
+56
+→
+27+1 + 27−1 + 1+3 + 1−3,
+(4.3)
+where the subscripts denote the U(1)-charges, and the two singlets in (4.3) are written in such
+a way that their opposite U(1)-charges are manifest. Concerning the E6-irreprs., we will here
+denote the Adj (E6) = 78 with hatted lowercase Greek indices bα, and the Fund (E6) = 27 and
+Fund (E6) = 27 with, covariant (lower) respectively contravariant (upper), hatted uppercase
+Latin indices c
+M. Thus, the decompositions (4.2) and (4.3) respectively yield the following
+index splittings:
+Vα
+→
+
+Vbα ,
+Vc
+M ,
+V
+c
+M ,
+V1
+
+;
+(4.4)
+WM
+→
+
+Vc
+M ,
+V
+c
+M ,
+V1 ,
+V1
+
+.
+(4.5)
+From (4.2), the Cartan-Killing metric of the 133 of E7 decomposes according to
+gαβ →
+
+gbαbβ (78 78) ,
+δ
+b
+N
+c
+M (27 27) ,
+1 (1 1)
+
+,
+(4.6)
+whereas from (4.3) the symplectic invariant tensor CMN of the 56 of E7 branches as
+CMN →
+
+δ
+b
+N
+c
+M (27 27),
+1 (1 1)
+
+.
+(4.7)
+10(3.26) corrects a typo in the identity (A.16) of [39].
+12
+
+=== PDF PAGE 14 ===
+In (4.6) and (4.7), we notated in brackets the irreprs. to which the indices (αβ respectively
+MN) belong in each term. Note that all terms occurring in the reduction must be invariant
+tensors of E6 × U(1), and thus they trivially have vanishing U(1)-charge.
+As also holding for the reductions considered in Sect. 3, the normalisation in the reduction of
+the structure constants and of the generators cannot be arbitrarily chosen, because it is related
+to the normalisation of the Cartan-Killing metric and of the invariant tensor δN
+M. We will ﬁx
+such normalisations further below.
+The generator tα|MN of E7, which is symmetric in MN, is thus decomposed according to
+tα|MN
+→
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a tbα|c
+M
+b
+N (78 27 27) ,
+b d b
+P c
+M b
+N (27 27 27) , −b d b
+P c
+M b
+N (27 27 27) ,
+c δ b
+N
+c
+M (1 27 27) ,
+d δ c
+M
+bP (27 27 1) , d δ b
+P
+c
+M (27 27 1) ,
+e (1 1 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(4.8)
+where dc
+M b
+N bP and dc
+M b
+N bP are the rank-3 completely symmetric invariant tensors of the 27 and
+27 of E6, namely the singlets:
+dc
+M b
+N bP ≡1 ∈(27)3
+s ,
+d
+c
+M b
+N bP ≡1 ∈
+ 27
+3
+s .
+(4.9)
+In (4.8), we notated in brackets the representations to which the indices αMN belong for
+each term. The real parameters a, b, c, d, e will be determined in the following treatment. It
+should be here remarked that the terms proportional to dc
+M b
+N b
+P and dc
+M b
+N bP in (4.8) have opposite
+coeﬃcients, for consistency with the condition
+dc
+M b
+N b
+Pd
+c
+M b
+N b
+Q = δ
+b
+Q
+b
+P ,
+(4.10)
+that we assume11. Again, as was the case for (4.6) and (4.7), the U(1)-charge of each term in
+the decomposition (4.8) vanishes.
+Furthermore, the structure constants of E7 decompose according to
+fαβγ →
+
+f fbαbβbγ (78 78 78) ,
+g tbα|c
+M
+b
+N (78 27 27) ,
+h δ
+b
+N
+c
+M (27 27 1)
+
+,
+(4.11)
+11This simplifying assumption changes the normalization of the d-tensors dc
+M b
+N b
+P and dc
+M b
+N b
+P with respect the
+one usually adopted in supergravity. For example, let us consider the embedding (particular non-compact real
+form of (4.1))
+E7(−25) ⊃E6(−26) × SO (1, 1) ,
+pertaining to N = 2, D = 4 octonionic “magic” supergravity (based on JO
+3 ) branched with respect to its D = 5
+U-duality group E6(−26). In this case, it holds that [48] (see also [49] for recent treatment):
+dc
+M b
+N b
+P d
+c
+M b
+N b
+Q = 10δ
+b
+Q
+b
+P .
+Thus, assumption (4.10) amounts to changing such a normalization, and setting to 1 the coeﬃcient of propor-
+tionality between dc
+M b
+N b
+P dc
+M b
+N b
+Q and δ
+b
+Q
+b
+P .
+13
+
+=== PDF PAGE 15 ===
+with the real parameters f, g, h to be determined.
+1. We start by considering the reduction of the identities that do not involve the structure
+constants fαβγ of E7. The identities (2.5) and (2.6) speciﬁed for E7 give the same relations
+for E6, provided that
+a2 = 1
+2,
+(4.12)
+and that the other parameters in (4.8) satisfy the system
+
+
+
+1 = b2 + 2d2;
+1 = 54c2 + 2e2;
+19
+8 = 27d2 + e2,
+(4.13)
+which leaves one parameter undetermined.
+2. The reduction of the identity (3.20) constrains the squares of all the parameters in the
+decomposition (4.8) to be
+b2 = 5
+6,
+c2 = 1
+72,
+d2 = 1
+12,
+e2 = 1
+8,
+(4.14)
+and it also yields the further constraint
+ce = 1
+24.
+(4.15)
+On the other hand, the only non-trivial E6-identity that it produces reads
+tbα|c
+M
+b
+Ntbα
+b
+P
+b
+Q = 1
+6δ
+b
+Q
+c
+Mδ
+b
+N
+bP + 1
+18δ
+b
+N
+c
+Mδ
+b
+Q
+bP −5
+3dc
+M b
+P bRd
+b
+N b
+Q bR.
+(4.16)
+3. We then consider the reduction of the identity (3.23), which gives rise to the two following
+E6-identities:
+tbα
+c
+M
+b
+Nd
+c
+M bP b
+Qd b
+N bS b
+Q = −1
+2tbα
+bS
+b
+P;
+tbα
+c
+M
+b
+Ntbα| bP
+b
+Qd b
+N b
+Q bR = −13
+9 dc
+M b
+P bR.
+(4.17)
+By using the values of the parameters obtained above, it can be checked that all other
+combinations of indices yield trivial relations.
+4. The remaining E7-identities that do not involve the structure constants fαβγ are given by
+(3.26) and (3.27). The identity (3.26) has two free indices in the 133 and two other ones
+in the 56 of E7. Its reduction produces only two non-trivial E6-identities, namely:
+1
+4(tbαtbβ) b
+P
+b
+Qtbγ|c
+M
+b
+Ptbγ
+b
+Q
+b
+N + 5
+12(tbβtbα) b
+P
+b
+Qdc
+M b
+Q bRd
+b
+N b
+P bR −2
+9(tbαtbβ)c
+M
+b
+N
++ 5
+24(tbβtbα)c
+M
+b
+N −1
+24gbαbβδ
+b
+N
+c
+M = 0,
+(4.18)
+14
+
+=== PDF PAGE 16 ===
+where the free indices are bα, bβ, c
+M and bN (thus, two in the 78, one in the 27, and the
+other one in 27), and
+5
+2dc
+M bRbSd
+b
+N bR bTd b
+P bT bUd
+b
+QbS bU + dc
+M b
+P bRd
+b
+N b
+Q bR −1
+4δ( b
+N
+c
+M δ
+b
+Q)
+bP = 0,
+(4.19)
+with two indices in the 27 and two other ones in the 27. By using (4.16), one can show
+that all other identities resulting from the reduction of (3.26) and (3.27) are equivalent
+to the the ones given above.
+5. We then proceed to considering the reduction of the identities containing the structure
+constants fαβγ of E7. In order to derive the coeﬃcients f, g and h in the decomposition
+(4.11), it is suﬃcient to consider the reduction of the E7-identity (2.4). This yields: i)
+again (4.11) for E6; ii) the identity
+tbα|(c
+M
+b
+Qd b
+N b
+P ) b
+Q = 0,
+(4.20)
+which is the condition of invariance of dc
+M b
+N b
+P itself; iii) the identity (4.16). Thus, the
+parameters f, g and h must satisfy
+f = a,
+g = −a,
+hc = 1
+36.
+(4.21)
+6. The reduction of the Jacobi identity of E7 and the reduction of the E7-identity (2.16)
+produce no further new E6-identities, while the reduction of the E7-identity (2.19) yields
+the E6-identity
+tbα|c
+M
+b
+Ntbβ| bP
+c
+Mtbγ| b
+N
+bP = −1
+2fbαbβbγ,
+(4.22)
+together with (2.19) for E6. Also, it can be checked that the reduction of (3.22) gives no
+additional E6-identities.
+7. Finally, we consider the reduction of the E7-identities (2.13), (3.24) and (3.25). These all
+give rise to the following two E6-identities :
+tbα|c
+M
+b
+Ntbβ| bP
+c
+Mtbγ| b
+N
+b
+Qtbδ| bQ
+b
+P −1
+12g(bαbβgbγbδ) + 1
+6(2fbǫ
+bαbγf bǫbβbδ −fbǫ
+bαbδfbǫbβbγ) = 0;
+(4.23)
+fbǫ
+bαbτfbǫbβbσ(tbτtbσ)c
+M
+b
+N −(tbαtbβ) b
+P
+b
+Qtbγ|c
+M
+b
+Ptbγ
+b
+Q
+b
+N + 17
+9 (tbαtbβ)c
+M
+b
+N
+−(tbβtbγ)c
+M
+b
+N + 2
+9gbαbβδ
+b
+N
+c
+M = 0.
+(4.24)
+By using (4.16), the identity (4.24) can be equivalently rewritten as
+(tbαtbβ) b
+P
+b
+Qdc
+M b
+Q bRd
+b
+N b
+P bR + 1
+5(tbαtbβ)c
+M
+b
+N −3
+10(tbβtbα)c
+M
+b
+N −1
+30gbαbβδ
+b
+N
+c
+M = 0.
+(4.25)
+15
+
+=== PDF PAGE 17 ===
+To summarise, all the E6-identities that we have obtained result from the E7-identities
+obtained in Sect. 3, by means of decompositions (4.6), (4.7) and of (recall (4.8) and (4.11)):
+tα|MN →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+√
+2tbα|c
+M
+b
+N (78 27 27) ,
+q
+5
+6d b
+P c
+M b
+N (27 27 27) , −
+q
+5
+6d b
+P c
+M b
+N (27 27 27) ,
+1
+6
+√
+2δ b
+N
+c
+M (1 27 27) ,
+1
+2
+√
+3δ c
+M
+b
+P (27 27 1) ,
+1
+2
+√
+3δ b
+P
+c
+M (27 27 1) ,
+1
+2
+√
+2 (1 1 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+(4.26)
+fαβγ →
+
+
+
+
+
+
+
+1
+√
+2fbαbβbγ (78 78 78) ,
+−1
+√
+2tbα|c
+M
+b
+N (78 27 27) ,
+1
+3
+√
+2δ b
+N
+c
+M (27 27 1)
+
+
+
+
+
+
+
+.
+(4.27)
+In App. B we proceed further, and consider some examples of reductions of E6-identities
+with respect to its maximal subgroup SO (10) × U (1).
+5
+The K-Tensor and Its “Master” Identity
+As application of the formalism developed in previous Sects., in order to elucidate the connec-
+tions to D = 4 Maxwell-Einstein supergravity theories based on symmetric scalar manifolds
+and related to irreducible Euclidean Jordan algebras (the unique exception being the triality-
+symmetric N = 2 stu model), we now derive a fundamental (dubbed “master”) identity,
+involving the unique rank-4 completely symmetric invariant tensor (named K-tensor) of the
+0-brane (black hole) charge irrepr. R of G4 (see also the treatment of [50]). Besides the impor-
+tance of the K-tensor for the theory of extremal black hole attractors [28] in Maxwell-Einstein
+supergravities, this (hitherto unknown) identity has potential application in the issue of the
+classiﬁcation of the orbits of R (G4) in presence of Dirac-Zwanziger-Schwinger charge quanti-
+zation conditions (especially for N = 8, D = 4 supergravity, see e.g. [35, 36, 37, 32], and Refs.
+therein), as well as in the study of multi-center black hole solutions [33, 34].
+At least in D = 4 supergravities with symmetric scalar manifolds G4
+H4, the U-duality groups
+G4’s share the property that the generators tα|MN (3.7) in R are G4-singlets:
+∃! tα|MN ≡1 ∈Adj ×s (R ×s R) .
+(5.1)
+This can be proven explicitly by using Baker-Campbell-Hausdorﬀformula (see e.g. [51] and
+Refs. therein) and acting on the generators (3.7) with a generic group element S ≡eξβtβ ∈G4.
+In fact, G4 induces a transformation of the symplectic indices which is equivalent to an inverse
+16
+
+=== PDF PAGE 18 ===
+transformation on the adjoint index:
+tα →S tα S−1
+=
+tα + ξβ1 [tβ1, tα] + 1
+2ξβ1ξβ2 [tβ1 [tβ2, tα]] + · · · =
+=
+tα −ξβ1 (Tβ1)α
+σtσ + 1
+2ξβ1ξβ2 (Tβ1Tβ2)α
+σtσ + · · · =
+=
+
+e−ξβTβ
+
+α
+σ tσ ≡
+ S−1
+α
+σ tσ ,
+(5.2)
+where the adjoint representation of generators (made out of the structure constants fαβγ of the
+Lie algebra g4 of G4)
+(Tα)σ
+δ ≡−fασ
+δ ,
+(5.3)
+was used. Consequently, S ≡eξβTβ, deﬁned by the last line of (5.2), is the adjoint representation
+of S itself.
+A key property of the symplectic representation tαMN of the generators is the even symmetry
+of its symplectic indices: tαMN = tα(MN). Besides (5.1) itself, this is also implied by the fact
+that tα[MN] is the symplectic variation of CMN, which trivially vanishes, due to the fact that
+the symplectic metric CMN itself is a G4-singlet (recall (2.2)).
+By exploiting such a symmetry, it is possible to construct a rank-4 completely symmetric
+G4-invariant tensor of R, dubbed K-tensor:
+∃!KMNP Q ≡1 ∈(R)4
+s ,
+(5.4)
+which is not a primitive invariant, since it is in general deﬁned as follows:
+KMNP Q ∝tα
+(MNtα|P Q)
+=
+1
+3
+ tα
+MNtα|P Q + tα
+MPtα|QN + tα
+MQtα|P N
+
+.
+(5.5)
+Such an invariant structure exists at least in D = 4 supergravities with symmetric scalar
+manifolds G4
+H4. Furthermore, for all these theories but the N = 2 CPn minimal coupling sequence
+[52] and the N = 3 theory [53], the K-tensor is irreducible in R, namely it cannot be expressed
+in terms of lower-rank tensors with indices only in R.
+For instance, for G4 = E7 (corresponding to N = 8 maximal and to N = 2 “magic”
+octonionic D = 4 supergravity, for E7(7) respectively E7(−25)), it holds R = Fund = 56, and
+(56)4
+s =
+KMNP Q
+1
++ 1463 + 1539 + 7371 + 150822 + 293930.
+(5.6)
+In this case, the K-tensor deﬁned in (5.5) can be characterized in a more useful way using the
+E7-identity (3.20), which can be recast in the following form:
+tα
+M[N|tα|P ]Q = 1
+24
+
+CM(PCQ)N −CM(NCQ)P
+
+.
+(5.7)
+After some algebra, the following identity is achieved:
+tα
+(MN|tα|P Q) = tα
+MNtα|P Q −1
+12 CM(PCQ)N .
+(5.8)
+By using (2.6) and (3.5), one can check (5.8) to be skew-traceless. Thus, for G4 = E7 the
+following fundamental relation is obtained:
+KMNP Q = ξ tα
+(MNtα|P Q) = ξ
+
+tα
+MNtα|P Q −1
+12 CM(PCQ)N
+
+,
+(5.9)
+17
+
+=== PDF PAGE 19 ===
+where the real proportionality constant ξ has been introduced. At least in all D = 4 supergrav-
+ities with symmetric scalar manifolds in which the K-tensor is irreducible in R (see comment
+below (5.5)), the result (5.9) can be generalized as
+KMNP Q = ξ
+ tα
+MNtα|P Q −τ CM(PCQ)N
+
+,
+(5.10)
+where τ is a real constant, in general depending on d and f, determined by imposing the
+skew-tracelessness condition on KMNP Q (recall identities (2.6) and (3.5)):
+CNPKMNP Q = 0 ⇔τ =
+2d
+f(f + 1) .
+(5.11)
+Thus, the following expression for the K-tensor is obtained:
+KMNP Q = ξ
+
+tα
+MNtα|P Q −
+2d
+f(f + 1)CM(PCQ)N
+
+,
+(5.12)
+where the real proportionality constant ξ depends on the chosen normalization of the generators
+tα’s, getting ﬁxed by the explicit computation.
+Remarkably, the K-tensor is related to the well known invariant homogeneous polynomial I4
+of R (G4), used to classify extremal black hole solutions in Maxwell-Einstein D = 4 supergrav-
+ities with symmetric scalar manifolds (see e.g. [29] for a review and a list of Refs.). Indeed,
+I4 is deﬁned as the contraction of the K-tensor with four copies of the charge vector of R
+(Λ = 0, 1, ..., f/2 −1)
+QM = (pΛ, qΛ)t,
+(5.13)
+namely:
+I4 ≡KMNP QQMQNQPQQ = ξtα
+MNtα|P QQMQNQPQQ ,
+(5.14)
+resulting in a homogeneous polynomial of degree four in the black hole charges Q.
+It is here worth remarking that in D = 5 the role of the K-tensor is played by the so-called d-
+tensors deﬁned in (4.9), used to construct the G5-invariant cubic homogeneous polynomials I3,e
+(electric) and I3,m (magnetic) (see e.g. [54, 30, 55, 56]). A key diﬀerence is that the d-tensor is
+primitive, namely it cannot be expressed in terms of other independent tensor structures in any
+irreprs. of G5, while the K-tensor is not primitive (from its very deﬁnition (5.5)). Moreover,
+at least in symmetric geometries, the d-tensor satisﬁes the fundamental identity
+dc
+M( b
+N b
+Pd b
+Q bR)bSd
+c
+M bS bT = 2
+15δ
+bT
+( b
+Nd b
+P b
+Q bR).
+(5.15)
+This identity can be derived from the identities obtained in Sect. 4, by contracting (4.16) with
+d bS bT b
+Q, and then by symmetrising with respect to all the lower indices and using (4.20). Notice
+the diﬀerent normalization of (5.15) e.g. with respect to Refs. [18, 48] (see Footnote 11).
+In analogy with the D = 5 case, the issue of deriving an identity analogue to (5.15) involving
+the K-tensor naturally arises out. By exploiting the deﬁnition (5.12) of the K-tensor and the
+18
+
+=== PDF PAGE 20 ===
+decomposition (C.1), the following result can be achieved (recall (5.11)):
+KMNP QKRSTUCQR = K(MNP )QKR(STU)CQR
+=
+−ξ2 1
+f tα,|(MNCP )(Stα
+TU)
++ξ21
+2fαβγtα
+(MNtβ
+P )(Stγ
+TU) −ξ2tα
+(MNSαβ|P )(Stβ
+TU)
+(5.16)
+=
+ξ 1
+f K(MN|(STCU)|P ) + ξ2 τ
+f C(M|(S|C|N||T|C|P )|U)
++ξ21
+2fαβγtα
+(MNtβ
+P )(Stγ
+TU) −ξ2tα
+(MNSαβ|P )(Stβ
+TU),
+(5.17)
+where C(M|(S|C|N||T|C|P )|U) means symmetrization for the triplets of indices (M, N, P) and
+(S, T, U).
+In (5.16) and (5.17) we introduced the fundamental invariant tensor S[MN]
+(αβ)
+(see
+App. C), that does not arise from the reduction of the E8-identities considered in the present
+paper.
+By some algebra, Eq. (5.10) yields (recall (5.11)):
+KMNA1A2KP QA3A4CA1A3CA2A4 = ξ
+
+(2τ −1) KMNP Q + ξ τ (τ −1) CM(PCQ)N
+
+.
+(5.18)
+The identity (5.18) implies that arbitrary powers of the K-tensor, each having a couple of
+indices contracted, are always linear in the K-tensor and in CM(PCQ)N. By further contracting
+with the charges QMQNQPQQ and recalling deﬁnition (5.14), one obtains
+KMNA1A2KP QA3A4CA1A3CA2A4QMQNQPQQ = ξ (2τ −1) I4.
+(5.19)
+On the other hand, by suitably changing the order of the indices of the K-tensor and recalling
+Eq. (2.7), one can compute
+KMA1NA2KP A3QA4CA1A3CA2A4QMQNQPQQ = −ξ
+g∨
+4eI
++ τ
+
+I4.
+(5.20)
+From the complete symmetry of the K-tensor, the fact that the left-hand sides of (5.19) and
+(5.20) are equal implies the following relation:
+g∨
+eI
+= 4 (1 −3τ) ,
+(5.21)
+which, through (5.11), relates the dual Coxeter number g∨, the Dynkin index of R, and the
+dimensions of R and Adj. The result (5.21) holds at least for all G4’s of supergravity theories
+reported in Table 1. For these groups, Eqs. (2.7) and (5.21) imply that the general result
+CAdj
+CR
+= f
+d
+g∨
+eI
+(5.22)
+can be further elaborated as
+CAdj
+CR
+= 4f
+d (1 −3τ) .
+(5.23)
+19
+
+=== PDF PAGE 21 ===
+The “master” identity (5.17) has potential application in the study of independent tensor
+structures in the 0-brane (black hole) charge irrepr. R of G4’s of symmetric D = 4 supergrav-
+ities. Due to recent advances in the investigation of UV ﬁniteness properties [32], the case of
+the 56 of G4 = E7(7), U-duality group of N = 8, D = 4 supergravity, is especially relevant.
+In this case, the primitive tensors of the 56 of E7(7) are related to the classiﬁcation of discrete
+E7(7) (Z)-invariants; indeed, as discussed e.g. in [35, 57, 58, 36] (and in particular in Sects. 3
+and 4 of the fourth Ref. of [32], and in App. E of [37]), the discrete E7(7) (Z)-invariants are given
+by the greatest common divisor (gcd) of certain sets of numbers which correspond to covariant
+tensors of E7(7) (R). Physically, E7(7) (Z)-invariants would determine the algebraic classiﬁcation
+of the charge orbits of extremal black holes in presence of Dirac-Zwanziger-Schwinger quanti-
+zation conditions. The currently known set of invariants of the 56 of E7(7) (Z) is given by the
+gcd of suitable projections of contractions of the K-tensor itself with some charge vectors Q’s
+[35, 36, 37] (a manifestly (SL (2, R) × SO (6, 6))-covariant formalism is worked out in [57, 58]).
+Unfortunately, with the exception of the so-called projective black holes [35], the known set of
+discrete invariants does not allow for a complete classiﬁcation of black hole states. Thus, it is
+natural to ask if the missing invariants derived obtained by taking the gcd of some independent
+tensors of the 56 of E7(7) (R), given by suitable tensor products of the K-tensor, suitably pro-
+jected onto E7-irreprs. and contracted with charge vectors Q’s. The “master” identity (5.17),
+yielding to various relations constraining invariant structures of E7, may actually provide a
+systematic way to ﬁgure out a complete set of independent invariant tensor structures.
+Furthermore, the “master” identity (5.17) is relevant to derive and study the algebraic
+independence of higher-order U-invariant polynomials appearing in the study of multi-center
+black hole solutions [33, 34].
+We leave these interesting issues for future investigation.
+Acknowledgments
+A. M. and E. O. would like to thank the Department of Mathematics, King’s College, London
+UK, where part of this work was done, for warm hospitality and inspiring environment. F.R.
+would like to thank the Politecnico di Torino and Turin University for hospitality. A. M. would
+like to thank Sergio Ferrara for enlightening discussions, and E. O. would like to thank Mario
+Trigiante for useful discussions. The work of A. M. has been supported in part by an INFN
+visiting Theoretical Fellowship at SITP, Stanford University, Stanford, CA, USA. The work of
+E. O. has been supported by the ERC Advanced Grant no.226455, “Supersymmetry, Quantum
+Gravity and Gauge Fields” (SUPERFIELDS). The work of F.R. has been supported by the
+STFC rolling grant ST/G000/395/1.
+A
+Conventions for SU(2)
+In this Appendix we summarise our conventions for SU(2). The generators are anti-Hermitian:
+Di,a
+b = i
+2σi,a
+b,
+(A.1)
+where the σ’s denote the Pauli matrices. We are using a negative-deﬁnite Cartan-Killing metric
+gij = −δij,
+(A.2)
+20
+
+=== PDF PAGE 22 ===
+which means that Di = −i
+2σi. The symmetric part of the general Fierz identity reads
+Di
+b
+cDj
+c
+a + Dj
+b
+cDi
+c
+a = 1
+2gijδa
+b,
+(A.3)
+and its contraction with gij yields
+Dab
+i Di,cd = −1
+4[ǫacǫbd + ǫadǫbc].
+(A.4)
+From identities (A.3)-(A.4), by further contracting with gij and/or ǫab, one can obtain the
+following identities:
+Di,a
+cDi
+c
+b
+=
+3
+4δb
+a;
+(A.5)
+Di
+a
+bDj
+b
+a
+=
+1
+2gij;
+(A.6)
+[Di, Dj]
+=
+Di|a
+cDj|cb −Dj|a
+cDi|cb = ǫij
+kDk.
+(A.7)
+Finally, consistent with the negative deﬁniteness of the metric, the following product of Levi-
+Civita symbols is used:
+ǫiklǫj
+kl = −2gij .
+(A.8)
+B
+E6 ⊃SO(10) × U(1)
+For completeness, in the present Appendix we consider the reduction of some E6-identities
+derived in Sect. 4, according to the group embedding (1.5). The fundamental and the adjoint
+irreprs. of E6 respectively decompose as follows:
+27 →10−2 + 161 + 14
+,
+78 →450 + 16−3 + 163 + 10 ,
+(B.1)
+where subscripts denote the U (1)-charges. We here denote with indices A, B, ... the vector
+10 of SO(10), while the spinor representations are denoted with a, b, ..., where a lower index
+denotes the 16 and an upper index denotes the 16. Thus, the decomposition (B.1) implies the
+indices split as follows:
+Vc
+M
+→
+(VA ,
+Va ,
+V1) ;
+(B.2)
+V
+c
+M
+→
+(VA ,
+V a ,
+V1) ;
+(B.3)
+Vbα
+→
+(VAB ,
+Va ,
+V a ,
+V1) .
+(B.4)
+Before proceeding with the reduction, let us summarise our SO(10) conventions. The charge
+conjugation matrix C converts an upper a index to a lower index ˙a, and viceversa:
+C =
+
+0
+Ca˙b
+C ˙ab
+0
+
+;
+(B.5)
+it is antisymmetric and unitary, that is
+Ca˙b = −C
+˙ba,
+(B.6)
+21
+
+=== PDF PAGE 23 ===
+and (“†” denotes Hermitian conjugation)
+C†
+a˙bC
+˙bc = δc
+a,
+C†
+˙abCb˙c = δ ˙c
+˙a.
+(B.7)
+The Γ-matrices have the form
+ΓA =
+
+0
+ΓA,a
+˙b
+ΓA,˙ab
+0
+
+,
+(B.8)
+and they satisfy the Cliﬀord algebra
+{ΓA, ΓB} = 2ηAB,
+(B.9)
+where ηAB is the D = 10 Minkowski metric (in the compact case ηAB = δAB), as well as the
+property
+CΓAC† = −ΓT
+A.
+(B.10)
+Note also that the matrix
+(CΓA)ab = Ca˙aΓ˙a
+b
+(B.11)
+is symmetric in the indices ab.
+We now perform the reduction of some E6-identities.
+The Cartan-Killing metric of E6
+decomposes according to
+gbαbβ →
+ −δCD
+AB (45 45) ,
+δb
+a (16 16) ,
+1 (1 1)
+
+,
+(B.12)
+whereas the invariant tensor δ b
+N
+c
+M branches as
+δ
+b
+N
+c
+M →
+ δB
+A (10 10),
+δb
+a (16 16),
+1 (1 1)
+
+.
+(B.13)
+Here δCD
+AB ≡1
+2(δC
+AδD
+B −δD
+A δC
+B), and the minus sign in the ﬁrst term in the right-hand side of (B.12)
+has been chosen for convenience, so that all coeﬃcients in the reductions under consideration are
+real. Note that all terms occurring in the reduction must be invariant tensors of SO(10)×U(1),
+and thus they trivially have vanishing U(1)-charge.
+We consider the reduction of (4.10), (4.16), (4.17) and (4.20), as well as of the identities (2.5)
+and (2.6) for E6. For simplicity’s sake, we do not consider here the reduction of E6-identities
+involving more than three E6-invariant tensors, as well as of identities involving the E6 structure
+constants. The reduction of the invariant tensors dc
+M b
+N b
+P and dc
+M b
+N b
+P reads
+dc
+M b
+N b
+P
+→
+
+1
+√
+10 ηAB (10 10 1) ,
+1
+2
+√
+5 (ΓAC†)ab (10 16 16)
+
+;
+d
+c
+M b
+N b
+P
+→
+
+1
+√
+10 ηAB (10 10 1) ,
+1
+2
+√
+5 (CΓA)ab (10 16 16)
+
+,
+(B.14)
+22
+
+=== PDF PAGE 24 ===
+while the reduction of the generators tbα|c
+M
+b
+N is
+tbα|c
+M
+b
+N
+→
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+4
+√
+3 (ΓAB)ab (45 16 16) ,
+1
+√
+3 δCD
+AB (45 10 10) ,
+1
+3
+√
+2 δB
+A (1 10 10) ,
+−
+1
+6
+√
+2 δb
+a (1 16 10) ,
+−
+√
+2
+3 (1 1 1) ,
+1
+2
+√
+3 (ΓAC†)ab (16 16 10) ,
+1
+2
+√
+3 (CΓA)ab (16 10 16) ,
+−1
+√
+6 δb
+a (16 1 16) ,
+−1
+√
+6 δa
+b (16 1 16) ,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+(B.15)
+where ΓAB ≡Γ[AΓB].
+One can then show that the reduction of E6-identities (4.10), (2.5), (2.6) and (4.17) leads
+to the relations deﬁning the Cliﬀord algebra, together with trivial Γ-matrices identities. The
+reduction of (4.20) leads, among other more trivial identities, to the well known SO(10) Fierz
+identity
+(CΓA)a(b(CΓA)cd) = 0,
+(B.16)
+while the reduction of (4.16) leads, among the rest, to the Fierz identity
+(ΓAC†)ac(CΓA)bd −2δd
+aδb
+c −1
+2δb
+aδd
+c −1
+4(ΓAB)a
+b(ΓAB)c
+d = 0.
+(B.17)
+Similarly, the reduction of the other E6-identities derived in Sect. 4 will give rise to additional
+SO(10) Γ-matrices identities, including additional Fierz identities.
+C
+A Useful Decomposition
+A useful decomposition used in Sect. 5, holding at least for all U-duality Lie groups G4 of
+D = 4 supergravities reported in Table 1, reads
+t
+N
+α|M tβ|NQ = −tα|MPtβ|NQCP N = 1
+f gαβCMQ + 1
+2f γ
+αβtγ|MQ + S(αβ)[MQ] ,
+(C.1)
+where the G4-invariant tensor S(αβ)[MQ] is such that
+S(αβ)[MQ]kαβ ≡0
+;
+S(αβ)[MQ]CMQ ≡0 .
+(C.2)
+It is here worth pointing out that the left-hand side of (C.1), namely t
+N
+α|M tβ|NQ, is a G4-
+singlet (because tα
+MN is a G4-singlet itself; see Eq. (5.1)). Thus, due to its symmetry properties,
+t
+N
+α|M tβ|NQ enjoys a decomposition into irreducible G4-invariants terms, antisymmetric under
+the simultaneous exchanges M ↔Q and α ↔β. In other words, the adjoint indices and
+symplectic indices of t
+N
+α|M tβ|NQ must have opposite symmetry properties.
+23
+
+=== PDF PAGE 25 ===
+For simplicity’s sake, let us derive (C.1)-(C.2) in a particular case, namely for G4 = E7
+(the generalization is straightforward). The case G4 = E7 pertains both to magic octonionic
+N = 2 (G4 = E7(−25), JO
+3 -related) supergravity and to N = 8 maximal theory (G4 = E7(7),
+JOs
+3 -related). For this group, it holds that
+gαβ
+=
+1 ∈133 ×s 133;
+(C.3)
+f
+γ
+αβ tγ
+=
+1 ∈133 ×a 133;
+(C.4)
+CMN
+=
+1 ∈56 ×a 56.
+(C.5)
+Starting from the tensor product of the R (E7) = 56 and Adj (E7) = 133 irreprs., it follows
+that:
+56 ×s 56
+=
+133 + 1463;
+(C.6)
+56 ×a 56
+=
+1 + 1539;
+(C.7)
+133 ×s 133
+=
+1 + 1539 + 7371;
+(C.8)
+133 ×a 133
+=
+133 + 8645 .
+(C.9)
+These considerations lead to a decomposition of t
+N
+α|M tβ|NQ that can contain only three terms.
+Namely:
+• two terms with symmetric adjoint indices (a, b ∈R):
+agαβCMN
+=
+1 = 1 × 1 ∈(133 ×s 133) × (56 ×a 56) ;
+(C.10)
+bS(αβ)[MN]
+=
+1 ∈(1539 × 1539) ∈(133 ×s 133) × (56 ×a 56) .
+(C.11)
+Notice that no other possibilities with symmetric adjoint indices arise,
+because
+1 /∈(7371 × 1539).
+• one term with antisymmetric adjoint indices (c ∈R):
+cf
+γ
+αβ tγ|(MN) = 1 ∈(133 ×s 133) ∈(133 ×a 133) × (56 ×s 56) .
+(C.12)
+No other possibilities with antisymmetric adjoint indices arise, because 1 /∈(1463 × 133),
+1 /∈(1463 × 8645), and 1 /∈(133 × 8645).
+Thus, t
+Q
+α|M tβ|QN can be E7-irreducibly decomposed as follows:
+t
+Q
+α|Mtβ|QN = agαβCMN + bS(αβ)[MN] + cf
+γ
+αβ tγ|(MN).
+(C.13)
+In order to compute the constants a, b, c ∈R, we recall that all terms of (C.13) are irreducible,
+as also implied by (C.2). Thus, by saturating (C.13) with CMN, one obtains
+t
+Q
+α|M tβ|QNCMN = agαβCMNCMN = fagαβ ⇔a = 1
+f .
+(C.14)
+On the other hand, by recalling the deﬁnition (2.4) of the structure constants of the Lie algebra
+g4 of G4 and using (C.13), it follows that:
+f
+γ
+αβ tγ|(MN) ≡2t
+Q
+[α||Mt|β]|QN = t
+Q
+α|M tβ|QN −t
+Q
+β|M tα|QN = 2cf
+γ
+αβ tγ|(MN) ⇔c = 1
+2.
+(C.15)
+Obviously, the constant b can be reabsorbed in a re-deﬁnition of S(αβ)[MN]. Thus, the irreducible
+decomposition (C.1) has been proved to hold. ■
+24
+
+=== PDF PAGE 26 ===
+References
+[1] E. Cremmer and B. Julia, The N = 8 Supergravity Theory. 1. The Lagrangian, Phys. Lett.
+B80, 48 (1978). E. Cremmer and B. Julia, The SO(8) Supergravity, Nucl. Phys. B159,
+141 (1979).
+[2] C. Hull and P. K. Townsend, Unity of Superstring Dualities, Nucl. Phys. B438, 109 (1995),
+hep-th/9410167.
+[3] B. Julia, Group Disintegrations, in : “Superspace and Supergravity”, Eds. S.W. Hawking
+and M. Rocek (Cambridge Univ. Press, 1981). E. Cremmer, Supergravities in 5 Dimensions,
+in : “Superspace and Supergravity”, Eds. S.W. Hawking and M. Rocek (Cambridge Univ.
+Press, 1981).
+[4] B. Julia, Kac-Moody Symmetry of Gravitation and Supergravity Theories, Invited Talk at
+“AMS-SIAM Summer Seminar on Applications of Group Theory in Physics and Mathe-
+matical Physics”, Chicago, IL, July 6-16, 1982.
+[5] P.
+C.
+West,
+E(11)
+and
+M
+theory,
+Class.
+Quant.
+Grav.
+18,
+4443
+(2001)
+[arXiv:hep-th/0104081].
+[6] H. Nicolai, The integrability of N = 16 supergravity, Phys. Lett. B194, 402 (1987).
+[7] P. Breitenlohner, D. Maison and G. W. Gibbons, Four-Dimensional Black Holes from
+Kaluza-Klein Theories, Commun. Math. Phys. 120, 295 (1988).
+[8] E. Cremmer, B. Julia, H. Lu and C. N. Pope, Higher-Dimensional Origin of D = 3 Coset
+Symmetries, hep-th/9909099.
+[9] A. Keurentjes,
+The Group Theory of Oxidation,
+Nucl. Phys. B658,
+303 (2003),
+hep-th/0210178.
+[10] A. Keurentjes, The Group Theory of Oxidation 2: Cosets of Nonsplit Groups, Nucl. Phys.
+B658, 348 (2003), hep-th/0212024.
+[11] H. Lu and C. N. Pope, p-brane Solitons in Maximal Supergravities, Nucl. Phys. B465, 127
+(1996), hep-th/9512012. E. Cremmer , B. Julia, H. Lu and C. N. Pope, Dualisation of
+Dualities. I, Nucl. Phys. B523, 73 (1998), hep-th/9710119.
+[12] L. Andrianopoli, R. D’Auria, S. Ferrara, P. Fr´e, R. Minasian and M. Trigiante, Solv-
+able Lie Algebras in Type IIA, Type IIB and M Theories, Nucl. Phys. B493, 249 (1997),
+hep-th/9612202.
+[13] S. Cecotti, S. Ferrara and L. Girardello, Geometry of Type II Superstrings and the Moduli
+of Superconformal Field Theories, Int. J. Mod. Phys. A4, 2475 (1989).
+[14] S. Cecotti, Homogeneous K¨ahler Manifolds and T-Algebras in N = 2 Supergravity and
+Superstrings, Commun. Math. Phys. 124, 23 (1989). B. de Wit and A. Van Proeyen,
+Special Geometry, Cubic Polynomials and Homogeneous Quaternionic Spaces, Commun.
+Math. Phys. 149, 307 (1992), hep-th/9112027.
+25
+
+=== PDF PAGE 27 ===
+[15] B. de Wit, F. Vanderseypen and A. Van Proeyen, Symmetry Structure of Special Geome-
+tries, Nucl. Phys. B400, 463 (1993), hep-th/9210068.
+[16] P. Fr´e, F. Gargiulo, J. Rosseel, K. Rulyk, M. Trigiante and A. Van Proeyen, Tits-
+Satake Projections of Homogeneous Special Geometries, Class. Quant. Grav. 24, 27
+(2007), hep-th/0606173. M. Henneaux, D. Persson and P. Spindel, Spacelike Singular-
+ities and Hidden Symmetries of Gravity, Living Rev. Rel. 11, 1 (2008), arXiv:0710.1818
+[hep-th].
+[17] F. Riccioni, A. Van Proeyen and P. C. West, Real forms of very extended Kac-Moody alge-
+bras and theories with eight supersymmetries, JHEP 0805, 079 (2008), arXiv:0801.2763
+[hep-th].
+[18] M. G¨unaydin, G. Sierra and P. K. Townsend, Exceptional Supergravity Theories and the
+Magic Square, Phys. Lett. B133, 72 (1983). M. G¨unaydin, G. Sierra and P. K. Townsend,
+The Geometry of N = 2 Maxwell-Einstein Supergravity and Jordan Algebras, Nucl. Phys.
+B242, 244 (1984).
+[19] L. Andrianopoli, R. D’Auria and S. Ferrara, U -invariants, black hole entropy and ﬁxed
+scalars, Phys. Lett. B403, 12 (1997), hep-th/9703156.
+[20] D. Roest and H. Samtleben, Twin Supergravities, Class. Quant. Grav. 26, 155001 (2009),
+arXiv:0904.1344 [hep-th].
+[21] P. Jordan, J. Von Neumann and E. Wigner, On an algebraic generalization of the quantum
+mechanical formalism, Ann. Math. 35, 29 (1934).
+[22] S. Ferrara and A. Marrani, Symmetric Spaces in Supergravity, in : “Symmetry in Mathe-
+matics and Physics” (D. Babbitt, V. Vyjayanthi and R. Fioresi Eds.), Contemporary Math-
+ematics 490, American Mathematical Society (Providence RI, 2009), arXiv:0808.3567
+[hep-th].
+[23] M. G¨unaydin, Lectures on Spectrum Generating Symmetries and U-Duality in Supergravity,
+Extremal Black Holes, Quantum Attractors and Harmonic Superspace, arXiv:0908.0374
+[hep-th].
+[24] M. J. Duﬀ, J. T. Liu and J. Rahmfeld, Four-dimensional String-String-String Triality,
+Nucl. Phys. B459, 125 (1996), hep-th/9508094. K. Behrndt, R. Kallosh, J. Rahmfeld, M.
+Shmakova and W. K. Wong, STU Black Holes and String Triality, Phys. Rev. D54, 6293
+(1996), hep-th/9608059.
+[25] C. M. Hull and B. Julia, Duality and Moduli Spaces for Time-Like Reductions, Nucl. Phys.
+B534, 250 (1998), hep-th/9803239. E. Cremmer, I. V. Lavrinenko, H. Lu, C. N. Pope,
+K. S. Stelle and T. A. Tran, Euclidean-Signature Supergravities, Dualities and Instantons,
+Nucl. Phys. B534, 40 (1998), hep-th/9803259.
+[26] E. Bergshoeﬀ, W. Chemissany, A. Ploegh, M. Trigiante and T. Van Riet, Gen-
+erating Geodesic Flows and Supergravity Solutions, Nucl. Phys. B812, 343 (2009),
+arXiv:0806.2310 [hep-th]. G. Bossard, H. Nicolai and K. S. Stelle, Universal BPS
+Structure of Stationary Supergravity Solutions, JHEP 0907, 003 (2009), arXiv:0902.4438
+[hep-th].
+26
+
+=== PDF PAGE 28 ===
+[27] See e.g. P. Levay, STU Black Holes as Four Qubit Systems, Phys. Rev. D82, 026003
+(2010), arXiv:1004.3639 [hep-th]. L. Borsten, D. Dahanayake, M. J. Duﬀ, A. Marrani
+and W. Rubens, Four-Qubit Entanglement from String Theory, Phys. Rev. Lett. 105,
+100507 (2010), arXiv:1005.4915 [hep-th].
+[28] S. Ferrara, R. Kallosh, A. Strominger, N = 2 extremal black holes, Phys. Rev. D52, 5412
+(1995), hep-th/9508072. A. Strominger, Macroscopic entropy of N = 2 extremal black
+holes, Phys. Lett. B383, 39 (1996), hep-th/9602111. S. Ferrara, R. Kallosh, Supersymme-
+try and attractors, Phys. Rev. D54, 1514 (1996), hep-th/9602136. S. Ferrara, R. Kallosh,
+Universality of supersymmetric attractors, Phys. Rev. D54, 1525 (1996), hep-th/9603090.
+S. Ferrara, G. W. Gibbons and R. Kallosh, Black Holes and Critical Points in Moduli Space,
+Nucl. Phys. B500, 75 (1997), hep-th/9702103.
+[29] L. Andrianopoli, R. D’Auria, S. Ferrara and M. Trigiante, Extremal Black Holes in Super-
+gravity, Lect. Notes Phys. 737, 661 (2008), hep-th/0611345.
+[30] S. Ferrara and M. G¨unaydin, Orbits of Exceptional Groups, Duality and BPS States in
+String Theory, Int. J. Mod. Phys. A13, 2075 (1998), hep-th/9708025 [hep-th].
+[31] A. Ceresole, S. Ferrara and A. Marrani, Small N = 2 Extremal Black Holes in Special
+Geometry, Phys. Lett. B693, 366 (2010), arXiv:1006.2007 [hep-th].
+[32] Z. Bern, J. J. Carrasco, L. J. Dixon, H. Johansson and R. Roiban, The Ultraviolet
+Behavior of N = 8 Supergravity at Four Loops, Phys. Rev. Lett. 103, 081301 (2009),
+arXiv:0905.2326 [hep-th]. R. Kallosh, On UV Finiteness of the Four Loop N = 8 Su-
+pergravity, JHEP 0909, 116 (2009), arXiv:0906.3495 [hep-th]. M. Bianchi, S. Ferrara
+and R. Kallosh, Perturbative and Non-Perturbative N = 8 Supergravity, Phys. Lett. B690,
+328 (2010), arXiv:0910.3674 [hep-th]. M. Bianchi, S. Ferrara and R. Kallosh, Observa-
+tions on Arithmetic Invariants and U -Duality Orbits in N = 8 Supergravity, JHEP 1003,
+081 (2010), ArXiv:0912.0057 [hep-th]. R. Kallosh, The Ultraviolet Finiteness of N = 8
+Supergravity, JHEP 1012, 009 (2010), arXiv:1009.1135 [hep-th]. N. Beisert, H. El-
+vang, D. Z. Freedman, M. Kiermaier, A. Morales and S. Stieberger, E7(7) Constraints on
+Counterterms in N = 8 Supergravity, Phys. Lett. B694, 265 (2010), arXiv:1009.1643
+[hep-th].
+[33] S. Ferrara, A. Marrani, E. Orazi, R. Stora and A. Yeranyan, Two-Center Black Holes
+Duality-Invariants for stu Model and its lower-rank Descendants, arXiv:1011.5864
+[hep-th].
+[34] L. Andrianopoli, R. D’Auria, S. Ferrara, A. Marrani and M. Trigiante, Two-Centered
+Magical Charge Orbits, arXiv:1101.3496 [hep-th].
+[35] S. Krutelevich, Jordan Algebras, Exceptional Groups, and Higher Composition Laws, J.
+Algebra 314, 924 (2007), math/0411104.
+[36] L. Borsten, D. Dahanayake, M. J. Duﬀand W. Rubens, Black Holes Admitting a Freuden-
+thal Dual, Phys. Rev. D80, 026003 (2009), arXiv:0903.5517 [hep-th].
+[37] L. Borsten, D. Dahanayake, M. J. Duﬀ, S. Ferrara, A. Marrani and W. Rubens, Observa-
+tions on Integral and Continuous U -Duality Orbits in N = 8 Supergravity, Class. Quant.
+Grav. (2010), in press, arXiv:1002.4223 [hep-th].
+27
+
+=== PDF PAGE 29 ===
+[38] B. de Wit, H. Samtleben and M. Trigiante, On Lagrangians and Gaugings of Maximal
+Supergravities, Nucl. Phys. B655, 93 (2003), hep-th/0212239.
+[39] F.Riccioni, D. Steele and P. C. West, The E11 origin of all maximal supergravities: The
+Hierarchy of ﬁeld-strengths, JHEP 0909, 095 (2009), arXiv:0906.1177 [hep-th].
+[40] J. Bagger and E. Witten, Matter Couplings in N = 2 Supergravity, Nucl. Phys. B222, 1
+(1983).
+[41] K. Koepsell, H. Nicolai and H. Samtleben, On the Yangian [Y (e8)] quantum symmetry of
+maximal supergravity in two dimensions, JHEP 9904, 023 (1999), hep-th/9903111.
+[42] B. de Wit, H. Samtleben and M. Trigiante, The maximal D = 5 supergravities, Nucl. Phys.
+B716, 215 (2005) [arXiv:hep-th/0412173].
+[43] A. Le Diﬀon and H. Samtleben, Supergravities without an Action: Gauging the Trombone,
+Nucl. Phys. B811, 1 (2009), arXiv:0809.5180 [hep-th].
+[44] F. Riccioni and P. C. West, The E(11) origin of all maximal supergravities, JHEP 0707,
+063 (2007) [arXiv:0705.0752 [hep-th]].
+[45] F. Riccioni, The very-extended trombone, JHEP 1004, 032 (2010) [arXiv:1001.1619 [hep-
+th]].
+[46] J. Fuchs and C. Schweigert, “Symmetries, Lie Algebras and Representations”, Cambridge
+University Press (1997).
+[47] M. Cederwall and J. Palmqvist, The Octic E8 Invariant, J. Math. Phys. 48, 073505 (2007),
+hep-th/0702024.
+[48] E. Cremmer and A. Van Proeyen, Classiﬁcation of K¨ahler Manifolds in N = 2 Vector
+Multiplet Supergravity Couplings, Class. Quant. Grav. 2, 445 (1985).
+[49] S. Bellucci, A. Marrani and R. Roychowdhury, On Quantum Special K¨ahler Geometry, Int.
+J. Mod. Phys. A25, 1891 (2010), arXiv:0910.4249 [hep-th].
+[50] A. Galperin and O. Ogievetsky, Harmonic Potentials for Quaternionic Symmetric Sigma-
+Models, Phys. Lett. B301, 67 (1993), hep-th/9210153.
+[51] M. Reinsch, A Simple Expression of the Terms in the Baker-Campbell-HausdorﬀSeries,
+J. Math. Phys. 41, 2434 (2000), math-ph/9905012.
+[52] J. F. Luciani, Coupling of O(2) Supergravity with Several Vector Multiplets, Nucl. Phys.
+B132, 325 (1978).
+[53] L. Castellani, A. Ceresole, S. Ferrara, R. D’Auria, P. Fr´e and E. Maina, The Complete
+N = 3 Matter Coupled Supergravity, Nucl. Phys. B268, 317 (1986).
+[54] S. Ferrara and J. M. Maldacena, Branes, Central Charges and U -Duality Invariant BPS
+Conditions, Class. Quant. Grav. 15, 749 (1998), hep-th/9706097 [hep-th].
+[55] S. Ferrara and M. G¨unaydin, Orbits and Attractors for N = 2 Maxwell-Einstein Supergrav-
+ity Theories in Five Dimensions, Nucl. Phys. B759, 1 (2006), hep-th/0606108 [hep-th].
+28
+
+=== PDF PAGE 30 ===
+[56] B. L. Cerchiai, S. Ferrara, A. Marrani and B. Zumino, Charge Orbits of Extremal
+Black Holes in Five Dimensional Supergravity,
+Phys. Rev. D82,
+085010 (2010),
+arXiv:1006.3101 [hep-th].
+[57] A. Sen, U-Duality Invariant Dyon Spectrum in Type II on T6, JHEP 0808, 037 (2008),
+arXiv:0804.0651 [hep-th].
+[58] A. Sen, Arithmetic of N = 8 Black Holes, JHEP 1002, 090 (2010), arXiv:0908.0039
+[hep-th].
+29

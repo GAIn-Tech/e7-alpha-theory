@@ -1,0 +1,4818 @@
+=== PDF PAGE 1 ===
+arXiv:hep-ph/0510419v2  5 Dec 2005
+SHEP-05-32
+Theory and Phenomenology of an Exceptional
+Supersymmetric Standard Model
+S. F. King1, S. Moretti2, R. Nevzorov3 4
+School of Physics and Astronomy, University of Southampton,
+Highﬁeld, Southampton, SO17 1BJ, U.K.
+Abstract
+We make a comprehensive study of the theory and phenomenology of a low energy
+supersymmetric standard model originating from a string-inspired E6 grand uniﬁed
+gauge group. The Exceptional Supersymmetric Standard Model (ESSM) consid-
+ered here is based on the low energy SM gauge group together with an extra Z′
+corresponding to an extra U(1)N gauge symmetry under which right–handed neu-
+trinos have zero charge. The low energy matter content of the ESSM corresponds
+to three 27 representations of the E6 symmetry group, to ensure anomaly cancel-
+lation, plus an additional pair of Higgs–like doublets as required for high energy
+gauge coupling uniﬁcation. The ESSM is therefore a low energy alternative to the
+MSSM or NMSSM. The ESSM involves extra matter beyond the MSSM contained
+in three 5 + 5∗representations of SU(5), plus three SU(5) singlets which carry
+U(1)N charges, one of which develops a VEV, providing the eﬀective µ term for the
+Higgs doublets, as well as the necessary exotic fermion masses. We explore the RG
+ﬂow of the ESSM and examine theoretical restrictions on the values of new Yukawa
+couplings caused by the validity of perturbation theory up to the Grand Uniﬁcation
+scale. We then discuss electroweak symmetry breaking and Higgs phenomenology,
+and establish an upper limit on the mass of the lightest Higgs particle which can be
+signiﬁcantly heavier than in the MSSM and NMSSM, in leading two–loop approxi-
+mation. We also discuss the phenomenology of the Z′ and the extra matter, whose
+discovery will provide a smoking gun signal of the model.
+1E-mail: sfk@hep.phys.soton.ac.uk
+2E-mail: stefano@hep.phys.soton.ac.uk
+3E-mail: nevzorov@phys.soton.ac.uk.
+4On leave of absence from the Theory Department, ITEP, Moscow, Russia.
+
+=== PDF PAGE 2 ===
+1.
+Introduction
+Despite the absence of any evidence for new particles beyond those contained in the
+Standard Model (SM), the cancellation of quadratic divergences [1] remains a compelling
+theoretical argument in favour of softly broken supersymmetry (SUSY) which stabilises
+the Electro-Weak (EW) scale and solves the hierarchy problem [2] (for a recent review
+see [3]). SUSY also facilitates the high energy convergence of the SM gauge couplings [4]
+which allows the SM gauge group to be embedded into Grand Uniﬁed Theories (GUTs) [5]
+based on simple gauge groups such as SU(5), SO(10) or E6. The rational U(1)Y charges,
+which are postulated “ad hoc” in the case of the SM, then appear in a natural way in the
+context of SUSY GUT models after the breakdown of the extended symmetry at some
+high energy scale MX, providing a simple explanation of electric charge quantisation.
+An additional motivation to consider models with softly broken SUSY is associated
+with the possible incorporation of the gravitational interactions.
+The local version of
+SUSY (supergravity) leads to a partial uniﬁcation of the SM gauge interactions with
+gravity. However SUpergGRAvity (SUGRA) itself is a non–renormalisable theory and
+has to be considered as an eﬀective low energy limit of some renormalisable or even ﬁnite
+theory. Currently, the best candidate for such an underlying theory is ten–dimensional
+heterotic superstring theory based on E8 × E′
+8 [6]. In the strong coupling regime of an
+E8 × E′
+8 heterotic string theory described by eleven dimensional SUGRA (M–theory) [7],
+the string scale can be compatible with the uniﬁcation scale MX [8]. Compactiﬁcation of
+the extra dimensions results in the breakdown of E8 down to E6 or one of its subgroups
+in the observable sector [9]. The remaining E′
+8 plays the role of a hidden sector that gives
+rise to spontaneous breakdown of SUGRA, which results in a set of soft SUSY breaking
+terms [10] characterised by the gravitino mass (m3/2) of order the EW scale1.
+Although the theoretical argument for low energy SUSY is quite compelling, it is worth
+emphasising that the choice of low energy eﬀective theory at the TeV scale consistent
+with high energy conventional (or string) uniﬁcation is not uniquely speciﬁed. Although
+the Minimal Supersymmetric Standard Model (MSSM) is the best studied and simplest
+candidate for such a low energy eﬀective theory, the MSSM suﬀers from the µ problem:
+the superpotential of the MSSM contains one bilinear term µ ˆHd ˆHu which can be present
+before SUSY is broken. As a result one would naturally expect it to be of the order of
+the Planck scale MPl. If µ ≃MPl then the Higgs scalars get a huge positive contribution
+∼µ2 to their squared masses and EW Symmetry Breaking (EWSB) does not occur. On
+the other hand the parameter µ cannot be simply omitted. If µ = 0 at some scale Q the
+1A large mass hierarchy between m3/2 and Planck scale can appear because of non–perturbative
+sources of SUSY breaking in the hidden sector gauge group (for a review see [11]).
+1
+
+=== PDF PAGE 3 ===
+mixing between Higgs doublets is not generated at any scale below Q due to the non–
+renormalisation theorems [12]. In this case the minimum of the Higgs boson potential is
+attained for < Hd >= 0. Because of this down–type quarks and charged leptons remain
+massless. In order to get the correct pattern of EWSB, µ is required to be of the order of
+the SUSY breaking (or EW) scale.
+The Next–to–Minimal Supersymmetric Standard Model (NMSSM) is an attempt to
+solve the µ problem of the MSSM in the most direct way possible, by generating µ
+dynamically as the low energy Vacuum Expectation Value (VEV) of a singlet ﬁeld. The
+superpotential of the NMSSM is given by [13]–[14]
+WNMSSM = λ ˆS( ˆHd ˆHu) + 1
+3κ ˆS3 + WMSSM(µ = 0) .
+(1)
+The cubic term of the new singlet superﬁeld ˆS in the superpotential breaks an additional
+U(1) global symmetry that would appear and is a common way to avoid the axion that
+would result. However the NMSSM itself is not without problems. The NMSSM super-
+potential is still invariant under the transformations of a discrete Z3 symmetry. This Z3
+symmetry should lead to the formation of domain walls in the early universe between
+regions which were causally disconnected during the period of EWSB [15]. Such domain
+structure of vacuum create unacceptably large anisotropies in the cosmic microwave back-
+ground radiation [16]. In an attempt to break the Z3 symmetry operators suppressed by
+powers of the Planck scale could be introduced. But it has been shown that these opera-
+tors give rise to quadratically divergent tadpole contributions, which destabilise the mass
+hierarchy once again [17].
+One solution to these diﬃculties is to consider the simplest gauge extensions of the SM
+gauge group that involve an additional non–anomalous U(1)′ gauge symmetry. Models
+with an additional U(1)′ factor can arise naturally out of string-inspired constructions
+[18, 19]. In particular one or two extra U(1)′ factors may emerge in the breaking of a string-
+inspired E6 gauge group and the phenomenology of such models has been extensively
+studied in the literature [18]. Such theories may lead to a U(1)′ extension of the NMSSM
+in which a SM singlet ﬁeld S couples to the Higgs doublets and yields an eﬀective µ
+parameter ∼λ < S >, while the ˆS3 term is forbidden by the U(1)′ gauge symmetry. In
+such models the Peccei–Quinn (PQ) symmetry becomes embedded in the new U(1)′ gauge
+symmetry. Clearly there are no domain wall problems in such a model since there is no
+discrete Z3 symmetry. The ﬁeld S is charged under the U(1)′ so that its expectation value
+also gives mass to the new Z′ gauge boson breaking the U(1)′, in other words the would-
+be PQ axion is eaten by the Z′. The extended gauge symmetry forbids an elementary µ
+term as well as terms like ˆSn in the superpotential. The role of the S3 term in generating
+quartic terms in the scalar potential, which stabilise the physical vacuum, is played by
+2
+
+=== PDF PAGE 4 ===
+D–terms.
+In this paper we explore a speciﬁc E6 inspired supersymmetric realisation of the above
+U(1)′ type model which is capable of resolving the µ problem as in the NMSSM, but
+without facing any of its drawbacks. The total matter content of our model corresponds
+to three families of 27i representations, plus two Higgs–like doublets, consistent with
+SUSY uniﬁcation. A particular feature of our model is that we assume that the E6 gauge
+group is broken at high energies down to the SM gauge group plus a particular extra
+U(1)N gauge symmetry in which right–handed neutrinos have zero charge and so are
+singlets and do not participate in the gauge interactions. Since right–handed neutrinos
+have zero charges they can acquire very heavy Majorana masses and are thus suitable to
+take part in the standard seesaw mechanism which yields small neutrino masses. Having
+heavy right–handed neutrinos also avoids any stringent constraints on the mass of the Z′
+boson coming from the nucleosynthesis and astrophysical data which would be present if
+the right–handed neutrinos were light.
+The above superstring inspired E6 SUSY model, henceforth referred to as the Ex-
+ceptional Supersymmetric Standard Model (ESSM), provides a theoretically attractive
+solution to the µ problem of the MSSM since the bilinear Higgs µ terms are forbidden by
+the U(1)N gauge symmetry. This model contains three pairs of candidate Higgs doublets
+H1i, H2i, plus three singlets Si, which carry U(1)N charge. These states all originate from
+three 27i representations and couple together according to a 27i27j27k coupling resulting
+in NMSSM type superpotential couplings of the form:
+WH = P
+ijk λijk ˆSi ˆH1j ˆH2k .
+(2)
+The breaking of the EW and U(1)N gauge symmetry down to U(1)em takes place when
+some of these Higgs ﬁelds acquire VEVs. It is possible to work in a basis where only one
+family of Higgs ﬁelds and singlets acquire non–zero VEVs, which we can deﬁne to be the
+third family, and we can then deﬁne S ≡S3, Hd ≡H1,3, Hu ≡H2,3. We shall then refer
+to the remaining ﬁrst two families Si, H1,i, H2,i, with i = 1, 2 as non–Higgs doublets and
+singlets. The relation of the third family Higgs so deﬁned to the third family quarks and
+leptons is more model dependent, but in the context of Radiative EWSB (REWSB) it is
+natural to associate the third family Higgs to the third family quarks and leptons, since it
+is the large Yukawa coupling of the third family which drives the Higgs VEVs. This also
+avoids the appearance of Flavour Changing Neutral Currents (FCNCs). Then, restricting
+ourselves to Higgs ﬁelds which develop VEVs, the superpotential (2) reduces to
+WH →λ ˆS( ˆHd ˆHu)
+(3)
+which is just the NMSSM coupling in Eq. (1). After the spontaneous symmetry break-
+down at the EW scale the scalar component of the superﬁeld ˆS acquires non–zero VEV
+3
+
+=== PDF PAGE 5 ===
+(⟨S⟩= s/
+√
+2) and an eﬀective µ-term (µ = λs/
+√
+2) of the required size is automatically
+generated. The Higgs sector of the considered model contains only one additional singlet
+ﬁeld and one extra parameter compared to the MSSM. Therefore it can be regarded as
+the simplest extension of the Higgs sector of the MSSM.
+It is interesting to compare the ESSM to other related models with an extra U(1)′.
+In general anomaly cancellation requires either the presence of exotic chiral supermulti-
+plets [20]–[21] or family–non–universal U(1)′ couplings [22]. Any family dependence of
+the U(1)′ charges would result in FCNCs mediated by the Z′ which can be suppressed
+for the ﬁrst two generation and manifest themselves in rare B decays and B −B mixing
+[23]. In the ESSM, because the U(1)N charge assignment is ﬂavour–independent, the
+considered model does not suﬀer from the FCNC problem. In the ESSM anomalies are
+cancelled in a ﬂavour–independent way since the model contains an extra U(1)N arising
+from E6 together with the matter content of (three) complete 27 representations of E6
+down to the TeV scale, apart from the three right–handed neutrinos which are singlets
+under the low energy gauge group. The existence of exotic supermultiplets in the ESSM
+is consistent with gauge coupling uniﬁcation since the extra matter is in complete 27 rep-
+resentations. However exotic quarks and non–Higgses naturally appear in the E6 inspired
+model, with the quantum numbers of three families of 5+5∗SU(5) representations, which
+phenomenologically correspond to three families of extra down–type quark singlets and
+three families of matter with the quantum numbers of Higgs doublets, where each mul-
+tiplet is accompanied by its conjugate representation. The large third family coupling of
+the extra coloured chiral superﬁelds (D, ¯D) to the singlet S of the form κS(DD) may help
+to induce radiative breakdown of the SU(2) × U(1)Y × U(1)′ symmetry [20], [24]–[27].
+Before describing the phenomenological work performed in this paper it is worth brieﬂy
+reviewing the phenomenological studies performed so far on related models in the litera-
+ture. Recently the implications of SUSY models with an additional U(1)′ gauge symmetry
+have been studied for CP–violation [28], neutrino physics [29]–[30], dark matter [31], lep-
+togenesis [32], EW baryogenesis [33]–[34], muon anomalous magnetic moment [35], electric
+dipole moment of electron [36], lepton ﬂavour violating processes like µ →eγ [37] (for-
+bidding R–parity violating terms [21], [38]). An important property of U(1)′ models is
+that the tree–level mass of the lightest Higgs particle can be larger than MZ even for
+moderate values of tan β ≃1 −2 [27]–[28], [39], hence the existing LEP bounds can be
+satisﬁed with almost no need for large radiative corrections. Models with a U(1)N gauge
+symmetry in which right–handed neutrinos have zero charge have been studied in [30] in
+the context of non–standard neutrino models with extra singlets, in [40] from the point
+of view of Z −Z′ mixing and a discussion of the neutralino sector, in [25] where the RG
+was studied, in [27] where a one–loop Higgs mass upper bound was presented.
+4
+
+=== PDF PAGE 6 ===
+The phenomenological analysis presented here goes well beyond what has appeared so
+far in the literature. Our analysis begins with a detailed RG analysis of the dimensionless
+couplings in the ESSM, and an examination of the ﬁxed points of the model. This analysis
+is completely new as it has not appeared before. We later use the results of this analysis
+in determining an upper bound on the lightest CP–even (or scalar) Higgs boson mass,
+using the eﬀective potential and including two–loop corrections, which had also not been
+considered previously, and we make a detailed comparison with similar bounds obtained
+in the MSSM and NMSSM. We then make a comprehensive phenomenological study of
+the full Higgs spectrum and couplings, which includes the low energy allowed regions
+in which EWSB is successful, and comment on the crucial phenomenological aspects of
+the Higgs sector of the ESSM. The chargino and neutralino spectrum expected in the
+ESSM is also studied in some depth. We then discuss the phenomenology of the extra
+particles predicted by the ESSM, including the Z′ and some exotic fermions, and provide
+a numerical estimate and a full discussion of their production cross sections and signatures
+at the upcoming CERN Large Hadron Collider (LHC) and a future International Linear
+Collider (ILC).
+The paper is organised as follows. In section 2 we specify our model. In section 3
+we examine the RG ﬂow of gauge and Yukawa couplings assuming that gauge coupling
+uniﬁcation takes place at high energies. The EWSB and Higgs phenomenology are studied
+in sections 4 and 5 respectively. In section 6 we consider the chargino and neutralino
+spectrum in the ESSM while in section 7 the potential discovery of a Z′ boson and new
+exotic particles at future colliders are discussed. Our results are summarised in section 8.
+2.
+The ESSM
+2.1
+Overview of the model
+As it is clear from the discussion in the Introduction, the ESSM is a low energy alternative
+to the MSSM or NMSSM deﬁned as follows. The ESSM originates from an E6 GUT gauge
+group which is broken at the GUT scale to the SM gauge group together with an additional
+U(1)N gauge group which is not broken until a scale not very far above the EW scale,
+giving rise to an observable Z′ gauge boson. The U(1)N gauge group is deﬁned such
+that right–handed neutrinos Nc
+i carry zero charges under it. The matter content below
+the GUT scale corresponds to three 27–plets of E6 (labelled as 27i) which contain the
+three ordinary families of quarks and leptons including right–handed neutrinos Nc
+i , three
+families of candidate Higgs doublets H1i, H2i, three families of extra down-type quark
+singlets Di, ¯Di, and three families of extra singlets Si. However only the third family
+5
+
+=== PDF PAGE 7 ===
+Higgs doublets Hu and Hd and singlet S develop VEVs. In addition, in order to achieve
+gauge coupling uniﬁcation, there is a further pair of Higgs–like doublet supermultiplets H′
+and ¯H′ which do not develop VEVs, arising from an incomplete 27′ + 27
+′ representation.
+All the extra matter described above is expected to have mass of order the TeV scale
+and may be observable at the LHC or at an ILC. The ESSM has the following desirable
+features:
+• Anomalies are cancelled generation by generation within each complete 27i repre-
+sentation.
+• Gauge coupling uniﬁcation is accomplished due to the complete 27i representations
+together with the additional pair of Higgs–like doublets H′ and ¯H′ from the incom-
+plete 27′ + 27
+′ representation.
+• The seesaw mechanism is facilitated due to the right–handed neutrinos Nc
+i arising
+from the 27i representations having zero gauge charges.
+• The µ-problem of the MSSM is solved since the µ-term is forbidden by the U(1)N
+gauge symmetry. It is replaced by a singlet coupling ˆS( ˆHd ˆHu) as in the NMSSM,
+but without the ˆS3 term of the NMSSM which resulted in domain wall problems.
+Besides, in the ESSM the would-be Goldstone boson is eaten by the Z′ associated
+with the U(1)N gauge group.
+The purpose of the remainder of this section is to develop the theoretical aspects of the
+ESSM deﬁned above, and deﬁne the matter content, charges, couplings and symmetries
+of the ESSM more precisely.
+2.2
+The choice of the surviving U(1)N gauge group
+Since all matter and Higgs superﬁelds must originate from 27 and 27–plets of E6, one
+cannot break E6 in a conventional manner as the required Higgs ﬁelds are in larger
+representations than the 27.
+However, at the string scale, E6 can be broken via the
+Hosotani mechanism [41]. Because the rank of the E6 group is six the breakdown of the
+E6 symmetry results in several models based on rank–5 or rank–6 gauge groups. As a
+consequence E6 inspired SUSY models in general may lead to low–energy gauge groups
+with one or two additional U(1)′ factors in comparison to the SM. Indeed E6 contains
+the maximal subgroup SO(10) × U(1)ψ while SO(10) can be decomposed in terms of the
+SU(5)×U(1)χ subgroup. By means of the Hosotani mechanism E6 can be broken directly
+to SU(3)C ×SU(2)W ×U(1)Y ×U(1)ψ ×U(1)χ which has rank 6. For suitable large VEVs
+of the symmetry breaking Higgs ﬁelds this rank–6 model can be reduced further to an
+6
+
+=== PDF PAGE 8 ===
+eﬀective rank–5 model with only one extra gauge symmetry. Then an extra U(1)′ that
+appears at low energies is a linear combination of U(1)χ and U(1)ψ:
+U(1)′ = U(1)χ cos θ + U(1)ψ sin θ .
+(4)
+In general the right–handed neutrinos will carry non–zero charges with respect to the
+extra gauge interaction U(1)′. It means that their mass terms are forbidden by the gauge
+symmetry.
+The right–handed neutrinos can gain masses only after the breakdown of
+the SU(2)W × U(1)Y × U(1)′ symmetry. But even in this case one can expect that the
+corresponding mass terms should be suppressed due to the invariance of the low–energy
+eﬀective Lagrangian under the U(1)L symmetry associated with lepton number conserva-
+tion2. If the right–handed neutrinos were lighter than a few MeV they would be produced
+prior to big bang nucleosynthesis by the Z′ interactions leading to a faster expansion rate
+of the Universe and to a higher
+4He relic abundance [42]. The current cosmological
+observations of cosmic microwave background radiation and nuclear abundances restrict
+the total eﬀective number of extra neutrino species ∆Nν to 0.3 [43]. The strength of the
+interactions of right–handed neutrinos with other particles and the equivalent number of
+additional neutrinos rises with a decreasing Z′ boson mass. Thus cosmological and as-
+trophysical observations set a stringent limit on the Z′ mass which has to be larger than
+4.3 TeV [42].
+The situation changes dramatically if the right–handed neutrinos remain sterile after
+the breakdown of the E6 symmetry, i.e. have zero charges under the surviving gauge
+group. The extra U(1)′ factor for which right–handed neutrinos transform trivially is
+called U(1)N. It corresponds to the angle θ = arctan
+√
+15 in Eq. (4). In this case, consid-
+ered here, the right–handed neutrinos may be superheavy. Then the three known doublet
+neutrinos νe, νµ and ντ acquire small Majorana masses via the seesaw mechanism. This
+allows for a comprehensive understanding of the mass hierarchy in the lepton sector and
+neutrino oscillations data. The successful leptogenesis in the early epoch of the Universe
+is the distinctive feature of the ESSM with an extra U(1)N factor [32]. Because right–
+handed neutrinos are allowed to have large masses, they may decay into ﬁnal states with
+lepton number L = ±1, thereby creating a lepton asymmetry in the early Universe [44].
+Since sphalerons violate B + L but conserve B −L, this lepton asymmetry subsequently
+gets converted into the present observed baryon asymmetry of the Universe through the
+EW phase transition [45]. Any other E6 inspired supersymmetric extension with the extra
+U(1) factor would result in B −L violating interactions at O(1) TeV as it is broken down
+to the SM. This B −L violating interactions together with B + L violating sphalerons
+2In many supersymmetric models the invariance under the lepton and baryon U(1) symmetries are
+caused by R–parity conservation which is normally imposed to prevent rapid proton decay.
+7
+
+=== PDF PAGE 9 ===
+would erase any lepton or baryon asymmetry that may have been created during the ear-
+lier epoch of the Universe. Diﬀerent phenomenological aspects of supersymmetric models
+with an extra U(1)N gauge symmetry were studied in [25], [27], [30], [32], [34], [40].
+One of the most important issues in U(1)′ models is the cancellation of the gauge and
+gravitational anomalies. In E6 theories the anomalies are cancelled automatically. There-
+fore all models that are based on the E6 subgroups and contain complete representations
+should be anomaly–free. As a result in order to make the chosen supersymmetric model
+with the extra U(1)N factor anomaly–free one is forced to augment the minimal spectrum
+by a number of exotics which, together with ordinary quarks and leptons, form complete
+fundamental 27 representations of E6. These decompose under the surviving low energy
+gauge group as discussed in the next subsection.
+2.3
+The low energy matter content of the ESSM
+The three families of fundamental 27i representations decompose under the SU(5)×U(1)N
+subgroup of E6 [25] as follows:
+27i →(10, 1)i + (5∗, 2)i + (5∗, −3)i + (5, −2)i + (1, 5)i + (1, 0)i .
+(5)
+The ﬁrst and second quantities in the brackets are the SU(5) representation and extra
+U(1)N charge while i is a family index that runs from 1 to 3. An ordinary SM family
+which contains the doublets of left–handed quarks Qi and leptons Li, right–handed up–
+and down–type quarks (uc
+i and dc
+i) as well as right–handed charged leptons, is assigned
+to the (10, 1)i + (5∗, 2)i. These representations decompose under
+SU(5) × U(1)N →SU(3)C × SU(2)W × U(1)Y × U(1)N
+(6)
+to give ordinary quarks and leptons:
+(10, 1)i
+→
+Qi = (ui, di) ∼
+
+3, 2, 1
+6, 1
+
+,
+uc
+i ∼
+
+3∗, 1, −2
+3, 1
+
+,
+ec
+i ∼(1, 1, 1, 1) ;
+(5∗, 2)i
+→
+dc
+i ∼
+
+3∗, 1, 1
+3, 2
+
+,
+Li = (νi, ei) ∼
+
+1, 2, −1
+2, 2
+
+,
+(7)
+where the third quantity in the brackets is the U(1)Y hypercharge. (In Eq. (7) and further
+we omit all isospin and colour indexes related to SU(2) and SU(3) gauge interactions.)
+The right–handed neutrinos Nc
+i transform trivially under SU(5)×U(1)N by deﬁnition.
+Therefore Nc
+i should be associated with the last term in Eq. (5) (1, 0)i. The next–to–last
+8
+
+=== PDF PAGE 10 ===
+term in Eq. (5), (1, 5)i, represents SM singlet ﬁelds Si which carry non–zero U(1)N charges
+and therefore survive down to the EW scale.
+The remaining representations in Eq. (5) decompose as follows:
+(5∗, −3)i
+→
+H1i = (H0
+1i, H−
+1i) ∼
+
+1, 2, −1
+2, −3
+
+,
+Di ∼
+
+3∗, 1, 1
+3, −3
+
+,
+(5, −2)i
+→
+H2i = (H+
+2i, H0
+2i) ∼
+
+1, 2, 1
+2, −2
+
+,
+Di ∼
+
+3, 1, −1
+3, −2
+
+.
+(8)
+The pair of SU(2)–doublets (H1i and H2i) that are contained in (5∗, −3)i and (5, −2)i
+have the quantum numbers of Higgs doublets. Other components of these exotic SU(5)
+multiplets form extra colour triplet but EW singlet quarks Di and anti–quarks ¯Di with
+electric charges −1/3 and +1/3 respectively. The exotic multiplets in Eq. (8) form vector
+pairs under the SM gauge group.
+In addition to the three complete 27i representations just discussed, some components
+of additional 27′ and 27′ representations can and must survive to low energies, in order
+to preserve gauge coupling uniﬁcation. We assume that an additional SU(2) doublet and
+anti–doublet H′ and ¯H′ originate as incomplete multiplets of an additional 27′ and 27′.
+Speciﬁcally we assume that they originate from the SU(2) doublet components of a (5∗, 2)
+from a 27′, and the corresponding anti–doublet from a 27′.
+The low energy matter content of the ESSM may then be summarised as:
+3 [(Qi, uc
+i, dc
+i, Li, ec
+i, Nc
+i )] + 3(Si) + 3(H2i) + 3(H1i) + 3(Di, ¯Di) + H′ + ¯H′ ,
+(9)
+where the right–handed neutrinos Nc
+i are expected to gain masses at some intermediate
+scale, while the remaining matter survives down to the EW scale near which the gauge
+group U(1)N is broken.
+2.4
+The low energy symmetries and couplings of the ESSM
+In E6 models the renormalisable part of the superpotential comes from the 27 × 27 × 27
+decomposition of the E6 fundamental representation. The most general renormalisable
+superpotential which is allowed by the SU(3) × SU(2) × U(1)Y × U(1)N gauge symmetry
+can be written in the following form:
+Wtotal = W0 + W1 + W2 + W✚✚
+E6 .
+(10)
+9
+
+=== PDF PAGE 11 ===
+The ﬁrst, second and third terms in Eq. (10) represent the most general form of the
+superpotential allowed by the E6 symmetry. W0, W1 and W2 are given by
+W0
+=
+λijkSi(H1jH2k) + κijkSi(DjDk) + hN
+ijkNc
+i (H2jLk) + hU
+ijkuc
+i(H2jQk)+
++hD
+ijkdc
+i(H1jQk) + hE
+ijkec
+i(H1jLk) ,
+W1
+=
+gQ
+ijkDi(QjQk) + gq
+ijkDidc
+juc
+k ,
+W2
+=
+gN
+ijkNc
+i Djdc
+k + gE
+ijkec
+iDjuc
+k + gD
+ijk(QiLj)Dk .
+(11)
+The part of the superpotential (10) coming from the 27 × 27 × 27 decomposition of the
+E6 fundamental representation (i.e. W0 + W1 + W2) possesses a global U(1) symmetry
+that can be associated with B −L number conservation. This enlarged global symmetry
+is broken explicitly by most of the terms in W✚✚
+E6.
+The last part of the superpotential (10) includes the E6 violating set of terms:
+W✚✚
+E6 = 1
+2MijNc
+i Nc
+j + W ′
+0 + W ′
+1 + W ′
+2 ,
+(12)
+where
+W ′
+0 = µ′(H′H
+′) + µ′
+i(H
+′Li) + hijNc
+i (H2jH′) + hH′
+ij ec
+i(H1jH′) ,
+W ′
+1 = σijk
+3 Nc
+i Nc
+j Nc
+k + ΛkNc
+k + λijSi(H1jH
+′) + gN
+ij Nc
+i (H
+′Lj)
++gN
+i Nc
+i (H
+′H′) + gU
+ijuc
+i(H
+′Qj) + µij(H2iLj) + µi(H2iH′) + µ′
+ijDidc
+j ,
+W ′
+2 = gH′
+ij (QiH′)Dj ,
+i, j, k = 1, 2, 3 .
+(13)
+The terms in Eq. (12) are invariant with respect to the SM gauge group and extra U(1)N
+transformations but are either forbidden by the E6 symmetry itself or by the splitting of
+complete 27 and 27 representations that also breaks E6. Some of the interactions listed
+in Eq. (12) can play a crucial role in low–energy phenomenology. For example, Majorana
+mass terms of the right–handed neutrinos at some intermediate scales provide small Ma-
+jorana masses for the three species of left–handed neutrinos via the seesaw mechanism.
+Some other terms in Eqs. (12)–(13) (like µijH2iLj) may be potentially dangerous from
+the phenomenological point of view.
+Although the B −L number is conserved automatically in E6 inspired SUSY models,
+some Yukawa interactions in Eq. (11) violate baryon number resulting in rapid proton
+decay. The baryon and lepton number violating operators can be suppressed by postulat-
+ing the invariance of the Lagrangian under R–parity transformations. In the MSSM the
+R–parity quantum numbers are
+R = (−1)3(B−L)+2S .
+(14)
+10
+
+=== PDF PAGE 12 ===
+The straightforward generalisation of the deﬁnition of R–parity to E6 inspired super-
+symmetric models, assuming BD = 1/3 and BD = −1/3, implies that W1 and W2 are
+forbidden by the discrete symmetry (14). In this case the rest of the Lagrangian of the
+considered model, which is allowed by the E6 symmetry, is invariant not only with respect
+to U(1)L and U(1)B but also under U(1)D symmetry transformations3
+D →eiαD ,
+D →e−iαD .
+(15)
+The U(1)D invariance ensures that the lightest exotic quark is stable.
+Any heavy
+stable particle would have been copiously produced during the very early epochs of the
+Big Bang. Those strong or electromagnetically interacting fermions and bosons which
+survive annihilation would subsequently have been conﬁned in heavy hadrons which would
+annihilate further. The remaining heavy hadrons originating from the Big Bang should
+be present in terrestrial matter. There are very strong upper limits on the abundances
+of nuclear isotopes which contain such stable relics in the mass range from 1 GeV to
+10 TeV. Diﬀerent experiments set limits on their relative concentrations from 10−15 to
+10−30 per nucleon [46]. At the same time various theoretical estimations [47] show that
+if remnant particles would exist in nature today their concentration is expected to be at
+the level of 10−10 per nucleon. Therefore E6 inspired models with stable exotic quarks or
+non–Higgsinos are ruled out.
+To prevent rapid proton decay in E6 supersymmetric models the deﬁnition of R–parity
+should be modiﬁed. There are 8 diﬀerent ways to impose an appropriate Z2 symmetry
+resulting in baryon and lepton number conservation [48]. The requirements of successful
+leptogenesis and non–zero neutrino masses single out only two ways to do that. If H1i, H2i,
+Si, Di, Di and quark superﬁelds (Qi, uc
+i, dc
+i) are even under Z2 while lepton superﬁelds
+(Li, ec
+i, Nc
+i ) and survival components of 27 and 27 (H′ and H
+′) are odd, all terms in
+W2 are forbidden. Then the part of the superpotential allowed by the E6 symmetry is
+invariant with respect to U(1)B and U(1)L global symmetries if the exotic quarks Di and
+Di carry twice larger baryon number than the ordinary quark ﬁelds dc
+i and Qi respectively.
+It implies that Di and Di are diquark and anti–diquark, i.e. BD = −2/3 and BD = 2/3.
+This way of suppressing baryon and lepton number violating operators will be called
+further Model I. An alternative possibility is to assume that the exotic quarks Di and Di
+as well as ordinary lepton superﬁelds and survivors are all odd under Z2 whereas the others
+remain even. Then we get Model II in which all Yukawa interactions in W1 are ruled out
+by the discrete Z2 symmetry. Model II possesses two extra U(1) global symmetries. They
+can be associated with U(1)L and U(1)B if the exotic quarks carry baryon (BD = 1/3 and
+3The term µ′
+ijDidc
+j in W✚
+✚
+E6 spoils the invariance under U(1)D symmetry but the mechanism of its
+generation remains unclear.
+11
+
+=== PDF PAGE 13 ===
+BD = −1/3) and lepton (LD = 1 and LD = −1) numbers simultaneously. It means that
+Di and Di are leptoquarks in Model II.
+In Model II the imposed Z2 symmetry forbids all the terms in the W ′
+1 part of W✚✚
+E6,
+leaving only the mass terms for the right–handed neutrinos, W ′
+0 and W ′
+2. The discrete
+symmetry postulated in the Model I also rules out W ′
+2 but permits µ′
+ijDidc
+j which violate
+baryon number making possible the transition p →π+χ0, where χ0 is a neutralino. In
+order to suppress dangerous operators one can impose another Z2 symmetry that changes
+the sign of the ordinary quark superﬁelds Qi, uc
+i, dc
+i leaving all others unchanged. Finally
+for the superpotentials of Model I and II we get
+I)
+WESSM I
+=
+W0 + W1 + 1
+2MijNc
+i Nc
+j + W ′
+0 ,
+II)
+WESSM II
+=
+W0 + W2 + 1
+2MijNc
+i Nc
+j + W ′
+0 + W ′
+2.
+(16)
+2.5
+Origin of bilinear mass terms in the ESSM
+In the superpotentials (16) the non–Higgs doublets and the survival components from
+the 27′ can be redeﬁned in such a way that only one SU(2) doublet H′ interacts with
+the H
+′ from the 27′.
+As a result without loss of generality µ′
+i in W ′
+0 may be set to
+zero.
+Then the superpotentials of the considered supersymmetric models include two
+types of bilinear terms only. One of them, 1
+2MijNc
+i Nc
+j , determines the spectrum of the
+right–handed neutrinos which are expected to be heavy so that the corresponding mass
+parameters Mij are at intermediate mass scales. Another one, µ′H′H
+′, is characterised by
+the mass parameter µ′ which should not be too large otherwise it spoils gauge coupling
+uniﬁcation in the ESSM. On the other hand, the parameter µ cannot be too small since
+µ′H′H
+′ is solely responsible for the mass of the charged and neutral components of H
+′.
+Therefore we typically require µ′ ∼O(1 TeV) as in the MSSM, potentially giving rise to
+the µ problem once again.
+Within SUGRA models the appropriate term µ′H′H
+′ in the superpotentials (16) can
+be induced just after the breakdown of local SUSY if the K¨ahler potential contains an
+extra term (Z(H′H
+′) + h.c) [49]. This mechanism is of course just the same one used in
+the MSSM to solve the µ problem. But in superstring inspired models the bilinear terms
+involving Hd and Hu are forbidden by the E6 symmetry both in the K¨ahler potential and
+superpotential. As a result the mechanism mentioned above cannot be applied for the
+generation of µHdHu in the ESSM superpotential. However this mechanism may be used
+to give mass to the non–Higgs doublets H′ and H
+′ from additional 27′ and 27′ since the
+corresponding bilinear terms are allowed by the E6 symmetry both in the K¨ahler potential
+and superpotential.
+12
+
+=== PDF PAGE 14 ===
+The other bilinear terms in the superpotential of the E6 inspired SUSY models respon-
+sible for right–handed neutrino masses can be induced through the non–renormalisable
+interactions of 27 and 27 of the form καβ
+MP l
+(27α 27β)2. If the Nc
+H and N
+c
+H components
+of some extra 27H and 27H representations develop VEVs along the D–ﬂat direction
+< Nc
+H >=< N
+c
+H > the original gauge symmetry of the rank–6 superstring inspired model
+with extra U(1)ψ and U(1)χ reduces to SU(3)C × SU(2)W × U(1)Y × U(1)N. In this case
+the eﬀective mass terms for the right–handed neutrinos are generated automatically if the
+extra 27H–plet couples to the ordinary matter representations
+δW = κij
+MP l
+(27H 27i)(27H 27j)
+=⇒
+Mij = 2κij
+MP l
+< N
+c
+H >2 .
+(17)
+To get a reasonable pattern for the left–handed neutrino masses and mixing the U(1)ψ
+and U(1)χ gauge symmetries should be broken down to the U(1)N one around the Grand
+Uniﬁcation or Planck scale. A similar mechanism could be applied for the generation
+of the µ term discussed earlier. However it is rather diﬃcult to use the same ﬁelds Nc
+H
+and N
+c
+H in both cases because the values of the corresponding mass parameters are too
+diﬀerent.
+In order to obtain µ in the TeV range one should assume the existence of
+additional pair of Nc′
+H and N
+c′
+H which acquire VEVs of order 1011 GeV.
+2.6
+Yukawa couplings in the ESSM
+The superpotential (16) of the ESSM involves a lot of new Yukawa couplings in com-
+parison to the SM. But only large Yukawa couplings are signiﬁcant for the study of the
+renormalisation group ﬂow and spectrum of new particles which will be analysed in the
+subsequent sections. The observed mass hierarchy of quarks and charged leptons implies
+that most of the Yukawa couplings in the SM and MSSM are small.
+Therefore it is
+natural to assume some hierarchical structure of the Yukawa interactions of new exotic
+particles with ordinary quarks and leptons as well. As discussed earlier, without loss of
+generality we can assume that only the third family Higgs doublets and singlets S ≡S3,
+Hd ≡H13, Hu ≡H23 gain VEVs, and furthermore the third family Higgs sector couples
+most strongly with the third family quarks and leptons. The third family SM singlet ﬁeld
+S will also couple to the exotic quarks Di and Di and SU(2) non–Higgs doublets H1α and
+H2α (α = 1, 2).
+Discrete and extended gauge symmetries, which were speciﬁed before, do not guarantee
+the absence of FCNCs in the ESSM. Indeed the considered model contains many SU(2)
+doublets and exotic quarks which interact with ordinary quarks and charged leptons of
+diﬀerent generations.
+Therefore one may expect that even in the basis of their mass
+eigenstates the non–diagonal ﬂavour transitions are not forbidden. For example, non–
+diagonal ﬂavour interactions contribute to the amplitude of K0 −K
+0 oscillations and
+13
+
+=== PDF PAGE 15 ===
+give rise to new channels of muon decay like µ →e−e+e−. To suppress ﬂavour changing
+processes one can postulate ZH
+2
+symmetry. If all superﬁelds except Hu, Hd and S are
+odd under ZH
+2 symmetry transformations then only one Higgs doublet Hd interacts with
+the down–type quarks and charged leptons and only one Higgs doublet Hu couples to
+up–type quarks while the couplings of all other exotic particles to the ordinary quarks
+and leptons are forbidden. This eliminates any problems related with the non–diagonal
+ﬂavour transitions in the considered model.
+The most general ZH
+2 and gauge invariant part of the ESSM superpotential that de-
+scribes the interactions of the SM singlet ﬁelds Si with exotic quarks, SU(2) Higgs and
+non–Higgs doublets can be written as
+λijkSi(H1jH2k) + κijkSi(DjDk) −→λiS(H1iH2i) + κiS(DiDi)+
++fαβSα(HdH2β) + ˜fαβSα(H1βHu) ,
+(18)
+where α, β = 1, 2 and i = 1, 2, 3 . In Eq. (18) we choose the basis of non–Higgs and exotic
+quark superﬁelds so that the Yukawa couplings of the singlet ﬁeld S have ﬂavour diagonal
+structure. Here we deﬁne λ ≡λ3 and κ ≡κ3 4. If λ or κ are large at the Grand Uniﬁcation
+scale they aﬀect the evolution of the soft scalar mass m2
+S of the singlet ﬁeld S rather
+strongly resulting in negative values of m2
+S at low energies that triggers the breakdown
+of U(1)N symmetry. The singlet VEV must be large enough to generate suﬃciently large
+masses for the exotic particles to avoid conﬂict with direct particle searches at present
+and former accelerators. This also implies that the Yukawa couplings λi and κi (i̸ = 3)
+involving the new exotic particles although small must be large enough. The Yukawa
+couplings of other SM singlets fαβ and ˜fαβ are expected to be considerably less than λi
+and κi to ensure that only one singlet ﬁeld S gains a VEV. At the same time fαβ and ˜fαβ
+cannot be negligibly small because in this case the fermion components of superﬁelds S1
+and S2 becomes extremely light 5. The induced masses of singlinos ˜S1 and ˜S2 should be
+larger a few MeV otherwise the extra states could contribute to the expansion rate prior
+to nucleosynthesis changing nuclear abundances.
+The ZH
+2 symmetry discussed above forbids all terms in W1 and W2 that would allow
+the exotic quarks to decay. Therefore discrete ZH
+2 symmetry can only be approximate.
+In our model we allow only the third family SU(2) doublets Hd and Hu to have Yukawa
+couplings to the ordinary quarks and leptons of the order unity. As discussed, this is a
+self-consistent assumption since the large Yukawa couplings of the third generation (in
+4Note that κ as deﬁned here in the ESSM refers to the coupling of the singlet S to the third family
+exotic quarks DD, and is not related to the κ of the NMSSM which refers to the cubic singlet coupling
+S3 which is absent in the ESSM.
+5When fαβ and ˜fαβ vanish singlinos ˜S1 and ˜S2 remain massless.
+14
+
+=== PDF PAGE 16 ===
+particular, the top–quark Yukawa coupling) provides a radiative mechanism for generating
+the Higgs VEVs [50] which deﬁnes the third family direction. As a consequence the neutral
+components of Hu and Hd acquire non–zero VEVs inducing the masses of ordinary quarks
+and leptons. The Yukawa couplings of two other pairs of SU(2) doublets H1i and H2i
+as well as H′ and exotic quarks to the quarks and leptons of the third generation are
+supposed to be signiﬁcantly smaller (≲0.1) so that none of the other exotic bosons
+gain a VEV. These couplings break ZH
+2 symmetry explicitly resulting in ﬂavour changing
+neutral currents. In order to suppress the contribution of new particles and interactions
+to the K0 −K
+0 oscillations and to the muon decay channel µ →e−e+e−in accordance
+with experimental limits, it is necessary to assume that the Yukawa couplings of exotic
+particles to the quarks of the ﬁrst and second generations are less than 10−4 and their
+couplings to the leptons of the ﬁrst two generations are smaller than 10−3.
+3.
+Renormalisation group analysis
+3.1
+The approximate superpotential to be studied
+Following the discussion about the natural choice of the parameters in our model given
+at the end of section 2, we can now specify the superpotential couplings whose RG ﬂow
+will be analysed in this section. In our RG analysis we shall retain only Yukawa couplings
+which appear on the right–hand side of Eq. (18), together with the O(1) Yukawa couplings
+to the quarks and leptons. We shall neglect the neutrino Yukawa couplings as well as the
+small couplings involving the ﬁrst and second family singlets in our analysis. Then the
+approximate superpotential studied is given by:
+W0 ≈λS(HdHu) + λ1S(H1,1H2,1) + λ2S(H1,2H2,2) + κS(D3D3)+
++κ1S(D1D1) + κ2S(D2D2) + ht(HuQ)tc + hb(HdQ)bc + hτ(HdL)τ c ,
+(19)
+where all ordinary quark and lepton superﬁelds appeared in Eq. (19) belong to the third
+generation, i.e. L = L3, Q = Q3, tc = uc
+3, bc = dc
+3 and τ c = ec
+3. Here we adopt the
+notation λ = λ3 and κ = κ3. The obtained superpotential possesses the approximate
+ZH
+2 symmetry speciﬁed in the previous section which ensures the natural suppression of
+FCNCs. To guarantee that only one pair of SU(2) doublets Hu and Hd acquires a VEV
+we impose a certain hierarchy between the couplings of H1i and H2i to the SM singlet
+superﬁeld S: λ ≳λ1,2. We assume further that the superpotential (19) is formed near
+the Grand Uniﬁcation or Planck scale. But in order to compute the masses and couplings
+at the EW scale one has to determine the values of gauge and Yukawa couplings at the
+EW scale. The evolution of all masses and couplings from MX to MZ is described by a
+15
+
+=== PDF PAGE 17 ===
+system of RG equations. In this section we study the behaviour of the solutions to such
+equations describing the gauge and Yukawa couplings in the framework of the ESSM.
+3.2
+The mixing of U(1)Y and U(1)N
+In this subsection we address a mixing phenomenon related with the gauge sector of
+models containing two U(1) gauge factors. In the Lagrangian of any gauge extension
+of the SM containing an additional U(1)′ gauge group there can appear a kinetic term
+consistent with all symmetries which mixes the gauge ﬁelds of the U(1)′ and U(1)Y [51].
+Our model is not an exception in this respect. In the basis in which the interactions
+between gauge and matter ﬁelds have the canonical form, i.e. for instance a covariant
+derivative Dµ which acts on the scalar and fermion components of the left–handed quark
+superﬁeld given by
+Dµ = ∂µ −ig3Aa
+µT a −ig2W b
+µτ b −igY QY
+i BY
+µ −igNQN
+i BN
+µ ,
+(20)
+the pure gauge kinetic part of the Lagrangian can be written as
+Lkin = −1
+4
+ F Y
+µν
+2 −1
+4
+ F N
+µν
+2 −sin χ
+2
+F Y
+µνF N
+µν −1
+4 (Gµν)2 −1
+4 (Wµν)2 .
+(21)
+In Eqs. (20)–(21) Aa
+µ, W b
+µ, BY
+µ and BN
+µ represent SU(3), SU(2), U(1)Y and U(1)N gauge
+ﬁelds, Ga
+µν, W b
+µν, F Y
+µν and F N
+µν are ﬁeld strengths for the corresponding gauge interactions,
+while g3, g2, gY and gN are SU(3), SU(2), U(1)Y and U(1)N gauge couplings respectively.
+Because U(1)Y and U(1)N arise from the breaking of the simple gauge group E6 the
+parameter sin χ that parametrises the gauge kinetic term mixing is equal to zero at tree–
+level. However it arises from loop eﬀects since
+Tr
+ QY QN
+=
+X
+i= chiral ﬁelds
+ QY
+i QN
+i
+̸
+= 0 .
+(22)
+Here the trace is restricted to the states lighter than the energy scale being considered.
+The complete E6 multiplets do not contribute to this trace. Its non–zero value is due to
+the incomplete 27′ + 27′ multiplets of the original E6 symmetry from which only H′ and
+H′ survive to low energy in order to ensure gauge coupling uniﬁcation.
+The mixing in the gauge kinetic part of the Lagrangian (21) can be easily eliminated
+by means of a non–unitary transformation of the two U(1) gauge ﬁelds [26], [52]–[53]:
+BY
+µ = B1µ −B2µ tan χ ,
+BN
+µ = B2µ/ cos χ .
+(23)
+In terms of the new gauge variables B1µ and B2µ the gauge kinetic part of the Lagrangian
+(21) is now diagonal and the covariant derivative (20) becomes [51]
+Dµ = ∂µ −ig3Aa
+µT a −ig2W b
+µτ b −ig1QY
+i B1µ −i(g′
+1QN
+i + g11QY
+i )B2µ ,
+(24)
+16
+
+=== PDF PAGE 18 ===
+where the redeﬁned gauge coupling constants, written in terms of the original ones, are
+g1 = gY ,
+g′
+1 = gN/ cos χ ,
+g11 = −gY tan χ .
+(25)
+In the new Lagrangian written in terms of the new gauge variables B1µ and B2µ (deﬁned
+in Eq. (23)) the mixing eﬀect is concealed in the interaction between the U(1)N gauge
+ﬁeld and matter ﬁelds. The gauge coupling constant g′
+1 is varied from the original one
+and also a new oﬀ–diagonal gauge coupling g11 appears. The covariant derivative (24)
+can be rewritten in a more compact form
+Dµ = ∂µ −ig3Aa
+µT a −ig2W b
+µτ b −iQTGBµ ,
+(26)
+where QT = (QY
+i , QN
+i ), BT
+µ = (B1µ, B2µ) and G is a 2 × 2 matrix of new gauge couplings
+(25)
+G =
+
+g1
+g11
+0
+g′
+1
+
+.
+(27)
+Now all physical phenomena can be considered by using this new Lagrangian with the
+modiﬁed structure of the extra U(1)N interaction (24)–(26). In the considered approx-
+imation the gauge kinetic mixing changes eﬀectively the U(1)N charges of the ﬁelds to
+˜Qi ≡QN
+i + QY
+i δ,
+(28)
+where δ = g11/g′
+1 while the U(1)Y charges remain the same.
+As the gauge coupling
+constants are scale dependent, the eﬀective U(1)N charges deﬁned here as ˜Qi are scale
+dependent as well. The particle spectrum now depends on the eﬀective U(1)N charges
+˜Qi.
+In Eq. (28) the correct E6 normalisation of the charges should be used, and thus the
+U(1)Y hypercharges in Eqs. (7)–(8) should be multiplied by a factor
+r
+3
+5, and the QN
+charges in Eqs. (7)–(8) should be multiplied by 1/
+√
+40. The correctly normalised charges
+of all the matter ﬁelds in the ESSM are summarised in Table 1. The charges are family
+independent, and the index i here refers to the diﬀerent multiplets as well as the diﬀerent
+families.
+3.3
+The running of the gauge couplings
+At the one–loop level the full set of RG equations describing the running of gauge and
+Yukawa couplings splits into two parts. One of them includes RG equations for the gauge
+couplings.
+In the one–loop approximation β functions of the gauge couplings do not
+17
+
+=== PDF PAGE 19 ===
+Q
+uc
+dc
+L
+ec
+Nc
+S
+H2
+H1
+D
+D
+H′
+H′
+q
+5
+3QY
+i
+1
+6
+−2
+3
+1
+3
+−1
+2
+1
+0
+0
+1
+2
+−1
+2
+−1
+3
+1
+3
+−1
+2
+1
+2
+√
+40QN
+i
+1
+1
+2
+2
+1
+0
+5
+−2
+−3
+−2
+−3
+2
+−2
+Table 1: The U(1)Y and U(1)N charges of matter ﬁelds in the ESSM, where QN
+i and QY
+i are here deﬁned
+with the correct E6 normalisation factor required for the RG analysis.
+depend on the Yukawa ones. Therefore this part of the system of RG equations can be
+analysed separately, and is discussed in this subsection.
+The RG ﬂow of the Abelian gauge couplings is aﬀected by the kinetic term mixing
+as discussed in the previous subsection. Using the matrix notation for the structure of
+U(1) interactions with G deﬁned in Eq. (27) one can write down the RG equations for
+the Abelian couplings in a compact form [26], [52]–[53]
+dG
+dt = G × B ,
+(29)
+where B is a 2 × 2 matrix of β functions given by
+B =
+
+B1
+B11
+0
+B′
+1
+
+=
+1
+(4π)2
+
+β1g2
+1
+2g1g′
+1β11 + 2g1g11β1
+0
+g
+′2
+1 β′
+1 + 2g′
+1g11β11 + g2
+11β1
+
+.
+(30)
+In the ESSM with Ng = 3 the one–loop β functions β1, β′
+1 and β11 are
+β1 =
+X
+i
+(QY
+i )2 = 48
+5 ,
+β′
+1 =
+X
+i
+(QN
+i )2 = 47
+5 ,
+β11 =
+X
+i
+QY
+i QN
+i = ∓
+√
+6
+5 .(31)
+The index i is summed over all possible chiral superﬁelds and all families. Note that
+β1 ≈β′
+1 ≫β11. This implies that the eﬀect of U(1) gauge mixing is ultimately rather
+small, and furthemore that, if the (properly normalised) gY and gN start out equal at the
+GUT scale, then they will remain approximately equal at low energies.
+The running of SU(2) and SU(3) couplings obey the RG equations of the standard
+form:
+dg2
+dt = β2g3
+2
+(4π)2 ,
+dg3
+dt = β3g3
+3
+(4π)2 ,
+(32)
+with β functions
+β2 = −5 + 3Ng ,
+β3 = −9 + 3Ng ,
+(33)
+where t = ln (µ/MX) and µ is the RG scale. The parameter Ng appeared in the expressions
+for β2 and β3 is the number of generations forming E6 fundamental representations which
+the considered SUSY model involves at low energies. As one can easily see from Eq. (33)
+Ng = 3 is the critical value for the one–loop β function of strong interactions. Since by
+18
+
+=== PDF PAGE 20 ===
+construction three complete 27–plets survive to low energies in the ESSM β3 is equal to
+zero in our case and SU(3) gauge coupling remains constant everywhere from MZ to MX.
+Because complete 27–plets do not violate E6 symmetry each generation should give the
+same contribution to all β functions. It takes place automatically in the case of SU(2)
+and SU(3) β functions and allows to obtain a correct normalisation for the charges of two
+U(1)′s.
+The RG equations for the gauge couplings in Eqs. (29) and (32) should be supple-
+mented by the boundary conditions. Since we deal with an E6 inspired model it seems
+to be natural to assume that at high energies E6 symmetry is restored and all gauge
+interactions are characterised by a unique E6 gauge coupling g0 which is deﬁned as
+g3(MX) = g2(MX) = g1(MX) = g′
+1(MX) = g0 .
+(34)
+Also we expect that there is no mixing in the gauge kinetic part of the Lagrangian just
+after the breakdown of the E6 symmetry, i.e.
+g11(MX) = 0 .
+(35)
+The hypothesis of gauge coupling uniﬁcation (34) permits to evaluate the overall gauge
+coupling g0 and the Grand Uniﬁcation scale MX using the values of g1(MZ), g2(MZ)
+and g3(MZ) which are ﬁxed by LEP measurements and other experimental data [54].
+The high energy scale where the uniﬁcation of the gauge couplings takes place is almost
+insensitive to the matter content of the supersymmetric model. Indeed, in the one–loop
+approximation we have
+1
+(4π)2 ln M2
+X
+M2
+Z
+=
+1
+β1 −β2
+
+1
+g2
+1(M2
+Z) −
+1
+g2
+2(M2
+Z)
+
+.
+(36)
+Because the dependence of the scale MX, where U(1)Y and SU(2) gauge couplings meet,
+on the particle content of any model comes from the diﬀerence of the corresponding β
+functions, in which the contribution of any complete SU(5) multiplets is cancelled, the
+Grand Uniﬁcation scale in the ESSM remains the same as in the MSSM, i.e in the one–
+loop approximation MX ≃2 · 1016 GeV. At the same time the value of the overall gauge
+coupling is rather sensitive to the matter content of SUSY models. In the ESSM the
+appropriate values of the SU(2), SU(3) and U(1)Y gauge couplings at the EW scale can
+be reproduced for g0 ≃1.21 which diﬀers from the value of g0 ≃0.72 found in the minimal
+SUSY model. The growth of g0 in our model is caused by the extra exotic supermultiplets
+of matter.
+The interesting point concerning the matter content in our model is that β1, β′
+1, β2
+and β3 are quite close to their saturation limits when the gauge couplings blow up at the
+Grand Uniﬁcation scale. The ESSM allows to accommodate only one additional pair of
+19
+
+=== PDF PAGE 21 ===
+5 + 5 representations of the usual SU(5) which form extra exotic quark and non–Higgs
+multiplets. Further enlargement of the particle content leads to the appearance of the
+Landau pole during the evolution of the gauge couplings from MZ to MX.
+Using the boundary conditions (34) and (35) as well as the obtained values of g0 and
+MX it is possible to solve the RG equations for g′
+1 and g11. It turns out that g′
+1(Q) is very
+close to g1(Q) for any value of renormalisation scale Q from MX to MZ while g11(Q) is
+negligibly small compared to all other gauge couplings. At the EW scale we get
+g1(MZ)
+g′
+1(MZ) ≃0.99 ,
+g11(MZ) ≃0.020 ,
+g1(MZ) ≃0.46 .
+(37)
+Eq. (37) tells us that if the (properly normalised) gY and gN couplings start out equal
+at the GUT scale, then they will remain approximately equal at low energies to within
+an accuracy of two per cent at the one–loop level. As previously noted, this results from
+β1 ≈β′
+1 ≫β11 which implies that the eﬀect of U(1) gauge mixing is small.
+In the
+following analysis we shall continue to include the eﬀects of U(1) gauge mixing in the
+correct way. However, it should be noted that to excellent approximation we could take
+g1 = g′
+1 = gY = gN and ˜Qi = QN
+i , which is within the accuracy of the one–loop result.
+3.4
+The running of the Yukawa couplings
+The running of the Yukawa couplings appearing in the superpotential in Eq. (19) obey
+the following system of diﬀerential equations6:
+dht
+dt
+=
+ht
+(4π)2
+
+λ2 + 6h2
+t + h2
+b −16
+3 g2
+3 −3g2
+2 −13
+15g2
+1 −2
+
+˜Q2
+2 + ˜Q2
+Q + ˜Q2
+u
+
+g
+′2
+1
+
+,
+dhb
+dt
+=
+hb
+(4π)2
+
+λ2 + h2
+t + 6h2
+b + h2
+τ −16
+3 g2
+3 −3g2
+2 −7
+15g2
+1 −2
+
+˜Q2
+1 + ˜Q2
+Q + ˜Q2
+d
+
+g
+′2
+1
+
+,
+dhτ
+dt
+=
+hτ
+(4π)2
+
+λ2 + 3h2
+b + 4h2
+τ −3g2
+2 −9
+5g2
+1 −2
+
+˜Q2
+1 + ˜Q2
+L + ˜Q2
+e
+
+g
+′2
+1
+
+,
+dλi
+dt
+=
+λi
+(4π)2
+
+2λ2
+i + 2Σλ + 3Σκ + (3h2
+t + 3h2
+b + h2
+τ)δi3−
+−3g2
+2 −3
+5g2
+1 −2
+
+˜Q2
+S + ˜Q2
+2 + ˜Q2
+1
+
+g
+′2
+1
+
+,
+dκi
+dt
+=
+κi
+(4π)2
+
+2κ2
+i + 2Σλ + 3Σκ −16
+3 g2
+3 −4
+15g2
+1 −2
+
+˜Q2
+S + ˜Q2
+D + ˜Q2
+D
+
+g
+′2
+1
+
+,
+(38)
+where Σλ = λ2
+1 + λ2
+2 + λ2
+3 and Σκ = κ2
+1 + κ2
+2 + κ2
+3 and where the index i = 1, 2, 3.
+The couplings ht, hb and hτ in Eq. (38) determine the running masses of the fermions
+of the third generation at the EW scale
+mt(Mt) = ht(Mt)v
+√
+2
+sin β, mb(Mt) = hb(Mt)v
+√
+2
+cos β, mτ(Mt) = hτ(Mt)v
+√
+2
+cos β ,(39)
+6See also [25]–[26].
+20
+
+=== PDF PAGE 22 ===
+which are generated after EWSB. In Eq. (39) mτ, mt and mb are the running masses
+of the τ–lepton, top– and bottom–quark respectively, Mt is a top quark pole mass,
+v =
+p
+v2
+1 + v2
+2 = 246 GeV, while tan β = v2/v1, where v2 and v1 are the VEVs of the
+Higgs doublets Hu and Hd. Since the running masses of the fermions of the third gen-
+eration are known, Eq. (39) can be used to derive the Yukawa couplings hτ(Mt), ht(Mt)
+and hb(Mt) for each particular value of tan β establishing boundary conditions for the
+renormalisation group equations (38). In this paper we restrict our analysis to moderate
+values of tan β ≪mt(Mt)/mb(Mt) for which b–quark and τ–lepton Yukawa couplings are
+much smaller than ht and thus can be safely neglected.
+The boundary conditions for the Yukawa couplings of the SM singlet ﬁeld S to the
+Higgs doublets and exotic particles are unknown. These couplings give rise to the masses of
+the exotic quarks and non–Higgsinos after the breakdown of gauge symmetry. Since none
+of the exotic particles or Higgs bosons have been found yet λi and κi should be considered
+as free parameters in our model. There are two diﬀerent assumptions regarding these
+couplings that look rather natural and allow one to reduce the number of new parameters.
+One of them implies that the masses of the exotic particles mimic the hierarchy observed
+in the sector of ordinary quarks and charged leptons. Then non–observation of new exotic
+states may be related with the considerable hierarchy of VEVs of the singlet ﬁeld S and
+Higgs doublets. In this case λ1, λ2, κ1 and κ2 are tiny and can be simply ignored.
+Although the suggested pattern is quite simple and natural it does not permit to tell
+anything about the masses of the exotic particles of the ﬁrst two generations because the
+corresponding Yukawa couplings are set to zero from the beginning. In the meantime
+one has to ensure that exotic fermions gain large enough masses to avoid any conﬂict
+with direct new particle searches at present and former colliders. Therefore it is worth
+to incorporate all Yukawa couplings of exotic particles to the SM singlet ﬁeld S in our
+analysis of RG ﬂow. Because the Yukawa interactions of extra coloured singlets Di and
+Di in the superpotential (19) and as a consequence the corresponding RG equations are
+symmetric with respect to the generation index i exchange, i.e. 1 ↔2, 2 ↔3 and 3 ↔1,
+there is a solution of the RG equations when all κi are equal to each other. Moreover the
+solutions for κi(Q) tend to converge to each other during the evolution of these couplings
+from the Grand Uniﬁcation to EW scale. Thus the choice κ1(Mt) = κ2(Mt) = κ(Mt) is
+well motivated by the RG ﬂow.
+Similar results can be obtained for λ1 and λ2. However the running of λ1(Q) = λ2(Q)
+diﬀers from the evolution of λ(Q) because the top–quark and its superpartners give sig-
+niﬁcant contributions to the renormalisation of λ(Q). Nevertheless the diﬀerence between
+the RG ﬂow of λ1(Q) = λ2(Q) and λ(Q) is not so appreciable in comparison with the
+running of κi(Q) and ht(Q). The couplings of the Yukawa interactions involving quark
+21
+
+=== PDF PAGE 23 ===
+superﬁelds renormalise by virtue of the strong interactions that push their values up con-
+siderably at low energies. Therefore it seems to be reasonable to ignore the diﬀerence
+between the evolution of λi(Q) in ﬁrst approximation and consider separately the limit
+in which λ1(Mt) = λ2(Mt) = λ(Mt).
+At ﬁrst we consider the limit when the Yukawa couplings of the exotic quarks and
+non–Higgses of the ﬁrst two generation are negligibly small. Then the system of the RG
+equations can be rewritten in the suggestive form
+8π2 d
+dt
+λ2
+h2
+t
+
+=
+
+3λ2 + 3κ2 −3h2
+t + 16
+3 g2
+3 + 4
+15g2
+1+
++2( ˜Q2
+Q + ˜Q2
+u −˜Q2
+S −˜Q2
+1)
+ λ2
+h2
+t
+
+,
+8π2 d
+dt
+κ2
+h2
+t
+
+=
+
+5κ2 + λ2 −6h2
+t + 3g2
+2 + 3
+5g2
+1+
++2( ˜Q2
+2 + ˜Q2
+Q + ˜Q2
+u −˜Q2
+S −˜Q2
+D −˜Q2
+D)
+ κ2
+h2
+t
+
+.
+(40)
+If we ignore gauge couplings the system of diﬀerential equations (40) has two ﬁxed points
+(I)
+λ2
+h2
+t
+= 1 ,
+κ2
+h2
+t
+= 0 ;
+(II)
+λ2
+h2
+t
+= 0 ,
+κ2
+h2
+t
+= 6
+5 .
+(41)
+Of these ﬁxed points only the last one is infrared stable. The presence of the infrared
+stable ﬁxed point (II) means that if we start with random boundary conditions for the
+couplings λ, κ and ht in the gaugeless (g0 = 0) limit the solutions of the RG equations
+(40) tend to converge towards the values which respect the ratios (II). This is illustrated
+in Fig. 1a where the running λ/ht versus κ/ht for ht(MX) = 10, g0 = 0 and regular
+distribution of boundary conditions for λ(MX) and κ(MX) at the Grand Uniﬁcation scale
+is shown. A point in the plane λ/ht −κ/ht will ﬂow rapidly towards the valley, that
+corresponds to the invariant line which connects ﬁxed points (I) and (II), and then more
+slowly along it to the stable ﬁxed point (II). The properties of invariant lines and surfaces
+were reviewed in detail in [55].
+So far we have neglected the eﬀects of gauge couplings. However their role is quite
+important especially at low energies where the gauge coupling of the strong interactions is
+larger than the Yukawa ones. As one can see from Fig. 1b the inclusion of gauge couplings
+spoils the valley along which the solutions of RG equations ﬂow to the ﬁxed points (II).
+But the convergence of ht(Q), λ(Q) and κ(Q) to the quasi–ﬁxed point, which becomes
+more close to unity, increases.
+22
+
+=== PDF PAGE 24 ===
+Similar analysis can be performed in the case when all Yukawa couplings of exotic
+particles have non–zero values. As before in the gaugeless limit there is only one stable
+ﬁxed point of the RG equations (38) which corresponds to
+λ2
+h2
+t
+= 0 ,
+κ2
+h2
+t
+= κ2
+1, 2
+h2
+t
+= λ2
+1, 2
+h2
+t
+= 2
+5 .
+(42)
+Turning the gauge couplings on induces a certain hierarchy between the Yukawa couplings
+of exotic quarks and non–Higgses. Due to the growth of the gauge coupling of strong
+interactions at low energies the Yukawa couplings of the top– and exotic quarks tend to
+dominate over λi. It shifts the position of the quasi–ﬁxed point where the solutions of the
+RG equations are focused
+λ2
+h2
+t
+→0 ,
+λ2
+1, 2
+h2
+t
+≃0.26 ,
+κ2
+h2
+t
+= κ2
+1, 2
+h2
+t
+≃0.66 .
+(43)
+In spite of their attractiveness ﬁxed points cannot provide a complete description of
+the RG ﬂow of Yukawa couplings. Indeed, the strength of the attraction of the solutions to
+the RG equations (41) towards the invariant line and ﬁxed point is governed by ht(MX).
+The larger ht(MX) the faster the stable ﬁxed point is reached. However at small values
+of ht(MX) = 0.2 −0.4 the convergence of ht(Q), λ(Q) and κ(Q) to the ﬁxed points is
+extremely weak. Therefore even at moderate values of tan β = 1.5 −3 the values of the
+Yukawa couplings at the EW scale may be far away from the stable ﬁxed point.
+In this context it is worth to study the limits on the values of the Yukawa couplings
+imposed by the perturbative RG ﬂow. The growth of Yukawa couplings at the EW scale
+entails the increase of their values at the Grand Uniﬁcation scale resulting in the appear-
+ance of the Landau pole. Large values of the Yukawa couplings spoil the applicability of
+perturbation theory at high energies so that the one–loop RG equations cannot be used
+for an adequate description of the evolution of gauge and Yukawa couplings at high scales
+Q ∼MX. The requirement of validity of perturbation theory up to the Grand Uniﬁcation
+scale restricts the interval of variations of Yukawa couplings at the EW scale. In the
+simplest case when κ1 = κ2 = λ1 = λ2 = 0 the assumption that perturbative physics
+continues up to the scale MX sets an upper limit on the low energy value of κ(Mt),
+evaluated at the top mass Mt, for each ﬁxed set of λ(Mt) and ht(Mt) (or tan β). With
+decreasing (increasing) λ(Mt) the maximal possible value of κ(Mt), which is consistent
+with perturbative gauge coupling uniﬁcation, increases (decreases) forming a demarcating
+line that restricts the allowed range of the parameter space in the κ/ht −λ/ht plane for
+each particular value of tan β.
+For tan β = 2 the corresponding limits on the low energy Yukawa couplings evaluated
+at Mt are shown in Fig. 2a. Outside the permitted region the solutions of the RG equations
+blow up before the Grand Uniﬁcation scale and perturbation theory is not valid at high
+23
+
+=== PDF PAGE 25 ===
+energies. The allowed range for the Yukawa couplings varies when tan β changes. When
+tan β tends to its lower bound caused by the applicability of perturbation theory, which
+is around unity in our model, the permitted part of the parameter space narrows in the
+direction of λ/ht so that only a small interval of variations of λ/ht is allowed. At large
+tan β the allowed range for the Yukawa couplings enlarges. The typical pattern of the
+RG ﬂow of the ratios of Yukawa couplings from the permitted region of the parameter
+space is presented in Fig. 2b. It diﬀers signiﬁcantly from the analogous pattern obtained
+in the top–bottom approach (see Fig. 1) because the chosen value of top–quark Yukawa
+coupling, which corresponds to tan β = 2, is quite far from the quasi–ﬁxed point. The
+peculiar feature of both patterns is that the ratio of λ/ht changes during the evolution
+more strongly than κ/ht. Owing to this most trajectories in Fig. 2b are almost parallel
+to the axis λ/ht.
+A similar pattern for the RG ﬂow can be found for most values of tan β and does
+not change much after the inclusion of the Yukawa couplings of exotic particles of the
+ﬁrst two generations. But the introduction of κ1, κ2, λ1 and λ2 makes more rigorous the
+restrictions on the Yukawa couplings of the third generation. In Fig. 2c we plot the allowed
+range of the Yukawa couplings in the case when λ1 and λ2 are still negligibly small while
+κ = κ1 = κ2. It is easy to see that in this case the upper bounds on κ/ht are more stringent
+than in Fig. 2a. Turning λ1 and λ2 on so that λ(Mt) = λ1(Mt) = λ2(Mt) reduces the
+limit on λ/ht (see Fig. 2d). The narrowing of the allowed range of the parameter space
+is not an unexpected eﬀect.
+New Yukawa couplings appear in the right–hand side of
+the diﬀerential equations (38) with positive sign. As a consequence they increase the
+growth of the Yukawa couplings of the third generation and perturbation theory becomes
+inapplicable for lower values of λ(Mt) and κ(Mt).
+Because the allowed range of the Yukawa couplings always shrinks when additional
+Yukawa couplings are introduced one can ﬁnd an absolute upper limit on the value of
+λ(Mt) as function of ht(Mt) or tan β by setting all other Yukawa couplings to zero. The
+dependence of this upper limit λmax on tan β is shown in Fig. 3. The upper bound on λ(Mt)
+grows with increasing tan β because the top–quark Yukawa coupling decreases. The value
+of λmax vanishes at tan β ≃1 when the top–quark Yukawa coupling attains a ﬁxed point
+(see also Fig. 1b). At large tan β the upper bound on λ(Mt) approaches the saturation
+limit where λmax ≃0.84. The restrictions on λ(Mt) and other Yukawa couplings obtained
+in this section are extremely useful for the analysis of the Higgs particle spectrum which
+we are going to consider next.
+24
+
+=== PDF PAGE 26 ===
+4.
+Electroweak symmetry breaking and Higgs sector
+4.1
+The Higgs potential and its minimisation
+The sector responsible for EWSB in the ESSM includes two Higgs doublets Hu and Hd
+as well as the SM singlet ﬁeld S.
+The interactions between them are deﬁned by the
+structure of the gauge interactions and by the superpotential in Eq. (19). Including soft
+SUSY breaking terms, and radiative corrections, the resulting Higgs eﬀective potential is
+the sum of four pieces:
+V
+=
+VF + VD + Vsoft + ∆V ,
+VF
+=
+λ2|S|2(|Hd|2 + |Hu|2) + λ2|(HdHu)|2 ,
+VD
+=
+g2
+2
+8
+
+H†
+dσaHd + H†
+uσaHu
+2
++ g′2
+8
+ |Hd|2 −|Hu|22 +
++g
+′2
+1
+2
+
+˜Q1|Hd|2 + ˜Q2|Hu|2 + ˜QS|S|22
+,
+Vsoft
+=
+m2
+S|S|2 + m2
+1|Hd|2 + m2
+2|Hu|2 +
+
+λAλS(HuHd) + h.c.
+
+,
+(44)
+where g′ =
+p
+3/5g1 is the low energy (non-GUT normalised) gauge coupling and ˜Q1, ˜Q2
+and ˜QS are eﬀective U(1)N charges of Hd, Hu and S respectively. Here HT
+d = (H0
+d, H−
+d ),
+HT
+u = (H+
+u , H0
+u) and (HdHu) = H+
+u H−
+d −H0
+uH0
+d. At tree–level the Higgs potential in
+Eq. (44) is described by the sum of the ﬁrst three terms. The structure of the F–terms VF
+is exactly the same as in the NMSSM without the self–interaction of the singlet superﬁeld.
+However the D–terms in VD contain a new ingredient: the terms in the expression for VD
+proportional to g′
+1
+2 represent D–term contributions due to the extra U(1)N which are not
+present in the MSSM or NMSSM. The soft SUSY breaking terms are collected in Vsoft.
+The term ∆V represents the contribution of loop corrections to the Higgs eﬀective
+potential. In the MSSM the dominant contribution to ∆V comes from the loops involving
+the top–quark and its superpartners because of their large Yukawa coupling. However the
+ESSM contains many new exotic supermultiplets and the RG analysis described in the
+previous section revealed that the Yukawa couplings of the exotic D–quarks to the SM
+singlet ﬁeld S can be large at the EW scale. Therefore the contribution of D–quarks
+and their superpartners to ∆V can be enhanced as well. Keeping only leading one–loop
+corrections to the Higgs eﬀective potential in Eq. (44) from the top– and exotic quarks
+and their superpartners we ﬁnd
+∆V =
+3
+32π2
+"
+m4
+˜t1
+ 
+ln
+m2
+˜t1
+Q2 −3
+2
+!
++ m4
+˜t2
+ 
+ln
+m2
+˜t2
+Q2 −3
+2
+!
+−2m4
+t
+
+ln m2
+t
+Q2 −3
+2
+
++
+(45)
+25
+
+=== PDF PAGE 27 ===
++ P
+i=1,2,3
+(
+m4
+˜D1,i
+ 
+ln
+m2
+˜D1,i
+Q2
+−3
+2
+!
++ m4
+˜D2,i
+ 
+ln
+m2
+˜D2,i
+Q2
+−3
+2
+!
+−2µ4
+Di
+
+ln µ2
+Di
+Q2 −3
+2
+)#
+,
+where µDi = κi < S >= κis
+√
+2 are masses of exotic quarks, while m˜t1, m˜t2, m ˜D1,i and m ˜D2,i
+are the masses of the superpartners of the top and D–quarks which are given by
+m2
+˜t1,˜t2 = 1
+2
+
+m2
+Q + m2
+U + 2 + 2m2
+t ±
+s
+(m2
+Q −m2
+U)2 + 4m2
+t
+
+At −
+λs
+√
+2 tan β
+2
+,
+m2
+˜D1,i, ˜D2,i = 1
+2
+
+m2
+Di + m2
+Di + 2µ2
+Di ±
+s
+(m2
+Di −m2
+Di)2 + 4
+
+AκiµDi −κiλ
+2 v1v2
+2
+.
+(46)
+The couplings g2, g′, g′
+1 and λ in the scalar potential (44) do not violate SUSY. More-
+over the gauge couplings g2 and g′ are well known [54]. The value of the extra U(1)N
+coupling g′
+1 and the eﬀective U(1)N charges of Hd, Hu and S can be determined assuming
+gauge coupling uniﬁcation (see Eq. (37)). The Yukawa coupling λ cannot be ﬁxed as di-
+rectly as the gauge couplings. But as we discussed in the previous section the requirement
+of validity of perturbation theory up to the GUT scale leads to an upper bound λ ≤λmax.
+A set of soft SUSY breaking parameters in the tree–level Higgs boson potential includes
+the soft masses m2
+1, m2
+2, m2
+S and the trilinear coupling Aλ. The part of the scalar potential
+(44) which contains soft SUSY breaking terms Vsoft coincides with the corresponding one
+in the NMSSM when the NMSSM parameters κ and Aκ vanish. Since the only complex
+phase (of λAλ) that appears in the tree–level scalar potential (44) can easily be absorbed
+by a suitable redeﬁnition of the Higgs ﬁelds, CP–invariance is preserved in the Higgs
+sector of the considered model at tree–level. The inclusion of loop corrections draws into
+the analysis many other soft SUSY breaking parameters which deﬁne masses of diﬀerent
+superparticles. Some of these parameters can be complex creating potential sources of
+CP–violation.
+At the physical minimum of the scalar potential (44) the Higgs ﬁelds develop VEVs
+< Hd >= 1
+√
+2
+ 
+v1
+0
+!
+,
+< Hu >= 1
+√
+2
+ 
+0
+v2
+!
+,
+< S >=
+s
+√
+2.
+(47)
+The vacuum conﬁguration (47) is not the most general one. Because of the SU(2) invari-
+ance of the Higgs potential (44) one can always make < H+
+u >= 0 by virtue of a suitable
+gauge rotation. Then the requirement < H−
+d >= 0, which is a necessary condition to
+preserve U(1)em associated with electromagnetism in the physical vacuum, is equivalent
+to requiring the squared mass of the physical charged scalar to be positive. It imposes
+additional constraints on the parameter space of the model.
+26
+
+=== PDF PAGE 28 ===
+The equations for the extrema of the Higgs boson potential in the directions (47) in
+ﬁeld space read:
+∂V
+∂s
+=
+m2
+Ss −λAλ
+√
+2 v1v2 + λ2
+2 (v2
+1 + v2
+2)s+
++g
+′2
+1
+2
+
+˜Q1v2
+1 + ˜Q2v2
+2 + ˜QSs2
+
+˜QSs + ∂∆V
+∂s
+= 0 ,
+∂V
+∂v1
+=
+m2
+1v1 −λAλ
+√
+2
+sv2 + λ2
+2 (v2
+2 + s2)v1 + ¯g2
+8
+
+v2
+1 −v2
+2)
+
+v1+
++g
+′2
+1
+2
+
+˜Q1v2
+1 + ˜Q2v2
+2 + ˜QSs2
+
+˜Q1v1 + ∂∆V
+∂v1
+= 0 ,
+∂V
+∂v2
+=
+m2
+2v2 −λAλ
+√
+2 sv1 + λ2
+2 (v2
+1 + s2)v2 + ¯g2
+8
+
+v2
+2 −v2
+1
+
+v2+
++g
+′2
+1
+2
+
+˜Q1v2
+1 + ˜Q2v2
+2 + ˜QSs2
+
+˜Q2v2 + ∂∆V
+∂v2
+= 0 ,
+(48)
+where ¯g =
+p
+g2
+2 + g′2. Instead of v1 and v2 it is more convenient to use tan β and v
+deﬁned above.
+To simplify the analysis of the Higgs spectrum it is worth to express
+the soft masses m2
+1, m2
+2, m2
+S in terms of s, v, tan β and other parameters. Because from
+precision measurements we know that v = 246 GeV the tree–level Higgs masses and
+couplings depend on four variables only:
+λ ,
+s ,
+tan β ,
+Aλ .
+(49)
+4.2
+Z-Z′ mixing
+Initially the sector of EWSB involves ten degrees of freedom. However four of them are
+massless Goldstone modes which are swallowed by the W ±, Z and Z′ gauge bosons. The
+charged W ± bosons gain masses via the interaction with the neutral components of the
+Higgs doublets just in the same way as in the MSSM so that MW = g2
+2 v. Meanwhile the
+mechanism of the neutral gauge boson mass generation diﬀers signiﬁcantly. Letting Z′ be
+the gauge boson associated with U(1)N, i.e.
+Z′
+µ = B2µ ,
+Zµ = W 3
+µ cos θW −B1µ sin θW ,
+(50)
+the Z −Z′ mass squared matrix is given by
+M2
+ZZ′ =
+
+M2
+Z
+∆2
+∆2
+M2
+Z′
+
+,
+(51)
+where
+M2
+Z = ¯g2
+4 v2 ,
+∆2 = ¯gg′
+1
+2 v2
+
+˜Q1 cos2 β −˜Q2 sin2 β
+
+,
+M2
+Z′ = g
+′2
+1 v2
+
+˜Q2
+1 cos2 β + ˜Q2
+2 sin2 β
+
++ g
+′2
+1 ˜Q2
+Ss2 .
+(52)
+27
+
+=== PDF PAGE 29 ===
+The eigenvalues of this matrix are
+M2
+Z1, Z2 = 1
+2
+
+M2
+Z + M2
+Z′ ∓
+q
+(M2
+Z −M2
+Z′)2 + 4∆4
+
+.
+(53)
+The eigenvalues M2
+Z1 and M2
+Z2 correspond to the mass eigenstates Z1 and Z2 which are
+linear superpositions of Z and Z′
+Z1 = Z cos αZZ′ + Z′ sin αZZ′ ,
+Z2 = −Z sin αZZ′ + Z′ cos αZZ′ ,
+αZZ′ = 1
+2 arctan
+
+2∆2
+M2
+Z′ −M2
+Z
+
+.
+(54)
+Phenomenological constraints typically require the mixing angle αZZ′ to be less than
+2 −3 × 10−3 [56] and the mass of the extra neutral gauge boson to be heavier than
+500 −600 GeV [57]. A suitable mass hierarchy and mixing between Z and Z′ are main-
+tained if the ﬁeld S acquires a large VEV s ≳1.5 TeV. Then the mass of the lightest
+neutral gauge boson Z1 is very close to MZ whereas the mass of Z2 is set by the VEV of
+the singlet ﬁeld MZ2 ≃MZ′ ≈g′
+1 ˜QS s.
+4.3
+Charged Higgs
+Due to electric–charge conservation the charged components of the Higgs doublets are not
+mixed with neutral Higgs ﬁelds. They form a separate sector whose spectrum is described
+by a 2 × 2 mass matrix. Its determinant has zero value leading to the appearance of two
+Goldstone states
+G−= H−
+d cos β −H+∗
+u sin β ,
+(55)
+which are absorbed into the longitudinal degrees of freedom of the W ± gauge boson.
+Their orthogonal linear combination
+H+ = H−∗
+d
+sin β + H+
+u cos β
+(56)
+gains mass
+m2
+H± =
+√
+2λAλ
+sin 2β s −λ2
+2 v2 + g2
+2 v2 + ∆± .
+(57)
+In the leading one–loop approximation the corrections to the charged Higgs boson mass
+∆± in the ESSM are almost the same as in the MSSM where the parameter µ has to be
+replaced by λs
+√
+2. The explicit expressions for the leading one–loop corrections to m2
+H± in
+the MSSM can be found in [58].
+28
+
+=== PDF PAGE 30 ===
+4.4
+CP–odd Higgs
+The imaginary parts of the neutral components of the Higgs doublets and imaginary
+part of the SM singlet ﬁeld S compose the CP–odd (or pseudoscalar) Higgs sector of the
+considered model. This sector includes two Goldstone modes G0, G′ which are swallowed
+by the Z and Z′ bosons after EWSB, leaving only one physical CP–odd Higgs state A.
+In the ﬁeld basis (A, G′, G0) one has
+A = PS sin ϕ + P cos ϕ ,
+G′ = PS cos ϕ −P sin ϕ ,
+G0 =
+√
+2(Im H0
+d cos β −Im H0
+u sin β) ,
+(58)
+where
+P =
+√
+2(Im H0
+d sin β + Im H0
+u cos β) ,
+PS =
+√
+2Im S ,
+tan ϕ = v
+2s sin 2β.
+(59)
+Two massless pseudoscalars G0 and G′ decouple from the rest of the spectrum whereas
+the physical CP–odd Higgs boson A acquires mass
+m2
+A =
+√
+2λAλ
+sin 2ϕ v + ∆A ,
+(60)
+where ∆A is the contribution of loop corrections. In the leading one–loop approxima-
+tion the expressions for the mass of the pseudoscalar Higgs boson in the ESSM and PQ
+symmetric NMSSM coincide. The CP–odd Higgs sector of the NMSSM and one–loop
+corrections to it were studied in [59]. In phenomenologically acceptable models, in which
+the singlet VEV is much larger than v, ϕ goes to zero and the physical pseudoscalar is
+predominantly the superposition of the imaginary parts of the neutral components of the
+Higgs doublets, i.e. P.
+4.5
+CP–even Higgs
+The CP–even Higgs sector involves Re H0
+d, Re H0
+u and Re S.
+In the ﬁeld space basis
+(h, H, N) rotated by an angle β with respect to the initial one
+Re H0
+d = (h cos β −H sin β + v1)/
+√
+2 ,
+Re H0
+u = (h sin β + H cos β + v2)/
+√
+2 ,
+Re S = (s + N)/
+√
+2 ,
+(61)
+29
+
+=== PDF PAGE 31 ===
+the mass matrix of the Higgs scalars takes the form [60]:
+M2 =
+
+
+
+
+
+
+
+
+
+∂2V
+∂v2
+1
+v
+∂2V
+∂v∂β
+∂2V
+∂v∂s
+1
+v
+∂2V
+∂v∂β
+1
+v2
+∂2V
+∂2β
+1
+v
+∂2V
+∂s∂β
+∂2V
+∂v∂s
+1
+v
+∂2V
+∂s∂β
+∂2V
+∂2s
+
+
+
+
+
+
+
+
+
+=
+
+
+
+
+M2
+11
+M2
+12
+M2
+13
+M2
+21
+M2
+22
+M2
+23
+M2
+31
+M2
+32
+M2
+33
+
+
+
+.
+(62)
+Taking second derivatives of the Higgs boson eﬀective potential and substituting m2
+1, m2
+2,
+m2
+S from the minimisation conditions (48) one obtains:
+M2
+11
+=
+λ2
+2 v2 sin2 2β + ¯g2
+4 v2 cos2 2β + g
+′2
+1 v2( ˜Q1 cos2 β + ˜Q2 sin2 β)2 + ∆11 ,
+M2
+12
+=
+M2
+21 =
+λ2
+4 −¯g2
+8
+
+v2 sin 4β + g
+′2
+1
+2 v2( ˜Q2 −˜Q1)×
+×( ˜Q1 cos2 β + ˜Q2 sin2 β) sin 2β + ∆12 ,
+M2
+22
+=
+√
+2λAλ
+sin 2β s +
+¯g2
+4 −λ2
+2
+
+v2 sin2 2β + g
+′2
+1
+4 ( ˜Q2 −˜Q1)2v2 sin2 2β + ∆22 ,
+M2
+23
+=
+M2
+32 = −λAλ
+√
+2 v cos 2β + g
+′2
+1
+2 ( ˜Q2 −˜Q1) ˜QSvs sin 2β + ∆23 ,
+M2
+13
+=
+M2
+31 = −λAλ
+√
+2 v sin 2β + λ2vs + g
+′2
+1 ( ˜Q1 cos2 β + ˜Q2 sin2 β) ˜QSvs + ∆13 ,
+M2
+33
+=
+λAλ
+2
+√
+2s
+v2 sin 2β + g
+′2
+1 ˜Q2
+Ss2 + ∆33 .
+(63)
+In Eq. (63) ∆ij represents the contribution of loop corrections which in the leading one–
+loop approximation are rather similar to the ones calculated in the NMSSM. The one–loop
+corrections to the mass matrix of the NMSSM CP–even Higgs sector were analysed in [59],
+[61].
+When the SUSY breaking scale MS and VEV of the singlet ﬁeld are considerably larger
+than the EW scale the mass matrix (62)–(63) has a hierarchical structure. Therefore the
+masses of the heaviest Higgs bosons are closely approximated by the diagonal entries M2
+22
+and M2
+33 which are expected to be of the order of M2
+S or even higher. All oﬀ–diagonal
+matrix elements are relatively small ≲MSMZ. As a result the mass of one CP–even
+Higgs boson (approximately given by H) is governed by mA while the mass of another
+one (predominantly the N singlet ﬁeld) is set by MZ′. Since the minimal eigenvalue of
+the mass matrix (62)–(63) is always less than its smallest diagonal element at least one
+Higgs scalar in the CP–even sector (approximately h) remains light even when the SUSY
+breaking scale tends to inﬁnity, i.e. m2
+h1 ≲M2
+11.
+The direct Higgs searches at LEP set stringent limits on the parameter space of su-
+persymmetric extensions of the SM. In order to establish the corresponding restrictions
+on the parameters of the ESSM we need to specify the couplings of the neutral Higgs
+30
+
+=== PDF PAGE 32 ===
+particles to the Z boson. In the rotated ﬁeld basis (h, H, N) the trilinear part of the La-
+grangian, which determines the interaction of the neutral Higgs states with the Z boson,
+is simpliﬁed:
+LAZH = ¯g
+2MZZ1µZ1µh + ¯g
+2Z1µ
+
+H(∂µA) −(∂µH)A
+
+.
+(64)
+Here we assume that the mixing between Z and Z′ is negligibly small and can be safely
+ignored so that Z1 ≃Z. In the considered case only one CP–even component h couples
+to a pair of Z bosons while another one H interacts with the pseudoscalar A and Z1. The
+coupling of h to the Z1 pair is exactly the same as in the SM. In the Yukawa interactions
+with fermions the ﬁrst component of the CP–even Higgs basis also manifests itself as a
+SM–like Higgs boson.
+The couplings of the Higgs scalars to a Z1 pair (gZZi, i = 1, 2, 3) and to the Higgs
+pseudoscalar and Z boson (gZAi) appear because of the mixing of h and H with other
+components of the CP–even Higgs sector. Following the traditional notations we deﬁne the
+normalised R–couplings as: gZZhi = RZZi× SM coupling; gZAhi = ¯g
+2RZAi. The absolute
+values of all R–couplings vary from zero to unity.
+The components of the CP–even Higgs basis are related to the physical CP–even Higgs
+eigenstates by virtue of a unitary transformation:
+
+
+
+
+h
+H
+N
+
+
+
+= U†
+
+
+
+
+h1
+h2
+h3
+
+
+
+.
+(65)
+Combining the Lagrangian (64) and relations (65) the normalised R–couplings may be
+written in terms of the mixing matrix elements according to
+RZZi = U†
+hhi ,
+RZAi = U†
+Hhi .
+(66)
+If all fundamental parameters are real the CP–even Higgs mass matrix (62)–(63) is sym-
+metric and the unitary transformation (65) reduces to an orthogonal one. The orthogo-
+nality of the mixing matrices U results in sum rules:
+X
+i
+R2
+ZZi = 1 ,
+X
+i
+R2
+ZAi = 1 ,
+X
+i
+RZZiRZAi = 0 .
+(67)
+The conditions (67) allow to eliminate three R–couplings.
+As a result, in the limit
+αZZ′ →0 the interactions of the neutral Higgs particles with a Z boson are described by
+three independent R–couplings. The dependence of spectrum and couplings of the Higgs
+bosons on the parameters of the ESSM will be examined in the following section.
+31
+
+=== PDF PAGE 33 ===
+5.
+Higgs phenomenology
+5.1
+Higgs masses and couplings
+5.1.1
+The MSSM limit λ →0, s →∞
+First of all we consider the spectrum and couplings of the Higgs bosons in the ESSM. Let
+us start from the MSSM limit of the ESSM when λ →0, s →∞with µeff ∼λs held
+ﬁxed in order to give an acceptable chargino mass and EWSB. From the ﬁrst minimisation
+conditions (48) it follows that such solution can be obtained for very large and negative
+values of m2
+S only.
+As s →∞the CP–even Higgs state, which is predominantly a singlet ﬁeld, Z′ boson
+and all exotic quarks and non–Higgsinos become very heavy and decouple from the rest
+of the particle spectrum. Then by means of a small unitary transformation the CP–even
+Higgs mass matrix in Eq. (62) reduces to the block diagonal form [62]
+M′2 ≃
+
+
+
+
+
+
+
+
+
+M2
+11 −M4
+13
+M2
+33
+M2
+12 −M2
+13M2
+32
+M2
+33
+0
+M2
+21 −M2
+23M2
+31
+M2
+33
+M2
+22 −M4
+23
+M2
+33
+0
+0
+0
+M2
+33 + M4
+13
+M2
+33
++ M4
+23
+M2
+33
+
+
+
+
+
+
+
+
+
+.
+(68)
+For small values of λ the top–left 2 ×2 submatrix in Eq. (68) reproduces the mass matrix
+of the CP–even Higgs sector in the MSSM. So at tree–level we ﬁnd
+m2
+H±
+≃
+m2
+A + m2
+W ,
+m2
+A =
+√
+2λAλ
+sin 2β s ,
+m2
+h1,h2
+≃
+1
+2
+
+m2
+A + M2
+Z ∓
+q
+(m2
+A + M2
+Z)2 −4m2
+AM2
+Z cos2 2β
+
+,
+m2
+h3
+≃
+g
+′2
+1 ˜Q2
+Ss2.
+(69)
+In Eq. (69) the terms of O(λ2v2) are omitted, and s2 ≫v2 is assumed.
+Since the enlargement of s leads to the growth of the mass of the singlet dominated
+Higgs state mh3, which is very close to MZ′, the mixing between N and neutral components
+of the Higgs doublets diminishes when λ tends to zero. Thus in the MSSM limit of the
+ESSM the couplings of the heaviest CP–even Higgs boson to the quarks, leptons and
+gauge bosons vanish and the MSSM sum rules for the masses and couplings of the two
+lightest Higgs scalars and pseudoscalar are recovered. As in the minimal SUSY model
+the masses of MSSM–like Higgs bosons are deﬁned by mA and tan β. They grow if mA
+increases and at large values of mA (m2
+A >> M2
+Z) the mass of the lightest CP–even Higgs
+boson attains its theoretical upper bound which is determined by the Z boson mass at
+tree–level, i.e. mh1 ≤MZ| cos 2β| [63].
+32
+
+=== PDF PAGE 34 ===
+5.1.2
+λ ≳g1
+When λ ≳g′
+1 ≈g1 ≈0.46 the qualitative pattern of the spectrum of the Higgs bosons
+is rather similar to the one which arises in the PQ symmetric NMSSM [62], [64]. We
+ﬁrst give an analytic discussion of the spectrum at tree–level, then discuss the spectrum
+numerically including one–loop radiative corrections.
+Assuming that in the allowed part of the parameter space M2
+22 ≫M2
+33 ≫M2
+11 the
+perturbation theory method yields
+m2
+h3
+≃
+M2
+22 + M4
+23
+M2
+22
+,
+m2
+h2
+≃
+M2
+33 −M4
+23
+M2
+22
++ M4
+13
+M2
+33
+,
+m2
+h1
+≃
+M2
+11 −M4
+13
+M2
+33
+.
+(70)
+Here we neglect all terms suppressed by inverse powers of m2
+A or M2
+Z′, i.e. O(M4
+Z/m2
+A)
+and O(M4
+Z/M2
+Z′).
+At tree–level the masses of the Higgs bosons can written as
+m2
+A
+=
+2λ2s2x
+sin2 2β + O(M2
+Z) ,
+m2
+H±
+=
+m2
+A + O(M2
+Z) ,
+m2
+h3
+=
+m2
+A + O(M2
+Z) ,
+m2
+h2
+=
+g
+′2
+1 ˜Q2
+Ss2 + O(M2
+Z) ,
+(71)
+m2
+h1
+≃
+λ2
+2 v2 sin2 2β + ¯g2
+4 v2 cos2 2β + g
+′2
+1 v2
+
+˜Q1 cos2 β + ˜Q2 sin2 β
+2
+−
+−λ4v2
+g
+′2
+1 Q2
+S
+
+1 −x + g
+′2
+1
+λ2
+
+˜Q1 cos2 β + Q2 sin2 β
+
+QS
+2
++ O(M4
+Z/M2
+Z′) ,
+(72)
+where
+x =
+Aλ
+√
+2λs sin 2β .
+As evident from the explicit expression for m2
+h1 given above at λ2 ≫g2
+1 the last term in
+Eq. (72) dominates and the mass of the lightest Higgs boson tends to be negative if the
+auxiliary variable x is not close to unity. In this case the vacuum stability requirement
+constrains the variable x around unity. As a consequence mA is conﬁned in the vicinity of
+µ tan β and is much larger than the masses of the Z′ and lightest CP–even Higgs boson.
+At so large values of mA the masses of the heaviest CP–even, CP–odd and charged states
+are almost degenerate around mA.
+In Fig. 4 we plot masses and couplings of the Higgs bosons as a function of mA. As
+a representative example we ﬁx tan β = 2 and VEV of the singlet ﬁeld s = 1.9 TeV,
+that corresponds to MZ′ ≃700 GeV which is quite close to the current limit on the Z′
+boson mass.
+For our numerical study we also choose the maximum possible value of
+33
+
+=== PDF PAGE 35 ===
+λ(Mt) ≃0.794 which does not spoil the validity of perturbation theory up to the Grand
+Uniﬁcation scale. In order to obtain a realistic spectrum, we include the leading one–
+loop corrections from the top and stop loops.
+The contributions of these corrections
+to m2
+A, m2
+H± and mass matrix of the CP–even Higgs states (62)–(63) depend rather
+strongly on the soft masses of the the superpartners of the top–quark (m2
+Q and m2
+U)
+and the stop mixing parameter Xt = At −
+λs
+√
+2 tan β . Here and in the following we set
+mQ = mU = MS = 700 GeV while the stop mixing parameter is taken to be
+√
+6 MS in
+order to enhance stop–radiative eﬀects.
+From Fig. 4a it becomes clear that the mass of the lightest Higgs scalar changes
+considerably when mA varies. At mA below 2 TeV or above 3 TeV the mass squared of
+the lightest Higgs boson tends to be negative. A negative eigenvalue of the mass matrix
+(62)–(63) means that the considered vacuum conﬁguration ceases to be a minimum and
+turns into a saddle point. Near this point there is a direction in ﬁeld space along which the
+energy density decreases generating instability of the given vacuum conﬁguration. The
+requirement of stability of the physical vacuum therefore limits the range of variations of
+mA from below and above. Together with the experimental lower limit on the mass of
+the Z′ boson it maintains the mass hierarchy in the spectrum of the Higgs particles seen
+in Figs. 4b and 4c. Relying on this mass hierarchy one can diagonalise the 3 × 3 mass
+matrix of the CP–even Higgs sector.
+The numerical results in Figs. 4a–4c conﬁrm the analytic tree–level results discussed
+earlier.
+The numerical analysis reveals that the masses of the two heaviest CP–even,
+CP–odd and charged Higgs states grow when the VEV of the SM singlet ﬁeld (or MZ′)
+increases. The masses of the heaviest scalar, pseudoscalar and charged Higgs ﬁelds also
+rise with increasing λ, mA and tan β while the mass of the second lightest Higgs scalar is
+almost insensitive to variations of these parameters. The growth of the masses of heavy
+Higgs bosons caused by the increase of tan β or s does not aﬀect much the lightest Higgs
+scalar mass which lies below 200 GeV (see Fig. 4a).
+Turning now to a discussion of the couplings, the hierarchical structure of the mass
+matrix of the CP–even Higgs sector for λ ≳g1 allows one to get approximate solutions
+for the Higgs couplings to the Z boson. They are given by
+|RZZ1| ≃1 −1
+2
+M2
+13
+M2
+33
+2
+,
+|RZZ2| ≃|M2
+13|
+M2
+33
+,
+|RZZ3| ≃|M2
+12|
+M2
+11
+,
+|RZA1| ≃
+
+M2
+12
+M2
+22
+−M2
+23M2
+13
+M2
+22M2
+33
+ ,
+|RZA2| ≃|M2
+23|
+M2
+22
+,
+|RZA3| ≃1 −1
+2
+M2
+13
+M2
+33
+2
+.
+(73)
+The obtained approximate formulae for the Higgs couplings (73) indicate that
+RZZ1 ≫RZZ2 ≫RZZ3 and RZA3 ≫RZA2 ≫RZA1.
+The analytic discussion of the couplings is conﬁrmed by the numerical results for
+34
+
+=== PDF PAGE 36 ===
+RZZi and RZAi shown in Figs. 4d and 4e where the results of our numerical analysis
+including leading one–loop corrections to the CP–even Higgs mass matrix from the top–
+quark and its superpartners are presented. From Eq. (73) as well as from Figs. 4d and
+4e one can see that the couplings of the second lightest Higgs boson to a Z pair and
+to the Higgs pseudoscalar and Z are always suppressed. They are of O(MZ/MZ′) and
+O(MZ/mA) respectively which is a manifestation of the singlet dominated structure of
+the wave function of the second lightest Higgs scalar. The heaviest CP–even Higgs boson
+is predominantly a superposition of neutral components of Higgs doublets H. This is
+a reason why its relative coupling to the pseudoscalar and Z is so close to unity (see
+Eq. (64)). The main contribution to the wave function of the lightest Higgs scalar gives
+the ﬁrst component of the CP–even Higgs basis h. Due to this the relative coupling of
+the lightest CP–even Higgs boson to Z pairs tends to unity in the permitted range of
+the parameter space. Because mixing between H and h is extremely small the couplings
+RZZ3 and RZA1 are almost negligible, i.e. they are of O(M2
+Z/m2
+A).
+5.1.3
+λ ≲g1
+With decreasing λ the qualitative pattern of the Higgs spectrum changes signiﬁcantly.
+In Fig. 5 the masses of the Higgs particles and their couplings to Z are examined as a
+function of mA for λ(Mt) = 0.3. The values of tan β and MZ′ are taken to be the same
+as in Fig. 4. For λ ≲g′
+1 ≈g1 ≈0.46 the allowed range of mA enlarges because mixing
+between the ﬁrst and third components of the CP–even Higgs basis reduces. In particular
+the mass squared of the lightest Higgs boson remains positive even when mA ∼MZ, as
+shown in Fig. 5a. Therefore the lower bound on the Higgs pseudoscalar mass disappears
+so that charged, CP–odd and second lightest CP–even Higgs states may have masses in
+the 200 −300 GeV range (see Figs. 5b and 5c). But the requirement of vacuum stability
+still prevents having very high values of mA (or x). Indeed from Eq. (72) it is obvious
+that very large values of x (or mA) pulls the mass squared of the lightest Higgs boson
+below zero destabilising the vacuum. This sets upper limits on the masses of charged and
+pseudoscalar Higgs bosons.
+At least one scalar in the Higgs spectrum is always heavy since it has almost the same
+mass as the Z′ boson, which must be heavier than 600 GeV. The mass of this CP–even
+Higgs state is determined by the VEV of the singlet ﬁeld and does not change much if
+the other parameters λ, tan β and mA vary. As before the masses of the other CP–even,
+CP–odd and charged Higgs ﬁelds grow when mA rises providing the degeneracy of the
+corresponding states at mA ≫MZ. The growth of tan β and s enlarges the allowed range
+of mA increasing the upper limit on the pseudoscalar mass. The permitted interval for
+mA is also expanded when λ diminishes.
+35
+
+=== PDF PAGE 37 ===
+The couplings of the neutral Higgs bosons to Z depend rather strongly on the value
+of the pseudoscalar mass. At small values of mA the second lightest Higgs scalar gains
+a relatively low mass. Because of this the mixing between H and h is large and relative
+couplings of the lightest Higgs scalars to Z pairs and to the pseudoscalar and Z are of the
+order of unity (see Figs. 5d and 5e). The couplings of the heaviest CP–even Higgs state
+to other bosons and fermions are tiny in this case since it is predominantly a singlet ﬁeld.
+If the lightest Higgs scalar and pseudoscalar had low masses and large couplings to the
+Z they could be produced at LEPII. Non–observation of these particles at LEP rules out
+most parts of the ESSM parameter space for mA ≲200 GeV.
+When mA is much larger than MZ but is less than MZ′ the heaviest Higgs scalar state
+is still singlet dominated which makes its couplings to the observed particles negligibly
+small. The hierarchical structure of the CP–even Higgs mass matrix ensures that the
+lightest and second lightest Higgs scalars are predominantly composed of the ﬁrst and
+second components of the CP–even Higgs basis respectively. Therefore RZZ1 and RZA2
+are very close to unity while RZZ2 and RZA1 are suppressed. When mA approaches the Z′
+boson mass the mixing between S and H becomes large. This leads to appreciable values
+of the RZA2 and RZA3 couplings as displayed in Fig. 5e. However both of these relative
+couplings may be simultaneously large only in a very narrow part of the parameter space
+where mA ≃MZ′. At the same time the relative couplings of the heaviest Higgs scalars
+to Z pairs are still much less than unity in this range of parameters because the mixing
+between the ﬁrst and the other components of the CP–even Higgs basis remains very
+small (see Fig. 5d). Further increasing mA mimics the mass hierarchy of the CP–even
+Higgs sector appeared at λ ≳g1. As a result the pattern of the Higgs couplings is rather
+similar to the one shown in Figs. 4d and 4e.
+5.2
+Upper bound on the lightest CP–even Higgs boson mass
+It is apparent from Figs. 4b and 5b, as well as our analytic considerations, that at some
+value of mA (or x) the lightest CP–even Higgs boson mass attains its maximum value.
+This coincides with the theoretical upper bound on mh1 given by the ﬁrst element of the
+mass
+p
+M2
+11. In this subsection we shall obtain an absolute upper bound on the lightest
+CP–even Higgs boson mass in the ESSM, and compare it to similar bounds obtained in
+the MSSM and NMSSM.
+5.2.1
+Tree–level upper bound
+At tree–level the lightest Higgs scalar mass is obtained from Eq. (72) where the ﬁrst
+three terms on the right–hand side are positive deﬁnite, while the fourth term is always
+36
+
+=== PDF PAGE 38 ===
+negative, and the upper bound therefore corresponds to taking this term to be zero.
+The contribution of the extra U(1)N D–term to the upper limit on mh1 may be closely
+approximated as
+g
+′2
+1 v2
+
+˜Q1 cos2 β + ˜Q2 sin2 β
+2
+≃
+MZ
+2
+2 
+1 + 1
+4 cos 2β
+2
+.
+(74)
+Using this approximation, the tree–level upper bound on the lightest CP–even Higgs
+boson is given by:
+m2
+h1 ≲λ2
+2 v2 sin2 2β + M2
+Z cos2 2β + M2
+Z
+4
+
+1 + 1
+4 cos 2β
+2
+.
+(75)
+The ﬁrst and second terms are similar to the tree–level terms in the NMSSM [14]. The
+extra U(1)N eﬀect appears through the third term in Eq. (72) which is a contribution
+coming from the additional U(1)N D–term in the Higgs scalar potential [65].
+At tree–level the theoretical restriction on the lightest Higgs mass in the ESSM de-
+pends on λ and tan β only. As it was noticed in section 3 the requirement of validity of
+perturbation theory up to the Grand Uniﬁcation scale constrains the interval of variations
+of the Yukawa coupling λ for each value of tan β. The allowed range of λ as a function of
+tan β was shown in Fig. 3. Using the results of the analysis of the RG ﬂow in the ESSM
+one can obtain the maximum possible value of the lightest Higgs scalar for each particular
+choice of tan β.
+In Fig. 6a we plot maximum values of the square roots of diﬀerent contributions in
+Eq. (75) to the tree–level upper limit on m2
+h1 versus tan β. It is clear that at moderate
+values of tan β ∼1 −3 the term λ2v2/2 sin2 2β from the F-term involving the singlet ﬁeld
+dominates. With increasing tan β it falls quite rapidly and becomes negligibly small as
+tan β ≳15. In contrast the contribution of the SU(2) and U(1)Y D–terms grows when
+tan β becomes larger. At tan β ≳4 it exceeds λ2v2/2 sin2 2β and gives the dominant
+contribution to the tree–level upper bound on mh1. As one can see from Fig. 6a the D–
+term of the extra U(1)N gives the second largest contribution to the tree–level theoretical
+restriction on mh1 at very large and low values of tan β, when tan β is less than 1.6 or
+larger than 8. In the part of the ESSM parameter space where the upper limit on mh1
+reaches its absolute maximum value its contribution is the smallest one. According to
+Eq. (75) the square root of the U(1)N D–term contribution to m2
+h1 varies from 45 to
+34 GeV when tan β changes from 1.1 to 14.
+The resulting tree–level upper bound on the mass of the lightest Higgs particle in
+the ESSM is presented in Fig. 6b, and compared to the corresponding bounds in the
+MSSM and NMSSM. In the ESSM the bound attains a maximum value of 130 GeV at
+tan β = 1.5 −1.8. Remarkably, we ﬁnd that in the interval of tan β from 1.2 to 3.4 the
+absolute maximum value of the mass of the lightest Higgs scalar in the ESSM is larger than
+37
+
+=== PDF PAGE 39 ===
+the experimental lower limit on the SM–like Higgs boson even at tree–level. Therefore
+non–observation of the Higgs boson at LEP does not cause any trouble for the ESSM,
+even at tree–level.
+The upper bound on the mass of the lightest CP–even Higgs scalar in the NMSSM
+exceeds the corresponding limit in the MSSM because of the extra contribution to m2
+h1
+induced by the additional F–term in the Higgs scalar potential of the NMSSM. The size
+of this contribution, which is described by the ﬁrst term in Eq. (75), is determined by
+the Yukawa coupling λ whose interval of variations is constrained by the applicability of
+perturbation theory at high energies. The upper limit on the coupling λ caused by the
+validity of perturbation theory in the NMSSM is more stringent than in the ESSM due to
+the presence of exotic 5 + 5–plets of matter in the particle spectrum of the ESSM. Indeed
+extra SU(5) multiplets of matter change the running of the gauge couplings so that their
+values at the intermediate scale rise when the number of new supermultiplets increases.
+Since gi(Q) occurs in the right–hand side of the diﬀerential equations (38) with negative
+sign the growth of the gauge couplings prevents the appearance of the Landau pole in
+the evolution of the Yukawa couplings. It means that for each value of the top–quark
+Yukawa coupling (or tan β) at the EW scale the maximum allowed value of λ(Mt) rises
+when the number of 5 + 5–plets increases. The increase of λ(Mt) is accompanied by the
+growth of the theoretical restriction on the mass of the lightest CP–even Higgs particle.
+For instance, it was shown that the introduction of four pairs of 5 + 5 supermultiplets
+in the NMSSM raised the two–loop upper limit on the lightest Higgs boson mass from
+135 GeV to 155 GeV [66]. This is also a reason why the tree–level theoretical restriction
+on mh1 in the Next-to-Minimal SUSY model is considerably less than in the ESSM at
+moderate values of tan β.
+At large tan β ≫10 the contribution of the F–term of the SM singlet ﬁeld to m2
+h1
+vanishes. Therefore with increasing tan β the upper bound on the lightest Higgs boson
+mass in the NMSSM approaches the corresponding limit in the minimal SUSY model.
+In the ESSM the theoretical restriction on the mass of the lightest Higgs scalar also
+diminishes when tan β rises. But even at very large values of tan β the tree–level upper
+limit on mh1 in the ESSM is still 6−7 GeV larger than the ones in the MSSM and NMSSM
+because of the U(1)N D–term contribution.
+5.2.2
+One–loop upper bound
+So far we have discussed the bounds at tree–level. Now we shall include radiative correc-
+tions in our discussion. It is well known that the inclusion of loop corrections from the
+top–quark and its superpartners increases the bound on the lightest Higgs boson mass in
+the ESSM substantially. In the ESSM and in the NMSSM these corrections are nearly the
+38
+
+=== PDF PAGE 40 ===
+same as in the MSSM. The leading one–loop and two–loop corrections to the lightest Higgs
+boson mass in the MSSM were calculated and studied in [67] and [68]–[69] respectively.
+However, in contrast with the MSSM and NMSSM, the ESSM contains extra supermul-
+tiplets of exotic matter. Because it is not clear a priori if the corrections induced by
+the loops involving new particles aﬀect the mass of the lightest Higgs scalar considerably,
+we include in our analysis leading one–loop corrections to m2
+h1 from the exotic quarks
+since their couplings to the singlet Higgs ﬁeld tend to be large at low energies enhancing
+radiative eﬀects. In the leading approximation the upper bound on the lightest Higgs
+boson mass in the ESSM can be written as
+m2
+h1 ≲λ2
+2 v2 sin2 2β + M2
+Z cos2 2β + M2
+Z
+4
+
+1 + 1
+4 cos 2β
+2
++ ∆t
+11 + ∆D
+11 ,
+(76)
+where the third term represents the U(1)N D–term contribution while ∆t
+11 and ∆D
+11 are
+one–loop corrections from the top–quark and D–quark supermultiplets respectively. When
+m2
+Di = m2
+Di = M2
+S the contribution of one–loop corrections to m2
+h1 from the superpartners
+of D–quarks reduces to
+∆D
+11 =
+X
+i=1,2,3
+3λ2κ2
+i v2
+32π2
+sin2 2β ln
+mD1,imD2,i
+Q2
+
+.
+(77)
+In Figs. 7a and 7b we explore the dependence of one–loop upper bound on the lightest
+Higgs boson mass on the Yukawa couplings κi and λ. We consider two diﬀerent cases
+when κ1 = κ2 = 0, κ3 = κ (see Fig. 7a) and κ1 = κ2 = κ3 = κ (see Fig. 7b). To simplify
+our analysis the soft masses of the superpartners of exotic and top–quarks are set to be
+equal, i.e. m2
+Q = m2
+U = m2
+Di = m2
+Di = M2
+S. In order to enhance the contribution of loop
+eﬀects we assume maximal mixing in the stop sector (Xt =
+√
+6MS) and minimal mixing
+between the superpartners of exotic quarks D and D, i.e. Aκi = 0. As before we keep
+MS = MZ′ = 700 GeV and tan β = 2. Then the theoretical restriction on the mass of the
+lightest Higgs scalar (76) is deﬁned by the couplings λ and κ only.
+In the plane λ/ht −κ/ht the set of points that results in the same upper limit on mh1
+forms a line. For any choice of λ and κ lying below the line the lightest Higgs particle
+has a mass which is less than the theoretical restriction that corresponds to this line.
+Curvature of the line characterises the dependence of the upper bound on the lightest
+Higgs boson mass on the Yukawa coupling κ. If κ is zero the one–loop contribution of the
+exotic squarks to m2
+h1 vanishes. When κ grows the exotic squark contribution to m2
+h1 and
+the upper limit on the mass of the lightest Higgs scalar rise. As a consequence the same
+theoretical restriction on mh1 is obtained for smaller values of λ(Mt). But from Figs. 7a
+and 7b one can see that the increase of κ(Mt) within the allowed range of the parameter
+space does not lead to the appreciable decrease of λ(Mt) that should compensate the
+growth of exotic squark contribution to m2
+h1. It means that the contribution of the exotic
+39
+
+=== PDF PAGE 41 ===
+squarks is always much smaller than the ﬁrst term in Eq. (76). Numerically the increase
+of the lightest Higgs boson mass caused by the inclusion of the exotic squark contribution
+does not exceed a few GeV.
+5.2.3
+Two–loop upper bound
+We also include in our analysis leading two–loop corrections to m2
+h1 from the top–quark
+and its superpartner. In the two–loop leading–log approximation the upper bound on the
+lightest Higgs boson mass in the ESSM can be written in the following form
+m2
+h ≲
+λ2
+2 v2 sin2 2β + M2
+Z cos2 2β + M2
+Z
+4
+
+1 + 1
+4 cos 2β
+2
+×
+×
+
+1 −3h2
+t
+8π2l
+
++ 3h4
+tv2 sin4 β
+8π2
+1
+2Ut + l +
+1
+16π2
+3
+2h2
+t −8g2
+3
+
+(Ut + l)l
+
++ ∆D
+11 ,
+(78)
+Ut = 2 X2
+t
+M2
+S
+
+1 −1
+12
+X2
+t
+M2
+S
+
+,
+l = ln
+M2
+S
+m2
+t
+
+.
+Here we keep one–loop leading–log corrections from the exotic squarks. Eq. (78) is a
+simple generalisation of the approximate expressions for the theoretical restriction on the
+mass of the lightest Higgs particle obtained in the MSSM [69] and NMSSM [70]. The
+inclusion of leading two–loop corrections reduces the upper limit on mh1 signiﬁcantly and
+nearly compensates the growth of the theoretical restriction on mh1 with increasing SUSY
+breaking scale MS which is caused by one–loop corrections.
+The dependence of the two–loop upper bound (78) on λ and κ for two diﬀerent choices
+of the Yukawa couplings of exotic quarks described above is examined in Figs. 7c and
+7d.
+After the incorporation of two–loop corrections the line that corresponds to the
+160 GeV upper limit on the lightest Higgs boson mass lies beyond the permitted range of
+the parameter space while in the one–loop approximation even larger values of mh1 are
+allowed. The distortion of the lines, which represent diﬀerent theoretical restrictions on
+the mass of the lightest Higgs scalar in the ESSM, still remains negligible. It demonstrates
+the fact that the exotic squark contribution to m2
+h1 is much less than the leading two–loop
+corrections from the top–quark and its superpartners to m2
+h1.
+From Fig. 7 it follows that for each given value of tan β the mass of the lightest
+Higgs particle attains its maximum when λ(Mt) →λmax and κ →0. Nevertheless the
+dependence of the upper limit (78) on κ is rather weak so that the theoretical restriction
+on the lightest Higgs boson mass for κ = 0 and for κ = g′
+1 are almost identical. The
+upper limit on mh1 is very sensitive to the choice of λ and tan β. Therefore at the last
+stage of our analysis we explore the dependence of the two–loop upper bound (78) on
+tan β keeping κ = 0 (i.e. ∆D
+11 = 0) and relying on the results of our study of the RG ﬂow
+summarised in Fig. 3.
+40
+
+=== PDF PAGE 42 ===
+The dependence of the two–loop theoretical restrictions on mh1 on tan β shown in
+Figs. 8a and 8b resembles the tree–level one. But the interval of variations of the upper
+bound on mh1 shrinks.
+In Figs. 8a and 8b we consider maximal (Xt =
+√
+6MS) and
+minimal (Xt = 0) mixing in the stop sector respectively.
+Again at moderate values
+of tan β = 1.6 −3.5 the upper bound on the lightest Higgs boson mass in the ESSM is
+considerably higher than in the MSSM and NMSSM because of the enhanced contribution
+of the F–term of the SM singlet ﬁeld to m2
+h1. Although the two–loop theoretical restriction
+on mh1 in the ESSM reduces with increasing tan β it still remains 4−5 GeV larger than the
+corresponding limits in the MSSM and NMSSM owing to the U(1)N D–term contribution.
+This contribution is especially important in the case of minimal mixing between the
+superpartners of the top quark. In the considered case the two–loop theoretical restriction
+on mh1 in the MSSM and NMSSM is less than the experimental limit on the SM–like Higgs
+boson mass set by LEPII. As a result the scenario with Xt = 0 is ruled out in the MSSM.
+The contribution of an extra U(1)N D–term to m2
+h1 raises the upper bound (78) at large
+tan β ≳10 slightly above the existing LEP limit thus relaxing the constraints on the
+ESSM parameter space (see Fig. 8b).
+The growth of Xt from 0 to
+√
+6MS increases the theoretical restriction on the lightest
+Higgs boson mass in the ESSM by 10 −20 GeV. The upper limit on mh1 is most sensitive
+to the choice of Xt at low and large values of tan β where the growth of the corresponding
+theoretical restriction reaches 20 and 15 GeV respectively. At the same time the absolute
+maximum value of the lightest Higgs boson mass rises by 10 GeV only. In total leading
+one–loop and two–loop corrections modify the maximum possible value of the mass of the
+lightest Higgs scalar by 20 GeV by increasing it up to about 150 GeV.
+Note that the quoted upper limits for the ESSM, as well as the MSSM and NMSSM,
+are sensitive to the value of the top–quark mass, and the SUSY breaking scale, and
+depend on the precise form of the two–loop approximations used. Here we have used
+an analytic approximation of the two–loop eﬀects which slightly underestimates the full
+two–loop corrections. We have also taken the SUSY scale to be given by 700 GeV. The
+upper bounds quoted here may therefore be further increased by several GeV by making
+slightly diﬀerent assumptions. The main point we wish to make is that the upper bound
+on the lightest CP–even Higgs scalar in the ESSM is always signiﬁcantly larger than in
+the NMSSM, as well as the MSSM.
+41
+
+=== PDF PAGE 43 ===
+6.
+Charginos and Neutralinos
+6.1
+Chargino and neutralino states in the ESSM
+After EWSB all superpartners of the gauge and Higgs bosons get non–zero masses. Since
+the supermultiplets of the Z′ boson and SM singlet Higgs ﬁeld S are electromagnetically
+neutral they do not contribute any extra particles to the chargino spectrum. Consequently
+the chargino mass matrix and its eigenvalues remain the same as in the MSSM, namely
+m2
+χ±
+1, 2
+=
+1
+2
+
+M2
+2 + µ2
+eff + 2M2
+W ±
+q
+(M2
+2 + µ2
+eff + 2M2
+W)2 −4(M2µeff −M2
+W sin 2β)2
+
+,
+(79)
+where M2 is the SU(2) gaugino mass and µeff = λs
+√
+2. Unsuccessful LEP searches for
+SUSY particles including data collected at √s between 90 GeV and 209 GeV set a 95%
+CL lower limit on the chargino mass of about 100 GeV [71]. This lower bound constrains
+the parameter space of the ESSM restricting the absolute values of the eﬀective µ-term
+and M2 from below, i.e. |M2|, |µeff| ≥90 −100 GeV.
+In the neutralino sector of the ESSM there are two extra neutralinos besides the four
+MSSM ones. One of them is an extra gaugino coming from the Z′ vector supermultiplet.
+The other one is an additional Higgsino ˜S (singlino) which is a fermion component of the
+SM singlet superﬁeld S. The Higgsino mass terms in the Lagrangian of the ESSM are
+induced by the trilinear interaction λS(HdHu) in the superpotential (19) after the break-
+down of gauge symmetry. Because of this their values are determined by the coupling λ
+and VEVs of the Higgs ﬁelds. The mixing between gauginos and Higgsinos is proportional
+to the corresponding gauge coupling and VEV that the scalar partner of the considered
+Higgsino gets. Taking this into account one can obtain a 6 × 6 neutralino mass matrix
+that in the interaction basis ( ˜B, ˜W3, ˜H0
+1, ˜H0
+2, ˜S, ˜B′) reads
+M˜χ0 =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+M1
+0
+−1
+2g′v1
+1
+2g′v2
+0
+0
+0
+M2
+1
+2gv1
+−1
+2gv2
+0
+0
+−1
+2g′v1
+1
+2gv1
+0
+−µeff
+−λv2
+√
+2
+˜Q1g′
+1v1
+1
+2g′v2
+−1
+2gv2
+−µeff
+0
+−λv1
+√
+2
+˜Q2g′
+1v2
+0
+0
+−λv2
+√
+2
+−λv1
+√
+2
+0
+˜QSg′
+1s
+0
+0
+˜Q1g′
+1v1
+˜Q2g′
+1v2
+˜QSg′
+1s
+M′
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+(80)
+where M1, M2 and M′
+1 are the soft gaugino masses for ˜B, ˜W3 and ˜B′ respectively. In
+Eq. (80) we neglect the Abelian gaugino mass mixing M11 between ˜B and ˜B′ that arises
+42
+
+=== PDF PAGE 44 ===
+at low energies as a result of the kinetic term mixing even if there is no mixing in the
+initial values of the soft SUSY breaking gaugino masses near the Grand Uniﬁcation or
+Planck scale [52]. The top–left 4×4 block of the mass matrix (80) contains the neutralino
+mass matrix of the MSSM where the parameter µ is replaced by µeff. The lower right
+2×2 submatrix represents extra components of neutralinos in the considered model. The
+neutralino sector in E6 inspired SUSY models was studied recently in [20], [25], [31],
+[36]–[37], [40], [72]–[73].
+As one can see from Eqs. (79)–(80) the masses of charginos and neutralinos depend
+on λ, s, tan β, M1, M′
+1 and M2. In SUGRA models with uniform gaugino masses at the
+Grand Uniﬁcation scale the RG ﬂow yields a relationship between M1, M′
+1 and M2 at the
+EW scale:
+M′
+1 ≃M1 ≃0.5M2 .
+(81)
+This reduces the parameter space in the neutralino sector of the ESSM drastically. It
+allows to study the spectrum of chargino and neutralino as a function of only one gaugino
+mass, for example M1, for each set of λ, s and tan β.
+6.2
+Chargino and neutralino spectrum
+The qualitative pattern of chargino and neutralino masses is determined by the Yukawa
+coupling λ, depending on whether λ is less than g′
+1 or not. Because in the MSSM limit
+of the ESSM, when λ →0, the phenomenologically acceptable solution implies that
+s ≳MZ/λ, the extra U(1)N gaugino ˜B′ and singlino ˜S decouple from the rest of the
+spectrum forming two eigenstates ( ˜B′ ± ˜S)/
+√
+2 with mass MZ′ = ˜QSg′
+1s . Mixing between
+new neutralino states and other gauginos and Higgsinos vanishes in this case rendering
+the neutralino sector in the ESSM indistinguishable from MSSM at the LHC and ILC.
+Here it is worth to emphasise that the direct observation of extra neutralino states in the
+ESSM is unlikely to occur in the nearest future anyway. Since oﬀ–diagonal entries of the
+bottom right 2 × 2 submatrix of the neutralino mass matrix (80) are controlled by the Z′
+boson mass new neutralinos are always very heavy (∼1 TeV) preventing the distinction
+between the ESSM and MSSM neutralino sectors.
+When λ > g′
+1 the typical pattern of the spectrum of neutralinos and charginos changes.
+In Figs. 9a and 9b we examine the dependence of the neutralino and chargino masses on
+M1 assuming the uniﬁcation of the soft gaugino mass parameters at the scale MX. As a
+representative example we ﬁx λ ≃0.794, tan β = 2 and MZ′ = 700 GeV (s ≃1.9 TeV).
+We restrict our consideration to the most attractive part of the parameter space, in which
+the lightest chargino is accessible at future colliders, i.e. |M1| ≲300 GeV. In order to
+get the spectrum of neutralinos we diagonalise the mass matrix (80) numerically. As a
+43
+
+=== PDF PAGE 45 ===
+consequence we obtain a set of positive and negative eigenvalues of this matrix which are
+presented in Fig. 9a. However the physical meaning is only their absolute values.
+In the considered part of the parameter space the heaviest chargino and neutralinos
+are almost degenerate with mass |µeff|. They are formed by the neutral and charged
+superpartners of the Higgs bosons. As one can see from Figs. 9a and 9b the masses of
+the heaviest chargino and neutralinos are almost insensitive to the choice of the gaugino
+masses if |M1| ≲300 GeV. The U(1)N gaugino ˜B′ and singlino ˜S compose two other
+heavy neutralino eigenstates whose masses are closely approximated as
+|mχ0
+3,4| ≃1
+2
+q
+M
+′2
+1 + 4M2
+Z′ ∓M′
+1
+
+.
+(82)
+The four heaviest neutralinos and chargino gain masses beyond 500 GeV range so that
+their observation at the LHC and ILC looks rather problematic.
+The masses of the
+heaviest neutralino and chargino states rise with increasing VEV of the SM singlet ﬁeld
+and are practically independent of tan β.
+At low energies heavy neutralinos decouple and the spectrum of the two lightest ones
+is described by the 2 × 2 mass matrix
+M′
+˜χ0 ≃
+
+
+
+
+M1 −g
+′2v2
+4µ sin 2β
+gg′v2
+4µ
+sin 2β
+gg′v2
+4µ
+sin 2β
+M2 −g2v2
+4µ sin 2β
+
+
+
+,
+(83)
+whose eigenvalues are
+|mχ0
+1,2|
+≃
+M1 + M2 −M2
+Z
+µ sin 2β∓
+∓
+s
+M1 + M2 −M2
+Z
+µ sin 2β
+2
+−4
+
+M1M2 −M2
+Z
+µ
+˜
+M
+ ,
+(84)
+where
+˜
+M = M2 sin2 θW + M1 cos2 θW .
+The superpartners of charged SU(2) gauge bosons form the lightest chargino state with
+mass
+|mχ±
+1 | =
+M2 −M2
+W
+µ
+sin 2β
+ .
+(85)
+The numerical analysis and our analytic consideration show that the masses of the lightest
+neutralinos and chargino do not change much when λ, s or tan β vary unless M1 and M2 are
+quite small. The second lightest neutralino and the lightest chargino are predominantly
+superpartners of the SU(2) gauge bosons.
+Their masses are governed by |M2|.
+The
+lightest neutralino state is basically bino, ˜B, whose mass is set by |M1|.
+44
+
+=== PDF PAGE 46 ===
+In Figs. 10a and 10b we explore the spectrum of neutralino and chargino in the case
+when λ is less than g′
+1. The Yukawa coupling λ is taken to be 0.3 while the other parame-
+ters remain the same as in Fig. 9. Now the two heaviest neutralinos are mixtures of ˜B′ and
+˜S. They get masses larger than 500 GeV as before. However unlike in the large λ limit
+the other four neutralinos and both charginos can be light enough. Therefore they may
+be observed in the nearest future. The composition of the wave functions of the lightest
+neutralinos and charginos depends on the choice of the parameters of the model. For the
+set of λ, tan β and s chosen in Fig. 10 the lightest neutralino is still predominantly bino,
+˜B. Till |M1| is less than 200 GeV, i.e. |M2| < |µeff|, the second lightest neutralino and
+the lightest chargino are basically formed by the superpartners of SU(2) gauge bosons.
+When |M1| > 200 GeV (|M2| > |µeff|) the wave functions of the second lightest neutralino
+and the lightest chargino are Higgsino dominated.
+Obvious disadvantage of the considered scenarios with λ < g′
+1 and λ > g′
+1 in the ESSM
+is that any pattern of the masses and couplings of the lightest neutralino and chargino,
+which can be observed at the LHC and ILC, may be reproduced in the framework of the
+minimal SUSY model. This is a consequence of the stringent lower bound on the mass of
+the Z′ boson set by Tevatron.
+7.
+Z′ and exotic phenomenology
+7.1
+Masses and couplings of new states
+The presence of a Z′ gauge boson and exotic multiplets of matter in the particle spectrum
+is a very peculiar feature that permits to distinguish E6 inspired supersymmetric models
+from the MSSM or NMSSM. At tree–level the masses of these new particles are determined
+by the VEV of the singlet ﬁeld S that remains a free parameter in the considered models.
+Therefore the Z′ boson mass and the masses of exotic quarks and non–Higgses cannot
+be predicted. But collider experiments [56]–[57] and precision EW tests [74] set stringent
+limits on the Z′ mass and Z −Z′ mixing.
+The lower bounds on the Z′ mass from
+direct searches at the Fermilab Tevatron (pp →Z′ →l+l−) [57] are model dependent
+but are typically around 500 −600 GeV unless couplings of ordinary particles to Z′ are
+suppressed such as in leptophobic models [53], [75].
+Similarly, bounds on the mixing
+angle are around (2 −3) ×10−3 [56]. As has been already mentioned, even more stringent
+constraints on the Z′ mass and mixing follow from nucleosynthesis and astrophysical
+observations. They imply that the equivalent number of additional neutrinos with full–
+strength weak interactions ∆Nν is less than 0.3 (for a recent review, see [76]). This requires
+MZ′ ≳4.3 TeV [42]. However these restrictions cannot be applied to the Z′ gauge boson
+45
+
+=== PDF PAGE 47 ===
+in the ESSM because right–handed neutrinos here are expected to be superheavy and do
+not change the eﬀective number of neutrino species at low energies.
+The analysis performed in [77] revealed that Z′ boson in the E6 inspired models can
+be discovered at the LHC if its mass is less than 4 −4.5 TeV. At the same time the
+determination of the couplings of the Z′ should be possible up to MZ′ ∼2 −2.5 TeV [78].
+Possible Z′ decay channels in E6 inspired supersymmetric models were studied in [73].
+The restrictions on the masses of exotic particles are not so rigorous as the experimental
+bounds on the mass of the Z′ boson. The most stringent constraints come from the non–
+observation of exotic colour states at HERA and Tevatron. But most searches imply that
+exotic quarks, i.e leptoquarks or diquarks, have integer–spin. So they are either scalars
+or vectors. Because of this new coloured objects can be coupled directly to either a pair
+of quarks or to quark and lepton. Moreover it is usually assumed that leptoquarks and
+diquarks have appreciable couplings to the quarks and leptons of the ﬁrst generation.
+Experiments at LEP, HERA and Tevatron excluded such leptoquarks if their masses were
+less than 290 GeV [79] whereas CDF and D0 ruled out diquarks with masses up to 420 GeV
+[80]. The production of diquarks at the LHC was studied recently in [81].
+In the ESSM the exotic squarks and non–Higgses are expected to be heavy since their
+masses are determined by the SUSY breaking scale. Moreover, their couplings to the
+quarks and leptons of the ﬁrst and second generation should be rather small to avoid
+processes with non–diagonal ﬂavour transitions.
+As a result the production of exotic
+squarks and non–Higgses will be very strongly suppressed or even impossible at future
+colliders. However the exotic fermions (quarks and non–Higgsinos) can be relatively light
+in the ESSM since their masses are set by the Yukawa couplings κi and λi that may be
+small. This happens, for example, when the Yukawa couplings of the exotic particles
+have hierarchical structure similar to the one observed in the ordinary quark and lepton
+sectors. Then Z′ mass lie beyond 10 TeV and the only manifestation of the considered
+model may be the presence of light exotic quark or non–Higgses in the particle spectrum.
+The new exotic particles consist of vector–like multiplets with respect to the SM
+gauge group. Hence their axial couplings to the SM gauge bosons go to zero in the limit
+of no Z −Z′ mixing reducing the contribution of additional particles to the electroweak
+observables measured at LEP. The contribution of Z′ gauge boson to the electroweak
+observables is also negligibly small because it is supposed to be very heavy so that the
+mixing between Z and Z′ almost vanishes.
+In order to amplify the signal coming from the presence of additional particles we
+shall assume further that the three families of exotic quarks and two generations of ex-
+otic non–Higgsinos, whose masses are determined by extra Yukawa couplings, are con-
+siderably lighter than the Z′ and in this case they can possibly be observed at the
+46
+
+=== PDF PAGE 48 ===
+LHC and ILC. Since the analysis of the RG ﬂow performed in section 3 revealed that
+the exotic quarks as well as non–Higgsino Yukawa couplings tend to be equal we keep
+µD1 = µD2 = µD3 = κ(Mt)
+√
+2 s and µH1 = µH2 = λ1,2(Mt)
+√
+2
+s (λ1(Mt) = λ2(Mt)) at the EW
+scale. Moreover to simplify our numerical studies we ﬁx the masses of exotic quarks and
+non–Higgsinos to be equal to 300 GeV.
+Before proceeding to discuss the scope of future colliders in testing the features of
+the ESSM in the Z′ and exotic sectors, we should remind the reader that we assume
+the mixing angle between the Z and Z′ to be extremely small. In this case, any vertex
+involving a Z′ boson and fermions can be written as
+−ig′
+1γµ
+2
+
+gV −gAγ5
+
+.
+(86)
+For, e.g. M′
+Z = 1.5 TeV, the vector gV (MZ′) and axial gA(MZ′) couplings take the follow-
+ing values:
+• charged leptons:
+gV = ˜QeL −˜Qec
+L ≃0.1081,
+gA = ˜Qec
+L + ˜QeL ≃0.4910 ;
+• neutrinos:
+gV = gA = ˜QνL = 0.2996 ;
+• u–quarks:
+gV = ˜QuL −˜Quc
+L ≃0.0278,
+gA = ˜Quc
+L + ˜QuL ≃0.2996 ;
+• d–quarks:
+gV = ˜QdL −˜Qdc
+L ≃−0.1637,
+gA = ˜Qdc
+L + ˜QdL ≃0.4910 ;
+• exotic D–quarks:
+gV = ˜QD −˜Q ¯D ≃0.1359,
+gA = ˜Q ¯D + ˜QD ≃−0.7906 ;
+• fermion partners of extra non–Higgs ﬁelds (non–Higgsinos):
+gV = ˜QH1 −˜QH2 ≃−0.1915 ,
+gA = ˜QH2 + ˜QH1 ≃−0.7906 ;
+• fermion partners of extra singlet ﬁelds (singlinos):
+gV = gA = ˜QS ≃0.7906 .
+As for additional couplings, the interaction of exotic quarks and non–Higgsinos with
+the neutral SM gauge bosons γ and Z takes the form
+−ieQemγµ ,
+−ig
+2 gV γµ ,
+respectively, where Qem and gV are given as follows:
+• exotic D–quarks: QD
+em = −1/3 ,
+gV = −2QD
+em sin2 θW ;
+• charged non–Higgsinos: QE
+em = −1 ,
+gV = 2T f
+3 −2Qf
+em sin2 θW ≃−cos 2θW ;
+47
+
+=== PDF PAGE 49 ===
+• neutral non–Higgsinos: QN
+em = 0 ,
+gV = 1 .
+For completeness and to ﬁx our conventions, we also quote the couplings of the γ and Z
+bosons to ordinary quarks and leptons, as
+• ordinary fermions (quarks and leptons): gV = T f
+3 −2Qf
+em sin2 θW ,
+gA = T f
+3 .
+7.2
+Phenomenology at future colliders
+Fig. 11 shows the diﬀerential distribution in invariant mass of the lepton pair l+l−(for
+one species of lepton l = e, µ) in Drell-Yan production at the LHC, assuming the SM
+only as well as the latter augmented, in turn, by a Z′ ﬁeld (MZ′ = 1.5 TeV) with and
+without light exotic quarks or non–Higgsinos (µDi = µHi = 300 GeV) separately7. This
+distribution is promptly measurable at the CERN collider with a high resolution and
+would enable one to not only conﬁrm the existence of a Z′ state but also to establish the
+possible presence as well as nature of additional exotic matter, by simply ﬁtting to the
+data the width of the Z′ resonance [78]. In fact for our choice of µDi, µHi and MZ′ the
+Z′ total width varies from ≈19 GeV (in case of no exotic matter) to ≈25 GeV (in case
+of light exotic D–quarks) and to ≈21 GeV (in case of light non–Higgsinos). (Also notice
+the diﬀerent normalisation around the Z′ resonance of the three curves in Fig. 11, as this
+scales like ∼Γ(Z′ →l+l−)/Γ(Z′ →anything).) Clearly, in order to perform such an
+exercise, the Z′ couplings to ordinary matter ought to have been previously established
+elsewhere, as a modiﬁcation of the latter may well lead to eﬀects similar to those induced
+by the additional matter present in our model. (Recall that in our model Z′ couplings to
+SM particles and exotic matter are simultaneously ﬁxed.)
+However, if exotic particles of the nature described here do exist at such low scales, they
+could possibly be accessed through direct pair hadroproduction. In fact, the corresponding
+fully inclusive cross sections are in principle suﬃcient to such a purpose in the case of
+exotic D–quarks (up to masses of the TeV order) while this statement is presumably true
+for non–Higgsinos only up to masses of few hundred GeV. (Notice that the former are
+generated via gluon-induced QCD interactions while the latter via quark–induced EW
+ones.) This should be manifest as a close inspection of Fig. 12.
+In practice, detectable ﬁnal states do depend on the underlying nature of the exotic
+particles. The lifetime and decay modes of the latter are determined by the operators that
+break the ZH
+2 symmetry. When ZH
+2 is broken signiﬁcantly exotic fermions can produce
+a remarkable signature8. Since according to our initial assumptions the ZH
+2 symmetry is
+7Recall that we assume three identical generations of the former but only two of the latter. Besides,
+we allow the existence of only one at a time of either.
+8If ZH
+2 is only slightly broken exotic quarks and non–Higgsinos may live for a long time. Then exotic
+48
+
+=== PDF PAGE 50 ===
+mostly broken by the operators involving quarks and leptons of the third generation the
+exotic quarks decay either via
+D →t + ˜b ,
+D →b + ˜t ,
+if exotic quarks Di are diquarks or via
+D →t + ˜τ ,
+D →τ + ˜t ,
+D →b + ˜ντ ,
+D →ντ + ˜b ,
+if exotic quarks of type D are leptoquarks.
+Because in general sfermions decay into
+corresponding fermion and neutralino one can expect that each diquark will decay further
+into t– and b–quarks while a leptoquark will produce a t–quark and τ–lepton in the
+ﬁnal state with rather high probability. Thus the presence of light exotic quarks in the
+particle spectrum could result in an appreciable enhancement of the cross section of either
+pp →ttbb + X and pp →bbbb + X if exotic quarks are diquarks or pp →ttτ +τ −+ X
+and consequently pp →bbτ +τ −+ X if new quark states are leptoquarks9. In compliance
+with our initial assumptions non–Higgsinos decay predominantly into either quarks and
+squarks or leptons and sleptons of the third generation as well, i.e.
+˜H0 →t + ˜t ,
+˜H0 →t + ˜t ,
+˜H0 →b + ˜b ,
+˜H0 →b + ˜b ,
+˜H0 →τ + ˜τ ,
+˜H0 →τ + ˜τ ,
+˜H−→b + ˜t ,
+˜H−→t + ˜b ,
+˜H−→τ + ˜ντ ,
+˜H−→ντ + ˜τ .
+If we assume again that a sfermion decays predominantly into the corresponding fermion
+and neutralino then also the production of non–Higgsinos should lead to a signiﬁcant
+enlargement of the cross sections of Q ¯QQ(′) ¯Q(′) and Q ¯Qτ +τ −production, where Q is a
+heavy quark of the third generation, that allows to identify these particles if they are light
+enough.
+As each t–quark decays into a b–quark whereas a τ–lepton gives one charged lepton l
+in the ﬁnal state with a probability of 35%, both these scenarios would generate an excess
+in the b–quark production cross section. In this respect SM data samples which should
+be altered by the presence of exotic D–quarks or non–Higgsinos are those involving t¯t
+quarks will form compound states with ordinary quarks. It means that at future colliders it may be
+possible to study the spectroscopy of new composite scalar leptons or baryons. Also one can observe
+quasi–stable charged colourless fermions with zero lepton number.
+9It is worth to remind here that the production cross sections of pp →ttbb+ X and pp →ttτ +τ −+ X
+in the SM are suppressed at least by a factor
+αs
+π
+2
+and
+αW
+π
+2
+respectively as compared to the cross
+section of tt pair production (and, similarly, for t–quarks replaced by b–quarks).
+49
+
+=== PDF PAGE 51 ===
+production and decay as well as direct b¯b production. For this reason, Fig. 13 also shows
+the cross sections for these two genuine SM processes alongside those for the exotica.
+Detailed LHC analyses will be required to establish the feasibility of extracting the excess
+due to the light exotic particles predicted by our model. However, Fig. 13 should clearly
+make the point that – for the discussed parameter conﬁguration – one is in a favourable
+position in this respect, as the rates for the exotica times their BRs into the aforementioned
+decay channels are typically larger than the expected four–body cross sections involving
+heavy quarks and/or leptons.
+The situation will experimentally be much easier at a future ILC. Here, under the
+same assumptions as above concerning their decay patterns, both species of exotic par-
+ticles should contribute to the inclusive hadronic cross section, see Fig. 14. Assuming,
+again, the mass choice µDi = µHi = 300 GeV, the onset at 600 GeV of the exotic pair
+production threshold would clearly be visible above the SM continuum (with or without
+a much heavier Z′, again, with MZ′ = 1.5 TeV). The rise of the hadronic cross section
+at √s = 2µDi = 2µHi would be diﬀerent, depending on the kind of exotic particles being
+generated, owning to the diﬀerent EW charges involved and the fact that three genera-
+tions of light D’s can be allowed in our model as opposed to only two in the case of light
+eH’s (as already intimated). Furthermore, the line shape of the Z′ resonance would be
+diﬀerent too, depending on whether one or the other kind of exotic matter is allowed.
+Both the enormous luminosity and extremely clean environment of an ILC, joined with
+a signiﬁcant degree of control on the beam energy spread, should allow one to explore in
+detail all such possible features of the hadronic cross section. In fact, as the actual value
+of the ILC beam energy has yet to be ﬁxed and our illustrative choice for µDi and µHi may
+not correspond to what nature has chosen, we present in Fig. 15 the mass dependence of
+the pair production cross section for our exotic states at two reference collider energies, of
+700 GeV and identical to the Z′ mass. While the scope for exotic D–quark production at
+the ILC has probably little to add to what could be obtained earlier at the LHC, a TeV
+scale e+e−linear collider is deﬁnitely crucial in increasing the discovery reach in mass for
+non–Higgsinos beyond the limits obtainable at the CERN hadronic machine.
+8.
+Conclusions
+In this paper we have made a comprehensive study of the theory and phenomenology of
+a low energy supersymmetric standard model originating from a string-inspired E6 grand
+uniﬁed gauge group, which we called Exceptional Supersymmetric Standard Model, or
+ESSM for short. The ESSM considered here is based on the low energy SM gauge group
+together with an extra Z′ corresponding to an extra U(1)N gauge symmetry under which
+50
+
+=== PDF PAGE 52 ===
+right–handed neutrinos have zero charge.
+This allows right–handed neutrinos to gain
+large Majorana masses, resulting in the conventional (high-scale) seesaw mechanism for
+neutrino masses. The extra U(1)N gauge symmetry survives to the TeV scale, and forbids
+the term µHdHu in the superpotential, but permits the term λS(HuHd), where S is a low
+energy singlet that carries U(1)N charge and breaks the gauge symmetry when it develops
+its VEV, giving rise to a massive Z′ and an eﬀective µ term. Therefore the µ problem of
+the MSSM is solved in a similar way to that in the NMSSM, but without the accompanying
+problems of singlet tadpoles or domain walls since there is no S3 term, and the would-be
+Goldstone boson is eaten by the Z′.
+The low energy matter content of the ESSM corresponds to three 27 representations
+of the E6 symmetry group, to ensure anomaly cancellation, plus an additional pair of
+Higgs–like doublets as required for high energy gauge coupling uniﬁcation. The ESSM is
+therefore a low energy alternative to the MSSM or NMSSM. The ESSM involves extra
+matter beyond the MSSM contained in three 5 + 5∗representations of SU(5), plus a total
+of three SU(5) singlets which carry U(1)N charges. Thus there are three families of new
+exotic charge 1/3 quarks and non–Higgs multiplets predicted in the ESSM, in addition to
+the Z′.
+As in the MSSM, the gauge symmetry of the ESSM does not forbid baryon and lepton
+number violating interactions that result in rapid proton decay.
+The straightforward
+generalisation of R–parity, assuming that the exotic quarks carry the same baryon number
+as the ordinary ones, guarantees not only proton stability but also the stability of the
+lightest exotic quark. The presence of heavy stable exotic quarks, that should survive
+annihilation, is ruled out by diﬀerent experiments. Therefore the R–parity deﬁnition in
+the ESSM has to be modiﬁed. There are two diﬀerent ways to impose an appropriate
+Z2 symmetry that lead to two diﬀerent versions of the ESSM where baryon and lepton
+number is conserved. ESSM version I implies that exotic quarks have twice larger baryon
+number than the ordinary quark ﬁelds. In the ESSM version II exotic quarks carry baryon
+and lepton numbers simultaneously.
+Because the supermultiplets of exotic matter interact with the quark, lepton and Higgs
+superﬁelds the Lagrangian of the ESSM includes many new Yukawa couplings. In general
+these couplings give rise to the processes with non–diagonal ﬂavour transitions that have
+not been observed yet. In order to suppress ﬂavour changing processes and to provide the
+correct breakdown of gauge symmetry we assumed a hierarchical structure of the Yukawa
+interactions, and imposed an approximate ZH
+2 symmetry under which all superﬁelds are
+odd except Higgs doublets (Hu and Hd) and singlet ﬁeld S. With these assumptions only
+one SM singlet ﬁeld S may have appreciable couplings with exotic quarks and SU(2)
+doublets H1i and H2i and the couplings are ﬂavour diagonal. It also follows that only one
+51
+
+=== PDF PAGE 53 ===
+pair of SU(2) Higgs doublets Hd and Hu have Yukawa couplings to the ordinary quarks
+and leptons of order unity. The Yukawa couplings of other exotic particles to the quarks
+and leptons of the ﬁrst two generations must be less than 10−4 and 10−3 respectively
+in order to suppress FCNCs. We would like to emphasise that from the perspective of
+REWSB these assumptions are completely natural. Without loss of generality it is always
+possible to work in a basis where only one family of singlets S and Higgs doublets Hd and
+Hu have VEVs and the remaining states do not (the non–Higgs). Then REWSB makes
+it natural that the so deﬁned Higgs ﬁelds have large couplings to third family quarks and
+leptons, while the non–Higgs ﬁelds have small couplings.
+We have analysed the RG ﬂow of the gauge and Yukawa couplings in the framework of
+the ESSM taking into account kinetic term mixing between U(1)Y and U(1)N. Imposing
+the gauge coupling uniﬁcation at high energies we have found that the gauge coupling of
+the extra U(1)N is very close to the U(1)Y gauge coupling while the oﬀ–diagonal gauge
+coupling which describes the mixing between U(1)Y and U(1)N is negligibly small. Since
+by construction extra exotic quarks and non–Higgses ﬁll in complete SU(5) representa-
+tions the Grand Uniﬁcation scale remains almost the same as in the MSSM. At the same
+time the overall gauge coupling g0 that characterises gauge interactions above the scale
+MX is considerably larger than in the MSSM: g0 ≃1.21. The increase of the gauge cou-
+plings at the Grand Uniﬁcation and intermediate scales in the ESSM is caused by the
+extra supermultiplets of exotic matter.
+The growth of gi(Q) relaxes the restrictions on the Yukawa couplings coming from
+the validity of perturbation theory up to the scale MX as compared with the MSSM.
+In particular ht and λ can take larger values at the EW scale than in the constrained
+MSSM and NMSSM. If the top–quark Yukawa coupling is large at the Grand Uniﬁcation
+scale, i.e. ht(MX) ≳1, the solutions of the RG equations for the Yukawa couplings in
+the gaugeless limit approach the invariant line and along this line are attracted to the
+quasi–ﬁxed point where λ(Mt) is going to zero. After the inclusion of gauge couplings,
+the valley along which the solutions of RG equations ﬂow to the ﬁxed point disappear
+but their convergence to the ﬁxed point becomes even stronger. The analysis of the RG
+ﬂow shows that the Yukawa couplings of top– and exotic quarks tend to dominate over
+the Yukawa couplings of non–Higgs supermultiplets that are considerably larger than λ
+at the EW scale. However the solutions for the Yukawa couplings are concentrated near
+the ﬁxed points only when ht(MX) is large enough that corresponds to tan β ≃1 −1.1.
+At moderate and large values of tan β the values of the Yukawa couplings at the EW scale
+may be quite far from the stable ﬁxed point. As a result for values of tan β ≳1.5 the
+coupling λ(Mt) can be comparable with the top–quark Yukawa coupling.
+We have used the above theoretical restrictions on tan β and λ for the analysis of the
+52
+
+=== PDF PAGE 54 ===
+Higgs, neutralino and chargino sectors of the ESSM. Although the particle content of
+the ESSM involves many particles with similar quantum number only one singlet ﬁeld S
+and two Higgs doublets Hu and Hd acquire VEVs breaking the SU(2) × U(1)Y × U(1)N
+symmetry. Since the Higgs sector of the ESSM contains only one new ﬁeld S and one
+additional parameter compared to the MSSM it can be regarded as the simplest extension
+of the Higgs sector of the MSSM. As in the MSSM, the ESSM Higgs sector does not provide
+extra sources for the CP–violation at tree–level. The ESSM Higgs spectrum includes three
+CP–even, one CP–odd and two charged states. The singlet dominated CP–even state is
+always almost degenerate with the Z′ gauge boson. The masses of another CP–even and
+charged Higgs ﬁelds are set by the mass of pseudoscalar state mA. The lightest CP–even
+Higgs boson is conﬁned around the EW scale. The superpartners of the Z′ boson and
+singlet ﬁeld S also contribute to the ESSM neutralino spectrum while the number of states
+in the chargino sector remain the same as in the MSSM. The masses of extra states in
+the neutralino sector are governed by MZ′.
+The qualitative pattern of the Higgs, neutralino and chargino spectra in the ESSM is
+determined by the Yukawa coupling λ. When λ << g1 (the MSSM limit of the ESSM)
+new states in the Higgs and neutralino sectors become very heavy and decouple from the
+rest of the spectrum making them indistinguishable from the MSSM ones. In the case
+when λ ≳g1 the lightest Higgs scalar can be heavier than in the MSSM and NMSSM. In
+this case the vacuum stability requirement constrains mA so that the heaviest CP–even,
+CP–odd and charged states lie beyond the TeV range. It means that in this case only
+the lightest Higgs scalar can be discovered at the LHC and ILC. We have found that the
+mass of the lightest Higgs particle does not exceed 150 GeV.
+If λ ≳g1 then the heaviest chargino and neutralino are formed by the neutral and
+charged superpartners of the Higgs doublets Hu and Hd. Extra neutralino states are lighter
+than the heaviest one but still too heavy to be observed in the near future. The lightest
+chargino is predominantly superpartner of W ± gauge bosons while the lightest neutralino
+state is basically bino. We have obtained the approximate solutions for the masses and
+couplings of the Higgs particles as well as for the masses of the lightest neutralino and
+chargino.
+As we have already mentioned the ESSM predicts the existence of many new exotic
+quarks and non–Higgsinos. They compose vector–like multiplets of matter with respect
+to the SM gauge group, so that the axial couplings of the SM gauge bosons to exotic
+particles vanish. As a consequence their contributions to the EW observables measured
+at LEP are suppressed by inverse powers of their masses. The contribution of the Z′ is
+also negligibly small since the latter is supposed to be very heavy and practically does
+not mix with the Z boson. At the same time Z′, exotic quarks and non–Higgsinos can be
+53
+
+=== PDF PAGE 55 ===
+produced directly at future colliders if they are light enough. The lifetime of new exotic
+particles is deﬁned by the extent to which the ZH
+2 symmetry is broken. If ZH
+2 was exact
+the lightest exotic quark would be absolutely stable. Since we have assumed that ZH
+2
+is mainly broken by the operators involving quarks and leptons of the third generation
+the exotic quarks decay into either two heavy quarks Q ¯Q or a heavy quark and a lepton
+Qτ(ντ), where Q is either a b– or t–quark. If exotic quarks are light enough they will be
+intensively produced at the LHC. In the case when ZH
+2 is broken signiﬁcantly this results
+in the growth of the cross section of either pp →Q ¯QQ(′) ¯Q(′) + X or pp →Q ¯Ql+l−+ X,
+with l = e, µ. If the violation of the ZH
+2 invariance is extremely small then a set of new
+baryons or composite leptons containing quasi–stable exotic quarks could be discovered
+at the LHC. As compared with the exotic quarks the production of non–Higgsinos will
+be rather suppressed at the LHC. In contrast, at an ILC the production rates of exotic
+quarks and non–Higgsinos can be comparable allowing their simultaneous observation.
+The Z′ gauge boson has to be detected at the LHC if it has a mass below 4 −4.5 TeV.
+The ESSM can in principle be derived from a rank–6 model which naturally arises
+after the breakdown of the E6 symmetry via the Hosotani mechanism near the string
+or Grand Uniﬁcation scale MX. The discovery at future colliders of the exotic particles
+and extra Z′ boson predicted by the ESSM would therefore represent a possible indirect
+signature of an underlying E6 gauge structure at high energies, and provide circumstantial
+evidence for superstring theory.
+Acknowledgements
+The authors are grateful to A. Djouadi, J. Kalinowski, D. J. Miller and P. M. Zerwas for
+valuable comments and remarks. RN would also like to thank E. Boos, D. I. Kazakov
+and M. I. Vysotsky for fruitful discussions. The authors acknowledge support from the
+PPARC grant PPA/G/S/2003/00096, the NATO grant PST.CLG.980066 and the EU
+network MRTN 2004–503369.
+54
+
+=== PDF PAGE 56 ===
+Figure captions
+Fig.
+1.
+(a) RG ﬂow of a set of points in the (λ/ht)–(κ/ht) plane in the gaugeless
+limit (g0 = 0). (b) The running of
+ λ(µ)
+ht(µ)
+
+versus
+ κ(µ)
+ht(µ)
+
+. The gauge couplings are
+included. In both cases the energy scale µ is varied from MX to Mt, ht(MX) = 10, while
+the Yukawa couplings of the exotic quark and non–Higgs supermultiplets of the ﬁrst and
+second generations are set to zero. Diﬀerent trajectories correspond to diﬀerent initial
+conditions for λ and κ at the scale MX.
+Fig.
+2. (a) The allowed range of the parameter space in the (κ/ht)–(λ/ht) plane for
+κ1 = κ2 = λ1 = λ2 = 0 and tan β = 2 where the couplings are evaluated at the top mass
+µ = Mt. (b) RG ﬂow of
+ κ(µ)
+ht(µ)
+
+versus
+ λ(µ)
+ht(µ)
+
+for tan β = 2. The Yukawa couplings
+of the exotic quark and non–Higgs supermultiplets of the ﬁrst and second generations are
+taken to be zero. Diﬀerent trajectories correspond to diﬀerent initial conditions at the
+EW scale. The solutions of the RG equations ﬂow from the left to the right when the RG
+scale changes from Mt to MX. (c) Upper limit on (κ/ht) versus (λ/ht) for κ1 = κ2 = κ,
+λ1 = λ2 = 0 and tan β = 2. (d) The allowed part of the parameter space in the (κ/ht)–
+(λ/ht) plane for κ1 = κ2 = κ, λ1(Mt) = λ2(Mt) = λ(Mt) and tan β = 2.
+Fig.
+3. Upper limit on λ versus tan β.
+Fig. 4. Higgs masses and couplings for λ(Mt) = 0.794, tan β = 2, MZ′ = MS = 700 GeV
+and Xt =
+√
+6MS. (a) The dependence of the lightest Higgs boson mass on mA. (b) One–
+loop masses of the CP–even Higgs bosons versus mA. Solid, dashed and dashed–dotted
+lines correspond to the masses of the lightest, second lightest and heaviest Higgs scalars
+respectively. (c) One–loop masses of the CP–odd, heaviest CP–even and charged Higgs
+bosons versus mA. Dotted, dashed–dotted and solid lines correspond to the masses of
+the charged, heaviest scalar and pseudoscalar states. (d) Absolute values of the relative
+couplings RZZhi of the Higgs scalars to Z pairs. Solid, dashed and dashed–dotted curves
+represent the dependence of the couplings of the lightest, second lightest and heaviest
+CP–even Higgs states to Z pairs on mA. (e) Absolute values of the relative couplings
+RZAhi of the CP–even Higgs bosons to the Higgs pseudoscalar and Z as a function of mA.
+The notations are the same as in Fig. 4c.
+Fig.
+5. Higgs masses and couplings for λ(Mt) = 0.3, tan β = 2, MZ′ = MS = 700 GeV
+and Xt =
+√
+6MS. (a) The dependence of the lightest Higgs boson mass on mA. (b)
+One–loop masses of the Higgs scalars versus mA. (c) One–loop masses of the CP–odd,
+heaviest CP–even and charged Higgs states versus mA. (d) Absolute values of the relative
+55
+
+=== PDF PAGE 57 ===
+couplings RZZhi of the CP–even Higgs bosons to Z pairs. (e) Absolute values of the relative
+couplings RZAhi of the Higgs scalars to the Higgs pseudoscalar and Z as a function of mA.
+The notations are the same as in Fig. 4.
+Fig.
+6. (a) Diﬀerent contributions to the tree–level upper bound on mh1 in the ESSM
+versus tan β. Solid line represents the tree–level theoretical restriction on the lightest
+Higgs boson mass in the MSSM: MZ| cos 2β|. Dash–dotted line is a contribution of extra
+U(1)N D–term: g
+′
+1v
+ ˜Q1 cos2 β + ˜Q2 sin2 β
+. Dotted line is the maximum possible contri-
+bution of the F–term corresponding to the SM singlet ﬁeld S:
+λ
+√
+2
+v sin 2β. (b) tree–level
+upper bound on the lightest Higgs boson mass as a function of tan β. The solid, lower
+and upper dotted lines correspond to the theoretical restrictions on mh1 in the MSSM,
+NMSSM and ESSM respectively.
+Fig.
+7. (a) One–loop upper bound on the lightest Higgs boson mass as a function of the
+Yukawa couplings in the (λ/ht)–(κ/ht) plane for κ1(Mt) = κ2(Mt) = 0 and κ3(Mt) = κ.
+(b) One–loop upper limit on mh1 versus Yukawa couplings in the (λ/ht)–(κ/ht) plane for
+κ1(Mt) = κ2(Mt) = κ3(Mt) = κ. (c) Two–loop upper limit on mh1 as a function of the
+Yukawa couplings in the (λ/ht)–(κ/ht) plane for κ1(Mt) = κ2(Mt) = 0 and κ3(Mt) = κ.
+(d) Two–loop upper bound on the mass of the lightest Higgs scalar versus Yukawa cou-
+plings in the (λ/ht)–(κ/ht) plane for κ1(Mt) = κ2(Mt) = κ3(Mt) = κ.
+Thick, solid,
+dash–dotted and dashed lines in Figs. 7a–7d correspond to mh = 160, 150, 140, 130 GeV
+respectively.
+The dotted line represent the allowed range of the parameter space for
+λ1(Mt) = λ2(Mt) = 0.
+Theoretical restrictions on the lightest Higgs boson mass are
+obtained for tan β = 2, m2
+Q = m2
+U = m2
+Di = m2
+Di = M2
+S, Xt =
+√
+6MS and MS = 700 GeV.
+Fig.
+8. (a) The dependence of the two–loop upper bound on the lightest Higgs boson
+mass on tan β for mt(Mt) = 165 GeV, m2
+Q = m2
+U = M2
+S, Xt =
+√
+6MS and MS = 700 GeV.
+The solid, lower and upper dotted lines represent the theoretical restrictions on mh1 in
+the MSSM, NMSSM and ESSM respectively. (b) Two–loop upper bound on the mass of
+the lightest Higgs particle in the MSSM, NMSSM and ESSM versus tan β for Xt = 0.
+Other parameters and notations are the same as in Fig. 8a.
+Fig.
+9.
+(a) Neutralino spectrum in the ESSM as function of M1 for λ(Mt) = 0.794,
+tan β = 2 and MZ′ = 700 GeV. (Only the absolute values of the neutralino masses have
+physical meaning.) (b) Chargino masses versus M1. The parameters are the same as in
+Fig. 9a.
+56
+
+=== PDF PAGE 58 ===
+Fig.
+10. (a) The dependence of neutralino masses in the ESSM on M1 for λ(Mt) = 0.3,
+tan β = 2 and MZ′ = 700 GeV. (Only the absolute values of the neutralino masses have
+physical meaning.) (b) Chargino spectrum as function of M1. The set of parameters is
+the same as in Fig. 10a.
+Fig.
+11. Diﬀerential cross section in the ﬁnal state invariant mass, denoted by Ml+l−,
+at the LHC for Drell-Yan production (l = e or µ only) in presence of a Z′ with and
+without the (separate) contribution of exotic D–quarks or non–Higgsinos ˜H (both via
+EW interactions), with µDi = µHi = 300 GeV. Here, MZ′ = 1.5 TeV.
+Fig.
+12. Cross section at the LHC for pair production of exotic D–quarks (via QCD
+interactions) as well as non–Higgsinos ˜H (via EW interactions), as a function of their
+(common) mass, denoted by MF. Here, MZ′ = 1.5 TeV.
+Fig.
+13. Diﬀerential cross section in the ﬁnal state invariant mass, denoted by MF F,
+at the LHC for pair production of b–, t– and exotic D–quarks (all via QCD interactions)
+as well as non–Higgsinos ˜H (via EW interactions), with µDi = µHi = 300 GeV. Note the
+rescaling of the rates for the ﬁrst and last process. Here, MZ′ = 1.5 TeV.
+Fig.
+14. Energy-dependent hadronic cross section at a future ILC in the SM with an
+additional Z′, with and without the (separate) contribution of exotic D–quarks or non–
+Higgsinos ˜H (both via EW interactions), with µDi = µHi = 300 GeV. Here, MZ′ = 1.5
+TeV.
+Fig.
+15. Cross section at a future ILC for pair production of exotic D–quarks and of
+non–Higgsinos ˜H (both via EW interactions), as a function of their (common) mass, ,
+denoted by MF, for two collider energies. Here, MZ′ = 1.5 TeV.
+57
+
+=== PDF PAGE 59 ===
+λ(µ)
+ht(µ)
+0.2
+0.4
+0.6
+0.8
+1
+0.2
+0.4
+0.6
+0.8
+1
+κ(µ)/ht(µ)
+Fig. 1a
+λ(µ)
+ht(µ)
+0.2
+0.4
+0.6
+0.8
+1
+0.2
+0.4
+0.6
+0.8
+1
+κ(µ)/ht(µ)
+Fig. 1b
+58
+
+=== PDF PAGE 60 ===
+κ(Mt)
+ht(Mt)
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+λ(Mt)/ht(Mt)
+Fig. 2a
+κ(µ)
+ht(µ)
+1
+2
+3
+4
+5
+6
+1
+2
+3
+4
+5
+6
+λ(µ)/ht(µ)
+Fig. 2b
+59
+
+=== PDF PAGE 61 ===
+κ(Mt)
+ht(Mt)
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+λ(Mt)/ht(Mt)
+Fig. 2c
+κ(Mt)
+ht(Mt)
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+λ(Mt)/ht(Mt)
+Fig. 2d
+60
+
+=== PDF PAGE 62 ===
+λmax
+1
+2
+3
+4
+5
+6
+7
+0.2
+0.4
+0.6
+0.8
+1
+tan β
+Fig. 3
+61
+
+=== PDF PAGE 63 ===
+mh1
+1750
+2000
+2250
+2500
+2750
+3000
+3250
+25
+50
+75
+100
+125
+150
+175
+200
+mA
+Fig. 4a
+mhi
+0
+1000
+2000
+3000
+4000
+500
+1000
+1500
+2000
+2500
+3000
+mA
+Fig. 4b
+62
+
+=== PDF PAGE 64 ===
+mA, H±, h3
+0
+1000
+2000
+3000
+4000
+500
+1000
+1500
+2000
+2500
+3000
+mA
+Fig. 4c
+63
+
+=== PDF PAGE 65 ===
+|RZZi|
+1750
+2000
+2250
+2500
+2750
+3000
+3250
+0
+0.2
+0.4
+0.6
+0.8
+1
+mA
+Fig. 4d
+|RZAi|
+1750
+2000
+2250
+2500
+2750
+3000
+3250
+0.2
+0.4
+0.6
+0.8
+1
+mA
+Fig. 4e
+64
+
+=== PDF PAGE 66 ===
+mh1
+0
+500
+1000
+1500
+2000
+20
+40
+60
+80
+100
+120
+140
+mA
+Fig. 5b
+mhi
+0
+500
+1000
+1500
+2000
+250
+500
+750
+1000
+1250
+1500
+1750
+2000
+mA
+Fig. 5a
+65
+
+=== PDF PAGE 67 ===
+mA, H±, h3
+0
+500
+1000
+1500
+2000
+250
+500
+750
+1000
+1250
+1500
+1750
+2000
+mA
+Fig. 5c
+66
+
+=== PDF PAGE 68 ===
+|RZZi|
+0
+500
+1000
+1500
+2000
+0
+0.2
+0.4
+0.6
+0.8
+1
+mA
+Fig. 5d
+|RZAi|
+0
+500
+1000
+1500
+2000
+0
+0.2
+0.4
+0.6
+0.8
+1
+mA
+Fig. 5e
+67
+
+=== PDF PAGE 69 ===
+mh1
+0
+2
+4
+6
+8
+10
+12
+14
+20
+40
+60
+80
+100
+120
+140
+160
+tan β
+Fig. 6a
+mh1
+1
+2
+3
+4
+5
+6
+7
+20
+40
+60
+80
+100
+120
+140
+160
+tan β
+Fig. 6b
+68
+
+=== PDF PAGE 70 ===
+λ(Mt)
+ht(Mt)
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0.2
+0.4
+0.6
+0.8
+1
+κ(Mt)/ht(Mt)
+Fig. 7a
+λ(Mt)
+ht(Mt)
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0.2
+0.4
+0.6
+0.8
+1
+κ(Mt)/ht(Mt)
+Fig. 7b
+69
+
+=== PDF PAGE 71 ===
+λ(Mt)
+ht(Mt)
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0.2
+0.4
+0.6
+0.8
+1
+κ(Mt)/ht(Mt)
+Fig. 7c
+λ(Mt)
+ht(Mt)
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0.2
+0.4
+0.6
+0.8
+1
+κ(Mt)/ht(Mt)
+Fig. 7d
+70
+
+=== PDF PAGE 72 ===
+mh1
+1
+2
+3
+4
+5
+6
+7
+20
+40
+60
+80
+100
+120
+140
+160
+tan β
+Fig. 8a
+mh1
+1
+2
+3
+4
+5
+6
+7
+20
+40
+60
+80
+100
+120
+140
+160
+tan β
+Fig. 8b
+71
+
+=== PDF PAGE 73 ===
+mχi
+-300
+-200
+-100
+0
+100
+200
+300
+-1000
+-500
+0
+500
+1000
+M1
+Fig. 9a
+mχ±
+-300
+-200
+-100
+0
+100
+200
+300
+200
+400
+600
+800
+1000
+M1
+Fig. 9b
+72
+
+=== PDF PAGE 74 ===
+mχi
+-300
+-200
+-100
+0
+100
+200
+300
+-750
+-500
+-250
+0
+250
+500
+750
+1000
+M1
+Fig. 10a
+mχ±
+-300
+-200
+-100
+0
+100
+200
+300
+100
+200
+300
+400
+500
+600
+700
+M1
+Fig. 10b
+73
+
+=== PDF PAGE 75 ===
+Fig. 11
+74
+
+=== PDF PAGE 76 ===
+Fig. 12
+75
+
+=== PDF PAGE 77 ===
+Fig. 13
+76
+
+=== PDF PAGE 78 ===
+Fig. 14
+77
+
+=== PDF PAGE 79 ===
+Fig. 15a
+Fig. 15b
+78
+
+=== PDF PAGE 80 ===
+References
+[1] E. Witten, Nucl. Phys. B 188 (1981) 513; N. Sakai, Z. Phys. C 11 (1981) 153; S.
+Dimopoulos, H. Georgi, Nucl. Phys. B 193 (1981) 150; R. K. Kaul, P. Majumdar,
+Nucl. Phys. B 199 (1982) 36.
+[2] E. Gildener, S. Weinberg, Phys. Rev. D 13 (1976) 3333; E. Gildener, Phys. Rev. D
+14 (1976) 1667.
+[3] D. J. H. Chung, L. L. Everett, G. L. Kane, S. F. King, J. Lykken, L. T. Wang, Phys.
+Rept. 407 (2005) 1.
+[4] J. Ellis, S. Kelley, D. V. Nanopoulos, Phys. Lett. B 249 (1990) 441; J. Ellis, S.
+Kelley, D. V. Nanopoulos, Phys. Lett. B 260 (1991) 131; U. Amaldi, W. de Boer, H.
+Furstenau, Phys. Lett. B 260 (1991) 447; P. Langacker, M. Luo, Phys. Rev. D 44
+(1991) 817.
+[5] H. Georgi, S. L. Glashow, Phys. Rev. Lett. 32 (1974) 438.
+[6] M. B. Green, J. H. Schwarz, E. Witten, Superstring Theory (Cambridge Univ. Press,
+Cambridge, 1987).
+[7] P. Horava, E. Witten, Nucl. Phys. B 460 (1996) 506; Nucl. Phys. B 475 (1996) 94.
+[8] E. Witten, Nucl. Phys. B 471 (1996) 135; T. Banks, M. Dine, Nucl. Phys. B 479
+(1996) 173; K. Choi, H. B. Kim, C. Mu˜noz, Phys. Rev. D 57 (1998) 7521.
+[9] F. del Aguila, G. A. Blair, M. Daniel, G. G. Ross, Nucl. Phys. B 272 (1986) 413.
+[10] R. Barbieri, S. Ferrara, C. Savoy, Phys. Lett. B 119 (1982) 343; H. P. Nilles, M.
+Srednicki, D. Wyler, Phys. Lett. B 120 (1983) 345; L. Hall, J. Lykken, S. Weinberg,
+Phys. Rev. D 27 (1983) 2359; S. K. Soni, H. A. Weldon, Phys. Lett. B 126 (1983)
+215.
+[11] H. P. Nilles, Int. J. Mod. Phys. A 5 (1990) 4199.
+[12] A. Salam, J. Strathdee, Phys. Rev. D 11 (1975) 1521; M. T. Grisaru, W. Siegel, M.
+Rocek, Nucl. Phys. B 159 (1979) 429.
+[13] H. P. Nilles, M. Srednicki, D. Wyler, Phys. Lett. B 120 (1983) 346; J. M. Frere, D.
+R. T. Jones, S. Raby, Nucl. Phys. B 222 (1983) 11; J. P. Derendinger, C. A. Savoy,
+Nucl. Phys. B 237 (1984) 307; M. I. Vysotsky, K. A. Ter-Martirosian, Sov. Phys.
+JETP 63 (1986) 489; J. Ellis, J. F. Gunion, H. Haber, L. Roszkowski, F. Zwirner,
+Phys. Rev. D 39 (1989) 844.
+79
+
+=== PDF PAGE 81 ===
+[14] L. Durand, J. L. Lopez, Phys. Lett. B 217 (1989) 463; L. Drees, Int. J. Mod. Phys.
+A 4 (1989) 3635.
+[15] Ya. B. Zel’dovich, I. Yu. Kobzarev, L. B. Okun, Sov. Phys. JETP 40 (1975) 1.
+[16] A. Vilenkin, Phys. Rept. 121 (1985) 263; A. Vilenkin, E. P. S. Shellard, Cosmic
+Strings and Other Topological Defects (Cambridge University Press, 1994).
+[17] S. A. Abel, S. Sarkar, P. L. White, Nucl. Phys. B 454 (1995) 663.
+[18] J. L. Hewett, T. G. Rizzo, Phys. Rept. 183 (1989) 193; J. F. Gunion, H. E. Haber,
+G. L. Kane, S. Dawson, “The Higgs Hunter’s Guide,” SCIPP-89/13; P. Binetruy,
+S. Dawson, I. Hinchliﬀe, M. Sher, Nucl. Phys. B 273 (1986) 501; J. R. Ellis, K. En-
+qvist, D. V. Nanopoulos, F. Zwirner, Nucl. Phys. B 276 (1986) 14; L. E. Ibanez,
+J. Mas, Nucl. Phys. B 286 (1987) 107; J. F. Gunion, L. Roszkowski, H. E. Haber,
+Phys.
+Lett. B 189 (1987) 409; H. E. Haber, M. Sher, Phys.
+Rev. D 35 (1987)
+2206; J. R. Ellis, D. V. Nanopoulos, S. T. Petcov, F. Zwirner, Nucl. Phys. B 283
+(1987) 93; M. Drees, Phys. Rev. D 35 (1987) 2910; H. Baer, D. Dicus, M. Drees,
+X. Tata, Phys. Rev. D 36 (1987) 1363; J. F. Gunion, L. Roszkowski, H. E. Haber,
+Phys. Rev. D 38 (1988) 105.
+[19] M. Cvetiˇc, P. Langacker, Phys. Rev. D 54 (1996) 3570; Mod. Phys. Lett. A 11 (1996)
+1247.
+[20] M. Cvetiˇc, D. Demir, J. R. Espinosa, L. L. Everett, P. Langacker, Phys. Rev. D 56
+(1997) 2861.
+[21] J. Erler, Nucl. Phys. B 586 (2000) 73.
+[22] D. A. Demir, G. L. Kane, T. T. Wang, hep-ph/0503290.
+[23] P. Langacker, M. Plumacher, Phys. Rev. D 62 (2000) 013006; V. Barger, C. W.
+Chiang, P. Langacker, H. S. Lee, Phys. Lett. B 580 (2004) 186; V. Barger, C. W.
+Chiang, J. Jiang, P. Langacker, Phys. Lett. B 596 (2004) 229.
+[24] D. Suematsu, Y. Yamagishi, Int. J. Mod. Phys. A 10 (1995) 4521;
+[25] E. Keith, E. Ma, Phys. Rev. D 56 (1997) 7155.
+[26] P. Langacker, J. Wang, Phys. Rev. D 58 (1998) 115010.
+[27] Y. Daikoku, D. Suematsu, Phys. Rev. D 62 (2000) 095006.
+[28] D. A. Demir, L. L. Everett, Phys. Rev. D 69 (2004) 015008.
+80
+
+=== PDF PAGE 82 ===
+[29] J. -H. Kang, P. Langacker, T. -J. Li, Phys. Rev. D 71 (2005) 015012.
+[30] E. Ma, Phys. Lett. B 380 (1996) 286.
+[31] B. de Carlos, J. R. Espinosa, Phys. Lett. B 407 (1997) 12; V. Barger, C. Kao, P.
+Langacker, H. -S. Lee, Phys. Lett. B 600 (2004) 104.
+[32] T. Hambye, E. Ma, M. Raidal, U. Sarkar, Phys. Lett. B 512 (2001) 373.
+[33] J. Kang, P. Langacker, T. -J. Li, T. Liu, Phys. Rev. Lett. 94 (2005) 061801.
+[34] E. Ma, M. Raidal, J. Phys. G 28 (2002) 95.
+[35] V. Barger, C. Kao, P. Langacker, H. -S. Lee, Phys. Lett. B 614 (2005) 67.
+[36] D. Suematsu, Mod. Phys. Lett. A 12 (1997) 1709.
+[37] D. Suematsu, Phys. Lett. B 416 (1998) 108.
+[38] A. E. Faraggi, M. Thormeier, Nucl. Phys. B 624 (2002) 163.
+[39] J. Erler, P. Langacker, T. -J. Li, Phys. Rev. D 66 (2002) 015002; T. Han, P. Lan-
+gacker, B. McElrath, Phys. Rev. D 70 (2004) 115006.
+[40] E. Keith, E. Ma, Phys. Rev. D 54 (1996) 3587. D. Suematsu, Phys. Rev. D 57 (1998)
+1738.
+[41] Y. Hosotani, Phys. Lett. B 129 (1983) 193.
+[42] V. Barger, P. Langacker, H. S. Lee, Phys. Rev. D 67 (2003) 075009.
+[43] P. Di Bari, Phys. Rev. D 65 (2002) 043509.
+[44] M. Fukugita, T. Yanagida, Phys. Lett. B 174 (1986) 45.
+[45] V. A. Kuzmin, V. A. Rubakov, M. E. Shaposhnikov, Phys. Lett. B 155 (1985) 36.
+[46] J. Rich, M. Spiro, J. Lloyd–Owen, Phys. Rept. 151 (1987) 239; P. F. Smith, Contemp.
+Phys. 29 (1988) 159; T. K. Hemmick et al. , Phys. Rev. D 41 (1990) 2074.
+[47] S. Wolfram, Phys. Lett. B 82 (1979) 65; C. B. Dover, T. K. Gaisser, G. Steigman,
+Phys. Rev. Lett. 42 (1979) 1117.
+[48] E. Ma, Phys. Rev. Lett. 60 (1988) 1363.
+[49] G. F. Giudice, A. Masiero, Phys. Lett. B 206 (1988) 480; J. A. Casas, C. Mu˜noz,
+Phys. Lett. B 306 (1993) 288.
+81
+
+=== PDF PAGE 83 ===
+[50] L. E. Ib´a˜nez, G. G. Ross, Phys. Lett. B 110 (1982) 215; J. Ellis, D. V. Nanopoulos,
+K. Tamvakis, Phys. Lett. B 121 (1983) 123; J. Ellis, J. Hagelin, D. V. Nanopoulos,
+K. Tamvakis, Phys. Lett. B 125 (1983) 275; L. Alvarez-Gaum´e, J. Polchinski, M.
+Wise, Nucl. Phys. B 221 (1983) 495.
+[51] B. Holdom, Phys. Lett. B 166 (1986) 196.
+[52] D. Suematsu, Phys. Rev. D 59 (1999) 055017.
+[53] K. S. Babu, C. Kolda, J. March–Russell, Phys. Rev. D 54 (1996) 4635; T. G. Rizzo,
+Phys. Rev. D 59 (1999) 015020.
+[54] K. Hagiwara et al. , Phys. Rev. D 66 (2002) 010001.
+[55] B. Schrempp, F. Schrempp, Phys. Lett. B 299 (1993) 321; B. Schrempp, Phys. Lett.
+B 344 (1995) 193; B. Schrempp, M. Wimmer, Prog. Part. Nucl. Phys. 37 (1996) 1.
+[56] P. Abreu et al. [DELPHI Collaboration], Phys. Lett. B 485 (2000) 45; R. Barate et
+al. [ALEPH Collaboration], Eur. Phys. J. C 12 (2000) 183.
+[57] F. Abe et al. [CDF Collaboration], Phys. Rev. Lett. 79 (1997) 2192.
+[58] A. Brignole, J. Ellis, G. Ridolﬁ, F. Zwirner, Phys. Lett. B 271 (1991) 123; P. H.
+Chankowski, S. Pokorski, J. Rosiek, Phys. Lett. B 274 (1992) 191; A. Brignole,
+Phys. Lett. B 277 (1992) 313; H. E. Haber, R. Hempﬂing, Phys. Rev. D 48 (1993)
+4280.
+[59] T. Elliott, S. F. King, P. L. White, Phys. Lett. B 314 (1993) 56; U. Ellwanger, Phys.
+Lett. B 303 (1993) 271; U. Ellwanger, M. Lindner, Phys. Lett. B 301 (1993) 365;
+T. Elliott, S. F. King, P. L. White, Phys. Rev. D 49 (1994) 2435; S. F. King, P. L.
+White, Phys. Rev. D 52 (1995) 4183; S. W. Ham, S. K. Oh, B. R. Kim, Phys. Lett.
+B 414 (1997) 305.
+[60] P. A. Kovalenko, R. B. Nevzorov, K. A. Ter–Martirosyan, Phys. Atom. Nucl. 61
+(1998) 812.
+[61] P. N. Pandita, Phys. Lett. B 318 (1993) 338; P. N. Pandita, Z. Phys. C 59 (1993)
+575; S. W. Ham, S. K. Oh, B. R. Kim, J. Phys. G 22 (1996) 1575.
+[62] D. J. Miller, R. Nevzorov, P. M. Zerwas, Nucl. Phys. B 681 (2004) 3; R. Nevzorov,
+D. J. Miller, Proceedings to the 7th Workshop ”What comes beyond the Standard
+Model”, ed. by N. S. Mankoc-Borstnik, H. B. Nielsen, C. D. Froggatt, D. Lukman,
+DMFA–Zaloznistvo, Ljubljana, 2004, p. 107; hep-ph/0411275.
+82
+
+=== PDF PAGE 84 ===
+[63] K. Inoue, A. Kakuto, H. Komatsu, S. Takeshita, Prog. Theor. Phys. 67 (1982) 1889;
+R. Flores, M. Sher, Ann. Phys. 148 (1983) 95.
+[64] C. Panagiotakopoulos, A. Pilaftsis, Phys. Rev. D 63 (2001) 055003; D. J. Miller, R.
+Nevzorov, hep-ph/0309143; D. J. Miller, S. Moretti, R. Nevzorov, to be published in
+Proceedings to the 18th International Workshop on High-Energy Physics and Quan-
+tum Field Theory (QFTHEP 2004) (hep-ph/0501139).
+[65] H. E. Haber, M. Sher, Phys. Rev. D 35 (1987) 2206; M. Drees, Phys. Rev. D 35
+(1987) 2910; D. Comelli and C. Verzegnassi, Phys. Lett. B 303 (1993) 277.
+[66] M. Masip, R. Mu˜noz-Tapia, A. Pomarol, Phys. Rev. D 57 (1998) 5340.
+[67] H. E. Haber, R. Hempﬂing, Phys. Rev. Lett. 66 (1991) 1815; Y. Okada, M. Yam-
+aguchi, T. Yanagida, Prog. Theor. Phys. 85 (1991) 1; J. Ellis, G. Ridolﬁ, F. Zwirner,
+Phys. Lett. B 257 (1991) 83; J. Ellis, G. Ridolﬁ, F. Zwirner, Phys. Lett. B 262
+(1991) 477; R. Barbieri, M. Frigeni, F. Caravaglios, Phys. Lett. B 258 (1991) 167;
+Y. Okada, M. Yamaguchi, T. Yanagida, Phys. Lett. B 262 (1991) 54; M. Drees, M.
+Nojiri, Phys. Rev. D 45 (1992) 2482; D. M. Pierce, A. Papadopoulos, S. Johnson,
+Phys. Rev. Lett. 68 (1992) 3678; P. H. Chankowski, S. Pokorski, J. Rosiek, Phys.
+Lett. B 274 (1992) 191; H. E. Haber, R. Hempﬂing, Phys. Rev. D 48 (1993) 4280; P.
+H. Chankowski, S. Pokorski, J. Rosiek, Nucl. Phys. B 423 (1994) 437; A. Yamada,
+Z. Phys. C 61 (1994) 247; A. Dabelstein, Z. Phys. C 67 (1995) 495; D. M. Pierce, J.
+A. Bagger, K. Matchev, R. Zhang, Nucl. Phys. B 491 (1997) 3.
+[68] J. R. Espinosa, M. Quiros, Phys. Lett. B 266 (1991) 389; R. Hempﬂing, A. H. Hoang,
+Phys. Lett. B 331 (1994) 99; M. Carena, J. R. Espinosa, M. Quiros, C. E. M. Wagner,
+Phys. Lett. B 355 (1995) 209; J. A. Casas, J. R. Espinosa, M. Quiros, A. Riotto,
+Nucl. Phys. B 436 (1995) 3; H. E. Haber, R. Hempﬂing, A. H. Hoang, Z. Phys. C 75
+(1997) 539; S. Heinemeyer, W. Hollik, G. Weiglein, Phys. Rev. D 58 (1998) 091701;
+S. Heinemeyer, W. Hollik, G. Weiglein, Phys. Lett. B 440 (1998) 296; R. Zhang,
+Phys. Lett. B 447 (1999) 89; S. Heinemeyer, W. Hollik, G. Weiglein, Phys. Lett. B
+455 (1999) 179.
+[69] M. Carena, M. Quiros, C. E. M. Wagner, Nucl. Phys. B 461 (1996) 407.
+[70] U. Ellwanger, C. Hugonie, Eur. Phys. J. C 25 (2002) 297.
+[71] A. C. Kraan, hep-ex/0505002.
+[72] S. Hesselbach, F. Franke, H. Fraas, Eur. Phys. J. C 23 (2002) 149.
+83
+
+=== PDF PAGE 85 ===
+[73] T. Gherghetta, T. A. Kaeding, G. L. Kane, Phys. Rev. D 57 (1998) 3178.
+[74] J. Erler, P. Langacker, Phys. Lett. B 456 (1999) 68.
+[75] K. Agashe, M. Graesser, I. Hinchliﬀe, M. Suzuki, Phys. Lett. B 385 (1996) 218; J.
+Rosner, Phys. Lett. B 387 (1996) 113, A. Donini et al, Nucl. Phys. B 507 (1997) 51;
+P. Frampton, M. Wise, B. Wright, Phys. Rev. D 54 (1996) 5820.
+[76] A. D. Dolgov, Phys. Rept. 370 (2002) 333.
+[77] M. Cvetiˇc, S. Godfrey, hep-ph/9504216; A. Leike, Phys. Rept. 317 (1999) 143; J.
+Kang, P. Langacker, Phys. Rev. D 71 (2005) 035014.
+[78] M. Dittmar, A. Djouadi, A-S. Nicollerat, Phys. Lett. B 583 (2004) 111.
+[79] P. Abreu et al. [DELPHI Collaboration], Phys. Lett. B 446 (1999) 62; J. Breitweg
+et al. [ZEUS Collaboration], Phys. Rev. D 63 (2001) 052002; C. Adloﬀet al. [H1
+Collaboration], Phys. Lett. B 523 (2001) 234; G. Abbiendi et al. [OPAL Collab-
+oration], Phys. Lett. B 526 (2002) 233; V. M. Abazov et al. [D0 Collaboration],
+Phys. Rev. D 71 (2005) 071104; [CDF Collaboration], hep-ex/0506074.
+[80] F. Abe et al. [CDF Collaboration], Phys. Rev. Lett. 77 (1996) 5336 [Erratum-ibid.
+78 (1997) 4307]; B. Abbott et al. [D0 Collaboration], Phys. Rev. Lett. 80 (1998)
+666.
+[81] E. Ma, M. Raidal, U. Sarkar, Eur. Phys.
+J. C 8 (1999) 301; E. Arik, O. Cakir,
+S. A. Cetin, S. Sultansoy, JHEP 0209 (2002) 024.
+84

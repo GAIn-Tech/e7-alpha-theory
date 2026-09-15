@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "claim_boundary": "Explicit Phi-phase non-C2 Gaussian ring obstruction and correctly subtracted one-loop matched soft value, not full resummed vacuum.",
+  "pure_Phi_phase_gauge_projector_error": 7.29219260858295e-16,
+  "Phi_radial_Goldstone_derivative_trace_square": 8.000000000000009,
+  "exact_trace_square": "8",
+  "coefficient_of_epsilon_squared_log_eta": "1/(4*pi^2)",
+  "regulator_scan": [
+    {
+      "eta": "1e-4",
+      "log_curvature_over_epsilon_squared": "-0.2333006470593590978544403434897154233653915204893492556693435908930577"
+    },
+    {
+      "eta": "1e-8",
+      "log_curvature_over_epsilon_squared": "-0.4666012941187181957088806869794308467307830409786985113386871817861155"
+    },
+    {
+      "eta": "1e-16",
+      "log_curvature_over_epsilon_squared": "-0.9332025882374363914177613739588616934615660819573970226773743635722309"
+    },
+    {
+      "eta": "1e-32",
+      "log_curvature_over_epsilon_squared": "-1.866405176474872782835522747917723386923132163914794045354748727144462"
+    }
+  ],
+  "one_loop_matched_soft_value": -4.709952371095545e-29,
+  "negative_mass_rejected": true,
+  "spurious_67_positive_Goldstones_value": -2.339757462529778e-28,
+  "spurious_Goldstones_change": -1.8687622254202234e-28,
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\resummation.py": "1e0cbf1102b2fbabf2d2f4057dfba6f8e49b00d321d1da0155f9ece678b211c8",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee"
+  }
+}

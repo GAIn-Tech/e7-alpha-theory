@@ -1,0 +1,244 @@
+{
+  "passed": true,
+  "claim_boundary": "Exact finite enumeration and rational algebra only; no Lean proof, no all-n Ramanujan proof, no selected spacetime dimension, physical prime mass scale, or alpha.",
+  "partition_limit": 5000,
+  "crosscheck": "dynamic product equals pentagonal recurrence at every coefficient",
+  "congruences": [
+    {
+      "prime": 5,
+      "residue": 4,
+      "tested": 1000,
+      "failures": []
+    },
+    {
+      "prime": 7,
+      "residue": 5,
+      "tested": 714,
+      "failures": []
+    },
+    {
+      "prime": 11,
+      "residue": 6,
+      "tested": 455,
+      "failures": []
+    }
+  ],
+  "e7": {
+    "roots": 126,
+    "rank": 7,
+    "gram": [
+      [
+        "2",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "2",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "2",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "-1",
+        "2",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1",
+        "2",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "2",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "2"
+      ]
+    ],
+    "determinant": "2",
+    "theta": {
+      "0": 1,
+      "2": 126,
+      "4": 756
+    },
+    "eta_inverse_7_initial": [
+      1,
+      7,
+      35
+    ],
+    "vacuum_character_after_q_shift": [
+      1,
+      133,
+      1673
+    ],
+    "nontrivial_coset_minimal_weights": 56,
+    "coset_h": "3/4",
+    "central_charge_level_1": "7"
+  },
+  "chiral_partitions": [
+    {
+      "n": 1,
+      "p": 1,
+      "self_conjugate": 1,
+      "chiral": 0
+    },
+    {
+      "n": 2,
+      "p": 2,
+      "self_conjugate": 0,
+      "chiral": 1
+    },
+    {
+      "n": 3,
+      "p": 3,
+      "self_conjugate": 1,
+      "chiral": 2
+    },
+    {
+      "n": 4,
+      "p": 5,
+      "self_conjugate": 1,
+      "chiral": 3
+    },
+    {
+      "n": 5,
+      "p": 7,
+      "self_conjugate": 1,
+      "chiral": 5
+    },
+    {
+      "n": 6,
+      "p": 11,
+      "self_conjugate": 1,
+      "chiral": 4
+    },
+    {
+      "n": 7,
+      "p": 15,
+      "self_conjugate": 1,
+      "chiral": 8
+    },
+    {
+      "n": 8,
+      "p": 22,
+      "self_conjugate": 2,
+      "chiral": 12
+    },
+    {
+      "n": 9,
+      "p": 30,
+      "self_conjugate": 2,
+      "chiral": 20
+    },
+    {
+      "n": 10,
+      "p": 42,
+      "self_conjugate": 2,
+      "chiral": 8
+    },
+    {
+      "n": 11,
+      "p": 56,
+      "self_conjugate": 2,
+      "chiral": 16
+    },
+    {
+      "n": 12,
+      "p": 77,
+      "self_conjugate": 3,
+      "chiral": 24
+    }
+  ],
+  "selfconjugate_chiral_counterexample": {
+    "partition": [
+      2,
+      1
+    ],
+    "dimension_trace_chiral": [
+      2,
+      0,
+      true
+    ]
+  },
+  "dedekind": [
+    {
+      "n": 0,
+      "dedekind": 2,
+      "selfdual": 0
+    },
+    {
+      "n": 1,
+      "dedekind": 3,
+      "selfdual": 1
+    },
+    {
+      "n": 2,
+      "dedekind": 6,
+      "selfdual": 2
+    },
+    {
+      "n": 3,
+      "dedekind": 20,
+      "selfdual": 4
+    },
+    {
+      "n": 4,
+      "dedekind": 168,
+      "selfdual": 12
+    }
+  ],
+  "circle_family": [
+    {
+      "R": "1",
+      "momentum_n1_w0_mass_squared": "1",
+      "level_matching_integral": true
+    },
+    {
+      "R": "2",
+      "momentum_n1_w0_mass_squared": "1/4",
+      "level_matching_integral": true
+    },
+    {
+      "R": "3/2",
+      "momentum_n1_w0_mass_squared": "4/9",
+      "level_matching_integral": true
+    }
+  ],
+  "script_sha256": "c9d1424014f51eb1bd5a03fe79c18126ed7f338672d3f29bf9982e2a6aa37d18"
+}

@@ -1,0 +1,181 @@
+{
+  "claim_boundary": "Leading heterotic canonical response and conditional clock identifiability; no numerical alpha, stabilized vacuum, photon sector, masses or scalar history prediction.",
+  "passed": true,
+  "checks": {
+    "canonical_metric_identity": true,
+    "tree_fractional_gradient": true,
+    "phi_coordinate_map": true,
+    "fixed_Phi_path_metric": true,
+    "fixed_Phi_fractional_slope_squared": true,
+    "reject_missing_complex_derivative_quarter": true,
+    "reject_extra_Einstein_s_power": true,
+    "two_modulus_determinant": true,
+    "symbolic_kernel_generators": true,
+    "generic_rank_two": true,
+    "exact_nullity_two": true,
+    "reused_SVD_nullity_two": true,
+    "reused_SVD_residual": true,
+    "source_sign_orientation": true,
+    "reject_source_printed_minus_order": true,
+    "counterfamily_ratio": true,
+    "constant_coupling_fiber": true,
+    "lean_exit_zero": true,
+    "lean_four_empty_axiom_reports": true,
+    "lean_no_placeholder": true,
+    "source_sources\\dilaton.pdf": true,
+    "source_sources\\dilaton.txt": true,
+    "source_sources\\equation-evidence.json": true,
+    "source_sources\\hyperphysics.html": true,
+    "source_sources\\hyperphysics.txt": true,
+    "source_sources\\ledger.json": true,
+    "source_sources\\nist-comparison.pdf": true,
+    "source_sources\\nist-comparison.txt": true,
+    "source_sources\\retrieval.json": true,
+    "source_sources\\walls.pdf": true,
+    "source_sources\\walls.txt": true,
+    "source_sources\\yukawas.pdf": true,
+    "source_sources\\yukawas.txt": true,
+    "equation_evidence_S_definition": true,
+    "equation_evidence_tree_K": true,
+    "equation_evidence_loop_K": true,
+    "equation_evidence_gauge_threshold": true,
+    "equation_evidence_volume_K": true,
+    "equation_evidence_volume_cubic": true,
+    "equation_evidence_atomic_scaling": true,
+    "equation_evidence_sign_inconsistency": true
+  },
+  "check_count": 41,
+  "canonical_metric": "Matrix([[1, 0], [0, 1]])",
+  "tree_gradient": "Matrix([[-sqrt(2)], [0]])",
+  "response_matrix": "Matrix([[16*Au/5, 16*Av/5], [-6*Au - Bu - Nu, -6*Av - Bv - Nv]])",
+  "determinant": "-16*Au*(Bv + Nv)/5 + 16*Av*(Bu + Nu)/5",
+  "nuisance_kernel": [
+    [
+      "-Av/Au",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-1",
+      "1"
+    ]
+  ],
+  "SMT": {
+    "passed": true,
+    "z3_version": "5.1.0",
+    "cases": [
+      {
+        "name": "response_total_chain",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "2321eb9296433fed209471a34d02f7d65c90512b7cb33007d5c0272b7af5b789"
+      },
+      {
+        "name": "canonical_matching_sign",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "f329a2558edee3602371fc9857513e5e32af5c1d7c2ecb610006e66c229d9a4a"
+      },
+      {
+        "name": "pure_tree_dilaton_response",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "55380d40e162b50606477555076040ad7bc52cfd620158ca51b35879ea990176"
+      },
+      {
+        "name": "scaling_family_distinct_intercepts",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "621b7d6275dc64c99338f2850fd82362e173ae73783b9c12e710ae870248cffd"
+      },
+      {
+        "name": "fixed_boundary_leaves_volume_family",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "9681c9e558f049916cb984d620fddc3ee3dea550e1916e684fddd12f0643d209"
+      },
+      {
+        "name": "same_coupling_distinct_volume_dilaton",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "78310cb0b412924c0e2396673b2a4816ed3d1b998aeac2eec0fa835d18a1afd6"
+      },
+      {
+        "name": "fixed_Phi_volume_changes_coupling",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "37b3e58da2ad9f14015301a124e0f6b7ec4e9e5f1899c4dbbf02b249f4ba21fa"
+      },
+      {
+        "name": "optical_identifies_matched_change",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "3b7d915b35f5c42afc4b4aefd35f098899eb3317bc7c82ad1273b8107b750b43"
+      },
+      {
+        "name": "nuclear_mass_fiber",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "26ae2fb6168bf8cac28cd78bfa004d4a45f9e84e0385a5b1a3eada340da22ffb"
+      },
+      {
+        "name": "independent_nuclear_prior_restores_mass",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "22395a30a8d3746e4026bec68cb15035f8d543da843f983cc5ebdc85a97e6d69"
+      },
+      {
+        "name": "gauge_blind_direction",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "206c44ac524fb2df21b21a7a4cf5bb3171d601d03f83cfe8c8a6a8028018cf31"
+      },
+      {
+        "name": "threshold_slope_can_cancel",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "e5b4b99f4603f2bb64ba36451d0c9e70d1cfc3986738b95413ab6e1ed9be6b03"
+      },
+      {
+        "name": "free_optical_systematic_hides_change",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "8a2fe0342898bd3e1df52704913b3f8ee56eb96edfa487fb327ae4f32923799d"
+      },
+      {
+        "name": "known_noncollinear_map_identifies_moduli",
+        "expected": "unsat",
+        "result": "unsat",
+        "sha256": "d958cd3efb7a9aa89a517575ae4dae70f907857e02fea795e4c80cae1b66c46d"
+      },
+      {
+        "name": "singular_map_negative_control",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "5674528fa5551730244016ab0a61f1ae74ad8cfeaa91e1db2b47241b401ddd82"
+      },
+      {
+        "name": "tree_response_not_intercept",
+        "expected": "sat",
+        "result": "sat",
+        "sha256": "33056b4adcd8ec71eb7fe74bb6415ef6098b2ddc74eeff9c8778afcdaf82b786"
+      }
+    ]
+  },
+  "lean": {
+    "exit_code": 0,
+    "stdout": "'TianYauClock.projected_identification' does not depend on any axioms\n'TianYauClock.fiber_obstructs_inverse' does not depend on any axioms\n'TianYauClock.concrete_nonidentifiability' does not depend on any axioms\n'TianYauClock.concrete_projection' does not depend on any axioms\n",
+    "stderr": ""
+  },
+  "hashes": {
+    "calculate.py": "57238cb8d229451f10b51a9d8a62d5b3a2da6aa2a0b7360e85f3318b93f1492a",
+    "smt_cases.py": "6f3604626981d5f7d14a3c01f6b99b1677b185afc290782661a1e31c2a5c8dbc",
+    "Formalization.lean": "3a562f387b8a992d94de8ce8357b267853c363706acdf78e3bdef7cd9d32d119",
+    "sources\\manifest.json": "096a42dcb56f20f919199cc31480733d2f2df2300cf9678918823a96b0e89f79",
+    "sources\\equation-evidence.json": "c4995c9bcc202316f1aeba60eeab271bba539d18977ea057399c624d94a735f1",
+    "../shifted-vacuum-gate/calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb"
+  }
+}

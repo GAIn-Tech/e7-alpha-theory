@@ -1,0 +1,11 @@
+{
+  "character": 0,
+  "negative_control_nonzero_endpoint_rejected": true,
+  "passed": true,
+  "rank": 0,
+  "replay_returncode": 0,
+  "shape": [
+    12,
+    4
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "claim_boundary": "Complete physical-soft projectors, matched scalar quartic cancellation and finite heavy-Schur NLO component only; full NLO pole/stationarity coefficient is not computed.",
+  "dimensions": [
+    188,
+    67,
+    110,
+    8,
+    3
+  ],
+  "projector_residual": 3.1747347001038383e-15,
+  "closure_residual": 9.919703589407253e-13,
+  "Ward_residual": 2.0816894751710753e-09,
+  "residual_symmetry_commutator": 4.646936741575214e-11,
+  "tree_soft_cubic_norm": 1.854398279544257e-13,
+  "tree_direct_quartic_max": 216.00000000000034,
+  "tree_matched_quartic_max": 4.007461029686965e-11,
+  "scalar_epsilon3_log_norm": 1.310664016963258e-12,
+  "omit_exchange_negative_control_norm": 12.219176783753614,
+  "geometric_derivative_tensor_norm": 0.1833333333333547,
+  "eigenvalues": {
+    "leading": [
+      1.1816582112762222,
+      1.181658211291945,
+      1.1816582112948155,
+      1.1816582113002956,
+      1.1816582113076806,
+      1.1816582113141976,
+      1.1816582113185785,
+      1.181658211330176,
+      1.4067348052246738,
+      1.4067348052287922,
+      1.4067348052616255
+    ],
+    "negative_heavy_Schur": [
+      -2.8665328178573796e-21,
+      -7.907751928521622e-22,
+      -7.390539947419279e-22,
+      -4.679069250013078e-22,
+      -3.475516898405813e-22,
+      -3.2331057298132536e-22,
+      -2.1916022766435055e-22,
+      -1.912679450433985e-22,
+      -1.741898583069502e-22,
+      -1.2015672525653962e-22,
+      -7.715794441354618e-23
+    ],
+    "unbroken_Casimir": [
+      1.999999999999997,
+      1.9999999999999991,
+      2.0,
+      2.999999999999997,
+      2.9999999999999996,
+      3.0000000000000004,
+      3.000000000000001,
+      3.0000000000000018,
+      3.000000000000005,
+      3.0000000000000058,
+      3.0000000000000067
+    ]
+  },
+  "rotated_frame_eigenvalue_error": 1.5543122344752192e-15,
+  "wrong_self_energy_Ward_norm": 43596.75081218514,
+  "samples": [
+    {
+      "epsilon": 1e-07,
+      "Gaussian_physical_soft_potential": -4.7099523862411953e-29,
+      "partial_M1_plus_epsilon_Schur_min": 1.1816582112762224
+    },
+    {
+      "epsilon": 1e-05,
+      "Gaussian_physical_soft_potential": -3.462724395727425e-21,
+      "partial_M1_plus_epsilon_Schur_min": 1.1816582112762228
+    },
+    {
+      "epsilon": 0.001,
+      "Gaussian_physical_soft_potential": -2.2154964052136518e-13,
+      "partial_M1_plus_epsilon_Schur_min": 1.1816582112762217
+    }
+  ],
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\receipt.json": "975368550d84c1bca5966d4c02643666212f58b2fd8e613294f9ffe4473ce4ee",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\receipt.json": "483b8d067d658af382bbf448956c1267bd26478ae7464d20c61c21f28dabea93",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\projected-tensors.json": "9a98ad7193caa6b7397aeac2473bed727361099eab266af324503234c734f1db",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\goldstone-pole-matching-gate\\receipt.json": "fb585e9892d9778bfec39bd9e782e52e317909cab45c15dc2d22905867ec2446",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-perturbative-window-gate\\receipt.json": "1b41501febe695a3c291bffe9ffc4eeb7b247ab081900777acd657e87ca3ec6e",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\physical-flat-resummed-vacuum-gate\\calculate.py": "e8b9a0e951272fbeebb06e9b258ae468c681a301460bb835279d765747fb89fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\shifted-vacuum-gate\\calculation.py": "766339e121f71f248b136edc56203a8a28abbff09a696127d17cafe0efdaa4fb",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\ir-resummed-vacuum-gate\\calculation.py": "3f4d86ec9b184b6b9ce33001df01eb533e6e45af1046dd3dea795d0a57b02b92"
+  }
+}

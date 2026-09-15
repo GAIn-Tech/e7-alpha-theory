@@ -1,0 +1,32 @@
+{
+  "replay": {
+    "exit": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"mode\": \"replay\",\n  \"search\": {\n    \"1\": \"unsat\",\n    \"2\": \"unsat\",\n    \"3\": \"sat\",\n    \"4\": \"unsat\",\n    \"5\": \"unsat\",\n    \"6\": \"sat\"\n  },\n  \"candidate\": {\n    \"n\": 3,\n    \"light\": [\n      [\n        1,\n        1,\n        3\n      ],\n      [\n        0,\n        -3,\n        3\n      ]\n    ],\n    \"heavy\": [\n      [\n        1,\n        -2,\n        1\n      ],\n      [\n        -1,\n        -1,\n        1\n      ],\n      [\n        0,\n        0,\n        2\n      ],\n      [\n        0,\n        3,\n        2\n      ],\n      [\n        0,\n        6,\n        1\n      ],\n      [\n        0,\n        -3,\n        1\n      ]\n    ],\n    \"anomaly_order\": [\n      \"E6^2X/T27\",\n      \"gravity^2X\",\n      \"X^3\"\n    ],\n    \"light_anomalies\": [\n      3,\n      72,\n      0\n    ],\n    \"heavy_anomalies\": [\n      -3,\n      -72,\n      0\n    ],\n    \"sum\": [\n      0,\n      0,\n      0\n    ],\n    \"pure_E6_cubic\": \"zero: no degree-three adjoint invariant (external group fact)\",\n    \"heavy_weyl_mass_rank\": 60,\n    \"E6_flavor_rectangular_rank\": 1,\n    \"light_net_27\": 3,\n    \"singlet_rank\": 6,\n    \"massless_singlets\": 3,\n    \"WZ_theta_Q4_coefficient\": \"-1\"\n  },\n  \"negative_controls\": {\n    \"wrong_scalar_charge\": true,\n    \"omit_heavy_E6_pair\": true,\n    \"flip_heavy_charge\": true,\n    \"drop_singlet_pair\": true,\n    \"zero_yukawa_loses_rank\": true,\n    \"wrong_WZ_sign\": true,\n    \"mirror_only_kills_index\": true,\n    \"negative_quartic_unbounded\": true\n  }\n}\n",
+    "stderr": ""
+  },
+  "controls": {
+    "missing": {
+      "rejected": true,
+      "detail": "MISSING RECEIPT"
+    },
+    "tampered": {
+      "rejected": true,
+      "detail": "RECEIPT MISMATCH"
+    }
+  },
+  "hashes": {
+    "checks.py": "5789102ddb5fe1a344b90884a62dc4a9075f28dcf52cafcfea42201ce71079ec",
+    "development-receipt-superseded.json": "fbf3fac297e171375dfd98274dad1ac88259145fd5380998881754cb3361848a",
+    "receipt.json": "ec3e7fe5a6c4001d860845faa09008f26ec324afa92692824ed122b7fc55e624",
+    "RELEASE_DISCLOSURE.md": "28695d33c958541722131dc30d73f4048b06ab98ae8dc800b2dfa0971168f13e",
+    "REPORT.md": "ec854105bf1d32d4f300dc41f4ff95127fae9e304301e054f60bf5d06c1f63f2",
+    "run_checks.py": "2a24829a480e044310cb7af4f602d5cc961da20868543ef9a43c3409f700ebc4",
+    "search-n1.smt2": "d356cdc3d37f82fdcd6c5ca5f9949086d10326bee84b67499edaa12430f744f9",
+    "search-n2.smt2": "c478c0fd8e26187f0132ad6411960f6b746aaf0c23c2e32ff4d96bc0a1046a6b",
+    "search-n3.smt2": "e53c1447d9f214f313936999485543219a36ba12d7d8424cfb6d6b4906b1295b",
+    "search-n4.smt2": "3a53233798e8ddd3dc55fee81f40a2af7ca4d50c19d0265c7ea21c9e9baf9e82",
+    "search-n5.smt2": "98f395b825fb9a805a5a8289fa59e71d988da4ab4285a0937aaacca0a6d82e7e",
+    "search-n6.smt2": "b933b568e999696efd62e12ee1f42867494e0767f39e80aaf9ace61e40a569bb"
+  },
+  "passed": true
+}

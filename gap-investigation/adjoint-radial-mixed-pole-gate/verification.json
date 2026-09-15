@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checkpoint_fresh_native_tensor_comparison": true,
+  "saved_receipt_replay_without_regeneration": true,
+  "checkpoint_sha256": "3fed363fa1a63789c68129999eafbe50d6ee00e50d8fb146cdc80a2c462dac80",
+  "claim_boundary": "Strict Landau SV subset; not a gauge-independent/full pole",
+  "release_hashes": {
+    "finite_momentum.py": "7b36f93d2a4dd1f9e26e0c621a3be102e8326bf82cc5639587a954630e6608a9",
+    "finite-momentum-receipt.json": "2d266edf6a9caa7d0905ed4788d72114fd93c4430b24b83f4eaff4bbe7a4def4",
+    "REPORT.md": "8edbe72354c525268cb5911acfa1f99915723c023ca08a5d99be5a09ab2ec540",
+    "RELEASE_DISCLOSURE.md": "8c00fd4548988e7a44d9d5ae0e2ed99510946012b4a9a05960265356470514de",
+    "run_checks.py": "ca3fd046743ba05b8a80fb489cd0de298e51192ffda140c15fafc3557fc06c6d"
+  }
+}

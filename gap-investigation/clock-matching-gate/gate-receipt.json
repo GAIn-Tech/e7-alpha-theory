@@ -1,0 +1,225 @@
+{
+  "checks": [
+    {
+      "expected": "unsat",
+      "name": "su5_inverse_matching",
+      "result": "unsat",
+      "smt_sha256": "b8ac3dcc6a921e0c2db000b6859ad2bdf43f2c2e9505c3f19b697e5fb258af80"
+    },
+    {
+      "expected": "unsat",
+      "name": "log_response_sign",
+      "result": "unsat",
+      "smt_sha256": "91952514a75b136ee6803d0e49bdb80312228a56dee188e33f0867c6b371ac7d"
+    },
+    {
+      "expected": "unsat",
+      "name": "matched_optical_response",
+      "result": "unsat",
+      "smt_sha256": "f33053f492d926086c0533f73c79747cb230fd28c216bc4c56f5449c628b2b89"
+    },
+    {
+      "expected": "unsat",
+      "name": "higher_loop_total_chain_rule",
+      "result": "unsat",
+      "smt_sha256": "cc0b9d8943b41b46bf6846ac51c65973b027998225a078079a329e648d3741d7"
+    },
+    {
+      "expected": "unsat",
+      "name": "moving_heavy_mass_running_derivative",
+      "result": "unsat",
+      "smt_sha256": "591658934b00bf2af0c975adb56557987e08456a6dc92023f98c7e7eb43bc39f"
+    },
+    {
+      "expected": "unsat",
+      "name": "matching_scale_cancellation",
+      "result": "unsat",
+      "smt_sha256": "ed6803aa918cbf950141bd9b546bb66361163ad48ea3931119a95c2aabcb20d1"
+    },
+    {
+      "expected": "unsat",
+      "name": "threshold_boundary_reallocation",
+      "result": "unsat",
+      "smt_sha256": "4d19adabb6a93d297d1bee9d46234c7c055a343b63e28adf25bf7b2f9e3ba9d5"
+    },
+    {
+      "expected": "unsat",
+      "name": "threshold_slope_reallocation",
+      "result": "unsat",
+      "smt_sha256": "9e591005c3db3ad6f75e8ec108113e37918339088ed3d7e3535c4de3ebcdd844"
+    },
+    {
+      "expected": "sat",
+      "name": "distinct_positive_boundaries_same_observables",
+      "result": "sat",
+      "smt_sha256": "c2c77d74d1c30dd9d28d8efc6ed6789557a69a1a58615baacf46cda7af3ce68d",
+      "witness": {
+        "/0": "[else -> 0]",
+        "D": "4/3",
+        "D1": "-8/3",
+        "D1new": "0",
+        "Dnew": "0",
+        "H": "8/3",
+        "d": "0",
+        "f": "1/2",
+        "f1": "1",
+        "f1new": "0",
+        "fnew": "1"
+      }
+    },
+    {
+      "expected": "sat",
+      "name": "zero_clock_signal_nonzero_uv_slope",
+      "result": "sat",
+      "smt_sha256": "8722766a538f2a309f6db59f14ddfe359761e361bfec47fc4f6ca5106607baaa",
+      "witness": {
+        "D1": "1",
+        "H": "1",
+        "d": "0",
+        "f": "1",
+        "f1": "-3/8"
+      }
+    },
+    {
+      "expected": "unsat",
+      "name": "threshold_prior_restores_uv_jet",
+      "result": "unsat",
+      "smt_sha256": "3d5e8c9615b11048e069c7871b66b2fb7e703676ae3122fceeccf009def60e02"
+    },
+    {
+      "expected": "sat",
+      "name": "known_clean_drift_not_boundary",
+      "result": "sat",
+      "smt_sha256": "35e8fdf8f74d94bb8ad9db2bc62524ac6e0abc5b118f2c3549a7bf5daa50fb69",
+      "witness": {
+        "/0": "[(-1/2, -1) -> 1/2, (-1, 1) -> -1, else -> 0]",
+        "d": "-1",
+        "f": "1",
+        "f1": "1",
+        "f1new": "1/2",
+        "fnew": "1/2"
+      }
+    },
+    {
+      "expected": "unsat",
+      "name": "three_ratio_alpha_nulls",
+      "result": "unsat",
+      "smt_sha256": "0461a6a23b1b0a60361c15dd2f1911ae68ee5f2b87a975dbda6eea6bb779630c"
+    },
+    {
+      "expected": "unsat",
+      "name": "temporal_rank_one_minor",
+      "result": "unsat",
+      "smt_sha256": "e897fbe4a13900f5b34a9b2caaa1c21212bf3655d99c8a4dd0e3f1a3c9f3aec5"
+    },
+    {
+      "expected": "unsat",
+      "name": "triangle_is_kinematic_not_e7",
+      "result": "unsat",
+      "smt_sha256": "0ff30d7bea59ab5e602db8fae82e83ad61dc66ca5c7b1c9e01165b16b75fc7bf"
+    },
+    {
+      "expected": "sat",
+      "name": "off_axis_nuisance_breaks_alpha_null",
+      "result": "sat",
+      "smt_sha256": "de39ea6f2bd6664f98601c1e6e24272bdfeb933eeab06056328b08f759b57683",
+      "witness": {
+        "a": "0",
+        "n": "-1",
+        "y1": "0",
+        "y2": "-1",
+        "y3": "-1"
+      }
+    },
+    {
+      "expected": "unsat",
+      "name": "one_nuisance_projected_null",
+      "result": "unsat",
+      "smt_sha256": "61d9ec3f809b419642865cf4d954d8b97e0dd7d384b122262fc9df348bbcb456"
+    },
+    {
+      "expected": "sat",
+      "name": "collinear_nuisance_hides_alpha",
+      "result": "sat",
+      "smt_sha256": "11db7542b98626fcd2ed3989cb0f21a16c963b48f6b57c77b184115262f4240f",
+      "witness": {
+        "a": "1",
+        "anew": "0",
+        "lam": "-1",
+        "n": "0",
+        "nnew": "-1"
+      }
+    },
+    {
+      "expected": "unsat",
+      "name": "independent_nuisance_restores_two_parameters",
+      "result": "unsat",
+      "smt_sha256": "afdd150669dc7ce9ec5176f8e424c707d7f61bef4bd6445a5b99fcb052b70ae4"
+    },
+    {
+      "expected": "sat",
+      "name": "free_differential_systematics_hide_alpha",
+      "result": "sat",
+      "smt_sha256": "5065a969307ec14f8ab19631657544a151e7f38c572ff12745b725af824bdedf",
+      "witness": {
+        "N1": "1",
+        "N2": "2",
+        "N3": "3",
+        "a": "0",
+        "anew": "-1",
+        "s1": "1",
+        "s2": "2",
+        "s3": "3"
+      }
+    },
+    {
+      "expected": "sat",
+      "name": "harmonic_density_coupling_product_degeneracy",
+      "result": "sat",
+      "smt_sha256": "e394be61a447706be3b5c610c5b17fdf806040df30a76ec6294f504593d75cec",
+      "witness": {
+        "/0": "[(-1, 1/2) -> -2, else -> 0]",
+        "amp": "1/2",
+        "ampnew": "1",
+        "b": "-2",
+        "bnew": "-1",
+        "q": "-1"
+      }
+    },
+    {
+      "expected": "unsat",
+      "name": "independent_scalar_history_restores_d",
+      "result": "unsat",
+      "smt_sha256": "c8feca7c719fa7e721a7e370611e0499943cff6d5ed0e5d60be6085c3eccc3b7"
+    }
+  ],
+  "claim_boundary": "Conditional scalar EFT matching and local identifiability only; no E7 completion or numerical physical prediction.",
+  "files": {
+    "Matching.lean": "53c7534de40d03131df55363f6ecbb68ce00b54947dc28b20cc93772e7ab05f8",
+    "RELEASE_DISCLOSURE.md": "0c244260dfc8ee29c684641ae66d5c9bce9b18afbdc8e9bc7a13b18b6658939b",
+    "REPORT.md": "d168209b0aa7b7eaedd1311b4af38f39ef3d1e57cab5c952c83b0064964874ee",
+    "check_matching.py": "4b08635ea40665126866fc7e8a4be20ca910c27f06f1cb3dee2a15d75a2eeeba",
+    "formalization.yaml": "77cca61e2297a57bf885e46318f5414c1551f4cc92c531a25da5a01e4f4b0d54",
+    "sources/1007.2792.pdf": "4159cd5c6bbac301acd3bffd06e47e659709e3545a5b68302f34150a11a46e28",
+    "sources/1007.2792.reading-order.txt": "f8214a999cc7758c9198c444292f259e445067560bce214a3a23457cf9f8de7e",
+    "sources/1007.2792.txt": "207a3d33994d58add1684c25a7c1bff2fe675d4a8bfd420c311a3a2794e3bd79",
+    "sources/1011.2927.pdf": "82d40233c1e5c2e4d0809ae46646c8f86f545fb12daea8890be8f9c034a032f2",
+    "sources/1011.2927.reading-order.txt": "d0ac62ba49b4eac3f69e3568fff13753f0ae9d8d31b57a773678d5975005b87e",
+    "sources/1011.2927.txt": "f9246dd2f953745680f105851f5e32d68781e3a9dd4e9706e5a778bc97ad38c2",
+    "sources/1405.2925.pdf": "549bee24d334389d2b7a875c72774e63f13bfb5cde7b09e94abce80dc1a07a96",
+    "sources/1405.2925.reading-order.txt": "ed556bde2a85eca52f47655562b45627d2a6545e276233b970821eac14b4d077",
+    "sources/1405.2925.txt": "641544418743c32567d62ed380ad9218cce1fad9fc3ed77a49875e16bea8ada8",
+    "sources/1503.06886.pdf": "ef9ebb067d9ca374a55366f07a9494b5e491c5977823764982f9b9f072699fe5",
+    "sources/1503.06886.reading-order.txt": "7b6461fe04dffdfb1324ab34d9af46629d3de3c623ba60c8a85cbda28139a04e",
+    "sources/1503.06886.txt": "7f8d97cbfd69b6a24f2963e06cc14d744d19eddd9c6538593ae7133b02dea68c",
+    "sources/citation-ledger.json": "67d273a110dd3f2a13721c5c49358d80b95ff1b069db3eba266267cfea5fb05a",
+    "sources/evidence-notes.md": "cf045581aeee04847a6e8f026c5580325acf4768dd07c6913f0bde5954da9729",
+    "sources/quotation-evidence.json": "ee2aa4a7794be6c4da83d02f96ae90062dac8eb4aa3f12e12b6a338515366e7a",
+    "sources/retain-verification.py": "d421c591c21014b646b2931f8b65e93142832319b50f6fd2ea2a2e9ce2d4cb52",
+    "sources/source-receipts.json": "f95d9641f0323e1b806cb8beeb11cd7bc70d9004670f24027192d9a2f45676ee",
+    "sources/verification.json": "fdb53d944e665af21882b47bb617b35169fa7a563eddb70ac5e78637f62d3b78"
+  },
+  "passed": true,
+  "schema": 1,
+  "z3_version": "5.1.0"
+}

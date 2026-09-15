@@ -1,0 +1,2872 @@
+=== PDF PAGE 1 ===
+arXiv:1011.2927v2  [hep-ph]  26 Jan 2011
+SFB/CPP-10-108
+TTP10-46
+Towards a Two-Loop Matching of Gauge Couplings in
+Grand Uniﬁed Theories
+W. Martens
+Institut f¨ur Theoretische Teilchenphysik
+Karlsruhe Institute of Technology (KIT)
+76128 Karlsruhe, Germany
+E-Mail: martens@particle.uni-karlsruhe.de
+Abstract
+We calculate the two-loop matching corrections for the gauge couplings at the
+Grand Uniﬁcation scale in a general framework that aims at making as few assump-
+tions on the underlying Grand Uniﬁed Theory (GUT) as possible. In this paper we
+present an intermediate result that is general enough to be applied to the Georgi-
+Glashow SU(5) as a “toy model”. The numerical eﬀects in this theory are found to
+be larger than the current experimental uncertainty on αs. Furthermore, we give
+many technical details regarding renormalization procedure, tadpole terms, gauge
+ﬁxing and the treatment of group theory factors, which is useful preparative work
+for the extension of the calculation to supersymmetric GUTs.
+PACS numbers: 12.10.Kt 12.38.Bx 02.20.Sv 11.25.Db
+
+=== PDF PAGE 2 ===
+1
+Introduction
+Grand Uniﬁed Theories (GUTs) provide an appealing framework for physics beyond the
+Standard Model (SM) of particle physics. Particularly supersymmetric (SUSY) GUTs
+have gained a lot of interest in the past decades as they seem to be consistent with the
+measured values of αs(MZ), αem(MZ) and sin θW(MZ) [1–3] and oﬀer many other beau-
+tiful features. Up to date most Renormalization Group (RG) analyses that study gauge
+coupling uniﬁcation use two-loop Renormalization Group Equations (RGEs) and one-loop
+matching at the SUSY and GUT scales [4–11]. These matching corrections arise from in-
+tegrating out heavy particles at the SUSY and GUT thresholds. They depend sensitively
+on the mass splittings between the heavy particles and can be used to constrain the mass
+spectrum of the theory. As experimental accuracy is increasing, also higher order correc-
+tions become more and more important. It has been shown that O(α3
+s) eﬀects at the SUSY
+decoupling scale can be as large as the current experimental uncertainties on the gauge
+couplings [12–14]. Furthermore, in GUT models that contain large representations, as for
+example the so-called Missing Doublet Model [15,16], the decoupling scale dependence at
+the GUT scale can exceed the experimental uncertainty by an order of magnitude [14].
+These facts encourage us to try to improve the theoretical accuracy of the uniﬁcation
+study and aim at a complete three-loop RGE analysis. This requires three-loop RGEs
+for the SM, the Minimal Supersymmetric Standard Model (MSSM) and the SUSY GUT
+model under consideration and two-loop matching corrections at the SUSY scale and the
+GUT scale. In Quantum Chromodynamics (QCD) the gauge β function in the modiﬁed
+minimal substraction scheme (MS) is known to four loops [17, 18], though a complete
+three-loop SM gauge β function is still missing. For the MSSM full three-loop RGEs
+are available [19, 20] in the so-called DR scheme. The same is true for the most general
+single gauge coupling theory in MS and a general supersymmetric GUT in DR [21, 22].
+Matching corrections at the SUSY scale are known to one-loop order for the U(1) and
+SU(2) gauge couplings α1/2 [7] and to two-loop for the strong coupling αs [12, 13]. For
+the GUT scale thresholds a general formula at the one-loop level is known [23, 24, 33],
+but two-loop corrections have still been missing up to date and thus are not included in
+present uniﬁcation analyses [4–6,10,11,14].
+The aim of this paper is to provide a ﬁrst step towards a general formula for the two-loop
+GUT matching corrections in a similar fashion as the one-loop corrections in refs. [23,
+24, 33]. Unfortunately it turns out that at the two-loop level it is much harder to carry
+out the calculation in a general way, making as few assumptions about the underlying
+GUT model as possible. Therefore, the result given in this paper is not yet applicable to
+SUSY GUT models, as it is not yet general enough. Nevertheless, by applying it to the
+Georgi-Glashow SU(5) [34] as a “toy model”, we provide an important intermediate step
+on the way to a full three-loop uniﬁcation analysis. The generalization for SUSY GUTs
+actually is in progress.
+2
+
+=== PDF PAGE 3 ===
+The remainder of the paper is organized as follows: in the next section we describe the
+theoretical framework that is used for the calculation. There the Lagrangian is deﬁned
+and it is shown how delicate issues, as gauge ﬁxing and renormalization are carried out.
+In section 3 we present an academic study of our general formula when applied to the
+Georgi-Glashow model, which is the simplest (yet already ruled out) possible GUT model.
+In particular the issue of reducing the decoupling scale dependence is discussed. Finally,
+we present our conclusions. In appendix A of this paper we describe the procedure of
+deﬁning and reducing the group theory factors that appear in our calculation. The rest
+of the appendix is dedicated to some supplementary material to the main text.
+2
+Theoretical framework
+Since there is a host of well motivated GUT models, we want our ﬁnal result to be applica-
+ble to as many of them as possible. Therefore, it is desirable to carry out the calculation
+of two-loop matching corrections at the GUT scale in a framework that makes as few
+assumptions on the underlying GUT model as possible. The idea is to have a general for-
+mula that depends on the Casimir invariants and the spectrum of the theory. Choosing a
+speciﬁc model speciﬁes those Casimir invariants and gives an expression that depends only
+on the masses and couplings of the model. The actual calculation that is presented in this
+paper is not yet done in full generality, but makes some additional assumptions about the
+model. These assumptions are described in subsection 2.3. Nevertheless, we present the
+theoretical framework that is needed for the calculation of the relevant Green’s functions
+(almost) as general as possible below in order to be armed for future improvements of the
+calculation.
+2.1
+The Lagrangian
+We consider a general renormalizable quantum ﬁeld theory deﬁned by the following La-
+grangian:
+L = −1
+4F µν
+α F α
+µν + ΨiDµγµΨ + 1
+2(DµΦ)TDµΦ −V (Φ) + LY + Lgf + Lgh.
+(1)
+The chiral Dirac fermion ﬁeld Ψ and the real scalar ﬁeld Φ reside in (not necessarily
+irreducible) representations of the gauge group G.
+The dynamics of the gauge ﬁeld
+that transforms according to the adjoint representation of G, is described by the Yang
+Mills curl F µν
+α
+= ∂µAν
+α −∂νAµ
+α + gfαβγAµ
+βAν
+γ. Moreover, V (Φ), LY, Lgf and Lgh are the
+scalar potential, the Yukawa interactions, the gauge ﬁxing and the ghost parts of the
+Lagrangian, respectively. They will be described in detail later in this section. V (Φ) is
+chosen such that the scalar ﬁeld Φ = v + Φ′ contains one G-irreducible subspace that
+develops a vacuum expectation value (vev) v, that breaks G down to the SM gauge group
+Q
+k Gk = SU(3) × SU(2) × U(1). Models that have more than one vev of O(MG), where
+3
+
+=== PDF PAGE 4 ===
+MG is the Grand Uniﬁcation scale, are not covered by our framework yet. The indices
+α, β, γ... belong to the adjoint representation and label the generators of G which fulﬁll
+the commutation relations
+[T α, T β] = if αβγ T γ
+and also:
+[ ˜T α, ˜T β] = if αβγ ˜T γ ,
+(2)
+with the structure constants f αβγ.
+We use the tilde to denote the generators of the
+real1 scalar representation which fulﬁll ( ˜T α)T = −˜T α . The generator that acts on the
+fermion ﬁeld satisﬁes (T α)† = T α. Again, T α and ˜T α need not necessarily be deﬁned
+on irreducible representations of G, but can also have block diagonal form. In order to
+distinguish between broken and unbroken generators, we introduce the notation:
+{α} =
+X
+i
+{Ai} +
+X
+i
+{ai} = {A} + {a} ,
+(3)
+where Ai label the broken generators of G belonging to the SM-irreducible subspace
+labeled by i. If there is only one SM-irreducible subspace in the adjoint representation of
+G, as e.g. is practically the case in SU(5), we can omit the sub-index i. In contrast, ai
+label the unbroken generators belonging to the subgroup2 Gi:
+˜T aiv
+=
+0 ,
+˜T Aiv̸
+=
+0 .
+(4)
+The Lagrangian in eq. (1) is invariant under local gauge transformations with the real
+parameter θ = θ(x):
+Ψ
+→
+Ψ −iθαT αΨ ,
+Φ
+→
+Φ −iθα ˜T αΦ ,
+Aα
+µ
+→
+Aα
+µ + f αβγθβAγ
+µ −1
+g∂µθα .
+(5)
+The covariant derivatives are deﬁned as:
+DµΨ
+=
+(∂µ −igT αAα
+µ)Ψ ,
+DµΦ
+=
+(∂µ −ig ˜T αAα
+µ)Φ .
+(6)
+Using eq. (2), eq. (4), and f aibjAk = 0 (cf. appendix A), the gauge-kinetic term for the
+scalar ﬁeld Φ = v + Φ′ can be written as:
+1
+2(DµΦ)TDµΦ
+=
+1
+2(∂µΦ′)T∂µΦ′ + 1
+2g2v ˜T A ˜T BvAµ
+AAµB
++igv ˜T A∂µΦAµ
+A + ig2fABaAµ
+BAµav ˜T AΦ′
++igΦ′ ˜T α∂µΦ′Aµ
+α + 1
+2g2Φ′ ˜T α ˜T βΦ′Aµ
+αAµα
++g2v ˜T A ˜T BΦ′Aµ
+AAµB ,
+(7)
+1This is no loss of generality since every complex scalar can be written as two real scalars.
+2Please note the diﬀerent meanings of the sub-index i when attached to the capital adjoint index
+opposed to when attached to a lowercase adjoint index.
+4
+
+=== PDF PAGE 5 ===
+where we can identify the (diagonal) gauge boson mass matrix
+(MX)AiBi ≡g2v ˜T Ai ˜T Biv ,
+(8)
+with eigenvalues denoted by MXi. Again, the sub-index i labels the SM-irreducible sub-
+space that is meant, because each SM-irreducible subspace can be assigned to a deﬁnite
+gauge boson mass. Note that the position of the adjoint indices α, Ai, ai... is irrelevant.
+Furthermore, it is understood that a partial derivative acts only on the single ﬁeld, which
+is next to it. The gauge-kinetic term for the scalars contains the undesired quadratic
+mixing igv ˜T A∂µΦAµ
+A between Goldstone bosons and heavy gauge bosons. As we will see
+in a moment, the gauge ﬁxing Lagrangian Lgf can be chosen in such a way that this term
+is cancelled, at least at tree-level.
+In order to ﬁx the gauge, we choose the Rξ gauge ﬁxing functional [35]
+fAi
+=
+1
+√ξ1i
+∂µAµ
+Ai −ig
+p
+ξ2iv ˜T AiΦ′ ,
+fai
+=
+1
+√ηi
+∂µAµ
+ai .
+(9)
+Note that we have chosen two distinct gauge parameters ξ1 and ξ2 for each SM-irreducible
+subspace of the heavy gauge bosons. They renormalize diﬀerently and thus can only be
+equated with each other after renormalization. Otherwise not all the Green’s functions can
+be made ﬁnite. In the same way each SM group factor receives its own gauge parameter ηi.
+This subtlety arises ﬁrst at the two-loop level and is not relevant for computing one-loop
+matching coeﬃcients. Although there are other ways to treat the gauge ﬁxing [23,36–38],
+we ﬁnd this one most convenient for our purposes. Employing the procedure described
+e.g. in ref. [39], eq. (9) gives us the gauge ﬁxing Lagrangian and the ghost interactions:
+L
+Rξ
+gf
+=
+−1
+2
+X
+i
+f 2
+Ai −1
+2
+X
+i
+f 2
+ai
+=
+X
+i
+"
+−1
+2ξ1i
+(∂µAµ
+Ai)2 −1
+2g2ξ2i Φ′ ˜T Aivv ˜T AiΦ′ + ig
+s
+ξ2i
+ξ1i
+v ˜T AiΦ′∂µAAi
+µ
+#
+−
+X
+i
+1
+2ηi
+(∂µAµ
+ai)2 ,
+(10)
+5
+
+=== PDF PAGE 6 ===
+L
+Rξ
+gh
+=
+X
+ij
+h
+∂µc†
+Ai(δAiBj∂µ −gfAiBjαAα
+µ)cBj
+−g2p
+ξ1iξ2i v ˜T Ai ˜T Bjv c†
+AicBj −g2p
+ξ1iξ2i v ˜T Ai ˜T BjΦ′c†
+AicBj
+i
+−
+X
+ij
+h
+g(ηj/ξ1i)1/4fAibjBi∂µc†
+AiABi
+µ cbj + ig2(ξ1/4
+1i η1/4
+j
+ξ1/2
+2i )fAibjBi v ˜T BiΦ′c†
+Aicbj
+i
+−
+X
+ij
+g (ξ1j/ηi)1/4faiBjAj∂µc†
+aiAAj
+µ cBj
++
+X
+i
+∂µc†
+ai(δaibi∂µ −gfaibiciAci
+µ )cbi .
+(11)
+Here cAi and cai denote the ghost ﬁelds belonging to the heavy and light gauge bosons,
+respectively. Note again that for an SU(5) GUT we could do the replacement Ai →A
+for the capital adjoint indices and the notation would become less clumsy. Here, however,
+we keep the sub-index i in order to stay as general as possible. As mentioned before,
+after partial integration the term ig
+p
+ξ2i/ξ1i v ˜T AiΦ′∂µAAi
+µ in eq. (10) exactly cancels the
+corresponding term in eq. (7) at tree level, where ξ1i = ξ2i is a valid choice. However, when
+considering higher orders in perturbation theory, the bare gauge parameters ξ1i and ξ2i
+are not equal to each other and the above term must be kept explicitly as a counterterm in
+our calculation (cf. also subsection 2.2). The quadratic term in eq. (10) can be identiﬁed
+with the (unphysical) Goldstone boson mass matrix:
+M2
+Gold
+≡
+1
+2g2 X
+i
+ξ2i ˜T Aivv ˜T Ai
+(12)
+with the property Tr(M2
+Gold) = P
+i ξ2i M2
+Xi DA
+i , where DA
+i
+is the dimension of the i-th
+SM-irreducible representation of the heavy gauge bosons. From the Goldstone theorem it
+follows that the structure v ˜T Ai projects on the subspace of Goldstone bosons, i.e. on the
+subspace that obtains no mass term from V (Φ). Hence, the matix M2
+Gold has non-zero
+entries only on the subspace of Goldstone bosons.
+For V (Φ) we consider the most general renormalizable scalar potential with the discrete
+symmetry Φ →−Φ:
+V (Φ) = −1
+2µ2
+ijΦiΦj + 1
+4! λijkl ΦiΦjΦkΦl ,
+(13)
+with totally symmetric tensors µ2
+ij and λijkl. We impose the requirements
+0
+=
+[µ2, ˜T α] ,
+0
+=
+˜T α
+im λmjkl + ˜T α
+jm λimkl + ˜T α
+km λijml + ˜T α
+lm λijkm ,
+(14)
+in order to make V (Φ) gauge invariant under G. The ﬁrst equation implies that the
+matrix µ2 is proportional to the unit matrix on each subspace irreducible under G.
+6
+
+=== PDF PAGE 7 ===
+To break the GUT symmetry, there has to be one G-irreducible Higgs representation con-
+tained in Φi that develops a vev. In order to treat the symmetry breaking appropriately, we
+deﬁne the projector ΠH on this particular G-irreducible subspace (clearly, [ ˜T α, ΠH] = 0).
+This subspace is further divided into the subspace of Goldstone bosons and the subspace of
+physical Higgs bosons with projectors P G and P ˜
+H, respectively ([ ˜T a, P G] = 0 = [ ˜T a, P ˜
+H]).
+The physical Higgs bosons receive masses of order MG from V (Φ), the Goldstone bosons
+do not. Using the Goldstone boson mass matrix from eq. (12), the projector on the space
+of Goldstone bosons can be explicitly written down as [40]:
+(P G)ij = (ΠH −P
+˜
+H)ij = g2 ˜T A
+ikvk
+ 1
+M2
+X
+
+AB
+vl ˜T B
+lj .
+(15)
+Now we can parametrize the scalars in the following way:
+Φi = vi + Φ′
+i = vi + Hi + Gi + Si
+(16)
+where v, H and G live only on the subspace deﬁned by ΠH. S parametrizes all the other
+scalars3:
+(1l −ΠH)ijΦ′
+j
+=
+Si ,
+ΠH
+ijΦ′
+j
+=
+Hi + Gi ,
+P
+˜
+H
+ij Φ′
+j
+=
+Hi ,
+P G
+ijΦ′
+j
+=
+Gi .
+(17)
+First let us focus on the subspace that ΠH projects on. In order to develop a vev on this
+subspace, the parameter µ2
+H, deﬁned by ΠHµ2 ≡µ2
+H1l, has to be positive. If this is the
+case, it is convenient to parametrize this part of the scalar potential in terms of physical
+parameters as the Higgs mass, the heavy gauge boson mass, the gauge coupling g and the
+tadpole instead of the unphysical couplings µ2
+H and
+λH
+ijkl ≡λi′j′k′l′ΠH
+i′iΠH
+j′jΠH
+k′kΠH
+l′l .
+(18)
+In principle, this is analogous to what is usually done for the SM Higgs potential [41].
+Here, however, it is more involved due to the appearance of the general invariant tensor
+λH
+ijkl. Using essentially eq. (14) and Schur’s lemma, it is possible to rewrite the up to
+quadratic terms of the potential in terms of new parameters M2
+H (diagonal Higgs mass
+matrix) and t (tadpole). For the trilinear and quartic terms this does not seem to be
+possible at the level of the Lagrangian. Thus, for the moment, we leave those terms
+expressed by the old parameters λH
+ijkl. They have to be eliminated in favor of M2
+H, g and
+M2
+X at diagram level to make our choice of parameters consistent.
+3To see that the number of Goldstone bosons is equal to the number of broken generators it is also
+possible to deﬁne the Goldstone ﬁeld as GA := g
+
+i
+MX
+
+AB vi ˜T B
+ij Φ′
+j
+7
+
+=== PDF PAGE 8 ===
+Now, including also the scalars on the subspace deﬁned by 1l −ΠH, which is straightfor-
+ward, the scalar potential can be parametrized as follows4:
+V (Φ)
+=
+t viHi + 1
+2(M2
+H)ijHiHj + 1
+2t HiHi + 1
+2t GiGi + 1
+2(M2
+S)ijSiSj
++
+1
+2viλH
+ijklHjGkGl + 1
+2viλH
+ijklHjHkGl + 1
+6viλH
+ijklHjHkHl
++
+1
+2viλijklHjHkSl + viλijklHjGkSl + 1
+2viλijklGjGkSl
++
+1
+2viλijklHjSkSl + 1
+2viλijklGjSkSl + 1
+6viλijklSjSkSl
++
+1
+24λH
+ijklGiGjGkGl + 1
+6λH
+ijklGiGjGkHl + 1
+6λH
+ijklGiHjHkHl
++
+1
+4λH
+ijklGiGjHkHl + 1
+24λH
+ijklHiHjHkHl
++
+1
+6λijklHiHjHkSl + 1
+2λijklHiHjGkSl + 1
+2λijklHiGjGkSl
++
+1
+6λijklGiGjGkSl + 1
+4λijklHiHjSkSl + 1
+2λijklHiGjSkSl
++
+1
+4λijklGiGjSkSl + 1
+6λijklHiSjSkSl + 1
+6λijklGiSjSkSl
++
+1
+24λijklSiSjSkSl
+(19)
+where
+t
+=
+−µ2
+H + 1
+6v2 λH
+ijklvivjvkvl ,
+(20)
+(M2
+H)ij
+=
+1
+2λH
+ijklvkvl −1
+6v2 λH
+klmnvkvlvmvn ΠH
+ij ,
+(21)
+(M2
+S)ij
+=
+1
+2λS
+ijklvkvl −(µ2(1l −ΠH))ij .
+(22)
+Due to gauge invariance under the SM group (eqs. (4) and (14) ), both mass matrices
+are diagonal and proportional to the unit matrix on each SM-irreducible subspace. M2
+H
+has only non-zero entries on the subspace deﬁned by P ˜
+H and M2
+S only on the subspace
+deﬁned by (1l −ΠH) (we have deﬁned λS
+ijklvkvl ≡(1l −ΠH)ii′(1l −ΠH)jj′λS
+i′j′klvkvl ).
+It is important to see that M2
+S must have only positive or zero entries. If there are negative
+entries, some of the Si would develop a vev and our formalism would not apply. Strictly
+speaking, we have (M2
+S)ij < 0 for the SM Higgs doublet that is contained in Si, which
+would exclude it from our treatment. But since in that case the scales involved have the
+strong hierarchy O(MW) ≪O(MGUT), we can safely set the entry to zero here. To do
+this, some of the λS
+ijklvkvl must be ﬁne-tuned against the corresponding (µ2(1l −ΠH))ij
+in eq. (22) which is known as the doublet triplet splitting problem, inherent to generic
+GUTs.
+4For more details of how this reparametrization is done, please refer to appendix B.
+8
+
+=== PDF PAGE 9 ===
+Note that the classical minimum of the GUT-breaking Higgs potential is deﬁned by the
+equation t = 0. However, if we compute higher order corrections, the parameter t ≡0−δt,
+where δt = O(α) is a counterterm, has to be adjusted in such a way that the renormalized
+Higgs one point function is zero at all orders of perturbation theory.
+The last term in eq. (1) to be speciﬁed is LY. The most general Yukawa interaction of
+the chiral Dirac fermion multiplet Ψ with the real scalar multiplet Φ can be written as
+follows:
+LY = −1
+2
+ Y k
+ijΨT
+i CΨjΦk + Y k⋆
+ij ΨcT
+i CΨc
+jΦk
+
+.
+(23)
+Here Y k is a complex, symmetric matrix and C ≡iγ2γ0 denotes the Dirac charge con-
+jugation matrix. Ψc ≡CΨ
+T is the charge conjugated Dirac spinor (the T refers only to
+Lorentz space). We take Ψ = 1
+2(1−γ5)Ψ to be left-handed so that Ψc will be right-handed.
+Furthermore, due to gauge invariance Y k
+ij satisﬁes the following relation:
+0 = Y k
+mjT α
+mi + Y k
+imT α
+mj + Y m
+ij ˜T α
+mk .
+(24)
+In the following we will need to distinguish between ﬁelds with the mass of O(MG) and
+massless ﬁelds. We will follow the convention of appendix A and use the projectors P x
+i
+for heavy ﬁelds and px
+i for the light ﬁelds.
+2.2
+Renormalization
+In order to do a two-loop calculation of the matching corrections, a one-loop renormaliza-
+tion program has to be carried out for the theory. The counterterms are adjusted in such
+a way that all the one-loop Green’s functions of the theory are ﬁnite. For convenience
+we use the on-shell scheme for the mass parameters of the theory and MS for the gauge
+couplings, the gauge parameters and the ﬁelds. The renormalized Lagrangian is obtained
+from eq. (1) by the following replacements:
+Aai
+µ →
+p
+Z3i Aai
+µ ,
+AAi
+µ →
+p
+ZX
+3i AAi
+µ ,
+pF
+i Ψ →
+p
+Z2i pF
+i Ψ ,
+P F
+i Ψ →
+p
+Zh
+2i P F
+i Ψ ,
+cai →
+q
+˜Z3i cai ,
+cAi →
+q
+˜ZX
+3i cAi ,
+P
+˜
+H
+i H →
+p
+ZHi P
+˜
+H
+i H ,
+P G
+i G →√ZGi P G
+i G ,
+pS
+i S →
+p
+ZSi pS
+i S ,
+P S
+i S →
+p
+Zh
+Si P S
+i S ,
+M2
+Xi →Z2
+MXi M2
+Xi ,
+M2
+Hi →Z2
+MHi M2
+Hi ,
+MFi →ZMF i MFi ,
+ξ1i →Zξ1i ξ ,
+ξ2i →Zξ2i ξ ,
+ηi →Z3i η ,
+g →Zg g .
+(25)
+9
+
+=== PDF PAGE 10 ===
+Again, we have used the sub-index i to take care of the fact that there might be several
+SM-irreducible representations for a ﬁeld that all renormalize diﬀerently. No summation
+is performed over that index. P x
+i and px
+i are projectors on the various SM-irreducible
+subspaces of heavy and light ﬁelds, respectively. MF is the fermion mass matrix that can
+arise from the Yukawa interactions eq. (23). Presently, heavy fermions are not included
+in the calculation, so the corresponding renormalization constants are only deﬁned for
+future convenience.
+In the following we list the counterterm Feynman rules that are important for our cal-
+culation. They are obtained by inserting the renormalization prescriptions from eq. (25)
+into eq. (1) and considering the up to quadratic terms. For each counterterm we give an
+expression that is valid to arbitrary loop order in the ﬁrst line and in the second line a
+more convenient expression that is valid only for one-loop renormalization. We use the
+notation Zi ≡1 −δZi and t ≡0 −δt where δZi and δt are of order α. All the parameters
+that appear in the equations are renormalized ones.
+Heavy gauge boson:
+Aµ
+Bν
+×
+←−
+k
+=
+iδAB
+h
+(ZX
+3 −ZX
+3
+ξZξ1
++1
+ξ−1)kµkν−(ZX
+3 −1)k2gµν+(ZX
+3 Z2
+MX−1)M2
+Xgµν
+i
+=
+iδAB
+h
+−δZξ1kµkν−(M2
+X−k2)δZX
+3 gµν−2δZMXM2
+Xgµν
+i
+Heavy ghost:
+A
+B
+×
+←−
+k
+=
+iδAB
+h
+( ˜ZX
+3 −1)k2−( ˜ZX
+3
+p
+Zξ1
+p
+Zξ2Z2
+MX−1)ξM2
+X
+i
+=
+iδAB
+h
+δ ˜ZX
+3 (ξM2
+X−k2)+(1
+2δZξ1+1
+2δZξ2+2δZMX)ξM2
+X
+i
+Goldstone boson:
+i
+j
+×
+←−
+k
+=
+iP G
+ij
+h
+(ZG−1)k2−(ZGZξ2Z2
+MX−1)ξM2
+X −t
+i
+=
+iP G
+ij
+h
+δZG(ξM2
+X−k2)+(δZξ2+2δZMX)ξM2
+X + δt
+i
+Physical Higgs boson:
+i
+j
+×
+←−
+k
+=
+iδij
+h
+(ZH−1)k2−(ZHZ2
+MH−1)M2
+H −t
+i
+=
+iδij
+h
+δZH(M2
+H−k2)+2δZMHM2
+H + δt
+i
+10
+
+=== PDF PAGE 11 ===
+Mixed counterterm:
+i
+A, µ
+×
+←−
+k
+=
+ig
+hs
+ξ2
+ξ1
+−1
+i
+vk ˜T A
+kikµ
+=
+ig 1
+2(δZξ1 −δZξ2) vk ˜T A
+kikµ
+Heavy fermion:
+i
+j
+×
+←−
+k
+=
+iδij
+h
+(Zh
+2 −1)/k−(Zh
+2 ZMF −1)MF
+i
+PL
+=
+iδij
+h
+δZh
+2 (MF−/k)+δZMF MF
+i
+PL
+Higgs tadpole:
+i
+×
+=
+iviδt
+In order to avoid clutter with the notation, we have omitted the sub-index i here. From
+the context it is always unambiguous that the SM-irreducible representation of the ﬁeld
+under consideration is meant. For our calculation we need the renormalization constants
+of all mass and gauge parameters at one-loop. As can be seen from the above Feynman
+rules, the set of equations that is used to determine δZξ1, δZξ2 and δt is overconstrained
+(cf. also refs. [42, 43]). This provides a useful check for our calculation: we computed
+δZξ1 −δZξ2 from the pole of a combination of the heavy gauge boson and heavy ghost
+propagator as well as from the mixed Goldstone boson heavy gauge boson propagator.
+Both calculations lead to the same result. In the same way δt was computed from the pole
+of the physical Higgs tadpole as well as from the Goldstone propagator yielding the same
+result. Furthermore, the MS
+renormalization constant for the gauge coupling Zg will
+be needed to two-loop order (cf. subsection 2.3), including corrections from the Yukawa
+couplings. We did the calculation in our framework and found agreement with the known
+result in the literature [21,44,45].
+2.3
+Decoupling of heavy particles
+When studying gauge coupling uniﬁcation, it is most convenient to use RGEs deﬁned
+in mass-independent renormalization schemes, such as MS or DR. In these “unphysical”
+schemes the computation of β functions is simpliﬁed signiﬁcantly, which makes them most
+suitable for this application. However, these schemes have the well known drawback that
+the decoupling theorem [46] does not hold in its naive form. As a consequence observables
+of low energy processes will depend logarithmically5 on all the heavy particle masses of
+the GUT. This is unacceptable, since it would spoil perturbation theory by the presence
+of large logarithms ln(MG/µ), where µ is the typical energy scale of the process. The way
+out of this dilemma is to use an eﬀective theory [24–32,47], where the heavy particles are
+5At the two-loop order also more complicated functions of the heavy masses can appear.
+11
+
+=== PDF PAGE 12 ===
+integrated out at the GUT scale. This means that the dynamical degrees of freedom of the
+heavy particles are removed, which manifestly leads to power-suppressed contributions of
+O(1/MG) in the eﬀective Lagrangian. Moreover, the eﬀects of the heavy particles are
+encoded in a multiplicative redeﬁnition of all the masses and couplings of the theory. For
+the case of the gauge coupling this so-called decoupling relation reads:
+αi(µGUT)
+=
+ζαi(µGUT, α(µGUT), Mh) α(µGUT) ,
+α
+≡
+g2
+4π ,
+αi ≡g2
+i
+4π ,
+i = 1, 2, 3 .
+(26)
+Here αi and α stands for the MS
+gauge coupling6 in the eﬀective theory (the SM or
+the MSSM) and full theory (GUT), respectively. µGUT is the unphysical scale, at which
+the decoupling is performed. At suﬃciently high loop order predictions of physical ob-
+servables must not depend on µGUT anymore. The remaining dependence on this scale
+gives us an estimation of the theory uncertainty of the prediction. ζαi is the so-called
+matching coeﬃcient that depends on all the mass parameters of the particles that have
+been integrated out. They are abbreviated by Mh in eq. (26). The construction of the
+eﬀective Lagrangian is described in detail e.g. in refs. [48, 49] for the case of QCD. It is
+applicable to our setup without modiﬁcations. Here we only list the formulas that are
+relevant for the computation of ζαi. For our calculation we ﬁnd it most convenient to use
+the three-point Green’s function with light ghosts and light gauge bosons as external par-
+ticles. Applying Slavnov-Taylor identities to this vertex, the formula for the MS matching
+coeﬃcient reads:
+ζαi =
+ 
+Zg
+Zgi
+˜ζ0
+1i
+˜ζ0
+3i
+p
+ζ0
+3i
+!2
+,
+i = 1, 2, 3 .
+(27)
+The MS renormalization constants for the gauge coupling in the full and eﬀective theory
+are denoted by Zg and Zgi, respectively.
+The bare matching coeﬃcients for the light
+ghost-gauge-boson vertex, the light ghost ﬁeld and the light gauge ﬁeld respectively are
+given by:
+˜ζ0
+1i
+=
+1 + Γ0,h
+Ac†c,i(0, 0) ,
+˜ζ0
+3i
+=
+1 + Π0,h
+c,i (0) ,
+ζ0
+3i
+=
+1 + Π0,h
+A,i(0)
+(28)
+i.e.
+they are computed from the “hard part”7 of the one particle irreducible Green’s
+functions with zero external momentum. All the masses of SM particles are set to zero
+and therefore only masses of O(MG) appear in the diagrams. The external particles for
+these Green’s functions are: two light ghosts with one light gauge boson, two light ghosts
+and two light gauge bosons, respectively. In all cases the relevant group structure has to
+6For simplicity we will only speak about MS parameters from now on. If a SUSY GUT is considered,
+all MS parameters will be replaced by DR parameters.
+7This denotes all the diagrams that contain at least one heavy particle.
+12
+
+=== PDF PAGE 13 ===
+be projected out and in the case of the light gauge boson propagator only the transverse
+part is needed. The index i takes care of the fact that the SM gauge group is not simple
+and labels whether an external gauge bosons and ghosts belonging to U(1), SU(2) or
+SU(3) have to be taken.
+At this point a remark concerning the µGUT dependence in diﬀerent renormalization
+schemes might be helpful.
+In mass-dependent renormalization schemes the threshold
+eﬀect around the GUT scale is obtained correctly by including the eﬀect of the heavy
+GUT particles in the β function. As there is no explicit matching performed in such
+schemes, there is no dependence on the unphysical scale µGUT at all. Therefore, the ques-
+tion might arise how the µGUT dependence in mass-independent renormalization schemes,
+as in eq. (27), comes about. The answer is that by naively changing the renormalization
+scheme from mass-dependent to mass-independent, low energy observables obtain a log-
+arithmic dependence on an unphysical renormalization scale µ that has not been present
+before. These are the large logarithms log
+µ
+MG that would spoil perturbation theory in
+the naive mass-independent renormalization scheme. In our (eﬀective theory) approach,
+however, we absorb these logarithms in a redeﬁnition of the gauge coupling and choose
+the unphysical scale µ = µGUT in the vicinity of the heavy GUT masses, which introduces
+an explicit dependence of ζαi on µGUT.
+Before we come to the technical details of the calculation, it is in order to describe all the
+assumptions that have been made about the underlying GUT model:
+• There is no trilinear scalar coupling in V (Φ).
+• There is only one vev of O(MG) in the theory.
+• There are no heavy fermions in the theory.
+• The heavy gauge bosons decompose in SM-irreducible representations with a com-
+mon mass.
+• The GUT-breaking Higgs decomposes into three SM-irreducible representations (+
+Goldstone bosons) at most. They can all have diﬀerent masses.
+• The other scalars in the theory decompose in SM-irreducible representations that
+have a common mass (+ light scalars).
+• The light particles in the theory can decompose in arbitrarily many SM-irreducible
+representations.
+As can be seen, the main limitation comes from the number of heavy degrees of freedom
+in the theory. The above constraints are designed such that the resulting formula for ζαi
+is applicable to the simplest GUT, the Georgi-Glashow model, yet keeping the calculation
+as simple as possible. The computational framework for our calculation is set up in such
+a way that it can be generalized to more heavy degrees of freedom, in order to apply it
+to SUSY GUTs in the future.
+13
+
+=== PDF PAGE 14 ===
+Given the large number of Feynman diagrams, an automated computation is indispens-
+able. The diagrams were generated with QGRAF [50] and further processed with q2e and
+exp [51,52]. In the next step we used a FORM [53] implementation of the two-loop topolo-
+gies of ref. [54] by the authors of ref. [13] and also the FORM packages MINCER [55] and
+MATAD [56].
+Let us emphasize that no assumptions about the mass hierarchies of the
+heavy particles have been made. Therefore, the result is valid for arbitrary numerical
+values of the mass parameters as long as their mass splitting is not to large which would
+lead to power enhanced contributions and spoil perturbation theory. The reduction of the
+group theory factors, which was the most time consuming part, has been automated and
+implemented in FORM. The relevant group theory and notational conventions are collected
+in appendix A of this paper.
+Although the present calculation is just general enough to be applied to the simplest
+GUT, the number of Feynman diagrams for the two-loop Green’s functions described
+above already is considerable. For the light gauge boson two-point function it amounts
+to 6278, whereas for the ghost-gauge-boson vertex and the light ghost two-point function
+we have 4109 and 374 diagrams, respectively. Sample diagrams8 for all three processes
+are depicted in ﬁg. 1.
+In order to subtract the subdivergencies that occur in these two-loop Green’s functions, the
+mass and gauge parameters as well as the gauge coupling that appear in the corresponding
+one-loop Green’s functions have to be renormalized as described in subsection 2.2. We
+have performed our calculation for arbitrary gauge parameters and veriﬁed that they
+cancel out in the ﬁnal result, which is a powerful and highly non-trivial check of the
+calculation. The result for ζαi is available in general form, i.e. with group theory factors
+and couplings not speciﬁed to a particular Lie group or model. In the next section we
+will assign deﬁnite values to these quantities in order to show the application of the result
+exemplarily. Note also that we always need three diﬀerent sets of group theory factors for
+i = 1, 2, 3, respectively.
+3
+Numerical study for the Georgi-Glashow model
+In the following we perform an academic study of our results applied to the simplest
+possible GUT, the Georgi-Glashow model [34]. Although this theory is ruled out experi-
+mentally [2], we use it as a toy model to demonstrate some simple numerics. It is based
+on the gauge group SU(5) and the SM fermions sit in the representations
+5
+→
+(3, 1, 1
+3) ⊕(1, 2, −1
+2) ,
+(29)
+10 = [5 × 5]a
+→
+(3, 1, −2
+3) ⊕(3, 2, 1
+6)a ⊕(1, 1, 1) .
+(30)
+8The ﬁgure has been created with help of the LATEX package AXODRAW [57]
+14
+
+=== PDF PAGE 15 ===
+Figure 1: Sample two-loop diagrams that appear in the calculation of ζαi.
+The ﬁrst
+line shows the process Aai
+µ →Abiν contributing to Π0,h
+A,i(0). The second and third line
+depict cai →cbi and cai →cbi + Aci
+µ contributing to Π0,h
+c,i (0) and Γ0,h
+Ac†c,i(0, 0), respectively.
+Colored (bold) lines represent ﬁelds with mass of O(MG) and black (thin) lines massless
+ﬁelds. Furthermore, curly lines denote gauge bosons, dotted lines ghosts, dashed lines
+scalar ﬁelds and solid lines fermions.
+Goldstone bosons are marked green (light gray,
+short-dashed), physical Higgs bosons red (gray, long-dashed) and other heavy scalars blue
+(dark, short-dashed). Note also that two identical lines in one diagram need not have the
+same mass because of the non-degenerate mass spectrum.
+where we have displayed their decomposition into SM multiplets.9 The gauge bosons as
+well as the SU(5)-breaking Higgs bosons Σ live in the real 24 representation:
+24 →(8, 1, 0) ⊕(1, 3, 0) ⊕(1, 1, 0) ⊕(3, 2, −5
+6) ⊕(3, 2, 5
+6) .
+(31)
+In the case of the gauge bosons the ﬁrst three parts of the decomposition constitute the
+light SM gauge bosons and the last two parts the heavy gauge bosons with a common mass
+MX. For the GUT-breaking Higgs bosons the ﬁrst three parts represent the three physical
+Higgs bosons with masses MΣ, 2 MΣ and M24, respectively. The last two multiplets give
+the Goldstone bosons with the unphysical mass √ξ2 MX (cf. eq. (12)). Note that we write
+the ﬁeld Σ as a 24-dimensional vector multiplet in order to be consistent with our notation
+9The ﬁrst and second number label the SU(3) and SU(2) representations, respectively and the third
+number is the hypercharge of the multiplet. The index a indicates that the antisymmetric part of the
+representation has to be taken.
+15
+
+=== PDF PAGE 16 ===
+in section 2, and not as a hermitian 5 × 5 matrix as usually done. Therefore, the vev of
+Σ simply is ⟨Σ⟩= v, where v is a 24-dimensional vector with a single non-zero entry in
+the 24th component. Additionally we have a complex scalar in the 5 representation that
+decomposes according to eq. (29) and contains the SM Higgs doublet as well as a heavy
+colored triplet with the mass MHc.
+For the convenience of the reader it might be helpful to explicitly give the parametrization
+of the quartic scalar coupling λijkl from eq. (13) for the Georgi-Glashow model. It splits
+up into three parts. The ﬁrst part is a quartic coupling of the 24 Higgs, the second one
+a quartic coupling of the 5 Higgs and the last one is a mixed 5 −24 coupling [40,58]:
+λ24
+αβγδ
+=
+A sTr(T αT βT γT δ) + 1
+3 B (δαβδγδ + δαγδβδ + δαδδβγ) ,
+λ5
+ijkl
+=
+1
+3 b (δijδkl + δikδjl + δilδjk) ,
+i, j, k, l = 1, ..., 10 ,
+λ5−24
+αβij
+=
+c (τ ατ β + τ βτ α)ij ,
+α, β, γ, δ = 1, ..., 24 .
+(32)
+We have used the symmetrized trace
+sTr(T α1...T αn) ≡1
+n!
+X
+π
+Tr(T απ(1)...T απ(n))
+(33)
+where the sum is over all the permutations of the indices. Furthermore, it is noticeable
+that the indices i, j, k, l run from 1 to 10 although they belong to the fundamental 5
+representation. This is because the corresponding scalar is complex and we have written
+it as twice as many real scalars that are transformed by the 10 × 10 generator matrices τ:
+τ α =
+
+i Im(T α)
+i Re(T α)
+−i Re(T α)
+i Im(T α)
+
+,
+(34)
+where in this section T α is the 5 × 5 generator matrix in the fundamental representation.
+Inserting eq. (32) into eqs. (21) and (22), we obtain the scalar mass matrices. Addition-
+ally we need to impose the tree-level ﬁne-tuning condition µ2
+5 =
+3
+20cv2, where µ2
+5 is the
+quardatic term of the 5 Higgs in eq. (13), in order to obtain massless Higgs doublets. Note
+that in principle one would need to calculate the one-loop ﬁne-tuning condition in order
+to obtain massless Higgs doublets in a two-loop calculation. However, the light Higgs
+doublets show up at the ﬁrst time in the two-loop Green’s functions in the matching
+calculation so that it is suﬃcient to use the tree-level ﬁne-tuning condition. This gives us
+the relations between the physical scalar masses and the parameters in eq. (32):
+M2
+Σ =
+1
+144 A v2 ,
+M2
+24 = 1
+3( 7
+120A + B) v2 ,
+M2
+Hc =
+1
+12 c v2 .
+(35)
+The vev is connected to the physical gauge boson mass by
+M2
+X =
+5
+12 g2 v2 .
+(36)
+16
+
+=== PDF PAGE 17 ===
+The Yukawa interactions of the Georgi-Glashow model [34,40] are obtained by inserting
+the Yukawa matrix
+Y n
+sr =
+
+−Y U
+IJǫijklm T α
+ijT β
+klS∗
+mn
+2i Y D
+IJ Im(T α
+kl)Sln
+2i Y D
+IJ Im(T α
+kl)Sln
+0
+
+sr
+(37)
+into the general Yukawa Lagrangian eq. (23). Here s = (I, ˜s) and r = (J, ˜r) are multi-
+indices, where I, J stand for the generation indices of the SU(5) Yukawa matrices Y U
+and Y D. The indices ˜s, ˜r = 1, ..., 29 run over {α, j} and {β, k}, respectively. Note that
+we have written the fermions of the 10 representation as a 24-dimensional vector instead
+of an antisymmetric 5 × 5 matrix as usually. The Clebsch-Gordan coeﬃcients for this
+transformation are given by the following equations:
+10α =
+√
+2 T α
+ij 10ij ,
+10ij = −
+√
+2 i Im(T α
+ij) 10α ,
+(38)
+where 10ij is the usual antisymmetric 5 × 5 matrix with the normalization as in ref. [34].
+Furthermore, S =
+1
+√
+2(1l, i1l) is a 5 × 10 matrix and ǫijklm is the totally antisymmetric
+tensor with ǫ12345 = 1. As can be seen from eq. (37), the chiral fermion multiplet Ψ
+from subsection 2.1 is written as a 3 (24 + 5) = 87-dimensional vector for the case of
+Georgi-Glashow SU(5) model.
+Using the deﬁnitions from this section, we computed the numerical values of all the group
+theory factors that appear in our general result. Furthermore, we set VCKM = 1l and
+kept only the third generation Yukawa couplings yt and yb. We obtained three two-loop
+formulas for ζαi (i = 1, 2, 3) that depend on the parameters
+α(µGUT), yt(µGUT), yb(µGUT), MX, MHc, MΣ, M24, µGUT .
+(39)
+The Mathematica package that contains the expressions can be downloaded from
+http://www-ttp.particle.uni-karlsruhe.de/Progdata/ttp10/ttp10-46/
+In order to examine the numerical impact of the two-loop matching corrections in this
+model, we have implemented a RGE analysis in Mathematica. Since in this model the
+gauge couplings do not unify, we just focus on examining the reduction of the decoupling
+scale dependence, as an illustration of our results. We start with the precise values of
+the three gauge couplings at the electroweak scale. They are obtained from the eﬀective
+weak mixing angle in the MS scheme [59], the QED coupling constant at zero momentum
+transfer and its hadronic [60] contribution in order to obtain its counterpart at the Z-boson
+scale, and the strong coupling constant [61].10 These quantities need to be transformed to
+a six-ﬂavor theory, which is described in detail in ref. [14]. Our starting values are then:
+α(6),MS
+em
+(MZ)
+=
+1/(128.129 ± 0.021) ,
+sin2 Θ(6),MS(MZ)
+=
+0.23138 ± 0.00014 ,
+α(6)
+s (MZ)
+=
+0.1173 ± 0.0020 .
+(40)
+10We adopt the central value from ref. [61], however, use as our default choice for the uncertainty 0.0020
+instead of 0.0007.
+17
+
+=== PDF PAGE 18 ===
+These quantities are related to the three gauge couplings via
+α1
+=
+5
+3
+α(6),MS
+em
+cos2 Θ(6),MS ,
+α2
+=
+α(6),MS
+em
+sin2 Θ(6),MS ,
+α3
+=
+α(6)
+s .
+(41)
+which holds for any renormalization scale µ. We also need the W and Z boson pole
+masses MW and MZ, the top quark and tau lepton pole masses Mt and Mτ and the
+running bottom quark mass mMS
+b . For the convenience of the reader we also specify their
+numerical values [59,62,63]:
+MW
+=
+80.398 GeV ,
+MZ
+=
+91.1876 GeV ,
+Mt
+=
+173.3 GeV ,
+Mτ
+=
+1.77684 GeV ,
+mMS
+b (mMS
+b )
+=
+4.163 GeV .
+(42)
+The corresponding uncertainties are not important for our analysis. These parameters are
+converted to six-ﬂavor theory using RunDec [64] and then used to compute the starting
+values for yt, yb and yτ at the electroweak scale. The RGE running in the SM was imple-
+mented at two loops [44,45,65,66] for the electroweak sector and at three loops [67,68] for
+QCD. We take into account the tau, bottom and top Yukawa couplings and thus solve the
+coupled system of six diﬀerential equations. Since the quartic SM Higgs coupling b enters
+the equations of the Yukawa couplings starting from two-loop order only, we neglect its
+contribution. After taking into account the two-loop decoupling relations, we compute
+the running from µGUT to the Planck scale using three-loop RGEs for the gauge coupling
+and one-loop RGEs for the Yukawa couplings. The RGEs are obtained by inserting the
+general expressions for the Yukawa and scalar couplings (eqs. (37) and (32)) as well as
+the numerical values for the group theory factors into the general formulas of refs. [21,45]
+(see appendix C for the details).
+In ﬁgure 2 the dependence on the decoupling scale of α(1018GeV) is shown. Since only
+for QCD the full three-loop β function could be implemented and there is no uniﬁcation
+of gauge couplings anyway, we took α(µGUT) = ζ−1
+α3 (µGUT) α3(µGUT) as a starting value
+for the gauge coupling above the GUT scale. For illustration we use the following set of
+mass parameters:
+MX
+=
+1015 GeV ,
+MHc
+=
+4 · 1013 GeV ,
+MΣ
+=
+1014 GeV ,
+M24
+=
+6 · 1013 GeV
+(43)
+18
+
+=== PDF PAGE 19 ===
+13.0
+13.5
+14.0
+14.5
+15.0
+15.5
+16.0
+0.0172
+0.0173
+0.0174
+0.0175
+0.0176
+0.0177
+0.0178
+log10HΜGUTGeVL
+ΑH1018 GeVL
+Figure 2: Dependence of α(1018 GeV) on the decoupling scale µGUT. The red (dotted),
+green (dashed) and blue (solid) lines correspond to the one-, two- and three-loop analysis,
+respectively. For the three-loop curve also the experimental error band with δαs = 0.0020
+has been indicated.
+which are chosen to obey the restriction MX ≳Mi for i = Hc, Σ, 24 . Otherwise the scalar
+self-couplings easily become non-perturbative and blow up the gauge coupling above the
+GUT scale. The scale dependence is shown for n-loop running and (n−1)-loop decoupling
+with n = 1, 2, 3. We observe a dramatic improvement when going from n = 2 to n = 3.
+In particular the three-loop corrections can be larger than the experimental error band
+depending on µGUT. Note also that for n = 2 choosing µGUT naively as a mean value of
+the GUT masses which would be of O(1014 GeV) in our case is not a good choice. The
+described qualitative behavior does not depend much on our choice of the GUT masses.
+Though the numerical eﬀect of the two-loop matching is already signiﬁcant in the Georgi-
+Glashow model, we emphasize that in certain models that contain large representations, as
+e.g. the Missing Doublet Model [15,16], we expect these corrections to be even larger [14].
+Our goal for the future, of course, is to generalize the formula for ζαi to make it applicable
+to these models.
+To provide a check of the result for the Georgi-Glashow model, we have veriﬁed ana-
+lytically that the matching coeﬃcients ζαi(µGUT) exhibit the correct µGUT dependence.
+This can be derived from the knowledge of the two-loop β functions of the SM and the
+SU(5) model by computing the derivative w.r.t. tGUT ≡ln(µGUT) of eq. (26). Solving
+the resulting diﬀerential equation order by order, we arrive at a general formula11 for the
+11For simplicity we neglect the Yukawa corrections in this formula. However, the generalization is
+straightforward. Of course, in our analytical check we took care of them too.
+19
+
+=== PDF PAGE 20 ===
+µGUT -dependent terms in ζαi(µGUT):
+ζαi(µGUT) = 1 + α(µGUT)
+π
+h
+1
+2(βi
+0 −β0) tGUT −C0(Mh)
+i
+(44)
++
+α(µGUT)
+π
+2 "
+1
+4(βi
+0 −β0)2 t2
+GUT +
+h
+1
+8(βi
+1 −β1) −C0(Mh) (βi
+0 −β0)
+i
+tGUT + C1(Mh)
+#
+.
+C0 and C1 are µGUT-independent terms that depend only on the heavy GUT masses. The
+β function coeﬃcients are deﬁned by:
+1
+2
+d
+dt
+α
+4π
+=
+N−1
+X
+k=0
+ α
+4π
+k+2
+βk ,
+α = g2
+4π
+(45)
+and similarly for αi. We ﬁnd agreement in the µGUT dependence of our explicit calculation
+with the form of eq. (44).
+4
+Conclusions and Outlook
+As experimental accuracy for αs, αem and sin Θ is increasing, also theoretical uniﬁcation
+analyses must improve their precision in order to ﬁnd better exclusion limits for GUTs.
+Therefore, we have performed a ﬁrst step towards the calculation of the two-loop matching
+corrections for the gauge couplings at the GUT scale in a framework that aims at making
+as few assumptions on the underlying GUT as possible. The assumptions that were made
+can be found in subsection 2.3. The result is general enough to be applied to the simplest
+GUT, the Georgi-Glashow SU(5). The numerical impact in this model was found to be
+larger than the current experimental uncertainty on αs depending on the choice of the
+decoupling scale µGUT. We expect even larger eﬀects in GUT models that contain large
+representations, as the so-called Missing Doublet Model. Moreover, the two-loop matching
+coeﬃcients provide a signiﬁcant stabilization of our predictions w.r.t the variation of the
+decoupling scale.
+Furthermore, we have described in detail the proper treatment of the gauge ﬁxing and
+the renormalization procedure for this calculation. In this context also the issue of Higgs
+tadpoles in theories with spontaneous symmetry breaking was discussed in a general man-
+ner. The appendix contains an in-depth introduction of the group theoretical framework
+that we used. There we also give many useful reduction identities that are essential for
+performing multi-loop calculations in GUTs and can also be applied to SUSY GUTs.
+We consider the result computed in this paper only as an intermediate step towards a
+more general calculation of ζαi. Particularly, we are interested in performing a consistent
+three-loop RGE analysis for SUSY GUTs, where two-loop matching at the GUT scale
+is needed. In order to apply our result to the simplest SUSY GUT, the minimal SUSY
+SU(5), several generalizations are needed:
+20
+
+=== PDF PAGE 21 ===
+• Add a trilinear term to the scalar potential eq. (13).
+• Add two massive Dirac and three massive Majorana fermion SM-irreducible repre-
+sentations as well as all possible kinds of Yukawa interactions for them.
+• Increase the number of SM-irreducible representations within RH by one in order
+to cover the case of the non-renormalizable version of minimal SUSY SU(5)
+• Allow for unitary mixing matrices in the interactions of heavy Dirac fermions with
+gauge bosons.
+• Convert the result to the DR renormalization scheme.
+Though there is quite some work to be done, to achieve this, we have already built a solid
+basis to start with and have overcome many of the main diﬃculties that were expected
+to occur.
+Acknowledgments
+The author is greatly indebted to Luminita Mihaila and Matthias Steinhauser for count-
+less fruitful discussions and many useful comments to the manuscript. Thanks also to
+Jennifer Girrbach for carefully reading the manuscript and providing useful remarks.
+This work was supported by the “Studienstiftung des deutschen Volkes”, the DFG
+through SFB/TR 9 “Computational Particle Physics” and the Graduiertenkolleg “Hoch-
+energiephysik und Teilchenastrophysik”.
+Appendix
+A
+Group theoretical framework
+When performing multi-loop calculations for GUTs, one necessarily has to deal with the
+reduction of the color structure12 [21,23,44,45,69,70]. The aim is to reduce all the color
+factors of the diagrams to a set of basic invariants. In this way nontrivial cancellations
+among diﬀerent diagrams are possible without inserting the actual numerical values for
+12For convenience we will use the terms “color structure”, “color factor” etc. in this appendix following
+QCD terminology. However, obviously our formalism is not restricted to SU(3), but is meant to be applied
+to GUT groups.
+21
+
+=== PDF PAGE 22 ===
+those invariants. In this appendix we develop a notational framework that is appropriate
+for this task and also give some useful reduction identities that will hopefully prove helpful
+also for future calculations. For similar reduction algorithms and identities applied to
+unbroken gauge theories see e.g. refs. [71, 72] and references therein. Here we focus on
+spontaneously broken gauge theories.
+We start with a simple GUT group G that is broken to a (in general not simple) gauge
+group Q
+k Gk. In the following the Gk are called group factors. The generators of G in a
+general reducible representation R are denoted by T α in this appendix13. They fulﬁll the
+commutation relation
+[T α, T β] = if αβγ T γ ,
+(46)
+where f αβγ are the structure constants of G. In order to distinguish between broken and
+unbroken generators, we use the notation of subsection 2.1:
+{α} =
+X
+i
+{Ai} +
+X
+i
+{ai} = {A} + {a}
+(47)
+where Ai label the broken generators of G belonging to the Q
+k Gk-irreducible subspace
+labeled by i. If there is only one Q
+k Gk-irreducible subspace in the adjoint representation
+of G, we can omit the sub-index i in Ai. In contrast, ai label the unbroken generators
+belonging to the subgroup Gi. As the Gi are regular subgroups of G, also the following
+cummutation relations hold:
+[T ai, T bj] = if aibjck T ck
+(48)
+where f aibjck = 0 unless i = j = k. Furthermore, because the subgroup Gi is closed,
+we have f aibjAk = 0 for all i, j, k. Otherwise the commutator [T ai, T bj] would contain
+terms proportional to the broken generators T Ak.
+Note that if not explicitly stated,
+the sub-indices i, j... of the indices ai, bj..., Ai, Bj... are not summed. A repeated index
+a, b... or A, B... without sub-index means that the sub-index has been summed over. The
+representation R that T α is deﬁned on generally is reducible under G. It decomposes into
+G-irreducible representations where the gauge bosons, fermions and scalars of the theory
+live in:
+R →
+M
+x
+Rx = RA ⊕RH ⊕RSI ⊕RSII ⊕... ⊕RFI ⊕RFII ⊕... .
+(49)
+RA stands for the adjoint representation and RH for the representation of the GUT-
+breaking scalar. The other symbols represent the irreducible representations for the scalars
+and fermions, respectively, numbered by roman numerals for convenience.
+We deﬁne
+projectors on these subspaces denoted by Πx with x = A, H, SI, SII..., FI, FII.... Clearly,
+[Πx, T α] = 0 holds for all x and α. Each of those representations decomposes further
+under Q
+k Gk:
+Rx →
+M
+n
+Rx
+n = Rx
+1 ⊕Rx
+2 ⊕Rx
+3 ⊕...
+(50)
+13In the main text we employed the symbol T α only for the fermion representation. In this appendix,
+however, we will use the symbol for a generic generator of the gauge group.
+22
+
+=== PDF PAGE 23 ===
+with projectors P x
+n and px
+n. We use a capital P to denote that the respective Q
+k Gk-
+irreducible representation contains ﬁelds with a mass of O(MG) and a lowercase p for
+projectors on a subspace with massless ﬁelds. Because the Lagrangian is still invariant
+under Q
+k Gk after symmetry breaking, each of those Q
+k Gk-irreducible subspaces can
+be assigned to a deﬁnite mass of the respective ﬁeld. The indices n = 1, 2, 3... label the
+Q
+k Gk-irreducible representation in Rx. The projectors fulﬁll [P x
+n, T ai] = 0 = [px
+n, T ai] for
+all x, a, n and i. Furthermore, we have
+X
+n̺
+x
+n ≡
+X
+n
+px
+n +
+X
+n
+P x
+n ≡px + P x = Πx
+(51)
+where̺
+can be P or p depending on n. Armed with these deﬁnitions, we can deﬁne
+some basic Dynkin indices I2(...) and Casimir invariants C2(...) which have real numerical
+values for a given group.
+Tr(ΠxT αT β)
+=
+I2(Πx) δαβ ,
+Tr(̺ x
+nT aiT bi)
+=
+I2(̺ x
+n)i δaibi ,
+Tr(̺ x
+nT Ai̺
+x
+mT Bi)
+=
+I2(̺ x
+n,̺
+x
+m)i δAiBi ,
+ΠxT αT α
+=
+C2(Πx) Πx ,̺
+x
+nT aiT ai
+=
+C2(̺ x
+n)i̺
+x
+n ,̺
+x
+nT Ai̺
+x
+mT Ai
+=
+C2(̺ x
+n,̺
+x
+m)i̺
+x
+n .
+(52)
+Again̺
+can stand for either P or p. Furthermore, we can deﬁne the dimensions of the
+various irreducible representations by
+∆x
+≡
+Tr(Πx) ,
+Dx
+n
+≡
+Tr(P x
+n ) ,
+dx
+n
+≡
+Tr(px
+n) ,
+(53)
+and speciﬁcally for the adjoint representation:
+∆A
+≡
+δαα ,
+DA
+n
+≡
+δAnAn ,
+dA
+n
+≡
+δanan .
+(54)
+which gives us the relations
+I2(Πx) ∆A
+=
+C2(Πx) ∆x ,
+I2(P x
+n )i dA
+i
+=
+C2(P x
+n)i Dx
+n ,
+I2(px
+n)i dA
+i
+=
+C2(px
+n)i dx
+n ,
+I2(P x
+n,̺
+x
+m)i DA
+i
+=
+C2(P x
+n,̺
+x
+m)i Dx
+n ,
+I2(px
+n,̺
+x
+m)i DA
+i
+=
+C2(px
+n,̺
+x
+m)i dx
+n .
+(55)
+23
+
+=== PDF PAGE 24 ===
+Let us emphasize again that no summation over the sub-indices i that label the Q
+k Gk-
+irreducible representation is implied here. However, we introduce the convention that
+omitting this sub-index implies summation:
+C2(...)
+≡
+X
+i
+C2(...)i ,
+C2(̺ x
+n,̺
+x)i
+≡
+X
+m
+C2(̺ x
+n,̺
+x
+m)i ,
+I2(...̺ x...)i
+≡
+X
+m
+I2(...̺ x
+m...)i .
+(56)
+Note also that the invariants I2(Πx) and C2(Πx) have only been deﬁned for convenience.
+Actually they can be decomposed into other “more elementary” invariants:
+I2(Πx)
+=
+I2(px)i + I2(P x)i = I2(px, px)i + I2(P x, P x)i + 2 I2(P x, px)i ,
+(57)
+C2(Πx)
+=
+C2(px
+i ) + C2(px
+i , px) + C2(px
+i , P x) = C2(P x
+i ) + C2(P x
+i , px) + C2(P x
+i , P x) ,
+where the summation convention introduced before has been used. The right hand side
+of these equations does not depend on i anymore due to the summation of the projectors
+over the full representation space Rx. Since in the calculation of matching coeﬃcients
+one has to distinguish between heavy and light particles, it is more convenient to use the
+“more elementary” invariants on the right hand side.
+The deﬁnitions that have been introduced are general enough to be applied to all color
+factors that appear in our calculations. However, some of the ﬁelds live in representations
+that deserve special attention.
+First let us focus on the adjoint representation.
+The
+generators here are deﬁned by
+(T α
+A)βγ ≡(ΠA T α)βγ = −if αβγ .
+(58)
+Clearly, the operators P A
+i
+and pA
+i project on the subspaces with indices Ai and ai, re-
+spectively. Because now x = A in eq. (55) and f aibjAk = 0, things simplify for the adjoint
+representation. In fact it is suﬃcient to deﬁne four invariants:
+f αγδf βγδ
+=
+I2(ΠA) δαβ ,
+f aicidif bicidi
+=
+I2(pA
+i )i δaibi ,
+f aiCjDjf biCjDj
+=
+I2(P A
+j )i δaibi ,
+f AjciDjf BjciDj
+=
+I2(P A
+j , pA
+i )j δAjBj
+(59)
+where we followed the notation of eq. (52). We keep the redundant sub-indices i and j
+in lines 2 and 4 of this equation in order to be consistent with the notation of eq. (52).
+Note that f aiBjCk = 0 for j̸ = k because the indices j and k are used here to label
+the Q
+k Gk-irreducible representation of the generator T ai
+A . There is another quadratic
+24
+
+=== PDF PAGE 25 ===
+Casimir invariant for the adjoint representation that can be expressed through these and
+one that vanishes:
+f AjCDf BjCD
+=
+h
+I2(ΠA) −2 I2(P A
+j , pA)ji
+δAjBj ,
+f AiCDf bjCD
+=
+0 .
+(60)
+Furthermore, there are relations between these invariants:
+I2(ΠA)
+=
+I2(P A)i + I2(pA
+i )i ,
+I2(P A
+j , pA
+i )j DA
+j
+=
+I2(P A
+j )i dA
+i .
+(61)
+At the two-loop level these relations are not suﬃcient to reduce all adjoint color factors
+because products of up to six structure constants with various contractions can appear in
+the diagrams. Using the Jacobi identity for f αβγ, we can derive relations for products of
+three contracted structure constants that have three open indices:
+f αδǫf βǫφf γφδ
+=
+1
+2I2(ΠA) f αβγ ,
+f aidieif bieifif cifidi
+=
+1
+2I2(pA
+i )i f aibici ,
+f aiDEf biEFf ciF D
+=
+1
+2I2(P A)i f aibici ,
+f aiDEf biEFf CF D
+=
+0 ,
+f aiDEf BjEFf CjF D
+=
+1
+2
+h
+I2(ΠA) −2 I2(P A
+j , pA)ji
+f aiBjCj ,
+f aidieif BjeiFf CjF di
+=
+1
+2I2(pA
+i )i f aiBjCj ,
+f aiDEf BkEfjf CkfjD
+=
+1
+2
+h
+2 I2(P A
+k , pA
+j )k −δij I2(pA
+i )ii
+f aiBkCk ,
+f AjDef BjeFf CjF D
+=
+1
+2 I2(P A
+j , pA)jf AjBjCj ,
+f AjDEf BjEFf CjF D
+=
+1
+2
+h
+I2(ΠA) −3 I2(P A
+j , pA)ji
+f AjBjCj .
+(62)
+These relations are suﬃcient to do all the reduction for two-point and three-point Green’s
+functions for the adjoint representation at the two-loop level.
+Next, let’s turn our attention to the representation RH where the GUT-breaking scalar
+ﬁeld H and the Goldstone ﬁeld G live in.
+Some peculiarities occur here due to the
+appearance of the vev v. RH decomposes under Q
+k Gk into the part of physical Higgs
+ﬁelds and a part of Goldstone bosons:
+RH →R
+˜
+H ⊕RG = R
+˜
+H
+1 ⊕R
+˜
+H
+2 ⊕... ⊕RG
+1 ⊕RG
+2 ⊕...
+(63)
+As already explained in subsection 2.1, the explicit form of the projector on the subspace
+RG is given by [40]:
+P G
+i = g2 ˜T Aiv
+ 1
+M2
+X
+
+AiBi
+v ˜T Bi ,
+P G =
+X
+i
+P G
+i
+(64)
+25
+
+=== PDF PAGE 26 ===
+where the (diagonal) gauge boson mass matrix
+(M2
+X)AiBi ≡g2v ˜T Ai ˜T Biv ≡M2
+XiδAiBi
+(65)
+has been used. The antisymmetric generators in the real representation RH have been
+denoted by ˜T α. Accordingly, the projectors on the subspace of physical Higgs bosons can
+be written as
+X
+i
+P
+˜
+H
+i
+= P
+˜
+H ≡ΠH −P G = ΠH −g2 ˜T Av
+ 1
+M2
+X
+
+AB
+v ˜T B .
+(66)
+where P ˜
+H
+i
+projects on R ˜
+H
+i .
+With these deﬁnitions and using eq. (48) as well as the
+antisymmetry of ˜T α, we already can derive a useful reduction identity for an invariant
+tensor that appears frequently:
+v ˜T Ai ˜T Bj ˜T Ckv =
+i
+2g2(M2
+Xi −M2
+Xj + M2
+Xk)f AiBjCk .
+(67)
+One important property follows from ˜T aiv = 0:
+˜T ai ˜T Ajv = [ ˜T ai, ˜T Aj] v = −(T ai
+A )AjBj ˜T Bjv .
+(68)
+i.e. ˜T ai acts like the adjoint generator on the subspace of Goldstone bosons. This leads
+to various relations between invariants in RH and in RA:
+DG
+j
+=
+DA
+j ,
+I2(P G
+j )i
+=
+I2(P A
+j )i ,
+C2(P G
+j )i
+=
+I2(P A
+j , pA
+i )j ,
+I2(P
+˜
+H)i
+=
+I2(ΠH) −I2(P A)i ,
+I2(P
+˜
+H, P
+˜
+H)i
+=
+I2(ΠH) −2 C2(ΠH) + 3
+2 I2(P A
+i , pA)i + 1
+4 I2(ΠA) .
+(69)
+There are also two nontrivial important reduction identities that involve both types of
+invariants:
+f aiBjCj Tr(̺ x
+nT Bj̺
+x
+mT CjT bi) =
+i
+2δaibih
+I2(P A
+j )iI2(̺ x
+n,̺
+x
+m)j + C2(̺ x
+n,̺
+x
+m)jI2(̺ x
+n)i −C2(̺ x
+m,̺
+x
+n)jI2(̺ x
+m)ii
+,
+(70)
+X
+jk
+f aiBjCjf biDkEk v ˜T Bj ˜T DkP
+˜
+H
+n ˜T Cj ˜T Ekv =
+δaibi X
+j
+M2
+Xj
+g2
+h
+I2(P A
+j )i I2(P
+˜
+H
+n , P G)j −1
+2I2(P
+˜
+H
+n )i C2(P
+˜
+H
+n , P G)ji
+(71)
+26
+
+=== PDF PAGE 27 ===
+where x ∈{ ˜H, SI, SII, ..., FI, FII...}. Additionally, w.l.o.g. we now deﬁne P ˜
+H
+1
+to be the
+operator that projects on the subspace where v̸ = 0 (i.e. (P ˜
+H
+1 )ij = vivj
+v2 is a matrix with a
+single non-zero entry in the component (k, k) where vk̸ = 0). Then because of ˜T aiv = 0
+and v ˜T AiP ˜
+H
+n = v ˜T AiP GP ˜
+H
+n = 0, any invariant that contains P ˜
+H
+1
+alone or together with
+some other P ˜
+H
+i
+vanishes:
+C2(P
+˜
+H
+1 ) = I2(P
+˜
+H
+1 ) = C2(P
+˜
+H
+1 , P
+˜
+H
+i ) = I2(P
+˜
+H
+1 , P
+˜
+H
+i ) = 0 .
+(72)
+Since the Higgs mass matrix M2
+H (cf. eq. (21)) commutes with all ˜T ai, it is diagonal and
+proportional to the unit matrix on each Q
+k Gk-irreducible subspace. Therefore, it can be
+written as:
+M2
+H =
+X
+i
+P
+˜
+H
+i M2
+Hi ,
+(73)
+where M2
+Hi are masses of the physical Higgs bosons and particularly P G M2
+H = 0 due to
+the Goldstone theorem.
+Next we will give some useful reduction identities that involve the quartic scalar coupling
+λH
+ijkl ≡λi′j′k′l′ P H
+i′i P H
+j′j P H
+k′k P H
+l′l, which is a totally symmetric invariant tensor under G.
+These identities can be derived by using eq. (14) and Schur’s Lemma as well as the
+deﬁnition of the Higgs mass matrix in eq. (21). Some of these identities can be obtained
+by multiplying eq. (14) by ΦiΦjΦkΦl and performing derivatives w.r.t Φm. They are used
+to eliminate the coupling λH
+ijkl from the result by expressing it through the physical Higgs
+masses.
+λH
+ijkl vkvm ˜T A
+ml
+=
+(M2
+H ˜T A)ij −( ˜T AM2
+H)ij ,
+⇒λH
+ijkl vjvm ˜T A
+mkvn ˜T B
+nl
+=
+−(v ˜T B ˜T AM2
+H)i ,
+⇒λH
+ijkl vivm ˜T A
+mjvn ˜T B
+nkvr ˜T C
+rl
+=
+0 ,
+λH
+ijklvm ˜T A
+mivn ˜T B
+njvr ˜T C
+rkvs ˜T D
+sl
+=
+v ˜T D ˜T CM2
+H ˜T A ˜T Bv ,
++ v ˜T D ˜T BM2
+H ˜T A ˜T Cv ,
++ v ˜T C ˜T BM2
+H ˜T A ˜T Dv ,
+λH
+ijklλH
+mjklvivm
+=
+v2
+∆HλH
+ijklλH
+ijkl ,
+λH
+klmn(v ˜T Ai)k(v ˜T Bj)l(P
+˜
+H
+s )mn
+=
+−λH
+klmn(v ˜T Ai ˜T Bj)kvl(P
+˜
+H
+s )mn ,
++2 Tr(P
+˜
+H
+s M2
+H ˜T Bj ˜T Ai) −2 Tr(M2
+H ˜T BjP
+˜
+H
+s ˜T Ai) ,
+λH
+ijklvjvkvl
+=
+3vi
+v2 vM2
+Hv ,
+λH
+ijkk
+=
+δij
+h2 Tr(M2
+H)
+v2
++ vM2
+Hv
+v4
+DHi
+,
+λH
+ijklvivj(P H
+s )kl
+=
+2 Tr(M2
+HsP H
+s ) + vM2
+Hv
+v2
+DH
+s .
+(74)
+27
+
+=== PDF PAGE 28 ===
+In the same way we obtain some important relations for the coupling λ that is not re-
+stricted to the space RH:
+λijk′l′(v ˜T A)ivj(̺ S)k′k (̺ S)l′l
+=
+(M2
+S ˜T A)kl −( ˜T AM2
+S)kl ,
+λijkl(v ˜T A)i(v ˜T A)j ( ˜T an ˜T an̺
+S
+m)kl
+=
+2 Tr(M2
+S ˜T A ˜T A ˜T an ˜T an̺
+S
+m) ,
+−2 Tr( ˜T AM2
+S ˜T A ˜T an ˜T an̺
+S
+m)
+−C2(P H) λijklvivj( ˜T an ˜T an̺
+S
+m)kl ,
+λi1i2i3i4λj1j2j3j4
+vi1vj1
+(̺ x
+n1)i2j2(̺ y
+n2T ak)i3j3(̺ z
+n3T ak)i4j4 =
+1
+2λi1i2i3i4λj1j2j3j4vi1vj1(̺ x
+n1)i2j2(̺ y
+n2)i3j3(̺ z
+n3T akT ak)i4j4
+−1
+2λi1i2i3i4λj1j2j3j4vi1vj1(̺ y
+n2)i2j2(̺ z
+n3)i3j3(̺ x
+n1T akT ak)i4j4
+−1
+2λi1i2i3i4λj1j2j3j4vi1vj1(̺ x
+n1)i2j2(̺ z
+n3)i3j3(̺ y
+n2T akT ak)i4j4
+(75)
+with x, y, z ∈{H, SI, SII, ...}. In the same way we can also derive reduction identities for
+the Yukawa coupling Y n using eq. (24)
+Tr(̺ x
+j Y n̺
+y
+kY m⋆)(̺ z
+l T aiT ai)nm
+=
+Tr(̺ x
+j Y n⋆̺
+y
+kY mT aiT ai)(̺ z
+l )nm
+(76)
++Tr(̺ y
+kY n⋆̺
+x
+j Y mT aiT ai)(̺ z
+l )nm
++Tr(̺ x
+j Y n⋆̺
+y
+kT ai⋆Y mT ai)(̺ z
+l )nm
++Tr(̺ y
+kY n⋆̺
+x
+j T ai⋆Y mT ai)(̺ z
+l )nm ,
+Tr(̺ x
+j T aiY n⋆̺
+y
+kY m)(̺ z
+l T ai)nm
+=
+Tr(̺ x
+j Y n⋆̺
+y
+kY mT aiT ai)(̺ z
+l )nm
++Tr(̺ y
+kY n̺
+x
+j T aiY m⋆T ai⋆)(̺ z
+l )nm ,
+Tr(̺ x
+j T aiY n̺
+y
+kY m⋆)(̺ z
+l T ai)nm
+=
+−Tr(̺ x
+j Y n̺
+y
+kY m⋆T aiT ai⋆)(̺ z
+l )nm
+−Tr(̺ y
+kY n⋆̺
+x
+j T aiY mT ai)(̺ z
+l )nm ,
+Tr(̺ x
+j T aiT aiY n⋆̺
+y
+kY m)(v ˜T Al)n(v ˜T Bl)m
+=
+−Tr(̺ x
+j T aiT aiT AlY n⋆̺
+y
+kY mT Bl)vnvm
+−Tr(̺ x
+j T aiT aiY nT Bl̺
+y
+kT AlY m⋆)vnvm
+−Tr(̺ x
+j T aiT aiT AlY n⋆̺
+y
+kT Bl⋆Y m)vnvm
+−Tr(̺ x
+j T aiT aiT Bl⋆Y n̺
+y
+kT AlY m⋆)vnvm .
+Here x, y ∈{FI, FII, ...} and z ∈{H, SI, SII, ...}. The list of reduction identities may
+not be exhaustive, but it contains the most important relations. In a similar fashion also
+other identities can be derived using the invariance relations eqs. (14) and (24) for the
+invariant tensors.
+In the following we brieﬂy sketch the algorithm that is used for the reduction of all the
+color factors in the diagrams: we have written a FORM program that treats the color factors
+for each individual diagram and reduces them to a basic set of invariants. In a ﬁrst step
+all reduction identities that involve the quartic scalar coupling λijkl are applied to a given
+expression.
+After that any expression will contain traces of strings of generators T ai,
+T Ai, projectors̺
+x
+n and Yukawa matrices Y n. The adjoint indices ai and Ai are either
+28
+
+=== PDF PAGE 29 ===
+contracted with each other or with some structure constants. First all the contracted
+adjoint indices are removed, i.e. traces of the form
+Tr(...T ai...T ai...),
+Tr(...T Ai...T Ai...),
+(77)
+by applying the deﬁnitions of the quadratic Casimir invariants eq. (52). If the generators
+are not next to each other, we commute them until they are and eventually arrive at
+traces that contain no more contracted indices. Next, expressions of the form
+f ciaibi Tr(...T ai...T bi...),
+f αAiBi Tr(...T Ai...T Bi...),
+(78)
+are reduced by using
+f ciaibiT aiT bi = 1
+2f ciaibi [T aiT bi] = i
+2I2(pA
+i )i T ci
+(79)
+and eq. (70). Again generators that are not next to each other are commuted. Expression
+that contain the projector P G
+i are treated separately. We insert the explicit form of P G
+i
+(eq. (64)) and write the traces in the form v...v, where “...” stands for a string of generators
+T ai, T Ai, and projectors̺
+x
+n. Here we additionally make use of the relations T aiv = 0 and
+P ˜
+H
+i v = 0 (for i̸ = 1) in order to eliminate all generators inside the string that have a
+lowercase adjoint index.
+After that all color factors involving the Yukawa matrix Y n
+are reduced to a basic set of invariants using eq. (76). Finally, we are left with various
+contractions of structure constants which are expressed by the respective invariants using
+eqs. (59) and (62). The actual program is slightly more complicated than described above
+and one needs to introduce repetitive control structures because not all the reduction can
+be done by a single run. However, the basic procedure is as described.
+B
+Reparametrization of the scalar potential
+In this appendix give some details on how the parametrization of the up to quadratic
+terms in the scalar potential (eq. (19)) arises.
+We start with eq. (13) and insert the
+decomposition of the scalar ﬁeld Φ:
+Φi
+=
+vi + Hi
+| {z } + Gi
+|{z} + Si
+|{z}
+(80)
+R
+˜
+H
+RG
+|
+{z
+}
+RS
+RH
+where v is the vev with a single non-zero component, H the physical Higgs ﬁeld, G the
+Goldstone ﬁeld and S a ﬁeld, representing all the other scalars, present in the theory.
+For clarity we have also indicated the representations where the individual ﬁelds live in.
+Considering only the up to quadratic terms, we arrive at the following expression:
+V (Φ) = Hi˜ti + 1
+2
+˜
+M2
+ijHiHj + 1
+2
+˜
+M2
+ijGiGj + 1
+2
+˜
+M2
+ijSiSj + O(Φ3)
+(81)
+29
+
+=== PDF PAGE 30 ===
+where we have deﬁned the quantities
+˜ti
+=
+−µ2
+ijvj + 1
+6λijklvjvkvl ,
+˜
+M2
+ij
+=
+−µ2
+ij + 1
+2λijklvkvl .
+(82)
+Here we already have used the fact that, due to gauge invariance (eq. (14)), the matrix
+µ2 is proportional to the unit matrix on each G-irreducible subspace and therefore
+µ2
+ijviGj
+=
+0 ,
+µ2
+ijviSj = 0 ,
+µ2
+ijHiGj = 0 ,
+µ2
+ijHiSj
+=
+0 ,
+µ2
+ijGiSj = 0 .
+(83)
+Also due to gauge invariance (eq. (14)) we have λijklvjvkvl ∼vi, because the matrix
+K deﬁned by Kij = λijklvkvl is diagonal and proportional to the unit matrix on each
+SM-irreducible subspace. Hence
+λijklGivjvkvl =
+0
+= λijklSivjvkvl
+(84)
+since (P G)ijvj = 0 = (P S)ijvj. The parametrization in eq. (81) has the disadvantage that
+the masslesness of Goldstone bosons is not manifest there due to the appearance of an
+explicit mass matrix for the Goldstone ﬁeld. Note furthermore that on the subspace RH
+the parameter µ2 is redundant, because it depends on the tadpole term ˜t, which has been
+chosen as a physical parameter in the Lagrangian. Therefore we want µ2 also to disappear
+from the mass matrix of the physical Higgs bosons H by trading it for ˜t. To solve these
+issues, we ﬁrst rewrite the tadpole term by observing that ˜t ∼vi due to arguments already
+given above. Therefore we deﬁne
+˜ti ≡t vi ,
+t
+≡
+1
+v2
+ −µ2
+ijvivj + 1
+6λijklvivjvkvl
+
+≡
+−µ2
+H + 1
+6v2 λH
+ijklvivjvkvl .
+(85)
+The classical minimum of the potential can be found by setting t = 0. In a quantum
+theory, however, we must keep t as a counterterm, as explained in subsections 2.1 and
+2.2.
+Next we turn to the term
+1
+2 ˜
+M2
+ijGiGj in eq. (81).
+From the Goldstone theorem
+it follows that this mass term must vanish at the classical level. But since we are also
+interested in quantum corrections, care is needed here. We calculate the term by applying
+the explicit form of the Goldstone projector P G which is given in eq. (15) to ˜
+M2. Using
+also the gauge invariance relations in eq. (14), we can show the identities
+(P G)ijλjklmvlvm
+=
+1
+3v2(P G)ikλjlmnvjvlvmvn ,
+(P G)ijµ2
+jk
+=
+1
+v2(P G)ikµ2
+jlvjvl = (P G)ik µ2
+H .
+(86)
+Therefore the following identity holds:
+(P G)ij ˜
+M2
+jk = t (P G)ik .
+(87)
+30
+
+=== PDF PAGE 31 ===
+As expected from the Goldstone theorem, the term vanishes at the classical level, but con-
+tributes as a counterterm to the two-point function of the Goldstone ﬁeld via t. Similarly,
+we calculate 1
+2 ˜
+M2
+ijHiHj by applying the projector P ˜
+H = ΠH −P G to ˜
+M2:
+(P
+˜
+H)ij ˜
+M2
+jk
+=
+(ΠH)ij ˜
+M2
+jk −(P G)ij ˜
+M2
+jk
+=
+t (P
+˜
+H)ik + ˜
+M2
+jk −t (ΠH)ik
+≡
+t (P
+˜
+H)ik + (M2
+H)jk
+(88)
+where we have used eq. (87) and deﬁned the physical Higgs mass matrix
+(M2
+H)ij
+=
+1
+2λH
+ijklvkvl −1
+6v2 λH
+klmnvkvlvmvn ΠH
+ij .
+(89)
+Note that P GM2
+H = 0 and therefore the Higgs mass matrix, as we have deﬁned it, can
+have non-zero entries only on the subspace R ˜
+H. Also the parameter µ2
+H does not appear
+anymore in the deﬁnition of M2
+H, as desired. For the ﬁelds Si no peculiarities occur, since
+they have no vev. Their mass matrix is essentially given by ˜
+M2:
+(M2
+S)ij
+=
+1
+2λS
+ijklvkvl −(µ2(1l −ΠH))ij .
+(90)
+The up to quadratic terms of the scalar potential can now be written as
+V (Φ)
+=
+t viHi + 1
+2(M2
+H)ijHiHj + 1
+2t HiHi + 1
+2t GiGi + 1
+2(M2
+S)ijSiSj + O(Φ3) (91)
+which is the appropriate parametrization for renormalizing the theory.
+C
+Three-loop
+gauge
+β
+function
+for
+the
+Georgi-
+Glashow SU(5) model
+For performing a consistent three-loop RGE analysis, apart from the two-loop GUT
+matching corrections also the three-loop gauge β function for the Georgi-Glashow model
+is needed. The authors of ref. [21] give a general formula for the gauge β function of a
+general single gauge coupling theory. Speciﬁying the group theory factors that appear
+there to the Georgi-Glashow model and insering the scalar self-couplings from eq. (32),
+as well as the Yukawa coupling from eq. (37) into their general result gives us the desired
+β function including scalar self-couplings and Yukawa corrections:
+31
+
+=== PDF PAGE 32 ===
+1
+2
+d
+dt
+α
+4π
+=
+−40
+3
+ α
+4π
+2
+(92)
+−1184
+15
+ α
+4π
+3
++
+
+−9
+2
+ yt
+4π
+2
+−5
+ yb
+4π
+2  α
+4π
+2
+−1007357
+1080
+ α
+4π
+4
++
+"
+−1323
+4
+ yt
+4π
+2
+−3617
+10
+ yb
+4π
+2
++155
+96
+A
+(4π)2 + 11
+20
+b
+(4π)2 + 125
+12
+B
+(4π)2 + 25
+4
+c
+(4π)2
+#  α
+4π
+3
++
+"
+51
+4
+ yt
+4π
+4
++ 47
+4
+ yb
+4π
+4
++ 839
+8
+y2
+t y2
+b
+(4π)4
+−493
+11520
+A2
+(4π)4 −47
+144
+AB
+(4π)4 −1
+12
+b2
+(4π)4 −65
+36
+B2
+(4π)4 −851
+200
+c2
+(4π)4
+#  α
+4π
+2
+.
+The ﬁrst line of this equation represents the one-loop result, the second line the two-loop
+result and the rest corresponds to the three-loop corrections. Since the Yukawa couplings
+enter the gauge β function starting from two-loop level only, it is enough to employ the
+one-loop RGEs for the Yukawa couplings for the precision we are aiming at. These can
+be derived in a similar manner from the general formula in ref. [45]:
+dyt
+dt
+=
+yt
+"
+−108
+5
+ α
+4π
+
+−6
+ yb
+4π
+2
++ 9
+ yt
+4π
+2
+#
+,
+dyb
+dt
+=
+yb
+"
+−18
+ α
+4π
+
++ 11
+ yb
+4π
+2
+−9
+2
+ yt
+4π
+2
+#
+.
+(93)
+The scalar self-couplings A, B and c that appear in eq. (92) only at the three-loop level
+are approximated as constants in our analysis by replacing them by their relations to the
+physical mass parameters MΣ, M24, MHc, MX, and the gauge coupling α by using eqs. (35)
+and (36). The scalar self-coupling b that appears here can be approximated similarly by
+a constant using the SM Higgs mass M2
+H,SM and the mass of the W boson MW:
+b
+=
+3
+4g2M2
+H,SM
+M2
+W
+.
+(94)
+32
+
+=== PDF PAGE 33 ===
+References
+[1] J. R. Ellis, S. Kelley and D. V. Nanopoulos, Phys. Lett. B 260 (1991) 131.
+[2] U. Amaldi, W. de Boer and H. Furstenau, Phys. Lett. B 260, 447 (1991).
+[3] P. Langacker and M. x. Luo, Phys. Rev. D 44 (1991) 817.
+[4] K. Hagiwara and Y. Yamada, Phys. Rev. Lett. 70 (1993) 709.
+[5] J. Hisano, H. Murayama and T. Yanagida, Nucl. Phys. B 402 (1993) 46 [arXiv:hep-
+ph/9207279].
+[6] J. Hisano, H. Murayama and T. Yanagida, Phys. Rev. Lett. 69 (1992) 1014.
+[7] Y. Yamada, Z. Phys. C 60 (1993) 83.
+[8] J. Hisano, T. Moroi, K. Tobe and T. Yanagida, Mod. Phys. Lett. A 10 (1995) 2267
+[arXiv:hep-ph/9411298].
+[9] A. Dedes, A. B. Lahanas, J. Rizos and K. Tamvakis, Phys. Rev. D 55 (1997) 2955
+[arXiv:hep-ph/9610271].
+[10] H. Murayama and A. Pierce, Phys. Rev. D 65 (2002) 055009 [arXiv:hep-ph/0108104].
+[11] I. Dorsner, P. Fileviez Perez and G. Rodrigo, Phys. Lett. B 649 (2007) 197 [arXiv:hep-
+ph/0610034].
+[12] R. Harlander, L. Mihaila and M. Steinhauser, Phys. Rev. D 72 (2005) 095009
+[arXiv:hep-ph/0509048].
+[13] A. Bauer, L. Mihaila and J. Salomon, JHEP 0902 (2009) 037 [arXiv:0810.5101 [hep-
+ph]].
+[14] W. Martens, L. Mihaila, J. Salomon and M. Steinhauser, arXiv:1008.3070 [hep-ph].
+[15] A. Masiero, D. V. Nanopoulos, K. Tamvakis and T. Yanagida, Phys. Lett. B 115
+(1982) 380.
+[16] B. Grinstein, Nucl. Phys. B 206 (1982) 387.
+[17] T. van Ritbergen, J. A. M. Vermaseren and S. A. Larin, Phys. Lett. B 400 (1997)
+379 [arXiv:hep-ph/9701390].
+[18] M. Czakon, Nucl. Phys. B 710 (2005) 485 [arXiv:hep-ph/0411261]. [20]
+[19] R. V. Harlander, L. Mihaila and M. Steinhauser, Eur. Phys. J. C 63 (2009) 383
+[arXiv:0905.4807 [hep-ph]].
+33
+
+=== PDF PAGE 34 ===
+[20] P. M. Ferreira, I. Jack and D. R. T. Jones, Phys. Lett. B 387 (1996) 80 [arXiv:hep-
+ph/9605440].
+[21] A. G. M. Pickering, J. A. Gracey and D. R. T. Jones, Phys. Lett. B 510 (2001)
+347 [Phys. Lett. B 512 (2001) 230] [Erratum-ibid. B 535 (2002) 377] [arXiv:hep-
+ph/0104247].
+[22] I. Jack, D. R. T. Jones and C. G. North, Phys. Lett. B 386 (1996) 138 [arXiv:hep-
+ph/9606323].
+[23] L. J. Hall, Nucl. Phys. B 178 (1981) 75.
+[24] S. Weinberg, Phys. Lett. B 91 (1980) 51.
+[25] B. A. Ovrut, H. J. Schnitzer, Nucl. Phys. B184 (1981) 109.
+[26] B. A. Ovrut, H. J. Schnitzer, Phys. Rev. D24 (1981) 1695.
+[27] B. A. Ovrut, H. J. Schnitzer, Phys. Rev. D21 (1980) 3369.
+[28] B. A. Ovrut, H. J. Schnitzer, Phys. Rev. D22 (1980) 2518.
+[29] B. A. Ovrut, H. J. Schnitzer, Phys. Lett. B100 (1981) 403.
+[30] B. A. Ovrut, H. J. Schnitzer, Nucl. Phys. B179 (1981) 381.
+[31] B. A. Ovrut, H. J. Schnitzer, Nucl. Phys. B189 (1981) 509.
+[32] B. A. Ovrut, H. J. Schnitzer, Phys. Lett. B110 (1982) 139.
+[33] M. B. Einhorn and D. R. T. Jones, Nucl. Phys. B 196 (1982) 475.
+[34] H. Georgi and S. L. Glashow, Phys. Rev. Lett. 32 (1974) 438.
+[35] K. Fujikawa, B. W. Lee and A. I. Sanda, Phys. Rev. D 6 (1972) 2923.
+[36] R. Santos and A. Barroso, Phys. Rev. D 56 (1997) 5366 [arXiv:hep-ph/9701257].
+[37] G. Girardi, C. Malleville and P. Sorba, Phys. Lett. B 117 (1982) 64.
+[38] M. B. Gavela, G. Girardi, C. Malleville and P. Sorba, Nucl. Phys. B 193 (1981) 257.
+[39] T. Muta, World Sci. Lect. Notes Phys. 57 (1998) 1.
+[40] P. Langacker, Phys. Rept. 72 (1981) 185.
+[41] D. Bardin, G. Passarino, Oxford University Press, USA, 1999
+[42] M. Bohm, H. Spiesberger and W. Hollik, Fortsch. Phys. 34 (1986) 687.
+34
+
+=== PDF PAGE 35 ===
+[43] P. H. Chankowski, S. Pokorski and J. Rosiek, Nucl. Phys. B 423 (1994) 437
+[arXiv:hep-ph/9303309].
+[44] M. E. Machacek and M. T. Vaughn, Nucl. Phys. B 222 (1983) 83.
+[45] M. E. Machacek and M. T. Vaughn, Nucl. Phys. B 236 (1984) 221.
+[46] T. Appelquist and J. Carazzone, Phys. Rev. D 11 (1975) 2856.
+[47] H. Georgi, Ann. Rev. Nucl. Part. Sci. 43 (1993) 209.
+[48] M. Steinhauser, Phys. Rept. 364 (2002) 247 [arXiv:hep-ph/0201075].
+[49] K. G. Chetyrkin, B. A. Kniehl and M. Steinhauser, Nucl. Phys. B 510 (1998) 61
+[arXiv:hep-ph/9708255].
+[50] P. Nogueira, J. Comput. Phys. 105 (1993) 279.
+[51] T. Seidensticker, arXiv:hep-ph/9905298.
+[52] R. Harlander, T. Seidensticker and M. Steinhauser, Phys. Lett. B 426 (1998) 125
+[arXiv:hep-ph/9712228].
+[53] J. A. M. Vermaseren, arXiv:math-ph/0010025.
+[54] A. I. Davydychev and J. B. Tausk, Nucl. Phys. B 397 (1993) 123.
+[55] S. A. Larin, F. V. Tkachov and J. A. M. Vermaseren, “The Form Version Of Mincer,”
+[56] M. Steinhauser, Comput. Phys. Commun. 134 (2001) 335 [arXiv:hep-ph/0009029].
+[57] J. A. M. Vermaseren, Comput. Phys. Commun. 83 (1994) 45.
+[58] T. N. Sherry, J. Phys. A 13 (1980) 2205.
+[59] C. Amsler et al. [Particle Data Group], Phys. Lett. B 667 (2008) 1.
+[60] T. Teubner, K. Hagiwara, R. Liao, A. D. Martin and D. Nomura, arXiv:1001.5401
+[hep-ph].
+[61] S. Bethke, Eur. Phys. J. C 64 (2009) 689 [arXiv:0908.1135 [hep-ph]].
+[62] et al. [CDF and D0 Collaboration], arXiv:1007.3178 [hep-ex].
+[63] K. G. Chetyrkin, J. H. Kuhn, A. Maier, P. Maierhofer, P. Marquard, M. Steinhauser
+and C. Sturm, Phys. Rev. D 80 (2009) 074010 [arXiv:0907.2110 [hep-ph]].
+[64] K. G. Chetyrkin, J. H. Kuhn and M. Steinhauser, Comput. Phys. Commun. 133
+(2000) 43 [arXiv:hep-ph/0004189].
+35
+
+=== PDF PAGE 36 ===
+[65] D. R. T. Jones, Phys. Rev. D 25 (1982) 581.
+[66] C. Ford, I. Jack and D. R. T. Jones, Nucl. Phys. B 387 (1992) 373 [Erratum-ibid. B
+504 (1997) 551] [arXiv:hep-ph/0111190].
+[67] O. V. Tarasov, A. A. Vladimirov and A. Y. Zharkov, Phys. Lett. B 93 (1980) 429.
+[68] S. A. Larin and J. A. M. Vermaseren, Phys. Lett. B 303 (1993) 334 [arXiv:hep-
+ph/9302208].
+[69] P. Binetruy and T. Schucker, Nucl. Phys. B 178 (1981) 307.
+[70] R. van Damme, Nucl. Phys. B 227 (1983) 317 [Erratum-ibid. B 239 (1984 ER-
+RAT,B244,549.1984) 656].
+[71] T. van Ritbergen, A. N. Schellekens and J. A. M. Vermaseren, Int. J. Mod. Phys. A
+14 (1999) 41 [arXiv:hep-ph/9802376].
+[72] P. Cvitanovic, Phys. Rev. D 14 (1976) 1536.
+36

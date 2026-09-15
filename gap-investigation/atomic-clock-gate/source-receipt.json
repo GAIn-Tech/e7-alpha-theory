@@ -1,0 +1,62 @@
+[
+  {
+    "name": "hyperphysics",
+    "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/acloc.html",
+    "final_url": "http://hyperphysics.phy-astr.gsu.edu/hbase/acloc.html",
+    "status": 200,
+    "bytes": 8711,
+    "sha256": "ab9ca746b09476aad88fa773f8b3b19f0822f065d64efac6e282f8929f7483d6",
+    "text_sha256": "66eb0c6462b6b593c6fd3ca567590eeb3f5a487288eea8a8e34da3829d0e1535",
+    "retrieved_utc": "2026-09-09T16:04:55.811936+00:00"
+  },
+  {
+    "name": "bipm",
+    "url": "https://www.bipm.org/en/si-base-units/second",
+    "final_url": "https://www.bipm.org/en/si-base-units/second",
+    "status": 200,
+    "bytes": 228650,
+    "sha256": "89e37f1fc2971f5e4a6658f64eb7cac015f2bd0b1d95c17ea4f90f7798d0edbf",
+    "text_sha256": "87c40f32308250fb97b494cb3f253d0ed3514a1174aa48bf76425b91876ce1c1",
+    "retrieved_utc": "2026-09-09T16:05:11.014760+00:00"
+  },
+  {
+    "name": "codata",
+    "url": "https://physics.nist.gov/cgi-bin/cuu/Value?alphinv",
+    "final_url": "https://physics.nist.gov/cgi-bin/cuu/Value?alphinv",
+    "status": 200,
+    "bytes": 8250,
+    "sha256": "d2333752cd583114dac2b95b9abc2b258773fc732e2fdc4145c741d881eebb4c",
+    "text_sha256": "74ef89d726d564c42f62296ca5c8a3fccf1083916e4737ccbd971073b35d3a6d",
+    "retrieved_utc": "2026-09-09T16:05:14.316840+00:00"
+  },
+  {
+    "name": "nist-comparison",
+    "url": "https://tf.nist.gov/general/pdf/2295.pdf",
+    "final_url": "https://tf.nist.gov/general/pdf/2295.pdf",
+    "status": 200,
+    "bytes": 2884232,
+    "sha256": "66990148f942f18ff8a88c2bac91ce1db398fd531a0e7126eccd0c848d7cfb9a",
+    "text_sha256": "fbafba6476e439456a57fa64ebc13753697ec55ca3dfb501b67a0a7b51faa1e0",
+    "retrieved_utc": "2026-09-09T16:05:33.600673+00:00"
+  },
+  {
+    "name": "nist-network",
+    "url": "https://www.nist.gov/news-events/news/2021/03/nist-team-compares-3-top-atomic-clocks-record-accuracy-over-both-fiber-and",
+    "final_url": "https://www.nist.gov/news-events/news/2021/03/nist-team-compares-3-top-atomic-clocks-record-accuracy-over-both-fiber-and",
+    "status": 200,
+    "bytes": 95178,
+    "sha256": "c42e488810d6770a73141ebbc64e3b440fb406b4bd94a70c3d0519373e2ddefc",
+    "text_sha256": "e10d602586b0e077421cc769f5bac2b754d4b0813632563a7315b95b98e51ccf",
+    "retrieved_utc": "2026-09-09T16:05:36.340485+00:00"
+  },
+  {
+    "name": "network-paper",
+    "url": "https://www.nature.com/articles/s41586-021-03253-4",
+    "final_url": "https://www.nature.com/articles/s41586-021-03253-4?error=cookies_not_supported&code=48918cdf-122b-488a-b370-a00972fa63cb",
+    "status": 200,
+    "bytes": 418795,
+    "sha256": "dbcb81bac4bfe9de7aa0183b0638dee531ad1ef4dc559da790320c8e129d5ba1",
+    "text_sha256": "6e969e381f7e5af43fcee9a90307c14a5b0778b2390693dd11f75784e1f8cade",
+    "retrieved_utc": "2026-09-09T16:05:43.988752+00:00"
+  }
+]

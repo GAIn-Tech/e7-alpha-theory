@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "claim_boundary": "Finite resummed physical-soft/massless-unbroken-vector derivative bubble matrix at each octet/triplet leading shell; not complete NLO pole or full quantum vacuum.",
+  "prescription": "inverse propagator s-m2-Pi; Q2=epsilon M2; strict Landau; internal physical scalar mass epsilon2 lambda M2, never a Goldstone regulator",
+  "rows": [
+    {
+      "epsilon": 1e-07,
+      "octet_coefficient_over_epsilon3M2": 1.2313967167728974,
+      "triplet_coefficient_over_epsilon3M2": 0.9679791156721254,
+      "relative_octet_correction": 1.0420921252816045e-07,
+      "relative_triplet_correction": 6.881034805328661e-08,
+      "checks": [
+        {
+          "mass2_over_epsilonM2": 1.1816582112762222e-07,
+          "source_kernel": 6.4818125093740615e-06,
+          "transformed_Gauss_kernel": 6.481812509374019e-06,
+          "imaginary": 0.0
+        },
+        {
+          "mass2_over_epsilonM2": 1.4067348052616255e-07,
+          "source_kernel": 7.642856752279565e-06,
+          "transformed_Gauss_kernel": 7.642856752279514e-06,
+          "imaginary": 0.0
+        }
+      ],
+      "drop_evanescent_coefficient_change_norm": 0.14119316604000906
+    },
+    {
+      "epsilon": 1e-05,
+      "octet_coefficient_over_epsilon3M2": 0.9212548883100777,
+      "triplet_coefficient_over_epsilon3M2": 0.7218350104448517,
+      "relative_octet_correction": 7.796288973398254e-06,
+      "relative_triplet_correction": 5.131279952383469e-06,
+      "checks": [
+        {
+          "mass2_over_epsilonM2": 1.1816582112762222e-05,
+          "source_kernel": 0.0004849291359994881,
+          "transformed_Gauss_kernel": 0.0004849291359994847,
+          "imaginary": 0.0
+        },
+        {
+          "mass2_over_epsilonM2": 1.4067348052616256e-05,
+          "source_kernel": 0.0005699380796844784,
+          "transformed_Gauss_kernel": 0.0005699380796844745,
+          "imaginary": 0.0
+        }
+      ],
+      "drop_evanescent_coefficient_change_norm": 0.14119316604000906
+    },
+    {
+      "epsilon": 0.001,
+      "octet_coefficient_over_epsilon3M2": 0.6111130598472581,
+      "triplet_coefficient_over_epsilon3M2": 0.4756909052175781,
+      "relative_octet_correction": 0.0005171656693980463,
+      "relative_triplet_correction": 0.0003381525099438277,
+      "checks": [
+        {
+          "mass2_over_epsilonM2": 0.0011816582112762221,
+          "source_kernel": 0.03216770210615698,
+          "transformed_Gauss_kernel": 0.03216770210615674,
+          "imaginary": 0.0
+        },
+        {
+          "mass2_over_epsilonM2": 0.0014067348052616256,
+          "source_kernel": 0.03755904841410004,
+          "transformed_Gauss_kernel": 0.03755904841409976,
+          "imaginary": 0.0
+        }
+      ],
+      "drop_evanescent_coefficient_change_norm": 0.14119316604000906
+    }
+  ],
+  "log_epsilon_coefficient_eigenvalues": [
+    -0.06734644235587256,
+    -0.06734644235521287,
+    -0.06734644235496048,
+    -0.0673464423545984,
+    -0.06734644235417789,
+    -0.06734644235386834,
+    -0.06734644235369269,
+    -0.06734644235279982,
+    -0.053449513327493016,
+    -0.05344951332622303,
+    -0.053449513326077926
+  ],
+  "source_hashes": {
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\physical-flat-resummed-vacuum-gate\\gauge_soft.py": "1935db8e061bf6f3f9fdabfa69c0b6cbbc8ca2baee7bdc63ff8c995bfb451641",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\adjoint-radial-mixed-pole-gate\\finite_momentum.py": "7b36f93d2a4dd1f9e26e0c621a3be102e8326bf82cc5639587a954630e6608a9",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\physical-flat-resummed-vacuum-gate\\matrices.json": "36ed0c154b78fdceedfff9f520e8c4815b71742c5ddb961eec1c4ce70fcd31db",
+    "C:\\Users\\mikeb\\e7-alpha-theory\\gap-investigation\\physical-flat-resummed-vacuum-gate\\receipt.json": "95401523ad43adff890db7f4fa6c787f92c33e72e89b7c348ac41d9f39e09d92"
+  }
+}

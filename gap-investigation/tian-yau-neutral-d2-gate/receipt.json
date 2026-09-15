@@ -1,0 +1,86 @@
+{
+  "E3_invariant_slots": {
+    "-1,2": 0,
+    "-2,3": 4,
+    "1,0": 12,
+    "1,1": 0
+  },
+  "all_60_total_lift_equations_verified": true,
+  "artifact_hashes": {
+    "REPORT.md": "6d1002e23e76efc3004029ddd29f0b8401a2528085f210000984c393fdc8dc09",
+    "curved-koszul-diagnostic.json": "bdb8d50babdcca4d0ad09d84be27f5a070b19e0f3c6cbd2f64caff5e95fdf8b7",
+    "partial-character-0.json": "d4fb47f45c80188f007ea5f7269ffe89b16538aeb4cc38a338074b6ce49102bc",
+    "partial_chains.py": "191aa808af6a46cf9c4d923e41f9d2fb2695727356fc02835276157e5b257351",
+    "representative-controls.json": "171ae9333487c211a0440e4a3ff8d812e29ffd3a22a66a958249806e98441d3d",
+    "representative_controls.py": "a3ac3791ddbdde214331b695839aa875f4a945a7cda3ab48c58b07ae0679c1ae",
+    "total-cech-lifts.json": "b7e40773fe9a677d4ee6e158fc0c391af2980248b851cbc8a62facf20375fbe4",
+    "total_cech.py": "b37917b4511ae519b948adae03c2ca592bd115b460bc52e6ada54e29fcb2749b",
+    "try_d2.py": "7a9931b1b183f9fc57ea2f068ae1b262a996cf4275531c328f74df9cf8c12914",
+    "verify.py": "fe9187fba0aea47809df718bfb385279c3e9de66659627f3b1f86a1474298731"
+  },
+  "canonical_predecessor_replay_exit_code": 0,
+  "canonical_predecessor_replay_output": {
+    "Ext1_E2_diagonal": {
+      "0": {
+        "-1,2": 60,
+        "-2,3": 4,
+        "1,0": 12
+      },
+      "1": {
+        "-1,2": 56,
+        "-2,3": 2,
+        "1,0": 14
+      },
+      "2": {
+        "-1,2": 56,
+        "-2,3": 2,
+        "1,0": 14
+      }
+    },
+    "four_alleged_sources": "Not Ext1 by total degree; additionally E2(-2,2)=0, so they are not E3 sources in this full End complex.",
+    "passed": true,
+    "requested_four_class_tensor": null,
+    "unresolved_higher_differentials": [
+      "d2: (-1,2)->(1,1)",
+      "d3: (-2,3)->(1,1)",
+      "d3: (-1,2)->(2,0)",
+      "d4: (-2,3)->(2,0)"
+    ]
+  },
+  "character": 0,
+  "claim_boundary": "Actual exact invariant geometric d2 via a curved-End Koszul resolution, full Cech lifts, and representative controls. d4 and other-character higher pages remain unresolved. No full neutral count or Higgs vacuum.",
+  "cokernel_dimension": 0,
+  "determinant": "-1/995328",
+  "full_Higgs_vacuum_claim": false,
+  "geometric_d2_computed": true,
+  "interpreter": "C:/Python313/python.exe",
+  "invariant_Ext1_dimension_bounds": [
+    12,
+    16
+  ],
+  "invariant_Ext1_formula": "16-rank(d4_invariant)",
+  "kernel_dimension": 0,
+  "matrix_payload_sha256": "f8279e6072312bacf7b80d851dc80d0a965bd7773e33d3f26fa07a29d9061241",
+  "matrix_shape": [
+    60,
+    60
+  ],
+  "nilpotence_on_all_source_and_primitive_lifts": true,
+  "other_character_d2_computed": false,
+  "passed": true,
+  "rank": 60,
+  "remaining_invariant_differential": "d4: (-2,3)->(2,0), shape 4x4; not computed",
+  "representative_control_summary": {
+    "Cech_exact_changes": 4,
+    "claim_boundary": "Complete invariant E2 representative controls via basis generators and explicit total-chain identities; does not compute higher d3/d4 or a vacuum.",
+    "closed_primitive_changes": 4,
+    "contraction_basis_checks": 160,
+    "matrix_entry_mutation_rejected": true,
+    "nonzero_source_boundary_generators": 56,
+    "passed": true,
+    "source_Koszul_boundary_generators": 56,
+    "source_d1_boundaries": 16
+  },
+  "sympy_version": "1.13.3",
+  "wrong_curvature_sign_detected_columns": 60
+}

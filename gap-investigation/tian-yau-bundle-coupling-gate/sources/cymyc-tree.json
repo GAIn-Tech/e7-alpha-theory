@@ -1,0 +1,664 @@
+{
+  "sha": "2039ea4349247317352e59d673444ad3865387fe",
+  "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/2039ea4349247317352e59d673444ad3865387fe",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36d040421f9b2d0b54abc7026e3c4a437cac2047",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/36d040421f9b2d0b54abc7026e3c4a437cac2047"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bc63f7763e5dacf8f4e498ffb2582dfbe3a4463",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/5bc63f7763e5dacf8f4e498ffb2582dfbe3a4463"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24bb26e2f93eddbcd5da1cc9f38a7ad7e2469b9b",
+      "size": 930,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/24bb26e2f93eddbcd5da1cc9f38a7ad7e2469b9b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33d79b6c9ccd3913d4ec8b4b67c6606dda093e00",
+      "size": 2192,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/33d79b6c9ccd3913d4ec8b4b67c6606dda093e00"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bcfd6024dc0ad17f7b0c4944c0b618092f96cbf",
+      "size": 1061,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/3bcfd6024dc0ad17f7b0c4944c0b618092f96cbf"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f630f3eaad3bafb8de1d147091c95cf587b5ba5",
+      "size": 3120,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/4f630f3eaad3bafb8de1d147091c95cf587b5ba5"
+    },
+    {
+      "path": "cymyc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8718886029554323e7de66dfc4ac5fb47aae382b",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/8718886029554323e7de66dfc4ac5fb47aae382b"
+    },
+    {
+      "path": "cymyc/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8023d8bc0ca413584a729e5106f86ba8fe65400",
+      "size": 22,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/b8023d8bc0ca413584a729e5106f86ba8fe65400"
+    },
+    {
+      "path": "cymyc/alg_geo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1210e4a4f188fcfcaf7518eeb0c13cca7d63d55",
+      "size": 21235,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/b1210e4a4f188fcfcaf7518eeb0c13cca7d63d55"
+    },
+    {
+      "path": "cymyc/approx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cdf3574e79f2957022a2eed6ddb55e05da91e97a",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/cdf3574e79f2957022a2eed6ddb55e05da91e97a"
+    },
+    {
+      "path": "cymyc/approx/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cymyc/approx/bundle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04f3a8c3b05787662579d05394274a878aaf05b3",
+      "size": 28680,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/04f3a8c3b05787662579d05394274a878aaf05b3"
+    },
+    {
+      "path": "cymyc/approx/default_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59e6f5a6c47031cdc83c4807c5804ec0a6a56636",
+      "size": 1410,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/59e6f5a6c47031cdc83c4807c5804ec0a6a56636"
+    },
+    {
+      "path": "cymyc/approx/eta_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "444682ea12766233836286ce23d94acce5cc3d1b",
+      "size": 8533,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/444682ea12766233836286ce23d94acce5cc3d1b"
+    },
+    {
+      "path": "cymyc/approx/harmonic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6304d1be9ff5adc9b825326dca8572dfd3e6d5b",
+      "size": 54436,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e6304d1be9ff5adc9b825326dca8572dfd3e6d5b"
+    },
+    {
+      "path": "cymyc/approx/harmonic_bundle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a32a42f0fa27a698b16397ca3a34fae922e0eacd",
+      "size": 1362,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/a32a42f0fa27a698b16397ca3a34fae922e0eacd"
+    },
+    {
+      "path": "cymyc/approx/hym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3fef1501f1fc3530a52a2b30280b6fe873bd5a2",
+      "size": 8396,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/a3fef1501f1fc3530a52a2b30280b6fe873bd5a2"
+    },
+    {
+      "path": "cymyc/approx/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec7945d926d761ed9abaaf17499aea10144271d8",
+      "size": 19358,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/ec7945d926d761ed9abaaf17499aea10144271d8"
+    },
+    {
+      "path": "cymyc/approx/measures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34101c7d1caab42e416a7e46ebee43359c8f0309",
+      "size": 1307,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/34101c7d1caab42e416a7e46ebee43359c8f0309"
+    },
+    {
+      "path": "cymyc/approx/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49199efcc4f752313d0fef5babf640e99dae5112",
+      "size": 33733,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/49199efcc4f752313d0fef5babf640e99dae5112"
+    },
+    {
+      "path": "cymyc/approx/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cd103bfab81fe79811bbf1d91317f8d1f8924ff",
+      "size": 7348,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/2cd103bfab81fe79811bbf1d91317f8d1f8924ff"
+    },
+    {
+      "path": "cymyc/chern_gauss_bonnet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f35ef183da6a75a12c2c81af08f050bedb3c5a9f",
+      "size": 12423,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/f35ef183da6a75a12c2c81af08f050bedb3c5a9f"
+    },
+    {
+      "path": "cymyc/curvature.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225f0605a3a8b7c0fa2b8070a7fe8715311b9c3d",
+      "size": 14074,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/225f0605a3a8b7c0fa2b8070a7fe8715311b9c3d"
+    },
+    {
+      "path": "cymyc/dataloading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e4f9e775c24c50c759e2f1891dc12a54ff47bd",
+      "size": 4349,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/68e4f9e775c24c50c759e2f1891dc12a54ff47bd"
+    },
+    {
+      "path": "cymyc/fubini_study.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10bcd18885f56b3818de9812ce6df4c1952ae5e8",
+      "size": 14548,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/10bcd18885f56b3818de9812ce6df4c1952ae5e8"
+    },
+    {
+      "path": "cymyc/moduli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ad83910f2dc7c69151bda58c36da2d2a7f39006",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/2ad83910f2dc7c69151bda58c36da2d2a7f39006"
+    },
+    {
+      "path": "cymyc/moduli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cymyc/moduli/moduli_scan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12da2dd24e0c11e29cc79a09bb73d669ef9826c",
+      "size": 9360,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/f12da2dd24e0c11e29cc79a09bb73d669ef9826c"
+    },
+    {
+      "path": "cymyc/moduli/wp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02da053733be5269e0afe478559b572563e261f9",
+      "size": 46108,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/02da053733be5269e0afe478559b572563e261f9"
+    },
+    {
+      "path": "cymyc/monad_bundle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1dc05b1ac32042a1f0b9b5c9dbb86f3fefa0388",
+      "size": 26935,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/b1dc05b1ac32042a1f0b9b5c9dbb86f3fefa0388"
+    },
+    {
+      "path": "cymyc/monads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5ec6b9be0b8c99ab1744ea02f5aee62ad797c49",
+      "size": 108688,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/c5ec6b9be0b8c99ab1744ea02f5aee62ad797c49"
+    },
+    {
+      "path": "cymyc/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18e893fadc1d586b384e41438f163185607df386",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/18e893fadc1d586b384e41438f163185607df386"
+    },
+    {
+      "path": "cymyc/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cymyc/utils/gen_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76d1bcafbaed495c48c089fa1a9e5917a1046823",
+      "size": 12247,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/76d1bcafbaed495c48c089fa1a9e5917a1046823"
+    },
+    {
+      "path": "cymyc/utils/math_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35d0c4d0b72525158744b2c283648d3c4d98a5b",
+      "size": 10130,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/c35d0c4d0b72525158744b2c283648d3c4d98a5b"
+    },
+    {
+      "path": "cymyc/utils/ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d49d9ba48887aa52fe0558e9cb4d31d8e577cb8f",
+      "size": 4074,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/d49d9ba48887aa52fe0558e9cb4d31d8e577cb8f"
+    },
+    {
+      "path": "cymyc/utils/pointgen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "652ddb897ca283b384f68ad35ed7710731b97813",
+      "size": 10582,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/652ddb897ca283b384f68ad35ed7710731b97813"
+    },
+    {
+      "path": "cymyc/utils/pointgen_cicy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd403be03f1130b280987ebbca420010c0a2ac71",
+      "size": 26593,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/dd403be03f1130b280987ebbca420010c0a2ac71"
+    },
+    {
+      "path": "cymyc/utils/poly_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7582db367bdbc2f25edff43094030faa05bf0d",
+      "size": 6517,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/fd7582db367bdbc2f25edff43094030faa05bf0d"
+    },
+    {
+      "path": "cymyc/utils/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44173fe9f6fc5b3d692222c4f5fa21721ec2f2a1",
+      "size": 599,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/44173fe9f6fc5b3d692222c4f5fa21721ec2f2a1"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26a44d8a2b184e753532c9504f6ef55a80381c4c",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/26a44d8a2b184e753532c9504f6ef55a80381c4c"
+    },
+    {
+      "path": "docs/.citation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dd6afd5db53f8c3e7174e3e6697506073a1a0a2",
+      "size": 516,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/0dd6afd5db53f8c3e7174e3e6697506073a1a0a2"
+    },
+    {
+      "path": "docs/_static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4ca7cb005d716e1d6ccda4fdc8a0c8bc2ff6c60",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/a4ca7cb005d716e1d6ccda4fdc8a0c8bc2ff6c60"
+    },
+    {
+      "path": "docs/_static/custom_css.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd62b6e654281a49cd180e59119efa025cf063f6",
+      "size": 3253,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/cd62b6e654281a49cd180e59119efa025cf063f6"
+    },
+    {
+      "path": "docs/_static/favicon-32x32.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0b226b05a6018634fb89b3d6351054be4331beda",
+      "size": 3473,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/0b226b05a6018634fb89b3d6351054be4331beda"
+    },
+    {
+      "path": "docs/_static/gen_ref_pages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d0edb6b42755b97a7b44b4884dc650a590254ee",
+      "size": 752,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/2d0edb6b42755b97a7b44b4884dc650a590254ee"
+    },
+    {
+      "path": "docs/_static/katex.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "841e35ad29a4f633b9dbad4adb96e515141e9362",
+      "size": 308,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/841e35ad29a4f633b9dbad4adb96e515141e9362"
+    },
+    {
+      "path": "docs/_static/mathjax.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d0d925281ec2615d6efd9a103696345c011a9b6",
+      "size": 420,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/3d0d925281ec2615d6efd9a103696345c011a9b6"
+    },
+    {
+      "path": "docs/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07e15a31843f740c5e323d54f719fcba88bfcf67",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/07e15a31843f740c5e323d54f719fcba88bfcf67"
+    },
+    {
+      "path": "docs/api/chern_gauss_bonnet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1f179510b40a8b3a18982fd7b5e99807a9bb97",
+      "size": 48,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/cc1f179510b40a8b3a18982fd7b5e99807a9bb97"
+    },
+    {
+      "path": "docs/api/curvature.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c0c87eab8f0a1baf81a270e564b6360a5a1aa0",
+      "size": 39,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/43c0c87eab8f0a1baf81a270e564b6360a5a1aa0"
+    },
+    {
+      "path": "docs/api/fubini_study.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52324992cc6417e226afd1d480d3544d29f9697",
+      "size": 42,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/a52324992cc6417e226afd1d480d3544d29f9697"
+    },
+    {
+      "path": "docs/api/harmonic.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c1bb256e7039efd6caa44d500a6b8d7b9ea6cc4",
+      "size": 336,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/7c1bb256e7039efd6caa44d500a6b8d7b9ea6cc4"
+    },
+    {
+      "path": "docs/api/losses.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c89757778dd25923ad33eb4484fd9f03c1b4d6f5",
+      "size": 43,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/c89757778dd25923ad33eb4484fd9f03c1b4d6f5"
+    },
+    {
+      "path": "docs/api/models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f5224c90eebc563b685fffef4ce7f07a86ed79",
+      "size": 109,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/12f5224c90eebc563b685fffef4ce7f07a86ed79"
+    },
+    {
+      "path": "docs/api/moduli_space.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "579af933d6564d67dd980bf65efcf62ef92f7796",
+      "size": 299,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/579af933d6564d67dd980bf65efcf62ef92f7796"
+    },
+    {
+      "path": "docs/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb0b5c1c74a8b85f639067d737530381ab975ea3",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/cb0b5c1c74a8b85f639067d737530381ab975ea3"
+    },
+    {
+      "path": "docs/examples/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c416847fac2d0c135b673de946e7841b9505a0d8",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/c416847fac2d0c135b673de946e7841b9505a0d8"
+    },
+    {
+      "path": "docs/examples/assets/spectral_arch.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e70a5f06890b33238aaf00b551d38567a27417b6",
+      "size": 403650,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e70a5f06890b33238aaf00b551d38567a27417b6"
+    },
+    {
+      "path": "docs/examples/cs_moduli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8979cb1100258facb52cb0ceeec0f6ef496a63b",
+      "size": 327,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/a8979cb1100258facb52cb0ceeec0f6ef496a63b"
+    },
+    {
+      "path": "docs/examples/curvature.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3e270ae3ce6c62542898b54d7e8e5505c2f7b8",
+      "size": 24228,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/9d3e270ae3ce6c62542898b54d7e8e5505c2f7b8"
+    },
+    {
+      "path": "docs/examples/harmonic.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b640952cee5fedda0d113682edb4cb2b0669569",
+      "size": 141429,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/2b640952cee5fedda0d113682edb4cb2b0669569"
+    },
+    {
+      "path": "docs/examples/metric_approx.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2606942dccf15f9a8dd8cbc470905ebe4b29207",
+      "size": 183288,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/c2606942dccf15f9a8dd8cbc470905ebe4b29207"
+    },
+    {
+      "path": "docs/examples/workflow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e328422de3924134c24dd3057c1d353b35fd80",
+      "size": 3253,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/75e328422de3924134c24dd3057c1d353b35fd80"
+    },
+    {
+      "path": "docs/faq.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff8c808eec8464ab4e1d3fc46cb559d425c7d357",
+      "size": 6862,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/ff8c808eec8464ab4e1d3fc46cb559d425c7d357"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00da788db8cea296a80b1dfa115928ec227a80c7",
+      "size": 2886,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/00da788db8cea296a80b1dfa115928ec227a80c7"
+    },
+    {
+      "path": "docs/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117b4ad5c43505f5788ba7de78f2a2e2afb30d73",
+      "size": 1958,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/117b4ad5c43505f5788ba7de78f2a2e2afb30d73"
+    },
+    {
+      "path": "docs/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e4bc60c0e4eb2489f503cc9492c48395626f5c5",
+      "size": 429,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/8e4bc60c0e4eb2489f503cc9492c48395626f5c5"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40b3c58e4890fe94c051b8b5380a9f83f0669708",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/40b3c58e4890fe94c051b8b5380a9f83f0669708"
+    },
+    {
+      "path": "examples/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "examples/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06ed384b6a7460af1418630c54bc81f2bfb96add",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/06ed384b6a7460af1418630c54bc81f2bfb96add"
+    },
+    {
+      "path": "examples/examples/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c416847fac2d0c135b673de946e7841b9505a0d8",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/c416847fac2d0c135b673de946e7841b9505a0d8"
+    },
+    {
+      "path": "examples/examples/assets/spectral_arch.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e70a5f06890b33238aaf00b551d38567a27417b6",
+      "size": 403650,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e70a5f06890b33238aaf00b551d38567a27417b6"
+    },
+    {
+      "path": "examples/examples/cs_moduli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8979cb1100258facb52cb0ceeec0f6ef496a63b",
+      "size": 327,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/a8979cb1100258facb52cb0ceeec0f6ef496a63b"
+    },
+    {
+      "path": "examples/examples/workflow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e328422de3924134c24dd3057c1d353b35fd80",
+      "size": 3253,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/75e328422de3924134c24dd3057c1d353b35fd80"
+    },
+    {
+      "path": "examples/poly_spec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "110b90a2e00bab6af3b851240b7f48792270b069",
+      "size": 13076,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/110b90a2e00bab6af3b851240b7f48792270b069"
+    },
+    {
+      "path": "examples/tian_yau",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3cd3d10c5ed24e0f8f37848d99a89de99d64a02",
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/trees/b3cd3d10c5ed24e0f8f37848d99a89de99d64a02"
+    },
+    {
+      "path": "examples/tian_yau/TY_KM_poly_spec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f7e664703a58ff0e42938a2e78d00247f5232e5",
+      "size": 9001,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/6f7e664703a58ff0e42938a2e78d00247f5232e5"
+    },
+    {
+      "path": "examples/tian_yau/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "examples/tian_yau/gen_metadata_TY.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac199d454f34026c767e875f937e3a90dbc92fe",
+      "size": 1361,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/eac199d454f34026c767e875f937e3a90dbc92fe"
+    },
+    {
+      "path": "examples/tian_yau/moduli_pg_TY.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae079a1857043f44368b00605d153b35e2810552",
+      "size": 2319,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/ae079a1857043f44368b00605d153b35e2810552"
+    },
+    {
+      "path": "examples/tian_yau/wp_moduli_scan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d830e1bdcea0d1c954b1c1df4cc60a71a5a2b40",
+      "size": 8197,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/0d830e1bdcea0d1c954b1c1df4cc60a71a5a2b40"
+    },
+    {
+      "path": "mkdocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c659de0d24697a859cd338b66b0911ee3650fb6a",
+      "size": 7792,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/c659de0d24697a859cd338b66b0911ee3650fb6a"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "634fcd6f3aa5bed690a8bfacc332273f84eb2a41",
+      "size": 1367,
+      "url": "https://api.github.com/repos/Justin-Tan/cymyc/git/blobs/634fcd6f3aa5bed690a8bfacc332273f84eb2a41"
+    }
+  ],
+  "truncated": false
+}

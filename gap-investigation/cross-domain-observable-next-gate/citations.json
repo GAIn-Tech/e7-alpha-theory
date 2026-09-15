@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/html/1304.1809v3",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "String loops correct also the gauge kinetic function",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/acloc.html",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Very accurate clocks can be constructed by locking an electronic oscillator to the frequency of an atomic transition.",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://arxiv.org/pdf/2305.08263",
+      "title": "",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "where V is a string-frame Calabi-Yau volume",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

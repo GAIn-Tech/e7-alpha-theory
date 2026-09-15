@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "exact_sympy_identities": {
+    "longitudinal_propagator": "0",
+    "contracted_Ward_vertex": "0",
+    "FP_vs_longitudinal_tadpole": "0",
+    "longitudinal_SV_numerator": "0"
+  },
+  "wrong_ghost_sign": "2*xi*(z1 + z2)",
+  "scope": "Rational polynomial identities only. Ward physical premises independently tested numerically. No Lean kernel evidence."
+}

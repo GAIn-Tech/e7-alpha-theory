@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "calculate.py": "142ab2432b4d44b7b1774d71e1097c99fae4011380f332e59c31084ca0b8cdf0",
+    "gauge_cutoff_checks.py": "5ef012b795f2d27802e03d48a1010d88261ca62ac249bbaffd3823f6b0b66b65",
+    "receipt.json": "1b41501febe695a3c291bffe9ffc4eeb7b247ab081900777acd657e87ca3ec6e",
+    "gauge-cutoff-receipt.json": "33d44f590e788f4b450c184a170fcc7dca0dc4c76297233d5c1d25c3a9d3d7fc",
+    "REPORT.md": "a618128c1c8ca14e2608f9f00693bd9d4d7486d33788370c3af9da8a4fba16d7",
+    "RELEASE_DISCLOSURE.md": "fb3cfba449183b7c2f5f4b59488267eac7eae2f1f0304678827a2e9d25f8965b",
+    "formalization.yaml": "4569ae709b99d670fbde33e41e6660b0872c8ec3ffec8d8c810337f8bf183238",
+    "run_checks.py": "5288fdbd3a3dc832be6886472c1396d2dd661b5479c45dec3f965851ead3abac"
+  }
+}

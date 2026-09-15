@@ -1,0 +1,71 @@
+PDF page 1
+~ 
+r . 
+~ .. 
+_.., .. 
+. 
+I -----" 
+-, 
+/"... 
+ABSTRACT 
+* 
+FERMION QUANTUM NUMBERS IN KALUZA-KLElN THEORY 
+Edward Witten 
+Joseph Henry Laboratories 
+Princeton University 
+Princeton, New Jersey 08544 
+October 1983 
+The problem of obtaining left-right aaymmetry of fermion quantum 
+numbers in Kaluza-Klein theory is discuased. 
+In the absence of elementary 
+gauge fields, a theorem by Atiyah and Hirzebruch states that the Dirac equa-
+tion in 4+n dimensions always leads to vector-like fermion quantum numbers in 
+four dimensions. 
+The proof of this theorem is sketched. 
+It is shown that 
+the same holds for the Rarita-Schwinger operator on homogeneous spaces but a 
+general impossibility theorem for the Rarita-Schwinger field is not proved. 
+(However, in view of the apparent restriction of aupergravity to d < 11 this 
+line of approach is severely constrained,) 
+Also discussed are eome Kaluza-
+Klein theories with elementary gauge fields, some difficulties in obtaining 
+maealeas charged scalars, and some speculations about the cosmological con-
+at ant. 
+* Research supported i.n part by the National Science Foundation under grant 
+No. PHYS0-19754. 
+-2-
+I. INTRODUCTION 
+Kaluza-Klein theory 1 has recently attracted increasing interest as a 
+program for unifying gauge interactions with gravity. 
+This theory can be 
+viewed 2 in terms of spontaneous SymQetry breaking, the compact and non-
+compact dimensions being on an equal footing as far as the laws of nature are 
+concerned, just as the photon and the massive vector $eSona are treated sym-
+metrically in the standard weak interaction models. 
+This simple observation 
+is one of the chief reasons for the revived interest 3 in. Kaluza-Klein theory. 
+One may start with a general relativistic theory in 4+n dimensions, and 
+assume the grand state to be K~KB, where M~ ia four dimensional Minkowaki 
+space and B is a compact apace. 
+Continuous symmetries of a* will always be 
+observed~ as gauge symmetries in the effective four dimensional world. 
+The 
+gauge fielda (which in general can be more numerous than the extra dimen-
+sions) originate in the normd mode expansion of the flu'ctuationa in the 4+n 
+dimensional metric tensor. 
+For instance, starting in eleven or more dimen-
+aione, one can ~.s obtain gauge fields of SU(3)l<SU(2)KU(l). 
+Huch of thie 
+paper will be devoted to the consequences of assuming that all observed gauge 
+forces originate in this way, as part of the metric tensor, from a theory 
+which originally had no elementary gauge fields. 
+However, thia is not necea-
+aarily the only attractive possibility. It might be equally attractive to 
+start with a unified theory (perhapa a aupergravity 6 or auperatring 7 theory) 
+that determines the original gauge group. 
+(For instance, one of the n•2 
+supergravity theories in ten dimensions requires the existence of a U(l) 
+gauge field.) 
+Our remarks in section VI will be relevant to such theories. 
+* I.e., transformations that leave fixed both the geometry of Band the 
+expectation values of any matter fields that may be present. 

@@ -1,0 +1,26 @@
+{
+  "canonical_replay_returncode": 0,
+  "certificate_sha256": "71b8f67fb6532f1d5bdbc23257a3c7e54543a55b2b88eb3c6ff27d84c1e1bc4f",
+  "charged_action_complete": false,
+  "invariant_neutral": 16,
+  "passed": true,
+  "ranks": [
+    0,
+    0,
+    0
+  ],
+  "shapes": [
+    [
+      12,
+      4
+    ],
+    [
+      14,
+      4
+    ],
+    [
+      14,
+      4
+    ]
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "passed": true,
+  "claim_boundary": "Rxi derivative transfer conditional on exact master identity and floating action Ward/kernel hypotheses; dimension-six example is a counterfamily, not declared matching data.",
+  "base_receipt_sha256": "1b41501febe695a3c291bffe9ffc4eeb7b247ab081900777acd657e87ca3ec6e",
+  "verifier_sha256": "5ef012b795f2d27802e03d48a1010d88261ca62ac249bbaffd3823f6b0b66b65",
+  "gauge_scan": [
+    {
+      "xi": 0,
+      "Pi_prime_over_epsilon_conditional": {
+        "real": 15.322138628321317,
+        "imag": 0.7045652596143875
+      },
+      "change_from_Landau": {
+        "real": 0.0,
+        "imag": 0.0
+      },
+      "wavefunction_abs": 15.33832925551384,
+      "epsilon_wavefunction_upper_tolerance_0p1": 0.006519614902910751,
+      "unphysical_thresholds": [
+        {
+          "type": "physical_G",
+          "t": 1.5000000000003542,
+          "xi_a": 0.0,
+          "threshold": 1.5000000000003542,
+          "distance": 4318.5
+        },
+        {
+          "type": "physical_G",
+          "t": 5.000000000000204,
+          "xi_a": 0.0,
+          "threshold": 5.000000000000204,
+          "distance": 4315.0
+        },
+        {
+          "type": "physical_G",
+          "t": 10.000000000000103,
+          "xi_a": 0.0,
+          "threshold": 10.000000000000103,
+          "distance": 4310.0
+        },
+        {
+          "type": "physical_G",
+          "t": 16.49999999999997,
+          "xi_a": 0.0,
+          "threshold": 16.49999999999997,
+          "distance": 4303.5
+        },
+        {
+          "type": "physical_G",
+          "t": 36.500000000000014,
+          "xi_a": 0.0,
+          "threshold": 36.500000000000014,
+          "distance": 4283.5
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 0.0,
+          "xi_b": 0.0,
+          "threshold": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 0.0,
+          "xi_b": 0.0,
+          "threshold": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 0.0,
+          "xi_b": 0.0,
+          "threshold": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 0.0,
+          "xi_b": 0.0,
+          "threshold": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 0.0,
+          "xi_b": 0.0,
+          "threshold": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 0.0,
+          "xi_b": 0.0,
+          "threshold": 0.0,
+          "distance": 4320.0
+        }
+      ],
+      "unphysical_poles": [
+        {
+          "a": 0.8619521939629209,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 1.0000000000000007,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 1.5000000000000018,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 5.000000000000009,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 10.0,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 16.5,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 25.000000000000018,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 34.80471447270375,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        },
+        {
+          "a": 36.50000000000003,
+          "xi_a": 0.0,
+          "distance": 4320.0
+        }
+      ],
+      "minimum_threshold_distance": 4283.5,
+      "minimum_pole_distance": 4320.0
+    },
+    {
+      "xi": 1,
+      "Pi_prime_over_epsilon_conditional": {
+        "real": 16.446883714923786,
+        "imag": 0.22454528723511866
+      },
+      "change_from_Landau": {
+        "real": 1.124745086602468,
+        "imag": -0.4800199723792689
+      },
+      "wavefunction_abs": 16.448416474489107,
+      "epsilon_wavefunction_upper_tolerance_0p1": 0.006079612597060412,
+      "unphysical_thresholds": [
+        {
+          "type": "physical_G",
+          "t": 1.5000000000003542,
+          "xi_a": 1.5000000000000018,
+          "threshold": 6.000000000000711,
+          "distance": 4313.999999999999
+        },
+        {
+          "type": "physical_G",
+          "t": 5.000000000000204,
+          "xi_a": 5.000000000000009,
+          "threshold": 20.000000000000426,
+          "distance": 4300.0
+        },
+        {
+          "type": "physical_G",
+          "t": 10.000000000000103,
+          "xi_a": 10.0,
+          "threshold": 40.000000000000206,
+          "distance": 4280.0
+        },
+        {
+          "type": "physical_G",
+          "t": 16.49999999999997,
+          "xi_a": 16.5,
+          "threshold": 65.99999999999994,
+          "distance": 4254.0
+        },
+        {
+          "type": "physical_G",
+          "t": 36.500000000000014,
+          "xi_a": 36.50000000000003,
+          "threshold": 146.00000000000009,
+          "distance": 4174.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 1.5000000000000018,
+          "xi_b": 1.5000000000000018,
+          "threshold": 6.000000000000007,
+          "distance": 4314.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 5.000000000000009,
+          "xi_b": 5.000000000000009,
+          "threshold": 20.000000000000036,
+          "distance": 4300.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 10.0,
+          "xi_b": 10.0,
+          "threshold": 40.0,
+          "distance": 4280.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 16.5,
+          "xi_b": 16.5,
+          "threshold": 66.0,
+          "distance": 4254.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 25.000000000000018,
+          "xi_b": 25.000000000000018,
+          "threshold": 100.00000000000007,
+          "distance": 4220.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 36.50000000000003,
+          "xi_b": 36.50000000000003,
+          "threshold": 146.0000000000001,
+          "distance": 4174.0
+        }
+      ],
+      "unphysical_poles": [
+        {
+          "a": 0.8619521939629209,
+          "xi_a": 0.8619521939629209,
+          "distance": 4319.138047806037
+        },
+        {
+          "a": 1.0000000000000007,
+          "xi_a": 1.0000000000000007,
+          "distance": 4319.0
+        },
+        {
+          "a": 1.5000000000000018,
+          "xi_a": 1.5000000000000018,
+          "distance": 4318.5
+        },
+        {
+          "a": 5.000000000000009,
+          "xi_a": 5.000000000000009,
+          "distance": 4315.0
+        },
+        {
+          "a": 10.0,
+          "xi_a": 10.0,
+          "distance": 4310.0
+        },
+        {
+          "a": 16.5,
+          "xi_a": 16.5,
+          "distance": 4303.5
+        },
+        {
+          "a": 25.000000000000018,
+          "xi_a": 25.000000000000018,
+          "distance": 4295.0
+        },
+        {
+          "a": 34.80471447270375,
+          "xi_a": 34.80471447270375,
+          "distance": 4285.195285527297
+        },
+        {
+          "a": 36.50000000000003,
+          "xi_a": 36.50000000000003,
+          "distance": 4283.5
+        }
+      ],
+      "minimum_threshold_distance": 4174.0,
+      "minimum_pole_distance": 4283.5
+    },
+    {
+      "xi": 10,
+      "Pi_prime_over_epsilon_conditional": {
+        "real": 24.98934608995546,
+        "imag": -4.356261456052065
+      },
+      "change_from_Landau": {
+        "real": 9.667207461634142,
+        "imag": -5.060826715666454
+      },
+      "wavefunction_abs": 25.36620649362173,
+      "epsilon_wavefunction_upper_tolerance_0p1": 0.003942252856182684,
+      "unphysical_thresholds": [
+        {
+          "type": "physical_G",
+          "t": 1.5000000000003542,
+          "xi_a": 15.000000000000018,
+          "threshold": 25.986832980506634,
+          "distance": 4294.013167019493
+        },
+        {
+          "type": "physical_G",
+          "t": 5.000000000000204,
+          "xi_a": 50.000000000000085,
+          "threshold": 86.62277660168476,
+          "distance": 4233.377223398315
+        },
+        {
+          "type": "physical_G",
+          "t": 10.000000000000103,
+          "xi_a": 100.0,
+          "threshold": 173.24555320336802,
+          "distance": 4146.754446796632
+        },
+        {
+          "type": "physical_G",
+          "t": 16.49999999999997,
+          "xi_a": 165.0,
+          "threshold": 285.8551627855564,
+          "distance": 4034.1448372144437
+        },
+        {
+          "type": "physical_G",
+          "t": 36.500000000000014,
+          "xi_a": 365.0000000000003,
+          "threshold": 632.3462691922921,
+          "distance": 3687.6537308077077
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 15.000000000000018,
+          "xi_b": 15.000000000000018,
+          "threshold": 60.00000000000007,
+          "distance": 4260.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 50.000000000000085,
+          "xi_b": 50.000000000000085,
+          "threshold": 200.00000000000034,
+          "distance": 4120.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 100.0,
+          "xi_b": 100.0,
+          "threshold": 400.0,
+          "distance": 3920.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 165.0,
+          "xi_b": 165.0,
+          "threshold": 660.0,
+          "distance": 3660.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 250.00000000000017,
+          "xi_b": 250.00000000000017,
+          "threshold": 1000.0000000000007,
+          "distance": 3319.999999999999
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 365.0000000000003,
+          "xi_b": 365.0000000000003,
+          "threshold": 1460.0000000000011,
+          "distance": 2859.999999999999
+        }
+      ],
+      "unphysical_poles": [
+        {
+          "a": 0.8619521939629209,
+          "xi_a": 8.619521939629209,
+          "distance": 4311.3804780603705
+        },
+        {
+          "a": 1.0000000000000007,
+          "xi_a": 10.000000000000007,
+          "distance": 4310.0
+        },
+        {
+          "a": 1.5000000000000018,
+          "xi_a": 15.000000000000018,
+          "distance": 4305.0
+        },
+        {
+          "a": 5.000000000000009,
+          "xi_a": 50.000000000000085,
+          "distance": 4270.0
+        },
+        {
+          "a": 10.0,
+          "xi_a": 100.0,
+          "distance": 4220.0
+        },
+        {
+          "a": 16.5,
+          "xi_a": 165.0,
+          "distance": 4155.0
+        },
+        {
+          "a": 25.000000000000018,
+          "xi_a": 250.00000000000017,
+          "distance": 4070.0
+        },
+        {
+          "a": 34.80471447270375,
+          "xi_a": 348.0471447270375,
+          "distance": 3971.9528552729626
+        },
+        {
+          "a": 36.50000000000003,
+          "xi_a": 365.0000000000003,
+          "distance": 3954.9999999999995
+        }
+      ],
+      "minimum_threshold_distance": 2859.999999999999,
+      "minimum_pole_distance": 3954.9999999999995
+    },
+    {
+      "xi": 100,
+      "Pi_prime_over_epsilon_conditional": {
+        "real": 60.774478765037635,
+        "imag": -45.79918614658655
+      },
+      "change_from_Landau": {
+        "real": 45.452340136716316,
+        "imag": -46.50375140620094
+      },
+      "wavefunction_abs": 76.09929514030794,
+      "epsilon_wavefunction_upper_tolerance_0p1": 0.0013140726180922593,
+      "unphysical_thresholds": [
+        {
+          "type": "physical_G",
+          "t": 1.5000000000003542,
+          "xi_a": 150.00000000000017,
+          "threshold": 181.5000000000041,
+          "distance": 4138.499999999996
+        },
+        {
+          "type": "physical_G",
+          "t": 5.000000000000204,
+          "xi_a": 500.0000000000009,
+          "threshold": 605.0000000000033,
+          "distance": 3714.999999999997
+        },
+        {
+          "type": "physical_G",
+          "t": 10.000000000000103,
+          "xi_a": 1000.0,
+          "threshold": 1210.0000000000011,
+          "distance": 3109.999999999999
+        },
+        {
+          "type": "physical_G",
+          "t": 16.49999999999997,
+          "xi_a": 1650.0,
+          "threshold": 1996.4999999999998,
+          "distance": 2323.5
+        },
+        {
+          "type": "physical_G",
+          "t": 36.500000000000014,
+          "xi_a": 3650.0000000000027,
+          "threshold": 4416.500000000003,
+          "distance": 96.50000000000273
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 150.00000000000017,
+          "xi_b": 150.00000000000017,
+          "threshold": 600.0000000000007,
+          "distance": 3719.999999999999
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 500.0000000000009,
+          "xi_b": 500.0000000000009,
+          "threshold": 2000.0000000000036,
+          "distance": 2319.9999999999964
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 1000.0,
+          "xi_b": 1000.0,
+          "threshold": 4000.0,
+          "distance": 320.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 1650.0,
+          "xi_b": 1650.0,
+          "threshold": 6600.0,
+          "distance": 2280.0
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 2500.000000000002,
+          "xi_b": 2500.000000000002,
+          "threshold": 10000.000000000007,
+          "distance": 5680.000000000007
+        },
+        {
+          "type": "GG_ghost_longitudinal",
+          "xi_a": 3650.0000000000027,
+          "xi_b": 3650.0000000000027,
+          "threshold": 14600.000000000011,
+          "distance": 10280.000000000011
+        }
+      ],
+      "unphysical_poles": [
+        {
+          "a": 0.8619521939629209,
+          "xi_a": 86.19521939629209,
+          "distance": 4233.8047806037075
+        },
+        {
+          "a": 1.0000000000000007,
+          "xi_a": 100.00000000000007,
+          "distance": 4220.0
+        },
+        {
+          "a": 1.5000000000000018,
+          "xi_a": 150.00000000000017,
+          "distance": 4170.0
+        },
+        {
+          "a": 5.000000000000009,
+          "xi_a": 500.0000000000009,
+          "distance": 3819.999999999999
+        },
+        {
+          "a": 10.0,
+          "xi_a": 1000.0,
+          "distance": 3320.0
+        },
+        {
+          "a": 16.5,
+          "xi_a": 1650.0,
+          "distance": 2670.0
+        },
+        {
+          "a": 25.000000000000018,
+          "xi_a": 2500.000000000002,
+          "distance": 1819.9999999999982
+        },
+        {
+          "a": 34.80471447270375,
+          "xi_a": 3480.471447270375,
+          "distance": 839.5285527296251
+        },
+        {
+          "a": 36.50000000000003,
+          "xi_a": 3650.0000000000027,
+          "distance": 669.9999999999973
+        }
+      ],
+      "minimum_threshold_distance": 96.50000000000273,
+      "minimum_pole_distance": 669.9999999999973
+    }
+  ],
+  "dimension6_counterfamily": {
+    "potential": "epsilon(3 r^2-180 M^2)^2+c6 r^6/Lambda^2",
+    "delta_r_over_r": "-5(c6/epsilon)(M/Lambda)^2",
+    "relative_mass_shift_at_shifted_vacuum": "10(c6/epsilon)(M/Lambda)^2",
+    "epsilon_lower_bound_tolerance_0p1": "100 abs(c6) (M/Lambda)^2",
+    "unit_c6_minimum_Lambda_over_M_for_nonempty_0p1_window": 365.36526345284557,
+    "scope": "first order in c6 M2/(epsilon Lambda2), sign-indefinite unknown c6; no c6 value asserted for actual model"
+  },
+  "negative_controls": {
+    "wrong_epsilon_order_ratio_at_1e_minus_7": 10000000.0,
+    "omit_stationary_shift_dimension6_relative_coefficient": 25.0,
+    "correct_stationary_dimension6_relative_coefficient": 10.0,
+    "xi_independent_wavefunction_rejected": true,
+    "epsilon1_fails_shift_tolerance": true,
+    "Lambda_equals_M_unit_c6_has_no_0p1_joint_window": true
+  }
+}

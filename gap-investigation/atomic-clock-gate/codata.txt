@@ -1,0 +1,37 @@
+CODATA Value:    inverse fine-structure constant
+Constants
+Topics:
+Values
+Energy
+Equivalents
+Searchable
+Bibliography
+Background
+Constants
+Bibliography
+Constants,
+Units &
+Uncertainty
+home page
+Click symbol for equation
+inverse fine-structure constant
+Numerical value
+137.035 999 177
+Standard uncertainty
+0.000 000 021
+Relative standard uncertainty
+1.6 x 10
+-10
+Concise form
+137.035 999 177(21)
+Click
+here
+for
+correlation coefficient
+of this constant with other constants
+Source: 2022 CODATA
+recommended values
+Definition of
+uncertainty
+Correlation coefficient with
+any other constant

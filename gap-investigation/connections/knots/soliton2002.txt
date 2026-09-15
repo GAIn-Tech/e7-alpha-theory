@@ -1,0 +1,310 @@
+
+--- PAGE 1 ---
+arXiv:hep-th/0212053v1  4 Dec 2002
+CHIRALITY AND FERMION NUMBER
+IN A KNOTTED SOLITON BACKGROUND
+Lisa Freyhult and Antti J. Niemi
+Department of Theoretical Physics, Uppsala University
+P.O. Box 803, S-75108, Uppsala, Sweden
+We consider the coupling of a single Dirac fermion to the three component unit vector
+ﬁeld which appears as an order parameter in the Faddeev model. Classically, the coupling
+is determined by requiring that it preserves a certain local frame independence. But
+quantum mechanically the separate left and right chiral fermion number currents suﬀer
+from a frame anomaly. We employ this anomaly to compute the fermion number of a
+knotted soliton. The result coincides with the self-linking number of the soliton. In
+particular, the anomaly structure of the fermions relates directly to the inherent chiral
+properties of the soliton. Our result suggests that interactions between fermions and
+knotted solitons can lead to phenomena akin the Callan-Rubakov eﬀect.
+Supported by NFR Grant F-AA/FU 06821-308
+E-mail: FREYHULT@TEORFYS.UU.SE, NIEMI@TEORFYS.UU.SE
+
+
+--- PAGE 2 ---
+Knotted solitons [1] are present in a variety of ﬁeld theory models that appear both
+in high energy physics [2] and condensed matter physics [3]. A canonical example of a
+Lagrangian that describes knotted solitons is the relativistic Faddeev model [4]
+L = (∂µ⃗n)2 −Λ(⃗n · ∂µ⃗n × ∂ν⃗n)2
+(1)
+Here na is a three component vector ﬁeld, with⃗n ·⃗n = 1. For a static ﬁnite energy
+conﬁguration na determines a mapping R3 ∼S3 →S2. Such mappings are classiﬁed
+by π3(S2) ∼Z which is computed by the Hopf invariant of na. The Hopf invariant of
+na also coincides with the self-linking number of the knotted soliton, it can be either
+positive or negative reﬂecting the chirality of the knot [1].
+In [2] it has been proposed that the Lagrangian (1) approximates the infrared limit of
+the four dimensional SU(2) Yang-Mills theory. Since a Yang-Mills theory usually couples
+to fermions, it should be interesting to consider also fermions in interaction with (1).
+Furthermore, the fermion number current of a knotted soliton is an important quantity
+in condensed matter physics where it couples to the Maxwellian electromagnetic ﬁeld.
+In the present Letter we shall compute the fermion number [5] of a knotted soliton
+in the Faddeev model (1). For this we need to determine how na couples to a fermionic
+ﬁeld. Previously such couplings have been considered in the context of supersymmetric
+O(3) nonlinear sigma-models. There, the coupling between a three component vector
+ﬁeld na and its supersymmetry partner, a three component fermion ψa, is commonly
+introduced by imposing the condition naψa = 0; See e.g. [6]. Here we are interested
+in the coupling of na to a single Dirac fermion with no supersymmetry. For this we
+introduce an explicit realization of na, viewing it as a unit normal to a sphere S2
+n ∈R3,
+na =
+
+
+
+cos φ sin θ
+sin φ sin θ
+cos θ
+
+
+= Oa
+bub
+3 =
+
+
+
+cos φ cos θ
+−sin φ
+cos φ sin θ
+sin φ cos θ
+cos φ
+sin φ sin θ
+−sin θ
+0
+cos θ
+
+
+
+
+
+
+0
+0
+1
+
+
+
+(2)
+where we interpret⃗n as a vector which is obtained by rotating the unit vector⃗u3 =
+(0, 0, 1) with the SO(3) matrix Oa
+b. We also introduce two unit vectors⃗e1 and⃗e2 which
+are tangent to the sphere S2
+n. These vectors can be obtained similarly, by rotating the
+unit vectors⃗u1 = (1, 0, 0) and⃗u2 = (0, 1, 0) with the matrix Oa
+b,⃗
+e± =
+1
+√
+2(⃗e1 ± i⃗e2) =
+1
+√
+2
+
+
+
+cos φ cos θ ∓i sin φ
+sin φ cos θ ± i cos φ
+−sin θ
+
+
+e±iX ≡V±
+(3)
+Here X is an angle that speciﬁes the orientation of the combinations⃗e± with respect to
+the Oa
+b rotation of the canonical basis vectors⃗u1,2. A priori there is no reason to select
+X = 0. Instead, this variable determines an inherent degree of freedom that we have in
+deﬁning an orthonormal basis on the tangent plane of S2
+n.
+1
+
+
+--- PAGE 3 ---
+The last relation in (3) interprets⃗e± as 3 × 1 complex matrices V±, with⃗e± as
+the single vertical matrix column. These matrices have the properties V †
+± V± = 1 and
+V±V †
+± = P± with P± the projection operators to the chiral subspaces which are spanned
+by⃗e±. Consequently we can employ V± to deﬁne two (chiral) spin connections A±
+µ [7],
+A±
+µ dxµ = V †
+±dV± = ∓i(cos θdφ −dX )
+(4)
+Together with the ensuing curvatures
+F ± = dV †
+± (1 −P±)dV± = ±i sin θdθ ∧dφ = ± i
+2⃗n · d⃗n ∧d⃗n
+(5)
+we obtain for the Hopf invariant of na
+QH =
+1
+8π2
+Z
+A± ∧F ± =
+1
+8π2
+Z
+sin θdθ ∧dφ ∧dX
+(6)
+which computes the self-linking number of the knotted soliton na. We note that (6)
+relates the angular variable X in (3) to a coordinate variable for the arc-length along
+the knotted soliton. Clearly, X must be nontrivial whenever the Hopf-invariant is non-
+vanishing i.e. whenever na forms a knot or a link. We also note that the Hopf invariant
+can be either positive or negative. This reﬂects the inherent chiral structure of knotted
+solitons, see [8] for a detailed description.
+Consider a standard four-dimensional Dirac fermion ψD. Since the knotted solitons
+have a chiral structure which is reﬂected by (4), we also decompose ψD into its right
+resp. left chiral Weyl components,
+ψD =
+ ψ+
+ψ−
+
+with γ5ψ± = ±ψ±. We then couple ψD and na by minimally coupling the chiral compo-
+nents ψ± to the ensuing spin connections A±
+µ . The interaction Lagrangian is
+Lint = ig+A+
+µ ψ†
++¯σµψ+ −ig−A−
+µ ψ†
+−σµψ−= ig+Aµj+
+µ −ig−Aµj−
+µ
+(7)
+where Aµ = A+
+µ = −A−
+µ and g± are dimensionless coupling constants that we shall specify
+shortly. Clearly, this is the simplest natural coupling of ψD with the degrees of freedom
+in na which is manifestly invariant under global SO(3) rotations of na. Furthermore,
+we note that at the classical level the coupling is also invariant under local rotations
+of the⃗e± frame, when compensated by a U(1) phase redeﬁnition of ψ±. (Notice that
+the global SO(3) rotation invariance of na must become broken when (1) describes the
+infrared limit of Yang-Mills theory. Here we assume that this symmetry breaking is
+extrinsic to fermions.)
+2
+
+
+--- PAGE 4 ---
+The fermion number of the knotted soliton is the space integral of the summed time
+component of the (properly normal ordered) fermion currents in (7)
+N =
+Z
+< ¯ψDγ0ψD > =
+Z
+<j+
+0 + j−
+0 > = N+ + N−
+(8)
+In order to compute (8) we consider the pertinent Dirac Hamiltonian in a representation
+of γ-matrices where γ0 = σ1 ⊗1, γi = iσ2 ⊗σi and γ5 = σ3 ⊗1 so that
+H =
+ iσi(∂i + g+Ai)
+0
+0
+−iσi(∂i −g−Ai)
+
+(9)
+(Recall that Aµ = A+
+µ = −A−
+µ .) We note that at the quantum level the separate right
+and left chiral components j±
+µ of the fermion number current do suﬀer from an equal
+size but opposite sign anomaly under the U(1) frame rotation⃗
+e± →e±iϕ⃗e±
+(10)
+This anomaly is
+∂µjµ
++ = −∂µjµ
+−= −
+1
+32π2ǫµνρσFµνFρσ = −
+1
+16π2∂µ(ǫµνρσAνFρσ)
+(11)
+But for consistency the coupling between ψD and na must conserve the fermion number
+current also at the quantum level.
+According to (4) this implies that we must set
+g+ = −g−in (9). The fermion number is then a conserved quantity also in the quantum
+theory.
+The Hamiltonian (9) and γ5 commute, Hγ5 = γ5H. Consequently we can choose all
+energy eigenstates of H to have a deﬁnite chirality. Furthermore, since γ0γ5H = −Hγ0γ5
+the spectrum of (9) is symmetric which implies that the η-invariant of H vanishes. Thus
+the sole contribution to the fermion number (8) of a knotted soliton comes from a
+spectral ﬂow in (9) [5]. For this we recall the anomaly (11). With it, we compute the
+spectral ﬂow contribution to the fermion number of a knotted soliton as follows: We ﬁrst
+introduce an adiabatic process where we interpolate between the desired knotted soliton
+na with a nontrivial Hopf invariant (6), and another conﬁguration with a vanishing Hopf
+invariant. The adiabatic interpolation is achieved e.g. by introducing a slowly varying
+function of time f(t) such that f(−∞) = 0 and f(+∞) = 1, and promoting the spin
+connections to t-dependent ﬁelds for example by deﬁning
+A±
+i (t)dxi = ∓i(cos θdφ −f(t)dX )
+(12)
+with the time components A±
+0 = 0.
+Here θ, φ and X are t-independent ﬁelds that
+specify the desired static knotted soliton proﬁle na. When t →+∞(12) yields the spin
+connections that correspond to the desired knotted soliton na with its nontrivial Hopf
+3
+
+
+--- PAGE 5 ---
+invariant (6). But for t →−∞we have spin connections for which the Hopf invariant
+(6) vanishes; Obviously, for the adiabatic t-evolution the vector na can not be deﬁned
+in a smooth manner. But the connection (12) and the Dirac Hamiltonian (9) are well
+deﬁned for all t which is quite suﬃcient for the present computation. When we integrate
+the corresponding anomaly equations (11) over space-time the only contribution comes
+from R3 at t = +∞which yields for the chiral fermion numbers in the background of
+the desired knotted soliton
+N+ = −N−= −
+1
+16π2
+Z
+d3xǫijkAiFjk = −QH
+(13)
+so that during the adiabatic process we have ∆N+ = −∆N−= QH. This means that the
+adiabatic formation of the knotted soliton is accompanied by a nontrivial spectral ﬂow,
+where |QH| positive (negative) chirality eigenvalues of H cross from negative to positive
+values and an equal number of oppositely chiral eigenvalues of H cross symmetrically to
+the opposite direction.
+We assume that the initial Dirac vacuum at t = −∞is normal ordered canonically,
+with all of the E < 0 energy levels of H ﬁlled. When t = +∞we have then created
+|QH| physical chiral fermions, in addition of the knotted soliton. Since the spectrum
+of H is symmetric we have also formed |QH| empty, oppositely chiral negative energy
+levels. These empty negative energy levels in the Dirac sea are then responsible for the
+fermion number of the knotted soliton, which also coincides with its self-linking number.
+In particular, we conclude that during the entire process the total chirality and fermion
+number remain conserved.
+More generally, the present considerations suggest interaction processes where the
+initial states consist of an incoming massless negative (or positive) chirality fermion in
+addition of a knotted soliton with self-linking number QH, and the ﬁnal states consist
+of an oppositely charged, oppositely chiral fermion in addition of a knotted soliton with
+self-linking number QH ±2. Such processes could then lead to an excess in the number of
+chiral fermions e.g. in the Universe, together with oppositely chiral (knotted) solitons.
+In conclusion, we have coupled the Faddeev model to a single Dirac fermion and
+computed the ensuing fermion number of a knotted soliton. The result coincides with
+the self-linking number of the soliton, which is evaluated by the Hopf invariant. The
+computation employs the abelian chiral anomaly of the fermion, which we also ﬁnd to
+be consistent with the inherent chiral structure of the knotted soliton. Since Maxwellian
+electromagnetism couples directly to the fermion number current, our result suggests
+that in condensed matter physics applications the knotted solitons can be charged. In
+high energy physics applications where the Faddeev model supposedly describes the low
+energy limit of a pure Yang-Mills theory, our results can be used to inspect various prop-
+erties of knot-fermion interactions. Indeed, the non-vanishing of the fermion number of
+4
+
+
+--- PAGE 6 ---
+a knotted soliton and its intimate relation with the fermionic chiral structure in fermion-
+knot interaction processes provides a basis for interesting phenomenological scenarios,
+inclusive a version of the Callan-Rubakov eﬀect.
+A.Niemi thanks Dmitri Diakonov for discussions and Nordita for hospitality during
+this work.
+References
+[1] L. Faddeev and A. J. Niemi, Nature 387 (1997) 58
+[2] L. Faddeev and A.J. Niemi, Phys. Rev. Lett. 82 (1999) 1624;
+[3] E. Babaev, L.D. Faddeev and A.J. Niemi, Phys. Rev. B65 (2002) 100512
+[4] L. Faddeev, Quantisation of solitons, preprint IAS Print-75-QS70 ,1975; and in Ein-
+stein and several contemporary tendencies in the ﬁeld theory of elementary particles
+in Relativity, quanta and cosmology vol. 1, M. Pantaleo and F. De Finis (eds.),
+Johnson Reprint, 1979
+[5] A.J. Niemi and G.W. Semenoﬀ, Phys. Rept. 135 (1986) 99
+[6] E.A. Bergshoeﬀ, R.I. Nepomechie and H.J.Schnitzer, Nucl. Phys. B249 (1985) 93
+[7] M.S. Narasimhan and T.R. Ramadas, Commun. Math. Phys. 67 (1979) 121
+[8] J. Hietarinta and P. Salo, Phys. Lett. B451 (1999) 60
+5

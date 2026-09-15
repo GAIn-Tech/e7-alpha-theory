@@ -1,0 +1,2825 @@
+A Three - Generation Calabi-Yau Manifold
+with Small Hodge Numbers
+Volker Braun1, Philip Candelas2,
+and
+Rhys Davies3
+1Dublin Institute for Advanced Studies
+10 Burlington Road
+Dublin 4, Ireland
+2Mathematical Institute
+University of Oxford
+24-29 St. Giles’, Oxford OX1 3LB, UK
+3Rudolf Peierls Centre for Theoretical Physics
+University of Oxford
+1 Keble Road, Oxford OX1 4NP, UK
+Abstract
+We present a complete intersection Calabi-Yau manifold Y that has Euler number −72
+and which admits free actions by two groups of automorphisms of order 12. These are
+the cyclic group Z12 and the non-Abelian dicyclic group Dic3. The quotient manifolds
+have χ = −6 and Hodge numbers (h11, h21) = (1, 4). With the standard embedding
+of the spin connection in the gauge group, Y gives rise to an E6 gauge theory with
+3 chiral generations of particles. The gauge group may be broken further by means
+of the Hosotani mechanism combined with continuous deformation of the background
+gauge ﬁeld. For the non-Abelian quotient we obtain a model with 3 generations with
+the gauge group broken to that of the standard model. Moreover there is a limit in
+which the quotients develop 3 conifold points. These singularities may be resolved
+simultaneously to give another manifold with (h11, h21) = (2, 2) that lies right at the
+tip of the distribution of Calabi–Yau manifolds.
+This strongly suggests that there
+is a heterotic vacuum for this manifold that derives from the 3 generation model on
+the quotient of Y . The manifold Y may also be realised as a hypersurface in the toric
+variety. The symmetry group does not act torically, nevertheless we are able to identify
+the mirror of the quotient manifold by adapting the construction of Batyrev.
+arXiv:0910.5464v1  [hep-th]  28 Oct 2009
+
+Contents
+1
+Introduction
+1
+2
+A Manifold with a χ = −6 Quotient
+7
+2.1
+The manifold Y 8,44 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2.2
+The group representations of Dic3 . . . . . . . . . . . . . . . . . . . . . . . .
+11
+2.3
+Group action on homology . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3
+Rudiments of the Phenomenology
+15
+3.1
+Deforming the gauge bundle . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+3.2
+Breaking E6 by the Hosotani mechanism . . . . . . . . . . . . . . . . . . . .
+17
+3.2.1
+Model 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+3.2.2
+Model 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+4
+Symmetries of Y 8,44 and Y 8,44/G
+22
+4.1
+Symmetries of dP6×dP6
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+4.2
+Symmetries of the quotient . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+5
+Conifold Transition to a Manifold with (h11, h21) = (2, 2)
+26
+5.1
+The parameter space of 3-nodal quotients YG . . . . . . . . . . . . . . . . . .
+26
+5.2
+The nodes and their resolution . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+6
+Toric Considerations and the Mirror Manifold
+32
+6.1
+Toric generalities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+6.2
+The Newton polyhedron and its dual . . . . . . . . . . . . . . . . . . . . . .
+33
+6.3
+Triangulations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+6.4
+The mirror manifold
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+7
+The Abelian Quotient
+43
+7.1
+Group action on homology . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+7.2
+Z12 ﬂux lines
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+A Alternative Representations
+44
+B Deformation of the Tangent Bundle
+45
+
+1.
+Introduction
+Here we report the existence of a Calabi–Yau manifold Y with Euler number −72 that
+admits freely acting symmetry groups of order 12. Thus the quotients are smooth and have
+Euler number −6. The two symmetry groups1 are Z12 and a non-Abelian group G which is
+isomorphic to the dicyclic group2 Dic3 and for both these groups the quotient manifold has
+Hodge numbers (h11, h21) = (1, 4). With the standard embedding of the spin connection
+in the gauge group, the quotient manifolds correspond to string theory vacua with gauge
+symmetry E6 and 3 net chiral generations of particles.
+Two avenues are open to break the gauge symmetry further.
+The ﬁrst is the Hosotani
+mechanism [1], whereby one assigns vacuum expectation values to Wilson line operators cor-
+responding to homotopically non-trivial paths on the quotient manifold. The resulting gauge
+group is then the subgroup of E6 that commutes with these Wilson line operators. The other
+avenue is to choose a heterotic vacuum by deforming the structure group of the background
+gauge ﬁeld away from the SU(3) that is provided by the standard embedding of the spin con-
+nection in the gauge group. Neither mechanism, on its own, is able to break the symmetry
+down to the group SU(3)×SU(2)×U(1) of the standard model [2, 3]. However by combin-
+ing the two mechanisms, for the quotient with non-Abelian fundamental group G, the gauge
+group may be reduced to that of the standard model. The way this comes about is that we
+can start with the standard embedding, with 3 net chiral families of E6. The Hosotani mech-
+anism can break the gauge group in basically two ways to either SU(3)×SU(2)×U(1)×U(1)′
+or to SU(4)×SU(2)×U(1), the reduction in the rank of the gauge group being due to the
+fact that the fundamental group of the quotient is non-Abelian. To break the remaining un-
+wanted gauge symmetry it is necessary to give a VEV to some standard model singlet ﬁeld(s),
+a process which we understand to being equivalent to deforming the background gauge ﬁeld.
+This process is tightly constrained precisely because we are dealing with a manifold with few
+parameters. For the deformation to be possible requires the existence of a vector-like pair of
+such ﬁelds. It transpires that these exist for the case of SU(4)×SU(2)×U(1), where we can
+give a VEV to a ﬁeld transforming in the (4, 1) 1
+2 representation of the gauge group. This
+leads to a unique choice of Wilson lines, and hence massless spectrum. If, however, we ﬁrst
+break to SU(3)×SU(2)×U(1)×U(1)′ we ﬁnd, despite the fact that this group appears more
+promising at the outset, that the deformations required to give the appropriate VEV’s to
+the exotic standard model singlets do not, in fact, exist.
+Heterotic vacua are of great interest in and of themselves. However we ﬁnd it interesting
+also that, having started with a vacuum corresponding to the standard embedding of the
+spin connection in the gauge group, we have been led to deform to a heterotic vacuum. This
+1In the following, we will denote the cyclic group of order n as Zn.
+2There are three non-Abelian groups of order 12. These are Dih6, the group of symmetries of a regular
+hexagon, the alternating group A4, which is also the symmetry group of a regular tetrahedron, and the group
+Dic3 which is neither of the foregoing. We will describe this group in detail in Subsection 2.1.
+1
+
+point takes perhaps additional signiﬁcance from the fact that the manifold YG lies almost at
+the tip of the distribution of Calabi–Yau manifolds and is closely related to a manifold with
+(h11, h21) = (2, 2) which occupies a remarkable position at the very tip of the distribution,
+in a way that we pause to explain.
+A Calabi–Yau manifold is partially characterised by the Hodge numbers (h11, h21). These
+are topological numbers which also count the number of parameters that deform the K¨ahler
+class and the complex structure of the manifold. For the purposes of the present discussion,
+let us call the sum h11 + h21 the height of the manifold. The height of YG is 5 and, together
+with its mirror, these are the only manifolds known with this height. The only manifolds
+known with smaller height all have height 4; with this height manifolds are known with
+(h11, h21) = (1, 3), (2, 2) and (3, 1). A notable feature of the model presented here is therefore
+that three generations are achieved in an economical manner, since the height is the least
+possible for a ‘3-generation’ manifold with the standard embedding. The 3-generation Yau
+manifold [4, 5], by contrast, has (h11, h21) = (6, 9) (for a discussion of the phenomenology
+of this model see [6, 7]), and a manifold presented in [8] has (h11, h21) = (5, 8) so is little
+better, in this sense. There is no shortage, as such, of Calabi–Yau manifolds with |χ| = 6
+since there is also a manifold with Hodge numbers (10, 13) and many manifolds with Hodge
+numbers (h, h + 3) and (h + 3, h) for h ≥15 that are provided by constructions of manifolds
+as hypersurfaces in weighted projective spaces and in toric varieties [9, 10, 11]. Calabi–
+Yau manifolds admitting freely-acting discrete symmetries seem to be rare, and those cases
+where the group is large seem to be very rare indeed. The remarkable features of the manifold
+presented here are the related facts that |χ| = 6 is achieved by Hodge numbers that are so
+small and that the fundamental group is large, by the standards of these groups.
+The manifold YG has 4 (= h21) parameters that correspond to its complex structure. The
+covering manifold Y has symmetries beyond those of G, these are not freely acting but are
+nevertheless symmetries, and some of these descend to the quotient YG. For generic values
+of the complex structure parameters the symmetry is Z2 but there are loci in the parameter
+space where the symmetry is enhanced.
+There is a two parameter subvariety, Γ, of the
+parameter space for which the symmetry group is maximally enhanced to the dihedral group
+Dih6. On Γ the generic variety YG is not smooth but has three conifold points. It is a
+striking fact that these singularities may be simultaneously resolved to give a new manifold
+bYG with (h11, h21) = (2, 2) which is, as we have noted, currently at the very tip of the
+distribution. This transition suggests that there is a heterotic model associated with bYG,
+with three generations, that derives from the standard embedding of the gauge group in the
+tangent bundle via transgression [12]. The idea being that YG makes a conifold transition
+to bYG while the bundle makes a ‘smooth’ transition to a bundle on bYG that derives from the
+tangent bundle on YG. Thus we are led from a 3-generation model that derives from the
+standard embedding on YG to a 3-generation heterotic model on the manifold bYG.
+2
+
+-60
+-40
+-20
+0
+20
+40
+60
+0
+5
+10
+15
+20
+25
+30
+-60
+-40
+-20
+0
+20
+40
+60
+0
+5
+10
+15
+20
+25
+30
+Figure 1: The very tip of the distribution of Calabi–Yau manifolds showing the
+manifolds that have h11+h21 ≤30. The Euler number χ = 2(h11−h21) is plotted
+horizontally, the height h11+h21 is plotted vertically and the oblique axes bound
+the region h11 ≥0, h21 ≥0. The quotients Y/G with |G| = 12, that we discuss
+here, have (h11, h21) = (1, 4) these and their corresponding mirrors are shown. The
+conifold transition between the manifolds with (h11, h21) = (1, 4) and (h11, h21) =
+(2, 2) is indicated by the red arrow. Manifolds with |χ| = 6 are distinguished by red
+dots and there are many of these for h11 +h21 > 30. The manifolds indicated in this
+plot with h11+h21 ≤24 are identiﬁed in [8, Table 9].
+The transgression that we propose is shown in Figure 1 with an arrow. The ﬁgure illustrates
+the fact that the manifolds that we are discussing lie at the very tip of the distribution.
+There are many aspects of the phenomenology of these models that we do not discuss here.
+Notably absent is a discussion of the Yukawa couplings; however it is scarcely possible to
+discuss these without ﬁrst achieving some understanding of the parameter space of the model
+3
+
+and of the nature of the manifold that is the mirror to YG and this is the aim of the present
+work. A discussion of the Yukawa couplings and the quantum corrections to the picture
+presented here is a subject to which we hope to return.
+The manifold Y can be represented as a CICY (complete intersection Calabi–Yau manifold)
+in several ways, and for two of these the group actions can be realised as linear transforma-
+tions of the embedding space. The corresponding conﬁguration matrices are
+P2
+P2
+P2
+P2
+
+
+1 1 1
+0
+0
+0
+0 1 1 1
+1 1 1
+0
+0
+0
+0 1 1 1
+
+
+,
+P1
+P1
+P1
+P1
+P1
+P1
+
+
+1
+0 1
+1
+0 1
+1
+0 1
+0 1 1
+0 1 1
+0 1 1
+
+
+(1.1)
+The reader unfamiliar with the notation is referred to Section 2 for an explanation. It suﬃces
+here to recall that the statement that Y corresponds to the ﬁrst conﬁguration is the state-
+ment that Y can be realised in (P2)4 as the complete intersection of 5 polynomials whose
+multidegrees, in the homogeneous coordinates of the four P2’s, are given by the columns of
+the matrix. The same manifold can also be realised in (P1)6 as the complete intersection of
+three polynomials with the stated multidegrees. These conﬁgurations give us a very explicit
+description of the manifold Y in terms of polynomials.
+Compactiﬁcations on Calabi–Yau manifolds typically lead to a large numbers of massless
+neutral scalars in the low energy theory that are associated with the deformations of the
+gauge bundle on the manifold. In this case we begin with the gauge bundle equal to the
+tangent bundle, and have a heuristic argument based on the fact that the conﬁguration
+matrices that describe Y are all multilinear that suggests that the tangent bundle deforms
+with few parameters. We can at least show that there are no deformations of the tangent
+bundle that arise as deformations of the diﬀerentials of the deﬁning polynomials.
+If one thinks carefully about the conﬁgurations (1.1), another picture of Y emerges. The
+manifold can be realised as a hypersurface, that is by a single equation, in a space S×S where
+S is the twofold deﬁned by two bilinear equations in P2×P2 or a single trilinear equation in
+P1×P1×P1. The surface speciﬁed in this way is the del Pezzo3 surface dP6. The manifold
+Y is then an anti-canonical hypersurface inside the fourfold S×S. The surface S = dP6 is
+toric so we ﬁnd ourselves within the general framework of toric hypersurfaces and reﬂexive
+polyhedra [13]. It turns out that the symmetries of Y are also best understood as descending
+from symmetries of dP6.
+For a review of constructions of Calabi–Yau manifolds see [12, 14], which includes a de-
+scription of the construction of CICY manifolds. The construction of this class of manifolds
+3Note that we will be following the mathematical tradition and label the del Pezzo surfaces dPd by their
+degree d. The blow-up of P2 at n generic points is a del Pezzo surface of degree d = 9 −n.
+4
+
+was inspired by its best known member, which is Yau’s three-generation manifold. A list of
+almost 8, 000 manifolds was constructed in this way [15]. Although a rather special class of
+manifolds (the Euler numbers, for example, all fall in the range −200 ≤χ ≤0) these provide
+many examples of Calabi–Yau manifolds that admit freely acting symmetries. The list was
+searched [16, 17] for manifolds that admit a freely acting symmetry such that the quotient
+has χ = −6 and in these searches, to the chagrin of one of the present authors, the manifold
+presented here, which occurs 3 times in the list of [15] (two of these presentations are the
+conﬁgurations displayed above, the third is a hybrid of the two), was wrongly rejected. The
+manifold has subsequently lain, largely unremarked, in the list for more than 20 years. In [16]
+one of the presentations of this manifold was recognised as admitting a symmetry group Z3.
+More recently [8] it was recognised that the symmetry group could be promoted to Z6. The
+groups of order 12 ﬁnally came to light in the course of a recent project to classify all the
+freely acting symmetries for the manifolds of the CICY list. It transpires that, apart from
+the covering manifold of Yau’s three-generation manifold, the manifold presented here is the
+only one to admit a smooth quotient with χ = −6.
+The layout of the paper is as follows. In Section 2 we describe the covering manifold, the free
+group action by the group Dic3, and the relation to the del Pezzo surface dP6. In Section 3 we
+use this information to examine possible gauge symmetry breaking patterns and the resulting
+4D theories. We turn in Section 4 to explore the existence of additional discrete symmetries of
+the covering manifold which are not freely acting but nevertheless play a role in the low energy
+theory. Our main interest here is to identify the symmetries that survive as symmetries of
+the quotient manifold. One conclusion is that the quotient manifolds have a Z2-symmetry for
+all values of the complex structure parameters. Additional symmetries arise at various loci in
+the parameter space. The symmetry group of the quotient is a subgroup of Dih6 (the group
+corresponding to the symmetries of a regular hexagon) and is another non-Abelian group of
+order 12. There is a 2-dimensional subspace of the parameter space where the symmetry
+group of the quotient is the full group Dih6.
+The corresponding quotient varieties are,
+however, all singular and, generically, have three conifold points. These three-nodal varieties
+are especially interesting since they oﬀer the possibility of transgression to heterotic models
+with 3 generations based on manifolds with (h11, h21) = (2, 2) as discussed above.
+We take up in detail the issue of the 3-nodal varieties with symmetry Dih6 in Section 5.
+The nodes of the quotient derive from a very beautiful conﬁguration of 36 nodes on the
+covering space. The singularities of a nodal variety may be resolved locally to give a smooth
+complex manifold but it is not generally the case that the nodes may be resolved such that
+the resulting manifold is K¨ahler. In the present case however there is a conﬁguration of non-
+Cartier divisors that contain the nodes and by blowing up along these divisors we are able
+to show that there is a Calabi–Yau resolution in this case. In Section 6 we use the formalism
+of toric geometry to describe YG and its mirror, and demonstrate that, rather unexpectedly,
+the mirror also admits an action by the group G. We are fortunate to be able to do this
+5
+
+since, although the covering space Y is a hypersurface in a toric variety the symmetries of
+G do not act torically. Nevertheless, the structure of the reﬂexive polyhedra associated with
+Y is such that we are able to identify the mirror manifold of YG.
+While our main interest is with the case of the quotient by the non-Abelian group we present
+in Section 7 a brief account of the analysis for the Z12 quotient.
+Two appendices deal
+with an alternative presentation of the covering manifold and a demonstration that the
+tangent bundle of Y does not have any deformations that correspond to deformations of the
+diﬀerentials of the deﬁning polynomials.
+An account of the computer search for free group actions on CICY’s and their classiﬁcation
+will be presented elsewhere.
+6
+
+2.
+A Manifold with a χ = −6 Quotient
+2.1.
+The manifold Y 8,44
+The manifold that we shall denote by Y 8,44 is speciﬁed by the conﬁguration
+Y 8,44 =
+P2
+P2
+P2
+P2
+
+
+1 1 1
+0
+0
+0
+0 1 1 1
+1 1 1
+0
+0
+0
+0 1 1 1
+
+
+8,44
+−72
+x1j
+x3j
+x2j
+x4j
+p1
+q1
+r
+q2
+p2
+The manifold is deﬁned by 5 polynomials, that we denote by p1, p2, q1, q2, and r that act
+in (P2)4. We take coordinates xαj for the four P2, where the indices α and j take values
+in Z4 and Z3, respectively. The columns of the matrix correspond to the degrees of the
+polynomials in the coordinates of each space, in the order {p1, q1, r, q2, p2}. The diagram
+on the right encodes the same information and shows how the polynomials, represented by
+the blue dots, depend on the variables of the four P2’s, which correspond to the open red
+dots. The fact that the dots are all connected by single lines in the diagram corresponds to
+the fact that the polynomials are all multilinear. We begin by seeking equations that are
+covariant under the cyclic permutation of the four P2’s,
+g4 : xαj →xα+1,j ,
+p1 ↔p2 ,
+q1 ↔q2 ,
+r →r .
+For wj and zk homogeneous coordinates on P2×P2 deﬁne bilinear polynomials p and q by
+p(w, z) =
+X
+jk
+Ajk wjzk ,
+q(w, z) =
+X
+jk
+Bjk wjzk ,
+where the coeﬃcient matrices Ajk and Bjk are symmetric. Deﬁne also g4-invariant polyno-
+mials
+mijkℓ= 1
+4
+X
+α
+xα,i xα+1,j xα+2,k xα+3,ℓ.
+In terms of these quantities we may take deﬁning polynomials, for Y , of the form
+p1 = p(x1, x3) ,
+p2 = p(x2, x4)
+q1 = q(x1, x3) ,
+q2 = q(x2, x4)
+r =
+X
+ijkℓ
+Cijkℓmijkℓ.
+Note that the quantities mijkℓare cyclically symmetric in their indices so, in the deﬁnition
+of r, we take the sum over indices i, j, k, ℓto run over combinations that are identiﬁed up
+7
+
+to cyclic permutation and the coeﬃcients Cijkℓto be cyclically symmetric. Consider now a
+second symmetry
+g3 : xαj →ζ(−1)αj xαj,
+p1 →p1,
+p2 →p2,
+q1 →ζ q1,
+q2 →ζ2 q2,
+where ζ is a nontrivial cube root of unity. Covariance under g3 restricts the coeﬃcients that
+can appear in the deﬁning polynomials. We see that
+Ajk = 0 unless j + k ≡0
+mod 3
+Bjk = 0 unless j + k ≡2
+mod 3
+Cijkℓ= 0 unless
+i + k ≡j + ℓ
+mod 3 .
+Thus, removing overall scales, p and q are of the form
+p(w, z) = w0z0 + a (w1z2 + w2z1) ,
+q(w, z) = w1z1 + b (w0z2 + w2z0),
+while r is a linear combination of 9 of the mijkℓ
+r = c0 m0000 + c1 m1111 + c2 m2222 + c3 m0011 + c4 m0212
++ c5 m0022 + c6 m1122 + c7 m0102 + c8 m0121.
+(2.1)
+The freedom to redeﬁne the coordinates xαj is restricted by the action of g3 and g4. The
+remaining freedom allows only a two-parameter redeﬁnition
+(xα0, xα1, xα2) →(xα0, λ xα1, µ xα2)
+(2.2)
+which we may use to set the constants a and b that appear in p and q to unity. We may also
+redeﬁne r by multiples of the other polynomials. Let ˜p and ˜q be generic polynomials with
+the same degrees and covariance properties as p and q, that is
+˜p(w, z) = a1w0z0 + a2(w1z2 + w2z1) ,
+˜q(w, z) = b1w1z1 + b2(w0z2 + w2z0) .
+These provide a four-parameter freedom to redeﬁne r:
+r →r+
+
+˜p(x1, x3) p(x2, x4)+p(x1, x3) ˜p(x2, x4)
+
++
+
+˜q(x1, x3) q(x2, x4)+q(x1, x3) ˜q(x2, x4)
+
+.
+The coeﬃcients c2, c3 and c4 are unaﬀected by this process but we may use this freedom to
+eliminate the terms in eq. (2.1) with coeﬃcients c5, c6, c7 and c8, say. An overall scale is of
+no consequence so the resulting equation has four parameters. We summarise the present
+form of the polynomials as
+p1 = x10 x30 + x11 x32 + x12 x31 ,
+q1 = x11 x31 + x10 x32 + x12 x30 ,
+p2 = x20 x40 + x21 x42 + x22 x41 ,
+q2 = x21 x41 + x20 x42 + x22 x40 ,
+r = c0 m0000 + c1 m1111 + c2 m2222 + c3 m0011 + c4 m0212 .
+(2.3)
+8
+
+Consider again the coordinate transformations (2.2). We see that the equations p1, p2, q1 and
+q2 are invariant provided λµ = 1 and µ3 = 1. We take, therefore, λ = ζ and µ = ζ2. The poly-
+nomial r, however is not invariant since, under the transformation, mijkℓ→ζi+j+k+ℓmijkℓ.
+The eﬀect is equivalent to changing the coeﬃcients.
+In this way we see that there is a
+Z3-action on the coeﬃcients, and that we should identify
+(c0, c1, c2, c3, c4) ≃(c0, ζ c1, ζ2c2, ζ2c3, ζ2c4) .
+(2.4)
+Returning to the symmetries g4 and g3: these generate a group that we shall denote by G.
+Note that
+g4 g3 = g2
+3 g4 ,
+so the group is non-Abelian. This relation, however, permits the enumeration of the elements
+of the group as gm
+3 gn
+4 , 0 ≤m ≤2, 0 ≤n ≤3. Thus G has order 12 and is isomorphic to
+the dicyclic group Dic3. A fact that will be useful shortly is that the element g6 = g2
+3g2
+4
+generates a Z6 subgroup of G and that the elements of G may also be enumerated as gm
+6 gn
+4
+with 0 ≤m ≤5 and n = 0 or 1. The commutation relation above may be expressed as
+g4g3g−1
+4
+= g2
+3, so the group contains Z3 as a normal subgroup, and can be thought of as a
+semi-direct product Z3 ⋊Z4.
+gm
+3 gn
+4
+1
+g4
+g2
+4
+g3
+4
+g3
+g3 g4
+g3 g2
+4
+g3 g3
+4
+g2
+3
+g2
+3 g4
+g2
+3 g2
+4
+g2
+3 g3
+4
+gm
+6 gn
+4
+1
+g4
+g3
+6
+g3
+6 g4
+g2
+6
+g2
+6 g4
+g5
+6
+g5
+6 g4
+g4
+6
+g4
+6 g4
+g6
+g6 g4
+Order
+1
+4
+2
+4
+3
+4
+6
+4
+3
+4
+6
+4
+Table 1: The elements of the group Dic3 presented in the form gm
+3 gn
+4 , for 0 ≤m ≤2,
+0 ≤n ≤3, and gm
+6 gn
+4 , for 0 ≤m ≤5, n = 0, 1, together with the order of each element.
+In order to check for ﬁxed points of G note that if an element h has a ﬁxed point then so
+has hm for each m ≥1. The order of an element of G, that is not the identity, must divide
+the order of the group so can be 2, 3, 4, or 6. If an element h has order 4 then h2 has order 2
+and if it has order 6 then h3 has order 2. Hence it is enough to check the elements of order
+2 and 3 for ﬁxed points. The only elements of order 3 are g3 and g2
+3 and if g2
+3 has a ﬁxed
+point then so has g4
+3 = g3. Thus it suﬃces to check g3 and g2
+4, the latter being the unique
+element of order 2.
+A ﬁxed point of g3 is such that xαj takes one of the values {(1, 0, 0), (0, 1, 0), (0, 0, 1)}, for
+each α. Thus there are 34 ﬁxed points in the embedding space (P2)4. It is an easy check
+to see that these points do not coincide with simultaneous zeros of the deﬁning polynomials
+provided none of the coeﬃcients c2, c3, and c4 vanish.
+9
+
+A ﬁxed point of g2
+4 is such that x1j = x3j = wj and x2j = x4j = zj for some wj and zj that
+satisfy the equations
+p(w, w) = 0 ,
+p(z, z) = 0
+q(w, w) = 0 ,
+q(z, z) = 0
+r(w, z, w, z) = 0
+and it is easily checked that these ﬁve equations do not have a solution in P2×P2 for generic
+values of the parameters. We pause to do this explicitly since the values of the parameters
+for which there are ﬁxed points will be of interest later. The equations p(w, w) = q(w, w) = 0
+have four solutions for w. These are w = (0, 0, 1) and w = (1, ω, −ω2/2), for ω3 = 1, and the
+solutions for z are the same, giving rise to 16 points in P2×P2. The polynomial r(w, z, w, z)
+does not vanish on any of these points unless at least one of the quantities
+c2 ,
+c2 + 2c4 ,
+c3
+0 + c3
+1 + d3
+2 −3 c0c1d2 ,
+(2.5)
+where 16d2 = c2 + 16c3 + 4c4, vanishes.
+We have checked that the polynomials (2.3) are transverse following the methods of [8]. We
+conclude that there exists a smooth quotient Calabi-Yau manifold, which we will denote by
+YG := Y/G.
+Now we may regard the manifold Y 8,44 as a hypersurface in S×S, where S is the surface
+S = P2
+P2
+1
+1
+1
+1
+
+(2.6)
+which has Euler number 6 and is the del Pezzo surface dP6 obtained by blowing up three
+points of P2 that are in general position. It is instructive to verify this explicitly and to locate
+the three blown up points by considering the deﬁning equations (2.3). The polynomials p1
+and q1, that deﬁne the ﬁrst copy of S, are p1 = xT
+1 A x3 = 0 and q1 = xT
+1 B x3 = 0 where
+A =
+
+
+1
+0
+0
+0
+0
+1
+0
+1
+0
+
+
+and
+B =
+
+
+0
+0
+1
+0
+1
+0
+1
+0
+0
+
+
+Given x1 ∈P2, consider the corresponding values of x3 which solve these equations. For
+generic values, x3 is determined up to scale, hence uniquely as a point of P2, as the vector
+orthogonal to xT
+1 A and xT
+1 B, but at the three points coming from left eigenvectors of AB−1
+we have xT
+1 A ∝xT
+1 B, and there is a whole P1 of solutions for x3. These three points are
+x1 = (1, 1, 1), (1, ζ, ζ2) and (1, ζ2, ζ), with ζ again a non-trivial cube root of unity. The
+corresponding P1’s are the exceptional curves E1, E2, E3. Also important to us are the three
+lines Lij in S that correspond to the lines in the P2 that join the points that are blown up
+to Ei and Ej. The three Lij together with the three Ei form a hexagon in S, as sketched in
+Figure 2. We will see presently that the order 6 symmetry g6 acts on this hexagon by rotation.
+10
+
+L12
+L23
+L31
+E1
+L12
+E2
+L23
+E3
+L31
+E1
+E2
+E3
+Figure 2: A sketch of dP6, in the centre, showing the hexagon formed by the six
+(-1)-lines. This surface may be realised in P2×P2 as the locus p(w, z) = q(w, z) = 0
+deﬁned by two bilinear polynomials in the coordinates wj and zj of the two P2’s. If we
+project to the ﬁrst P2 then the image is as in the sketch on the left, in which the three
+lines Ei project to points. If, instead, we project to the second P2 then the image is as
+in the sketch on the right, in which the three lines Lij have been projected to points.
+2.2.
+The group representations of Dic3
+Before proceeding we pause to describe the representations of the group G ∼= Dic3. There
+are four one-dimensional representations of Dic3, in which g3 acts trivially and g4 is multi-
+plication by one of the fourth roots of unity. We will denote these, in an obvious notation,
+by R1, Ri, R−1 and R−i. These are the homomorphisms of Dic3 to its Abelianisation Z4.
+There are also two distinct two-dimensional representations, distinguished in a coordinate-
+invariant way by Tr(g2
+4) = ±2. These we will denote by R(2)
+± . For completeness we display
+the corresponding matrices in a basis for which g3 is diagonal:
+R(2)
++ :
+g3 →
+ ζ
+0
+0
+ζ2
+
+,
+g4 →
+ 0
+1
+1
+0
+
+,
+R(2)
+−:
+g3 →
+ ζ
+0
+0
+ζ2
+
+,
+g4 →
+ 0 −1
+1
+0
+
+.
+The non-obvious tensor products of representations are as follows
+R1 ⊗R(2)
+±
+= R−1 ⊗R(2)
+±
+= R(2)
+± ,
+Ri ⊗R(2)
+±
+= R−i ⊗R(2)
+±
+= R(2)
+∓
+R(2)
++ ⊗R(2)
++
+= R1 ⊕R−1 ⊕R(2)
++ ,
+R(2)
+−⊗R(2)
+−
+= R1 ⊕R−1 ⊕R(2)
++
+R(2)
++ ⊗R(2)
+−
+= Ri ⊕R−i ⊕R(2)
+−
+11
+
+2.3.
+Group action on homology
+The cohomology group H2(Y 8,44) descends from that of H2(S×S) = H2(S)+H2(S). For
+each S we have h11(S) = 4 and the cohomology group is spanned by (the duals of) the hyper-
+plane class, H, and the three Ei. The intersection numbers of the four classes {H, E1, E2, E3}
+are given by a matrix η
+H · H = 1 ,
+H · Ei = 0 ,
+Ei · Ej =
+−δij
+so
+η =
+
+
+
+
+
+1
+0
+0
+0
+0
+−1
+0
+0
+0
+0
+−1
+0
+0
+0
+0
+−1
+
+
+
+
+.
+By considering the intersection numbers of Lij with H and the Ek one sees that
+Lij = H −Ei −Ej
+and that the Lij are also (−1)-lines, that is Lij · Lij = −1. Of course, everything said above
+also applies on the second copy of S. To distinguish the cohomology classes coming from
+this copy, we denote them by eH, eE1, eE2, eE3.
+(−1)-line
+w
+z
+E1
+(1, 1, 1)
+z0 + z1 + z2 = 0
+L12
+w0 + ζw1 + ζ2w2 = 0
+(1, ζ2, ζ)
+E2
+(1, ζ, ζ2)
+z0 + ζ2z1 + ζz2 = 0
+L23
+w0 + w1 + w2 = 0
+(1, 1, 1)
+E3
+(1, ζ2, ζ)
+z0 + ζz1 + ζ2z2 = 0
+L31
+w0 + ζ2w1 + ζw2 = 0
+(1, ζ, ζ2)
+Table 2: The equations that deﬁne the six (−1)-lines
+in the coordinates (wi, zj) of P2×P2.
+We know the action of the group generators on the spaces, and this allows us to calculate the
+induced action on H2(S×S). Choosing the ordered basis {H, E1, E2, E3, eH, eE1, eE2, eE3}, we
+can write 8×8 matrices U(g) representing the action of g ∈G. It is clear that g3 preserves
+the hyperplane classes and rotates the exceptional curves into each other, so that
+U(g3) =
+ G3
+0
+0
+G2
+3
+
+with
+G3 =
+
+
+
+
+
+1
+0
+0
+0
+0
+0
+0
+1
+0
+1
+0
+0
+0
+0
+1
+0
+
+
+
+
+
+12
+
+The action of g4 is slightly more complicated to read oﬀ. The coordinates for the two copies
+of S are (x1j, x3k) and (x2j, x4k) and g4 acts by mapping
+(x1, x3) →(x2, x4) ,
+while
+(x2, x4) →(x3, x1) .
+We can think of this action as being an exchange of the two copies of S followed by the
+involution x1 ↔x3 on the ﬁrst copy. We need to calculate the action of this involution on
+H2(S). To this end, choose one of the exceptional curves, say E1, which lies above (1, 1, 1)
+in P2
+x1. Then it is described in P2
+x3 by the line x30 + x31 + x32 = 0. On the coordinates, the
+involution acts as x1 ↔x3, so it maps E1 to the curve described by x10 + x11 + x12 = 0 and
+(x30, x31, x32) = (1, 1, 1). Since this line passes through both (1, ζ, ζ2) and (1, ζ2, ζ), which
+are the other points that are blown up, we see that it is actually the line referred to earlier
+as L23. Thus the action of the involution is E1 ↔L23, or more generally Ei ↔Li+1,i+2. This
+is enough information to work out the action of g4 on H2(S × S), with respect to the basis
+given above. The result is
+U(g4) =
+ 0
+G2
+1
+0
+
+with
+G2 =
+
+
+
+
+
+2
+1
+1
+1
+−1
+0
+−1
+−1
+−1
+−1
+0
+−1
+−1
+−1
+−1
+0
+
+
+
+
+
+It is a quick check that G2
+2 = G3
+3 = 1 and that G2 and G3 commute and preserve the
+intersection matrix η. It is useful also to express the transformations in terms of the (−1)-
+lines of the two copies of S, eliminating the explicit reference to H. Denote by Da and eDb,
+a, b ∈Z6, the six (−1)-lines on the two copies of S
+Da = (E1, L12, E2, L23, E3, L31)
+and
+eDb = ( eE1, eL12, eE2, eL23, eE3, eL31) .
+(2.7)
+In terms of these the action of the generators g6 and g4 is
+g6 : Da× eDb →Da+1× eDb−1
+and
+g4 : Da× eDb →Db+3× eDa .
+(2.8)
+If we change our basis for H2(S × S) such that U(g3) becomes diagonal, we can compare
+with Subsection 2.2 and see that the eight-dimensional representation decomposes into the
+sum
+R1 ⊕R−1 ⊕Ri ⊕R−i ⊕R(2)
++ ⊕R(2)
++
+In particular, there is only a single invariant, implying b2 = 1 for the quotient. This invariant
+corresponds to the canonical class, as it must, which we can see explicitly as follows. The
+group element g6 = g2
+3 g2
+4 generates a Z6 subgroup, as noted previously. We have
+U(g6) =
+ G6
+0
+0
+G−1
+6
+
+where
+G6 = G2 G2
+3 =
+
+
+
+
+
+2
+1
+1
+1
+−1
+−1
+0
+−1
+−1
+−1
+−1
+0
+−1
+0
+−1
+−1
+
+
+
+
+
+13
+
+which acts separately on the two homology bases. The two canonical classes
+KS = 3H −E1 −E2 −E3
+and
+K e
+S = 3 eH −eE1 −eE2 −eE3
+are invariant under g6 and since the eigenvalues of G6 are {1, −1, ζ, ζ2} we see that these
+are the only two invariant homology classes. A class that is invariant under g6 is invariant
+under G if it is also invariant under g4 and we immediately see that the only such invariant
+combination is KS + eKS. The fact that b2 = 1 for the quotient variety implies h11 = 1 for the
+hypersurface YG. Since the Euler number divides by the order of the group, χ = −72/12 = −6
+and it follows that h21 = 4, in agreement with our count of parameters in the deﬁning
+polynomials.
+14
+
+3.
+Rudiments of the Phenomenology
+Compactiﬁcation of E8×E8 heterotic string theory on the manifold YG, with the standard
+embedding, leads to a 4D eﬀective theory with unbroken gauge group E6×E8 with four chiral
+multiplets in the 27 of E6 and one in the 27. We believe there are few E6 singlets, since
+these would correspond to rank-three deformations of the gauge bundle, and we argue in
+Appendix B that there are few of these. We wish to break the E6 gauge symmetry further
+to achieve, if possible, the gauge group GSM = SU(3)×SU(2)×U(1) of the standard model.
+Given that the unbroken gauge group is the commutant in E8 of the holonomy group of
+the gauge connection, there are two related mechanisms at our disposal for gauge symmetry
+breaking. The ﬁrst is to continuously deform the internal gauge ﬁeld, which corresponds to
+the Higgs mechanism in the 4D theory. We may take the vector bundle corresponding to
+the background gauge ﬁeld to be a deformation of T ⊕O or of T ⊕O ⊕O, where T is the
+tangent bundle of YG and O is a trivial line bundle. In this way the structure group of the
+bundle becomes, in many cases, SU(4), for deformations of T ⊕O, or SU(5), for the case of
+T ⊕O ⊕O. The commutants of these groups in E8 are Spin(10) and SU(5), respectively,
+which are attractive groups for phenomenology. In a speciﬁc model, however, it requires
+checking that suitably deformations of the bundles exist in order to break the symmetry as
+desired. We will see in Subsection 3.1 that on YG it is possible to obtain Spin(10) but not
+SU(5) in this way.
+The second possibility is to invoke the Hosotani mechanism, whereby we avail ourselves
+of the fact that YG is multiply connected to give non-zero values to Wilson lines around
+homotopically nontrivial paths in YG. This amounts to taking the gauge bundle to be T ⊕W,
+where W is a non-trivial ﬂat bundle. W is speciﬁed by choosing a group homomorphism
+Φ : π1 (YG) ∼= G →E6 and letting the holonomy of the connection on W around a path γ
+be given by Φ([γ]). The holonomy group therefore acquires an extra discrete factor Φ(G).
+The smallest resulting unbroken gauge group containing GSM is SU(3)×SU(2)×U(1)×U(1).
+In principle the extraneous U(1) can be broken by a vacuum expectation value for a standard
+model singlet, corresponding to a continuous deformation of the gauge bundle away from
+T ⊕W. In fact in this model all such ﬁelds have a D-term potential forcing their VEV to be
+zero. We therefore consider a less minimal choice of Wilson lines, for which the larger group
+SU(4)×SU(2)×U(1) is unbroken. In this case there are ﬂat directions in the low energy
+theory along which the group is Higgsed to exactly GSM.
+In the following we make extensive use of standard group theory, for which the comprehensive
+reference is the review by Slansky [18].
+15
+
+3.1.
+Deforming the gauge bundle
+We obtain unbroken E6 gauge symmetry by choosing the non-trivial part of the gauge bundle
+to be equal to the tangent bundle T of the manifold, with structure group SU(3). We will
+now consider, as discussed above, taking instead a non-trivial deformation of T ⊕O or T ⊕
+O⊕O, with structure group SU(4) or SU(5), respectively. Since deformation is a continuous
+process, it must correspond to the Higgs mechanism in the low energy theory, whereby the
+vector multiplets lying outside the unbroken sub-algebra gain mass by eating chiral multiplets
+with the same charges. The gauge bosons transform in the adjoint representation of E6, while
+the families and antifamilies transform in the 27 and 27, respectively. These representations
+decompose under the Spin(10) subgroup as:
+78 = 45 ⊕16 ⊕16 ⊕1 ,
+27 = 16 ⊕10 ⊕1 ,
+27 = 16 ⊕10 ⊕1 .
+So if E6 is Higgsed to Spin(10), the vector multiplets in 16 ⊕16 ⊕1 will eat corresponding
+chiral multiplets, leaving the following representation
+(3 × 16) ⊕(5 × 10) ⊕(4 × 1)
+Notice that all anti-generations are gone. Although 10’s and singlets can obtain mass through
+the Yukawa couplings when E6 is broken, one would hope that at least one of the 10’s remains
+massless, since the standard model Higgs lives in this multiplet. Now suppose we want to go
+further, and deform to an SU(5) bundle, in order to break Spin(10) to SU(5). Once again,
+this would be a continuous process, and so correspond to the Higgs mechanism in the low
+energy theory, so we can repeat the analysis above. The relevant representations decompose
+as follows:
+45 = 24 ⊕10 ⊕10 ⊕1 ,
+16 = 10 ⊕5 ⊕1 ,
+10 = 5 ⊕5 .
+So if such a Higgsing were possible, there would have to be chiral multiplets transforming as
+10⊕10⊕1 to be eaten by the corresponding vector ﬁelds. But there are no chiral multiplets
+transforming as 10, so we conclude that this cannot happen. Notice that this is a consequence
+of having only one anti-generation of E6 to begin with. The simple analysis above relies on
+general features of supersymmetric physics in 4D, but the complete mathematical answer to
+whether one can deform T ⊕O⊕r to a slope-stable rank 3 + r bundle on any Calabi-Yau
+threefold X was given in [19]. Roughly, this involves three ingredients:
+16
+
+1. A choice of r linearly independent classes αi ∈H1 X, T ∨
+corresponding to an exten-
+sion
+0 −→T −→F1 −→O⊕r
+X −→0.
+This amounts to the choice of r 27 that we want to use in the Higgsing of E6.
+2. A choice of r linearly independent classes βi ∈H1 X, T
+
+corresponding to the opposite
+extension
+0 −→O⊕r
+X −→F2 −→T −→0.
+This amounts to the choice of the corresponding 27s.
+3. A family of vector bundles interpolating between F1 and F2. This ensures that, to all
+orders in perturbation theory, there is no superpotential term that forbids the VEVs.
+We again notice that there is no deformation at r = 2 because one would need linearly
+independent α1, α2 ∈H1(YG, T ). But dim H1(YG, T ) = h11(YG) = 1, so there are no two
+linearly independent cohomology classes. This is a simple example of the beautiful interplay
+between mathematical features of the compactiﬁcation and low energy supersymmetric ﬁeld
+theory; for a recent analysis of vector bundle stability in this spirit see [20, 21].
+In summary, deforming the tangent bundle can at most break the gauge group to Spin(10),
+but nothing smaller. We might then consider further breaking via the Hosotani mechanism,
+but as explained in [3], it is not possible to break Spin(10) directly to GSM this way. It can
+however be broken to GSM×U(1), as in [22], with the extra U(1) corresponding to baryon
+number minus lepton number. This is an option for the Abelian quotient of Y 8,44, with
+fundamental group Z12, but not for YG.
+3.2.
+Breaking E6 by the Hosotani mechanism
+In the previous section we separated Wilson lines and gauge bundle deformations into com-
+muting subgroups of E6, and found we could not get all the way to the standard model gauge
+group GSM. We now consider relaxing this restriction. First we will choose values for the
+Wilson lines, to partially break E6, and then determine whether we can deform the result-
+ing bundle to obtain just GSM. The maximal symmetry breaking achievable with G-valued
+Wilson lines is E6 →GSM × U(1)′, which we describe below. Unfortunately, in this case it is
+impossible to remove the extraneous U(1)′ by a deformation. In the following subsection we
+therefore describe a model in which the Wilson lines leave SU(4)×SU(2)×U(1) unbroken,
+and a bundle deformation can break this to precisely GSM.
+17
+
+3.2.1.
+Model 1
+First we follow the original approach of [2] and take the image of Φ : π1(YG) →E6 to lie in
+the maximal subgroup SU(3)C×SU(3)L×SU(3)R. There is in fact a unique choice of such
+an embedding that achieves the maximal breaking of E6 to SU(3)C×SU(2)L×U(1)Y ×U(1)′,
+namely
+Φ(g3) =
+
+
+1
+0
+0
+0
+1
+0
+0
+0
+1
+
+×
+
+
+1
+0
+0
+0
+1
+0
+0
+0
+1
+
+×
+
+
+1
+0
+0
+0
+ζ
+0
+0
+0
+ζ2
+
+,
+Φ(g4) =
+
+
+1
+0
+0
+0
+1
+0
+0
+0
+1
+
+×
+
+
+i
+0
+0
+0
+i
+0
+0
+0
+−1
+
+×
+
+
+1
+0
+0
+0
+0
+−1
+0
+1
+0
+
+.
+(3.1)
+In particular, the rank of the unbroken gauge group is reduced from 6 down to 5, which
+would not be possible with Abelian Wilson lines. The next step is to compute the massless
+particle spectrum. Note that the 27 of E6 decomposes as
+27 = (3, 3, 1) ⊕(3, 1, 3) ⊕(1, 3, 3)
+and, therefore, under the unbroken gauge group as
+27 = (3, 2) 1
+3 ,2 ⊕(3, 1)−4
+3 ,2 ⊕(1, 1)2,2
+|
+{z
+}
+10
+⊕(3, 1) 2
+3 ,−1 ⊕(1, 2)−1,−1
+|
+{z
+}
+5
+⊕(3, 1)−2
+3 ,−4 ⊕(1, 2)1,−4
+|
+{z
+}
+5
+⊕(3, 1) 2
+3 ,−1 ⊕(1, 2)−1,−1
+|
+{z
+}
+5
+⊕(1, 1)0,5
+| {z }
+1
+⊕(1, 1)0,5
+| {z }
+1
+.
+Here, the subscripts represent the charges under U(1)Y and U(1)′, respectively and the
+underbraces gather together the SU(5) representations. The ﬁrst line is the ﬁeld content of
+a single standard model generation, and the rest consists of exotics. There are two potentially
+important things to notice. First, two of the exotics are standard model singlets, but charged
+under U(1)′, so if some combination of these develops a VEV it will break the symmetry
+to exactly GSM. Second, if U(1)′ does get broken, there is nothing forbidding mass terms
+for all of the exotics, since they can pair up to give standard model singlets. Unfortunately,
+the unique choice eq. (3.1) of G Wilson lines also projects out the one vector-like pair of
+standard model singlets (the calculation proceeds as described below for the second choice
+of embedding). Therefore, it is impossible to Higgs the remaining U(1)′.
+18
+
+3.2.2.
+Model 2
+We must therefore turn to an embedding of G in E6 which leaves a larger unbroken gauge
+symmetry. This time we will choose a diﬀerent maximal subgroup in which to embed G,
+which will turn out to be equivalent to using SU(3)3, but is clearer in this case. Therefore
+consider the maximal subgroup SU(6) × SU(2) of E6. We can deﬁne the map Φ by giving
+the images of g3, g4 in this maximal subgroup:
+Φ(g3) = 16 ×
+ ζ
+0
+0
+ζ2
+
+Φ(g4) = diag( i, i, i, i, −1, −1) ×
+ 0
+−1
+1
+0
+
+The generators of E6 which do not lie in SU(6)×SU(2) transform as (20, 2), so none of
+these are invariant under Φ(G), and the unbroken gauge group is the commutant of Φ(G) in
+SU(6)×SU(2). It is easy to check that this is SU(4)×SU(2)×U(1) ⊂SU(6). We now work
+out the representations of the unbroken group into which the matter ﬁelds fall. The 27 of
+E6 decomposes under SU(6)×SU(2) as
+27 = (15, 1) ⊕(6, 2)
+and therefore under the unbroken gauge group as follows:
+27 = (4, 2) 1
+2 ⊕(6, 1)−1 ⊕(1, 1)2 ⊕
+
+2 × (4, 1) 1
+2
+
+⊕
+
+2 × (1, 2)−1
+
+where the subscripts denote the U(1) charges with a convenient normalisation. We pause
+momentarily to describe how the structure of the standard model appears in this setup.
+SU(4) has SU(3)×U(1) as a maximal subgroup, and the SU(3) is that of colour, while a
+combination of this U(1) with the explicit one gives the hypercharge group U(1)Y . The
+explicit SU(2) is weak SU(2). We can also describe the representations in terms of the
+quantum numbers of left-handed standard model ﬁelds. The (1, 2)−1 and (1, 1)2 transform
+like the lepton doublet l (or down-type Higgs Hd) and the anti-electron ec respectively. The
+(4, 2) 1
+2 contains the quark doublet Q and an up-type Higgs Hu. The (4, 1) 1
+2 contains the
+anti-down quark dc and a standard model singlet (or ‘right-handed neutrino’) N. Finally,
+the (6, 1)−1 contains the anti-up quark uc and an exotic colour triplet. It is clear from the
+above that the extended symmetry can be broken to that of the standard model by giving
+a VEV to a ﬁeld in the (4, 1) 1
+2 representation, as this is the only one containing a standard
+model singlet. To decide whether or not this is possible, we must ﬁrst determine which
+ﬁelds are massless. In the presence of discrete holonomy (VEVs for Wilson lines), it is no
+longer necessarily true that the light charged multiplets will be the content of h11 27’s and
+h21 27’s. This is so because the ﬁelds no longer transform simply as cohomology classes of
+the manifold; this representation of G is tensored with the representation of Φ(G) ⊂E6.
+Calculating the light spectrum in this case proceeds as follows: In the absence of ﬂux lines
+19
+
+SU(4)×SU(2)×U(1)
+representation
+Φ(G) rep.
+No. of light
+copies
+No. of light
+conjugates
+(4, 2) 1
+2
+R−i
+4
+1
+(6, 1)−1
+R−1
+4
+1
+(1, 1)2
+R1
+4
+1
+(4, 1) 1
+2
+R(2)
++
+8
+2
+(1, 2)−1
+R(2)
+−
+6
+0
+Table 3: The transformation properties of the 27 ﬁelds under the unbroken gauge
+group and Φ(G), the discrete part of the holonomy group. The last two columns give
+the number of zero modes transforming in each representation and its conjugate.
+the structure group of the gauge bundle is SU(3), and an index theorem tells us that the
+diﬀerence between the number of zero modes for a 3 and a 3 is half the Euler number of YG.
+This corresponds to the net number of generations, since 3 and 3 come paired with 27 and
+27 of E6. Discrete holonomy valued in E6 does not change the curvature of the connection,
+so because the index is calculated via a curvature integral, it does not change the net number
+of generations, and we still have 3 chiral 27s. However, the vector-like pairs no longer need
+to form complete E6 multiplets, since E6 is broken. If we can explicitly calculate the zero
+modes coming from the 27, we know that these must be paired with their conjugates from
+a 27 so as not to violate the index theorem. We have already calculated the representation
+of G on (1, 1)-forms in Subsection 2.3, so we just need to work out the action of Φ(G) on
+the 27, tensor these together and pick out the invariants. It will be simpler to calculate
+how Φ(G) acts on the 27 and then conjugate this, since we have written everything so far
+in terms of the 27. We know the transformation properties of the 27 under SU(6)×SU(2),
+and thus under Φ(G). The results are shown in Table 3. The most important outcome
+is the appearance of two vector-like pairs of the (4, 1) 1
+2. On general grounds, these ﬁelds
+correspond to classical D-ﬂat directions breaking the gauge symmetry to that of the standard
+model. Furthermore, the (renormalisable) superpotential contains only terms linear in the
+singlet components, meaning that at this level the F-ﬂat conditions W = dW = 0 are also
+still satisﬁed by giving this component an expectation value.
+Suppose then that we give a supersymmetric VEV to some linear combination of the (4, 1) 1
+2
+ﬁelds (and those transforming in the conjugate representation).
+The discussion is then
+familiar: by a gauge transformation, we can take the VEV to be ⟨φ⟩= v (0, 0, 0, 1), which
+is clearly invariant under SU(3) ⊂SU(4).
+It is also invariant under a particular U(1)
+20
+
+subgroup of SU(4)×U(1), which commutes with SU(3) and is given by
+eiθ →
+
+
+
+
+
+
+
+
+e−iθ
+e−iθ
+e−iθ
+e3iθ
+e3iθ
+
+
+
+
+
+
+
+
+The unbroken gauge group will therefore be SU(3)×SU(2)×U(1), and with an appropriate
+normalisation of the U(1) generator the representations break down as follows:
+(4, 2) 1
+2 = (3, 2) 1
+3 ⊕(1, 2)1 ,
+(4, 1) 1
+2 = (3, 1) 2
+3 ⊕(1, 1)0
+(6, 1)−1 = (3, 1)−2
+3 ⊕(3, 1)−4
+3 ,
+(1, 1)2 = (1, 1)2 ,
+(1 , 2)−1 = (1, 2)−1
+We therefore see explicitly that the unbroken U(1) is hypercharge. We can now ask what
+the light matter content of the theory will be after this Higgsing of the extra symmetry.
+Certainly chiral multiplets in the representation (3, 1)−2
+3 ⊕(3, 1) 2
+3 ⊕(1, 1)0 will be absorbed
+into massive vector multiplets, but deciding which other ﬁelds gain masses will require de-
+tailed knowledge of the superpotential. Above we have embedded the Wilson lines in the
+SU(6)×SU(2) maximal subgroup of E6. In fact they also lie in the SU(3)×SU(3)×SU(3)
+maximal subgroup, and our choice corresponds to one of the cases described in [2]. In this
+case the preceding discussion is more transparent than that if one proceeds via SU(3)3, but
+it is easy to check that the results are the same.
+21
+
+4.
+Symmetries of Y 8,44 and Y 8,44/G
+4.1.
+Symmetries of dP6×dP6
+The study of possible symmetries of the quotient manifold is necessarily related to a study of
+the parameter space of the manifold since such symmetries will exist only for special values
+of the parameters. For the manifold Y 8,44 and its quotient the symmetries originate in the
+symmetries of S ∼= dP6. We summarise these following [23, pp38-39]. The dP6 surface
+contains, as remarked previously, six (−1)-curves that intersect in a hexagon. It turns out
+that the entire symmetry group of the hexagon, that is, the dihedral group
+Dih6 = Z′
+2 ⋉
+
+Z2 × Z3
+
+acts on the dP6. In addition, the dP6 surface is toric, corresponding to the fan over the
+polygon shown in Figure 5, and so is acted on by the torus (C∗)2.
+As previously, we realise the del Pezzo surface as the complete intersection in P2×P2 of the
+polynomials
+p = w0z0 + w1z2 + w2z1 ,
+q = w1z1 + w0z2 + w2z0 .
+In these coordinates, the symmetry group acts as follows:
+• Z2 acts via the coordinate exchange
+(w0, w1, w2) ↔(z0, z1, z2) .
+(4.1)
+• Z3 acts as the phase rotation
+
+(w0, w1, w2), (z0, z1, z2)
+
+7→
+
+(w0, ζw1, ζ2w2), (z0, ζz1, ζ2z2)
+
+.
+(4.2)
+• Z′
+2 acts via the coordinate exchange
+
+(w0, w1, w2), (z0, z1, z2)
+
+7→
+
+(w1, w0, w2), (z1, z0, z2)
+
+.
+(4.3)
+• The toric action will be described in Section 6, where we discuss the toric point of view
+in detail.
+4.2.
+Symmetries of the quotient
+If we refer to the group above as Aut(S) then the symmetries of S×S are
+Aut(S×S) = Z2 ⋉
+ Aut(S) × Aut(S)
+
+.
+22
+
+Not all of these symmetries descend to symmetries of the quotient YG since an element of
+Aut(S×S) can (i) fail to be a symmetry of the covering manifold Y owing to the fact that
+it does not preserve the hypersurface r = 0, or (ii) it may fail to commute appropriately
+with G. We shall see presently that the symmetry group of the quotient YG is reduced to
+a subgroup of (a single copy of) the dihedral group Dih6. This subgroup is Z2 for generic
+values of the parameters, Z2×Z2 on a certain 3 parameter family of manifolds and the full
+group Dih6 for an interesting 2 parameter family of singular varieties. The condition that, to
+be a symmetry of the quotient, the symmetry must commute appropriately with G is very
+restrictive so we postpone testing for the preservation of the hypersurface r = 0 and begin
+with a discussion parallel to that of [2]. Let π denote the operation of taking the quotient
+by G then the condition that a linear symmetry h be a symmetry of the quotient is that
+h π(x) = π(hx), which is the condition that for each g ∈G there is an element g′ ∈G such
+that gh = hg′. Since our group G is generated by g3 and g4 this is the condition that, for
+each g and h
+hgh−1 = gm
+3 gn
+4
+for some integers 0 ≤m ≤2, 0 ≤n ≤3. It suﬃces to apply this condition to the generators
+g3 and g4 themselves. The form of the right hand side of this relation is restricted by the
+fact that hg3h−1 must be an element of G that is of order 3 and hg4h−1 must be of order 4.
+There are just two elements of order 3, which are g3 and g2
+3, and six of order 4, which are
+the elements gm
+3 g4 and gm
+3 g3
+4 for 0 ≤m ≤2. Thus we may write
+hg3h−1 = g1+k
+3
+,
+hg4h−1 = gm
+3 g1+2n
+4
+;
+k = 0, 1 ,
+0 ≤m ≤2 , n = 0, 1 .
+(4.4)
+Consider ﬁrst the case that k, m and n all vanish; these are the symmetries h that commute
+with G. A symmetry that commutes with both g3 and g4 must be of the form hℓ
+3 or g2
+4 hℓ
+3,
+0 ≤ℓ≤2 where
+h3 : xα j →ζj xα j .
+This is the Z3 symmetry of (4.2), understood as applying symmetrically to the two copies
+of S, and also a symmetry operation that we ﬁrst saw in Subsection 2.1. Consider now the
+symmetry of (4.1), which we take to act on the ﬁrst copy of S only since acting equally on
+both copies is equivalent to the operation g2
+4,
+h2 : x1, j ↔x3, j ,
+x2, j →x2, j ,
+x4, j →x4, j .
+It is an easy check that h2 satisﬁes (4.4) with (k, m, n) = (0, 0, 1). Next we take a symmetry
+h′
+2 corresponding to (4.3), which we take to act symmetrically on the two copies of S
+h′
+2 : xα, j →xα, 1−j
+This satisﬁes (4.4) with (k, m, n) = (1, 0, 0). We note also that h = g2
+3 satisﬁes (4.4) with
+(k, m, n) = (0, 1, 0). In terms of these symmetries we can give a transformation
+h = (h′
+2)n g2m
+3
+hk
+2
+23
+
+that satisﬁes (4.4) for general values of the integers k, m and n. Furthermore this solution to
+the conditions is uniquely determined modulo h3 and g2
+4 since if h and ˜h both satisfy (4.4),
+for given k, m and n, then ˜hh−1 commutes with G. We have shown that the symmetry
+group of YG is a subgroup of H = ⟨h2, h′
+2, h3⟩. One sees that
+h2h3 = h3h2 ,
+h2h′
+2 = h′
+2h2
+and
+h′
+2 h3 = h2
+3 h′
+2 .
+We set h6 = h2h2
+3 so that h2 = h3
+6 and h3 = h2
+6. Thus H is generated by h6 and h′
+2 and we
+note that
+h′
+2 h6 = h5
+6 h′
+2 .
+We see that H ∼= Dih6 and we recover, in this way, the dihedral group.
+Symmetry
+Relation
+xαj
+Da
+eDb
+g3
+g2
+6
+ζ(−1)αjxαj
+Da+2
+eDb−2
+g4
+xα+1, j
+eDa
+Db+3
+g6
+g2
+3g2
+4
+ζ(−1)α+1jxα+2, j
+Da+1
+eDb−1
+h2
+h3
+6
+x1j ↔x3j, x2j →x2j, x4j →x4j
+Da+3
+eDb
+h′
+2
+xα, 1−j
+D6−a
+eD6−b
+h3
+h2
+6
+ζjxαj
+Da+2
+eDb+2
+h6
+h2h2
+3
+x1j →ζ2x3j, x2j →ζ2x2j,
+x3j →ζ2x1j, x4j →x4j
+Da+1
+eDb−2
+Table 4: A table of the various symmetry operations that we have met
+with their actions on the coordinates and the (−1)-lines Da and eDb.
+We have met a number of symmetry operations in the course of this discussion and we gather
+these together in Table 4 for reference. We now examine which of the symmetries of H pre-
+serve the hypersurface r = 0. The transformation h2 aﬀects only the coordinates x1j and x3k.
+The eﬀect on the polynomials mijkl is mijkl →mkjil and this clearly preserves the polyno-
+mials miiii and it also preserves m0011 and m0212 since these are transformed to polynomials
+mijkl whose indices are related to the original polynomials by cyclic permutation. Thus YG
+is invariant under h2 for all values of the parameters. The transformation h′
+2 transforms
+mijkl →m1−i, 1−j, 1−k, 1−l.
+The eﬀect is to interchange the polynomials m0000 and m1111,
+24
+
+the other terms in r being invariant since the indices transform by a cyclic permutation.
+Thus r is invariant if c0 = c1. For generic coeﬃcients satisfying this condition, the quotient
+variety is smooth and is invariant under the Z2×Z2 action generated by h′
+2 and h2. The
+transformation h3 has been discussed in Subsection 2.1 and can be understood as inducing
+the transformation (c0, c1, c2, c3, c4) →(c0, ζc1, ζ2c2, ζ2c3, ζ2c4) on the parameters. If we
+make the choice c0 = c1 = 0 then r also transforms homogeneously, r →ζ2r. Thus there is
+a P2 within the parameter space corresponding to parameters (0, 0, c2, c3, c4) for which each
+quotient YG has a group Dih6 of automorphisms. These varieties are, however, all singular
+and, for generic values of c2, c3 and c4, have 3 nodes. These nodal varieties will be studied
+in detail in Section 5, where we demonstrate that the nodes can be resolved to obtain a new
+family of Calabi-Yau manifolds. There are also two isolated points cj = (1, 0, 0, 0, 0) and
+cj = (0, 1, 0, 0, 0) that correspond to Dih6-invariant varieties that are very singular.
+Although we have not yet described the torus action, we note here that for the special
+parameter choice cj = (0, 0, 1, 4, 4), the hypersurface r = 0 is invariant under the complete
+(C∗)4 action. This is a point corresponding to a very singular variety.
+25
+
+5.
+Conifold Transition to a Manifold with (h11, h21) = (2, 2)
+We have noted that when c0 = c1 = 0 there is a two-parameter family of Dih6 invariant
+varieties YG and that these are all singular, the generic member having 3 nodes. These arise
+as 36 nodes on the covering manifold Y 8,44 which form three G-orbits, or a single Z3×G orbit
+where the Z3 is generated by h3. The fact that there are 36 singularities for generic (c2, c3, c4)
+is best checked by a Gr¨obner basis calculation. The location of the singularities will be given
+presently and once it is known that these are the only singularities then it is easy to check
+that these are nodes by expanding the equations in a neighborhood of a singular point.
+Owing to the H⋉G action it is suﬃcient to examine any one of the singularities locally. We
+describe the resolution of the three nodes on YG in two steps. First we demonstrate that
+the nodal varieties Y admit K¨ahler small resolutions, by identifying smooth divisors which
+intersect the nodes in an appropriate way, and blowing up along these divisors. We then
+show that such a resolution is G-equivariant, and therefore yields a resolution of YG.
+5.1.
+The parameter space of 3-nodal quotients YG
+Before proceeding we pause to describe the parameter space Γ of 3-nodal, Dih6-invariant
+quotients YG. The generic quotient with c0 = c1 = 0 has three nodes however on a certain
+locus within this space there are more severe degenerations. We ﬁnd this locus to consist of
+the components listed in Table 5.
+These loci arise in the Groebner basis calculation that ﬁnds the nodes. We have seen most of
+these conditions at some point in this paper. For example several of the linear conditions are
+those for elements of G to have ﬁxed points on Y 8,44. When this occurs, the covering space
+Y 8,44 necessarily has a node at the ﬁxed point, so YG develops an isolated singularity which
+is a quotient of a node [24]. The remaining linear conditions lead to varieties with additional
+nodes and/or orbifolds of nodes.
+We shall see the signiﬁcance of the initial, quadratic,
+condition shortly. A sketch indicating the intriguing manner in which these components
+intersect is given in Figures 3.
+The curves listed in Table 5 show an intriguing symmetry under the Z2-automorphism
+c2 →2 c3 ,
+c3 →1
+2c2 ,
+c4 →
+−c4 .
+This operation ﬁxes the curves Γ(o), Γ(v) and Γ(x) and interchanges the curves
+Γ(i) ↔Γ(ii) ,
+Γ(iii) ↔Γ(iv) ,
+Γ(vi) ↔Γ(vii) ,
+Γ(viii) ↔Γ(ix) .
+We are unclear whether this is a genuine symmetry of the geometry of the parameter space. It
+is not a symmetry at the same level as the Z3-symmetry (2.4) which arises from a coordinate
+transformation that preserves the form of the deﬁning polynomials of Y . We can see this by
+26
+
+Component
+Equation
+Type of Singularity
+Γ(o)
+4 c2c3 −c2
+4 = 0
+3 higher order singularities
+Γ(i)
+4 c2 + c3 −2 c4 = 0
+6 nodes
+Γ(ii)
+c2 + 16 c3 + 4 c4 = 0
+3 nodes, 1 g2
+4-node, 1 g4-node
+Γ(iii)
+c2 = 0
+3 nodes, 1 G-node
+Γ(iv)
+c3 = 0
+3 nodes, 1 g3-node
+Γ(v)
+c4 = 0
+3 nodes, 1 g3-node
+Γ(vi)
+8 c3 + c4 = 0
+4 nodes
+Γ(vii)
+4 c2 −c4 = 0
+4 nodes
+Γ(viii)
+c3 −c4 = 0
+5 nodes
+Γ(ix)
+c2 + 2 c4 = 0
+3 nodes, 1 g2
+4-node
+Γ(x)
+c2 + 2 c3 = 0
+3 nodes
+Table 5: The generic member of Γ is a variety with 3 nodes but along these
+curves the varieties develop more severe singularities. Some of these extra
+singularities are orbifolds of nodes as indicated. A g3-node, for example, is
+a node ﬁxed by the symmetry g3.
+noting that the transformation interchanges, for example, varieties on curve Γ(i), which have
+6 nodes, with varieties on curve Γ(ii) which have singularities of a diﬀerent type. The curve
+Γ(x) is not a curve of varieties that have more severe singularities since the number of nodes
+is, generically, three. We include it in the discriminant as a curve that, being ﬁxed under
+the automorphism, may require special consideration.
+5.2.
+The nodes and their resolution
+To describe the location of the singularities we refer to the (−1)-lines on the two copies of
+S labelled and ordered as in (2.7). On each Da we specify a point, pt(Da) by the condition
+x12 x32 = 0. Thus pt(E1), for example, is speciﬁed by the coordinates xij = (1, 1, 1) and
+x3j = (1, −1, 0) and pt(L12) has, as we see from Table 2, x1j = (1, −ζ2, 0) and x3j = (1, ζ2, ζ).
+27
+
+In an analogous way we deﬁne on each eDa a point, pt( eDa), by the condition x22 x42 = 0. We
+often abbreviate pt(Da) = pta and pt( eDa) = epta respectively. The 36 nodes are the points
+pt(Da) × pt( eDb) ;
+a, b ∈Z6 .
+The action of the symmetries H⋉G on the nodes follows from the action of the symmetries
+on the (−1)-lines. For g6 and g4 these are given by (2.8) and the action of h3 is easily read
+oﬀfrom Table 2. We have
+g6 : pta× eptb →pta+1× eptb−1 ,
+g4 : pta×ptb →ptb+3× epta
+h6 : pta× eptb →pta+1× eptb−2 ,
+h′
+2 : pta× eptb →pt6−a× ept6−b .
+(5.1)
+Notice that the generators of G preserve the sum a + b mod 3 so this sum distinguishes the
+G-orbits. The transformation h3 permutes these orbits so the 36 nodes form a single orbit
+under H⋉G. The points pta ∈S have the property that if the coordinates x1j and x3j are
+restricted to these values then the equation r = 0 is identically satisﬁed for all (x2 j, x4 k) ∈eS.
+Thus Da = pta× eS is a Weil divisor in Y , as is eDb = S× eptb. The six divisors Da are mutually
+disjoint, and each contains six nodes. The same applies to the six divisors eDb, and the two
+collections intersect precisely in the 36 nodes pta× eptb. The conﬁguration of the divisors and
+nodes is sketched in Figure 4. As we will see below, the given divisors are non-Cartier in a
+neighbourhood of each node, and we can blow up Y along such a divisor to obtain a small
+resolution of each node it contains. We may therefore resolve all 36 nodes by blowing up
+each of the ‘horizontal’ divisors S× eptb. In this way we obtain a K¨ahler manifold bY that has
+vanishing ﬁrst Chern class and χ = 0. Alternatively, we can blow up each of the ‘vertical’
+divisors pta× eS but as we will see, this gives the same variety.
+We may examine the singularities and their resolutions locally since, as remarked previously,
+all the singularities are related by the group H⋉G. We expand about a singularity by writing
+xα0 = 1 and xαj = x♯
+αj + ϵαj for j = 1, 2, where the x♯
+αj are the coordinates of a singularity.
+We have 8 coordinates ϵαj and we may solve the four equations p1 = p2 = q1 = q2 = 0 for
+the ϵα2 as functions of the ϵα1. We are left with the constraint r = 0 which, for the point
+x♯= (1, 1, 1)×(1, −1, 0)×(1, 1, 1)×(1, −1, 0), becomes
+ϵ1(A ϵ2 −B ϵ4) −ϵ3(B ϵ2 −C ϵ4) = 0
+(5.2)
+where
+A = 2(c2 + c3 + c4) ,
+B = 4c2 −2c3 + c4 ,
+C = 2(4c2 + c3 −2c4) .
+We see that the singularity is indeed a node provided that the determinant of the ma-
+trix associated to the quadratic form does not vanish. This determinant is proportional to
+(AC−B2)2 = 34(c4 −4c2c3)2, so this requirement provides an understanding of the quadratic
+28
+
+(0,1,0)
+(1,0,0)
+(16,1,-8)
+(1,4,4)
+(o)
+(i)
+(ii)
+(iii)
+(iv)
+(v)
+(vi)
+(vii)
+(viii)
+(ix)
+Figure 3: Two sketches of the surface Γ, the locus of Dih6-invariant varieties showing the
+discriminant of the space of 3-nodal varieties. The components of the discriminant locus are
+labeled according to Table 5. For the resolved manifold with Hodge numbers (h11, h21) = (2, 2)
+this is the space of complex structures. The second sketch zooms out to show how the components
+intersect. The four intersections of the pairs of blue and purple lines lie on the dashed line Γ(x).
+condition in Table 5. We now see that the ‘vertical’ divisor D0 = pt0× eS is non-Cartier
+in a neighbourhood of the node, being given by the two local equations ϵ1 = ϵ3 = 0 (by
+deﬁnition, a Cartier divisor is given by a single polynomial in each aﬃne patch). We may
+blow up Y along this divisor by introducing a P1 with coordinates (s1, s2), and considering
+the following equation in Y ×P1:
+ϵ1 s1 + ϵ3 s2 = 0
+(5.3)
+29
+
+If π : Y × P1 →Y is projection onto the ﬁrst factor, then the blow up of Y is given by
+bY = π−1(Y \ D0) ,
+that is, bY is the closure of the preimage. One can check that bY deﬁned in this way is indeed
+just Y with each node on D0 replaced by a P1. Alternatively we may blow up along the
+‘horizontal’ divisor eD0 = S× ept0; the discussion is the same, but instead of (5.3) we take
+(B ϵ2 −C ϵ4) s1 + (A ϵ2 −B ϵ4) s2 = 0 .
+(5.4)
+The vanishing of the combinations B ϵ2 −C ϵ4 and A ϵ2 −B ϵ4 is equivalent to the vanishing
+of ϵ2 and ϵ4, provided AC −B2̸ = 0. We can see that the two resolutions are identical
+by observing that they are each given by the following matrix equation in C4× P1, where
+(ϵ1, ϵ2, ϵ3, ϵ4) ∈C4:
+
+ϵ1
+ϵ3
+B ϵ2 −C ϵ4
+A ϵ2 −B ϵ4
+ s1
+s2
+
+= 0 .
+We can now argue that our resolution of the 36 nodes on Y is G-equivariant, and therefore
+gives a resolution of the 3 nodes on YG. Suppose we blow up the six divisors Da. These
+are just permuted by g6, so the resolution is manifestly Z6 invariant. The element g4 on
+the other hand interchanges the six Da for the six eDa, but we have shown above that at
+each node pta× eptb we obtain the same resolution whether we blow up Da or eDb.
+The
+resolution is therefore also equivariant under the g4 action, and thus under the action of the
+whole group G. Finally we can ask about the Hodge numbers of bYG. The space of complex
+Figure 4: The divisors pta× eS and S×eptb. These intersect in the
+36 nodes which form three G-orbits that are distinguished by colour.
+30
+
+structures is two-dimensional, so h21(bYG) = 2. To obtain h11 note that we blow up a single
+divisor on Y/Z6, and this resolution happens also to be g4-covariant, so we simply have
+h11(bYG) = h11(YG) + 1 = 2. This is consistent, because we obtain bYG by resolving 3 nodes,
+which gives χ(bYG) = χ(YG) + 6 = 0.
+The considerations above suggest, along the lines of [12], that there is a 3-generation heterotic
+model on bYG that derives from the model that we have presented on YG. This is an intriguing
+possibility, not least because the automorphism group of YG is at least Dih6 at all points in
+its moduli space, so any such theory will feature this quite large discrete symmetry group.
+31
+
+6.
+Toric Considerations and the Mirror Manifold
+6.1.
+Toric generalities
+Let us brieﬂy review the construction of a toric variety in terms of homogeneous coordinates,
+as described by Cox [25] (there are several reviews of toric geometry to be found in the physics
+literature [26, 27, 28], see also the text by Fulton [29]). Abstractly, an n-dimensional toric
+variety is an algebraic variety X containing the algebraic torus Tn ∼= (C∗)n as a dense open
+subset, such that the group action of the torus on itself extends to an action on X. Each such
+X is given by a ‘fan’, which consists of a collection of strictly convex, rational, polyhedral
+cones in an n-dimensional lattice N ∼= Zn. Each face of a cone is also considered to be a
+cone and forms part of the fan. Furthermore two cones can intersect only in a cone which
+is a face of each. Let {vρ}ρ=1...d be the set of lattice vectors generating the one-dimensional
+cones, and denote by ∇the polyhedron given by the convex hull of {vρ}. These vectors will
+generally satisfy d −n relations
+d
+X
+ρ=1
+Qrρ vρ = 0
+r = 1, . . . , d −n
+(6.1)
+We associate a complex variable xρ with each one-dimensional cone; these will be our ho-
+mogeneous coordinates. Our ﬁrst step is to delete a subset of the space Cd spanned by
+these variables: if some set vρ1, . . . , vρk does not span a cone in the fan, we remove the set
+{xρ1 = . . . = xρk = 0}. The toric variety X is then a quotient of this space4 by (C∗)d−n,
+where for each relation in (6.1) we impose
+(x1, . . . , xd) ∼(λQr1x1, . . . , λQrdxd)
+λ ∈C∗
+Batyrev described a general method for constructing mirror pairs of Calabi-Yau manifolds
+as hypersurfaces in toric varieties [13].
+Let M be the dual lattice to N, and deﬁne the
+polyhedron ∆⊂M dual to ∇as follows
+∆= {u ∈M | u · v ≥−1 ∀v ∈∇}
+(6.2)
+Points in the dual lattice M give rise rise to holomorphic functions on Tn ⊂X via
+u 7→
+Y
+i
+tui
+i
+(6.3)
+where {ui} are the components of u relative to the standard basis for N. When the polyhedra
+are reﬂexive, the integral points of the dual polyhedron ∆correspond in this way to sections
+of the anticanonical bundle of X, so the closure of the vanishing locus of a linear combination
+of these monomials is a Calabi-Yau variety. We can also dualise this construction: taking
+cones over the faces of ∆gives the fan of another toric variety X∗, and points in ∇correspond
+to sections of its anti-canonical bundle. In this way we obtain the mirror family.
+4We ignore possible discrete factors in the quotient group, which will not be relevant here.
+32
+
+6.2.
+The Newton polyhedron and its dual
+It is a felicitous fact that the del-Pezzo surface dP6 is toric and has a fan with six one-
+dimensional cones {va} as shown in Figure 5. These correspond to toric divisors and so are
+in correspondence with the Da. Let Σ denote this collection of one-dimensional cones
+Σ = {va} =
+
+(0, 1), (−1, 1), (−1, 0), (0, −1), (1, −1), (0, 1)
+	
+.
+We can also think of Σ as the polygon over the fan, which in the present case is a hexagon.
+The dual polygon is na¨ıvely Σ rotated by 90◦, but by appropriate choice of coordinates in M
+we can simply identify the two. We have previously been specifying S ∼= dP6 as a complete
+intersection in P2×P2, as described in Section 2. In order to describe the toric action it is
+convenient to ﬁrst make a change of coordinates to
+yαj =
+X
+k
+Mjk xαk
+where
+M = 1
+√
+3
+
+
+1
+1
+1
+1
+ζ
+ζ2
+1
+ζ2
+ζ
+
+
+(6.4)
+This brings the polynomials p1 and q1 to the form
+p1 = y10 y30 + y11 y31 + y12 y32 ,
+q1 = y10 y30 + ζ y11 y31 + ζ2 y12 y32
+In these coordinates the blown-up points in the y1 plane are (1, 0, 0), (0, 1, 0) and (0, 0, 1).
+It is easy to see that for any (µ, λ) ∈(C∗)2, the polynomials are invariant under
+(y10, y11, y12) × (y30, y31, y32) →(y10, λ y11, µ y12) × (y30, λ−1 y31, µ−1 y32)
+E1
+L12
+E2
+L23
+E3
+L31
+Figure 5: The fan and polygon for dP6. The one-dimensional
+cones can be taken to correspond to the divisors as indicated.
+33
+
+The torus (C∗)2 can then be explicitly embedded in dP6 follows:
+(t1, t2) →(1, t1 ζ2, t2 ζ) × (1, t−1
+1 ζ2, t−1
+2 ζ) ⊂P2×P2.
+(6.5)
+We can do the same for the second copy eS, and call the extra toric variables t3, t4. The
+polyhedron, ∇, over the fan for S× eS is obtained as the convex hull of the union of Σ with
+a second orthogonal copy eΣ, corresponding to eS
+∇= Conv(Σ, eΣ) =
+
+(va, 0)
+ va ∈Σ
+	
+∪
+
+(0, vb)
+ vb ∈eΣ
+	
+(6.6)
+The Newton polyhedron, ∆, is dual to ∇, in the sense of Subsection 6.2, and is given by the
+Minkowski sum of Σ and eΣ,
+∆= Mink(Σ, eΣ) =
+
+(va, vb)
+ va ∈Σ , vb ∈eΣ
+	
+.
+(6.7)
+The polyhedron ∇has 12 vertices, which are the points given explicitly by (6.6), and no
+other integral points apart from the origin. It has 36 three-faces that are tetrahedra. The
+polyhedron ∆has 36 vertices and 12 three-faces that are all hexagonal prisms, these each
+have two hexagonal two-faces and six rectangular two-faces. The 36 points given explicitly
+by (6.7) are the vertices. The polyhedron also contains the origin and 12 additional integral
+points, one interior to each of the hexagonal two-faces.
+These 12 additional points are
+in fact the vertices of ∇, so we have ∇⊂∆. These facts are most quickly established
+by having recourse to a programme such as POLYHEDRON or PALP [30] that analyse
+reﬂexive polyhedra. We can, with beneﬁt of hindsight, get useful insight into this structure
+and understand ∆and ∇rather simply in terms of the divisors Da and eDb. We will not
+rederive the structure of the polyhedra but will content ourselves with giving a description
+using only what we know about these divisors. It is easy to see from the relation (6.7) that
+there is a one-to-one correspondence between vertices of ∆and pairs of divisors
+νa b ↔(Da, eDb) ,
+a, b ∈Z6 .
+The integral points ˜ιb that are interior to the six blue hexagonal two-faces each correspond
+to a divisor eDb and the vertices of this hexagonal face are the νa b as a varies. The same
+vertices arise in both the blue and pink three-faces and this gives the correspondence between
+the blue and pink two-faces in Figure 6.
+The rectangular two-faces contain the vertices
+{νa, b, νa+1, b, νa+1, b+1, νa, b+1}.
+Having associated the points of ∆with the divisors Da and eDb we see that there is a natural
+H⋉G action on the points. Let ρ and σ denote the matrices
+ρ =
+0
+−1
+1
+1
+
+,
+σ =
+−1
+0
+1
+1
+
+and note5 that ρ6 = 1 and ρ3 = −1. It is an immediate check that ρ va = va+1 and that
+σ va = v6−a. In virtue of the polyhedron of Figure 5 it comes as no surprise that ρ and σ
+5As a PSL(2, Z) matrix ρ is often understood to have order 3 however in the present context an overall
+sign is signiﬁcant since −va = va+3.
+34
+
+furnish a representation of Dih6. We know the action of H⋉G on the Da and eDb from (5.1)
+and in this way we see that the action of the generators on the points of ∆is given by a
+linear action on the lattice M, with matrices
+g6 =
+ρ
+0
+0
+ρ−1
+
+,
+g4 =
+0
+−1
+1
+0
+
+h6 =
+ρ
+0
+0
+−ρ
+
+,
+h′
+2 =
+σ
+0
+0
+σ
+
+.
+The method we have used relies on the fact that the polygon Σ is self-dual; a more general
+approach would be to use (6.5) to ﬁnd the action of H⋉G on the toric coordinates, and
+translate this to an action on M by utilising the relationship in (6.3).
+So far we have described ∆. The polyhedron ∇is simpler. The 12 vertices of ∇are the
+points ιa and ˜ιb. Thus ∇is contained in ∆and the vertices of ∇are the points interior to
+the two-faces of ∆. The three-faces are the 36 tetrahedra with vertices {ιa, ιa+1, ˜ιb, ˜ιb+1}.
+Owing to the fact that ∇is contained in ∆, the group acts on the points of ∇in the same
+representation as the action on ∆.
+Figure 6: The three-faces of the polyhedron ∆. Six hexagonal three-faces are stacked
+to make the blue prism on the left and the remaining six are stacked to make the
+pink prism. The top and bottom faces of these prisms are identiﬁed to make the two
+intersecting rings shown on the right. The faces that are depicted as exposed are
+identiﬁed between the two rings with the result that there is in fact no boundary.
+35
+
+Figure 7: The vertices of the three-faces of the polyhedron ∇are the interior points to the
+two-faces of ∆. The three-faces are tetrahedra, as shown in the ﬁrst ﬁgure. Note however a
+hazard of projecting from four dimensions to three. Four of the vertices of ∆project onto the
+faces of the tetrahedron but they do not lie on the tetrahedron as they appear in the ﬁgure. Six
+of these tetrahedra ﬁt together to form the polyhedron on the right. Six of these polyhedra, in
+turn, ﬁt together to form the star-shaped polyhedron, with the exposed faces identiﬁed in pairs.
+36
+
+6.3.
+Triangulations
+The mirror of Y 8,44 is realised as the resolution of a hypersurface in the toric variety deﬁned
+by the fan over the faces of ∆. The toric variety deﬁned by ∆is singular, and since the
+singularities will intersect a hypersurface, so is the hypersurface. The singularities of the
+hypersurface are resolved by resolving the singularities of the embedding space.
+This is
+done by subdividing the cones to reﬁne the fan. The cones are subdivided by subdividing
+the three-faces of ∆into smaller polyhedra and the ambient variety becomes smooth if the
+faces of ∆are divided into polyhedra of minimal volume (which must then be tetrahedra
+of minimal volume).
+This process of subdividing the top-dimensional faces is known as
+triangulation.
+We start with an H⋉G-invariant triangulation of ∆by dividing the 3-faces into wedges as
+shown in Figure 7. We may denote the blue and pink wedges that contain the two-face
+{νa, b, νa+1, b, νa+1, b+1, νa, b+1} by Wa b and f
+Wa b respectively,
+Wa b =
+
+νa, b, νa+1, b, νa+1, b+1, νa, b+1, ˜ιb, ˜ιb+1
+	
+f
+Wa b =
+
+νa, b, νa+1, b, νa+1, b+1, νa, b+1, ιa, ιa+1
+	
+.
+The group H⋉G acts on the wedges in the expected way g6Wa b = Wa+1, b−1 and g4Wa b =
+f
+Wb+3, a, and so on. The triangulation of ∆into the wedges yields a toric variety with sin-
+gularities along curves, and therefore a hypersurface with point singularities. Each wedge
+can be cut into 3 tetrahedra of minimal lattice volume. This further subdivision will yield
+a smooth toric variety. For reasons that will become clear shortly, we only enforce the G-
+symmetry at this point. Therefore, a fundamental region for the group action is a three-face
+of ∆(one-sixth of the blue or pink prism in Figure 6), consisting of 6 wedges. Each wedge
+can be triangulated in 6 diﬀerent ways. These 6 possibilities can be distinguished by how
+they bisect the three rectangular two-faces of the wedge6, as shown in Figure 8. We will
+label these choices as (uUu), . . . , (dDu) corresponding to whether the three lines go up or
+down. When assembling the triangulated wedges into the hexagonal fundamental region, we
+must ensure that the triangulations match along the two-faces of the wedges. Therefore, the
+whole triangulation can be written as a cyclic string of six wedge-triangulations such that
+only two u’s or two d’s meet, that is, · · · u)(u · · · or · · · d)(d · · · . This ensures a consistent
+triangulation in the interior of the fundamental group. The boundary of the fundamental
+region will intersect the boundaries of some of its G-images. compatibility of the triangula-
+tions along the outward-facing rectangular two-faces requires that the i-th and the (i+3)-rd
+wedge have the rectangular two-face cut in the same way, both ‘U’ or both ‘D’. Up to
+symmetries7 of the fundamental region, there are 6 distinct triangulations of a three-face.
+6A wedge has three rectangular faces and each of these can be bisected in two ways so there are eight
+ways to bisect the faces. Two of these ways, however, do not correspond to triangulations.
+7The symmetries of the fundamental region are Dih6 transformations together with a reﬂection in a
+horizontal plane.
+37
+
+(uUu)
+(dUd)
+(uUd)
+(dDd)
+(uDu)
+(dDu)
+Figure 8: The 6 diﬀerent triangulations of a wedge inside a three-
+face of ∆, which is a fundamental region for the triangulation.
+These are shown in Table 6. It is interesting that precisely one of these yields a regular
+G-invariant triangulation of ∆. Recall that a regular triangulation is one that is induced by
+the ‘crease lines’ of the graph of a convex support function, a condition that is equivalent to
+the toric variety being K¨ahler. We will always use the regular triangulation in the follow-
+ing. It is interesting also that the regular triangulation is not the H-invariant triangulation
+(dDd)(dDd)(dDd) . . . (dDd). Thus we learn that the mirror manifold is not Dih6-invariant.
+Note, however, that the the regular triangulation (dDu)(uUd)(dDd)(dDu)(uUd)(dDd) re-
+peats with period 3. The upper-case characters that correspond to the triangulations of the
+two-faces of ∆are required to repeat with period three, in virtue of our observations above,
+but the lower-case characters are not constrained by this requirement. We learn that the
+mirror remains invariant under the symmetry h2.
+Note that ∆has 49 points, none of which lie interior to a three-face. These yield h11 = 44
+divisor classes after deleting the origin and modding out the 4 linear relations between the
+points. We have seen that there is a G-action on ∆and there is a corresponding G-action on
+the divisors. Since the group action on the toric hypersurface is free, the coinvariant divisors
+form a basis for the divisors on the quotient. In other words, one has to identify the divisors
+on the covering space with their G-images. There are 4 orbits, and, therefore, 4 (= h11(Y ∗
+G))
+linearly independent divisors on the quotient.
+38
+
+Triangulation
+Regular
+
+(dDu), (uUd), (dDu), (uDu), (uUd), (dDd)
+	
+No
+
+(dDu), (uUd), (dDd), (dDu), (uUd), (dDd)
+	
+Yes
+
+(dDu), (uUd), (dDd), (dDd), (uUu), (dDd)
+	
+No
+
+(dDu), (uDu), (uUd), (dDd), (dDd), (uUu)
+	
+No
+
+(dDd), (dDd), (dDd), (dDd), (dDd), (dDd)
+	
+No
+
+(dDd), (dDd), (uUu), (dDd), (dDd), (uUu)
+	
+No
+Table 6: Distinct choices for the triangulation of one hexagonal three-face,
+the fundamental region for the G-action. The last column states whether the
+ensuing G-invariant triangulation of ∆is regular.
+Consider further the G-action on the points of ∆. These fall into ﬁve orbits which we denote
+by ∆i, 0 ≤i ≤4. The origin of ∆, which forms an orbit of length one, we denote by ∆0.
+There remain the four orbits mentioned above. One of these, which we choose to be ∆1,
+consists of the 12 points of ∆that are internal to two-faces. These are the points ιa = (va, 0)
+and ˜ιb = (0, vb). The remaining three orbits consist of the vertices νab = (va, vb) which fall
+into three orbits according to the value of a + b mod 3. We take ∆2, ∆3 and ∆4 to consist
+of the vertices νab such that a + b mod 3 takes the values 0, 1 and 2, respectively. We abuse
+notation by identifying divisors on the quotient with the corresponding orbits of vertices.
+As divisors we have a relation
+∆0 =
+−
+4
+X
+i=1
+∆i .
+The calculation that ﬁnds the convex piecewise linear function that determines the regularity
+of the triangulation yields also the generators of the the Mori cone (the dual to the K¨ahler
+cone). These are given by
+∆0
+∆1
+∆2
+∆3
+∆4
+ℓ1 =
+ −1,
+0,
+0, −1,
+2
+
+ℓ2 =
+ 0, −1,
+0,
+1,
+0
+
+ℓ3 =
+ 0,
+2, −1, −1,
+0
+
+ℓ4 =
+ 0, −1,
+2,
+0, −1
+.
+
+39
+
+6.4.
+The mirror manifold
+We have previously observed that ∇is contained in ∆. As a result, the mirror family is
+deﬁned by a polynomial which is a specialisation of r, given by specialising the coeﬃcients.
+We will denote this specialisation by r∗. The equation r∗= 0 deﬁnes a singular variety
+which, generically, has 72 nodes, and the mirror Y ∗is obtained as its resolution. In Sec-
+tion 5, in order to construct the (2, 2) manifold, we resolved the 36-nodal varieties by ﬁnding
+a suitable set of divisors and blowing up along these. In this way we demonstrated the
+existence of a G-invariant, Calabi-Yau resolution. In the present case we do not know of
+suitable divisors, however we may now avail ourselves of the techniques of toric geometry.
+We have just seen that there exists a maximal triangulation of ∆which is regular and G-
+invariant, and this provides the G-invariant, Calabi-Yau resolution of the 72-nodal varieties
+corresponding to r∗= 0.
+Let us therefore consider the form of the polynomial r. The integral points of ∆correspond
+to monomials on the embedded torus, and r, restricted to the torus, is a linear combination
+of these. A four-parameter family of G-invariant Laurent polynomials is obtained by writing
+f =
+4
+X
+i=0
+γifi
+where
+fi =
+X
+u∈∆i
+tu .
+Being invariant, this family of Laurent polynomials must be equivalent to the family from
+(2.3) and the γi must be another system of coordinates on the parameter space and so
+expressible in terms of the ci. To determine the relations8, we set r = f on the embedded
+torus given in (6.5). In this way we ﬁnd the following correspondence
+γ0 = c2 + c3 + c4
+c0 = 3
+ ζγ2 + ζ2γ3 + γ4
+
+γ1 = 1
+12
+ 4c2 −2c3 + c4
+
+c1 = 3
+ ζ2γ2 + ζγ3 + γ4
+
+γ2 = 1
+36
+ 4ζ2c0 + 4ζc1 + (4c2 + c3 −2c4)
+
+c2 = 1
+9
+ γ0 + 12γ1 + 12(γ2 + γ3 + γ4)
+
+(6.8)
+γ3 = 1
+36
+ 4ζc0 + 4ζ2c1 + (4c2 + c3 −2c4)
+
+c3 = 4
+9
+ γ0 −6γ1 + 3(γ2 + γ3 + γ4)
+
+γ4 = 1
+36
+ 4c0 + 4c1 + (4c2 + c3 −2c4)
+
+c4 = 4
+9
+ γ0 + 3γ1 −6(γ2 + γ3 + γ4)
+
+.
+Now ∇is obtained by deleting the vertices of ∆. Thus ∇= ∆0 ∪∆1 and the polynomial r∗
+corresponds to setting γ2 = γ3 = γ4 = 0. In virtue of the relations above we see that this is
+equivalent to the conditions
+c0 = c1 = 0
+and
+4c2 + c3 −2c4 = 0 .
+(6.9)
+8Of course there is a scaling ambiguity in r, so in fact the relations between the γi and ci are only
+determined up to scale
+40
+
+We learn that the parameter space of the mirror is contained as a curve in the parameter
+space of YG and, moreover, that this curve lies in Γ and is the curve Γ(i) of Table 5.
+It is worth pursuing the forms of f and r∗a little further. From the relation
+f = γ0 + γ1f1 with f1 = t1 + 1
+t1
++ t2 + 1
+t2
++ t3 + 1
+t3
++ t4 + 1
+t4
++ t1
+t2
++ t2
+t1
++ t3
+t4
++ t4
+t3
+it is compelling that the point corresponding to the large complex structure limit is the
+point γ1 = 0, which in terms of the cj is cj = (0, 0, 1, 4, 4). As may be seen from Figure 3,
+this is a point where the components of the discriminant locus have a high order contact
+so it may well be necessary to blow up this point, as in Figure 9, in order to discuss the
+monodromies about the large complex structure limit adequately. In any event, we have
+come rather rapidly to an identiﬁcation of this limit. Returning to the polynomial r∗, we
+have, on imposing the conditions (6.9)
+r∗= 1
+9γ0 (m2222 + 4m0011 + 4m0212) + 4
+3γ1 (m2222 −2m0011 + m0212)
+(6.10)
+The polynomial varying with γ0 factorises
+m2222 + 4m0011 + 4m0212 = s(x1, x3) s(x2, x4)
+with
+s(w, z) = w0z1 + w1z0 + w2z2 .
+The part of r that varies with γ1 also simpliﬁes
+m2222 −2m0011 + m0212 =
+−1
+2 s(x1, x3) s(x2, x4) + 3
+4
+ s(x1, x3) x22 x42 + x12 x32 s(x2, x4)
+
+.
+The polynomial s is a natural analogue of p and q. The polynomial p is a sum of monomials
+such that the coordinate indices sum to 0 mod 3 and the coordinate indices for the monomials
+of q sum to 2 mod 3. For s the coordinate indices sum to 1 mod 3. Consider now the locus
+s = 0 in dP6 which corresponds to the locus p = q = s = 0 in P2×P2. At ﬁrst sight one might
+be tempted to identify this as a CICY given by three bilinear equations in P2×P2, which is
+F0
+F1
+F0
+Figure 9: The resolution of the point (1, 4, 4) of Figure 3 requires a sequence
+of two blow ups which introduce the two exceptional divisors F0 and F1.
+41
+
+an elliptic curve. This however is a false conclusion owing to the fact that the intersection
+p = q = s = 0 is not transverse. A little thought, and consultation with Table 2, reveals
+that all six divisors Da lie in the locus s = 0 and that this locus is precisely the hexagon
+formed by the Da. We may think of this as a degenerate elliptic curve which has become a
+chain of six P1’s. The hexagon less its vertices consists of the six one-dimensional orbits of
+the torus action and the vertices are the zero-dimensional orbits. Therefore when γ1 = 0, so
+that r∗= 1
+9s(x1, x3) s(x2, x4), we obtain a very singular variety which is invariant under the
+whole torus action.
+The reader may be worried about an apparent contradiction between the fact that f0 appears
+to be equal to unity, and (6.10), where f0 = 1
+9s(x1, x3) s(x2, x4). This is resolved by noticing
+that in writing r = f only on the torus (6.5), it is implicit that yα0 = 1. If we write s in
+terms of the torus coordinates, we ﬁnd s(x1, x3) = s(x2, x4) = 3. This is a result of the
+normalisation yα0 = 1. It does not contradict the fact that s vanishes on the hexagon since
+no point of the hexagon lies on the torus. With s = 3, we get f0 = 1
+9s(x1, x3) s(x2, x4) = 1,
+so there is, in fact, no contradiction.
+For generic γ1/γ0, the variety described by this family of polynomials r∗has 72 nodes which
+form six G-orbits. These comprise the 36 nodes that we have met previously and 36 nodes
+that are new and that are located at the points pt′
+a× ept
+′
+b, where pt′
+a denotes the point on the
+hexagon corresponding to the intersection of the divisors Da and Da+1, with ept
+′
+b understood
+analogously. The polyhedron ∆, with its G-invariant triangulation provides a Calabi–Yau
+resolution of these nodes. The resolution of 6 nodes on the quotient YG gives a manifold with
+χ = +6 and Hodge numbers (h11, h21) = (4, 1), which we identify with the mirror, Y ∗
+G, of YG.
+In Table 7 we list the values of the parameter for which the variety, whose resolution is Y ∗
+G,
+develops extra singularities. This occurs at the values of γ0/γ1 for which Γ(i) intersects the
+other components of the discriminant. In each case where Γ(i) intersects another component
+Γ′, for which the generic singularity consists of the 3 nodes that Γ′ has in common with Γ(i)
+together with additional singularities, the singularities associated with the intersection are
+the 3 nodes, together with the 3 extra nodes of Γ(i) and the extra singularities of Γ′.
+Curve
+(o)
+(ii)
+(iii)
+(iv)
+(v)
+(vi)
+(vii)
+(viii)
+(ix)
+(x)
+γ0/γ1
+∞
+4
+−12
+6
+−3
+5
+∞
+∞
+−4
+4
+Sing.
+6, 1 g4, 1 g2
+4
+6, 1 G
+6, 1 g3
+6, 1 g3
+7
+6, 1 g2
+4
+6
+Table 7: The values of the parameter γ0/γ1 for which the mirror manifold is singular together
+with the type of singularity. The values given for γ0/γ1 are those corresponding to the intersec-
+tion of Γ(i) with the other components of the discriminant locus listed in Table 5. The entry
+(6, 1 g4, 1 g2
+4), for example means 6 nodes, 1 g4-node and 1 g2
+4-node. Where the intersection is
+at the large complex structure limit, for which γ0/γ1 = ∞, the singularity is not listed.
+42
+
+7.
+The Abelian Quotient
+The manifold Y 8,44 also admits a free quotient by the Abelian group Z12. With the same
+conventions as used in Section 2, the action of the group generator is
+g12 : xαj →ζjxα+1,j ,
+p1 →ζ2p1 ,
+p2 →ζ2p2 ,
+q1 ↔ζq1 ,
+q2 ↔ζq2 ,
+r →r .
+The covariant polynomials are given by
+p1 = x10 x32 + x12 x30 + x11 x31 ,
+q1 = x10 x31 + x11 x30 + x12 x32 ,
+p2 = x20 x42 + x22 x40 + x21 x41 ,
+q2 = x20 x41 + x21 x40 + x22 x42 ,
+r = C0 m0000 + C1 m2211 + C2 m2121 + C3 m2010 + C4 m1110 .
+It is straightforward to check that the corresponding variety is smooth, and that the induced
+action of Z12 is ﬁxed-point-free.
+So we obtain another smooth quotient, this time with
+fundamental group Z12.
+7.1.
+Group action on homology
+The representation theory of Z12 is very straightforward: there are exactly 12 distinct one-
+dimensional representations, in which the generator of Z12 corresponds to multiplication by
+one of the twelfth roots of unity. We will denote by Rk the representation in which the
+generator acts as multiplication by exp(2πik/12). Then, repeating the type of argument
+used in Subsection 2.3, we ﬁnd that Z12 acts on H2(Y 8,44) through the representation
+R0 ⊕R2 ⊕R3 ⊕R4 ⊕R6 ⊕R8 ⊕R9 ⊕R10
+There is again a single invariant, corresponding to the canonical class, so the Hodge numbers
+of the quotient are once more (h11, h21) = (1, 4).
+7.2.
+Z12 ﬂux lines
+Notice that the argument of Subsection 3.1, that it is impossible to deform T ⊕O ⊕O to a
+non-split SU(5) bundle, depends only on the fact that h11 = 1 and, therefore, applies to this
+case as well. Therefore we must again turn to the Hosotani mechanism. Since Z12 is Abelian,
+the best the Hosotani mechanism can do in this case is reduce the E6 gauge symmetry to
+SU(3)⊗SU(2)⊗U(1)3. There are a very large number of choices which can achieve this,
+and these will generally give diﬀerent light spectra and interactions. While there may be
+promising models here, their identiﬁcation would require a detailed study which is beyond
+the scope of this paper.
+43
+
+Acknowledgements
+It is a pleasure to acknowledge instructive discussions with X. de la Ossa, M. Gross and
+A. Lukas. We are grateful also to B. Szendr˝oi for instruction in the resolution of Calabi-
+Yau varieties with multiple nodes. RD wishes to acknowledge support from the Sir Arthur
+Sims Travelling Scholarship Fund and the University College Old Members’-Oxford Australia
+Scholarship Fund and VB would like to acknowledge the hospitality of Oxford University, of
+the KITP, and of the Centro de Ciencias de Benasque where part of this work was performed.
+A.
+Alternative Representations
+We have discussed the fact that the manifold Y 8,44 can be viewed as a hypersurface in S×S
+embedded via a section of the anticanonical bundle. The same manifold can be represented
+as a CICY in diﬀerent ways owing to the fact that there are alternative ways of representing
+S ∼= dP6. In addition to the representation (2.6) the following representation is useful
+S =
+P1
+P1
+P1
+
+
+1
+1
+1
+
+
+.
+(A.1)
+The identiﬁcation follows from the fact that the conﬁguration on the right has Euler number
+6 and positive canonical class. In this way we see that the following conﬁguration is an
+alternative way of representing the manifold Y 8,44, namely
+X8,44 =
+P1
+P1
+P1
+P1
+P1
+P1
+
+
+1
+0 1
+1
+0 1
+1
+0 1
+0 1 1
+0 1 1
+0 1 1
+
+
+8,44
+p
+r
+q
+sj
+tj
+There is also a “hybrid” representation, Z8,44, that is formed by taking one copy of S to be
+represented as in (2.6) and the other as in (A.1). This representation is however less useful
+owing to the fact that the groups G are not represented linearly on the coordinates. The
+three representations X8,44, Y 8,44 and Z8,44 are the three occurrences of the Hodge numbers
+(h11, h21) = (8, 44) in the CICY list.
+The conﬁguration X8,44 is described, together with the common Z6 subgroup of Dic3 and
+Z12, in [8, §3.5.2]. We can therefore give a brief account here that concentrates on the action
+of the enlarged groups. We take coordinates sja on the ﬁrst three P1 and tja on the last
+three, where j = 0, 1, 2, a = 0, 1, and polynomials p, q, and r, as indicated by the diagram.
+44
+
+We can then take the action of the two generators g3, g4 to be given by
+g3 : sj,a →sj+1,a ,
+tj,a →tj+1,a ,
+p →p ,
+q →q ,
+r →r ,
+g4 : sj,a →(−1)a+1 t−j,a ,
+tj,a →s−j,a ,
+p →−q ,
+q →p ,
+r →r .
+Note that the two generators S and U of [8, §3.5.2] correspond to the symmetries g3 and g2
+4.
+We construct the polynomials from the quantities
+mabc =
+2
+X
+i=0
+si,a si+1,b si+2,c ,
+nabc =
+2
+X
+i=0
+ti,a ti+1,b ti+2,c
+labcdef =
+2
+X
+i=0
+si,a si+1,b si+2,c ti,d ti+1,e ti+2,f
+Then, with an appropriate choice of coordinates, the most general polynomials transforming
+as above are
+p = 1
+3m000 + m110 ,
+q = 1
+3n000 + n110
+r = ˜c0 l111111 + ˜c1 l001001 + ˜c2 l001010 + ˜c3 l001100 + ˜c4 (l111001 + l001111)
+Note that a further invariant term ℓ000011 −ℓ011000 is excluded since
+ℓ000011 −ℓ011000 = m000 n011 −m011 n000 = p n011 −m011 q
+and so corresponds merely to a redeﬁnition of r by multiples of the polynomials p and q. This
+being so, we see that there is a 4 parameter family of polynomials r. It is straightforward
+to check that for generic values of the four undetermined coeﬃcients, the resulting variety is
+smooth, and the group action is free.
+B.
+Deformation of the Tangent Bundle
+We will show here that the tangent bundle of the manifold X8,44 is rigid, that is, it has no
+inﬁnitesimal deformations. This is a consequence of the fact that all the deﬁning polynomials
+are multilinear in their arguments. The rigidity holds already at the level of the covering
+manifold.
+We do not have to invoke the group G to establish the result.
+Let a CICY
+manifold X be deﬁned by polynomials f σ, σ = 1, 2, . . . and let the embedding spaces have
+coordinates xαj where α labels the projective space and j runs over the coordinates within
+each projective space. A vector is a quantity
+V
+=
+X
+α, j
+Vαj
+∂
+∂xαj
+45
+
+and is tangent to X if
+V (f σ) =
+X
+α, j
+Vαj
+∂f σ
+∂xαj
+(B.1)
+vanishes on X for each σ. In virtue of the Euler relation
+X
+j
+xαj
+∂f σ
+∂xαj
+= degα(σ) f σ
+where degα(σ) denotes the homogeneity degree of f σ as a function of the xαj, it is consistent
+to identify
+Vαj ≃Vαj + λα xαj
+(B.2)
+for each α and all λα. The condition for tangency (B.1) is deformed by imposing instead
+X
+α, j
+Vαj F σ
+αj = 0
+with
+F σ
+αj =
+∂f σ
+∂xαj
++ ˜f σ
+αj
+(B.3)
+a set of polynomials of the same multidegrees as
+∂fσ
+∂xαj . In order to maintain consistency with
+(B.2) we must require that P
+j xαj ˜f σ
+αj vanish on X, for each α. It is worth examining the
+meaning of requiring this quantity to vanish on X more closely. In order for this quantity
+to vanish on X we must have
+X
+j
+xαj ˜f σ
+αj = degα(σ)
+X
+τ
+mσ
+τ f τ
+for some matrix of polynomials mστ of appropriate degrees. Now let us write
+˜f σ
+αj =
+ˆf σ
+αj +
+∂
+∂xαj
+X
+τ
+mσ
+τ f τ
+so that P
+j xαj ˆf σ
+αj = 0 identically, that is these quantities vanish identically as polynomials.
+On substituting the decomposition above into (B.3) we ﬁnd
+F σ
+αj =
+∂
+∂xαj
+ 
+f σ +
+X
+τ
+mσ
+τ f τ
+!
++ ˆf σ
+αj
+and the quantity in parentheses corresponds to a redeﬁnition of the f σ.
+The burden of
+these comments is that in writing the deformation in the form (B.3) we may, without loss of
+generality, demand that P
+j xαj ˜f σ
+αj vanish identically. We now apply these considerations to
+the case that the polynomials f σ are all multilinear. When this is so each deformation ˜f σ
+αj,
+having the same multidegrees as the derivatives ∂f σ/∂xαj, is independent of the coordinates
+xαk. Thus the condition
+X
+j
+xαj ˜f σ
+αj = 0
+forces the ˜f σ
+αj to vanish identically. Since this fact follows simply from the multilinearity
+of the conﬁguration the same conclusion holds for the alternative representations X8,44 and
+Z8,44 as well as for the various extended representations.
+46
+
+References
+[1] Yutaka Hosotani. Dynamical Mass Generation by Compact Extra Dimensions. Phys.
+Lett., B126:309, 1983.
+[2] Edward Witten. Symmetry Breaking Patterns in Superstring Models. Nucl. Phys.,
+B258:75, 1985.
+[3] Brett McInnes.
+Group Theoretic Aspects Of The Hosotani Mechanism.
+J. Phys.,
+A22:2309–2328, 1989.
+[4] Shing-Tung Yau. Compact three-dimensional K¨ahler manifolds with zero Ricci cur-
+vature. In Symposium on anomalies, geometry, topology (Chicago, Ill., 1985), pages
+395–406. World Sci. Publishing, Singapore, 1985.
+[5] G. Tian and S.-T. Yau. Three-dimensional algebraic manifolds with C1 = 0 and χ = −6.
+In Mathematical aspects of string theory (San Diego, Calif., 1986), volume 1 of Adv.
+Ser. Math. Phys., pages 543–559. World Sci. Publishing, Singapore, 1987.
+[6] Brian R. Greene, Kelley H. Kirklin, Paul J. Miron, and Graham G. Ross. A Three
+Generation Superstring Model. 1. Compactiﬁcation and Discrete Symmetries. Nucl.
+Phys., B278:667, 1986.
+[7] Brian R. Greene, Kelley H. Kirklin, Paul J. Miron, and Graham G. Ross. A Three
+Generation Superstring Model. 2. Symmetry Breaking and the Low-Energy Theory.
+Nucl. Phys., B292:606, 1987.
+[8] Philip Candelas and Rhys Davies. New Calabi-Yau Manifolds with Small Hodge Num-
+bers. 2008, arXiv:0809.4681.
+[9] P. Candelas, M. Lynker, and R. Schimmrigk. Calabi-Yau Manifolds in Weighted P(4).
+Nucl. Phys., B341:383–402, 1990.
+[10] Albrecht Klemm and Rolf Schimmrigk. Landau-Ginzburg string vacua. Nucl. Phys.,
+B411:559–583, 1994, hep-th/9204060.
+[11] Maximilian Kreuzer and Harald Skarke. Complete classiﬁcation of reﬂexive polyhedra
+in four dimensions. Adv. Theor. Math. Phys., 4:1209–1230, 2002, hep-th/0002240.
+[12] Philip Candelas, Xenia de la Ossa, Yang-Hui He, and Balazs Szendroi. Triadophilia: A
+Special Corner in the Landscape. Adv. Theor. Math. Phys., 12:2, 2008, arXiv:0706.3134.
+[13] V. V. Batyrev. Dual polyhedra and mirror symmetry for Calabi-Yau hypersurfaces in
+toric varieties. J. Alg. Geom., 3:493–545, 1994.
+[14] Tristan Hubsch. Calabi-Yau manifolds: A Bestiary for physicists. World Sci. Publishing,
+Singapore, 1992.
+47
+
+[15] P. Candelas, A. M. Dale, C. A. Lutken, and R. Schimmrigk. Complete Intersection
+Calabi-Yau Manifolds. Nucl. Phys., B298:493, 1988.
+[16] P. Candelas, C. A. Lutken, and R. Schimmrigk.
+Complete Intersection Calabi-Yau
+Manifolds. 2. Three Generation Manifolds. Nucl. Phys., B306:113, 1988.
+[17] Paul S. Aspinwall, Brian R. Greene, K. H. Kirklin, and P. J. Miron. Searching For
+Three Generation Calabi-Yau Manifolds. Nucl. Phys., B294:193, 1987.
+[18] R. Slansky. Group Theory for Uniﬁed Model Building. Phys. Rept., 79:1–128, 1981.
+[19] Jun Li and Shing-Tung Yau. The existence of supersymmetric string theory with torsion.
+2004, hep-th/0411136.
+[20] Lara B. Anderson, James Gray, Andre Lukas, and Burt Ovrut. The Edge Of Supersym-
+metry: Stability Walls in Heterotic Theory. Phys. Lett., B677:190–194, 2009, 0903.5088.
+[21] Lara B. Anderson, James Gray, Andre Lukas, and Burt Ovrut.
+Stability Walls in
+Heterotic Theories. JHEP, 09:026, 2009, 0905.1748.
+[22] Volker Braun, Burt A. Ovrut, Tony Pantev, and Rene Reinbacher. Elliptic Calabi-Yau
+threefolds with Z(3) x Z(3) Wilson lines. JHEP, 12:062, 2004, hep-th/0410055.
+[23] Igor V. Dolgachev and Vasily A. Iskovskikh. Finite subgroups of the plane cremona
+group, 2006.
+[24] Rhys Davies. Quotients of the Conifold in Compact Calabi-Yau Threefolds, and New
+Topological Transitions. In preparation.
+[25] David A. Cox. The Homogeneous Coordinate Ring of a Toric Variety, Revised Version.
+1993, alg-geom/9210008.
+[26] Paul S. Aspinwall, Brian R. Greene, and David R. Morrison.
+Calabi-Yau moduli
+space, mirror manifolds and spacetime topology change in string theory. Nucl. Phys.,
+B416:414–480, 1994, hep-th/9309097.
+[27] Vincent Bouchard.
+Lectures on complex geometry, Calabi-Yau manifolds and toric
+geometry. 2007, hep-th/0702063.
+[28] K. Hori et al. Mirror symmetry. Providence, USA: AMS (2003) 929 p.
+[29] W. Fulton. Introduction to Toric Varieties. Princeton University Press, 1993.
+[30] Maximilian Kreuzer and Harald Skarke. PALP: A Package for analyzing lattice poly-
+topes with applications to toric geometry. Comput. Phys. Commun., 157:87–106, 2004,
+math/0204356.
+48

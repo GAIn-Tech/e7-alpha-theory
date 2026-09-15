@@ -1,0 +1,222 @@
+{
+  "claim_boundary": "The old witness specifies gauge matrices but no geometric flavor basis. We exhibit and check two explicit embeddings with different F outcomes. Zero neutral F on the first embedding is cubic algebraic evidence, not a Kahler-normalized, higher-order or stabilized vacuum.",
+  "common_charged_kernel_basis": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "common_charged_kernel_dimension": 5,
+  "controls": {
+    "dual_exact_changes": 24,
+    "quotient_phase_rejected": 1,
+    "saved_product_decompositions": 36,
+    "wrong_curvature_rejected": 2
+  },
+  "explicit_obstructed_embedding": {
+    "L": {
+      "entries": [
+        [
+          5,
+          0,
+          "1"
+        ],
+        [
+          7,
+          1,
+          "1"
+        ]
+      ],
+      "shape": [
+        9,
+        2
+      ]
+    },
+    "Lbar": {
+      "entries": [
+        [
+          1,
+          0,
+          "1"
+        ],
+        [
+          0,
+          1,
+          "1"
+        ]
+      ],
+      "shape": [
+        6,
+        2
+      ]
+    },
+    "neutral_F": [
+      "-1",
+      "0",
+      "-1",
+      "0"
+    ]
+  },
+  "explicit_unobstructed_embedding": {
+    "L": {
+      "entries": [
+        [
+          0,
+          0,
+          "1"
+        ],
+        [
+          1,
+          1,
+          "1"
+        ]
+      ],
+      "shape": [
+        9,
+        2
+      ]
+    },
+    "Lbar": {
+      "entries": [
+        [
+          0,
+          0,
+          "1"
+        ],
+        [
+          1,
+          1,
+          "1"
+        ]
+      ],
+      "shape": [
+        6,
+        2
+      ]
+    },
+    "neutral_F": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "gauge_trace_pairing": {
+    "entries": [
+      [
+        0,
+        0,
+        "1"
+      ],
+      [
+        1,
+        1,
+        "1"
+      ]
+    ],
+    "shape": [
+      2,
+      2
+    ]
+  },
+  "generic_two_pair_neutral_F": [
+    "-b1_0*l5_0 - b1_1*l5_1",
+    "-b1_0*l6_0 - b1_1*l6_1",
+    "-b0_0*l7_0 - b0_1*l7_1",
+    "-b0_0*l8_0 - b0_1*l8_1"
+  ],
+  "nonzero_count": 4,
+  "nonzero_tensor_entries": [
+    [
+      0,
+      5,
+      1,
+      "-1"
+    ],
+    [
+      1,
+      6,
+      1,
+      "-1"
+    ],
+    [
+      2,
+      7,
+      0,
+      "-1"
+    ],
+    [
+      3,
+      8,
+      0,
+      "-1"
+    ]
+  ],
+  "passed": true,
+  "predecessor_gauge_witness": {
+    "D_flat": "canonical equal-norm conjugate pairs; Kahler metric normalization remains external",
+    "F_flat": "charged cubic truncation only; all polarized determinant cofactors vanish; Q=Qc=0",
+    "SL3L_SL3R_constraint_rank": 12,
+    "VEVs": "L1=e32, L2=e33; conjugates transpose, equal canonical magnitudes",
+    "including_color_dimension": 12,
+    "stabilizer": "sl3_C + sl2_L + u1_Y; full root and Cartan actions checked",
+    "stabilizer_dimension": 4
+  },
+  "source_hashes": {
+    "../tian-yau-wilson-line-gate/interactions.py": "6935331db1d9008382c92434ce54732879b602380375021306e482ffa8921f56",
+    "final_controls.py": "585a7079bc9b04270f271d942d1486913a2e1777c7170d2f64f110263d3dab5c",
+    "module-action.json": "f1f51a94dd5e54e438d2de3b9dc11c62a88f782cd26e11ac81e3cbddce5e6a7e",
+    "serre-tensor.json": "1c306fc44846b44650dad96e0eb8fa027a59eb56def4af3d4c576c9bb540a1cd"
+  }
+}

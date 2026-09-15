@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:/Python313/python.exe",
+    "-B",
+    "C:/Users/mikeb/e7-alpha-theory/gap-investigation/tian-yau-actual-survivor-coupling-gate/verify.py"
+  ],
+  "ended_utc": "2026-09-10T03:32:33.853451+00:00",
+  "exit_code": 0,
+  "log_sha256": "79c522b9981e2c3a6f7c8588ef9ef6241eb61492d61c2ad6842bf236743aa866",
+  "manifest_sha256": "bcf0c1550ff27c0611fedbc122d1e64a9ab93d9372735be30423f8d260038b91",
+  "manifest_unchanged": true,
+  "started_utc": "2026-09-10T03:26:10.287118+00:00"
+}
